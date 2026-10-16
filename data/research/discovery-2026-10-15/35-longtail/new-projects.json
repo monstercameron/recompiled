@@ -1,0 +1,430 @@
+{
+  "updated": "2026-10-15",
+  "scope": "Long-tail handheld, vintage-computer, multi-title runtime, and software-system projects, verified against maintainer repositories and deduplicated against the live SQLite catalog plus reviewed research batches.",
+  "projects": [
+    {
+      "id": "alis-silmarils-vm-reimplementation",
+      "title": "ALIS: Silmarils Virtual Machine Reimplementation",
+      "game": "Silmarils ALIS virtual-machine games (multi-title)",
+      "target_type": "Game",
+      "platform": "Multiple original Silmarils releases (PC, Atari ST, Amiga, Macintosh, and others) → Windows, macOS, and Linux; input-version support varies by title",
+      "kind": "Reimplementation",
+      "status": "In development; the maintainer's compatibility table marks multiple games playable for PC, Atari ST, and Amiga versions, while some other source versions are unknown or not working. The README lists Windows, macOS, and Ubuntu builds/tests; users supply original game data.",
+      "summary": "A reverse-engineered reimplementation of Silmarils' ALIS (Actor Language Integrated System) virtual machine. It interprets original game data and scripts with reconstructed VM opcodes and platform services; it is not a matching decompilation or a general-purpose system emulator.",
+      "project_url": "https://github.com/maestun/alis",
+      "updated": "2026-10-15",
+      "strategy": "Reverse-engineered virtual-machine reimplementation",
+      "language": "",
+      "source_available": "Public MIT-licensed source; original game data files must be supplied by the user",
+      "first_found": "2026-10-15",
+      "project_started": "",
+      "programming_language": "C",
+      "subtype": "Multi-title vintage game VM",
+      "sources": [
+        {
+          "label": "Maintainer README: VM architecture, host builds, and original-data requirement",
+          "url": "https://github.com/maestun/alis/blob/master/README.md"
+        },
+        {
+          "label": "Maintainer README: per-title and original-platform compatibility table",
+          "url": "https://github.com/maestun/alis/blob/master/README.md#more-info"
+        },
+        {
+          "label": "GitHub Languages API: predominant implementation language",
+          "url": "https://api.github.com/repos/maestun/alis/languages"
+        }
+      ]
+    },
+    {
+      "id": "azel-panzer-dragoon-saga-reimplementation",
+      "title": "Azel: Panzer Dragoon Saga Reverse-Engineered PC Runtime",
+      "game": "Panzer Dragoon Saga",
+      "target_type": "Game",
+      "platform": "Sega Saturn → Windows",
+      "kind": "Reimplementation",
+      "status": "Early native Windows reimplementation; the maintainer says the beginning of the game is semi-playable, with bugs, through the Arachnoth battle. The user must provide the contents of disc 1; no release package is listed.",
+      "summary": "A C++ reverse-engineered reconstruction of Panzer Dragoon Saga for Windows. The README describes an early playable portion rather than a matching Saturn decompilation; game data is read from the user's disc and is not part of the repository.",
+      "project_url": "https://github.com/yaz0r/Azel",
+      "updated": "2026-10-15",
+      "strategy": "Reverse-engineered native game reimplementation",
+      "language": "",
+      "source_available": "Public MIT-licensed C++ source; requires user-provided content from the first Saturn disc",
+      "first_found": "2026-10-15",
+      "project_started": "",
+      "programming_language": "C++",
+      "subtype": "Sega Saturn reverse engineering and Windows runtime",
+      "sources": [
+        {
+          "label": "Maintainer README: supported host, disc-data setup, and current playability boundary",
+          "url": "https://github.com/yaz0r/Azel/blob/master/README.md"
+        },
+        {
+          "label": "Maintainer repository: source, license, and project activity",
+          "url": "https://github.com/yaz0r/Azel"
+        },
+        {
+          "label": "GitHub Languages API: predominant implementation language",
+          "url": "https://api.github.com/repos/yaz0r/Azel/languages"
+        }
+      ]
+    },
+    {
+      "id": "captive-opencaptive-reimplementation",
+      "title": "OpenCaptive: Captive Reimplementation",
+      "game": "Captive (1990)",
+      "target_type": "Game",
+      "platform": "DOS game data (with Amiga and Atari ST data analysis) → Windows x64, Linux x86-64, macOS arm64, Android, and iOS",
+      "kind": "Reimplementation",
+      "status": "Actively developed; the maintainer lists release v1.1.126 and describes a playable DOS-based compatibility runtime with verified data, combat, audio, map generation, saves, and rendering. The currently verified navigation stops at the real Mission 0001 route-selection boundary; Amiga data is verified but not yet exposed as playable, and Atari ST support is analysis-only.",
+      "summary": "A C/SDL3 source-faithful reimplementation of Captive. It uses hash-verified, user-supplied original files and the maintainer compares behavior with the original DOSBox-X runtime; it does not bundle the commercial game data.",
+      "project_url": "https://github.com/yeager/OpenCaptive",
+      "updated": "2026-10-15",
+      "strategy": "Source-faithful reimplementation with a DOS compatibility runtime",
+      "language": "English, Swedish, German, French, Spanish, Italian, and 13 additional languages",
+      "source_available": "Public MIT-licensed C source and releases; user supplies the original game data",
+      "first_found": "2026-10-15",
+      "project_started": "",
+      "programming_language": "C",
+      "subtype": "Multi-platform classic PC game reimplementation",
+      "sources": [
+        {
+          "label": "Maintainer README: release, behavior, host packages, and current Captive status",
+          "url": "https://github.com/yeager/OpenCaptive/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer README: original data formats and supported source versions",
+          "url": "https://github.com/yeager/OpenCaptive/blob/main/README.md#supported-game-data"
+        },
+        {
+          "label": "Maintainer releases",
+          "url": "https://github.com/yeager/OpenCaptive/releases"
+        },
+        {
+          "label": "GitHub Languages API: predominant implementation language",
+          "url": "https://api.github.com/repos/yeager/OpenCaptive/languages"
+        }
+      ]
+    },
+    {
+      "id": "liberation-captive-2-opencaptive-reimplementation",
+      "title": "OpenCaptive: Liberation: Captive 2 Reimplementation",
+      "game": "Liberation: Captive 2 (1993)",
+      "target_type": "Game",
+      "platform": "Amiga CD32 and Amiga OCS/AGA game data → Windows x64, Linux x86-64, macOS arm64, Android, and iOS",
+      "kind": "Reimplementation",
+      "status": "Actively developed and distributed in the shared OpenCaptive v1.1.126 release. CD32/Amiga data formats, presentation, and city-system slices are reported verified; the full campaign and original gameplay parity remain in progress.",
+      "summary": "The Liberation: Captive 2 branch of the C/SDL3 OpenCaptive reimplementation. Its shared runtime includes reconstructed city generation, dialogue, shops, and other systems, but the maintainer explicitly does not claim a complete playable campaign or parity yet. Original data is user-supplied.",
+      "project_url": "https://github.com/yeager/OpenCaptive",
+      "updated": "2026-10-15",
+      "strategy": "Source-faithful reimplementation with reconstructed game systems",
+      "language": "English, Swedish, German, French, Spanish, Italian, and 13 additional languages",
+      "source_available": "Public MIT-licensed C source and shared releases; user supplies the original CD32/Amiga game data",
+      "first_found": "2026-10-15",
+      "project_started": "",
+      "programming_language": "C",
+      "subtype": "Multi-platform classic game reimplementation; shares codebase with Captive record",
+      "sources": [
+        {
+          "label": "Maintainer README: Liberation status and shared host packages",
+          "url": "https://github.com/yeager/OpenCaptive/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer README: verified Liberation data formats",
+          "url": "https://github.com/yeager/OpenCaptive/blob/main/README.md#supported-game-data"
+        },
+        {
+          "label": "Maintainer releases shared with Captive record",
+          "url": "https://github.com/yeager/OpenCaptive/releases"
+        },
+        {
+          "label": "GitHub Languages API: predominant implementation language",
+          "url": "https://api.github.com/repos/yeager/OpenCaptive/languages"
+        }
+      ]
+    },
+    {
+      "id": "celeste-classic-ccleste-source-port",
+      "title": "Celeste Classic C Source Port (ccleste)",
+      "game": "Celeste Classic (PICO-8)",
+      "target_type": "Game",
+      "platform": "PICO-8 → Windows/Linux/macOS PC, Nintendo 3DS homebrew, and an experimental WebAssembly build",
+      "kind": "Reimplementation",
+      "status": "The archived repository documents working PC and 3DS builds, releases, and an experimental web port. The repository was archived by its owner on 2023-11-07; no later upstream maintenance is implied.",
+      "summary": "A portable C source port of Celeste Classic whose gameplay code was manually translated from the original PICO-8 Lua. The SDL frontend supports desktop hosts; a separate Makefile builds a Nintendo 3DS homebrew package. This is a source reimplementation, not a machine-code recompilation.",
+      "project_url": "https://github.com/lemon32767/ccleste",
+      "updated": "2026-10-15",
+      "strategy": "Manual Lua-to-C gameplay reimplementation with platform frontends",
+      "language": "",
+      "source_available": "Public source and releases; upstream repository is archived",
+      "first_found": "2026-10-15",
+      "project_started": "",
+      "programming_language": "C",
+      "subtype": "PICO-8 game source port to PC and Nintendo 3DS",
+      "sources": [
+        {
+          "label": "Maintainer README: original source, PC/3DS builds, web status, and controls",
+          "url": "https://github.com/lemon32767/ccleste/blob/master/README.md"
+        },
+        {
+          "label": "GitHub repository: archived state, project topics, and source tree",
+          "url": "https://github.com/lemon32767/ccleste"
+        },
+        {
+          "label": "Maintainer releases",
+          "url": "https://github.com/lemon32767/ccleste/releases"
+        },
+        {
+          "label": "GitHub Languages API: predominant implementation language",
+          "url": "https://api.github.com/repos/lemon32767/ccleste/languages"
+        }
+      ]
+    },
+    {
+      "id": "ngagerecomp-static-recompiler-framework",
+      "title": "NGageRecomp: Nokia N-Gage Static Recompiler Framework",
+      "game": "NGageRecomp static-recompilation toolchain for N-Gage software",
+      "target_type": "Software",
+      "platform": "Nokia N-Gage / Symbian OS 6.1 ARMv4 E32Image → native Windows, Linux, and macOS; other handheld hosts are stated targets, not verified compatibility claims",
+      "kind": "Recompilation",
+      "status": "Experimental framework; its README reports a SonicN render-loop proof that currently produces a blank/loading frame, while the separate Snakes target lifts all engine functions and reaches application initialization but not menu/gameplay. No release package is listed.",
+      "summary": "A static ARMv4-to-C recompiler plus a native Symbian HLE runtime for N-Gage applications. It is a multi-title development framework; game-specific targets live in separate repositories. The maintainer identifies IDA Pro 9.1 as the current analysis front-end and Ghidra 12 as a fallback/cross-check.",
+      "project_url": "https://github.com/sp00nznet/ngagerecomp",
+      "updated": "2026-10-15",
+      "strategy": "Static ARMv4-to-C recompilation with a native Symbian HLE runtime",
+      "language": "",
+      "source_available": "Public MIT-licensed source; the primary documented IDA Pro front-end is proprietary, with Ghidra noted as an alternative; users provide their own N-Gage software",
+      "first_found": "2026-10-15",
+      "project_started": "",
+      "programming_language": "C",
+      "subtype": "Multi-title static recompiler framework",
+      "sources": [
+        {
+          "label": "Maintainer README: architecture, host targets, toolchain, and project maturity",
+          "url": "https://github.com/sp00nznet/ngagerecomp/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer architecture notes: ARMv4 lifter and runtime design",
+          "url": "https://github.com/sp00nznet/ngagerecomp/blob/main/docs/ARCHITECTURE.md"
+        },
+        {
+          "label": "SonicN target status (blank/loading render-loop boundary)",
+          "url": "https://github.com/sp00nznet/sonicn-ngage/blob/main/README.md"
+        },
+        {
+          "label": "Snakes target status (full lift but no menu/gameplay yet)",
+          "url": "https://github.com/sp00nznet/snakes-ngage/blob/main/README.md"
+        },
+        {
+          "label": "GitHub Languages API: predominant implementation language",
+          "url": "https://api.github.com/repos/sp00nznet/ngagerecomp/languages"
+        }
+      ]
+    },
+    {
+      "id": "sonicn-ngage-static-recomp",
+      "title": "SonicN Nokia N-Gage Static Recompilation",
+      "game": "SonicN",
+      "target_type": "Game",
+      "platform": "Nokia N-Gage (Symbian OS 6.1 / Series 60 v1) → native Windows/Linux/macOS targets provided by NGageRecomp; per-title host compatibility is not yet verified",
+      "kind": "Recompilation",
+      "status": "Early bring-up; the game-specific checklist is still working toward its first frame and a playable build. The shared framework documents a render-loop proof with blank/loading output, so functional game rendering is not yet established.",
+      "summary": "A game-specific static recompilation of SonicN's ARMv4 Symbian executable, built on the separate NGageRecomp framework. The repository contains configuration, analysis, and progress evidence rather than distributed game code or assets; users supply their own N-Gage dump.",
+      "project_url": "https://github.com/sp00nznet/sonicn-ngage",
+      "updated": "2026-10-15",
+      "strategy": "Static ARMv4 recompilation to native code with Symbian HLE",
+      "language": "",
+      "source_available": "Public MIT-licensed project source; requires a user-owned SonicN executable and companion data files, which are gitignored",
+      "first_found": "2026-10-15",
+      "project_started": "",
+      "programming_language": "",
+      "subtype": "Nokia N-Gage game-specific recompilation; built on NGageRecomp",
+      "sources": [
+        {
+          "label": "Maintainer README: target binary, method, and early bring-up checklist",
+          "url": "https://github.com/sp00nznet/sonicn-ngage/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer progress log",
+          "url": "https://github.com/sp00nznet/sonicn-ngage/blob/main/PROGRESS.md"
+        },
+        {
+          "label": "Shared NGageRecomp framework and host-target architecture",
+          "url": "https://github.com/sp00nznet/ngagerecomp/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "snakes-ngage-static-recomp",
+      "title": "Snakes Nokia N-Gage Static Recompilation",
+      "game": "Snakes (Nokia N-Gage, 2003)",
+      "target_type": "Game",
+      "platform": "Nokia N-Gage (Symbian OS / Series 60 ARMv4) → native Windows/Linux/macOS targets provided by NGageRecomp; per-title host compatibility is not yet verified",
+      "kind": "Recompilation",
+      "status": "Experimental bring-up; the repository reports 2,028 engine functions lifted (100%, no stubs) and a clean compile, with application initialization still being advanced. Menu/gameplay and a first rendered frame are not yet reported.",
+      "summary": "A game-specific static recompilation of N-Gage Snakes, used to test whether the shared ARMv4 lifter and Symbian HLE work beyond SonicN. Its larger multi-binary executable reaches app initialization; the user must supply original game files, which are not distributed.",
+      "project_url": "https://github.com/sp00nznet/snakes-ngage",
+      "updated": "2026-10-15",
+      "strategy": "Static ARMv4 recompilation to native code with Symbian HLE",
+      "language": "",
+      "source_available": "Public MIT-licensed project source; requires the user's own N-Gage game dump, which is gitignored",
+      "first_found": "2026-10-15",
+      "project_started": "",
+      "programming_language": "",
+      "subtype": "Nokia N-Gage game-specific recompilation; framework-generalization target",
+      "sources": [
+        {
+          "label": "Maintainer README: game binary, framework relationship, and current status",
+          "url": "https://github.com/sp00nznet/snakes-ngage/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer progress log",
+          "url": "https://github.com/sp00nznet/snakes-ngage/blob/main/PROGRESS.md"
+        },
+        {
+          "label": "Shared NGageRecomp framework and host-target architecture",
+          "url": "https://github.com/sp00nznet/ngagerecomp/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "openclaw-captain-claw-reimplementation",
+      "title": "OpenClaw: Captain Claw Reimplementation",
+      "game": "Captain Claw (1997)",
+      "target_type": "Game",
+      "platform": "Windows PC → Windows, Linux, macOS, Android, and browser via Emscripten/WebAssembly",
+      "kind": "Reimplementation",
+      "status": "The README documents a playable Emscripten build and says the game runs on Android, although Android deployment instructions were incomplete. The repository is not marked archived, but its last push was 2022-10-24; current maintenance and compatibility beyond the documented builds are unverified.",
+      "summary": "A from-scratch C++ reimplementation of Captain Claw using SDL2 and Box2D. The executable uses the original game's CLAW.REZ data archive, which users provide; the repository documents desktop, Android, and WebAssembly builds and notes browser audio limitations.",
+      "project_url": "https://github.com/pjasicek/OpenClaw",
+      "updated": "2026-10-15",
+      "strategy": "From-scratch native game reimplementation with original data files",
+      "language": "",
+      "source_available": "Public GPL-3.0 source; requires the user's original CLAW.REZ game archive",
+      "first_found": "2026-10-15",
+      "project_started": "",
+      "programming_language": "C++",
+      "subtype": "Multiplatform PC game reimplementation and WebAssembly port",
+      "sources": [
+        {
+          "label": "Maintainer README: from-scratch implementation, platforms, and game-data requirement",
+          "url": "https://github.com/pjasicek/OpenClaw/blob/master/README.md"
+        },
+        {
+          "label": "GitHub repository: license, source, and activity state",
+          "url": "https://github.com/pjasicek/OpenClaw"
+        },
+        {
+          "label": "GitHub repository API: last push observed 2022-10-24",
+          "url": "https://api.github.com/repos/pjasicek/OpenClaw"
+        },
+        {
+          "label": "GitHub Languages API: predominant implementation language",
+          "url": "https://api.github.com/repos/pjasicek/OpenClaw/languages"
+        }
+      ]
+    },
+    {
+      "id": "rayman-3-readvanced",
+      "title": "Rayman 3 Readvanced",
+      "game": "Rayman 3 (Game Boy Advance and Nokia N-Gage versions)",
+      "target_type": "Game",
+      "platform": "Game Boy Advance and Nokia N-Gage → Windows x64 (macOS, Linux, and Android are planned, not current supported targets)",
+      "kind": "Reimplementation",
+      "status": "In development; the maintainer says there are no downloadable builds yet. Windows 7+ x64 is the only listed supported platform; GBA, N-Gage, and specified regional ROM/data variants can be supplied to the program. Future host platforms are explicitly described as planned.",
+      "summary": "A MonoGame/C# recreation of the GBA and N-Gage versions of Rayman 3, with original decompiled C behavior rewritten in C# rather than a byte-matching source reconstruction. It requires user-supplied game data, adds optional high-resolution and quality-of-life features, and currently has no released build.",
+      "project_url": "https://github.com/RayCarrot/Rayman3Readvanced",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-informed C# game reimplementation",
+      "language": "",
+      "source_available": "Public GPL-3.0 C# source; original GBA or N-Gage game data is required and not supplied",
+      "first_found": "2026-10-15",
+      "project_started": "",
+      "programming_language": "C#",
+      "subtype": "GBA and N-Gage recreation for modern PC",
+      "sources": [
+        {
+          "label": "Maintainer README: method, maturity, current host, supported game data, and enhancements",
+          "url": "https://github.com/RayCarrot/Rayman3Readvanced/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer engine notes: code reconstruction from GBA and N-Gage versions",
+          "url": "https://github.com/RayCarrot/Rayman3Readvanced/blob/main/docs/engine_documentation.md"
+        },
+        {
+          "label": "GitHub Languages API: predominant implementation language",
+          "url": "https://api.github.com/repos/RayCarrot/Rayman3Readvanced/languages"
+        }
+      ]
+    },
+    {
+      "id": "sonic-advance-3-matching-decomp",
+      "title": "Sonic Advance 3 Matching Decompilation",
+      "game": "Sonic Advance 3",
+      "target_type": "Game",
+      "platform": "Game Boy Advance (European release with English, Japanese, French, German, Spanish, and Italian) → rebuild of the matching GBA ROM",
+      "kind": "Decompilation",
+      "status": "Work-in-progress matching decompilation; the maintainer states that it builds the European ROM identified by SHA-1 685af3a2dc0f1b3f8922e73ec42c1dc92e210e39. A matching user ROM is required; the README says no game data is included. The maintainers explicitly prohibit LLM-generated issues and pull requests.",
+      "summary": "A C/assembly reconstruction of Sonic Advance 3 for Game Boy Advance that aims to reproduce the supported European binary. This is a distinct title-specific project in the Sonic Advance Trilogy Research organization, separate from the Sonic Advance 1/2 repository; the source repo does not distribute the ROM.",
+      "project_url": "https://github.com/SAT-R/sa3",
+      "updated": "2026-10-15",
+      "strategy": "Matching decompilation",
+      "language": "English, Japanese, French, German, Spanish, Italian",
+      "source_available": "Public source; users must supply the matching European Sonic Advance 3 ROM",
+      "first_found": "2026-10-15",
+      "project_started": "",
+      "programming_language": "C",
+      "subtype": "Game Boy Advance matching decompilation",
+      "sources": [
+        {
+          "label": "Maintainer README: matching method, supported ROM hash/region, and contributor policy",
+          "url": "https://github.com/SAT-R/sa3/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer repository: source tree and project activity",
+          "url": "https://github.com/SAT-R/sa3"
+        },
+        {
+          "label": "GitHub Languages API: predominant implementation language",
+          "url": "https://api.github.com/repos/SAT-R/sa3/languages"
+        }
+      ]
+    },
+    {
+      "id": "system-7-modern-x86-reimplementation",
+      "title": "System 7 Portable Reimplementation",
+      "game": "Apple Macintosh System 7 operating system",
+      "target_type": "Software",
+      "platform": "68K-era Macintosh System 7 behavior → x86 BIOS/UEFI (QEMU and one tested UEFI ThinkPad); ARM/ARM64 QEMU targets are partial and PowerPC is experimental",
+      "kind": "Reimplementation",
+      "status": "Active educational proof of concept. The README reports a responsive desktop under QEMU and on one physical UEFI ThinkPad; ARM64 reaches the event loop in QEMU, while PowerPC remains experimental. Small test 68K programs run, but real Apple applications and broad hardware compatibility are unverified.",
+      "summary": "A clean-room reimplementation of the Macintosh System 7 operating environment for modern x86 hardware, booting through GRUB2/Multiboot2. It implements a System 7-style desktop, file/resource managers, and a 68000 interpreter with Toolbox traps for test applications; it does not include Apple source code.",
+      "project_url": "https://github.com/Kelsidavis/System7",
+      "updated": "2026-10-15",
+      "strategy": "Clean-room operating-system reimplementation informed by reverse engineering",
+      "language": "English by default; 38 locale resource sets are documented, with other locales selectable at build/boot",
+      "source_available": "Public MIT-licensed source; the README states that no Apple source code is used",
+      "first_found": "2026-10-15",
+      "project_started": "",
+      "programming_language": "C",
+      "subtype": "Vintage operating-system reimplementation and 68K application runtime",
+      "sources": [
+        {
+          "label": "Maintainer README: reimplementation method, boot support, app-interpreter limits, and status",
+          "url": "https://github.com/Kelsidavis/System7/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer README: build targets and locale configuration",
+          "url": "https://github.com/Kelsidavis/System7/blob/main/README.md#building"
+        },
+        {
+          "label": "Maintainer platform-port status",
+          "url": "https://github.com/Kelsidavis/System7/blob/main/docs/future/PORTING_PLAN.md"
+        },
+        {
+          "label": "GitHub Languages API: predominant implementation language",
+          "url": "https://api.github.com/repos/Kelsidavis/System7/languages"
+        }
+      ]
+    }
+  ]
+}
