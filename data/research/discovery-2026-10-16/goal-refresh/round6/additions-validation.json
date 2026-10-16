@@ -1,0 +1,29 @@
+{
+  "validation": "PASS",
+  "method": "Called scripts/catalog.py import_file and import_programming_languages against a temporary byte-for-byte copy of the current data/catalog.sqlite.",
+  "baseline_database_sha256": "9c39382f37d941abeba1cbb8498251c0ae24cd51473190cdc33bddedfaac9a37",
+  "live_database_sha256_after": "9c39382f37d941abeba1cbb8498251c0ae24cd51473190cdc33bddedfaac9a37",
+  "before": {
+    "projects": 2298,
+    "sources": 6968,
+    "language_evidence": 2298
+  },
+  "after": {
+    "projects": 2625,
+    "sources": 8861,
+    "language_evidence": 2625,
+    "integrity_check": [
+      [
+        "ok"
+      ]
+    ],
+    "foreign_key_check": [],
+    "imported_ids": 327,
+    "language_records_present": 327,
+    "wrong_project_shapes": 0
+  },
+  "project_rows_added": 327,
+  "language_evidence_rows_added": 327,
+  "manifest_source_rows_expected_and_added": 1893,
+  "temporary_copy_removed_after_check": true
+}

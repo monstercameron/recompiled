@@ -1,0 +1,871 @@
+{
+  "verified_at": "2026-10-16",
+  "projects": [
+    {
+      "id": "another-centurys-episode-3-ps2-en",
+      "title": "Another Century's Episode 3: The Final English Translation",
+      "game": "Another Century's Episode 3: The Final",
+      "target_type": "Game",
+      "platform": "PlayStation 2",
+      "kind": "Fan Localization",
+      "status": "Public v0.9.20 xdelta release dated 2026-10-04. Further proofreading and full in-game playtesting are needed; staff-name and lyric readings remain provisional, some image-based labels are outside confirmed coverage, and an unconfirmed Chapter 1 loading hang was reported on ARMSX2. The current release supports the English-prologue edition and exact Japanese disc image; older save states may show stale text.",
+      "summary": "English fan translation of the Japanese PS2 game, including menus, supported story and mission text, movie subtitles, lyrics, credits and UI fixes. The release provides xdelta patches for the Japanese disc and a supported prior English-prologue image; no game image is included. Translation text, glossary and tools are public in the repository. The maintainer describes the text as machine-translated and then reviewed and edited.",
+      "project_url": "https://github.com/retro-trans/ACE-3",
+      "updated": "2026-10-16",
+      "strategy": "Fan translation and binary xdelta patch",
+      "language": "English",
+      "source_available": "Public xdelta assets and public translation text, glossary and tools in the repository; no game image. Repository licence applies to project materials, not game data.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "English fan translation patch",
+      "sources": [
+        {
+          "label": "Maintainer repository and translation source",
+          "url": "https://github.com/retro-trans/ACE-3"
+        },
+        {
+          "label": "v0.9.20 release, patch formats, supported source images, scope and status",
+          "url": "https://github.com/retro-trans/ACE-3/releases"
+        }
+      ],
+      "language_pair": "Japanese → English",
+      "patch_release": {
+        "version": "0.9.20",
+        "date": "2026-10-04",
+        "download": "https://github.com/retro-trans/ACE-3"
+      },
+      "patch_format": "xdelta; maintainer GitHub release",
+      "release_source": "Maintainer GitHub Releases",
+      "verified_at": "2026-10-16",
+      "language_evidence": [
+        {
+          "field": "source and target language",
+          "value": "Japanese → English",
+          "url": "https://github.com/retro-trans/ACE-3",
+          "evidence": "Project page or maintainer release identifies the source and target language for this patch."
+        }
+      ]
+    },
+    {
+      "id": "mr-driller-drill-land-gc-en",
+      "title": "Mr. Driller: Drill Land English Translation",
+      "game": "Mr. Driller: Drill Land",
+      "target_type": "Game",
+      "platform": "Nintendo GameCube",
+      "kind": "Fan Localization",
+      "status": "Public r13 / v1.0.0 xdelta release dated 2026-08-19. The release is presented as complete. The project repository also has source and build material; the documented manual build path is Windows-specific, so the released patch is the practical installation route.",
+      "summary": "Japanese-to-English translation patch for the GameCube game. The release is an xdelta patch for the exact Japanese disc image (SHA-1 F737E98E40CC94E1D3AD38DF76746A8CEFAFA429). The repository includes translation and build material. No project licence was surfaced, so reuse terms for the translation are unclear.",
+      "project_url": "https://github.com/DOL-Translations/drill-land",
+      "updated": "2026-10-16",
+      "strategy": "Fan translation and binary xdelta patch",
+      "language": "English",
+      "source_available": "Public GitHub source/build repository and xdelta release; no game image. No explicit project licence was located.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "English fan translation patch",
+      "sources": [
+        {
+          "label": "Maintainer source repository",
+          "url": "https://github.com/DOL-Translations/drill-land"
+        },
+        {
+          "label": "Release history and r13 / v1.0.0 patch",
+          "url": "https://github.com/DOL-Translations/drill-land/releases"
+        }
+      ],
+      "language_pair": "Japanese → English",
+      "patch_release": {
+        "version": "r13 / v1.0.0",
+        "date": "2026-08-19",
+        "download": "https://github.com/DOL-Translations/drill-land"
+      },
+      "patch_format": "xdelta; maintainer GitHub release",
+      "release_source": "Maintainer GitHub Releases",
+      "verified_at": "2026-10-16",
+      "language_evidence": [
+        {
+          "field": "source and target language",
+          "value": "Japanese → English",
+          "url": "https://github.com/DOL-Translations/drill-land",
+          "evidence": "Project page or maintainer release identifies the source and target language for this patch."
+        }
+      ]
+    },
+    {
+      "id": "jet-impulse-nds-en",
+      "title": "Jet Impulse English Translation",
+      "game": "Jet Impulse",
+      "target_type": "Game",
+      "platform": "Nintendo DS",
+      "kind": "Fan Localization",
+      "status": "Public v1.3 xdelta release dated 2026-01-18. The release notes describe text, font, punctuation and spacing corrections; some graphic labels may remain Japanese.",
+      "summary": "Japanese-to-English fan translation patch for the Nintendo DS game. A public xdelta release and project repository are available. The release identifies the source ROM by SHA-256 3f1612c82fb60ccb4908ff03554d6d95c816b03c13d309246d22ee89034d9e57.",
+      "project_url": "https://github.com/Megalith9/Jet-Impulse-Translation-Project",
+      "updated": "2026-10-16",
+      "strategy": "Fan translation and binary xdelta patch",
+      "language": "English",
+      "source_available": "Public GitHub repository and xdelta release; original game data is not included. No explicit licence was confirmed.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "English fan translation patch",
+      "sources": [
+        {
+          "label": "Maintainer repository and release notes",
+          "url": "https://github.com/Megalith9/Jet-Impulse-Translation-Project"
+        },
+        {
+          "label": "v1.3 release history and patch assets",
+          "url": "https://github.com/Megalith9/Jet-Impulse-Translation-Project/releases"
+        }
+      ],
+      "language_pair": "Japanese → English",
+      "patch_release": {
+        "version": "1.3",
+        "date": "2026-01-18",
+        "download": "https://github.com/Megalith9/Jet-Impulse-Translation-Project"
+      },
+      "patch_format": "xdelta; maintainer GitHub release",
+      "release_source": "Maintainer GitHub Releases",
+      "verified_at": "2026-10-16",
+      "language_evidence": [
+        {
+          "field": "source and target language",
+          "value": "Japanese → English",
+          "url": "https://github.com/Megalith9/Jet-Impulse-Translation-Project",
+          "evidence": "Project page or maintainer release identifies the source and target language for this patch."
+        }
+      ]
+    },
+    {
+      "id": "bakudan-poi-poi-ps2-en",
+      "title": "Simple 2000 Series Ultimate Vol. 17: Taisen! Bakudan Poi Poi English Translation",
+      "game": "Simple 2000 Series Ultimate Vol. 17: Taisen! Bakudan Poi Poi",
+      "target_type": "Game",
+      "platform": "PlayStation 2",
+      "kind": "Fan Localization",
+      "status": "RomHackPlaza lists a complete v1.0 translation dated 2026-05-16. The maintainer repository describes an xdelta patch and provides translation/source material, but no downloadable patch asset or GitHub release was found during this review; direct patch availability remains unverified.",
+      "summary": "Japanese-to-English PS2 translation project covering game text, menus and UI. The public repository identifies the expected Japanese disc by MD5 8f300ca07eebdc9dc3b4e0be2c2eb503 and documents xdelta use. A patch file was not found on the current catalog listing or in the repository release area, so this is a source-backed project rather than a confirmed ready-to-apply download.",
+      "project_url": "https://github.com/ScatterdBrain/Simple-2000-Series-Ultimate-Vol.-17-Taisen-Bakudan-Poi-Poi-English-Translation-Patch",
+      "updated": "2026-10-16",
+      "strategy": "Fan translation project with documented xdelta patch workflow",
+      "language": "English",
+      "source_available": "Public translation/source repository; README documents xdelta but a downloadable patch asset was not located. No game image. Licence scope is not stated.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "English fan translation source project",
+      "sources": [
+        {
+          "label": "Maintainer source repository and patch instructions",
+          "url": "https://github.com/ScatterdBrain/Simple-2000-Series-Ultimate-Vol.-17-Taisen-Bakudan-Poi-Poi-English-Translation-Patch"
+        },
+        {
+          "label": "RomHackPlaza project page and listed status/date",
+          "url": "https://romhackplaza.org/translations/simple-2000-series-ultimate-vol-17-taisen-bakudan-poi-poi-english-translation-playstation-2/"
+        }
+      ],
+      "language_pair": "Japanese → English",
+      "patch_release": {
+        "version": "1.0",
+        "date": "2026-05-16",
+        "download": "https://github.com/ScatterdBrain/Simple-2000-Series-Ultimate-Vol.-17-Taisen-Bakudan-Poi-Poi-English-Translation-Patch"
+      },
+      "patch_format": "xdelta is documented; patch file was not located in the repository or listing",
+      "release_source": "Maintainer GitHub repository; RomHackPlaza listing",
+      "verified_at": "2026-10-16",
+      "language_evidence": [
+        {
+          "field": "source and target language",
+          "value": "Japanese → English",
+          "url": "https://github.com/ScatterdBrain/Simple-2000-Series-Ultimate-Vol.-17-Taisen-Bakudan-Poi-Poi-English-Translation-Patch",
+          "evidence": "Project page or maintainer release identifies the source and target language for this patch."
+        }
+      ]
+    },
+    {
+      "id": "maniac-mansion-famicom-multilingual",
+      "title": "Maniac Mansion (Jaleco Famicom Version) Multilingual Translation Patches",
+      "game": "Maniac Mansion (Jaleco Famicom adaptation)",
+      "target_type": "Game",
+      "platform": "Famicom / NES",
+      "kind": "Fan Localization",
+      "status": "PatchClan currently lists English v1.1 build 9 and Portuguese and Spanish v1.0 build 1. The site lists English patch asset date 2026-09-28 and Portuguese/Spanish asset dates 2026-10-03; these are file dates rather than a single project release date. English is also listed as complete by RomHackPlaza.",
+      "summary": "Three IPS patches translate the distinct Jaleco Japanese Famicom adaptation of Maniac Mansion into English, Portuguese and Spanish. The project also reports text/UI fixes and expanded save support. It targets the Japanese Famicom ROM (MD5 5835600abb0a8de98d905da545350160), not the North American NES release. Public patch files are available; no translation source repository or licence was found.",
+      "project_url": "https://www.patchclan.com/#/jogo/maniac-mansion",
+      "updated": "2026-10-16",
+      "strategy": "Fan translation patches (IPS)",
+      "language": "English; Portuguese; Spanish",
+      "source_available": "Public IPS patch files from PatchClan; no game ROM, source repository or translation licence identified.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "Multilingual fan translation patch set",
+      "sources": [
+        {
+          "label": "PatchClan project page, versions and patch files",
+          "url": "https://www.patchclan.com/#/jogo/maniac-mansion"
+        },
+        {
+          "label": "Direct English IPS patch asset",
+          "url": "https://www.patchclan.com/patches/maniac-mansion-en.ips"
+        },
+        {
+          "label": "Direct Portuguese IPS patch asset",
+          "url": "https://www.patchclan.com/patches/maniac-mansion-pt.ips"
+        },
+        {
+          "label": "Direct Spanish IPS patch asset",
+          "url": "https://www.patchclan.com/patches/maniac-mansion-es.ips"
+        },
+        {
+          "label": "RomHackPlaza English translation listing",
+          "url": "https://romhackplaza.org/index.php/translations/maniac-mansion-famicon-japan-english-translation-nintendo-entertainment-system"
+        }
+      ],
+      "language_pair": "Japanese → English, Portuguese and Spanish",
+      "patch_release": {
+        "version": "EN 1.1 build 9; PT/ES 1.0 build 1",
+        "date": null,
+        "download": "https://www.patchclan.com/#/jogo/maniac-mansion",
+        "asset_dates": {
+          "English": "2026-09-28",
+          "Portuguese": "2026-10-03",
+          "Spanish": "2026-10-03"
+        }
+      },
+      "patch_format": "IPS patches hosted on PatchClan; asset dates EN 2026-09-28 and PT/ES 2026-10-03",
+      "release_source": "PatchClan project page and IPS assets; RomHackPlaza listing",
+      "verified_at": "2026-10-16",
+      "language_evidence": [
+        {
+          "field": "source and target language",
+          "value": "Japanese → English, Portuguese and Spanish",
+          "url": "https://www.patchclan.com/#/jogo/maniac-mansion",
+          "evidence": "Project page or maintainer release identifies the source and target language for this patch."
+        }
+      ]
+    },
+    {
+      "id": "my-merry-may-ps2-en",
+      "title": "My Merry May English Patch",
+      "game": "My Merry May",
+      "target_type": "Game",
+      "platform": "PlayStation 2",
+      "kind": "Fan Localization",
+      "status": "Public v1 patch listed by RomHackPlaza on 2026-10-02; the project remains in progress and is not end-to-end tested. The author reports untranslated credits and lyrics, unresolved phrasing and use of AI translation with limited Japanese knowledge.",
+      "summary": "Japanese-to-English PS2 patch for the story and menus. The repository provides a BPS patch for the disc identified by SHA-1 2f3864821f2a88f86bb5e004f383d63add82bde2. The author reports testing in PCSX2; the original game is not included. No explicit project licence was located.",
+      "project_url": "https://github.com/pwnkyderedere/mmm-english-patch",
+      "updated": "2026-10-16",
+      "strategy": "Fan translation and binary BPS patch",
+      "language": "English",
+      "source_available": "Public GitHub repository with BPS patch and project material; no game image. No explicit licence was located.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "Incomplete English fan translation patch",
+      "sources": [
+        {
+          "label": "Maintainer repository, patch and target checksum",
+          "url": "https://github.com/pwnkyderedere/mmm-english-patch"
+        },
+        {
+          "label": "RomHackPlaza listing, version, date and status",
+          "url": "https://romhackplaza.org/translations/my-merry-may-english-translation-playstation-2/"
+        }
+      ],
+      "language_pair": "Japanese → English",
+      "patch_release": {
+        "version": "1",
+        "date": "2026-10-02",
+        "download": "https://github.com/pwnkyderedere/mmm-english-patch"
+      },
+      "patch_format": "BPS patch in maintainer GitHub repository",
+      "release_source": "Maintainer GitHub repository; RomHackPlaza listing",
+      "verified_at": "2026-10-16",
+      "language_evidence": [
+        {
+          "field": "source and target language",
+          "value": "Japanese → English",
+          "url": "https://github.com/pwnkyderedere/mmm-english-patch",
+          "evidence": "Project page or maintainer release identifies the source and target language for this patch."
+        }
+      ]
+    },
+    {
+      "id": "shounen-ashibe-nes-en",
+      "title": "Shounen Ashibe: Nepal Daibouken no Maki English Translation",
+      "game": "Shounen Ashibe: Nepal Daibouken no Maki",
+      "target_type": "Game",
+      "platform": "Nintendo Entertainment System",
+      "kind": "Fan Localization",
+      "status": "Complete v1.01 patch listed by RomHackPlaza with release date 2026-07-06. The public patch/source directory contains patch files and instructions.",
+      "summary": "Japanese-to-English translation of the NES game, including game text and staff credits. The project identifies its Japanese source ROM by SHA-1 9822635820362e7d4d2f5e52659b65261a125491. Patch files are available in the maintainer's translation-patches repository; the repository displays GPL-3.0, but whether that licence applies to every patch component is not clearly scoped.",
+      "project_url": "https://github.com/BlackPaladin2022/Translation-Patches/tree/main/(NES)%20Li'l%20Ashibe%20and%20the%20Great%20Nepalese%20Adventure%20v1.01",
+      "updated": "2026-10-16",
+      "strategy": "Fan translation and binary patch",
+      "language": "English",
+      "source_available": "Public patch files and project material in a GPL-3.0 repository; licence coverage for patch assets versus source material is not explicitly separated. No ROM included.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "English fan translation patch",
+      "sources": [
+        {
+          "label": "Maintainer patch directory and repository licence",
+          "url": "https://github.com/BlackPaladin2022/Translation-Patches/tree/main/(NES)%20Li'l%20Ashibe%20and%20the%20Great%20Nepalese%20Adventure%20v1.01"
+        },
+        {
+          "label": "RomHackPlaza version, status, date and translation scope",
+          "url": "https://www.romhackplaza.org/translations/shounen-ashibe-nepal-daibouken-no-maki-english-translation-nintendo-entertainment-system"
+        }
+      ],
+      "language_pair": "Japanese → English",
+      "patch_release": {
+        "version": "1.01",
+        "date": "2026-07-06",
+        "download": "https://github.com/BlackPaladin2022/Translation-Patches/tree/main/(NES)%20Li'l%20Ashibe%20and%20the%20Great%20Nepalese%20Adventure%20v1.01"
+      },
+      "patch_format": "BPS and IPS patch files in maintainer GitHub repository",
+      "release_source": "Maintainer GitHub repository; RomHackPlaza listing",
+      "verified_at": "2026-10-16",
+      "language_evidence": [
+        {
+          "field": "source and target language",
+          "value": "Japanese → English",
+          "url": "https://github.com/BlackPaladin2022/Translation-Patches/tree/main/(NES)%20Li'l%20Ashibe%20and%20the%20Great%20Nepalese%20Adventure%20v1.01",
+          "evidence": "Project page or maintainer release identifies the source and target language for this patch."
+        }
+      ]
+    },
+    {
+      "id": "yu-no-pc98-en",
+      "title": "YU-NO PC-98 English Translation",
+      "game": "YU-NO: A Girl Who Chants Love at the Bound of this World",
+      "target_type": "Game",
+      "platform": "NEC PC-9801",
+      "kind": "Fan Localization",
+      "status": "Public v2.0 patch remains the maintainer's current labelled release. The maintainer page dates the original release to December 2021; a GBAtemp download entry was updated 2026-09-28, which is not itself a confirmed patch release date. The latest material includes revision/fix notes, including a missing-animation fix.",
+      "summary": "Japanese-to-English patch for the PC-98 version of YU-NO. Public patch downloads and the maintainer's translation notes are available. The script is substantially based on the Windows/Saturn translation by TLWiki with PC-98-specific revisions. The title contains adult content; no source-code licence was found.",
+      "project_url": "https://baba-jpc98.neocities.org/translations/yuno/yuno",
+      "updated": "2026-10-16",
+      "strategy": "Fan translation and binary patch",
+      "language": "English",
+      "source_available": "Public patch downloads and translation notes; no source-code repository or licence identified. Original game data not included.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "English fan translation patch",
+      "sources": [
+        {
+          "label": "Maintainer page, v2.0 status and translation notes",
+          "url": "https://baba-jpc98.neocities.org/translations/yuno/yuno"
+        },
+        {
+          "label": "GBAtemp patch download entry and its update timestamp",
+          "url": "https://gbatemp.net/download/yu-no-pc-98.39056/"
+        }
+      ],
+      "language_pair": "Japanese → English",
+      "patch_release": {
+        "version": "2.0",
+        "date": null,
+        "download": "https://baba-jpc98.neocities.org/translations/yuno/yuno",
+        "date_text": "Maintainer page says December 2021 for the original release (month only); GBAtemp entry updated 2026-09-28."
+      },
+      "patch_format": "Patch archive; standard patch format is not identified on maintainer page",
+      "release_source": "Maintainer page; GBAtemp and Internet Archive downloads",
+      "verified_at": "2026-10-16",
+      "language_evidence": [
+        {
+          "field": "source and target language",
+          "value": "Japanese → English",
+          "url": "https://baba-jpc98.neocities.org/translations/yuno/yuno",
+          "evidence": "Project page or maintainer release identifies the source and target language for this patch."
+        }
+      ]
+    },
+    {
+      "id": "mayura-ukagaka-en",
+      "title": "Mayura English Patch",
+      "game": "Mayura Final Edition (Ukagaka desktop ghost)",
+      "target_type": "Software",
+      "platform": "Windows desktop; runs in SSP / Ukagaka",
+      "kind": "Fan Localization",
+      "status": "Maintainer posted the English patch in September 2026; no version number or exact day is given. Installation uses a Windows command script/PowerShell patcher and requires SSP plus the original Mayura Final Edition. The translator notes limited Japanese ability and machine-translation use, so idioms and references may be inaccurate.",
+      "summary": "English localization patch for the Japanese Mayura Final Edition desktop ghost. It creates a separate English ghost and does not include the original application content. The maintainer says permission was obtained from the original creator. No public source repository or code licence was identified.",
+      "project_url": "https://julianranieri.com/mayura-en/",
+      "updated": "2026-10-16",
+      "strategy": "Desktop application localization patcher",
+      "language": "English",
+      "source_available": "Public Windows patch package and patch scripts; requires the original Mayura Final Edition and SSP. Maintainer states permission from the original creator; no code licence identified.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "PowerShell; Windows command script",
+      "subtype": "Desktop ghost localization",
+      "sources": [
+        {
+          "label": "Maintainer project and download page",
+          "url": "https://julianranieri.com/mayura-en/"
+        }
+      ],
+      "language_pair": "Japanese → English",
+      "patch_release": {
+        "version": null,
+        "date": null,
+        "download": "https://julianranieri.com/mayura-en/",
+        "date_text": "September 2026 (month only; no version number or exact day)."
+      },
+      "patch_format": "Windows command/PowerShell patcher from maintainer page",
+      "release_source": "Maintainer project/download page",
+      "verified_at": "2026-10-16",
+      "language_evidence": [
+        {
+          "field": "source and target language",
+          "value": "Japanese → English",
+          "url": "https://julianranieri.com/mayura-en/",
+          "evidence": "Project page or maintainer release identifies the source and target language for this patch."
+        }
+      ]
+    },
+    {
+      "id": "antigravity-2-jp-ui",
+      "title": "Google Antigravity Japanese UI Localization",
+      "game": "Google Antigravity",
+      "target_type": "Software",
+      "platform": "Windows and macOS",
+      "kind": "Fan Localization",
+      "status": "Public v1.0.1 release dated 2026-09-18 targets Antigravity 2.0. It modifies the local app.asar and can be rerun after an official app update. The maintainer reports testing on macOS and Windows 10; Windows 11 is untested.",
+      "summary": "Japanese UI localization package for Google Antigravity, translating the English interface. The public release includes a ZIP and source; Node.js/npm tooling applies the localization to a locally installed app.asar and supports restoration. It does not include the official application. The project repository is Apache-2.0 licensed.",
+      "project_url": "https://github.com/workkkkkkez00m/antigravity2.0-ja-jp",
+      "updated": "2026-10-16",
+      "strategy": "Application UI localization patcher",
+      "language": "Japanese",
+      "source_available": "Public source and release ZIP under Apache-2.0; requires a locally installed Antigravity application and patches local app.asar.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "JavaScript",
+      "subtype": "Desktop application UI localization",
+      "sources": [
+        {
+          "label": "Maintainer repository, target version and installation notes",
+          "url": "https://github.com/workkkkkkez00m/antigravity2.0-ja-jp"
+        },
+        {
+          "label": "v1.0.1 release and release date",
+          "url": "https://github.com/workkkkkkez00m/antigravity2.0-ja-jp/releases"
+        }
+      ],
+      "language_pair": "English → Japanese",
+      "patch_release": {
+        "version": "1.0.1",
+        "date": "2026-09-18",
+        "download": "https://github.com/workkkkkkez00m/antigravity2.0-ja-jp"
+      },
+      "patch_format": "ZIP package with Node.js/npm patcher for local app.asar",
+      "release_source": "Maintainer GitHub Releases",
+      "verified_at": "2026-10-16",
+      "language_evidence": [
+        {
+          "field": "source and target language",
+          "value": "English → Japanese",
+          "url": "https://github.com/workkkkkkez00m/antigravity2.0-ja-jp",
+          "evidence": "Project page or maintainer release identifies the source and target language for this patch."
+        },
+        {
+          "field": "repository code language",
+          "value": "JavaScript",
+          "url": "https://github.com/workkkkkkez00m/antigravity2.0-ja-jp",
+          "evidence": "GitHub repository language metadata lists JavaScript."
+        }
+      ]
+    },
+    {
+      "id": "dragnwash-multilingual-localization",
+      "title": "Drag'n Wash Localization Mod",
+      "game": "Drag'n Wash",
+      "target_type": "Game",
+      "platform": "PC (Steam / Windows; Steam Deck and Linux verified; macOS installer experimental in v1.6)",
+      "kind": "Fan Localization",
+      "status": "Latest public release v1.6.0 dated 2026-09-26. The mod lists 17 translated locales plus the game's original English. Translation completeness and proofreading vary by locale; some translations are provisional or machine-assisted. Requires BepInEx 5 and the mod framework.",
+      "summary": "Multilingual fan localization mod for the Steam game Drag'n Wash. The public source repository includes translation CSVs and a BepInEx mod/release installer under MIT. Japanese and Simplified Chinese have author supervision; Korean was proofread by a native speaker and Turkish was translated by a native speaker. Other locales are provisional. An installation issue with the Windows DirectX 12 options screen has a documented workaround; the macOS installer is experimental.",
+      "project_url": "https://github.com/TomXV/dragnwash-localization",
+      "updated": "2026-10-16",
+      "strategy": "BepInEx localization mod with source translation tables",
+      "language": "Japanese; Simplified Chinese; Traditional Chinese; German; French; Spanish; Brazilian Portuguese; Korean; Russian; Polish; Hebrew; Ukrainian; Thai; Vietnamese; Turkish; Esperanto; Toki Pona",
+      "source_available": "Public MIT-licensed source, translation CSVs, mod and installer releases; requires the Steam game, BepInEx 5 and mod framework.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C#",
+      "subtype": "Multilingual game localization mod",
+      "sources": [
+        {
+          "label": "Maintainer repository, locales, install requirements and licence",
+          "url": "https://github.com/TomXV/dragnwash-localization"
+        },
+        {
+          "label": "v1.6.0 release and release date",
+          "url": "https://github.com/TomXV/dragnwash-localization/releases"
+        }
+      ],
+      "language_pair": "English → Japanese, Simplified Chinese, Traditional Chinese, German, French, Spanish, Brazilian Portuguese, Korean, Russian, Polish, Hebrew, Ukrainian, Thai, Vietnamese, Turkish, Esperanto and Toki Pona",
+      "patch_release": {
+        "version": "1.6.0",
+        "date": "2026-09-26",
+        "download": "https://github.com/TomXV/dragnwash-localization"
+      },
+      "patch_format": "BepInEx 5 mod, translation CSVs and installer/release ZIP",
+      "release_source": "Maintainer GitHub Releases",
+      "verified_at": "2026-10-16",
+      "language_evidence": [
+        {
+          "field": "source and target language",
+          "value": "English → Japanese, Simplified Chinese, Traditional Chinese, German, French, Spanish, Brazilian Portuguese, Korean, Russian, Polish, Hebrew, Ukrainian, Thai, Vietnamese, Turkish, Esperanto and Toki Pona",
+          "url": "https://github.com/TomXV/dragnwash-localization",
+          "evidence": "Project page or maintainer release identifies the source and target language for this patch."
+        },
+        {
+          "field": "repository code language",
+          "value": "C#",
+          "url": "https://github.com/TomXV/dragnwash-localization",
+          "evidence": "GitHub repository language metadata lists C# as the largest source language."
+        }
+      ]
+    },
+    {
+      "id": "mobile-golf-gbc-en",
+      "title": "Mobile Golf English Translation",
+      "game": "Mobile Golf",
+      "target_type": "Game",
+      "platform": "Game Boy Color",
+      "kind": "Fan Localization",
+      "status": "Latest v1.3 patch released 2025-12-30. The maintainer offers an online patcher and an offline patch ZIP. It also restores access to progressive online-unlock content in the Japanese-region game.",
+      "summary": "Japanese-to-English Game Boy Color translation patch for Mobile Golf. The patch is applied in-browser or as an offline patch to the user's own Japanese ROM; it does not include game data. No translation-source repository or licence was surfaced.",
+      "project_url": "https://www.marcrobledo.com/game-boy/mobile-golf-english-translation/",
+      "updated": "2026-10-16",
+      "strategy": "Fan translation with online and offline patching",
+      "language": "English",
+      "source_available": "Public browser patcher and offline patch ZIP; no ROM, source repository or licence identified.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "English fan translation patch",
+      "sources": [
+        {
+          "label": "Maintainer page and online/offline patch links",
+          "url": "https://www.marcrobledo.com/game-boy/mobile-golf-english-translation/"
+        },
+        {
+          "label": "RomHackPlaza version and exact release date",
+          "url": "https://romhackplaza.org/index.php/translations/mobile-golf-english-translation-game-boy-color"
+        }
+      ],
+      "language_pair": "Japanese → English",
+      "patch_release": {
+        "version": "1.3",
+        "date": "2025-12-30",
+        "download": "https://www.marcrobledo.com/game-boy/mobile-golf-english-translation/"
+      },
+      "patch_format": "Online patcher and offline ZIP patch; internal format not stated",
+      "release_source": "Maintainer page; RomHackPlaza listing",
+      "verified_at": "2026-10-16",
+      "language_evidence": [
+        {
+          "field": "source and target language",
+          "value": "Japanese → English",
+          "url": "https://www.marcrobledo.com/game-boy/mobile-golf-english-translation/",
+          "evidence": "Project page or maintainer release identifies the source and target language for this patch."
+        }
+      ]
+    },
+    {
+      "id": "samurai-kid-gbc-en",
+      "title": "Samurai Kid English Translation",
+      "game": "Samurai Kid",
+      "target_type": "Game",
+      "platform": "Game Boy Color",
+      "kind": "Fan Localization",
+      "status": "Public v1.0 patch; the maintainer dates it to September 2021, without a precise day. An online patcher and offline patch ZIP are available.",
+      "summary": "Japanese-to-English Game Boy Color translation patch for Samurai Kid. The patcher requires the user's Japanese ROM and provides no game data. No source repository or licence was identified.",
+      "project_url": "https://www.marcrobledo.com/game-boy/samurai-kid-english-translation/",
+      "updated": "2026-10-16",
+      "strategy": "Fan translation with online and offline patching",
+      "language": "English",
+      "source_available": "Public browser patcher and offline patch ZIP; no ROM, source repository or licence identified.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "English fan translation patch",
+      "sources": [
+        {
+          "label": "Maintainer page, v1.0 and patch links",
+          "url": "https://www.marcrobledo.com/game-boy/samurai-kid-english-translation/"
+        }
+      ],
+      "language_pair": "Japanese → English",
+      "patch_release": {
+        "version": "1.0",
+        "date": null,
+        "download": "https://www.marcrobledo.com/game-boy/samurai-kid-english-translation/",
+        "date_text": "September 2021 (month only; maintainer page gives no exact day)."
+      },
+      "patch_format": "Online patcher and offline ZIP patch; internal format not stated",
+      "release_source": "Maintainer page",
+      "verified_at": "2026-10-16",
+      "language_evidence": [
+        {
+          "field": "source and target language",
+          "value": "Japanese → English",
+          "url": "https://www.marcrobledo.com/game-boy/samurai-kid-english-translation/",
+          "evidence": "Project page or maintainer release identifies the source and target language for this patch."
+        }
+      ]
+    },
+    {
+      "id": "super-robot-pinball-gbc-en",
+      "title": "Super Robot Pinball English Translation",
+      "game": "Super Robot Pinball",
+      "target_type": "Game",
+      "platform": "Game Boy Color",
+      "kind": "Fan Localization",
+      "status": "Public v1.0 patch released 2021-12-29. The maintainer provides an online patcher and offline ZIP patch. The specific internal patch format is not stated on the project page.",
+      "summary": "Japanese-to-English translation patch for the Game Boy Color game Super Robot Pinball. It requires the user's Japanese ROM and includes no game data. No source repository or licence was identified.",
+      "project_url": "https://www.marcrobledo.com/game-boy/super-robot-pinball-english-translation/",
+      "updated": "2026-10-16",
+      "strategy": "Fan translation with online and offline patching",
+      "language": "English",
+      "source_available": "Public browser patcher and offline patch ZIP; patch format, source repository and licence not identified; no ROM included.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "English fan translation patch",
+      "sources": [
+        {
+          "label": "Maintainer page and patch links",
+          "url": "https://www.marcrobledo.com/game-boy/super-robot-pinball-english-translation/"
+        },
+        {
+          "label": "RomHackPlaza version and exact release date",
+          "url": "https://romhackplaza.org/translations/super-robot-pinball-english-translation-game-boy-color/"
+        }
+      ],
+      "language_pair": "Japanese → English",
+      "patch_release": {
+        "version": "1.0",
+        "date": "2021-12-29",
+        "download": "https://www.marcrobledo.com/game-boy/super-robot-pinball-english-translation/"
+      },
+      "patch_format": "Online patcher and offline ZIP patch; internal format not stated",
+      "release_source": "Maintainer page; RomHackPlaza listing",
+      "verified_at": "2026-10-16",
+      "language_evidence": [
+        {
+          "field": "source and target language",
+          "value": "Japanese → English",
+          "url": "https://www.marcrobledo.com/game-boy/super-robot-pinball-english-translation/",
+          "evidence": "Project page or maintainer release identifies the source and target language for this patch."
+        }
+      ]
+    },
+    {
+      "id": "kof-battle-de-paradise-ngpc-en",
+      "title": "The King of Fighters: Battle de Paradise English Translation",
+      "game": "The King of Fighters: Battle de Paradise",
+      "target_type": "Game",
+      "platform": "Neo Geo Pocket Color",
+      "kind": "Fan Localization",
+      "status": "Public v1.0 patch released 2025-10-28. The maintainer provides an online patcher and offline ZIP patch. The project page's platform metadata conflicts with its description; the description and RomHackPlaza identify this as an NGPC-exclusive game. The translation is playable, with some culturally dense dialogue noted as needing improvement.",
+      "summary": "Japanese-to-English fan translation patch for the Neo Geo Pocket Color game. The patcher requires the user's original ROM and does not include game data. No source repository or licence was identified.",
+      "project_url": "https://www.marcrobledo.com/neo-geo-pocket/king-of-fighters-battle-de-paradise-english-translation/",
+      "updated": "2026-10-16",
+      "strategy": "Fan translation with online and offline patching",
+      "language": "English",
+      "source_available": "Public browser patcher and offline patch ZIP; no ROM, source repository or licence identified.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "English fan translation patch",
+      "sources": [
+        {
+          "label": "Maintainer page, patch links and platform description",
+          "url": "https://www.marcrobledo.com/neo-geo-pocket/king-of-fighters-battle-de-paradise-english-translation/"
+        },
+        {
+          "label": "RomHackPlaza version, NGPC platform and release date",
+          "url": "https://romhackplaza.org/translations/the-king-of-fighters-battle-de-paradise-english-translation-neo-geo-pocket-color/"
+        }
+      ],
+      "language_pair": "Japanese → English",
+      "patch_release": {
+        "version": "1.0",
+        "date": "2025-10-28",
+        "download": "https://www.marcrobledo.com/neo-geo-pocket/king-of-fighters-battle-de-paradise-english-translation/"
+      },
+      "patch_format": "Online patcher and offline ZIP patch; internal format not stated",
+      "release_source": "Maintainer page; RomHackPlaza listing",
+      "verified_at": "2026-10-16",
+      "language_evidence": [
+        {
+          "field": "source and target language",
+          "value": "Japanese → English",
+          "url": "https://www.marcrobledo.com/neo-geo-pocket/king-of-fighters-battle-de-paradise-english-translation/",
+          "evidence": "Project page or maintainer release identifies the source and target language for this patch."
+        }
+      ]
+    },
+    {
+      "id": "return-double-dragon-snes-es",
+      "title": "Return of Double Dragon / Super Double Dragon PLUS Castilian Translation",
+      "game": "Return of Double Dragon / Super Double Dragon",
+      "target_type": "Game",
+      "platform": "Super Nintendo Entertainment System",
+      "kind": "Fan Localization",
+      "status": "Complete v0.9 entry dated 2026-10-15 on RomHackPlaza. The patch uses Castilian Spanish. The maintainer's post describes a combined content restoration and localization project with an added intro, inter-level scenes and ending; it also offers a separate English build. The currently listed downloads are public, but the patch file format is not stated in the sources checked.",
+      "summary": "Castilian Spanish patch for the Super Nintendo releases Super Double Dragon and Return of Double Dragon, combined with a restoration hack that adds an intro, inter-level cutscenes and an ending. The project uses the Japanese and US ROM variants listed by RomHackPlaza. This is a mixed localization/content-restoration patch rather than a text-only translation. No code licence was found.",
+      "project_url": "https://romhackplaza.org/index.php/translations/super-double-dragon-return-of-the-double-dragon-plus-spanish-spanish-translation-super-nintendo",
+      "updated": "2026-10-16",
+      "strategy": "Castilian Spanish fan translation combined with a content-restoration ROM hack",
+      "language": "Spanish",
+      "source_available": "Public patch downloads on RomHackPlaza and a maintainer post; format and source-code licence are not stated. No game ROM included.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "Spanish fan translation and content-restoration patch",
+      "sources": [
+        {
+          "label": "RomHackPlaza version, language, source ROMs and download listing",
+          "url": "https://romhackplaza.org/index.php/translations/super-double-dragon-return-of-the-double-dragon-plus-spanish-spanish-translation-super-nintendo"
+        },
+        {
+          "label": "Maintainer blog post describing separate English and Castilian builds and restored scenes",
+          "url": "https://jackicblog.blogspot.com/2026/10/super-double-dragon-return-of-double.html"
+        }
+      ],
+      "language_pair": "English → Castilian Spanish",
+      "patch_release": {
+        "version": "0.9",
+        "date": "2026-10-15",
+        "download": "https://romhackplaza.org/index.php/translations/super-double-dragon-return-of-the-double-dragon-plus-spanish-spanish-translation-super-nintendo"
+      },
+      "patch_format": "RomHackPlaza patch downloads; format is not stated",
+      "release_source": "RomHackPlaza listing; maintainer blog",
+      "verified_at": "2026-10-16",
+      "language_evidence": [
+        {
+          "field": "source and target language",
+          "value": "English → Castilian Spanish",
+          "url": "https://romhackplaza.org/index.php/translations/super-double-dragon-return-of-the-double-dragon-plus-spanish-spanish-translation-super-nintendo",
+          "evidence": "Project page or maintainer release identifies the source and target language for this patch."
+        }
+      ]
+    },
+    {
+      "id": "super-street-fighter-ii-turbo-revival-gba-es",
+      "title": "Super Street Fighter II Turbo Revival Spanish Translation",
+      "game": "Super Street Fighter II Turbo Revival",
+      "target_type": "Game",
+      "platform": "Game Boy Advance",
+      "kind": "Fan Localization",
+      "status": "Complete v1.0 IPS patch released 2026-10-04 and listed by RomHackPlaza on 2026-10-12. The maintainer describes this translation series as low-effort; no independent proofreading evidence was found.",
+      "summary": "Spanish localization of the GBA game. The maintainer's GitHub directory contains a public IPS patch, text and graphics assets, extraction/insertion/build scripts and a readme. RomHackPlaza identifies the US ROM by SHA-1 00b0508e2774d0bbcb8f0994766cb362e62d7537. No explicit repository licence was located.",
+      "project_url": "https://github.com/sewave/translations/tree/master/gba/superstreetfighteriiturborevivalgba",
+      "updated": "2026-10-16",
+      "strategy": "Fan localization and binary IPS patch",
+      "language": "Spanish",
+      "source_available": "Public IPS patch, translation assets and build scripts in a GitHub repository; no game data. No explicit project licence was located.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "Batchfile",
+      "subtype": "Spanish fan translation patch",
+      "sources": [
+        {
+          "label": "Maintainer repository folder, IPS patch and build materials",
+          "url": "https://github.com/sewave/translations/tree/master/gba/superstreetfighteriiturborevivalgba"
+        },
+        {
+          "label": "Direct IPS patch file in the maintainer repository",
+          "url": "https://raw.githubusercontent.com/sewave/translations/master/gba/superstreetfighteriiturborevivalgba/superstreetfighteriiturborevivalgba.ips"
+        },
+        {
+          "label": "RomHackPlaza version, language, release date and ROM checksum",
+          "url": "https://romhackplaza.org/index.php/translations/super-street-fighter-ii-turbo-revival-spanish-translation-game-boy-advance"
+        },
+        {
+          "label": "Maintainer blog description of the translation series",
+          "url": "https://traduccioneswave.blogspot.com/"
+        }
+      ],
+      "language_pair": "English → Spanish",
+      "patch_release": {
+        "version": "1.0",
+        "date": "2026-10-04",
+        "download": "https://github.com/sewave/translations/tree/master/gba/superstreetfighteriiturborevivalgba"
+      },
+      "patch_format": "IPS patch plus assets and build scripts in GitHub repository",
+      "release_source": "Maintainer GitHub repository; RomHackPlaza listing",
+      "verified_at": "2026-10-16",
+      "language_evidence": [
+        {
+          "field": "source and target language",
+          "value": "English → Spanish",
+          "url": "https://github.com/sewave/translations/tree/master/gba/superstreetfighteriiturborevivalgba",
+          "evidence": "Project page or maintainer release identifies the source and target language for this patch."
+        },
+        {
+          "field": "repository code language",
+          "value": "Batchfile",
+          "url": "https://github.com/sewave/translations/tree/master/gba/superstreetfighteriiturborevivalgba",
+          "evidence": "The project directory includes Windows batch scripts for extraction, insertion and patch generation."
+        }
+      ]
+    },
+    {
+      "id": "pokemon-crystal-gbc-ar",
+      "title": "Pokémon Crystal Arabic Translation",
+      "game": "Pokémon Crystal Version",
+      "target_type": "Game",
+      "platform": "Game Boy Color",
+      "kind": "Fan Localization",
+      "status": "Public BPS patch v1.0.1 released 2026-10-05; the update fixes three bugs. The full game is translated in right-to-left Arabic with joined letter shaping. The CGB's second VRAM bank is required, so original DMG hardware and DMG-mode emulation are unsupported. A save created on v1.0 preserves a previously blank rival name after the update.",
+      "summary": "Complete Arabic fan localization of Pokémon Crystal, including a custom right-to-left text engine and joined Arabic glyphs across dialogue, menus and other game text. The public BPS patch requires the US/Europe v1.0 ROM with SHA-1 f4cd194bdee0d04ca4eac29e09b8e4e9d818c133; no ROM is distributed. The GitHub repository has release notes and patch assets but no explicit source-code licence was found.",
+      "project_url": "https://github.com/SherlockedMain/Pokemon_Crystal_Arabic",
+      "updated": "2026-10-16",
+      "strategy": "Arabic fan translation and binary BPS patch with right-to-left text-engine modifications",
+      "language": "Arabic",
+      "source_available": "Public v1.0.1 BPS patch and release notes; no ROM and no explicit source-code licence identified.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "Arabic fan translation patch",
+      "sources": [
+        {
+          "label": "Maintainer v1.0.1 release, patch format, exact base ROM and hardware caveat",
+          "url": "https://github.com/SherlockedMain/Pokemon_Crystal_Arabic/releases/tag/v1.0.1"
+        },
+        {
+          "label": "RomHackPlaza language, coverage and project listing",
+          "url": "https://romhackplaza.org/index.php/translations/pokemon-crystal-version-arabic-translation-game-boy-color"
+        }
+      ],
+      "language_pair": "English → Arabic",
+      "patch_release": {
+        "version": "1.0.1",
+        "date": "2026-10-05",
+        "download": "https://github.com/SherlockedMain/Pokemon_Crystal_Arabic"
+      },
+      "patch_format": "BPS patch from maintainer GitHub release",
+      "release_source": "Maintainer GitHub Release; RomHackPlaza listing",
+      "verified_at": "2026-10-16",
+      "language_evidence": [
+        {
+          "field": "source and target language",
+          "value": "English → Arabic",
+          "url": "https://github.com/SherlockedMain/Pokemon_Crystal_Arabic",
+          "evidence": "Project page or maintainer release identifies the source and target language for this patch."
+        }
+      ]
+    }
+  ]
+}

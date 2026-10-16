@@ -1,0 +1,49 @@
+{
+  "verified_at": "2026-10-16",
+  "excluded_or_not_repeated": [
+    {
+      "candidate": "JoJo's Bizarre Adventure: Phantom Blood PS2 English patch",
+      "decision": "Exclude from importer-ready additions pending a public patch or source download.",
+      "evidence": "RomHackPlaza reports complete v1.1 status and hashes but currently displays no downloadable files; no separate maintainer patch repository was found.",
+      "source": "https://romhackplaza.org/translations/jojo-no-kimyou-na-bouken-phantom-blood-english-translation-playstation-2"
+    },
+    {
+      "candidate": "RPG Tsukuru DS+ translation project",
+      "decision": "Exclude pending clarification of contradictory public patch availability.",
+      "evidence": "The repository README says it does not currently provide a public translation patch or ROM data, although an xdelta file appears in the repository root.",
+      "source": "https://github.com/Asdev444/RPG-Tsukuru-DS-Plus-Translation"
+    },
+    {
+      "candidate": "Layrow Antigravity Simplified Chinese patcher",
+      "decision": "Do not add as a separate project; treat as a related alternative to the existing catalog entry.",
+      "evidence": "The current catalog already covers Antigravity Simplified/Traditional Chinese patches for v2.23.0 and later. Layrow's patcher targets older v2.0.6 / IDE 2.0.3 builds, so it is a version-specific alternative for the same software and languages.",
+      "source": "https://github.com/Layrow/antigravity-zh-patcher"
+    },
+    {
+      "candidate": "Dragon Ball 3: Gokuu Den English/Portuguese/Spanish",
+      "decision": "Do not add or refresh; current row is already current.",
+      "evidence": "The existing row already records the PatchClan v1.1 patches, English release date 2026-10-15, three IPS assets and current sources.",
+      "source": "https://www.patchclan.com/#/jogo/dragon-ball-3"
+    },
+    {
+      "candidate": "Shin SD Gundam Gaiden: Knight Gundam Monogatari English",
+      "decision": "Do not add or refresh; current row is already current.",
+      "evidence": "The existing row already records the BPS patch, v1.0 release on 2026-10-14, maintainer repository and complete Game Boy hardware playthrough claim.",
+      "source": "https://github.com/JamesClark1989/game_translations/tree/main/shin-sd-knight-gundam-gameboy"
+    },
+    {
+      "candidate": "Recent Ukrainian patch listings for Addams Family (TurboGrafx-CD), Bram Stoker's Dracula (NES), and Zanac AI (FDS)",
+      "decision": "Defer until the linked maintainer pages confirm a public patch file and patch format.",
+      "evidence": "Current RomHackPlaza entries identify complete v1.0 Ukrainian translations and link to UAPlayer posts. The RomHackPlaza pages did not expose direct patch downloads in the reviewed content, and the external posts could not be verified in this pass. The entries include target ROM hashes, which may help validate a follow-up.",
+      "sources": [
+        "https://romhackplaza.org/translations/addams-family-ukrayinskii-pereklad-ukrainian-translation-turbografx-cd",
+        "https://romhackplaza.org/index.php/translations/bram-stokers-dracula-ukrayinskii-pereklad-ukrainian-translation-nintendo-entertainment-system",
+        "https://www.romhackplaza.org/translations/zanac-ai-fds-ukrayinskii-pereklad-ukrainian-translation-family-computer-disk-system"
+      ]
+    }
+  ],
+  "catalog_overlap_notes": [
+    "Other current RomHackPlaza leads already present in the catalog include ChainDive, Pocket MuuMuu, Khamrai, Silent Hill: Chapter Two, and Shizuku-related projects; they were not restaged.",
+    "The words Maniac Mansion occur in general upstream-game/disassembly manifests, but those entries are not the Jaleco Famicom localization project staged here."
+  ]
+}

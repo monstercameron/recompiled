@@ -237,6 +237,36 @@ fi
 if [[ -f data/research/discovery-2026-10-16/goal-refresh/round5/wikipedia-links-reviewed.json ]]; then
   python3 scripts/catalog.py import-wikipedia-links data/research/discovery-2026-10-16/goal-refresh/round5/wikipedia-links-reviewed.json
 fi
+if [[ -f data/research/discovery-2026-10-16/goal-refresh/round6/project-updates-reviewed.json ]]; then
+  python3 scripts/catalog.py import-project-updates data/research/discovery-2026-10-16/goal-refresh/round6/project-updates-reviewed.json
+fi
+if [[ -f data/research/discovery-2026-10-16/goal-refresh/round6/project-additions-reviewed.json ]]; then
+  python3 scripts/catalog.py import data/research/discovery-2026-10-16/goal-refresh/round6/project-additions-reviewed.json
+fi
+if [[ -f data/research/discovery-2026-10-16/goal-refresh/round6/fan-localization-additions-reviewed.json ]]; then
+  python3 scripts/catalog.py import data/research/discovery-2026-10-16/goal-refresh/round6/fan-localization-additions-reviewed.json
+fi
+if [[ -f data/research/discovery-2026-10-16/goal-refresh/round6/current-port-additions-reviewed.json ]]; then
+  python3 scripts/catalog.py import data/research/discovery-2026-10-16/goal-refresh/round6/current-port-additions-reviewed.json
+fi
+if [[ -f data/research/discovery-2026-10-16/goal-refresh/round6/software-additions-reviewed.json ]]; then
+  python3 scripts/catalog.py import data/research/discovery-2026-10-16/goal-refresh/round6/software-additions-reviewed.json
+fi
+if [[ -f data/research/discovery-2026-10-16/goal-refresh/round6/programming-languages-reviewed.json ]]; then
+  python3 scripts/catalog.py import-programming-languages data/research/discovery-2026-10-16/goal-refresh/round6/programming-languages-reviewed.json
+fi
+if [[ -f data/research/discovery-2026-10-16/goal-refresh/round6/programming-languages-new-reviewed.json ]]; then
+  python3 scripts/catalog.py import-programming-languages data/research/discovery-2026-10-16/goal-refresh/round6/programming-languages-new-reviewed.json
+fi
+if [[ -f data/research/discovery-2026-10-16/goal-refresh/round6/fan-localization-languages-reviewed.json ]]; then
+  python3 scripts/catalog.py import-programming-languages data/research/discovery-2026-10-16/goal-refresh/round6/fan-localization-languages-reviewed.json
+fi
+if [[ -f data/research/discovery-2026-10-16/goal-refresh/round6/current-port-languages-reviewed.json ]]; then
+  python3 scripts/catalog.py import-programming-languages data/research/discovery-2026-10-16/goal-refresh/round6/current-port-languages-reviewed.json
+fi
+if [[ -f data/research/discovery-2026-10-16/goal-refresh/round6/software-languages-reviewed.json ]]; then
+  python3 scripts/catalog.py import-programming-languages data/research/discovery-2026-10-16/goal-refresh/round6/software-languages-reviewed.json
+fi
 python3 scripts/catalog.py export
 cargo build --locked --release --target wasm32-unknown-unknown
 wasm-bindgen --target web --out-dir docs/pkg target/wasm32-unknown-unknown/release/recompiled.wasm

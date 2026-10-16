@@ -1,0 +1,126 @@
+{
+  "updated": "2026-10-16",
+  "projects": [
+    {
+      "id": "uniden-r7-firmware-toolkit-decompilation",
+      "title": "Uniden R7 Firmware Toolkit",
+      "game": "Uniden R7 radar detector firmware (R7_v153.150.127)",
+      "target_type": "Software",
+      "platform": "Uniden R7 radar detector firmware. Python 3.9+ command-line tools and a browser-local editor; the README does not state a host OS matrix.",
+      "kind": "Decompilation",
+      "status": "Active; the repository was updated 2026-10-15 and has no GitHub release. The toolkit decodes, edits, and repacks R7 firmware; the maintainer reports 1,654 recovered functions. Feature offsets are documented for R7_v153.150.127, while support for other R-series firmware requires version-specific offset work.",
+      "summary": "A reverse-engineered toolkit for Uniden R7 firmware that exports Ghidra projects and C/assembly, and edits firmware text, graphics, GPS data, and other sections. The maintainer says decode-then-encode round-trips byte-for-byte. Users supply their own firmware; vendor firmware and extracted assets are not distributed.",
+      "project_url": "https://github.com/Ashwin-Iyer1/Uniden-Firmware-Decompilation-Tool",
+      "updated": "2026-10-16",
+      "strategy": "Firmware-container reverse engineering, Ghidra-assisted ARM decompilation, and version-specific editing and re-encoding.",
+      "programming_language": "JavaScript",
+      "subtype": "Uniden R7 embedded firmware analysis and editing toolkit",
+      "source_available": "Public AGPL-3.0 source and documentation. The project does not include Uniden firmware or extracted assets; users provide their own image.",
+      "first_found": "2026-10-16",
+      "sources": [
+        {
+          "label": "Maintainer README: target, round-trip behavior, supported firmware version, and toolkit scope",
+          "url": "https://github.com/Ashwin-Iyer1/Uniden-Firmware-Decompilation-Tool#readme"
+        },
+        {
+          "label": "Maintainer reverse-engineering methodology and Ghidra workflow",
+          "url": "https://github.com/Ashwin-Iyer1/Uniden-Firmware-Decompilation-Tool/blob/main/docs/REVERSE_ENGINEERING.md"
+        },
+        {
+          "label": "Project license",
+          "url": "https://github.com/Ashwin-Iyer1/Uniden-Firmware-Decompilation-Tool/blob/main/LICENSE"
+        },
+        {
+          "label": "GitHub repository metadata and activity",
+          "url": "https://api.github.com/repos/Ashwin-Iyer1/Uniden-Firmware-Decompilation-Tool"
+        },
+        {
+          "label": "GitHub Languages API byte counts",
+          "url": "https://api.github.com/repos/Ashwin-Iyer1/Uniden-Firmware-Decompilation-Tool/languages"
+        }
+      ]
+    },
+    {
+      "id": "bcm5719-cleanroom-firmware-reimplementation",
+      "title": "BCM5719 Firmware Reimplementation",
+      "game": "Broadcom BCM5719 Ethernet controller firmware",
+      "target_type": "Software",
+      "platform": "Broadcom BCM5719 NIC firmware; tested on Raptor Computing Talos II and Blackbird systems. Linux build and firmware utilities are documented.",
+      "kind": "Reimplementation",
+      "status": "In development. The README reports working NC-SI network traffic and BMC-to-network communication; stage1/stage2 testing is minimal and Wake-on-LAN has not started. The latest GitHub release found is v0.6.12 (2021-06-16); source changes continued through 2026-08-02. Support beyond Talos II and Blackbird is unverified.",
+      "summary": "A clean-room BCM5719 firmware implementation based on the Ortega specification. The maintainer documents functional MII and NVRAM libraries, stage1/stage2 firmware, an APE NC-SI handler, and flashing/debug utilities, with significant testing and feature work still open.",
+      "project_url": "https://github.com/meklort/bcm5719-fw",
+      "updated": "2026-10-16",
+      "strategy": "Clean-room implementation of the BCM5719 MIPS stage1/stage2 and APE firmware based on the Ortega specification.",
+      "programming_language": "C",
+      "subtype": "Broadcom BCM5719 network-interface firmware",
+      "source_available": "Public BSD-3-Clause source and build instructions; the project also publishes fwupd firmware packages. Building requires a custom LLVM/Clang toolchain, and Linux is documented for host utilities.",
+      "first_found": "2026-10-16",
+      "sources": [
+        {
+          "label": "Maintainer README: clean-room method, tested hardware, status, and build requirements",
+          "url": "https://github.com/meklort/bcm5719-fw#readme"
+        },
+        {
+          "label": "Latest GitHub release found",
+          "url": "https://github.com/meklort/bcm5719-fw/releases/tag/v0.6.12"
+        },
+        {
+          "label": "Project license",
+          "url": "https://github.com/meklort/bcm5719-fw/blob/main/LICENSE"
+        },
+        {
+          "label": "GitHub repository metadata and source activity",
+          "url": "https://api.github.com/repos/meklort/bcm5719-fw"
+        },
+        {
+          "label": "GitHub Languages API byte counts",
+          "url": "https://api.github.com/repos/meklort/bcm5719-fw/languages"
+        }
+      ]
+    },
+    {
+      "id": "kowsi-kws-x1-standalone-firmware-reimplementation",
+      "title": "KOWSI KWS-X1 Standalone Firmware",
+      "game": "KOWSI KWS-X1 USB-C power meter firmware",
+      "target_type": "Software",
+      "platform": "KOWSI KWS-X1 USB-C power meter with an HC32F460 MCU and FUSB302B PD controller; the replacement is flashed over USB through the original bootloader. The README refers to OS-specific flasher releases without listing a host OS matrix.",
+      "kind": "Reimplementation",
+      "status": "Active; stable firmware v0.7.0 was released 2026-10-15 and prerelease v0.7.1-test.2 followed the same day. The README reports a working standalone meter and documents hardware-tested fixed 28 V EPR and selected Quick Charge 3.0 cases. EPR AVS, battery reporting, and additional Quick Charge cases remain untested.",
+      "summary": "A public Rust firmware replacement for the KWS-X1 meter application that retains the original bootloader. It adds USB Power Delivery and Quick Charge monitoring and triggering, energy tracking, cable inspection, and passthrough monitoring. The maintainer notes unverified protocol paths and says several sensor identities are inferred.",
+      "project_url": "https://github.com/kralonur/kws-x1-standalone-rs",
+      "updated": "2026-10-16",
+      "strategy": "Standalone Rust firmware replacement using Embassy, flashed through the device's retained USB bootloader.",
+      "programming_language": "Rust",
+      "subtype": "KOWSI KWS-X1 USB-C power-meter firmware",
+      "source_available": "Public Rust source; GitHub reports Apache-2.0 and MIT licenses. The maintainer says no vendor firmware is required. Releases provide a firmware image and checksums, with separate OS-specific flasher downloads.",
+      "first_found": "2026-10-16",
+      "sources": [
+        {
+          "label": "Maintainer README: target hardware, firmware behavior, limitations, and build/flashing workflow",
+          "url": "https://github.com/kralonur/kws-x1-standalone-rs#readme"
+        },
+        {
+          "label": "Stable firmware v0.7.0 release",
+          "url": "https://github.com/kralonur/kws-x1-standalone-rs/releases/tag/firmware-v0.7.0"
+        },
+        {
+          "label": "Latest prerelease found, v0.7.1-test.2",
+          "url": "https://github.com/kralonur/kws-x1-standalone-rs/releases/tag/firmware-v0.7.1-test.2"
+        },
+        {
+          "label": "Project license files",
+          "url": "https://github.com/kralonur/kws-x1-standalone-rs"
+        },
+        {
+          "label": "GitHub repository metadata and source activity",
+          "url": "https://api.github.com/repos/kralonur/kws-x1-standalone-rs"
+        },
+        {
+          "label": "GitHub Languages API byte counts",
+          "url": "https://api.github.com/repos/kralonur/kws-x1-standalone-rs/languages"
+        }
+      ]
+    }
+  ]
+}

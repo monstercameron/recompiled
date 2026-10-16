@@ -1,0 +1,2116 @@
+{
+  "verified_at": "2026-10-16",
+  "baseline_catalog_projects": 2298,
+  "candidate_manifest_appearances": 1455,
+  "unique_candidate_ids": 1391,
+  "already_in_catalog": [
+    "1080-snowboarding-n64-matching-decomp",
+    "2048-nintendo-3ds-port",
+    "3-on-3-nhl-arcade-xbla-android-arm64-recomp",
+    "3-on-3-nhl-arcade-xbla-windows-recomp",
+    "3x3-eyes-seima-kourinden-snes-en",
+    "40-winks-n64-pc-recomp",
+    "86x64-macos-i386-to-x86_64",
+    "a8e-atari-800xl",
+    "ace-attorney-investigations-2-ds-prosecutors-path",
+    "ace-combat-04-ps2-windows-static-recomp",
+    "acww-native-pc-port",
+    "acww-usa-rev1-matching-decomp",
+    "advena-legend-of-emeris-ps-vita-api-port",
+    "aerobiz-supersonic-genesis-disasm",
+    "afi-r-router-display-firmware-reconstruction",
+    "aikatsu-my-no1-stage-3ds-en",
+    "albert-odyssey-saturn-recomp",
+    "alesis-mmt8-v111-firmware-disassembly",
+    "alice-in-wonderland-2010-wii-decomp",
+    "alt-rosetta",
+    "alttp-four-swords-gba-recomp",
+    "amiarcadia-libretro",
+    "amstrad-1984",
+    "animal-crossing-gamecube-rust-bevy-recomp",
+    "animal-crossing-new-leaf-welcome-amiibo-usa-decomp",
+    "animaniacs-great-edgar-hunt-gamecube-pc-recomp",
+    "another-mind-ps1-matching-decomp",
+    "ape-escape-ps1-readable-decomp-port",
+    "applem-core",
+    "arabians-lost-psp-en",
+    "armsx1-ps1",
+    "armsx2-nx",
+    "armsx2-ps2",
+    "armsx3-ps3-android",
+    "army-men-sarges-heroes-n64-pc-recomp",
+    "asphalt-5-hd-ps-vita-api-port",
+    "asphalt-6-adrenaline-ps-vita-api-port",
+    "at91rm9200-flexstor-low-level-bootloader",
+    "avara-classic-mac-source-port",
+    "azurik-rise-of-perathia-original-xbox-eu-decomp",
+    "badland-2-ps-vita-api-port",
+    "banjo-kazooie-gruntys-revenge-gba-decomp",
+    "banjo-nuts-and-bolts-renut-android",
+    "banjo-tooie-n64-decompilation",
+    "battlespades-ace-of-spades-server-reimplementation",
+    "battletanx-global-assault-n64-pc-recomp",
+    "battletanx-n64-pc-recomp",
+    "battletanx-n64-thegh0stship-complete-decomp",
+    "battlezone-rise-black-dogs-n64-pc-recomp",
+    "ben-10-omniverse-ps3-macos-recomp",
+    "billy-frontier-classic-mac-source-port",
+    "binding-of-isaac-flash-recomp-android",
+    "black-xbe-recomp-tgp482",
+    "blake-stone-vita-source-port",
+    "blast-corps-power-dozer-pc-recomp",
+    "blink-x86-linux-posix",
+    "blinx-original-xbox-android-static-recomp",
+    "block-blast-3ds-homebrew",
+    "bloodborne-ps4-decomp-paleblood",
+    "blue-dragon-bluedroid-android",
+    "blue-reflection-quartet-english-retranslation",
+    "bmx-xxx-gamecube-rust-bevy-recomp",
+    "body-harvest-n64-pc-recomp",
+    "boktai-gba-recomp",
+    "boku-doraemon-dreamcast-decomp",
+    "boku-no-natsuyasumi-ps1-en",
+    "bounce-vita-port",
+    "brave-fencer-musashi-ps1-hybrid-native-port",
+    "breakdown-original-xbox-windows-recomp",
+    "brothers-in-arms-2-ps-vita-api-port",
+    "budokai-hd-xbox360-recomp",
+    "budokai-tenkaichi-3-native-pc-port",
+    "budokai-tenkaichi-3-ps2-usa-decompilation",
+    "budokai-tenkaichi-3-switch-dbt-nx",
+    "bugdom2-classic-mac-source-port",
+    "bully-scholarship-edition-xbox360-windows-recomp",
+    "bumpys-arcade-fantasy-dos-decomp",
+    "burnout-2-point-of-impact-xbox-static-recomp",
+    "burnout-2002-original-xbox-recomp",
+    "bushido-blade-2-ps1-matching-decomp",
+    "bust-a-groove-ps1-static-recomp",
+    "butterchurn-milkdrop-webgl-visualizer-reimplementation",
+    "cadcraft-autodesk-autocad",
+    "cafe-recomp-wiiu-framework",
+    "call-of-duty-3-xbox360-cod3pc-recomp",
+    "call-of-duty-4-ios-bmk4",
+    "call-of-duty-roads-to-victory-psp-web-recomp",
+    "calyxos",
+    "carmageddon-android-dethrace",
+    "carnivores-dinosaur-hunter-ps-vita-api-port",
+    "carnivores-ice-age-ps-vita-api-port",
+    "cars-psp-static-recomp-pc",
+    "cars-race-o-rama-xbox360-shader-decomp",
+    "cars-xbox360-linux-rexglue-recomp",
+    "casio-cg50-emulator",
+    "casso-apple-ii",
+    "castle-of-illusion-android-ps-vita-port",
+    "castlevania-aria-of-sorrow-gba-recomp",
+    "castlevania-circle-of-the-moon-gba-recomp",
+    "castlevania-harmony-of-dissonance-gba-recomp",
+    "catrap-gameboy-usa-decomp",
+    "cave-story-ds-native-port",
+    "chaindive-ps2-en",
+    "charge-n-blast-dreamcast-static-recomp",
+    "chips-challenge-windows-vita-port",
+    "chocolate-doom-android-port-canavarit",
+    "chrono-trigger-ds-kwhazit-retranslation-en",
+    "chulip-ps2-usa-decompilation",
+    "classic-window-switcher-csrss-alt-tab-reimplementation",
+    "clonekeen-commander-keen",
+    "cloopy-casio-loopy",
+    "clvk-opencl-on-vulkan",
+    "cobalt-whatsapp-linked-client-reimplementation",
+    "cocovm-tandy-coco",
+    "code-lyoko-nds-decomp",
+    "comet-crash-ps3-native-source-recovery",
+    "comix-zone-xbla-recomp",
+    "commander-keen-clone-sourceforge",
+    "conker-bad-fur-day-vita-recomp",
+    "conker-live-reloaded-original-xbox-windows-recomp",
+    "contralto2-xerox-alto",
+    "cooking-mama-nds-decomp",
+    "coreboot-firmware",
+    "corehost-windows-console-host-reimplementation",
+    "cosmos-cosmic-adventure-native-source-port",
+    "counter-strike-16-apple-silicon-macos-port",
+    "cpcec-classic-systems",
+    "cps1-static-recomp-toolkit",
+    "cps2recomp-static-recompilation-toolkit",
+    "crab-champions-ko",
+    "crackdown-2-xbox360-pc-recomp",
+    "crackdown-xbox360-recomp-unowa",
+    "crash-bandicoot-2-ps1-decomp-codeberg",
+    "crash-bandicoot-wrath-of-cortex-gamecube-decomp",
+    "crash-bandicoot-xs-gba-decomp",
+    "crash-mind-over-mutant-xbox360-windows-mojorecomp",
+    "crash-of-the-titans-xbox360-windows-mojorecomp",
+    "crash-tag-team-racing-gamecube-decomp",
+    "crash-twinsanity-ps2-windows-decomp-port",
+    "crash-wrath-of-cortex-ps2-matching-decomp",
+    "crazy-taxi-dreamcast-static-recomp",
+    "cromwell-original-xbox-bios",
+    "crosscraft-minecraft-classic-030-reimplementation",
+    "cultures-die-saga-browser-wasm-recomp",
+    "cvd1810-wj-power-mcu-firmware-reimplementation",
+    "cygwin-posix-compatibility-layer",
+    "d2vita-diablo-ii",
+    "d3dmetal-native-host-adapter",
+    "dance-central-3-xbox360-ai-decomp-fork",
+    "dance-central-3-xbox360-decomp",
+    "darkstar-xerox-star-workstation",
+    "daytona-usa-model2-n64-recomp",
+    "daytona-usa-model2-switch-recomp-port",
+    "dead-or-alive-3-android-recomp",
+    "dead-or-alive-ps1-windows-static-recomp",
+    "dead-or-alive-xtreme-beach-volleyball-android",
+    "deckcraft-microsoft-powerpoint",
+    "deecy-dreamcast-emulator",
+    "def-jam-fight-for-ny-comoria-recomp",
+    "def-jam-vendetta-ps2-recomp",
+    "deltarune-vita-port",
+    "demons-souls-ps3-windows-recomp",
+    "descent-ii-mobile",
+    "descent-mobile-android-ios",
+    "designcraft-adobe-indesign",
+    "destinia-ps-vita-api-port",
+    "destroy-all-humans-path-of-furon-redahm-android-port",
+    "destroy-all-humans-path-of-furon-xbox360-redahm-recomp",
+    "diablo-ii-113c-codeberg-decomp",
+    "diddy-kong-racing-barrelpad-ios",
+    "diddy-kong-racing-cyscott-pc-recomp",
+    "diddy-kong-racing-gamecube-port",
+    "digimon-rumble-arena-ps1-matching-decomp",
+    "digimon-world-3-ps1-matching-decomp",
+    "digimon-world-3-ps1-static-recomp-pc",
+    "dingbat-gb-gba",
+    "dinosaur-planet-n64-prototype-decomp",
+    "disrobe-multiformat-static-decompiler",
+    "dodonpachi-saturn-recomp",
+    "dome-keeper-vita-port",
+    "donkey-kong-64-decomp",
+    "doom2d-gba-port",
+    "doom64-dreamcast-port",
+    "dqmj1-nds-decomp",
+    "dqmj3-professional-it",
+    "dr-dos-90-clean-room-os-reimplementation",
+    "dragon-ball-origins-nds-decomp",
+    "dragon-ball-z-legende-saturn-recomp",
+    "dragon-quest-iv-ds-decomp",
+    "dragon-quest-x-offline-multilingual",
+    "dragon-quest-xi-3ds-english-patch-exhilo62",
+    "dream-recomp-static-recompilation-toolkit",
+    "dreamcast-naomi-static-recompiler-framework",
+    "dreamcomp-dreamcast-port-framework",
+    "dreams-to-reality-pc-recomp",
+    "driveclub-ps4-macos-api-translation",
+    "driveindex-car-valuation-model-reconstruction",
+    "driver-you-are-the-wheelman-ps1-matching-decomp",
+    "driving-strikers-n64-port",
+    "dsp-emulator-multisystem",
+    "duke-nukem-3d-eduke-ios",
+    "dune-battle-for-arrakis-genesis-recomp",
+    "dune-dynasty",
+    "dungeon-hunter-2-ps-vita-api-port",
+    "dungeon-hunter-3-ps-vita-api-port",
+    "dx9mt-d3d9-to-metal-fallout-new-vegas",
+    "dxmt-xray-monolith-macos",
+    "dxvk-macos-metalsharp-v31",
+    "dxvk-nvapi-nvapi-vulkan-compatibility",
+    "easyrpg-player",
+    "effectcraft-adobe-after-effects",
+    "eink-qemu",
+    "emu48-android-calculator",
+    "emu7800-atari-7800",
+    "endacopia-zh-cn",
+    "engram-gb-gba",
+    "esoteric-ebb-zh-cn",
+    "esp32-palm",
+    "eternal-legacy-ps-vita-api-port",
+    "eternal-sonata-xbox360-reprise-recomp",
+    "everybodys-golf-coca-cola-psp-en",
+    "evos-space-adventures-psx-decomp",
+    "extenddb-dynamodb-api-reimplementation",
+    "extreme-g-static-recomp-gitlab",
+    "fairy-tail-madoushi-nds-decomp",
+    "fallout-new-vegas-xbox360-windows-renevada-recomp",
+    "famicom-detective-club-missing-heir-dx-en",
+    "farm-frenzy-nds-decomp",
+    "faudio-xaudio-api-reimplementation",
+    "figcraft-figma",
+    "filmcraft-adobe-premiere-pro",
+    "final-fantasy-crystal-chronicles-gamecube-wiicompiled-port",
+    "final-fantasy-crystal-chronicles-gc-decomp",
+    "final-fantasy-iv-ii-snes-disassembly",
+    "final-fantasy-nes-colecovision-reimplementation",
+    "final-fantasy-tactics-advance-recomp-jorge262007",
+    "fire-emblem-binding-blade-japan-gba-decomp",
+    "fire-emblem-rekka-no-ken-japan-gba-decomp",
+    "fire-emblem-sacred-stones-us-gba-decomp",
+    "firstlight-hpe-ilo-dell-idrac-remote-console",
+    "fm1-amb-generative-ambient-firmware",
+    "fm1-bubba-machine-clean-room-firmware",
+    "fm1-felucca-open-firmware",
+    "fm1-fomni-chord-harp-firmware",
+    "fm1-jangada-industrial-brazilian-firmware",
+    "fm1-lunar-modulator-preview-firmware",
+    "fm1-melodee-custom-firmware",
+    "fm1-pigeon-performance-sampler-firmware",
+    "fm1-sidou-c64-sid-firmware",
+    "fm1-skiff-six-track-groovebox-firmware",
+    "fm1-sloop-live-groovebox-firmware",
+    "fm1-tonitor-acousmatic-firmware",
+    "fm1-x0x-groovebox-firmware",
+    "fm1-zp12-sampling-drum-machine-firmware",
+    "forza-horizon-2-xbox360-windows-recomp",
+    "fossil-fighters-nds-decomp",
+    "four-swords-anniversary-dsi-korean-patch",
+    "frankenfs-ext4-btrfs-userspace-filesystem-reimplementation",
+    "frankenjax-jax-transform-semantics-reimplementation",
+    "frankenlibc-glibc-linux-reimplementation",
+    "frankenmermaid-mermaid-compatible-diagram-engine",
+    "frankenpandas-pandas-api-reimplementation",
+    "frankenredis-redis-protocol-reimplementation",
+    "frankenscipy-scipy-numerical-library-reimplementation",
+    "frankensqlite-sqlite-engine-reimplementation",
+    "frankentorch-pytorch-reimplementation",
+    "free42-hp42s",
+    "freecnc-tiberian-dawn",
+    "freedoom-android-gzdoom-2026",
+    "freera-red-alert",
+    "freerdp-rdp-protocol-reimplementation",
+    "freesynd",
+    "freshtomato-arm",
+    "frontier-atari-st-decomp-frontvm",
+    "fuzion-frenzy-original-xbox-openfrenzy-decomp-port",
+    "gamate-emulator",
+    "gangstar-miami-vindication-ps-vita-api-port",
+    "gangstar-rio-ps-vita-api-port",
+    "gangway-monsters-ps1-en",
+    "gargoyle-router-firmware",
+    "gauntlet-dark-legacy-gamecube-decomp",
+    "gauntlet-legends-n64-pc-recomp",
+    "ge-proton-linux-windows-compatibility",
+    "gekkoaot-gamecube-aot-runtime",
+    "generals-zero-hour-android-port",
+    "generals-zero-hour-ios-native-port",
+    "gladius-original-xbox-macos-recomp",
+    "god-of-war-ii-hd-ps3-windows-static-recomp",
+    "golden-idol-vita-port",
+    "golden-sun-broken-seal-decomp-alchemy",
+    "golden-sun-broken-seal-recomp",
+    "golden-sun-gba-decomp-coaltergeist",
+    "golden-sun-lost-age-decomp-alchemy",
+    "golden-sun-lost-age-recomp",
+    "golden-sun-recompiled-android",
+    "goldeneye-007-reloaded-xbox360-recomp",
+    "goldeneye-007-xbla-remaster-recomp",
+    "google-antigravity-desktop-zh-localization",
+    "gran-turismo-2-ps1-hybrid-recomp-samiul",
+    "gran-turismo-3-ps2-matching-decomp",
+    "gran-turismo-4-ps2-matching-decomp",
+    "gran-turismo-4-ps2-v200-windows-recomp",
+    "grand-theft-auto-iv-xbox360-windows-recomp",
+    "granhistoria-sfc-en",
+    "grapheneos",
+    "gravity-rush-2-ps4-pc",
+    "great-ace-attorney-adventures-3ds-english-akoi89",
+    "great-ace-attorney-resolve-3ds-english-akoi89",
+    "gridcase-1520-bios-assembly-reconstruction",
+    "gridcraft-microsoft-excel",
+    "gt-racing-hyundai-edition-ps-vita-api-port",
+    "gt-racing-motor-academy-hd-ps-vita-api-port",
+    "guitar-hero-iii-ps3-windows-static-recomp",
+    "gunparade-march-ps1-en",
+    "gxruntime-gamecube-recomp-runtime",
+    "gyakuten-saiban-2-gba-en",
+    "halo-3-delta-cache-release-recomp",
+    "halo-3-xbox360-native-linux-zerotier-recomp",
+    "halo-64-n64-reimplementation",
+    "halo-combat-evolved-anniversary-xbox360-symbol-corpus",
+    "halo-reach-xbox360-native-linux-recomp",
+    "hang-on-master-system-disassembly",
+    "haou-taikei-ryuu-knight-sfc-en",
+    "harry-potter-chamber-secrets-gamecube-pc-recomp",
+    "harry-potter-prisoner-azkaban-gba-decomp-experiment",
+    "harvest-moon-ds-nds-decomp",
+    "haze-ps3-windows-recomp",
+    "heaven-burns-red-indonesian-wip",
+    "hemulator-multisystem",
+    "hercules-playstation-native-pc-recomp",
+    "hero-of-sparta-ps-vita-api-port",
+    "heroes-of-mana-nds-decomp",
+    "heroes2-fheroes2-vita",
+    "highball-macos-wine-compatibility-manager",
+    "hipify-cuda-to-hip",
+    "hollow-knight-silksong-android",
+    "house-of-the-dead-2-naomi-recomp",
+    "hp41-calculator-emulator",
+    "huniepop-steam-pt-br",
+    "hypercard-122-static-recompilation",
+    "ibm-z-emu",
+    "ico-ps2-matching-decomp",
+    "illusia-2-ps-vita-api-port",
+    "illusia-ps-vita-api-port",
+    "immortal-dusk-ps-vita-api-port",
+    "import-tuner-challenge-xbox360-linux-rexglue-recomp",
+    "inazuma-eleven-3-ogre-nds-decomp",
+    "indiana-jones-desktop-adventures-yodecomp-android",
+    "infinite-undiscovery-xbox360-windows-recomp",
+    "inotia-2-ps-vita-api-port",
+    "inotia-3-ps-vita-api-port",
+    "inputfusion-gamepad-api-translation",
+    "iris-ps2-emulator",
+    "iris-sgi-indy",
+    "issd-native-android",
+    "itadaki-street-3-ps2-en-mtl",
+    "izapple2",
+    "j2me-loader-android",
+    "jackie-chan-stuntmaster-switch-port",
+    "jarlyme-j2me",
+    "jazz2-resurrection",
+    "jeanne-darc-psp-fr",
+    "jet-grind-radio-psp-port",
+    "joiplay-android-game-interpreter",
+    "jump-ultimate-stars-nds-native-recomp",
+    "kenyuu-densetsu-yaiba-sfc-en",
+    "kid-chameleon-genesis-disasm",
+    "kings-field-ancient-city-ps2-matching-decomp",
+    "kirby-air-ride-gamecube-rust-bevy-recomp",
+    "kirbys-epic-yarn-wii-decomp",
+    "kirpich-tetris-game-boy-native-reimplementation",
+    "klingon-honor-guard-android",
+    "knuckles-chaotix-32x-disasm",
+    "kowloons-gate-ps1-en",
+    "langrisser-v-ps1-saturn-en-ru",
+    "lefony-hp-prime-g2",
+    "legend-of-doom-3ds-port",
+    "legend-of-ninja-burai-genesis-en-beta",
+    "lego-city-undercover-switch-decomp",
+    "lego-star-wars-ii-nds-decomp",
+    "lets-go-eternal-wings-ps1-en",
+    "liblzraven-apple-lzraven-codec",
+    "libreboot-firmware",
+    "librelancer-freelancer",
+    "librespot-spotify-connect-protocol-implementation",
+    "lightcraft-adobe-lightroom",
+    "lindbergh-loader",
+    "lineageos",
+    "linuxboot",
+    "lisa-the-painful-ps-vita-port",
+    "little-big-adventure-2-dreamcast-port",
+    "livly-garden-nds-decomp",
+    "loom-arr-stack-media-management-reimplementation",
+    "lord-monarch-sfc-en",
+    "lord-of-the-rings-third-age-original-xbox-static-recomp",
+    "lost-judgment-steam-th",
+    "lost-odyssey-hd-remaster-recomp",
+    "love-quest-sfc-en",
+    "luigis-mansion-gamecube-linux-recomp",
+    "lunaria-android-app-translation-desktop",
+    "luxon-photon-load-balancing-server",
+    "maclator-reverse-rosetta-arm64-x86_64",
+    "macrecomp-classic-mac-application-static-recompiler",
+    "madeira-windows-games-iphone",
+    "maison-ikkoku-famicom-en",
+    "mario-kart-64-vita-kart64",
+    "mario-kart-arcade-gp2-triforce-decomp",
+    "mario-kart-ds-eur-matching-decomp",
+    "mario-kart-wii-ps-vita-wiicompiled",
+    "mario-kart-wii-quest3-vr-recomp",
+    "mario-kart-wii-webcompiled",
+    "mario-kart-wii-wiicompiled-switch",
+    "mario-kart-wii-xbox-uwp-recomp",
+    "mario-luigi-bowsers-inside-story-nds-decomp",
+    "mario-luigi-dream-team-us-3ds-decomp",
+    "mario-paint-snes-recomp",
+    "mario-party-4-partyboard-mobile",
+    "mario-party-9-wii-decomp",
+    "marvel-vs-capcom-2-ps2-ntsc-u-decompilation",
+    "masou-kishin-lord-of-elemental-psp-en",
+    "medal-of-honor-frontline-gamecube-pc-recomp",
+    "medal-of-honor-rising-sun-gamecube-decomp",
+    "mega-man-64-n64-pc-recomp",
+    "melee-unlocked-windows-source-port",
+    "memu-memotech",
+    "mercurius-pretty-dc-en-mtl",
+    "metal-gear-solid-integral-reintegral-windows-port",
+    "metal-slug-x-neogeo-recomp",
+    "microsoft-project-mu-uefi-platform-framework",
+    "midnight-club-la-holdmysocks-recomp",
+    "midway-arcade-origins-ps3-windows-static-recomp",
+    "minecraft-switch-edition-decomp",
+    "minecraft-xbox360-ios-mcx360-edition",
+    "minecraft-xbox360-legacy-tu2-functional-decomp",
+    "miracle-girls-festival-vita-en",
+    "mister-apple-iii",
+    "mister-atari-system-2",
+    "mister-blasteroids",
+    "mister-casio-loopy",
+    "mister-colour-genie",
+    "mister-gamate",
+    "mister-gameking",
+    "mister-ibm-pcjr",
+    "mister-igs-pgm",
+    "mister-interact",
+    "mister-irem-m107",
+    "mister-marble-madness-ii",
+    "mister-namco-system22",
+    "mister-neogeo-pocket",
+    "mister-next-workstation",
+    "mister-oric",
+    "mister-pc88",
+    "mister-pcfx",
+    "mister-pcxt-ega",
+    "mister-raiden",
+    "mister-rca-studio-ii",
+    "mister-sun-2",
+    "mister-sun-3",
+    "mister-super-cassette-vision",
+    "mister-superacan",
+    "mister-supervision",
+    "mister-taito-f3",
+    "mister-taito-l",
+    "mister-tank",
+    "mister-wonderswan",
+    "mister-xybots",
+    "mlb-power-pros-2008-wii-pc-recomp",
+    "mmbn3-white-gba-recomp",
+    "moderngekko-gamecube-wii-recomp-runtime",
+    "moltenmtl-metal-api-over-vulkan",
+    "monster-hunter-3-ultimate-wiiu-static-recomp",
+    "moonstone-island-ko",
+    "mother-3-recomp-agray0425",
+    "mother-encore-vita-port",
+    "ms-pac-man-genesis-static-recomp",
+    "mu-palm-os",
+    "mumdia-rust-proteomics-search-engine-reimplementation",
+    "mutant-league-hockey-reimplementation",
+    "mvp-baseball-2005-browser-recomp",
+    "mysims-nds-decomp",
+    "mystery-house-apple-ii-matching-decomp",
+    "nakagawa-recomp-psp-toolkit",
+    "nana-live-staff-nds-english-demo-patch",
+    "nana-ps2-decomp",
+    "nanolathe-total-annihilation-engine-reimplementation",
+    "nanosaur-classic-mac-source-port",
+    "nanosaur2-classic-mac-source-port",
+    "nascar-rumble-ps1-matching-decomp",
+    "need-for-speed-underground-2-decomp",
+    "neetan-japanese-computer-emulator",
+    "nemulator-multisystem",
+    "neogeo-bios-source-reimplementation",
+    "neon-genesis-evangelion-n64-pc-recomp",
+    "neopenbios-mvs-aes",
+    "new-play-control-pikmin-2-wii-decomp",
+    "new-play-control-pikmin-wii-decomp",
+    "new-super-mario-bros-u-wiiu-redpro2",
+    "new-super-mario-bros-wii-decomp",
+    "nextendo-nex-server-protocol-library",
+    "nfl-head-coach-09-xbox360-recomp",
+    "nfl-street-2-gamecube-decomp",
+    "nfs-most-wanted-2005-speedbreaker",
+    "nfsmw-android-evolved",
+    "nhl-legacy-xbox360-pc-static-recomp",
+    "nine-mm-ps-vita-api-port",
+    "nintendogs-dachshund-nds-decomp",
+    "nobunaga-gba-ko",
+    "nobunaga-shinsei-pc-ko",
+    "nobunaga-shinsei-switch-ko",
+    "nocturne-windows-static-recompilation",
+    "nokia-dct3-emulator",
+    "nolf2-macos-apple-silicon-source-port",
+    "nolongerevil-nest-thermostat-custom-firmware",
+    "nonpareil-hp-calculators",
+    "notepad-next-notepad-plus-plus",
+    "nova-2-ps-vita-api-port",
+    "nsc-studio-switch-distribution-tool",
+    "nucleus-ps3-research",
+    "nvforever-fallout-new-vegas-engine-reimplementation",
+    "okamiden-nds-decomp",
+    "oot-n64-windows-recomp",
+    "open-bamboo-networking-bambu-studio-plugin-reimplementation",
+    "open-claude-code-cli-reimplementation",
+    "open-ring-oura-ring-4-ble-driver",
+    "openads-advantage-database-server-reimplementation",
+    "openbc-star-trek-bridge-commander-reimplementation",
+    "openbeken-iot-firmware",
+    "openbios-openfirmware",
+    "openbmc",
+    "openbrcm-broadcom-43xx-wifi-driver",
+    "opencalc-windows-95-calculator-reimplementation",
+    "opencod2-call-of-duty-2-engine-reconstruction",
+    "opencomposite-openvr-openxr-bridge",
+    "openconnect-vpn-protocol-implementation",
+    "opendisplay-macos-display-control-reimplementation",
+    "opendmcufirm-wii-u-dmcu-firmware-reimplementation",
+    "opendune",
+    "openemperor-emperor-rise-middle-kingdom-reimplementation",
+    "openguimo",
+    "openipc-camera-firmware",
+    "openjoc-eac3-joc-clean-room-decoder",
+    "openloco",
+    "openmaxfire-bixby-maxfire-reconstruction",
+    "openpuck-steam-controller-puck-firmware",
+    "openredalert-red-alert",
+    "openrgb-proprietary-rgb-control-reimplementation",
+    "openrw-gta-iii",
+    "opensage-generals",
+    "opensage-generals-zero-hour",
+    "opensbi-riscv-firmware",
+    "opentitus-moktar",
+    "opentitus-titus-fox",
+    "openurma-unified-bus-protocol",
+    "openwrt-router-firmware",
+    "openxr-vulkan-d3d12-interop",
+    "orbital-ps4-emulator",
+    "ork-driver-rockchip-rk35xx-npu-library",
+    "ostranauts-zh-tw",
+    "otogirisou-sfc-en",
+    "otogirisou-sosei-hen-ps1-en-es",
+    "ovmf-uefi-firmware",
+    "padport-rpg-maker-android",
+    "pangya-super-swing-golf-wii-decomp",
+    "patina-rust-uefi-firmware",
+    "pcejs-classic-browser",
+    "pcrecomp-pc-software-static-recompilation-toolkit",
+    "pdfcraft-adobe-acrobat",
+    "perfect-dark-psp-port",
+    "persona-3-portable-new-3ds-recomp",
+    "persona-q2-3ds-simplified-chinese-localization",
+    "phantasy-star-generation-1-ps2-de",
+    "phantasy-star-ii-genesis-disasm",
+    "phantasy-star-iii-genesis-disasm",
+    "phantasy-star-iv-genesis-disasm",
+    "photocraft-adobe-photoshop",
+    "plants-vs-zombies-xbla-xbox360-windows-recomp",
+    "playstation-vr2-app-pc-decompilation",
+    "pocket-muumuu-ps1-en",
+    "pokemon-battle-revolution-decomp",
+    "pokemon-colosseum-gamecube-decomp-current",
+    "pokemon-moon-europe-3ds-decomp",
+    "pokemon-platinum-3ds-native-port",
+    "pokemon-x-3ds-recomp-rdcomp",
+    "pokemon-xd-independent-decomp",
+    "pokemon-xd-teamorre-decomp",
+    "pokepark-wii-pikachus-adventure-decomp",
+    "pokket-pocketstation",
+    "pom2-apple-ii",
+    "pomme-classic-mac-api",
+    "popn-music-cs1-psx-decomp",
+    "pops-ps2-ps1-emulator-decompilation",
+    "post-void-native-android-port",
+    "postal-1-3ds-port",
+    "postmarketos",
+    "powerpuff-girls-z-nds-decomp",
+    "pridroid-prison-architect-android",
+    "prince-of-persia-classic-ps-vita-api-port",
+    "progenitor-pc98-en",
+    "prototype-2-xbox360-switch-recomp",
+    "prototype-xbox360-switch-recomp",
+    "ps-switch-kit",
+    "ps2native-recompilation-toolkit",
+    "ps4recomp-static-recompiler-framework",
+    "psport-ps4-linux-api-translation",
+    "pt-android-port",
+    "pure-xbox360-recomp",
+    "pvz-portable",
+    "pxp2-psp-android",
+    "pyboy-gameboy",
+    "pyphomemo-m110-protocol-implementation",
+    "qmk-keyboard-firmware-framework",
+    "quesa-quickdraw3d-reimplementation",
+    "rad-therapy-half-life-clean-room-reimplementation",
+    "raging-blast-2-xbox360-recomp",
+    "raging-thunder-2-ps-vita-api-port",
+    "raging-thunder-ps-vita-api-port",
+    "rainbow-six-3-original-xbox-macos-recomp",
+    "rampage-2-universal-tour-n64-pc-recomp",
+    "rampage-world-tour-n64-pc-recomp",
+    "ratchet-and-clank-going-commando-ps2-decomp",
+    "ratchet-clank-ps2-native-pc",
+    "ratchet-deadlocked-ps2-decomp",
+    "raw2x-another-world-gp2x",
+    "rayman-2-dreamcast-static-recomp",
+    "rayman-jungle-run-ps-vita-api-port",
+    "rayman-raving-rabbids-nds-decomp",
+    "rec-rs-obs-macos-recorder-reimplementation",
+    "recompcore-dolphin-static-recomp-cpu",
+    "redcat-spookkasteel-reimplementation",
+    "regular-show-best-park-ps-vita-port",
+    "rejoice-aretha-sfc-en",
+    "reprobit-reproducible-binary-recompilation-verifier",
+    "reprogman-windows-31-program-manager-clone",
+    "resident-evil-4-andiweli-android-decomp-port",
+    "resident-evil-4-gamecube-debug-decomp",
+    "resident-evil-4-nightjar-mobile-in-progress",
+    "resident-evil-code-veronica-x-hd-xbox360-linux-rexglue-recomp",
+    "resident-evil-gaiden-recomp-android",
+    "revive-oculus-openvr-openxr-compatibility",
+    "rhythm-tengoku-arcade-english-patch",
+    "rhythm-tengoku-arcade-naomi-decomp",
+    "ridge-racer-type-4-ps1-native-recomp",
+    "rigelengine-duke-nukem-ii",
+    "rimdroid-rimworld-android",
+    "rings-of-power-genesis-recomp",
+    "riptide-gp-ps-vita-api-port",
+    "ristar-genesis-disasm",
+    "riven-wahrk",
+    "rock-band-3-xbox360-independent-decomp",
+    "rockbox-player-firmware",
+    "rocket-robot-on-wheels-decomp",
+    "rocket-slime-3ds-english-fixup-akoi89",
+    "rockpod",
+    "rogue-galaxy-ps2-matching-decomp",
+    "rosette-x86-neon-dynamic-translator",
+    "rott94-android",
+    "rpgmaker-mv-mz-android-wrapper",
+    "rugby-08-browser-wasm-recomp",
+    "rule-of-rose-ps2-matching-decomp",
+    "rushing-beat-shura-sfc-en",
+    "s1130-ibm1130",
+    "sacred-odyssey-ps-vita-api-port",
+    "saft-san-andreas-file-tool-android",
+    "saihate-no-ima-pc-en",
+    "saints-row-xbox360-windows-recomp-saintsreborn",
+    "saints-row-xbox360-windows-recomp-sp00nznet",
+    "sal063-psp-static-recompiler-toolkit",
+    "samba-smb-active-directory-protocol-implementation",
+    "san-francisco-rush-2049-n64-decomp",
+    "sanandreasunity",
+    "satrecomp-static-recompilation-toolkit",
+    "saturnrecomp-experimental-runtime",
+    "saw-ii-flesh-and-blood-xbox360-linux-rexglue-recomp",
+    "sc26re-steam-controller-firmware-reimplementation",
+    "sd-gundam-dimension-war-virtual-boy-recomp",
+    "seabios-x86-legacy-bios",
+    "sega-genesis-recomp-framework",
+    "senmomo-windows-en",
+    "shadow-guardian-ps-vita-api-port",
+    "shadow-of-the-colossus-ps2-apple-silicon-recomp",
+    "shenmue-dc-disc1-ko",
+    "shin-megami-tensei-iv-static-recomp",
+    "shin-megami-tensei-ps1-decomp-codeberg",
+    "shining-force-cd-sega-cd-disasm",
+    "shining-force-ii-genesis-disasm",
+    "shotgun-king-ps-vita-port",
+    "silent-hill-3-switch-recomp",
+    "silent-hill-chapter-two-j2me-en",
+    "simlac-imlac-pds1-pds4",
+    "simpsons-game-nds-decomp",
+    "simpsons-game-xbox360-windows-powerpc-recomp-port",
+    "simpsons-hit-and-run-android-port",
+    "simpsons-hit-and-run-ios-port",
+    "simpsons-hit-and-run-ps3-source-port",
+    "simpsons-hit-and-run-switch-vita-source-port",
+    "sims-3-nintendo-ds-decomp-scaffold",
+    "sin-punishment-hoshi-no-keishousha-n64-pc-recomp",
+    "skate-2-xbox360-recomp",
+    "skate-2-xbox360-windows-recomp",
+    "skate-3-mobile-android",
+    "skylanders-portal-of-power-emulator",
+    "slam-dunk-yonkyou-gekitotsu-sfc-en-beta",
+    "slay-the-spire-2-android-ekyso-launcher",
+    "slay-the-spire-2-android-modin-launcher",
+    "slay-the-spire-2-ios-aot-toolchain",
+    "slowbooks-pro-quickbooks-2003-replacement",
+    "smt-nine-xbox-en",
+    "snail-mail-ps-vita-api-port",
+    "snowboard-kids-hikari-pc-recomp",
+    "sogen-user-space-runtime",
+    "solidcraft-fusion-style-parametric-cad-reimplementation",
+    "sonic-1-game-gear-disasm",
+    "sonic-1-genesis-recomp",
+    "sonic-2-genesis-recomp",
+    "sonic-2-master-system-disasm",
+    "sonic-2006-marathon-android-recomp",
+    "sonic-3-and-knuckles-genesis-recomp",
+    "sonic-3-genesis-recomp",
+    "sonic-3-prototype-1103-disasm",
+    "sonic-3d-blast-genesis-disasm",
+    "sonic-advance-2-vita-port",
+    "sonic-adventure-2-opensa2-android",
+    "sonic-adventure-dc-recomp",
+    "sonic-adventure-dreamcast-decomp",
+    "sonic-and-knuckles-genesis-recomp",
+    "sonic-cd-vita-decomp-port",
+    "sonic-heroes-gamecube-decomp",
+    "sonic-mania-vita-decomp-port",
+    "sonic-pocket-adventure-ngpc-recomp",
+    "sonic-spinball-genesis-disasm",
+    "sonic-the-fighters-arcade-disasm",
+    "sonic-unleashed-recompiled-ko",
+    "soulcalibur-dreamcast-static-recomp",
+    "soulcalibur-ii-gamecube-ringout-switch",
+    "soundcraft-avid-pro-tools",
+    "spear-of-destiny-n64-reimplementation",
+    "spectral-tower-ps1-en",
+    "speedball-2-amiga-recomp",
+    "spider-man-web-of-shadows-nds-decomp",
+    "spike-and-suzy-timekeepers-gbc-en",
+    "splatoon-wiiu-decomp-research",
+    "splatoon-wiiu-pc-recomp",
+    "splosion-man-xbox360-linux-windows-static-recomp",
+    "spy-vs-spy-master-system-disassembly",
+    "spyro-shadow-legacy-nds-decomp",
+    "squirreljme-java-me-8-reimplementation",
+    "ssx-tricky-opentricky-xbox-windows-recomp",
+    "ssx-tricky-reindance-linux-recomp",
+    "starsand-island-ko",
+    "stims-milkdrop-browser-reimplementation",
+    "street-fighter-alpha-2-cps2-recomp",
+    "street-fighter-ii-world-warrior-cps1-recomp",
+    "streets-of-rage-genesis-static-recompilation",
+    "sts2-android-socialhummingbird-overhaul",
+    "stunt-race-fx-snes-recomp",
+    "sublemon-sublime-text-clean-room-reimplementation",
+    "summon-night-craft-sword-story-3-recomp",
+    "super-gomoku-narabe-renju-sfc-en-vi",
+    "super-hexagon-android-vita-api-translation",
+    "super-mario-64-3ds-native-port",
+    "super-mario-64-ps1-port",
+    "super-mario-64-ps2-decompilation-port",
+    "super-mario-bros-nes-vita-static-recomp",
+    "super-mario-galaxy-2-garigari-decomp",
+    "super-mario-galaxy-petari-decomp",
+    "super-mario-kart-snes-recomp",
+    "super-mario-land-2-gb-recomp",
+    "super-mario-land-native-modern",
+    "super-mario-odyssey-decomp",
+    "super-paper-mario-partial-decomp",
+    "super-robot-taisen-alpha-ps1-en",
+    "super-robot-taisen-d-gba-en",
+    "super-robot-taisen-r-gba-en",
+    "super-robot-taisen-z-ps2-windows-static-recomp",
+    "super-robot-wars-f-ps1-en-wip",
+    "super-smash-bros-64-dreamcast-port",
+    "super-smash-bros-n64-vita-battleship-port",
+    "super-solvers-gizmos-gadgets-win32-decomp",
+    "swingby-dxvk-moltenvk-32bit-d3d9",
+    "swingby-wine-apple-silicon",
+    "switch-metal-backend-maxwell-to-metal",
+    "switch-nvk",
+    "switchrecomp-early-research-framework",
+    "switchrecomp-nintendo-switch-static-recompiler",
+    "switchyard-wine-apple-silicon",
+    "syclomatic-cuda-to-sycl",
+    "syphon-filter-omega-strain-ps2-matching-decomp",
+    "system76-open-firmware-distribution",
+    "tasmota",
+    "tech-romancer-dreamcast-static-recomp",
+    "technics-kn5000-sx-wsa1r-firmware-reconstruction",
+    "tekken-tag-tournament-2-xbox360-windows-recomp",
+    "tengai-makyou-ii-nds-korean-localization",
+    "terrors-wonderswan-en-es",
+    "test-drive-unlimited-xbox360-recomp",
+    "test7800-atari-7800",
+    "tetris-game-boy-native-reimplementation",
+    "tetrisphere-blocksphere-pc-recomp",
+    "the-3rd-birthday-psp-windows-static-recomp",
+    "the-impossible-game-ps-vita-api-port",
+    "the-ledge-rpg-maker-mv-ps-vita-port",
+    "the-world-ends-with-you-nds-decomp",
+    "theme-hospital-enhanced-port",
+    "theme-park-world-mac-decomp",
+    "ti-84-ce-bos",
+    "tiger-woods-pga-tour-2004-gamecube-decomp",
+    "tokimeki-memorial-ps1-en-patch",
+    "tokyo-xtreme-racer-import-tuner-challenge-xbox360-recomp",
+    "tolkara-macos-app-runtime-ios",
+    "tombi-ps1-matching-decomp",
+    "tomodachi-life-us-3ds-decomp",
+    "touchhle-early-ios",
+    "touhou-7-perfect-cherry-blossom-switch-port",
+    "trackmania-nations-forever-android",
+    "turing-complete-ko",
+    "turok-2-seeds-of-evil-n64-pc-recomp",
+    "turok-rage-wars-n64-paxdino-recomp",
+    "turok-rage-wars-n64-windows-recomp",
+    "tvt-iptool-linux-tvt-camera-provisioning",
+    "twisted-metal-black-ps2-ntsc-u-decompilation",
+    "twisted-metal-harbor-city-ps2-elf-decompilation",
+    "twisted-metal-psone-classics-ps3-emulator-recomp",
+    "u-boot-boot-firmware",
+    "ubuntu-touch",
+    "ultimate-mortal-kombat-3-ios-decomp-pc-port",
+    "ultimate-spider-man-nds-decomp",
+    "undertale-demo-gml-source-extraction",
+    "unreal-v200-android-andiweli",
+    "urbz-sims-in-the-city-nds-decomp",
+    "urbz-sims-in-the-city-original-xbox-recomp",
+    "ut99-android-andiweli",
+    "utp-ut99-ios",
+    "uxplay-airplay-receiver-reimplementation",
+    "valdroid-valheim-android",
+    "vampire-savior-cps2-recomp",
+    "vectorcraft-adobe-illustrator",
+    "vib-ribbon-pal-ps1-decomp",
+    "vice-city-stories-switch-vcsnx",
+    "vigilante-8-arcade-xbla-windows-recomp",
+    "virtua-fighter-2-model2-cleanroom-decomp",
+    "virtua-racing-deluxe-32x-disasm",
+    "virtual-on-oratorio-tangram-xbla-recomp",
+    "virtual-pro-wrestling-64-n64-windows-recomp",
+    "virtualxt-pcxt",
+    "vitals-clone-macos-monitor-reconstruction",
+    "vkd3d-proton-macos-metalsharp",
+    "vkmt-arm64-wine-fex-macos",
+    "voland-switch-browser",
+    "wabbitemu-ti-calculator",
+    "wangan-midnight-ps3-en",
+    "wayne-gretzkys-3d-hockey-n64-pc-recomp",
+    "wcw-nwo-revenge-n64-windows-recomp",
+    "weave-win32-linux-compatibility-layer",
+    "wie-arm64-windows-pe64-user-emulator",
+    "wii-fit-plus-decomp",
+    "wiirecomp-wii-static-compiler",
+    "win32emu-win16-win32",
+    "winamp-linux-native-reimplementation",
+    "wind-waker-hd-android-enhanced-fork",
+    "wineforge-macos-wine-runtime",
+    "winerosetta-wow-instruction-shim",
+    "wipeout-pure-psp-static-recomp-native",
+    "wolfenstein-3d-n64-reimplementation",
+    "wonder-project-j2-n64-pc-recomp",
+    "wordcraft-microsoft-word",
+    "work-time-fun-psp-recomp",
+    "wwe-smackdown-vs-raw-2008-xbox360-pc-recomp",
+    "wwe-smackdown-vs-raw-2009-xbox360-recomp",
+    "wwe-smackdown-vs-raw-2010-xbox360-recomp",
+    "wwf-no-mercy-n64-windows-recomp",
+    "wwf-no-mercy-quest-3-vr-port",
+    "wwf-wrestlemania-2000-n64-windows-recomp",
+    "x-men-legends-original-xbox-windows-recomp",
+    "x360ce-controller-api-translation",
+    "x48-hp48-calculator",
+    "xacrett-common-archivers-library-reconstruction",
+    "xbox-mcpx-fancy-mouse-boot-rom",
+    "xbox-xbe-recompilation-sdk",
+    "xbox360recompandroid-emulator",
+    "xenia-edge-xbox-360",
+    "xenios-xbox360-apple",
+    "xenon-recomp-nimauria-framework",
+    "xidi-xinput-to-directinput",
+    "xubamp-winamp-29x-wayland-reimplementation",
+    "yakuza-dead-souls-ps3-recomp",
+    "yoda-stories-decomp-android",
+    "yokai-watch-busters-2-spanish-translation",
+    "yoru-tomosu-switch-en",
+    "yoshis-story-n64-decomp",
+    "yu-gi-oh-gx-spirit-caller-nds-decomp",
+    "yu-yu-hakusho-ankoku-bujutsukai-120-ps2-en",
+    "yurucamp-have-a-nice-day-switch-en",
+    "zenonia-2-ps-vita-api-port",
+    "zenonia-3-ps-vita-api-port",
+    "zenonia-4-ps-vita-api-port",
+    "zero-one-sp-gba-en",
+    "zill-oll-infinite-plus-psp-en",
+    "zluda-cuda-on-amd",
+    "zmk-wireless-keyboard-firmware",
+    "zoids-legacy-gba-decomp",
+    "zoids-legacy-gba-recomp",
+    "zomdroid-project-zomboid-android",
+    "zproot-prout-android-reimplementation"
+  ],
+  "out_of_scope_fan_localizations": [
+    {
+      "id": "10-yard-fight-nintendo-entertainment-system-portuguese",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "adventures-of-batman-and-robin-super-nintendo-spanish",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "alice-s-cottage-ii-pc-98-english",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "alien-soldier-sega-genesis-ukrainian",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "arcana-strikes-saturn-en",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/sega-xbox/new-projects.json"
+    },
+    {
+      "id": "atelier-lilie-plus-playstation-2-english",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "ballistix-pc-engine-supergrafx-portuguese",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "bishoujo-senshi-sailor-moon-game-boy-english",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "bloody-wolf-turbografx-16-portuguese",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "blue-wing-blitz-wonderswan-color-english",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "body-harvest-nintendo-64-spanish",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "bomberman-jetters-gba-english",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/fresh-localization/new-projects.json"
+    },
+    {
+      "id": "bram-stoker-s-dracula-nintendo-entertainment-system-ukrainian",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "buck-rogers-countdown-to-doomsday-sega-genesis-spanish",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "capcom-vs-snk-2-dc-en",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/sega-xbox/new-projects.json"
+    },
+    {
+      "id": "captain-america-and-the-avengers-game-boy-portuguese",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "captain-tsubasa-vol-ii-super-striker-plus-nintendo-entertainment-system-english-spanish",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "catrap-game-boy-portuguese",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "cb-chara-wars-snes-english",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/fresh-localization/new-projects.json"
+    },
+    {
+      "id": "chaos-field-dc-en",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/sega-xbox/new-projects.json"
+    },
+    {
+      "id": "columns-pc-engine-supergrafx-portuguese",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "cool-cool-toon-dc-en",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/sega-xbox/new-projects.json"
+    },
+    {
+      "id": "custom-robo-gx-gba-english",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/fresh-localization/new-projects.json"
+    },
+    {
+      "id": "cyber-doll-sega-saturn-english",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "dangan-game-boy-portuguese",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "dangan-gb2-game-boy-color-portuguese",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "darius-alpha-pc-engine-supergrafx-portuguese",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "dead-or-alive-saturn-en",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/sega-xbox/new-projects.json"
+    },
+    {
+      "id": "dead-or-alive-saturn-ru",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/sega-xbox/new-projects.json"
+    },
+    {
+      "id": "deadeus-game-boy-spanish-catalan",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "detective-conan-yuugure-no-koujo-wonderswan-color-english",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "devil-s-crush-pc-engine-supergrafx-portuguese",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "digi-charat-fantasy-dc-en",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/sega-xbox/new-projects.json"
+    },
+    {
+      "id": "digimon-card-game-ver-wonderswan-color-english",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "digital-monster-ver-s-digimon-tamers-sega-saturn-english",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "donkey-kong-3-the-great-counterattack-pc-88-english",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "donkey-kong-3-the-great-counterattack-sharp-x1-english",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "double-dragon-game-boy-portuguese",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "dracula-x-saturn-ultimate-en",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/sega-xbox/new-projects.json"
+    },
+    {
+      "id": "dragon-slayer-i-game-boy-portuguese",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "ds-telejan-arcade-english",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "evangelion-typing-advanced-dc-en",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/sega-xbox/new-projects.json"
+    },
+    {
+      "id": "evangelion-typing-project-e-dc-en",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/sega-xbox/new-projects.json"
+    },
+    {
+      "id": "eve-burst-error-pc-98-english",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "final-soldier-turbografx-16-portuguese",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "forza-horizon-6-indonesian-pc-localization",
+      "source_manifest": "work/research-2026-10-16/localizations-round3/new-projects.json"
+    },
+    {
+      "id": "fray-shugyou-hen-sega-game-gear-portuguese",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "fray-shugyou-hen-sega-game-gear-spanish",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "ganbare-goemon-2-nintendo-entertainment-system-spanish",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "gekisha-boy-pc-engine-supergrafx-portuguese",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "germs-nerawareta-machi-playstation-english",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "ghost-lion-nintendo-entertainment-system-spanish",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "ghost-sweeper-mikami-super-nintendo-english",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "gluk-the-thunder-warrior-nintendo-entertainment-system-portuguese",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "go-go-ackman-super-nintendo-spanish",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "gun-smoke-family-computer-disk-system-ukrainian",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "gun-smoke-nintendo-entertainment-system-ukrainian",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "hell-fighter-nintendo-entertainment-system-portuguese",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "high-seas-havoc-sega-genesis-spanish",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "innocent-tears-ogxbox-en",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/sega-xbox/new-projects.json"
+    },
+    {
+      "id": "innocent-tour-pc-98-english",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "into-the-eagle-s-nest-zx-spectrum-spanish",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "kid-niki-radical-ninja-nintendo-entertainment-system-portuguese",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "kimikiss-ps2-english-test-patch",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/fresh-localization/new-projects.json"
+    },
+    {
+      "id": "legend-of-oasis-story-of-thor-2-sega-saturn-spanish",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "linkle-liver-story-saturn-ru",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/sega-xbox/new-projects.json"
+    },
+    {
+      "id": "lock-n-chase-game-boy-portuguese",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "madou-monogatari-a-game-gear-ko",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/sega-xbox/new-projects.json"
+    },
+    {
+      "id": "madou-monogatari-i-game-gear-ko",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/sega-xbox/new-projects.json"
+    },
+    {
+      "id": "madou-monogatari-i-megadrive-ko",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/sega-xbox/new-projects.json"
+    },
+    {
+      "id": "madou-monogatari-ii-game-gear-ko",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/sega-xbox/new-projects.json"
+    },
+    {
+      "id": "madou-monogatari-iii-game-gear-ko",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/sega-xbox/new-projects.json"
+    },
+    {
+      "id": "madou-monogatari-saturn-en",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/sega-xbox/new-projects.json"
+    },
+    {
+      "id": "madou-monogatari-saturn-ko",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/sega-xbox/new-projects.json"
+    },
+    {
+      "id": "maniac-mansion-nintendo-entertainment-system-english",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "marchen-veil-family-computer-disk-system-spanish-catalan",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "medarot-card-robattle-rb-en-es",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/fresh-localization/new-projects.json"
+    },
+    {
+      "id": "meikyujima-labyrinth-island-arcade-english",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "meikyujima-labyrinth-island-nintendo-entertainment-system-english",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "mike-tyson-s-punch-out-nintendo-entertainment-system-spanish",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "mobile-golf-game-boy-color-english",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "monster-slider-saturn-en",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/sega-xbox/new-projects.json"
+    },
+    {
+      "id": "my-merry-may-playstation-2-english",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "nazo-puyo-arles-lu-game-gear-ko",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/sega-xbox/new-projects.json"
+    },
+    {
+      "id": "nikkis-travel-quiz-3ds-english",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/fresh-localization/new-projects.json"
+    },
+    {
+      "id": "ninku-saturn-en",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/sega-xbox/new-projects.json"
+    },
+    {
+      "id": "nobunaga-ambition-ds2-korean",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/fresh-localization/new-projects.json"
+    },
+    {
+      "id": "ogre-battle-saturn-en",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/sega-xbox/new-projects.json"
+    },
+    {
+      "id": "pac-man-neo-geo-pocket-color-spanish",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "pok-mon-crystal-version-game-boy-color-arabic",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "pok-mon-origin-heartgold-nintendo-ds-english",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "pokemon-unbound-de-german",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/fresh-localization/new-projects.json"
+    },
+    {
+      "id": "pokemon-unbound-indonesian",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/fresh-localization/new-projects.json"
+    },
+    {
+      "id": "pokemon-unbound-italian-revised-v7",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/fresh-localization/new-projects.json"
+    },
+    {
+      "id": "power-drift-saturn-en",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/sega-xbox/new-projects.json"
+    },
+    {
+      "id": "punch-out-nintendo-entertainment-system-spanish",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "puyo-puyo-da-dreamcast-ko",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/sega-xbox/new-projects.json"
+    },
+    {
+      "id": "puyo-puyon-dreamcast-ko",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/sega-xbox/new-projects.json"
+    },
+    {
+      "id": "ragnagard-saturn-en",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/sega-xbox/new-projects.json"
+    },
+    {
+      "id": "rance-4-1-save-the-medicine-plant-pc-98-english",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "rance-4-2-angel-army-pc-98-english",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "rance-ii-the-rebellious-maidens-pc-98-english",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "rance-the-quest-for-hikari-pc-98-english",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "retroid-game-boy-portuguese",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "riviera-the-promised-land-wonderswan-color-english",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "robbit-mon-dieu-playstation-english",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "robocop-3-sega-master-system-portuguese",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "robocop-3-sega-master-system-spanish",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "ronde-saturn-en",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/sega-xbox/new-projects.json"
+    },
+    {
+      "id": "sailor-moon-gb-english",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/fresh-localization/new-projects.json"
+    },
+    {
+      "id": "samurai-kid-game-boy-color-english",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "scramble-spirits-sega-master-system-portuguese",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "sd-gundam-operation-u-c-wonderswan-color-english",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "sd-gundam-world-gachapon-senshi-5-nintendo-entertainment-system-english",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "shadowrun-segacd-en",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/sega-xbox/new-projects.json"
+    },
+    {
+      "id": "shining-force-the-sword-of-hajya-sega-game-gear-spanish",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "shutoko-battle-x-xbox360-undub",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/sega-xbox/new-projects.json"
+    },
+    {
+      "id": "solar-striker-game-boy-portuguese",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "son-son-ii-pc-engine-supergrafx-portuguese",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "son-son-ii-pc-engine-supergrafx-spanish",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "splatterworld-nintendo-entertainment-system-spanish",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "spyro-the-dragon-japan-playstation-english",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "star-fox-64-nintendo-64-spanish",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "story-of-thor-2-saturn-ru",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/sega-xbox/new-projects.json"
+    },
+    {
+      "id": "summon-night-playstation-english",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "summon-night-swordcraft-story-3-stone-of-beginnings-game-boy-advance-english",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "sunsoft-grand-prix-game-boy-portuguese",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "super-breakout-game-boy-portuguese",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "super-double-dragon-return-of-the-double-dragon-plus-super-nintendo-spanish",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "super-mario-64-nintendo-64-spanish",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "super-robot-pinball-game-boy-color-english",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "super-soccer-super-nintendo-spanish",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "super-street-fighter-ii-turbo-revival-game-boy-advance-spanish",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "sword-of-vermilion-sega-genesis-spanish",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "tactics-ogre-saturn-en",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/sega-xbox/new-projects.json"
+    },
+    {
+      "id": "tactics-ogre-saturn-ru",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/sega-xbox/new-projects.json"
+    },
+    {
+      "id": "tama-adventurous-ball-in-giddy-labyrinth-sega-saturn-english",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "taromaru-saturn-en",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/sega-xbox/new-projects.json"
+    },
+    {
+      "id": "tarot-mystery-sfc-english",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/fresh-localization/new-projects.json"
+    },
+    {
+      "id": "team-innocent-pcfx-en",
+      "source_manifest": "work/research-2026-10-16/localizations-round3/new-projects.json"
+    },
+    {
+      "id": "the-addams-family-turbografx-cd-ukrainian",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "the-king-of-fighters-battle-de-paradise-neo-geo-pocket-color-english",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "the-legend-of-zelda-majora-s-mask-nintendo-64-spanish",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "the-legend-of-zelda-ocarina-of-time-nintendo-64-spanish",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "the-wizard-and-the-princess-fm-7-english",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "the-wizard-and-the-princess-pc-88-english",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "timeball-pc-engine-supergrafx-portuguese",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "triggerheart-exelica-dreamcast-en",
+      "source_manifest": "work/research-2026-10-16/localizations-round3/new-projects.json"
+    },
+    {
+      "id": "valhollian-saturn-ru",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/sega-xbox/new-projects.json"
+    },
+    {
+      "id": "vandal-hearts-saturn-en",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/sega-xbox/new-projects.json"
+    },
+    {
+      "id": "village-in-the-shade-steam-english",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/fresh-localization/new-projects.json"
+    },
+    {
+      "id": "waku-waku-puyo-puyo-dungeon-saturn-ko",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/sega-xbox/new-projects.json"
+    },
+    {
+      "id": "willy-wombat-saturn-en",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/sega-xbox/new-projects.json"
+    },
+    {
+      "id": "wondrous-magic-sfc-english",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/fresh-localization/new-projects.json"
+    },
+    {
+      "id": "x-card-of-fate-wonderswan-color-english",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "youchien-senki-madara-super-nintendo-english",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "ys-2-nintendo-entertainment-system-portuguese",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "ys-nintendo-entertainment-system-portuguese",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "yu-no-a-girl-that-chants-love-at-the-bound-of-this-world-pc-98-english",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "yunyun-syndrome-rhythm-psychosis-en-retranslation",
+      "source_manifest": "work/research-2026-10-16/localizations-round3/new-projects.json"
+    },
+    {
+      "id": "zanac-ai-family-computer-disk-system-ukrainian",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "zanac-nintendo-entertainment-system-ukrainian",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    },
+    {
+      "id": "zen-intergalactic-ninja-game-boy-portuguese",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/localizations/new-projects.json"
+    }
+  ],
+  "parent_reserved_exclusions": [
+    {
+      "id": "call-of-duty-future-warfare-xbox360-recomp",
+      "repository": "goshavindtburg/NX1recomp",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/web-sweep/project-additions.json",
+      "reason": "Reserved for parent-led direct GitHub/source audit; do not duplicate its manual addition."
+    },
+    {
+      "id": "dead-or-alive-3-xbox-windows-recomp",
+      "repository": "Parkerallan/doa3-recomp",
+      "source_manifest": "work/research-2026-10-16/goal-refresh/web-sweep/project-additions.json",
+      "reason": "Reserved for parent-led direct GitHub/source audit; do not duplicate its manual addition."
+    }
+  ],
+  "repeated_id_appearances": [
+    {
+      "id": "conker-bad-fur-day-vita-recomp",
+      "catalog_present": true,
+      "manifest_paths": [
+        "work/research-2026-10-16/console-crossports-round3/new-projects.json",
+        "work/research-2026-10-16/staging-reconcile/proposed-project-additions.json"
+      ]
+    },
+    {
+      "id": "vice-city-stories-switch-vcsnx",
+      "catalog_present": true,
+      "manifest_paths": [
+        "work/research-2026-10-16/console-crossports-round3/new-projects.json",
+        "work/research-2026-10-16/staging-reconcile/proposed-project-additions.json"
+      ]
+    },
+    {
+      "id": "jet-grind-radio-psp-port",
+      "catalog_present": true,
+      "manifest_paths": [
+        "work/research-2026-10-16/console-crossports-round3/new-projects.json",
+        "work/research-2026-10-16/staging-reconcile/proposed-project-additions.json"
+      ]
+    },
+    {
+      "id": "sonic-advance-2-vita-port",
+      "catalog_present": true,
+      "manifest_paths": [
+        "work/research-2026-10-16/console-crossports-round3/new-projects.json",
+        "work/research-2026-10-16/staging-reconcile/proposed-project-additions.json"
+      ]
+    },
+    {
+      "id": "mario-kart-64-vita-kart64",
+      "catalog_present": true,
+      "manifest_paths": [
+        "work/research-2026-10-16/console-crossports-round3/new-projects.json",
+        "work/research-2026-10-16/staging-reconcile/proposed-project-additions.json"
+      ]
+    },
+    {
+      "id": "super-mario-bros-nes-vita-static-recomp",
+      "catalog_present": true,
+      "manifest_paths": [
+        "work/research-2026-10-16/console-crossports-round3/new-projects.json",
+        "work/research-2026-10-16/staging-reconcile/proposed-project-additions.json"
+      ]
+    },
+    {
+      "id": "donkey-kong-64-decomp",
+      "catalog_present": true,
+      "manifest_paths": [
+        "work/research-2026-10-16/fresh-nintendo-round3/project-additions.json",
+        "work/research-2026-10-16/staging-reconcile/proposed-project-additions.json"
+      ]
+    },
+    {
+      "id": "rocket-robot-on-wheels-decomp",
+      "catalog_present": true,
+      "manifest_paths": [
+        "work/research-2026-10-16/fresh-nintendo-round3/project-additions.json",
+        "work/research-2026-10-16/staging-reconcile/proposed-project-additions.json"
+      ]
+    },
+    {
+      "id": "final-fantasy-iv-ii-snes-disassembly",
+      "catalog_present": true,
+      "manifest_paths": [
+        "work/research-2026-10-16/fresh-nintendo-round3/project-additions.json",
+        "work/research-2026-10-16/staging-reconcile/proposed-project-additions.json"
+      ]
+    },
+    {
+      "id": "dqmj1-nds-decomp",
+      "catalog_present": true,
+      "manifest_paths": [
+        "work/research-2026-10-16/fresh-nintendo-round3/project-additions.json",
+        "work/research-2026-10-16/staging-reconcile/proposed-project-additions.json"
+      ]
+    },
+    {
+      "id": "cave-story-ds-native-port",
+      "catalog_present": true,
+      "manifest_paths": [
+        "work/research-2026-10-16/fresh-nintendo-round3/project-additions.json",
+        "work/research-2026-10-16/staging-reconcile/proposed-project-additions.json"
+      ]
+    },
+    {
+      "id": "yunyun-syndrome-rhythm-psychosis-en-retranslation",
+      "catalog_present": false,
+      "manifest_paths": [
+        "work/research-2026-10-16/localizations-round3/new-projects.json",
+        "work/research-2026-10-16/staging-reconcile/manual-review-project-additions.json"
+      ]
+    },
+    {
+      "id": "triggerheart-exelica-dreamcast-en",
+      "catalog_present": false,
+      "manifest_paths": [
+        "work/research-2026-10-16/localizations-round3/new-projects.json",
+        "work/research-2026-10-16/staging-reconcile/manual-review-project-additions.json"
+      ]
+    },
+    {
+      "id": "team-innocent-pcfx-en",
+      "catalog_present": false,
+      "manifest_paths": [
+        "work/research-2026-10-16/localizations-round3/new-projects.json",
+        "work/research-2026-10-16/staging-reconcile/manual-review-project-additions.json"
+      ]
+    },
+    {
+      "id": "forza-horizon-6-indonesian-pc-localization",
+      "catalog_present": false,
+      "manifest_paths": [
+        "work/research-2026-10-16/localizations-round3/new-projects.json",
+        "work/research-2026-10-16/staging-reconcile/manual-review-project-additions.json"
+      ]
+    },
+    {
+      "id": "switchyard-wine-apple-silicon",
+      "catalog_present": true,
+      "manifest_paths": [
+        "work/research-2026-10-16/mac-translations-round3/new-projects.json",
+        "work/research-2026-10-16/staging-reconcile/proposed-project-additions.json"
+      ]
+    },
+    {
+      "id": "pomme-classic-mac-api",
+      "catalog_present": true,
+      "manifest_paths": [
+        "work/research-2026-10-16/mac-translations-round3/new-projects.json",
+        "work/research-2026-10-16/staging-reconcile/proposed-project-additions.json"
+      ]
+    },
+    {
+      "id": "avara-classic-mac-source-port",
+      "catalog_present": true,
+      "manifest_paths": [
+        "work/research-2026-10-16/mac-translations-round3/new-projects.json",
+        "work/research-2026-10-16/staging-reconcile/proposed-project-additions.json"
+      ]
+    },
+    {
+      "id": "nanosaur-classic-mac-source-port",
+      "catalog_present": true,
+      "manifest_paths": [
+        "work/research-2026-10-16/mac-translations-round3/new-projects.json",
+        "work/research-2026-10-16/staging-reconcile/proposed-project-additions.json"
+      ]
+    },
+    {
+      "id": "nanosaur2-classic-mac-source-port",
+      "catalog_present": true,
+      "manifest_paths": [
+        "work/research-2026-10-16/mac-translations-round3/new-projects.json",
+        "work/research-2026-10-16/staging-reconcile/proposed-project-additions.json"
+      ]
+    },
+    {
+      "id": "bugdom2-classic-mac-source-port",
+      "catalog_present": true,
+      "manifest_paths": [
+        "work/research-2026-10-16/mac-translations-round3/new-projects.json",
+        "work/research-2026-10-16/staging-reconcile/proposed-project-additions.json"
+      ]
+    },
+    {
+      "id": "billy-frontier-classic-mac-source-port",
+      "catalog_present": true,
+      "manifest_paths": [
+        "work/research-2026-10-16/mac-translations-round3/new-projects.json",
+        "work/research-2026-10-16/staging-reconcile/proposed-project-additions.json"
+      ]
+    },
+    {
+      "id": "quesa-quickdraw3d-reimplementation",
+      "catalog_present": true,
+      "manifest_paths": [
+        "work/research-2026-10-16/mac-translations-round3/new-projects.json",
+        "work/research-2026-10-16/staging-reconcile/proposed-project-additions.json"
+      ]
+    },
+    {
+      "id": "ultimate-spider-man-nds-decomp",
+      "catalog_present": true,
+      "manifest_paths": [
+        "work/research-next/continuation-games/evidence-index.json",
+        "work/research-next/continuation-games/new-projects.json"
+      ]
+    },
+    {
+      "id": "spyro-shadow-legacy-nds-decomp",
+      "catalog_present": true,
+      "manifest_paths": [
+        "work/research-next/continuation-games/evidence-index.json",
+        "work/research-next/continuation-games/new-projects.json"
+      ]
+    },
+    {
+      "id": "spider-man-web-of-shadows-nds-decomp",
+      "catalog_present": true,
+      "manifest_paths": [
+        "work/research-next/continuation-games/evidence-index.json",
+        "work/research-next/continuation-games/new-projects.json"
+      ]
+    },
+    {
+      "id": "simpsons-game-nds-decomp",
+      "catalog_present": true,
+      "manifest_paths": [
+        "work/research-next/continuation-games/evidence-index.json",
+        "work/research-next/continuation-games/new-projects.json"
+      ]
+    },
+    {
+      "id": "nintendogs-dachshund-nds-decomp",
+      "catalog_present": true,
+      "manifest_paths": [
+        "work/research-next/continuation-games/evidence-index.json",
+        "work/research-next/continuation-games/new-projects.json"
+      ]
+    },
+    {
+      "id": "mysims-nds-decomp",
+      "catalog_present": true,
+      "manifest_paths": [
+        "work/research-next/continuation-games/evidence-index.json",
+        "work/research-next/continuation-games/new-projects.json"
+      ]
+    },
+    {
+      "id": "livly-garden-nds-decomp",
+      "catalog_present": true,
+      "manifest_paths": [
+        "work/research-next/continuation-games/evidence-index.json",
+        "work/research-next/continuation-games/new-projects.json"
+      ]
+    },
+    {
+      "id": "lego-star-wars-ii-nds-decomp",
+      "catalog_present": true,
+      "manifest_paths": [
+        "work/research-next/continuation-games/evidence-index.json",
+        "work/research-next/continuation-games/new-projects.json"
+      ]
+    },
+    {
+      "id": "heroes-of-mana-nds-decomp",
+      "catalog_present": true,
+      "manifest_paths": [
+        "work/research-next/continuation-games/evidence-index.json",
+        "work/research-next/continuation-games/new-projects.json"
+      ]
+    },
+    {
+      "id": "harvest-moon-ds-nds-decomp",
+      "catalog_present": true,
+      "manifest_paths": [
+        "work/research-next/continuation-games/evidence-index.json",
+        "work/research-next/continuation-games/new-projects.json"
+      ]
+    },
+    {
+      "id": "farm-frenzy-nds-decomp",
+      "catalog_present": true,
+      "manifest_paths": [
+        "work/research-next/continuation-games/evidence-index.json",
+        "work/research-next/continuation-games/new-projects.json"
+      ]
+    },
+    {
+      "id": "fairy-tail-madoushi-nds-decomp",
+      "catalog_present": true,
+      "manifest_paths": [
+        "work/research-next/continuation-games/evidence-index.json",
+        "work/research-next/continuation-games/new-projects.json"
+      ]
+    },
+    {
+      "id": "dragon-ball-origins-nds-decomp",
+      "catalog_present": true,
+      "manifest_paths": [
+        "work/research-next/continuation-games/evidence-index.json",
+        "work/research-next/continuation-games/new-projects.json"
+      ]
+    },
+    {
+      "id": "cooking-mama-nds-decomp",
+      "catalog_present": true,
+      "manifest_paths": [
+        "work/research-next/continuation-games/evidence-index.json",
+        "work/research-next/continuation-games/new-projects.json"
+      ]
+    },
+    {
+      "id": "code-lyoko-nds-decomp",
+      "catalog_present": true,
+      "manifest_paths": [
+        "work/research-next/continuation-games/evidence-index.json",
+        "work/research-next/continuation-games/new-projects.json"
+      ]
+    },
+    {
+      "id": "powerpuff-girls-z-nds-decomp",
+      "catalog_present": true,
+      "manifest_paths": [
+        "work/research-next/continuation-games/evidence-index.json",
+        "work/research-next/continuation-games/new-projects.json"
+      ]
+    },
+    {
+      "id": "ratchet-and-clank-going-commando-ps2-decomp",
+      "catalog_present": true,
+      "manifest_paths": [
+        "work/research-next/continuation-games/evidence-index.json",
+        "work/research-next/continuation-games/new-projects.json"
+      ]
+    },
+    {
+      "id": "boku-doraemon-dreamcast-decomp",
+      "catalog_present": true,
+      "manifest_paths": [
+        "work/research-next/continuation-games/evidence-index.json",
+        "work/research-next/continuation-games/new-projects.json"
+      ]
+    },
+    {
+      "id": "sonic-adventure-dreamcast-decomp",
+      "catalog_present": true,
+      "manifest_paths": [
+        "work/research-next/continuation-games/evidence-index.json",
+        "work/research-next/continuation-games/new-projects.json"
+      ]
+    },
+    {
+      "id": "gran-turismo-4-ps2-matching-decomp",
+      "catalog_present": true,
+      "manifest_paths": [
+        "work/research-next/continuation-games/evidence-index.json",
+        "work/research-next/continuation-games/new-projects.json"
+      ]
+    },
+    {
+      "id": "san-francisco-rush-2049-n64-decomp",
+      "catalog_present": true,
+      "manifest_paths": [
+        "work/research-next/continuation-games/evidence-index.json",
+        "work/research-next/continuation-games/new-projects.json"
+      ]
+    },
+    {
+      "id": "zoids-legacy-gba-decomp",
+      "catalog_present": true,
+      "manifest_paths": [
+        "work/research-next/continuation-games/evidence-index.json",
+        "work/research-next/continuation-games/new-projects.json"
+      ]
+    },
+    {
+      "id": "fossil-fighters-nds-decomp",
+      "catalog_present": true,
+      "manifest_paths": [
+        "work/research-next/continuation-games/evidence-index.json",
+        "work/research-next/continuation-games/new-projects.json"
+      ]
+    },
+    {
+      "id": "cultures-die-saga-browser-wasm-recomp",
+      "catalog_present": true,
+      "manifest_paths": [
+        "work/research-next/continuation-games/evidence-index.json",
+        "work/research-next/continuation-games/new-projects.json"
+      ]
+    },
+    {
+      "id": "nocturne-windows-static-recompilation",
+      "catalog_present": true,
+      "manifest_paths": [
+        "work/research-next/continuation-games/evidence-index.json",
+        "work/research-next/continuation-games/new-projects.json"
+      ]
+    },
+    {
+      "id": "nana-ps2-decomp",
+      "catalog_present": true,
+      "manifest_paths": [
+        "work/research-next/continuation-games/evidence-index.json",
+        "work/research-next/continuation-games/new-projects.json"
+      ]
+    },
+    {
+      "id": "melee-unlocked-windows-source-port",
+      "catalog_present": true,
+      "manifest_paths": [
+        "work/research-next/continuation-games/evidence-index.json",
+        "work/research-next/continuation-games/new-projects.json"
+      ]
+    },
+    {
+      "id": "theme-hospital-enhanced-port",
+      "catalog_present": true,
+      "manifest_paths": [
+        "work/research-next/continuation-games/evidence-index.json",
+        "work/research-next/continuation-games/new-projects.json"
+      ]
+    },
+    {
+      "id": "cosmos-cosmic-adventure-native-source-port",
+      "catalog_present": true,
+      "manifest_paths": [
+        "work/research-next/continuation-games/evidence-index.json",
+        "work/research-next/continuation-games/new-projects.json"
+      ]
+    },
+    {
+      "id": "hercules-playstation-native-pc-recomp",
+      "catalog_present": true,
+      "manifest_paths": [
+        "work/research-next/continuation-games/evidence-index.json",
+        "work/research-next/continuation-games/new-projects.json"
+      ]
+    },
+    {
+      "id": "rugby-08-browser-wasm-recomp",
+      "catalog_present": true,
+      "manifest_paths": [
+        "work/research-next/continuation-games/evidence-index.json",
+        "work/research-next/continuation-games/new-projects.json"
+      ]
+    },
+    {
+      "id": "oot-n64-windows-recomp",
+      "catalog_present": true,
+      "manifest_paths": [
+        "work/research-next/continuation-games/evidence-index.json",
+        "work/research-next/continuation-games/new-projects.json"
+      ]
+    },
+    {
+      "id": "ultimate-mortal-kombat-3-ios-decomp-pc-port",
+      "catalog_present": true,
+      "manifest_paths": [
+        "work/research-next/continuation-games/evidence-index.json",
+        "work/research-next/continuation-games/new-projects.json"
+      ]
+    },
+    {
+      "id": "mystery-house-apple-ii-matching-decomp",
+      "catalog_present": true,
+      "manifest_paths": [
+        "work/research-next/continuation-games/evidence-index.json",
+        "work/research-next/continuation-games/new-projects.json"
+      ]
+    },
+    {
+      "id": "bloodborne-ps4-decomp-paleblood",
+      "catalog_present": true,
+      "manifest_paths": [
+        "work/research-next/continuation-games/evidence-index.json",
+        "work/research-next/continuation-games/new-projects.json"
+      ]
+    },
+    {
+      "id": "simpsons-game-xbox360-windows-powerpc-recomp-port",
+      "catalog_present": true,
+      "manifest_paths": [
+        "work/research-next/continuation-games/evidence-index.json",
+        "work/research-next/continuation-games/new-projects.json"
+      ]
+    },
+    {
+      "id": "turok-rage-wars-n64-windows-recomp",
+      "catalog_present": true,
+      "manifest_paths": [
+        "work/research-next/continuation-games/evidence-index.json",
+        "work/research-next/continuation-games/new-projects.json"
+      ]
+    },
+    {
+      "id": "wwf-no-mercy-n64-windows-recomp",
+      "catalog_present": true,
+      "manifest_paths": [
+        "work/research-next/continuation-games/evidence-index.json",
+        "work/research-next/continuation-games/new-projects.json"
+      ]
+    },
+    {
+      "id": "virtual-pro-wrestling-64-n64-windows-recomp",
+      "catalog_present": true,
+      "manifest_paths": [
+        "work/research-next/continuation-games/evidence-index.json",
+        "work/research-next/continuation-games/new-projects.json"
+      ]
+    },
+    {
+      "id": "wwf-wrestlemania-2000-n64-windows-recomp",
+      "catalog_present": true,
+      "manifest_paths": [
+        "work/research-next/continuation-games/evidence-index.json",
+        "work/research-next/continuation-games/new-projects.json"
+      ]
+    },
+    {
+      "id": "wcw-nwo-revenge-n64-windows-recomp",
+      "catalog_present": true,
+      "manifest_paths": [
+        "work/research-next/continuation-games/evidence-index.json",
+        "work/research-next/continuation-games/new-projects.json"
+      ]
+    }
+  ],
+  "manual_primary_source_additions": [
+    {
+      "id": "titanic-adventure-out-of-time-windows-decomp-port",
+      "repository": "https://github.com/operationostrich/DeTAOOT",
+      "reason": "Parent discovery; independently checked against primary README and current repository/language/license evidence."
+    },
+    {
+      "id": "dhinameptor-1-00-game-decomp",
+      "repository": "https://github.com/shidemuri/dhinameptor",
+      "reason": "Parent discovery; independently checked against primary README and current repository/language/license evidence."
+    },
+    {
+      "id": "touhou-4-lotus-land-story-pc98-source-reconstruction",
+      "repository": "https://github.com/N0zoM1z0/th04",
+      "reason": "Parent discovery; independently checked against primary README and current repository/language/license evidence."
+    },
+    {
+      "id": "touhou-9-phantasmagoria-of-flower-view-windows-source-reconstruction",
+      "repository": "https://github.com/N0zoM1z0/th09",
+      "reason": "Parent discovery; independently checked against primary README and current repository/language/license evidence."
+    }
+  ],
+  "canonical_repo_target_duplicates": []
+}

@@ -1,0 +1,60 @@
+{
+  "verified_at": "2026-10-16",
+  "scope": "Three new non-game firmware/software reconstruction records staged by goal-continuation-v2/software-apps.",
+  "records": [
+    {
+      "project_id": "uniden-r7-firmware-toolkit-decompilation",
+      "predominant_language": "JavaScript",
+      "language_breakdown_bytes": {
+        "JavaScript": 197469,
+        "Python": 131636,
+        "HTML": 41388,
+        "CSS": 33835,
+        "Java": 23333
+      },
+      "evidence_url": "https://api.github.com/repos/Ashwin-Iyer1/Uniden-Firmware-Decompilation-Tool/languages",
+      "evidence": "Official GitHub REST Languages API byte counts; JavaScript is the largest category in this repository snapshot. The project also contains substantial Python firmware-analysis tools.",
+      "verified_at": "2026-10-16",
+      "source_project_url": "https://github.com/Ashwin-Iyer1/Uniden-Firmware-Decompilation-Tool",
+      "repository": "Ashwin-Iyer1/Uniden-Firmware-Decompilation-Tool",
+      "candidate_manifest": "work/research-2026-10-16/goal-continuation-v2/software-apps/new-projects.json"
+    },
+    {
+      "project_id": "bcm5719-cleanroom-firmware-reimplementation",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 3216262,
+        "C++": 941117,
+        "Makefile": 182316,
+        "CMake": 129238,
+        "Shell": 46498,
+        "Assembly": 10396,
+        "Groovy": 4598,
+        "HTML": 2651,
+        "CSS": 1818,
+        "M4": 480,
+        "Python": 265
+      },
+      "evidence_url": "https://api.github.com/repos/meklort/bcm5719-fw/languages",
+      "evidence": "Official GitHub REST Languages API byte counts; C is the largest category in this repository snapshot. This repository-wide byte signal includes both firmware and host-side utilities.",
+      "verified_at": "2026-10-16",
+      "source_project_url": "https://github.com/meklort/bcm5719-fw",
+      "repository": "meklort/bcm5719-fw",
+      "candidate_manifest": "work/research-2026-10-16/goal-continuation-v2/software-apps/new-projects.json"
+    },
+    {
+      "project_id": "kowsi-kws-x1-standalone-firmware-reimplementation",
+      "predominant_language": "Rust",
+      "language_breakdown_bytes": {
+        "Rust": 762997,
+        "Linker Script": 3867
+      },
+      "evidence_url": "https://api.github.com/repos/kralonur/kws-x1-standalone-rs/languages",
+      "evidence": "Official GitHub REST Languages API byte counts; Rust is the largest category in this repository snapshot.",
+      "verified_at": "2026-10-16",
+      "source_project_url": "https://github.com/kralonur/kws-x1-standalone-rs",
+      "repository": "kralonur/kws-x1-standalone-rs",
+      "candidate_manifest": "work/research-2026-10-16/goal-continuation-v2/software-apps/new-projects.json"
+    }
+  ]
+}

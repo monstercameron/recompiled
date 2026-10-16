@@ -1,0 +1,28 @@
+# October 16 metadata merge audit
+
+This audit uses committed `main` at `c9661a08fb8f32526aa904bb0d0e1433e63dbb71` and the read-only `data/catalog.sqlite` snapshot: 2,298 projects, catalog metadata review date `2026-10-16`, SHA-256 `3dca20b061ef514387d1f6889708e6068f6304e8c8c57503d6ee0fd0e55b038f`. It follows `CONTRIBUTING.md` and the supported importers in `scripts/catalog.py`. The work products in this folder are ignored research artifacts. No tracked file, live database, docs file, or build output was changed.
+
+The combined importer-shaped project patch is [project-updates-recommended.json](project-updates-recommended.json). It contains 201 unique existing project IDs merged from 287 row appearances. Duplicate IDs and citations were collapsed; existing source labels were preserved. The manifest has 66 no-op source rows listed in [held-and-noop-rows.json](held-and-noop-rows.json), and 94 previously absent citations are added by the tested importer. No overlapping project field values conflict after normalizing `updated` to the review date. All emitted project field names are accepted by `import_project_updates`.
+
+`projects.updated` is a review date. I set included rows to `2026-10-16` where the staged proposal or existing value contained a release/push timestamp or older review date, while keeping upstream activity dates in status text and source labels. This resolves the staged Hatari activity-date value and overlapping timestamp fields without treating upstream commits as catalog review dates. The project patch does not write `programming_language`; that field and its evidence table row are handled by the separate canonical language importer.
+
+The 184-row subtype hydration batch fills source-backed blank subtype values. Its accompanying primary-source review supports those values. Two additional blank subtype candidates stay held: `kingdom-hearts-chain-of-memories-recomp` and `rayman2-n64-recomp`; the current repository and README endpoints returned 404, so there is no current primary evidence for either subtype.
+
+Other actionable project content includes the four API-translation updates (ANGLE, d3d8to9, Proton, MoltenVK), the Xemu stable-versus-development release distinction, Ymir platform and BIOS requirements, four GameCube/Wii status/platform updates, and two PC/mobile port rows. Status hydration distinguishes releases from repository activity and keeps uncertain maintenance cadence explicit. Source URLs are carried by each output row. The 53-row metadata-gap package, 5-row fresh-status package, 3-row fresh-handheld package, 2 GitHub-broad status rows, and the handheld, macOS-translation, and N64 single-row packages are no-ops against current fields, citations, and review date.
+
+The language scan found 308 candidate occurrences across 304 unique IDs. It recommends 26 current-project evidence records in [programming-languages-recommended.json](programming-languages-recommended.json): 25 predominant-language API snapshots and one improved empty-map result for the Yo-kai Watch Busters 2 Spanish translation, whose earlier evidence only reported a rate-limit failure. The two duplicate current-project unknowns for Counter-Strike and Metal Gear Solid Integral resolve to the newer, canonical Languages API results. 79 existing-project candidates already match all stored language fields, byte maps, citations, evidence, verification dates, and unknown reasons. A Samba GitHub mirror candidate is held because the catalog points at the official GitLab source and its current language evidence already matches.
+
+The other 198 language IDs are absent from the current project table and are held until their project additions are accepted. That count includes all 19 current fresh Nintendo-home project/language proposals. Two absent emulator candidates have conflicting snapshots: OP-1 Emulator reports 427,376 versus 429,774 C++ bytes, and SSI-263 reports 2,340,826 versus 2,342,411 C bytes. They remain held; re-fetch their canonical Languages endpoints after the project additions rather than selecting a stale byte map. Full variants and reasons are recorded in the held-row JSON.
+
+The two existing game-profile batches contain 46 unique keys and 180 facts; every proposed fact exactly matches the current game-fact value, evidence, source, and verification date. Since the canonical game-profile importer replaces the complete fact set for each listed key, both batches are no-ops and were not placed in an import manifest. The web-sweep Call of Duty: Future Warfare profile (four facts) is held because its game key and linked project addition are absent from the current catalog.
+
+The disposable-copy test imported the 201 project rows followed by 26 language records using the repository importer functions. It passed SQLite `integrity_check`, had no foreign-key violations, kept project/game counts at 2,298/1,433, set the catalog review date, and added the expected 94 source rows. The main database SHA-256 was identical before and after testing. The temporary copy was deleted after the test.
+
+If adopted after the prerequisite project additions, use the repository's canonical importers in this order:
+
+```sh
+python3 scripts/catalog.py import-project-updates work/research-2026-10-16/goal-refresh/continuation-next-metadata/project-updates-recommended.json
+python3 scripts/catalog.py import-programming-languages work/research-2026-10-16/goal-refresh/continuation-next-metadata/programming-languages-recommended.json
+```
+
+No import was run on the live catalog. [prepare_audit.py](prepare_audit.py) reproduces the manifests and temporary-copy validation against the current staged inputs.

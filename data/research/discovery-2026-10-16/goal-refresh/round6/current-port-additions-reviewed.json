@@ -1,0 +1,376 @@
+{
+  "updated": "2026-10-16",
+  "scope": "Source-verified game-specific static recompilation and Android-binary compatibility ports absent from the catalog and prior research manifests checked on 2026-10-16. Target builds, original game versions, status limits, and source/asset boundaries follow project-maintainer documentation. GitHub pushed_at dates are activity snapshots, not project start dates.",
+  "projects": [
+    {
+      "id": "space-channel-5-usa-dreamcast-static-recompilation",
+      "title": "Space Channel 5 Native (Dreamcast recompilation)",
+      "game": "Space Channel 5 (USA Dreamcast supported GDI revision)",
+      "target_type": "Game",
+      "platform": "USA Dreamcast GDI revision → Windows x64, Linux x64/ARM64, macOS Intel/Apple Silicon",
+      "kind": "Recompilation",
+      "status": "Preview release v0.1.0-preview.2 (2026-09-17). The README reports Windows gameplay and regression testing, and Linux/macOS build and runtime checks; hands-on Linux/macOS gameplay, graphics, audio, and controller testing remains pending. The importer accepts only the supported USA Dreamcast GDI revision, identified by executable hashes; other regions, revisions, and disc formats are unsupported. GitHub reports the repository is not archived and was last pushed 2026-09-17.",
+      "summary": "Unofficial native desktop port of the USA Dreamcast game. Its SH-4 game code is translated ahead of time into native modules, with no SH-4 interpreter or dynamic-recompiler fallback; Flycast provides device, rendering, and audio components. The player supplies the supported USA GDI and track files.",
+      "project_url": "https://github.com/ZoomiesZaggy/Space-Channel-5",
+      "updated": "2026-10-16",
+      "strategy": "Ahead-of-time static recompilation of Dreamcast SH-4 game code into native modules, with Flycast used for device, rendering, and audio components",
+      "programming_language": "C",
+      "source_available": "Public GPL-2.0-or-later source. The preview release includes precompiled native modules but no original disc assets; users must supply a supported USA Dreamcast GDI and its tracks.",
+      "subtype": "Dreamcast static recompilation to desktop",
+      "license": "GPL-2.0-or-later",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "sources": [
+        {
+          "label": "Maintainer README: supported revision, translated SH-4 code, platform checks, preview status, and user-supplied disc requirement",
+          "url": "https://github.com/ZoomiesZaggy/Space-Channel-5#readme"
+        },
+        {
+          "label": "Preview release v0.1.0-preview.2 and platform packages",
+          "url": "https://github.com/ZoomiesZaggy/Space-Channel-5/releases/tag/v0.1.0-preview.2"
+        },
+        {
+          "label": "GitHub repository metadata: license, archive state, and last push",
+          "url": "https://api.github.com/repos/ZoomiesZaggy/Space-Channel-5"
+        },
+        {
+          "label": "GitHub Languages API byte totals",
+          "url": "https://api.github.com/repos/ZoomiesZaggy/Space-Channel-5/languages"
+        }
+      ]
+    },
+    {
+      "id": "modern-combat-3-fallen-nation-linux-arm-port",
+      "title": "Modern Combat 3: Fallen Nation Linux ARM Port",
+      "game": "Modern Combat 3: Fallen Nation (Android v1.1.7g)",
+      "target_type": "Game",
+      "platform": "Android v1.1.7g → Linux ARM handhelds through PortMaster",
+      "kind": "API Translation",
+      "status": "Work in progress; the maintainer reports the campaign runs on hardware and documents testing on an R36S-class device. A pause-menu mission-restart crash remains. PortMaster release v1.0.4 is available; GitHub reports the repository is not archived and was last pushed 2026-08-12.",
+      "summary": "Runs the original Android game on ARM Linux handhelds by loading its native game binary through a Bionic/JNI compatibility layer, without an Android runtime or emulator. Users provide the v1.1.7g APK and both OBB expansion files; the port imports and validates them at first launch.",
+      "project_url": "https://github.com/EapRules/mc3-native-arm",
+      "updated": "2026-10-16",
+      "strategy": "Android Bionic/JNI API translation and native-library loading for ARM Linux handhelds",
+      "programming_language": "C++",
+      "source_available": "Public GPL-3.0 source and PortMaster package; no game binary or assets are included. Users supply the supported v1.1.7g APK and OBB files.",
+      "subtype": "Android binary compatibility port to ARM Linux handhelds",
+      "license": "GPL-3.0",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "sources": [
+        {
+          "label": "Maintainer README: v1.1.7g target, Bionic/JNI method, hardware status, and known restart crash",
+          "url": "https://github.com/EapRules/mc3-native-arm#readme"
+        },
+        {
+          "label": "PortMaster release v1.0.4",
+          "url": "https://github.com/EapRules/mc3-native-arm/releases/tag/v1.0.4"
+        },
+        {
+          "label": "GitHub repository metadata: license, archive state, and last push",
+          "url": "https://api.github.com/repos/EapRules/mc3-native-arm"
+        },
+        {
+          "label": "GitHub Languages API byte totals",
+          "url": "https://api.github.com/repos/EapRules/mc3-native-arm/languages"
+        }
+      ]
+    },
+    {
+      "id": "nova-3-linux-arm-port",
+      "title": "N.O.V.A. 3 Linux ARM Port",
+      "game": "N.O.V.A. 3: Near Orbit Vanguard Alliance (Android v1.0.7)",
+      "target_type": "Game",
+      "platform": "Android v1.0.7 → Linux ARM handhelds through PortMaster",
+      "kind": "API Translation",
+      "status": "The maintainer reports the campaign playable on hardware, developed and tested on an R36S running ArkOS; the README also records a community report for RG35XXH/Knulli. PortMaster release v1.0.5 is available. GitHub reports the repository is not archived and was last pushed 2026-08-12.",
+      "summary": "Runs the original Android game on ARM Linux handhelds by loading its native library through a Bionic/JNI compatibility layer, without an Android runtime or emulator. Users supply the v1.0.7 APK and both OBB expansion files.",
+      "project_url": "https://github.com/EapRules/nova3-native-arm",
+      "updated": "2026-10-16",
+      "strategy": "Android Bionic/JNI API translation and native-library loading for ARM Linux handhelds",
+      "programming_language": "C++",
+      "source_available": "Public GPL-3.0 source and PortMaster package; no game binary or assets are included. Users supply the supported v1.0.7 APK and OBB files.",
+      "subtype": "Android binary compatibility port to ARM Linux handhelds",
+      "license": "GPL-3.0",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "sources": [
+        {
+          "label": "Maintainer README: v1.0.7 target, Bionic/JNI method, campaign status, and tested devices",
+          "url": "https://github.com/EapRules/nova3-native-arm#readme"
+        },
+        {
+          "label": "PortMaster release v1.0.5",
+          "url": "https://github.com/EapRules/nova3-native-arm/releases/tag/v1.0.5"
+        },
+        {
+          "label": "GitHub repository metadata: license, archive state, and last push",
+          "url": "https://api.github.com/repos/EapRules/nova3-native-arm"
+        },
+        {
+          "label": "GitHub Languages API byte totals",
+          "url": "https://api.github.com/repos/EapRules/nova3-native-arm/languages"
+        }
+      ]
+    },
+    {
+      "id": "mass-effect-infiltrator-linux-arm-port",
+      "title": "Mass Effect Infiltrator Linux ARM Port",
+      "game": "Mass Effect Infiltrator mobile (Android v1.0.58 gamepad build)",
+      "target_type": "Game",
+      "platform": "Android v1.0.58 gamepad build → Linux ARM handhelds through PortMaster",
+      "kind": "API Translation",
+      "status": "Work in progress. The maintainer's immutable qemu-arm/llvmpipe harness reaches milestone M7/7 with content loading, rendering, synthetic input, and scene changes; textures were also confirmed on an R36S Mali-G31. Audio output, camera gestures, saves, and a complete hardware play-through still need device testing. PortMaster release v1.0.7 is available; GitHub reports the repository is not archived and was last pushed 2026-08-12.",
+      "summary": "Loads the original Android game library in a Bionic/JNI compatibility layer on Linux ARM handhelds, without an Android runtime or emulator. Targets the v1.0.58 gamepad package; users provide the APK or extracted game data.",
+      "project_url": "https://github.com/EapRules/masseffect-native-arm",
+      "updated": "2026-10-16",
+      "strategy": "Android Bionic/JNI API translation and native-library loading for Linux ARM handhelds",
+      "programming_language": "C++",
+      "source_available": "Public GPL-3.0 source and PortMaster package; the repository contains no EA binary or game assets. The supported donor is the user-provided v1.0.58 gamepad build.",
+      "subtype": "Android binary compatibility port to ARM Linux handhelds",
+      "license": "GPL-3.0",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "sources": [
+        {
+          "label": "Maintainer README: exact v1.0.58 build, Bionic/JNI method, harness progress, and hardware-test limits",
+          "url": "https://github.com/EapRules/masseffect-native-arm#readme"
+        },
+        {
+          "label": "PortMaster release v1.0.7",
+          "url": "https://github.com/EapRules/masseffect-native-arm/releases/tag/v1.0.7"
+        },
+        {
+          "label": "GitHub repository metadata: license, archive state, and last push",
+          "url": "https://api.github.com/repos/EapRules/masseffect-native-arm"
+        },
+        {
+          "label": "GitHub Languages API byte totals",
+          "url": "https://api.github.com/repos/EapRules/masseffect-native-arm/languages"
+        }
+      ]
+    },
+    {
+      "id": "dead-space-mobile-linux-arm-port",
+      "title": "Dead Space Mobile Linux ARM Port",
+      "game": "Dead Space Mobile (Xperia Play Android v1.1.33)",
+      "target_type": "Game",
+      "platform": "Xperia Play v1.1.33 Android build → Linux ARM handhelds through PortMaster",
+      "kind": "API Translation",
+      "status": "Work in progress. The maintainer's immutable qemu-arm/llvmpipe harness reaches milestone M7/7 with content loading, rendering, synthetic input, and scene changes; textures were also confirmed on an R36S Mali-G31. Audio output, camera gestures, saves, and a complete hardware play-through still need device testing. The README says a separate ETC1 data package currently reaches gameplay with black models and is unsupported. PortMaster release v1.2.8 is available; GitHub reports the repository is not archived and was last pushed 2026-08-12.",
+      "summary": "Loads the original Xperia Play Android game library in a Bionic/JNI compatibility layer on Linux ARM handhelds, without an Android runtime or emulator. The project accepts the supported v1.1.33 donor and a documented reduced donor; users provide the game binary and assets.",
+      "project_url": "https://github.com/EapRules/deadspace-native-arm",
+      "updated": "2026-10-16",
+      "strategy": "Android Bionic/JNI API translation and native-library loading for Linux ARM handhelds",
+      "programming_language": "C++",
+      "source_available": "Public GPL-3.0 source and PortMaster package; the repository contains no EA binary or game assets. Users provide a supported Xperia Play v1.1.33 copy.",
+      "subtype": "Android binary compatibility port to ARM Linux handhelds",
+      "license": "GPL-3.0",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "sources": [
+        {
+          "label": "Maintainer README: exact Xperia Play v1.1.33 target, Bionic/JNI method, harness progress, and unsupported data variant",
+          "url": "https://github.com/EapRules/deadspace-native-arm#readme"
+        },
+        {
+          "label": "PortMaster release v1.2.8",
+          "url": "https://github.com/EapRules/deadspace-native-arm/releases/tag/v1.2.8"
+        },
+        {
+          "label": "GitHub repository metadata: license, archive state, and last push",
+          "url": "https://api.github.com/repos/EapRules/deadspace-native-arm"
+        },
+        {
+          "label": "GitHub Languages API byte totals",
+          "url": "https://api.github.com/repos/EapRules/deadspace-native-arm/languages"
+        }
+      ]
+    },
+    {
+      "id": "real-racing-3-linux-arm-port",
+      "title": "Real Racing 3 Linux ARM Port",
+      "game": "Real Racing 3 (Android v2.7.0 ROW build)",
+      "target_type": "Game",
+      "platform": "Android v2.7.0 ROW, armeabi-v7a → Linux ARM handhelds through PortMaster",
+      "kind": "API Translation",
+      "status": "The maintainer reports the game playable, including front-end, 3D scene, gamepad, and sound; performance is roughly 15–20 FPS on RK3326-class handhelds. The target requires about 2.4 GB of old game data that the README says can no longer be downloaded from the origin. PortMaster release v1.0.6 is available; GitHub reports the repository is not archived and was last pushed 2026-08-12.",
+      "summary": "Loads the original Android native library through a Bionic/JNI compatibility layer on Linux ARM handhelds without an Android runtime or emulator. It targets the v2.7.0 ROW build and validates the regions it patches; users must supply the APK and complete legacy data directory.",
+      "project_url": "https://github.com/EapRules/realracing3-native-arm",
+      "updated": "2026-10-16",
+      "strategy": "Android Bionic/JNI API translation and native-library loading for Linux ARM handhelds",
+      "programming_language": "C++",
+      "source_available": "Public GPL-3.0 source and PortMaster package; no EA binary or game assets are included. A user-provided v2.7.0 APK and roughly 2.4 GB data directory are required; the README says the old data is no longer downloadable from the origin.",
+      "subtype": "Android binary compatibility port to ARM Linux handhelds",
+      "license": "GPL-3.0",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "sources": [
+        {
+          "label": "Maintainer README: exact v2.7.0 ROW target, Bionic/JNI method, playability, performance, and unavailable legacy data",
+          "url": "https://github.com/EapRules/realracing3-native-arm#readme"
+        },
+        {
+          "label": "PortMaster release v1.0.6",
+          "url": "https://github.com/EapRules/realracing3-native-arm/releases/tag/v1.0.6"
+        },
+        {
+          "label": "GitHub repository metadata: license, archive state, and last push",
+          "url": "https://api.github.com/repos/EapRules/realracing3-native-arm"
+        },
+        {
+          "label": "GitHub Languages API byte totals",
+          "url": "https://api.github.com/repos/EapRules/realracing3-native-arm/languages"
+        }
+      ]
+    },
+    {
+      "id": "lego-star-wars-complete-saga-switch-android-wrapper",
+      "title": "LEGO Star Wars: The Complete Saga Switch Port",
+      "game": "LEGO Star Wars: The Complete Saga (Android v2.0.2.02, build 20202)",
+      "target_type": "Game",
+      "platform": "Android v2.0.2.02 (build 20202) → Nintendo Switch homebrew",
+      "kind": "API Translation",
+      "status": "Switch NRO release 1.0.3 is available. The maintainer's changelog reports audio and controller fixes, and the README identifies the game's save location; it makes no whole-game completion claim. GitHub reports the repository is not archived and was last pushed 2026-08-09.",
+      "summary": "A Switch wrapper/port that loads and patches the original Android game binary inside a minimal Android-like environment. Users extract libTTapp.so and the game data files from their own v2.0.2.02 copy; original game code and assets are not distributed.",
+      "project_url": "https://github.com/NaGaa95/lswtcs_nx",
+      "updated": "2026-10-16",
+      "strategy": "Android native-binary loading, patching, and API compatibility wrapper for Nintendo Switch homebrew",
+      "programming_language": "C",
+      "source_available": "Public MIT source; vendored OpenSL ES code is Apache-2.0. The repository and release do not include original game code or assets; users must provide a legal v2.0.2.02 copy.",
+      "subtype": "Android binary compatibility port to Nintendo Switch",
+      "license": "MIT (vendored OpenSL ES is Apache-2.0)",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "sources": [
+        {
+          "label": "Maintainer README: exact Android build, wrapper method, required user files, and save location",
+          "url": "https://github.com/NaGaa95/lswtcs_nx#readme"
+        },
+        {
+          "label": "Switch NRO release 1.0.3 and changelog",
+          "url": "https://github.com/NaGaa95/lswtcs_nx/releases/tag/1.0.3"
+        },
+        {
+          "label": "GitHub repository metadata: license, archive state, and last push",
+          "url": "https://api.github.com/repos/NaGaa95/lswtcs_nx"
+        },
+        {
+          "label": "GitHub Languages API byte totals",
+          "url": "https://api.github.com/repos/NaGaa95/lswtcs_nx/languages"
+        }
+      ]
+    },
+    {
+      "id": "ys-chronicles-1-switch-android-wrapper",
+      "title": "Ys Chronicles 1 Switch Port",
+      "game": "Ys Chronicles 1 (Android release; exact app version not stated)",
+      "target_type": "Game",
+      "platform": "Android arm64-v8a app package com.dotemu.ys1x → Nintendo Switch homebrew",
+      "kind": "API Translation",
+      "status": "Switch NRO release v0.2 is available. Its changelog reports memory, text rendering, and dialog interaction fixes; the README still notes occasional diagonal movement during fast direction changes and does not claim full-game completion. GitHub reports the repository is not archived and was last pushed 2026-07-29.",
+      "summary": "Loads the original Android arm64 game library and dependencies through a custom ELF loader, Bionic shims, and a fake JNI layer on Nintendo Switch. It reconstructs touch input from Switch controls and supplies a native text-rendering bridge. Users provide the APK and both OBB files; the wrapper source contains no proprietary binaries or assets.",
+      "project_url": "https://github.com/DI4VOLO-dev/ys1x_nx",
+      "updated": "2026-10-16",
+      "strategy": "Android arm64 native-binary loading with Bionic/JNI compatibility and replacement text/touch bridges for Nintendo Switch",
+      "programming_language": "C",
+      "source_available": "Public MIT wrapper source and Switch NRO release; no game assets, libraries, APK, OBBs, or proprietary binaries are distributed.",
+      "subtype": "Android binary compatibility port to Nintendo Switch",
+      "license": "MIT",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "sources": [
+        {
+          "label": "Maintainer README: ARM64 target, loader/shims, touch and text bridges, user-provided files, and known issue",
+          "url": "https://github.com/DI4VOLO-dev/ys1x_nx#readme"
+        },
+        {
+          "label": "Switch NRO release v0.2 and changelog",
+          "url": "https://github.com/DI4VOLO-dev/ys1x_nx/releases/tag/v0.2"
+        },
+        {
+          "label": "GitHub repository metadata: license, archive state, and last push",
+          "url": "https://api.github.com/repos/DI4VOLO-dev/ys1x_nx"
+        },
+        {
+          "label": "GitHub Languages API byte totals",
+          "url": "https://api.github.com/repos/DI4VOLO-dev/ys1x_nx/languages"
+        }
+      ]
+    },
+    {
+      "id": "subway-surfers-switch-android-wrapper",
+      "title": "Subway Surfers Switch Port",
+      "game": "Subway Surfers (Android v3.66.1, ARM64, Unity 2022.3 IL2CPP)",
+      "target_type": "Game",
+      "platform": "Android v3.66.1 ARM64 Unity IL2CPP build → Nintendo Switch homebrew",
+      "kind": "API Translation",
+      "status": "Switch NRO release 1.0.3 is available. Its changelog reports docked-display and menu/shop navigation fixes; the README documents first-launch validation and asset repacking but makes no full-game completion claim. GitHub reports the repository is not archived and was last pushed 2026-08-03.",
+      "summary": "Loads the original Android Unity/IL2CPP native binaries, resolves imports against Switch implementations, and patches them to run inside a minimal Android-compatible environment. Users extract the complete contents of their own v3.66.1 ARM64 APK; game binaries and assets are not included.",
+      "project_url": "https://github.com/NaGaa95/subwaysurfers_nx",
+      "updated": "2026-10-16",
+      "strategy": "Android ARM64 native-binary import resolution and compatibility wrapper for Nintendo Switch",
+      "programming_language": "C",
+      "source_available": "Public MIT source and Switch NRO release; no original game assets or program code are distributed.",
+      "subtype": "Android binary compatibility port to Nintendo Switch",
+      "license": "MIT",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "sources": [
+        {
+          "label": "Maintainer README: v3.66.1 ARM64/Unity target, loader method, user-provided APK, and asset processing",
+          "url": "https://github.com/NaGaa95/subwaysurfers_nx#readme"
+        },
+        {
+          "label": "Switch NRO release 1.0.3 and changelog",
+          "url": "https://github.com/NaGaa95/subwaysurfers_nx/releases/tag/1.0.3"
+        },
+        {
+          "label": "GitHub repository metadata: license, archive state, and last push",
+          "url": "https://api.github.com/repos/NaGaa95/subwaysurfers_nx"
+        },
+        {
+          "label": "GitHub Languages API byte totals",
+          "url": "https://api.github.com/repos/NaGaa95/subwaysurfers_nx/languages"
+        }
+      ]
+    },
+    {
+      "id": "angry-birds-journey-switch-android-wrapper",
+      "title": "Angry Birds Journey Switch Port",
+      "game": "Angry Birds Journey (Android ARM64 v3.8.4, Unity 2022.3.67f2)",
+      "target_type": "Game",
+      "platform": "Android ARM64 v3.8.4 → Nintendo Switch homebrew",
+      "kind": "API Translation",
+      "status": "Initial Switch NRO release 1.0.0 is available. The README documents version validation and asset repacking but provides no explicit gameplay or completion claim. GitHub reports the repository is not archived and was last pushed 2026-08-06.",
+      "summary": "Wraps the original Android ARM64 game's native code in an Android compatibility layer for Nintendo Switch. Users provide their v3.8.4 APK and extract its contents; the source and release do not include original game code or assets.",
+      "project_url": "https://github.com/NaGaa95/angrybirdsjourney_nx",
+      "updated": "2026-10-16",
+      "strategy": "Android ARM64 native-binary compatibility wrapper for Nintendo Switch",
+      "programming_language": "C",
+      "source_available": "Public MIT wrapper source and Switch NRO release; original Rovio libraries and game assets are not distributed.",
+      "subtype": "Android binary compatibility port to Nintendo Switch",
+      "license": "MIT",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "sources": [
+        {
+          "label": "Maintainer README: exact v3.8.4 ARM64/Unity target, compatibility wrapper, and user-provided files",
+          "url": "https://github.com/NaGaa95/angrybirdsjourney_nx#readme"
+        },
+        {
+          "label": "Initial Switch NRO release 1.0.0",
+          "url": "https://github.com/NaGaa95/angrybirdsjourney_nx/releases/tag/1.0.0"
+        },
+        {
+          "label": "GitHub repository metadata: license, archive state, and last push",
+          "url": "https://api.github.com/repos/NaGaa95/angrybirdsjourney_nx"
+        },
+        {
+          "label": "GitHub Languages API byte totals",
+          "url": "https://api.github.com/repos/NaGaa95/angrybirdsjourney_nx/languages"
+        }
+      ]
+    }
+  ]
+}

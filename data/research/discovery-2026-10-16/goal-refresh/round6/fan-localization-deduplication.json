@@ -1,0 +1,65 @@
+{
+  "verified_at": "2026-10-16",
+  "authoritative_catalog": "/Users/earlcameron/Desktop/recompiled/data/catalog.sqlite",
+  "catalog_metadata_updated": "2026-10-16",
+  "catalog_project_rows_checked": 2298,
+  "staged_addition_count": 18,
+  "staged_metadata_update_count": 2,
+  "checks": {
+    "new_project_ids_checked": 18,
+    "exact_id_collisions": 0,
+    "project_and_repository_urls_checked_against_project_urls_and_sources_rows": true,
+    "exact_project_or_repository_url_collisions": 0,
+    "exact_normalized_title_collisions": 0,
+    "exact_normalized_game_platform_collisions": 0,
+    "existing_updates_match_catalog_ids": 2,
+    "preexisting_data_and_work_text_manifests_scanned": 250,
+    "preexisting_manifest_id_or_repository_url_hits": 0,
+    "scanned_manifest_extensions": [".json", ".jsonl", ".csv", ".md", ".txt", ".yaml", ".yml"]
+  },
+  "method": "Opened the authoritative SQLite database read-only. Compared candidate IDs, exact project URLs and repository/source URLs against the project and sources tables. Normalized title and game/platform checks were case-insensitive, Unicode-normalized and punctuation-insensitive. Scanned all existing data/ and work/ text/manifest files for candidate IDs and exact project/repository URLs; excluded this staging directory.",
+  "prior_candidate_manifest_revalidation": [
+    {
+      "path": "work/research-next/fan-localizations/candidates.json",
+      "candidate_count": 17,
+      "current_catalog_id_repository_title_game_platform_hits": 0,
+      "cross_manifest_exact_id_or_repository_url_hits": 0,
+      "result": "All 17 remain absent from the current catalog and have no exact ID/repository URL copies in other manifests. They remain staged in this prior candidate file and were not copied into this refresh."
+    },
+    {
+      "path": "work/research-latest/12-fan-localization/candidates.json",
+      "candidate_count": 13,
+      "current_catalog_id_repository_title_game_platform_hits": 13,
+      "cross_manifest_exact_id_or_repository_url_hits": 8,
+      "result": "All 13 match current catalog rows and are not restaged. Eight IDs or source URLs are also referenced by the adjacent coverage notes, which are review notes rather than duplicate candidate batches."
+    },
+    {
+      "path": "work/research-2026-10-16/next-wave/localizations/new-projects.json",
+      "candidate_count": 12,
+      "current_catalog_id_repository_title_game_platform_hits": 0,
+      "cross_manifest_exact_id_or_repository_url_hits": 1,
+      "result": "No candidate matches a current catalog row. All 12 remain staged in that prior manifest and were not copied into this refresh. One project ID or URL is referenced in that lane's triage notes."
+    }
+  ],
+  "existing_current_project_checks": [
+    {
+      "id": "dragon-ball-3-gokuu-den-en-pt-es",
+      "result": "Already catalogued with PatchClan English, Portuguese and Spanish v1.1 data and current source links; no duplicate addition or metadata update needed."
+    },
+    {
+      "id": "shin-sd-gundam-gaiden-knight-gundam-monogatari-en",
+      "result": "Already catalogued with v1.0, 2026-10-14 release date, BPS availability and hardware playthrough status; no duplicate addition or metadata update needed."
+    }
+  ],
+  "related_catalog_projects_not_classified_as_localization_duplicates": [
+    {
+      "id": "pokecrystal",
+      "result": "Pokémon Crystal disassembly project on the same Game Boy Color game; distinct from the Arabic patch and its release repository."
+    },
+    {
+      "id": "pokemon-crystal-pokerecomp-mobile",
+      "result": "Pokémon Crystal mobile reimplementation; distinct from the Arabic patch and its release repository."
+    }
+  ],
+  "database_was_modified": false
+}

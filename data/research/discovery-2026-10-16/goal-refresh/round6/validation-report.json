@@ -1,0 +1,3020 @@
+{
+  "authority": {
+    "repository": "/Users/earlcameron/Desktop/recompiled",
+    "git_head": "c9661a08fb8f32526aa904bb0d0e1433e63dbb71",
+    "catalog": "/Users/earlcameron/Desktop/recompiled/data/catalog.sqlite",
+    "project_count": 2298,
+    "catalog_metadata_updated": "2026-10-16",
+    "catalog_sha256_before": "3dca20b061ef514387d1f6889708e6068f6304e8c8c57503d6ee0fd0e55b038f",
+    "review_date": "2026-10-16"
+  },
+  "project_update_inventory": [
+    {
+      "path": "console-to-console/metadata-updates.json",
+      "rows": 1
+    },
+    {
+      "path": "emulators-round4/metadata-patches.json",
+      "rows": 2
+    },
+    {
+      "path": "fresh-api-translation/metadata-updates.json",
+      "rows": 4
+    },
+    {
+      "path": "fresh-console-console/metadata-patches.json",
+      "rows": 0
+    },
+    {
+      "path": "fresh-handheld/metadata-updates.json",
+      "rows": 3
+    },
+    {
+      "path": "fresh-localization/status-patches.json",
+      "rows": 0
+    },
+    {
+      "path": "fresh-metadata-gaps/metadata-updates.json",
+      "rows": 53
+    },
+    {
+      "path": "fresh-playstation/metadata-patches.json",
+      "rows": 0
+    },
+    {
+      "path": "fresh-sega-xbox/metadata-patches.json",
+      "rows": 0
+    },
+    {
+      "path": "fresh-social/supported-updates.json",
+      "rows": 0
+    },
+    {
+      "path": "fresh-software-decomp/metadata-patches.json",
+      "rows": 0
+    },
+    {
+      "path": "fresh-software-reimplementation/metadata-updates.json",
+      "rows": 0
+    },
+    {
+      "path": "fresh-status/updates.json",
+      "rows": 5
+    },
+    {
+      "path": "gc-wii/metadata-patches.json",
+      "rows": 4
+    },
+    {
+      "path": "github-broad/status-patches.json",
+      "rows": 2
+    },
+    {
+      "path": "handheld/metadata-updates.json",
+      "rows": 1
+    },
+    {
+      "path": "localizations/status-patches.json",
+      "rows": 0
+    },
+    {
+      "path": "macos-translation/metadata-patches.json",
+      "rows": 1
+    },
+    {
+      "path": "n64/metadata-updates.json",
+      "rows": 1
+    },
+    {
+      "path": "pc-mobile/project-updates.json",
+      "rows": 2
+    },
+    {
+      "path": "playstation/metadata-patches.json",
+      "rows": 0
+    },
+    {
+      "path": "reddit/supported-updates.json",
+      "rows": 1
+    },
+    {
+      "path": "revalidation/emulators/metadata-updates.json",
+      "rows": 14
+    },
+    {
+      "path": "revalidation/subtype-hydration/metadata-updates.json",
+      "rows": 184
+    },
+    {
+      "path": "sega-xbox/metadata-patches.json",
+      "rows": 0
+    },
+    {
+      "path": "software-decomp/metadata-patches.json",
+      "rows": 0
+    },
+    {
+      "path": "software-reimplementation/metadata-updates.json",
+      "rows": 0
+    },
+    {
+      "path": "status-hydration/metadata-updates.json",
+      "rows": 9
+    }
+  ],
+  "project_update_occurrences": 287,
+  "project_update_unique_existing_ids": 267,
+  "recommended_project_updates": 201,
+  "project_update_noops": 66,
+  "held_missing_project_update_rows": 14,
+  "held_subtype_source_gaps": 2,
+  "project_field_conflicts_after_review_date_normalization": [],
+  "language_fields_omitted_from_project_patch": [],
+  "included_project_rows": {
+    "86box": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://86box.net/"
+      ],
+      "sources": 1
+    },
+    "aai2-en": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "ace-combat-5-ps2-recomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/sal063/Ace-Combat-5-Static-recompilation/main/README.md"
+      ],
+      "sources": 1
+    },
+    "advance-wars-recompiled": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/sp00nznet/advancewars/main/README.md"
+      ],
+      "sources": 1
+    },
+    "angle": {
+      "outcome": "included",
+      "candidate_files": [
+        "fresh-api-translation/metadata-updates.json",
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "strategy",
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/google/angle/main/README.md"
+      ],
+      "sources": 2
+    },
+    "animal-crossing-gamecube-decomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "animal-forest-n64-decomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "appareden-pc98-en": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "ares": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "atari800": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "atari800-atari-5200": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "azahar": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "banjo-kazooie-decomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/n64decomp/banjo-kazooie/master/README.md"
+      ],
+      "sources": 1
+    },
+    "banjo-recompiled": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "bebop-ps2-en": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/SONICMAN69/Bebop-PS2-English/main/README.md"
+      ],
+      "sources": 1
+    },
+    "beetle-adventure-racing-recomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "bizhawk": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "blastem": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "brave-fencer-musashi-decomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/Druthulu/BFM-decomp/main/README.md"
+      ],
+      "sources": 1
+    },
+    "bsnes": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "budokai-tenkaichi-2-ps2-recomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/oric212/BT2-Recomp/master/README.md"
+      ],
+      "sources": 1
+    },
+    "budokai-tenkaichi-3-ps2-recomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/z3xox/BT3-Recomp/main/README.md"
+      ],
+      "sources": 1
+    },
+    "busin0-en": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/Fabulu/Busin0Translation/master/README.md"
+      ],
+      "sources": 1
+    },
+    "cemu": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "chrono-cross-decomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/jdperos/chrono-cross-decomp/master/README.md"
+      ],
+      "sources": 1
+    },
+    "citra": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "colem-colecovision-adam": {
+      "outcome": "included",
+      "candidate_files": [
+        "status-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "status"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "crw-metal-jacket-pc98-en": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "d3d8to9": {
+      "outcome": "included",
+      "candidate_files": [
+        "fresh-api-translation/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "strategy",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "dbz-buus-fury-recomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/mstan/DragonBallZBuusFuryRecomp/main/README.md"
+      ],
+      "sources": 1
+    },
+    "dbz-legacy-of-goku-ii-recomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/mstan/DragonBallZLegacyofGokuIIRecomp/main/README.md"
+      ],
+      "sources": 1
+    },
+    "dbz-legacy-of-goku-recomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/mstan/DragonBallZLegacyOfGokuRecomp/main/README.md"
+      ],
+      "sources": 1
+    },
+    "death-crimson-2-dc-en": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "delisoba-deluxe-saturn-en": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "demul": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "desmume": {
+      "outcome": "included",
+      "candidate_files": [
+        "status-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "status"
+      ],
+      "new_source_urls": [],
+      "sources": 2
+    },
+    "detective-conan-british-empire-en": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "disruptor-ps1-recomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/Phroster/DisruptorRecomp/main/README.md"
+      ],
+      "sources": 1
+    },
+    "dk64recomp-nx": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "doko-demo-issyo-psp-en": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "dolphin": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "donkey-kong-country-3-recomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/elliotttate/DKC3Recomp/main/README.md"
+      ],
+      "sources": 1
+    },
+    "dosbox": {
+      "outcome": "included",
+      "candidate_files": [
+        "status-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "status"
+      ],
+      "new_source_urls": [],
+      "sources": 3
+    },
+    "dosbox-staging": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "dosbox-x": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "downpour-recomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/LittleBitUA/DownpourRecomp/main/README.md"
+      ],
+      "sources": 1
+    },
+    "dp-recomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/LittleBitUA/DPRecomp/master/README.md"
+      ],
+      "sources": 1
+    },
+    "dqm2-3ds-translation": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/Ich73/DQM2-FanTranslation/master/README.md"
+      ],
+      "sources": 1
+    },
+    "dqxi-3ds-en": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "dragon-slayer-legend-heroes-pc98-en": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "duckstation": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "egg-ns": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "eightyone-sinclair-emulator": {
+      "outcome": "included",
+      "candidate_files": [
+        "status-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "status"
+      ],
+      "new_source_urls": [],
+      "sources": 3
+    },
+    "epsxe": {
+      "outcome": "included",
+      "candidate_files": [
+        "status-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "status"
+      ],
+      "new_source_urls": [],
+      "sources": 2
+    },
+    "ex-troopers-en": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "f-zero-x-decomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/inspectredc/fzerox/main/README.md"
+      ],
+      "sources": 1
+    },
+    "fceux": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "final-fantasy-tactics-advance-recomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/james2doyle/ffta-recomp/main/android/README.md"
+      ],
+      "sources": 1
+    },
+    "finalburn-neo": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "flycast": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "fs-uae": {
+      "outcome": "included",
+      "candidate_files": [
+        "status-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "status"
+      ],
+      "new_source_urls": [],
+      "sources": 3
+    },
+    "galaxypad-super-mario-galaxy": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "gearsystem": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "god-hand-decomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/LucasPicoli/god-hand-decomp/main/README.md"
+      ],
+      "sources": 1
+    },
+    "god-of-war-ps2-recomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/KIexster/god-of-war-recomp/main/README.md"
+      ],
+      "sources": 1
+    },
+    "goldeneye-decomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "grandia-dm-en": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/AngelouCurator/new-parm-archives-patch/main/README.md"
+      ],
+      "sources": 1
+    },
+    "hatari": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json",
+        "status-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype"
+      ],
+      "new_source_urls": [],
+      "sources": 4
+    },
+    "hctp-ps2-recomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/BigDaddyJRich/hctp-recomp/main/README.md"
+      ],
+      "sources": 1
+    },
+    "hissatsu-saturn-en": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "hybrid-heaven-recomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "hypseus-singe": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/DirtBagXon/hypseus-singe/master/README.md"
+      ],
+      "sources": 1
+    },
+    "imas-dearly-stars-en": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/megastylerC/idolmaster-dearly-stars-english/main/README.md"
+      ],
+      "sources": 1
+    },
+    "imas-sls-translation": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "j2me-loader-android": {
+      "outcome": "included",
+      "candidate_files": [
+        "status-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "status"
+      ],
+      "new_source_urls": [],
+      "sources": 3
+    },
+    "jgenesis": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "jung-rhythm-saturn-en": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "kancolle-kai-vita-en": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "king-kong-recompiled": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/TekRantGaming/king-kong-recompiled/main/README.md"
+      ],
+      "sources": 1
+    },
+    "kronos": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "langrisser-iii-saturn-en": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "link-awakening-switch-recomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "links-awakening-dx-multiconsole-port": {
+      "outcome": "included",
+      "candidate_files": [
+        "console-to-console/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "platform",
+        "status",
+        "summary",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://github.com/sp00nznet/linksawakening-portable#readme"
+      ],
+      "sources": 2
+    },
+    "mame": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "marathon-recomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/sonicnext-dev/MarathonRecomp/main/README.md"
+      ],
+      "sources": 1
+    },
+    "mario-kart-super-circuit-recomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/mstan/MarioKartSuperCircuitRecomp/main/README.md"
+      ],
+      "sources": 1
+    },
+    "mario-strikers-charged-decomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/yannicksuter/mscharged-decomp/main/README.md"
+      ],
+      "sources": 1
+    },
+    "martypc": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "mega-man-x-snes-recomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/mstan/MegaManXSNESRecomp/main/README.md"
+      ],
+      "sources": 1
+    },
+    "mega-man-x2-snes-recomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/mstan/MegaManX2Recomp/master/README.md"
+      ],
+      "sources": 1
+    },
+    "mega-man-zero-recomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/mstan/MegaManZeroRecomp/main/README.md"
+      ],
+      "sources": 1
+    },
+    "melee-decomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "gc-wii/metadata-patches.json",
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "status",
+        "subtype",
+        "summary",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://github.com/doldecomp/melee#readme",
+        "https://github.com/doldecomp/melee"
+      ],
+      "sources": 2
+    },
+    "melonds": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/melonDS-emu/melonDS/master/README.md"
+      ],
+      "sources": 1
+    },
+    "metal-max-3-en": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "metroid-nes-disassembly": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/nmikstas/metroid-disassembly/master/README.md"
+      ],
+      "sources": 1
+    },
+    "metroid-prime-decomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "metroid-prime-hunters-recomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/mstan/MetroidPrimeHuntersRecomp/main/README.md"
+      ],
+      "sources": 1
+    },
+    "mgba": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "million-monkeys-en": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "mm-decomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "moltenvk": {
+      "outcome": "included",
+      "candidate_files": [
+        "fresh-api-translation/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "status",
+        "strategy",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "mother3-en": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "nakoruru-dc-en": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "nesticle": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "nfs-most-wanted-xbox360-recomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/madelrandel-blip/NFSMW-Recompiled/main/README.md"
+      ],
+      "sources": 1
+    },
+    "nfs-underground-2-recomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/codepdbh/nfsu2-recompiled/main/README.md"
+      ],
+      "sources": 1
+    },
+    "nsmb-ds-decomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/NSMB-Decomp/nsmb/main/readme.md"
+      ],
+      "sources": 1
+    },
+    "ogre-battle-64-recomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/lfarroco/ogre-battle-64-recomp/main/README.md"
+      ],
+      "sources": 1
+    },
+    "okaeri-chibi-robo-en": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/cjuub/okaeri-chibi-translation/master/README.md"
+      ],
+      "sources": 1
+    },
+    "oot-decomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "open-simh": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "openmsx": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "paper-mario-n64-decomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/pmret/papermario/main/README.md"
+      ],
+      "sources": 1
+    },
+    "parasite-eve-2-decomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/GabeRealB/parasite-eve-2-decomp/main/README.md"
+      ],
+      "sources": 1
+    },
+    "pcem": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/sarah-walker-pcem/pcem/main/README"
+      ],
+      "sources": 1
+    },
+    "pcsx2": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "perfect-dark-decomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "persona-q2-3ds-simplified-chinese-localization": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "pikmin-decomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/projectPiki/pikmin/main/README.MD"
+      ],
+      "sources": 1
+    },
+    "pokecrystal": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "pokeemerald": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/pret/pokeemerald/master/README.md"
+      ],
+      "sources": 1
+    },
+    "pokemon-emerald-recomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/mstan/EmeraldRecomp/main/README.md"
+      ],
+      "sources": 1
+    },
+    "pokemon-firered-leafgreen-decomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "pokemon-firered-recomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/mstan/FireRedLeafGreenRecomp/main/README.md"
+      ],
+      "sources": 1
+    },
+    "pokemon-leafgreen-recomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/mstan/FireRedLeafGreenRecomp/main/README.md"
+      ],
+      "sources": 1
+    },
+    "pokemon-ruby-recomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/mstan/RubySapphireRecomp/main/README.md"
+      ],
+      "sources": 1
+    },
+    "pokemon-sapphire-recomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/mstan/RubySapphireRecomp/main/README.md"
+      ],
+      "sources": 1
+    },
+    "pokered": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "ppsspp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "proton": {
+      "outcome": "included",
+      "candidate_files": [
+        "fresh-api-translation/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "platform",
+        "strategy",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "puyo-pop-fever-dc-en": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "rabbit-saturn-en": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "rainbow-cotton-dc-en": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "ridge-racer-ps1-recomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/kazuyette/rr-decomp/main/README.md"
+      ],
+      "sources": 1
+    },
+    "road-trip-adventure-ps2-recomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "rocket-slime-3ds-en": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "rpcs3": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "s1-disassembly": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "s2-disassembly": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/sonicretro/s2disasm/master/readme.md"
+      ],
+      "sources": 1
+    },
+    "sameboy": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "segagaga-dreamcast-en": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/ExxistanceDC/Segagaga-English-Translation/main/README.md"
+      ],
+      "sources": 1
+    },
+    "shadow-the-hedgehog-ps2-recomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/nicolasserpa/shadow-the-hedgehog-recomp/main/README.md"
+      ],
+      "sources": 1
+    },
+    "shadps4": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "shining-force-iii-translation": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "shiren-4-psp-en": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "shizuku-pc98-en": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "silent-hill-ps3-port": {
+      "outcome": "included",
+      "candidate_files": [
+        "pc-mobile/project-updates.json"
+      ],
+      "changed_fields": [
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 4
+    },
+    "simcity-snes-static-recomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/Junior-Jones/SimCity-SNES-Static-Recomp/main/README.md"
+      ],
+      "sources": 1
+    },
+    "skate3-recomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "sm64-decomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "snap64-recomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "snatcher-playstation-saturn-en": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "sotn-decomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "soulcalibur-ii-gamecube-recomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "gc-wii/metadata-patches.json",
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "platform",
+        "status",
+        "subtype",
+        "summary",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://github.com/jackpoison-prog/RingOut#readme",
+        "https://github.com/jackpoison-prog/RingOut/releases/tag/v1.6.9",
+        "https://api.github.com/repos/jackpoison-prog/RingOut/languages",
+        "https://raw.githubusercontent.com/jackpoison-prog/RingOut/main/README.md"
+      ],
+      "sources": 4
+    },
+    "soulcalibur-ii-hd-recomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/n0madic/Soulcalibur2HD-recomp/master/README.md"
+      ],
+      "sources": 1
+    },
+    "spider-man-edge-of-time-recomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "srw-og-gaiden-ps2-en": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "star-fox-64-decomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/sonicdcer/sf64/master/README.md"
+      ],
+      "sources": 1
+    },
+    "star-fox-adventures-gc-decomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "gc-wii/metadata-patches.json"
+      ],
+      "changed_fields": [
+        "status",
+        "summary",
+        "title",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://github.com/RenaKunisaki/sfadebug#readme"
+      ],
+      "sources": 1
+    },
+    "star-fox-snes-recomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "stella-atari-2600": {
+      "outcome": "included",
+      "candidate_files": [
+        "status-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "status"
+      ],
+      "new_source_urls": [],
+      "sources": 2
+    },
+    "summon-night-3-psp-en": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "sunpad-super-mario-sunshine": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "super-mario-advance-2-recomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/mstan/SuperMarioAdvance2Recomp/main/README.md"
+      ],
+      "sources": 1
+    },
+    "super-mario-advance-4-recomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/mstan/SuperMarioAdvance4Recomp/main/README.md"
+      ],
+      "sources": 1
+    },
+    "super-mario-strikers-decomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "gc-wii/metadata-patches.json",
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "status",
+        "subtype",
+        "summary",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://github.com/yannicksuter/smstrikers-decomp#readme",
+        "https://raw.githubusercontent.com/yannicksuter/smstrikers-decomp/main/README.md"
+      ],
+      "sources": 2
+    },
+    "super-mario-world-snes-recomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/mstan/SuperMarioWorldRecomp/main/README.md"
+      ],
+      "sources": 1
+    },
+    "super-metroid-snes-recomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/mstan/SuperMetroidRecomp/main/README.md"
+      ],
+      "sources": 1
+    },
+    "super-puzzle-fighter-2x-dc-en": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "supermodel": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/trzy/Supermodel/master/README.md"
+      ],
+      "sources": 1
+    },
+    "suyu": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/suyu-emu/suyu-main/main/README.md"
+      ],
+      "sources": 1
+    },
+    "tgaa-3ds-en": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "the-world-is-not-enough-n64-recomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "reddit/supported-updates.json"
+      ],
+      "changed_fields": [
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 3
+    },
+    "time-travelers-3ds-en": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "toaru-virtual-on-vita-en": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "tomba-2-ps1-recomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/mstan/Tomba2Recomp/master/README.md"
+      ],
+      "sources": 1
+    },
+    "trizeal-dc-en": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "trouble-makers-recomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "twilight-princess-dusk-mobile": {
+      "outcome": "included",
+      "candidate_files": [
+        "pc-mobile/project-updates.json"
+      ],
+      "changed_fields": [
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 3
+    },
+    "umineko-catbox-console-en": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "umineko-portable-psp-en": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "underworld-exhumed": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/abedegno/underworld-exhumed/main/README.md"
+      ],
+      "sources": 1
+    },
+    "unleashed-recompiled": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/hedge-dev/UnleashedRecomp/main/README.md"
+      ],
+      "sources": 1
+    },
+    "urban-reign-ps2-recomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "vagrant-story-decomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/ser-pounce/rood-reverse/main/README.md"
+      ],
+      "sources": 1
+    },
+    "vice": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "virtua-cop-2-dc-en": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "vita3k": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "warioware-twisted-recomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "wcw-world-tour-recomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/FermataRest/WCWvsNWOWorldTourRecomp/main/README.md"
+      ],
+      "sources": 1
+    },
+    "wild-9-ps1-recompiled": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/plinkr/Wild9Recomp/main/README.md"
+      ],
+      "sources": 1
+    },
+    "xemu-original-xbox": {
+      "outcome": "included",
+      "candidate_files": [
+        "emulators-round4/metadata-patches.json"
+      ],
+      "changed_fields": [
+        "status",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://github.com/xemu-project/xemu/releases/tag/pre-release",
+        "https://api.github.com/repos/xemu-project/xemu"
+      ],
+      "sources": 3
+    },
+    "xenogears-matching-decomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/ladysilverberg/xenogears-decomp/main/README.md"
+      ],
+      "sources": 1
+    },
+    "xroar": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [],
+      "sources": 1
+    },
+    "ymir": {
+      "outcome": "included",
+      "candidate_files": [
+        "emulators-round4/metadata-patches.json",
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "platform",
+        "subtype",
+        "summary",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://github.com/ymir-emu/Ymir/blob/main/README.md",
+        "https://github.com/ymir-emu/Ymir/releases/tag/latest-nightly",
+        "https://docs.google.com/spreadsheets/d/1SLZzL9LelSlpEmTKy8cjaQnE7mew2uW1rfCgcekO58Q/edit?usp=sharing",
+        "https://api.github.com/repos/ymir-emu/Ymir"
+      ],
+      "sources": 5
+    },
+    "ysv-ps2-en": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/Kaisaan/lostkefin/main/README.md"
+      ],
+      "sources": 1
+    },
+    "yuzu": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://github.com/yuzu-emu/yuzu-emu.github.io"
+      ],
+      "sources": 1
+    },
+    "zelda-alttp-snes-recomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/mstan/ZeldaAlttPSNESRecomp/main/README.md"
+      ],
+      "sources": 1
+    },
+    "zelda-minish-cap-recomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/mstan/MinishCapRecomp/main/README.md"
+      ],
+      "sources": 1
+    },
+    "zelda1-disassembly": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/aldonunez/zelda1-disassembly/master/README.md"
+      ],
+      "sources": 1
+    },
+    "zelda64recomp": {
+      "outcome": "included",
+      "candidate_files": [
+        "revalidation/subtype-hydration/metadata-updates.json"
+      ],
+      "changed_fields": [
+        "subtype",
+        "updated"
+      ],
+      "new_source_urls": [
+        "https://raw.githubusercontent.com/Zelda64Recomp/Zelda64Recomp/master/README.md"
+      ],
+      "sources": 1
+    }
+  },
+  "language": {
+    "file_inventory": [
+      {
+        "path": "console-to-console/programming-languages.json",
+        "rows": 32
+      },
+      {
+        "path": "emulators-round4/programming-languages.json",
+        "rows": 14
+      },
+      {
+        "path": "fresh-api-translation/programming-languages.json",
+        "rows": 1
+      },
+      {
+        "path": "fresh-console-console/programming-languages.json",
+        "rows": 4
+      },
+      {
+        "path": "fresh-console-mobile/programming-languages.json",
+        "rows": 1
+      },
+      {
+        "path": "fresh-emulators/programming-languages.json",
+        "rows": 20
+      },
+      {
+        "path": "fresh-handheld/programming-languages.json",
+        "rows": 7
+      },
+      {
+        "path": "fresh-localization/language-evidence.json",
+        "rows": 0
+      },
+      {
+        "path": "fresh-nintendo-home/programming-languages.json",
+        "rows": 19
+      },
+      {
+        "path": "fresh-pc-mobile/programming-languages.json",
+        "rows": 5
+      },
+      {
+        "path": "fresh-playstation/programming-languages.json",
+        "rows": 15
+      },
+      {
+        "path": "fresh-sega-xbox/programming-languages.json",
+        "rows": 8
+      },
+      {
+        "path": "fresh-social/programming-languages.json",
+        "rows": 15
+      },
+      {
+        "path": "fresh-software-decomp/programming-languages.json",
+        "rows": 7
+      },
+      {
+        "path": "fresh-software-reimplementation/programming-languages.json",
+        "rows": 7
+      },
+      {
+        "path": "gc-wii/programming-languages.json",
+        "rows": 27
+      },
+      {
+        "path": "github-broad/fresh-leads/programming-languages.json",
+        "rows": 2
+      },
+      {
+        "path": "github-broad/programming-languages.json",
+        "rows": 3
+      },
+      {
+        "path": "handheld/programming-languages.json",
+        "rows": 8
+      },
+      {
+        "path": "localizations/language-evidence.json",
+        "rows": 0
+      },
+      {
+        "path": "macos-translation/programming-languages.json",
+        "rows": 2
+      },
+      {
+        "path": "n64/programming-languages.json",
+        "rows": 3
+      },
+      {
+        "path": "pc-mobile/programming-languages.json",
+        "rows": 4
+      },
+      {
+        "path": "playstation/programming-languages.json",
+        "rows": 17
+      },
+      {
+        "path": "reddit/programming-languages.json",
+        "rows": 3
+      },
+      {
+        "path": "revalidation/api-translation/programming-languages.json",
+        "rows": 2
+      },
+      {
+        "path": "revalidation/emulators/programming-languages.json",
+        "rows": 6
+      },
+      {
+        "path": "revalidation/language-retry/programming-languages.json",
+        "rows": 25
+      },
+      {
+        "path": "revalidation/mobile-ports/programming-languages.json",
+        "rows": 6
+      },
+      {
+        "path": "sega-xbox/programming-languages.json",
+        "rows": 36
+      },
+      {
+        "path": "software-decomp/programming-languages.json",
+        "rows": 1
+      },
+      {
+        "path": "software-reimplementation/programming-languages.json",
+        "rows": 6
+      },
+      {
+        "path": "web-sweep/programming-languages.json",
+        "rows": 2
+      },
+      {
+        "path": "x-search/programming-languages.json",
+        "rows": 0
+      }
+    ],
+    "candidate_occurrences": 308,
+    "unique_project_ids": 304,
+    "existing_project_ids": 106,
+    "recommended_count": 26
+  },
+  "language_no_op_count": 79,
+  "language_missing_project_count": 198,
+  "language_source_hold_count": 1,
+  "language_duplicate_decisions": [
+    {
+      "project_id": "counter-strike-16-apple-silicon-macos-port",
+      "candidate_files": [
+        "reddit/programming-languages.json",
+        "revalidation/language-retry/programming-languages.json"
+      ],
+      "selected_file": "revalidation/language-retry/programming-languages.json",
+      "resolution": "Selected the freshest canonical API result; resolved language evidence outranks an earlier rate-limit/unknown result."
+    },
+    {
+      "project_id": "metal-gear-solid-integral-reintegral-windows-port",
+      "candidate_files": [
+        "reddit/programming-languages.json",
+        "revalidation/language-retry/programming-languages.json"
+      ],
+      "selected_file": "revalidation/language-retry/programming-languages.json",
+      "resolution": "Selected the freshest canonical API result; resolved language evidence outranks an earlier rate-limit/unknown result."
+    }
+  ],
+  "language_duplicate_conflicts_held": [
+    {
+      "project_id": "op1emu-teenage-engineering-op1",
+      "variants": [
+        {
+          "file": "emulators-round4/programming-languages.json",
+          "predominant_language": "C++",
+          "language_breakdown_bytes": {
+            "C++": 427376,
+            "Python": 344134,
+            "CMake": 9808,
+            "C": 2324
+          },
+          "evidence_url": "https://api.github.com/repos/op1emu/op1emu/languages",
+          "verified_at": "2026-10-16"
+        },
+        {
+          "file": "revalidation/emulators/programming-languages.json",
+          "predominant_language": "C++",
+          "language_breakdown_bytes": {
+            "C++": 429774,
+            "Python": 344134,
+            "CMake": 10202,
+            "C": 2324
+          },
+          "evidence_url": "https://api.github.com/repos/op1emu/op1emu/languages",
+          "verified_at": "2026-10-16"
+        }
+      ],
+      "reason": "Overlapping candidate snapshots disagree, and the project is not in the current catalog. Do not choose a byte map until the project addition is reviewed; re-fetch the canonical Languages endpoint afterward."
+    },
+    {
+      "project_id": "ssi263-speech-device-emulator",
+      "variants": [
+        {
+          "file": "emulators-round4/programming-languages.json",
+          "predominant_language": "C",
+          "language_breakdown_bytes": {
+            "C": 2340826,
+            "Python": 2311721,
+            "C++": 613141,
+            "Swift": 207733,
+            "Shell": 200331,
+            "Kotlin": 187490,
+            "PowerShell": 39779,
+            "CMake": 5920,
+            "Inno Setup": 4990,
+            "Batchfile": 1245
+          },
+          "evidence_url": "https://api.github.com/repos/tgeczy/ssi263-speech/languages",
+          "verified_at": "2026-10-16"
+        },
+        {
+          "file": "revalidation/emulators/programming-languages.json",
+          "predominant_language": "C",
+          "language_breakdown_bytes": {
+            "C": 2342411,
+            "Python": 2316380,
+            "C++": 613141,
+            "Swift": 207733,
+            "Shell": 200364,
+            "Kotlin": 187490,
+            "PowerShell": 39779,
+            "CMake": 5920,
+            "Inno Setup": 4990,
+            "Batchfile": 1245
+          },
+          "evidence_url": "https://api.github.com/repos/tgeczy/ssi263-speech/languages",
+          "verified_at": "2026-10-16"
+        }
+      ],
+      "reason": "Overlapping candidate snapshots disagree, and the project is not in the current catalog. Do not choose a byte map until the project addition is reviewed; re-fetch the canonical Languages endpoint afterward."
+    }
+  ],
+  "game_profiles": {
+    "input_files": [
+      {
+        "path": "game-profiles-proposed.json",
+        "profiles": 32,
+        "facts": 127
+      },
+      {
+        "path": "fresh-game-hydration/game-profiles-proposed.json",
+        "profiles": 14,
+        "facts": 53
+      }
+    ],
+    "profile_occurrences": 46,
+    "unique_game_keys": 46,
+    "facts": 180,
+    "exact_current_matches": 46,
+    "duplicates_within_profiles": [],
+    "nonmatching_profiles": [],
+    "held_web_sweep": [
+      {
+        "game_key": "Call of Duty: Future Warfare",
+        "facts": 4,
+        "existing_game_row": false,
+        "current_facts": 0,
+        "reason": "Linked game/project addition is not in current catalog; review after the addition and then use the canonical game-profile importer."
+      }
+    ]
+  },
+  "test": {
+    "status": "passed",
+    "database": "disposable tempfile copy; removed after test",
+    "project_rows_before_after": [
+      2298,
+      2298
+    ],
+    "game_rows_before_after": [
+      1433,
+      1433
+    ],
+    "source_rows_before_after": [
+      6874,
+      6968
+    ],
+    "project_updates_applied": 201,
+    "language_records_applied": 26,
+    "integrity_check": "ok",
+    "foreign_key_check": "no violations",
+    "main_catalog_sha256_before_after": [
+      "3dca20b061ef514387d1f6889708e6068f6304e8c8c57503d6ee0fd0e55b038f",
+      "3dca20b061ef514387d1f6889708e6068f6304e8c8c57503d6ee0fd0e55b038f"
+    ]
+  },
+  "canonical_import_sequence": [
+    "python3 scripts/catalog.py import-project-updates project-updates-recommended.json",
+    "python3 scripts/catalog.py import-programming-languages programming-languages-recommended.json"
+  ],
+  "note": "These are importer-shaped candidates only. The project importer will add/retain citations; language evidence is separate because it updates both projects.programming_language and project_language_evidence."
+}

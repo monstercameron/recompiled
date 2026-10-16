@@ -1,0 +1,2734 @@
+{
+  "held_project_rows": {
+    "missing_project_ids": [
+      {
+        "project_id": "libre99-ti-994a",
+        "candidate_file": "revalidation/emulators/metadata-updates.json",
+        "reason": "Project ID is absent from current catalog; applying metadata requires an approved project addition first."
+      },
+      {
+        "project_id": "dracods-coco-dragon32",
+        "candidate_file": "revalidation/emulators/metadata-updates.json",
+        "reason": "Project ID is absent from current catalog; applying metadata requires an approved project addition first."
+      },
+      {
+        "project_id": "commander-x16-emulator",
+        "candidate_file": "revalidation/emulators/metadata-updates.json",
+        "reason": "Project ID is absent from current catalog; applying metadata requires an approved project addition first."
+      },
+      {
+        "project_id": "casio-fx870p-emulator",
+        "candidate_file": "revalidation/emulators/metadata-updates.json",
+        "reason": "Project ID is absent from current catalog; applying metadata requires an approved project addition first."
+      },
+      {
+        "project_id": "calc-u-59-ti-calculators",
+        "candidate_file": "revalidation/emulators/metadata-updates.json",
+        "reason": "Project ID is absent from current catalog; applying metadata requires an approved project addition first."
+      },
+      {
+        "project_id": "nord-g1-emulator",
+        "candidate_file": "revalidation/emulators/metadata-updates.json",
+        "reason": "Project ID is absent from current catalog; applying metadata requires an approved project addition first."
+      },
+      {
+        "project_id": "open8-pico-8",
+        "candidate_file": "revalidation/emulators/metadata-updates.json",
+        "reason": "Project ID is absent from current catalog; applying metadata requires an approved project addition first."
+      },
+      {
+        "project_id": "z390-mainframe-runtime-emulator",
+        "candidate_file": "revalidation/emulators/metadata-updates.json",
+        "reason": "Project ID is absent from current catalog; applying metadata requires an approved project addition first."
+      },
+      {
+        "project_id": "gametank-emulator",
+        "candidate_file": "revalidation/emulators/metadata-updates.json",
+        "reason": "Project ID is absent from current catalog; applying metadata requires an approved project addition first."
+      },
+      {
+        "project_id": "papple2-apple-ii-research",
+        "candidate_file": "revalidation/emulators/metadata-updates.json",
+        "reason": "Project ID is absent from current catalog; applying metadata requires an approved project addition first."
+      },
+      {
+        "project_id": "vgsx-virtual-game-console",
+        "candidate_file": "revalidation/emulators/metadata-updates.json",
+        "reason": "Project ID is absent from current catalog; applying metadata requires an approved project addition first."
+      },
+      {
+        "project_id": "vgszero-virtual-game-console",
+        "candidate_file": "revalidation/emulators/metadata-updates.json",
+        "reason": "Project ID is absent from current catalog; applying metadata requires an approved project addition first."
+      },
+      {
+        "project_id": "op1emu-teenage-engineering-op1",
+        "candidate_file": "revalidation/emulators/metadata-updates.json",
+        "reason": "Project ID is absent from current catalog; applying metadata requires an approved project addition first."
+      },
+      {
+        "project_id": "ssi263-speech-device-emulator",
+        "candidate_file": "revalidation/emulators/metadata-updates.json",
+        "reason": "Project ID is absent from current catalog; applying metadata requires an approved project addition first."
+      }
+    ],
+    "subtype_source_gaps": [
+      {
+        "project_id": "kingdom-hearts-chain-of-memories-recomp",
+        "candidate_file": "revalidation/subtype-hydration/primary-source-review.json",
+        "proposed_fields": [
+          "subtype"
+        ],
+        "evidence_urls_tried": [
+          "https://raw.githubusercontent.com/azurejoga/kh-recomp/master/README.md",
+          "https://github.com/azurejoga/kh-recomp/blob/master/README.md",
+          "https://raw.githubusercontent.com/azurejoga/kh-recomp/main/README.md",
+          "https://raw.githubusercontent.com/azurejoga/kh-recomp/main/readme.md",
+          "https://raw.githubusercontent.com/azurejoga/kh-recomp/main/README.rst",
+          "https://raw.githubusercontent.com/azurejoga/kh-recomp/main/README",
+          "https://raw.githubusercontent.com/azurejoga/kh-recomp/master/readme.md",
+          "https://raw.githubusercontent.com/azurejoga/kh-recomp/master/README.rst",
+          "https://raw.githubusercontent.com/azurejoga/kh-recomp/master/README",
+          "https://github.com/azurejoga/kh-recomp"
+        ],
+        "reason": "Primary-source review found repository/README endpoints return 404; leave subtype blank until a current primary source is available."
+      },
+      {
+        "project_id": "rayman2-n64-recomp",
+        "candidate_file": "revalidation/subtype-hydration/primary-source-review.json",
+        "proposed_fields": [
+          "subtype"
+        ],
+        "evidence_urls_tried": [
+          "https://raw.githubusercontent.com/danielgomesvieira2000/rayman-2-the-great-escape-recomp/main/README.md",
+          "https://raw.githubusercontent.com/danielgomesvieira2000/rayman-2-the-great-escape-recomp/main/readme.md",
+          "https://raw.githubusercontent.com/danielgomesvieira2000/rayman-2-the-great-escape-recomp/main/README.rst",
+          "https://raw.githubusercontent.com/danielgomesvieira2000/rayman-2-the-great-escape-recomp/main/README",
+          "https://raw.githubusercontent.com/danielgomesvieira2000/rayman-2-the-great-escape-recomp/master/README.md",
+          "https://raw.githubusercontent.com/danielgomesvieira2000/rayman-2-the-great-escape-recomp/master/readme.md",
+          "https://raw.githubusercontent.com/danielgomesvieira2000/rayman-2-the-great-escape-recomp/master/README.rst",
+          "https://raw.githubusercontent.com/danielgomesvieira2000/rayman-2-the-great-escape-recomp/master/README",
+          "https://github.com/danielgomesvieira2000/rayman-2-the-great-escape-recomp"
+        ],
+        "reason": "Primary-source review found repository/README endpoints return 404; leave subtype blank until a current primary source is available."
+      }
+    ],
+    "language_fields_omitted_from_project_patch": []
+  },
+  "project_update_noops": [
+    {
+      "project_id": "a8e-atari-800xl",
+      "outcome": "no-op",
+      "candidate_files": [
+        "fresh-metadata-gaps/metadata-updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "amiarcadia-libretro",
+      "outcome": "no-op",
+      "candidate_files": [
+        "fresh-metadata-gaps/metadata-updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "amstrad-1984",
+      "outcome": "no-op",
+      "candidate_files": [
+        "fresh-metadata-gaps/metadata-updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "animal-crossing-3ds-port",
+      "outcome": "no-op",
+      "candidate_files": [
+        "fresh-handheld/metadata-updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "applem-core",
+      "outcome": "no-op",
+      "candidate_files": [
+        "fresh-metadata-gaps/metadata-updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "armsx1-ps1",
+      "outcome": "no-op",
+      "candidate_files": [
+        "fresh-metadata-gaps/metadata-updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "armsx2-ps2",
+      "outcome": "no-op",
+      "candidate_files": [
+        "fresh-metadata-gaps/metadata-updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "armsx3-ps3-android",
+      "outcome": "no-op",
+      "candidate_files": [
+        "fresh-metadata-gaps/metadata-updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "casio-cg50-emulator",
+      "outcome": "no-op",
+      "candidate_files": [
+        "fresh-metadata-gaps/metadata-updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "cave-story-ds-native-port",
+      "outcome": "no-op",
+      "candidate_files": [
+        "fresh-status/updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "cloopy-casio-loopy",
+      "outcome": "no-op",
+      "candidate_files": [
+        "fresh-metadata-gaps/metadata-updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "cocovm-tandy-coco",
+      "outcome": "no-op",
+      "candidate_files": [
+        "fresh-metadata-gaps/metadata-updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "contralto2-xerox-alto",
+      "outcome": "no-op",
+      "candidate_files": [
+        "fresh-metadata-gaps/metadata-updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "cpcec-classic-systems",
+      "outcome": "no-op",
+      "candidate_files": [
+        "fresh-metadata-gaps/metadata-updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "darkstar-xerox-star-workstation",
+      "outcome": "no-op",
+      "candidate_files": [
+        "fresh-metadata-gaps/metadata-updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "dingbat-gb-gba",
+      "outcome": "no-op",
+      "candidate_files": [
+        "fresh-metadata-gaps/metadata-updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "donkey-kong-64-decomp",
+      "outcome": "no-op",
+      "candidate_files": [
+        "n64/metadata-updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "dqmj1-nds-decomp",
+      "outcome": "no-op",
+      "candidate_files": [
+        "fresh-status/updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "dsp-emulator-multisystem",
+      "outcome": "no-op",
+      "candidate_files": [
+        "fresh-metadata-gaps/metadata-updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "dxmt",
+      "outcome": "no-op",
+      "candidate_files": [
+        "macos-translation/metadata-patches.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "eink-qemu",
+      "outcome": "no-op",
+      "candidate_files": [
+        "fresh-metadata-gaps/metadata-updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "emu48-android-calculator",
+      "outcome": "no-op",
+      "candidate_files": [
+        "fresh-metadata-gaps/metadata-updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "emu7800-atari-7800",
+      "outcome": "no-op",
+      "candidate_files": [
+        "fresh-metadata-gaps/metadata-updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "engram-gb-gba",
+      "outcome": "no-op",
+      "candidate_files": [
+        "fresh-metadata-gaps/metadata-updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "final-fantasy-iv-ii-snes-disassembly",
+      "outcome": "no-op",
+      "candidate_files": [
+        "fresh-status/updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "free42-hp42s",
+      "outcome": "no-op",
+      "candidate_files": [
+        "fresh-metadata-gaps/metadata-updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "gamate-emulator",
+      "outcome": "no-op",
+      "candidate_files": [
+        "fresh-metadata-gaps/metadata-updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "halo-2-original-xbox-matching-decomp",
+      "outcome": "no-op",
+      "candidate_files": [
+        "github-broad/status-patches.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "hemulator-multisystem",
+      "outcome": "no-op",
+      "candidate_files": [
+        "fresh-metadata-gaps/metadata-updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "hp41-calculator-emulator",
+      "outcome": "no-op",
+      "candidate_files": [
+        "fresh-metadata-gaps/metadata-updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "iris-sgi-indy",
+      "outcome": "no-op",
+      "candidate_files": [
+        "fresh-metadata-gaps/metadata-updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "lindbergh-loader",
+      "outcome": "no-op",
+      "candidate_files": [
+        "fresh-metadata-gaps/metadata-updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "memu-memotech",
+      "outcome": "no-op",
+      "candidate_files": [
+        "fresh-metadata-gaps/metadata-updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "mister-blasteroids",
+      "outcome": "no-op",
+      "candidate_files": [
+        "fresh-metadata-gaps/metadata-updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "mister-casio-loopy",
+      "outcome": "no-op",
+      "candidate_files": [
+        "fresh-metadata-gaps/metadata-updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "mister-irem-m107",
+      "outcome": "no-op",
+      "candidate_files": [
+        "fresh-metadata-gaps/metadata-updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "mister-namco-system22",
+      "outcome": "no-op",
+      "candidate_files": [
+        "fresh-metadata-gaps/metadata-updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "mister-raiden",
+      "outcome": "no-op",
+      "candidate_files": [
+        "fresh-metadata-gaps/metadata-updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "mister-super-cassette-vision",
+      "outcome": "no-op",
+      "candidate_files": [
+        "fresh-metadata-gaps/metadata-updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "mister-superacan",
+      "outcome": "no-op",
+      "candidate_files": [
+        "fresh-metadata-gaps/metadata-updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "mister-taito-f3",
+      "outcome": "no-op",
+      "candidate_files": [
+        "fresh-metadata-gaps/metadata-updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "mister-taito-l",
+      "outcome": "no-op",
+      "candidate_files": [
+        "fresh-metadata-gaps/metadata-updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "mister-tank",
+      "outcome": "no-op",
+      "candidate_files": [
+        "fresh-metadata-gaps/metadata-updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "mister-xybots",
+      "outcome": "no-op",
+      "candidate_files": [
+        "fresh-metadata-gaps/metadata-updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "mu-palm-os",
+      "outcome": "no-op",
+      "candidate_files": [
+        "fresh-metadata-gaps/metadata-updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "neetan-japanese-computer-emulator",
+      "outcome": "no-op",
+      "candidate_files": [
+        "fresh-metadata-gaps/metadata-updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "nemulator-multisystem",
+      "outcome": "no-op",
+      "candidate_files": [
+        "fresh-metadata-gaps/metadata-updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "nonpareil-hp-calculators",
+      "outcome": "no-op",
+      "candidate_files": [
+        "fresh-metadata-gaps/metadata-updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "paper-mario-3ds-port",
+      "outcome": "no-op",
+      "candidate_files": [
+        "fresh-handheld/metadata-updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "pcejs-classic-browser",
+      "outcome": "no-op",
+      "candidate_files": [
+        "fresh-metadata-gaps/metadata-updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "pokemon-lets-go-eevee-switch-recomp",
+      "outcome": "no-op",
+      "candidate_files": [
+        "github-broad/status-patches.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "pokket-pocketstation",
+      "outcome": "no-op",
+      "candidate_files": [
+        "fresh-metadata-gaps/metadata-updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "pom2-apple-ii",
+      "outcome": "no-op",
+      "candidate_files": [
+        "fresh-metadata-gaps/metadata-updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "pxp2-psp-android",
+      "outcome": "no-op",
+      "candidate_files": [
+        "fresh-metadata-gaps/metadata-updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "rocket-robot-on-wheels-decomp",
+      "outcome": "no-op",
+      "candidate_files": [
+        "fresh-status/updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "s1130-ibm1130",
+      "outcome": "no-op",
+      "candidate_files": [
+        "fresh-metadata-gaps/metadata-updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "simlac-imlac-pds1-pds4",
+      "outcome": "no-op",
+      "candidate_files": [
+        "fresh-metadata-gaps/metadata-updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "super-smash-bros-melee-3ds-port",
+      "outcome": "no-op",
+      "candidate_files": [
+        "fresh-handheld/metadata-updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "test7800-atari-7800",
+      "outcome": "no-op",
+      "candidate_files": [
+        "fresh-metadata-gaps/metadata-updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "touhou-7-perfect-cherry-blossom-switch-port",
+      "outcome": "no-op",
+      "candidate_files": [
+        "handheld/metadata-updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "vamiga",
+      "outcome": "no-op",
+      "candidate_files": [
+        "fresh-status/updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "virtualxt-pcxt",
+      "outcome": "no-op",
+      "candidate_files": [
+        "fresh-metadata-gaps/metadata-updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "voland-switch-browser",
+      "outcome": "no-op",
+      "candidate_files": [
+        "fresh-metadata-gaps/metadata-updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "wabbitemu-ti-calculator",
+      "outcome": "no-op",
+      "candidate_files": [
+        "fresh-metadata-gaps/metadata-updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "win32emu-win16-win32",
+      "outcome": "no-op",
+      "candidate_files": [
+        "fresh-metadata-gaps/metadata-updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    },
+    {
+      "project_id": "x48-hp48-calculator",
+      "outcome": "no-op",
+      "candidate_files": [
+        "fresh-metadata-gaps/metadata-updates.json"
+      ],
+      "reason": "Proposed fields, sources, and 2026-10-16 review date already match current catalog."
+    }
+  ],
+  "language_noops": [
+    {
+      "project_id": "2048-nintendo-3ds-port",
+      "candidate_files": [
+        "fresh-handheld/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "alt-rosetta",
+      "candidate_files": [
+        "macos-translation/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "ben-10-omniverse-ps3-macos-recomp",
+      "candidate_files": [
+        "playstation/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "blinx-original-xbox-android-static-recomp",
+      "candidate_files": [
+        "github-broad/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "block-blast-3ds-homebrew",
+      "candidate_files": [
+        "fresh-handheld/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "bounce-vita-port",
+      "candidate_files": [
+        "fresh-handheld/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "bushido-blade-2-ps1-matching-decomp",
+      "candidate_files": [
+        "playstation/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "call-of-duty-roads-to-victory-psp-web-recomp",
+      "candidate_files": [
+        "fresh-handheld/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "crash-wrath-of-cortex-ps2-matching-decomp",
+      "candidate_files": [
+        "playstation/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "daytona-usa-model2-n64-recomp",
+      "candidate_files": [
+        "n64/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "demons-souls-ps3-windows-recomp",
+      "candidate_files": [
+        "playstation/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "digimon-rumble-arena-ps1-matching-decomp",
+      "candidate_files": [
+        "playstation/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "digimon-world-3-ps1-matching-decomp",
+      "candidate_files": [
+        "playstation/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "doom2d-gba-port",
+      "candidate_files": [
+        "handheld/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "driveclub-ps4-macos-api-translation",
+      "candidate_files": [
+        "playstation/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "dxmt-xray-monolith-macos",
+      "candidate_files": [
+        "macos-translation/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "firstlight-hpe-ilo-dell-idrac-remote-console",
+      "candidate_files": [
+        "fresh-software-reimplementation/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "freerdp-rdp-protocol-reimplementation",
+      "candidate_files": [
+        "software-reimplementation/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "generals-zero-hour-ios-native-port",
+      "candidate_files": [
+        "pc-mobile/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "gran-turismo-3-ps2-matching-decomp",
+      "candidate_files": [
+        "playstation/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "haze-ps3-windows-recomp",
+      "candidate_files": [
+        "playstation/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "ico-ps2-matching-decomp",
+      "candidate_files": [
+        "playstation/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "kings-field-ancient-city-ps2-matching-decomp",
+      "candidate_files": [
+        "playstation/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "kirpich-tetris-game-boy-native-reimplementation",
+      "candidate_files": [
+        "handheld/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "legend-of-doom-3ds-port",
+      "candidate_files": [
+        "fresh-handheld/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "librespot-spotify-connect-protocol-implementation",
+      "candidate_files": [
+        "software-reimplementation/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "lord-of-the-rings-third-age-original-xbox-static-recomp",
+      "candidate_files": [
+        "github-broad/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "mister-apple-iii",
+      "candidate_files": [
+        "fresh-emulators/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "mister-atari-system-2",
+      "candidate_files": [
+        "fresh-emulators/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "mister-colour-genie",
+      "candidate_files": [
+        "fresh-emulators/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "mister-gamate",
+      "candidate_files": [
+        "fresh-emulators/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "mister-gameking",
+      "candidate_files": [
+        "fresh-emulators/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "mister-ibm-pcjr",
+      "candidate_files": [
+        "fresh-emulators/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "mister-igs-pgm",
+      "candidate_files": [
+        "fresh-emulators/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "mister-interact",
+      "candidate_files": [
+        "fresh-emulators/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "mister-marble-madness-ii",
+      "candidate_files": [
+        "fresh-emulators/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "mister-neogeo-pocket",
+      "candidate_files": [
+        "fresh-emulators/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "mister-next-workstation",
+      "candidate_files": [
+        "fresh-emulators/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "mister-oric",
+      "candidate_files": [
+        "fresh-emulators/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "mister-pc88",
+      "candidate_files": [
+        "fresh-emulators/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "mister-pcfx",
+      "candidate_files": [
+        "fresh-emulators/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "mister-pcxt-ega",
+      "candidate_files": [
+        "fresh-emulators/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "mister-rca-studio-ii",
+      "candidate_files": [
+        "fresh-emulators/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "mister-sun-2",
+      "candidate_files": [
+        "fresh-emulators/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "mister-sun-3",
+      "candidate_files": [
+        "fresh-emulators/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "mister-supervision",
+      "candidate_files": [
+        "fresh-emulators/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "mister-wonderswan",
+      "candidate_files": [
+        "fresh-emulators/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "nakagawa-recomp-psp-toolkit",
+      "candidate_files": [
+        "fresh-handheld/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "nolf2-macos-apple-silicon-source-port",
+      "candidate_files": [
+        "reddit/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "open-bamboo-networking-bambu-studio-plugin-reimplementation",
+      "candidate_files": [
+        "fresh-software-reimplementation/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "open-ring-oura-ring-4-ble-driver",
+      "candidate_files": [
+        "fresh-software-reimplementation/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "openads-advantage-database-server-reimplementation",
+      "candidate_files": [
+        "fresh-software-reimplementation/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "openbrcm-broadcom-43xx-wifi-driver",
+      "candidate_files": [
+        "fresh-software-reimplementation/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "openconnect-vpn-protocol-implementation",
+      "candidate_files": [
+        "software-reimplementation/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "openrgb-proprietary-rgb-control-reimplementation",
+      "candidate_files": [
+        "software-reimplementation/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "ork-driver-rockchip-rk35xx-npu-library",
+      "candidate_files": [
+        "fresh-software-reimplementation/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "persona-3-portable-new-3ds-recomp",
+      "candidate_files": [
+        "handheld/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "playstation-vr2-app-pc-decompilation",
+      "candidate_files": [
+        "software-decomp/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "post-void-native-android-port",
+      "candidate_files": [
+        "pc-mobile/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "postal-1-3ds-port",
+      "candidate_files": [
+        "handheld/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "psport-ps4-linux-api-translation",
+      "candidate_files": [
+        "playstation/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "resident-evil-gaiden-recomp-android",
+      "candidate_files": [
+        "fresh-console-mobile/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "rogue-galaxy-ps2-matching-decomp",
+      "candidate_files": [
+        "playstation/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "rule-of-rose-ps2-matching-decomp",
+      "candidate_files": [
+        "playstation/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "sd-gundam-dimension-war-virtual-boy-recomp",
+      "candidate_files": [
+        "fresh-handheld/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "shadow-of-the-colossus-ps2-apple-silicon-recomp",
+      "candidate_files": [
+        "playstation/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "silent-hill-ps3-port",
+      "candidate_files": [
+        "pc-mobile/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "spear-of-destiny-n64-reimplementation",
+      "candidate_files": [
+        "n64/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "splosion-man-xbox360-linux-windows-static-recomp",
+      "candidate_files": [
+        "github-broad/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "super-mario-64-3ds-native-port",
+      "candidate_files": [
+        "handheld/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "super-mario-land-native-modern",
+      "candidate_files": [
+        "handheld/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "tetris-game-boy-native-reimplementation",
+      "candidate_files": [
+        "handheld/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "tombi-ps1-matching-decomp",
+      "candidate_files": [
+        "playstation/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "touhou-7-perfect-cherry-blossom-switch-port",
+      "candidate_files": [
+        "handheld/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "tvt-iptool-linux-tvt-camera-provisioning",
+      "candidate_files": [
+        "fresh-software-reimplementation/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "twilight-princess-dusk-mobile",
+      "candidate_files": [
+        "pc-mobile/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "uxplay-airplay-receiver-reimplementation",
+      "candidate_files": [
+        "software-reimplementation/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "wolfenstein-3d-n64-reimplementation",
+      "candidate_files": [
+        "n64/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    },
+    {
+      "project_id": "yakuza-dead-souls-ps3-recomp",
+      "candidate_files": [
+        "playstation/programming-languages.json"
+      ],
+      "reason": "Language, byte breakdown, endpoint, evidence, review date, and unknown reason already match current catalog."
+    }
+  ],
+  "language_missing_project_ids": [
+    {
+      "project_id": "abuse-wii-source-port",
+      "candidate_files": [
+        "console-to-console/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "agepad-aoe2de-ipad",
+      "candidate_files": [
+        "fresh-pc-mobile/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "alex-vs-bus-genesis-port",
+      "candidate_files": [
+        "fresh-sega-xbox/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "alloy-d3d12-metal",
+      "candidate_files": [
+        "revalidation/api-translation/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "ape-escape-wii-vwii-port-bringup",
+      "candidate_files": [
+        "fresh-nintendo-home/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "arc-rise-fantasia-wii-pc-recomp",
+      "candidate_files": [
+        "gc-wii/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "big-brain-academy-wii-degree-decomp",
+      "candidate_files": [
+        "fresh-nintendo-home/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "burnout-3-original-xbox-switch-recomp",
+      "candidate_files": [
+        "console-to-console/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "calc-u-59-ti-calculators",
+      "candidate_files": [
+        "emulators-round4/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "call-of-duty-future-warfare-xbox360-recomp",
+      "candidate_files": [
+        "web-sweep/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "capcom-vs-snk-2-dc-en",
+      "candidate_files": [
+        "sega-xbox/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "captain-toad-wiiu-recomp-prototype",
+      "candidate_files": [
+        "gc-wii/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "cardputer-game-station-multisystem-emulator",
+      "candidate_files": [
+        "revalidation/emulators/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "casio-fx870p-emulator",
+      "candidate_files": [
+        "emulators-round4/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "castation-dreamcast-ps5-emulator",
+      "candidate_files": [
+        "fresh-social/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "cave-story-3ds-cse2-port",
+      "candidate_files": [
+        "console-to-console/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "cave-story-wii-u-cse2-port",
+      "candidate_files": [
+        "console-to-console/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "chaos-field-dc-en",
+      "candidate_files": [
+        "sega-xbox/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "cod2map-2005-bsp-compiler-source-reconstruction",
+      "candidate_files": [
+        "fresh-software-decomp/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "commander-x16-emulator",
+      "candidate_files": [
+        "emulators-round4/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "conduit-2-wii-pc-recomp",
+      "candidate_files": [
+        "gc-wii/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "cool-cool-toon-dc-en",
+      "candidate_files": [
+        "sega-xbox/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "dantes-inferno-xbox360-android-recomp",
+      "candidate_files": [
+        "fresh-sega-xbox/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "dark-cloud-ps2-chronicle-decomp-port",
+      "candidate_files": [
+        "fresh-playstation/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "dead-or-alive-3-xbox-windows-recomp",
+      "candidate_files": [
+        "web-sweep/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "dead-or-alive-saturn-en",
+      "candidate_files": [
+        "sega-xbox/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "deep-3d-submarine-odyssey-android-switch-port",
+      "candidate_files": [
+        "fresh-social/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "diablo-japan-ps1-matching-decomp",
+      "candidate_files": [
+        "fresh-playstation/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "digi-charat-fantasy-dc-en",
+      "candidate_files": [
+        "sega-xbox/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "digimon-world-4-gamecube-decomp",
+      "candidate_files": [
+        "fresh-nintendo-home/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "diner-dash-rust-android",
+      "candidate_files": [
+        "revalidation/mobile-ports/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "disgaea-d2-ps3-macos-recomp",
+      "candidate_files": [
+        "fresh-playstation/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "dolphin-sdk-2001-libraries-decomp",
+      "candidate_files": [
+        "fresh-nintendo-home/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "donkey-kong-country-3-snes-switch-recomp-nx",
+      "candidate_files": [
+        "fresh-console-console/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "donkey-kong-country-snes-switch-dkc1recomp-nx",
+      "candidate_files": [
+        "fresh-console-console/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "doomgeneric-android-native-port",
+      "candidate_files": [
+        "fresh-pc-mobile/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "dr-mario-64-nintendo-puzzle-collection-gamecube-decomp",
+      "candidate_files": [
+        "fresh-nintendo-home/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "dracods-coco-dragon32",
+      "candidate_files": [
+        "emulators-round4/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "dragon-quest-swords-wii-pc-recomp",
+      "candidate_files": [
+        "gc-wii/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "drippu-switch-emulator",
+      "candidate_files": [
+        "revalidation/emulators/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "elfen-lied-fighting-android",
+      "candidate_files": [
+        "revalidation/mobile-ports/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "evangelion-typing-advanced-dc-en",
+      "candidate_files": [
+        "sega-xbox/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "evangelion-typing-project-e-dc-en",
+      "candidate_files": [
+        "sega-xbox/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "even-realities-opencfw-g2-r1-firmware-re",
+      "candidate_files": [
+        "fresh-software-decomp/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "f-zero-gx-gamecube-decomp",
+      "candidate_files": [
+        "fresh-nintendo-home/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "f-zero-gx-static-recomp",
+      "candidate_files": [
+        "gc-wii/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "final-fantasy-crystal-bearers-wii-compiled",
+      "candidate_files": [
+        "gc-wii/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "flatout-2-original-xbox-switch-recomp",
+      "candidate_files": [
+        "console-to-console/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "flipendo-hp1-android-port",
+      "candidate_files": [
+        "fresh-pc-mobile/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "galaxy-on-fire-android-switch-port",
+      "candidate_files": [
+        "fresh-social/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "gamenative-x64-android-windows-games",
+      "candidate_files": [
+        "revalidation/mobile-ports/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "gametank-emulator",
+      "candidate_files": [
+        "emulators-round4/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "grand-theft-auto-iii-regta-3ds-port",
+      "candidate_files": [
+        "console-to-console/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "grand-theft-auto-liberty-city-stories-ps2-vita-relcs-port",
+      "candidate_files": [
+        "console-to-console/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "grand-theft-auto-liberty-city-stories-regta-3ds-port",
+      "candidate_files": [
+        "console-to-console/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "grand-theft-auto-vice-city-regta-3ds-port",
+      "candidate_files": [
+        "console-to-console/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "hagi-sm3das-sunshine-v1-decomp",
+      "candidate_files": [
+        "fresh-nintendo-home/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "half-life-dreamcast-prototype-source-restoration",
+      "candidate_files": [
+        "sega-xbox/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "half-life-wiiu-native-port",
+      "candidate_files": [
+        "gc-wii/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "hardrpg-rpgmaker-ps-vita-runtime",
+      "candidate_files": [
+        "fresh-playstation/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "haunted-mansion-gc-decomp",
+      "candidate_files": [
+        "gc-wii/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "heavy-weapon-deluxe-pc-vita-native-port",
+      "candidate_files": [
+        "fresh-playstation/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "ignition-pc-vita-native-port",
+      "candidate_files": [
+        "fresh-playstation/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "ikaruga-gc-static-recomp",
+      "candidate_files": [
+        "gc-wii/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "imabikiso-ps3-windows-static-recomp",
+      "candidate_files": [
+        "fresh-playstation/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "inazuma-eleven-go-strikers-2013-wii-decomp",
+      "candidate_files": [
+        "fresh-nintendo-home/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "innocent-tears-ogxbox-en",
+      "candidate_files": [
+        "sega-xbox/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "kb-rpcs3-playstation-3-ps5-emulator",
+      "candidate_files": [
+        "fresh-social/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "lego-star-wars-gamecube-decomp",
+      "candidate_files": [
+        "fresh-nintendo-home/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "lemon-android-switch-emulator",
+      "candidate_files": [
+        "revalidation/emulators/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "libre99-ti-994a",
+      "candidate_files": [
+        "emulators-round4/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "madou-monogatari-a-game-gear-ko",
+      "candidate_files": [
+        "sega-xbox/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "madou-monogatari-i-game-gear-ko",
+      "candidate_files": [
+        "sega-xbox/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "madou-monogatari-i-megadrive-ko",
+      "candidate_files": [
+        "sega-xbox/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "madou-monogatari-ii-game-gear-ko",
+      "candidate_files": [
+        "sega-xbox/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "madou-monogatari-iii-game-gear-ko",
+      "candidate_files": [
+        "sega-xbox/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "madou-monogatari-saturn-ko",
+      "candidate_files": [
+        "sega-xbox/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "magpie-scrabble-genesis-port",
+      "candidate_files": [
+        "fresh-sega-xbox/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "mario-kart-double-dash-static-recomp",
+      "candidate_files": [
+        "gc-wii/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "mario-party-6-gamecube-decomp",
+      "candidate_files": [
+        "fresh-nintendo-home/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "mario-strikers-charged-native-source-port",
+      "candidate_files": [
+        "fresh-nintendo-home/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "megaman-x-command-mission-wii-compiled",
+      "candidate_files": [
+        "gc-wii/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "megaman-x5-ps1-matching-decomp",
+      "candidate_files": [
+        "fresh-playstation/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "monster-hunter-tri-wii-pc-recomp",
+      "candidate_files": [
+        "gc-wii/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "monster-slider-saturn-en",
+      "candidate_files": [
+        "sega-xbox/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "mortal-kombat-deception-gc-decomp",
+      "candidate_files": [
+        "gc-wii/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "nazo-puyo-arles-lu-game-gear-ko",
+      "candidate_files": [
+        "sega-xbox/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "need-for-speed-underground-original-xbox-switch-port",
+      "candidate_files": [
+        "console-to-console/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "nemulator-switch-xbox-dev-mode",
+      "candidate_files": [
+        "revalidation/emulators/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "new-super-mario-bros-wii-pal-static-recomp",
+      "candidate_files": [
+        "gc-wii/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "nfs-most-wanted-2012-android-switch-port",
+      "candidate_files": [
+        "fresh-social/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "ninku-saturn-en",
+      "candidate_files": [
+        "sega-xbox/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "noop-whoop-offline-companion-app",
+      "candidate_files": [
+        "fresh-software-decomp/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "nord-g1-emulator",
+      "candidate_files": [
+        "emulators-round4/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "nova-3-android-switch-port",
+      "candidate_files": [
+        "fresh-social/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "op1emu-teenage-engineering-op1",
+      "candidate_files": [
+        "emulators-round4/programming-languages.json",
+        "revalidation/emulators/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "open8-pico-8",
+      "candidate_files": [
+        "emulators-round4/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "openbgi-eve-burst-error-a-android",
+      "candidate_files": [
+        "revalidation/mobile-ports/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "openshiina-android-runtime",
+      "candidate_files": [
+        "fresh-pc-mobile/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "paper-airplane-chase-gx-wii-port",
+      "candidate_files": [
+        "fresh-nintendo-home/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "papple2-apple-ii-research",
+      "candidate_files": [
+        "emulators-round4/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "peonpad-warcraft-ii-ipad",
+      "candidate_files": [
+        "fresh-pc-mobile/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "perfect-dark-original-xbox-port",
+      "candidate_files": [
+        "sega-xbox/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "pes-2013-fextendo-switch-port",
+      "candidate_files": [
+        "fresh-social/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "playstation-all-stars-ps3-windows-static-recomp",
+      "candidate_files": [
+        "fresh-playstation/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "pokemon-rumble-wii-decomp",
+      "candidate_files": [
+        "fresh-nintendo-home/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "porpoise-dolphin-ps5-emulator",
+      "candidate_files": [
+        "fresh-social/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "power-drift-saturn-en",
+      "candidate_files": [
+        "sega-xbox/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "project-igi-pc-ps-vita-static-recomp",
+      "candidate_files": [
+        "fresh-playstation/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "prosperoeden-switch-ps5-emulator",
+      "candidate_files": [
+        "fresh-social/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "ps5-vulkan-radv-native-driver",
+      "candidate_files": [
+        "revalidation/api-translation/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "ps5x360-xbox-360-emulator",
+      "candidate_files": [
+        "fresh-social/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "psflycast-dreamcast-ps5-emulator",
+      "candidate_files": [
+        "fresh-social/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "psxrecomp-static-recompiler-framework",
+      "candidate_files": [
+        "fresh-playstation/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "puyo-puyo-da-dreamcast-ko",
+      "candidate_files": [
+        "sega-xbox/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "puyo-puyon-dreamcast-ko",
+      "candidate_files": [
+        "sega-xbox/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "quake-ii-saturn-shareware-port",
+      "candidate_files": [
+        "fresh-sega-xbox/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "radio-helicopter-wii-decomp",
+      "candidate_files": [
+        "fresh-nintendo-home/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "ragnagard-saturn-en",
+      "candidate_files": [
+        "sega-xbox/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "raptor-call-of-the-shadows-3ds-port",
+      "candidate_files": [
+        "console-to-console/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "raptor-call-of-the-shadows-gamecube-port",
+      "candidate_files": [
+        "console-to-console/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "raptor-call-of-the-shadows-n64-port",
+      "candidate_files": [
+        "console-to-console/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "raptor-call-of-the-shadows-nds-port",
+      "candidate_files": [
+        "console-to-console/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "raptor-call-of-the-shadows-switch-port",
+      "candidate_files": [
+        "console-to-console/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "raptor-call-of-the-shadows-wii-port",
+      "candidate_files": [
+        "console-to-console/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "raptor-call-of-the-shadows-xbox-port",
+      "candidate_files": [
+        "console-to-console/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "ronde-saturn-en",
+      "candidate_files": [
+        "sega-xbox/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "scp-containment-breach-wiiu-port",
+      "candidate_files": [
+        "gc-wii/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "segasonic-switch-recomp",
+      "candidate_files": [
+        "sega-xbox/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "segasonic-system32-decomp",
+      "candidate_files": [
+        "sega-xbox/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "sgi-o2-ip32-prom-v418-decompilation",
+      "candidate_files": [
+        "fresh-software-decomp/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "shadowrun-segacd-en",
+      "candidate_files": [
+        "sega-xbox/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "shinobido-2-ps-vita-windows-recomp",
+      "candidate_files": [
+        "fresh-playstation/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "shutoko-battle-x-xbox360-undub",
+      "candidate_files": [
+        "sega-xbox/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "side-arms-genesis-native-port",
+      "candidate_files": [
+        "fresh-sega-xbox/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "simon-tatham-puzzles-android",
+      "candidate_files": [
+        "revalidation/mobile-ports/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "sleeping-dogs-pc-switch-port",
+      "candidate_files": [
+        "fresh-social/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "sm64-original-xbox-hybrid-port",
+      "candidate_files": [
+        "sega-xbox/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "socom-ii-ps2-static-recomp",
+      "candidate_files": [
+        "github-broad/fresh-leads/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "sonic-1-2-2013-new-3ds-decomp-port",
+      "candidate_files": [
+        "console-to-console/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "sonic-1-2-2013-switch-decomp-port",
+      "candidate_files": [
+        "console-to-console/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "sonic-1-2-2013-vita-decomp-port",
+      "candidate_files": [
+        "console-to-console/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "sonic-and-the-black-knight-static-recomp",
+      "candidate_files": [
+        "gc-wii/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "sonic-cd-2011-3ds-decomp-port",
+      "candidate_files": [
+        "console-to-console/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "sonic-cd-2011-wii-decomp-port",
+      "candidate_files": [
+        "console-to-console/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "sonic-cd-ps2-gems-decomp",
+      "candidate_files": [
+        "sega-xbox/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "sonic-cd-yuusei-mega-drive-port",
+      "candidate_files": [
+        "fresh-sega-xbox/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "sonic-the-hedgehog-2006-ios-static-recomp",
+      "candidate_files": [
+        "github-broad/fresh-leads/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "sony-libgpu2-v112-source-reconstruction",
+      "candidate_files": [
+        "fresh-software-decomp/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "soul-sacrifice-delta-ps-vita-windows-recomp",
+      "candidate_files": [
+        "fresh-playstation/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "space-cadet-pinball-3ds-port",
+      "candidate_files": [
+        "console-to-console/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "space-cadet-pinball-dreamcast-port",
+      "candidate_files": [
+        "console-to-console/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "space-cadet-pinball-nintendo-64-port",
+      "candidate_files": [
+        "console-to-console/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "space-cadet-pinball-nintendo-ds-port",
+      "candidate_files": [
+        "console-to-console/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "space-cadet-pinball-ps2-port",
+      "candidate_files": [
+        "console-to-console/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "space-cadet-pinball-switch-port",
+      "candidate_files": [
+        "console-to-console/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "space-cadet-pinball-vita-port",
+      "candidate_files": [
+        "console-to-console/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "space-cadet-pinball-wii-port",
+      "candidate_files": [
+        "console-to-console/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "space-cadet-pinball-wii-u-port",
+      "candidate_files": [
+        "console-to-console/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "ssi263-speech-device-emulator",
+      "candidate_files": [
+        "emulators-round4/programming-languages.json",
+        "revalidation/emulators/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "star-fox-adventures-retail-decomp",
+      "candidate_files": [
+        "gc-wii/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "star-fox-enhanced-snes-multiconsole-port",
+      "candidate_files": [
+        "fresh-console-console/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "super-mario-eclipse-static-recomp",
+      "candidate_files": [
+        "gc-wii/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "super-mario-galaxy-galaxyquest-vr-port",
+      "candidate_files": [
+        "fresh-nintendo-home/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "super-mario-sunshine-japan-windows-port",
+      "candidate_files": [
+        "gc-wii/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "super-mario-world-original-xbox-port",
+      "candidate_files": [
+        "sega-xbox/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "supermodel-nx-model-3-emulator",
+      "candidate_files": [
+        "fresh-social/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "taromaru-saturn-en",
+      "candidate_files": [
+        "sega-xbox/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "tenshi-no-inai-12gatsu-vita-native-port",
+      "candidate_files": [
+        "fresh-playstation/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "terraria-xbox360-source-decompilation",
+      "candidate_files": [
+        "sega-xbox/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "the-last-story-wii-pc-recomp",
+      "candidate_files": [
+        "gc-wii/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "touhou-6-3ds-decomp-port",
+      "candidate_files": [
+        "console-to-console/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "tux-racer-dreamcast-port",
+      "candidate_files": [
+        "sega-xbox/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "twilight-princess-visionos-vr-port",
+      "candidate_files": [
+        "gc-wii/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "ultrakill-macos-native-port",
+      "candidate_files": [
+        "fresh-social/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "undead-neighbor-eaters-original-xbox-port",
+      "candidate_files": [
+        "fresh-sega-xbox/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "uofw-psp-kernel-firmware-reconstruction",
+      "candidate_files": [
+        "fresh-software-decomp/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "vampire-survivors-xbox360-demake",
+      "candidate_files": [
+        "fresh-sega-xbox/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "vgsx-virtual-game-console",
+      "candidate_files": [
+        "emulators-round4/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "vgszero-virtual-game-console",
+      "candidate_files": [
+        "emulators-round4/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "vita-recomp-kit-static-recompiler-framework",
+      "candidate_files": [
+        "fresh-playstation/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "waku-waku-puyo-puyo-dungeon-saturn-ko",
+      "candidate_files": [
+        "sega-xbox/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "wave-race-blue-storm-static-recomp",
+      "candidate_files": [
+        "gc-wii/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "wii-menu-43-decompilation",
+      "candidate_files": [
+        "gc-wii/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "wii-news-channel-decomp-pc-port",
+      "candidate_files": [
+        "gc-wii/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "wii-party-static-recomp",
+      "candidate_files": [
+        "gc-wii/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "wii-sports-resort-pc-static-recomp",
+      "candidate_files": [
+        "fresh-nintendo-home/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "willy-wombat-saturn-en",
+      "candidate_files": [
+        "sega-xbox/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "wind-waker-deep-sea-windows-native-port",
+      "candidate_files": [
+        "fresh-nintendo-home/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "wind-waker-gamecube-static-recomp",
+      "candidate_files": [
+        "gc-wii/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "wind-waker-windowwaker-windows-port",
+      "candidate_files": [
+        "fresh-nintendo-home/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "wineglass-native-ios-windows-compatibility",
+      "candidate_files": [
+        "fresh-api-translation/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "woomy-wiiu-reconstruction-recompilation-framework",
+      "candidate_files": [
+        "fresh-nintendo-home/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "xpsemu-original-xbox-ps5-emulator",
+      "candidate_files": [
+        "fresh-social/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "yamaha-dmp9-dmp9-16-firmware-decompilation",
+      "candidate_files": [
+        "fresh-software-decomp/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "z390-mainframe-runtime-emulator",
+      "candidate_files": [
+        "emulators-round4/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "zed-android-code-editor-zdroid",
+      "candidate_files": [
+        "revalidation/mobile-ports/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    },
+    {
+      "project_id": "zelda-alttp-snes-switch-aleks-ultimate-nx",
+      "candidate_files": [
+        "fresh-console-console/programming-languages.json"
+      ],
+      "reason": "Project ID is absent from current main catalog; language importer requires an existing project."
+    }
+  ],
+  "language_source_holds": [
+    {
+      "project_id": "samba-smb-active-directory-protocol-implementation",
+      "candidate_file": "software-reimplementation/programming-languages.json",
+      "evidence_url": "https://api.github.com/repos/samba-team/samba/languages",
+      "reason": "Candidate endpoint does not match the current canonical project host/path; no new language evidence imported."
+    }
+  ],
+  "language_duplicate_decisions": [
+    {
+      "project_id": "counter-strike-16-apple-silicon-macos-port",
+      "candidate_files": [
+        "reddit/programming-languages.json",
+        "revalidation/language-retry/programming-languages.json"
+      ],
+      "selected_file": "revalidation/language-retry/programming-languages.json",
+      "resolution": "Selected the freshest canonical API result; resolved language evidence outranks an earlier rate-limit/unknown result."
+    },
+    {
+      "project_id": "metal-gear-solid-integral-reintegral-windows-port",
+      "candidate_files": [
+        "reddit/programming-languages.json",
+        "revalidation/language-retry/programming-languages.json"
+      ],
+      "selected_file": "revalidation/language-retry/programming-languages.json",
+      "resolution": "Selected the freshest canonical API result; resolved language evidence outranks an earlier rate-limit/unknown result."
+    }
+  ],
+  "language_duplicate_conflicts_held": [
+    {
+      "project_id": "op1emu-teenage-engineering-op1",
+      "variants": [
+        {
+          "file": "emulators-round4/programming-languages.json",
+          "predominant_language": "C++",
+          "language_breakdown_bytes": {
+            "C++": 427376,
+            "Python": 344134,
+            "CMake": 9808,
+            "C": 2324
+          },
+          "evidence_url": "https://api.github.com/repos/op1emu/op1emu/languages",
+          "verified_at": "2026-10-16"
+        },
+        {
+          "file": "revalidation/emulators/programming-languages.json",
+          "predominant_language": "C++",
+          "language_breakdown_bytes": {
+            "C++": 429774,
+            "Python": 344134,
+            "CMake": 10202,
+            "C": 2324
+          },
+          "evidence_url": "https://api.github.com/repos/op1emu/op1emu/languages",
+          "verified_at": "2026-10-16"
+        }
+      ],
+      "reason": "Overlapping candidate snapshots disagree, and the project is not in the current catalog. Do not choose a byte map until the project addition is reviewed; re-fetch the canonical Languages endpoint afterward."
+    },
+    {
+      "project_id": "ssi263-speech-device-emulator",
+      "variants": [
+        {
+          "file": "emulators-round4/programming-languages.json",
+          "predominant_language": "C",
+          "language_breakdown_bytes": {
+            "C": 2340826,
+            "Python": 2311721,
+            "C++": 613141,
+            "Swift": 207733,
+            "Shell": 200331,
+            "Kotlin": 187490,
+            "PowerShell": 39779,
+            "CMake": 5920,
+            "Inno Setup": 4990,
+            "Batchfile": 1245
+          },
+          "evidence_url": "https://api.github.com/repos/tgeczy/ssi263-speech/languages",
+          "verified_at": "2026-10-16"
+        },
+        {
+          "file": "revalidation/emulators/programming-languages.json",
+          "predominant_language": "C",
+          "language_breakdown_bytes": {
+            "C": 2342411,
+            "Python": 2316380,
+            "C++": 613141,
+            "Swift": 207733,
+            "Shell": 200364,
+            "Kotlin": 187490,
+            "PowerShell": 39779,
+            "CMake": 5920,
+            "Inno Setup": 4990,
+            "Batchfile": 1245
+          },
+          "evidence_url": "https://api.github.com/repos/tgeczy/ssi263-speech/languages",
+          "verified_at": "2026-10-16"
+        }
+      ],
+      "reason": "Overlapping candidate snapshots disagree, and the project is not in the current catalog. Do not choose a byte map until the project addition is reviewed; re-fetch the canonical Languages endpoint afterward."
+    }
+  ],
+  "game_profiles": {
+    "input_files": [
+      {
+        "path": "game-profiles-proposed.json",
+        "profiles": 32,
+        "facts": 127
+      },
+      {
+        "path": "fresh-game-hydration/game-profiles-proposed.json",
+        "profiles": 14,
+        "facts": 53
+      }
+    ],
+    "profile_occurrences": 46,
+    "unique_game_keys": 46,
+    "facts": 180,
+    "exact_current_matches": 46,
+    "duplicates_within_profiles": [],
+    "nonmatching_profiles": [],
+    "held_web_sweep": [
+      {
+        "game_key": "Call of Duty: Future Warfare",
+        "facts": 4,
+        "existing_game_row": false,
+        "current_facts": 0,
+        "reason": "Linked game/project addition is not in current catalog; review after the addition and then use the canonical game-profile importer."
+      }
+    ]
+  },
+  "game_profile_nonmatching_profiles": [],
+  "web_sweep_game_facts_held": [
+    {
+      "game_key": "Call of Duty: Future Warfare",
+      "facts": 4,
+      "existing_game_row": false,
+      "current_facts": 0,
+      "reason": "Linked game/project addition is not in current catalog; review after the addition and then use the canonical game-profile importer."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+# Software application and firmware reconstruction research — 2026-10-16
+
+This review sought non-game application and firmware projects with a concrete target and a maintainer repository describing actual decompilation, clean-room reimplementation, or replacement firmware. GitHub search and web results were discovery leads; proposed rows rely on project-owned READMEs, release pages, license files, and GitHub API metadata.
+
+## Proposed additions
+
+- **Uniden R7 Firmware Toolkit** targets Uniden R7 firmware, specifically feature offsets for `R7_v153.150.127`. Its public AGPL-3.0 tools decode and repack the firmware, perform version-specific edits, and create persistent Ghidra projects with C/assembly exports. The maintainer reports 1,654 recovered functions and byte-identical decode/encode round-trips. Code uses Python and a browser-local JavaScript editor; the README does not give a host OS matrix. Vendor firmware is not included. The repository was updated 2026-10-15 and has no release.
+- **BCM5719 Firmware Reimplementation** is a clean-room implementation based on the Ortega specification. The README reports working NC-SI traffic and BMC-to-network communication, functional MII/NVRAM and utilities, minimal stage1/stage2 testing, and Wake-on-LAN not started. It is tested on Raptor Computing Talos II and Blackbird; other BCM5719 devices are not established. Source is BSD-3-Clause, Linux host utilities are documented, the latest GitHub release found is v0.6.12 (2021-06-16), and source changes continued through 2026-08-02.
+- **KOWSI KWS-X1 Standalone Firmware** replaces the USB-C meter's application while retaining its original bootloader. It is a Rust/Embassy implementation for an HC32F460-based KWS-X1. Stable firmware v0.7.0 was published 2026-10-15; v0.7.1-test.2 is a prerelease. The README reports hardware testing of fixed 28 V EPR and selected Quick Charge 3.0 behavior, while EPR AVS, battery reporting, and other Quick Charge cases remain untested. GitHub reports Apache-2.0 and MIT license files, and the README says no vendor firmware is needed. The flasher download is OS-specific, but the README does not state a complete host OS matrix.
+
+## Duplicate audit and exclusions
+
+- Queried SQLite project title/target/URL fields for each proposed repository and target; no matching records were found. Searched the full `data/research/` and `work/` trees for canonical repository URLs and target aliases. The Uniden repository appears only in a prior GitHub discovery-results snapshot, with no proposal row. The BCM5719 and KWS-X1 repositories and targets did not appear in existing manifests or research files.
+- **SC26re** and **OpenDMCUFirm** were not restaged: both already have proposal and language-evidence rows in `data/research/discovery-2026-10-16/next-wave/` and `work/research-oct16/software-decomp-round2/`.
+- **open-apt-flash** was not restaged because its repository and protocol findings already appear in `work/research-2026-10-16/goal-refresh/continuation-next-additions/primary-source-audit.json`.
+- **HiBy OS Crack** provides firmware unpack/repack scripts, structure documentation, and device research, but not a recovered application or replacement firmware implementation. **HiBy Mods** modifies stock R3 Pro II firmware with binary patches, themes, and other customizations; it is not a source reconstruction, and its README says the prebuilt output has only been tested on that model.
+- **Realtek 8192E firmware decompilation** is a lower-confidence lead: its README identifies an 8051 firmware image and an assembly disassemble/reassemble workflow, but its roadmap still lists decompilation and recovery of the C source as future work. GitHub shows no release and the last source push was 2023-03-20, so it was left out of this high-confidence batch.
+- **nina-pentax-spec** is a useful firmware-derived implementation specification, but the repository describes a specification rather than recovered or replacement application code. **DatanoiseTV/revenant** is a general reverse-engineering tool rather than a distinct software target. The Hasselblad X2D repository is a camera firmware-modification research collection; its prominently demonstrated application is Doom, so it does not provide a clear non-game target row for this batch.
+- No new software-specific static recompilation or API-translation target with primary-source evidence survived this pass. General-purpose recompilation toolkits and broad translation layers were excluded when they were already cataloged or did not name a distinct new application target.
+
+## Language evidence and staging
+
+GitHub's official REST Languages API was queried for every proposed repository on 2026-10-16. Byte counts are preserved in `programming-languages.json`; the project's listed predominant language follows the largest repository-wide byte category. For BCM5719, the repository-wide counts include both firmware and host utilities.
+
+These are review-only proposals under `work/research-2026-10-16/goal-continuation-v2/software-apps/`. No SQLite import/export, generated-doc edit, or tracked-file change was made.
