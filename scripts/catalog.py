@@ -935,18 +935,24 @@ def import_project_updates(path):
                     )
 
                 existing = connection.execute(
-                    "SELECT position,url FROM sources WHERE project_id=? ORDER BY position", (project_id,)
+                    "SELECT position,label,url FROM sources WHERE project_id=? ORDER BY position", (project_id,)
                 ).fetchall()
-                existing_urls = {row["url"] for row in existing}
+                existing_by_url = {row["url"]: row for row in existing}
                 position = max((row["position"] for row in existing), default=-1) + 1
                 for source in update["sources"]:
-                    if source["url"] in existing_urls:
+                    existing_source = existing_by_url.get(source["url"])
+                    if existing_source:
+                        if existing_source["label"] != source["label"]:
+                            connection.execute(
+                                "UPDATE sources SET label=? WHERE project_id=? AND position=?",
+                                (source["label"], project_id, existing_source["position"]),
+                            )
                         continue
                     connection.execute(
                         "INSERT INTO sources(project_id,position,label,url) VALUES(?,?,?,?)",
                         (project_id, position, source["label"], source["url"]),
                     )
-                    existing_urls.add(source["url"])
+                    existing_by_url[source["url"]] = {"position": position, "label": source["label"]}
                     position += 1
 
             updated = updated or date.today().isoformat()

@@ -1,0 +1,193 @@
+{
+  "updated": "2026-10-16",
+  "scope": "8 source-backed metadata/status updates from current Mac translation, PC/mobile, N64, Reddit, broad GitHub and handheld research lanes. Updated review dates supersede older activity metadata where explicitly refreshed.",
+  "updates": [
+    {
+      "id": "dxmt",
+      "fields": {
+        "status": "Experimental macOS/Wine implementation of Direct3D 10/11; v0.80 (2026-04-23) remains the latest upstream release listed on 2026-10-16, with v0.81 still described as planned. Maintainer commits through 2026-10-12 include D3D11 Map handling and D3D12 feature-query fixes. The issue tracker continues to document compatibility and performance bugs, so release and source activity do not imply broad compatibility.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Upstream v0.80 release notes and planned v0.81 status",
+          "url": "https://github.com/3Shain/dxmt/releases/tag/v0.80"
+        },
+        {
+          "label": "Upstream GitHub commit history through 2026-10-12",
+          "url": "https://github.com/3Shain/dxmt/commits/main/"
+        },
+        {
+          "label": "Official GitHub repository metadata and activity timestamp",
+          "url": "https://api.github.com/repos/3Shain/dxmt"
+        }
+      ]
+    },
+    {
+      "id": "twilight-princess-dusk-mobile",
+      "fields": {
+        "title": "Dusklight: Twilight Princess Native Mobile Port",
+        "platform": "GameCube/Wii → Android ARM64 and iOS ARM64; also Windows, Linux, and macOS",
+        "status": "The official Dusklight v2.0.3 release (2026-09-30) includes an Android ARM64 APK and iOS ARM64 IPA. The README says all commercial discs are supported except the Korean Wii release and describes OpenGL ES on older Android devices as best-effort; users must dump their own game copy.",
+        "summary": "Official mobile builds of Dusklight, a reverse-engineered native reimplementation of Twilight Princess based on the GameCube decompilation. The v2.0.3 release ships Android ARM64 and iOS ARM64 packages alongside desktop builds. The app contains no copyrighted game data; the player supplies a supported disc dump. Android OpenGL ES support on older devices is best-effort.",
+        "project_url": "https://github.com/TwilitRealm/dusklight",
+        "updated": "2026-10-11T11:04:10Z",
+        "strategy": "Reverse-engineered native reimplementation packaged for Android/iOS and desktop; requires user-supplied disc data.",
+        "source_available": "Public CC0-1.0 source repository and Android APK/iOS IPA releases. The player must provide a supported, legally dumped game disc; no game data is distributed.",
+        "subtype": "Official Android ARM64 and iOS ARM64 builds; Android OpenGL ES fallback is best-effort",
+        "programming_language": "C++"
+      },
+      "sources": [
+        {
+          "label": "Official Dusklight repository: supported discs, build requirements, and project identity",
+          "url": "https://github.com/TwilitRealm/dusklight"
+        },
+        {
+          "label": "Official Dusklight v2.0.3 release: Android APK and iOS IPA assets",
+          "url": "https://github.com/TwilitRealm/dusklight/releases/tag/v2.0.3"
+        },
+        {
+          "label": "Official GitHub repository metadata and source activity",
+          "url": "https://api.github.com/repos/TwilitRealm/dusklight"
+        }
+      ]
+    },
+    {
+      "id": "silent-hill-ps3-port",
+      "fields": {
+        "title": "Silent Hill Native PC and Mobile Port (PS3 in Development)",
+        "platform": "Original PlayStation → Windows PC, Android, and iOS; OG Xbox beta; PS3/PSP listed as in development",
+        "status": "The current crossplatform-beta release contains Android APK and iOS IPA assets, with APK/IPA files updated through 2026-10-12. In its 2026-09-04 announcement, the maintainer says Android/iOS builds are playable and support touch controls; Android Arcade1Up support still needs work. The PS3 target tracked by this row remains in development, with no PS3-specific playable milestone documented.",
+        "summary": "A native source port based on the PlayStation decompilation, using PsyCross rather than emulation or static recompilation. The project now ships PC, Android, and iOS builds; its maintainer reports playable mobile builds with touch controls. The cross-platform beta also includes an OG Xbox build, while PS3/PSP remain listed as in-development targets. Game data is not included and must come from the user’s own PlayStation disc.",
+        "updated": "2026-10-16T06:07:48Z",
+        "strategy": "Decompilation-based native source port using PsyCross, with PC, Android, and iOS builds; console targets have separate maturity levels.",
+        "source_available": "Public GPL-3.0 source for the PC port and its additions, plus Android APK/iOS IPA beta builds. The project does not license or distribute the underlying PlayStation decompilation or game data; a user-supplied disc is required.",
+        "subtype": "Native Android/iOS beta and PC port; OG Xbox beta; PS3/PSP in development"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: decompilation method, platform status, and game-data requirement",
+          "url": "https://github.com/SlickAmogus/silent-hill-decomp#readme"
+        },
+        {
+          "label": "Maintainer cross-platform beta release: Android APK, iOS IPA, and Xbox assets",
+          "url": "https://github.com/SlickAmogus/silent-hill-decomp/releases/tag/crossplatform-beta"
+        },
+        {
+          "label": "Maintainer announcement: mobile builds, touch support, and Arcade1Up caveat",
+          "url": "https://github.com/SlickAmogus/silent-hill-decomp/discussions/120"
+        },
+        {
+          "label": "GitHub repository metadata: 2026-10-16 source activity and GPL-3.0 port license",
+          "url": "https://api.github.com/repos/SlickAmogus/silent-hill-decomp"
+        }
+      ]
+    },
+    {
+      "id": "donkey-kong-64-decomp",
+      "fields": {
+        "status": "Public in-progress MIPS decompilation. The README progress badge reports 66.9612% (4,090/4,502 functions). The latest progress commit is dated 2026-10-06; a 2026-10-09 main-branch commit moved files into done/, and GitLab project metadata reports last activity on 2026-10-10. Building requires a user-supplied U.S. ROM.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Maintainer progress badge: overall function count and completion percentage",
+          "url": "https://gitlab.com/dk64_decomp/dk64/-/raw/main/progress/progress_total.svg"
+        },
+        {
+          "label": "GitLab main-branch commits: latest file move and prior progress update",
+          "url": "https://gitlab.com/api/v4/projects/dk64_decomp%2Fdk64/repository/commits?per_page=5"
+        },
+        {
+          "label": "GitLab project metadata: last activity timestamp",
+          "url": "https://gitlab.com/api/v4/projects/dk64_decomp%2Fdk64"
+        }
+      ]
+    },
+    {
+      "id": "the-world-is-not-enough-n64-recomp",
+      "fields": {
+        "platform": "Nintendo 64 → Windows, Linux, and Steam Deck"
+      },
+      "sources": [
+        {
+          "label": "Project release notes: Windows executable and Linux/Steam Deck AppImage usage",
+          "url": "https://github.com/riseio/TWIPE_00Sheven/releases/tag/ICHGYTW_0.1.93"
+        },
+        {
+          "label": "Maintainer README: native PC/Steam Deck project and platform guidance",
+          "url": "https://github.com/riseio/TWIPE_00Sheven#readme"
+        },
+        {
+          "label": "Reddit discovery lead; same canonical repository already in catalog",
+          "url": "https://www.reddit.com/r/decomps/comments/1wxxz4u/i_would_have_given_you_the_world_the_world_is_not/"
+        }
+      ]
+    },
+    {
+      "id": "halo-2-original-xbox-matching-decomp",
+      "fields": {
+        "updated": "2026-10-16",
+        "status": "Work in progress. The latest README snapshot reports 8,860 retail functions matching byte for byte: 8,860/11,321 game functions and 1,205,994/2,784,283 game bytes (43.31%); against the wider 17,219-function scope, 1,205,994/3,739,273 bytes match (32.25%). No runnable port is claimed."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README status and byte-count denominators",
+          "url": "https://github.com/kirklandsig/halo2-decompiled#status"
+        },
+        {
+          "label": "Detailed progress snapshot linked by the README",
+          "url": "https://github.com/kirklandsig/halo2-decompiled/blob/main/docs/PROGRESS.md"
+        },
+        {
+          "label": "GitHub repository metadata: latest push date",
+          "url": "https://api.github.com/repos/kirklandsig/halo2-decompiled"
+        }
+      ]
+    },
+    {
+      "id": "pokemon-lets-go-eevee-switch-recomp",
+      "fields": {
+        "updated": "2026-10-16",
+        "status": "Release v0.1.2 was published 2026-10-16 UTC. The README reports the Eevee v1.0.0 base game playable on Windows at a stable 30 fps from the opening movie and introduction through exploration, wild captures, trainer battles, menus, Pokédex, Play with Eevee, and save/load. The game has not been played from start to finish; only the specified Eevee base-game version is supported, and Pikachu/update versions are not."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: current playable scope, tested version, and end-to-end caveat",
+          "url": "https://github.com/raulzrrs/letsgo-recomp#status"
+        },
+        {
+          "label": "Latest release v0.1.2",
+          "url": "https://github.com/raulzrrs/letsgo-recomp/releases/tag/v0.1.2"
+        },
+        {
+          "label": "GitHub repository metadata: activity and license detection",
+          "url": "https://api.github.com/repos/raulzrrs/letsgo-recomp"
+        }
+      ]
+    },
+    {
+      "id": "touhou-7-perfect-cherry-blossom-switch-port",
+      "fields": {
+        "status": "The maintainer README describes a native Horizon port paced at locked 60 FPS with direct console audio output and remappable Switch controls. Release v1.00b-r5 (2026-09-30) adds Key Config support, maps ZL/ZR to L/R, standardizes the NRO name to touhou7.nro, and recommends sd:/switch/touhou/touhou7/; the release says gameplay is unchanged.",
+        "programming_language": "C",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: supported platform and playability status",
+          "url": "https://github.com/saekaze/th07-switch#readme"
+        },
+        {
+          "label": "Maintainer release v1.00b-r5 (published 2026-09-30)",
+          "url": "https://github.com/saekaze/th07-switch/releases/tag/v1.00b-r5"
+        },
+        {
+          "label": "Official GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/saekaze/th07-switch"
+        }
+      ],
+      "evidence_note": "The public maintainer release confirms the control-mapping and packaging changes. The README documents the Horizon target, locked frame pacing, and direct audio path; no separate end-to-end completion claim is asserted here. GitHub Languages reports C as the predominant language with 4,265,050 bytes; see programming-languages.json for the full byte map."
+    }
+  ]
+}

@@ -1,0 +1,743 @@
+{
+  "verified_at": "2026-10-16",
+  "scope": "Official repository language evidence for 44 new project targets plus existing targets refreshed in the same research lanes; unknown dominant languages are preserved when the repository API provides no byte map.",
+  "records": [
+    {
+      "project_id": "alt-rosetta",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 306037,
+        "Shell": 2963,
+        "Makefile": 1719,
+        "Assembly": 1236
+      },
+      "evidence_url": "https://api.github.com/repos/sadopc/alt-rosetta/languages",
+      "evidence": "Official GitHub Languages API totals returned on 2026-10-16; C is the largest category (306,037 of 311,955 recognized bytes, 98.1%). Repository-level counts do not isolate runtime code from tests or build files.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": null
+    },
+    {
+      "project_id": "dxmt-xray-monolith-macos",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 3229142,
+        "C": 508776,
+        "Metal": 51739,
+        "Meson": 27042,
+        "HLSL": 7493,
+        "Shell": 290
+      },
+      "evidence_url": "https://api.github.com/repos/elseform/dxmt/languages",
+      "evidence": "Official GitHub Languages API totals returned on 2026-10-16; C++ is the largest category (3,229,142 of 3,824,482 recognized bytes, 84.4%). Repository-level counts include the shared DXMT implementation and build/test content, not only the branch's game-specific changes.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": null
+    },
+    {
+      "project_id": "generals-zero-hour-ios-native-port",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 56796073,
+        "C": 1598833,
+        "CMake": 421403,
+        "Python": 264443,
+        "Shell": 232578,
+        "Perl": 4250,
+        "Dockerfile": 2918,
+        "Batchfile": 1524,
+        "HTML": 583,
+        "Objective-C": 213,
+        "CSS": 152
+      },
+      "evidence_url": "https://api.github.com/repos/ammaarreshi/Generals-Mac-iOS-iPad/languages",
+      "evidence": "GitHub REST Languages endpoint reports 56,796,073 bytes of C++ as the largest total (95.7% of 59,322,970 recognized language bytes). The byte totals describe the full repository and do not isolate the iOS-specific files.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "post-void-native-android-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 620202,
+        "C++": 168714,
+        "Kotlin": 99515,
+        "C#": 19445,
+        "Java": 8145,
+        "CMake": 2377
+      },
+      "evidence_url": "https://api.github.com/repos/SanGraphic/PostVoidMobile/languages",
+      "evidence": "GitHub REST Languages endpoint reports 620,202 bytes of C as the largest total (67.5% of 918,398 recognized language bytes). Repository byte counts do not isolate the Android-specific application layer.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "twilight-princess-dusk-mobile",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 42565192,
+        "C": 32346080,
+        "CMake": 207944,
+        "Pascal": 92224,
+        "WGSL": 40460,
+        "Pawn": 30400,
+        "Assembly": 22211,
+        "Nix": 13286,
+        "Luau": 10195,
+        "Python": 7336,
+        "PowerShell": 3147,
+        "Java": 2772,
+        "Shell": 1002
+      },
+      "evidence_url": "https://api.github.com/repos/TwilitRealm/dusklight/languages",
+      "evidence": "GitHub REST Languages endpoint for the official repository reports 42,565,192 bytes of C++ as the largest total (56.5% of 75,342,249 recognized language bytes).",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "silent-hill-ps3-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 17156577,
+        "C++": 3407304,
+        "C#": 2612050,
+        "Python": 963440,
+        "BitBake": 331512,
+        "PowerShell": 69553,
+        "CMake": 58449,
+        "JavaScript": 56262,
+        "HTML": 35485,
+        "Makefile": 34941,
+        "Shell": 25816,
+        "Kaitai Struct": 14888,
+        "Pawn": 13889,
+        "Batchfile": 11138,
+        "Linker Script": 8216,
+        "Dockerfile": 778
+      },
+      "evidence_url": "https://api.github.com/repos/SlickAmogus/silent-hill-decomp/languages",
+      "evidence": "GitHub REST Languages endpoint reports 17,156,577 bytes of C as the largest total (69.2% of 24,800,298 recognized language bytes). The endpoint covers the full repository rather than the port or mobile targets alone.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "playstation-vr2-app-pc-decompilation",
+      "predominant_language": "C#",
+      "language_breakdown_bytes": {
+        "C#": 905569
+      },
+      "evidence_url": "https://api.github.com/repos/AwesomeTornado/PlayStationVR2App/languages",
+      "evidence": "Official GitHub Languages API byte totals retrieved on 2026-10-16 via authenticated gh CLI. GitHub reports 905,569 recognized bytes of C# and no other language categories. The project file independently identifies a .NET 8 x64 WinExe; repository-level totals describe the whole source tree.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": null
+    },
+    {
+      "project_id": "freerdp-rdp-protocol-reimplementation",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 19739527,
+        "C++": 975670,
+        "CMake": 866785,
+        "Objective-C": 551492,
+        "Java": 434822,
+        "Python": 78670,
+        "HTML": 77331,
+        "Roff": 36728,
+        "Lua": 27393,
+        "Shell": 27094,
+        "Perl": 8044,
+        "C#": 5756,
+        "CSS": 5696,
+        "Makefile": 1506,
+        "Rich Text Format": 937
+      },
+      "evidence_url": "https://api.github.com/repos/FreeRDP/FreeRDP/languages",
+      "evidence": "GitHub's official repository Languages endpoint reports C as predominant (19,739,527 bytes). Counts are repository-wide and can include build and tooling code.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "samba-smb-active-directory-protocol-implementation",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 59428073,
+        "Python": 14141853,
+        "Shell": 2113922,
+        "Perl": 1005069,
+        "Yacc": 72541,
+        "XSLT": 69367,
+        "Makefile": 19208,
+        "Lex": 18751,
+        "TeX": 12122,
+        "Dockerfile": 11712,
+        "RPC": 3570,
+        "Batchfile": 2954,
+        "BitBake": 2892,
+        "sed": 2625,
+        "Awk": 2592,
+        "Roff": 2581,
+        "M4": 1668,
+        "HTML": 1102,
+        "PHP": 1060,
+        "CSS": 873,
+        "VBScript": 308
+      },
+      "evidence_url": "https://api.github.com/repos/samba-team/samba/languages",
+      "evidence": "GitHub's official Languages endpoint for the Samba source mirror reports C as predominant (59,428,073 bytes). The canonical project URL in the project row is Samba's official GitLab repository; the endpoint is a public mirror of that source tree. Counts are repository-wide and include build/tooling code.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "openconnect-vpn-protocol-implementation",
+      "predominant_language": "C",
+      "evidence_url": "https://gitlab.com/api/v4/projects/openconnect%2Fopenconnect/languages",
+      "evidence": "GitLab's official Languages endpoint reports C as predominant at 75.50%. The endpoint provides percentages rather than byte counts, so no byte breakdown is recorded.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "librespot-spotify-connect-protocol-implementation",
+      "predominant_language": "Rust",
+      "language_breakdown_bytes": {
+        "Rust": 984787,
+        "Dockerfile": 5440,
+        "Python": 3238,
+        "Shell": 2554
+      },
+      "evidence_url": "https://api.github.com/repos/librespot-org/librespot/languages",
+      "evidence": "GitHub's official repository Languages endpoint reports Rust as predominant (984,787 bytes). Counts are repository-wide and can include build and tooling code.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "openrgb-proprietary-rgb-control-reimplementation",
+      "predominant_language": "C++",
+      "evidence_url": "https://gitlab.com/api/v4/projects/CalcProgrammer1%2FOpenRGB/languages",
+      "evidence": "GitLab's official Languages endpoint reports C++ as predominant at 97.86%. The endpoint provides percentages rather than byte counts, so no byte breakdown is recorded.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "uxplay-airplay-receiver-reimplementation",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 1609202,
+        "C++": 143515,
+        "Python": 46987,
+        "CMake": 17298,
+        "Roff": 10376
+      },
+      "evidence_url": "https://api.github.com/repos/FDH2/UxPlay/languages",
+      "evidence": "GitHub's official repository Languages endpoint reports C as predominant (1,609,202 bytes). Counts are repository-wide and can include build and tooling code.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "daytona-usa-model2-n64-recomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 76106,
+        "Python": 27562,
+        "Shell": 3220,
+        "Makefile": 2146,
+        "C": 13
+      },
+      "evidence_url": "https://api.github.com/repos/PlatynumX/daytona-n64/languages",
+      "evidence": "Exact byte counts returned by the official GitHub REST Languages endpoint on 2026-10-16; predominant language is the largest reported total. Repository-level counts can include build tooling and do not isolate runtime implementation code.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "wolfenstein-3d-n64-reimplementation",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 818991,
+        "Python": 125137,
+        "PowerShell": 43033,
+        "Shell": 16920,
+        "Makefile": 5938,
+        "Assembly": 842,
+        "Batchfile": 262
+      },
+      "evidence_url": "https://api.github.com/repos/michaelpwest/wolfenstein-3d-n64/languages",
+      "evidence": "Exact byte counts returned by the official GitHub REST Languages endpoint on 2026-10-16; predominant language is the largest reported total. Repository-level counts can include build tooling and do not isolate runtime implementation code.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "spear-of-destiny-n64-reimplementation",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 818991,
+        "Python": 125137,
+        "PowerShell": 43033,
+        "Shell": 16920,
+        "Makefile": 5938,
+        "Assembly": 842,
+        "Batchfile": 262
+      },
+      "evidence_url": "https://api.github.com/repos/michaelpwest/wolfenstein-3d-n64/languages",
+      "evidence": "Exact byte counts returned by the official GitHub REST Languages endpoint on 2026-10-16 for the shared repository; predominant language is the largest reported total. Repository-level counts can include build tooling and do not isolate runtime implementation code.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "nolf2-macos-apple-silicon-source-port",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 23324259,
+        "C": 4508665,
+        "Objective-C++": 221739,
+        "CMake": 97994,
+        "Makefile": 46564,
+        "GLSL": 34861,
+        "Swift": 31334,
+        "Pascal": 10761,
+        "Starlark": 9345,
+        "Python": 9038,
+        "Shell": 7441,
+        "Batchfile": 3629,
+        "Yacc": 2340,
+        "Lex": 2256
+      },
+      "evidence_url": "https://api.github.com/repos/MatzeLoCal/NOLF2/languages",
+      "evidence": "GitHub Languages API byte counts retrieved 2026-10-16. C++ is the largest category (23,324,259 of 28,310,226 recognized bytes; 82.4%). Repository-wide totals can include build, test, and other non-runtime files.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": null
+    },
+    {
+      "project_id": "counter-strike-16-apple-silicon-macos-port",
+      "predominant_language": null,
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/7tg/cs16-macos-arm64/languages",
+      "evidence": "The official GitHub Languages API request returned HTTP 403 rate limit exceeded on 2026-10-16. No category totals were available; do not infer repository language from its submodules or filenames.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": "GitHub API rate limiting prevented retrieval of the repository’s language breakdown."
+    },
+    {
+      "project_id": "metal-gear-solid-integral-reintegral-windows-port",
+      "predominant_language": null,
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/Drommedhar/mgs-reintegral/languages",
+      "evidence": "The official GitHub Languages API request returned HTTP 403 rate limit exceeded on 2026-10-16. No category totals were available; do not infer repository language from source file extensions or dependencies.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": "GitHub API rate limiting prevented retrieval of the repository’s language breakdown."
+    },
+    {
+      "project_id": "yakuza-dead-souls-ps3-recomp",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 1682024,
+        "C++": 597625,
+        "Python": 484684,
+        "CMake": 18304
+      },
+      "evidence_url": "https://api.github.com/repos/canersaka/Yakuza-Dead-Souls-EX/languages",
+      "evidence": "GitHub’s official Languages API reports C: 1,682,024 bytes, C++: 597,625 bytes, Python: 484,684 bytes, CMake: 18,304 bytes. C is the largest checked-in byte total; GitHub’s repository-wide map also includes the generated-code/tooling split and does not identify the language of generated game code.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "ben-10-omniverse-ps3-macos-recomp",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "C": 42178,
+        "C++": 38206,
+        "Python": 115374,
+        "Shell": 26409
+      },
+      "evidence_url": "https://api.github.com/repos/andrebrumdev/ben10-omniverse-recomp/languages",
+      "evidence": "GitHub’s official Languages API reports C: 42,178 bytes, C++: 38,206 bytes, Python: 115,374 bytes, Shell: 26,409 bytes. Python is the largest repository-wide byte total; this reflects committed tooling and measurement code, not the language of the generated PS3 game code.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "demons-souls-ps3-windows-recomp",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Batchfile": 684,
+        "C": 1888,
+        "C++": 14416,
+        "CMake": 9187,
+        "Java": 8316,
+        "Python": 81254,
+        "Shell": 33726
+      },
+      "evidence_url": "https://api.github.com/repos/JonathanDC64/DemonsSoulsRecomp/languages",
+      "evidence": "GitHub’s official Languages API reports Batchfile: 684 bytes, C: 1,888 bytes, C++: 14,416 bytes, CMake: 9,187 bytes, Java: 8,316 bytes, Python: 81,254 bytes, Shell: 33,726 bytes. Python is the largest repository-wide byte total; the map includes build, analysis and validation tooling as well as the C++ runtime.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "haze-ps3-windows-recomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 1015681,
+        "Python": 919128,
+        "PowerShell": 136507,
+        "C": 131828,
+        "CMake": 63095,
+        "JavaScript": 17123,
+        "C#": 12774,
+        "HTML": 2297,
+        "Shell": 1056,
+        "Batchfile": 116
+      },
+      "evidence_url": "https://api.github.com/repos/zdiemer/haze-recomp/languages",
+      "evidence": "GitHub’s official Languages API reports C++: 1,015,681 bytes, Python: 919,128 bytes, PowerShell: 136,507 bytes, C: 131,828 bytes, CMake: 63,095 bytes, JavaScript: 17,123 bytes, C#: 12,774 bytes, HTML: 2,297 bytes, Shell: 1,056 bytes, Batchfile: 116 bytes. C++ is the largest repository-wide total; the map also includes substantial Python and PowerShell build/launcher tooling.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "driveclub-ps4-macos-api-translation",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 562995,
+        "CMake": 13225,
+        "Objective-C": 14411,
+        "Objective-C++": 164599,
+        "Python": 9886,
+        "Shell": 838
+      },
+      "evidence_url": "https://api.github.com/repos/BlackLineInteractive/Driveclub-Port/languages",
+      "evidence": "GitHub’s official Languages API reports C++: 562,995 bytes, CMake: 13,225 bytes, Objective-C: 14,411 bytes, Objective-C++: 164,599 bytes, Python: 9,886 bytes, Shell: 838 bytes. C++ is the largest repository-wide total; Objective-C++ includes the Metal backend.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "psport-ps4-linux-api-translation",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C": 1516020,
+        "C++": 17630811,
+        "CMake": 20878,
+        "GLSL": 3992,
+        "Nix": 17407,
+        "Perl": 4885,
+        "Python": 289323,
+        "Shell": 90197
+      },
+      "evidence_url": "https://api.github.com/repos/yerasuu/psport/languages",
+      "evidence": "GitHub’s official Languages API reports C: 1,516,020 bytes, C++: 17,630,811 bytes, CMake: 20,878 bytes, GLSL: 3,992 bytes, Nix: 17,407 bytes, Perl: 4,885 bytes, Python: 289,323 bytes, Shell: 90,197 bytes. C++ is the largest total; the README documents inherited shadPS4 rendering/recompiler code and game-independent runtime components.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "shadow-of-the-colossus-ps2-apple-silicon-recomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 16690794,
+        "Objective-C++": 86594,
+        "Python": 59613,
+        "Java": 51261,
+        "CMake": 48115,
+        "Shell": 31046,
+        "C": 34
+      },
+      "evidence_url": "https://api.github.com/repos/HenryKun55/celosia/languages",
+      "evidence": "GitHub’s official Languages API reports C++: 16,690,794 bytes, Objective-C++: 86,594 bytes, Python: 59,613 bytes, Java: 51,261 bytes, CMake: 48,115 bytes, Shell: 31,046 bytes, C: 34 bytes. C++ is the largest repository-wide total; this describes checked-in source, not generated functions from the user’s disc.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "gran-turismo-3-ps2-matching-decomp",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "BitBake": 2625,
+        "C": 8228166,
+        "C++": 787996,
+        "Java": 2190,
+        "Python": 1084699,
+        "Shell": 9670
+      },
+      "evidence_url": "https://api.github.com/repos/gustavocanepa/gt3-decomp/languages",
+      "evidence": "GitHub’s official Languages API reports BitBake: 2,625 bytes, C: 8,228,166 bytes, C++: 787,996 bytes, Java: 2,190 bytes, Python: 1,084,699 bytes, Shell: 9,670 bytes. C is the largest repository-wide total; the README separately reports matching progress and warns that most linked game code still comes from the user’s binary.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "bushido-blade-2-ps1-matching-decomp",
+      "predominant_language": "Assembly",
+      "language_breakdown_bytes": {
+        "Assembly": 10644034,
+        "BitBake": 23652,
+        "C": 2234720,
+        "Linker Script": 73067,
+        "Makefile": 15833,
+        "PowerShell": 267975,
+        "Python": 5192293,
+        "Shell": 84702,
+        "VBScript": 827
+      },
+      "evidence_url": "https://api.github.com/repos/tgg12321/BushidoBladeDecompile/languages",
+      "evidence": "GitHub’s official Languages API reports Assembly: 10,644,034 bytes, BitBake: 23,652 bytes, C: 2,234,720 bytes, Linker Script: 73,067 bytes, Makefile: 15,833 bytes, PowerShell: 267,975 bytes, Python: 5,192,293 bytes, Shell: 84,702 bytes, VBScript: 827 bytes. Assembly is the largest repository-wide total because the repository keeps per-function target listings; it is not a proxy for the amount of readable C.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "rogue-galaxy-ps2-matching-decomp",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "Assembly": 3287,
+        "BitBake": 1248,
+        "C": 18795772,
+        "C++": 8941533,
+        "Python": 322802,
+        "Shell": 2871
+      },
+      "evidence_url": "https://api.github.com/repos/Dorgengoa/RGDecomp/languages",
+      "evidence": "GitHub’s official Languages API reports Assembly: 3,287 bytes, BitBake: 1,248 bytes, C: 18,795,772 bytes, C++: 8,941,533 bytes, Python: 322,802 bytes, Shell: 2,871 bytes. C is the largest repository-wide total; the README distinguishes game code from libraries still linked from the user’s disc.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "ico-ps2-matching-decomp",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "Assembly": 35742,
+        "C": 6096200,
+        "C++": 158675,
+        "Linker Script": 7835,
+        "Python": 340852,
+        "Shell": 66857
+      },
+      "evidence_url": "https://api.github.com/repos/nathanialf/ico/languages",
+      "evidence": "GitHub’s official Languages API reports Assembly: 35,742 bytes, C: 6,096,200 bytes, C++: 158,675 bytes, Linker Script: 7,835 bytes, Python: 340,852 bytes, Shell: 66,857 bytes. C is the largest repository-wide total; GitHub’s map includes build and analysis code and is not a matching-progress metric.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "crash-wrath-of-cortex-ps2-matching-decomp",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 3924454,
+        "Dockerfile": 2564,
+        "Linker Script": 2931,
+        "Python": 889796
+      },
+      "evidence_url": "https://api.github.com/repos/denzi-gh/crashwoc-decomp-ps2/languages",
+      "evidence": "GitHub’s official Languages API reports C: 3,924,454 bytes, Dockerfile: 2,564 bytes, Linker Script: 2,931 bytes, Python: 889,796 bytes. C is the largest repository-wide total; the project README does not provide a quantitative current matching percentage.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "tombi-ps1-matching-decomp",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "BitBake": 11425,
+        "C": 19791640,
+        "CMake": 3946,
+        "Java": 17686,
+        "Python": 1292770,
+        "Shell": 5607
+      },
+      "evidence_url": "https://api.github.com/repos/afsenovilla/tombi-decomp/languages",
+      "evidence": "GitHub’s official Languages API reports BitBake: 11,425 bytes, C: 19,791,640 bytes, CMake: 3,946 bytes, Java: 17,686 bytes, Python: 1,292,770 bytes, Shell: 5,607 bytes. C is the largest repository-wide total; the README reports decompilation progress separately from GitHub’s repository-wide language map.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "rule-of-rose-ps2-matching-decomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "BitBake": 2625,
+        "C": 21851,
+        "C++": 308080,
+        "Dockerfile": 2563,
+        "Java": 15106,
+        "Linker Script": 80,
+        "Python": 119904,
+        "Shell": 2175
+      },
+      "evidence_url": "https://api.github.com/repos/notmanrivera/ruleofrose-decomp/languages",
+      "evidence": "GitHub’s official Languages API reports BitBake: 2,625 bytes, C: 21,851 bytes, C++: 308,080 bytes, Dockerfile: 2,563 bytes, Java: 15,106 bytes, Linker Script: 80 bytes, Python: 119,904 bytes, Shell: 2,175 bytes. C++ is the largest repository-wide total; the README reports measured matching code independently.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "digimon-world-3-ps1-matching-decomp",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "Assembly": 1430,
+        "BitBake": 12077,
+        "C": 9747556,
+        "Dockerfile": 1209,
+        "Makefile": 38460,
+        "Python": 443924,
+        "Ruby": 3759,
+        "Shell": 5328
+      },
+      "evidence_url": "https://api.github.com/repos/ReGame-Labs/dw3_decomp/languages",
+      "evidence": "GitHub’s official Languages API reports Assembly: 1,430 bytes, BitBake: 12,077 bytes, C: 9,747,556 bytes, Dockerfile: 1,209 bytes, Makefile: 38,460 bytes, Python: 443,924 bytes, Ruby: 3,759 bytes, Shell: 5,328 bytes. C is the largest repository-wide total; the README reports multi-version progress separately and excludes the Psy-Q library from game-code totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "kings-field-ancient-city-ps2-matching-decomp",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "Assembly": 35238,
+        "BitBake": 912,
+        "C": 7097298,
+        "Python": 210201,
+        "Shell": 22159
+      },
+      "evidence_url": "https://api.github.com/repos/Voicedrew11/kfiv-decomp/languages",
+      "evidence": "GitHub’s official Languages API reports Assembly: 35,238 bytes, BitBake: 912 bytes, C: 7,097,298 bytes, Python: 210,201 bytes, Shell: 22,159 bytes. C is the largest repository-wide total; the project’s live progress report separates game and Sony-library code.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "digimon-rumble-arena-ps1-matching-decomp",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "BitBake": 12077,
+        "C": 2071385,
+        "C++": 161882,
+        "Makefile": 13580,
+        "Python": 73871,
+        "Shell": 1464
+      },
+      "evidence_url": "https://api.github.com/repos/ReGame-Labs/dtbe_decomp/languages",
+      "evidence": "GitHub’s official Languages API reports BitBake: 12,077 bytes, C: 2,071,385 bytes, C++: 161,882 bytes, Makefile: 13,580 bytes, Python: 73,871 bytes, Shell: 1,464 bytes. C is the largest repository-wide total; the README reports the remaining assembly separately from the language map.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "splosion-man-xbox360-linux-windows-static-recomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 118676510,
+        "C": 1647424,
+        "Python": 55739,
+        "CMake": 21078,
+        "Shell": 10242,
+        "Java": 578,
+        "Makefile": 260
+      },
+      "evidence_url": "https://api.github.com/repos/thefixinhixon/SplosionManRecomp/languages",
+      "evidence": "Official GitHub Languages API byte counts; generated source, build tooling, and vendored components can affect repository-level totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "blinx-original-xbox-android-static-recomp",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 1645515,
+        "C++": 312278,
+        "Python": 79826,
+        "Java": 72962,
+        "Shell": 66472,
+        "CMake": 24082,
+        "Batchfile": 666,
+        "Meson": 558
+      },
+      "evidence_url": "https://api.github.com/repos/burningurine/blinx-android/languages",
+      "evidence": "Official GitHub Languages API byte counts; generated source, build tooling, and vendored components can affect repository-level totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "lord-of-the-rings-third-age-original-xbox-static-recomp",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 30648,
+        "CMake": 4375
+      },
+      "evidence_url": "https://api.github.com/repos/Revan67/ThirdAge-Recomp/languages",
+      "evidence": "Official GitHub Languages API byte counts; generated source, build tooling, and vendored components can affect repository-level totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "doom2d-gba-port",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 274137,
+        "Python": 53993,
+        "C": 24342,
+        "Shell": 2504,
+        "Makefile": 2028
+      },
+      "evidence_url": "https://api.github.com/repos/neparij/doom2d-agb/languages",
+      "evidence": "Exact repository byte counts from the official GitHub REST Languages endpoint on 2026-10-16; C++ is the largest category (274,137 of 357,004 recognized bytes). Repository-wide totals can include build and tooling files.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": null
+    },
+    {
+      "project_id": "postal-1-3ds-port",
+      "predominant_language": "",
+      "language_breakdown_bytes": {},
+      "evidence_url": "https://api.github.com/repos/Taifuoguru/Postal-1-3DS/languages",
+      "evidence": "The official GitHub REST Languages endpoint returned an empty object on 2026-10-16; no language category or predominant language is reported, so the field remains unknown.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": "The official GitHub Languages endpoint returned an empty object; no predominant language can be determined from GitHub language bytes."
+    },
+    {
+      "project_id": "super-mario-64-3ds-native-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 29960344,
+        "C++": 2139430,
+        "Assembly": 533722,
+        "Python": 185557,
+        "Linker Script": 39917,
+        "Makefile": 38137,
+        "JavaScript": 5981,
+        "Shell": 4765,
+        "Dockerfile": 1276,
+        "PHP": 200,
+        "BitBake": 59
+      },
+      "evidence_url": "https://api.github.com/repos/mkst/sm64-port/languages",
+      "evidence": "Exact repository byte counts from the official GitHub REST Languages endpoint on 2026-10-16; C is the largest category (29,960,344 of 32,909,388 recognized bytes). Repository-wide totals can include build and tooling files.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": null
+    },
+    {
+      "project_id": "persona-3-portable-new-3ds-recomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 3240900,
+        "Python": 148371,
+        "CMake": 46091,
+        "Batchfile": 16037,
+        "Shell": 15768,
+        "GLSL": 11184,
+        "C#": 8649,
+        "PowerShell": 5590,
+        "Nix": 3157,
+        "Java": 1758
+      },
+      "evidence_url": "https://api.github.com/repos/endercodezz/P3P3DS/languages",
+      "evidence": "Exact repository byte counts from the official GitHub REST Languages endpoint on 2026-10-16; C++ is the largest category (3,240,900 of 3,497,505 recognized bytes). Repository-wide totals can include build and tooling files.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": null
+    },
+    {
+      "project_id": "tetris-game-boy-native-reimplementation",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 625249,
+        "CMake": 11824,
+        "Python": 4750,
+        "Shell": 2116
+      },
+      "evidence_url": "https://api.github.com/repos/native-gb/tetris-modern/languages",
+      "evidence": "Exact repository byte counts from the official GitHub REST Languages endpoint on 2026-10-16; C++ is the largest category (625,249 of 643,939 recognized bytes). Repository-wide totals can include build and tooling files.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": null
+    },
+    {
+      "project_id": "kirpich-tetris-game-boy-native-reimplementation",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 2508235,
+        "Python": 623191,
+        "Shell": 17893,
+        "CMake": 19347,
+        "Assembly": 8957,
+        "PowerShell": 5237
+      },
+      "evidence_url": "https://api.github.com/repos/etroimcasso/Kirpich/languages",
+      "evidence": "Exact repository byte counts from the official GitHub REST Languages endpoint on 2026-10-16; C++ is the largest category (2,508,235 of 3,182,860 recognized bytes). Repository-wide totals can include build and tooling files.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": null
+    },
+    {
+      "project_id": "super-mario-land-native-modern",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 1183586,
+        "CMake": 17276,
+        "Python": 11473,
+        "Shell": 5377
+      },
+      "evidence_url": "https://api.github.com/repos/native-gb/super-mario-land-modern/languages",
+      "evidence": "Exact repository byte counts from the official GitHub REST Languages endpoint on 2026-10-16; C++ is the largest category (1,183,586 of 1,217,712 recognized bytes). Repository-wide totals can include build and tooling files.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": null
+    },
+    {
+      "project_id": "touhou-7-perfect-cherry-blossom-switch-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 4265050,
+        "C++": 1299200,
+        "CMake": 8193,
+        "Shell": 4941,
+        "Python": 3153
+      },
+      "evidence_url": "https://api.github.com/repos/saekaze/th07-switch/languages",
+      "evidence": "Exact repository byte counts from the official GitHub REST Languages endpoint on 2026-10-16; C is the largest category (4,265,050 of 5,580,537 recognized bytes). Repository-wide totals can include build and tooling files.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": null
+    }
+  ]
+}

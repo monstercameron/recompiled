@@ -1,0 +1,1057 @@
+{
+  "verified_at": "2026-10-16",
+  "scope": "Minimal source-linked facts for the 32 exact target game_keys with no row in games/game_facts at the audit snapshot. Intentionally excludes existing exact profiles for Zero Hour, Daytona USA, and Super Mario 64.",
+  "profiles": [
+    {
+      "game_key": "X-Ray Monolith / S.T.A.L.K.E.R. Anomaly (GAMMA-focused configuration)",
+      "facts": [
+        {
+          "field": "edition_context",
+          "value": "G.A.M.M.A. is described as a fan-made overhaul for S.T.A.L.K.E.R. Anomaly built from over 400 selected mods.",
+          "source_url": "https://www.stalker-game.com/en/modding/gamma",
+          "evidence": "The official S.T.A.L.K.E.R. modding page describes G.A.M.M.A. as a fan-made overhaul for Anomaly made from over 400 hand-selected mods.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "Windows PC",
+          "source_url": "https://www.moddb.com/mods/stalker-anomaly/",
+          "evidence": "The S.T.A.L.K.E.R. Anomaly project page describes a standalone package and gives a Windows installation path (C:\\Game\\Anomaly).",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "POST VOID",
+      "facts": [
+        {
+          "field": "developer",
+          "value": "YCJY Games",
+          "source_url": "https://store.steampowered.com/app/1285670/Post_Void/",
+          "evidence": "The Steam store page credits YCJY Games as developer.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "YCJY Games",
+          "source_url": "https://store.steampowered.com/app/1285670/Post_Void/",
+          "evidence": "The Steam store page credits YCJY Games as publisher.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "First-person shooter",
+          "source_url": "https://store.steampowered.com/app/1285670/Post_Void/",
+          "evidence": "The Steam page describes POST VOID as a first-person shooter.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "Worldwide: 2020-08-06",
+          "source_url": "https://store.steampowered.com/app/1285670/Post_Void/",
+          "evidence": "The Steam store page lists August 6, 2020 as the release date.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "day"
+        }
+      ]
+    },
+    {
+      "game_key": "Wolfenstein 3D",
+      "facts": [
+        {
+          "field": "developer",
+          "value": "id Software",
+          "source_url": "https://en.wikipedia.org/wiki/Wolfenstein_3D",
+          "evidence": "The article credits id Software as developer.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Apogee Software",
+          "source_url": "https://en.wikipedia.org/wiki/Wolfenstein_3D",
+          "evidence": "The article identifies Apogee as publisher of the original Wolfenstein 3D episodes.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "MS-DOS",
+          "source_url": "https://en.wikipedia.org/wiki/Wolfenstein_3D",
+          "evidence": "The article says the game was first released for MS-DOS.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "First-person shooter",
+          "source_url": "https://en.wikipedia.org/wiki/Wolfenstein_3D",
+          "evidence": "The article classifies Wolfenstein 3D as a first-person shooter.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Spear of Destiny",
+      "facts": [
+        {
+          "field": "developer",
+          "value": "id Software",
+          "source_url": "https://en.wikipedia.org/wiki/Spear_of_Destiny_(video_game)",
+          "evidence": "The redirected Wolfenstein 3D article credits id Software and identifies Spear of Destiny as an additional game episode.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "FormGen",
+          "source_url": "https://en.wikipedia.org/wiki/Spear_of_Destiny_(video_game)",
+          "evidence": "The article identifies FormGen as publisher of the Spear of Destiny standalone retail title.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "MS-DOS",
+          "source_url": "https://en.wikipedia.org/wiki/Spear_of_Destiny_(video_game)",
+          "evidence": "The article’s release table lists the 1992 Spear of Destiny release under MS-DOS.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "First-person shooter",
+          "source_url": "https://en.wikipedia.org/wiki/Spear_of_Destiny_(video_game)",
+          "evidence": "The article covers Spear of Destiny as the standalone retail first-person shooter episode to Wolfenstein 3D.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "No One Lives Forever 2: A Spy in H.A.R.M.’s Way",
+      "facts": [
+        {
+          "field": "developer",
+          "value": "Monolith Productions",
+          "source_url": "https://en.wikipedia.org/wiki/No_One_Lives_Forever_2:_A_Spy_in_H.A.R.M.%27s_Way",
+          "evidence": "The article credits Monolith Productions as developer.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Fox Interactive; Vivendi Universal Games (Sierra Entertainment brand)",
+          "source_url": "https://en.wikipedia.org/wiki/No_One_Lives_Forever_2:_A_Spy_in_H.A.R.M.%27s_Way",
+          "evidence": "The article lists Fox Interactive and Vivendi Universal Games, with the latter release under the Sierra Entertainment brand.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "Windows",
+          "source_url": "https://en.wikipedia.org/wiki/No_One_Lives_Forever_2:_A_Spy_in_H.A.R.M.%27s_Way",
+          "evidence": "The article identifies Windows as the initial platform; Mac OS X was released later.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "First-person shooter / stealth",
+          "source_url": "https://en.wikipedia.org/wiki/No_One_Lives_Forever_2:_A_Spy_in_H.A.R.M.%27s_Way",
+          "evidence": "The article classifies the game as a first-person shooter and stealth game.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Counter-Strike 1.6",
+      "facts": [
+        {
+          "field": "developer",
+          "value": "Valve Corporation",
+          "source_url": "https://en.wikipedia.org/wiki/Counter-Strike_(video_game)",
+          "evidence": "The article credits Valve as developer and identifies Counter-Strike 1.6 as an alternate name for the game.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Sierra Studios",
+          "source_url": "https://en.wikipedia.org/wiki/Counter-Strike_(video_game)",
+          "evidence": "The article’s infobox lists Sierra Studios as publisher.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "Microsoft Windows",
+          "source_url": "https://en.wikipedia.org/wiki/Counter-Strike_(video_game)",
+          "evidence": "The article says the game was released by Valve for Microsoft Windows in November 2000.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Tactical first-person shooter",
+          "source_url": "https://en.wikipedia.org/wiki/Counter-Strike_(video_game)",
+          "evidence": "The article identifies Counter-Strike (also known as Counter-Strike 1.6) as a tactical first-person shooter.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Metal Gear Solid: Integral (Japanese PlayStation release)",
+      "facts": [
+        {
+          "field": "developer",
+          "value": "Konami Computer Entertainment Japan",
+          "source_url": "https://en.wikipedia.org/wiki/Metal_Gear_Solid_(video_game)",
+          "evidence": "The article credits Konami Computer Entertainment Japan as developer of Metal Gear Solid.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Konami",
+          "source_url": "https://en.wikipedia.org/wiki/Metal_Gear_Solid_(video_game)",
+          "evidence": "The article credits Konami as publisher.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "PlayStation",
+          "source_url": "https://en.wikipedia.org/wiki/Metal_Gear_Solid_(video_game)",
+          "evidence": "The article identifies PlayStation as the original platform.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Action-adventure / stealth",
+          "source_url": "https://en.wikipedia.org/wiki/Metal_Gear_Solid_(video_game)",
+          "evidence": "The article classifies the game as action-adventure and stealth.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "edition_context",
+          "value": "Expanded Japanese PlayStation edition of Metal Gear Solid",
+          "source_url": "https://en.wikipedia.org/wiki/Metal_Gear_Solid_(video_game)",
+          "evidence": "The article describes Integral as an expanded edition released in Japan for PlayStation.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Yakuza: Dead Souls (PS3 NTSC-U BLUS30826 v1.00)",
+      "facts": [
+        {
+          "field": "developer",
+          "value": "Sega CS1 R&D",
+          "source_url": "https://en.wikipedia.org/wiki/Yakuza:_Dead_Souls",
+          "evidence": "The article credits Sega CS1 R&D as developer.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Sega",
+          "source_url": "https://en.wikipedia.org/wiki/Yakuza:_Dead_Souls",
+          "evidence": "The article credits Sega as publisher.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "PlayStation 3",
+          "source_url": "https://en.wikipedia.org/wiki/Yakuza:_Dead_Souls",
+          "evidence": "The article identifies PlayStation 3 as the game platform.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Action-adventure / survival horror",
+          "source_url": "https://en.wikipedia.org/wiki/Yakuza:_Dead_Souls",
+          "evidence": "The article classifies the game as action-adventure and survival horror.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Ben 10 Omniverse (PS3 BLUS31017 v01.00)",
+      "facts": [
+        {
+          "field": "developer",
+          "value": "Vicious Cycle Software",
+          "source_url": "https://en.wikipedia.org/wiki/Ben_10:_Omniverse_(video_game)",
+          "evidence": "The article credits Vicious Cycle Software as developer for the PlayStation 3 version.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "D3 Publisher (North America)",
+          "source_url": "https://en.wikipedia.org/wiki/Ben_10:_Omniverse_(video_game)",
+          "evidence": "The article lists D3 Publisher as North American publisher.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "PlayStation 3",
+          "source_url": "https://en.wikipedia.org/wiki/Ben_10:_Omniverse_(video_game)",
+          "evidence": "The article lists PlayStation 3 among the game’s platforms.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Action / beat ’em up",
+          "source_url": "https://en.wikipedia.org/wiki/Ben_10:_Omniverse_(video_game)",
+          "evidence": "The article identifies the game as an action title and lists beat ’em up as its genre.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Demon’s Souls (PS3 USA BLUS30443)",
+      "facts": [
+        {
+          "field": "developer",
+          "value": "FromSoftware",
+          "source_url": "https://en.wikipedia.org/wiki/Demon%27s_Souls",
+          "evidence": "The article credits FromSoftware as developer.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Atlus (North America)",
+          "source_url": "https://en.wikipedia.org/wiki/Demon%27s_Souls",
+          "evidence": "The article lists Atlus as North American publisher.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "PlayStation 3",
+          "source_url": "https://en.wikipedia.org/wiki/Demon%27s_Souls",
+          "evidence": "The article identifies PlayStation 3 as the original platform.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Action role-playing",
+          "source_url": "https://en.wikipedia.org/wiki/Demon%27s_Souls",
+          "evidence": "The article classifies the game as an action role-playing game.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Haze (PS3 USA BLUS30094, disc 01.02 / application 01.00)",
+      "facts": [
+        {
+          "field": "developer",
+          "value": "Free Radical Design",
+          "source_url": "https://en.wikipedia.org/wiki/Haze_(video_game)",
+          "evidence": "The article credits Free Radical Design as developer.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Ubisoft (worldwide)",
+          "source_url": "https://en.wikipedia.org/wiki/Haze_(video_game)",
+          "evidence": "The article identifies Ubisoft as worldwide publisher; Spike published the Japanese release.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "PlayStation 3",
+          "source_url": "https://en.wikipedia.org/wiki/Haze_(video_game)",
+          "evidence": "The article says Haze became a PlayStation 3 exclusive before its release.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "First-person shooter",
+          "source_url": "https://en.wikipedia.org/wiki/Haze_(video_game)",
+          "evidence": "The article classifies Haze as a first-person shooter.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Driveclub (PS4 CUSA00003 v1.05)",
+      "facts": [
+        {
+          "field": "developer",
+          "value": "Evolution Studios",
+          "source_url": "https://en.wikipedia.org/wiki/Driveclub",
+          "evidence": "The article credits Evolution Studios as developer.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Sony Computer Entertainment",
+          "source_url": "https://en.wikipedia.org/wiki/Driveclub",
+          "evidence": "The article credits Sony Computer Entertainment as publisher.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "PlayStation 4",
+          "source_url": "https://en.wikipedia.org/wiki/Driveclub",
+          "evidence": "The article identifies PlayStation 4 as the game platform.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Racing",
+          "source_url": "https://en.wikipedia.org/wiki/Driveclub",
+          "evidence": "The article classifies Driveclub as a racing game.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Shadow of the Colossus (PS2 USA SCUS_974.72)",
+      "facts": [
+        {
+          "field": "developer",
+          "value": "Sony Computer Entertainment Japan / Team Ico",
+          "source_url": "https://en.wikipedia.org/wiki/Shadow_of_the_Colossus",
+          "evidence": "The article identifies Sony Computer Entertainment Japan and its International Production Studio 1 (Team Ico) as the original developer.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Sony Computer Entertainment",
+          "source_url": "https://en.wikipedia.org/wiki/Shadow_of_the_Colossus",
+          "evidence": "The article credits Sony Computer Entertainment as publisher.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "PlayStation 2",
+          "source_url": "https://en.wikipedia.org/wiki/Shadow_of_the_Colossus",
+          "evidence": "The article identifies the 2005 original as a PlayStation 2 release.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Action-adventure",
+          "source_url": "https://en.wikipedia.org/wiki/Shadow_of_the_Colossus",
+          "evidence": "The article classifies Shadow of the Colossus as an action-adventure game.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Gran Turismo 3: A-Spec (PS2 NTSC-U SCUS-97102 v1.00)",
+      "facts": [
+        {
+          "field": "developer",
+          "value": "Polyphony Digital",
+          "source_url": "https://en.wikipedia.org/wiki/Gran_Turismo_3:_A-Spec",
+          "evidence": "The article credits Polyphony Digital as developer.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Sony Computer Entertainment",
+          "source_url": "https://en.wikipedia.org/wiki/Gran_Turismo_3:_A-Spec",
+          "evidence": "The article credits Sony Computer Entertainment as publisher.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "PlayStation 2",
+          "source_url": "https://en.wikipedia.org/wiki/Gran_Turismo_3:_A-Spec",
+          "evidence": "The article identifies PlayStation 2 as the platform.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Sim racing",
+          "source_url": "https://en.wikipedia.org/wiki/Gran_Turismo_3:_A-Spec",
+          "evidence": "The article classifies Gran Turismo 3: A-Spec as a sim racing game.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Bushido Blade 2 (PS1 NTSC-U SLUS-00663)",
+      "facts": [
+        {
+          "field": "developer",
+          "value": "Lightweight",
+          "source_url": "https://en.wikipedia.org/wiki/Bushido_Blade_2",
+          "evidence": "The article credits Lightweight as developer.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Square Electronic Arts (North America)",
+          "source_url": "https://en.wikipedia.org/wiki/Bushido_Blade_2",
+          "evidence": "The article lists Square Electronic Arts as the North American publisher.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "PlayStation",
+          "source_url": "https://en.wikipedia.org/wiki/Bushido_Blade_2",
+          "evidence": "The article identifies PlayStation as the platform.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Fighting",
+          "source_url": "https://en.wikipedia.org/wiki/Bushido_Blade_2",
+          "evidence": "The article classifies Bushido Blade 2 as a fighting game.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Rogue Galaxy (PS2 NTSC-U SCUS-97490 v1.01)",
+      "facts": [
+        {
+          "field": "developer",
+          "value": "Level-5",
+          "source_url": "https://en.wikipedia.org/wiki/Rogue_Galaxy",
+          "evidence": "The article credits Level-5 as developer.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Sony Computer Entertainment",
+          "source_url": "https://en.wikipedia.org/wiki/Rogue_Galaxy",
+          "evidence": "The article credits Sony Computer Entertainment as publisher.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "PlayStation 2",
+          "source_url": "https://en.wikipedia.org/wiki/Rogue_Galaxy",
+          "evidence": "The article identifies PlayStation 2 as the platform.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Action role-playing",
+          "source_url": "https://en.wikipedia.org/wiki/Rogue_Galaxy",
+          "evidence": "The article classifies Rogue Galaxy as an action role-playing game.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "ICO (PS2 PAL SCES-50760 and Japan SCPS-11003)",
+      "facts": [
+        {
+          "field": "developer",
+          "value": "Sony Computer Entertainment Japan / Team Ico",
+          "source_url": "https://en.wikipedia.org/wiki/Ico",
+          "evidence": "The article credits Sony Computer Entertainment Japan as developer and identifies Team Ico as the production team.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Sony Computer Entertainment",
+          "source_url": "https://en.wikipedia.org/wiki/Ico",
+          "evidence": "The article credits Sony Computer Entertainment as publisher.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "PlayStation 2",
+          "source_url": "https://en.wikipedia.org/wiki/Ico",
+          "evidence": "The article identifies PlayStation 2 as the original platform.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Action-adventure / puzzle",
+          "source_url": "https://en.wikipedia.org/wiki/Ico",
+          "evidence": "The article describes Ico as an action-adventure puzzle game.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Crash Bandicoot: The Wrath of Cortex (PS2 PAL v1.03 SLES-50386)",
+      "facts": [
+        {
+          "field": "developer",
+          "value": "Traveller’s Tales",
+          "source_url": "https://en.wikipedia.org/wiki/Crash_Bandicoot:_The_Wrath_of_Cortex",
+          "evidence": "The article credits Traveller’s Tales as developer.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Universal Interactive",
+          "source_url": "https://en.wikipedia.org/wiki/Crash_Bandicoot:_The_Wrath_of_Cortex",
+          "evidence": "The article identifies Universal Interactive as publisher.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "PlayStation 2",
+          "source_url": "https://en.wikipedia.org/wiki/Crash_Bandicoot:_The_Wrath_of_Cortex",
+          "evidence": "The article says the game was first released for PlayStation 2.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Platform",
+          "source_url": "https://en.wikipedia.org/wiki/Crash_Bandicoot:_The_Wrath_of_Cortex",
+          "evidence": "The article classifies the game as a platform game.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Tombi! (PS1 PAL Spanish, SCES_013.31)",
+      "facts": [
+        {
+          "field": "developer",
+          "value": "Whoopee Camp",
+          "source_url": "https://en.wikipedia.org/wiki/Tomba%21",
+          "evidence": "The article credits Whoopee Camp as developer.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Sony Computer Entertainment (international)",
+          "source_url": "https://en.wikipedia.org/wiki/Tomba%21",
+          "evidence": "The article lists Sony Computer Entertainment for worldwide publishing and Whoopee Camp for Japan.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "PlayStation",
+          "source_url": "https://en.wikipedia.org/wiki/Tomba%21",
+          "evidence": "The article identifies PlayStation as the platform.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Platform-adventure",
+          "source_url": "https://en.wikipedia.org/wiki/Tomba%21",
+          "evidence": "The article classifies Tomba! as a platform-adventure game.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Rule of Rose (PS2 NTSC-U SLUS-214.48)",
+      "facts": [
+        {
+          "field": "developer",
+          "value": "Punchline",
+          "source_url": "https://en.wikipedia.org/wiki/Rule_of_Rose",
+          "evidence": "The article credits Punchline as developer.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Atlus USA (North America)",
+          "source_url": "https://en.wikipedia.org/wiki/Rule_of_Rose",
+          "evidence": "The article lists Atlus USA as North American publisher.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "PlayStation 2",
+          "source_url": "https://en.wikipedia.org/wiki/Rule_of_Rose",
+          "evidence": "The article identifies PlayStation 2 as the platform.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Survival horror",
+          "source_url": "https://en.wikipedia.org/wiki/Rule_of_Rose",
+          "evidence": "The article describes Rule of Rose as a survival horror game.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Digimon World 3 / Digimon World 2003 (PS1 Europe, USA and Japan)",
+      "facts": [
+        {
+          "field": "developer",
+          "value": "BEC; Boom Corp.",
+          "source_url": "https://en.wikipedia.org/wiki/Digimon_World_3",
+          "evidence": "The article credits BEC and Boom Corp. as developers.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Bandai",
+          "source_url": "https://en.wikipedia.org/wiki/Digimon_World_3",
+          "evidence": "The article credits Bandai as publisher.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "PlayStation",
+          "source_url": "https://en.wikipedia.org/wiki/Digimon_World_3",
+          "evidence": "The article identifies PlayStation as the platform.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Role-playing",
+          "source_url": "https://en.wikipedia.org/wiki/Digimon_World_3",
+          "evidence": "The article classifies Digimon World 3 as a role-playing game.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "King’s Field: The Ancient City / King’s Field IV (PS2 USA SLUS-20318)",
+      "facts": [
+        {
+          "field": "developer",
+          "value": "FromSoftware",
+          "source_url": "https://en.wikipedia.org/wiki/King%27s_Field",
+          "evidence": "The series article credits FromSoftware as developer.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "PlayStation 2",
+          "source_url": "https://en.wikipedia.org/wiki/King%27s_Field",
+          "evidence": "The article says King’s Field IV was released for PlayStation 2.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Action role-playing",
+          "source_url": "https://en.wikipedia.org/wiki/King%27s_Field",
+          "evidence": "The series article classifies King’s Field as action role-playing.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "edition_context",
+          "value": "King’s Field IV was released in North America as King’s Field: The Ancient City",
+          "source_url": "https://en.wikipedia.org/wiki/King%27s_Field",
+          "evidence": "The article explicitly identifies The Ancient City as the North American title of King’s Field IV.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Digimon Rumble Arena (PS1 Japan SLPS-03357 and USA SLUS-01404)",
+      "facts": [
+        {
+          "field": "developer",
+          "value": "Bandai",
+          "source_url": "https://en.wikipedia.org/wiki/Digimon_Rumble_Arena",
+          "evidence": "The article credits Bandai as developer.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Bandai",
+          "source_url": "https://en.wikipedia.org/wiki/Digimon_Rumble_Arena",
+          "evidence": "The article credits Bandai as publisher.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "PlayStation",
+          "source_url": "https://en.wikipedia.org/wiki/Digimon_Rumble_Arena",
+          "evidence": "The article identifies PlayStation as the platform.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Fighting",
+          "source_url": "https://en.wikipedia.org/wiki/Digimon_Rumble_Arena",
+          "evidence": "The article classifies Digimon Rumble Arena as a fighting game.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "’Splosion Man (Xbox 360 XBLA)",
+      "facts": [
+        {
+          "field": "developer",
+          "value": "Twisted Pixel Games",
+          "source_url": "https://en.wikipedia.org/wiki/%27Splosion_Man",
+          "evidence": "The article credits Twisted Pixel Games as developer.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Microsoft Game Studios",
+          "source_url": "https://en.wikipedia.org/wiki/%27Splosion_Man",
+          "evidence": "The article credits Microsoft Game Studios as publisher.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "Xbox 360",
+          "source_url": "https://en.wikipedia.org/wiki/%27Splosion_Man",
+          "evidence": "The article identifies Xbox 360 as the original platform.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Action / platform",
+          "source_url": "https://en.wikipedia.org/wiki/%27Splosion_Man",
+          "evidence": "The article classifies the game as action and platform.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Blinx: The Time Sweeper (original Xbox, 2002)",
+      "facts": [
+        {
+          "field": "developer",
+          "value": "Artoon (with Microsoft Game Studios Japan support)",
+          "source_url": "https://en.wikipedia.org/wiki/Blinx:_The_Time_Sweeper",
+          "evidence": "The article credits Artoon and Microsoft Game Studios Japan for development support.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Microsoft Game Studios",
+          "source_url": "https://en.wikipedia.org/wiki/Blinx:_The_Time_Sweeper",
+          "evidence": "The article credits Microsoft Game Studios as publisher.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "Xbox",
+          "source_url": "https://en.wikipedia.org/wiki/Blinx:_The_Time_Sweeper",
+          "evidence": "The article identifies the original Xbox as the platform.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Platform",
+          "source_url": "https://en.wikipedia.org/wiki/Blinx:_The_Time_Sweeper",
+          "evidence": "The article classifies Blinx: The Time Sweeper as a platform game.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "The Lord of the Rings: The Third Age (North American original Xbox release, title ID 4541005F)",
+      "facts": [
+        {
+          "field": "developer",
+          "value": "EA Redwood Shores",
+          "source_url": "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings:_The_Third_Age",
+          "evidence": "The article credits EA Redwood Shores as developer.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "EA Games",
+          "source_url": "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings:_The_Third_Age",
+          "evidence": "The article credits EA Games as publisher.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "PlayStation 2, Xbox, GameCube",
+          "source_url": "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings:_The_Third_Age",
+          "evidence": "The article lists the original console platforms, including Xbox.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Role-playing",
+          "source_url": "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings:_The_Third_Age",
+          "evidence": "The article classifies the game as a role-playing game.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Doom2D",
+      "facts": [
+        {
+          "field": "developer",
+          "value": "Aleksey Volynskov, Vladimir Kalinin, and Evgeny Kovtunov",
+          "source_url": "https://web.doom2d.org/en/",
+          "evidence": "The official Doom2D site identifies these three creators as the schoolboys who released Doom2D in 1996.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "MS-DOS",
+          "source_url": "https://web.doom2d.org/en/",
+          "evidence": "The official Doom2D version archive lists the original DOS executables.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Side-scrolling action",
+          "source_url": "https://web.doom2d.org/en/",
+          "evidence": "The project’s official site describes Doom2D as a side-scrolling Doom game.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "Worldwide: 1996-08",
+          "source_url": "https://www.doom2d.org/wiki/doku.php/ru:%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D0%BD%D1%8B%D0%B5_%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D0%B8_doom_2d",
+          "evidence": "The official version archive says the game went on sale in August 1996.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "month"
+        }
+      ]
+    },
+    {
+      "game_key": "Postal",
+      "facts": [
+        {
+          "field": "developer",
+          "value": "Running with Scissors",
+          "source_url": "https://en.wikipedia.org/wiki/Postal_(video_game)",
+          "evidence": "The article credits Running with Scissors as developer.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Ripcord Games",
+          "source_url": "https://en.wikipedia.org/wiki/Postal_(video_game)",
+          "evidence": "The article credits Ripcord Games as publisher of the original release.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "Windows / Mac OS",
+          "source_url": "https://en.wikipedia.org/wiki/Postal_(video_game)",
+          "evidence": "The article identifies Windows and Mac OS as the original 1997 retail platforms.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Isometric top-down shooter",
+          "source_url": "https://en.wikipedia.org/wiki/Postal_(video_game)",
+          "evidence": "The article describes Postal as an isometric top-down shooter.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Shin Megami Tensei: Persona 3 Portable",
+      "facts": [
+        {
+          "field": "developer",
+          "value": "Atlus",
+          "source_url": "https://en.wikipedia.org/wiki/Persona_3",
+          "evidence": "The Persona 3 article credits Atlus as developer; its release section covers Persona 3 Portable.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "PlayStation Portable",
+          "source_url": "https://en.wikipedia.org/wiki/Persona_3",
+          "evidence": "The article identifies PlayStation Portable as the platform for Persona 3 Portable.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Role-playing / social simulation",
+          "source_url": "https://en.wikipedia.org/wiki/Persona_3",
+          "evidence": "The article classifies Persona 3 as a role-playing game and social simulation.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "edition_context",
+          "value": "Portable edition of Persona 3",
+          "source_url": "https://en.wikipedia.org/wiki/Persona_3",
+          "evidence": "The article describes Persona 3 Portable as a PSP version of Persona 3.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Tetris (1989 Game Boy release)",
+      "facts": [
+        {
+          "field": "developer",
+          "value": "Nintendo R&D1",
+          "source_url": "https://en.wikipedia.org/wiki/Tetris_(Game_Boy_video_game)",
+          "evidence": "The article credits Nintendo R&D1 as developer.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Nintendo",
+          "source_url": "https://en.wikipedia.org/wiki/Tetris_(Game_Boy_video_game)",
+          "evidence": "The article credits Nintendo as publisher.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "Game Boy",
+          "source_url": "https://en.wikipedia.org/wiki/Tetris_(Game_Boy_video_game)",
+          "evidence": "The article identifies Game Boy as the platform.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Puzzle",
+          "source_url": "https://en.wikipedia.org/wiki/Tetris_(Game_Boy_video_game)",
+          "evidence": "The article classifies the Game Boy version as a puzzle game.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Tetris (Game Boy DMG release)",
+      "facts": [
+        {
+          "field": "developer",
+          "value": "Nintendo R&D1",
+          "source_url": "https://en.wikipedia.org/wiki/Tetris_(Game_Boy_video_game)",
+          "evidence": "The article credits Nintendo R&D1 as developer.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Nintendo",
+          "source_url": "https://en.wikipedia.org/wiki/Tetris_(Game_Boy_video_game)",
+          "evidence": "The article credits Nintendo as publisher.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "Game Boy",
+          "source_url": "https://en.wikipedia.org/wiki/Tetris_(Game_Boy_video_game)",
+          "evidence": "The article identifies Game Boy as the platform.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Puzzle",
+          "source_url": "https://en.wikipedia.org/wiki/Tetris_(Game_Boy_video_game)",
+          "evidence": "The article classifies the Game Boy version as a puzzle game.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Super Mario Land",
+      "facts": [
+        {
+          "field": "developer",
+          "value": "Nintendo R&D1",
+          "source_url": "https://en.wikipedia.org/wiki/Super_Mario_Land",
+          "evidence": "The article credits Nintendo R&D1 as developer.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Nintendo",
+          "source_url": "https://en.wikipedia.org/wiki/Super_Mario_Land",
+          "evidence": "The article credits Nintendo as publisher.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "Game Boy",
+          "source_url": "https://en.wikipedia.org/wiki/Super_Mario_Land",
+          "evidence": "The article identifies Game Boy as the platform.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Platform",
+          "source_url": "https://en.wikipedia.org/wiki/Super_Mario_Land",
+          "evidence": "The article classifies Super Mario Land as a platform game.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    }
+  ]
+}

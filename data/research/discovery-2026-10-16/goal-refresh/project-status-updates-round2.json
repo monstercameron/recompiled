@@ -1,0 +1,31 @@
+{
+  "updated": "2026-10-16",
+  "scope": "One hydration-only Hatari status refresh. Eight overlapping rows were reconciled into the independently reviewed project-status-updates-reviewed.json; the source commit time is 2026-10-13, while updated follows the catalog convention for review date.",
+  "updates": [
+    {
+      "id": "hatari",
+      "fields": {
+        "status": "Maintained; Hatari 2.6.0 was released 2025-06-22. The upstream repository continued through 2026-10-13 with new EmuTOS compatibility notes; TT/Falcon support remains experimental.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official Hatari downloads and release information",
+          "url": "https://www.hatari-emu.org/download.html"
+        },
+        {
+          "label": "Official project page; TT/Falcon support note",
+          "url": "https://www.hatari-emu.org/"
+        },
+        {
+          "label": "Upstream Framagit commit (2026-10-13 UTC)",
+          "url": "https://framagit.org/hatari/hatari/-/commit/32cf7d1a8267b87bbb19b173945d632d3ab4934e"
+        },
+        {
+          "label": "Framagit project metadata API",
+          "url": "https://framagit.org/api/v4/projects/112159"
+        }
+      ]
+    }
+  ]
+}

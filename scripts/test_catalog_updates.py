@@ -66,7 +66,7 @@ class ProjectUpdateImportTests(unittest.TestCase):
             "https://github.com/example/sample/releases",
             "https://example.org/report",
         ])
-        self.assertEqual(sources[0]["label"], "README")
+        self.assertEqual(sources[0]["label"], "README refresh")
 
     def test_unknown_project_rolls_back_the_entire_batch(self):
         path = self.write_manifest({

@@ -1,0 +1,1477 @@
+{
+  "updated": "2026-10-16",
+  "scope": "44 source-backed net-new targets reviewed against the 2,219-project SQLite catalog. Includes 35 game targets and 9 software/system targets. Distinct targets sharing a canonical repository are retained when the repository documents separate games.",
+  "projects": [
+    {
+      "id": "alt-rosetta",
+      "title": "alt-rosetta",
+      "game": "x86-64 macOS command-line binaries (multi-application research prototype)",
+      "target_type": "Software",
+      "platform": "x86-64 macOS Mach-O binaries → ARM64 Apple silicon macOS; currently limited to self-contained static test programs",
+      "kind": "Emulator",
+      "status": "Educational prototype, not a general Rosetta replacement. The README documents eight static test binaries using raw syscalls, with a small implemented x86-64 instruction subset; dynamic linking, shared libraries, multithreading, signal forwarding, and SSE/AVX-to-NEON translation remain unimplemented. GitHub shows two commits, with the last commit on 2026-02-09; no releases are listed.",
+      "summary": "A public-source JIT that loads x86-64 Mach-O files and translates supported instruction blocks into ARM64 on Apple silicon macOS. It demonstrates instruction decoding, ARM64 emission, a translation cache, and minimal syscall handling. The current tests are small statically linked programs; it does not implement a general macOS application runtime, Windows API layer, virtual machine, or source port.",
+      "project_url": "https://github.com/sadopc/alt-rosetta",
+      "updated": "2026-10-16",
+      "strategy": "Process-level x86-64-to-ARM64 dynamic binary translation with a limited instruction set and syscall shim",
+      "source_available": "Public source repository; no GitHub release is listed",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Experimental educational x86-64-to-ARM64 JIT translator",
+      "sources": [
+        {
+          "label": "Maintainer README: translation design, implemented instruction subset, tests, and known gaps",
+          "url": "https://github.com/sadopc/alt-rosetta#readme"
+        },
+        {
+          "label": "GitHub repository metadata: creation, latest push, repository status, and primary language",
+          "url": "https://api.github.com/repos/sadopc/alt-rosetta"
+        },
+        {
+          "label": "GitHub releases page; no releases listed when checked 2026-10-16",
+          "url": "https://github.com/sadopc/alt-rosetta/releases"
+        },
+        {
+          "label": "Official GitHub Languages API byte totals",
+          "url": "https://api.github.com/repos/sadopc/alt-rosetta/languages"
+        }
+      ]
+    },
+    {
+      "id": "dxmt-xray-monolith-macos",
+      "title": "DXMT X-Ray Monolith / Anomaly macOS build",
+      "game": "X-Ray Monolith / S.T.A.L.K.E.R. Anomaly (GAMMA-focused configuration)",
+      "target_type": "Game",
+      "platform": "Windows Direct3D applications through Wine and a DXMT fork → Metal on Apple Silicon macOS 26+; the published runtime modules are x86-64",
+      "kind": "API Translation",
+      "status": "Maintained, game-focused DXMT downstream build. Its latest listed release, anomaly-2026.10.10, was published 2026-10-10; the release describes a DXMT v0.80-based package with subsequent upstream merges and targeted X-Ray/D3D11 fixes. The repository was pushed through 2026-10-15. The release states an Apple Silicon/macOS 26 deployment target and provides x86-64 Wine and Windows modules. The project documents in-game testing for its target but does not provide a broad compatibility matrix.",
+      "summary": "A downstream DXMT build tuned for the X-Ray Monolith / S.T.A.L.K.E.R. Anomaly path, with fixes for Metal resource lifetime and synchronization, shader pipeline failures, resource uploads, frame pacing, and NGX/DLSS handling. DXMT translates Direct3D graphics calls to Metal inside Wine; this branch is a separately released, game-specific build of the already cataloged DXMT implementation, not a new general-purpose translation architecture.",
+      "project_url": "https://github.com/elseform/dxmt",
+      "updated": "2026-10-16",
+      "strategy": "Game-tuned downstream build of the Direct3D-to-Metal DXMT translator for Wine",
+      "source_available": "Public source repository with versioned macOS runtime archives; GitHub reports no SPDX license classification",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Game-specific DXMT / Metal translation build",
+      "sources": [
+        {
+          "label": "Maintainer README: DXMT fork purpose and documented implementation fixes",
+          "url": "https://github.com/elseform/dxmt#readme"
+        },
+        {
+          "label": "Latest release: October 10 package, upstream base, build target, modules, and fixes",
+          "url": "https://github.com/elseform/dxmt/releases/tag/anomaly-2026.10.10"
+        },
+        {
+          "label": "GitHub repository metadata: latest push, release branch, license classifier, and primary language",
+          "url": "https://api.github.com/repos/elseform/dxmt"
+        },
+        {
+          "label": "Official GitHub Languages API byte totals",
+          "url": "https://api.github.com/repos/elseform/dxmt/languages"
+        }
+      ]
+    },
+    {
+      "id": "generals-zero-hour-ios-native-port",
+      "title": "Command & Conquer: Generals – Zero Hour Native iOS/iPadOS Port",
+      "game": "Command & Conquer: Generals – Zero Hour",
+      "target_type": "Game",
+      "platform": "Windows PC → iPhone/iPad (Apple Silicon); macOS build also documented",
+      "kind": "Reimplementation",
+      "status": "The public source repository documents build, signing, and installation on iPhone/iPad. Its porting playbook reports campaign, skirmish, and Generals Challenge gameplay on an iPhone 17 Pro Max and iPad mini. No tagged release is listed; the README directs users to build and sign with Xcode. The player must supply their own game data.",
+      "summary": "A native ARM64 iOS/iPadOS port of the 2003 Windows RTS built from EA’s GPLv3 game source via GeneralsX. The port compiles the C++ engine for Apple platforms, routes its DirectX 8 rendering through DXVK, Vulkan, MoltenVK, and Metal, and adds touch controls for RTS play. The repository does not include retail game assets.",
+      "project_url": "https://github.com/ammaarreshi/Generals-Mac-iOS-iPad",
+      "updated": "2026-07-05T17:23:48Z",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "strategy": "Cross-compile the game’s C++ source port to ARM64 and translate DirectX 8 rendering through DXVK, Vulkan, and MoltenVK/Metal.",
+      "source_available": "Public source repository. The README traces the engine to EA’s GPLv3 source via GeneralsX, while this repository’s GitHub license field is NOASSERTION. No game assets are included; users provide their own game data.",
+      "subtype": "Native ARM64 iOS/iPadOS port with multitouch RTS controls",
+      "programming_language": "C++",
+      "sources": [
+        {
+          "label": "Maintainer README: iOS build, signing, touch controls, and game-data requirement",
+          "url": "https://github.com/ammaarreshi/Generals-Mac-iOS-iPad"
+        },
+        {
+          "label": "Maintainer porting playbook: iPhone/iPad gameplay and port architecture",
+          "url": "https://github.com/ammaarreshi/Generals-Mac-iOS-iPad/blob/main/docs/port/PORTING_PLAYBOOK.md"
+        },
+        {
+          "label": "GitHub repository metadata and current source activity",
+          "url": "https://api.github.com/repos/ammaarreshi/Generals-Mac-iOS-iPad"
+        },
+        {
+          "label": "GitHub release listing; no tagged release was listed at review time",
+          "url": "https://github.com/ammaarreshi/Generals-Mac-iOS-iPad/releases"
+        }
+      ]
+    },
+    {
+      "id": "post-void-native-android-port",
+      "title": "Post Void Mobile Native Android Port",
+      "game": "POST VOID",
+      "target_type": "Game",
+      "platform": "Windows PC Steam game data → Android ARM64/ARMv7; iOS is planned",
+      "kind": "Reimplementation",
+      "status": "A nightly Android APK was published on 2026-09-14. The maintainer’s README lists Android 7.0+, ARM64/ARMv7, touch controls, and gamepad input, and claims parity with Steam build v1.4C. The reviewed sources give no named-device or full-run test report. iOS is described as a future target and has no current IPA release.",
+      "summary": "A game-specific Android runtime and launcher for POST VOID. The app takes the player’s own PC Steam `data.win` file and applies an on-device patch to a mobile data container; the maintainer describes the resulting runtime as native Android execution without Wine, Box64, FEX, or QEMU. The repository and APK do not include the commercial game files.",
+      "project_url": "https://github.com/SanGraphic/PostVoidMobile",
+      "updated": "2026-09-16T09:19:55Z",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "strategy": "Game-specific GameMaker bytecode runtime with on-device patching of user-supplied PC game data and native Android packaging.",
+      "source_available": "Public source repository and nightly Android APK. The README states an MIT license, while GitHub’s repository license metadata is NOASSERTION. User-supplied PC Steam game files are required and no retail data is distributed.",
+      "subtype": "Experimental native Android ARM64/ARMv7 port with touch and gamepad input",
+      "programming_language": "C",
+      "sources": [
+        {
+          "label": "Maintainer README: Android target, requirements, patching method, controls, and stated maturity",
+          "url": "https://github.com/SanGraphic/PostVoidMobile"
+        },
+        {
+          "label": "Nightly Android APK release (2026-09-14)",
+          "url": "https://github.com/SanGraphic/PostVoidMobile/releases/tag/nightly"
+        },
+        {
+          "label": "GitHub repository metadata and source activity",
+          "url": "https://api.github.com/repos/SanGraphic/PostVoidMobile"
+        },
+        {
+          "label": "GitHub release asset listing",
+          "url": "https://github.com/SanGraphic/PostVoidMobile/releases"
+        }
+      ]
+    },
+    {
+      "id": "playstation-vr2-app-pc-decompilation",
+      "title": "PlayStation VR2 App (PC) dnSpy Decompilation",
+      "game": "Sony PlayStation VR2 App for Windows PC",
+      "target_type": "Software",
+      "platform": "Windows desktop PC; the official app is installed through Steam and supports PS VR2 PC setup",
+      "kind": "Decompilation",
+      "status": "The repository contains seven commits, was created and last pushed on 2025-06-17, and has no published GitHub releases. Its history includes a commit titled ‘It compiles now!’; the README instructs builders to supply the original app DLLs, language files, and JSON files before building and running. The repository does not document parity testing, and GitHub reports no license metadata.",
+      "summary": "An application-specific dnSpy decompilation of Sony’s Windows PlayStation VR2 PC companion app. The repository includes recovered C# source and a Visual Studio solution targeting a .NET 8 x64 Windows executable. Its build instructions depend on user-supplied DLLs, localization files, and JSON files from the proprietary app; the project does not claim a complete clean-room replacement or document feature-parity testing.",
+      "project_url": "https://github.com/AwesomeTornado/PlayStationVR2App",
+      "updated": "2026-10-16",
+      "strategy": "dnSpy decompilation into C# source and a .NET 8 x64 WinExe solution, rebuilt with user-supplied original application DLLs and resources",
+      "source_available": "Public decompiled C# project and Visual Studio solution. Original PlayStation VR2 App DLLs, language files, and JSON files are required to build and run; no GitHub release artifacts or license metadata are listed.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C#",
+      "subtype": "Windows desktop companion-application decompilation",
+      "sources": [
+        {
+          "label": "Maintainer repository description and README: dnSpy decompilation and build prerequisites",
+          "url": "https://github.com/AwesomeTornado/PlayStationVR2App#readme"
+        },
+        {
+          "label": "Project file: .NET 8 Windows executable and x64 target",
+          "url": "https://github.com/AwesomeTornado/PlayStationVR2App/blob/master/PlayStationVR2App.csproj"
+        },
+        {
+          "label": "Official Sony setup guide: PlayStation VR2 App is installed through Steam for Windows PC setup",
+          "url": "https://www.playstation.com/en-us/support/hardware/pc-ps-vr2-set-up/"
+        },
+        {
+          "label": "Official GitHub repository metadata: creation date, latest push, primary language, and license classification",
+          "url": "https://api.github.com/repos/AwesomeTornado/PlayStationVR2App"
+        },
+        {
+          "label": "GitHub Releases page; no releases listed when checked 2026-10-16",
+          "url": "https://github.com/AwesomeTornado/PlayStationVR2App/releases"
+        },
+        {
+          "label": "Official GitHub Languages API totals",
+          "url": "https://api.github.com/repos/AwesomeTornado/PlayStationVR2App/languages"
+        }
+      ]
+    },
+    {
+      "id": "freerdp-rdp-protocol-reimplementation",
+      "title": "FreeRDP (Microsoft Remote Desktop Protocol implementation)",
+      "game": "Microsoft Remote Desktop Protocol (RDP) client/server behavior",
+      "target_type": "Software",
+      "platform": "RDP client/server library and applications for Windows, Linux, macOS, and FreeBSD; upstream CI also documents alternative CPU architectures.",
+      "kind": "Reimplementation",
+      "status": "Active; FreeRDP 3.32.2 was released on 2026-10-12 and the repository received source updates through 2026-10-15. This is the FreeRDP release number; upstream does not identify one single RDP wire-protocol version as its target.",
+      "summary": "A public client/server library implementing Microsoft's Remote Desktop Protocol for interoperability with RDP services. It is a protocol implementation, not a Windows operating-system reimplementation; the upstream README does not make a clean-room claim.",
+      "project_url": "https://github.com/FreeRDP/FreeRDP",
+      "updated": "2026-10-16",
+      "strategy": "Independent RDP protocol implementation; no clean-room statement found in the reviewed upstream README.",
+      "source_available": "Public source under Apache License 2.0.",
+      "first_found": "2026-10-16",
+      "programming_language": "C",
+      "subtype": "Remote desktop protocol client/server library",
+      "sources": [
+        {
+          "label": "Maintainer README: free implementation claim, project scope, and build platforms",
+          "url": "https://github.com/FreeRDP/FreeRDP/blob/master/README.md"
+        },
+        {
+          "label": "FreeRDP 3.32.2 release (published 2026-10-12)",
+          "url": "https://github.com/FreeRDP/FreeRDP/releases/tag/3.32.2"
+        },
+        {
+          "label": "Apache License 2.0",
+          "url": "https://github.com/FreeRDP/FreeRDP/blob/master/LICENSE"
+        },
+        {
+          "label": "GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/FreeRDP/FreeRDP"
+        }
+      ]
+    },
+    {
+      "id": "samba-smb-active-directory-protocol-implementation",
+      "title": "Samba (SMB and Active Directory interoperability suite)",
+      "game": "Microsoft Windows SMB/CIFS and Active Directory network services",
+      "target_type": "Software",
+      "platform": "Linux and Unix-like systems; Samba supplies client and server components for SMB/CIFS and Windows interoperability services.",
+      "kind": "Reimplementation",
+      "status": "Active; Samba 4.25.0 was announced as the first stable release of the 4.25 series on 2026-09-24. The release notes describe SMB3 Persistent Handles support as experimental. The release number identifies Samba, not a Windows version.",
+      "summary": "A free-software implementation of SMB/CIFS and related Windows networking services, including Active Directory domain-controller functionality. Samba's README calls it the standard Windows interoperability suite for Linux and Unix; the reviewed upstream materials do not claim a clean-room process.",
+      "project_url": "https://gitlab.com/samba-team/samba",
+      "updated": "2026-10-16",
+      "strategy": "Open implementation of Microsoft-origin SMB/CIFS and Windows interoperability protocols and services; no clean-room statement found in the reviewed upstream materials.",
+      "source_available": "Public source; the main repository COPYING file is GNU GPL version 3. Individual components and files can have their own notices.",
+      "first_found": "2026-10-16",
+      "programming_language": "C",
+      "subtype": "SMB/CIFS and Active Directory protocol implementation",
+      "sources": [
+        {
+          "label": "Official Samba project overview and implementation scope",
+          "url": "https://www.samba.org/"
+        },
+        {
+          "label": "Upstream repository README and source tree",
+          "url": "https://gitlab.com/samba-team/samba/-/blob/master/README.md"
+        },
+        {
+          "label": "Samba 4.25.0 release notes (published 2026-09-24)",
+          "url": "https://www.samba.org/samba/history/samba-4.25.0.html"
+        },
+        {
+          "label": "Main repository GPLv3 license text",
+          "url": "https://gitlab.com/samba-team/samba/-/blob/master/COPYING"
+        },
+        {
+          "label": "Official GitHub source mirror metadata",
+          "url": "https://api.github.com/repos/samba-team/samba"
+        }
+      ]
+    },
+    {
+      "id": "openconnect-vpn-protocol-implementation",
+      "title": "OpenConnect (multi-protocol SSL VPN client)",
+      "game": "Cisco AnyConnect and other commercial SSL VPN protocols",
+      "target_type": "Software",
+      "platform": "Linux, Android, macOS, Windows, and BSD/Solaris-family Unix platforms, with platform support depending on the tunnel driver and package.",
+      "kind": "Reimplementation",
+      "status": "Active; OpenConnect 9.21 was released on 2026-06-16, and the upstream GitLab repository continued to receive changes in October 2026. It supports Cisco AnyConnect, Juniper Network Connect, Pulse/Ivanti, Palo Alto GlobalProtect, F5, Fortinet, and Array protocols. Upstream documents gaps, including incomplete Pulse authentication options and no Pulse Host Checker/TNCC support. No specific vendor-client version is declared as the compatibility target.",
+      "summary": "An open-source VPN client created to interoperate with Cisco AnyConnect and extended to several other commercial SSL VPN protocols. The project describes the supported protocols and their deficiencies and states that it is not affiliated with the vendors. The reviewed project sources do not claim clean-room development.",
+      "project_url": "https://gitlab.com/openconnect/openconnect",
+      "updated": "2026-10-16",
+      "strategy": "Multi-protocol VPN protocol implementation for interoperability; no clean-room statement found in the reviewed upstream materials.",
+      "source_available": "Public source under GNU Lesser General Public License version 2.1.",
+      "first_found": "2026-10-16",
+      "programming_language": "C",
+      "subtype": "Multi-protocol SSL VPN client",
+      "sources": [
+        {
+          "label": "Maintainer README: target VPN protocols and LGPL 2.1 license",
+          "url": "https://gitlab.com/openconnect/openconnect/-/blob/master/README.md"
+        },
+        {
+          "label": "Official protocol support and documented deficiencies",
+          "url": "https://www.infradead.org/openconnect/protocols.html"
+        },
+        {
+          "label": "OpenConnect 9.21 release notes (published 2026-06-16)",
+          "url": "https://gitlab.com/openconnect/openconnect/-/releases/v9.21"
+        },
+        {
+          "label": "Official supported-platform and package information",
+          "url": "https://www.infradead.org/openconnect/packages.html"
+        },
+        {
+          "label": "LGPL 2.1 license file",
+          "url": "https://gitlab.com/openconnect/openconnect/-/blob/master/COPYING.LGPL"
+        },
+        {
+          "label": "GitLab repository metadata checked 2026-10-16",
+          "url": "https://gitlab.com/api/v4/projects/openconnect%2Fopenconnect"
+        }
+      ]
+    },
+    {
+      "id": "librespot-spotify-connect-protocol-implementation",
+      "title": "librespot (Spotify client library and Connect receiver)",
+      "game": "Spotify playback service and Spotify Connect client behavior",
+      "target_type": "Software",
+      "platform": "Linux, Windows, macOS, FreeBSD, and NetBSD builds; playback backends and packaging vary by platform.",
+      "kind": "Reimplementation",
+      "status": "Active; the latest tagged release is v0.8.0 (2025-11-10), and the repository received source updates through 2026-10-09. The project requires a Spotify Premium account and does not support Spotify's free-account limits or advertising behavior. The README does not pin a specific Spotify application or protocol version.",
+      "summary": "An open-source Spotify client library that can act as a Spotify Connect receiver and provide playback to different audio backends. The maintainers describe it as an alternative to Spotify's deprecated closed-source libspotify; this is a client/protocol implementation, not a reimplementation of Spotify's server or full graphical applications.",
+      "project_url": "https://github.com/librespot-org/librespot",
+      "updated": "2026-10-16",
+      "strategy": "Open client and Spotify Connect protocol implementation; no clean-room statement found in the reviewed upstream README.",
+      "source_available": "Public source under the MIT License.",
+      "first_found": "2026-10-16",
+      "programming_language": "Rust",
+      "subtype": "Streaming-service client library and protocol receiver",
+      "sources": [
+        {
+          "label": "Maintainer README: Spotify Connect, target scope, Premium requirement, platforms, and license",
+          "url": "https://github.com/librespot-org/librespot/blob/dev/README.md"
+        },
+        {
+          "label": "Latest tagged release v0.8.0 (published 2025-11-10)",
+          "url": "https://github.com/librespot-org/librespot/releases/tag/v0.8.0"
+        },
+        {
+          "label": "MIT license",
+          "url": "https://github.com/librespot-org/librespot/blob/dev/LICENSE"
+        },
+        {
+          "label": "GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/librespot-org/librespot"
+        }
+      ]
+    },
+    {
+      "id": "openrgb-proprietary-rgb-control-reimplementation",
+      "title": "OpenRGB (cross-vendor RGB hardware control)",
+      "game": "Proprietary manufacturer RGB-control applications and device protocols",
+      "target_type": "Software",
+      "platform": "Windows, Linux, and macOS; supported hardware models and feature levels vary by device and operating system.",
+      "kind": "Reimplementation",
+      "status": "Active; OpenRGB 1.0 was released on 2026-09-11. The project controls supported lighting features through reverse-engineered device protocols. The maintainer publishes model-specific device support levels and warns that direct hardware control can carry a risk of device damage. No single vendor application or version is named as the compatibility target.",
+      "summary": "A public RGB-lighting control application intended to replace the separate proprietary control utilities supplied by hardware manufacturers. It communicates directly with supported hardware using reverse-engineered protocols; it does not claim compatibility with each vendor application's user interface or every feature.",
+      "project_url": "https://gitlab.com/CalcProgrammer1/OpenRGB",
+      "updated": "2026-10-16",
+      "strategy": "Cross-vendor application with reverse-engineered hardware-protocol drivers; no clean-room claim found in the reviewed upstream README.",
+      "source_available": "Public source under GNU General Public License version 2; the repository also contains separately licensed dependencies and components.",
+      "first_found": "2026-10-16",
+      "programming_language": "C++",
+      "subtype": "RGB hardware-control application",
+      "sources": [
+        {
+          "label": "Maintainer README: replacement goal, reverse-engineered protocol basis, and supported operating systems",
+          "url": "https://gitlab.com/CalcProgrammer1/OpenRGB/-/blob/master/README.md"
+        },
+        {
+          "label": "OpenRGB 1.0 release (published 2026-09-11)",
+          "url": "https://gitlab.com/CalcProgrammer1/OpenRGB/-/releases/release_1.0"
+        },
+        {
+          "label": "Model-specific supported-device matrix",
+          "url": "https://openrgb.org/devices.html"
+        },
+        {
+          "label": "GNU GPL version 2 license",
+          "url": "https://gitlab.com/CalcProgrammer1/OpenRGB/-/blob/master/LICENSE"
+        },
+        {
+          "label": "GitLab repository metadata checked 2026-10-16",
+          "url": "https://gitlab.com/api/v4/projects/CalcProgrammer1%2FOpenRGB"
+        }
+      ]
+    },
+    {
+      "id": "uxplay-airplay-receiver-reimplementation",
+      "title": "UxPlay (AirPlay mirroring and audio receiver)",
+      "game": "Apple AirPlay and AirPlay 2 mirroring/audio receiver behavior",
+      "target_type": "Software",
+      "platform": "Linux, macOS, Unix/BSD, and Windows; macOS AWDL point-to-point connection support is a macOS-only feature.",
+      "kind": "Reimplementation",
+      "status": "Active continuation at FDH2/UxPlay; the latest tagged release is v1.73.7 (2026-09-04), while the current README labels 1.74 as experimental. It supports AirPlay mirroring and audio, using the AirPlay 2 legacy protocol; the README says some features are missing and AirPlay 2 multi-room audio is unsupported. The project source history cites RPiPlay-derived components, so this is not presented as a clean-room implementation.",
+      "summary": "An open-source AirPlay receiver for Unix-like systems and Windows that can receive screen mirroring and audio streams from Apple clients. The maintainer explicitly limits AirPlay 2 claims to the legacy protocol and documents unsupported features; it does not claim complete Apple TV or AirPlay feature parity.",
+      "project_url": "https://github.com/FDH2/UxPlay",
+      "updated": "2026-10-16",
+      "strategy": "AirPlay receiver/protocol implementation with documented RPiPlay lineage; no clean-room statement found in the reviewed upstream materials.",
+      "source_available": "Public source under GNU General Public License version 3; the README identifies separately licensed third-party components.",
+      "first_found": "2026-10-16",
+      "programming_language": "C",
+      "subtype": "AirPlay mirroring and audio receiver",
+      "sources": [
+        {
+          "label": "Maintainer README: current development home, platforms, AirPlay 2 boundary, and limitations",
+          "url": "https://github.com/FDH2/UxPlay/blob/master/README.md"
+        },
+        {
+          "label": "Latest tagged release v1.73.7 (published 2026-09-04)",
+          "url": "https://github.com/FDH2/UxPlay/releases/tag/v1.73.7"
+        },
+        {
+          "label": "GNU GPL version 3 license",
+          "url": "https://github.com/FDH2/UxPlay/blob/master/LICENSE"
+        },
+        {
+          "label": "Repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/FDH2/UxPlay"
+        }
+      ]
+    },
+    {
+      "id": "daytona-usa-model2-n64-recomp",
+      "title": "Daytona USA (Model 2 to Nintendo 64)",
+      "game": "Daytona USA",
+      "target_type": "Game",
+      "platform": "Sega Model 2 arcade → Nintendo 64 (libdragon homebrew)",
+      "kind": "Recompilation",
+      "status": "Experimental Pass 5 N64 backend. The maintainer reports a private canonical regression reaching first Object Data geometry at vblank 110 and producing 3,439 flat triangles from 1,707 accepted polygons. Public CI checks tools and portable N64 runtime/geometry sources; the repository has no generated game C++ or playable N64 ROM.",
+      "summary": "Nintendo 64 target backend for the upstream Daytona USA Model 2 static recompilation. It adapts the statically recompiled i960/TGP code and arcade runtime to libdragon/N64. Generating and building the game requires the user’s compatible daytona93 ROM set; the public repository excludes game data, generated game code, and playable ROM output.",
+      "project_url": "https://github.com/PlatynumX/daytona-n64",
+      "updated": "2026-10-16",
+      "strategy": "Static recompilation of Model 2 i960/TGP code with a Nintendo 64/libdragon backend",
+      "programming_language": "C++",
+      "source_available": "Public backend source, tools, build scripts, and runtime checks; a compatible user-supplied daytona93 ROM set is required for local game-code generation. No arcade assets, generated game C++, or playable N64 ROM is included.",
+      "first_found": "2026-10-16",
+      "subtype": "N64 target backend for arcade static recompilation",
+      "sources": [
+        {
+          "label": "Maintainer README: static-recompilation relationship, Pass 5 N64 work, validation, and public-build limits",
+          "url": "https://github.com/PlatynumX/daytona-n64/blob/main/README.md"
+        },
+        {
+          "label": "Upstream Daytona USA Model 2 static-recompilation project",
+          "url": "https://github.com/alphanu1/daytona-arcade-recomp"
+        }
+      ]
+    },
+    {
+      "id": "wolfenstein-3d-n64-reimplementation",
+      "title": "Wolfenstein 3D Nintendo 64 Source Port",
+      "game": "Wolfenstein 3D",
+      "target_type": "Game",
+      "platform": "MS-DOS → Nintendo 64 (libdragon homebrew)",
+      "kind": "Reimplementation",
+      "status": "Version 1.0.0. The maintainer lists the shareware and full-game campaigns, enemies and bosses, music and sound, menus, saves, and the original recorded demos. The README says it was developed and tested in ares v148; Nintendo 64 hardware has not been tested.",
+      "summary": "Unofficial Nintendo 64/libdragon source port of Wolfenstein 3D, written from id Software’s released source code. The build converts the user’s own shareware or full-game data into an N64 ROM; the repository includes no game data or ROM. This is a source port, not an N64 decompilation or static recompilation.",
+      "project_url": "https://github.com/michaelpwest/wolfenstein-3d-n64",
+      "updated": "2026-10-16",
+      "strategy": "Port of id Software’s released DOS source to Nintendo 64/libdragon",
+      "programming_language": "C",
+      "source_available": "Public GPL-2.0 source; requires user-supplied Wolfenstein 3D files and executable. Game data and built N64 ROMs are not included.",
+      "first_found": "2026-10-16",
+      "subtype": "DOS source port to N64 homebrew",
+      "sources": [
+        {
+          "label": "Maintainer README: source origin, supported editions, features, build requirements, and hardware testing",
+          "url": "https://github.com/michaelpwest/wolfenstein-3d-n64#readme"
+        },
+        {
+          "label": "Maintainer technical details for the N64 port",
+          "url": "https://github.com/michaelpwest/wolfenstein-3d-n64/blob/main/TECHNICAL_DETAILS.md"
+        }
+      ]
+    },
+    {
+      "id": "spear-of-destiny-n64-reimplementation",
+      "title": "Spear of Destiny Nintendo 64 Source Port",
+      "game": "Spear of Destiny",
+      "target_type": "Game",
+      "platform": "MS-DOS → Nintendo 64 (libdragon homebrew)",
+      "kind": "Reimplementation",
+      "status": "Version 1.0.0. The shared Wolfenstein 3D N64 port documents Spear of Destiny’s full 21-floor campaign and tested operation in ares v148; it has not been tested on Nintendo 64 hardware.",
+      "summary": "Spear of Destiny target built from the same Nintendo 64/libdragon source port as Wolfenstein 3D. It reads the user’s own Spear of Destiny data and creates a `.z64`; no game data or ROM is included. This is a source port, not a matching decompilation or static recompilation.",
+      "project_url": "https://github.com/michaelpwest/wolfenstein-3d-n64",
+      "updated": "2026-10-16",
+      "strategy": "Port of id Software’s released DOS source to Nintendo 64/libdragon",
+      "programming_language": "C",
+      "source_available": "Public GPL-2.0 source; requires user-supplied Spear of Destiny files and executable. Game data and built N64 ROMs are not included.",
+      "first_found": "2026-10-16",
+      "subtype": "Spear of Destiny N64 source port on shared Wolf3D codebase",
+      "sources": [
+        {
+          "label": "Maintainer README: separate Spear of Destiny target, campaign, build requirements, and hardware testing",
+          "url": "https://github.com/michaelpwest/wolfenstein-3d-n64#readme"
+        },
+        {
+          "label": "Maintainer technical details for the shared N64 port",
+          "url": "https://github.com/michaelpwest/wolfenstein-3d-n64/blob/main/TECHNICAL_DETAILS.md"
+        }
+      ]
+    },
+    {
+      "id": "nolf2-macos-apple-silicon-source-port",
+      "title": "No One Lives Forever 2 Apple Silicon macOS Source Port",
+      "game": "No One Lives Forever 2: A Spy in H.A.R.M.’s Way",
+      "target_type": "Game",
+      "platform": "Windows/Jupiter EX → native arm64 Apple Silicon macOS (README says macOS 12+)",
+      "kind": "Reimplementation",
+      "status": "Latest repository release is 0.4.3 (published 2026-09-25). The maintainer README says the retail campaign is playable and has been played through several chapters; beta-quality rough edges remain. It requires the user’s own retail NOLF2 installation and includes no game assets. The README says the upstream licensing position is unresolved: the source tree has no license file and retains Monolith copyright headers.",
+      "summary": "A native Apple Silicon macOS source port of the Jupiter EX engine for No One Lives Forever 2, derived from the publicly released Jupiter EX source that included NOLF2 game code. The repository contains source only; the user supplies a retail installation. Its own README flags that the upstream licensing terms need clarification.",
+      "project_url": "https://github.com/MatzeLoCal/NOLF2",
+      "updated": "2026-10-16",
+      "strategy": "Native arm64 macOS source port of the Jupiter EX engine and NOLF2 game code, with Apple-platform runtime changes",
+      "language": "",
+      "source_available": "Public source repository; README says the source tree has no license file and the licensing position is unresolved. No game assets are included.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Apple Silicon macOS source port",
+      "sources": [
+        {
+          "label": "Reddit discovery lead in r/macgaming; not used as project-status authority",
+          "url": "https://www.reddit.com/r/macgaming/comments/1vtffo5/finally_a_native_port_of_no_one_lives_forever_2/"
+        },
+        {
+          "label": "Maintainer README: platform, playability, requirements, source provenance, and licensing caveat",
+          "url": "https://github.com/MatzeLoCal/NOLF2#readme"
+        },
+        {
+          "label": "Latest listed release, 0.4.3",
+          "url": "https://github.com/MatzeLoCal/NOLF2/releases/tag/0.4.3"
+        },
+        {
+          "label": "GitHub Languages API byte totals",
+          "url": "https://api.github.com/repos/MatzeLoCal/NOLF2/languages"
+        }
+      ]
+    },
+    {
+      "id": "counter-strike-16-apple-silicon-macos-port",
+      "title": "Counter-Strike 1.6 Apple Silicon macOS Port",
+      "game": "Counter-Strike 1.6",
+      "target_type": "Game",
+      "platform": "GoldSrc game data and client → macOS 15+ on Apple Silicon (arm64)",
+      "kind": "Reimplementation",
+      "status": "Release v1.2 was published 2026-10-05. The repository builds a native arm64 macOS app from pinned Xash3D FWGS, CS16Client, and SDL3 sources, with local portability patches and a DMG installer. The DMG includes no Valve game content; users must provide their own Counter-Strike/Half-Life files.",
+      "summary": "A native Apple Silicon macOS app that packages the Xash3D FWGS GoldSrc engine with CS16Client and supporting libraries to run Counter-Strike 1.6 without Wine or Rosetta. The repository supplies build scripts, app packaging, and local fixes; the user supplies the original game data. The README documents limits including unavailable closed-source Valve GameUI and rejection by Steam-auth-only servers.",
+      "project_url": "https://github.com/7tg/cs16-macos-arm64",
+      "updated": "2026-10-16",
+      "strategy": "Native arm64 macOS app packaging of Xash3D FWGS and CS16Client from pinned submodules, plus local patches and first-run game-data import",
+      "language": "",
+      "source_available": "Public source repository; scripts, patches, and documentation are GPL-3.0 while submodules retain their own licenses. Release DMG excludes Valve game files.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "Apple Silicon macOS game-engine/client integration",
+      "sources": [
+        {
+          "label": "Reddit discovery lead in r/macgaming; not used as project-status authority",
+          "url": "https://www.reddit.com/r/macgaming/comments/1x5qd2f/cs_16_on_apple_silicon/"
+        },
+        {
+          "label": "Maintainer README: app architecture, build, game-data requirement, limitations, and licensing",
+          "url": "https://github.com/7tg/cs16-macos-arm64#readme"
+        },
+        {
+          "label": "Latest listed release, v1.2",
+          "url": "https://github.com/7tg/cs16-macos-arm64/releases/tag/v1.2"
+        },
+        {
+          "label": "GitHub Languages API endpoint (rate-limited during verification)",
+          "url": "https://api.github.com/repos/7tg/cs16-macos-arm64/languages"
+        }
+      ]
+    },
+    {
+      "id": "metal-gear-solid-integral-reintegral-windows-port",
+      "title": "RE:INTEGRAL — Metal Gear Solid: Integral Windows Source Port",
+      "game": "Metal Gear Solid: Integral (Japanese PlayStation release)",
+      "target_type": "Game",
+      "platform": "PlayStation → Windows 10/11; native x86 gameplay runtime with x64 Godot presentation and tools",
+      "kind": "Reimplementation",
+      "status": "The maintainer’s 2026-10-15 Reddit post announces RE:INTEGRAL 0.3.0 and the repository README describes the Godot renderer and visual-modding SDK, but the GitHub Releases page still lists 0.2.0-alpha.1 (published 2026-10-10) as the latest release. The README reports the native main campaign was played through to credits on 2026-10-10; visual fidelity, hardware compatibility, and performance work remain open, and locked 60 FPS is not guaranteed. It requires the user’s own Japanese Integral Disc 1 and Disc 2 in BIN/CUE format; no game assets are included.",
+      "summary": "An unofficial Windows source port for Metal Gear Solid: Integral built on FoxdieTeam’s recovered C code and the PsyZ platform library. Its native runtime handles gameplay, collision, animation, audio, saves, and timing; Godot supplies a renderer and visual-modding SDK. The README scopes the project’s MIT license to its own software and documentation, while recovered code, dependencies, and patches retain separate terms.",
+      "project_url": "https://github.com/Drommedhar/mgs-reintegral",
+      "updated": "2026-10-16",
+      "strategy": "Native source-port runtime from recovered C code and PsyZ, with a Godot renderer and visual-modding SDK",
+      "language": "",
+      "source_available": "Public source repository. The README scopes MIT terms to the project’s own software and documentation; recovered code, game data, third-party material, and upstream patches have separate terms. No original game assets are included.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "PlayStation source-based Windows port with Godot presentation/modding",
+      "sources": [
+        {
+          "label": "Maintainer Reddit post announcing 0.3.0; discovery lead and release claim checked against GitHub Releases",
+          "url": "https://www.reddit.com/r/decomps/comments/1x6yod6/reintegral_03_metal_gear_solid_integral_source/"
+        },
+        {
+          "label": "Maintainer README: architecture, current platform, campaign status, disc requirement, and license scope",
+          "url": "https://github.com/Drommedhar/mgs-reintegral#readme"
+        },
+        {
+          "label": "GitHub releases page; latest listed release is 0.2.0-alpha.1 as checked 2026-10-16",
+          "url": "https://github.com/Drommedhar/mgs-reintegral/releases"
+        },
+        {
+          "label": "GitHub Languages API endpoint (rate-limited during verification)",
+          "url": "https://api.github.com/repos/Drommedhar/mgs-reintegral/languages"
+        }
+      ]
+    },
+    {
+      "id": "yakuza-dead-souls-ps3-recomp",
+      "title": "Yakuza: Dead Souls PS3 Static Recompilation",
+      "game": "Yakuza: Dead Souls (PS3 NTSC-U BLUS30826 v1.00)",
+      "target_type": "Game",
+      "platform": "PlayStation 3 (BLUS30826 v1.00) → Windows x64",
+      "kind": "Recompilation",
+      "strategy": "Static PPU/SPU recompilation to a native Windows executable with an HLE runtime and Direct3D 12 renderer",
+      "subtype": "Game-specific PS3 native port",
+      "status": "The README reports a Windows build that boots without PS3 firmware, plays the opening movies with audio, reaches the title screen, starts a new game and enters gameplay. The lighter Akiyama gun tutorial reaches the 30-fps game cap; the crowded outdoor opening is about 20 fps. This is not an end-to-end completion claim.",
+      "summary": "A game-specific native Windows port of Yakuza: Dead Souls. The project statically recompiles PPU and SPU code and implements native PS3 services and rendering. Users provide their own decrypted game files; the repository contains no game data.",
+      "project_url": "https://github.com/canersaka/Yakuza-Dead-Souls-EX",
+      "updated": "2026-10-16",
+      "language": "",
+      "source_available": "Public source; requires the user’s own legally obtained, decrypted BLUS30826 v1.00 game files; no game data or PS3 firmware is included.",
+      "first_found": "2026-10-16",
+      "project_started": "2026-06-09",
+      "programming_language": "",
+      "sources": [
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/canersaka/Yakuza-Dead-Souls-EX"
+        },
+        {
+          "label": "Maintainer README: exact target, implementation and current status",
+          "url": "https://github.com/canersaka/Yakuza-Dead-Souls-EX#readme"
+        }
+      ]
+    },
+    {
+      "id": "ben-10-omniverse-ps3-macos-recomp",
+      "title": "Ben 10 Omniverse PS3 macOS Static Recompilation",
+      "game": "Ben 10 Omniverse (PS3 BLUS31017 v01.00)",
+      "target_type": "Game",
+      "platform": "PlayStation 3 (BLUS31017 v01.00) → Apple Silicon macOS arm64",
+      "kind": "Recompilation",
+      "strategy": "Static PPU/SPU recompilation to native C/C++ with a Metal renderer and native video/audio services",
+      "subtype": "Game-specific PS3 native port; private runtime dependency",
+      "status": "The README reports boot, logos, intro videos, title/front-end, New Game and the first training level with walking, dialogue and HUD; later levels are unverified. Audio and controllers work, with 27–59 fps observed on a fanless MacBook Air M5 depending on load. A clean build from this repository alone is not possible because its engine fork is not public.",
+      "summary": "A native Apple Silicon port that statically recompiles the PS3 PPU and SPU code to C/C++ and uses Metal, VideoToolbox and CoreAudio. The repository contains no game code or assets; the cited private runtime fork limits reproducibility from this repo alone.",
+      "project_url": "https://github.com/andrebrumdev/ben10-omniverse-recomp",
+      "updated": "2026-10-16",
+      "language": "",
+      "source_available": "Public game-specific source and build notes; the required PS3 game dump is user supplied. The README says the engine fork needed for a clean build is not public; no game data is included.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "",
+      "sources": [
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/andrebrumdev/ben10-omniverse-recomp"
+        },
+        {
+          "label": "Maintainer README: implementation, status and build limitation",
+          "url": "https://github.com/andrebrumdev/ben10-omniverse-recomp#readme"
+        }
+      ]
+    },
+    {
+      "id": "demons-souls-ps3-windows-recomp",
+      "title": "Demon’s Souls PS3 Static Recompilation",
+      "game": "Demon’s Souls (PS3 USA BLUS30443)",
+      "target_type": "Game",
+      "platform": "PlayStation 3 (BLUS30443) → Windows x64",
+      "kind": "Recompilation",
+      "strategy": "Static PPU/SPU recompilation with a native PS3 system-library runtime and Direct3D 12",
+      "subtype": "Game-specific PS3 native port",
+      "status": "The README reports the first level playable from boot through Boletarian Palace 1-1, including character creation, the Nexus, saving/loading, ATRAC audio, music, keyboard and DualSense input. The game runs around its 30-fps cap with uneven frame pacing and some transient missing transparent effects. Full-game completion is not claimed.",
+      "summary": "A native Windows port of the USA PS3 release, built by translating PPU and SPU code ahead of time and linking it with a reimplementation of PS3 system libraries. Users supply their own BLUS30443 game data and required firmware module; no game data is included.",
+      "project_url": "https://github.com/JonathanDC64/DemonsSoulsRecomp",
+      "updated": "2026-10-16",
+      "language": "",
+      "source_available": "Public source; requires the user’s own BLUS30443 game data and, for the SPURS path, a firmware module from the user’s PS3 firmware. No game data is distributed.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "",
+      "sources": [
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/JonathanDC64/DemonsSoulsRecomp"
+        },
+        {
+          "label": "Maintainer README: target, build path and first-level status",
+          "url": "https://github.com/JonathanDC64/DemonsSoulsRecomp#readme"
+        }
+      ]
+    },
+    {
+      "id": "haze-ps3-windows-recomp",
+      "title": "Haze PS3 Windows Static Recompilation",
+      "game": "Haze (PS3 USA BLUS30094, disc 01.02 / application 01.00)",
+      "target_type": "Game",
+      "platform": "PlayStation 3 (BLUS30094) → Windows x64",
+      "kind": "Recompilation",
+      "strategy": "Static PPU/SPU and firmware-code translation with a Windows runtime",
+      "subtype": "Game-specific PS3 native port",
+      "status": "The README reports tested menus, opening-scene gameplay, audio output, checkpoint saves and native PAMF movies with synchronized audio/video. Experimental invite-code co-op passed two-instance local gameplay and rejoin tests; separate-machine and home-router validation is pending. Performance, rendering and campaign compatibility remain in development; a full campaign is not validated.",
+      "summary": "A Windows port of the USA PS3 release built on ps3recomp. The project translates game and firmware code and supplies an installer/launcher; users provide their own exact, decrypted disc image and PS3 firmware. No game data is included in the repository or releases.",
+      "project_url": "https://github.com/zdiemer/haze-recomp",
+      "updated": "2026-10-16",
+      "language": "",
+      "source_available": "Public source and Windows release installer; requires the user’s own tested BLUS30094 disc image and PS3 firmware. Game data is not included.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "",
+      "sources": [
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/zdiemer/haze-recomp"
+        },
+        {
+          "label": "Maintainer README: exact image, features and campaign caveats",
+          "url": "https://github.com/zdiemer/haze-recomp#readme"
+        }
+      ]
+    },
+    {
+      "id": "driveclub-ps4-macos-api-translation",
+      "title": "Driveclub PS4 Native macOS Port",
+      "game": "Driveclub (PS4 CUSA00003 v1.05)",
+      "target_type": "Game",
+      "platform": "PlayStation 4 (CUSA00003 v1.05) → Intel macOS with Metal 3",
+      "kind": "API Translation",
+      "strategy": "Native x86-64 execution with PS4 system-library HLE and GNM/GCN command and shader translation to Metal",
+      "subtype": "Game-specific PS4 API and GPU translation",
+      "status": "Work in progress. The README documents a game-specific HLE/PM4/GCN pipeline and a Metal 3 renderer, and includes a project-owned in-game screenshot, but does not give a verified play-through milestone or release. It currently requires an Intel Mac; Windows/Linux core support is still unfinished, and the README documents Intel MoltenVK limitations.",
+      "summary": "A game-specific PS4 compatibility layer for Driveclub. The PS4 x86-64 executable runs directly on an Intel Mac while Sony system libraries and the Liverpool GPU are replaced by host services and a Metal renderer. Users supply their own decrypted game dump; no game files are included.",
+      "project_url": "https://github.com/BlackLineInteractive/Driveclub-Port",
+      "updated": "2026-10-16",
+      "language": "",
+      "source_available": "Public source; requires the user’s own decrypted CUSA00003 v1.05 dump. Game files are not included.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "",
+      "sources": [
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/BlackLineInteractive/Driveclub-Port"
+        },
+        {
+          "label": "Maintainer README: target, translation design and host limitations",
+          "url": "https://github.com/BlackLineInteractive/Driveclub-Port#readme"
+        }
+      ]
+    },
+    {
+      "id": "psport-ps4-linux-api-translation",
+      "title": "psport — PS4 Titles natively on Linux",
+      "game": "PlayStation 4 x86-64 commercial software (multi-title compatibility layer)",
+      "target_type": "Software",
+      "platform": "PlayStation 4 → Linux x86-64 / Vulkan",
+      "kind": "API Translation",
+      "strategy": "Native x86-64 execution with PS4 system-library HLE and GNM/GCN-to-Vulkan translation",
+      "subtype": "Multi-title PS4 compatibility layer",
+      "status": "Active multi-title compatibility work. The README reports Bloodborne reaching several playable areas with saves/audio/pad, Atelier Ryza reaching its field with player control, and Call of Duty: Black Ops II reaching the first mission’s river-barge checkpoint and resuming from save. Other entries range from menus to render/sound smoke tests; the author reports thorough testing on one AMD RX 7800 XT / Mesa RADV machine. These milestones are not full-completion claims.",
+      "summary": "A Linux compatibility layer loads original PS4 x86-64 executables without CPU emulation, provides PS4 user-space libraries, and translates GNM/GCN GPU work to Vulkan. It is derived from bbport and shadPS4 and has per-title profiles; users provide their own game dumps.",
+      "project_url": "https://github.com/yerasuu/psport",
+      "updated": "2026-10-16",
+      "language": "",
+      "source_available": "Public source; users provide their own PS4 game dumps. The repository does not include game data or console system modules.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "",
+      "sources": [
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/yerasuu/psport"
+        },
+        {
+          "label": "Maintainer README: architecture, tested titles and hardware scope",
+          "url": "https://github.com/yerasuu/psport#readme"
+        }
+      ]
+    },
+    {
+      "id": "shadow-of-the-colossus-ps2-apple-silicon-recomp",
+      "title": "Shadow of the Colossus PS2 Apple Silicon Static Recompilation",
+      "game": "Shadow of the Colossus (PS2 USA SCUS_974.72)",
+      "target_type": "Game",
+      "platform": "PlayStation 2 USA (SCUS_974.72) → Apple Silicon macOS",
+      "kind": "Recompilation",
+      "strategy": "Static MIPS R5900 and VU1 recompilation to C++ with a native PS2 runtime",
+      "subtype": "Game-specific macOS native port",
+      "status": "The README reports boot, logos, intro cinematic, 3D rendering, audio, title/menu and New Game; the player can ride Agro and control Wander at about 28–30 fps on M-series Macs. Memory-card save/format support remains under test. It does not claim a full play-through.",
+      "summary": "Celosia is an Apple Silicon macOS port of the PS2 USA release. It statically recompiles the boot ELF, three XFF modules and VU1 microcode to C++, while its runtime implements the PS2 GS, VIF, DMA, IOP and SPU2. Game data remains user supplied.",
+      "project_url": "https://github.com/HenryKun55/celosia",
+      "updated": "2026-10-16",
+      "language": "",
+      "source_available": "Public source; requires the user’s own USA SCUS_974.72 disc. No game data is included.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "",
+      "sources": [
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/HenryKun55/celosia"
+        },
+        {
+          "label": "Maintainer README: target, recompilation design and status",
+          "url": "https://github.com/HenryKun55/celosia#readme"
+        }
+      ]
+    },
+    {
+      "id": "gran-turismo-3-ps2-matching-decomp",
+      "title": "Gran Turismo 3: A-Spec PS2 Matching Decompilation",
+      "game": "Gran Turismo 3: A-Spec (PS2 NTSC-U SCUS-97102 v1.00)",
+      "target_type": "Game",
+      "platform": "PlayStation 2 NTSC-U (SCUS-97102 v1.00)",
+      "kind": "Decompilation",
+      "strategy": "Matching C/C++ reconstruction built with the original compiler and checked against retail executables",
+      "subtype": "Matching decompilation",
+      "status": "The October 2026 README reports 3,557/11,407 functions matching (31.2%), 6.3% of code bytes, and 8.5% of function sources clean of decompiler scaffolding. The full loaded executable rebuilds byte-identically, but most code and all 2,245,743 data bytes still come from the user’s retail executable; no native GT3 port is claimed.",
+      "summary": "A matching decompilation of Gran Turismo 3’s NTSC-U PS2 executable. The build compares reconstructed source with the original binary; the repository does not include game data.",
+      "project_url": "https://github.com/gustavocanepa/gt3-decomp",
+      "updated": "2026-10-16",
+      "language": "",
+      "source_available": "Public source and build tooling; requires the user’s own NTSC-U SCUS-97102 v1.00 executable/disc image. No game data is included.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "",
+      "sources": [
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/gustavocanepa/gt3-decomp"
+        },
+        {
+          "label": "Maintainer README: objective version and measured matching progress",
+          "url": "https://github.com/gustavocanepa/gt3-decomp#readme"
+        }
+      ]
+    },
+    {
+      "id": "bushido-blade-2-ps1-matching-decomp",
+      "title": "Bushido Blade 2 PS1 Matching Decompilation",
+      "game": "Bushido Blade 2 (PS1 NTSC-U SLUS-00663)",
+      "target_type": "Game",
+      "platform": "PlayStation 1 NTSC-U (SLUS-00663)",
+      "kind": "Decompilation",
+      "strategy": "Hand-written C and canonical original assembly matched to the retail executable byte-for-byte",
+      "subtype": "Matching decompilation",
+      "status": "The build verifies the original SHA-1. The README reports 1,483/1,484 functions complete: 1,260 in matching C and 223 represented as canonical original assembly; one function remains incomplete. The project is in cleanup/readability work and does not claim a native port.",
+      "summary": "A near-complete matching decompilation of the North American Bushido Blade 2 executable. The source tree rebuilds byte-identically and requires the user’s own USA disc; no game data is included.",
+      "project_url": "https://github.com/tgg12321/BushidoBladeDecompile",
+      "updated": "2026-10-16",
+      "language": "",
+      "source_available": "Public source and build scripts; requires the user’s own unmodified North American SLUS-00663 disc image. No game data is included.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "",
+      "sources": [
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/tgg12321/BushidoBladeDecompile"
+        },
+        {
+          "label": "Maintainer README: version, matching state and remaining function",
+          "url": "https://github.com/tgg12321/BushidoBladeDecompile#readme"
+        },
+        {
+          "label": "Dated project status ledger",
+          "url": "https://github.com/tgg12321/BushidoBladeDecompile/blob/main/docs/STATUS.md"
+        }
+      ]
+    },
+    {
+      "id": "rogue-galaxy-ps2-matching-decomp",
+      "title": "Rogue Galaxy PS2 Matching Decompilation",
+      "game": "Rogue Galaxy (PS2 NTSC-U SCUS-97490 v1.01)",
+      "target_type": "Game",
+      "platform": "PlayStation 2 NTSC-U (SCUS-97490 v1.01)",
+      "kind": "Decompilation",
+      "strategy": "Matching C/C++ reconstruction of the game executables and code overlays",
+      "subtype": "Matching decompilation",
+      "status": "The README reports all 18,527 game-specific functions in the main executable and five overlays in C/C++, with all six images rebuilding byte-identically. Only 699/1,473 Sony SDK/runtime/library functions in the main executable are C; remaining libraries are linked as found on the user’s disc. This is a decompilation, not a finished native port.",
+      "summary": "A complete matching reconstruction of Rogue Galaxy’s game code for the USA v1.01 PS2 release. Library and data extraction still uses the user’s own game files; none are included.",
+      "project_url": "https://github.com/Dorgengoa/RGDecomp",
+      "updated": "2026-10-16",
+      "language": "",
+      "source_available": "Public source and build scripts; requires user-supplied NTSC-U SCUS-97490 v1.01 game files. No game binaries, assets or data are included.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "",
+      "sources": [
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/Dorgengoa/RGDecomp"
+        },
+        {
+          "label": "Maintainer README: target, code counts and byte-identical builds",
+          "url": "https://github.com/Dorgengoa/RGDecomp#readme"
+        }
+      ]
+    },
+    {
+      "id": "ico-ps2-matching-decomp",
+      "title": "ICO PS2 Matching Decompilation",
+      "game": "ICO (PS2 PAL SCES-50760 and Japan SCPS-11003)",
+      "target_type": "Game",
+      "platform": "PlayStation 2 PAL (SCES-50760) and Japanese retail (SCPS-11003)",
+      "kind": "Decompilation",
+      "strategy": "Shared C source tree and original-toolchain rebuild of two retail boot ELFs",
+      "subtype": "Matching decompilation",
+      "status": "The main branch builds the PAL and Japanese boot ELFs byte-identically and reports 100% section matches for both. The progress badges distinguish compiled/assembled source from data regenerated using the user’s disc, so exact output does not mean every data/rodata byte is handwritten source. USA and prototype targets exist on separate branches and are not part of the main-branch targets recorded here.",
+      "summary": "A two-version matching decompilation of ICO’s PS2 PAL and Japanese releases. One C source tree builds both boot ELFs with the original toolchain; the project distributes no disc data. This is distinct from the existing nathanialf/ico-pc native-port repository.",
+      "project_url": "https://github.com/nathanialf/ico",
+      "updated": "2026-10-16",
+      "language": "",
+      "source_available": "Public source; requires the user’s own PAL or Japanese retail disc. No game data is included.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "",
+      "sources": [
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/nathanialf/ico"
+        },
+        {
+          "label": "Maintainer README: target branches and section matching caveat",
+          "url": "https://github.com/nathanialf/ico#readme"
+        },
+        {
+          "label": "Maintainer progress dashboard",
+          "url": "https://nathanialf.github.io/ico/#pal"
+        }
+      ]
+    },
+    {
+      "id": "crash-wrath-of-cortex-ps2-matching-decomp",
+      "title": "Crash Bandicoot: The Wrath of Cortex PS2 Matching Decompilation",
+      "game": "Crash Bandicoot: The Wrath of Cortex (PS2 PAL v1.03 SLES-50386)",
+      "target_type": "Game",
+      "platform": "PlayStation 2 PAL v1.03 (SLES-50386 / SLES_503.86)",
+      "kind": "Decompilation",
+      "strategy": "Clean-room C reconstruction checked against the retail executable",
+      "subtype": "Matching decompilation",
+      "status": "Work in progress. The README targets one exact PAL v1.03 build, gives the executable and SYSTEM.CNF hashes, and describes byte-exact matching reconstruction; it does not publish a completion percentage or playable-port milestone.",
+      "summary": "A public PS2 matching-decompilation workspace for the PAL v1.03 release. Users supply the retail files for analysis and build; no game code or assets are distributed.",
+      "project_url": "https://github.com/denzi-gh/crashwoc-decomp-ps2",
+      "updated": "2026-10-16",
+      "language": "",
+      "source_available": "Public source and build tooling; the user supplies the exact PAL v1.03 files. No game code, assets or binaries are included.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "",
+      "sources": [
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/denzi-gh/crashwoc-decomp-ps2"
+        },
+        {
+          "label": "Maintainer README: exact target and matching method",
+          "url": "https://github.com/denzi-gh/crashwoc-decomp-ps2#readme"
+        }
+      ]
+    },
+    {
+      "id": "tombi-ps1-matching-decomp",
+      "title": "Tombi! PS1 Matching Decompilation",
+      "game": "Tombi! (PS1 PAL Spanish, SCES_013.31)",
+      "target_type": "Game",
+      "platform": "PlayStation PAL Spanish (SCES_013.31)",
+      "kind": "Decompilation",
+      "strategy": "Matching C reconstruction of the game code measured against the original executable and overlays",
+      "subtype": "Matching decompilation",
+      "status": "The current README reports 94.80% of game-code bytes matching (1,449,728/1,529,276). The main executable and the shared/area overlays shown as complete are linked from source; remaining system screens are partial. Psy-Q library bytes and retail .data/.rodata are measured separately and are not counted as completed game-code source.",
+      "summary": "A high-progress matching decompilation of the Spanish PAL PlayStation release of Tombi! (Tomba!). The build uses the user’s disc files and keeps game-code progress separate from Sony Psy-Q library and retail data.",
+      "project_url": "https://github.com/afsenovilla/tombi-decomp",
+      "updated": "2026-10-16",
+      "language": "",
+      "source_available": "Public source and build tooling; requires user-supplied PAL Spanish game files. No game data is included.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "",
+      "sources": [
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/afsenovilla/tombi-decomp"
+        },
+        {
+          "label": "Maintainer README: measured progress and counting rules",
+          "url": "https://github.com/afsenovilla/tombi-decomp#readme"
+        },
+        {
+          "label": "Detailed project progress report",
+          "url": "https://github.com/afsenovilla/tombi-decomp/blob/main/docs/PROGRESS.md"
+        }
+      ]
+    },
+    {
+      "id": "rule-of-rose-ps2-matching-decomp",
+      "title": "Rule of Rose PS2 Matching Decompilation",
+      "game": "Rule of Rose (PS2 NTSC-U SLUS-214.48)",
+      "target_type": "Game",
+      "platform": "PlayStation 2 NTSC-U (SLUS-214.48)",
+      "kind": "Decompilation",
+      "strategy": "C++ reconstruction matched against the original load image, with a native port listed as a long-term goal",
+      "subtype": "Matching decompilation",
+      "status": "The README reports a byte-identical load-image build and 19/125 game files decompiled, covering 84,620/1,147,560 bytes of game code (7.37%). The project also documents a small compiler-identity test set and function-name recovery; it does not claim a playable port.",
+      "summary": "A matching PS2 decompilation of Rule of Rose, using a pinned EE-GCC toolchain and source files that rebuild the retail load image. The user supplies the USA executable; the repository includes no game data.",
+      "project_url": "https://github.com/notmanrivera/ruleofrose-decomp",
+      "updated": "2026-10-16",
+      "language": "",
+      "source_available": "Public source and build scripts; requires the user’s own USA SLUS-214.48 disc executable. No game data is included.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "",
+      "sources": [
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/notmanrivera/ruleofrose-decomp"
+        },
+        {
+          "label": "Maintainer README: matching build and source progress",
+          "url": "https://github.com/notmanrivera/ruleofrose-decomp#readme"
+        },
+        {
+          "label": "Project state and roadmap",
+          "url": "https://github.com/notmanrivera/ruleofrose-decomp/blob/main/notes/PROJECT_STATE.md"
+        }
+      ]
+    },
+    {
+      "id": "digimon-world-3-ps1-matching-decomp",
+      "title": "Digimon World 3 PS1 Matching Decompilation",
+      "game": "Digimon World 3 / Digimon World 2003 (PS1 Europe, USA and Japan)",
+      "target_type": "Game",
+      "platform": "PlayStation 1 Europe, USA and Japan retail releases",
+      "kind": "Decompilation",
+      "strategy": "Matching C reconstruction across the executable, overlays and stages for three retail regions",
+      "subtype": "Multi-version matching decompilation",
+      "status": "The README reports 100% matching code and data for the executable, 21 overlays and every stage across Europe, USA and Japan. Sony Psy-Q libraries are excluded from those totals; the repo describes that library code separately. This is distinct from existing Digimon World 3 console-port records.",
+      "summary": "A multi-version matching decompilation of Digimon World 3 / Digimon World 2003 for PS1. Builds use the user’s own regional game files; no copyrighted game data is included.",
+      "project_url": "https://github.com/ReGame-Labs/dw3_decomp",
+      "updated": "2026-10-16",
+      "language": "",
+      "source_available": "Public source and build tooling; requires user-supplied regional game files. No game data is included.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "",
+      "sources": [
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/ReGame-Labs/dw3_decomp"
+        },
+        {
+          "label": "Maintainer README: versions, matching counts and SDK exclusions",
+          "url": "https://github.com/ReGame-Labs/dw3_decomp#readme"
+        },
+        {
+          "label": "Detailed status and match-count rules",
+          "url": "https://github.com/ReGame-Labs/dw3_decomp/blob/main/docs/status.md"
+        }
+      ]
+    },
+    {
+      "id": "kings-field-ancient-city-ps2-matching-decomp",
+      "title": "King’s Field: The Ancient City PS2 Matching Decompilation",
+      "game": "King’s Field: The Ancient City / King’s Field IV (PS2 USA SLUS-20318)",
+      "target_type": "Game",
+      "platform": "PlayStation 2 USA (SLUS-20318)",
+      "kind": "Decompilation",
+      "strategy": "Matching C source reconstruction and retail-image verification",
+      "subtype": "Matching decompilation",
+      "status": "The current README progress report shows 99.53% matching game code and 2,990/2,991 game functions, with 207/249 game units linked; the full retail image builds and verifies. Remaining unit/readability work is ongoing, and the project does not claim a native port.",
+      "summary": "A high-progress matching decompilation of the USA PS2 boot ELF for King’s Field IV. The project tracks game and Sony-library progress separately and requires the user’s own retail ELF.",
+      "project_url": "https://github.com/Voicedrew11/kfiv-decomp",
+      "updated": "2026-10-16",
+      "language": "",
+      "source_available": "Public source and build tooling; requires the user’s own USA SLUS-20318 game files. No game data is included.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "",
+      "sources": [
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/Voicedrew11/kfiv-decomp"
+        },
+        {
+          "label": "Maintainer README: USA target and live code/function progress",
+          "url": "https://github.com/Voicedrew11/kfiv-decomp#readme"
+        },
+        {
+          "label": "Progress dashboard and counting definitions",
+          "url": "https://github.com/Voicedrew11/kfiv-decomp/tree/main/docs/progress"
+        }
+      ]
+    },
+    {
+      "id": "digimon-rumble-arena-ps1-matching-decomp",
+      "title": "Digimon Rumble Arena PS1 Matching Decompilation",
+      "game": "Digimon Rumble Arena (PS1 Japan SLPS-03357 and USA SLUS-01404)",
+      "target_type": "Game",
+      "platform": "PlayStation 1 Japan (SLPS-03357) and USA (SLUS-01404)",
+      "kind": "Decompilation",
+      "strategy": "Matching C reconstruction of the executable and thirteen code overlays",
+      "subtype": "Multi-version matching decompilation",
+      "status": "Work in progress. The README reports byte-identical builds of the executable and thirteen code overlays for both Japanese and USA releases; most executable functions are in C, while about one third of overlay functions are in C and the remainder still use Splat assembly. No native port is claimed.",
+      "summary": "A two-version matching-decompilation project for Digimon Rumble Arena on PS1. It tracks matching C separately from remaining assembly and uses only user-supplied game images.",
+      "project_url": "https://github.com/ReGame-Labs/dtbe_decomp",
+      "updated": "2026-10-16",
+      "language": "",
+      "source_available": "Public source and build tooling; requires user-supplied Japanese or USA retail files. No game data is included.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "",
+      "sources": [
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/ReGame-Labs/dtbe_decomp"
+        },
+        {
+          "label": "Maintainer README: targets, byte-identical builds and completion caveats",
+          "url": "https://github.com/ReGame-Labs/dtbe_decomp#readme"
+        }
+      ]
+    },
+    {
+      "id": "splosion-man-xbox360-linux-windows-static-recomp",
+      "title": "’Splosion Man Xbox 360 Static Recompilation",
+      "game": "’Splosion Man (Xbox 360 XBLA)",
+      "target_type": "Game",
+      "platform": "Xbox 360 PowerPC XEX → native Linux x86-64 and Windows x86-64 builds",
+      "kind": "Recompilation",
+      "status": "The README reports a fully playable Linux port with graphics, audio, controllers, vibration, and full-game unlock. A Windows test build is reported to run levels, sound, gamepad/vibration, and FSR end to end through Proton; native Windows testing is still requested. Release v2.0 was published 2026-10-04; the Windows build is a separate pre-release.",
+      "summary": "Uses the ReXGlue SDK to statically recompile the XBLA game into native host builds. The launcher imports a user-supplied XBLA package or extracted game folder; no game data is included.",
+      "project_url": "https://github.com/thefixinhixon/SplosionManRecomp",
+      "updated": "2026-10-11",
+      "verified_at": "2026-10-16",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "strategy": "Static recompilation of Xbox 360 PowerPC code through ReXGlue",
+      "language": "",
+      "programming_language": "C++",
+      "subtype": "Xbox 360 XBLA static recompilation for Linux and Windows",
+      "license": "No project license declared in GitHub metadata; bundled components retain their own licenses",
+      "source_available": "Public source and launcher; the user supplies a legally obtained XBLA package or extracted game folder.",
+      "sources": [
+        {
+          "label": "Maintainer README: method, Linux/Windows testing, current status, and game-data requirement",
+          "url": "https://github.com/thefixinhixon/SplosionManRecomp#readme"
+        },
+        {
+          "label": "Linux release v2.0",
+          "url": "https://github.com/thefixinhixon/SplosionManRecomp/releases/tag/v2.0"
+        },
+        {
+          "label": "Windows test pre-release",
+          "url": "https://github.com/thefixinhixon/SplosionManRecomp/releases/tag/windows-test-1"
+        },
+        {
+          "label": "GitHub repository metadata",
+          "url": "https://api.github.com/repos/thefixinhixon/SplosionManRecomp"
+        },
+        {
+          "label": "GitHub Languages API byte counts",
+          "url": "https://api.github.com/repos/thefixinhixon/SplosionManRecomp/languages"
+        }
+      ],
+      "media": [],
+      "links": []
+    },
+    {
+      "id": "blinx-original-xbox-android-static-recomp",
+      "title": "Blinx: The Time Sweeper Android Static Recompilation",
+      "game": "Blinx: The Time Sweeper (original Xbox, 2002)",
+      "target_type": "Game",
+      "platform": "Original Xbox x86 XBE → native Android ARM64",
+      "kind": "Recompilation",
+      "status": "README version 1.0.1 reports intro movies with sound, readable menus, save/load, and Stage 1 running at the game’s locked 30 fps on a Retroid Pocket 6 (Snapdragon 8 Gen 2). Only the intro, menus, saving/loading, and Stage 1 have been played on device; later stages remain untested. No GitHub release is listed.",
+      "summary": "Statically recompiles the original Xbox executable to ARM64 C and uses an Android runtime with xemu-derived NV2A Vulkan graphics and MCPX audio. The repository contains no game code, assets, disc images, firmware, or APK.",
+      "project_url": "https://github.com/burningurine/blinx-android",
+      "updated": "2026-09-30",
+      "verified_at": "2026-10-16",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "strategy": "Static recompilation of original Xbox x86 code to Android ARM64",
+      "language": "",
+      "programming_language": "C",
+      "subtype": "Original Xbox static recompilation and Android port",
+      "license": "No project license declared in GitHub metadata or README",
+      "source_available": "Public source and build documentation; user-supplied legally obtained Xbox game data is required.",
+      "sources": [
+        {
+          "label": "Maintainer README: method, tested device, current status, and content limits",
+          "url": "https://github.com/burningurine/blinx-android#readme"
+        },
+        {
+          "label": "Port status and known limits",
+          "url": "https://github.com/burningurine/blinx-android/blob/master/PORT_STATUS.md"
+        },
+        {
+          "label": "GitHub repository metadata",
+          "url": "https://api.github.com/repos/burningurine/blinx-android"
+        },
+        {
+          "label": "GitHub Languages API byte counts",
+          "url": "https://api.github.com/repos/burningurine/blinx-android/languages"
+        }
+      ],
+      "media": [],
+      "links": []
+    },
+    {
+      "id": "lord-of-the-rings-third-age-original-xbox-static-recomp",
+      "title": "The Lord of the Rings: The Third Age Original Xbox Static Recompilation",
+      "game": "The Lord of the Rings: The Third Age (North American original Xbox release, title ID 4541005F)",
+      "target_type": "Game",
+      "platform": "Original Xbox x86 XBE → native Windows",
+      "kind": "Recompilation",
+      "status": "The project’s October 9 status reports startup reaching the main menu with audible movie/menu audio and a diagnostic framebuffer window; gameplay has not been verified. The README says generated game code is a local step and a fresh clone is not yet a turnkey build. No GitHub release is listed.",
+      "summary": "An early-stage static recompilation of the Xbox XBE into a native Windows executable, with project-specific source and runtime work based on xboxrecomp. The repository excludes the game executable, disc image, movies, audio, and other game assets.",
+      "project_url": "https://github.com/Revan67/ThirdAge-Recomp",
+      "updated": "2026-10-10",
+      "verified_at": "2026-10-16",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "strategy": "Static recompilation of original Xbox x86 code to Windows",
+      "language": "",
+      "programming_language": "C",
+      "subtype": "Original Xbox static recompilation and Windows port",
+      "license": "No project license declared in GitHub metadata or README",
+      "source_available": "Public project source and research; the user supplies legally owned Xbox game files, and game-derived code is generated locally.",
+      "sources": [
+        {
+          "label": "Maintainer README: exact Xbox build, method, status, and fresh-clone limitations",
+          "url": "https://github.com/Revan67/ThirdAge-Recomp#readme"
+        },
+        {
+          "label": "Current status and local verification notes",
+          "url": "https://github.com/Revan67/ThirdAge-Recomp/blob/main/docs/STATUS.md"
+        },
+        {
+          "label": "GitHub repository metadata",
+          "url": "https://api.github.com/repos/Revan67/ThirdAge-Recomp"
+        },
+        {
+          "label": "GitHub Languages API byte counts",
+          "url": "https://api.github.com/repos/Revan67/ThirdAge-Recomp/languages"
+        }
+      ],
+      "media": [],
+      "links": []
+    },
+    {
+      "id": "doom2d-gba-port",
+      "title": "Doom2D — Game Boy Advance Port",
+      "game": "Doom2D",
+      "target_type": "Game",
+      "platform": "Game Boy Advance homebrew",
+      "kind": "Reimplementation",
+      "status": "The maintainer published v0.2.0 on 2026-09-15. It adds seven SRAM save slots and settings, speeds up rendering, and fixes texture overlap and teleport physics.",
+      "summary": "A public Game Boy Advance port of the side-scrolling Doom2D game, built with C++ and the Butano GBA framework. The repository includes port source and build tooling; the README warns that original game assets may have separate licenses.",
+      "project_url": "https://github.com/neparij/doom2d-agb",
+      "updated": "2026-10-16",
+      "strategy": "Native C++/Butano port of Doom2D to Game Boy Advance homebrew.",
+      "programming_language": "C++",
+      "source_available": "Public source under GPL-3.0 with build scripts and assets in the repository; original game assets may carry separate licenses.",
+      "first_found": "2026-10-16",
+      "subtype": "Game Boy Advance source port",
+      "sources": [
+        {
+          "label": "Maintainer README: GBA port, build requirements, and asset licensing note",
+          "url": "https://github.com/neparij/doom2d-agb#readme"
+        },
+        {
+          "label": "Maintainer release v0.2.0 (published 2026-09-15)",
+          "url": "https://github.com/neparij/doom2d-agb/releases/tag/v0.2.0"
+        },
+        {
+          "label": "GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/neparij/doom2d-agb"
+        }
+      ]
+    },
+    {
+      "id": "postal-1-3ds-port",
+      "title": "Postal 1 — Nintendo 3DS Port",
+      "game": "Postal",
+      "target_type": "Game",
+      "platform": "PC source game → Nintendo 3DS",
+      "kind": "Reimplementation",
+      "status": "Release 1.0.0 was published on 2026-09-17. The maintainer says the port loads original game archives and can play the campaign on real hardware, but remains alpha with possible performance and level-compatibility issues. Old 3DS support is untested.",
+      "summary": "A Nintendo 3DS port built from the publicly available Postal engine source. The repository contains the engine and 3DS platform code, but excludes game data, music, maps, and other copyrighted assets; players supply files from their own legally obtained copy. The README warns that a startup black screen may require pressing START.",
+      "project_url": "https://github.com/Taifuoguru/Postal-1-3DS",
+      "updated": "2026-10-16",
+      "strategy": "Port of the publicly available Postal engine source to Nintendo 3DS homebrew.",
+      "programming_language": "",
+      "source_available": "Public GPL-2.0 engine and platform source; requires user-supplied Postal 1 files and distributes no game data or copyrighted assets.",
+      "first_found": "2026-10-16",
+      "subtype": "Nintendo 3DS source port",
+      "sources": [
+        {
+          "label": "Maintainer README: port source, alpha/hardware status, required game data, and Old 3DS testing note",
+          "url": "https://github.com/Taifuoguru/Postal-1-3DS#readme"
+        },
+        {
+          "label": "Maintainer release 1.0.0 (published 2026-09-17)",
+          "url": "https://github.com/Taifuoguru/Postal-1-3DS/releases/tag/1.0.0"
+        },
+        {
+          "label": "GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/Taifuoguru/Postal-1-3DS"
+        }
+      ]
+    },
+    {
+      "id": "super-mario-64-3ds-native-port",
+      "title": "Super Mario 64 — Nintendo 3DS Port",
+      "game": "Super Mario 64",
+      "target_type": "Game",
+      "platform": "Nintendo 64 → Nintendo 3DS homebrew",
+      "kind": "Reimplementation",
+      "status": "The maintainer’s 3ds-port branch last received a source update on 2026-08-10. Its README documents 3DSX/CIA builds, user-supplied ROM asset extraction, stereoscopic 3D, touch-screen camera controls, remappable inputs, and multithreaded audio.",
+      "summary": "A Nintendo 3DS port of the Nintendo 64 Super Mario 64 codebase. Building requires the user’s own supported ROM so assets can be extracted; the repository does not supply a game ROM. This is distinct from the already catalogued Super Mario 64 DS-to-3DS port.",
+      "project_url": "https://github.com/mkst/sm64-port/tree/3ds-port",
+      "updated": "2026-10-16",
+      "strategy": "Nintendo 64 Super Mario 64 port adapted to Nintendo 3DS homebrew.",
+      "programming_language": "C",
+      "source_available": "Public source on the maintainer’s 3ds-port branch; a supported user-supplied ROM is required for asset extraction. The GitHub repository has no declared license.",
+      "first_found": "2026-10-16",
+      "subtype": "Nintendo 64 to Nintendo 3DS source port",
+      "sources": [
+        {
+          "label": "Maintainer README on the 3ds-port branch: supported ROMs, build targets, and 3DS features",
+          "url": "https://github.com/mkst/sm64-port/blob/3ds-port/README.md"
+        },
+        {
+          "label": "Maintainer 3ds-port branch history",
+          "url": "https://github.com/mkst/sm64-port/commits/3ds-port/"
+        },
+        {
+          "label": "GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/mkst/sm64-port"
+        }
+      ]
+    },
+    {
+      "id": "persona-3-portable-new-3ds-recomp",
+      "title": "Persona 3 Portable — New Nintendo 3DS Static Recompilation",
+      "game": "Shin Megami Tensei: Persona 3 Portable",
+      "target_type": "Game",
+      "platform": "PlayStation Portable → New Nintendo 3DS, New 3DS XL, and New 2DS XL",
+      "kind": "Recompilation",
+      "status": "Release v0.3.1 was published on 2026-10-11; the maintainer describes the port as playable early. On New 2DS XL, the first days and first battle have been tested, saves work, field play is about 28–30 fps and battles 16–25 fps. Sound and the opening movie are not implemented, later game sections are untested, and Old 3DS is unsupported.",
+      "summary": "A static recompilation of the North American Persona 3 Portable release (ULUS-10512) for the New Nintendo 3DS family, with an interpreter fallback and native PICA200 rendering. Building requires the user’s own ISO; the repository contains no copyrighted game assets or proprietary executable.",
+      "project_url": "https://github.com/endercodezz/P3P3DS",
+      "updated": "2026-10-16",
+      "strategy": "Static recompilation of PSP game code to C++ with a native New Nintendo 3DS runtime and renderer.",
+      "programming_language": "C++",
+      "source_available": "Public MIT-licensed project source and builder; requires a user-owned ULUS-10512 ISO and does not distribute game assets.",
+      "first_found": "2026-10-16",
+      "subtype": "PlayStation Portable static recompilation to New Nintendo 3DS",
+      "sources": [
+        {
+          "label": "Maintainer README: target ISO/revision, New 3DS support, hardware status, and limitations",
+          "url": "https://github.com/endercodezz/P3P3DS#readme"
+        },
+        {
+          "label": "Maintainer release v0.3.1 (published 2026-10-11)",
+          "url": "https://github.com/endercodezz/P3P3DS/releases/tag/v0.3.1"
+        },
+        {
+          "label": "GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/endercodezz/P3P3DS"
+        }
+      ]
+    },
+    {
+      "id": "tetris-game-boy-native-reimplementation",
+      "title": "Native GB Tetris — C++20 Reimplementation",
+      "game": "Tetris (1989 Game Boy release)",
+      "target_type": "Game",
+      "platform": "Game Boy → native desktop software",
+      "kind": "Reimplementation",
+      "status": "The current README documents Type A and B, attract demos, high scores and name entry, both ending sequences, the full music/effect catalog, and local two-player. No GitHub release was listed when checked on 2026-10-16.",
+      "summary": "A native C++20 implementation of the 1989 Game Boy Tetris rules. It validates a user-supplied World revision 1.1 ROM and extracts graphics, layouts, demos, music, and effects; gameplay runs as C++ code without Game Boy CPU emulation or a recreated Game Boy memory layout.",
+      "project_url": "https://github.com/native-gb/tetris-modern",
+      "updated": "2026-10-16",
+      "strategy": "Native C++20 reimplementation of Game Boy Tetris with user-ROM-derived presentation/audio content.",
+      "programming_language": "C++",
+      "source_available": "Public GPL-3.0 source; no ROM or extracted assets are distributed. Requires a user-supplied World revision 1.1 Tetris ROM (SHA-1 74591cc9501af93873f9a5d3eb12da12c0723bbc).",
+      "first_found": "2026-10-16",
+      "subtype": "Game Boy game native desktop reimplementation",
+      "sources": [
+        {
+          "label": "Maintainer README: native implementation, exact supported ROM, modes, and build/test commands",
+          "url": "https://github.com/native-gb/tetris-modern#readme"
+        },
+        {
+          "label": "GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/native-gb/tetris-modern"
+        },
+        {
+          "label": "Maintainer GPL-3.0 license",
+          "url": "https://github.com/native-gb/tetris-modern/blob/main/LICENSE"
+        }
+      ]
+    },
+    {
+      "id": "kirpich-tetris-game-boy-native-reimplementation",
+      "title": "Kirpich — Game Boy Tetris Reimplementation",
+      "game": "Tetris (Game Boy DMG release)",
+      "target_type": "Game",
+      "platform": "Game Boy → Windows, macOS, and Linux desktop software",
+      "kind": "Reimplementation",
+      "status": "Version 0.10.1 was published on 2026-10-06. The release adds rebindable keyboard/controller controls and a settings flow; the maintainer publishes desktop builds for macOS, Windows, and Linux. The README documents complete A-Type and B-Type play, hidden endings, and optional C-Type.",
+      "summary": "An independent native C++ port of Game Boy DMG Tetris built on the Polyrhythm engine. The player supplies a World revision 1 cartridge image; Kirpich extracts graphics and runs the original sound driver on an emulated audio unit, without emulating the Game Boy game CPU or translating its assembly.",
+      "project_url": "https://github.com/etroimcasso/Kirpich",
+      "updated": "2026-10-16",
+      "strategy": "Native C++ reimplementation of Game Boy Tetris; cartridge graphics are extracted locally and original sound-driver code runs in an emulated audio unit.",
+      "programming_language": "C++",
+      "source_available": "Public AGPL-3.0 source and desktop releases; the project distributes no ROM or extracted copyrighted assets and requires the player’s own Tetris (World, Rev 1) ROM.",
+      "first_found": "2026-10-16",
+      "subtype": "Game Boy game native desktop reimplementation",
+      "sources": [
+        {
+          "label": "Maintainer README: desktop targets, gameplay scope, ROM requirements, and distribution boundary",
+          "url": "https://github.com/etroimcasso/Kirpich#readme"
+        },
+        {
+          "label": "Maintainer release v0.10.1 (published 2026-10-06)",
+          "url": "https://github.com/etroimcasso/Kirpich/releases/tag/v0.10.1"
+        },
+        {
+          "label": "GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/etroimcasso/Kirpich"
+        },
+        {
+          "label": "Maintainer AGPL-3.0 license",
+          "url": "https://github.com/etroimcasso/Kirpich/blob/main/LICENSE"
+        }
+      ]
+    },
+    {
+      "id": "super-mario-land-native-modern",
+      "title": "Super Mario Land — Native Modern Reimplementation",
+      "game": "Super Mario Land",
+      "target_type": "Game",
+      "platform": "Game Boy → native desktop software",
+      "kind": "Reimplementation",
+      "status": "The maintainer calls this a release candidate. The README says the complete campaign flow, original and expanded world policies, native presentation/audio, persistence, and tooling are implemented; remaining release work is a human controller playthrough matrix and external IP review.",
+      "summary": "A native C++20 reimplementation of the original Super Mario Land for desktop software. It validates the user-supplied World revision A ROM (SHA-1 418203621b887caa090215d97e3f509b79affd3e), extracts game content locally, and implements game behavior natively instead of emulating a Game Boy CPU.",
+      "project_url": "https://github.com/native-gb/super-mario-land-modern",
+      "updated": "2026-10-16",
+      "strategy": "Native C++20 reimplementation of Super Mario Land with exact user-ROM validation and native rules, presentation, audio, and persistence.",
+      "programming_language": "C++",
+      "source_available": "Public GPL-3.0 source; requires a user-supplied World Rev A ROM. ROMs and extracted assets are excluded from the repository and builds.",
+      "first_found": "2026-10-16",
+      "subtype": "Game Boy game native desktop reimplementation",
+      "sources": [
+        {
+          "label": "Maintainer README: release-candidate state, supported ROM, build, and distribution boundaries",
+          "url": "https://github.com/native-gb/super-mario-land-modern#readme"
+        },
+        {
+          "label": "GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/native-gb/super-mario-land-modern"
+        },
+        {
+          "label": "Maintainer GPL-3.0 license",
+          "url": "https://github.com/native-gb/super-mario-land-modern/blob/main/LICENSE"
+        }
+      ]
+    }
+  ]
+}

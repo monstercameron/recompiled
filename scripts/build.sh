@@ -136,19 +136,43 @@ fi
 if [[ -f data/research/discovery-2026-10-16/goal-refresh/project-additions-reviewed.json ]]; then
   python3 scripts/catalog.py import data/research/discovery-2026-10-16/goal-refresh/project-additions-reviewed.json
 fi
+if [[ -f data/research/discovery-2026-10-16/goal-refresh/project-additions-round2-reviewed.json ]]; then
+  python3 scripts/catalog.py import data/research/discovery-2026-10-16/goal-refresh/project-additions-round2-reviewed.json
+fi
 if [[ -f data/research/discovery-2026-10-16/goal-refresh/wikipedia-links-reviewed.json ]]; then
   python3 scripts/catalog.py import-wikipedia-links data/research/discovery-2026-10-16/goal-refresh/wikipedia-links-reviewed.json
 fi
 if [[ -f data/research/discovery-2026-10-16/goal-refresh/project-updates-reviewed.json ]]; then
   python3 scripts/catalog.py import-project-updates data/research/discovery-2026-10-16/goal-refresh/project-updates-reviewed.json
 fi
+if [[ -f data/research/discovery-2026-10-16/goal-refresh/project-status-updates-reviewed.json ]]; then
+  python3 scripts/catalog.py import-project-updates data/research/discovery-2026-10-16/goal-refresh/project-status-updates-reviewed.json
+fi
+if [[ -f data/research/discovery-2026-10-16/goal-refresh/project-status-updates-round2.json ]]; then
+  python3 scripts/catalog.py import-project-updates data/research/discovery-2026-10-16/goal-refresh/project-status-updates-round2.json
+fi
+if [[ -f data/research/discovery-2026-10-16/goal-refresh/project-updates-round2-reviewed.json ]]; then
+  python3 scripts/catalog.py import-project-updates data/research/discovery-2026-10-16/goal-refresh/project-updates-round2-reviewed.json
+fi
 if [[ -f data/research/discovery-2026-10-16/goal-refresh/project-language-evidence-round4.json && -f data/research/discovery-2026-10-16/goal-refresh/project-language-evidence-new.json ]]; then
   python3 scripts/catalog.py import-programming-languages \
     data/research/discovery-2026-10-16/goal-refresh/project-language-evidence-round4.json \
     data/research/discovery-2026-10-16/goal-refresh/project-language-evidence-new.json
 fi
+if [[ -f data/research/discovery-2026-10-16/goal-refresh/project-language-evidence-round2.json ]]; then
+  python3 scripts/catalog.py import-programming-languages data/research/discovery-2026-10-16/goal-refresh/project-language-evidence-round2.json
+fi
 if [[ -f data/research/discovery-2026-10-16/goal-refresh/project-media-reviewed.json ]]; then
   python3 scripts/catalog.py import-media data/research/discovery-2026-10-16/goal-refresh/project-media-reviewed.json
+fi
+if [[ -f data/research/discovery-2026-10-16/goal-refresh/project-media-round2.json ]]; then
+  python3 scripts/catalog.py import-media data/research/discovery-2026-10-16/goal-refresh/project-media-round2.json
+fi
+if [[ -f data/research/discovery-2026-10-16/goal-refresh/game-facts-round2.json ]]; then
+  python3 scripts/catalog.py import-game-profiles data/research/discovery-2026-10-16/goal-refresh/game-facts-round2.json
+fi
+if [[ -f data/research/discovery-2026-10-16/goal-refresh/wikipedia-links-round2.json ]]; then
+  python3 scripts/catalog.py import-wikipedia-links data/research/discovery-2026-10-16/goal-refresh/wikipedia-links-round2.json
 fi
 if [[ -f data/research/console-gallery.json ]]; then
   if python3 - <<'PY'
