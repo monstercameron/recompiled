@@ -1,7 +1,7 @@
 use serde::{Deserialize, Serialize};
 use serde_json::Value;
 use std::{
-    cell::RefCell,
+    cell::{Cell, RefCell},
     collections::{BTreeMap, BTreeSet, HashMap, HashSet},
     rc::Rc,
 };
@@ -152,6 +152,8 @@ struct Catalog {
     #[serde(skip)]
     profile_search: HashMap<String, Vec<String>>,
     #[serde(skip)]
+    profile_search_terms: HashMap<String, Vec<String>>,
+    #[serde(skip)]
     target_count: usize,
     #[serde(skip)]
     source_count: usize,
@@ -175,6 +177,18 @@ impl Catalog {
                     .map(|fact| game_fact_value(&fact.value).to_lowercase())
                     .collect();
                 (profile.game_key.clone(), searchable_facts)
+            })
+            .collect();
+        self.profile_search_terms = self
+            .profiles
+            .iter()
+            .map(|profile| {
+                let terms = profile
+                    .facts
+                    .iter()
+                    .flat_map(|fact| search_tokens(&game_fact_value(&fact.value).to_lowercase()))
+                    .collect();
+                (profile.game_key.clone(), terms)
             })
             .collect();
 
@@ -457,13 +471,6 @@ fn randomize_ambient_motion(document: &Document) {
             40.0,
             22.0,
         ),
-        (
-            "--pixel-secondary-duration",
-            "--pixel-secondary-phase",
-            56.0,
-            28.0,
-        ),
-        ("--wave-flow-duration", "--wave-flow-phase", 32.0, 16.0),
     ] {
         let duration = minimum_seconds + js_sys::Math::random() * spread_seconds;
         let phase = js_sys::Math::random() * duration;
@@ -1510,6 +1517,8 @@ fn bind_controls(document: &Document, state: &Rc<RefCell<AppState>>) -> Result<(
 
     let search_state = Rc::clone(state);
     let search_document = document.clone();
+    let input_scheduled = Rc::new(Cell::new(false));
+    let callback_scheduled = Rc::clone(&input_scheduled);
     let input_callback = Closure::<dyn FnMut(Event)>::new(move |event: Event| {
         let Some(input) = event
             .target()
@@ -1522,7 +1531,30 @@ fn bind_controls(document: &Document, state: &Rc<RefCell<AppState>>) -> Result<(
         }
         search_state.borrow_mut().query = input.value();
         search_state.borrow_mut().page = 1;
-        render(&search_document, &search_state.borrow());
+        if input_scheduled.replace(true) {
+            return;
+        }
+        let scheduled = Rc::clone(&callback_scheduled);
+        let document = search_document.clone();
+        let state = Rc::clone(&search_state);
+        let callback = Closure::once_into_js(move || {
+            scheduled.set(false);
+            render(&document, &state.borrow());
+        });
+        let Ok(callback) = callback.dyn_into::<js_sys::Function>() else {
+            input_scheduled.set(false);
+            render(&search_document, &search_state.borrow());
+            return;
+        };
+        let Some(window) = web_sys::window() else {
+            input_scheduled.set(false);
+            let _ = callback.call0(&JsValue::NULL);
+            return;
+        };
+        if window.request_animation_frame(&callback).is_err() {
+            input_scheduled.set(false);
+            let _ = callback.call0(&JsValue::NULL);
+        }
     });
     catalog.add_event_listener_with_callback("input", input_callback.as_ref().unchecked_ref())?;
     input_callback.forget();
@@ -1679,11 +1711,39 @@ fn search_tokens(text: &str) -> Vec<String> {
         .collect()
 }
 
+#[cfg(test)]
 fn search_matches(
     project_text: &str,
     project_terms: &[String],
     profile_fields: Option<&[String]>,
     query: &str,
+    mode: &str,
+) -> bool {
+    let query_terms = search_tokens(query);
+    let profile_terms = profile_fields.map(|fields| {
+        fields
+            .iter()
+            .flat_map(|field| search_tokens(field))
+            .collect::<Vec<_>>()
+    });
+    search_matches_prepared(
+        project_text,
+        project_terms,
+        profile_fields,
+        profile_terms.as_deref(),
+        query,
+        &query_terms,
+        mode,
+    )
+}
+
+fn search_matches_prepared(
+    project_text: &str,
+    project_terms: &[String],
+    profile_fields: Option<&[String]>,
+    profile_terms: Option<&[String]>,
+    query: &str,
+    query_terms: &[String],
     mode: &str,
 ) -> bool {
     if mode == "verbatim" {
@@ -1692,20 +1752,15 @@ fn search_matches(
                 .is_some_and(|fields| fields.iter().any(|field| field.contains(query)));
     }
 
-    let query_terms = search_tokens(query);
     !query_terms.is_empty()
         && query_terms.iter().all(|query_term| {
             project_terms
                 .iter()
                 .any(|candidate| fuzzy_word_matches(query_term, candidate))
-                || profile_fields.is_some_and(|fields| {
-                    fields.iter().any(|field| {
-                        field
-                            .split(|character: char| !character.is_alphanumeric())
-                            .any(|candidate| {
-                                !candidate.is_empty() && fuzzy_word_matches(query_term, candidate)
-                            })
-                    })
+                || profile_terms.is_some_and(|terms| {
+                    terms
+                        .iter()
+                        .any(|candidate| fuzzy_word_matches(query_term, candidate))
                 })
         })
 }
@@ -1812,34 +1867,22 @@ fn render(document: &Document, state: &AppState) {
         return;
     };
     let needle = state.query.trim().to_lowercase();
+    let query_terms = search_tokens(&needle);
     let mut projects: Vec<&Project> = catalog
         .projects
         .iter()
         .filter(|project| {
-            let game_profile = catalog.profile_for(&project.game);
-            let profile_fields = catalog
-                .profile_search
-                .get(project.game.as_str())
-                .map(Vec::as_slice);
-            (state.kinds.is_empty() || state.kinds.contains(&project.kind))
-                && (state.platform.is_empty() || project.platform == state.platform)
-                && (state.strategy.is_empty() || project.strategy == state.strategy)
-                && (state.status.is_empty() || status_bucket(&project.status) == state.status)
-                && (state.source_available.is_empty()
+            if !(state.kinds.is_empty() || state.kinds.contains(&project.kind))
+                || !(state.platform.is_empty() || project.platform == state.platform)
+                || !(state.strategy.is_empty() || project.strategy == state.strategy)
+                || !(state.status.is_empty() || status_bucket(&project.status) == state.status)
+                || !(state.source_available.is_empty()
                     || project.source_available == state.source_available)
-                && (state.target_type.is_empty() || project.target_type == state.target_type)
-                && (state.language.is_empty() || project.language == state.language)
-                && (state.programming_language.is_empty()
+                || !(state.target_type.is_empty() || project.target_type == state.target_type)
+                || !(state.language.is_empty() || project.language == state.language)
+                || !(state.programming_language.is_empty()
                     || project.programming_language == state.programming_language)
-                && (state.genre.is_empty()
-                    || profile_has_value(game_profile, "genre", &state.genre))
-                && (state.original_platform.is_empty()
-                    || profile_has_value(
-                        game_profile,
-                        "original_platform",
-                        &state.original_platform,
-                    ))
-                && (state.media_kind.is_empty()
+                || !(state.media_kind.is_empty()
                     || if state.media_kind == "none" {
                         project.media.is_empty()
                     } else {
@@ -1848,24 +1891,54 @@ fn render(document: &Document, state: &AppState) {
                             .iter()
                             .any(|item| item.kind == state.media_kind)
                     })
-                && (state.first_found_since.is_empty()
+                || !(state.first_found_since.is_empty()
                     || project
                         .first_found
                         .as_deref()
                         .is_some_and(|value| value >= state.first_found_since.as_str()))
-                && (state.project_started_by.is_empty()
+                || !(state.project_started_by.is_empty()
                     || project
                         .project_started
                         .as_deref()
                         .is_some_and(|value| value <= state.project_started_by.as_str()))
-                && (needle.is_empty()
-                    || search_matches(
-                        &project.search_text,
-                        &project.search_terms,
-                        profile_fields,
-                        &needle,
-                        &state.search_mode,
+            {
+                return false;
+            }
+
+            let game_profile = if state.genre.is_empty() && state.original_platform.is_empty() {
+                None
+            } else {
+                catalog.profile_for(&project.game)
+            };
+            if (!state.genre.is_empty() && !profile_has_value(game_profile, "genre", &state.genre))
+                || (!state.original_platform.is_empty()
+                    && !profile_has_value(
+                        game_profile,
+                        "original_platform",
+                        &state.original_platform,
                     ))
+            {
+                return false;
+            }
+
+            if needle.is_empty() {
+                return true;
+            }
+            search_matches_prepared(
+                &project.search_text,
+                &project.search_terms,
+                catalog
+                    .profile_search
+                    .get(project.game.as_str())
+                    .map(Vec::as_slice),
+                catalog
+                    .profile_search_terms
+                    .get(project.game.as_str())
+                    .map(Vec::as_slice),
+                &needle,
+                &query_terms,
+                &state.search_mode,
+            )
         })
         .collect();
 
@@ -1961,15 +2034,7 @@ fn render(document: &Document, state: &AppState) {
     };
     set_html(document, "projects", &html);
     write_url(state, page);
-    apply_language(document, &state.locale);
     set_text(document, "page-info", &page_info);
-    apply_theme(
-        document,
-        &document
-            .document_element()
-            .and_then(|root| root.get_attribute("data-theme"))
-            .unwrap_or_else(|| "light".into()),
-    );
 }
 
 fn project_markup(project: &Project, profiles: &[GameProfile], locale: &str) -> String {
@@ -3198,6 +3263,7 @@ mod catalog_tests {
         assert_eq!(catalog.target_count, expected_targets);
         assert_eq!(catalog.source_count, expected_sources);
         assert_eq!(catalog.profile_indices.len(), catalog.profiles.len());
+        assert_eq!(catalog.profile_search_terms.len(), catalog.profiles.len());
         assert!(catalog.projects.iter().all(|project| {
             !project.search_text.is_empty()
                 && project.search_text.contains(&project.game.to_lowercase())

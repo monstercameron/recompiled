@@ -1,5 +1,7 @@
 # Recompiled
 
+[![GitHub Pages](https://github.com/monstercameron/recompiled/actions/workflows/pages.yml/badge.svg?branch=main)](https://github.com/monstercameron/recompiled/actions/workflows/pages.yml) [Open the live catalog](https://monstercameron.github.io/recompiled/)
+
 Recompiled is a source-linked field guide to taking ownership of software: recovering code, statically recompiling binaries, rebuilding applications, translating APIs across platforms, and preserving community changes. Games are one part of the index; desktop applications and other software targets belong here too. Entries explain how projects work, where their source lives, which platforms they support, and how mature they are.
 
 The catalog is maintained in SQLite at `data/catalog.sqlite`. Reviewed research records live in `data/research/`; `scripts/catalog.py` exports the browser-ready `docs/catalog.json`. The interface, filters, detail views, and localization are written in Rust and compiled to WebAssembly. GitHub Pages publishes the static site from `docs/`.
@@ -40,7 +42,7 @@ The short version is to verify claims on a project's own repository, release pag
 
 ## GitHub Pages
 
-The Pages workflow builds the Rust/WebAssembly application and deploys the contents of `docs/` when changes land on `main`. In repository settings, choose **GitHub Actions** as the Pages build and deployment source.
+GitHub Actions builds the Rust/WebAssembly application, validates the catalog tooling, runs the Rust tests, and deploys `docs/` to [the live catalog](https://monstercameron.github.io/recompiled/) on every push to `main`. You can also start a deployment from the [Actions tab](https://github.com/monstercameron/recompiled/actions/workflows/pages.yml) with **Run workflow**.
 
 ## License
 
