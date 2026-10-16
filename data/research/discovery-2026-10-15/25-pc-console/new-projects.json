@@ -1,0 +1,411 @@
+{
+  "updated": "2026-10-15",
+  "scope": "Primary-source-verified PC or desktop game source ports and reimplementations targeting consoles, plus console-target builds not represented in the live catalog. These are candidate imports only; SQLite and generated docs were not changed.",
+  "projects": [
+    {
+      "id": "openmw-psvita-port",
+      "title": "OpenMW PlayStation Vita Port",
+      "game": "The Elder Scrolls III: Morrowind",
+      "target_type": "Game",
+      "platform": "Windows PC game data / OpenMW engine → PlayStation Vita",
+      "kind": "Reimplementation",
+      "status": "The repository documents an installable Vita VPK, touch/controller mappings, mod and save paths, and VitaSDK build commands. Morrowind data files must be supplied by the player. The README does not claim a complete-game hardware test.",
+      "summary": "Community Vita port of OpenMW, the open-source Morrowind engine reimplementation. It adapts rendering, controls, memory management, and settings to the Vita and supports saves shared with desktop OpenMW.",
+      "project_url": "https://github.com/Producdevity/openmw-psvita",
+      "updated": "2026-10-15",
+      "strategy": "Port the OpenMW C++ engine to VitaSDK with Vita-specific rendering, controls, and memory optimizations",
+      "source_available": "Public source repository; the player must provide legally obtained Morrowind game data",
+      "first_found": "2026-10-15",
+      "programming_language": "C++",
+      "subtype": "PlayStation Vita homebrew engine port",
+      "sources": [
+        {
+          "label": "Maintainer README: Vita installation, controls, data requirements, saves, and build instructions",
+          "url": "https://github.com/Producdevity/openmw-psvita"
+        },
+        {
+          "label": "Upstream OpenMW engine source and project",
+          "url": "https://gitlab.com/OpenMW/openmw"
+        }
+      ]
+    },
+    {
+      "id": "vitaquake",
+      "title": "vitaQuake",
+      "game": "Quake",
+      "target_type": "Game",
+      "platform": "Quake WinQuake source and game data → PlayStation Vita",
+      "kind": "Reimplementation",
+      "status": "The maintainer describes vitaQuake as a Quake engine source port for PS Vita. The README documents support for Quake's official mission packs and lists mod compatibility per title; it does not claim full campaign completion. Game data is supplied separately.",
+      "summary": "Native PlayStation Vita adaptation of the WinQuake codebase, with Vita-specific controls, audio tracks, expansion and mod support.",
+      "project_url": "https://github.com/Rinnegatamante/vitaQuake",
+      "updated": "2026-10-15",
+      "strategy": "Port WinQuake source to the Vita SDK and adapt rendering, input, and audio to Vita hardware",
+      "source_available": "Public source repository; original Quake or shareware data is required separately",
+      "first_found": "2026-10-15",
+      "programming_language": "C",
+      "subtype": "PlayStation Vita source port",
+      "sources": [
+        {
+          "label": "Maintainer README: source-port scope, expansion support, and per-mod compatibility notes",
+          "url": "https://github.com/Rinnegatamante/vitaQuake"
+        },
+        {
+          "label": "Maintainer release page",
+          "url": "https://github.com/Rinnegatamante/vitaQuake/releases"
+        }
+      ]
+    },
+    {
+      "id": "ioquake3-wii-u",
+      "title": "ioQuake3-U",
+      "game": "Quake III Arena and compatible id Tech 3 games",
+      "target_type": "Game",
+      "platform": "Windows/Linux id Tech 3 source and game data → Nintendo Wii U",
+      "kind": "Reimplementation",
+      "status": "The maintainer reports that it boots, loads maps, and plays with bots using native GX2 rendering. The Wii U build tree produces separate Quake III Arena, Team Arena, OpenArena, Quake3Classic, and Elite Force flavors. Original game data is required; no full-campaign result is claimed.",
+      "summary": "Native Wii U port of ioQuake3 with a GX2 graphics backend, Wii U controller support, and five id Tech 3-compatible build flavors.",
+      "project_url": "https://github.com/Mayo1970/ioQuake3-U",
+      "updated": "2026-10-15",
+      "strategy": "Port ioQuake3 to Wii U using devkitPPC/wut and a native GX2 renderer, retaining the shared engine/game code",
+      "source_available": "Public source repository; user-supplied data for a compatible id Tech 3 game is required",
+      "first_found": "2026-10-15",
+      "programming_language": "C",
+      "subtype": "Wii U native homebrew; multi-title engine port",
+      "sources": [
+        {
+          "label": "Maintainer README: tested status, target flavors, controller support, and build commands",
+          "url": "https://github.com/Mayo1970/ioQuake3-U"
+        },
+        {
+          "label": "Wii U port installation and game-data requirements",
+          "url": "https://github.com/Mayo1970/ioQuake3-U/blob/master/INSTALLATION.md"
+        }
+      ]
+    },
+    {
+      "id": "sdlpop-vita-enhanced",
+      "title": "SDLPoP Vita Enhanced",
+      "game": "Prince of Persia (1989 DOS version)",
+      "target_type": "Game",
+      "platform": "DOS PC disassembly → SDLPoP reimplementation → PlayStation Vita",
+      "kind": "Reimplementation",
+      "status": "The repository documents a Vita VPK build and VitaSDK installation. Original game data must be supplied separately; music is disabled by default on Vita. The README does not state a complete-game test result.",
+      "summary": "Enhanced PS Vita port of SDLPoP, an open-source Prince of Persia implementation based on the DOS game disassembly. Vita-specific configuration covers the game dataset, palette, and controls.",
+      "project_url": "https://github.com/theheroGAC/SDLPoP-Vita-Enhanced",
+      "updated": "2026-10-15",
+      "strategy": "Port SDLPoP's C implementation to VitaSDK and add Vita display, input, and dataset options",
+      "source_available": "Public source repository and Vita build instructions; original Prince of Persia data files are not included",
+      "first_found": "2026-10-15",
+      "programming_language": "C",
+      "subtype": "PlayStation Vita homebrew port",
+      "sources": [
+        {
+          "label": "Maintainer README: DOS disassembly lineage, Vita installation, data requirements, and build commands",
+          "url": "https://github.com/theheroGAC/SDLPoP-Vita-Enhanced"
+        },
+        {
+          "label": "Upstream SDLPoP source project",
+          "url": "https://github.com/NagyD/SDLPoP"
+        }
+      ]
+    },
+    {
+      "id": "sdlpop-dreamcast-port",
+      "title": "SDLPoP Dreamcast Port",
+      "game": "Prince of Persia (1989 DOS version)",
+      "target_type": "Game",
+      "platform": "DOS PC disassembly → SDLPoP reimplementation → Sega Dreamcast",
+      "kind": "Reimplementation",
+      "status": "The repository contains a Dreamcast/KallistiOS build recipe and SDL2 Dreamcast setup steps. It identifies itself as an open-source port based on the DOS disassembly; the README does not give a real-hardware test or full-game result.",
+      "summary": "Sega Dreamcast port of SDLPoP, the Prince of Persia implementation based on the original DOS disassembly, with Dreamcast build support and additional project-specific features.",
+      "project_url": "https://github.com/Memorix101/SDLPoP-Dreamcast",
+      "updated": "2026-10-15",
+      "strategy": "Adapt the SDLPoP source to SDL2 and KallistiOS for a native Dreamcast build",
+      "source_available": "Public source repository with Dreamcast build instructions; the DOS-origin game data is not identified as included",
+      "first_found": "2026-10-15",
+      "programming_language": "C",
+      "subtype": "Sega Dreamcast source port",
+      "sources": [
+        {
+          "label": "Maintainer README: Dreamcast target, KallistiOS build recipe, and disassembly lineage",
+          "url": "https://github.com/Memorix101/SDLPoP-Dreamcast"
+        },
+        {
+          "label": "Upstream SDLPoP source project",
+          "url": "https://github.com/NagyD/SDLPoP"
+        }
+      ]
+    },
+    {
+      "id": "celeste-classic-dreamcast-port",
+      "title": "Celeste Classic Dreamcast Port (ccleste-dreamcast)",
+      "game": "Celeste Classic",
+      "target_type": "Game",
+      "platform": "PICO-8 game → portable C source port → Sega Dreamcast",
+      "kind": "Reimplementation",
+      "status": "The public repository contains Dreamcast-specific SDL/build files and instructions for producing a CDI with KallistiOS. The README notes occasional sound crackling; it does not claim full-game hardware validation.",
+      "summary": "Sega Dreamcast target for ccleste, a portable C source port of the PICO-8 Celeste Classic game. The port uses KallistiOS and SDL-based Dreamcast components.",
+      "project_url": "https://github.com/Memorix101/ccleste-dreamcast",
+      "updated": "2026-10-15",
+      "strategy": "Adapt the portable ccleste C game code and SDL audio/video/input layers to KallistiOS, then package a Dreamcast disc image",
+      "source_available": "Public source repository; README identifies the original PICO-8 game but does not establish whether all original game data is included",
+      "first_found": "2026-10-15",
+      "programming_language": "C and C++",
+      "subtype": "Sega Dreamcast source port",
+      "sources": [
+        {
+          "label": "Maintainer README: Dreamcast port, controls, sound caveats, and build steps",
+          "url": "https://github.com/Memorix101/ccleste-dreamcast"
+        },
+        {
+          "label": "Shared portable C source-port lineage",
+          "url": "https://github.com/ngagesdk/ccleste"
+        }
+      ]
+    },
+    {
+      "id": "celeste-classic-original-xbox-port",
+      "title": "Celeste Classic Original Xbox Port (ccleste-xbox)",
+      "game": "Celeste Classic",
+      "target_type": "Game",
+      "platform": "PICO-8 game → portable C source port → Original Xbox",
+      "kind": "Reimplementation",
+      "status": "The repository includes an NXDK Makefile and build command for Original Xbox. It also documents desktop, 3DS, N-Gage, and PSP builds from the shared codebase; the author cautions that this is a first Xbox port and may have problems.",
+      "summary": "Original Xbox adaptation of ccleste, a portable C source port of the PICO-8 Celeste Classic game, built with the NXDK homebrew toolchain.",
+      "project_url": "https://github.com/danielgpinheiro/ccleste-xbox",
+      "updated": "2026-10-15",
+      "strategy": "Adapt the portable ccleste C implementation to the Original Xbox using NXDK and SDL",
+      "source_available": "Public source repository; source for the underlying portable C port is also linked by the maintainer",
+      "first_found": "2026-10-15",
+      "programming_language": "C and C++",
+      "subtype": "Original Xbox homebrew port",
+      "sources": [
+        {
+          "label": "Maintainer README: Original Xbox target, build steps, and limitations",
+          "url": "https://github.com/danielgpinheiro/ccleste-xbox"
+        },
+        {
+          "label": "Shared portable C source-port lineage and documented platforms",
+          "url": "https://github.com/ngagesdk/ccleste"
+        }
+      ]
+    },
+    {
+      "id": "openxcom-3ds-port",
+      "title": "OpenXCOM-3DS",
+      "game": "X-COM: UFO Defense and X-COM: Terror from the Deep",
+      "target_type": "Game",
+      "platform": "DOS PC game data / OpenXcom Extended → New Nintendo 3DS family",
+      "kind": "Reimplementation",
+      "status": "The maintainer documents `.3dsx` and `.cia` build/install formats and a software-rendering path for New 3DS, New 3DS XL, and New 2DS XL. Original 3DS/2DS are explicitly unsupported; game data is not included. No campaign-completion claim is made.",
+      "summary": "Native New Nintendo 3DS port of OpenXcom Extended 8.6.1, the community engine recreation for the original X-COM games. The port adds 3DS touchscreen controls and optimized software rendering.",
+      "project_url": "https://github.com/TheRumble/OpenXCOM-3DS",
+      "updated": "2026-10-15",
+      "strategy": "Port OpenXcom Extended to devkitARM/libctru with a 3DS-optimized software renderer and dual-screen controls",
+      "source_available": "Public GPL-3.0 source repository and build guide; the user must supply original X-COM data files",
+      "first_found": "2026-10-15",
+      "programming_language": "C++",
+      "subtype": "New Nintendo 3DS native port",
+      "sources": [
+        {
+          "label": "Maintainer README: supported X-COM titles, supported 3DS models, formats, and data requirements",
+          "url": "https://github.com/TheRumble/OpenXCOM-3DS"
+        },
+        {
+          "label": "Maintainer source-build instructions for 3DSX and CIA outputs",
+          "url": "https://github.com/TheRumble/OpenXCOM-3DS#building-from-source"
+        },
+        {
+          "label": "OpenXcom upstream game-engine recreation",
+          "url": "https://github.com/OpenXcom/OpenXcom"
+        }
+      ]
+    },
+    {
+      "id": "ballistica-3ds-port",
+      "title": "Ballistica 3DS Port",
+      "game": "Ballistica (1994 DOS game)",
+      "target_type": "Game",
+      "platform": "IBM PC / DOS codebase → Nintendo 3DS",
+      "kind": "Reimplementation",
+      "status": "The maintainer publishes a `.3dsx` release and source build instructions. The 3DS version uses both screens and controls and includes a level editor; no real-hardware test or full-game claim is specified in the README.",
+      "summary": "Nintendo 3DS port of the 1994 PC/DOS Ballistica game, with touch-screen paddle control and an in-game level editor.",
+      "project_url": "https://github.com/steddyman/Ballistica",
+      "updated": "2026-10-15",
+      "strategy": "Port the original DOS game codebase to devkitARM/libctru and adapt display and input to dual screens and touchscreen",
+      "source_available": "Public source repository with release and build instructions",
+      "first_found": "2026-10-15",
+      "programming_language": "C",
+      "subtype": "Nintendo 3DS homebrew port",
+      "sources": [
+        {
+          "label": "Maintainer README: original DOS lineage, 3DS features, release build, and controls",
+          "url": "https://github.com/steddyman/Ballistica"
+        },
+        {
+          "label": "Maintainer source-build instructions for 3DS output",
+          "url": "https://github.com/steddyman/Ballistica#building"
+        }
+      ]
+    },
+    {
+      "id": "opentyrian-original-xbox-port",
+      "title": "OpenTyrian Original Xbox Port",
+      "game": "Tyrian",
+      "target_type": "Game",
+      "platform": "DOS PC → Original Xbox",
+      "kind": "Reimplementation",
+      "status": "The public Xbox fork documents an NXDK `Makefile.nxdk` build and use of Tyrian 2.1 data, which the README identifies as freeware. It gives a build path but no explicit hardware or campaign-completion result.",
+      "summary": "Original Xbox adaptation of OpenTyrian, the open-source port of the DOS vertical-scrolling shooter Tyrian.",
+      "project_url": "https://github.com/Ryzee119/opentyrianX",
+      "updated": "2026-10-15",
+      "strategy": "Port the OpenTyrian C codebase to the Original Xbox using NXDK",
+      "source_available": "Public GPL-2.0 source repository; the required Tyrian 2.1 freeware data archive is separate",
+      "first_found": "2026-10-15",
+      "programming_language": "C",
+      "subtype": "Original Xbox homebrew port",
+      "sources": [
+        {
+          "label": "Maintainer README: Xbox target, NXDK build command, and freeware data requirement",
+          "url": "https://github.com/Ryzee119/opentyrianX"
+        },
+        {
+          "label": "Upstream OpenTyrian source project",
+          "url": "https://github.com/opentyrian/opentyrian"
+        }
+      ]
+    },
+    {
+      "id": "openlara-console-ports",
+      "title": "OpenLara Console Ports",
+      "game": "Tomb Raider (1996)",
+      "target_type": "Game",
+      "platform": "Classic Tomb Raider data / OpenLara engine → Nintendo 3DS, PlayStation Vita, PSP, Nintendo Switch, Original Xbox, Xbox One, and other listed platforms",
+      "kind": "Reimplementation",
+      "status": "The upstream repository contains console-specific code and release entries for 3DS, Vita, PSP, Switch, Original Xbox, and Xbox One. The latest release notes list these console target builds as last updated between 2020 and 2021; the Switch entry is marked pre-release and PSP alpha. Those dates describe target artifacts, not current hardware testing.",
+      "summary": "Open-source cross-platform engine reimplementation for classic Tomb Raider, with native console builds and target-specific code for several handheld and home consoles.",
+      "project_url": "https://github.com/XProger/OpenLara",
+      "updated": "2026-10-15",
+      "strategy": "Reimplement the classic Tomb Raider engine in portable C++ and provide platform-specific rendering, input, and packaging backends",
+      "source_available": "Public BSD-2-Clause source repository; release page lists console-specific builds and their dates",
+      "first_found": "2026-10-15",
+      "programming_language": "C++",
+      "subtype": "Multi-platform engine reimplementation",
+      "sources": [
+        {
+          "label": "Maintainer repository and BSD-2-Clause source license",
+          "url": "https://github.com/XProger/OpenLara"
+        },
+        {
+          "label": "Maintainer releases: console builds, artifact types, and target-specific update dates",
+          "url": "https://github.com/XProger/OpenLara/releases"
+        },
+        {
+          "label": "Source platform switches for 3DS, Vita, PSP, Switch, and Xbox targets",
+          "url": "https://github.com/XProger/OpenLara/blob/master/src/core.h"
+        }
+      ]
+    },
+    {
+      "id": "quake-dreamcast-source-port",
+      "title": "Quake Dreamcast Source Port (DCQ1)",
+      "game": "Quake",
+      "target_type": "Game",
+      "platform": "Windows PC / released Quake source → Sega Dreamcast",
+      "kind": "Reimplementation",
+      "status": "The source backup README reports working Quake and GLQuake builds, with color/transparency bugs and no networking. It documents booting from CD-ROM/CD-R or dcload-IP and using shareware or commercial data; it does not make a modern compatibility claim.",
+      "summary": "Historical Sega Dreamcast port of the released Quake source code (DCQ1), with software and OpenGL render paths and support for mods using compatible data.",
+      "project_url": "https://github.com/Shockblast/quake-dreamcast",
+      "updated": "2026-10-15",
+      "strategy": "Adapt released Quake C source to KallistiOS and the Dreamcast SH-4, with software and GL rendering builds",
+      "source_available": "Public source-code backup; Quake shareware or commercial data files are required separately",
+      "first_found": "2026-10-15",
+      "programming_language": "C",
+      "subtype": "Historical Sega Dreamcast source port",
+      "sources": [
+        {
+          "label": "Maintainer source backup README: working render paths, known issues, data requirements, and Dreamcast launch methods",
+          "url": "https://github.com/Shockblast/quake-dreamcast"
+        }
+      ]
+    },
+    {
+      "id": "quake-ii-dreamcast-source-port",
+      "title": "Quake II Dreamcast Source Port (DCQ2)",
+      "game": "Quake II",
+      "target_type": "Game",
+      "platform": "Windows PC / released Quake II source → Sega Dreamcast",
+      "kind": "Reimplementation",
+      "status": "The source backup README reports a working software renderer and map loading, with audio and CD music disabled in the documented configuration and no network support. It documents CD-ROM/CD-R and dcload-IP layouts for shareware or commercial data; no full campaign result is stated.",
+      "summary": "Historical Sega Dreamcast port of the released Quake II source code (DCQ2), with a software renderer, controller support, and VMU save support documented by the maintainer.",
+      "project_url": "https://github.com/Shockblast/quake2-dreamcast",
+      "updated": "2026-10-15",
+      "strategy": "Adapt the released Quake II C code to KallistiOS and Dreamcast hardware; retain a software rendering path to fit the target",
+      "source_available": "Public source-code backup; Quake II shareware or commercial data files are required separately",
+      "first_found": "2026-10-15",
+      "programming_language": "C",
+      "subtype": "Historical Sega Dreamcast source port",
+      "sources": [
+        {
+          "label": "Maintainer source backup README: status, renderer, known limits, and data requirements",
+          "url": "https://github.com/Shockblast/quake2-dreamcast"
+        }
+      ]
+    },
+    {
+      "id": "skifree-dreamcast-port",
+      "title": "SkiFree Dreamcast Port",
+      "game": "SkiFree",
+      "target_type": "Game",
+      "platform": "Windows PC game → cross-platform SDL port → Sega Dreamcast",
+      "kind": "Reimplementation",
+      "status": "The Dreamcast README says controller-only input is implemented and performance is usable but could improve. It documents `make -f Makefile.dc` and `pack_emu`; original game resources are required to build. It does not report a real-hardware or end-to-end game test.",
+      "summary": "Dreamcast target for the SDL SkiFree source port, adapting the classic Microsoft Entertainment Pack game for KallistiOS and Dreamcast controllers.",
+      "project_url": "https://github.com/gameblabla/skifree_sdl12",
+      "updated": "2026-10-15",
+      "strategy": "Port the SDL SkiFree implementation to KallistiOS with a Dreamcast-specific Makefile and controller input",
+      "source_available": "Public source repository; the maintainer requires the original SkiFree resources for building",
+      "first_found": "2026-10-15",
+      "programming_language": "C",
+      "subtype": "Sega Dreamcast source port",
+      "sources": [
+        {
+          "label": "Maintainer README: Dreamcast target, performance caveat, and build instructions",
+          "url": "https://github.com/gameblabla/skifree_sdl12"
+        },
+        {
+          "label": "SDL SkiFree base project and original-resource requirements",
+          "url": "https://github.com/jeff-1amstudios/skifree_sdl"
+        }
+      ]
+    },
+    {
+      "id": "trogdor-reburninated",
+      "title": "Trogdor: Reburninated",
+      "game": "Trogdor (Homestar Runner Flash game)",
+      "target_type": "Game",
+      "platform": "Adobe Flash / ActionScript game → manually rewritten C++ recreation for PC, Android, Nintendo Switch, Wii U, Wii, GameCube, 3DS, PlayStation Vita, PSP, PortMaster, and FunKey",
+      "kind": "Reimplementation",
+      "status": "The maintainer reports playable builds for PC, Android, and the listed homebrew platforms. The README describes a manual ActionScript-to-C++ recreation from Flash-decompiled code and ported assets, but does not give platform-by-platform version or hardware test details.",
+      "summary": "Enhanced, open-source recreation of the Homestar Runner Flash game Trogdor. It ports the original ActionScript logic and assets into C++ and adds configurable difficulty, saves, level selection, and other features.",
+      "project_url": "https://github.com/Mode8fx/Trogdor-Reburninated",
+      "updated": "2026-10-15",
+      "strategy": "Manually rewrite decompiled ActionScript game logic in C++ and adapt the SDL-based recreation to console and handheld homebrew targets",
+      "source_available": "Public MIT-licensed source repository; the README states that original Homestar Runner rights remain with their owners",
+      "first_found": "2026-10-15",
+      "programming_language": "C++",
+      "subtype": "Multi-platform fan recreation with console homebrew builds",
+      "sources": [
+        {
+          "label": "Maintainer README: platform list, feature set, and manual decompilation/rewrite process",
+          "url": "https://github.com/Mode8fx/Trogdor-Reburninated"
+        },
+        {
+          "label": "Maintainer legal notice identifying the original rights holders",
+          "url": "https://github.com/Mode8fx/Trogdor-Reburninated#legal-stuff"
+        }
+      ]
+    }
+  ]
+}

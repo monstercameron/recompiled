@@ -327,6 +327,82 @@
           "evidence": "Nintendo’s official UK page lists the European GameCube release under the title Mario Smash Football."
         }
       ]
+    },
+    {
+      "game_key": "LEGO Racers",
+      "facts": [
+        {
+          "field": "original_platform",
+          "value": [
+            "Windows PC",
+            "Nintendo 64",
+            "Original PlayStation"
+          ],
+          "source_url": "https://www.lego.com/cdn/cs/set/assets/blt8a05e16ed605493b/bits_n_bricks_s02e26_feature_and_transcript.pdf",
+          "evidence": "LEGO’s official Bits N’ Bricks history says LEGO Racers launched for Windows PC, Nintendo 64, and the original PlayStation."
+        },
+        {
+          "field": "regional_release_date",
+          "value": "Second half of 1999",
+          "date_granularity": "half-year",
+          "source_url": "https://www.lego.com/cdn/cs/set/assets/blt8a05e16ed605493b/bits_n_bricks_s02e26_feature_and_transcript.pdf",
+          "evidence": "LEGO’s official history dates the launch of the main Windows/N64/PlayStation game to the second half of 1999."
+        },
+        {
+          "field": "genre",
+          "value": "Kart racing",
+          "source_url": "https://www.lego.com/cdn/cs/set/assets/blt8a05e16ed605493b/bits_n_bricks_s02e26_feature_and_transcript.pdf",
+          "evidence": "LEGO’s official development history describes LEGO Racers as a kart racing game."
+        },
+        {
+          "field": "developer",
+          "value": "High Voltage Software",
+          "source_url": "https://www.lego.com/cdn/cs/set/assets/blt8a05e16ed605493b/bits_n_bricks_s02e26_feature_and_transcript.pdf",
+          "evidence": "LEGO’s official history identifies High Voltage Software as the studio that pitched and developed LEGO Racers."
+        },
+        {
+          "field": "collection_context",
+          "value": "The Game Boy Color game released in 2000 was a significantly different title developed by another studio; it is not the Windows/N64/PlayStation build targeted by these projects.",
+          "source_url": "https://www.lego.com/cdn/cs/set/assets/blt8a05e16ed605493b/bits_n_bricks_s02e26_feature_and_transcript.pdf",
+          "evidence": "LEGO’s official history distinguishes the 2000 Game Boy Color game from the main 1999 releases."
+        }
+      ]
+    },
+    {
+      "game_key": "Dead Rising 2: Case West",
+      "facts": [
+        {
+          "field": "original_platform",
+          "value": "Xbox 360 (Xbox Live Arcade)",
+          "source_url": "https://github.com/wivi514/Dead_Rising_2_Case_West_Xenon_Recomp#readme",
+          "evidence": "The project README identifies Case West as the Xbox 360 exclusive epilogue and documents the Xbox 360 XBLA package used as input."
+        },
+        {
+          "field": "regional_release_date",
+          "value": "2010-12-26",
+          "date_granularity": "day",
+          "source_url": "https://www.xbox.com/en-US/games/store/dead-rising-2-case-west/BNX5M7M25W16/0001",
+          "evidence": "The official Xbox store page lists a release date of 12/26/2010."
+        },
+        {
+          "field": "genre",
+          "value": "Action & adventure",
+          "source_url": "https://www.xbox.com/en-US/games/store/dead-rising-2-case-west/BNX5M7M25W16/0001",
+          "evidence": "The official Xbox store classifies Case West as Action & adventure."
+        },
+        {
+          "field": "developer",
+          "value": "Blue Castle Games Inc.",
+          "source_url": "https://www.xbox.com/en-US/games/store/dead-rising-2-case-west/BNX5M7M25W16/0001",
+          "evidence": "The official Xbox store lists Blue Castle Games Inc. as developer."
+        },
+        {
+          "field": "publisher",
+          "value": "CAPCOM Co., Ltd.",
+          "source_url": "https://www.xbox.com/en-US/games/store/dead-rising-2-case-west/BNX5M7M25W16/0001",
+          "evidence": "The official Xbox store lists CAPCOM Co., Ltd. as publisher."
+        }
+      ]
     }
   ]
 }

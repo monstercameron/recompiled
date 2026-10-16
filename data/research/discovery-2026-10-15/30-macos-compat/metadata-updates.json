@@ -1,0 +1,69 @@
+{
+  "updated": "2026-10-15",
+  "updates": [
+    {
+      "id": "box64",
+      "fields": {
+        "status": "Active; v0.4.4 was released 2026-08-02 and the repository continued to receive changes through 2026-10-15. Box64 translates x86-64 Linux user-space code for non-x86 Linux hosts, especially ARM64, with documented RISC-V and LoongArch support; it does not emulate a full computer.",
+        "updated": "2026-10-15",
+        "strategy": "x86-64 Linux user-mode ISA translation using native host libraries",
+        "subtype": "CPU binary translator (process-level; not full-system emulation)"
+      },
+      "sources": [
+        {
+          "label": "Box64 README: host architectures, user-mode scope, and native-library approach",
+          "url": "https://github.com/ptitSeb/box64"
+        },
+        {
+          "label": "Latest Box64 release v0.4.4",
+          "url": "https://github.com/ptitSeb/box64/releases/tag/v0.4.4"
+        },
+        {
+          "label": "Box64 repository activity",
+          "url": "https://github.com/ptitSeb/box64/commits/main"
+        }
+      ],
+      "evidence_note": "Replaced the prior unverified release status with the current v0.4.4 release and recent source activity. Made its process-level ISA translation scope explicit so Emulator does not imply whole-system emulation."
+    },
+    {
+      "id": "fex-emu",
+      "fields": {
+        "status": "Active; FEX-2610 was released 2026-10-07 and the repository continued to receive changes through 2026-10-13. It translates x86/x86-64 Linux user-mode applications to ARM64 Linux; it is not a Windows API layer or a full-system emulator.",
+        "updated": "2026-10-15",
+        "strategy": "x86/x86-64 Linux user-mode ISA translation to ARM64",
+        "subtype": "CPU binary translator (process-level; not full-system emulation)"
+      },
+      "sources": [
+        {
+          "label": "FEX README: supported guest and host architectures and user-mode scope",
+          "url": "https://github.com/FEX-Emu/FEX"
+        },
+        {
+          "label": "Latest FEX release FEX-2610",
+          "url": "https://github.com/FEX-Emu/FEX/releases/tag/FEX-2610"
+        },
+        {
+          "label": "FEX repository activity",
+          "url": "https://github.com/FEX-Emu/FEX/commits/main"
+        }
+      ],
+      "evidence_note": "Refreshed the release/activity status and separated FEX's ISA translation from Windows API translation and whole-system emulation. Hangover and Ferrum may compose FEX with a separate Windows API layer."
+    },
+    {
+      "id": "rosetta-2",
+      "fields": {
+        "kind": "Emulator",
+        "strategy": "x86-64 to ARM64 process-level dynamic binary translation (ISA translation)",
+        "subtype": "CPU binary translator (process-level; not API translation or whole-system emulation)",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "Apple documentation: Rosetta translates x86_64 instructions for Apple silicon",
+          "url": "https://developer.apple.com/documentation/apple-silicon/about-the-rosetta-translation-environment"
+        }
+      ],
+      "evidence_note": "Corrected the taxonomy: Rosetta translates instruction sets (x86-64 to ARM64), not software APIs. The catalog currently has no separate ISA Translation kind, so Emulator is used in the process-level CPU-translation sense already used for FEX and Box64; subtype explicitly says this is not whole-system emulation."
+    }
+  ]
+}

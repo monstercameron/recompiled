@@ -299,6 +299,53 @@
       "evidence_url": "https://api.github.com/repos/BuffJesus/FableDecomp/languages",
       "evidence": "GitHub's official repository Languages endpoint reports C++ as the largest language total for this repository.",
       "verified_at": "2026-10-15"
+    },
+    {
+      "project_id": "dead-rising-2-case-west-recomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 4234576,
+        "Python": 562848,
+        "Shell": 177820,
+        "CMake": 44781,
+        "C": 17588,
+        "PowerShell": 16366,
+        "Dockerfile": 5226,
+        "HLSL": 4155
+      },
+      "evidence_url": "https://api.github.com/repos/wivi514/Dead_Rising_2_Case_West_Xenon_Recomp/languages",
+      "evidence": "GitHub repository Languages API reports C++ as the largest byte count.",
+      "verified_at": "2026-10-15"
+    },
+    {
+      "project_id": "lego-racers-win32-decomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 5042272,
+        "C": 43839,
+        "CMake": 37396,
+        "Python": 37061,
+        "Shell": 1220,
+        "Dockerfile": 797
+      },
+      "evidence_url": "https://api.github.com/repos/isledecomp/racers/languages",
+      "evidence": "GitHub repository Languages API reports C++ as the largest byte count.",
+      "verified_at": "2026-10-15"
+    },
+    {
+      "project_id": "lego-racers-portable-api-port",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 5377861,
+        "C": 253142,
+        "Python": 70182,
+        "CMake": 16625,
+        "HTML": 7356,
+        "GLSL": 3055
+      },
+      "evidence_url": "https://api.github.com/repos/isledecomp/racers-portable/languages",
+      "evidence": "GitHub repository Languages API reports C++ as the largest byte count.",
+      "verified_at": "2026-10-15"
     }
   ]
 }

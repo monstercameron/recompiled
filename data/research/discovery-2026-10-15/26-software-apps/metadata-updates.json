@@ -1,0 +1,25 @@
+{
+  "updated": "2026-10-15",
+  "updates": [
+    {
+      "id": "microsoft-bob-recomp",
+      "fields": {
+        "platform": "Microsoft Bob 1995 Win16 NE binaries → portable C recompilation hosted by the project's cross-platform runtime; project README targets Windows, macOS, and Linux.",
+        "status": "Bring-up; the maintainer reports that the six Bob and Jet/Access Basic modules lift to link-clean C, Bob's real startup and MFC window creation execute, and Jet opens the original databases. The current blocker is a host longjmp/stack fault before the first rendered frame; no GUI frame or usable application release is claimed.",
+        "summary": "Static recompilation of the original Win16 Bob house application, its engine, blitter, and load-bearing Jet/Access Basic modules into C. The host/runtime reconstructs Win16, Jet, and WinG behavior; the project has reached real application initialization and database opens but has not yet drawn the Bob house. Original binaries, data, and lifted C are user-generated and are not distributed.",
+        "source_available": "Public MIT-licensed tooling, runtime, hand-written code, and analysis metadata. Original Bob binaries/data and generated lifted C are not included and are not covered by the repository MIT license; users must provide their own disc files."
+      },
+      "sources": [
+        {
+          "label": "Microsoft Bob maintainer README: platform, six-module lift, current startup/database milestones, blocker, build requirements, and license boundary",
+          "url": "https://github.com/sp00nznet/bob"
+        },
+        {
+          "label": "Microsoft Bob repository license: MIT applies to repository-owned code, not original binaries or generated lifted C",
+          "url": "https://github.com/sp00nznet/bob/blob/master/LICENSE"
+        }
+      ],
+      "evidence_note": "The existing row already identified Bob as a Win16 recompilation, but its platform and status understated the newly documented cross-platform target and current bring-up. This patch preserves the distinction between successful initialization/database work and a still-unrendered application."
+    }
+  ]
+}

@@ -1,0 +1,369 @@
+{
+  "updated": "2026-10-15",
+  "scope": "Gap-focused emulator discovery beyond the existing 178 emulator records: mainframe, TI-99/4A, Acorn Archimedes/Risc PC, SHARP X68000, RCA COSMAC, and Android-hosted PC-98/DOS systems. Each record is a distinct emulator implementation or maintained emulator application, not a general frontend or compatibility layer.",
+  "projects": [
+    {
+      "id": "hercules-mainframe-emulator",
+      "title": "Hercules System/370, ESA/390, and z/Architecture Emulator",
+      "game": "IBM System/370, ESA/390, and z/Architecture operating systems and applications",
+      "target_type": "Software",
+      "platform": "IBM System/370, ESA/390, and 64-bit z/Architecture mainframes",
+      "kind": "Emulator",
+      "status": "The production-quality 3.xx Spinhawk branch remains maintained; the latest upstream commit checked was 2026-07-16. The separate Hyperion development repository has substantially older source activity, so this entry points to the 3.xx release stream.",
+      "summary": "Hercules is an open-source software implementation of IBM System/370, ESA/390, and 64-bit z/Architecture mainframe systems. It models a mainframe CPU and channel-attached devices so compatible operating systems and software can run on a modern host.",
+      "project_url": "https://github.com/rbowler/spinhawk",
+      "updated": "2026-07-16",
+      "strategy": "Full system emulation of IBM mainframe architectures and emulated I/O devices.",
+      "language": "",
+      "source_available": "Public C source repository; the official project site identifies the Q Public Licence (QPL).",
+      "first_found": "2026-10-15",
+      "project_started": "",
+      "programming_language": "C",
+      "subtype": "Mainframe system emulator",
+      "sources": [
+        {
+          "label": "Production 3.xx source repository and project description",
+          "url": "https://github.com/rbowler/spinhawk"
+        },
+        {
+          "label": "Official Hercules site: architecture, releases, QPL, and source branches",
+          "url": "https://www.hercules-390.eu/"
+        },
+        {
+          "label": "Project README",
+          "url": "https://github.com/rbowler/spinhawk/blob/master/README.COMMADPT"
+        }
+      ]
+    },
+    {
+      "id": "classic99-ti-994a",
+      "title": "Classic99",
+      "game": "TI-99/4A home-computer software",
+      "target_type": "Software",
+      "platform": "Texas Instruments TI-99/4A home computer",
+      "kind": "Emulator",
+      "status": "Maintained; the public repository received an upstream commit on 2026-10-12. The project README describes the package as open source under restrictive terms and includes TI-licensed ROMs; users should review the manual before redistributing it.",
+      "summary": "Windows emulator for the Texas Instruments TI-99/4A home computer. It provides cartridge and disk support, a debugger, and TI ROM images under separately stated license restrictions.",
+      "project_url": "https://github.com/tursilion/classic99",
+      "updated": "2026-10-12",
+      "strategy": "Software emulation of TI-99/4A computer hardware and peripherals.",
+      "language": "",
+      "source_available": "Public source repository; maintainer describes its license as restrictive, and bundled TI firmware has separate terms.",
+      "first_found": "2026-10-15",
+      "project_started": "",
+      "programming_language": "C++ (with C components)",
+      "subtype": "Windows home-computer emulator",
+      "sources": [
+        {
+          "label": "Maintainer README: TI-99/4A emulator and licensing caveat",
+          "url": "https://github.com/tursilion/classic99/blob/main/readme.md"
+        },
+        {
+          "label": "Maintainer manual: usage and license restrictions",
+          "url": "https://github.com/tursilion/classic99/raw/main/dist/Classic99%20Manual.pdf"
+        },
+        {
+          "label": "Maintainer source repository and current activity",
+          "url": "https://github.com/tursilion/classic99"
+        }
+      ]
+    },
+    {
+      "id": "swift-99a-ti-994a",
+      "title": "Swift 99/a",
+      "game": "TI-99/4A home-computer software",
+      "target_type": "Software",
+      "platform": "Texas Instruments TI-99/4A home computer; macOS 12 or later",
+      "kind": "Emulator",
+      "status": "A working macOS emulator according to its maintainer, but still an early project with some documented unimplemented hardware and no tagged GitHub release. The latest source push checked was 2026-05-09.",
+      "summary": "Native TI-99/4A emulator written from scratch for macOS. The README documents TMS9900 CPU, TMS9918A video, PSG audio, optional speech synthesis, disk and cartridge support, and outstanding gaps such as cassette input and some cartridge banking schemes.",
+      "project_url": "https://github.com/swryder/Swift-TI-99",
+      "updated": "2026-05-09",
+      "strategy": "Hardware-level emulation of the TI-99/4A CPU, video, sound, I/O, and memory system.",
+      "language": "",
+      "source_available": "Public source repository under BSD-2-Clause; bundled TI ROM data is separately identified in project documentation.",
+      "first_found": "2026-10-15",
+      "project_started": "",
+      "programming_language": "Swift",
+      "subtype": "Native macOS home-computer emulator",
+      "sources": [
+        {
+          "label": "Maintainer README: supported hardware, macOS requirement, features, and gaps",
+          "url": "https://github.com/swryder/Swift-TI-99/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer license: BSD 2-Clause for project code",
+          "url": "https://github.com/swryder/Swift-TI-99/blob/main/LICENSE"
+        },
+        {
+          "label": "Maintainer source repository and update history",
+          "url": "https://github.com/swryder/Swift-TI-99"
+        }
+      ]
+    },
+    {
+      "id": "rpcemu-extended",
+      "title": "RPCEmu Extended",
+      "game": "RISC OS software and applications",
+      "target_type": "Software",
+      "platform": "Acorn Risc PC and A7000 families, including experimental A7000+ and Phoebe configurations; Windows, macOS, and Linux hosts",
+      "kind": "Emulator",
+      "status": "Active; v2.0.0 was released on 2026-09-07 and the repository shows commits through 2026-10-04. The project documents release builds for Windows, macOS, and Linux, with experimental machine configurations called out separately.",
+      "summary": "GPL-2.0 fork of RPCEmu for Acorn Risc PC and A7000 computers. It emulates multiple ARM processor cards and RISC OS configurations and adds a dynamic recompiler, save/resume, expansion devices, networking, debugger, and package-management tools.",
+      "project_url": "https://github.com/andrewtimmins/rpcemu-extended",
+      "updated": "2026-10-04",
+      "strategy": "Full machine emulation for Acorn Risc PC/A7000 hardware, including ARM CPUs, memory, video, storage, expansion devices, and peripherals.",
+      "language": "",
+      "source_available": "Public GPL-2.0 source repository.",
+      "first_found": "2026-10-15",
+      "project_started": "",
+      "programming_language": "C, C++, and ARM assembly",
+      "subtype": "Desktop workstation emulator",
+      "sources": [
+        {
+          "label": "Maintainer README: machine models, host platforms, features, and project scope",
+          "url": "https://github.com/andrewtimmins/rpcemu-extended/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer release history, including v2.0.0",
+          "url": "https://github.com/andrewtimmins/rpcemu-extended/releases"
+        },
+        {
+          "label": "GPL-2.0 license file",
+          "url": "https://github.com/andrewtimmins/rpcemu-extended/blob/main/COPYING"
+        }
+      ]
+    },
+    {
+      "id": "arculator-archimedes",
+      "title": "Arculator",
+      "game": "Acorn Archimedes computer software and games",
+      "target_type": "Software",
+      "platform": "Acorn Archimedes A3xx, A4xx, A3000, A540, A5000, A30x0, and A4000 configurations",
+      "kind": "Emulator",
+      "status": "Legacy/dormant project: the public source tree describes Arculator 0.99, with no newer release found and the latest repository commit checked dated 2015-01-18. The original author-hosted page describes the Windows build; system ROMs must be supplied separately.",
+      "summary": "C-based emulator for Acorn Archimedes computers using ARM2, ARM250, or ARM3 configurations, with 512 KB to 16 MB RAM, floppy drives, IDE hard disks, and multiple RISC OS/Arthur ROM configurations. Its public source tree does not declare a license.",
+      "project_url": "https://github.com/dboddie/arculator",
+      "updated": "2015-01-18",
+      "strategy": "Software emulation of Archimedes computer hardware and peripherals.",
+      "language": "",
+      "source_available": "Public C source repository; no project license declaration was found in the checked tree.",
+      "first_found": "2026-10-15",
+      "project_started": "",
+      "programming_language": "C",
+      "subtype": "Acorn Archimedes workstation emulator",
+      "sources": [
+        {
+          "label": "Public source README: supported models, memory, peripherals, and ROM requirements",
+          "url": "https://github.com/dboddie/arculator/blob/master/readme.txt"
+        },
+        {
+          "label": "Original project page: Windows freeware description and machine scope",
+          "url": "https://b-em.bbcmicro.com/arculator/index.html"
+        },
+        {
+          "label": "Public source repository and revision history",
+          "url": "https://github.com/dboddie/arculator"
+        }
+      ]
+    },
+    {
+      "id": "px68k-libretro",
+      "title": "PX68K Libretro Core",
+      "game": "SHARP X68000 computer software and games",
+      "target_type": "Software",
+      "platform": "SHARP X68000; Libretro-compatible host systems",
+      "kind": "Emulator",
+      "status": "Community-maintained Libretro fork; the latest repository push checked was 2026-08-22. No tagged release was listed. The README requires users to supply X68000 BIOS files and supported disk-image content.",
+      "summary": "GPL-2.0 Libretro core for emulating SHARP X68000 computers, based on the hissorii px68k project with a C68K CPU-core backport for x64 support. It accepts X68000 disk and hard-disk formats through Libretro frontends.",
+      "project_url": "https://github.com/libretro/px68k-libretro",
+      "updated": "2026-08-22",
+      "strategy": "Full X68000 system emulation exposed through the Libretro core interface.",
+      "language": "",
+      "source_available": "Public GPL-2.0 source repository.",
+      "first_found": "2026-10-15",
+      "project_started": "",
+      "programming_language": "C, C++, and assembly",
+      "subtype": "Libretro computer-emulator core",
+      "sources": [
+        {
+          "label": "Maintainer README: X68000 BIOS setup, supported content formats, and Libretro usage",
+          "url": "https://github.com/libretro/px68k-libretro/blob/master/README.MD"
+        },
+        {
+          "label": "GPL-2.0 license",
+          "url": "https://github.com/libretro/px68k-libretro/blob/master/COPYING"
+        },
+        {
+          "label": "Maintainer source repository and activity",
+          "url": "https://github.com/libretro/px68k-libretro"
+        }
+      ]
+    },
+    {
+      "id": "mpx68k-macos",
+      "title": "MPX68K",
+      "game": "SHARP X68000 computer software and games",
+      "target_type": "Software",
+      "platform": "SHARP X68000 → macOS 12 or later (Intel and Apple Silicon)",
+      "kind": "Emulator",
+      "status": "Active; the repository received an upstream commit on 2026-10-12 and its README documents version 4.2 and builds for Intel and Apple Silicon Macs.",
+      "summary": "Native macOS X68000 emulator with a SwiftUI/SpriteKit front end and px68k-derived C/C++ emulation components. It supports floppy and hard disk images, adjustable CPU clocks, controller input, display rotation, and optional MIDI output; users provide ROMs.",
+      "project_url": "https://github.com/YosAwed/MPX68K",
+      "updated": "2026-10-12",
+      "strategy": "X68000 machine emulation using the px68k core and C68K CPU emulator, integrated with a native macOS application.",
+      "language": "",
+      "source_available": "Public source repository; bundled components retain distinct license and attribution terms documented by the maintainer.",
+      "first_found": "2026-10-15",
+      "project_started": "",
+      "programming_language": "Swift, C++, C, and Objective-C",
+      "subtype": "Native macOS computer emulator",
+      "sources": [
+        {
+          "label": "Maintainer README: target system, supported Mac architectures, and emulation features",
+          "url": "https://github.com/YosAwed/MPX68K/blob/master/README.md"
+        },
+        {
+          "label": "Maintainer component license and provenance summary",
+          "url": "https://github.com/YosAwed/MPX68K/blob/master/LICENSE"
+        },
+        {
+          "label": "Maintainer source repository and current activity",
+          "url": "https://github.com/YosAwed/MPX68K"
+        }
+      ]
+    },
+    {
+      "id": "webx68k",
+      "title": "WebX68k",
+      "game": "SHARP X68000 computer software and games",
+      "target_type": "Software",
+      "platform": "SHARP X68000; modern multi-threaded WebAssembly-capable browsers",
+      "kind": "Emulator",
+      "status": "Active; the public repository received a commit on 2026-09-28. The project provides a live browser build and documents Firefox, Chromium-based browsers, and Safari considerations for its WebAssembly threading and storage features.",
+      "summary": "Browser-based X68000 emulator player powered by a px68k Libretro core compiled to WebAssembly. It provides disk management, persistent browser storage, and a directly usable online machine; its JavaScript/TypeScript interface is part of a wider C/WASM emulator stack.",
+      "project_url": "https://github.com/uraraworks/WebX68k",
+      "updated": "2026-09-28",
+      "strategy": "X68000 hardware emulation through px68k-libretro compiled to WebAssembly, with a browser frontend.",
+      "language": "",
+      "source_available": "Public GPL-2.0 source repository; the px68k-derived core and frontend license terms are documented upstream.",
+      "first_found": "2026-10-15",
+      "project_started": "",
+      "programming_language": "TypeScript, JavaScript, and C",
+      "subtype": "Browser/WebAssembly computer emulator",
+      "sources": [
+        {
+          "label": "Maintainer README: live demo, browser requirements, features, and core provenance",
+          "url": "https://github.com/uraraworks/WebX68k/blob/master/README.md"
+        },
+        {
+          "label": "Live project site",
+          "url": "https://uraraworks.github.io/WebX68k/"
+        },
+        {
+          "label": "GPL-2.0 source repository",
+          "url": "https://github.com/uraraworks/WebX68k"
+        }
+      ]
+    },
+    {
+      "id": "rca-studio2-studio3-emulator",
+      "title": "RCA Studio II and Studio III Emulator",
+      "game": "RCA Studio II/III games and software for COSMAC VIP, FRED, and RCA arcade systems",
+      "target_type": "Software",
+      "platform": "RCA Studio II and Studio III; COSMAC VIP; RCA FRED and related CDP1802 systems",
+      "kind": "Emulator",
+      "status": "Maintained personal preservation project; the repository received source updates through 2026-06-19. The author describes the application as a Processing-language port and extension of Paul Robson’s COSMAC/Studio II emulation code. No SPDX license is declared in the checked repository.",
+      "summary": "Processing application that emulates RCA Studio II/III systems and related CDP1802 machines, including COSMAC VIP/CHIP-8, RCA FRED, and RCA arcade hardware. It models CPU timing and system video/audio, and accepts program/cartridge image files supplied by the user.",
+      "project_url": "https://github.com/ajavamind/rca-studio2",
+      "updated": "2026-06-19",
+      "strategy": "CDP1802 instruction and timing emulation with platform-specific video, audio, memory, and input devices.",
+      "language": "",
+      "source_available": "Public source repository; no project license declaration was found in the checked tree.",
+      "first_found": "2026-10-15",
+      "project_started": "",
+      "programming_language": "Processing (Java)",
+      "subtype": "Early home-console and single-board-computer emulator",
+      "sources": [
+        {
+          "label": "Maintainer README: supported RCA systems, emulation implementation, and file formats",
+          "url": "https://github.com/ajavamind/rca-studio2/blob/master/README.md"
+        },
+        {
+          "label": "Maintainer source repository and activity",
+          "url": "https://github.com/ajavamind/rca-studio2"
+        },
+        {
+          "label": "Maintainer commit history",
+          "url": "https://github.com/ajavamind/rca-studio2/commits/master"
+        }
+      ]
+    },
+    {
+      "id": "kairo98-android",
+      "title": "Kairo98",
+      "game": "NEC PC-9801 / PC-98 games and software",
+      "target_type": "Software",
+      "platform": "NEC PC-9801 / PC-98; Android ARM64 devices running Android 8.0 or later",
+      "kind": "Emulator",
+      "status": "Active; GitHub release v1.1.1 was published on 2026-10-15 (local date), and the repository was updated the same day. The Android app uses a pinned Neko Project 21/W emulator core and users supply any required BIOS, font, and sound ROMs.",
+      "summary": "Android PC-98 emulator app with a game library, per-game controls and settings, save states, on-screen keyboard, and disk-image management. It integrates a pinned Neko Project 21/W core with ymfm sound emulation; the project is GPL-2.0-or-later and is not an official release of those upstream cores.",
+      "project_url": "https://github.com/MrJackSpade/Kairo98",
+      "updated": "2026-10-15",
+      "strategy": "Android application integrating a pinned Neko Project 21/W PC-98 hardware-emulation core and ymfm audio core.",
+      "language": "",
+      "source_available": "Public GPL-2.0-or-later source repository; third-party emulator and audio components retain their own licenses.",
+      "first_found": "2026-10-15",
+      "project_started": "",
+      "programming_language": "Kotlin, C++, and C",
+      "subtype": "Android PC-98 emulator application",
+      "sources": [
+        {
+          "label": "Maintainer README: target system, Android requirements, core provenance, ROM policy, and features",
+          "url": "https://github.com/MrJackSpade/Kairo98/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer release history, including v1.1.1",
+          "url": "https://github.com/MrJackSpade/Kairo98/releases"
+        },
+        {
+          "label": "GPL-2.0-or-later first-party license and source repository",
+          "url": "https://github.com/MrJackSpade/Kairo98/blob/main/LICENSE.md"
+        }
+      ]
+    },
+    {
+      "id": "kairodos-android",
+      "title": "KairoDos",
+      "game": "DOS games and IBM PC-compatible software",
+      "target_type": "Software",
+      "platform": "IBM PC-compatible DOS systems; Android ARM64 devices running Android 8.0 or later",
+      "kind": "Emulator",
+      "status": "Active; GitHub release v1.1.1 was published on 2026-10-15 (local date), and the source repository was updated the same day. It runs DOSBox Staging with ARM64 dynamic recompilation; KairoDos is an independent Android application, not an official DOSBox Staging release.",
+      "summary": "Android app for running DOS games and software, with a library, controller/touch mapping, on-screen keyboard, and per-game configuration. It integrates DOSBox Staging and exposes DOS prompt/setup workflows; users provide their own DOS software.",
+      "project_url": "https://github.com/MrJackSpade/KairoDos",
+      "updated": "2026-10-15",
+      "strategy": "DOSBox Staging PC hardware emulation adapted for Android ARM64, including dynamic recompilation for real/protected-mode CPU profiles.",
+      "language": "",
+      "source_available": "Public GPL-2.0-or-later first-party source; the bundled combination is distributed under GPLv3 terms due to third-party components.",
+      "first_found": "2026-10-15",
+      "project_started": "",
+      "programming_language": "Kotlin, C++, and C",
+      "subtype": "Android DOS emulator application",
+      "sources": [
+        {
+          "label": "Maintainer README: DOSBox Staging core, Android requirements, input, and ARM64 dynamic recompilation",
+          "url": "https://github.com/MrJackSpade/KairoDos/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer release history, including v1.1.1",
+          "url": "https://github.com/MrJackSpade/KairoDos/releases"
+        },
+        {
+          "label": "Maintainer licensing and source-provenance documentation",
+          "url": "https://github.com/MrJackSpade/KairoDos/blob/main/COPYING"
+        }
+      ]
+    }
+  ]
+}

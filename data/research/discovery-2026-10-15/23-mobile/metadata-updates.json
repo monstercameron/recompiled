@@ -1,0 +1,62 @@
+{
+  "updated": "2026-10-15",
+  "scope": "Source-backed Android platform, release, and implementation refinements for existing PC/console-to-mobile catalog entries.",
+  "updates": [
+    {
+      "id": "pikmin-open-nectar-android",
+      "fields": {
+        "updated": "2026-10-15",
+        "platform": "Nintendo GameCube → Android arm64-v8a (Android 10+, OpenGL ES 3.0), Windows/Linux x86-64; macOS is also listed by the README",
+        "status": "The maintainer reports that most of the game is playable from start to finish, with minor graphical differences still in development. Android 10+, a 64-bit ARM device, and OpenGL ES 3.0 are listed; the v0.9.2 release (2026-10-01) includes an APK. The README does not publish a named Android device test matrix.",
+        "summary": "Native port based on the Pikmin GameCube decompilation; the README says the game code runs on the host and the GX graphics path is translated to OpenGL rather than run through Dolphin. Android adds touch controls and imports a user-supplied USA revision 1 or European disc image; the project does not distribute game data.",
+        "strategy": "Native desktop/Android port built on the matching Pikmin decompilation, with GX-to-OpenGL rendering and Android ARM64 support.",
+        "source_available": "Public source and desktop/Android release packages, including APK v0.9.2; user must provide a supported Pikmin disc image; game data is not included."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: port method, feature status, Android requirements, and disc formats",
+          "url": "https://github.com/SSunnKing/Open-Nectar---Pikmin-Native-PC-Mobile-Port"
+        },
+        {
+          "label": "Latest published release found: v0.9.2 packages including Android APK",
+          "url": "https://github.com/SSunnKing/Open-Nectar---Pikmin-Native-PC-Mobile-Port/releases/tag/0.9.2"
+        },
+        {
+          "label": "GitHub repository language breakdown",
+          "url": "https://api.github.com/repos/SSunnKing/Open-Nectar---Pikmin-Native-PC-Mobile-Port/languages"
+        }
+      ],
+      "evidence_note": "The README identifies the project as a native port based on projectPiki's decompilation, documents Android 10+/arm64-v8a/OpenGL ES 3.0 and supported disc revisions, and reports most of the game playable. GitHub's latest release listing contains v0.9.2 and an Android APK. No named Android device test is stated in the README."
+    },
+    {
+      "id": "nfs-underground-2-recomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "platform": "Windows PC x86-32 (SPEED2.EXE) → Android arm64-v8a or armeabi-v7a",
+        "status": "Android release v0.14.5 (2026-10-15) provides ARM64 and ARMv7 APKs and requires Android 10+ plus Vulkan 1.1+. The maintainer labels Android race gameplay playable and reports 35–51+ presentation FPS at 1170×540 on a Samsung Galaxy S24 Ultra (Snapdragon 8 Gen 3); the release notes say this is not a fixed-FPS guarantee. v0.14.5 validation confirms the ARM64 APK installed on a Galaxy S25; ARMv7 builds are verified but were not physically tested, and the notes identify other chipsets still awaiting validation.",
+        "summary": "Statically recompiles the 32-bit Windows SPEED2.EXE into C and provides native Android ARM64/ARMv7 runtimes. Android uses touch controls, native audio, and a Direct3D 9-to-Vulkan path via DXVK Native. The user supplies original PC game data; no proprietary game files are distributed.",
+        "strategy": "Static x86-32-to-C recompilation with native Android runtime and Direct3D 9-to-Vulkan graphics translation through DXVK Native.",
+        "source_available": "Public source repository and v0.14.5 ARM64/ARMv7 APKs; original Need for Speed: Underground 2 PC game data is required and not included."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: recompilation method, Android architecture/OS/API requirements, and gameplay status",
+          "url": "https://github.com/codepdbh/nfsu2-recompiled/blob/main/README.md"
+        },
+        {
+          "label": "v0.14.5 release: APK architectures, Android minimums, and validation limits",
+          "url": "https://github.com/codepdbh/nfsu2-recompiled/releases/tag/v0.14.5"
+        },
+        {
+          "label": "Android gameplay/control validation and device-test scope",
+          "url": "https://github.com/codepdbh/nfsu2-recompiled/blob/main/docs/ANDROID_GAMEPLAY_CONTROLS_TEST.md"
+        },
+        {
+          "label": "GitHub repository language breakdown (C++ primary language)",
+          "url": "https://api.github.com/repos/codepdbh/nfsu2-recompiled/languages"
+        }
+      ],
+      "evidence_note": "The latest published release provides ARM64 and ARMv7 APKs and states Android 10+/Vulkan 1.1+ requirements. The README identifies the static recompilation path and reports a playable race prototype on a named Samsung device. Release notes distinguish Galaxy S25 ARM64 installation from ARMv7 build-only verification and explicitly caution that FPS is not guaranteed."
+    }
+  ]
+}

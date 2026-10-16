@@ -1,0 +1,114 @@
+{
+  "updated": "2026-10-15",
+  "scope": "Primary-source reviewed desktop and system software reconstructions, decompilations, and recompilations. This batch excludes games, generic reverse-engineering/decompiler toolchains, and records already present in the catalog.",
+  "projects": [
+    {
+      "id": "acornsoft-view-word-processor-reconstruction",
+      "title": "Acornsoft VIEW Word Processor Reconstruction",
+      "game": "Acornsoft VIEW B3.0 word processor for BBC Micro/BBC Master",
+      "target_type": "Software",
+      "platform": "6502 BBC Micro/BBC Master ROM (VIEW B3.0) → symbolized assembly that rebuilds a byte-identical ROM; also a CP/M-65 adaptation and a portable C version for Unix-like systems",
+      "kind": "Decompilation",
+      "status": "The maintainer announced the decompilation and C translation as finished on 2026-10-04. The README documents a bit-identical assembler rebuild and a portable C version with most editing functions; printing, screen-mode changes, and star commands are unsupported, and the author warns that bugs may remain.",
+      "summary": "Reverse engineering and source reconstruction of Acornsoft VIEW, a 6502 word processor. The repository contains a symbolized assembly reconstruction that reassembles to the original B3.0 ROM, a CP/M-65 adaptation, and a portable C port branded C-VIEW B4.0. It is an application reconstruction rather than a decompiler or game project.",
+      "project_url": "https://github.com/davidgiven/view",
+      "updated": "2026-10-15",
+      "strategy": "Symbolized 6502 disassembly and byte-identical assembly rebuild, plus semantic source reconstruction into portable C and a CP/M-65 adaptation",
+      "source_available": "Public repository. The maintainer says their additions are CC0, but the original software's copyright owner is unknown and the repository README explicitly says the original code's legal status is unclear.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "6502 Assembly, C, and Python",
+      "subtype": "Classic microcomputer productivity software / word processor",
+      "sources": [
+        {
+          "label": "Maintainer repository README: target, B3.0 version, exact rebuild, C port, CP/M-65 adaptation, limitations, and license caveat",
+          "url": "https://github.com/davidgiven/view"
+        },
+        {
+          "label": "Maintainer announcement: decompilation and C translation completion, support caveats, and warning about bugs",
+          "url": "https://www.reddit.com/r/bbcmicro/comments/1wxjfq3/view_decompilation_and_c_port/"
+        },
+        {
+          "label": "GitHub REST metadata: repository activity and language byte counts checked 2026-10-15",
+          "url": "https://api.github.com/repos/davidgiven/view"
+        },
+        {
+          "label": "GitHub REST language breakdown: Assembly, Python, C, and Makefile",
+          "url": "https://api.github.com/repos/davidgiven/view/languages"
+        }
+      ]
+    },
+    {
+      "id": "xbox-dashboard-build-3944-static-recompilation",
+      "title": "Xbox Dashboard Build 3944 Recompiled",
+      "game": "Original Xbox Dashboard build 3944 (system shell)",
+      "target_type": "Software",
+      "platform": "Original Xbox x86 executable (xboxdash.xbe) → native x86-64 Windows; Xbox kernel calls are mapped to Win32 and the dashboard's Direct3D 8 path is hosted through Direct3D 11",
+      "kind": "Recompilation",
+      "status": "Bring-up, not a usable dashboard yet. The maintainer reports the original initialization and XIP scene-loading paths reach the frame loop and clear a 1280×960 surface, but the command stream has zero draw calls. A flash-digest check currently makes the dashboard return to firmware; six indirect-call targets also remain unresolved. Latest code push: 2026-10-14.",
+      "summary": "Statically recompiles the original Xbox's build-3944 dashboard executable from x86 into C and links it to a Windows runtime for Xbox kernel, D3D8, audio, input, and NV2A behavior. This is a system application, not an Xbox game or general-purpose emulator. The project requires the user's own dashboard executable and supporting files; its current black framebuffer/zero-draw state is explicitly documented.",
+      "project_url": "https://github.com/sp00nznet/xboxdashboard",
+      "updated": "2026-10-15",
+      "strategy": "Static x86-to-C recompilation with Xbox system-call and graphics runtime mappings",
+      "source_available": "Public project source and analysis metadata; the original Xbox executable/assets and generated lifted code are not distributed. The repository's MIT license applies only to project-owned code, not the original dashboard or derivative lifted code.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C and Python (with CMake build files)",
+      "subtype": "Console system-shell static recompilation / native Windows port",
+      "sources": [
+        {
+          "label": "Maintainer repository README: target build, implementation method, exact bring-up milestones, current rendering blocker, and legal boundary",
+          "url": "https://github.com/sp00nznet/xboxdashboard"
+        },
+        {
+          "label": "GitHub repository metadata: latest push and repository status checked 2026-10-15",
+          "url": "https://api.github.com/repos/sp00nznet/xboxdashboard"
+        },
+        {
+          "label": "Repository license: MIT scope excludes Xbox Dashboard binaries and generated derivative code",
+          "url": "https://github.com/sp00nznet/xboxdashboard/blob/main/LICENSE"
+        },
+        {
+          "label": "GitHub REST language breakdown: C, Python, and CMake",
+          "url": "https://api.github.com/repos/sp00nznet/xboxdashboard/languages"
+        }
+      ]
+    },
+    {
+      "id": "theseus-uix-desktop-dashboard-reimplementation",
+      "title": "Theseus / UIX Desktop",
+      "game": "Original Xbox Dashboard and its UIX desktop-shell reconstruction",
+      "target_type": "Software",
+      "platform": "Modded original Xbox as a drop-in dashboard replacement; Windows, macOS, and Linux desktop builds. Desktop rendering uses Metal on macOS and Vulkan on Windows/Linux through bgfx.",
+      "kind": "Reimplementation",
+      "status": "The README documents a working drop-in dashboard for modded Xbox consoles and a desktop UIX application for Windows, macOS, and Linux. It describes the reconstruction as ongoing; the upstream repository is not archived, and its latest code push was 2026-08-16.",
+      "summary": "A reverse-engineered C++ reconstruction of the original Xbox dashboard engine, rebuilt plank by plank from retail and patched XBE behavior. On Xbox it replaces the stock dashboard; on desktop, UIX Desktop repurposes the engine as a native launcher and media center. It is distinct from Xbox Dashboard Recompiled: Theseus reconstructs shared source and UI behavior, while that project mechanically recompiles build-3944 machine code.",
+      "project_url": "https://github.com/MrMilenko/Theseus",
+      "updated": "2026-10-15",
+      "strategy": "Reverse-engineered C++ source reconstruction of the dashboard engine, with a shared Xbox target and native desktop UIX port",
+      "source_available": "Public source repository under GPL-3.0-or-later. The README lists third-party component licenses and documents separate build requirements for Xbox and desktop targets.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++ and C",
+      "subtype": "Reverse-engineered system shell and cross-platform desktop launcher/media center",
+      "sources": [
+        {
+          "label": "Maintainer repository README: Xbox and desktop targets, supported platforms, rendering backends, reconstruction method, and license",
+          "url": "https://github.com/MrMilenko/Theseus"
+        },
+        {
+          "label": "GitHub REST metadata: repository status, latest code push, detected license, and language checked 2026-10-15",
+          "url": "https://api.github.com/repos/MrMilenko/Theseus"
+        },
+        {
+          "label": "Project license text: GPL-3.0-or-later",
+          "url": "https://github.com/MrMilenko/Theseus/blob/main/LICENSE"
+        },
+        {
+          "label": "GitHub REST language breakdown: C++, C, and project/build languages",
+          "url": "https://api.github.com/repos/MrMilenko/Theseus/languages"
+        }
+      ]
+    }
+  ]
+}

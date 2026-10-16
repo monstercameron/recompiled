@@ -1,0 +1,4082 @@
+{
+  "generated": "2026-10-15",
+  "scope": "Read-only quality audit of existing Emulator records. Current SQLite values are listed to make targeted primary-source refreshes assignable; missing means blank in the database at audit time. This is not an import manifest.",
+  "totals": {
+    "emulator_records": 178,
+    "missing_subtype": 145,
+    "missing_programming_language": 15,
+    "missing_updated_date": 150
+  },
+  "records": [
+    {
+      "id": "3beans",
+      "title": "3Beans",
+      "game": "Nintendo 3DS",
+      "platform": "Windows, macOS, and Linux",
+      "status": "Active; rolling release build and repository updated 2026-08-05.",
+      "project_url": "https://github.com/Hydr8gon/3Beans",
+      "missing_fields": [
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Maintainer README, LLE scope, prerequisites, and status",
+          "url": "https://github.com/Hydr8gon/3Beans"
+        },
+        {
+          "label": "Maintainer release history",
+          "url": "https://github.com/Hydr8gon/3Beans/releases"
+        }
+      ]
+    },
+    {
+      "id": "4do-3do",
+      "title": "4DO",
+      "game": "All compatible 3DO Interactive Multiplayer software",
+      "platform": "3DO Interactive Multiplayer (1993)",
+      "status": "Historical / discontinued",
+      "project_url": "https://sourceforge.net/projects/fourdo/",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official 4DO project status and history",
+          "url": "https://fourdo.com/project-status/"
+        },
+        {
+          "label": "4DO source repository",
+          "url": "https://sourceforge.net/p/fourdo/code/"
+        }
+      ]
+    },
+    {
+      "id": "86box",
+      "title": "86Box",
+      "game": "Games and software for emulated IBM PC compatibles",
+      "platform": "IBM PC compatible systems (x86)",
+      "status": "Active",
+      "project_url": "https://86box.net/",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official emulator repository and supported machine overview",
+          "url": "https://github.com/86Box/86Box"
+        },
+        {
+          "label": "Official documentation on full-system emulation and PCem relationship",
+          "url": "https://86box.readthedocs.io/en/latest/faq.html"
+        },
+        {
+          "label": "86Box documentation",
+          "url": "https://86box.readthedocs.io/"
+        }
+      ]
+    },
+    {
+      "id": "a7800-atari-7800",
+      "title": "A7800",
+      "game": "All compatible Atari 7800 and 2600 software",
+      "platform": "Atari 7800 ProSystem (1986), with 2600 compatibility",
+      "status": "Active",
+      "project_url": "https://github.com/7800-devtools/a7800",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official source repository and feature list",
+          "url": "https://github.com/7800-devtools/a7800"
+        },
+        {
+          "label": "Project build, download, and license notes",
+          "url": "https://7800.8bitdev.org/index.php/A7800_Emulator"
+        }
+      ]
+    },
+    {
+      "id": "adam-plus-coleco-adam",
+      "title": "ADAM+",
+      "game": "ColecoVision and Coleco ADAM software",
+      "platform": "ColecoVision (1982) and Coleco ADAM (1983)",
+      "status": "Active early-stage project",
+      "project_url": "https://github.com/dvdh1961/ADAMP",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official repository, supported systems, source, and licensing notes",
+          "url": "https://github.com/dvdh1961/ADAMP"
+        }
+      ]
+    },
+    {
+      "id": "aethersx2",
+      "title": "AetherSX2",
+      "game": "Games for supported systems",
+      "platform": "PlayStation 2",
+      "status": "Discontinued; developer announced suspension of development in January 2023",
+      "project_url": "https://www.aethersx2.com/",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official AetherSX2 site/archive",
+          "url": "https://www.aethersx2.com/"
+        },
+        {
+          "label": "PCSX2 project announcement describing the mobile derivative",
+          "url": "https://sourceforge.net/p/pcsx2/news/2021/11/aethersx2-brings-pcsx2-to-mobile/"
+        },
+        {
+          "label": "Archived official-site source repository",
+          "url": "https://github.com/nakano1337/www-aethersx2"
+        }
+      ]
+    },
+    {
+      "id": "altirra",
+      "title": "Altirra",
+      "game": "Atari 400/800, XL/XE computers, and Atari XEGS",
+      "platform": "Windows 7 or later (x86, x64, and ARM64)",
+      "status": "Maintained; version 4.40 source and binaries are posted by the project author",
+      "project_url": "https://www.virtualdub.org/altirra.html",
+      "missing_fields": [
+        "subtype",
+        "programming_language"
+      ],
+      "existing_sources": [
+        {
+          "label": "Maintainer's official Altirra page, system support, host requirements, source, and releases",
+          "url": "https://www.virtualdub.org/altirra.html"
+        }
+      ]
+    },
+    {
+      "id": "amiberry",
+      "title": "Amiberry",
+      "game": "Commodore Amiga computers and games",
+      "platform": "Linux, macOS, Windows, Android, FreeBSD, Haiku",
+      "status": "Active",
+      "project_url": "https://github.com/BlitterStudio/amiberry",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official Amiberry repository, host platforms, scope, and license",
+          "url": "https://github.com/BlitterStudio/amiberry"
+        }
+      ]
+    },
+    {
+      "id": "aae-vector-arcade",
+      "title": "Another Arcade Emulator (AAE)",
+      "game": "Classic vector arcade games, including Asteroids, Tempest, Major Havoc, and Star Wars",
+      "platform": "Vector arcade hardware; Windows and Linux builds, with Vulkan and OpenGL rendering",
+      "status": "Active development resumed; the maintainer posted a 2026-10-03 update and released v2.00 on 2026-10-05.",
+      "project_url": "https://github.com/tcottrill/AAE",
+      "missing_fields": [
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Maintainer README, target systems, rendering, and October 2026 project update",
+          "url": "https://github.com/tcottrill/AAE"
+        },
+        {
+          "label": "Maintainer v2.00 release",
+          "url": "https://github.com/tcottrill/AAE/releases/tag/2.00"
+        }
+      ]
+    },
+    {
+      "id": "applewin",
+      "title": "AppleWin",
+      "game": "Apple II, Apple II Plus, Apple IIe, and supported clones",
+      "platform": "Windows",
+      "status": "Active",
+      "project_url": "https://github.com/AppleWin/AppleWin",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official AppleWin repository, supported systems, and source build instructions",
+          "url": "https://github.com/AppleWin/AppleWin"
+        }
+      ]
+    },
+    {
+      "id": "atari800-atari-5200",
+      "title": "Atari800",
+      "game": "All compatible Atari 5200 software",
+      "platform": "Atari 5200 SuperSystem (1982)",
+      "status": "Active",
+      "project_url": "https://github.com/atari800/atari800",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official repository and release notes",
+          "url": "https://github.com/atari800/atari800"
+        },
+        {
+          "label": "Upstream system and console support documentation",
+          "url": "https://github.com/atari800/atari800/blob/master/DOC/README"
+        }
+      ]
+    },
+    {
+      "id": "atari800",
+      "title": "Atari800",
+      "game": "Atari 8-bit computers and Atari 5200 games",
+      "platform": "Windows, macOS, Linux, Unix, and other SDL-supported hosts",
+      "status": "Active",
+      "project_url": "https://atari800.github.io/",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official Atari800 scope and host information",
+          "url": "https://atari800.github.io/"
+        },
+        {
+          "label": "Official language, license, and source repository information",
+          "url": "https://atari800.github.io/development.html"
+        },
+        {
+          "label": "Official downloads",
+          "url": "https://atari800.github.io/download.html"
+        }
+      ]
+    },
+    {
+      "id": "azahar",
+      "title": "Azahar",
+      "game": "Nintendo 3DS",
+      "platform": "Windows, macOS, Linux, Android",
+      "status": "Active community development; current releases and public source are available.",
+      "project_url": "https://github.com/azahar-emu/azahar",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official source repository, project status, and supported platforms",
+          "url": "https://github.com/azahar-emu/azahar"
+        },
+        {
+          "label": "Official download page",
+          "url": "https://azahar-emu.org/pages/download/"
+        },
+        {
+          "label": "Project announcement about public source release",
+          "url": "https://azahar-emu.org/pages/bloglist/"
+        }
+      ]
+    },
+    {
+      "id": "basilisk-ii",
+      "title": "Basilisk II",
+      "game": "68k Macintosh systems (Mac Classic and Mac II families), running Mac OS 0.x through 8.1",
+      "platform": "macOS, Linux, and Windows/MinGW builds in the currently recommended source fork",
+      "status": "Mature emulator; recommended source repository is a community fork of the original project",
+      "project_url": "https://github.com/kanjitalk755/macemu",
+      "missing_fields": [
+        "subtype"
+      ],
+      "existing_sources": [
+        {
+          "label": "Original project page",
+          "url": "https://basilisk.cebix.net/"
+        },
+        {
+          "label": "Original source repository and pointer to the more up-to-date fork",
+          "url": "https://github.com/cebix/macemu"
+        },
+        {
+          "label": "Recommended fork and current build targets",
+          "url": "https://github.com/kanjitalk755/macemu"
+        }
+      ]
+    },
+    {
+      "id": "basilisk-ii-classic-mac",
+      "title": "Basilisk II",
+      "game": "68k Macintosh software and games",
+      "platform": "68k Macintosh → Linux x86/x86_64, legacy Mac OS X PowerPC/Intel, Windows, and other listed hosts",
+      "status": "Open-source project with a public repository; the shared macemu repository's latest source commit was 2025-01-06. The official project page lists Mac OS versions through 8.1 and legacy host ports; current Apple silicon support is not documented.",
+      "project_url": "https://github.com/cebix/macemu/tree/master/BasiliskII",
+      "missing_fields": [
+        "programming_language"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official Basilisk II project page, guest OS range, license, and host ports",
+          "url": "https://basilisk.cebix.net/"
+        },
+        {
+          "label": "Basilisk II source directory",
+          "url": "https://github.com/cebix/macemu/tree/master/BasiliskII"
+        }
+      ]
+    },
+    {
+      "id": "beebem",
+      "title": "BeebEm",
+      "game": "Acorn BBC Micro and Master computers",
+      "platform": "Windows",
+      "status": "Active",
+      "project_url": "https://github.com/stardot/beebem-windows",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Maintainer repository, emulated BBC models, Windows support, and source",
+          "url": "https://github.com/stardot/beebem-windows"
+        },
+        {
+          "label": "Project homepage",
+          "url": "https://www.mkw.me.uk/beebem/"
+        }
+      ]
+    },
+    {
+      "id": "bigpemu-atari-jaguar",
+      "title": "BigPEmu",
+      "game": "All compatible Atari Jaguar and Jaguar CD software",
+      "platform": "Atari Jaguar (1993) and Jaguar CD",
+      "status": "Active; current public release 1.221",
+      "project_url": "https://www.richwhitehouse.com/jaguar/",
+      "missing_fields": [
+        "subtype",
+        "programming_language",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official downloads and current release",
+          "url": "https://www.richwhitehouse.com/jaguar/index.php?content=download"
+        },
+        {
+          "label": "Developer FAQ on source availability and project origins",
+          "url": "https://www.richwhitehouse.com/jaguar/index.php?content=faq"
+        }
+      ]
+    },
+    {
+      "id": "bizhawk",
+      "title": "BizHawk",
+      "game": "Games for supported systems",
+      "platform": "Multi-system consoles, handhelds, arcade, and computers",
+      "status": "Active",
+      "project_url": "https://github.com/TASEmulators/BizHawk",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official project README, supported systems, cores, and languages",
+          "url": "https://github.com/TASEmulators/BizHawk"
+        },
+        {
+          "label": "Official source license and component disclosure",
+          "url": "https://github.com/TASEmulators/BizHawk/blob/master/LICENSE"
+        }
+      ]
+    },
+    {
+      "id": "blastem",
+      "title": "BlastEm",
+      "game": "Genesis / Mega Drive; Sega CD / Mega CD; 32X including CD 32X; Game Gear; SC-3000 / SG-1000; Sega Pico; partial Master System backwards compatibility",
+      "platform": "8-bit and 16-bit Sega home systems, handheld, and add-ons",
+      "status": "Active; version 1.0.0 released 2026-09-11",
+      "project_url": "https://www.retrodev.com/blastem/",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Maintainer release announcement",
+          "url": "https://www.retrodev.com/blastem/announce_1.0.0.html"
+        },
+        {
+          "label": "Maintainer changelog",
+          "url": "https://www.retrodev.com/blastem/changes.html"
+        },
+        {
+          "label": "Maintainer source repository",
+          "url": "https://www.retrodev.com/repos/blastem"
+        }
+      ]
+    },
+    {
+      "id": "bochs",
+      "title": "Bochs",
+      "game": "General-purpose x86 PCs for DOS, Windows, and other guest software",
+      "platform": "Windows, Linux, FreeBSD, OpenBSD, macOS, and other supported hosts",
+      "status": "Maintained",
+      "project_url": "https://bochs.sourceforge.io/",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official Bochs project description and source availability",
+          "url": "https://bochs.sourceforge.io/"
+        },
+        {
+          "label": "Official host compatibility notes",
+          "url": "https://bochs.sourceforge.io/doc/docbook/user/will-it-work-for-me.html"
+        }
+      ]
+    },
+    {
+      "id": "box64",
+      "title": "Box64",
+      "game": "x86-64 Linux applications and games on non-x86 Linux",
+      "platform": "Non-x86-64 64-bit little-endian Linux hosts, especially ARM64; DynaRec also documented for RISC-V/LoongArch",
+      "status": "Active; release history maintained, exact latest version/date not verified in this pass",
+      "project_url": "https://github.com/ptitSeb/box64",
+      "missing_fields": [
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official Box64 repository and README",
+          "url": "https://github.com/ptitSeb/box64"
+        },
+        {
+          "label": "Official release page",
+          "url": "https://github.com/ptitSeb/box64/releases"
+        }
+      ]
+    },
+    {
+      "id": "cdi-emulator-philips-cdi",
+      "title": "CD-i Emulator",
+      "game": "All compatible Philips CD-i software",
+      "platform": "Philips CD-i (1991)",
+      "status": "Closed-source beta project; latest project page lists 0.5.3-beta10",
+      "project_url": "https://www.cdiemu.org/site/welcome.htm",
+      "missing_fields": [
+        "subtype",
+        "programming_language",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official CD-i Emulator project page and version information",
+          "url": "https://www.cdiemu.org/site/welcome.htm"
+        },
+        {
+          "label": "Official player/version download page",
+          "url": "https://www.cdiemu.org/site/players060.htm"
+        }
+      ]
+    },
+    {
+      "id": "cen64",
+      "title": "CEN64",
+      "game": "Nintendo 64 and 64DD",
+      "platform": "Windows and Linux builds; macOS build from source",
+      "status": "Public preservation-oriented implementation, not archived, but current maintenance cadence is unclear. Repository activity last observed 2025-10-26; latest release v0.3 dates to 2017-02-11.",
+      "project_url": "https://github.com/n64dev/cen64",
+      "missing_fields": [
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Maintainer README, 64DD scope, and build platforms",
+          "url": "https://github.com/n64dev/cen64"
+        },
+        {
+          "label": "Maintainer release history",
+          "url": "https://github.com/n64dev/cen64/releases"
+        }
+      ]
+    },
+    {
+      "id": "cerf-windows-ce",
+      "title": "CERF (CE Runtime Foundation)",
+      "game": "Windows CE and Windows Mobile software on documented handheld PCs, Pocket PCs, Zune devices, and other supported boards",
+      "platform": "Windows desktop host",
+      "status": "Beta; latest stable release 7.0.0.593 was published 2026-10-14, with an 8.0 work-in-progress build available from CI artifacts",
+      "project_url": "https://github.com/gweslab/cerf",
+      "missing_fields": [
+        "subtype"
+      ],
+      "existing_sources": [
+        {
+          "label": "Canonical project README, build instructions, and supported-device guidance",
+          "url": "https://github.com/gweslab/cerf"
+        },
+        {
+          "label": "Latest stable release and release notes",
+          "url": "https://github.com/gweslab/cerf/releases/latest"
+        },
+        {
+          "label": "Official user documentation",
+          "url": "https://cerf.cx/articles"
+        },
+        {
+          "label": "Project license",
+          "url": "https://github.com/gweslab/cerf/blob/main/LICENSE"
+        }
+      ]
+    },
+    {
+      "id": "caprice32",
+      "title": "Caprice32",
+      "game": "Amstrad CPC 464/664/6128; partial CPC Plus support (464+/6128+/GX4000)",
+      "platform": "Windows, macOS, and Linux",
+      "status": "Maintained source tree updated 2026-10-15; latest versioned release is v4.6.0 (2020), with a later GitHub package labeled latest published 2025-02-14",
+      "project_url": "https://github.com/ColinPitrat/caprice32",
+      "missing_fields": [
+        "subtype"
+      ],
+      "existing_sources": [
+        {
+          "label": "Upstream repository and supported models",
+          "url": "https://github.com/ColinPitrat/caprice32"
+        },
+        {
+          "label": "Upstream releases",
+          "url": "https://github.com/ColinPitrat/caprice32/releases"
+        },
+        {
+          "label": "Project GPL-2.0 license",
+          "url": "https://github.com/ColinPitrat/caprice32/blob/master/COPYING"
+        }
+      ]
+    },
+    {
+      "id": "cemu",
+      "title": "Cemu",
+      "game": "Wii U games, applications, and homebrew",
+      "platform": "Wii U",
+      "status": "active",
+      "project_url": "https://cemu.info/",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official website",
+          "url": "https://cemu.info/index.html"
+        },
+        {
+          "label": "Official source repository",
+          "url": "https://github.com/cemu-project/Cemu"
+        }
+      ]
+    },
+    {
+      "id": "chonkystation3",
+      "title": "ChonkyStation3",
+      "game": "Games for supported systems",
+      "platform": "PlayStation 3",
+      "status": "Active early-stage work in progress; maintainer says a few simple commercial games boot, but advises against using it to play games",
+      "project_url": "https://github.com/liuk7071/ChonkyStation3",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Maintainer repository and README",
+          "url": "https://github.com/liuk7071/ChonkyStation3"
+        },
+        {
+          "label": "Project site",
+          "url": "https://chonkystation.com/"
+        }
+      ]
+    },
+    {
+      "id": "chonkystation4",
+      "title": "ChonkyStation4",
+      "game": "Games for supported systems",
+      "platform": "PlayStation 4",
+      "status": "Active early-stage work in progress; maintainer reports booting a few simple commercial games",
+      "project_url": "https://github.com/liuk7071/ChonkyStation4",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Maintainer repository and README",
+          "url": "https://github.com/liuk7071/ChonkyStation4"
+        },
+        {
+          "label": "Maintainer compatibility list",
+          "url": "https://github.com/ChonkyStation/ChonkyStation4-Compatibility"
+        }
+      ]
+    },
+    {
+      "id": "citra",
+      "title": "Citra (original project)",
+      "game": "Nintendo 3DS",
+      "platform": "Windows, macOS, Linux, Android",
+      "status": "Discontinued 2024-03-04; the original project announced an immediate shutdown and removal of its repositories and website.",
+      "project_url": "https://github.com/citra-emu/citra-web/blob/master/index.html",
+      "missing_fields": [
+        "subtype",
+        "programming_language",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Archived official shutdown notice",
+          "url": "https://github.com/citra-emu/citra-web/blob/master/index.html"
+        },
+        {
+          "label": "Azahar describes itself as continuing Citra's legacy",
+          "url": "https://github.com/azahar-emu/azahar"
+        }
+      ]
+    },
+    {
+      "id": "citron-neo",
+      "title": "Citron Neo",
+      "game": "Nintendo Switch games and homebrew",
+      "platform": "Nintendo Switch",
+      "status": "active",
+      "project_url": "https://github.com/citron-neo/emulator",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official source repository and README",
+          "url": "https://github.com/citron-neo/emulator"
+        },
+        {
+          "label": "Official project site",
+          "url": "https://citron-neo.org/"
+        }
+      ]
+    },
+    {
+      "id": "clock-signal",
+      "title": "Clock Signal (CLK)",
+      "game": "Acorn Electron/BBC Micro/Archimedes, Amstrad CPC, Apple II and early Macintosh, Atari ST, Commodore VIC-20/Amiga, Enterprise, MSX, Oric, early IBM PC, ZX80/81/Spectrum, Tandy Color Computer, and Thomson MO5/MO6",
+      "platform": "macOS; Linux, BSD, and other Unix-like systems through Qt or SDL builds",
+      "status": "Maintained; repository updated 2026-10-15 and latest tagged release is 2026-07-23",
+      "project_url": "https://github.com/TomHarte/CLK",
+      "missing_fields": [
+        "subtype"
+      ],
+      "existing_sources": [
+        {
+          "label": "Project README and supported systems",
+          "url": "https://github.com/TomHarte/CLK"
+        },
+        {
+          "label": "Project license",
+          "url": "https://github.com/TomHarte/CLK/blob/master/LICENSE"
+        }
+      ]
+    },
+    {
+      "id": "cloudpilot-emu",
+      "title": "CloudpilotEmu",
+      "game": "Palm OS 1–4 DragonBall devices and Palm Tungsten E2 with Palm OS 5",
+      "platform": "Web browser (including installable iOS/Android home-screen app), native iOS app, and native CLI builds for macOS/Linux with Windows cross-builds and WSL support",
+      "status": "Maintained; v2.3.0 released 2026-10-02",
+      "project_url": "https://github.com/cloudpilot-emu/cloudpilot-emu",
+      "missing_fields": [
+        "subtype"
+      ],
+      "existing_sources": [
+        {
+          "label": "Project README and supported devices",
+          "url": "https://github.com/cloudpilot-emu/cloudpilot-emu"
+        },
+        {
+          "label": "Project releases",
+          "url": "https://github.com/cloudpilot-emu/cloudpilot-emu/releases"
+        },
+        {
+          "label": "Project GPL-3.0 license",
+          "url": "https://github.com/cloudpilot-emu/cloudpilot-emu/blob/master/LICENSE"
+        }
+      ]
+    },
+    {
+      "id": "colem-colecovision-adam",
+      "title": "ColEm",
+      "game": "All compatible ColecoVision and Coleco ADAM software",
+      "platform": "ColecoVision (1982) and Coleco ADAM (1983)",
+      "status": "Mature; latest official release 5.6 (2021)",
+      "project_url": "https://fms.komkon.org/ColEm/",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official project, release, language, and source terms",
+          "url": "https://fms.komkon.org/ColEm/"
+        }
+      ]
+    },
+    {
+      "id": "corgi3ds",
+      "title": "Corgi3DS",
+      "game": "Nintendo 3DS",
+      "platform": "Linux and macOS; Windows source build with additional GMP setup",
+      "status": "Dormant research implementation; repository activity last observed 2023-07-13; no formal releases.",
+      "project_url": "https://github.com/PSI-Rockin/Corgi3DS",
+      "missing_fields": [
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Maintainer README, low-level implementation, and demonstrated scope",
+          "url": "https://github.com/PSI-Rockin/Corgi3DS"
+        },
+        {
+          "label": "Maintainer releases; no formal releases listed",
+          "url": "https://github.com/PSI-Rockin/Corgi3DS/releases"
+        }
+      ]
+    },
+    {
+      "id": "cxbx-reloaded-original-xbox",
+      "title": "Cxbx-Reloaded",
+      "game": "All compatible original Xbox software",
+      "platform": "Microsoft Xbox (2001)",
+      "status": "Active",
+      "project_url": "https://github.com/Cxbx-Reloaded/Cxbx-Reloaded",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official repository and build instructions",
+          "url": "https://github.com/Cxbx-Reloaded/Cxbx-Reloaded"
+        },
+        {
+          "label": "Official releases",
+          "url": "https://github.com/Cxbx-Reloaded/Cxbx-Reloaded/releases"
+        }
+      ]
+    },
+    {
+      "id": "demul",
+      "title": "DEmul",
+      "game": "Dreamcast; Naomi; Naomi 2; Atomiswave; Hikaru",
+      "platform": "32-bit home console and related arcade systems",
+      "status": "Historical closed-source emulator; the official project hostname is HTTP-only and current status is unclear.",
+      "project_url": "https://www.emulation64.com/files/getdownload/1286/",
+      "missing_fields": [
+        "subtype",
+        "programming_language",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Maintainer WIP and release thread",
+          "url": "https://forum.emu-russia.net/viewtopic.php?f=25&t=503"
+        },
+        {
+          "label": "Maintainer forum index and last post date",
+          "url": "https://forum.emu-russia.net/viewforum.php?f=25"
+        },
+        {
+          "label": "Emulation64 HTTPS listing for DEmul v0.582 Windows",
+          "url": "https://www.emulation64.com/files/getdownload/1286/"
+        }
+      ]
+    },
+    {
+      "id": "dice-arcade",
+      "title": "DICE (SDL2/Qt5 Linux port)",
+      "game": "1970s discrete-logic arcade games without CPUs",
+      "platform": "Discrete-logic arcade cabinets; Linux port",
+      "status": "Limited project; latest release 0.9a was published 2025-03-11, and current maintenance status is unclear.",
+      "project_url": "https://github.com/DirtBagXon/DICE",
+      "missing_fields": [
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Maintainer README describing implementation, platform limitations, and supported games",
+          "url": "https://github.com/DirtBagXon/DICE"
+        },
+        {
+          "label": "Maintainer latest release",
+          "url": "https://github.com/DirtBagXon/DICE/releases/tag/0.9a"
+        }
+      ]
+    },
+    {
+      "id": "dosbox",
+      "title": "DOSBox",
+      "game": "MS-DOS games and IBM PC-compatible software",
+      "platform": "Windows, macOS, Linux, and other SDL-supported hosts",
+      "status": "Legacy; the official download page lists version 0.74-3",
+      "project_url": "https://www.dosbox.com/",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official DOSBox downloads and source archives",
+          "url": "https://www.dosbox.com/download.php?main=1"
+        },
+        {
+          "label": "Official project description",
+          "url": "https://www.dosbox.com/information.php?page=0"
+        }
+      ]
+    },
+    {
+      "id": "dosbox-pure",
+      "title": "DOSBox Pure",
+      "game": "DOS games and DOS-based PC software",
+      "platform": "Libretro-compatible hosts, including RetroArch-supported platforms",
+      "status": "Active; the maintainer moved the project to Codeberg",
+      "project_url": "https://codeberg.org/schelling/dosbox-pure",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Maintainer's GitHub repository and migration notice",
+          "url": "https://github.com/schellingb/dosbox-pure"
+        },
+        {
+          "label": "Current source repository linked by the maintainer",
+          "url": "https://codeberg.org/schelling/dosbox-pure"
+        }
+      ]
+    },
+    {
+      "id": "dosbox-staging",
+      "title": "DOSBox Staging",
+      "game": "DOS and Windows 3.1 games on IBM PC-compatible systems",
+      "platform": "Windows, macOS, Linux",
+      "status": "Active",
+      "project_url": "https://www.dosbox-staging.org/",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Project goals and emulation scope",
+          "url": "https://www.dosbox-staging.org/about/"
+        },
+        {
+          "label": "Official host-platform support",
+          "url": "https://www.dosbox-staging.org/0.83/manual/using-dosbox-staging/installation/"
+        },
+        {
+          "label": "Official source repository and language",
+          "url": "https://github.com/dosbox-staging/dosbox-staging"
+        }
+      ]
+    },
+    {
+      "id": "dosbox-x",
+      "title": "DOSBox-X",
+      "game": "DOS, Windows 3.x/9x/Me, DOS/V, and PC-98 games",
+      "platform": "Windows, Linux, macOS, DOS",
+      "status": "Active",
+      "project_url": "https://dosbox-x.com/",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "DOSBox-X scope, game support, and host downloads",
+          "url": "https://dosbox-x.com/"
+        },
+        {
+          "label": "Official DOSBox-X source repository",
+          "url": "https://github.com/joncampbell123/dosbox-x"
+        }
+      ]
+    },
+    {
+      "id": "desmume",
+      "title": "DeSmuME",
+      "game": "Nintendo DS",
+      "platform": "Windows, macOS, Linux, BSD",
+      "status": "Low release activity; latest stable release is 0.9.13 (2022-05-23), while the source repository remains public.",
+      "project_url": "https://desmume.org/",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official project site and release announcement",
+          "url": "https://desmume.org/"
+        },
+        {
+          "label": "Official source repository",
+          "url": "https://github.com/TASEmulators/desmume"
+        },
+        {
+          "label": "Official release history",
+          "url": "https://github.com/TASEmulators/desmume/releases"
+        }
+      ]
+    },
+    {
+      "id": "decaf-emu",
+      "title": "Decaf",
+      "game": "Wii U games and homebrew",
+      "platform": "Wii U",
+      "status": "in development",
+      "project_url": "https://github.com/decaf-emu/decaf-emu",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official source repository and README",
+          "url": "https://github.com/decaf-emu/decaf-emu"
+        }
+      ]
+    },
+    {
+      "id": "denise-emulator",
+      "title": "Denise",
+      "game": "Commodore 64 and selected Commodore Amiga models (A1000, A500, A500+, A600)",
+      "platform": "Windows, macOS, Linux, and BSD builds documented by the project",
+      "status": "Maintained; v2.9 released 2026-08-28",
+      "project_url": "https://github.com/piciji/denise",
+      "missing_fields": [
+        "subtype"
+      ],
+      "existing_sources": [
+        {
+          "label": "Project README, supported systems, and build targets",
+          "url": "https://github.com/piciji/denise"
+        },
+        {
+          "label": "Project license",
+          "url": "https://github.com/piciji/denise/blob/master/licence.md"
+        }
+      ]
+    },
+    {
+      "id": "dingusppc",
+      "title": "DingusPPC",
+      "game": "Experimental PowerPC Macintosh systems including Power Mac 6100/7500 and Beige G3; Apple Pippin is also in scope",
+      "platform": "Windows 7 or later, Linux, and macOS",
+      "status": "Active experimental emulator; updated 2026-10-15; Power Mac configurations are most complete, while Pippin support is in development",
+      "project_url": "https://github.com/dingusdev/dingusppc",
+      "missing_fields": [
+        "subtype"
+      ],
+      "existing_sources": [
+        {
+          "label": "Project repository and supported-machine notes",
+          "url": "https://github.com/dingusdev/dingusppc"
+        },
+        {
+          "label": "Project manual, compatibility scope, and guest OS notes",
+          "url": "https://dingusppc.github.io/manual/"
+        },
+        {
+          "label": "Project build documentation for Windows, Linux, and macOS",
+          "url": "https://github.com/dingusdev/dingusppc/blob/master/CONTRIBUTING.md"
+        },
+        {
+          "label": "Project GPL-3.0 license",
+          "url": "https://github.com/dingusdev/dingusppc/blob/master/LICENSE"
+        }
+      ]
+    },
+    {
+      "id": "dobiestation",
+      "title": "DobieStation",
+      "game": "Final Fantasy X",
+      "platform": "PlayStation 2",
+      "status": "Dormant experimental project; maintainer reported in 2020 that many games reached in-game but none met its playable rating",
+      "project_url": "https://github.com/PSI-Rockin/DobieStation",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Maintainer repository and compatibility notes",
+          "url": "https://github.com/PSI-Rockin/DobieStation"
+        },
+        {
+          "label": "Maintainer progress report",
+          "url": "https://www.patreon.com/dobiestation/posts/dobiestation-has-40011600"
+        }
+      ]
+    },
+    {
+      "id": "dolphin",
+      "title": "Dolphin",
+      "game": "Nintendo GameCube/Wii",
+      "platform": "Windows, Linux, macOS, Android",
+      "status": "Active; official project repository and development builds continue.",
+      "project_url": "https://dolphin-emu.org/",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official source repository and supported systems",
+          "url": "https://github.com/dolphin-emu/dolphin"
+        },
+        {
+          "label": "Official FAQ and project history",
+          "url": "https://dolphin-emu.org/docs/faq/"
+        },
+        {
+          "label": "Official download page",
+          "url": "https://dolphin-emu.org/download/"
+        }
+      ]
+    },
+    {
+      "id": "duckstation",
+      "title": "DuckStation",
+      "game": "Games for supported systems",
+      "platform": "PlayStation",
+      "status": "Active",
+      "project_url": "https://github.com/stenzek/duckstation",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official source repository and project description",
+          "url": "https://github.com/stenzek/duckstation"
+        }
+      ]
+    },
+    {
+      "id": "dust",
+      "title": "Dust",
+      "game": "Nintendo DS",
+      "platform": "Windows x86_64, Linux x86_64, macOS, and web",
+      "status": "Early development; repository changes through 2026-02-03; sole release v0.0.0 dates to 2025-12-17.",
+      "project_url": "https://github.com/kelpsyberry/dust",
+      "missing_fields": [
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Maintainer README, supported builds, status, and debugging features",
+          "url": "https://github.com/kelpsyberry/dust"
+        },
+        {
+          "label": "Maintainer release history",
+          "url": "https://github.com/kelpsyberry/dust/releases"
+        }
+      ]
+    },
+    {
+      "id": "eden",
+      "title": "Eden",
+      "game": "Nintendo Switch games and homebrew",
+      "platform": "Nintendo Switch",
+      "status": "active",
+      "project_url": "https://eden-emu.dev/",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official website",
+          "url": "https://eden-emu.dev/"
+        },
+        {
+          "label": "Maintainer README and source mirror",
+          "url": "https://github.com/emuall/eden"
+        }
+      ]
+    },
+    {
+      "id": "egg-ns",
+      "title": "Egg NS",
+      "game": "Nintendo Switch games",
+      "platform": "Nintendo Switch",
+      "status": "uncertain",
+      "project_url": "https://play.google.com/store/apps/details?id=com.xiaoji.gamesirnsemulator.x.google",
+      "missing_fields": [
+        "subtype",
+        "programming_language",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official Google Play listing",
+          "url": "https://play.google.com/store/apps/details?id=com.xiaoji.gamesirnsemulator.x.google"
+        },
+        {
+          "label": "Maintainer news and release archive",
+          "url": "https://eggns.wordpress.com/news/"
+        }
+      ]
+    },
+    {
+      "id": "eightyone-sinclair-emulator",
+      "title": "EightyOne",
+      "game": "Sinclair ZX80, ZX81, ZX Spectrum and related Sinclair/Timex systems, Jupiter Ace, and documented clones",
+      "platform": "Windows",
+      "status": "Community-maintained; latest listed release and source archive v1.41 dated 2025-03-03; original developer is no longer active",
+      "project_url": "https://sourceforge.net/projects/eightyone-sinclair-emulator/",
+      "missing_fields": [
+        "subtype"
+      ],
+      "existing_sources": [
+        {
+          "label": "Upstream project page, scope, license, and maintenance note",
+          "url": "https://sourceforge.net/projects/eightyone-sinclair-emulator/"
+        },
+        {
+          "label": "Upstream release and source-file listing",
+          "url": "https://sourceforge.net/projects/eightyone-sinclair-emulator/files/"
+        },
+        {
+          "label": "Project source repository",
+          "url": "https://github.com/charlierobson/EightyOne"
+        }
+      ]
+    },
+    {
+      "id": "emulicious",
+      "title": "Emulicious",
+      "game": "Master System; Game Gear",
+      "platform": "8-bit console and handheld",
+      "status": "Maintained closed-source product; official site and downloads remain current",
+      "project_url": "https://emulicious.net/",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official project site",
+          "url": "https://emulicious.net/"
+        },
+        {
+          "label": "Official downloads",
+          "url": "https://emulicious.net/downloads/"
+        }
+      ]
+    },
+    {
+      "id": "fceux",
+      "title": "FCEUX",
+      "game": "NES/Famicom/Famicom Disk System/Dendy",
+      "platform": "Windows, Linux/Unix, macOS",
+      "status": "Active; official project site lists version 2.7.0 as the current release and provides interim builds.",
+      "project_url": "https://fceux.com/web/home.html",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official project description and current release",
+          "url": "https://fceux.com/web/home.html"
+        },
+        {
+          "label": "Official source repository",
+          "url": "https://github.com/TASEmulators/fceux"
+        }
+      ]
+    },
+    {
+      "id": "fex-emu",
+      "title": "FEX-Emu",
+      "game": "x86/x86-64 Linux applications and games on ARM64 Linux",
+      "platform": "ARM64 Linux hosts; requires ARMv8.0-A+ and documented minimum CPU features",
+      "status": "Active; releases available; latest release date/version not verified in this pass",
+      "project_url": "https://github.com/FEX-Emu/FEX",
+      "missing_fields": [
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official FEX repository/README",
+          "url": "https://github.com/FEX-Emu/FEX"
+        },
+        {
+          "label": "Official release page",
+          "url": "https://github.com/FEX-Emu/FEX/releases"
+        }
+      ]
+    },
+    {
+      "id": "fs-uae",
+      "title": "FS-UAE",
+      "game": "Commodore Amiga computer models",
+      "platform": "Windows, macOS, and Linux",
+      "status": "Maintained; stable v3.2.35 released 2025-09-07; FS-UAE 5 remains an early alpha for Windows, macOS, and Linux",
+      "project_url": "https://fs-uae.net/",
+      "missing_fields": [
+        "subtype"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official project site and current release announcements",
+          "url": "https://fs-uae.net/"
+        },
+        {
+          "label": "Upstream source repository",
+          "url": "https://github.com/FrodeSolheim/fs-uae"
+        },
+        {
+          "label": "Upstream releases",
+          "url": "https://github.com/FrodeSolheim/fs-uae/releases"
+        },
+        {
+          "label": "Project GPL-2.0 license",
+          "url": "https://github.com/FrodeSolheim/fs-uae/blob/master/COPYING"
+        }
+      ]
+    },
+    {
+      "id": "finalburn-neo",
+      "title": "FinalBurn Neo (FBNeo)",
+      "game": "Arcade systems (multiple) and selected consoles",
+      "platform": "Windows, macOS, SDL builds on Linux; Libretro ports support additional hosts",
+      "status": "Active",
+      "project_url": "https://github.com/finalburnneo/FBNeo",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official FBNeo repository, supported systems, ports, and source tree",
+          "url": "https://github.com/finalburnneo/FBNeo"
+        },
+        {
+          "label": "Official FBNeo system coverage",
+          "url": "https://github.com/finalburnneo/FBNeo/wiki/"
+        }
+      ]
+    },
+    {
+      "id": "flycast",
+      "title": "Flycast",
+      "game": "Dreamcast; Naomi; Naomi 2; Atomiswave",
+      "platform": "32-bit home console and related arcade systems",
+      "status": "Active; maintainer publishes stable, master, and nightly builds",
+      "project_url": "https://github.com/flyinghead/flycast",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Maintainer repository and supported systems",
+          "url": "https://github.com/flyinghead/flycast"
+        },
+        {
+          "label": "Maintainer releases",
+          "url": "https://github.com/flyinghead/flycast/releases"
+        }
+      ]
+    },
+    {
+      "id": "freedo-3do",
+      "title": "FreeDO",
+      "game": "All compatible 3DO Interactive Multiplayer software",
+      "platform": "3DO Interactive Multiplayer (1993)",
+      "status": "Historical / discontinued",
+      "project_url": "https://sourceforge.net/projects/freedo/",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "FreeDO project files and news archive",
+          "url": "https://sourceforge.net/projects/freedo/files/"
+        },
+        {
+          "label": "3DO emulation source/release history index",
+          "url": "https://3dodev.com/software/emulation"
+        }
+      ]
+    },
+    {
+      "id": "fuse-sinclair-emulator",
+      "title": "Fuse",
+      "game": "Sinclair ZX Spectrum variants and compatible clones",
+      "platform": "Linux, BSD, macOS, Solaris, and Windows",
+      "status": "Active; SourceForge reports upstream commits on 2026-10-15",
+      "project_url": "https://fuse-emulator.sourceforge.net/",
+      "missing_fields": [
+        "subtype"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official Fuse project site",
+          "url": "https://fuse-emulator.sourceforge.net/"
+        },
+        {
+          "label": "Upstream project page, supported systems, hosts, and license",
+          "url": "https://sourceforge.net/projects/fuse-emulator/"
+        },
+        {
+          "label": "Upstream source repository",
+          "url": "https://sourceforge.net/p/fuse-emulator/code/"
+        }
+      ]
+    },
+    {
+      "id": "gsplus-apple-iigs",
+      "title": "GSplus",
+      "game": "Apple IIgs",
+      "platform": "Windows, macOS, and Linux",
+      "status": "Maintained; v1.38.0 released 2026-07-19; the current SDL3 reboot is described by its README as early and rough-edged",
+      "project_url": "https://apple2.gs/plus/",
+      "missing_fields": [
+        "subtype"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official project page",
+          "url": "https://apple2.gs/plus/"
+        },
+        {
+          "label": "Current source repository, supported hosts, and project status",
+          "url": "https://github.com/digarok/gsplus"
+        },
+        {
+          "label": "Latest release",
+          "url": "https://github.com/digarok/gsplus/releases/latest"
+        },
+        {
+          "label": "Project license",
+          "url": "https://github.com/digarok/gsplus/blob/main/LICENSE"
+        }
+      ]
+    },
+    {
+      "id": "gambatte",
+      "title": "Gambatte (libretro core)",
+      "game": "Game Boy/Game Boy Color",
+      "platform": "Libretro-compatible platforms",
+      "status": "Legacy emulator core maintained in the libretro repository; original standalone development is not the current delivery path.",
+      "project_url": "https://github.com/libretro/gambatte-libretro",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Libretro Gambatte source and project description",
+          "url": "https://github.com/libretro/gambatte-libretro"
+        },
+        {
+          "label": "Libretro Gambatte core documentation",
+          "url": "https://docs.libretro.com/library/gambatte/"
+        }
+      ]
+    },
+    {
+      "id": "gearsystem",
+      "title": "Gearsystem",
+      "game": "Sega Mark III; Master System; Game Gear; SG-1000; Othello Multivision",
+      "platform": "8-bit home consoles and handhelds",
+      "status": "Active; public source and current development builds",
+      "project_url": "https://github.com/drhelius/Gearsystem",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Maintainer repository and supported machines",
+          "url": "https://github.com/drhelius/Gearsystem"
+        },
+        {
+          "label": "Maintainer release history",
+          "url": "https://github.com/drhelius/Gearsystem/releases"
+        }
+      ]
+    },
+    {
+      "id": "genesis-plus-gx",
+      "title": "Genesis Plus GX",
+      "game": "SG-1000; Mark III; Master System; Game Gear; Genesis / Mega Drive; Sega CD / Mega CD; preliminary Sega Pico",
+      "platform": "8-bit and 16-bit home consoles, handheld, and CD add-on",
+      "status": "Actively maintained open-source project",
+      "project_url": "https://github.com/ekeeke/Genesis-Plus-GX",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/ekeeke/Genesis-Plus-GX"
+        },
+        {
+          "label": "Maintainer feature list",
+          "url": "https://github.com/ekeeke/Genesis-Plus-GX/blob/master/wiki/Features.md"
+        }
+      ]
+    },
+    {
+      "id": "geolith-neo-geo-aes",
+      "title": "Geolith",
+      "game": "All compatible Neo Geo AES/MVS/CD/CDZ software",
+      "platform": "SNK Neo Geo AES home console, MVS, Neo Geo CD, and CDZ",
+      "status": "Active",
+      "project_url": "https://gitlab.com/jgemu/geolith",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Upstream Geolith repository",
+          "url": "https://gitlab.com/jgemu/geolith"
+        },
+        {
+          "label": "Libretro system, language, license, and AES-mode documentation",
+          "url": "https://docs.libretro.com/library/geolith/"
+        },
+        {
+          "label": "Libretro source port",
+          "url": "https://github.com/libretro/geolith-libretro"
+        }
+      ]
+    },
+    {
+      "id": "gopher64",
+      "title": "Gopher64",
+      "game": "Nintendo 64",
+      "platform": "Windows x86_64, macOS Apple Silicon, Linux x86_64, Android",
+      "status": "Active; v1.1.42 released 2026-10-15; repository updated the same day.",
+      "project_url": "https://github.com/gopher64/gopher64",
+      "missing_fields": [
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Maintainer README, supported platforms, and implementation notes",
+          "url": "https://github.com/gopher64/gopher64"
+        },
+        {
+          "label": "Maintainer releases; latest v1.1.42 dated 2026-10-15",
+          "url": "https://github.com/gopher64/gopher64/releases"
+        },
+        {
+          "label": "Maintainer discussion of original work and upstream code components",
+          "url": "https://github.com/gopher64/gopher64/discussions/386"
+        }
+      ]
+    },
+    {
+      "id": "groovymame",
+      "title": "GroovyMAME",
+      "game": "Raster-based arcade systems supported by MAME",
+      "platform": "MAME-supported arcade systems; PC output to CRT displays",
+      "status": "Active; the project publishes MAME-aligned releases, with release gm0289sr222f dated 2026-08-27 and repository changes through 2026-10-13.",
+      "project_url": "https://github.com/antonioginer/GroovyMAME",
+      "missing_fields": [
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Maintainer README on CRT timing, latency, and emulation-layer policy",
+          "url": "https://github.com/antonioginer/GroovyMAME"
+        },
+        {
+          "label": "Maintainer releases",
+          "url": "https://github.com/antonioginer/GroovyMAME/releases"
+        }
+      ]
+    },
+    {
+      "id": "hbmame",
+      "title": "HBMAME",
+      "game": "Arcade homebrew games, hacks, and modified sets",
+      "platform": "Arcade hardware and arcade emulators supported by the MAME-derived codebase",
+      "status": "Active; the maintainer's change log includes 2026 additions, and the repository was updated on 2026-10-15.",
+      "project_url": "https://github.com/Robbbert/hbmame",
+      "missing_fields": [
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Maintainer repository and README describing preservation scope",
+          "url": "https://github.com/Robbbert/hbmame"
+        },
+        {
+          "label": "Maintainer change log with 2026 additions",
+          "url": "https://github.com/Robbbert/hbmame/blob/master/docs/release/docs/hbnew.txt"
+        }
+      ]
+    },
+    {
+      "id": "handy-atari-lynx",
+      "title": "Handy (libretro)",
+      "game": "All compatible Atari Lynx software",
+      "platform": "Atari Lynx (1989)",
+      "status": "Maintained port of a historically important emulator",
+      "project_url": "https://github.com/libretro/libretro-handy",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official Handy libretro repository",
+          "url": "https://github.com/libretro/libretro-handy"
+        },
+        {
+          "label": "Libretro system documentation and authorship/license",
+          "url": "https://docs.libretro.com/library/handy/"
+        }
+      ]
+    },
+    {
+      "id": "hatari",
+      "title": "Hatari",
+      "game": "Atari ST, STE, TT, and Falcon computers",
+      "platform": "Linux, BSD, macOS, Windows, and other SDL-supported hosts",
+      "status": "Active",
+      "project_url": "https://www.hatari-emu.org/",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official Hatari project description",
+          "url": "https://www.hatari-emu.org/"
+        },
+        {
+          "label": "Official source and release instructions",
+          "url": "https://www.hatari-emu.org/download.html"
+        },
+        {
+          "label": "Official development repository",
+          "url": "https://framagit.org/hatari/hatari"
+        }
+      ]
+    },
+    {
+      "id": "hypseus-singe",
+      "title": "Hypseus Singe",
+      "game": "Laserdisc arcade games and Singe interactive-video games",
+      "platform": "Windows, macOS, Linux, Raspberry Pi",
+      "status": "Active",
+      "project_url": "https://github.com/DirtBagXon/hypseus-singe",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Hypseus Singe project description, supported hosts, and source",
+          "url": "https://github.com/DirtBagXon/hypseus-singe"
+        }
+      ]
+    },
+    {
+      "id": "jpcsp",
+      "title": "JPCSP",
+      "game": "Games for supported systems",
+      "platform": "PlayStation Portable",
+      "status": "Maintained intermittently; latest official update shown is 2024-12-01",
+      "project_url": "https://github.com/jpcsp/jpcsp",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official source repository",
+          "url": "https://github.com/jpcsp/jpcsp"
+        },
+        {
+          "label": "Official downloads and update history",
+          "url": "https://www.jpcsp.org/index?p=downloads"
+        }
+      ]
+    },
+    {
+      "id": "kega-fusion",
+      "title": "Kega Fusion",
+      "game": "SG-1000; SC-3000; SF-7000; Master System; Game Gear; Genesis / Mega Drive; Sega CD; 32X; Sega Pico",
+      "platform": "8-bit and 16-bit Sega home systems, handheld, and add-ons",
+      "status": "Legacy/inactive; historical distributor lists Fusion 3.64 for Windows and 3.63-series builds for macOS/Linux",
+      "project_url": "https://www.carpeludum.com/kega-fusion/",
+      "missing_fields": [
+        "subtype",
+        "programming_language",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Legacy Kega Fusion release and system page",
+          "url": "https://www.carpeludum.com/kega-fusion/"
+        }
+      ]
+    },
+    {
+      "id": "kronos",
+      "title": "Kronos",
+      "game": "Sega Saturn",
+      "platform": "32-bit home console",
+      "status": "Public upstream; the official releases page lists v2.7.0 as its latest release, but does not expose the release year in the page text",
+      "project_url": "https://github.com/FCare/Kronos",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Maintainer repository and build targets",
+          "url": "https://github.com/FCare/Kronos"
+        },
+        {
+          "label": "Maintainer releases",
+          "url": "https://github.com/FCare/Kronos/releases"
+        },
+        {
+          "label": "Project page",
+          "url": "https://fcare.github.io/"
+        }
+      ]
+    },
+    {
+      "id": "kyty",
+      "title": "Kyty",
+      "game": "Cursed Castilla",
+      "platform": "PlayStation 4",
+      "status": "Dormant early-stage project; maintainer reported a PS4 commercial title reaching its main menu before crashing, while PS5 support was limited to homebrew",
+      "project_url": "https://github.com/InoriRus/Kyty",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Maintainer repository and README",
+          "url": "https://github.com/InoriRus/Kyty"
+        },
+        {
+          "label": "Maintainer discussion documenting a PS4 game boot attempt",
+          "url": "https://github.com/InoriRus/Kyty/discussions/14"
+        }
+      ]
+    },
+    {
+      "id": "lemur-vb",
+      "title": "Lemur",
+      "game": "Nintendo Virtual Boy",
+      "platform": "Windows, macOS, and Linux",
+      "status": "Active; project lists v0.15.1 dated 2026-09-07 and repository changes through 2026-09-06.",
+      "project_url": "https://git.virtual-boy.com/PVB/lemur",
+      "missing_fields": [
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Maintainer repository and README",
+          "url": "https://git.virtual-boy.com/PVB/lemur"
+        },
+        {
+          "label": "Maintainer releases; latest v0.15.1 dated 2026-09-07",
+          "url": "https://git.virtual-boy.com/PVB/lemur/releases"
+        }
+      ]
+    },
+    {
+      "id": "lxdream",
+      "title": "Lxdream",
+      "game": "Dreamcast",
+      "platform": "32-bit home console",
+      "status": "Legacy/inactive; public source repository remains available, with no current releases verified",
+      "project_url": "https://github.com/lxdream/lxdream",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Maintainer source repository and project README",
+          "url": "https://github.com/lxdream/lxdream"
+        }
+      ]
+    },
+    {
+      "id": "mame",
+      "title": "MAME",
+      "game": "Arcade systems, vintage computers, and supported home consoles (including Channel F, ColecoVision, Vectrex, FM Towns Marty, PC-FX, CD-i, and Apple Pippin)",
+      "platform": "Arcade, vintage computers, and home consoles; runs on Windows, Linux, FreeBSD, and macOS",
+      "status": "Active",
+      "project_url": "https://github.com/mamedev/mame",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official project purpose, supported system types, and language",
+          "url": "https://docs.mamedev.org/initialsetup/mameintro.html"
+        },
+        {
+          "label": "Official source repository",
+          "url": "https://github.com/mamedev/mame"
+        },
+        {
+          "label": "Official Fairchild Channel F driver",
+          "url": "https://github.com/mamedev/mame/blob/master/src/mame/fairchild/channelf.cpp"
+        },
+        {
+          "label": "Official Arcadia 2001 driver",
+          "url": "https://github.com/mamedev/mame/blob/master/src/mame/arcadia/arcadia.cpp"
+        },
+        {
+          "label": "Official ColecoVision driver",
+          "url": "https://github.com/mamedev/mame/blob/master/src/mame/coleco/coleco.cpp"
+        },
+        {
+          "label": "Official FM Towns/Marty driver",
+          "url": "https://github.com/mamedev/mame/blob/master/src/mame/fujitsu/fmtowns.cpp"
+        },
+        {
+          "label": "Official PC-FX driver",
+          "url": "https://github.com/mamedev/mame/blob/master/src/mame/nec/pcfx.cpp"
+        },
+        {
+          "label": "Official CD-i driver",
+          "url": "https://github.com/mamedev/mame/blob/master/src/mame/philips/cdi.cpp"
+        },
+        {
+          "label": "Official Apple Pippin driver",
+          "url": "https://github.com/mamedev/mame/blob/master/src/mame/apple/pippin.cpp"
+        },
+        {
+          "label": "Naomi driver",
+          "url": "https://github.com/mamedev/mame/blob/master/src/mame/sega/naomi.cpp"
+        },
+        {
+          "label": "Saturn driver",
+          "url": "https://github.com/mamedev/mame/blob/master/src/mame/sega/saturn.cpp"
+        },
+        {
+          "label": "ST-V driver",
+          "url": "https://github.com/mamedev/mame/blob/master/src/mame/sega/stv.cpp"
+        },
+        {
+          "label": "Model 2 driver",
+          "url": "https://github.com/mamedev/mame/blob/master/src/mame/sega/model2.cpp"
+        },
+        {
+          "label": "Model 3 driver status",
+          "url": "https://github.com/mamedev/mame/blob/master/src/mame/sega/model3.cpp"
+        },
+        {
+          "label": "MAME development language and source repository",
+          "url": "https://docs.mamedev.org/_files/MAME.pdf"
+        }
+      ]
+    },
+    {
+      "id": "meka",
+      "title": "MEKA",
+      "game": "SG-1000; SC-3000; SF-7000; Mark III; Master System; Game Gear; ColecoVision; Othello Multivision",
+      "platform": "8-bit home computers, console, handheld, and related systems",
+      "status": "Active but intermittent; latest listed release is dated 2025-08-17",
+      "project_url": "https://github.com/ocornut/meka",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Maintainer README and supported machines",
+          "url": "https://github.com/ocornut/meka"
+        },
+        {
+          "label": "Maintainer releases",
+          "url": "https://github.com/ocornut/meka/releases"
+        }
+      ]
+    },
+    {
+      "id": "martypc",
+      "title": "MartyPC",
+      "game": "IBM PC, XT, PCjr, and Tandy 1000 software and games",
+      "platform": "Windows, Linux, macOS, web browser",
+      "status": "Active development",
+      "project_url": "https://github.com/dbalsom/martypc",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official source repository, emulated machines, host platforms, and development status",
+          "url": "https://github.com/dbalsom/martypc"
+        },
+        {
+          "label": "Maintainer's user guide and game notes",
+          "url": "https://github.com/dbalsom/martypc/wiki/MartyPC-User-Guide"
+        }
+      ]
+    },
+    {
+      "id": "mednafen",
+      "title": "Mednafen",
+      "game": "Games for supported systems",
+      "platform": "Multi-system consoles, handhelds, and Apple II",
+      "status": "Maintenance; latest official release 1.32.1 (2024-04-05)",
+      "project_url": "https://mednafen.github.io/",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official Atari Lynx emulation documentation",
+          "url": "https://mednafen.github.io/documentation/lynx.html"
+        },
+        {
+          "label": "Official PC Engine/TurboGrafx and SuperGrafx documentation",
+          "url": "https://mednafen.github.io/documentation/pce.html"
+        },
+        {
+          "label": "Official project homepage and documentation index",
+          "url": "https://mednafen.github.io/"
+        },
+        {
+          "label": "Official Saturn documentation",
+          "url": "https://mednafen.github.io/documentation/ss.html"
+        },
+        {
+          "label": "Official releases",
+          "url": "https://mednafen.github.io/releases/"
+        },
+        {
+          "label": "Official PlayStation documentation",
+          "url": "https://mednafen.github.io/documentation/psx.html"
+        }
+      ]
+    },
+    {
+      "id": "mesence",
+      "title": "Mesen Community Edition",
+      "game": "Games for supported systems",
+      "platform": "Multi-system consoles and handhelds",
+      "status": "Active",
+      "project_url": "https://github.com/nesdev-org/MesenCE",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Project README and supported systems",
+          "url": "https://github.com/nesdev-org/MesenCE"
+        },
+        {
+          "label": "Release history and continuation notice",
+          "url": "https://github.com/nesdev-org/MesenCE/releases"
+        },
+        {
+          "label": "Archived predecessor Mesen2 points to MesenCE",
+          "url": "https://github.com/SourMesen/Mesen2"
+        }
+      ]
+    },
+    {
+      "id": "mesen-orion",
+      "title": "Mesen Orion",
+      "game": "Games for supported console and handheld systems",
+      "platform": "NES, SNES, Game Boy, GBA, PC Engine, Master System/Game Gear, and WonderSwan; Windows, Linux, and macOS",
+      "status": "Active Mesen2 fork; release v3.0.2 was published 2026-06-18 and the repository shows changes through 2026-07-03.",
+      "project_url": "https://github.com/javocsoft/MesenOrion",
+      "missing_fields": [
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Maintainer README, supported systems, Mesen2 lineage, and differentiating features",
+          "url": "https://github.com/javocsoft/MesenOrion"
+        },
+        {
+          "label": "Maintainer releases",
+          "url": "https://github.com/javocsoft/MesenOrion/releases"
+        }
+      ]
+    },
+    {
+      "id": "mister-fpga",
+      "title": "MiSTer FPGA core platform",
+      "game": "Software for systems with published MiSTer cores, including arcade games, consoles, handhelds, and computers",
+      "platform": "FPGA hardware, primarily Terasic DE10-Nano and compatible boards",
+      "status": "Active; the shared framework repository was updated 2026-10-14 and the core distribution repository on 2026-10-15.",
+      "project_url": "https://github.com/MiSTer-devel/Main_MiSTer",
+      "missing_fields": [
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official MiSTer framework repository",
+          "url": "https://github.com/MiSTer-devel/Main_MiSTer"
+        },
+        {
+          "label": "MiSTer documentation explaining that cores implement the emulated systems",
+          "url": "https://mister-devel.github.io/MkDocs_MiSTer/cores/what/"
+        },
+        {
+          "label": "MiSTer documentation listing supported arcade cores",
+          "url": "https://mister-devel.github.io/MkDocs_MiSTer/cores/arcade/"
+        },
+        {
+          "label": "Official core distribution repository",
+          "url": "https://github.com/MiSTer-devel/Distribution_MiSTer"
+        },
+        {
+          "label": "Example arcade-board core with source implementation",
+          "url": "https://github.com/MiSTer-devel/Arcade-IremM107_MiSTer"
+        }
+      ]
+    },
+    {
+      "id": "minivmac",
+      "title": "Mini vMac",
+      "game": "Early 680x0 Macintosh models, including Macintosh 128K, 512K, and Plus (variation-dependent)",
+      "platform": "macOS, Windows, Linux, BSD variants, OpenIndiana, Windows Mobile, and additional project-generated variations",
+      "status": "Notable legacy project; official site lists stable v36.04 and v37.03 beta",
+      "project_url": "https://www.gryphel.com/c/minivmac/",
+      "missing_fields": [
+        "subtype"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official Mini vMac project page",
+          "url": "https://www.gryphel.com/c/minivmac/"
+        },
+        {
+          "label": "Official source and variation download service",
+          "url": "https://www.gryphel.com/c/minivmac/variations.html"
+        },
+        {
+          "label": "Official version and release information",
+          "url": "https://www.gryphel.com/c/minivmac/versions.html"
+        }
+      ]
+    },
+    {
+      "id": "mini-vmac",
+      "title": "Mini vMac",
+      "game": "Early 68k Macintosh software and games",
+      "platform": "Early 68k Macintosh models → macOS, Windows, Linux, and other build targets",
+      "status": "Active; the public source repository had commits through 2026-09-17. The default model is Macintosh Plus; other supported 68k models can be selected at build time.",
+      "project_url": "https://github.com/minivmac/minivmac",
+      "missing_fields": [
+        "programming_language"
+      ],
+      "existing_sources": [
+        {
+          "label": "Mini vMac README and build scripts",
+          "url": "https://github.com/minivmac/minivmac"
+        }
+      ]
+    },
+    {
+      "id": "mupen64plus",
+      "title": "Mupen64Plus",
+      "game": "Nintendo 64",
+      "platform": "Linux, macOS, FreeBSD, Windows",
+      "status": "Maintained; project repositories and release history remain active.",
+      "project_url": "https://github.com/mupen64plus",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official project documentation and source links",
+          "url": "https://mupen64plus.org/docs/"
+        },
+        {
+          "label": "Official source organization and language metadata",
+          "url": "https://github.com/mupen64plus"
+        },
+        {
+          "label": "Core module and release history",
+          "url": "https://github.com/mupen64plus/mupen64plus-core/releases"
+        }
+      ]
+    },
+    {
+      "id": "nesticle",
+      "title": "NESticle",
+      "game": "NES",
+      "platform": "MS-DOS, Windows 95",
+      "status": "Discontinued historical project from the late 1990s.",
+      "project_url": "https://web.archive.org/web/20080709184033/http://bloodlust.zophar.net/NESticle/nes.html",
+      "missing_fields": [
+        "subtype",
+        "programming_language",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Archived Bloodlust Software project page",
+          "url": "https://web.archive.org/web/20080709184033/http://bloodlust.zophar.net/NESticle/nes.html"
+        },
+        {
+          "label": "NESdev emulator history and platform listing",
+          "url": "https://www.nesdev.org/wiki/Emulators"
+        },
+        {
+          "label": "Contemporary archived NESticle history page",
+          "url": "https://www.geocities.ws/Qwertie256/attic/emulators/nesticle.html"
+        }
+      ]
+    },
+    {
+      "id": "nanoboyadvance",
+      "title": "NanoBoyAdvance",
+      "game": "Game Boy Advance",
+      "platform": "Windows, macOS, Linux, and FreeBSD (the project notes that FreeBSD is untested)",
+      "status": "Active on Codeberg; v1.8.3 released 2026-05-10 and canonical repository updated 2026-08-27. Former GitHub repository is archived and points to Codeberg.",
+      "project_url": "https://codeberg.org/nba-emu/NanoBoyAdvance",
+      "missing_fields": [
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Canonical maintainer repository and README",
+          "url": "https://codeberg.org/nba-emu/NanoBoyAdvance"
+        },
+        {
+          "label": "Canonical releases; latest v1.8.3 dated 2026-05-10",
+          "url": "https://codeberg.org/nba-emu/NanoBoyAdvance/releases"
+        },
+        {
+          "label": "Archived GitHub repository pointing to Codeberg migration",
+          "url": "https://github.com/nba-emu/NanoBoyAdvance"
+        }
+      ]
+    },
+    {
+      "id": "nexium",
+      "title": "NeXium",
+      "game": "Nintendo Switch homebrew and games",
+      "platform": "Nintendo Switch",
+      "status": "active",
+      "project_url": "https://nexium-emu.org/",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official project site, status, and progress reports",
+          "url": "https://nexium-emu.org/"
+        },
+        {
+          "label": "Maintainer source repository",
+          "url": "https://git.mythrax-rs.org/nexium-emu/nexium"
+        }
+      ]
+    },
+    {
+      "id": "np2kai",
+      "title": "Neko Project II kai (NP2kai)",
+      "game": "NEC PC-9801 / PC-98 computers and games",
+      "platform": "Windows, macOS, Linux, Android, iOS via Libretro builds",
+      "status": "Active",
+      "project_url": "https://github.com/AZO234/NP2kai",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official NP2kai source, PC-9801 scope, release date, and build platforms",
+          "url": "https://github.com/AZO234/NP2kai"
+        },
+        {
+          "label": "Original Neko Project II project page",
+          "url": "https://www.yui.ne.jp/np2/"
+        }
+      ]
+    },
+    {
+      "id": "nestopia-ue",
+      "title": "Nestopia UE (Undead Edition)",
+      "game": "NES/Famicom",
+      "platform": "Windows, Linux, BSD, macOS",
+      "status": "Maintained through separate projects: the Jolly Good Emulation core is upstream for emulation fixes, while the UE project supplies desktop builds/frontends.",
+      "project_url": "https://gitlab.com/jgemu/nestopia",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Nestopia UE maintainer explains core/frontend split",
+          "url": "https://github.com/0ldsk00l/nestopia"
+        },
+        {
+          "label": "Current Nestopia core tags",
+          "url": "https://gitlab.com/jgemu/nestopia/-/tags"
+        },
+        {
+          "label": "Nestopia UE project releases",
+          "url": "https://0ldsk00l.ca/nestopia/"
+        }
+      ]
+    },
+    {
+      "id": "nexen",
+      "title": "Nexen",
+      "game": "Games for supported console and handheld systems",
+      "platform": "NES, SNES, Game Boy, GBA, Master System/Game Gear, PC Engine, WonderSwan, and Atari Lynx; Windows, Linux, and macOS",
+      "status": "Active; release v1.4.43 was published 2026-05-16, and the repository shows changes through 2026-05-25.",
+      "project_url": "https://github.com/TheAnsarya/Nexen",
+      "missing_fields": [
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Maintainer README with supported systems, accuracy claims, and features",
+          "url": "https://github.com/TheAnsarya/Nexen"
+        },
+        {
+          "label": "Maintainer releases",
+          "url": "https://github.com/TheAnsarya/Nexen/releases"
+        }
+      ]
+    },
+    {
+      "id": "ngpcraft",
+      "title": "NgpCraft Emulator",
+      "game": "Neo Geo Pocket and Neo Geo Pocket Color",
+      "platform": "Windows, macOS, Linux, Android, and libretro-compatible hosts",
+      "status": "Active; v3.8.8 released 2026-10-11.",
+      "project_url": "https://github.com/Tixul/Ngpcraft_emulator",
+      "missing_fields": [
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Maintainer README, frontends, supported systems, hardware calibration, and test results",
+          "url": "https://github.com/Tixul/Ngpcraft_emulator"
+        },
+        {
+          "label": "Maintainer releases; latest v3.8.8 dated 2026-10-11",
+          "url": "https://github.com/Tixul/Ngpcraft_emulator/releases"
+        }
+      ]
+    },
+    {
+      "id": "nogba",
+      "title": "No$GBA",
+      "game": "Games for Nintendo handheld systems",
+      "platform": "Game Boy Advance, Nintendo DS, and DSi",
+      "status": "Active; version 3.06 dated 2025-04-14",
+      "project_url": "https://problemkaputt.de/gba.htm",
+      "missing_fields": [
+        "subtype",
+        "programming_language",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official NO$GBA homepage and current downloads",
+          "url": "https://problemkaputt.de/gba.htm"
+        },
+        {
+          "label": "Official NO$GBA debug version information",
+          "url": "https://problemkaputt.de/gba.htm#debug"
+        }
+      ]
+    },
+    {
+      "id": "noods",
+      "title": "NooDS",
+      "game": "Nintendo DS and Game Boy Advance",
+      "platform": "Windows, macOS, Linux, Android, iOS, Nintendo Switch, Wii U, and PlayStation Vita",
+      "status": "Active; rolling release build and repository updated 2026-08-09.",
+      "project_url": "https://github.com/Hydr8gon/NooDS",
+      "missing_fields": [
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Maintainer README, supported systems, platforms, and BIOS requirements",
+          "url": "https://github.com/Hydr8gon/NooDS"
+        },
+        {
+          "label": "Maintainer release history",
+          "url": "https://github.com/Hydr8gon/NooDS/releases"
+        }
+      ]
+    },
+    {
+      "id": "nxemu",
+      "title": "NxEmu",
+      "game": "Nintendo Switch games and homebrew",
+      "platform": "Nintendo Switch",
+      "status": "active",
+      "project_url": "https://www.nxemu.com/",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official project site and progress reports",
+          "url": "https://www.nxemu.com/"
+        },
+        {
+          "label": "Maintainer source repository",
+          "url": "https://github.com/N3xoX1/nxemu"
+        }
+      ]
+    },
+    {
+      "id": "o2em-odyssey2",
+      "title": "O2EM",
+      "game": "All compatible Odyssey²/Videopac software",
+      "platform": "Magnavox Odyssey² / Philips Videopac (1978)",
+      "status": "Historical / latest upstream release 1.18 (2007)",
+      "project_url": "https://github.com/lutris/o2em",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Project source repository and release history",
+          "url": "https://github.com/lutris/o2em"
+        },
+        {
+          "label": "Official SourceForge release archive",
+          "url": "https://sourceforge.net/projects/o2em/files/o2em/"
+        }
+      ]
+    },
+    {
+      "id": "ootake-pc-engine",
+      "title": "Ootake",
+      "game": "All compatible PC Engine/TurboGrafx-16 software",
+      "platform": "NEC PC Engine/TurboGrafx-16, SuperGrafx, and CD-ROM² families",
+      "status": "Active; version 3.06 released 2026-08-01",
+      "project_url": "https://ouma.jp/ootake/index.html",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official project page and release/source bundle",
+          "url": "https://ouma.jp/ootake/index.html"
+        },
+        {
+          "label": "Official readme and supported machine details",
+          "url": "https://ouma.jp/ootake/Readme.html"
+        }
+      ]
+    },
+    {
+      "id": "open-simh",
+      "title": "Open SIMH",
+      "game": "Historical computers including DEC PDP and VAX systems and IBM, HP, and Data General systems documented by Open SIMH",
+      "platform": "Windows, Linux, macOS, and other Unix-like systems",
+      "status": "Maintained Open SIMH simulator suite; source repository updated 2026-09-22 and is a separate project from simh/simh",
+      "project_url": "https://opensimh.org/",
+      "missing_fields": [
+        "subtype"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official project site and simulator list",
+          "url": "https://opensimh.org/simulators"
+        },
+        {
+          "label": "Open SIMH source repository and project description",
+          "url": "https://github.com/open-simh/simh"
+        },
+        {
+          "label": "Supported host and simulator documentation",
+          "url": "https://opensimh.org/simdocs/simh_doc.html"
+        },
+        {
+          "label": "Project license",
+          "url": "https://github.com/open-simh/simh/blob/master/LICENSE.txt"
+        }
+      ]
+    },
+    {
+      "id": "opera-3do",
+      "title": "Opera (libretro)",
+      "game": "All compatible 3DO Interactive Multiplayer software",
+      "platform": "3DO Interactive Multiplayer (1993)",
+      "status": "Maintained open-source fork",
+      "project_url": "https://github.com/libretro/opera-libretro",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official Opera source repository",
+          "url": "https://github.com/libretro/opera-libretro"
+        },
+        {
+          "label": "Libretro history, license, and system documentation",
+          "url": "https://docs.libretro.com/library/opera/"
+        }
+      ]
+    },
+    {
+      "id": "pcsx-redux",
+      "title": "PCSX-Redux",
+      "game": "Final Fantasy VII",
+      "platform": "PlayStation",
+      "status": "Active; usable emulator under ongoing development",
+      "project_url": "https://github.com/grumpycoders/pcsx-redux",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Maintainer repository and README",
+          "url": "https://github.com/grumpycoders/pcsx-redux"
+        },
+        {
+          "label": "Maintainer issue: Final Fantasy VII run report",
+          "url": "https://github.com/grumpycoders/pcsx-redux/issues/1845"
+        }
+      ]
+    },
+    {
+      "id": "pcsx-reloaded",
+      "title": "PCSX-Reloaded",
+      "game": "Games for supported systems",
+      "platform": "PlayStation",
+      "status": "Historical/legacy; no recent development evident, with repository activity last shown in 2018",
+      "project_url": "https://github.com/pcsxr/PCSX-Reloaded",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Project repository and README",
+          "url": "https://github.com/pcsxr/PCSX-Reloaded"
+        },
+        {
+          "label": "PCSX-Reloaded mirror with project description",
+          "url": "https://github.com/mirror/pcsxr"
+        }
+      ]
+    },
+    {
+      "id": "pcsx2",
+      "title": "PCSX2",
+      "game": "Final Fantasy X",
+      "platform": "PlayStation 2",
+      "status": "Active",
+      "project_url": "https://github.com/PCSX2/pcsx2",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official source repository and README",
+          "url": "https://github.com/PCSX2/pcsx2"
+        },
+        {
+          "label": "Official project site",
+          "url": "https://pcsx2.net/"
+        }
+      ]
+    },
+    {
+      "id": "pcem",
+      "title": "PCem",
+      "game": "Games and software for emulated IBM PC compatibles",
+      "platform": "IBM PC compatible systems (x86)",
+      "status": "Active development; v17 is the latest stable release",
+      "project_url": "https://github.com/sarah-walker-pcem/pcem",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official PCem source repository, release, license, and supported hardware",
+          "url": "https://github.com/sarah-walker-pcem/pcem"
+        },
+        {
+          "label": "Official release notes",
+          "url": "https://github.com/sarah-walker-pcem/pcem/releases"
+        },
+        {
+          "label": "Official PCem downloads and latest listed release",
+          "url": "https://pcem-emulator.github.io/downloads.html"
+        },
+        {
+          "label": "Official PCem development page",
+          "url": "https://pcem-emulator.github.io/development.html"
+        }
+      ]
+    },
+    {
+      "id": "pcjs",
+      "title": "PCjs",
+      "game": "IBM PC compatibles, 6502 and 8080 microcomputers, DEC minicomputers and terminals, and TI calculators",
+      "platform": "Web browsers and Node.js/server environments",
+      "status": "Maintained; source repository and project site are current",
+      "project_url": "https://www.pcjs.org/",
+      "missing_fields": [
+        "subtype"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official project site and emulator directory",
+          "url": "https://www.pcjs.org/"
+        },
+        {
+          "label": "Project repository and README",
+          "url": "https://github.com/jeffpar/pcjs"
+        },
+        {
+          "label": "Project MIT license",
+          "url": "https://github.com/jeffpar/pcjs/blob/master/LICENSE.txt"
+        }
+      ]
+    },
+    {
+      "id": "ppsspp",
+      "title": "PPSSPP",
+      "game": "Games for supported systems",
+      "platform": "PlayStation Portable",
+      "status": "Active",
+      "project_url": "https://github.com/hrydgard/ppsspp",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official source repository and README",
+          "url": "https://github.com/hrydgard/ppsspp"
+        },
+        {
+          "label": "Official project site",
+          "url": "https://www.ppsspp.org/"
+        }
+      ]
+    },
+    {
+      "id": "panda3ds",
+      "title": "Panda3DS",
+      "game": "Nintendo 3DS",
+      "platform": "Windows, macOS, Linux, and Android arm64",
+      "status": "Public source project with repository activity through 2026-10-04; latest formal release v0.9 dates to 2024-12-25.",
+      "project_url": "https://github.com/wheremyfoodat/Panda3DS",
+      "missing_fields": [
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Maintainer README, supported hosts, and compatibility limitations",
+          "url": "https://github.com/wheremyfoodat/Panda3DS"
+        },
+        {
+          "label": "Maintainer release history",
+          "url": "https://github.com/wheremyfoodat/Panda3DS/releases"
+        }
+      ]
+    },
+    {
+      "id": "picodrive",
+      "title": "PicoDrive",
+      "game": "SG-1000; SC-3000; Master System; Game Gear; Genesis / Mega Drive; Sega CD / Mega CD; 32X; Sega Pico",
+      "platform": "8-bit and 16-bit Sega home systems, handhelds, and add-ons",
+      "status": "Active development primarily in the irixxxx upstream fork",
+      "project_url": "https://github.com/irixxxx/picodrive",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Current maintainer fork and README",
+          "url": "https://github.com/irixxxx/picodrive"
+        },
+        {
+          "label": "Original upstream repository and development note",
+          "url": "https://github.com/notaz/picodrive"
+        }
+      ]
+    },
+    {
+      "id": "pinmame",
+      "title": "PinMAME",
+      "game": "Solid-state pinball machine ROMs and supported homebrew modifications",
+      "platform": "Multiple pinball controller families from the 1970s through 2017",
+      "status": "Active; release v3.7.0-477-6589fc5 was published 2026-09-02, with source changes through 2026-10-15.",
+      "project_url": "https://github.com/vpinball/pinmame",
+      "missing_fields": [
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Maintainer README, machine coverage, supported hosts, and limitations",
+          "url": "https://github.com/vpinball/pinmame"
+        },
+        {
+          "label": "Maintainer supported machines list",
+          "url": "https://github.com/vpinball/pinmame/blob/master/SUPPORTED_MACHINES.md"
+        },
+        {
+          "label": "Maintainer releases",
+          "url": "https://github.com/vpinball/pinmame/releases"
+        }
+      ]
+    },
+    {
+      "id": "play-",
+      "title": "Play!",
+      "game": "PlayStation 2 software",
+      "platform": "PlayStation 2",
+      "status": "Active; experimental compatibility work continues",
+      "project_url": "https://github.com/jpd002/Play-",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Maintainer source repository",
+          "url": "https://github.com/jpd002/Play-"
+        },
+        {
+          "label": "Official project site",
+          "url": "https://purei.org/"
+        },
+        {
+          "label": "Maintainer compatibility tracker",
+          "url": "https://github.com/jpd002/Play-Compatibility"
+        }
+      ]
+    },
+    {
+      "id": "pokemini-libretro",
+      "title": "PokeMini (libretro core)",
+      "game": "Nintendo Pokémon Mini",
+      "platform": "Libretro-compatible hosts; README lists Android, Linux, Windows, and Wii build targets",
+      "status": "Maintained core source; repository changes through 2026-07-31. README identifies core version v0.60; no GitHub release is published.",
+      "project_url": "https://github.com/libretro/PokeMini",
+      "missing_fields": [
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Maintainer repository and README, including core version and build targets",
+          "url": "https://github.com/libretro/PokeMini"
+        },
+        {
+          "label": "Official Libretro core documentation",
+          "url": "https://docs.libretro.com/library/pokemini/"
+        }
+      ]
+    },
+    {
+      "id": "potator-libretro",
+      "title": "Potator (libretro core)",
+      "game": "Watara SuperVision",
+      "platform": "Libretro-compatible hosts; official Kodi add-on packages listed for Windows, Android, and macOS",
+      "status": "Maintained core source; repository changes through 2026-06-04. Kodi's official catalog lists version 1.0.5.28 dated 2026-08-26.",
+      "project_url": "https://github.com/libretro/potator",
+      "missing_fields": [
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Maintainer source repository",
+          "url": "https://github.com/libretro/potator"
+        },
+        {
+          "label": "Official Kodi add-on source and description",
+          "url": "https://github.com/kodi-game/game.libretro.potator"
+        },
+        {
+          "label": "Official Kodi catalog with version and platform packages",
+          "url": "https://kodi.tv/addons/omega/game.libretro.potator/"
+        }
+      ]
+    },
+    {
+      "id": "pound",
+      "title": "Pound",
+      "game": "Nintendo Switch and Switch 2 software (prototype)",
+      "platform": "Nintendo Switch / Nintendo Switch 2",
+      "status": "early development",
+      "project_url": "https://github.com/pound-emu/pound",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official source repository and current development overview",
+          "url": "https://github.com/pound-emu/pound"
+        }
+      ]
+    },
+    {
+      "id": "prosystem-atari-7800",
+      "title": "ProSystem",
+      "game": "All compatible Atari 7800 software",
+      "platform": "Atari 7800 ProSystem (1986)",
+      "status": "Historical / no longer regularly released",
+      "project_url": "https://github.com/gstanton/ProSystem1_3",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Original project source repository and description",
+          "url": "https://github.com/gstanton/ProSystem1_3"
+        },
+        {
+          "label": "Libretro ProSystem core documentation",
+          "url": "https://docs.libretro.com/library/prosystem/"
+        }
+      ]
+    },
+    {
+      "id": "project64",
+      "title": "Project64",
+      "game": "Nintendo 64/Nintendo 64 Disk Drive",
+      "platform": "Windows",
+      "status": "Active; official repository continues to receive development and publishes current builds.",
+      "project_url": "https://github.com/project64/project64",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official repository, supported systems, and build information",
+          "url": "https://github.com/project64/project64"
+        },
+        {
+          "label": "Official Project64 site support page",
+          "url": "https://project64.org/support/"
+        }
+      ]
+    },
+    {
+      "id": "qemu",
+      "title": "QEMU",
+      "game": "General-purpose computer systems, including x86 PCs for DOS and Windows games",
+      "platform": "Linux, macOS, Windows, BSD, and other supported hosts",
+      "status": "Active",
+      "project_url": "https://www.qemu.org/",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official QEMU description and system emulation guide",
+          "url": "https://www.qemu.org/docs/master/about/index.html"
+        },
+        {
+          "label": "Official QEMU system emulation documentation",
+          "url": "https://www.qemu.org/docs/master/system/index.html"
+        },
+        {
+          "label": "Official QEMU source mirror",
+          "url": "https://github.com/qemu/qemu"
+        }
+      ]
+    },
+    {
+      "id": "rpcs3",
+      "title": "RPCS3",
+      "game": "Games for supported systems",
+      "platform": "PlayStation 3",
+      "status": "Active",
+      "project_url": "https://github.com/RPCS3/rpcs3",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official source repository",
+          "url": "https://github.com/RPCS3/rpcs3"
+        },
+        {
+          "label": "Official FAQ",
+          "url": "https://github.com/RPCS3/rpcs3/wiki/FAQ"
+        },
+        {
+          "label": "Official compatibility list",
+          "url": "https://rpcs3.io/compatibility"
+        }
+      ]
+    },
+    {
+      "id": "raine",
+      "title": "Raine",
+      "game": "Classic arcade systems, especially Taito and other 2D boards",
+      "platform": "Windows and Linux",
+      "status": "Active",
+      "project_url": "https://raine.1emulation.com/",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Raine releases and source archives",
+          "url": "https://raine.1emulation.com/download/latest.html"
+        },
+        {
+          "label": "Raine source compilation instructions",
+          "url": "https://raine.1emulation.com/download/install.html"
+        },
+        {
+          "label": "Maintainer source repository",
+          "url": "https://github.com/zelurker/raine"
+        }
+      ]
+    },
+    {
+      "id": "red-viper",
+      "title": "Red Viper",
+      "game": "Nintendo Virtual Boy",
+      "platform": "Nintendo 3DS family, distributed as 3DSX and CIA builds",
+      "status": "Active; v1.3.4 released 2026-09-19.",
+      "project_url": "https://github.com/skyfloogle/red-viper",
+      "missing_fields": [
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Maintainer README, target hardware, features, and compatibility statements",
+          "url": "https://github.com/skyfloogle/red-viper"
+        },
+        {
+          "label": "Maintainer releases; latest v1.3.4 dated 2026-09-19",
+          "url": "https://github.com/skyfloogle/red-viper/releases"
+        }
+      ]
+    },
+    {
+      "id": "reicast",
+      "title": "Reicast",
+      "game": "Dreamcast",
+      "platform": "32-bit home console",
+      "status": "Discontinued; maintainer marked the project EOL and archived the repository on 2025-09-29",
+      "project_url": "https://github.com/skmp/reicast-emulator",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Maintainer repository and EOL notice",
+          "url": "https://github.com/skmp/reicast-emulator"
+        }
+      ]
+    },
+    {
+      "id": "ryubing",
+      "title": "Ryubing",
+      "game": "Nintendo Switch games and homebrew",
+      "platform": "Nintendo Switch",
+      "status": "active",
+      "project_url": "https://ryujinx.app/",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official Ryubing site",
+          "url": "https://ryujinx.app/"
+        },
+        {
+          "label": "Verified maintainer organization identifying the fork",
+          "url": "https://github.com/Ryubing"
+        },
+        {
+          "label": "Maintainer documentation",
+          "url": "https://docs.ryujinx.app/"
+        }
+      ]
+    },
+    {
+      "id": "ryujinx",
+      "title": "Ryujinx",
+      "game": "Nintendo Switch games and homebrew",
+      "platform": "Nintendo Switch",
+      "status": "discontinued",
+      "project_url": "https://docs.ryujinx.app/",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Ryujinx project documentation and status",
+          "url": "https://docs.ryujinx.app/"
+        },
+        {
+          "label": "Maintained Ryubing organization identifying Ryujinx as discontinued",
+          "url": "https://github.com/Ryubing"
+        }
+      ]
+    },
+    {
+      "id": "super-zsnes",
+      "title": "SUPER ZSNES",
+      "game": "SNES/Super Famicom",
+      "platform": "Windows, macOS, Linux, Android, iOS",
+      "status": "Active development; official site lists release 0.320 and describes planned features.",
+      "project_url": "https://zsnes.com/",
+      "missing_fields": [
+        "subtype",
+        "programming_language",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official project overview, supported platforms, and latest release notes",
+          "url": "https://zsnes.com/"
+        },
+        {
+          "label": "Official downloads",
+          "url": "https://zsnes.com/downloads/"
+        }
+      ]
+    },
+    {
+      "id": "sameboy",
+      "title": "SameBoy",
+      "game": "Game Boy/Game Boy Color/Super Game Boy",
+      "platform": "macOS, iOS, watchOS, Windows, Unix-like systems",
+      "status": "Active; official download page lists SameBoy 1.0.4 released 2026-10-09.",
+      "project_url": "https://sameboy.github.io/",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official project overview",
+          "url": "https://sameboy.github.io/"
+        },
+        {
+          "label": "Official source repository",
+          "url": "https://github.com/LIJI32/SameBoy"
+        },
+        {
+          "label": "Official downloads and current version",
+          "url": "https://sameboy.github.io/downloads/"
+        }
+      ]
+    },
+    {
+      "id": "sharpemu",
+      "title": "SharpEmu",
+      "game": "Hollow Knight: Voidheart Edition",
+      "platform": "PlayStation 5",
+      "status": "Active experimental emulator; official compatibility page reports a small subset playable among tested games",
+      "project_url": "https://github.com/sharpemu/sharpemu",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Maintainer source repository",
+          "url": "https://github.com/sharpemu/sharpemu"
+        },
+        {
+          "label": "Official project site",
+          "url": "https://sharpemu.app/"
+        },
+        {
+          "label": "Official compatibility tracker",
+          "url": "https://sharpemu.app/compatibility/"
+        }
+      ]
+    },
+    {
+      "id": "sheepshaver",
+      "title": "SheepShaver",
+      "game": "PowerPC Macintosh systems, running Mac OS 7.5.2 through 9.0.4 (not Mac OS X)",
+      "platform": "macOS, Linux, and Windows/MinGW builds in the currently recommended source fork",
+      "status": "Mature emulator; recommended source repository is a community fork of the original project",
+      "project_url": "https://github.com/kanjitalk755/macemu",
+      "missing_fields": [
+        "subtype"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official SheepShaver project page",
+          "url": "https://sheepshaver.cebix.net/"
+        },
+        {
+          "label": "Original source repository and pointer to the more up-to-date fork",
+          "url": "https://github.com/cebix/macemu"
+        },
+        {
+          "label": "Recommended fork and current build targets",
+          "url": "https://github.com/kanjitalk755/macemu"
+        }
+      ]
+    },
+    {
+      "id": "sheepshaver-classic-mac",
+      "title": "SheepShaver",
+      "game": "PowerPC Macintosh software and games",
+      "platform": "PowerPC Macintosh → Linux/Unix, legacy Mac OS X PowerPC/Intel, Windows, and other listed hosts",
+      "status": "Open-source project in the shared macemu source repository. The official project page lists legacy Mac OS X, Windows, and Unix hosts; it requires a Mac OS copy and PowerMac ROM image. Current Apple silicon support and a contemporary stable release are not documented.",
+      "project_url": "https://github.com/cebix/macemu/tree/master/SheepShaver",
+      "missing_fields": [
+        "programming_language"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official SheepShaver project page, guest system requirements, and host ports",
+          "url": "https://sheepshaver.cebix.net/"
+        },
+        {
+          "label": "SheepShaver source directory",
+          "url": "https://github.com/cebix/macemu/tree/master/SheepShaver"
+        }
+      ]
+    },
+    {
+      "id": "simcoupe",
+      "title": "SimCoupe",
+      "game": "SAM Coupé 8-bit home computer",
+      "platform": "Windows, Linux, and macOS",
+      "status": "Maintained; v1.2.17 posted 2026-08-31, with Windows, macOS, and Linux builds",
+      "project_url": "https://simonowen.com/simcoupe/",
+      "missing_fields": [
+        "subtype"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official project page",
+          "url": "https://simonowen.com/simcoupe/"
+        },
+        {
+          "label": "Upstream repository and platform/build information",
+          "url": "https://github.com/simonowen/simcoupe"
+        },
+        {
+          "label": "Upstream releases",
+          "url": "https://github.com/simonowen/simcoupe/releases"
+        },
+        {
+          "label": "Project GPL-2.0 license",
+          "url": "https://github.com/simonowen/simcoupe/blob/master/COPYING"
+        }
+      ]
+    },
+    {
+      "id": "skyemu",
+      "title": "SkyEmu",
+      "game": "Game Boy, Game Boy Color, Game Boy Advance, and Nintendo DS",
+      "platform": "Windows, macOS, Linux, FreeBSD, iOS, Android, and web",
+      "status": "Active; v5 released 2026-02-12, with repository changes through 2026-10-13.",
+      "project_url": "https://github.com/skylersaleh/SkyEmu",
+      "missing_fields": [
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Maintainer README, supported systems, hosts, and DS status",
+          "url": "https://github.com/skylersaleh/SkyEmu"
+        },
+        {
+          "label": "Maintainer releases; latest v5 dated 2026-02-12",
+          "url": "https://github.com/skylersaleh/SkyEmu/releases"
+        }
+      ]
+    },
+    {
+      "id": "skyline",
+      "title": "Skyline",
+      "game": "Nintendo Switch games and homebrew",
+      "platform": "Nintendo Switch",
+      "status": "discontinued",
+      "project_url": "https://github.com/skyline-emu/skyline",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official project organization and discontinued status",
+          "url": "https://github.com/skyline-emu"
+        },
+        {
+          "label": "Official emulator source repository",
+          "url": "https://github.com/skyline-emu/skyline"
+        }
+      ]
+    },
+    {
+      "id": "snes9x",
+      "title": "Snes9x",
+      "game": "SNES/Super Famicom",
+      "platform": "Windows, macOS, Linux, FreeBSD, and ports for other systems",
+      "status": "Active; official source repository provides current development and nightly builds.",
+      "project_url": "https://github.com/snes9xgit/snes9x",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official source repository and nightly builds",
+          "url": "https://github.com/snes9xgit/snes9x"
+        },
+        {
+          "label": "Official Snes9x project site",
+          "url": "https://www.snes9x.com/"
+        }
+      ]
+    },
+    {
+      "id": "stella-atari-2600",
+      "title": "Stella",
+      "game": "All compatible Atari 2600 software",
+      "platform": "Atari 2600 VCS (1977)",
+      "status": "Active",
+      "project_url": "https://stella-emu.github.io/",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official project site",
+          "url": "https://stella-emu.github.io/"
+        },
+        {
+          "label": "Official source repository",
+          "url": "https://github.com/stella-emu/stella"
+        }
+      ]
+    },
+    {
+      "id": "strato",
+      "title": "Strato",
+      "game": "Nintendo Switch games and homebrew",
+      "platform": "Nintendo Switch",
+      "status": "dormant",
+      "project_url": "https://github.com/strato-emu/strato",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official Strato source repository and README",
+          "url": "https://github.com/strato-emu/strato"
+        },
+        {
+          "label": "Official organization activity",
+          "url": "https://github.com/strato-emu"
+        }
+      ]
+    },
+    {
+      "id": "sudachi",
+      "title": "Sudachi",
+      "game": "Nintendo Switch games and homebrew",
+      "platform": "Nintendo Switch",
+      "status": "limited maintenance",
+      "project_url": "https://github.com/q4a/sudachi",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Maintainer README and source repository",
+          "url": "https://github.com/q4a/sudachi"
+        }
+      ]
+    },
+    {
+      "id": "sameduck-megaduck",
+      "title": "Super Junior SameDuck",
+      "game": "Mega Duck / Cougar Boy handheld and Super Junior / Super Quique laptop models; also Game Boy",
+      "platform": "macOS Cocoa and SDL desktop builds for Windows, Linux, BSD, and other supported hosts",
+      "status": "Active; v1.0.3 released 2026-08-12.",
+      "project_url": "https://github.com/bbbbbr/SuperJuniorSameDuck",
+      "missing_fields": [
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Maintainer README on Mega Duck laptop hardware, emulation scope, and lineage",
+          "url": "https://github.com/bbbbbr/SuperJuniorSameDuck"
+        },
+        {
+          "label": "Maintainer releases; v1.0.3 dated 2026-08-12",
+          "url": "https://github.com/bbbbbr/SuperJuniorSameDuck/releases"
+        },
+        {
+          "label": "Primary Mega Duck documentation describing SameDuck hardware coverage",
+          "url": "https://github.com/bbbbbr/megaduck-info"
+        }
+      ]
+    },
+    {
+      "id": "supermodel",
+      "title": "Supermodel",
+      "game": "Sega Model 3 arcade games",
+      "platform": "Windows, Linux, macOS",
+      "status": "Active",
+      "project_url": "https://github.com/trzy/Supermodel",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official repository, supported platform, and source license",
+          "url": "https://github.com/trzy/Supermodel"
+        }
+      ]
+    },
+    {
+      "id": "tanuki3ds",
+      "title": "Tanuki3DS",
+      "game": "Nintendo 3DS",
+      "platform": "Windows, macOS, and Linux on x86_64 and arm64",
+      "status": "Active; v0.5.1 released 2026-04-13, with repository changes through 2026-06-28.",
+      "project_url": "https://github.com/burhanr13/Tanuki3DS",
+      "missing_fields": [
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Maintainer README, supported hosts, and compatibility notes",
+          "url": "https://github.com/burhanr13/Tanuki3DS"
+        },
+        {
+          "label": "Maintainer releases; latest v0.5.1 dated 2026-04-13",
+          "url": "https://github.com/burhanr13/Tanuki3DS/releases"
+        }
+      ]
+    },
+    {
+      "id": "ultrahle",
+      "title": "UltraHLE",
+      "game": "Nintendo 64",
+      "platform": "Windows 9x",
+      "status": "Discontinued historical emulator released in 1999.",
+      "project_url": "https://github.com/emu-russia/UltraHLE",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Community source archive identifies original UltraHLE source",
+          "url": "https://github.com/emu-russia/UltraHLE"
+        },
+        {
+          "label": "Archived source release listing",
+          "url": "https://github.com/emu-russia/UltraHLE/releases"
+        },
+        {
+          "label": "Academic legal-history article describing the 1999 HLE milestone",
+          "url": "https://cardozolawreview.com/wp-content/uploads/2024/02/2.SIGMON.45.1.6.Print_.pdf"
+        }
+      ]
+    },
+    {
+      "id": "vice",
+      "title": "VICE (Versatile Commodore Emulator)",
+      "game": "Games and software for Commodore 8-bit computers",
+      "platform": "Commodore 8-bit home computers",
+      "status": "Active; version 3.10 released 2025-12-24",
+      "project_url": "https://vice-emu.sourceforge.io/",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official VICE project, supported systems, and current release",
+          "url": "https://vice-emu.sourceforge.io/"
+        },
+        {
+          "label": "Official source code mirror",
+          "url": "https://github.com/VICE-Team/svn-mirror"
+        },
+        {
+          "label": "Official SourceForge project and source access",
+          "url": "https://sourceforge.net/projects/vice-emu/"
+        },
+        {
+          "label": "Official VICE user manual",
+          "url": "https://vice-emu.sourceforge.io/vice.pdf"
+        }
+      ]
+    },
+    {
+      "id": "vectrexy-vectrex",
+      "title": "Vectrexy",
+      "game": "All compatible Vectrex software",
+      "platform": "Milton Bradley Vectrex (1982)",
+      "status": "Active early-stage project",
+      "project_url": "https://github.com/amaiorano/vectrexy",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official source repository, status, and supported hosts",
+          "url": "https://github.com/amaiorano/vectrexy"
+        },
+        {
+          "label": "Official release history",
+          "url": "https://github.com/amaiorano/vectrexy/releases"
+        }
+      ]
+    },
+    {
+      "id": "virtual-jaguar-atari-jaguar",
+      "title": "Virtual Jaguar (libretro continuation)",
+      "game": "All compatible Atari Jaguar and Jaguar CD software",
+      "platform": "Atari Jaguar (1993) and Jaguar CD",
+      "status": "Active continuation; recent releases",
+      "project_url": "https://github.com/libretro/virtualjaguar-libretro",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official continuation repository and release history",
+          "url": "https://github.com/libretro/virtualjaguar-libretro"
+        },
+        {
+          "label": "Project site and current core documentation links",
+          "url": "https://jaguar.provenance-emu.com/"
+        }
+      ]
+    },
+    {
+      "id": "virtualfriend",
+      "title": "VirtualFriend",
+      "game": "Nintendo Virtual Boy",
+      "platform": "Apple Vision Pro and iOS",
+      "status": "Public source received updates through 2026-08-09; latest formal release is 1.0.0 from 2024-08-08.",
+      "project_url": "https://github.com/agg23/virtualfriend",
+      "missing_fields": [
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Maintainer repository and README",
+          "url": "https://github.com/agg23/virtualfriend"
+        },
+        {
+          "label": "Maintainer release history",
+          "url": "https://github.com/agg23/virtualfriend/releases"
+        },
+        {
+          "label": "Official App Store listing linked by the project",
+          "url": "https://apps.apple.com/app/virtualfriend-vb-emulator/id6479948317"
+        }
+      ]
+    },
+    {
+      "id": "visualboyadvance-m",
+      "title": "VisualBoyAdvance-M (VBA-M)",
+      "game": "Game Boy/Game Boy Color/Game Boy Advance",
+      "platform": "Windows, macOS, Linux, Android, libretro platforms",
+      "status": "Active community continuation of the original VisualBoyAdvance project.",
+      "project_url": "https://github.com/visualboyadvance-m/visualboyadvance-m",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official project repository, supported systems, and build instructions",
+          "url": "https://github.com/visualboyadvance-m/visualboyadvance-m"
+        },
+        {
+          "label": "Official project site",
+          "url": "https://visualboyadvance-m.org/"
+        }
+      ]
+    },
+    {
+      "id": "vita3k",
+      "title": "Vita3K",
+      "game": "Games for supported systems",
+      "platform": "PlayStation Vita",
+      "status": "Active experimental project; official compatibility tracker showed about 64% of tested titles playable on 2026-10-08",
+      "project_url": "https://github.com/Vita3K/Vita3K",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official source repository",
+          "url": "https://github.com/Vita3K/Vita3K"
+        },
+        {
+          "label": "Official project site",
+          "url": "https://vita3k.org/"
+        },
+        {
+          "label": "Official compatibility tracker",
+          "url": "https://vita3k.org/compatibility"
+        }
+      ]
+    },
+    {
+      "id": "winfellow",
+      "title": "WinFellow",
+      "game": "Commodore Amiga computer models",
+      "platform": "Windows 7, 8, 10, and 11",
+      "status": "Windows-focused; latest published release v0.5.11.1263 dated 2024-03-21; public source was updated in 2025",
+      "project_url": "https://petschau.github.io/WinFellow/",
+      "missing_fields": [
+        "subtype"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official project site and supported Windows versions",
+          "url": "https://petschau.github.io/WinFellow/"
+        },
+        {
+          "label": "Upstream repository and GPL-2.0 project license metadata",
+          "url": "https://github.com/petschau/WinFellow"
+        },
+        {
+          "label": "Upstream releases",
+          "url": "https://github.com/petschau/WinFellow/releases"
+        }
+      ]
+    },
+    {
+      "id": "winuae",
+      "title": "WinUAE",
+      "game": "Commodore Amiga computer models",
+      "platform": "Windows; experimental native SDL3/Qt ports for Linux and macOS are documented upstream",
+      "status": "Maintained Windows emulator; README also documents early/experimental SDL3 and Qt work for Unix-like hosts",
+      "project_url": "https://github.com/tonioni/WinUAE/",
+      "missing_fields": [
+        "subtype"
+      ],
+      "existing_sources": [
+        {
+          "label": "Upstream repository and Windows support information",
+          "url": "https://github.com/tonioni/WinUAE/"
+        },
+        {
+          "label": "Upstream Unix-like port notes",
+          "url": "https://github.com/tonioni/WinUAE/blob/master/README_unix.md"
+        }
+      ]
+    },
+    {
+      "id": "xqemu-original-xbox",
+      "title": "XQEMU",
+      "game": "Original Xbox and Sega Chihiro software",
+      "platform": "Microsoft Xbox (2001); Sega Chihiro arcade hardware",
+      "status": "Legacy / early-stage research project",
+      "project_url": "https://github.com/xqemu/xqemu",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official XQEMU project status and relationship to xemu",
+          "url": "https://xqemu.com/"
+        },
+        {
+          "label": "Official source repository",
+          "url": "https://github.com/xqemu/xqemu"
+        }
+      ]
+    },
+    {
+      "id": "xroar",
+      "title": "XRoar",
+      "game": "Dragon 32/64, Tandy Color Computer, and related 8-bit systems",
+      "platform": "Windows, macOS, Linux, and other supported systems",
+      "status": "Active",
+      "project_url": "https://www.6809.org.uk/xroar/",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official XRoar project and source downloads",
+          "url": "https://www.6809.org.uk/xroar/"
+        },
+        {
+          "label": "Official XRoar user manual",
+          "url": "https://www.6809.org.uk/xroar/doc/xroar.shtml"
+        }
+      ]
+    },
+    {
+      "id": "xenia-xbox-360",
+      "title": "Xenia (Master)",
+      "game": "All compatible Xbox 360 software",
+      "platform": "Microsoft Xbox 360 (2005)",
+      "status": "Maintained sporadically; original upstream",
+      "project_url": "https://github.com/xenia-project/xenia",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official Xenia source repository",
+          "url": "https://github.com/xenia-project/xenia"
+        },
+        {
+          "label": "Official project page describing Master and Canary status",
+          "url": "https://github.com/xenia-project/xenia-project.github.io/blob/main/index.html"
+        }
+      ]
+    },
+    {
+      "id": "xenia-canary-xbox-360",
+      "title": "Xenia Canary",
+      "game": "All compatible Xbox 360 software",
+      "platform": "Microsoft Xbox 360 (2005)",
+      "status": "Active community fork",
+      "project_url": "https://github.com/xenia-canary/xenia-canary",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official repository and status",
+          "url": "https://github.com/xenia-canary/xenia-canary"
+        },
+        {
+          "label": "Official quickstart and branch comparison",
+          "url": "https://github.com/xenia-canary/xenia-canary/wiki/Quickstart"
+        }
+      ]
+    },
+    {
+      "id": "yaba-sanshiro",
+      "title": "Yaba Sanshiro",
+      "game": "Sega Saturn",
+      "platform": "32-bit home console",
+      "status": "Maintained; official download page lists v1.20.46 binaries and matching GPL source",
+      "project_url": "https://www.yabasanshiro.com/",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official project site",
+          "url": "https://www.yabasanshiro.com/"
+        },
+        {
+          "label": "Official downloads and source availability",
+          "url": "https://www.yabasanshiro.com/download"
+        }
+      ]
+    },
+    {
+      "id": "yabause",
+      "title": "Yabause",
+      "game": "Sega Saturn",
+      "platform": "32-bit home console",
+      "status": "Legacy/low activity; latest stable version listed by the project is 0.9.15 from 2016-08-24",
+      "project_url": "https://github.com/Yabause/yabause",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Maintainer source repository",
+          "url": "https://github.com/Yabause/yabause"
+        },
+        {
+          "label": "Official project downloads and stable release date",
+          "url": "https://yabause.org/download/"
+        }
+      ]
+    },
+    {
+      "id": "ymir",
+      "title": "Ymir",
+      "game": "Sega Saturn",
+      "platform": "32-bit home console",
+      "status": "Active work in progress; repository activity verified through 2026-09-26",
+      "project_url": "https://github.com/ymir-emu/Ymir",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Maintainer repository and project description",
+          "url": "https://github.com/ymir-emu/Ymir"
+        },
+        {
+          "label": "Maintainer releases",
+          "url": "https://github.com/ymir-emu/Ymir/releases"
+        }
+      ]
+    },
+    {
+      "id": "zesarux",
+      "title": "ZEsarUX",
+      "game": "Sinclair computers and related 8-bit systems, including ZX Spectrum, ZX80/81, QL, and Z88",
+      "platform": "Windows, Linux, FreeBSD, macOS, Haiku, Raspberry Pi",
+      "status": "Active",
+      "project_url": "https://github.com/chernandezba/zesarux",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official ZEsarUX repository, supported systems, host builds, and source",
+          "url": "https://github.com/chernandezba/zesarux"
+        }
+      ]
+    },
+    {
+      "id": "zsnes-legacy",
+      "title": "ZSNES (legacy upstream; ZSNES 2 source fork)",
+      "game": "SNES/Super Famicom",
+      "platform": "Legacy: DOS/Windows/Linux; fork: Linux, macOS, BSD, and experimental Windows builds",
+      "status": "Original release line is discontinued; an independent portability fork continues to maintain the old codebase.",
+      "project_url": "https://github.com/xyproto/zsnes",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "ZSNES 2 fork documents original end date and migration work",
+          "url": "https://github.com/xyproto/zsnes"
+        },
+        {
+          "label": "Archived ZSNES release history",
+          "url": "https://zsnes-docs.sourceforge.net/html/history.htm"
+        }
+      ]
+    },
+    {
+      "id": "ares",
+      "title": "ares",
+      "game": "Games for supported systems",
+      "platform": "Multi-system consoles, handhelds, and computers",
+      "status": "Active",
+      "project_url": "https://ares-emu.net/",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official source repository and project goals",
+          "url": "https://github.com/ares-emulator/ares"
+        },
+        {
+          "label": "Official release history, including PC Engine changes",
+          "url": "https://github.com/ares-emulator/ares/releases"
+        },
+        {
+          "label": "Official downloads",
+          "url": "https://ares-emu.net/download"
+        },
+        {
+          "label": "Official supported systems and release status",
+          "url": "https://ares-emu.net/"
+        },
+        {
+          "label": "Official Sega 32X compatibility page",
+          "url": "https://ares-emu.net/compatibility/sega-32x"
+        }
+      ]
+    },
+    {
+      "id": "bsnes",
+      "title": "bsnes",
+      "game": "SNES/Super Famicom; Super Game Boy support",
+      "platform": "Windows, macOS, Linux, and libretro-supported platforms",
+      "status": "Active; the project publishes current nightly builds and retains stable releases.",
+      "project_url": "https://github.com/bsnes-emu/bsnes",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Project README and features",
+          "url": "https://github.com/bsnes-emu/bsnes"
+        },
+        {
+          "label": "Official release and nightly history",
+          "url": "https://github.com/bsnes-emu/bsnes/releases"
+        },
+        {
+          "label": "bsnes project background",
+          "url": "https://bsnes.github.io/about.html"
+        }
+      ]
+    },
+    {
+      "id": "epsxe",
+      "title": "ePSXe",
+      "game": "Games for supported systems",
+      "platform": "PlayStation",
+      "status": "Active; official site lists Windows and Android releases through 2025–2026",
+      "project_url": "https://epsxe.com/",
+      "missing_fields": [
+        "subtype",
+        "programming_language",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official ePSXe site and release information",
+          "url": "https://epsxe.com/"
+        },
+        {
+          "label": "Official Android edition",
+          "url": "https://epsxe.com/android/index.html"
+        }
+      ]
+    },
+    {
+      "id": "jgenesis",
+      "title": "jgenesis",
+      "game": "Genesis / Mega Drive; Sega CD / Mega CD; 32X; SG-1000; Master System / Mark III; Game Gear",
+      "platform": "8-bit and 16-bit Sega home systems, handheld, and add-ons",
+      "status": "Active; v0.14.1 release published 2026-08-22",
+      "project_url": "https://github.com/jsgroth/jgenesis",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Maintainer README and supported systems",
+          "url": "https://github.com/jsgroth/jgenesis"
+        },
+        {
+          "label": "Maintainer release notes",
+          "url": "https://github.com/jsgroth/jgenesis/releases"
+        }
+      ]
+    },
+    {
+      "id": "jzintv-intellivision",
+      "title": "jzIntv (FujiNet fork)",
+      "game": "All compatible Mattel Intellivision software",
+      "platform": "Mattel Intellivision (1979)",
+      "status": "Maintained fork with recent peripheral additions",
+      "project_url": "https://github.com/FujiNetWIFI/jzintv",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official fork repository, history, and build details",
+          "url": "https://github.com/FujiNetWIFI/jzintv"
+        }
+      ]
+    },
+    {
+      "id": "mgba",
+      "title": "mGBA",
+      "game": "Game Boy/Game Boy Color/Game Boy Advance",
+      "platform": "Windows, macOS, Linux, FreeBSD; ports for Nintendo 3DS, Switch, Wii, and Vita",
+      "status": "Maintained; latest stable release listed by the project is 0.10.5 (2025-03-09).",
+      "project_url": "https://mgba.io/",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official source repository and supported systems",
+          "url": "https://github.com/mgba-emu/mgba"
+        },
+        {
+          "label": "Official downloads and source instructions",
+          "url": "https://mgba.io/downloads.html"
+        },
+        {
+          "label": "Project announcement documents implementation language and source availability",
+          "url": "https://mgba.io/2014/12/09/announcing-mgba/"
+        }
+      ]
+    },
+    {
+      "id": "melonds",
+      "title": "melonDS",
+      "game": "Nintendo DS/DSi",
+      "platform": "Windows, macOS, Linux; project downloads also list Android and iOS builds",
+      "status": "Active; the official repository shows ongoing 2026 development.",
+      "project_url": "https://github.com/melonDS-emu/melonDS",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official emulator repository and build instructions",
+          "url": "https://github.com/melonDS-emu/melonDS"
+        },
+        {
+          "label": "Official download page",
+          "url": "https://melonds.org/download/"
+        },
+        {
+          "label": "Libretro core documentation distinguishes standalone and core features",
+          "url": "https://github.com/JesseTG/melonds-ds"
+        }
+      ]
+    },
+    {
+      "id": "nulldc",
+      "title": "nullDC",
+      "game": "Dreamcast",
+      "platform": "32-bit home console",
+      "status": "Discontinued archival project; maintainer archived the source repository on 2025-09-30",
+      "project_url": "https://github.com/skmp/nullDC-v1",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Maintainer archive and project status",
+          "url": "https://github.com/skmp/nullDC-v1"
+        },
+        {
+          "label": "Historical project site and release archive",
+          "url": "https://nulldc.emudev.org/"
+        }
+      ]
+    },
+    {
+      "id": "nulldc-rust",
+      "title": "nullDC (Rust rewrite)",
+      "game": "Dreamcast",
+      "platform": "32-bit home console",
+      "status": "Early-development project; current release/stability status is not documented by the maintainer",
+      "project_url": "https://github.com/skmp/nullDC-rust",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Maintainer repository and project description",
+          "url": "https://github.com/skmp/nullDC-rust"
+        }
+      ]
+    },
+    {
+      "id": "oboromi",
+      "title": "oboromi",
+      "game": "Nintendo Switch 2 software (prototype)",
+      "platform": "Nintendo Switch 2",
+      "status": "proof of concept",
+      "project_url": "https://github.com/0xNikilite/oboromi",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Maintainer source repository and README",
+          "url": "https://github.com/0xNikilite/oboromi"
+        }
+      ]
+    },
+    {
+      "id": "openmsx",
+      "title": "openMSX",
+      "game": "MSX home computers, including MSX2 and later variants",
+      "platform": "Windows, macOS, Linux, Android, OpenDingux",
+      "status": "Active",
+      "project_url": "https://openmsx.org/",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official openMSX description, source code, and host builds",
+          "url": "https://openmsx.org/"
+        },
+        {
+          "label": "Official source repository",
+          "url": "https://github.com/openMSX/openMSX"
+        },
+        {
+          "label": "Official compilation guide",
+          "url": "https://openmsx.org/manual/compile.html"
+        }
+      ]
+    },
+    {
+      "id": "pce-stenzek",
+      "title": "pce (stenzek)",
+      "game": "IBM XT/AT compatibles and documented 386, 486, and Pentium-class PC configurations",
+      "platform": "Windows build project is present; README does not give a complete host-platform matrix",
+      "status": "Experimental x86 PC emulator/simulator; repository last pushed 2025-08-09 and README marks the UI and debugger incomplete",
+      "project_url": "https://github.com/stenzek/pce",
+      "missing_fields": [
+        "subtype"
+      ],
+      "existing_sources": [
+        {
+          "label": "Project README, systems, emulated hardware, and experimental feature state",
+          "url": "https://github.com/stenzek/pce"
+        },
+        {
+          "label": "Project GPL-3.0 license",
+          "url": "https://github.com/stenzek/pce/blob/master/LICENSE"
+        }
+      ]
+    },
+    {
+      "id": "redream",
+      "title": "redream",
+      "game": "Dreamcast",
+      "platform": "32-bit home console",
+      "status": "Maintained closed-source emulator; official site lists stable and development builds",
+      "project_url": "https://redream.io/",
+      "missing_fields": [
+        "subtype",
+        "programming_language",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official project site",
+          "url": "https://redream.io/"
+        },
+        {
+          "label": "Official downloads",
+          "url": "https://redream.io/download"
+        }
+      ]
+    },
+    {
+      "id": "shadps4",
+      "title": "shadPS4",
+      "game": "Bloodborne",
+      "platform": "PlayStation 4",
+      "status": "Active; commercial titles can boot and some are playable, with compatibility changing rapidly",
+      "project_url": "https://github.com/shadps4-emu/shadPS4",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official source repository",
+          "url": "https://github.com/shadps4-emu/shadPS4"
+        },
+        {
+          "label": "Maintainer compatibility reports",
+          "url": "https://github.com/shadps4-compatibility/shadps4-game-compatibility"
+        }
+      ]
+    },
+    {
+      "id": "suyu",
+      "title": "suyu",
+      "game": "Nintendo Switch games and homebrew",
+      "platform": "Nintendo Switch",
+      "status": "active",
+      "project_url": "https://github.com/suyu-emu/suyu-main",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Current official repository and release status",
+          "url": "https://github.com/suyu-emu/suyu-main"
+        },
+        {
+          "label": "Official archived v0.0.4 repository",
+          "url": "https://github.com/suyu-emu/suyu-v0.0.4"
+        }
+      ]
+    },
+    {
+      "id": "v86-browser-pc",
+      "title": "v86",
+      "game": "Browser-emulated x86 PCs running FreeDOS, MS-DOS, Windows 1.x/3.x/95/98/ME/NT/2000, and other guest systems",
+      "platform": "Modern web browsers",
+      "status": "Maintained browser emulator; project README documents DOS and Windows guest support",
+      "project_url": "https://github.com/copy/v86",
+      "missing_fields": [
+        "subtype"
+      ],
+      "existing_sources": [
+        {
+          "label": "Project README and guest operating-system examples",
+          "url": "https://github.com/copy/v86"
+        },
+        {
+          "label": "Project BSD-2-Clause license",
+          "url": "https://github.com/copy/v86/blob/master/LICENSE"
+        }
+      ]
+    },
+    {
+      "id": "vamiga",
+      "title": "vAmiga",
+      "game": "Commodore Amiga 500, 1000, and 2000",
+      "platform": "macOS",
+      "status": "Maintained; v5.0b2 prerelease dated 2026-09-01; v4.5 is the latest stable release",
+      "project_url": "https://github.com/dirkwhoffmann/vAmiga",
+      "missing_fields": [
+        "subtype"
+      ],
+      "existing_sources": [
+        {
+          "label": "Project README and supported Amiga models",
+          "url": "https://github.com/dirkwhoffmann/vAmiga"
+        },
+        {
+          "label": "Project releases",
+          "url": "https://github.com/dirkwhoffmann/vAmiga/releases"
+        },
+        {
+          "label": "Project license details",
+          "url": "https://github.com/dirkwhoffmann/vAmiga/blob/master/LICENSE"
+        }
+      ]
+    },
+    {
+      "id": "xemu-original-xbox",
+      "title": "xemu",
+      "game": "All compatible original Xbox software",
+      "platform": "Microsoft Xbox (2001)",
+      "status": "Active",
+      "project_url": "https://xemu.app/",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Official project site and current version",
+          "url": "https://xemu.app/"
+        },
+        {
+          "label": "Official source repository",
+          "url": "https://github.com/xemu-project/xemu"
+        }
+      ]
+    },
+    {
+      "id": "yuzu",
+      "title": "yuzu",
+      "game": "Nintendo Switch games and homebrew",
+      "platform": "Nintendo Switch",
+      "status": "discontinued",
+      "project_url": "https://github.com/yuzu-emu/yuzu-emu.github.io",
+      "missing_fields": [
+        "subtype",
+        "updated"
+      ],
+      "existing_sources": [
+        {
+          "label": "Maintainer shutdown announcement",
+          "url": "https://github.com/yuzu-emu/yuzu-emu.github.io/blob/master/index.html"
+        },
+        {
+          "label": "Original official source repository URL",
+          "url": "https://github.com/yuzu-emu/yuzu"
+        }
+      ]
+    }
+  ]
+}

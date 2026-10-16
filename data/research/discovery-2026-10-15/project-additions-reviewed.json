@@ -1416,6 +1416,145 @@
           "url": "https://api.github.com/repos/BuffJesus/FableDecomp"
         }
       ]
+    },
+    {
+      "id": "dead-rising-2-case-west-recomp",
+      "title": "Dead Rising 2: Case West Recompilation",
+      "game": "Dead Rising 2: Case West",
+      "target_type": "Game",
+      "platform": "Xbox 360 XBLA → Windows x86-64, Linux x86-64, Steam Deck, and Apple silicon macOS",
+      "kind": "Recompilation",
+      "status": "Final release v1.1.2 was published 2026-10-14. The maintainer reports the single-player campaign playable from start to finish and online two-player co-op through the XenonLive launcher. Active development has stopped; Steam Deck hardware testing is incomplete.",
+      "summary": "Ahead-of-time recompilation of the Xbox 360 XBLA game into a native PC runtime using XenonRecomp and XenosRecomp, with Vulkan rendering and XMA audio. The repository contains no game data; the player must supply their own Case West package. The final release supports the single-player campaign and launcher-mediated co-op.",
+      "project_url": "https://github.com/wivi514/Dead_Rising_2_Case_West_Xenon_Recomp",
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "strategy": "Static recompilation of Xbox 360 PowerPC code through XenonRecomp/XenosRecomp with a native Vulkan runtime",
+      "source_available": "Public source repository (PolyForm Noncommercial 1.0.0); game data is not included and must come from the player’s own copy",
+      "programming_language": "C++",
+      "subtype": "Xbox 360 XBLA static recompilation to native PC",
+      "sources": [
+        {
+          "label": "Project README: method, requirements, platforms, and completion claims",
+          "url": "https://github.com/wivi514/Dead_Rising_2_Case_West_Xenon_Recomp#readme"
+        },
+        {
+          "label": "Final release v1.1.2",
+          "url": "https://github.com/wivi514/Dead_Rising_2_Case_West_Xenon_Recomp/releases/tag/v1.1.2"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/wivi514/Dead_Rising_2_Case_West_Xenon_Recomp/languages"
+        }
+      ]
+    },
+    {
+      "id": "lego-racers-win32-decomp",
+      "title": "LEGO Racers Win32 Decompilation",
+      "game": "LEGO Racers",
+      "target_type": "Game",
+      "platform": "Original Microsoft Windows 32-bit PC release; reconstructed LEGORacers.exe and GolDP.dll",
+      "kind": "Decompilation",
+      "status": "Work in progress. The README says LEGORacers.exe is almost fully decompiled and most of GolDP.dll is complete; a rebuilt game is playable, but the software renderer is not functional.",
+      "summary": "Source reconstruction of the 1999 Windows executable and GolDP.dll, with reccmp comparing rebuilt output against the retail binaries. The repository targets 32-bit Windows; Microsoft Visual C++ 6.0 is recommended for closest matching. The project is not the separate LEGO Racers Portable adaptation.",
+      "project_url": "https://github.com/isledecomp/racers",
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "strategy": "Reccmp-guided source decompilation and instruction matching against the original Windows binaries",
+      "source_available": "Public source repository under LGPL-3.0; retail binaries are required for local matching verification and are not distributed here",
+      "programming_language": "C++",
+      "subtype": "32-bit Windows executable and DLL reconstruction",
+      "sources": [
+        {
+          "label": "Project README: target binaries, status, and build requirements",
+          "url": "https://github.com/isledecomp/racers#readme"
+        },
+        {
+          "label": "Continuous build release",
+          "url": "https://github.com/isledecomp/racers/releases/tag/continuous"
+        },
+        {
+          "label": "LGPL-3.0 license",
+          "url": "https://github.com/isledecomp/racers/blob/master/LICENSE"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/isledecomp/racers/languages"
+        },
+        {
+          "label": "LEGO official history and development transcript",
+          "url": "https://www.lego.com/cdn/cs/set/assets/blt8a05e16ed605493b/bits_n_bricks_s02e26_feature_and_transcript.pdf"
+        }
+      ]
+    },
+    {
+      "id": "lego-racers-portable-api-port",
+      "title": "LEGO Racers Portable API Port",
+      "game": "LEGO Racers",
+      "target_type": "Game",
+      "platform": "Windows x64, macOS arm64, Linux x64, and Web (Warp)",
+      "kind": "API Translation",
+      "status": "Development status is unclear. The README lists Windows, macOS, Linux, and Web targets but leaves its per-platform status cells blank; it says work is ongoing and publishes no GitHub release. The README requires an existing copy of the game.",
+      "summary": "A portability project based on the LEGO Racers decompilation. It replaces Windows-only input, audio, DirectDraw/Direct3D, filesystem, and registry APIs with SDL3, miniaudio, and POSIX shims. Rendering options include SDL3 GPU backends (Vulkan, Metal, or Direct3D 12), OpenGL 3.3, and OpenGL ES/WebGL2. Original game data is user-supplied.",
+      "project_url": "https://github.com/isledecomp/racers-portable",
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "strategy": "Decompilation-based API/runtime portability port, mapping legacy Win32/DirectX services onto SDL3, miniaudio, POSIX, and cross-platform graphics backends",
+      "source_available": "Public source repository under LGPL-3.0; original LEGO Racers game data is required and not included",
+      "programming_language": "C++",
+      "subtype": "Game-specific API and runtime portability layer",
+      "sources": [
+        {
+          "label": "Project README: API substitutions, rendering backends, and platform status",
+          "url": "https://github.com/isledecomp/racers-portable#readme"
+        },
+        {
+          "label": "Owner-linked browser build",
+          "url": "https://warp.parts/"
+        },
+        {
+          "label": "LGPL-3.0 license",
+          "url": "https://github.com/isledecomp/racers-portable/blob/master/LICENSE"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/isledecomp/racers-portable/languages"
+        }
+      ]
+    },
+    {
+      "id": "step-on-it-lego-racers-reimplementation",
+      "title": "Step On It: LEGO Racers Fan Reimplementation",
+      "game": "LEGO Racers",
+      "target_type": "Game",
+      "platform": "Windows, macOS (Apple silicon and Intel), Linux / Steam Deck, Android 10+, and browser",
+      "kind": "Reimplementation",
+      "status": "Released. The creator’s 1.1.2 desktop update was posted 2026-10-15; the page lists Android v1.1.1. The creator advertises online multiplayer and four-player local split-screen. The source code is not published.",
+      "summary": "A fan recreation of LEGO Racers in a new engine, with restored shortcuts and cut content, new tracks, online multiplayer, split-screen, and mobile support. It reuses original game assets and credits the isledecomp project; the creator states it is unaffiliated with LEGO. Downloadable builds and a browser version are linked from the creator’s project page.",
+      "project_url": "https://navigatorsharp.itch.io/steponit",
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "strategy": "Fan reimplementation in a new engine, extending the original game with restored content and modern multiplayer features",
+      "source_available": "No public source repository; the creator distributes builds through itch.io and steponit.online",
+      "subtype": "Multi-platform fan remake with restored content and online/local multiplayer",
+      "sources": [
+        {
+          "label": "Creator’s project page: status, platforms, features, and requirements",
+          "url": "https://navigatorsharp.itch.io/steponit"
+        },
+        {
+          "label": "Creator’s 1.1.2 development update",
+          "url": "https://navigatorsharp.itch.io/steponit/devlog/1709345/112-update-graphics-updates-track-editing-and-more"
+        },
+        {
+          "label": "Creator-linked browser version",
+          "url": "https://steponit.online/"
+        },
+        {
+          "label": "LEGO official history and original game context",
+          "url": "https://www.lego.com/cdn/cs/set/assets/blt8a05e16ed605493b/bits_n_bricks_s02e26_feature_and_transcript.pdf"
+        }
+      ]
     }
   ]
 }

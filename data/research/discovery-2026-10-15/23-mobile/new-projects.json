@@ -1,0 +1,70 @@
+{
+  "updated": "2026-10-15",
+  "scope": "New, verifiable console-origin native mobile ports/recompilations with Android ARM64 targets; desktop outputs are included when the same project supports them.",
+  "projects": [
+    {
+      "id": "super-mario-galaxy-android-port",
+      "title": "Galaxy Android — Super Mario Galaxy Native Android Port",
+      "game": "Super Mario Galaxy",
+      "target_type": "Game",
+      "platform": "Nintendo Wii → Android ARM64 (arm64-v8a)",
+      "kind": "Reimplementation",
+      "status": "Experimental early release; the latest published GitHub release found is v0.0.1c (2026-10-15), with an Android APK. The maintainer lists Android 11/API 30+, arm64-v8a, Vulkan 1.0 or OpenGL ES 3.2, and a user-supplied Wii disc image. The README does not establish full-game completion or broad device compatibility.",
+      "summary": "Native Android ARM64 port of Super Mario Galaxy built on the Petari Wii decompilation and GalaxyQuest mobile-port work. It adds Android rendering, touch/gyro/gamepad input, and a disc-import flow; the repository and APK exclude the game's assets and require the user's own disc dump.",
+      "project_url": "https://github.com/OpenPort-Labs/Galaxy-Android",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based native ARM64 port; project documentation describes Vulkan 1.0 rendering with an OpenGL ES 3.2 backend.",
+      "language": "",
+      "source_available": "Public source repository and Android APK release; user-provided Super Mario Galaxy disc required; game data is not included.",
+      "first_found": "2026-10-15",
+      "programming_language": "C++",
+      "subtype": "Wii decompilation-based Android port; early release and limited device validation",
+      "sources": [
+        {
+          "label": "Maintainer README: Android requirements, controls, rendering, and disc requirements",
+          "url": "https://github.com/OpenPort-Labs/Galaxy-Android/blob/main/README.md"
+        },
+        {
+          "label": "Latest published release found: v0.0.1c APK and release notes",
+          "url": "https://github.com/OpenPort-Labs/Galaxy-Android/releases/tag/v0.0.1c"
+        },
+        {
+          "label": "GitHub repository language breakdown (C++ primary language)",
+          "url": "https://api.github.com/repos/OpenPort-Labs/Galaxy-Android/languages"
+        }
+      ]
+    },
+    {
+      "id": "nhl07-original-xbox-android-port",
+      "title": "NHL 07 Original Xbox Native Android Port",
+      "game": "NHL 07 (Original Xbox, USA)",
+      "target_type": "Game",
+      "platform": "Original Xbox → Android ARM64 (arm64-v8a)",
+      "kind": "Recompilation",
+      "status": "Playable experimental Android release v0.4.3 (2026-10-15), with APK and matching source archive. Android 10+, ARM64, and OpenGL ES 3.0 are required; the Anbernic RG477M/Mali is the validated target. Release validation covers an active five-minute match, audio, and HOME/return cycles, but not every season, mode, or save/load scenario; other devices are not comprehensively tested.",
+      "summary": "Native Android ARM64 port of the USA Original Xbox NHL 07, with touch and controller mappings, an OpenGL ES renderer, English/Russian text settings, and a converter for supported NHL Legacy Xbox 360 roster updates. Users provide their own Xbox disc image; the repository and release do not include the full disc, XBE, or VIV game files.",
+      "project_url": "https://github.com/Wannamingo/NHL07-Android",
+      "updated": "2026-10-15",
+      "strategy": "Native recompilation of the Original Xbox game code for ARM64, with Android launcher/input/audio integration and a system OpenGL ES renderer.",
+      "language": "",
+      "source_available": "Public source repository and v0.4.3 APK/source release; user-supplied NHL 07 (USA) Original Xbox disc image required; full game files are not included.",
+      "first_found": "2026-10-15",
+      "programming_language": "C",
+      "subtype": "Experimental Xbox-to-Android recompilation; Anbernic RG477M/Mali validated",
+      "sources": [
+        {
+          "label": "Maintainer README: platform requirements, features, validation scope, and legal/data requirements",
+          "url": "https://github.com/Wannamingo/NHL07-Android/blob/main/README.md"
+        },
+        {
+          "label": "v0.4.3 release: Android APK, source archive, and release notes",
+          "url": "https://github.com/Wannamingo/NHL07-Android/releases/tag/v0.4.3"
+        },
+        {
+          "label": "GitHub repository language breakdown (C primary language)",
+          "url": "https://api.github.com/repos/Wannamingo/NHL07-Android/languages"
+        }
+      ]
+    }
+  ]
+}

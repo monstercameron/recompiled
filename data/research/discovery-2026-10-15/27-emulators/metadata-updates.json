@@ -1,0 +1,136 @@
+{
+  "updated": "2026-10-15",
+  "scope": "Supplemental system/software subtype labels for 10 existing emulator rows that had blank subtype metadata after the prior 11-emulators batch. These labels refine identification without upgrading maturity or compatibility claims.",
+  "updates": [
+    {
+      "id": "aethersx2",
+      "fields": {
+        "subtype": "Android PlayStation 2 system emulator"
+      },
+      "sources": [
+        {
+          "label": "Official AetherSX2 site/archive",
+          "url": "https://www.aethersx2.com/"
+        }
+      ],
+      "evidence_note": "The official site documents AetherSX2 as an Android PlayStation 2 emulator. The existing row already records the shutdown and source-availability caveats; this only fills the missing subtype."
+    },
+    {
+      "id": "altirra",
+      "fields": {
+        "subtype": "Atari 8-bit home-computer emulator"
+      },
+      "sources": [
+        {
+          "label": "Maintainer's official project page",
+          "url": "https://www.virtualdub.org/altirra.html"
+        }
+      ],
+      "evidence_note": "The maintainer page documents Altirra as an Atari 8-bit computer emulator and lists source downloads/builds."
+    },
+    {
+      "id": "applewin",
+      "fields": {
+        "subtype": "Windows Apple II family emulator"
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository and README",
+          "url": "https://github.com/AppleWin/AppleWin"
+        }
+      ],
+      "evidence_note": "The upstream repository describes AppleWin as an Apple II emulator; its builds target Windows."
+    },
+    {
+      "id": "chonkystation3",
+      "fields": {
+        "subtype": "Early-stage PlayStation 3 system emulator"
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository and README",
+          "url": "https://github.com/liuk7071/ChonkyStation3"
+        }
+      ],
+      "evidence_note": "The maintainer describes this as a PlayStation 3 emulator and reports very early commercial-game boot support; the subtype preserves its experimental status."
+    },
+    {
+      "id": "chonkystation4",
+      "fields": {
+        "subtype": "Early-stage PlayStation 4 system emulator"
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository and README",
+          "url": "https://github.com/liuk7071/ChonkyStation4"
+        }
+      ],
+      "evidence_note": "The maintainer describes this as a PlayStation 4 emulator and documents a compatibility list; the subtype preserves its experimental status."
+    },
+    {
+      "id": "xqemu-original-xbox",
+      "fields": {
+        "subtype": "QEMU-derived original Xbox and Sega Chihiro system emulator"
+      },
+      "sources": [
+        {
+          "label": "Official project status page",
+          "url": "https://xqemu.com/"
+        }
+      ],
+      "evidence_note": "The project page identifies XQEMU as an Xbox and Chihiro emulator built on QEMU and points general users to the xemu fork."
+    },
+    {
+      "id": "cdi-emulator-philips-cdi",
+      "fields": {
+        "subtype": "Closed-source Philips CD-i optical-disc console emulator"
+      },
+      "sources": [
+        {
+          "label": "Official project page",
+          "url": "https://www.cdiemu.org/site/welcome.htm"
+        }
+      ],
+      "evidence_note": "The maintainer page identifies the target as Philips CD-i and publishes beta player downloads; the existing row accurately records the lack of public source."
+    },
+    {
+      "id": "adam-plus-coleco-adam",
+      "fields": {
+        "subtype": "ColecoVision console and Coleco ADAM home-computer emulator"
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository and README",
+          "url": "https://github.com/dvdh1961/ADAMP"
+        }
+      ],
+      "evidence_note": "The maintainer repository describes ADAM+ as an emulator for ColecoVision and Coleco ADAM."
+    },
+    {
+      "id": "nexium",
+      "fields": {
+        "subtype": "Experimental Nintendo Switch system emulator"
+      },
+      "sources": [
+        {
+          "label": "Official project site",
+          "url": "https://nexium-emu.org/"
+        }
+      ],
+      "evidence_note": "The project site describes NeXium as a Nintendo Switch emulator; early support and project-status wording remain in the existing status and summary fields."
+    },
+    {
+      "id": "pound",
+      "fields": {
+        "subtype": "Prototype Nintendo Switch and Switch 2 system emulator"
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository and README",
+          "url": "https://github.com/pound-emu/pound"
+        }
+      ],
+      "evidence_note": "The maintainer describes Pound as an early emulator project for Switch-family software; the subtype labels it as a prototype rather than implying usable compatibility."
+    }
+  ]
+}

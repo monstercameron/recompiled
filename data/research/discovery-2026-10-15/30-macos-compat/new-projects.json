@@ -1,0 +1,129 @@
+{
+  "updated": "2026-10-15",
+  "projects": [
+    {
+      "id": "mtld3d-macos-d3d9-metal",
+      "title": "mtld3d",
+      "game": "Windows Direct3D 9 applications and games through Wine (multi-title)",
+      "target_type": "Software",
+      "platform": "Direct3D 9 → Metal through Wine on macOS 15/26 (Apple silicon) or macOS 15 (Intel CI); requires a Wine build based on CrossOver 26, with CrossOver 27 arm64 Wine tested locally",
+      "kind": "API Translation",
+      "status": "Active; v0.13.0 was released 2026-10-13. The maintainer's tested list includes World of Warcraft 1.12/3.3.5a, Half-Life 2, Team Fortress 2, Grand Theft Auto IV, Call of Duty: Modern Warfare 2, Age of Empires II: HD Edition, League of Legends 4.20, and several Need for Speed titles. Those are title-specific tests, not a universal compatibility guarantee.",
+      "summary": "Open-source Direct3D 9 implementation for Wine on macOS. Its Wine DLL implements the D3D9-facing API, translates shader models 1–3 from DXSO to Metal Shading Language, and submits rendering through Metal. A 64-bit Wine prefix is required; 32-bit games use WoW64. The project documents its tested games and unsupported D3D9 behavior separately.",
+      "project_url": "https://github.com/athei/mtld3d",
+      "updated": "2026-10-15",
+      "strategy": "Direct3D 9 API implementation and shader/command translation to Metal inside Wine",
+      "source_available": "Public source repository under the zlib license; Wine is a separate runtime dependency",
+      "first_found": "2026-10-15",
+      "programming_language": "Rust",
+      "subtype": "macOS Direct3D 9 graphics API layer for Wine",
+      "sources": [
+        {
+          "label": "Project README: D3D9-to-Metal architecture, requirements, and licensing",
+          "url": "https://github.com/athei/mtld3d"
+        },
+        {
+          "label": "Latest mtld3d release v0.13.0",
+          "url": "https://github.com/athei/mtld3d/releases/tag/v0.13.0"
+        },
+        {
+          "label": "Maintainer's tested-games list and per-title status",
+          "url": "https://github.com/athei/mtld3d/blob/main/docs/GAMES.md"
+        },
+        {
+          "label": "Maintainer's implementation status and documented limitations",
+          "url": "https://github.com/athei/mtld3d/blob/main/docs/STATUS.md"
+        }
+      ]
+    },
+    {
+      "id": "hangover-arm64-linux-wine",
+      "title": "Hangover",
+      "game": "Windows x86/x86-64 applications on ARM64 Linux (multi-title)",
+      "target_type": "Software",
+      "platform": "Windows x86-32/x86-64 applications → ARM64 Linux using ARM64 Wine; ARM32 Windows applications can also run on x86-64 Linux",
+      "kind": "API Translation",
+      "status": "Active; hangover-11.16 was released 2026-08-30. The upstream README lists Debian 11–13 and Ubuntu 20.04–25.10 packages. The project documents app-level x86 translation through FEX and/or Box64; its README does not claim a general game compatibility rate.",
+      "summary": "Wine-based Windows compatibility layer for ARM64 Linux. Hangover keeps Wine native on ARM64 and uses per-application emulator DLLs to translate x86/x86-64 instructions with FEX and/or Box64, rather than emulating an entire machine or running an x86 Wine installation. Wine handles Windows APIs; optional graphics components such as DXVK remain separate and require a suitable Vulkan driver.",
+      "project_url": "https://github.com/AndreRH/hangover",
+      "updated": "2026-10-15",
+      "strategy": "Native ARM64 Wine API compatibility plus per-process x86/x86-64 ISA translation through FEX or Box64",
+      "source_available": "Public source repository under LGPL-2.1; submodules and bundled components retain their own licenses",
+      "first_found": "2026-10-15",
+      "programming_language": "",
+      "subtype": "ARM64 Linux Windows-application compatibility layer",
+      "sources": [
+        {
+          "label": "Hangover README: supported guest and host architectures, components, packaging, and status",
+          "url": "https://github.com/AndreRH/hangover"
+        },
+        {
+          "label": "Latest Hangover release 11.16",
+          "url": "https://github.com/AndreRH/hangover/releases/tag/hangover-11.16"
+        },
+        {
+          "label": "Hangover build documentation: FEX and Box64 integration",
+          "url": "https://github.com/AndreRH/hangover/blob/master/docs/COMPILE.md"
+        }
+      ]
+    },
+    {
+      "id": "x87sidecar-rosetta-jit",
+      "title": "x87sidecar",
+      "game": "x86 programs with x87 workloads, including older Windows games under Wine (multi-title)",
+      "target_type": "Software",
+      "platform": "x86/x86-64 macOS or Windows applications through Wine → Apple silicon macOS ARM64 using Rosetta 2; Windows integration requires the maintainer's patched Wine handshake",
+      "kind": "Emulator",
+      "status": "Active; v1.9.0 was released 2026-10-13. The project says CI runs on macOS 26 and that it also runs on macOS 27; its probe checks whether the installed Rosetta runtime is supported. It accelerates only documented x87 instruction ranges, while stock Rosetta handles other instructions.",
+      "summary": "A specialist ISA-translation extension for Apple Rosetta 2 on Apple silicon, not a general x86 emulator or Windows API layer. It hooks Rosetta's x86 translator and emits AArch64 code for selected x87 floating-point blocks; unhandled instructions fall through to stock Rosetta. For Windows programs, the project requires a patched Wine build that performs its cooperative sidecar handshake. Its README documents arithmetic-precision limits and notes that its large speedup figures come from microbenchmarks, not whole-game performance.",
+      "project_url": "https://github.com/athei/x87sidecar",
+      "updated": "2026-10-15",
+      "strategy": "Rosetta-integrated JIT translation of selected x87 instructions to AArch64",
+      "source_available": "Public MIT-licensed source; requires Apple's proprietary Rosetta 2, and Wine support uses a separately published patched Wine build",
+      "first_found": "2026-10-15",
+      "programming_language": "C++",
+      "subtype": "x87 ISA translation/JIT extension for Rosetta 2",
+      "sources": [
+        {
+          "label": "Project README: architecture, app scope, compatibility, and limitations",
+          "url": "https://github.com/athei/x87sidecar"
+        },
+        {
+          "label": "Latest x87sidecar release v1.9.0",
+          "url": "https://github.com/athei/x87sidecar/releases/tag/v1.9.0"
+        },
+        {
+          "label": "Patched Wine builds used for Windows application integration",
+          "url": "https://github.com/athei/wine-build"
+        }
+      ]
+    },
+    {
+      "id": "ferrum-apple-silicon-windows-compat",
+      "title": "Ferrum",
+      "game": "Windows x86/x86-64 games on Apple silicon (multi-title; no end-to-end game is yet claimed)",
+      "target_type": "Software",
+      "platform": "Planned Windows x86/x86-64 → Apple silicon macOS ARM64 stack using FEX, Wine, DXVK/vkd3d-proton, and MoltenVK/Metal; the project says it is designed not to depend on Rosetta",
+      "kind": "API Translation",
+      "status": "In development; no public Ferrum release or source is available as of 2026-10-15. The maintainer reports a D3D11 device and rendered frame reaching a macOS window, but explicitly says no full game has been driven end to end. The published architecture and delivery policy are not claims that the complete stack has shipped.",
+      "summary": "A proprietary compatibility engine in development for Windows games on Apple silicon. Its published design uses native ARM64 host components, FEX for x86/x86-64 instruction translation, Wine for Windows APIs, Direct3D-to-Vulkan layers, and MoltenVK to reach Metal. The implementation is private; the public GitHub repository is documentation only, and the maintainer does not claim a playable full-game result yet.",
+      "project_url": "https://github.com/PyroSoftPro/Ferrum",
+      "updated": "2026-10-15",
+      "strategy": "Planned native ARM64 compatibility stack: FEX ISA translation, Wine API compatibility, Direct3D-to-Vulkan, and Vulkan-to-Metal",
+      "source_available": "Proprietary and closed source; public GitHub repository contains documentation only and no public Ferrum release was listed",
+      "first_found": "2026-10-15",
+      "programming_language": "",
+      "subtype": "Apple silicon Windows-game compatibility engine (in development)",
+      "sources": [
+        {
+          "label": "Ferrum public repository: development status, source availability, and architecture caveats",
+          "url": "https://github.com/PyroSoftPro/Ferrum"
+        },
+        {
+          "label": "Official Ferrum project page: architecture, current limits, and no end-to-end game claim",
+          "url": "https://www.pyrosoft.pro/ferrum/"
+        }
+      ]
+    }
+  ]
+}

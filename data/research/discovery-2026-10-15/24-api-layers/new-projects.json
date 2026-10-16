@@ -1,0 +1,283 @@
+{
+  "updated": "2026-10-15",
+  "scope": "Additional source-verified graphics and application API translation projects, emphasizing Direct3D generations missing from the catalog, mobile graphics compatibility, and distinct preservation/modding runtimes. No database or generated catalog edits are included.",
+  "projects": [
+    {
+      "id": "d7vk",
+      "title": "D7VK",
+      "game": "Legacy Direct3D 3/5/6/7 applications and games (multi-title)",
+      "target_type": "Game",
+      "platform": "Direct3D 3/5/6/7 immediate-mode calls → DXVK's D3D9/Vulkan backend; primarily Linux through Wine. Windows deployment is explicitly untested and not the project's main use case.",
+      "kind": "API Translation",
+      "status": "Active; v2.3 was published 2026-09-29. D3D7 remains the primary target; D3D6/5/3 are supported with more limited coverage, and retained-mode applications are unsupported.",
+      "summary": "A Vulkan-based compatibility layer for legacy Direct3D applications. It provides a minimal D3D 3/5/6/7-on-D3D9 implementation and uses DXVK's D3D9 backend for Vulkan rendering; it is not intended as a general DirectDraw-only 2D replacement.",
+      "project_url": "https://github.com/WinterSnowfall/d7vk",
+      "updated": "2026-10-15",
+      "strategy": "Legacy Direct3D immediate-mode API → D3D9 frontend → Vulkan through DXVK",
+      "language": "",
+      "source_available": "Public source repository (zlib/libpng license)",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Legacy Direct3D-to-Vulkan compatibility layer",
+      "sources": [
+        {
+          "label": "Maintainer README: API range, translation path, supported host, and unsupported modes",
+          "url": "https://github.com/WinterSnowfall/d7vk/blob/devel/README.md"
+        },
+        {
+          "label": "Maintainer release v2.3: latest published release at review time",
+          "url": "https://github.com/WinterSnowfall/d7vk/releases/tag/v2.3"
+        }
+      ]
+    },
+    {
+      "id": "dxvk-sarek",
+      "title": "DXVK-Sarek",
+      "game": "Windows Direct3D 3/5/6/7/8/9/10/11 games (multi-title)",
+      "target_type": "Game",
+      "platform": "Direct3D 3/5/6/7/8/9/10/11 → Vulkan 1.1/1.2; Linux through Wine/Proton, with documented use through ARM translation stacks and Android PC compatibility frontends. Mobile GPU rendering may be degraded or incorrect.",
+      "kind": "API Translation",
+      "status": "Active; v1.14.1 was published 2026-10-12. The project maintains a DXVK 1.10.x-based backend for older Vulkan-capable GPUs; its maintainer warns that optionalized missing extensions can result in visual errors, especially on Mali/Adreno devices.",
+      "summary": "A DXVK-derived Direct3D-to-Vulkan compatibility layer aimed at GPUs and drivers below current upstream DXVK requirements. It supports Direct3D 3 through 11 and backports selected fixes and game-specific changes to a Vulkan 1.1/1.2-era backend; support on mobile GPUs is experimental and may show rendering defects.",
+      "project_url": "https://github.com/pythonlover02/DXVK-Sarek",
+      "updated": "2026-10-15",
+      "strategy": "Direct3D 3–11 API translation to Vulkan with a legacy-driver-compatible DXVK backend",
+      "language": "",
+      "source_available": "Public source repository (zlib/libpng license)",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Legacy-hardware Direct3D-to-Vulkan compatibility layer",
+      "sources": [
+        {
+          "label": "Maintainer README: API range, Vulkan requirements, host support, and mobile GPU caveats",
+          "url": "https://github.com/pythonlover02/DXVK-Sarek/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer release v1.14.1: version, requirements, and build details",
+          "url": "https://github.com/pythonlover02/DXVK-Sarek/releases/tag/v1.14.1"
+        }
+      ]
+    },
+    {
+      "id": "vegas-adreno-dxvk",
+      "title": "VEGAS",
+      "game": "Windows Direct3D games on Android (multi-title)",
+      "target_type": "Game",
+      "platform": "DXVK-supported Direct3D calls → Vulkan on Android ARM64, specifically Qualcomm Adreno GPUs; runs as a graphics component inside Wine-based frontends such as Winlator or Star Emulator.",
+      "kind": "API Translation",
+      "status": "Community-maintained Adreno-focused fork. Public releases include v2.7.3 stable (2026-06-08), a final v2.4.1-line build (2026-08-05), and a separate VEGAS Sarek line; the public source repository's latest commit was 2026-08-14. These are separate build lines, not a single sequential version history.",
+      "summary": "An Adreno-tuned DXVK/GPLAsync graphics layer for running Windows games through Wine-based Android frontends. It provides Vulkan output and project-specific GPU tuning; it is one component of the surrounding Windows-on-Android stack, not a standalone Windows API compatibility environment.",
+      "project_url": "https://github.com/isygold/Vegas-Private",
+      "updated": "2026-10-15",
+      "strategy": "DXVK/GPLAsync Direct3D graphics translation to Vulkan, with Qualcomm Adreno-oriented tuning",
+      "language": "",
+      "source_available": "Public source repository and separately published binary packages (zlib license)",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Android/Adreno-specific Windows graphics translation layer",
+      "sources": [
+        {
+          "label": "Project source README: Adreno target and implementation features",
+          "url": "https://github.com/isygold/Vegas-Private"
+        },
+        {
+          "label": "Public release repository: project scope, release lines, and package availability",
+          "url": "https://github.com/isygold/vegas-releases"
+        },
+        {
+          "label": "Public release history: dated VEGAS and VEGAS Sarek packages",
+          "url": "https://github.com/isygold/vegas-releases/releases"
+        }
+      ]
+    },
+    {
+      "id": "nvidia-dxvk-remix",
+      "title": "DXVK-Remix (NVIDIA RTX Remix Runtime)",
+      "game": "Classic Direct3D 9 games compatible with RTX Remix (multi-title)",
+      "target_type": "Game",
+      "platform": "Direct3D 9 fixed-function rendering → reconstructed scene data → RTX Remix path-traced Vulkan renderer; Windows 10/11. A bridge lets 32-bit games communicate with the 64-bit runtime.",
+      "kind": "API Translation",
+      "status": "Active public source repository; the README documents Windows 10/11 builds and the RTX Remix SDK documentation identifies its D3D9 translation component and 32-bit bridge. The repository has no tagged release objects; packaged runtime releases are published separately by NVIDIA.",
+      "summary": "NVIDIA's RTX Remix runtime is built on a DXVK fork that intercepts Direct3D 9 calls, reconstructs scene information for the Remix renderer, and routes rendering through its Vulkan path-tracing runtime. It is a D3D9 graphics translation and remastering runtime for supported games, rather than a general-purpose replacement for Windows API compatibility.",
+      "project_url": "https://github.com/NVIDIAGameWorks/dxvk-remix",
+      "updated": "2026-10-15",
+      "strategy": "Direct3D 9 fixed-function interception and scene reconstruction, followed by Vulkan path-traced rendering",
+      "language": "",
+      "source_available": "Public source repository; component licenses are documented in the repository. Runtime packages are published separately by NVIDIA.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Game remastering graphics translation runtime",
+      "sources": [
+        {
+          "label": "NVIDIA GameWorks source README: DXVK fork purpose, Windows build requirements, and D3D9 interface",
+          "url": "https://github.com/NVIDIAGameWorks/dxvk-remix"
+        },
+        {
+          "label": "RTX Remix SDK documentation: D3D9 translation component and scene reconstruction behavior",
+          "url": "https://github.com/NVIDIAGameWorks/dxvk-remix/blob/main/documentation/RemixSDK.md"
+        },
+        {
+          "label": "NVIDIA runtime installation guide: packaged runtime components and deployment",
+          "url": "https://docs.omniverse.nvidia.com/kit/docs/rtx_remix/latest/docs/installation/install-runtime.html"
+        }
+      ]
+    },
+    {
+      "id": "dxvk-remix-plus",
+      "title": "Remix Plus (DXVK-Remix community fork)",
+      "game": "RTX Remix-compatible Direct3D 9 games and plugin integrations (multi-title)",
+      "target_type": "Game",
+      "platform": "Direct3D 9 fixed-function rendering → DXVK-Remix/Vulkan RTX Remix runtime; Windows. A 32-bit bridge connects games to the 64-bit renderer.",
+      "kind": "API Translation",
+      "status": "Community development fork; its README lists SDK/API extensions for plugin integrations and rendering controls. No tagged releases were found, and the latest observed commit was 2026-07-21. This is a downstream Remix runtime, not an NVIDIA upstream release.",
+      "summary": "A community fork of NVIDIA's DXVK-Remix runtime that retains the Direct3D 9-to-Vulkan RTX Remix rendering path while adding Remix SDK facilities for plugin and game integrations, including batched geometry/lights, game-state injection, UI access, and VRAM controls. It is cataloged separately for those substantive modding/API extensions; the underlying graphics translation is shared with DXVK-Remix.",
+      "project_url": "https://github.com/NightSightProductions/dxvk-remix-plus",
+      "updated": "2026-10-15",
+      "strategy": "DXVK-Remix Direct3D 9-to-Vulkan translation with extended Remix SDK/plugin APIs",
+      "language": "",
+      "source_available": "Public source fork (zlib license)",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Community RTX Remix API and modding runtime fork",
+      "sources": [
+        {
+          "label": "Maintainer README: fork relationship and added plugin/Remix SDK APIs",
+          "url": "https://github.com/NightSightProductions/dxvk-remix-plus"
+        },
+        {
+          "label": "Maintainer source history: latest observed commit date",
+          "url": "https://github.com/NightSightProductions/dxvk-remix-plus/commits/main/"
+        },
+        {
+          "label": "NVIDIA upstream RTX Remix SDK documentation: inherited D3D9 translation/runtime context",
+          "url": "https://github.com/NVIDIAGameWorks/dxvk-remix/blob/main/documentation/RemixSDK.md"
+        }
+      ]
+    },
+    {
+      "id": "mobilegl",
+      "title": "MobileGL",
+      "game": "Desktop OpenGL applications (multi-title; Minecraft Java via GLFW/LWJGL is a documented use case)",
+      "target_type": "Software",
+      "platform": "Desktop OpenGL (current development target: 4.2 Core) → OpenGL ES or Vulkan through selectable backends. The README documents a macOS injection path through Vulkan/MoltenVK; other mobile platform binaries are not published.",
+      "kind": "API Translation",
+      "status": "In development; the maintainer marks OpenGL 4.2 Core as the current target, says parts remain incomplete, and provides no releases or prebuilt binaries. Its documented macOS DirectVulkan setup routes Vulkan through MoltenVK.",
+      "summary": "A cross-platform desktop OpenGL implementation with a stateful front end and separate OpenGL ES and Vulkan backends. It is a concrete but unfinished API compatibility project; the README gives a macOS injection setup for Minecraft through its normal GLFW/LWJGL OpenGL path.",
+      "project_url": "https://github.com/MobileGL-Dev/MobileGL",
+      "updated": "2026-10-15",
+      "strategy": "Desktop OpenGL API → configurable OpenGL ES or Vulkan graphics backend",
+      "language": "",
+      "source_available": "Public source repository (LGPL-3.0; no packaged releases)",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Multi-backend desktop OpenGL implementation",
+      "sources": [
+        {
+          "label": "Maintainer README: implementation scope, development status, backends, and macOS use case",
+          "url": "https://github.com/MobileGL-Dev/MobileGL/blob/dev/README.md"
+        },
+        {
+          "label": "Maintainer source repository: source tree and license",
+          "url": "https://github.com/MobileGL-Dev/MobileGL"
+        }
+      ]
+    },
+    {
+      "id": "mobileglues",
+      "title": "MobileGlues",
+      "game": "Minecraft: Java Edition (Android, through compatible launchers)",
+      "target_type": "Game",
+      "platform": "Desktop OpenGL/GLSL → host OpenGL ES 3.x/GLSL ES on Android; minimum GLES 3.0, with GLES 3.2 recommended by the project.",
+      "kind": "API Translation",
+      "status": "Active; release V2.0.0 was published 2026-08-09 and the source repository received changes through 2026-10-11. The maintainer lists Sodium support and compatibility for many Iris/OptiFine shaders, while noting that individual shader and mod support varies.",
+      "summary": "An OpenGL compatibility implementation designed around Minecraft: Java Edition on Android. It adapts desktop GLSL and OpenGL behavior to the device's OpenGL ES 3.x driver and documents tested Minecraft rendering mods and shader support; it is not a JVM or CPU emulator.",
+      "project_url": "https://github.com/MobileGL-Dev/MobileGlues",
+      "updated": "2026-10-15",
+      "strategy": "Desktop OpenGL API and GLSL → Android host OpenGL ES 3.x and GLSL ES",
+      "language": "",
+      "source_available": "Public source repository (LGPL-2.1) with companion Android releases and plugin application",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Minecraft Android OpenGL-to-OpenGL ES compatibility implementation",
+      "sources": [
+        {
+          "label": "Maintainer source README: API direction, Android host API, Minecraft focus, and supported mods",
+          "url": "https://github.com/MobileGL-Dev/MobileGlues/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer V2.0.0 release: published version and release artifacts",
+          "url": "https://github.com/MobileGL-Dev/MobileGlues-release/releases/tag/V2.0.0"
+        }
+      ]
+    },
+    {
+      "id": "mithril-wrapper",
+      "title": "Mithril-Wrapper",
+      "game": "Minecraft: Java Edition and other OpenGL 3.3 clients on iOS/iPadOS (through EGL-based launchers)",
+      "target_type": "Game",
+      "platform": "OpenGL 3.3 Core and EGL 1.5 → Vulkan 1.2 via MoltenVK → Metal; iOS/iPadOS 15+ on arm64 Apple devices with A11 or newer, using a launcher able to load the library.",
+      "kind": "API Translation",
+      "status": "Work in progress; the current public successor repository has no tagged releases and was last pushed 2026-10-06. Its README documents the OpenGL→Vulkan→Metal path and warns that EGL Sync/Image entry points are shadow implementations rather than backed by native VkFence/VkImage objects.",
+      "summary": "An iOS-oriented OpenGL compatibility library that exposes OpenGL 3.3 Core and EGL, translates GLSL to SPIR-V, renders through Vulkan, and relies on MoltenVK to map Vulkan to Metal. The README names PojavLauncher and Amethyst-iOS as launcher integrations; incomplete EGL behavior should be considered when assessing application compatibility.",
+      "project_url": "https://github.com/MithrilWrapper-Dev/Mithril-Wrapper",
+      "updated": "2026-10-15",
+      "strategy": "Desktop OpenGL 3.3 Core → Vulkan 1.2 → Metal through MoltenVK, with an EGL 1.5 compatibility front end",
+      "language": "",
+      "source_available": "Public source repository (LGPL-2.1); the earlier repository is archived and points to this successor",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "iOS OpenGL/Vulkan/Metal compatibility layer",
+      "sources": [
+        {
+          "label": "Successor maintainer README: translation path, target OS/hardware, launcher integrations, and limitations",
+          "url": "https://github.com/MithrilWrapper-Dev/Mithril-Wrapper/blob/main/README.md"
+        },
+        {
+          "label": "Successor source history: latest observed development activity",
+          "url": "https://github.com/MithrilWrapper-Dev/Mithril-Wrapper/commits/main/"
+        },
+        {
+          "label": "Archived predecessor README: transfer notice identifying the successor repository",
+          "url": "https://github.com/EternityQwQ/Mithril-Wrapper"
+        }
+      ]
+    },
+    {
+      "id": "mgl-opengl-metal",
+      "title": "MGL (openglonmetal)",
+      "game": "Desktop OpenGL applications (multi-title)",
+      "target_type": "Software",
+      "platform": "OpenGL 4.6 Core and OpenGL ES 3.x → Apple Metal on macOS; builds and integration are documented through the repository's Xcode project.",
+      "kind": "API Translation",
+      "status": "Partial/experimental implementation; the README says many common GL paths work but explicitly notes missing entry points, incomplete ES support, and that the project was not built for conformance. No tagged releases were found; the latest source commit observed was 2026-01-12.",
+      "summary": "A source-available OpenGL implementation that maps GL state and calls to Metal commands on macOS and translates GLSL through SPIR-V tooling. The maintainer describes it as a functional starting point rather than a complete OpenGL implementation; applications depending on unimplemented entry points may fail.",
+      "project_url": "https://github.com/openglonmetal/MGL",
+      "updated": "2026-10-15",
+      "strategy": "OpenGL/GLSL state and rendering calls → Metal and MSL-compatible shader path",
+      "language": "",
+      "source_available": "Public source repository (Apache-2.0)",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Partial macOS OpenGL-to-Metal implementation",
+      "sources": [
+        {
+          "label": "Maintainer README: API target, Metal mapping, and documented incompleteness",
+          "url": "https://github.com/openglonmetal/MGL/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer source history: latest observed commit date and ongoing project record",
+          "url": "https://github.com/openglonmetal/MGL/commits/main/"
+        }
+      ]
+    }
+  ]
+}
