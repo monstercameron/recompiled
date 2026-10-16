@@ -315,11 +315,38 @@ fi
 if [[ -f data/research/discovery-2026-10-16/goal-refresh/round9/directory-additions-reviewed.json ]]; then
   python3 scripts/catalog.py import-directory data/research/discovery-2026-10-16/goal-refresh/round9/directory-additions-reviewed.json
 fi
+if [[ -f data/research/discovery-2026-10-16/goal-refresh/round10/reconciliation/project-additions.json ]]; then
+  python3 scripts/catalog.py import data/research/discovery-2026-10-16/goal-refresh/round10/reconciliation/project-additions.json
+fi
+if [[ -f data/research/discovery-2026-10-16/goal-refresh/round10/reconciliation/directory-additions.json ]]; then
+  python3 scripts/catalog.py import-directory data/research/discovery-2026-10-16/goal-refresh/round10/reconciliation/directory-additions.json
+fi
 if [[ -f data/research/discovery-2026-10-16/goal-refresh/round10/wikipedia-links-reviewed.json ]]; then
   python3 scripts/catalog.py import-wikipedia-links data/research/discovery-2026-10-16/goal-refresh/round10/wikipedia-links-reviewed.json
 fi
+if [[ -f data/research/discovery-2026-10-16/goal-refresh/round10/wikipedia-direct-improvements-reviewed.json ]]; then
+  python3 scripts/catalog.py import-wikipedia-links data/research/discovery-2026-10-16/goal-refresh/round10/wikipedia-direct-improvements-reviewed.json
+fi
+if [[ -f data/research/discovery-2026-10-16/goal-refresh/round10/new-game-wikipedia/wikipedia-links.json ]]; then
+  python3 scripts/catalog.py import-wikipedia-links data/research/discovery-2026-10-16/goal-refresh/round10/new-game-wikipedia/wikipedia-links.json
+fi
 if [[ -f data/research/discovery-2026-10-16/goal-refresh/round10/programming-languages-reviewed.json ]]; then
   python3 scripts/catalog.py import-programming-languages data/research/discovery-2026-10-16/goal-refresh/round10/programming-languages-reviewed.json
+fi
+if [[ -f data/research/discovery-2026-10-16/goal-refresh/round10/reconciliation/project-language-evidence.json ]]; then
+  python3 scripts/catalog.py import-programming-languages data/research/discovery-2026-10-16/goal-refresh/round10/reconciliation/project-language-evidence.json
+fi
+if [[ -f data/research/discovery-2026-10-16/goal-refresh/round10/game-profiles/A-L/game-facts-reviewed.json ]]; then
+  python3 scripts/catalog.py import-game-profiles data/research/discovery-2026-10-16/goal-refresh/round10/game-profiles/A-L/game-facts-reviewed.json
+fi
+if [[ -f data/research/discovery-2026-10-16/goal-refresh/round10/game-profiles/M-Z/game-facts-mz.json ]]; then
+  python3 scripts/catalog.py import-game-profiles data/research/discovery-2026-10-16/goal-refresh/round10/game-profiles/M-Z/game-facts-mz.json
+fi
+if [[ -f data/research/discovery-2026-10-16/goal-refresh/round10/status-refresh/project-updates-reviewed.json ]]; then
+  python3 scripts/catalog.py import-project-updates data/research/discovery-2026-10-16/goal-refresh/round10/status-refresh/project-updates-reviewed.json
+fi
+if [[ -f data/research/discovery-2026-10-16/goal-refresh/round10/project-media/media.json ]]; then
+  python3 scripts/catalog.py import-media data/research/discovery-2026-10-16/goal-refresh/round10/project-media/media.json
 fi
 python3 scripts/catalog.py export
 cargo build --locked --release --target wasm32-unknown-unknown

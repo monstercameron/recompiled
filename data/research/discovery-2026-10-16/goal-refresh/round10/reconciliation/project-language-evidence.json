@@ -1,0 +1,637 @@
+{
+  "verified_at": "2026-10-16",
+  "source": "Official GitHub Languages REST API /languages endpoint; largest byte bucket assigned as predominant language. Full byte maps preserved. GitLab percentage-only response is recorded as unknown rather than converted to bytes.",
+  "records": [
+    {
+      "project_id": "lsw-win32-linux-compatibility-layer",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 1852419,
+        "Batchfile": 526125,
+        "Shell": 17453,
+        "Makefile": 12103,
+        "Python": 2347,
+        "C#": 519,
+        "Assembly": 333
+      },
+      "reported_language_map": null,
+      "language_breakdown_unit": "bytes",
+      "evidence_url": "https://api.github.com/repos/barrersoftware/lsw/languages",
+      "evidence": "Official GitHub Languages API byte map verified 2026-10-16; predominant language is the largest byte bucket. Full repository byte totals are preserved.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": null
+    },
+    {
+      "project_id": "crash-team-racing-ctrpad-ios",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 6532604,
+        "Shell": 162878,
+        "Objective-C": 144275,
+        "JavaScript": 79535,
+        "CMake": 25310,
+        "Python": 8098,
+        "Batchfile": 2304,
+        "Dockerfile": 1285
+      },
+      "reported_language_map": null,
+      "language_breakdown_unit": "bytes",
+      "evidence_url": "https://api.github.com/repos/chrissotraidis/ctrpad/languages",
+      "evidence": "Official GitHub Languages API byte map verified 2026-10-16; predominant language is the largest byte bucket. Full repository byte totals are preserved.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": null
+    },
+    {
+      "project_id": "betrayal-at-krondor-dos-source-reconstruction",
+      "predominant_language": "Assembly",
+      "language_breakdown_bytes": {
+        "Assembly": 4319860,
+        "C": 2161878,
+        "JavaScript": 562615,
+        "Python": 119248,
+        "HTML": 39204,
+        "Makefile": 36183,
+        "Nix": 2628,
+        "Shell": 10
+      },
+      "reported_language_map": null,
+      "language_breakdown_unit": "bytes",
+      "evidence_url": "https://api.github.com/repos/canassa/betrayal-at-krondor/languages",
+      "evidence": "Official GitHub Languages API byte map verified 2026-10-16; predominant language is the largest byte bucket. Full repository byte totals are preserved.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": null
+    },
+    {
+      "project_id": "deltarune-3ds-native-port",
+      "predominant_language": null,
+      "language_breakdown_bytes": {},
+      "reported_language_map": null,
+      "language_breakdown_unit": "bytes",
+      "evidence_url": "https://api.github.com/repos/LinkTroisUn/DELTARUNE-3DS/languages",
+      "evidence": "GitHub Languages API returned an exact empty object.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": "GitHub Languages API returned an exact empty object."
+    },
+    {
+      "project_id": "cinnamon-gamemaker-runner",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 3342953,
+        "Kotlin": 500647,
+        "CMake": 37229,
+        "Objective-C": 21350,
+        "Shell": 16089,
+        "C++": 8802,
+        "Makefile": 6418,
+        "GLSL": 5130
+      },
+      "reported_language_map": null,
+      "language_breakdown_unit": "bytes",
+      "evidence_url": "https://api.github.com/repos/Project-Sunshine-Native/cinnamon/languages",
+      "evidence": "Official GitHub Languages API byte map verified 2026-10-16; predominant language is the largest byte bucket. Full repository byte totals are preserved.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": null
+    },
+    {
+      "project_id": "opendsp-4x4-tracks-dsp-control-reimplementation",
+      "predominant_language": "TypeScript",
+      "language_breakdown_bytes": {
+        "TypeScript": 78762,
+        "Svelte": 42808,
+        "Kotlin": 10942,
+        "CSS": 1586,
+        "Shell": 903,
+        "HTML": 305,
+        "JavaScript": 157
+      },
+      "reported_language_map": null,
+      "language_breakdown_unit": "bytes",
+      "evidence_url": "https://api.github.com/repos/GlassOnTin/opendsp-4x4/languages",
+      "evidence": "Official GitHub Languages API byte map verified 2026-10-16; predominant language is the largest byte bucket. Full repository byte totals are preserved.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": null
+    },
+    {
+      "project_id": "lightcraft-classic-adobe-lightroom-classic-fork",
+      "predominant_language": "Rust",
+      "language_breakdown_bytes": {
+        "Rust": 19629137,
+        "WGSL": 68638,
+        "Shell": 47198,
+        "PowerShell": 29624,
+        "Python": 18984,
+        "Nix": 13436,
+        "HTML": 2204,
+        "JavaScript": 624
+      },
+      "reported_language_map": null,
+      "language_breakdown_unit": "bytes",
+      "evidence_url": "https://api.github.com/repos/emmertex/lightcraft-classic/languages",
+      "evidence": "Official GitHub Languages API byte map verified 2026-10-16; predominant language is the largest byte bucket. Full repository byte totals are preserved.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": null
+    },
+    {
+      "project_id": "persona-anomalous-tower-chronicle-steam-en",
+      "predominant_language": null,
+      "language_breakdown_bytes": {},
+      "reported_language_map": null,
+      "language_breakdown_unit": "bytes",
+      "evidence_url": "https://api.github.com/repos/MKCAMK/G-MODE-Archives-translations/languages",
+      "evidence": "GitHub Languages API returned an exact empty object.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": "GitHub Languages API returned an exact empty object."
+    },
+    {
+      "project_id": "persona-3-aigis-first-mission-steam-en",
+      "predominant_language": null,
+      "language_breakdown_bytes": {},
+      "reported_language_map": null,
+      "language_breakdown_unit": "bytes",
+      "evidence_url": "https://api.github.com/repos/MKCAMK/G-MODE-Archives-translations/languages",
+      "evidence": "GitHub Languages API returned an exact empty object.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": "GitHub Languages API returned an exact empty object."
+    },
+    {
+      "project_id": "dodonpachi-dai-ou-jou-dx-steam-en",
+      "predominant_language": null,
+      "language_breakdown_bytes": {},
+      "reported_language_map": null,
+      "language_breakdown_unit": "bytes",
+      "evidence_url": "https://api.github.com/repos/MKCAMK/G-MODE-Archives-translations/languages",
+      "evidence": "GitHub Languages API returned an exact empty object.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": "GitHub Languages API returned an exact empty object."
+    },
+    {
+      "project_id": "deadly-danmaku-trial-dodonpachi-dai-ou-jou-steam-en",
+      "predominant_language": null,
+      "language_breakdown_bytes": {},
+      "reported_language_map": null,
+      "language_breakdown_unit": "bytes",
+      "evidence_url": "https://api.github.com/repos/MKCAMK/G-MODE-Archives-translations/languages",
+      "evidence": "GitHub Languages API returned an exact empty object.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": "GitHub Languages API returned an exact empty object."
+    },
+    {
+      "project_id": "magical-drop-dx-steam-en",
+      "predominant_language": null,
+      "language_breakdown_bytes": {},
+      "reported_language_map": null,
+      "language_breakdown_unit": "bytes",
+      "evidence_url": "https://api.github.com/repos/MKCAMK/G-MODE-Archives-translations/languages",
+      "evidence": "GitHub Languages API returned an exact empty object.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": "GitHub Languages API returned an exact empty object."
+    },
+    {
+      "project_id": "dragon-quest-x-online-english-dqxclarity",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Python": 329194,
+        "C#": 327296,
+        "TypeScript": 36710,
+        "C": 11067,
+        "PowerShell": 6725,
+        "CMake": 833
+      },
+      "reported_language_map": null,
+      "language_breakdown_unit": "bytes",
+      "evidence_url": "https://api.github.com/repos/dqx-translation-project/dqxclarity/languages",
+      "evidence": "Official GitHub Languages API byte map verified 2026-10-16; predominant language is the largest byte bucket. Full repository byte totals are preserved.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": null
+    },
+    {
+      "project_id": "neon-genesis-evangelion-2-simplified-chinese",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Python": 1165061,
+        "C": 780292,
+        "Makefile": 13450,
+        "Dockerfile": 3623,
+        "Assembly": 3211,
+        "CMake": 2741
+      },
+      "reported_language_map": null,
+      "language_breakdown_unit": "bytes",
+      "evidence_url": "https://api.github.com/repos/EVA-zh-Hans/nge_2_re/languages",
+      "evidence": "Official GitHub Languages API byte map verified 2026-10-16; predominant language is the largest byte bucket. Full repository byte totals are preserved.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": null
+    },
+    {
+      "project_id": "gakuen-idolmaster-english-translation-data",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Python": 2614
+      },
+      "reported_language_map": null,
+      "language_breakdown_unit": "bytes",
+      "evidence_url": "https://api.github.com/repos/NatsumeLS/Gakumas-Translation-Data-EN/languages",
+      "evidence": "Official GitHub Languages API byte map verified 2026-10-16; predominant language is the largest byte bucket. Full repository byte totals are preserved.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": null
+    },
+    {
+      "project_id": "paranormasight-honjo-simplified-chinese-fan-patch",
+      "predominant_language": "PowerShell",
+      "language_breakdown_bytes": {
+        "PowerShell": 644
+      },
+      "reported_language_map": null,
+      "language_breakdown_unit": "bytes",
+      "evidence_url": "https://api.github.com/repos/Qi-Busiyi-Hanhuazu/ParanormasightChsLocalization/languages",
+      "evidence": "Official GitHub Languages API byte map verified 2026-10-16; predominant language is the largest byte bucket. Full repository byte totals are preserved.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": null
+    },
+    {
+      "project_id": "fire-emblem-if-english-fan-translation",
+      "predominant_language": null,
+      "language_breakdown_bytes": {},
+      "reported_language_map": null,
+      "language_breakdown_unit": "bytes",
+      "evidence_url": "https://api.github.com/repos/TeamIf/FireEmblemIf-FanTranslation/languages",
+      "evidence": "GitHub Languages API returned an exact empty object.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": "GitHub Languages API returned an exact empty object."
+    },
+    {
+      "project_id": "pacman-ce-dx-psvita-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 6942944,
+        "C++": 1471627,
+        "Makefile": 68194,
+        "GLSL": 33782,
+        "CMake": 18217,
+        "Shell": 844,
+        "JavaScript": 406,
+        "Batchfile": 268
+      },
+      "reported_language_map": null,
+      "language_breakdown_unit": "bytes",
+      "evidence_url": "https://api.github.com/repos/mcallbosco/pacman-cedx-vita/languages",
+      "evidence": "Official GitHub Languages API byte map verified 2026-10-16; predominant language is the largest byte bucket. Full repository byte totals are preserved.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": null
+    },
+    {
+      "project_id": "gecko-gamecube-wii",
+      "predominant_language": "Rust",
+      "language_breakdown_bytes": {
+        "Rust": 2850726,
+        "Python": 18213,
+        "Lua": 15350,
+        "WGSL": 13832,
+        "HTML": 5200
+      },
+      "reported_language_map": null,
+      "language_breakdown_unit": "bytes",
+      "evidence_url": "https://api.github.com/repos/ioncodes/gecko/languages",
+      "evidence": "Official GitHub Languages API byte map verified 2026-10-16; predominant language is the largest byte bucket. Full repository byte totals are preserved.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": null
+    },
+    {
+      "project_id": "emuscv-super-cassette-vision",
+      "predominant_language": null,
+      "language_breakdown_bytes": null,
+      "reported_language_map": {
+        "C": 96.0,
+        "C++": 3.9,
+        "Python": 0.06,
+        "Assembly": 0.03,
+        "Makefile": 0.01
+      },
+      "language_breakdown_unit": "percent, as returned by GitLab Languages API",
+      "evidence_url": "https://gitlab.com/api/v4/projects/16943127/languages",
+      "evidence": "GitLab Languages API exposes percentages, not byte totals; no exact GitHub Languages byte map. Language left blank.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": "GitLab Languages API exposes percentages, not byte totals; no exact GitHub Languages byte map. Language left blank."
+    },
+    {
+      "project_id": "pokket-sx-playstation-pocketstation",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 34501029,
+        "C": 8730628,
+        "HLSL": 177514,
+        "HTML": 148683,
+        "CMake": 130290,
+        "Objective-C++": 120709,
+        "Python": 49775,
+        "Shell": 48322,
+        "GLSL": 46419,
+        "Batchfile": 41916,
+        "Objective-C": 8841,
+        "Assembly": 4589,
+        "Metal": 1818
+      },
+      "reported_language_map": null,
+      "language_breakdown_unit": "bytes",
+      "evidence_url": "https://api.github.com/repos/mentalfoundry/PokketSX/languages",
+      "evidence": "Official GitHub Languages API byte map verified 2026-10-16; predominant language is the largest byte bucket. Full repository byte totals are preserved.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": null
+    },
+    {
+      "project_id": "imlunahey-multi-system-emulator",
+      "predominant_language": "Rust",
+      "language_breakdown_bytes": {
+        "Rust": 4186692,
+        "TypeScript": 530334,
+        "Swift": 127265,
+        "CSS": 24704,
+        "C#": 19654,
+        "C": 11717,
+        "HTML": 9900,
+        "Shell": 5391,
+        "JavaScript": 5290
+      },
+      "reported_language_map": null,
+      "language_breakdown_unit": "bytes",
+      "evidence_url": "https://api.github.com/repos/ImLunaHey/emulators/languages",
+      "evidence": "Official GitHub Languages API byte map verified 2026-10-16; predominant language is the largest byte bucket. Full repository byte totals are preserved.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": null
+    },
+    {
+      "project_id": "da14585-hema-esl-firmware-reimplementation",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 555806,
+        "JavaScript": 223184,
+        "Python": 103296,
+        "Shell": 36826,
+        "HTML": 30911,
+        "Makefile": 2155
+      },
+      "reported_language_map": null,
+      "language_breakdown_unit": "bytes",
+      "evidence_url": "https://api.github.com/repos/seriaTvT/DA14585-ESL-213/languages",
+      "evidence": "Official GitHub Languages API byte map verified 2026-10-16; predominant language is the largest byte bucket. Full repository byte totals are preserved.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": null
+    },
+    {
+      "project_id": "openscope-2c53t-firmware-reimplementation",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 13851704,
+        "F#": 2791553,
+        "Python": 1577470,
+        "Makefile": 92984,
+        "Java": 64689,
+        "JavaScript": 45396,
+        "Linker Script": 21528,
+        "C++": 21492,
+        "Shell": 19061,
+        "HTML": 11275,
+        "Assembly": 6815,
+        "CSS": 4188
+      },
+      "reported_language_map": null,
+      "language_breakdown_unit": "bytes",
+      "evidence_url": "https://api.github.com/repos/DavidClawson/OpenScope-2C53T/languages",
+      "evidence": "Official GitHub Languages API byte map verified 2026-10-16; predominant language is the largest byte bucket. Full repository byte totals are preserved.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": null
+    },
+    {
+      "project_id": "nova-voyager-drill-press-firmware-reimplementation",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 1634900,
+        "Python": 73660,
+        "Shell": 71732,
+        "Assembly": 7238,
+        "Linker Script": 5580
+      },
+      "reported_language_map": null,
+      "language_breakdown_unit": "bytes",
+      "evidence_url": "https://api.github.com/repos/packerlschupfer/nova-voyager_firmware/languages",
+      "evidence": "Official GitHub Languages API byte map verified 2026-10-16; predominant language is the largest byte bucket. Full repository byte totals are preserved.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": null
+    },
+    {
+      "project_id": "octeon-cn50xx-hardware-flow-offload-reimplementation",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 58735,
+        "Shell": 14406,
+        "Makefile": 3732
+      },
+      "reported_language_map": null,
+      "language_breakdown_unit": "bytes",
+      "evidence_url": "https://api.github.com/repos/packerlschupfer/octeon-flowtable/languages",
+      "evidence": "Official GitHub Languages API byte map verified 2026-10-16; predominant language is the largest byte bucket. Full repository byte totals are preserved.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": null
+    },
+    {
+      "project_id": "lifo-unix-like-browser-node-environment",
+      "predominant_language": "TypeScript",
+      "language_breakdown_bytes": {
+        "TypeScript": 2491381,
+        "JavaScript": 176758,
+        "CSS": 23187,
+        "HTML": 2330
+      },
+      "reported_language_map": null,
+      "language_breakdown_unit": "bytes",
+      "evidence_url": "https://api.github.com/repos/lifo-sh/lifo/languages",
+      "evidence": "Official GitHub Languages API byte map verified 2026-10-16; predominant language is the largest byte bucket. Full repository byte totals are preserved.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": null
+    },
+    {
+      "project_id": "rush-2-extreme-racing-usa-n64-pc-recomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 6145331,
+        "Python": 980608,
+        "C": 303580,
+        "HTML": 26824,
+        "Pawn": 24354,
+        "CMake": 18380,
+        "JavaScript": 17732,
+        "Batchfile": 13949,
+        "PowerShell": 1888,
+        "Shell": 1862
+      },
+      "reported_language_map": null,
+      "language_breakdown_unit": "bytes",
+      "evidence_url": "https://api.github.com/repos/bryantmh/rush2recompiled/languages",
+      "evidence": "Official GitHub Languages API byte map verified 2026-10-16; predominant language is the largest byte bucket. Full repository byte totals are preserved.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": null
+    },
+    {
+      "project_id": "starcraft-ghost-xbox-native-recomp",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 36286,
+        "Shell": 8552,
+        "CMake": 6357,
+        "PowerShell": 2357
+      },
+      "reported_language_map": null,
+      "language_breakdown_unit": "bytes",
+      "evidence_url": "https://api.github.com/repos/aknavj/scghost-recomp/languages",
+      "evidence": "Official GitHub Languages API byte map verified 2026-10-16; predominant language is the largest byte bucket. Full repository byte totals are preserved.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": null
+    },
+    {
+      "project_id": "007-nightfire-xbox-windows-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 7643882,
+        "Python": 802624,
+        "C++": 428419,
+        "Batchfile": 110438,
+        "CMake": 101908
+      },
+      "reported_language_map": null,
+      "language_breakdown_unit": "bytes",
+      "evidence_url": "https://api.github.com/repos/limeylicious/Nightfire-Windows-Port/languages",
+      "evidence": "Official GitHub Languages API byte map verified 2026-10-16; predominant language is the largest byte bucket. Full repository byte totals are preserved.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": null
+    },
+    {
+      "project_id": "ace-combat-04-ps2-windows-recomp",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 1206536,
+        "Python": 265508,
+        "C++": 55798,
+        "C#": 31022,
+        "GLSL": 24244,
+        "CMake": 8521,
+        "Batchfile": 3138,
+        "Shell": 1045
+      },
+      "reported_language_map": null,
+      "language_breakdown_unit": "bytes",
+      "evidence_url": "https://api.github.com/repos/PresidentRaptor/Ace-Combat-04-PC-Port/languages",
+      "evidence": "Official GitHub Languages API byte map verified 2026-10-16; predominant language is the largest byte bucket. Full repository byte totals are preserved.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": null
+    },
+    {
+      "project_id": "dinosaur-planet-2000-prototype-recomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 883779,
+        "C": 790713,
+        "SCSS": 61925,
+        "CMake": 15680,
+        "CSS": 13847,
+        "Python": 7416,
+        "Linker Script": 6324,
+        "Makefile": 2144,
+        "Shell": 1414,
+        "HLSL": 784
+      },
+      "reported_language_map": null,
+      "language_breakdown_unit": "bytes",
+      "evidence_url": "https://api.github.com/repos/DinosaurPlanetRecomp/dino-recomp/languages",
+      "evidence": "Official GitHub Languages API byte map verified 2026-10-16; predominant language is the largest byte bucket. Full repository byte totals are preserved.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": null
+    },
+    {
+      "project_id": "san-francisco-rush-2049-n64-pc-recomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 292042,
+        "C": 110114,
+        "Python": 35901,
+        "Shell": 30643,
+        "CMake": 20824,
+        "Makefile": 2933,
+        "Dockerfile": 1990,
+        "Linker Script": 1815,
+        "JavaScript": 1017,
+        "PowerShell": 914
+      },
+      "reported_language_map": null,
+      "language_breakdown_unit": "bytes",
+      "evidence_url": "https://api.github.com/repos/amazingalek/rush-2049-recomp/languages",
+      "evidence": "Official GitHub Languages API byte map verified 2026-10-16; predominant language is the largest byte bucket. Full repository byte totals are preserved.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": null
+    },
+    {
+      "project_id": "doom-rpg-j2me-native-reimplementation",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 644074,
+        "C++": 389537,
+        "CMake": 12122
+      },
+      "reported_language_map": null,
+      "language_breakdown_unit": "bytes",
+      "evidence_url": "https://api.github.com/repos/Erick194/DoomRPG-RE/languages",
+      "evidence": "Official GitHub Languages API byte map verified 2026-10-16; predominant language is the largest byte bucket. Full repository byte totals are preserved.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": null
+    },
+    {
+      "project_id": "nethack-android-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 11413709,
+        "C++": 455152,
+        "Yacc": 84509,
+        "Perl": 64795,
+        "Makefile": 39458,
+        "Assembly": 37845,
+        "Roff": 34095,
+        "DIGITAL Command Language": 31241,
+        "Lex": 20050,
+        "Shell": 16553,
+        "Rez": 14063,
+        "Batchfile": 12828,
+        "Awk": 6279,
+        "OpenEdge ABL": 5304,
+        "AppleScript": 5163,
+        "Max": 1167,
+        "sed": 799,
+        "GAP": 712
+      },
+      "reported_language_map": null,
+      "language_breakdown_unit": "bytes",
+      "evidence_url": "https://api.github.com/repos/gurrhack/NetHack-Android/languages",
+      "evidence": "Official GitHub Languages API byte map verified 2026-10-16; predominant language is the largest byte bucket. Full repository byte totals are preserved.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": null
+    },
+    {
+      "project_id": "dora64-3-n64-native-recompilation",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 3087097,
+        "Python": 904527,
+        "CMake": 22272,
+        "NASL": 10424,
+        "Java": 9277,
+        "PowerShell": 8199,
+        "C": 4124,
+        "HLSL": 812
+      },
+      "reported_language_map": null,
+      "language_breakdown_unit": "bytes",
+      "evidence_url": "https://api.github.com/repos/citrongames/Dora64-3/languages",
+      "evidence": "Official GitHub Languages API byte map verified 2026-10-16; predominant language is the largest byte bucket. Full repository byte totals are preserved.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": null
+    }
+  ]
+}

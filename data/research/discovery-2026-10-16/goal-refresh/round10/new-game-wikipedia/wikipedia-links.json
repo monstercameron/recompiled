@@ -1,0 +1,166 @@
+{
+  "verified_at": "2026-10-16",
+  "scope": "Round10 candidate Game keys only: 17 new game keys plus 3 upgrades from existing exact-title Wikipedia search fallbacks. Existing direct URLs are preserved and excluded from import. Four emulator projects are target_type=Software and are not treated as games.",
+  "entries": [
+    {
+      "game_key": "007: Nightfire",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/James_Bond_007%3A_Nightfire",
+      "wikipedia_title": "James Bond 007: Nightfire",
+      "match": "direct",
+      "note": "Dedicated article identifies James Bond 007: Nightfire as the 2002 video game and includes the Windows platform; this is the exact game port target.",
+      "dedupe_note": "New exact game_key; one import entry covers the candidate project."
+    },
+    {
+      "game_key": "Betrayal at Krondor (DOS releases 1.00 and 1.02)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Betrayal_at_Krondor",
+      "wikipedia_title": "Betrayal at Krondor",
+      "match": "direct",
+      "note": "Dedicated article identifies the DOS role-playing game and its commercial releases; the key narrows the source reconstruction to the named DOS releases of this same game.",
+      "dedupe_note": "New exact game_key; one import entry covers the candidate project."
+    },
+    {
+      "game_key": "Deadly Danmaku Trial: DoDonPachi Dai-Ou-Jou Edition",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/G-Mode_Archives",
+      "wikipedia_title": "G-Mode Archives",
+      "match": "direct",
+      "note": "The article’s G-Mode Archives+ table lists “Danmaku Kentei Shiken DaiOuJou-hen”; this is the Japanese title behind the candidate patch’s exact English title “Deadly Danmaku Trial: DoDonPachi Dai-Ou-Jou Edition.”",
+      "dedupe_note": "New exact game_key; one import entry covers the candidate project. Alias is confirmed by the candidate patch title and the Japanese title entry in the article."
+    },
+    {
+      "game_key": "DELTARUNE",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Deltarune",
+      "wikipedia_title": "Deltarune",
+      "match": "direct",
+      "note": "Dedicated article identifies the episodic role-playing game Deltarune, the exact game targeted by the 3DS edition project.",
+      "dedupe_note": "Exact existing game_key; current catalog value is an exact-title search fallback. Upgrade to directly identifying article; no round-10 direct-improvement packet overlap."
+    },
+    {
+      "game_key": "Dinosaur Planet (2000 Nintendo 64 prototype)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Star_Fox_Adventures",
+      "wikipedia_title": "Star Fox Adventures",
+      "match": "direct",
+      "note": "The article’s development section identifies the original Dinosaur Planet Nintendo 64 game and specifically describes a late-development N64 build dated December 2000 that leaked in 2021, matching this prototype key.",
+      "dedupe_note": "Exact existing game_key; current catalog value is an exact-title search fallback. Upgrade to directly identifying article; no round-10 direct-improvement packet overlap."
+    },
+    {
+      "game_key": "DoDonPachi Dai-Ou-Jou DX",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/G-Mode_Archives",
+      "wikipedia_title": "G-Mode Archives",
+      "match": "direct",
+      "note": "The article’s G-Mode Archives+ release table lists “DoDonPachi DaiOuJou DX” and its Switch/PC re-release, identifying the exact mobile game edition targeted by the patch.",
+      "dedupe_note": "New exact game_key; one import entry covers the candidate project."
+    },
+    {
+      "game_key": "Doraemon 3: Nobita no Machi SOS!",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/List_of_Doraemon_video_games",
+      "wikipedia_title": "List of Doraemon video games",
+      "match": "direct",
+      "note": "The table lists the exact title as a Nintendo 64 game by Epoch with release date July 28, 2000, matching the Dora64-3 project target.",
+      "dedupe_note": "New exact game_key; one import entry covers the candidate project. The article is a title list with an exact game/platform/date row."
+    },
+    {
+      "game_key": "Dragon Quest X Online",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Dragon_Quest_X",
+      "wikipedia_title": "Dragon Quest X",
+      "match": "direct",
+      "note": "Dedicated article identifies Dragon Quest X as the online MMORPG and distinguishes it from the separate Dragon Quest X Offline remake, matching this online localization target.",
+      "dedupe_note": "New exact game_key; one import entry covers the candidate project."
+    },
+    {
+      "game_key": "Fire Emblem If",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Fire_Emblem_Fates",
+      "wikipedia_title": "Fire Emblem Fates",
+      "match": "direct",
+      "note": "Dedicated article states that Fire Emblem Fates was announced in Japan as Fire Emblem if and documents its three story versions; exact Japanese title alias.",
+      "dedupe_note": "New exact game_key; one import entry covers the candidate project."
+    },
+    {
+      "game_key": "Gakuen iDOLM@STER",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Gakuen_Idolmaster",
+      "wikipedia_title": "Gakuen Idolmaster",
+      "match": "direct",
+      "note": "Dedicated article identifies the Gakuen Idolmaster mobile game, the same title styled Gakuen iDOLM@STER in the candidate translation data project.",
+      "dedupe_note": "New exact game_key; one import entry covers the candidate project."
+    },
+    {
+      "game_key": "Magical Drop DX",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/G-Mode_Archives",
+      "wikipedia_title": "G-Mode Archives",
+      "match": "direct",
+      "note": "The article’s G-Mode Archives release table lists “Magical Drop DX” and Matrix Software as its developer, identifying the exact mobile game re-release targeted by the patch.",
+      "dedupe_note": "New exact game_key; one import entry covers the candidate project."
+    },
+    {
+      "game_key": "Neon Genesis Evangelion 2",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Neon_Genesis_Evangelion_2",
+      "wikipedia_title": "Neon Genesis Evangelion 2",
+      "match": "direct",
+      "note": "Dedicated article identifies the exact PlayStation 2 game and its PSP port, both relevant to the Chinese translation project’s target.",
+      "dedupe_note": "New exact game_key; one import entry covers the candidate project."
+    },
+    {
+      "game_key": "NetHack 3.6.7",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/NetHack",
+      "wikipedia_title": "NetHack",
+      "match": "direct",
+      "note": "Dedicated article identifies NetHack as the open-source game and cites the 3.6.7 official downloads; the exact version is also linked from the article’s external downloads.",
+      "dedupe_note": "New exact game_key; one import entry covers the Android port project."
+    },
+    {
+      "game_key": "PAC-MAN Championship Edition DX",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Pac-Man_Championship_Edition_DX",
+      "wikipedia_title": "Pac-Man Championship Edition DX",
+      "match": "direct",
+      "note": "Dedicated article identifies the exact 2010 game, including its platforms and DX+ update; direct title match for the Vita port target.",
+      "dedupe_note": "New exact game_key; one import entry covers the candidate project."
+    },
+    {
+      "game_key": "PARANORMASIGHT: The Seven Mysteries of Honjo",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Paranormasight%3A_The_Seven_Mysteries_of_Honjo",
+      "wikipedia_title": "Paranormasight: The Seven Mysteries of Honjo",
+      "match": "direct",
+      "note": "Dedicated article identifies the exact 2023 Square Enix game by its full title and describes its platforms, matching the localization patch target.",
+      "dedupe_note": "New exact game_key; one import entry covers the candidate project."
+    },
+    {
+      "game_key": "Persona 3 - Aigis THE FIRST MISSION",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Aegis%3A_The_First_Mission",
+      "wikipedia_title": "Aegis: The First Mission",
+      "match": "direct",
+      "note": "Dedicated article identifies Aegis: The First Mission as the Persona mobile spin-off and G-Mode Switch/Windows re-release; it notes Aigis is spelled “Aegis” in Japan, matching the exact source game.",
+      "dedupe_note": "New exact game_key; one import entry covers the candidate project."
+    },
+    {
+      "game_key": "Persona: Anomalous Tower Chronicle",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Megami_Ibunroku_Persona%3A_Ik%C5%AB_no_T%C5%8D-hen",
+      "wikipedia_title": "Megami Ibunroku Persona: Ikū no Tō-hen",
+      "match": "direct",
+      "note": "Dedicated article identifies the 2006 Persona mobile spin-off and its Switch/Windows G-Mode Archives+ release. The project key is the English title used by the fan patch for this same Japanese source game.",
+      "dedupe_note": "New exact game_key; one import entry covers the candidate project. The article uses the Japanese source title rather than the fan patch’s English title."
+    },
+    {
+      "game_key": "Rush 2: Extreme Racing USA",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Rush_2%3A_Extreme_Racing_USA",
+      "wikipedia_title": "Rush 2: Extreme Racing USA",
+      "match": "direct",
+      "note": "Dedicated article identifies the exact 1998 Nintendo 64 racing game and its US title, matching the recompiled target.",
+      "dedupe_note": "New exact game_key; one import entry covers the candidate project."
+    },
+    {
+      "game_key": "San Francisco Rush 2049",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/San_Francisco_Rush_2049",
+      "wikipedia_title": "San Francisco Rush 2049",
+      "match": "direct",
+      "note": "Dedicated article identifies the exact 1999 game and covers the Nintendo 64 version targeted by the recompiler.",
+      "dedupe_note": "Exact existing game_key; current catalog value is an exact-title search fallback. Upgrade to directly identifying article; no round-10 direct-improvement packet overlap."
+    },
+    {
+      "game_key": "StarCraft: Ghost",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/StarCraft%3A_Ghost",
+      "wikipedia_title": "StarCraft: Ghost",
+      "match": "direct",
+      "note": "Dedicated article identifies the cancelled stealth-action game and its planned console platforms, matching the Xbox recompilation project target.",
+      "dedupe_note": "New exact game_key; one import entry covers the candidate project."
+    }
+  ]
+}

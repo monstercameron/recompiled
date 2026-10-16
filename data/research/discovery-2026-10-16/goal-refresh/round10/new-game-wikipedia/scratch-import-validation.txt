@@ -1,0 +1,5 @@
+PASS
+Imported the finalized 36-project candidate manifest into an ephemeral copy of data/catalog.sqlite using scripts/catalog.py:import_file.
+Imported 20 Wikipedia entries using scripts/catalog.py:import_wikipedia_links.
+Confirmed all 23 actual Game keys have their audited direct article URL/title; 17 new game keys linked; 3 exact-title search fallbacks upgraded; 3 existing direct references preserved unchanged; 0 direct URLs overwritten; 0 duplicate import keys; 0 candidate game keys left without a defensible reference.
+The scratch database was removed after validation. Canonical data/catalog.sqlite was not written.

@@ -1,0 +1,38 @@
+{
+  "updated": "2026-10-16",
+  "items": [
+    {
+      "id": "kuriimu2",
+      "item_type": "Tool",
+      "category": "Translation tools",
+      "name": "Kuriimu2",
+      "description": "Plugin-based game translation project manager and toolkit for examining, extracting, editing, and rebuilding game archives, images, text, fonts, and other resources across many formats; includes GUI and command-line builds.",
+      "url": "https://github.com/FanTranslatorsInternational/Kuriimu2",
+      "source_url": "https://github.com/FanTranslatorsInternational/Kuriimu2/releases/tag/1.2.1",
+      "source_evidence": "Maintainer README describes a general-purpose toolkit for fan translation and modding, plugin-based resource extraction/editing/rebuilding, GUI and CLI builds, and links both stable releases and beta GUI/CLI builds. Stable v1.2.1 was published 2021-06-27; repository code is GPL-3.0. README: https://github.com/FanTranslatorsInternational/Kuriimu2. Stable release: https://github.com/FanTranslatorsInternational/Kuriimu2/releases/tag/1.2.1. GitHub repository language API map was checked 2026-10-16: C# 7,715,469 bytes, Batchfile 1,824 bytes.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "id": "scummtr",
+      "item_type": "Tool",
+      "category": "Translation tools",
+      "name": "ScummTR",
+      "description": "Open-source suite of fan-translation tools for most LucasArts SCUMM games, from Maniac Mansion through The Dig. Includes scummtr, scummrp, scummfont, and FontXY; the project says it now runs on multiple systems.",
+      "url": "https://github.com/dwatteau/scummtr",
+      "source_url": "https://github.com/dwatteau/scummtr/releases/tag/v0.6.0pre2",
+      "source_evidence": "Maintainer README defines the supported game-engine scope, names the four tools, says they were originally Windows-only and are now available for various systems, and states MIT licensing. Latest verified release is v0.6.0pre2, published 2024-07-15; repository activity was pushed through 2026-07-17. GitHub repository language API map checked 2026-10-16: C++ 357,924 bytes, CMake 15,593, Shell 5,280, Dockerfile 4,906.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "id": "telltale-workbench",
+      "item_type": "Tool",
+      "category": "Translation tools",
+      "name": "Telltale Workbench",
+      "description": "Emerging toolkit for fan translation of Telltale Games: unpack and repack TTARCH/TTARCH2 resources, edit and compare LANDb translation text, normalize CJK text, and create game fonts.",
+      "url": "https://github.com/slankka/Telltale-Workbench",
+      "source_url": "https://github.com/slankka/Telltale-Workbench/releases/tag/v1.0.0",
+      "source_evidence": "Maintainer README describes an end-to-end fan-translation pipeline including archive unpacking/repacking, LANDb translation editing and review, CJK normalization, and font creation. First verified public release v1.0.0 was published 2026-06-10; GitHub declares GPL-2.0. The project is early-stage (0 GitHub stars at review time). README: https://github.com/slankka/Telltale-Workbench. Release: https://github.com/slankka/Telltale-Workbench/releases/tag/v1.0.0. GitHub repository language API map checked 2026-10-16: C# 1,322,511 bytes, HTML 16,009 bytes.",
+      "verified_at": "2026-10-16"
+    }
+  ]
+}

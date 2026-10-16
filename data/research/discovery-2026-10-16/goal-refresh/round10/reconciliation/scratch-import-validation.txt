@@ -1,0 +1,7 @@
+Scratch catalog import validation — 2026-10-16 (after emulator target-type correction)
+
+Imported 36 project additions, then 36 language-evidence rows, then 3 directory additions using current scripts/catalog.py against a fresh scratch copy of the live catalog.sqlite.
+
+Result: passed. Scratch counts: projects=3324, games=1971, sources=11414, project_language_evidence=3297, directory_items=36. All 36 new project IDs and language rows were present; all three directory IDs were present. The four emulator rows imported with target_type=Software. PRAGMA integrity_check returned "ok" and PRAGMA foreign_key_check returned zero rows.
+
+Live canonical DB SHA-256 before and after scratch validation: 7b228a34ea26bad44510944a24b087b6a32298941b0a0e68beb0698274d3bc8e. No live DB changes were made.

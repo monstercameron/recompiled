@@ -1,0 +1,5 @@
+# Round 10 game-profile research
+
+These two source-reviewed packages add 57 exact-key game profiles with 326 sourced facts for existing game targets that had no facts. The A–L packet covers 24 keys and the M–Z packet covers 33. All 57 target keys were checked in the current database and have zero existing fact rows; both packages passed the real importer against a disposable catalog copy, with SQLite integrity and foreign-key checks clean.
+
+The fact importer replaces rows for each target key, so the zero-existing-facts check is required before import. The hold logs list broader system targets and exact game titles for which no sufficiently specific sourced facts were verified. Wikipedia research is maintained separately so a general or ambiguous page cannot overwrite a better exact-title reference. A separate 16-entry direct-link manifest replaces exact-title search fallbacks only when the reviewed article names the game, edition, prototype, or chapter; existing direct links are left intact.

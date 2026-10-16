@@ -1,0 +1,15 @@
+{
+  "validated_at": "2026-10-16",
+  "scratch_database": "ephemeral copy of data/catalog.sqlite in this output directory; removed after validation",
+  "project_additions_imported_first": 36,
+  "software_projects_in_final_manifest": 13,
+  "actual_game_keys_audited": 23,
+  "wikipedia_links_imported": 20,
+  "new_game_keys_linked": 17,
+  "existing_search_fallback_upgrades": 3,
+  "existing_direct_refs_preserved": 3,
+  "existing_direct_refs_overwritten": 0,
+  "duplicate_keys_in_import": 0,
+  "game_keys_without_defensible_reference": [],
+  "result": "PASS: importer functions completed; all 23 candidate game keys have the audited direct URL/title; existing direct links remained unchanged; no duplicate imported keys."
+}

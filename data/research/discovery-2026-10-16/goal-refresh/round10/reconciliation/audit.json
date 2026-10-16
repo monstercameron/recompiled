@@ -1,0 +1,1207 @@
+{
+  "updated": "2026-10-16",
+  "authoritative_database": "/Users/earlcameron/Desktop/recompiled/data/catalog.sqlite",
+  "database_counts_before_scratch_import": {
+    "projects": 3288,
+    "games": 1954,
+    "sources": 11206,
+    "project_language_evidence": 3261,
+    "directory_items": 33
+  },
+  "database_sha256_before_scratch_import": "7b228a34ea26bad44510944a24b087b6a32298941b0a0e68beb0698274d3bc8e",
+  "candidate_input_counts": {
+    "api-translation": 1,
+    "console-ports_verified": 1,
+    "emulators": 5,
+    "mobile-ports": 1,
+    "social-discovery": 3,
+    "software-legacy": 4,
+    "software-candidates": 6,
+    "localizations": 12,
+    "game-projects": 11,
+    "parent-verified-supplemental-game-candidates": 1
+  },
+  "included_count": 36,
+  "language_coverage": {
+    "exact_nonempty_github_byte_maps": 28,
+    "exact_empty_github_maps": 7,
+    "language_unknown": 8,
+    "language_by_id": {
+      "lsw-win32-linux-compatibility-layer": "C",
+      "crash-team-racing-ctrpad-ios": "C",
+      "betrayal-at-krondor-dos-source-reconstruction": "Assembly",
+      "deltarune-3ds-native-port": "",
+      "cinnamon-gamemaker-runner": "C",
+      "opendsp-4x4-tracks-dsp-control-reimplementation": "TypeScript",
+      "lightcraft-classic-adobe-lightroom-classic-fork": "Rust",
+      "persona-anomalous-tower-chronicle-steam-en": "",
+      "persona-3-aigis-first-mission-steam-en": "",
+      "dodonpachi-dai-ou-jou-dx-steam-en": "",
+      "deadly-danmaku-trial-dodonpachi-dai-ou-jou-steam-en": "",
+      "magical-drop-dx-steam-en": "",
+      "dragon-quest-x-online-english-dqxclarity": "Python",
+      "neon-genesis-evangelion-2-simplified-chinese": "Python",
+      "gakuen-idolmaster-english-translation-data": "Python",
+      "paranormasight-honjo-simplified-chinese-fan-patch": "PowerShell",
+      "fire-emblem-if-english-fan-translation": "",
+      "pacman-ce-dx-psvita-port": "C",
+      "gecko-gamecube-wii": "Rust",
+      "emuscv-super-cassette-vision": "",
+      "pokket-sx-playstation-pocketstation": "C++",
+      "imlunahey-multi-system-emulator": "Rust",
+      "da14585-hema-esl-firmware-reimplementation": "C",
+      "openscope-2c53t-firmware-reimplementation": "C",
+      "nova-voyager-drill-press-firmware-reimplementation": "C",
+      "octeon-cn50xx-hardware-flow-offload-reimplementation": "C",
+      "lifo-unix-like-browser-node-environment": "TypeScript",
+      "rush-2-extreme-racing-usa-n64-pc-recomp": "C++",
+      "starcraft-ghost-xbox-native-recomp": "C",
+      "007-nightfire-xbox-windows-port": "C",
+      "ace-combat-04-ps2-windows-recomp": "C",
+      "dinosaur-planet-2000-prototype-recomp": "C++",
+      "san-francisco-rush-2049-n64-pc-recomp": "C++",
+      "doom-rpg-j2me-native-reimplementation": "C",
+      "nethack-android-port": "C",
+      "dora64-3-n64-native-recompilation": "C++"
+    }
+  },
+  "source_coverage": {
+    "projects_with_sources": 36,
+    "source_url_count": 208,
+    "all_sources_https": true,
+    "duplicate_source_urls": [],
+    "primary_repository_root_or_README_present": true,
+    "primary_project_rows": 36
+  },
+  "decisions": {
+    "lsw-win32-linux-compatibility-layer": {
+      "lane": "api-translation/candidate-manifest.json",
+      "decision": "include",
+      "primary_source": "https://github.com/barrersoftware/lsw"
+    },
+    "crash-team-racing-ctrpad-ios": {
+      "lane": "mobile-ports/candidates-reviewed.json",
+      "decision": "include",
+      "primary_source": "https://github.com/chrissotraidis/ctrpad"
+    },
+    "betrayal-at-krondor-dos-source-reconstruction": {
+      "lane": "social-discovery/candidate-manifest.json",
+      "decision": "include",
+      "primary_source": "https://github.com/canassa/betrayal-at-krondor#readme"
+    },
+    "deltarune-3ds-native-port": {
+      "lane": "social-discovery/candidate-manifest.json",
+      "decision": "include",
+      "primary_source": "https://github.com/LinkTroisUn/DELTARUNE-3DS#readme"
+    },
+    "cinnamon-gamemaker-runner": {
+      "lane": "social-discovery/candidate-manifest.json",
+      "decision": "include",
+      "primary_source": "https://github.com/Project-Sunshine-Native/cinnamon#readme"
+    },
+    "opendsp-4x4-tracks-dsp-control-reimplementation": {
+      "lane": "software-legacy/new-projects.json",
+      "decision": "include",
+      "primary_source": "https://github.com/GlassOnTin/opendsp-4x4"
+    },
+    "lightcraft-classic-adobe-lightroom-classic-fork": {
+      "lane": "software-legacy/new-projects.json",
+      "decision": "include",
+      "primary_source": "https://github.com/emmertex/lightcraft-classic"
+    },
+    "persona-anomalous-tower-chronicle-steam-en": {
+      "lane": "localizations/new-projects.json",
+      "decision": "include",
+      "primary_source": "https://github.com/MKCAMK/G-MODE-Archives-translations"
+    },
+    "persona-3-aigis-first-mission-steam-en": {
+      "lane": "localizations/new-projects.json",
+      "decision": "include",
+      "primary_source": "https://github.com/MKCAMK/G-MODE-Archives-translations"
+    },
+    "dodonpachi-dai-ou-jou-dx-steam-en": {
+      "lane": "localizations/new-projects.json",
+      "decision": "include",
+      "primary_source": "https://github.com/MKCAMK/G-MODE-Archives-translations"
+    },
+    "deadly-danmaku-trial-dodonpachi-dai-ou-jou-steam-en": {
+      "lane": "localizations/new-projects.json",
+      "decision": "include",
+      "primary_source": "https://github.com/MKCAMK/G-MODE-Archives-translations"
+    },
+    "magical-drop-dx-steam-en": {
+      "lane": "localizations/new-projects.json",
+      "decision": "include",
+      "primary_source": "https://github.com/MKCAMK/G-MODE-Archives-translations"
+    },
+    "dragon-quest-x-online-english-dqxclarity": {
+      "lane": "localizations/new-projects.json",
+      "decision": "include",
+      "primary_source": "https://github.com/dqx-translation-project/dqxclarity"
+    },
+    "neon-genesis-evangelion-2-simplified-chinese": {
+      "lane": "localizations/new-projects.json",
+      "decision": "include",
+      "primary_source": "https://github.com/EVA-zh-Hans/nge_2_re"
+    },
+    "gakuen-idolmaster-english-translation-data": {
+      "lane": "localizations/new-projects.json",
+      "decision": "include",
+      "primary_source": "https://github.com/NatsumeLS/Gakumas-Translation-Data-EN"
+    },
+    "paranormasight-honjo-simplified-chinese-fan-patch": {
+      "lane": "localizations/new-projects.json",
+      "decision": "include",
+      "primary_source": "https://github.com/Qi-Busiyi-Hanhuazu/ParanormasightChsLocalization"
+    },
+    "fire-emblem-if-english-fan-translation": {
+      "lane": "localizations/new-projects.json",
+      "decision": "include",
+      "primary_source": "https://github.com/TeamIf/FireEmblemIf-FanTranslation"
+    },
+    "pacman-ce-dx-psvita-port": {
+      "lane": "console-ports/manifest.json",
+      "decision": "include",
+      "primary_source": "https://github.com/mcallbosco/pacman-cedx-vita/releases",
+      "caveat": "Candidate source notes a stale GitHub About description inconsistent with the README; used README as primary."
+    },
+    "gecko-gamecube-wii": {
+      "lane": "emulators/candidates.json",
+      "decision": "include",
+      "primary_source": "https://github.com/ioncodes/gecko"
+    },
+    "emuscv-super-cassette-vision": {
+      "lane": "emulators/candidates.json",
+      "decision": "include",
+      "primary_source": "https://gitlab.com/MaaaX-EPOCH84/libretro-emuscv"
+    },
+    "pokket-sx-playstation-pocketstation": {
+      "lane": "emulators/candidates.json",
+      "decision": "include",
+      "primary_source": "https://github.com/mentalfoundry/PokketSX"
+    },
+    "imlunahey-multi-system-emulator": {
+      "lane": "emulators/candidates.json",
+      "decision": "include",
+      "primary_source": "https://github.com/ImLunaHey/emulators"
+    },
+    "da14585-hema-esl-firmware-reimplementation": {
+      "lane": "software/candidate-projects.json",
+      "decision": "include",
+      "primary_source": "https://github.com/seriaTvT/DA14585-ESL-213/blob/main/README.md",
+      "caveat": "A full flash write erases the per-tag identity record; the README requires a matching backup or explicit record and explains that wrong identity data can leave other variants with a blank display."
+    },
+    "openscope-2c53t-firmware-reimplementation": {
+      "lane": "software/candidate-projects.json",
+      "decision": "include",
+      "primary_source": "https://github.com/DavidClawson/OpenScope-2C53T/blob/main/README.md",
+      "caveat": "README says the current development build overwrites factory calibration unless users back it up first, and should not be trusted for real measurements. Exact 2C53T model match matters."
+    },
+    "nova-voyager-drill-press-firmware-reimplementation": {
+      "lane": "software/candidate-projects.json",
+      "decision": "include",
+      "primary_source": "https://github.com/packerlschupfer/nova-voyager_firmware/blob/main/README.md",
+      "caveat": "The firmware participates in spindle start/stop and guard/E-stop paths. The candidate is relevant to device ownership, but the catalog status should retain the project’s own safety and installation caveats rather than imply an OEM-supported controller."
+    },
+    "octeon-cn50xx-hardware-flow-offload-reimplementation": {
+      "lane": "software/candidate-projects.json",
+      "decision": "include",
+      "primary_source": "https://github.com/packerlschupfer/octeon-flowtable/blob/main/README.md",
+      "caveat": "Hardware results and compatibility are maintainer-reported; the repository is very small and currently has one commit."
+    },
+    "lifo-unix-like-browser-node-environment": {
+      "lane": "software/candidate-projects.json",
+      "decision": "include",
+      "primary_source": "https://github.com/lifo-sh/lifo/blob/main/README.md",
+      "caveat": "The project implements a Unix-like user environment over browser/JavaScript APIs; describe it as a compatibility environment rather than implying POSIX kernel or Linux binary compatibility."
+    },
+    "rush-2-extreme-racing-usa-n64-pc-recomp": {
+      "lane": "game-projects/candidate-manifest.json",
+      "decision": "include",
+      "primary_source": "https://github.com/bryantmh/rush2recompiled#readme",
+      "license_note": "No license verified; GitHub repository metadata has no recognized license."
+    },
+    "starcraft-ghost-xbox-native-recomp": {
+      "lane": "game-projects/candidate-manifest.json",
+      "decision": "include",
+      "primary_source": "https://github.com/aknavj/scghost-recomp#readme",
+      "license_note": "No license verified; GitHub repository metadata has no recognized license."
+    },
+    "007-nightfire-xbox-windows-port": {
+      "lane": "game-projects/candidate-manifest.json",
+      "decision": "include",
+      "primary_source": "https://github.com/limeylicious/Nightfire-Windows-Port#readme",
+      "license_note": "README and LICENSE identify the port's own code as MIT."
+    },
+    "ace-combat-04-ps2-windows-recomp": {
+      "lane": "game-projects/candidate-manifest.json",
+      "decision": "include",
+      "primary_source": "https://github.com/PresidentRaptor/Ace-Combat-04-PC-Port#readme",
+      "license_note": "Verified from repository LICENSE file and README."
+    },
+    "dinosaur-planet-2000-prototype-recomp": {
+      "lane": "game-projects/candidate-manifest.json",
+      "decision": "include",
+      "primary_source": "https://github.com/DinosaurPlanetRecomp/dino-recomp#readme",
+      "license_note": "Verified from repository license metadata and LICENSE."
+    },
+    "san-francisco-rush-2049-n64-pc-recomp": {
+      "lane": "game-projects/candidate-manifest.json",
+      "decision": "include",
+      "primary_source": "https://github.com/amazingalek/rush-2049-recomp#readme",
+      "license_note": "Verified from GitHub repository license metadata and LICENSE."
+    },
+    "doom-rpg-j2me-native-reimplementation": {
+      "lane": "game-projects/candidate-manifest.json",
+      "decision": "include",
+      "primary_source": "https://github.com/Erick194/DoomRPG-RE#readme",
+      "license_note": "Verified from GitHub license metadata."
+    },
+    "nethack-android-port": {
+      "lane": "game-projects/candidate-manifest.json",
+      "decision": "include",
+      "primary_source": "https://github.com/gurrhack/NetHack-Android#readme",
+      "license_note": "No license verified from GitHub metadata; NetHack source distribution has its own license file."
+    },
+    "dora64-3-n64-native-recompilation": {
+      "lane": "parent-verified supplemental game candidate",
+      "decision": "include",
+      "primary_source": "https://github.com/citrongames/Dora64-3#readme",
+      "caveat": "Distinct Doraemon 3 target; current catalog Dora64 row is a different earlier Doraemon N64 title."
+    }
+  },
+  "holds_and_exclusions": [
+    {
+      "id": "lazuli-gamecube",
+      "repository_url": "https://github.com/vxpm/lazuli",
+      "decision": "hold",
+      "reason": "README says active development stopped on 2026-09-16 while GitHub reports a later 2026-10-12 push and nightly release; reconcile this status before treating it as maintained."
+    },
+    {
+      "id": "openprimus-wpm-primus-espresso-machine-firmware",
+      "repository_url": "https://github.com/brisc/openprimus",
+      "decision": "hold",
+      "reason": "Current README describes research plus a 3-page simulator; real sensor/actuator mapping and brew-control loop are incomplete, so no working replacement firmware is established."
+    },
+    {
+      "id": "hl2-xbox-static-recomp",
+      "repository_url": "https://github.com/sp00nznet/hl2-recomp",
+      "decision": "exclude",
+      "reason": "The primary README explicitly says the build is not playable and stops before the game world is handed off."
+    },
+    {
+      "id": "abuse-sdl2-port",
+      "repository_url": "https://github.com/antrad/Abuse_1996",
+      "decision": "exclude",
+      "reason": "Primary README identifies this as a fork of the Xenoveritas SDL2 port; older 2016 release, no independent reconstruction or distinct target is established."
+    },
+    {
+      "id": "microproject-microsoft-project-desktop-reconstruction",
+      "repository_url": "https://github.com/tetsuji16/ProjectLibre",
+      "decision": "hold",
+      "reason": "Active release exists, but the project is still a ProjectLibre-derived mixed legacy/clean-room codebase and explicitly says its Microsoft Project compatibility goal is not achieved; method and target boundary need clearer evidence."
+    },
+    {
+      "id": "pinacoteca-picasa-clean-room-photo-manager",
+      "repository_url": "https://github.com/marcelofrau/pinacoteca",
+      "decision": "hold",
+      "reason": "README/roadmap remain at repository bootstrap and behavioral-analysis stages; no usable viewer or shipped feature was verified."
+    },
+    {
+      "id": "armored-core-mobile-mission-steam-en",
+      "repository_url": "https://github.com/MKCAMK/G-MODE-Archives-translations",
+      "decision": "hold",
+      "reason": "README says patch is only distributed in a Discord; no public patch artifact/version is linked, so current availability is not independently verifiable."
+    },
+    {
+      "id": "armored-core-mobile-2-steam-en",
+      "repository_url": "https://github.com/MKCAMK/G-MODE-Archives-translations",
+      "decision": "hold",
+      "reason": "README says patch is only distributed in a Discord; no public patch artifact/version is linked, so current availability is not independently verifiable."
+    }
+  ],
+  "dedupe_dispositions": [
+    {
+      "repository_url": "https://github.com/canassa/betrayal-at-krondor",
+      "decision": "deduplicate into social-discovery row",
+      "reason": "Exact same project/repo/game target; retained richer social-discovery record and merged the game-project primary sources."
+    }
+  ],
+  "validation": {
+    "required_fields_pass": true,
+    "https_urls_pass": true,
+    "duplicate_ids": [],
+    "duplicate_repo_target": [],
+    "duplicate_source_urls": [],
+    "kind_invalid": [],
+    "target_type_invalid": [],
+    "blank_programming_language": [
+      "deltarune-3ds-native-port",
+      "persona-anomalous-tower-chronicle-steam-en",
+      "persona-3-aigis-first-mission-steam-en",
+      "dodonpachi-dai-ou-jou-dx-steam-en",
+      "deadly-danmaku-trial-dodonpachi-dai-ou-jou-steam-en",
+      "magical-drop-dx-steam-en",
+      "fire-emblem-if-english-fan-translation",
+      "emuscv-super-cassette-vision"
+    ],
+    "language_map_mismatch": []
+  },
+  "revalidation_lanes_reviewed": {
+    "status-refresh": "60 existing-project updates; not additions; parent independently scratch-validated",
+    "meta-language/decomp-recomp": "catalog target and language updates for existing IDs; not additions",
+    "meta-language/software-api": "existing software project updates; not additions",
+    "meta-language/localization-*": "language updates for existing IDs; not additions",
+    "game-profiles/A-L and M-Z": "game facts and Wikipedia links only; not project additions",
+    "wikipedia-gaps": "game Wikipedia metadata only; not project additions",
+    "project-media": "media-only for existing projects; parent independently validated 29 groups"
+  },
+  "candidate_lane_exclusions": [
+    {
+      "lane": "round10-reconciliation",
+      "name": "lazuli-gamecube",
+      "repository_url": "https://github.com/vxpm/lazuli",
+      "decision": "hold",
+      "reason": "README says active development stopped on 2026-09-16 while GitHub reports a later 2026-10-12 push and nightly release; reconcile this status before treating it as maintained."
+    },
+    {
+      "lane": "round10-reconciliation",
+      "name": "openprimus-wpm-primus-espresso-machine-firmware",
+      "repository_url": "https://github.com/brisc/openprimus",
+      "decision": "hold",
+      "reason": "Current README describes research plus a 3-page simulator; real sensor/actuator mapping and brew-control loop are incomplete, so no working replacement firmware is established."
+    },
+    {
+      "lane": "round10-reconciliation",
+      "name": "hl2-xbox-static-recomp",
+      "repository_url": "https://github.com/sp00nznet/hl2-recomp",
+      "decision": "exclude",
+      "reason": "The primary README explicitly says the build is not playable and stops before the game world is handed off."
+    },
+    {
+      "lane": "round10-reconciliation",
+      "name": "abuse-sdl2-port",
+      "repository_url": "https://github.com/antrad/Abuse_1996",
+      "decision": "exclude",
+      "reason": "Primary README identifies this as a fork of the Xenoveritas SDL2 port; older 2016 release, no independent reconstruction or distinct target is established."
+    },
+    {
+      "lane": "round10-reconciliation",
+      "name": "microproject-microsoft-project-desktop-reconstruction",
+      "repository_url": "https://github.com/tetsuji16/ProjectLibre",
+      "decision": "hold",
+      "reason": "Active release exists, but the project is still a ProjectLibre-derived mixed legacy/clean-room codebase and explicitly says its Microsoft Project compatibility goal is not achieved; method and target boundary need clearer evidence."
+    },
+    {
+      "lane": "round10-reconciliation",
+      "name": "pinacoteca-picasa-clean-room-photo-manager",
+      "repository_url": "https://github.com/marcelofrau/pinacoteca",
+      "decision": "hold",
+      "reason": "README/roadmap remain at repository bootstrap and behavioral-analysis stages; no usable viewer or shipped feature was verified."
+    },
+    {
+      "lane": "round10-reconciliation",
+      "name": "armored-core-mobile-mission-steam-en",
+      "repository_url": "https://github.com/MKCAMK/G-MODE-Archives-translations",
+      "decision": "hold",
+      "reason": "README says patch is only distributed in a Discord; no public patch artifact/version is linked, so current availability is not independently verifiable."
+    },
+    {
+      "lane": "console-ports",
+      "name": "Party Hard Vita Port",
+      "repository_url": "https://github.com/daniemun/PartyHard-PSVITA-Port",
+      "decision": "hold_for_method_and_source_review",
+      "reason": "Project existence and a Vita binary release are verified, but the public repository contains no implementation source and does not explain the technical method beyond Unity/game modifications. Keep it out of the verified additions list until the catalog accepts release-only projects or stronger method evidence is found."
+    },
+    {
+      "lane": "console-ports",
+      "name": "God of War",
+      "repository_url": "https://github.com/YYOzcan/Tobiichi-Port",
+      "decision": "related_downstream_variant_review_as_existing_project_update_or_link",
+      "reason": "The exact Tobiichi URL is absent from the current catalog, but the repository is a substantial downstream variant built on the already cataloged God of War recompilation/runtime. It adds its own launcher, Linux support, widescreen and gameplay changes. Review whether to link or refresh the existing project record before creating a separate entry."
+    },
+    {
+      "lane": "console-ports",
+      "name": "https://github.com/Code-Grub/gen1recomp-vita",
+      "repository_url": "https://github.com/Code-Grub/gen1recomp-vita",
+      "decision": "hold_platform_extension_due_to_status_and_distribution_conflict",
+      "reason": "This is a platform extension of the already cataloged multi-game Gen1Recomp engine rather than a separate game-specific project. The repository README says it has not yet been tested on real hardware, while the upstream issue reports hardware play; distribution is also blocked by the upstream Launcher license term. Hold for upstream integration and a coherent status."
+    },
+    {
+      "lane": "console-ports",
+      "name": "https://github.com/centollOS/SwitchWakerHD",
+      "repository_url": "https://github.com/centollOS/SwitchWakerHD",
+      "decision": "duplicate/excluded",
+      "reason": "Exact repository URL already cataloged."
+    },
+    {
+      "lane": "console-ports",
+      "name": "https://github.com/Miggas/JSRF-Recomp",
+      "repository_url": "https://github.com/Miggas/JSRF-Recomp",
+      "decision": "duplicate/excluded",
+      "reason": "Exact repository URL already cataloged."
+    },
+    {
+      "lane": "console-ports",
+      "name": "https://github.com/dguillot-gh/phantom-hourglass-recomp",
+      "repository_url": "https://github.com/dguillot-gh/phantom-hourglass-recomp",
+      "decision": "duplicate/excluded",
+      "reason": "Exact repository URL already cataloged."
+    },
+    {
+      "lane": "console-ports",
+      "name": "https://github.com/Armandpro12/chibi-robo-pc",
+      "repository_url": "https://github.com/Armandpro12/chibi-robo-pc",
+      "decision": "duplicate/excluded",
+      "reason": "Exact repository URL already cataloged."
+    },
+    {
+      "lane": "console-ports",
+      "name": "https://github.com/xenophobentx/takedawn",
+      "repository_url": "https://github.com/xenophobentx/takedawn",
+      "decision": "duplicate/excluded",
+      "reason": "Exact repository URL already cataloged."
+    },
+    {
+      "lane": "console-ports",
+      "name": "https://github.com/portingpete/the-simpsons-recomp",
+      "repository_url": "https://github.com/portingpete/the-simpsons-recomp",
+      "decision": "duplicate/excluded",
+      "reason": "Exact repository URL already cataloged."
+    },
+    {
+      "lane": "console-ports",
+      "name": "https://github.com/centollOS/SwitchWaker",
+      "repository_url": "https://github.com/centollOS/SwitchWaker",
+      "decision": "duplicate/excluded",
+      "reason": "Exact repository URL already cataloged."
+    },
+    {
+      "lane": "console-ports",
+      "name": "https://github.com/MaskeZenY/WindowWaker",
+      "repository_url": "https://github.com/MaskeZenY/WindowWaker",
+      "decision": "duplicate/excluded",
+      "reason": "Exact repository URL already cataloged."
+    },
+    {
+      "lane": "console-ports",
+      "name": "https://github.com/Denkishi/ssbu-recomp",
+      "repository_url": "https://github.com/Denkishi/ssbu-recomp",
+      "decision": "duplicate/excluded",
+      "reason": "Exact repository URL already cataloged."
+    },
+    {
+      "lane": "console-ports",
+      "name": "https://github.com/lennart-sakowsky/lasrecomp",
+      "repository_url": "https://github.com/lennart-sakowsky/lasrecomp",
+      "decision": "duplicate/excluded",
+      "reason": "GitHub API marks this as a fork of peiikai/LASRecomp; the existing catalog entry is the upstream project and has the same Switch-to-PC target."
+    },
+    {
+      "lane": "console-ports",
+      "name": "https://github.com/Trinalord777/DK64Recomp-NX",
+      "repository_url": "https://github.com/Trinalord777/DK64Recomp-NX",
+      "decision": "duplicate/excluded",
+      "reason": "Exact repository URL already cataloged."
+    },
+    {
+      "lane": "console-ports",
+      "name": "https://github.com/SpookyIluha/Driving-Strikers-64",
+      "repository_url": "https://github.com/SpookyIluha/Driving-Strikers-64",
+      "decision": "duplicate/excluded",
+      "reason": "Exact repository URL already cataloged."
+    },
+    {
+      "lane": "console-ports",
+      "name": "https://github.com/0xl0cal/repentogxm",
+      "repository_url": "https://github.com/0xl0cal/repentogxm",
+      "decision": "duplicate/excluded",
+      "reason": "Exact repository URL already cataloged."
+    },
+    {
+      "lane": "console-ports",
+      "name": "https://github.com/MetalSyntax/Zenonia4-psvita-port",
+      "repository_url": "https://github.com/MetalSyntax/Zenonia4-psvita-port",
+      "decision": "duplicate/excluded",
+      "reason": "Exact repository URL already cataloged."
+    },
+    {
+      "lane": "console-ports",
+      "name": "https://github.com/cruxxxxxx/gdx-3ds",
+      "repository_url": "https://github.com/cruxxxxxx/gdx-3ds",
+      "decision": "duplicate/excluded",
+      "reason": "Exact repository URL already cataloged."
+    },
+    {
+      "lane": "console-ports",
+      "name": "https://github.com/colbyshores/forsaken-3ds",
+      "repository_url": "https://github.com/colbyshores/forsaken-3ds",
+      "decision": "duplicate/excluded",
+      "reason": "Exact repository URL already cataloged."
+    },
+    {
+      "lane": "console-ports",
+      "name": "https://github.com/AlirezaXdehghan/nfs-recompiled-vita",
+      "repository_url": "https://github.com/AlirezaXdehghan/nfs-recompiled-vita",
+      "decision": "duplicate/excluded",
+      "reason": "One repository's two game targets are already split into their existing catalog rows."
+    },
+    {
+      "lane": "console-ports",
+      "name": "https://github.com/smart-pickle/TestDrive-Vita",
+      "repository_url": "https://github.com/smart-pickle/TestDrive-Vita",
+      "decision": "duplicate/excluded",
+      "reason": "Exact repository URL already cataloged."
+    },
+    {
+      "lane": "console-ports",
+      "name": "https://github.com/Andresac90/OOT-64-3DS-Port",
+      "repository_url": "https://github.com/Andresac90/OOT-64-3DS-Port",
+      "decision": "duplicate/excluded",
+      "reason": "Exact repository URL already cataloged."
+    },
+    {
+      "lane": "console-ports",
+      "name": "https://github.com/sp00nznet/vitarecomp",
+      "repository_url": "https://github.com/sp00nznet/vitarecomp",
+      "decision": "duplicate/excluded",
+      "reason": "Exact repository URL is already cataloged as a general-purpose toolkit; it is not a game-specific candidate."
+    },
+    {
+      "lane": "emulators",
+      "name": "Solstice",
+      "repository_url": "https://codeberg.org/equinox-emu/solstice",
+      "decision": "hold",
+      "reason": "The repository has no README or release, so a supported/bootable system claim and usable status cannot be verified from project documentation. `hazelwiss/solstice` is a fork of this upstream repository and should not be counted as a separate project."
+    },
+    {
+      "lane": "emulators",
+      "name": "nouwii",
+      "repository_url": "https://github.com/noumidev/nouwii",
+      "decision": "hold",
+      "reason": "The repository description and sole README line only call it a Wii emulator written in C. No compatibility, boot, release, or implementation-status claims are available on the project page, so do not present it as a verified functional emulator without further inspection."
+    },
+    {
+      "lane": "emulators",
+      "name": "beanwii",
+      "repository_url": "https://github.com/zaydlang/beanwii",
+      "decision": "hold",
+      "reason": "The repository README contains a meme-like phrase and a video filename but does not document the emulated system or status. Gecko and Lazuli mention it as a sister project, but those references do not verify scope. Do not add until its own project documentation is clearer."
+    },
+    {
+      "lane": "emulators",
+      "name": "VGS-X emulator core",
+      "repository_url": "https://github.com/suzukiplan/vgsx",
+      "decision": "hold",
+      "reason": "This emulates a new virtual console whose specification and reference implementation are part of the same project, rather than a historical third-party system. Review whether such project-defined hardware fits the catalog's preservation scope before adding."
+    },
+    {
+      "lane": "emulators",
+      "name": "PokeMini / Pokémon Mini emulator",
+      "repository_url": "https://github.com/libretro/PokeMini",
+      "decision": "duplicate/excluded",
+      "reason": "The current catalog already contains the Libretro PokeMini core. The original standalone application and the `pokemon-mini/pokemini` GitHub repository are the same PokeMini source lineage or ports; adding another entry would duplicate the emulator rather than add a distinct project."
+    },
+    {
+      "lane": "emulators",
+      "name": "Pokket",
+      "repository_url": "https://github.com/mentalfoundry/Pokket",
+      "decision": "duplicate/excluded",
+      "reason": "The standalone PocketStation emulator is already cataloged. PokketSX is retained as a separate candidate because it is a DuckStation hard fork that integrates the PocketStation core into PS1 emulation."
+    },
+    {
+      "lane": "emulators",
+      "name": "Mesen Orion",
+      "repository_url": "https://github.com/javocsoft/MesenOrion",
+      "decision": "duplicate/excluded",
+      "reason": "Found during WonderSwan and multi-system discovery, but already present in the catalog."
+    },
+    {
+      "lane": "emulators",
+      "name": "NgpCraft Emulator",
+      "repository_url": "https://github.com/Tixul/Ngpcraft_emulator",
+      "decision": "duplicate/excluded",
+      "reason": "Found during Neo Geo Pocket discovery, but already present in the catalog."
+    },
+    {
+      "lane": "emulators",
+      "name": "Azahar",
+      "repository_url": "https://github.com/azahar-emu/azahar",
+      "decision": "duplicate/excluded",
+      "reason": "Found during Nintendo 3DS discovery, but already present in the catalog."
+    },
+    {
+      "lane": "emulators",
+      "name": "Round-8 and round-9 emulator additions",
+      "repository_url": null,
+      "decision": "duplicate/excluded",
+      "reason": "Round 8 contained zero emulator additions; the round-9 manifest contains 145 emulator additions and is already reflected in the current catalog. Candidate systems already represented by those additions, including the Pokémon Mini, Super Cassette Vision FPGA core, PocketStation MiSTer core, and dozens of other MiSTer cores, were checked before proposing distinct software projects."
+    },
+    {
+      "lane": "software",
+      "name": "FilmCraft / premierecraft fork",
+      "repository_url": "https://github.com/InviolusVox/premierecraft",
+      "decision": "Exclude duplicate",
+      "reason": "GitHub identifies this repository as a fork of storytold/filmcraft, and FilmCraft is already present in the catalog."
+    },
+    {
+      "lane": "software",
+      "name": "OpenMaxFire",
+      "repository_url": "https://github.com/OpenMaxFire/OpenMaxFire",
+      "decision": "Exclude duplicate",
+      "reason": "Already represented in the current catalog as OpenMaxFire Bixby MaxFire protocol and service-software reconstruction."
+    },
+    {
+      "lane": "software",
+      "name": "SC26re Steam Controller firmware",
+      "repository_url": "https://github.com/mwdmwd/sc26re",
+      "decision": "Exclude duplicate",
+      "reason": "Repository already appears in the catalog as a 2026 Steam Controller firmware reimplementation."
+    },
+    {
+      "lane": "software",
+      "name": "openCFW Even Realities firmware",
+      "repository_url": "https://github.com/kalanihelekunihi/evenRealities-openCFW",
+      "decision": "Exclude duplicate",
+      "reason": "Already present in the catalog; it covers G2 source replacement and R1 clean-room firmware, with the G2/R1 maturity distinction documented."
+    },
+    {
+      "lane": "software",
+      "name": "Luxon Server",
+      "repository_url": "https://github.com/niansa/LuxonServer",
+      "decision": "Exclude duplicate",
+      "reason": "Already present in the catalog as a Photon Realtime-compatible clean-room service."
+    },
+    {
+      "lane": "software",
+      "name": "FrankenRedis",
+      "repository_url": "https://github.com/Dicklesworthstone/frankenredis",
+      "decision": "Exclude duplicate",
+      "reason": "Already present in the catalog as a Redis protocol-compatible clean-room server."
+    },
+    {
+      "lane": "software",
+      "name": "OpenBC",
+      "repository_url": "https://github.com/SandboxServers/OpenBC",
+      "decision": "Exclude duplicate",
+      "reason": "Already present in the catalog as the Star Trek: Bridge Commander server/protocol reimplementation."
+    },
+    {
+      "lane": "software",
+      "name": "BattleSpades",
+      "repository_url": "https://github.com/KikoTs/BattleSpades",
+      "decision": "Exclude duplicate",
+      "reason": "Already present in the catalog as an Ace of Spades authoritative-server reimplementation."
+    },
+    {
+      "lane": "software",
+      "name": "OpenPrimus license/status qualification",
+      "repository_url": "https://github.com/brisc/openprimus",
+      "decision": "Retain with caveat",
+      "reason": "Kept as a low-confidence discovery because the replacement brew-control loop is missing, device pin mapping and sensor roles remain unresolved, and only documentation/tooling are explicitly MIT licensed. Do not portray it as flash-ready firmware."
+    },
+    {
+      "lane": "software",
+      "name": "pire reverse-engineering harness",
+      "repository_url": "https://github.com/evangit2/pire",
+      "decision": "Exclude from project candidates",
+      "reason": "A general reverse-engineering tool rather than a replacement application, operating system, firmware target, protocol or service. Its bundled demonstration reimplementation is not treated as a separate candidate."
+    },
+    {
+      "lane": "software",
+      "name": "revenant",
+      "repository_url": "https://github.com/DatanoiseTV/revenant",
+      "decision": "Exclude from project candidates",
+      "reason": "A general reverse-engineering pipeline that can optionally attempt reimplementation, not a concrete replacement target or implementation."
+    },
+    {
+      "lane": "software",
+      "name": "X6100 BASE research",
+      "repository_url": "https://github.com/strijar/x6100-base",
+      "decision": "Hold for later status review",
+      "reason": "The repository is a detailed reverse-engineering effort whose README describes an independent replacement as a long-term goal; it does not yet establish a functioning replacement implementation. The immediate target can be revisited if research-only decompilation records are included."
+    },
+    {
+      "lane": "software",
+      "name": "OpenWrt and established general-purpose OS replacements",
+      "repository_url": null,
+      "decision": "Exclude as duplicates / outside new additions",
+      "reason": "Common OS, firmware, and compatibility projects were not proposed if already present in the database; catalog additions were based on exact new repository evidence, not a broad list of ordinary alternatives."
+    },
+    {
+      "lane": "game-projects",
+      "name": "God of War — Tobiichi Port",
+      "repository_url": "https://github.com/YYOzcan/Tobiichi-Port",
+      "decision": "Related lineage / merge review, not a clean new project addition.",
+      "reason": "README credits Waffle565's God of War Native Port and KIexster's god-of-war-recomp. Live catalog KIexster record already says it shares code and project lineage with Waffle565. Distinct repo documents Windows/Linux builds but should be reconciled with existing lineage."
+    },
+    {
+      "lane": "game-projects",
+      "name": "Bloodborne for Windows",
+      "repository_url": "https://github.com/Supermedo/bloodborne_pc",
+      "decision": "Exclude as a fork/variant of an already represented project lineage.",
+      "reason": "GitHub identifies it as a fork of deadinside28/bloodborne_pc; README says it builds on that native Bloodborne port and shadPS4. Live catalog already contains related bbport and bbhost Bloodborne API-translation projects, including Windows coverage."
+    },
+    {
+      "lane": "game-projects",
+      "name": "Call of Duty: Modern Warfare 2 (2009) Recompiled",
+      "repository_url": "https://github.com/PaulCombal/mw2-recompiled",
+      "decision": "Related upstream project / merge review, not a clean new project addition.",
+      "reason": "Related upstream project / merge review, not a clean new project addition."
+    },
+    {
+      "lane": "game-projects",
+      "name": "https://github.com/jackpoison-prog/RingOut",
+      "repository_url": "https://github.com/jackpoison-prog/RingOut",
+      "decision": "duplicate/excluded",
+      "reason": "Exact URL exists as Soulcalibur II GameCube Recompilation (RingOut)."
+    },
+    {
+      "lane": "game-projects",
+      "name": "https://github.com/elforeign/nfs-most-wanted-mac",
+      "repository_url": "https://github.com/elforeign/nfs-most-wanted-mac",
+      "decision": "duplicate/excluded",
+      "reason": "Exact URL exists as Need for Speed: Most Wanted (2005 PC) Apple Silicon Recompilation."
+    },
+    {
+      "lane": "game-projects",
+      "name": "https://github.com/NoRain211/doaxvb-re",
+      "repository_url": "https://github.com/NoRain211/doaxvb-re",
+      "decision": "duplicate/excluded",
+      "reason": "Exact URL exists as Dead or Alive Xtreme Beach Volleyball Recompilation."
+    },
+    {
+      "lane": "game-projects",
+      "name": "https://github.com/RussoPhone/tomodachi-ltd-recomp",
+      "repository_url": "https://github.com/RussoPhone/tomodachi-ltd-recomp",
+      "decision": "duplicate/excluded",
+      "reason": "Exact URL exists as Tomodachi Life: Living the Dream Recompilation."
+    },
+    {
+      "lane": "game-projects",
+      "name": "https://github.com/vyanhursky/DefJamFFNY-recomp",
+      "repository_url": "https://github.com/vyanhursky/DefJamFFNY-recomp",
+      "decision": "duplicate/excluded",
+      "reason": "Exact URL exists as Def Jam: Fight for NY Xbox Recompilation."
+    },
+    {
+      "lane": "game-projects",
+      "name": "https://github.com/danisandoval/fukami",
+      "repository_url": "https://github.com/danisandoval/fukami",
+      "decision": "duplicate/excluded",
+      "reason": "Exact URL exists as Ridge Racer V Recompilation (Fukami)."
+    },
+    {
+      "lane": "game-projects",
+      "name": "https://github.com/JackandBeans/Snap64Recomp",
+      "repository_url": "https://github.com/JackandBeans/Snap64Recomp",
+      "decision": "duplicate/excluded",
+      "reason": "Exact URL exists as Snap64 Recomp."
+    },
+    {
+      "lane": "game-projects",
+      "name": "https://github.com/alondero/automobililamborghini-recomp",
+      "repository_url": "https://github.com/alondero/automobililamborghini-recomp",
+      "decision": "duplicate/excluded",
+      "reason": "Exact URL exists as Automobili Lamborghini: Recompiled."
+    },
+    {
+      "lane": "game-projects",
+      "name": "https://github.com/sp00nznet/ikaruga",
+      "repository_url": "https://github.com/sp00nznet/ikaruga",
+      "decision": "duplicate/excluded",
+      "reason": "Exact URL exists as Ikaruga GameCube Static Recompilation."
+    },
+    {
+      "lane": "game-projects",
+      "name": "https://github.com/doldecomp/melee",
+      "repository_url": "https://github.com/doldecomp/melee",
+      "decision": "duplicate/excluded",
+      "reason": "Exact URL exists as Super Smash Bros. Melee Decompilation."
+    },
+    {
+      "lane": "game-projects",
+      "name": "https://github.com/DeprivedPeasant/ape-escape-decomp-port",
+      "repository_url": "https://github.com/DeprivedPeasant/ape-escape-decomp-port",
+      "decision": "duplicate/excluded",
+      "reason": "Exact URL already exists in the catalog."
+    },
+    {
+      "lane": "game-projects",
+      "name": "https://github.com/MattSG/mm3-recomp",
+      "repository_url": "https://github.com/MattSG/mm3-recomp",
+      "decision": "hold",
+      "reason": "Work is included in the existing lakshya16157/midtown-madness-3-PC-Native entry."
+    },
+    {
+      "lane": "game-projects",
+      "name": "https://github.com/JRickey/gba-recomp",
+      "repository_url": "https://github.com/JRickey/gba-recomp",
+      "decision": "hold",
+      "reason": "General GBA recompilation toolkit/runtime, not game-specific."
+    },
+    {
+      "lane": "game-projects",
+      "name": "https://github.com/jv36/fifastreet2-recomp",
+      "repository_url": "https://github.com/jv36/fifastreet2-recomp",
+      "decision": "hold",
+      "reason": "README evidence reaches a startup entry without a visible game window; insufficient observable game behavior."
+    },
+    {
+      "lane": "game-projects",
+      "name": "https://github.com/Conker64Recomp/conker64-recompiled",
+      "repository_url": "https://github.com/Conker64Recomp/conker64-recompiled",
+      "decision": "hold",
+      "reason": "Conker already has multiple cataloged recompilation projects; reviewed README evidence did not establish full-game playability."
+    },
+    {
+      "lane": "game-projects",
+      "name": "https://github.com/MatiasRiveraC/SSX-Tricky-PC",
+      "repository_url": "https://github.com/MatiasRiveraC/SSX-Tricky-PC",
+      "decision": "hold",
+      "reason": "Separate repository, but SSX Tricky already has two cataloged PC recompilation projects; held to prioritize less-covered targets."
+    },
+    {
+      "lane": "social-discovery",
+      "name": "Dino Crisis Modern Edition",
+      "repository_url": null,
+      "decision": "Hold/exclude from additions: Reddit discussion describes an in-progress mod built on a PlayStation recompilation but did not surface a public project repository or independently verifiable release. Do not categorize the mod as its own recompilation.",
+      "reason": "Hold/exclude from additions: Reddit discussion describes an in-progress mod built on a PlayStation recompilation but did not surface a public project repository or independently verifiable release. Do not categorize the mod as its own recompilation."
+    },
+    {
+      "lane": "social-discovery",
+      "name": "Spider-Man: Edge of Time Xbox 360-to-PC recompilation",
+      "repository_url": "https://github.com/goliathret/EdgeOfTimeRecomp",
+      "decision": "Duplicate. Existing catalog row spider-man-edge-of-time-recomp points to this exact repository; a second, separate PS5-target row is also in the catalog.",
+      "reason": "Duplicate. Existing catalog row spider-man-edge-of-time-recomp points to this exact repository; a second, separate PS5-target row is also in the catalog."
+    },
+    {
+      "lane": "social-discovery",
+      "name": "The World Is Not Enough N64 recompilation",
+      "repository_url": "https://github.com/riseio/TWIPE_00Sheven",
+      "decision": "Duplicate. Existing catalog row the-world-is-not-enough-n64-recomp points to this exact project; social attention supports no new project row.",
+      "reason": "Duplicate. Existing catalog row the-world-is-not-enough-n64-recomp points to this exact project; social attention supports no new project row."
+    },
+    {
+      "lane": "social-discovery",
+      "name": "Deltarune 3DS Unity port by Altcactus",
+      "repository_url": "https://github.com/Altcactus/Deltarune-Nintendo-3DS-Edition",
+      "decision": "Excluded as stale false positive: archived 2026-03-30 and README says the project is cancelled. This is distinct from the current LinkTroisUn/DELTARUNE-3DS native port candidate.",
+      "reason": "Excluded as stale false positive: archived 2026-03-30 and README says the project is cancelled. This is distinct from the current LinkTroisUn/DELTARUNE-3DS native port candidate."
+    },
+    {
+      "lane": "social-discovery",
+      "name": "decomp.wtf",
+      "repository_url": "https://github.com/i12bp8/decomp.wtf",
+      "decision": "Already cataloged as decomp-wtf-matching-decompilation-tool; archived/discontinued status is already present.",
+      "reason": "Already cataloged as decomp-wtf-matching-decompilation-tool; archived/discontinued status is already present."
+    },
+    {
+      "lane": "social-discovery",
+      "name": "Lost Odyssey Recomp",
+      "repository_url": "https://github.com/freefrank/LostOdysseyRecomp",
+      "decision": "Already cataloged as lost-odyssey-recomp; current release v0.9.65 (2026-10-15) is represented in the current status update research.",
+      "reason": "Already cataloged as lost-odyssey-recomp; current release v0.9.65 (2026-10-15) is represented in the current status update research."
+    },
+    {
+      "lane": "social-discovery",
+      "name": "Lost Odyssey HD Remaster",
+      "repository_url": "https://github.com/faligame/lost-odyssey-hd-remaster",
+      "decision": "Already cataloged as lost-odyssey-hd-remaster-recomp; a distinct repository from freefrank/LostOdysseyRecomp but not a new record.",
+      "reason": "Already cataloged as lost-odyssey-hd-remaster-recomp; a distinct repository from freefrank/LostOdysseyRecomp but not a new record."
+    },
+    {
+      "lane": "social-discovery",
+      "name": "Spider-Man: Edge of Time Recomp",
+      "repository_url": "https://github.com/goliathret/EdgeOfTimeRecomp",
+      "decision": "Already cataloged; same repository as the existing Windows/Linux/macOS record.",
+      "reason": "Already cataloged; same repository as the existing Windows/Linux/macOS record."
+    },
+    {
+      "lane": "social-discovery",
+      "name": "Spider-Man: Edge of Time PS5",
+      "repository_url": "https://github.com/KongaTime/PS5_EdgeOfTimeTitle",
+      "decision": "Already cataloged as a distinct PS5 project/target.",
+      "reason": "Already cataloged as a distinct PS5 project/target."
+    },
+    {
+      "lane": "social-discovery",
+      "name": "The World Is Not Enough (N64) Recompilation",
+      "repository_url": "https://github.com/riseio/TWIPE_00Sheven",
+      "decision": "Already cataloged as the-world-is-not-enough-n64-recomp.",
+      "reason": "Already cataloged as the-world-is-not-enough-n64-recomp."
+    },
+    {
+      "lane": "social-discovery",
+      "name": "Animal Crossing GameCube to 3DS port",
+      "repository_url": "https://github.com/PretendoNetwork/AnimalCrossing3DS",
+      "decision": "GBAtemp discussion points to a project already cataloged as animal-crossing-3ds-port.",
+      "reason": "GBAtemp discussion points to a project already cataloged as animal-crossing-3ds-port."
+    },
+    {
+      "lane": "social-discovery",
+      "name": "Pokemon Let’s Go Eevee native recompilation",
+      "repository_url": "https://github.com/raulzrrs/letsgo-recomp",
+      "decision": "GBAtemp discussion and repo match an existing catalog record.",
+      "reason": "GBAtemp discussion and repo match an existing catalog record."
+    },
+    {
+      "lane": "social-discovery",
+      "name": "Donkey Kong 64 Recompiled NX port",
+      "repository_url": "https://github.com/Trinalord777/DK64Recomp-NX",
+      "decision": "GBAtemp discussion points to an existing catalog record.",
+      "reason": "GBAtemp discussion points to an existing catalog record."
+    },
+    {
+      "lane": "social-discovery",
+      "name": "Super Smash Bros. Ultimate Switch-to-Windows static recompilation",
+      "repository_url": "https://github.com/Denkishi/ssbu-recomp",
+      "decision": "Already cataloged as ssbu-switch-recomp. Maintainer README and GitHub API were checked; README still covers version 13.0.4 and early partial playability. The Reddit announcement is a discovery duplicate. Oct 16 Reddit comments discuss future 13.0.5 and 4K/120 Hz work, but no release/status patch is proposed from comments alone.",
+      "reason": "Already cataloged as ssbu-switch-recomp. Maintainer README and GitHub API were checked; README still covers version 13.0.4 and early partial playability. The Reddit announcement is a discovery duplicate. Oct 16 Reddit comments discuss future 13.0.5 and 4K/120 Hz work, but no release/status patch is proposed from comments alone."
+    },
+    {
+      "lane": "social-discovery",
+      "name": "The Wind Waker WindowWaker Windows port",
+      "repository_url": "https://github.com/MaskeZenY/WindowWaker",
+      "decision": "Already cataloged as wind-waker-windowwaker-windows-port. It is a Windows-only community fork of centollOS/SwitchWaker; maintainer README and v1.0.0-win release independently verify the existing row.",
+      "reason": "Already cataloged as wind-waker-windowwaker-windows-port. It is a Windows-only community fork of centollOS/SwitchWaker; maintainer README and v1.0.0-win release independently verify the existing row."
+    },
+    {
+      "lane": "mobile-ports",
+      "name": "https://github.com/aabrole/HuntersRecomp",
+      "repository_url": "https://github.com/aabrole/HuntersRecomp",
+      "decision": "duplicate/excluded",
+      "reason": "Already cataloged as metroid-prime-hunters-android-recomp; the AYN Thor dual-screen Android port is not a new addition."
+    },
+    {
+      "lane": "mobile-ports",
+      "name": "https://github.com/chrissotraidis/kartpad",
+      "repository_url": "https://github.com/chrissotraidis/kartpad",
+      "decision": "duplicate/excluded",
+      "reason": "Already cataloged as kartpad-mario-kart-wii."
+    },
+    {
+      "lane": "mobile-ports",
+      "name": "https://github.com/rockenrooster/TMNationsDecomp",
+      "repository_url": "https://github.com/rockenrooster/TMNationsDecomp",
+      "decision": "duplicate/excluded",
+      "reason": "Already cataloged as trackmania-nations-forever-android."
+    },
+    {
+      "lane": "mobile-ports",
+      "name": "https://github.com/chrissotraidis/squirrelpad",
+      "repository_url": "https://github.com/chrissotraidis/squirrelpad",
+      "decision": "duplicate/excluded",
+      "reason": "Already cataloged as squirrelpad-conker-bad-fur-day-ios."
+    },
+    {
+      "lane": "mobile-ports",
+      "name": "https://github.com/codepdbh/NFS-CARBON-360-ANDROID-RECOMP",
+      "repository_url": "https://github.com/codepdbh/NFS-CARBON-360-ANDROID-RECOMP",
+      "decision": "duplicate/excluded",
+      "reason": "Already cataloged as need-for-speed-carbon-xbox360-recomp-android."
+    },
+    {
+      "lane": "mobile-ports",
+      "name": "https://github.com/ZinexDa/sonic-r-android",
+      "repository_url": "https://github.com/ZinexDa/sonic-r-android",
+      "decision": "duplicate/excluded",
+      "reason": "Already cataloged as sonic-r-android-decomp-port."
+    },
+    {
+      "lane": "mobile-ports",
+      "name": "https://github.com/BelmanteGu/CelesteAndroid",
+      "repository_url": "https://github.com/BelmanteGu/CelesteAndroid",
+      "decision": "duplicate/excluded",
+      "reason": "Already cataloged as celeste-android."
+    },
+    {
+      "lane": "mobile-ports",
+      "name": "https://github.com/SlickAmogus/silent-hill-decomp",
+      "repository_url": "https://github.com/SlickAmogus/silent-hill-decomp",
+      "decision": "duplicate/excluded",
+      "reason": "Already cataloged as silent-hill-ps3-port."
+    },
+    {
+      "lane": "mobile-ports",
+      "name": "https://github.com/chrissotraidis/projectreach",
+      "repository_url": "https://github.com/chrissotraidis/projectreach",
+      "decision": "duplicate/excluded",
+      "reason": "Already cataloged as projectreach-halo-xbox-ios."
+    },
+    {
+      "lane": "mobile-ports",
+      "name": "https://github.com/SSunnKing/ZeldaWWHDRecompAndroid---ENHANCED",
+      "repository_url": "https://github.com/SSunnKing/ZeldaWWHDRecompAndroid---ENHANCED",
+      "decision": "duplicate/excluded",
+      "reason": "Already cataloged as wind-waker-hd-android-enhanced-fork."
+    },
+    {
+      "lane": "mobile-ports",
+      "name": "https://github.com/mymes1/UnleashedRecomp-Android12",
+      "repository_url": "https://github.com/mymes1/UnleashedRecomp-Android12",
+      "decision": "duplicate/excluded",
+      "reason": "Separate repository, but it targets the same Sonic Unleashed Xbox 360-to-Android combination as the existing sonic-unleashed-recomp-android record. Held as a duplicate-scope lead; its repository API reports its last push as 2026-07-15, and no distinct maintained milestone was verified in this pass."
+    },
+    {
+      "lane": "mobile-ports",
+      "name": "https://github.com/TeamGDB/Yakumo",
+      "repository_url": "https://github.com/TeamGDB/Yakumo",
+      "decision": "duplicate/excluded",
+      "reason": "The README says Android phone testing and touch controls are roadmap items; the current supported targets are desktop, so it is not yet a mobile port."
+    },
+    {
+      "lane": "mobile-ports",
+      "name": "https://github.com/ZandronumGT/GZDoom-Android-2026-prebuild",
+      "repository_url": "https://github.com/ZandronumGT/GZDoom-Android-2026-prebuild",
+      "decision": "duplicate/excluded",
+      "reason": "This is a fork of manuelsiuro/GZDoom-Android-2026, whose Freedoom Android modernization is already cataloged."
+    },
+    {
+      "lane": "mobile-ports",
+      "name": "https://github.com/jessicanataliagta/AndroidRecomp",
+      "repository_url": "https://github.com/jessicanataliagta/AndroidRecomp",
+      "decision": "duplicate/excluded",
+      "reason": "The project runs native Android game libraries on desktop; its target direction is Android-to-desktop rather than console/PC/handheld-to-mobile."
+    },
+    {
+      "lane": "mobile-ports",
+      "name": "https://github.com/andrewnakas/skate3-android",
+      "repository_url": "https://github.com/andrewnakas/skate3-android",
+      "decision": "duplicate/excluded",
+      "reason": "This repository is an Android app shell around the Skate 3 recompilation; the same game and Android target are already represented by skate3-port-android, and the existing iOS project by andrewnakas is separately cataloged."
+    }
+  ],
+  "candidate_lane_exclusion_count": 102,
+  "directory_additions": {
+    "input_count": 3,
+    "approved_count": 3,
+    "excluded_collisions": [],
+    "approved_ids": [
+      "kuriimu2",
+      "scummtr",
+      "telltale-workbench"
+    ],
+    "all_https": true
+  },
+  "game_profile_key_coverage": {
+    "game_project_count": 23,
+    "unique_game_keys": 23,
+    "already_in_live_games": [
+      "Ace Combat 04: Shattered Skies (NTSC-U; SLUS_201.52)",
+      "Crash Team Racing (PlayStation, 1999; US disc indicated by ctr-u.bin/ctr-u.chd)",
+      "DELTARUNE",
+      "Dinosaur Planet (2000 Nintendo 64 prototype)",
+      "Doom RPG (J2ME editions)",
+      "San Francisco Rush 2049"
+    ],
+    "would_create_game_keys": [
+      "007: Nightfire",
+      "Betrayal at Krondor (DOS releases 1.00 and 1.02)",
+      "Deadly Danmaku Trial: DoDonPachi Dai-Ou-Jou Edition",
+      "DoDonPachi Dai-Ou-Jou DX",
+      "Doraemon 3: Nobita no Machi SOS!",
+      "Dragon Quest X Online",
+      "Fire Emblem If",
+      "Gakuen iDOLM@STER",
+      "Magical Drop DX",
+      "Neon Genesis Evangelion 2",
+      "NetHack 3.6.7",
+      "PAC-MAN Championship Edition DX",
+      "PARANORMASIGHT: The Seven Mysteries of Honjo",
+      "Persona 3 - Aigis THE FIRST MISSION",
+      "Persona: Anomalous Tower Chronicle",
+      "Rush 2: Extreme Racing USA",
+      "StarCraft: Ghost"
+    ],
+    "exact_round10_fact_profile_keys": [],
+    "exact_round10_wikipedia_link_keys": [],
+    "target_key_count": 23
+  },
+  "deduplication_scan": {
+    "tracked_data_research_project_target_collisions": [],
+    "additional_staged_project_target_collisions": [],
+    "retained_expected_source_duplicate": {
+      "repository_url": "https://github.com/canassa/betrayal-at-krondor",
+      "target_game": "Betrayal at Krondor (DOS releases 1.00 and 1.02)",
+      "decision": "one canonical row; social manifest row retained and game-project source evidence merged"
+    },
+    "round10_projects_with_primary_repository_source": 36,
+    "primary_repository_source_ids": [
+      "lsw-win32-linux-compatibility-layer",
+      "crash-team-racing-ctrpad-ios",
+      "betrayal-at-krondor-dos-source-reconstruction",
+      "deltarune-3ds-native-port",
+      "cinnamon-gamemaker-runner",
+      "opendsp-4x4-tracks-dsp-control-reimplementation",
+      "lightcraft-classic-adobe-lightroom-classic-fork",
+      "persona-anomalous-tower-chronicle-steam-en",
+      "persona-3-aigis-first-mission-steam-en",
+      "dodonpachi-dai-ou-jou-dx-steam-en",
+      "deadly-danmaku-trial-dodonpachi-dai-ou-jou-steam-en",
+      "magical-drop-dx-steam-en",
+      "dragon-quest-x-online-english-dqxclarity",
+      "neon-genesis-evangelion-2-simplified-chinese",
+      "gakuen-idolmaster-english-translation-data",
+      "paranormasight-honjo-simplified-chinese-fan-patch",
+      "fire-emblem-if-english-fan-translation",
+      "pacman-ce-dx-psvita-port",
+      "gecko-gamecube-wii",
+      "emuscv-super-cassette-vision",
+      "pokket-sx-playstation-pocketstation",
+      "imlunahey-multi-system-emulator",
+      "da14585-hema-esl-firmware-reimplementation",
+      "openscope-2c53t-firmware-reimplementation",
+      "nova-voyager-drill-press-firmware-reimplementation",
+      "octeon-cn50xx-hardware-flow-offload-reimplementation",
+      "lifo-unix-like-browser-node-environment",
+      "rush-2-extreme-racing-usa-n64-pc-recomp",
+      "starcraft-ghost-xbox-native-recomp",
+      "007-nightfire-xbox-windows-port",
+      "ace-combat-04-ps2-windows-recomp",
+      "dinosaur-planet-2000-prototype-recomp",
+      "san-francisco-rush-2049-n64-pc-recomp",
+      "doom-rpg-j2me-native-reimplementation",
+      "nethack-android-port",
+      "dora64-3-n64-native-recompilation"
+    ],
+    "live_project_root_target_collisions": [
+      {
+        "repository_url": "https://github.com/canassa/betrayal-at-krondor",
+        "decision": "deduplicate into social-discovery row",
+        "reason": "Exact same project/repo/game target; retained richer social-discovery record and merged the game-project primary sources."
+      }
+    ]
+  },
+  "database_sha256_final_pre_scratch": "7b228a34ea26bad44510944a24b087b6a32298941b0a0e68beb0698274d3bc8e",
+  "scratch_import_validation": {
+    "result": "passed",
+    "scratch_counts_after_import": {
+      "projects": 3324,
+      "games": 1971,
+      "sources": 11414,
+      "project_language_evidence": 3297,
+      "directory_items": 36
+    },
+    "expected_addition_project_count": 36,
+    "addition_ids_present": 36,
+    "language_records_for_additions": 36,
+    "directory_items_present": 3,
+    "emulator_rows_target_type_software": 4,
+    "integrity_check": "ok",
+    "foreign_key_issues": 0,
+    "live_database_hash_before": "7b228a34ea26bad44510944a24b087b6a32298941b0a0e68beb0698274d3bc8e",
+    "live_database_hash_after": "7b228a34ea26bad44510944a24b087b6a32298941b0a0e68beb0698274d3bc8e",
+    "live_database_unchanged": true
+  },
+  "target_type_review": {
+    "emulator_rows_reclassified_as_software": [
+      "gecko-gamecube-wii",
+      "emuscv-super-cassette-vision",
+      "pokket-sx-playstation-pocketstation",
+      "imlunahey-multi-system-emulator"
+    ],
+    "count": 4,
+    "reason": "Standalone emulator projects target supported systems and software ecosystems rather than individual game titles; they do not create entries in the games table."
+  }
+}

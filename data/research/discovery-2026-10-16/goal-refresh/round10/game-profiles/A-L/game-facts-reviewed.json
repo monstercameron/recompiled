@@ -1,0 +1,887 @@
+{
+  "verified_at": "2026-10-16",
+  "scope": "Source-linked facts for selected individual games from the A-L zero-fact catalog gaps. Caveats and held rows are in search-hold-log.md.",
+  "profiles": [
+    {
+      "game_key": "Arma: Cold War Assault - Remastered (originally Operation Flashpoint: Cold War Crisis)",
+      "facts": [
+        {
+          "field": "developer",
+          "value": "Bohemia Interactive",
+          "source_url": "https://www.bohemia.net/en/games/arma-cold-war-assault",
+          "evidence": "Bohemia identifies itself as developer on the official game page.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Tactical shooter",
+          "source_url": "https://www.bohemia.net/en/games/arma-cold-war-assault",
+          "evidence": "The official game page classifies Arma: Cold War Assault as a tactical shooter.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "Windows PC",
+          "source_url": "https://www.bohemia.net/en/games/arma-cold-war-assault",
+          "evidence": "The official game page lists Windows PC for the underlying game.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "Original release: 2001",
+          "source_url": "https://www.bohemia.net/en/games/arma-cold-war-assault",
+          "evidence": "Bohemia says the game was originally released in 2001 as Operation Flashpoint: Cold War Crisis.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "year"
+        },
+        {
+          "field": "platforms",
+          "value": "Native 64-bit Windows and Linux",
+          "source_url": "https://www.bohemia.net/en/blog/arma-cold-war-assault-remastered-out-now",
+          "evidence": "The remaster announcement lists native 64-bit support for Windows and Linux.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Atlach-Nacha (1997 original and 2000 re-release)",
+      "facts": [
+        {
+          "field": "regional_release_date",
+          "value": "Japan: December 1997 (included in ALICE no Yakata 4-5-6)",
+          "source_url": "https://www.alicesoft.com/information/2024/entry003476.html",
+          "evidence": "AliceSoft says Atlach-Nacha was one of the works included in the December 1997 ALICE no Yakata 4-5-6 release.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "month"
+        },
+        {
+          "field": "genre",
+          "value": "Visual-novel-format adventure",
+          "source_url": "https://www.alicesoft.com/information/2024/entry003476.html",
+          "evidence": "AliceSoft describes Atlach-Nacha as a visual-novel-format adventure game.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "release_format",
+          "value": "Initially bundled in ALICE no Yakata 4-5-6; later sold standalone",
+          "source_url": "https://www.alicesoft.com/information/2024/entry003476.html",
+          "evidence": "AliceSoft identifies the original compilation and says the game was later sold in a standalone package.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Call of Duty: Modern Warfare 2 (2009 PC/Steam game data)",
+      "facts": [
+        {
+          "field": "developer",
+          "value": "Infinity Ward",
+          "source_url": "https://investor.activision.com/static-files/62c16d58-9872-4dc3-bab4-6853e4f78083",
+          "evidence": "Activision’s announcement names Infinity Ward as developer.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Activision Publishing",
+          "source_url": "https://investor.activision.com/static-files/62c16d58-9872-4dc3-bab4-6853e4f78083",
+          "evidence": "Activision’s announcement says Activision Publishing would release the game worldwide.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "Windows PC (Steam edition)",
+          "source_url": "https://store.steampowered.com/app/10180/Call_of_Duty_Modern_Warfare_2_2009/",
+          "evidence": "The official Steam product listing identifies the 2009 PC edition.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "Worldwide: 2009-11-10",
+          "source_url": "https://investor.activision.com/static-files/62c16d58-9872-4dc3-bab4-6853e4f78083",
+          "evidence": "Activision announced a worldwide release on November 10, 2009.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "day"
+        }
+      ]
+    },
+    {
+      "game_key": "Captain Tsubasa Vol. II: Super Striker PLUS",
+      "facts": [
+        {
+          "field": "original_platform",
+          "value": "Nintendo Famicom",
+          "source_url": "https://github.com/mamedev/mame/blob/master/hash/nes.xml",
+          "evidence": "MAME’s NES software list records the Japanese cartridge in its NES/Famicom list.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Tecmo",
+          "source_url": "https://github.com/mamedev/mame/blob/master/hash/nes.xml",
+          "evidence": "MAME’s software-list record lists Tecmo as publisher.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "Japan: 1990-07-20",
+          "source_url": "https://github.com/mamedev/mame/blob/master/hash/nes.xml",
+          "evidence": "MAME’s software-list record gives the Japanese release date as 1990-07-20.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "day"
+        },
+        {
+          "field": "product_code",
+          "value": "TCF-T6",
+          "source_url": "https://github.com/mamedev/mame/blob/master/hash/nes.xml",
+          "evidence": "MAME’s software-list record identifies serial TCF-T6.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Dangan",
+      "facts": [
+        {
+          "field": "original_platform",
+          "value": "Game Boy",
+          "source_url": "https://snorpung.itch.io/dangan-gb",
+          "evidence": "The developer describes Dangan GB as released for Game Boy and designed for real hardware.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "developer",
+          "value": "snorpung",
+          "source_url": "https://snorpung.itch.io/dangan-gb",
+          "evidence": "The creator credits snorpung for code, graphics, and design.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Boss-rush / bullet-hell shoot 'em up",
+          "source_url": "https://snorpung.itch.io/dangan-gb",
+          "evidence": "The creator describes the game as a boss-rush/bullet-hell shmup.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "content",
+          "value": "Six unique bosses with multiple phases",
+          "source_url": "https://snorpung.itch.io/dangan-gb",
+          "evidence": "The developer lists six unique multi-phase bosses as a feature.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Dangan GB2",
+      "facts": [
+        {
+          "field": "original_platform",
+          "value": "Game Boy Color",
+          "source_url": "https://snorpung.itch.io/dangan-gb2",
+          "evidence": "The developer identifies Dangan GB2 as a Game Boy Color release designed for real hardware.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "developer",
+          "value": "snorpung",
+          "source_url": "https://snorpung.itch.io/dangan-gb2",
+          "evidence": "The credits list snorpung for code, graphics, and design.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Boss-rush / bullet-hell shoot 'em up",
+          "source_url": "https://snorpung.itch.io/dangan-gb2",
+          "evidence": "The creator describes it as a boss-rush, bullet-hell shoot-’em-up.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "content",
+          "value": "Six unique bosses with multiple phases",
+          "source_url": "https://snorpung.itch.io/dangan-gb2",
+          "evidence": "The developer lists six unique multi-phase bosses.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "playable_characters",
+          "value": "Two",
+          "source_url": "https://snorpung.itch.io/dangan-gb2",
+          "evidence": "The developer lists two playable characters.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Darius Alpha",
+      "facts": [
+        {
+          "field": "original_platform",
+          "value": "PC Engine / SuperGrafx HuCard",
+          "source_url": "https://www.pcengine.co.uk/HTML_Games/Darius_Alpha.htm",
+          "evidence": "The archival record lists HuCard/SuperGrafx format; TAITO’s collection page also lists Darius Alpha among PC Engine titles.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Horizontal shoot ’em up",
+          "source_url": "https://www.pcengine.co.uk/HTML_Games/Darius_Alpha.htm",
+          "evidence": "The PC Engine archival record classifies Darius Alpha as a horizontal shoot ’em up.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "Japan: 1990-03-16",
+          "source_url": "https://www.pcengine.co.uk/HTML_Games/Darius_Alpha.htm",
+          "evidence": "The archival record gives March 16, 1990 as the release date.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "day"
+        },
+        {
+          "field": "content",
+          "value": "A boss-only run-through of Darius Plus",
+          "source_url": "https://www.pcengine.co.uk/HTML_Games/Darius_Alpha.htm",
+          "evidence": "The archive describes Darius Alpha as a straight run through the bosses from Darius Plus.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Deadeus",
+      "facts": [
+        {
+          "field": "original_platform",
+          "value": "Game Boy",
+          "source_url": "https://incube8games.com/en-eu/products/deadeus-gb",
+          "evidence": "Incube8 lists Game Boy as platform and describes the product as an authentic Game Boy game.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "developer",
+          "value": "IZMA",
+          "source_url": "https://incube8games.com/en-eu/products/deadeus-gb",
+          "evidence": "The publisher’s specification credits IZMA as developer.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Horror / mystery",
+          "source_url": "https://incube8games.com/en-eu/products/deadeus-gb",
+          "evidence": "Incube8 lists horror and mystery as the genres.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "content",
+          "value": "Eleven endings; a boy investigates a prophetic nightmare saying everyone will die in three days",
+          "source_url": "https://incube8games.com/en-eu/products/deadeus-gb",
+          "evidence": "The publisher’s description gives the premise and states the game has 11 endings.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Draglade 2",
+      "facts": [
+        {
+          "field": "original_platform",
+          "value": "Nintendo DS",
+          "source_url": "https://www.nintendo.co.jp/ds/software/cd9j/index.html",
+          "evidence": "Nintendo hosts its official product specification under Nintendo DS software.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Bandai Namco Games",
+          "source_url": "https://www.nintendo.co.jp/ds/software/cd9j/index.html",
+          "evidence": "Nintendo’s product specification names Bandai Namco Games as maker.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Fighting and RPG",
+          "source_url": "https://www.nintendo.co.jp/ds/software/cd9j/index.html",
+          "evidence": "The official product page lists fighting and RPG as genres.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "Japan: 2008-07-10",
+          "source_url": "https://www.nintendo.co.jp/ds/software/cd9j/index.html",
+          "evidence": "Nintendo gives July 10, 2008 as release date.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "day"
+        },
+        {
+          "field": "players",
+          "value": "One to two; two via DS wireless play",
+          "source_url": "https://www.nintendo.co.jp/ds/software/cd9j/index.html",
+          "evidence": "Nintendo lists one to two players and two-player wireless play.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Dragon Ball Z: The Legend",
+      "facts": [
+        {
+          "field": "original_platform",
+          "value": "Sega Saturn and PlayStation",
+          "source_url": "https://collection.rcgs.jp/page/PACKAGE0002699",
+          "evidence": "The RCGS game record identifies the title as a PlayStation and Sega Saturn game.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "developer",
+          "value": "Tose",
+          "source_url": "https://collection.rcgs.jp/page/PACKAGE0002699",
+          "evidence": "The RCGS package record credits Tose as development company.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Bandai",
+          "source_url": "https://collection.rcgs.jp/page/PACKAGE0002699",
+          "evidence": "The RCGS record lists Bandai; Sega’s Saturn archive independently lists the Saturn release under Bandai.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Fighting game",
+          "source_url": "https://collection.rcgs.jp/page/PACKAGE0002699",
+          "evidence": "The RCGS record classifies the game among fighting games.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "Japan: 1996-05-31 (Sega Saturn)",
+          "source_url": "https://www.sega.jp/fb/segahard/ss/soft_licensee2.html",
+          "evidence": "Sega’s official Saturn software archive lists the title on May 31 in its 1996 licensed-software schedule.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "day"
+        }
+      ]
+    },
+    {
+      "game_key": "EverQuest Online Adventures: Frontiers",
+      "facts": [
+        {
+          "field": "original_platform",
+          "value": "PlayStation 2",
+          "source_url": "https://www.awn.com/news/sony-online-delivers-everquest-online-adventures-frontiers",
+          "evidence": "Sony Online’s press notice says Frontiers was developed exclusively for PlayStation 2.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Sony Online Entertainment",
+          "source_url": "https://www.awn.com/news/sony-online-delivers-everquest-online-adventures-frontiers",
+          "evidence": "The release notice says Frontiers was released by Sony Online Entertainment.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "North America: 2003-11-18",
+          "source_url": "https://www.awn.com/news/sony-online-delivers-everquest-online-adventures-frontiers",
+          "evidence": "The notice says it reached North American retail on November 18, 2003.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "day"
+        },
+        {
+          "field": "genre",
+          "value": "Massively multiplayer online role-playing game",
+          "source_url": "https://www.awn.com/news/sony-online-delivers-everquest-online-adventures-frontiers",
+          "evidence": "Sony Online describes Frontiers as the second edition of the EverQuest Online Adventures MMORPG.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Evolution of JiangHu (大衍江湖)",
+      "facts": [
+        {
+          "field": "developer",
+          "value": "SourceIn Games",
+          "source_url": "https://store.steampowered.com/app/1502040/",
+          "evidence": "Steam lists SourceIn Games as developer.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "SourceIn Games",
+          "source_url": "https://store.steampowered.com/app/1502040/",
+          "evidence": "Steam lists SourceIn Games as publisher.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "Windows PC (Steam)",
+          "source_url": "https://store.steampowered.com/app/1502040/",
+          "evidence": "The official product is distributed as a Steam PC game.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Adventure, indie, RPG, simulation, strategy",
+          "source_url": "https://store.steampowered.com/app/1502040/",
+          "evidence": "Steam’s official listing displays these genres.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "Worldwide: 2023-02-10 (full release)",
+          "source_url": "https://store.steampowered.com/app/1502040/",
+          "evidence": "Steam lists February 10, 2023 as release date and separately gives March 23, 2021 as the Early Access date.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "day"
+        }
+      ]
+    },
+    {
+      "game_key": "Fray Shugyou Hen",
+      "facts": [
+        {
+          "field": "original_platform",
+          "value": "Sega Game Gear",
+          "source_url": "https://www.smspower.org/Games/Fray-GG",
+          "evidence": "SMS Power’s archival record lists GG as platform.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "developer",
+          "value": "Falcon",
+          "source_url": "https://www.smspower.org/Games/Fray-GG",
+          "evidence": "The archival record credits Falcon as developer.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Micro Cabin",
+          "source_url": "https://www.smspower.org/Games/Fray-GG",
+          "evidence": "The archival record credits Micro Cabin as publisher.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Action / shooting",
+          "source_url": "https://www.smspower.org/Games/Fray-GG",
+          "evidence": "SMS Power lists action and shooting.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "Japan: 1991-12-27",
+          "source_url": "https://www.smspower.org/Games/Fray-GG",
+          "evidence": "The archive gives December 27, 1991 as Japanese release date.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "day"
+        }
+      ]
+    },
+    {
+      "game_key": "Fullmetal Alchemist 3: The Girl Who Succeeds God",
+      "facts": [
+        {
+          "field": "original_platform",
+          "value": "PlayStation 2",
+          "source_url": "https://magazine.jp.square-enix.com/gamebooks/books/10367",
+          "evidence": "Square Enix describes its book as a complete novelization of the PS2 game Kami o Tsugu Shōjo.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "series",
+          "value": "Fullmetal Alchemist",
+          "source_url": "https://magazine.jp.square-enix.com/gamebooks/books/10367",
+          "evidence": "Square Enix lists the novelization under the Fullmetal Alchemist game-novel series.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "plot",
+          "value": "The Elric brothers visit Valdora seeking a Philosopher’s Stone clue and encounter a young girl and four fallen angels",
+          "source_url": "https://magazine.jp.square-enix.com/gamebooks/books/10367",
+          "evidence": "Square Enix’s official synopsis gives this story setting and premise.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Fushigi no Dungeon: Fūrai no Shiren 2 — Oni Shūrai! Shiren-jō! (Nintendo 64 Japan, NUS-NSIJ-JPN revision 0)",
+      "facts": [
+        {
+          "field": "developer",
+          "value": "Chunsoft",
+          "source_url": "https://collection.rcgs.jp/page/PACKAGE0004604",
+          "evidence": "The RCGS package record credits Chunsoft as developer.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Nintendo",
+          "source_url": "https://collection.rcgs.jp/page/PACKAGE0004604",
+          "evidence": "The RCGS package record lists Nintendo as publisher.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "Nintendo 64",
+          "source_url": "https://collection.rcgs.jp/page/PACKAGE0004604",
+          "evidence": "The RCGS package record identifies Nintendo 64 and product code NUS-NSIJ(JPN).",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "Japan: 2000",
+          "source_url": "https://collection.rcgs.jp/page/PACKAGE0004604",
+          "evidence": "The RCGS record supports 2000, but its metadata and summary disagree on the September day, so only the year is retained.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "year"
+        },
+        {
+          "field": "genre",
+          "value": "Roguelike",
+          "source_url": "https://collection.rcgs.jp/page/PACKAGE0004604",
+          "evidence": "The RCGS record classifies the game as a roguelike.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Ganbare Goemon 2",
+      "facts": [
+        {
+          "field": "original_platform",
+          "value": "Family Computer (Famicom)",
+          "source_url": "https://www.konami.com/games/jp/ja/products/dl_wiiu_goemon2fc_vc/",
+          "evidence": "Konami identifies the original hardware as Family Computer.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "Japan: 1989",
+          "source_url": "https://www.konami.com/games/jp/ja/products/dl_wiiu_goemon2fc_vc/",
+          "evidence": "Konami says the game was released for Family Computer in 1989.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "year"
+        },
+        {
+          "field": "genre",
+          "value": "Action",
+          "source_url": "https://www.konami.com/games/jp/ja/products/dl_wiiu_goemon2fc_vc/",
+          "evidence": "Konami classifies the original game as an action game.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "players",
+          "value": "One to two simultaneous players",
+          "source_url": "https://www.konami.com/games/jp/ja/products/dl_wiiu_goemon2fc_vc/",
+          "evidence": "Konami says Goemon and Ebisu-maru can be played simultaneously by two players.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "plot",
+          "value": "Goemon and Ebisu-maru travel around Japan to reach treasure hidden in Karakuri Castle",
+          "source_url": "https://www.konami.com/games/jp/ja/products/dl_wiiu_goemon2fc_vc/",
+          "evidence": "Konami’s official description gives this premise.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Ganbare! Daiku no Gen-san",
+      "facts": [
+        {
+          "field": "original_platform",
+          "value": "Super Famicom / Super Nintendo",
+          "source_url": "https://superfamicom.org/info/ganbare-daiku-no-gensan",
+          "evidence": "The archival Super Famicom record identifies the title as a Super Famicom game.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "developer",
+          "value": "Irem",
+          "source_url": "https://superfamicom.org/info/ganbare-daiku-no-gensan",
+          "evidence": "The archival record credits Irem.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Action",
+          "source_url": "https://superfamicom.org/info/ganbare-daiku-no-gensan",
+          "evidence": "The archival record classifies the game as action.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "Japan: 1993-12-22",
+          "source_url": "https://superfamicom.org/info/ganbare-daiku-no-gensan",
+          "evidence": "The archive gives December 22, 1993 as the release date.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "day"
+        }
+      ]
+    },
+    {
+      "game_key": "Gun Frontier Arcade Gears Vol. 2",
+      "facts": [
+        {
+          "field": "platforms",
+          "value": "Sega Saturn (Arcade Gears Vol. 2 edition)",
+          "source_url": "https://www.gavas.jp/products/detail.php?product_id=1513",
+          "evidence": "The archival catalog identifies Arcade Gears Vol. 2 - Gun Frontier as a Sega Saturn release.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Shooter",
+          "source_url": "https://www.gavas.jp/products/detail.php?product_id=1513",
+          "evidence": "The archival catalog classifies it as a shooter.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Xing",
+          "source_url": "https://www.gavas.jp/products/detail.php?product_id=1513",
+          "evidence": "The product record identifies Xing as maker and shows its copyright on packaging.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "Japan: 1997-09-25",
+          "source_url": "https://www.gavas.jp/products/detail.php?product_id=1513",
+          "evidence": "The catalog gives September 25, 1997 as release date.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "day"
+        },
+        {
+          "field": "content",
+          "value": "Arcade Gears Vol. 2 contains the Gun Frontier shooter",
+          "source_url": "https://www.gavas.jp/products/detail.php?product_id=1513",
+          "evidence": "The record identifies this as the second Arcade Gears volume and names Gun Frontier as its shooter.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Gundam Assault Survive",
+      "facts": [
+        {
+          "field": "original_platform",
+          "value": "PlayStation Portable",
+          "source_url": "https://tw.gundam-official.com/news/i/news/video-music/news_video-music_20100122_11090p",
+          "evidence": "The official Gundam announcement identifies PlayStation Portable.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Gundam action",
+          "source_url": "https://tw.gundam-official.com/news/i/news/video-music/news_video-music_20100122_11090p",
+          "evidence": "The official announcement lists the game style as Gundam action.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "players",
+          "value": "One to four; co-op two to three and versus two to four",
+          "source_url": "https://tw.gundam-official.com/news/i/news/video-music/news_video-music_20100122_11090p",
+          "evidence": "The official notice gives total and mode-specific player counts.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "Japan: 2010-03-18 (scheduled in January 2010 announcement)",
+          "source_url": "https://tw.gundam-official.com/news/i/news/video-music/news_video-music_20100122_11090p",
+          "evidence": "The official announcement states a planned March 18, 2010 release date.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "day"
+        },
+        {
+          "field": "feature",
+          "value": "Create an original pilot avatar",
+          "source_url": "https://tw.gundam-official.com/news/i/news/video-music/news_video-music_20100122_11090p",
+          "evidence": "The official announcement describes original pilot appearance customization.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "High Seas Havoc",
+      "facts": [
+        {
+          "field": "original_platform",
+          "value": "Sega Mega Drive / Genesis",
+          "source_url": "https://github.com/mamedev/mame/blob/master/hash/megadriv.xml",
+          "evidence": "MAME’s Mega Drive software list records the USA cartridge in its megadriv list.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Data East",
+          "source_url": "https://github.com/mamedev/mame/blob/master/hash/megadriv.xml",
+          "evidence": "MAME’s software-list record identifies Data East as publisher.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "USA: 1993",
+          "source_url": "https://github.com/mamedev/mame/blob/master/hash/megadriv.xml",
+          "evidence": "MAME’s software-list record gives 1993 for the USA release entry.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "year"
+        }
+      ]
+    },
+    {
+      "game_key": "Hollow Knight: Voidheart Edition",
+      "facts": [
+        {
+          "field": "developer",
+          "value": "Team Cherry Pty Ltd",
+          "source_url": "https://www.playstation.com/en-us/games/hollow-knight-voidheart-edition/",
+          "evidence": "PlayStation’s product listing identifies Team Cherry Pty Ltd.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Team Cherry Pty Ltd",
+          "source_url": "https://www.playstation.com/en-us/games/hollow-knight-voidheart-edition/",
+          "evidence": "PlayStation lists Team Cherry Pty Ltd as publisher.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "platforms",
+          "value": "PlayStation 4 and PlayStation 5",
+          "source_url": "https://www.playstation.com/en-us/games/hollow-knight-voidheart-edition/",
+          "evidence": "The official PlayStation listing supports both PS4 and PS5.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Action-adventure",
+          "source_url": "https://www.playstation.com/en-us/games/hollow-knight-voidheart-edition/",
+          "evidence": "PlayStation describes Voidheart Edition as an action-adventure.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "edition_content",
+          "value": "The original game plus four content packs",
+          "source_url": "https://www.playstation.com/en-us/games/hollow-knight-voidheart-edition/",
+          "evidence": "The official page says Voidheart Edition includes the original game and four content packs.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "In Falsus",
+      "facts": [
+        {
+          "field": "developer",
+          "value": "lowiro",
+          "source_url": "https://store.steampowered.com/app/3971950/In_Falsus/",
+          "evidence": "Steam lists lowiro as developer.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "lowiro",
+          "source_url": "https://store.steampowered.com/app/3971950/In_Falsus/",
+          "evidence": "Steam lists lowiro as publisher.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "Windows PC (Steam)",
+          "source_url": "https://store.steampowered.com/app/3971950/In_Falsus/",
+          "evidence": "The Steam product listing identifies the Windows PC release.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Action / indie",
+          "source_url": "https://store.steampowered.com/app/3971950/In_Falsus/",
+          "evidence": "Steam lists Action and Indie as genres.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "Steam: 2026-09-09",
+          "source_url": "https://store.steampowered.com/app/3971950/In_Falsus/",
+          "evidence": "Steam gives September 9, 2026 as release date.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "day"
+        }
+      ]
+    },
+    {
+      "game_key": "Kyuutenkai",
+      "facts": [
+        {
+          "field": "original_platform",
+          "value": "Sega Saturn",
+          "source_url": "https://www.gavas.jp/products/detail.php?product_id=1609",
+          "evidence": "The archival Saturn catalog identifies Kyuutenkai as a Sega Saturn game.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Pinball",
+          "source_url": "https://www.gavas.jp/products/detail.php?product_id=1609",
+          "evidence": "The catalog describes it as a fantasy pinball game.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Technosoft",
+          "source_url": "https://www.gavas.jp/products/detail.php?product_id=1609",
+          "evidence": "The catalog lists Technosoft as maker and displays its copyright.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "Japan: 1995-08-25",
+          "source_url": "https://www.gavas.jp/products/detail.php?product_id=1609",
+          "evidence": "The archival game catalog gives August 25, 1995 as release date.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "day"
+        }
+      ]
+    },
+    {
+      "game_key": "Luigi’s Mansion (Nintendo GameCube; USA `GLME01` rev. 0 and Europe `GLMP01`)",
+      "facts": [
+        {
+          "field": "original_platform",
+          "value": "Nintendo GameCube",
+          "source_url": "https://www.nintendo.com/en-gb/Games/Nintendo-GameCube/Luigi-s-Mansion-268236.html",
+          "evidence": "Nintendo’s official page identifies Nintendo GameCube.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "developer",
+          "value": "Nintendo",
+          "source_url": "https://www.nintendo.com/en-gb/Games/Nintendo-GameCube/Luigi-s-Mansion-268236.html",
+          "evidence": "Nintendo’s product specification lists Nintendo as developer.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Nintendo",
+          "source_url": "https://www.nintendo.com/en-gb/Games/Nintendo-GameCube/Luigi-s-Mansion-268236.html",
+          "evidence": "Nintendo’s product specification lists Nintendo as publisher.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Action / adventure",
+          "source_url": "https://www.nintendo.com/en-gb/Games/Nintendo-GameCube/Luigi-s-Mansion-268236.html",
+          "evidence": "Nintendo classifies Luigi’s Mansion as action and adventure.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "UK: 2002-05-03",
+          "source_url": "https://www.nintendo.com/en-gb/Games/Nintendo-GameCube/Luigi-s-Mansion-268236.html",
+          "evidence": "Nintendo UK gives 03/05/2002, normalized as 3 May 2002 for the UK page.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "day"
+        }
+      ]
+    }
+  ]
+}

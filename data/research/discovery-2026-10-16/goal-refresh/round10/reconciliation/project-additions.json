@@ -1,0 +1,1594 @@
+{
+  "updated": "2026-10-16",
+  "scope": "Round10 additions that passed source, classification, status, exact-root/target dedupe, and language verification. Existing metadata refreshes remain separate.",
+  "projects": [
+    {
+      "id": "lsw-win32-linux-compatibility-layer",
+      "title": "LSW (Linux Subsystem for Windows)",
+      "game": "Windows command-line applications and utilities (multi-title)",
+      "target_type": "Software",
+      "platform": "Windows x86-64 PE console applications → Linux x86-64; translates selected Win32/NT API behavior and Windows paths to Linux/POSIX services. The README describes native x86-64 execution, not CPU instruction translation.",
+      "kind": "API Translation",
+      "status": "Archived on GitHub as checked 2026-10-16. Repository metadata reports the last source push on 2026-06-02; no tags or releases were listed. The README reports working Windows console utilities, 7-Zip, and .NET 8 console applications. It explicitly lists GUI rendering and DirectX/graphics translation as unsupported.",
+      "summary": "An x86-64 Linux runtime that loads Windows PE executables, patches imported functions to selected Win32/NT implementations, bridges the Windows x64 calling convention to Linux System V AMD64, and maps filesystem, registry, threading, and networking behavior to Linux/POSIX services. The maintainer reports successful tests with Windows system utilities, 7-Zip, and .NET 8 console applications. GUI rendering, graphics API translation, and Windows driver support are not implemented according to the README.",
+      "project_url": "https://github.com/barrersoftware/lsw",
+      "updated": "2026-10-16",
+      "strategy": "x86-64 PE loading and import patching, selected Win32/NT API reimplementation, Windows-to-POSIX path and service mappings, and Microsoft x64 ABI bridging",
+      "language": "",
+      "source_available": "Public source repository. The repository includes the custom Barrer Free Software License (BFSL) v1.2, which grants use, study, modification, and distribution while prohibiting commercialization; GitHub API metadata reports no SPDX license identifier (NOASSERTION).",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Windows user-mode API compatibility runtime",
+      "sources": [
+        {
+          "label": "Maintainer README: architecture, supported host/target, tested applications, and unsupported GUI/graphics paths",
+          "url": "https://github.com/barrersoftware/lsw"
+        },
+        {
+          "label": "GitHub repository metadata checked 2026-10-16: archived state, creation date, last push, and license identifier",
+          "url": "https://api.github.com/repos/barrersoftware/lsw"
+        },
+        {
+          "label": "Repository license text: Barrer Free Software License (BFSL) v1.2",
+          "url": "https://raw.githubusercontent.com/barrersoftware/lsw/main/LICENSE"
+        },
+        {
+          "label": "GitHub releases endpoint checked 2026-10-16; no releases listed",
+          "url": "https://api.github.com/repos/barrersoftware/lsw/releases"
+        },
+        {
+          "label": "GitHub tags endpoint checked 2026-10-16; no tags listed",
+          "url": "https://api.github.com/repos/barrersoftware/lsw/tags"
+        },
+        {
+          "label": "Official GitHub Languages API checked 2026-10-16; exact repository byte totals",
+          "url": "https://api.github.com/repos/barrersoftware/lsw/languages"
+        }
+      ]
+    },
+    {
+      "id": "crash-team-racing-ctrpad-ios",
+      "title": "CTRPad: Crash Team Racing Apple Ports",
+      "game": "Crash Team Racing (PlayStation, 1999; US disc indicated by ctr-u.bin/ctr-u.chd)",
+      "target_type": "Game",
+      "platform": "PlayStation (NTSC-U SCUS_944.26) → iOS/iPadOS 15+ ARM64; Apple Silicon macOS also supported",
+      "kind": "Decompilation",
+      "status": "Source/build-recipe release v0.2.2 (2026-10-05); no app binary is published. The README reports that current Apple builds have been launched and played on Apple Silicon macOS, an iPad Pro, and an iPhone 14. Controller hardware coverage and complete local-multiplayer acceptance remain open.",
+      "summary": "Native Apple-platform port built from CTR Native and CTR-ModSDK's decompiled game code, with Apple platform/rendering support, touch controls, controller input, Files-based disc import, and private memory-card saves. Requires the user's compatible North American retail disc image; the user builds and signs or sideloads the app. The repository does not include game data.",
+      "project_url": "https://github.com/chrissotraidis/ctrpad",
+      "updated": "2026-10-05",
+      "strategy": "Source port based on a game decompilation: compiles CTR-ModSDK-derived C game code with a native Apple platform layer. The README says this is not an emulator; do not describe it as static recompilation.",
+      "language": "",
+      "source_available": "Public source repository under GPL-3.0; releases publish a build recipe rather than an app binary.",
+      "first_found": "2026-10-16",
+      "project_started": "2026-07-29",
+      "programming_language": "C",
+      "subtype": "Native source port",
+      "sources": [
+        {
+          "label": "Primary repository README: scope, method, platform support, status, build and data requirements",
+          "url": "https://github.com/chrissotraidis/ctrpad"
+        },
+        {
+          "label": "Release v0.2.2: latest published release and date",
+          "url": "https://github.com/chrissotraidis/ctrpad/releases/tag/v0.2.2"
+        },
+        {
+          "label": "Rights and licenses",
+          "url": "https://github.com/chrissotraidis/ctrpad/blob/main/RIGHTS_AND_LICENSES.md"
+        }
+      ]
+    },
+    {
+      "id": "betrayal-at-krondor-dos-source-reconstruction",
+      "title": "Betrayal at Krondor DOS Source Reconstruction",
+      "game": "Betrayal at Krondor (DOS releases 1.00 and 1.02)",
+      "target_type": "Game",
+      "platform": "MS-DOS (1993 floppy release 1.00 and 1994 CD-ROM release 1.02)",
+      "kind": "Decompilation",
+      "status": "The maintainer README reports a full byte-match against both shipped DOS releases. The latest listed GitHub release is toolchain-v1 (2026-07-21). Maintainer says source still contains decompilation artifacts, baked-in constants, and incorrect names; the project does not add modern-system support or modify the game.",
+      "summary": "Reverse-engineered reconstruction of the original DOS game source. The repository does not include original game data; a user-supplied copy is needed to build a runnable binary or use the asset viewer.",
+      "project_url": "https://github.com/canassa/betrayal-at-krondor",
+      "updated": "2026-10-16",
+      "strategy": "Reverse-engineered DOS source reconstruction with byte-identical builds",
+      "language": "",
+      "source_available": "Public reconstructed source and build tools. The repository LICENSE says MIT applies to original repository work; GitHub repository metadata reports NOASSERTION. The maintainer explicitly says the reconstructed source is a reverse-engineered derivative and the repository grants no rights to third-party game code/data/assets; no original game data files are included.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "Assembly",
+      "subtype": "MS-DOS x86 source reconstruction; byte-identical rebuilds of two released versions",
+      "sources": [
+        {
+          "label": "Maintainer README: reconstruction method, exact DOS releases, byte-match claim, unfinished cleanup, no modern support, data and rights caveat",
+          "url": "https://github.com/canassa/betrayal-at-krondor#readme"
+        },
+        {
+          "label": "Latest listed release: toolchain-v1, published 2026-07-21",
+          "url": "https://github.com/canassa/betrayal-at-krondor/releases/tag/toolchain-v1"
+        },
+        {
+          "label": "Repository LICENSE (MIT statement for original repository work)",
+          "url": "https://github.com/canassa/betrayal-at-krondor/blob/master/LICENSE"
+        },
+        {
+          "label": "GitHub repository metadata: active/non-archived state, push/update timestamps, API license classification",
+          "url": "https://api.github.com/repos/canassa/betrayal-at-krondor"
+        },
+        {
+          "label": "GitHub Languages API byte totals; the only source for the exact language list above",
+          "url": "https://api.github.com/repos/canassa/betrayal-at-krondor/languages"
+        },
+        {
+          "label": "Reddit r/decomps discussion that linked the repository (discovery lead only)",
+          "url": "https://www.reddit.com/r/decomps/comments/1x23j4c/how_do_i_trick_claude_into_starting_a_decomp/"
+        },
+        {
+          "label": "Second recent r/decomps thread/comment linking the same repository (duplicate social hit)",
+          "url": "https://www.reddit.com/r/decomps/comments/1x45bgg/how_long_does_decompilation_take/"
+        },
+        {
+          "label": "Recomp directory entry for the same repository; duplicate directory discovery, not a source for implementation claims",
+          "url": "https://www.recompsoftware.com/p/betrayal-at-krondor/"
+        },
+        {
+          "label": "Game-project review: identity and method",
+          "url": "https://github.com/canassa/betrayal-at-krondor/blob/master/README.md#L5-L13"
+        },
+        {
+          "label": "Game-project review: target platforms",
+          "url": "https://github.com/canassa/betrayal-at-krondor/blob/master/README.md#L13-L20"
+        },
+        {
+          "label": "Game-project review: license",
+          "url": "https://github.com/canassa/betrayal-at-krondor/blob/master/README.md#L47-L59"
+        },
+        {
+          "label": "Game-project review: latest release",
+          "url": "https://api.github.com/repos/canassa/betrayal-at-krondor/releases?per_page=1"
+        }
+      ]
+    },
+    {
+      "id": "deltarune-3ds-native-port",
+      "title": "DELTARUNE 3DS Edition",
+      "game": "DELTARUNE",
+      "target_type": "Game",
+      "platform": "Latest Steam/PC data.win → Nintendo 3DS (Old and New models)",
+      "kind": "Reimplementation",
+      "status": "The maintainer says the public build contains the menu and Chapter 1 only; it runs well on New 3DS models and has occasional acceptable frame drops on original models. Work on the remaining chapters had not started in the release announcement. GitHub lists tag 1.0.0 published 2026-10-11 and a parallax-fix release published 2026-10-15.",
+      "summary": "Native 3DS port that manually adapts GameMaker Language logic to C/C++. The repository distributes xdelta patches and installation instructions, not the native game source code. Users apply a patch to their own current Steam data.win to create CIA or 3DSX output.",
+      "project_url": "https://github.com/LinkTroisUn/DELTARUNE-3DS",
+      "updated": "2026-10-16",
+      "strategy": "Native reimplementation / manual GML-to-C/C++ adaptation",
+      "language": "",
+      "source_available": "Public repository, instructions, and xdelta patches; maintainers explicitly say they are not sharing source code at present because the native port is closely linked to the original game source and they are unsure they are allowed to share it. Users supply their own Steam game files. GitHub API has no repository license classification, and no license is listed on the repository page.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "GameMaker-language logic adapted to a native Nintendo 3DS port; patch-based distribution",
+      "sources": [
+        {
+          "label": "Maintainer README: method, platform coverage, chapter coverage, reported start month, source-sharing decision, and patch installation instructions",
+          "url": "https://github.com/LinkTroisUn/DELTARUNE-3DS#readme"
+        },
+        {
+          "label": "GitHub releases: version 1.0.0 and later parallax-fix release/date",
+          "url": "https://github.com/LinkTroisUn/DELTARUNE-3DS/releases"
+        },
+        {
+          "label": "Reddit r/homebrew maintainer announcement and direct repository link (discovery lead)",
+          "url": "https://www.reddit.com/r/homebrew/comments/1x53ep5/3ds_after_more_than_a_year_of_work_we_have/"
+        },
+        {
+          "label": "Reddit r/3DS duplicate announcement for the same repository",
+          "url": "https://www.reddit.com/r/3DS/comments/1x53ffd/after_more_than_a_year_of_work_we_have_finally/"
+        },
+        {
+          "label": "GBAtemp forum announcement of the same native 3DS port (duplicate forum hit)",
+          "url": "https://gbatemp.net/threads/deltarune-gets-unofficial-native-3ds-port-chapter-1-playable.685343/"
+        },
+        {
+          "label": "GitHub repository metadata: created/pushed dates, archived state, and null API license field",
+          "url": "https://api.github.com/repos/LinkTroisUn/DELTARUNE-3DS"
+        },
+        {
+          "label": "GitHub Languages API returned an empty object; no repository language names were reported",
+          "url": "https://api.github.com/repos/LinkTroisUn/DELTARUNE-3DS/languages"
+        }
+      ]
+    },
+    {
+      "id": "cinnamon-gamemaker-runner",
+      "title": "Cinnamon GameMaker Runner",
+      "game": "GameMaker Studio bytecode versions 16 and 17 (multi-title runtime)",
+      "target_type": "Software",
+      "platform": "GameMaker Studio bytecode v16/v17 → Nintendo 3DS, Wii, and Wii U; GameCube is described as future support",
+      "kind": "Reimplementation",
+      "status": "The repository was pushed on 2026-10-15 and is not archived. README says supported bytecode versions are 16 and 17, but compatibility remains a work in progress; YYC and GameMaker Runtime games are unsupported. README lists 3DS, Wii U, and Wii as supported platforms and GameCube as future. The same repository also hosts separate Undertale Wii, Deltarune Wii, and Undertale Wii U releases.",
+      "summary": "Open-source fork of Butterscotch that reimplements the GameMaker Studio runner for Nintendo homebrew platforms, enabling multiple compatible bytecode games to run on 3DS/Wii/Wii U. This row describes the reusable runtime, not a claim that every example game is compatible or complete.",
+      "project_url": "https://github.com/Project-Sunshine-Native/cinnamon",
+      "updated": "2026-10-16",
+      "strategy": "Forked reimplementation of the GameMaker Studio bytecode runner for Nintendo homebrew platforms",
+      "language": "",
+      "source_available": "Public source. GitHub identifies the repository as MPL-2.0; upstream Butterscotch and other dependencies may have their own license terms.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Multi-title GameMaker runtime reimplementation for Nintendo homebrew systems",
+      "sources": [
+        {
+          "label": "Maintainer README: says Cinnamon is an open-source reimplementation/fork of Butterscotch; bytecode-version limits, WIP compatibility, supported/future platforms, and Project Sunshine context",
+          "url": "https://github.com/Project-Sunshine-Native/cinnamon#readme"
+        },
+        {
+          "label": "GitHub LICENSE page: MPL-2.0",
+          "url": "https://github.com/Project-Sunshine-Native/cinnamon/blob/main/LICENSE"
+        },
+        {
+          "label": "GitHub repository metadata: public/non-archived state and latest push timestamp",
+          "url": "https://api.github.com/repos/Project-Sunshine-Native/cinnamon"
+        },
+        {
+          "label": "GitHub Languages API byte totals; the only source for the exact language list above",
+          "url": "https://api.github.com/repos/Project-Sunshine-Native/cinnamon/languages"
+        },
+        {
+          "label": "Undertale Wii release hosted by same multi-title repository",
+          "url": "https://github.com/Project-Sunshine-Native/cinnamon/releases/tag/v0.9"
+        },
+        {
+          "label": "Deltarune Wii release hosted by same multi-title repository",
+          "url": "https://github.com/Project-Sunshine-Native/cinnamon/releases/tag/V0.9"
+        },
+        {
+          "label": "Undertale Wii U Edition release hosted by same multi-title repository",
+          "url": "https://github.com/Project-Sunshine-Native/cinnamon/releases/tag/v1.3"
+        },
+        {
+          "label": "Reddit Deltarune port discussion where the related runner/fork was surfaced; discovery lead only",
+          "url": "https://www.reddit.com/r/Deltarune/comments/1x53d74/after_more_than_a_year_of_work_we_have_finally/"
+        }
+      ]
+    },
+    {
+      "id": "opendsp-4x4-tracks-dsp-control-reimplementation",
+      "title": "openDSP-4x4 (t.racks DSP 4x4 Mini Pro editor replacement)",
+      "game": "t.racks DSP 4x4 Mini Pro editor and USB-HID control behavior",
+      "target_type": "Software",
+      "platform": "Desktop Chrome/Edge on Linux, Windows, or macOS over WebHID; Android 7+ over USB-OTG through the released WebView app. Hardware scope is the t.racks DSP 4x4 Mini Pro.",
+      "kind": "Reimplementation",
+      "status": "Released v0.2.2 on 2026-06-17; GitHub metadata reports the latest source push on 2026-07-30. The README says the desktop WebHID and Android USB-OTG apps work and have been verified on hardware. It reports routing, gain/mute, 7-band PEQ, crossovers, compressor, gate, delay, presets, meters, and state readback; PEQ Q scaling remains provisional and gate timing is not yet calibrated. The project does not claim complete editor parity.",
+      "summary": "An independent controller for the t.racks DSP 4x4 Mini Pro, a four-input/four-output DSP that ships with Windows-only editor software. The maintainer says the control protocol was developed clean-room by observing USB-HID traffic and probing known values, then implemented as a shared protocol with a TypeScript WebHID desktop app and a thin Android USB-host shell. The project documents the wire protocol and does not claim to include vendor code.",
+      "project_url": "https://github.com/GlassOnTin/opendsp-4x4",
+      "updated": "2026-10-16",
+      "strategy": "Clean-room USB-HID protocol recovery by observation and controlled read/write probing, followed by an independent cross-platform control application.",
+      "language": "",
+      "source_available": "Public source under GNU AGPL-3.0-or-later. The README documents the USB-HID protocol and says the implementation is independent of Thomann.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "TypeScript",
+      "subtype": "Desktop and Android control application for professional audio DSP hardware",
+      "sources": [
+        {
+          "label": "Official README: target, platforms, clean-room protocol method, hardware verification, feature coverage, and remaining gaps",
+          "url": "https://github.com/GlassOnTin/opendsp-4x4"
+        },
+        {
+          "label": "Latest GitHub release v0.2.2",
+          "url": "https://github.com/GlassOnTin/opendsp-4x4/releases/tag/v0.2.2"
+        },
+        {
+          "label": "Documented USB-HID protocol",
+          "url": "https://github.com/GlassOnTin/opendsp-4x4/blob/main/PROTOCOL.md"
+        },
+        {
+          "label": "GNU AGPL-3.0-or-later license",
+          "url": "https://github.com/GlassOnTin/opendsp-4x4/blob/main/LICENSE"
+        },
+        {
+          "label": "Official GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/GlassOnTin/opendsp-4x4"
+        },
+        {
+          "label": "Official GitHub language-byte endpoint",
+          "url": "https://api.github.com/repos/GlassOnTin/opendsp-4x4/languages"
+        }
+      ]
+    },
+    {
+      "id": "lightcraft-classic-adobe-lightroom-classic-fork",
+      "title": "LightCraft Classic (Adobe Lightroom Classic workflow fork)",
+      "game": "Adobe Lightroom Classic photo-library and RAW-development workflow",
+      "target_type": "Software",
+      "platform": "Native desktop applications for macOS, Windows, and Linux; the repository also builds a WebAssembly version for browsers, with WebGPU and Safari/Firefox testing still in progress.",
+      "kind": "Reimplementation",
+      "status": "Latest GitHub release found is v0.9.0, published 2026-10-16 and not marked as a prerelease; source activity continued through the same date. The README calls the application young and moving quickly, and its feature table marks many library, development, and output workflows as working while identifying raw-camera verification, HDR display coverage, and video as incomplete or in progress. The project is a fork of the already cataloged LightCraft app and should be understood as a distinct Lightroom Classic workflow product, not an independent clean-room effort.",
+      "summary": "A desktop photo library and RAW-development application that adapts the clean-room LightCraft engine to Adobe Lightroom Classic's one-catalog, seven-module workflow. The fork's README describes Library, Develop, Map, Book, Slideshow, Print, and Web modules, plus Classic-style panels and a filmstrip; it reports support for Lightroom Classic catalog import and separate local catalog persistence. It retains the upstream photo-processing core and adds fork-specific interface and workflow work, so it is a related implementation lineage rather than a separate reverse-engineering effort.",
+      "project_url": "https://github.com/emmertex/lightcraft-classic",
+      "updated": "2026-10-16",
+      "strategy": "Derivative fork of the clean-room LightCraft reimplementation; retains upstream core and extends it for Lightroom Classic workflows. The fork README documents regular upstream merges, so this is not an independent clean-room reverse-engineering project.",
+      "language": "",
+      "source_available": "Public source under MIT according to GitHub metadata and the repository README; the README says selected upstream crates retain Apache-2.0 notices and that upstream copyright notices are preserved.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "Rust",
+      "subtype": "Classic-style photo library, RAW developer, and print/publishing desktop application",
+      "sources": [
+        {
+          "label": "Official README: target workflow, fork relationship, feature scope, platform support, and current limits",
+          "url": "https://github.com/emmertex/lightcraft-classic"
+        },
+        {
+          "label": "Latest GitHub release v0.9.0",
+          "url": "https://github.com/emmertex/lightcraft-classic/releases/tag/v0.9.0"
+        },
+        {
+          "label": "Upstream LightCraft clean-room photo application",
+          "url": "https://github.com/storytold/lightcraft"
+        },
+        {
+          "label": "Fork's MIT license and retained upstream notices",
+          "url": "https://github.com/emmertex/lightcraft-classic/blob/main/LICENSE"
+        },
+        {
+          "label": "Official GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/emmertex/lightcraft-classic"
+        },
+        {
+          "label": "Official GitHub language-byte endpoint",
+          "url": "https://api.github.com/repos/emmertex/lightcraft-classic/languages"
+        }
+      ]
+    },
+    {
+      "id": "persona-anomalous-tower-chronicle-steam-en",
+      "title": "Persona: Anomalous Tower Chronicle English Fan Patch",
+      "game": "Persona: Anomalous Tower Chronicle",
+      "target_type": "Game",
+      "platform": "Windows PC (Steam)",
+      "kind": "Fan Localization",
+      "status": "English patch v1.0 is linked from the maintainer's patch index; the README does not state completeness or a patch date.",
+      "summary": "English fan patch for the Japanese Steam release. Its maintainer says it follows the official PSP English localization of Shin Megami Tensei: Persona with deliberate changes.",
+      "project_url": "https://github.com/MKCAMK/G-MODE-Archives-translations",
+      "updated": "2026-10-16",
+      "strategy": "Game-specific text fan localization patch",
+      "language": "English",
+      "source_available": "Public GitHub repository and a linked v1.0 patch download.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "Fan localization patch",
+      "sources": [
+        {
+          "label": "Maintainer README: Steam-only scope, title, English patch v1.0, and localization note",
+          "url": "https://github.com/MKCAMK/G-MODE-Archives-translations"
+        }
+      ]
+    },
+    {
+      "id": "persona-3-aigis-first-mission-steam-en",
+      "title": "Persona 3 - Aigis THE FIRST MISSION English Fan Patch",
+      "game": "Persona 3 - Aigis THE FIRST MISSION",
+      "target_type": "Game",
+      "platform": "Windows PC (Steam)",
+      "kind": "Fan Localization",
+      "status": "English patch v1.0 is linked from the maintainer's patch index; the README does not state completeness or a patch date.",
+      "summary": "English fan patch for the Japanese Steam release of Persona 3 - Aigis THE FIRST MISSION.",
+      "project_url": "https://github.com/MKCAMK/G-MODE-Archives-translations",
+      "updated": "2026-10-16",
+      "strategy": "Game-specific text fan localization patch",
+      "language": "English",
+      "source_available": "Public GitHub repository and a linked v1.0 patch download.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "Fan localization patch",
+      "sources": [
+        {
+          "label": "Maintainer README: Steam-only scope and English patch v1.0",
+          "url": "https://github.com/MKCAMK/G-MODE-Archives-translations"
+        }
+      ]
+    },
+    {
+      "id": "dodonpachi-dai-ou-jou-dx-steam-en",
+      "title": "DoDonPachi Dai-Ou-Jou DX English Fan Patch",
+      "game": "DoDonPachi Dai-Ou-Jou DX",
+      "target_type": "Game",
+      "platform": "Windows PC (Steam)",
+      "kind": "Fan Localization",
+      "status": "English patch v1.3 is linked from the maintainer's patch index; release date and completeness are unstated.",
+      "summary": "English fan patch for the Japanese Steam release of DoDonPachi Dai-Ou-Jou DX.",
+      "project_url": "https://github.com/MKCAMK/G-MODE-Archives-translations",
+      "updated": "2026-10-16",
+      "strategy": "Game-specific text fan localization patch",
+      "language": "English",
+      "source_available": "Public GitHub repository and a linked v1.3 patch download.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "Fan localization patch",
+      "sources": [
+        {
+          "label": "Maintainer README: Steam-only scope and English patch v1.3",
+          "url": "https://github.com/MKCAMK/G-MODE-Archives-translations"
+        }
+      ]
+    },
+    {
+      "id": "deadly-danmaku-trial-dodonpachi-dai-ou-jou-steam-en",
+      "title": "Deadly Danmaku Trial: DoDonPachi Dai-Ou-Jou Edition English Fan Patch",
+      "game": "Deadly Danmaku Trial: DoDonPachi Dai-Ou-Jou Edition",
+      "target_type": "Game",
+      "platform": "Windows PC (Steam)",
+      "kind": "Fan Localization",
+      "status": "English patch v1.0 is linked from the maintainer's patch index; release date and completeness are unstated.",
+      "summary": "English fan patch for the Japanese Steam release of Deadly Danmaku Trial: DoDonPachi Dai-Ou-Jou Edition.",
+      "project_url": "https://github.com/MKCAMK/G-MODE-Archives-translations",
+      "updated": "2026-10-16",
+      "strategy": "Game-specific text fan localization patch",
+      "language": "English",
+      "source_available": "Public GitHub repository and a linked v1.0 patch download.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "Fan localization patch",
+      "sources": [
+        {
+          "label": "Maintainer README: Steam-only scope and English patch v1.0",
+          "url": "https://github.com/MKCAMK/G-MODE-Archives-translations"
+        }
+      ]
+    },
+    {
+      "id": "magical-drop-dx-steam-en",
+      "title": "Magical Drop DX English Fan Patch",
+      "game": "Magical Drop DX",
+      "target_type": "Game",
+      "platform": "Windows PC (Steam)",
+      "kind": "Fan Localization",
+      "status": "English patch v1.0 is linked from the maintainer's patch index; release date and completeness are unstated.",
+      "summary": "English fan patch for the Japanese Steam release of Magical Drop DX.",
+      "project_url": "https://github.com/MKCAMK/G-MODE-Archives-translations",
+      "updated": "2026-10-16",
+      "strategy": "Game-specific text fan localization patch",
+      "language": "English",
+      "source_available": "Public GitHub repository and a linked v1.0 patch download.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "Fan localization patch",
+      "sources": [
+        {
+          "label": "Maintainer README: Steam-only scope and English patch v1.0",
+          "url": "https://github.com/MKCAMK/G-MODE-Archives-translations"
+        }
+      ]
+    },
+    {
+      "id": "dragon-quest-x-online-english-dqxclarity",
+      "title": "Dragon Quest X Online English Localization (dqxclarity)",
+      "game": "Dragon Quest X Online",
+      "target_type": "Game",
+      "platform": "Windows PC",
+      "kind": "Fan Localization",
+      "status": "Actively maintained; latest verified release is v5.28.0 (2026-10-16). The project says the full main-story cutscenes are hand-translated; side quests and Gaidens may still include machine translation.",
+      "summary": "Japanese-to-English localization project for Dragon Quest X Online. It supplies patched menus and UI, a modded translation DAT, and tooling that intercepts server-side text for on-the-fly translation. The live translation APIs are one localization mechanism; this is not a graphics/API compatibility project.",
+      "project_url": "https://github.com/dqx-translation-project/dqxclarity",
+      "updated": "2026-10-16",
+      "strategy": "Fan localization: patched game text plus client-side live text translation",
+      "language": "English",
+      "source_available": "Public software repository and modded translation DAT distributed from GitHub releases.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "Python",
+      "subtype": "Fan localization utility and text patch",
+      "sources": [
+        {
+          "label": "Maintainer README: English translation purpose and active development history",
+          "url": "https://github.com/dqx-translation-project/dqxclarity"
+        },
+        {
+          "label": "Official project site: live server-text translation, patched UI, hand-translated story, and machine-translation caveat",
+          "url": "https://dqx-translation-project.github.io/"
+        },
+        {
+          "label": "Latest verified release",
+          "url": "https://github.com/dqx-translation-project/dqxclarity/releases/tag/v5.28.0"
+        },
+        {
+          "label": "Repository code license",
+          "url": "https://github.com/dqx-translation-project/dqxclarity/blob/main/LICENSE"
+        }
+      ]
+    },
+    {
+      "id": "neon-genesis-evangelion-2-simplified-chinese",
+      "title": "Neon Genesis Evangelion 2 Simplified Chinese Fan Translation",
+      "game": "Neon Genesis Evangelion 2",
+      "target_type": "Game",
+      "platform": "PlayStation Portable (PSP); PPSSPP supported",
+      "kind": "Fan Localization",
+      "status": "Test-stage Simplified Chinese xdelta patches; latest verified release v2.2.0-beta.1 (2026-09-28) supports Japanese disc IDs ULJS-00061 and ULJS-00064.",
+      "summary": "A reproducible Simplified Chinese localization patch and toolchain for the Japanese PSP game Neon Genesis Evangelion 2. The project lists translators and proofreaders, and discloses DeepL and Meta-Llama machine-translation assistance in its work history.",
+      "project_url": "https://github.com/EVA-zh-Hans/nge_2_re",
+      "updated": "2026-10-16",
+      "strategy": "Text/resource fan localization patch built with reverse-engineering and automated patch tooling",
+      "language": "Simplified Chinese",
+      "source_available": "Public source repository; xdelta3 patch files are published for both supported disc IDs, and the README instructs users to supply their own ISO.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "Python",
+      "subtype": "Fan localization patch and patch-building toolchain",
+      "sources": [
+        {
+          "label": "Maintainer README: goal, disc IDs, patch instructions, test status, translation workflow, contributors, and separate code/text licenses",
+          "url": "https://github.com/EVA-zh-Hans/nge_2_re"
+        },
+        {
+          "label": "Latest verified beta patch release and supported disc IDs",
+          "url": "https://github.com/EVA-zh-Hans/nge_2_re/releases/tag/v2.2.0-beta.1"
+        },
+        {
+          "label": "GPL-3.0 source-code license",
+          "url": "https://github.com/EVA-zh-Hans/nge_2_re/blob/main/LICENSE"
+        }
+      ]
+    },
+    {
+      "id": "gakuen-idolmaster-english-translation-data",
+      "title": "Gakuen iDOLM@STER English Translation Data",
+      "game": "Gakuen iDOLM@STER",
+      "target_type": "Game",
+      "platform": "Android; Windows PC (DMM Games)",
+      "kind": "Fan Localization",
+      "status": "Maintained English localization data; latest verified automated release 20261016.070514.main.02e5151 was published 2026-10-16.",
+      "summary": "English localization strings and resources for Gakuen iDOLM@STER, consumed by the separate gakuen-imas-localify mod. The project distributes translation data rather than a standalone game executable or API/compatibility layer.",
+      "project_url": "https://github.com/NatsumeLS/Gakumas-Translation-Data-EN",
+      "updated": "2026-10-16",
+      "strategy": "Game-specific localization data consumed by a game mod",
+      "language": "English",
+      "source_available": "Public GitHub repository and dated automated translation-data releases.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "Python",
+      "subtype": "Fan localization data",
+      "sources": [
+        {
+          "label": "Repository README: English translation data, localization strings, and relationship to gakuen-imas-localify",
+          "url": "https://github.com/NatsumeLS/Gakumas-Translation-Data-EN"
+        },
+        {
+          "label": "Official project documentation home",
+          "url": "https://gakumas.natsume.io/"
+        },
+        {
+          "label": "Android setup instructions",
+          "url": "https://gakumas.natsume.io/localify/android.md"
+        },
+        {
+          "label": "DMM Games (PC) instructions and translation-data setup",
+          "url": "https://gakumas.natsume.io/localify/dmm-games.md"
+        },
+        {
+          "label": "Latest verified translation-data release",
+          "url": "https://github.com/NatsumeLS/Gakumas-Translation-Data-EN/releases/tag/20261016.070514.main.02e5151"
+        }
+      ]
+    },
+    {
+      "id": "paranormasight-honjo-simplified-chinese-fan-patch",
+      "title": "PARANORMASIGHT: The Seven Mysteries of Honjo Simplified Chinese Fan Patch",
+      "game": "PARANORMASIGHT: The Seven Mysteries of Honjo",
+      "target_type": "Game",
+      "platform": "Windows PC (Steam); Nintendo Switch",
+      "kind": "Fan Localization",
+      "status": "Historical released Simplified Chinese patch v1.0.0 (2023-09-22) for game version 1.1; the project page states that official Simplified and Traditional Chinese localizations have since been added.",
+      "summary": "Volunteer Simplified Chinese fan localization for the Japanese game build on Steam and Nintendo Switch. The fan patch remains a documented historical effort but has been superseded for players by the game's official Chinese localization.",
+      "project_url": "https://github.com/Qi-Busiyi-Hanhuazu/ParanormasightChsLocalization",
+      "updated": "2026-10-16",
+      "strategy": "Game-specific text fan localization patch",
+      "language": "Simplified Chinese",
+      "source_available": "Public GitHub repository with separate Steam and Nintendo Switch patch downloads and source text changes.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "PowerShell",
+      "subtype": "Fan localization patch",
+      "sources": [
+        {
+          "label": "Project README: languages, platform/version support, translator credits, and official-localization notice",
+          "url": "https://github.com/Qi-Busiyi-Hanhuazu/ParanormasightChsLocalization"
+        },
+        {
+          "label": "Project page: patch distribution, target language selection, and CC BY-NC-SA 4.0 terms",
+          "url": "https://7.xzonn.top/ParanormasightChsLocalization/"
+        },
+        {
+          "label": "v1.0.0 release",
+          "url": "https://github.com/Qi-Busiyi-Hanhuazu/ParanormasightChsLocalization/releases/tag/1.0.0"
+        }
+      ]
+    },
+    {
+      "id": "fire-emblem-if-english-fan-translation",
+      "title": "Fire Emblem If English Fan Translation",
+      "game": "Fire Emblem If",
+      "target_type": "Game",
+      "platform": "Nintendo 3DS",
+      "kind": "Fan Localization",
+      "status": "Incomplete content-restoration translation; latest verified ready-to-use patch is v4.3 (2023-04-24). The README describes ongoing work but was last updated April 2023, so present-day activity is unclear.",
+      "summary": "English fan patch for the Japanese Fire Emblem If release, restoring and translating content omitted or rewritten in the official English Fire Emblem Fates release. Team If reports coverage of all three routes, all Skinship lines, most NPC dialogue, and part of support conversations.",
+      "project_url": "https://github.com/TeamIf/FireEmblemIf-FanTranslation",
+      "updated": "2026-10-16",
+      "strategy": "Japanese-to-English fan translation and content-restoration patch",
+      "language": "English",
+      "source_available": "Public source repository and downloadable ready-to-use patch release.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "Fan localization and content-restoration patch",
+      "sources": [
+        {
+          "label": "Team If README: scope, coverage, original-Japanese content, and last-updated month",
+          "url": "https://github.com/TeamIf/FireEmblemIf-FanTranslation"
+        },
+        {
+          "label": "Latest verified ready-to-use patch release",
+          "url": "https://github.com/TeamIf/FireEmblemIf-FanTranslation/releases/tag/v4.3"
+        }
+      ]
+    },
+    {
+      "id": "pacman-ce-dx-psvita-port",
+      "title": "PAC-MAN Championship Edition DX PS Vita Port",
+      "game": "PAC-MAN Championship Edition DX",
+      "target_type": "Game",
+      "platform": "Android → PlayStation Vita",
+      "kind": "API Translation",
+      "status": "README identifies a V3 build dated 2026-09-12 and says it restores effects and gameplay modifiers from the PC/console version. The browser installer generates a Vita VPK and data folder from user-supplied Android game files; no full-game completion claim was verified.",
+      "summary": "Game-specific PlayStation Vita homebrew port that loads the Android game library through a Vita-side .so loader, stubs Android/Java APIs, and bridges OpenGL ES through a patched vitaGL. Users supply their legally obtained Android APK and OBB; an optional Steam PAC-MAN.dat can provide PC audio assets.",
+      "project_url": "https://github.com/mcallbosco/pacman-cedx-vita",
+      "updated": "2026-09-12",
+      "strategy": "Android native-library loader with Android/Java API stubs and an OpenGL ES bridge",
+      "language": "",
+      "source_available": "Public source repository",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "PlayStation Vita",
+      "sources": [
+        {
+          "label": "Project identity, V3 label/date, installation flow, source platform, target, port method, asset requirements, and build wrapper.",
+          "url": "https://github.com/mcallbosco/pacman-cedx-vita/blob/main/README.md"
+        },
+        {
+          "label": "MIT license for the repository source.",
+          "url": "https://github.com/mcallbosco/pacman-cedx-vita/blob/main/LICENSE"
+        },
+        {
+          "label": "Repository creation, push/update dates, default branch, repository language field, and license metadata.",
+          "url": "https://api.github.com/repos/mcallbosco/pacman-cedx-vita"
+        },
+        {
+          "label": "Exact GitHub language byte breakdown.",
+          "url": "https://api.github.com/repos/mcallbosco/pacman-cedx-vita/languages"
+        },
+        {
+          "label": "The repository currently has no GitHub Releases entries; README V3 refers to the project/site build flow.",
+          "url": "https://github.com/mcallbosco/pacman-cedx-vita/releases"
+        },
+        {
+          "label": "Browser installer endpoint linked by the README.",
+          "url": "https://pacmancedx.mcallbos.co/"
+        }
+      ]
+    },
+    {
+      "id": "gecko-gamecube-wii",
+      "title": "Gecko",
+      "game": "Nintendo GameCube and Wii emulation software",
+      "target_type": "Software",
+      "platform": "Nintendo GameCube and Wii",
+      "kind": "Emulator",
+      "status": "In development; the maintainer says most tested games work well, while warning that compatibility varies. A release tagged `release` was published 2026-10-14 and the source repository was pushed 2026-10-15.",
+      "summary": "A cross-platform GameCube and Wii emulator and debugger written in Rust, with desktop and WebAssembly frontends, JIT compilation, and developer tools.",
+      "project_url": "https://github.com/ioncodes/gecko",
+      "updated": null,
+      "strategy": "Emulation",
+      "language": "",
+      "source_available": "Public source repository",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "Rust",
+      "subtype": "Standalone software emulator and debugger; includes desktop, browser, and command-line frontends.",
+      "sources": [
+        {
+          "label": "Maintainer repository and README",
+          "url": "https://github.com/ioncodes/gecko"
+        },
+        {
+          "label": "GitHub Releases API",
+          "url": "https://api.github.com/repos/ioncodes/gecko/releases/latest"
+        },
+        {
+          "label": "GitHub repository metadata API",
+          "url": "https://api.github.com/repos/ioncodes/gecko"
+        },
+        {
+          "label": "GitHub license file",
+          "url": "https://github.com/ioncodes/gecko/blob/master/LICENSE"
+        },
+        {
+          "label": "GitHub Languages API",
+          "url": "https://api.github.com/repos/ioncodes/gecko/languages"
+        },
+        {
+          "label": "Maintainer release page",
+          "url": "https://github.com/ioncodes/gecko/releases/tag/release"
+        }
+      ]
+    },
+    {
+      "id": "emuscv-super-cassette-vision",
+      "title": "Libretro-EmuSCV",
+      "game": "Epoch/Yeno Super Cassette Vision emulation software",
+      "target_type": "Software",
+      "platform": "Epoch/Yeno Super Cassette Vision",
+      "kind": "Emulator",
+      "status": "Research branch V0, described by its maintainer as still under development and planned for a rewrite for V1. Changelog lists v0.15.20260921084155; GitLab activity is dated 2026-09-29.",
+      "summary": "A Libretro emulator core for the Epoch/Yeno Super Cassette Vision, including the Japanese Epoch, Epoch Lady, and French Yeno console variants.",
+      "project_url": "https://gitlab.com/MaaaX-EPOCH84/libretro-emuscv",
+      "updated": null,
+      "strategy": "Emulation",
+      "language": "",
+      "source_available": "Public source repository",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "System-specific Libretro emulator core; based on Takeda Toshiya's eSCV Win32 emulator.",
+      "sources": [
+        {
+          "label": "Maintainer README",
+          "url": "https://gitlab.com/MaaaX-EPOCH84/libretro-emuscv/-/raw/master/readme.md"
+        },
+        {
+          "label": "Maintainer changelog",
+          "url": "https://gitlab.com/MaaaX-EPOCH84/libretro-emuscv/-/raw/master/changelog.md"
+        },
+        {
+          "label": "Core information metadata",
+          "url": "https://gitlab.com/MaaaX-EPOCH84/libretro-emuscv/-/raw/master/emuscv_libretro.info"
+        },
+        {
+          "label": "Repository GPL license text",
+          "url": "https://gitlab.com/MaaaX-EPOCH84/libretro-emuscv/-/raw/master/licence.txt"
+        },
+        {
+          "label": "GitLab repository metadata API",
+          "url": "https://gitlab.com/api/v4/projects/16943127"
+        },
+        {
+          "label": "GitLab Languages API",
+          "url": "https://gitlab.com/api/v4/projects/16943127/languages"
+        },
+        {
+          "label": "Libretro forum thread",
+          "url": "https://forums.libretro.com/t/emuscv-integration-to-libretro-ecosystem/39160"
+        }
+      ]
+    },
+    {
+      "id": "pokket-sx-playstation-pocketstation",
+      "title": "PokketSX",
+      "game": "Sony PlayStation and PocketStation emulation software",
+      "target_type": "Software",
+      "platform": "Sony PlayStation and PocketStation",
+      "kind": "Emulator",
+      "status": "Maintained hard fork; the maintainer says PocketStation-to-PS1 communication is functional and broadly compatible. Rolling release `latest` published 2026-10-11; source push 2026-10-13.",
+      "summary": "A DuckStation hard fork focused on adding PocketStation support to PlayStation emulation. It integrates the Pokket PocketStation core and lets a PocketStation replace a memory card.",
+      "project_url": "https://github.com/mentalfoundry/PokketSX",
+      "updated": null,
+      "strategy": "Emulation",
+      "language": "",
+      "source_available": "Public source repository",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "PlayStation emulator fork with integrated PocketStation emulation and PS1-to-peripheral communication.",
+      "sources": [
+        {
+          "label": "Maintainer README and project page",
+          "url": "https://github.com/mentalfoundry/PokketSX"
+        },
+        {
+          "label": "GitHub release metadata",
+          "url": "https://api.github.com/repos/mentalfoundry/PokketSX/releases/latest"
+        },
+        {
+          "label": "GitHub repository metadata API",
+          "url": "https://api.github.com/repos/mentalfoundry/PokketSX"
+        },
+        {
+          "label": "GitHub Languages API",
+          "url": "https://api.github.com/repos/mentalfoundry/PokketSX/languages"
+        },
+        {
+          "label": "PokketSX bundled PocketStation core",
+          "url": "https://github.com/mentalfoundry/Pokket"
+        }
+      ]
+    },
+    {
+      "id": "imlunahey-multi-system-emulator",
+      "title": "emulators",
+      "game": "Multi-system emulation software (GBA, Nintendo DS, PlayStation, N64, and other systems)",
+      "target_type": "Software",
+      "platform": "Multi-system consoles and handhelds",
+      "kind": "Emulator",
+      "status": "Experimental multi-system project; latest release v0.1.1 was published 2026-06-16 and latest source push was 2026-06-17. Repository is not archived, but current maintenance cadence is unclear.",
+      "summary": "A multi-system emulator project with Rust cores, a WebAssembly web application, native macOS and Windows applications, and a Libretro core. The README reports 16 target systems at differing stages.",
+      "project_url": "https://github.com/ImLunaHey/emulators",
+      "updated": null,
+      "strategy": "Emulation",
+      "language": "",
+      "source_available": "Public source repository",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "Rust",
+      "subtype": "Multi-system emulator suite; README says system cores are written from scratch, with web, native, and Libretro frontends.",
+      "sources": [
+        {
+          "label": "Maintainer repository and README",
+          "url": "https://github.com/ImLunaHey/emulators"
+        },
+        {
+          "label": "GitHub release page",
+          "url": "https://api.github.com/repos/ImLunaHey/emulators/releases/latest"
+        },
+        {
+          "label": "GitHub repository metadata API",
+          "url": "https://api.github.com/repos/ImLunaHey/emulators"
+        },
+        {
+          "label": "GitHub Languages API",
+          "url": "https://api.github.com/repos/ImLunaHey/emulators/languages"
+        }
+      ]
+    },
+    {
+      "id": "da14585-hema-esl-firmware-reimplementation",
+      "title": "DA14585 Hema electronic shelf-label firmware reimplementation",
+      "game": "2.13-inch Hema (盒马) DA14585 electronic shelf label firmware",
+      "target_type": "Software",
+      "platform": "Target: Hema 2.13-inch electronic shelf labels built around the Dialog/Renesas DA14585 BLE SoC and SSD1680-family e-paper panels.; Browser control panel: Chrome, Edge or Opera on desktop or Android; README says Safari and Firefox lack the required Web Bluetooth support.; Firmware build: Renesas DA1458x SDK6.0.22.1401 and LLVM Embedded Toolchain for Arm; SDK must be obtained separately.",
+      "kind": "Reimplementation",
+      "status": "Working on physical tags: the README documents four board/panel variants, with three driven and one variant left untested due to a suspected dead panel. No tagged release was found in the repository page.",
+      "summary": "From-scratch replacement firmware for decommissioned Hema electronic shelf tags, with an e-paper renderer, persistent clock faces, image upload, BLE control and firmware update. It enables local reuse of surplus tags without the vendor’s factory tooling.",
+      "project_url": "https://github.com/seriaTvT/DA14585-ESL-213",
+      "updated": null,
+      "strategy": "Firmware reimplementation",
+      "language": "",
+      "source_available": "Public source repository",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Firmware reimplementation",
+      "sources": [
+        {
+          "label": "Maintainer README",
+          "url": "https://github.com/seriaTvT/DA14585-ESL-213/blob/main/README.md"
+        },
+        {
+          "label": "GitHub repository metadata",
+          "url": "https://api.github.com/repos/seriaTvT/DA14585-ESL-213"
+        },
+        {
+          "label": "Official GitHub Languages API",
+          "url": "https://api.github.com/repos/seriaTvT/DA14585-ESL-213/languages"
+        },
+        {
+          "label": "Repository license",
+          "url": "https://github.com/seriaTvT/DA14585-ESL-213/blob/main/LICENSE"
+        },
+        {
+          "label": "GitHub releases",
+          "url": "https://github.com/seriaTvT/DA14585-ESL-213/releases"
+        }
+      ]
+    },
+    {
+      "id": "openscope-2c53t-firmware-reimplementation",
+      "title": "OpenScope 2C53T firmware reimplementation",
+      "game": "FNIRSI 2C53T handheld oscilloscope / multimeter / signal generator stock firmware",
+      "target_type": "Software",
+      "platform": "Target only: FNIRSI 2C53T hardware (AT32F403A MCU and Gowin FPGA). The repository warns that the 2C23T, 2C53P and other models are incompatible.; Repository also includes emulator/bring-up tooling; supported desktop host matrix is not established in the cited README.",
+      "kind": "Reimplementation",
+      "status": "Runs on real 2C53T hardware and captures live ADC data; README dates the reproducible FPGA boot/capture milestone to 2026-08-13. It remains development firmware and explicitly warns users not to depend on it for real measurements.",
+      "summary": "Clean-room firmware rewrite based on reverse engineering the original binary. It replaces the stock firmware on a single instrument model and provides a native scope UI and measurement functions.",
+      "project_url": "https://github.com/DavidClawson/OpenScope-2C53T",
+      "updated": null,
+      "strategy": "Firmware reimplementation",
+      "language": "",
+      "source_available": "Public source repository",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Firmware reimplementation",
+      "sources": [
+        {
+          "label": "Maintainer README",
+          "url": "https://github.com/DavidClawson/OpenScope-2C53T/blob/main/README.md"
+        },
+        {
+          "label": "GitHub repository metadata",
+          "url": "https://api.github.com/repos/DavidClawson/OpenScope-2C53T"
+        },
+        {
+          "label": "Official GitHub Languages API",
+          "url": "https://api.github.com/repos/DavidClawson/OpenScope-2C53T/languages"
+        },
+        {
+          "label": "Repository license",
+          "url": "https://github.com/DavidClawson/OpenScope-2C53T/blob/main/LICENSE"
+        },
+        {
+          "label": "GitHub releases",
+          "url": "https://github.com/DavidClawson/OpenScope-2C53T/releases"
+        }
+      ]
+    },
+    {
+      "id": "nova-voyager-drill-press-firmware-reimplementation",
+      "title": "Nova Voyager drill-press firmware reimplementation",
+      "game": "Teknatool Nova Voyager DVR drill-press HMI controller",
+      "target_type": "Software",
+      "platform": "Target: Teknatool Nova Voyager DVR drill-press HMI board, GD32F303RCT6, ST7920 LCD, FreeRTOS.; Build/deploy tooling is for the embedded controller; no desktop runtime is claimed.",
+      "kind": "Reimplementation",
+      "status": "README reports all features implemented and firmware in daily use, with 445 unit tests across 18 suites. Source activity continued through 2026-10-14; the repository page lists no release.",
+      "summary": "GPL replacement firmware for the drill-press HMI, written for its GD32F303RCT6 controller and FreeRTOS. The project adds configurable speed behavior, depth targets, tapping triggers, diagnostic commands and an explicit guard/E-stop safety path.",
+      "project_url": "https://github.com/packerlschupfer/nova-voyager_firmware",
+      "updated": null,
+      "strategy": "Firmware reimplementation",
+      "language": "",
+      "source_available": "Public source repository",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Firmware reimplementation",
+      "sources": [
+        {
+          "label": "Maintainer README",
+          "url": "https://github.com/packerlschupfer/nova-voyager_firmware/blob/main/README.md"
+        },
+        {
+          "label": "GitHub repository metadata",
+          "url": "https://api.github.com/repos/packerlschupfer/nova-voyager_firmware"
+        },
+        {
+          "label": "Official GitHub Languages API",
+          "url": "https://api.github.com/repos/packerlschupfer/nova-voyager_firmware/languages"
+        },
+        {
+          "label": "Repository license",
+          "url": "https://github.com/packerlschupfer/nova-voyager_firmware/blob/main/LICENSE"
+        },
+        {
+          "label": "GitHub releases",
+          "url": "https://github.com/packerlschupfer/nova-voyager_firmware/releases"
+        }
+      ]
+    },
+    {
+      "id": "octeon-cn50xx-hardware-flow-offload-reimplementation",
+      "title": "OpenWrt Octeon hardware flow-offload reimplementation",
+      "game": "Cavium Octeon+ CN50xx hardware flow offload used by Ubiquiti EdgeRouter Lite 3",
+      "target_type": "Software",
+      "platform": "Target: Ubiquiti EdgeRouter Lite 3 / Cavium Octeon+ CN50xx; OpenWrt mainline Linux kernel.; This is a kernel module and OpenWrt package, not a whole replacement operating system.",
+      "kind": "Reimplementation",
+      "status": "Maintainer reports hardware tests on an ERLite-3 / CN5020 with OpenWrt kernel 6.18.34 and publishes comparative throughput/latency results. Single-commit repository; no tagged release found. Last push was 2026-08-08.",
+      "summary": "Clean-room nftables flow-offload backend for mainline OpenWrt on the EdgeRouter Lite 3. It recreates hardware-accelerated NAT/routing behavior associated with proprietary EdgeOS offload using GPL kernel sources and public OCTEON documentation.",
+      "project_url": "https://github.com/packerlschupfer/octeon-flowtable",
+      "updated": null,
+      "strategy": "API / kernel-driver reimplementation",
+      "language": "",
+      "source_available": "Public source repository",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "API / kernel-driver reimplementation",
+      "sources": [
+        {
+          "label": "Maintainer README",
+          "url": "https://github.com/packerlschupfer/octeon-flowtable/blob/main/README.md"
+        },
+        {
+          "label": "GitHub repository metadata",
+          "url": "https://api.github.com/repos/packerlschupfer/octeon-flowtable"
+        },
+        {
+          "label": "Official GitHub Languages API",
+          "url": "https://api.github.com/repos/packerlschupfer/octeon-flowtable/languages"
+        },
+        {
+          "label": "Repository license",
+          "url": "https://github.com/packerlschupfer/octeon-flowtable/blob/main/LICENSE"
+        },
+        {
+          "label": "GitHub releases",
+          "url": "https://github.com/packerlschupfer/octeon-flowtable/releases"
+        }
+      ]
+    },
+    {
+      "id": "lifo-unix-like-browser-node-environment",
+      "title": "Lifo Unix-like browser and Node.js environment",
+      "game": "Unix-like shell, virtual filesystem and Node.js compatibility environment",
+      "target_type": "Software",
+      "platform": "Modern browsers: Chrome 110+, Firefox 110+, Safari 16.4+.; Also described for Node.js processes and serverless JavaScript runtimes.",
+      "kind": "Reimplementation",
+      "status": "The README describes a runnable terminal and package manager; the repository reports 424 commits and the API records a 2026-10-09 push. No GitHub release was listed. It is an OS-like browser/Node environment, not a replacement for a Linux kernel or host operating system.",
+      "summary": "A clean-room Unix-like environment written in TypeScript, where browser and JavaScript runtime APIs supply the kernel layer. It provides a bash-like shell, 60+ commands, a persistent virtual filesystem and a partial Node.js compatibility layer.",
+      "project_url": "https://github.com/lifo-sh/lifo",
+      "updated": null,
+      "strategy": "Operating-system reimplementation / compatibility environment",
+      "language": "",
+      "source_available": "Public source repository",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "TypeScript",
+      "subtype": "Operating-system reimplementation / compatibility environment",
+      "sources": [
+        {
+          "label": "Maintainer README",
+          "url": "https://github.com/lifo-sh/lifo/blob/main/README.md"
+        },
+        {
+          "label": "GitHub repository metadata",
+          "url": "https://api.github.com/repos/lifo-sh/lifo"
+        },
+        {
+          "label": "Official GitHub Languages API",
+          "url": "https://api.github.com/repos/lifo-sh/lifo/languages"
+        },
+        {
+          "label": "Repository license",
+          "url": "https://github.com/lifo-sh/lifo/blob/main/README.md#license"
+        },
+        {
+          "label": "GitHub releases",
+          "url": "https://github.com/lifo-sh/lifo/releases"
+        }
+      ]
+    },
+    {
+      "id": "rush-2-extreme-racing-usa-n64-pc-recomp",
+      "title": "Rush 2 Recompiled",
+      "game": "Rush 2: Extreme Racing USA",
+      "target_type": "Game",
+      "platform": "North American Nintendo 64 release → Windows 10/11 PC; README lists DirectX 12 or Vulkan-capable GPU.",
+      "kind": "Recompilation",
+      "status": "Latest release v1.0.21 published 2026-10-16. README documents race modes, split-screen, saves and online races; Windows 10/11 is the only host platform listed.",
+      "summary": "N64 static recompilation of Rush 2: Extreme Racing USA using N64Recomp, N64ModernRuntime, RecompFrontend and RT64; README describes a native PC build and enhancements.",
+      "project_url": "https://github.com/bryantmh/rush2recompiled",
+      "updated": "2026-10-16",
+      "strategy": "Static recompilation",
+      "language": "",
+      "source_available": "Public source repository; original game data is not included and is supplied by the user.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Recompilation",
+      "sources": [
+        {
+          "label": "Maintainer README and project description",
+          "url": "https://github.com/bryantmh/rush2recompiled#readme"
+        },
+        {
+          "label": "Identity And Method",
+          "url": "https://github.com/bryantmh/rush2recompiled/blob/master/README.md#L5-L7"
+        },
+        {
+          "label": "Identity And Method",
+          "url": "https://github.com/bryantmh/rush2recompiled/blob/master/README.md#L138-L138"
+        },
+        {
+          "label": "Target Platforms",
+          "url": "https://github.com/bryantmh/rush2recompiled/blob/master/README.md#L57-L60"
+        },
+        {
+          "label": "Status",
+          "url": "https://github.com/bryantmh/rush2recompiled/blob/master/README.md#L13-L24"
+        },
+        {
+          "label": "Repository Dates",
+          "url": "https://api.github.com/repos/bryantmh/rush2recompiled"
+        },
+        {
+          "label": "Languages",
+          "url": "https://api.github.com/repos/bryantmh/rush2recompiled/languages"
+        },
+        {
+          "label": "Latest Release",
+          "url": "https://api.github.com/repos/bryantmh/rush2recompiled/releases?per_page=1"
+        },
+        {
+          "label": "Latest Release",
+          "url": "https://github.com/bryantmh/rush2recompiled/releases/tag/v1.0.21"
+        }
+      ]
+    },
+    {
+      "id": "starcraft-ghost-xbox-native-recomp",
+      "title": "StarCraft: Ghost Xbox Recomp",
+      "game": "StarCraft: Ghost",
+      "target_type": "Game",
+      "platform": "Original Xbox executable → Windows x64.",
+      "kind": "Recompilation",
+      "status": "README status table reports tested gameplay missions, reloads and level transitions. Audio works with issues; full mission coverage and fidelity remain unvalidated.",
+      "summary": "Native Windows recompilation of the original Xbox StarCraft: Ghost executable; README says XboxRecomp translates original x86 game code to C and links it with its runtime.",
+      "project_url": "https://github.com/aknavj/scghost-recomp",
+      "updated": "2026-10-16",
+      "strategy": "Static recompilation",
+      "language": "",
+      "source_available": "Public source repository; original game data is not included and is supplied by the user.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Recompilation",
+      "sources": [
+        {
+          "label": "Maintainer README and project description",
+          "url": "https://github.com/aknavj/scghost-recomp#readme"
+        },
+        {
+          "label": "Identity And Method",
+          "url": "https://github.com/aknavj/scghost-recomp/blob/master/README.md#L1-L5"
+        },
+        {
+          "label": "Target Platforms",
+          "url": "https://github.com/aknavj/scghost-recomp/blob/master/README.md#L28-L34"
+        },
+        {
+          "label": "Target Platforms",
+          "url": "https://github.com/aknavj/scghost-recomp/blob/master/README.md#L61-L63"
+        },
+        {
+          "label": "Status",
+          "url": "https://github.com/aknavj/scghost-recomp/blob/master/README.md#L7-L22"
+        },
+        {
+          "label": "Repository Dates",
+          "url": "https://api.github.com/repos/aknavj/scghost-recomp"
+        },
+        {
+          "label": "Languages",
+          "url": "https://api.github.com/repos/aknavj/scghost-recomp/languages"
+        }
+      ]
+    },
+    {
+      "id": "007-nightfire-xbox-windows-port",
+      "title": "007 Nightfire Windows Port",
+      "game": "007: Nightfire",
+      "target_type": "Game",
+      "platform": "Original PAL Xbox edition → Windows.",
+      "kind": "Recompilation",
+      "status": "README progress dated 2026-10-11 says both engines run as native Windows code; author reports playing the action engine from the Paris opening through The Exchange and into local multiplayer. v0.1.0-alpha published 2026-10-11; repo is not a complete checkout.",
+      "summary": "Static recompilation of the original PAL Xbox 007 Nightfire into a native Windows executable using xboxrecomp; repository is a source snapshot with game data and generated code excluded.",
+      "project_url": "https://github.com/limeylicious/Nightfire-Windows-Port",
+      "updated": "2026-10-16",
+      "strategy": "Static recompilation",
+      "language": "",
+      "source_available": "Public source repository; original game data is not included and is supplied by the user.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Recompilation",
+      "sources": [
+        {
+          "label": "Maintainer README and project description",
+          "url": "https://github.com/limeylicious/Nightfire-Windows-Port#readme"
+        },
+        {
+          "label": "Identity And Method",
+          "url": "https://github.com/limeylicious/Nightfire-Windows-Port/blob/main/README.md#L1-L5"
+        },
+        {
+          "label": "Identity And Method",
+          "url": "https://github.com/limeylicious/Nightfire-Windows-Port/blob/main/README.md#L18-L18"
+        },
+        {
+          "label": "Target Platforms",
+          "url": "https://github.com/limeylicious/Nightfire-Windows-Port/blob/main/README.md#L3-L5"
+        },
+        {
+          "label": "Status",
+          "url": "https://github.com/limeylicious/Nightfire-Windows-Port/blob/main/README.md#L20-L27"
+        },
+        {
+          "label": "Repository Dates",
+          "url": "https://api.github.com/repos/limeylicious/Nightfire-Windows-Port"
+        },
+        {
+          "label": "Languages",
+          "url": "https://api.github.com/repos/limeylicious/Nightfire-Windows-Port/languages"
+        },
+        {
+          "label": "License",
+          "url": "https://github.com/limeylicious/Nightfire-Windows-Port/blob/main/LICENSE"
+        },
+        {
+          "label": "License",
+          "url": "https://github.com/limeylicious/Nightfire-Windows-Port/blob/main/README.md#L86-L92"
+        },
+        {
+          "label": "Latest Release",
+          "url": "https://api.github.com/repos/limeylicious/Nightfire-Windows-Port/releases?per_page=1"
+        },
+        {
+          "label": "Latest Release",
+          "url": "https://github.com/limeylicious/Nightfire-Windows-Port/releases/tag/v0.1.0-alpha"
+        }
+      ]
+    },
+    {
+      "id": "ace-combat-04-ps2-windows-recomp",
+      "title": "Ace Combat 04 PC Port",
+      "game": "Ace Combat 04: Shattered Skies (NTSC-U; SLUS_201.52)",
+      "target_type": "Game",
+      "platform": "PlayStation 2 USA SLUS-20152 → native Windows.",
+      "kind": "Recompilation",
+      "status": "README reports Mission 01 completed in live play and audio/save features verified in tested sections; later campaign missions still need full playthroughs. v2.2.1-beta published 2026-10-16.",
+      "summary": "Work-in-progress native Windows port of USA PS2 release via static recompilation; main CPU functions are translated to C and linked with a project runtime.",
+      "project_url": "https://github.com/PresidentRaptor/Ace-Combat-04-PC-Port",
+      "updated": "2026-10-16",
+      "strategy": "Static recompilation",
+      "language": "",
+      "source_available": "Public source repository; original game data is not included and is supplied by the user.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Recompilation",
+      "sources": [
+        {
+          "label": "Maintainer README and project description",
+          "url": "https://github.com/PresidentRaptor/Ace-Combat-04-PC-Port#readme"
+        },
+        {
+          "label": "Identity And Method",
+          "url": "https://github.com/PresidentRaptor/Ace-Combat-04-PC-Port/blob/main/README.md#L1-L14"
+        },
+        {
+          "label": "Target Platforms",
+          "url": "https://github.com/PresidentRaptor/Ace-Combat-04-PC-Port/blob/main/README.md#L3-L4"
+        },
+        {
+          "label": "Status",
+          "url": "https://github.com/PresidentRaptor/Ace-Combat-04-PC-Port/blob/main/README.md#L28-L36"
+        },
+        {
+          "label": "Repository Dates",
+          "url": "https://api.github.com/repos/PresidentRaptor/Ace-Combat-04-PC-Port"
+        },
+        {
+          "label": "Languages",
+          "url": "https://api.github.com/repos/PresidentRaptor/Ace-Combat-04-PC-Port/languages"
+        },
+        {
+          "label": "License",
+          "url": "https://github.com/PresidentRaptor/Ace-Combat-04-PC-Port/blob/main/LICENSE"
+        },
+        {
+          "label": "License",
+          "url": "https://github.com/PresidentRaptor/Ace-Combat-04-PC-Port/blob/main/README.md#L289-L289"
+        },
+        {
+          "label": "Latest Release",
+          "url": "https://api.github.com/repos/PresidentRaptor/Ace-Combat-04-PC-Port/releases?per_page=1"
+        },
+        {
+          "label": "Latest Release",
+          "url": "https://github.com/PresidentRaptor/Ace-Combat-04-PC-Port/releases/tag/v2.2.1-beta"
+        }
+      ]
+    },
+    {
+      "id": "dinosaur-planet-2000-prototype-recomp",
+      "title": "Dinosaur Planet 2000 Prototype Recomp",
+      "game": "Dinosaur Planet (2000 Nintendo 64 prototype)",
+      "target_type": "Game",
+      "platform": "December 2000 N64 prototype → Windows and Linux; README requires Direct3D 12 or Vulkan.",
+      "kind": "Recompilation",
+      "status": "Work in progress. v0.3.0 published 2026-05-31; README says this only ports the December 2000 prototype and is not an arbitrary-ROM emulator.",
+      "summary": "Static recompilation of the December 2000 Nintendo 64 Dinosaur Planet prototype into a native port, using N64Recomp.",
+      "project_url": "https://github.com/DinosaurPlanetRecomp/dino-recomp",
+      "updated": "2026-10-16",
+      "strategy": "Static recompilation",
+      "language": "",
+      "source_available": "Public source repository; original game data is not included and is supplied by the user.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Recompilation",
+      "sources": [
+        {
+          "label": "Maintainer README and project description",
+          "url": "https://github.com/DinosaurPlanetRecomp/dino-recomp#readme"
+        },
+        {
+          "label": "Identity And Method",
+          "url": "https://github.com/DinosaurPlanetRecomp/dino-recomp/blob/main/README.md#L4-L10"
+        },
+        {
+          "label": "Identity And Method",
+          "url": "https://github.com/DinosaurPlanetRecomp/dino-recomp/blob/main/README.md#L37-L43"
+        },
+        {
+          "label": "Identity And Method",
+          "url": "https://github.com/DinosaurPlanetRecomp/dino-recomp/blob/main/README.md#L89-L91"
+        },
+        {
+          "label": "Target Platforms",
+          "url": "https://github.com/DinosaurPlanetRecomp/dino-recomp/blob/main/README.md#L23-L28"
+        },
+        {
+          "label": "Target Platforms",
+          "url": "https://github.com/DinosaurPlanetRecomp/dino-recomp/blob/main/README.md#L46-L50"
+        },
+        {
+          "label": "Status",
+          "url": "https://github.com/DinosaurPlanetRecomp/dino-recomp/blob/main/README.md#L6-L8"
+        },
+        {
+          "label": "Status",
+          "url": "https://github.com/DinosaurPlanetRecomp/dino-recomp/blob/main/README.md#L33-L33"
+        },
+        {
+          "label": "Repository Dates",
+          "url": "https://api.github.com/repos/DinosaurPlanetRecomp/dino-recomp"
+        },
+        {
+          "label": "Languages",
+          "url": "https://api.github.com/repos/DinosaurPlanetRecomp/dino-recomp/languages"
+        },
+        {
+          "label": "Latest Release",
+          "url": "https://api.github.com/repos/DinosaurPlanetRecomp/dino-recomp/releases?per_page=1"
+        },
+        {
+          "label": "Latest Release",
+          "url": "https://github.com/DinosaurPlanetRecomp/dino-recomp/releases/tag/v0.3.0"
+        }
+      ]
+    },
+    {
+      "id": "san-francisco-rush-2049-n64-pc-recomp",
+      "title": "San Francisco Rush 2049 Recompiled",
+      "game": "San Francisco Rush 2049",
+      "target_type": "Game",
+      "platform": "US N64 release → Windows x64, Linux x86-64, and browser builds (Chrome/Edge on Windows, macOS or ChromeOS; Firefox support documented for Windows).",
+      "kind": "Recompilation",
+      "status": "README calls Windows playable and lists race modes and persistent saves. Linux reaches title screen and first attract race; Linux GPU and Steam Deck play unverified. Browser requirements documented. v0.1.3 published 2026-10-15.",
+      "summary": "Native PC port of Nintendo 64 San Francisco Rush 2049 through static recompilation using N64Recomp, N64ModernRuntime and RT64.",
+      "project_url": "https://github.com/amazingalek/rush-2049-recomp",
+      "updated": "2026-10-16",
+      "strategy": "Static recompilation",
+      "language": "",
+      "source_available": "Public source repository; original game data is not included and is supplied by the user.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Recompilation",
+      "sources": [
+        {
+          "label": "Maintainer README and project description",
+          "url": "https://github.com/amazingalek/rush-2049-recomp#readme"
+        },
+        {
+          "label": "Identity And Method",
+          "url": "https://github.com/amazingalek/rush-2049-recomp/blob/main/README.md#L7-L10"
+        },
+        {
+          "label": "Target Platforms",
+          "url": "https://github.com/amazingalek/rush-2049-recomp/blob/main/README.md#L97-L103"
+        },
+        {
+          "label": "Target Platforms",
+          "url": "https://github.com/amazingalek/rush-2049-recomp/blob/main/README.md#L143-L147"
+        },
+        {
+          "label": "Status",
+          "url": "https://github.com/amazingalek/rush-2049-recomp/blob/main/README.md#L12-L18"
+        },
+        {
+          "label": "Repository Dates",
+          "url": "https://api.github.com/repos/amazingalek/rush-2049-recomp"
+        },
+        {
+          "label": "Languages",
+          "url": "https://api.github.com/repos/amazingalek/rush-2049-recomp/languages"
+        },
+        {
+          "label": "Latest Release",
+          "url": "https://api.github.com/repos/amazingalek/rush-2049-recomp/releases?per_page=1"
+        },
+        {
+          "label": "Latest Release",
+          "url": "https://github.com/amazingalek/rush-2049-recomp/releases/tag/v0.1.3"
+        }
+      ]
+    },
+    {
+      "id": "doom-rpg-j2me-native-reimplementation",
+      "title": "Doom RPG Reverse Engineered",
+      "game": "Doom RPG (J2ME editions)",
+      "target_type": "Game",
+      "platform": "J2ME/BREW Doom RPG → SDL2 desktop application; README and CMake files do not enumerate supported host OS.",
+      "kind": "Reimplementation",
+      "status": "v.0.2.2 published 2024-01-24. README documents controls and original game cheat codes; campaign coverage is not stated.",
+      "summary": "Native C/C++ reverse-engineered implementation of Doom RPG using SDL2, SDL2_mixer, zlib and FluidSynth; executable loads a DoomRPG.zip game-data archive.",
+      "project_url": "https://github.com/Erick194/DoomRPG-RE",
+      "updated": "2026-10-16",
+      "strategy": "Native reimplementation",
+      "language": "",
+      "source_available": "Public source repository; original game data is not included and is supplied by the user.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Reimplementation",
+      "sources": [
+        {
+          "label": "Maintainer README and project description",
+          "url": "https://github.com/Erick194/DoomRPG-RE#readme"
+        },
+        {
+          "label": "Identity And Method",
+          "url": "https://github.com/Erick194/DoomRPG-RE/blob/main/README.md#L43-L54"
+        },
+        {
+          "label": "Identity And Method",
+          "url": "https://github.com/Erick194/DoomRPG-RE/blob/main/README.md#L71-L77"
+        },
+        {
+          "label": "Identity And Method",
+          "url": "https://github.com/Erick194/DoomRPG-RE/blob/main/src/Main.c#L17-L45"
+        },
+        {
+          "label": "Target Platforms",
+          "url": "https://github.com/Erick194/DoomRPG-RE/blob/main/README.md#L49-L55"
+        },
+        {
+          "label": "Target Platforms",
+          "url": "https://github.com/Erick194/DoomRPG-RE/blob/main/src/CMakeLists.txt#L17-L18"
+        },
+        {
+          "label": "Status",
+          "url": "https://github.com/Erick194/DoomRPG-RE/blob/main/README.md#L43-L77"
+        },
+        {
+          "label": "Repository Dates",
+          "url": "https://api.github.com/repos/Erick194/DoomRPG-RE"
+        },
+        {
+          "label": "Languages",
+          "url": "https://api.github.com/repos/Erick194/DoomRPG-RE/languages"
+        },
+        {
+          "label": "Latest Release",
+          "url": "https://api.github.com/repos/Erick194/DoomRPG-RE/releases?per_page=1"
+        },
+        {
+          "label": "Latest Release",
+          "url": "https://github.com/Erick194/DoomRPG-RE/releases/tag/v.0.2.2"
+        }
+      ]
+    },
+    {
+      "id": "nethack-android-port",
+      "title": "NetHack Android Port",
+      "game": "NetHack 3.6.7",
+      "target_type": "Game",
+      "platform": "NetHack 3.6.7 → Android",
+      "kind": "Reimplementation",
+      "status": "Android README documents native library build, Gradle and debug APK installation. Latest tag v3.6.6-2-unstable published 2021-01-12; no current device test claim found in reviewed files.",
+      "summary": "Android port of NetHack with a native game library and Gradle Android app; repository includes Android NDK and APK build instructions.",
+      "project_url": "https://github.com/gurrhack/NetHack-Android",
+      "updated": "2026-10-16",
+      "strategy": "Android source port",
+      "language": "",
+      "source_available": "Public source repository and Android build instructions.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Source port",
+      "sources": [
+        {
+          "label": "Maintainer README and project description",
+          "url": "https://github.com/gurrhack/NetHack-Android#readme"
+        },
+        {
+          "label": "Identity And Method",
+          "url": "https://github.com/gurrhack/NetHack-Android/blob/master/README#L1-L9"
+        },
+        {
+          "label": "Identity And Method",
+          "url": "https://github.com/gurrhack/NetHack-Android/blob/master/sys/android/README.md#L2-L40"
+        },
+        {
+          "label": "Target Platforms",
+          "url": "https://github.com/gurrhack/NetHack-Android/blob/master/sys/android/README.md#L2-L6"
+        },
+        {
+          "label": "Target Platforms",
+          "url": "https://github.com/gurrhack/NetHack-Android/blob/master/sys/android/README.md#L17-L22"
+        },
+        {
+          "label": "Status",
+          "url": "https://github.com/gurrhack/NetHack-Android/blob/master/sys/android/README.md#L25-L40"
+        },
+        {
+          "label": "Repository Dates",
+          "url": "https://api.github.com/repos/gurrhack/NetHack-Android"
+        },
+        {
+          "label": "Languages",
+          "url": "https://api.github.com/repos/gurrhack/NetHack-Android/languages"
+        },
+        {
+          "label": "Latest Release",
+          "url": "https://api.github.com/repos/gurrhack/NetHack-Android/releases?per_page=1"
+        },
+        {
+          "label": "Latest Release",
+          "url": "https://github.com/gurrhack/NetHack-Android/releases/tag/v3.6.6-2-unstable"
+        }
+      ]
+    },
+    {
+      "id": "dora64-3-n64-native-recompilation",
+      "title": "Dora64-3 (Doraemon 3: Nobita no Machi SOS! Recompiled)",
+      "game": "Doraemon 3: Nobita no Machi SOS!",
+      "target_type": "Game",
+      "platform": "Nintendo 64 Japanese revision 0 ROM → Windows x64, Linux x86-64, and Android ARM64",
+      "kind": "Recompilation",
+      "status": "v1.0.0 released 2026-10-13 for Windows, Linux, and Android. The README documents controller/input settings, widescreen and 60 FPS modes, translated text/art, and requires the user to supply the exact Japanese revision 0 ROM; game data is not included.",
+      "summary": "Native recompilation of Doraemon 3: Nobita no Machi SOS! for Windows, Linux, and Android using N64Recomp, N64 Modern Runtime, and RT64. Requires the user-supplied Japanese N64 revision 0 ROM; source and game-data generation are separate, and copyrighted game data is not distributed.",
+      "project_url": "https://github.com/citrongames/Dora64-3",
+      "updated": "2026-10-13",
+      "strategy": "Static recompilation",
+      "language": "",
+      "source_available": "Public source repository; original N64 ROM and copyrighted game data are not included and must be supplied by the user.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Nintendo 64 static recompilation and native multi-platform port",
+      "sources": [
+        {
+          "label": "Maintainer README: project identity, N64Recomp method, platforms, release/build, ROM requirement, features, and rights",
+          "url": "https://github.com/citrongames/Dora64-3#readme"
+        },
+        {
+          "label": "Maintainer v1.0.0 release and platform packages",
+          "url": "https://github.com/citrongames/Dora64-3/releases/tag/v1.0.0"
+        },
+        {
+          "label": "Repository license: GPL-3.0-or-later",
+          "url": "https://github.com/citrongames/Dora64-3/blob/main/LICENSE"
+        },
+        {
+          "label": "GitHub repository metadata: non-fork, active source, platform topics, and license",
+          "url": "https://api.github.com/repos/citrongames/Dora64-3"
+        },
+        {
+          "label": "Official GitHub Languages API byte totals",
+          "url": "https://api.github.com/repos/citrongames/Dora64-3/languages"
+        },
+        {
+          "label": "Reddit r/decomps discovery lead; project-linked discussion identifies the Doraemon 3 N64 recompilation",
+          "url": "https://www.reddit.com/r/decomps/comments/1wrer5b/dora_64_doraemon_n64_decomp/"
+        }
+      ]
+    }
+  ]
+}
