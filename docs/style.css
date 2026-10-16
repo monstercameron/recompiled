@@ -1341,3 +1341,50 @@ body { font-family:var(--sans); line-height:1.55; }
 @media (prefers-reduced-motion:reduce) {
   .hero-jump:hover,.hero-jump:active { transform:none; box-shadow:0 5px 0 rgba(4,14,18,.22); }
 }
+
+/* On phones the quick-jump becomes a reserved bottom dock. Its opaque surface
+   keeps the menu readable without laying a small button across catalog cards. */
+@media (max-width:760px) {
+  body { padding-bottom:calc(70px + env(safe-area-inset-bottom)); }
+  footer,.table-toolbar,.pagination { padding-right:0; }
+  .floating-nav {
+    right:0;
+    bottom:0;
+    left:0;
+    display:flex;
+    justify-content:center;
+    padding:7px max(14px,env(safe-area-inset-right)) max(7px,env(safe-area-inset-bottom));
+    border-top:1px solid var(--glass-border);
+    background:color-mix(in srgb,var(--paper) 96%,transparent);
+    box-shadow:0 -8px 26px rgba(12,28,34,.1);
+    -webkit-backdrop-filter:blur(14px) saturate(1.1);
+    backdrop-filter:blur(14px) saturate(1.1);
+  }
+  .floating-nav > summary {
+    width:min(100%,580px);
+    min-width:0;
+    height:44px;
+    min-height:44px;
+    margin-inline:auto;
+    padding:0 14px;
+    border:1px solid var(--glass-border);
+    border-radius:6px;
+    background:var(--glass-surface);
+    color:var(--ink);
+    box-shadow:none;
+  }
+  .floating-nav > summary [data-ui="quick_nav_label"] {
+    position:static;
+    width:auto;
+    height:auto;
+    overflow:visible;
+    clip-path:none;
+    white-space:normal;
+    font-size:11px;
+  }
+  .floating-nav > nav {
+    right:max(14px,env(safe-area-inset-right));
+    bottom:calc(100% + 8px);
+    width:min(320px,calc(100vw - 28px));
+  }
+}
