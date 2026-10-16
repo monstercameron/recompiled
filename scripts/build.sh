@@ -40,6 +40,9 @@ fi
 if [[ -f data/research/discovery-2026-10-15/15-game-metadata/game-facts.json ]]; then
   python3 scripts/catalog.py import-game-profiles data/research/discovery-2026-10-15/15-game-metadata/game-facts.json
 fi
+if [[ -f data/research/discovery-2026-10-15/48-game-profile-hydration/game-facts.json ]]; then
+  python3 scripts/catalog.py import-game-profiles data/research/discovery-2026-10-15/48-game-profile-hydration/game-facts.json
+fi
 if [[ -f data/research/wikipedia-links.json ]]; then
   python3 scripts/catalog.py import-wikipedia-links data/research/wikipedia-links.json
 fi
@@ -72,6 +75,9 @@ if [[ -f data/research/project-language-evidence-2026-10.json ]]; then
 fi
 if [[ -f data/research/discovery-2026-10-15/programming-languages-reviewed.json ]]; then
   python3 scripts/catalog.py import-programming-languages data/research/discovery-2026-10-15/programming-languages-reviewed.json
+fi
+if [[ -f data/research/discovery-2026-10-15/47-programming-language-evidence/programming-languages.json ]]; then
+  python3 scripts/catalog.py import-programming-languages data/research/discovery-2026-10-15/47-programming-language-evidence/programming-languages.json
 fi
 if [[ -f data/research/console-gallery.json ]]; then
   if python3 - <<'PY'
