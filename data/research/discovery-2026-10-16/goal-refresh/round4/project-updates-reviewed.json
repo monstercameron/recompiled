@@ -1,0 +1,794 @@
+{
+  "updated": "2026-10-16",
+  "scope": "Current review-date and source-availability corrections for 53 emulator records, plus five source-backed status/activity refreshes. Upstream release/activity dates stay in status and source labels.",
+  "updates": [
+    {
+      "id": "a8e-atari-800xl",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports GPL-2.0 license metadata.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/AnimaInCorpore/A8E"
+        }
+      ]
+    },
+    {
+      "id": "amiarcadia-libretro",
+      "fields": {
+        "source_available": "Public source repository; GitHub reports no SPDX-identified license metadata.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/warmenhoven/amiarcadia"
+        }
+      ]
+    },
+    {
+      "id": "amstrad-1984",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports GPL-2.0 license metadata.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/salvogendut/1984"
+        }
+      ]
+    },
+    {
+      "id": "applem-core",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports MIT license metadata.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/mikedaley/applem-core"
+        }
+      ]
+    },
+    {
+      "id": "armsx1-ps1",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports LGPL-3.0 license metadata.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/ARMSX2/ARMSX1"
+        }
+      ]
+    },
+    {
+      "id": "armsx2-ps2",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports GPL-3.0 license metadata.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/ARMSX2/ARMSX2"
+        }
+      ]
+    },
+    {
+      "id": "armsx3-ps3-android",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports GPL-2.0 license metadata.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/ARMSX2/ARMSX3"
+        }
+      ]
+    },
+    {
+      "id": "casio-cg50-emulator",
+      "fields": {
+        "source_available": "Public source repository; GitHub reports license metadata as Other (SPDX NOASSERTION), so exact reuse terms are not established by repository API metadata.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/hexbinoct/casio-cg50"
+        }
+      ]
+    },
+    {
+      "id": "cloopy-casio-loopy",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports GPL-3.0 license metadata.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/gameblabla/CLoopy"
+        }
+      ]
+    },
+    {
+      "id": "cocovm-tandy-coco",
+      "fields": {
+        "source_available": "Public source repository; GitHub reports license metadata as Other (SPDX NOASSERTION), so exact reuse terms are not established by repository API metadata.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/sperano/cocovm"
+        }
+      ]
+    },
+    {
+      "id": "contralto2-xerox-alto",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports BSD-3-Clause license metadata.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/jdersch/Contralto2"
+        }
+      ]
+    },
+    {
+      "id": "cpcec-classic-systems",
+      "fields": {
+        "source_available": "Public source repository; GitHub reports no SPDX-identified license metadata.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/cpcitor/cpcec"
+        }
+      ]
+    },
+    {
+      "id": "darkstar-xerox-star-workstation",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports BSD-2-Clause license metadata.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/livingcomputermuseum/Darkstar"
+        }
+      ]
+    },
+    {
+      "id": "dingbat-gb-gba",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports MIT license metadata.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/mattrbeck/dingbat"
+        }
+      ]
+    },
+    {
+      "id": "dsp-emulator-multisystem",
+      "fields": {
+        "source_available": "Public source repository; GitHub reports no SPDX-identified license metadata.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/leniad/dsp-emulator"
+        }
+      ]
+    },
+    {
+      "id": "eink-qemu",
+      "fields": {
+        "source_available": "Public source repository; GitHub reports license metadata as Other (SPDX NOASSERTION), so exact reuse terms are not established by repository API metadata.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/serialx/eink-qemu"
+        }
+      ]
+    },
+    {
+      "id": "emu48-android-calculator",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports GPL-2.0 license metadata.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/dgis/emu48android"
+        }
+      ]
+    },
+    {
+      "id": "emu7800-atari-7800",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports GPL-2.0 license metadata.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/emu7800/emu7800.github.io"
+        }
+      ]
+    },
+    {
+      "id": "engram-gb-gba",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports MIT license metadata.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/donishadsmith/Engram"
+        }
+      ]
+    },
+    {
+      "id": "free42-hp42s",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports GPL-2.0 license metadata.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/swissmicros/free42"
+        }
+      ]
+    },
+    {
+      "id": "gamate-emulator",
+      "fields": {
+        "source_available": "Public source repository; GitHub reports no SPDX-identified license metadata.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/xrip/gamate"
+        }
+      ]
+    },
+    {
+      "id": "hemulator-multisystem",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports MIT license metadata.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/Hexagon/hemulator"
+        }
+      ]
+    },
+    {
+      "id": "hp41-calculator-emulator",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports MIT license metadata.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/talent-factory/hp41-calculator-emulator"
+        }
+      ]
+    },
+    {
+      "id": "iris-sgi-indy",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports BSD-3-Clause license metadata.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/techomancer/iris"
+        }
+      ]
+    },
+    {
+      "id": "lindbergh-loader",
+      "fields": {
+        "source_available": "Public source repository; GitHub reports license metadata as Other (SPDX NOASSERTION), so exact reuse terms are not established by repository API metadata.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/lindbergh-loader/lindbergh-loader"
+        }
+      ]
+    },
+    {
+      "id": "memu-memotech",
+      "fields": {
+        "source_available": "Public source repository; GitHub reports license metadata as Other (SPDX NOASSERTION), so exact reuse terms are not established by repository API metadata.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/Memotech-Bill/MEMU"
+        }
+      ]
+    },
+    {
+      "id": "mister-blasteroids",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports GPL-3.0 license metadata.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/MiSTer-devel/Arcade-Blasteroids_MiSTer"
+        }
+      ]
+    },
+    {
+      "id": "mister-casio-loopy",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports GPL-2.0 license metadata.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/MiSTer-devel/Loopy_MiSTer"
+        }
+      ]
+    },
+    {
+      "id": "mister-irem-m107",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports GPL-2.0 license metadata.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/MiSTer-devel/Arcade-IremM107_MiSTer"
+        }
+      ]
+    },
+    {
+      "id": "mister-namco-system22",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports GPL-3.0 license metadata.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/spacestate1/Arcade_namco22_MiSTer"
+        }
+      ]
+    },
+    {
+      "id": "mister-raiden",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports GPL-3.0 license metadata.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/rmonic79/Arcade-Raiden_MiSTer"
+        }
+      ]
+    },
+    {
+      "id": "mister-super-cassette-vision",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports GPL-2.0 license metadata.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/MiSTer-devel/SuperCassetteVision_MiSTer"
+        }
+      ]
+    },
+    {
+      "id": "mister-superacan",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports GPL-2.0 license metadata.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/MiSTer-devel/SuperACan_MiSTer"
+        }
+      ]
+    },
+    {
+      "id": "mister-taito-f3",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports GPL-3.0 license metadata.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/spacestate1/Arcade-taitoF3_MiSTer"
+        }
+      ]
+    },
+    {
+      "id": "mister-taito-l",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports GPL-3.0 license metadata.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/decoryah/Arcade-TaitoLSystem_MiSTer"
+        }
+      ]
+    },
+    {
+      "id": "mister-tank",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports GPL-3.0 license metadata.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/MiSTer-devel/Arcade-Tank_MiSTer"
+        }
+      ]
+    },
+    {
+      "id": "mister-xybots",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports GPL-3.0 license metadata.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/MiSTer-devel/Arcade-Xybots_MiSTer"
+        }
+      ]
+    },
+    {
+      "id": "mu-palm-os",
+      "fields": {
+        "source_available": "Public source repository; GitHub reports no SPDX-identified license metadata.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/meepingsnesroms/Mu"
+        }
+      ]
+    },
+    {
+      "id": "neetan-japanese-computer-emulator",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports BSD-3-Clause license metadata.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/neetandev/neetan"
+        }
+      ]
+    },
+    {
+      "id": "nemulator-multisystem",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports BSD-2-Clause license metadata.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/jslepicka/nemulator"
+        }
+      ]
+    },
+    {
+      "id": "nonpareil-hp-calculators",
+      "fields": {
+        "source_available": "Public source repository; GitHub reports license metadata as Other (SPDX NOASSERTION), so exact reuse terms are not established by repository API metadata.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/brouhaha/nonpareil"
+        }
+      ]
+    },
+    {
+      "id": "pcejs-classic-browser",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports GPL-2.0 license metadata.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/jsdf/pce"
+        }
+      ]
+    },
+    {
+      "id": "pokket-pocketstation",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports GPL-3.0 license metadata.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/mentalfoundry/Pokket"
+        }
+      ]
+    },
+    {
+      "id": "pom2-apple-ii",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports GPL-3.0 license metadata.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/habib256/pom2"
+        }
+      ]
+    },
+    {
+      "id": "pxp2-psp-android",
+      "fields": {
+        "source_available": "Public source repository; GitHub reports no SPDX-identified license metadata.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/nahalewski/PXP2"
+        }
+      ]
+    },
+    {
+      "id": "s1130-ibm1130",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports MIT license metadata.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/semuhphor/S1130"
+        }
+      ]
+    },
+    {
+      "id": "simlac-imlac-pds1-pds4",
+      "fields": {
+        "source_available": "Public source repository; GitHub reports no SPDX-identified license metadata.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/livingcomputermuseum/sImlac"
+        }
+      ]
+    },
+    {
+      "id": "test7800-atari-7800",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports GPL-3.0 license metadata.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/jetsetilly/test7800"
+        }
+      ]
+    },
+    {
+      "id": "virtualxt-pcxt",
+      "fields": {
+        "source_available": "Public Codeberg source repository; repository API returned no license metadata.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official Codeberg repository API (public visibility and license metadata)",
+          "url": "https://codeberg.org/api/v1/repos/virtualxt/virtualxt"
+        }
+      ]
+    },
+    {
+      "id": "voland-switch-browser",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports GPL-2.0 license metadata.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/voland-emu/Voland"
+        }
+      ]
+    },
+    {
+      "id": "wabbitemu-ti-calculator",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports MIT license metadata.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/sputt/wabbitemu"
+        }
+      ]
+    },
+    {
+      "id": "win32emu-win16-win32",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports MIT license metadata.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/archanox/Win32Emu"
+        }
+      ]
+    },
+    {
+      "id": "x48-hp48-calculator",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports GPL-2.0 license metadata.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/czodroid/x48"
+        }
+      ]
+    },
+    {
+      "id": "cave-story-ds-native-port",
+      "fields": {
+        "updated": "2026-10-16",
+        "status": "Latest maintainer release v0.4 was published 2022-09-12. The DS branch continued with ARM9/ITCM optimization work through 2026-05-10. The README still warns that sound may fail on most flashcarts and marks the two-screen mode broken."
+      },
+      "sources": [
+        {
+          "label": "Latest commit on the Nintendo DS branch: ARM9/ITCM optimization (2026-05-10T20:41:58Z)",
+          "url": "https://github.com/tilderain/CaveStoryNDS/commit/8a496570dc53254ce61e63c63aa4e4c6b68c277f"
+        },
+        {
+          "label": "Maintainer README: DS build options, flashcart caveats, and two-screen mode limitation",
+          "url": "https://github.com/tilderain/CaveStoryNDS/blob/ds/README.md"
+        },
+        {
+          "label": "Latest maintainer release v0.4 (2022-09-12)",
+          "url": "https://github.com/tilderain/CaveStoryNDS/releases/tag/0.4"
+        }
+      ]
+    },
+    {
+      "id": "dqmj1-nds-decomp",
+      "fields": {
+        "updated": "2026-10-16",
+        "status": "Maintainer release v1.0.0 (2026-10-05) claims 100% decompilation across ARM9, ARM7, and three overlays: 7,140 functions and 279,930 lines of pseudo-C. The current status document still lists some mechanics and map-name research as incomplete or uncertain. The latest repository commit (2026-10-07) adds security-reporting guidance; the reviewed README, status document, and release do not document a byte-matching ROM build."
+      },
+      "sources": [
+        {
+          "label": "Maintainer v1.0.0 release and coverage claim (2026-10-05)",
+          "url": "https://github.com/FantasmaGlad/DQMJ1_Ultimate_Decompilation/releases/tag/v1.0.0"
+        },
+        {
+          "label": "Maintainer README: target revision and decompilation overview",
+          "url": "https://github.com/FantasmaGlad/DQMJ1_Ultimate_Decompilation/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer status inventory: completed components and remaining research",
+          "url": "https://github.com/FantasmaGlad/DQMJ1_Ultimate_Decompilation/blob/main/docs/WHAT_IS_DONE.md"
+        },
+        {
+          "label": "Latest repository commit: security-reporting documentation (2026-10-07T21:50:48Z)",
+          "url": "https://github.com/FantasmaGlad/DQMJ1_Ultimate_Decompilation/commit/b6780c0d82780b1159cac18504e97be27d029a01"
+        }
+      ]
+    },
+    {
+      "id": "final-fantasy-iv-ii-snes-disassembly",
+      "fields": {
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Latest upstream commit: fftools updates (2022-08-02T18:02:40Z)",
+          "url": "https://github.com/everything8215/ff4/commit/a360e2ea7ddc0dc5223bea1db74ebd1a9967280b"
+        },
+        {
+          "label": "Maintainer README: supported ROM revisions, extraction, assembly, and rebuild instructions",
+          "url": "https://github.com/everything8215/ff4/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "rocket-robot-on-wheels-decomp",
+      "fields": {
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Latest upstream commit: MIPS toolchain build portability fix (2023-01-15T20:41:51Z)",
+          "url": "https://github.com/RocketRet/Rocket-Robot-On-Wheels/commit/cd1fc6d3f575841a240373d7b8a2baf532da2f9f"
+        },
+        {
+          "label": "Maintainer README: project target and ROM/build requirements",
+          "url": "https://github.com/RocketRet/Rocket-Robot-On-Wheels/blob/master/README.md"
+        }
+      ]
+    },
+    {
+      "id": "vamiga",
+      "fields": {
+        "updated": "2026-10-16",
+        "status": "Maintained; v5.0b2 (2026-09-01) remains the latest prerelease and v4.5 (2026-08-07) the latest stable release. The public dev branch continued with workspace and snapshot persistence changes through 2026-10-11."
+      },
+      "sources": [
+        {
+          "label": "Latest prerelease v5.0b2 (2026-09-01)",
+          "url": "https://github.com/dirkwhoffmann/vAmiga/releases/tag/v5.0b2"
+        },
+        {
+          "label": "Latest stable release v4.5 (2026-08-07)",
+          "url": "https://github.com/dirkwhoffmann/vAmiga/releases/tag/v4.5"
+        },
+        {
+          "label": "Latest public dev-branch commit: workspace/snapshot persistence changes (2026-10-11T08:30:16Z)",
+          "url": "https://github.com/dirkwhoffmann/vAmiga/commit/574b7238a7a6004252763f75cf2956bbb8107743"
+        }
+      ]
+    }
+  ]
+}

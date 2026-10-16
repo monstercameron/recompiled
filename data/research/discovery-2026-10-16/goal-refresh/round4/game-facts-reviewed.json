@@ -1,0 +1,509 @@
+{
+  "verified_at": "2026-10-16",
+  "scope": "Fresh hydration of exact current target_type=Game catalog rows with zero game_facts and no earlier staged profile coverage. Profiles are limited to those zero-fact keys because import_game_profiles replaces all facts for each listed game_key.",
+  "profiles": [
+    {
+      "game_key": "Avara (1996)",
+      "facts": [
+        {
+          "field": "original_platform",
+          "value": "Macintosh",
+          "source_url": "https://github.com/avaraline/Avara",
+          "evidence": "The project README says the original game was developed for Apple Macintosh.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "1996",
+          "source_url": "https://github.com/avaraline/Avara",
+          "evidence": "The README identifies Avara as the original 1996 game.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "year"
+        },
+        {
+          "field": "developer",
+          "value": "Juri Munkki",
+          "source_url": "https://github.com/avaraline/Avara",
+          "evidence": "The README credits the 1996 original to Juri Munkki.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Ambrosia Software",
+          "source_url": "https://github.com/avaraline/Avara",
+          "evidence": "The README says the original game was published by Ambrosia Software.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "BattleTanx (Nintendo 64 USA Rev 0 / NBXE)",
+      "facts": [
+        {
+          "field": "original_platform",
+          "value": "Nintendo 64",
+          "source_url": "https://en.wikipedia.org/wiki/BattleTanx",
+          "evidence": "The article identifies the original BattleTanx as a Nintendo 64 game.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "1998",
+          "source_url": "https://en.wikipedia.org/wiki/BattleTanx",
+          "evidence": "The article dates the Nintendo 64 game to 1998.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "year"
+        },
+        {
+          "field": "developer",
+          "value": "The 3DO Company",
+          "source_url": "https://en.wikipedia.org/wiki/BattleTanx",
+          "evidence": "The article credits The 3DO Company as developer.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "The 3DO Company",
+          "source_url": "https://en.wikipedia.org/wiki/BattleTanx",
+          "evidence": "The article credits The 3DO Company as publisher.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Billy Frontier (2003)",
+      "facts": [
+        {
+          "field": "original_platform",
+          "value": "Macintosh",
+          "source_url": "https://www.pangeasoft.net/iphone/billy/info.html",
+          "evidence": "Pangea’s iPhone-version page explicitly distinguishes the original Mac version.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "2003",
+          "source_url": "https://pangeasoft.net/pangeahistory.html",
+          "evidence": "Pangea lists Billy Frontier (2003) in its game history.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "year"
+        },
+        {
+          "field": "developer",
+          "value": "Pangea Software",
+          "source_url": "https://pangeasoft.net/pangeahistory.html",
+          "evidence": "The developer’s own history lists Billy Frontier among its games.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Action game with cowboy-themed minigames",
+          "source_url": "https://pangeasoft.net/pangeahistory.html",
+          "evidence": "Pangea describes it as an action game made up of several space-cowboy-themed minigames.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Bugdom 2 (2002)",
+      "facts": [
+        {
+          "field": "original_platform",
+          "value": "Macintosh",
+          "source_url": "https://www.pangeasoft.net/bug2/support.html",
+          "evidence": "Pangea’s original support material documents the Mac OS version and Mac-specific controls.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "2002",
+          "source_url": "https://pangeasoft.net/pangeahistory.html",
+          "evidence": "Pangea lists Bugdom 2 (2002) in its game history.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "year"
+        },
+        {
+          "field": "developer",
+          "value": "Pangea Software",
+          "source_url": "https://pangeasoft.net/pangeahistory.html",
+          "evidence": "Pangea’s company history lists Bugdom 2 as its sequel to Bugdom.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "3D action-adventure",
+          "source_url": "https://pangeasoft.net/bug2/info.html",
+          "evidence": "Pangea describes Bugdom 2 as a 3D action-adventure game.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Cave Story",
+      "facts": [
+        {
+          "field": "original_platform",
+          "value": "Microsoft Windows",
+          "source_url": "https://en.wikipedia.org/wiki/Cave_Story",
+          "evidence": "The article identifies the original Cave Story as a 2004 Microsoft Windows game.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "2004",
+          "source_url": "https://en.wikipedia.org/wiki/Cave_Story",
+          "evidence": "The article dates the original game to 2004.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "year"
+        },
+        {
+          "field": "developer",
+          "value": "Daisuke Amaya (Studio Pixel)",
+          "source_url": "https://en.wikipedia.org/wiki/Cave_Story",
+          "evidence": "The article credits Daisuke “Pixel” Amaya with developing the original game.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Metroidvania",
+          "source_url": "https://en.wikipedia.org/wiki/Cave_Story",
+          "evidence": "The article classifies Cave Story as a Metroidvania game.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Dragon Quest Monsters: Joker",
+      "facts": [
+        {
+          "field": "original_platform",
+          "value": "Nintendo DS",
+          "source_url": "https://www.nintendo.co.jp/ds/software/ajrj/index.html",
+          "evidence": "Nintendo’s official Japanese product page identifies this game as Nintendo DS software.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "Japan: 2006-12-28",
+          "source_url": "https://www.jp.square-enix.com/company/ja/news/2006/download/release_060906.pdf",
+          "evidence": "Square Enix’s official release notice gives December 28, 2006 as the Japanese release date.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "day"
+        },
+        {
+          "field": "developer",
+          "value": "TOSE",
+          "source_url": "https://en.wikipedia.org/wiki/Dragon_Quest_Monsters:_Joker",
+          "evidence": "The article credits TOSE as developer of Dragon Quest Monsters: Joker.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Square Enix",
+          "source_url": "https://en.wikipedia.org/wiki/Dragon_Quest_Monsters:_Joker",
+          "evidence": "The article credits Square Enix as publisher.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Final Fantasy IV (Japan) / Final Fantasy II (North America)",
+      "facts": [
+        {
+          "field": "original_platform",
+          "value": "Super Famicom (Japan); Super Nintendo Entertainment System (North America)",
+          "source_url": "https://en.wikipedia.org/wiki/Final_Fantasy_IV",
+          "evidence": "The article identifies the Japanese original on Super Famicom and the North American SNES release.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "Japan: 1991-07-19; North America: 1991-11-23",
+          "source_url": "https://en.wikipedia.org/wiki/Final_Fantasy_IV",
+          "evidence": "The article lists the original Japanese and North American release dates.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "day"
+        },
+        {
+          "field": "edition_context",
+          "value": "The North American SNES release was titled Final Fantasy II; the Japanese release was titled Final Fantasy IV.",
+          "source_url": "https://en.wikipedia.org/wiki/Final_Fantasy_IV",
+          "evidence": "The article explains that the initial North American version was retitled Final Fantasy II.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "developer",
+          "value": "Square",
+          "source_url": "https://en.wikipedia.org/wiki/Final_Fantasy_IV",
+          "evidence": "The article credits Square with developing the original game.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Gravity Rush 2",
+      "facts": [
+        {
+          "field": "original_platform",
+          "value": "PlayStation 4",
+          "source_url": "https://www.playstation.com/en-us/games/gravity-rush-2/",
+          "evidence": "PlayStation’s official US product page lists Gravity Rush 2 for PS4.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "North America: 2017-01-20",
+          "source_url": "https://www.playstation.com/en-us/games/gravity-rush-2/",
+          "evidence": "PlayStation’s official product page lists January 20, 2017 as the release date.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "day"
+        },
+        {
+          "field": "developer",
+          "value": "Project Siren",
+          "source_url": "https://en.wikipedia.org/wiki/Gravity_Rush_2",
+          "evidence": "The article credits Project Siren with developing Gravity Rush 2.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "International Superstar Soccer Deluxe (USA)",
+      "facts": [
+        {
+          "field": "original_platform",
+          "value": "Super Nintendo Entertainment System",
+          "source_url": "https://gamefaqs.gamespot.com/snes/588391-international-superstar-soccer-deluxe/data",
+          "evidence": "GameFAQs lists the North American SNS-AWJE-USA release under Super Nintendo.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "North America: 1995-11",
+          "source_url": "https://gamefaqs.gamespot.com/snes/588391-international-superstar-soccer-deluxe/data",
+          "evidence": "The release details list the US Konami edition as November 1995.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "month"
+        },
+        {
+          "field": "developer",
+          "value": "Konami",
+          "source_url": "https://gamefaqs.gamespot.com/snes/588391-international-superstar-soccer-deluxe/data",
+          "evidence": "The title data lists Konami as developer.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Konami",
+          "source_url": "https://gamefaqs.gamespot.com/snes/588391-international-superstar-soccer-deluxe/data",
+          "evidence": "The US release data lists Konami as publisher.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Jet Grind Radio",
+      "facts": [
+        {
+          "field": "original_platform",
+          "value": "Dreamcast",
+          "source_url": "https://en.wikipedia.org/wiki/Jet_Set_Radio",
+          "evidence": "The article identifies the original title, including its North American Jet Grind Radio name, as a Dreamcast game.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "North America: 2000-10-31",
+          "source_url": "https://en.wikipedia.org/wiki/Jet_Set_Radio",
+          "evidence": "The article lists October 31, 2000 as the North American release date under Jet Grind Radio.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "day"
+        },
+        {
+          "field": "developer",
+          "value": "Smilebit",
+          "source_url": "https://en.wikipedia.org/wiki/Jet_Set_Radio",
+          "evidence": "The article credits Smilebit as the original Dreamcast developer.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Sega",
+          "source_url": "https://en.wikipedia.org/wiki/Jet_Set_Radio",
+          "evidence": "The article credits Sega as publisher.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Nanosaur (1998)",
+      "facts": [
+        {
+          "field": "original_platform",
+          "value": "Macintosh",
+          "source_url": "https://github.com/jorio/Nanosaur",
+          "evidence": "The maintainer README says the 1998 original was a Mac-only game.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "1998",
+          "source_url": "https://pangeasoft.net/pangeahistory.html",
+          "evidence": "Pangea’s history lists Nanosaur (1998).",
+          "verified_on": "2026-10-16",
+          "date_granularity": "year"
+        },
+        {
+          "field": "developer",
+          "value": "Pangea Software",
+          "source_url": "https://github.com/jorio/Nanosaur",
+          "evidence": "The README identifies the game as Pangea Software’s Nanosaur.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Nanosaur II: Hatchling (2004)",
+      "facts": [
+        {
+          "field": "original_platform",
+          "value": "Macintosh",
+          "source_url": "https://github.com/jorio/Nanosaur2",
+          "evidence": "The port README states it is based on the original Mac version.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "2004",
+          "source_url": "https://pangeasoft.net/pangeahistory.html",
+          "evidence": "Pangea’s history lists Nanosaur II: Hatchling (2004).",
+          "verified_on": "2026-10-16",
+          "date_granularity": "year"
+        },
+        {
+          "field": "developer",
+          "value": "Pangea Software",
+          "source_url": "https://github.com/jorio/Nanosaur2",
+          "evidence": "The README identifies the 2004 original as Pangea Software’s game.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Resident Evil Gaiden (Game Boy Color, 2001; USA ROM)",
+      "facts": [
+        {
+          "field": "canonical_name",
+          "value": "Resident Evil Gaiden",
+          "source_url": "https://en.wikipedia.org/wiki/Resident_Evil_Gaiden",
+          "evidence": "The article identifies the game under this canonical title."
+        },
+        {
+          "field": "genre",
+          "value": "Action-adventure",
+          "source_url": "https://en.wikipedia.org/wiki/Resident_Evil_Gaiden",
+          "evidence": "The article classifies Resident Evil Gaiden as an action-adventure game."
+        },
+        {
+          "field": "original_platform",
+          "value": "Game Boy Color",
+          "source_url": "https://en.wikipedia.org/wiki/Resident_Evil_Gaiden",
+          "evidence": "The article identifies Game Boy Color as the original release platform."
+        },
+        {
+          "field": "regional_release_date",
+          "value": "2002-06-04",
+          "date_granularity": "day",
+          "source_url": "https://en.wikipedia.org/wiki/Resident_Evil_Gaiden",
+          "evidence": "The article gives June 4, 2002 as the North American release date."
+        },
+        {
+          "field": "developer",
+          "value": "M4",
+          "source_url": "https://en.wikipedia.org/wiki/Resident_Evil_Gaiden",
+          "evidence": "The article credits M4 as the game developer."
+        },
+        {
+          "field": "publisher",
+          "value": "Capcom (Japan and North America); Virgin Interactive (Europe)",
+          "source_url": "https://en.wikipedia.org/wiki/Resident_Evil_Gaiden",
+          "evidence": "The article lists Capcom as publisher in Japan and North America, and Virgin Interactive in Europe."
+        },
+        {
+          "field": "series",
+          "value": "Resident Evil",
+          "source_url": "https://en.wikipedia.org/wiki/Resident_Evil_Gaiden",
+          "evidence": "The article identifies Resident Evil as the series."
+        }
+      ]
+    },
+    {
+      "game_key": "Rocket: Robot on Wheels",
+      "facts": [
+        {
+          "field": "original_platform",
+          "value": "Nintendo 64",
+          "source_url": "https://en.wikipedia.org/wiki/Rocket:_Robot_on_Wheels",
+          "evidence": "The article identifies Nintendo 64 as the original platform.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "1999",
+          "source_url": "https://en.wikipedia.org/wiki/Rocket:_Robot_on_Wheels",
+          "evidence": "The article dates the original game to 1999.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "year"
+        },
+        {
+          "field": "developer",
+          "value": "Sucker Punch Productions",
+          "source_url": "https://en.wikipedia.org/wiki/Rocket:_Robot_on_Wheels",
+          "evidence": "The article credits Sucker Punch Productions as developer.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Ubisoft",
+          "source_url": "https://en.wikipedia.org/wiki/Rocket:_Robot_on_Wheels",
+          "evidence": "The article credits Ubisoft as publisher.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "The Binding of Isaac (original Flash game)",
+      "facts": [
+        {
+          "field": "regional_release_date",
+          "value": "2011",
+          "source_url": "https://en.wikipedia.org/wiki/The_Binding_of_Isaac_(video_game)",
+          "evidence": "The article dates the original game to 2011.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "year"
+        },
+        {
+          "field": "developer",
+          "value": "Edmund McMillen and Florian Himsl",
+          "source_url": "https://en.wikipedia.org/wiki/The_Binding_of_Isaac_(video_game)",
+          "evidence": "The article credits McMillen and Himsl with designing the original game.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Roguelike action-adventure",
+          "source_url": "https://en.wikipedia.org/wiki/The_Binding_of_Isaac_(video_game)",
+          "evidence": "The article classifies the original game as roguelike action-adventure.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "edition_context",
+          "value": "The original game used Adobe Flash; the 2014 The Binding of Isaac: Rebirth is a separate remake.",
+          "source_url": "https://en.wikipedia.org/wiki/The_Binding_of_Isaac_(video_game)",
+          "evidence": "The article distinguishes the original Flash game from Rebirth, which was rebuilt beyond Flash’s technical limits.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    }
+  ]
+}

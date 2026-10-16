@@ -1,0 +1,501 @@
+{
+  "verified_at": "2026-10-16",
+  "records": [
+    {
+      "project_id": "resident-evil-gaiden-recomp-android",
+      "predominant_language": "C",
+      "evidence_url": "https://api.github.com/repos/sergiomanzur/regaiden-recomp/languages",
+      "evidence": "GitHub's official Languages REST endpoint reports 315,266,139 bytes of C as the largest repository language category (98.69% of 319,449,483 recognized language bytes). This is repository byte prevalence; the README describes the implementation as C11/C++20.",
+      "verified_at": "2026-10-16",
+      "language_breakdown_bytes": {
+        "C": 315266139,
+        "C++": 1728671,
+        "Objective-C": 717218,
+        "Java": 424560,
+        "Shell": 403439,
+        "M4": 304706,
+        "CMake": 291336,
+        "Python": 101247,
+        "Perl": 96689,
+        "Assembly": 32239,
+        "Makefile": 31027,
+        "JavaScript": 18010,
+        "HLSL": 17050,
+        "PowerShell": 7863,
+        "Batchfile": 4843,
+        "Metal": 3691,
+        "HTML": 755
+      }
+    },
+    {
+      "project_id": "openads-advantage-database-server-reimplementation",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 9120159,
+        "C": 782668,
+        "PHP": 486181,
+        "xBase": 400644,
+        "JavaScript": 263518,
+        "PowerShell": 128112,
+        "CMake": 81089,
+        "Python": 69892,
+        "Batchfile": 55790,
+        "Rust": 40155,
+        "CSS": 26018,
+        "Shell": 11872,
+        "HTML": 11538,
+        "Inno Setup": 8182
+      },
+      "evidence_url": "https://api.github.com/repos/FiveTechSoft/OpenADS/languages",
+      "evidence": "GitHub's official repository Languages endpoint reports C++ as predominant (9,120,159 bytes). Counts are repository-wide and can include build and tooling code.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "open-bamboo-networking-bambu-studio-plugin-reimplementation",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 2463764,
+        "Python": 182972,
+        "CMake": 97687,
+        "Shell": 61174,
+        "Objective-C++": 38948,
+        "JavaScript": 33974,
+        "PowerShell": 31674,
+        "C": 6976,
+        "Makefile": 2457,
+        "Batchfile": 73
+      },
+      "evidence_url": "https://api.github.com/repos/ClusterM/open-bamboo-networking/languages",
+      "evidence": "GitHub's official repository Languages endpoint reports C++ as predominant (2,463,764 bytes). Counts are repository-wide and can include build and tooling code.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "firstlight-hpe-ilo-dell-idrac-remote-console",
+      "predominant_language": "Go",
+      "language_breakdown_bytes": {
+        "Go": 692377,
+        "PowerShell": 478
+      },
+      "evidence_url": "https://api.github.com/repos/ThatIsCraZy/Firstlight/languages",
+      "evidence": "GitHub's official repository Languages endpoint reports Go as predominant (692,377 bytes). Counts are repository-wide and can include build and tooling code.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "openbrcm-broadcom-43xx-wifi-driver",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 357325,
+        "Python": 73776,
+        "Shell": 23666,
+        "TypeScript": 15251,
+        "Makefile": 2736
+      },
+      "evidence_url": "https://api.github.com/repos/0x00000109/OpenBRCM/languages",
+      "evidence": "GitHub's official repository Languages endpoint reports C as predominant (357,325 bytes). Counts are repository-wide and can include build and tooling code.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "open-ring-oura-ring-4-ble-driver",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Python": 245176
+      },
+      "evidence_url": "https://api.github.com/repos/LogosIsLife/open_ring/languages",
+      "evidence": "GitHub's official repository Languages endpoint reports Python as predominant (245,176 bytes). Counts are repository-wide and can include build and tooling code.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "ork-driver-rockchip-rk35xx-npu-library",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 4185396,
+        "C++": 105539,
+        "Makefile": 81460,
+        "Shell": 69816,
+        "Python": 27395
+      },
+      "evidence_url": "https://api.github.com/repos/oRKLLM/ork-driver/languages",
+      "evidence": "GitHub's official repository Languages endpoint reports C as predominant (4,185,396 bytes). Counts are repository-wide and can include build and tooling code.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "tvt-iptool-linux-tvt-camera-provisioning",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 176583,
+        "Meson": 3311,
+        "Shell": 670
+      },
+      "evidence_url": "https://api.github.com/repos/dannielperez/tvt-iptool-linux/languages",
+      "evidence": "GitHub's official repository Languages endpoint reports C as predominant (176,583 bytes). Counts are repository-wide and can include build and tooling code.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "mister-pc88",
+      "predominant_language": "VHDL",
+      "language_breakdown_bytes": {
+        "VHDL": 1193642,
+        "Verilog": 721914,
+        "SystemVerilog": 267295,
+        "Tcl": 24039,
+        "Batchfile": 627,
+        "Python": 257
+      },
+      "evidence_url": "https://api.github.com/repos/MiSTer-devel/PC88_MiSTer/languages",
+      "evidence": "Official GitHub Languages API reports 1,193,642 bytes of VHDL as the largest language count (54.1% of 2,207,774 recognized-language bytes). Repository-wide counts include RTL, bundled references, simulation, build and documentation code and do not isolate the emulation core.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "mister-wonderswan",
+      "predominant_language": "VHDL",
+      "language_breakdown_bytes": {
+        "VHDL": 655167,
+        "Verilog": 309501,
+        "SystemVerilog": 179764,
+        "Assembly": 94065,
+        "Tcl": 22803,
+        "Lua": 21557,
+        "Batchfile": 2865
+      },
+      "evidence_url": "https://api.github.com/repos/MiSTer-devel/WonderSwan_MiSTer/languages",
+      "evidence": "Official GitHub Languages API reports 655,167 bytes of VHDL as the largest language count (51.0% of 1,285,722 recognized-language bytes). Repository-wide counts include RTL, bundled references, simulation, build and documentation code and do not isolate the emulation core.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "mister-neogeo-pocket",
+      "predominant_language": "SystemVerilog",
+      "language_breakdown_bytes": {
+        "SystemVerilog": 1586403,
+        "Verilog": 489943,
+        "VHDL": 107520,
+        "Tcl": 31832,
+        "Batchfile": 708
+      },
+      "evidence_url": "https://api.github.com/repos/MiSTer-devel/NGPC_MiSTer/languages",
+      "evidence": "Official GitHub Languages API reports 1,586,403 bytes of SystemVerilog as the largest language count (71.6% of 2,216,406 recognized-language bytes). Repository-wide counts include RTL, bundled references, simulation, build and documentation code and do not isolate the emulation core.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "mister-gameking",
+      "predominant_language": "SystemVerilog",
+      "language_breakdown_bytes": {
+        "SystemVerilog": 438331,
+        "Verilog": 313304,
+        "VHDL": 107520,
+        "Tcl": 28057,
+        "Batchfile": 708
+      },
+      "evidence_url": "https://api.github.com/repos/MiSTer-devel/GameKing_MiSTer/languages",
+      "evidence": "Official GitHub Languages API reports 438,331 bytes of SystemVerilog as the largest language count (49.4% of 887,920 recognized-language bytes). Repository-wide counts include RTL, bundled references, simulation, build and documentation code and do not isolate the emulation core.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "mister-gamate",
+      "predominant_language": "Verilog",
+      "language_breakdown_bytes": {
+        "Verilog": 301173,
+        "VHDL": 200337,
+        "SystemVerilog": 177400,
+        "Tcl": 22228,
+        "Batchfile": 672
+      },
+      "evidence_url": "https://api.github.com/repos/MiSTer-devel/Gamate_MiSTer/languages",
+      "evidence": "Official GitHub Languages API reports 301,173 bytes of Verilog as the largest language count (42.9% of 701,810 recognized-language bytes). Repository-wide counts include RTL, bundled references, simulation, build and documentation code and do not isolate the emulation core.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "mister-supervision",
+      "predominant_language": "VHDL",
+      "language_breakdown_bytes": {
+        "VHDL": 387434,
+        "Verilog": 308824,
+        "SystemVerilog": 168470,
+        "Tcl": 22716,
+        "Batchfile": 708
+      },
+      "evidence_url": "https://api.github.com/repos/MiSTer-devel/SuperVision_MiSTer/languages",
+      "evidence": "Official GitHub Languages API reports 387,434 bytes of VHDL as the largest language count (43.6% of 888,152 recognized-language bytes). Repository-wide counts include RTL, bundled references, simulation, build and documentation code and do not isolate the emulation core.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "mister-pcfx",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 1828642,
+        "SystemVerilog": 581508,
+        "C++": 497338,
+        "Verilog": 327507,
+        "VHDL": 213664,
+        "Tcl": 22720,
+        "Python": 4620,
+        "Makefile": 3198,
+        "Assembly": 2255,
+        "Batchfile": 708
+      },
+      "evidence_url": "https://api.github.com/repos/MiSTer-devel/PCFX_MiSTer/languages",
+      "evidence": "Official GitHub Languages API reports 1,828,642 bytes of C as the largest language count (52.5% of 3,482,160 recognized-language bytes). Repository-wide counts include RTL, bundled references, simulation, build and documentation code and do not isolate the emulation core.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "mister-rca-studio-ii",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 4163446,
+        "C": 893469,
+        "Verilog": 355681,
+        "SystemVerilog": 271726,
+        "VHDL": 108491,
+        "Python": 62173,
+        "Shell": 40926,
+        "Tcl": 22228,
+        "Makefile": 18283,
+        "Lua": 6478,
+        "Batchfile": 3422
+      },
+      "evidence_url": "https://api.github.com/repos/MiSTer-devel/StudioII_MiSTer/languages",
+      "evidence": "Official GitHub Languages API reports 4,163,446 bytes of C++ as the largest language count (70.0% of 5,946,323 recognized-language bytes). Repository-wide counts include RTL, bundled references, simulation, build and documentation code and do not isolate the emulation core.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "mister-next-workstation",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 4438011,
+        "Assembly": 3341210,
+        "Verilog": 1050592,
+        "SystemVerilog": 1024618,
+        "C++": 496511,
+        "VHDL": 107940,
+        "Python": 62080,
+        "CMake": 37724,
+        "Shell": 33373,
+        "Tcl": 27638,
+        "Objective-C": 7029,
+        "Makefile": 285
+      },
+      "evidence_url": "https://api.github.com/repos/MiSTer-devel/NeXT_MiSTer/languages",
+      "evidence": "Official GitHub Languages API reports 4,438,011 bytes of C as the largest language count (41.8% of 10,627,011 recognized-language bytes). Repository-wide counts include RTL, bundled references, simulation, build and documentation code and do not isolate the emulation core.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "mister-sun-2",
+      "predominant_language": "SystemVerilog",
+      "language_breakdown_bytes": {
+        "SystemVerilog": 626205,
+        "Verilog": 551683,
+        "VHDL": 107940,
+        "C": 62329,
+        "Python": 47829,
+        "Tcl": 23969,
+        "Shell": 18887,
+        "Makefile": 10843,
+        "Batchfile": 672
+      },
+      "evidence_url": "https://api.github.com/repos/MiSTer-devel/Sun-2_MiSTer/languages",
+      "evidence": "Official GitHub Languages API reports 626,205 bytes of SystemVerilog as the largest language count (43.2% of 1,450,357 recognized-language bytes). Repository-wide counts include RTL, bundled references, simulation, build and documentation code and do not isolate the emulation core.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "mister-sun-3",
+      "predominant_language": "SystemVerilog",
+      "language_breakdown_bytes": {
+        "SystemVerilog": 704319,
+        "Verilog": 462848,
+        "VHDL": 107940,
+        "Python": 78996,
+        "C": 42274,
+        "Shell": 41919,
+        "Tcl": 25701,
+        "Makefile": 12720,
+        "Batchfile": 672
+      },
+      "evidence_url": "https://api.github.com/repos/MiSTer-devel/Sun-3_MiSTer/languages",
+      "evidence": "Official GitHub Languages API reports 704,319 bytes of SystemVerilog as the largest language count (47.7% of 1,477,389 recognized-language bytes). Repository-wide counts include RTL, bundled references, simulation, build and documentation code and do not isolate the emulation core.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "mister-apple-iii",
+      "predominant_language": "SystemVerilog",
+      "language_breakdown_bytes": {
+        "SystemVerilog": 764000,
+        "Verilog": 454933,
+        "VHDL": 224762,
+        "Assembly": 213777,
+        "UnrealScript": 163840,
+        "Python": 103978,
+        "C++": 87347,
+        "Shell": 36030,
+        "Tcl": 23160,
+        "BASIC": 9059,
+        "Makefile": 4011,
+        "Forth": 1693,
+        "Batchfile": 708,
+        "C": 109
+      },
+      "evidence_url": "https://api.github.com/repos/MiSTer-devel/Apple-III_MiSTer/languages",
+      "evidence": "Official GitHub Languages API reports 764,000 bytes of SystemVerilog as the largest language count (36.6% of 2,087,407 recognized-language bytes). Repository-wide counts include RTL, bundled references, simulation, build and documentation code and do not isolate the emulation core.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "mister-interact",
+      "predominant_language": "Verilog",
+      "language_breakdown_bytes": {
+        "Verilog": 350676,
+        "SystemVerilog": 165235,
+        "VHDL": 107520,
+        "Tcl": 22522,
+        "Assembly": 2568,
+        "Batchfile": 672
+      },
+      "evidence_url": "https://api.github.com/repos/MiSTer-devel/Interact_MiSTer/languages",
+      "evidence": "Official GitHub Languages API reports 350,676 bytes of Verilog as the largest language count (54.0% of 649,193 recognized-language bytes). Repository-wide counts include RTL, bundled references, simulation, build and documentation code and do not isolate the emulation core.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "mister-pcxt-ega",
+      "predominant_language": "SystemVerilog",
+      "language_breakdown_bytes": {
+        "SystemVerilog": 1583697,
+        "Verilog": 1226662,
+        "Assembly": 537000,
+        "VHDL": 218879,
+        "C++": 136557,
+        "C": 117881,
+        "Tcl": 37372,
+        "Shell": 26476,
+        "Python": 8965,
+        "Makefile": 6835,
+        "CMake": 3722,
+        "PowerShell": 3092,
+        "Batchfile": 1725,
+        "Go Template": 1140,
+        "Scilab": 122
+      },
+      "evidence_url": "https://api.github.com/repos/MiSTer-devel/PCXT-EGA_MiSTer/languages",
+      "evidence": "Official GitHub Languages API reports 1,583,697 bytes of SystemVerilog as the largest language count (40.5% of 3,910,125 recognized-language bytes). Repository-wide counts include RTL, bundled references, simulation, build and documentation code and do not isolate the emulation core.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "mister-ibm-pcjr",
+      "predominant_language": "SystemVerilog",
+      "language_breakdown_bytes": {
+        "SystemVerilog": 765450,
+        "Verilog": 704314,
+        "Assembly": 464392,
+        "VHDL": 224518,
+        "C": 98622,
+        "C++": 65510,
+        "Tcl": 33567,
+        "Shell": 8344,
+        "Python": 5375,
+        "Makefile": 2989,
+        "CMake": 2020,
+        "Batchfile": 1438,
+        "Go Template": 1140,
+        "Scilab": 122
+      },
+      "evidence_url": "https://api.github.com/repos/MiSTer-devel/PCjr_MiSTer/languages",
+      "evidence": "Official GitHub Languages API reports 765,450 bytes of SystemVerilog as the largest language count (32.2% of 2,377,801 recognized-language bytes). Repository-wide counts include RTL, bundled references, simulation, build and documentation code and do not isolate the emulation core.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "mister-oric",
+      "predominant_language": "VHDL",
+      "language_breakdown_bytes": {
+        "VHDL": 1514960,
+        "Verilog": 391289,
+        "SystemVerilog": 209387,
+        "Python": 34005,
+        "Tcl": 22648,
+        "Shell": 4871,
+        "Batchfile": 721
+      },
+      "evidence_url": "https://api.github.com/repos/MiSTer-devel/Oric_MiSTer/languages",
+      "evidence": "Official GitHub Languages API reports 1,514,960 bytes of VHDL as the largest language count (69.6% of 2,177,881 recognized-language bytes). Repository-wide counts include RTL, bundled references, simulation, build and documentation code and do not isolate the emulation core.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "mister-colour-genie",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 4049057,
+        "C": 772510,
+        "Verilog": 572186,
+        "VHDL": 230973,
+        "SystemVerilog": 146108,
+        "Tcl": 47381,
+        "Shell": 25917,
+        "Makefile": 5916,
+        "Mathematica": 285,
+        "Fortran": 15
+      },
+      "evidence_url": "https://api.github.com/repos/MiSTer-devel/EG2000_MiSTer/languages",
+      "evidence": "Official GitHub Languages API reports 4,049,057 bytes of C++ as the largest language count (69.2% of 5,850,348 recognized-language bytes). Repository-wide counts include RTL, bundled references, simulation, build and documentation code and do not isolate the emulation core.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "mister-atari-system-2",
+      "predominant_language": "SystemVerilog",
+      "language_breakdown_bytes": {
+        "SystemVerilog": 680678,
+        "Verilog": 482962,
+        "VHDL": 267467,
+        "Tcl": 34474,
+        "Batchfile": 747,
+        "Fortran": 342
+      },
+      "evidence_url": "https://api.github.com/repos/MiSTer-devel/Arcade-AtariSystem2_MiSTer/languages",
+      "evidence": "Official GitHub Languages API reports 680,678 bytes of SystemVerilog as the largest language count (46.4% of 1,466,670 recognized-language bytes). Repository-wide counts include RTL, bundled references, simulation, build and documentation code and do not isolate the emulation core.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "mister-igs-pgm",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 4550952,
+        "SystemVerilog": 1544332,
+        "C": 1119642,
+        "Verilog": 486715,
+        "Python": 292753,
+        "Scala": 140323,
+        "Objective-C++": 104765,
+        "VHDL": 103129,
+        "Makefile": 38550,
+        "HTML": 27885,
+        "Tcl": 24790,
+        "Objective-C": 19855,
+        "Batchfile": 16267,
+        "Assembly": 16248,
+        "CMake": 8570,
+        "Forth": 2220,
+        "Linker Script": 1535,
+        "Shell": 1523,
+        "Kotlin": 1513,
+        "Fortran": 1392,
+        "GLSL": 1384,
+        "GDB": 555,
+        "Lua": 218,
+        "Filebench WML": 66
+      },
+      "evidence_url": "https://api.github.com/repos/MiSTer-devel/Arcade-IGSPGM_MiSTer/languages",
+      "evidence": "Official GitHub Languages API reports 4,550,952 bytes of C++ as the largest language count (53.5% of 8,505,182 recognized-language bytes). Repository-wide counts include RTL, bundled references, simulation, build and documentation code and do not isolate the emulation core.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "mister-marble-madness-ii",
+      "predominant_language": "SystemVerilog",
+      "language_breakdown_bytes": {
+        "SystemVerilog": 746416,
+        "Verilog": 301204,
+        "VHDL": 107520,
+        "Tcl": 23094,
+        "PowerShell": 14957,
+        "Lua": 4621,
+        "Batchfile": 1001
+      },
+      "evidence_url": "https://api.github.com/repos/MiSTer-devel/Arcade-MarbleMadness2_MiSTer/languages",
+      "evidence": "Official GitHub Languages API reports 746,416 bytes of SystemVerilog as the largest language count (62.3% of 1,198,813 recognized-language bytes). Repository-wide counts include RTL, bundled references, simulation, build and documentation code and do not isolate the emulation core.",
+      "verified_at": "2026-10-16"
+    }
+  ]
+}

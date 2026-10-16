@@ -1,0 +1,867 @@
+{
+  "updated": "2026-10-16",
+  "scope": "Twenty-eight freshly reviewed, source-backed additions: one console-to-mobile static recompilation, seven software/protocol reimplementations, and twenty MiSTer FPGA system cores.",
+  "projects": [
+    {
+      "id": "resident-evil-gaiden-recomp-android",
+      "title": "Resident Evil Gaiden: Recompiled (Android)",
+      "game": "Resident Evil Gaiden (Game Boy Color, 2001; USA ROM)",
+      "target_type": "Game",
+      "platform": "Game Boy Color → Windows x86-64, Android ARM64-v8a (Android 7.0+/API 24+, OpenGL ES 3)",
+      "kind": "Recompilation",
+      "status": "Android v0.4.1 APK published 2026-09-16. The maintainer marks Android ARM64-v8a as fully supported and documents touch controls; the README does not state a named physical-device test matrix or claim a complete playthrough. Latest repository push reported by GitHub was 2026-09-16.",
+      "summary": "Game-specific native static recompilation of Resident Evil Gaiden from the Game Boy Color USA ROM to C/C++ with SDL2 and OpenGL ES 3. Android builds target ARM64-v8a with minSdk 24 (Android 7.0+) and include a touch gamepad. Players must supply the exact legally acquired Resident Evil Gaiden (USA).gbc ROM (2,097,152 bytes; expected SHA-256 9a97678cbd8da02c8763e977674e17f460c06ea8b73bad35c52fe6817f506d44); the repository and APK do not include the ROM or commercial game assets.",
+      "project_url": "https://github.com/sergiomanzur/regaiden-recomp",
+      "updated": "2026-10-16",
+      "first_found": "2026-10-16",
+      "project_started": "2026-08-25",
+      "strategy": "Game-specific native static recompilation of the GBC title into C/C++ with an SDL2 platform layer and OpenGL ES 3 Android rendering.",
+      "source_available": "Public source repository and v0.4.1 Android ARM64 APK release; user supplies the exact USA ROM. The repository and release omit copyrighted ROM data and commercial game assets.",
+      "subtype": "Game-specific Android ARM64-v8a recompilation",
+      "sources": [
+        {
+          "label": "Maintainer README: method, supported platforms, Android status, and exact USA ROM requirements",
+          "url": "https://github.com/sergiomanzur/regaiden-recomp/blob/master/README.md"
+        },
+        {
+          "label": "v0.4.1 release notes and Android APK asset (2026-09-16)",
+          "url": "https://github.com/sergiomanzur/regaiden-recomp/releases/tag/v0.4.1"
+        },
+        {
+          "label": "Android build configuration: minSdk 24, ARM64-v8a ABI, and app version 0.4.1",
+          "url": "https://github.com/sergiomanzur/regaiden-recomp/blob/master/android/app/build.gradle"
+        },
+        {
+          "label": "GitHub repository metadata: creation and latest push dates",
+          "url": "https://api.github.com/repos/sergiomanzur/regaiden-recomp"
+        }
+      ],
+      "programming_language": "C"
+    },
+    {
+      "id": "openads-advantage-database-server-reimplementation",
+      "title": "OpenADS (Advantage Database Server compatibility implementation)",
+      "game": "SAP Advantage Database Server and Advantage Client Engine API",
+      "target_type": "Software",
+      "platform": "Windows, Linux, and macOS are covered by upstream CI; the compatibility libraries expose ace32.dll, ace64.dll, and libace.so names. Backend and packaging support vary by platform.",
+      "kind": "Reimplementation",
+      "status": "Active; GitHub lists OpenADS v1.09.74 published 2026-10-12, with source pushed through that release date. The README reports 442/442 Harbour rddtst.prg compatibility tests passing on Windows MSVC64 (2026-05-08), but documents data-dictionary and access-control parity gaps and says untrusted or multi-user use remains experimental. The README status paragraph still names v1.09.68, so its embedded release reference lags the GitHub release page.",
+      "summary": "An independent implementation compatible with the discontinued SAP Advantage Database Server, exposing Advantage Client Engine entry points as a drop-in library/server for existing applications. Upstream explicitly calls its provenance clean-room and says it is based on publicly observable ACE behavior and the public Harbour rddads call site; it does not claim full feature parity, and documents significant deployment limits.",
+      "project_url": "https://github.com/FiveTechSoft/OpenADS",
+      "updated": "2026-10-16",
+      "strategy": "Upstream-declared clean-room ACE API implementation based on observable behavior and public Harbour rddads call-site source; exposes compatible client-library entry points and a server protocol.",
+      "source_available": "Public source under Apache License 2.0.",
+      "first_found": "2026-10-16",
+      "programming_language": "C++",
+      "subtype": "Advantage Client Engine API-compatible database library and server",
+      "sources": [
+        {
+          "label": "Maintainer README: ADS compatibility goal, ACE drop-in API, provenance claim, platforms, tests, and known parity limits",
+          "url": "https://github.com/FiveTechSoft/OpenADS"
+        },
+        {
+          "label": "Latest GitHub release v1.09.74 (published 2026-10-12)",
+          "url": "https://github.com/FiveTechSoft/OpenADS/releases/tag/v1.09.74"
+        },
+        {
+          "label": "Apache License 2.0",
+          "url": "https://github.com/FiveTechSoft/OpenADS/blob/main/LICENSE"
+        },
+        {
+          "label": "Official GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/FiveTechSoft/OpenADS"
+        }
+      ]
+    },
+    {
+      "id": "open-bamboo-networking-bambu-studio-plugin-reimplementation",
+      "title": "Open Bamboo Networking (Bambu Studio network-plugin replacement)",
+      "game": "Bambu Studio's proprietary bambu_networking plugin and Bambu Lab printer communications",
+      "target_type": "Software",
+      "platform": "Linux x86_64 and aarch64 and Windows x64 are primary targets; Windows ARM64 and macOS ARM64/x86_64 are experimental. Upstream also supports Orca Slicer with caveats.",
+      "kind": "Reimplementation",
+      "status": "Active; latest release v2.2.0 was published 2026-09-24 and the canonical repository received source updates through 2026-10-14. The README lists Bambu Studio plugin ABI series 02.03.00.xx through 02.08.04.xx and Orca Slicer v2.3.2 or newer. LAN printing and device features are mainly tested on a Bambu Lab P2S; other model/firmware combinations vary. The default LAN path requires printer Developer Mode; some cloud features need credentials supplied by the user. Go Live and HMS photo snapshot are listed as unimplemented.",
+      "summary": "A native drop-in replacement for Bambu Studio's separately distributed proprietary networking plugin. It reproduces the plugin's dlsym ABI and printer-facing behavior using public protocol references plus observations from MITM captures; it is a substantial library implementation, not a wrapper around the closed plugin. The README does not claim a clean-room process.",
+      "project_url": "https://github.com/ClusterM/open-bamboo-networking",
+      "updated": "2026-10-16",
+      "strategy": "Reverse-engineered, binary-compatible replacement for the closed plugin ABI and printer protocols; upstream credits public protocol projects and MITM captures, with no clean-room claim in the reviewed README.",
+      "source_available": "Public source under GNU Affero General Public License version 3.0 (AGPL-3.0).",
+      "first_found": "2026-10-16",
+      "programming_language": "C++",
+      "subtype": "Binary-compatible slicer network-plugin replacement",
+      "sources": [
+        {
+          "label": "Canonical maintainer README: plugin replacement goal, protocol basis, supported systems and slicer ABI versions, status and feature limits",
+          "url": "https://github.com/ClusterM/open-bamboo-networking"
+        },
+        {
+          "label": "Latest GitHub release v2.2.0 (published 2026-09-24)",
+          "url": "https://github.com/ClusterM/open-bamboo-networking/releases/tag/v2.2.0"
+        },
+        {
+          "label": "AGPL-3.0 license",
+          "url": "https://github.com/ClusterM/open-bamboo-networking/blob/master/LICENSE"
+        },
+        {
+          "label": "Official GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/ClusterM/open-bamboo-networking"
+        }
+      ]
+    },
+    {
+      "id": "firstlight-hpe-ilo-dell-idrac-remote-console",
+      "title": "Firstlight (HPE iLO and Dell iDRAC remote-console client)",
+      "game": "HPE iLO Integrated Remote Console V1/V2+ and Dell iDRAC9 remote-console behavior",
+      "target_type": "Software",
+      "platform": "Windows desktop only, according to the README.",
+      "kind": "Reimplementation",
+      "status": "Latest release v1.4.2 was published 2026-09-17; the repository's last source push was also 2026-09-17 and it is not archived. Upstream says HPE legacy V1 (used by iLO 4) and V2-or-newer paths are implemented, with firmware-revision variation. Dell console behavior was verified on iDRAC9, including PowerEdge R750 firmware 7.10.30.00 and 7.30.30.51; iDRAC7/iDRAC8 are untested. Dell Virtual Console/Media also requires an Enterprise or Datacenter controller license.",
+      "summary": "An independently written Windows remote-console application for HPE iLO and Dell iDRAC, with KVM, virtual media and management actions. The README says protocol details were derived from observable wire behavior; the Dell transport also uses published RFB and WebSocket standards. It does not use vendor client code or resources, and the README does not explicitly label the project clean-room.",
+      "project_url": "https://github.com/ThatIsCraZy/Firstlight",
+      "updated": "2026-10-16",
+      "strategy": "Independent client and protocol implementation based on observable network behavior and published standards; no explicit clean-room label found in the reviewed README.",
+      "source_available": "Public source and documentation under Apache License 2.0.",
+      "first_found": "2026-10-16",
+      "programming_language": "Go",
+      "subtype": "Remote KVM and virtual-media client for server management controllers",
+      "sources": [
+        {
+          "label": "Maintainer README: target protocol generations, platform, tested controller/firmware combinations, provenance, and license",
+          "url": "https://github.com/ThatIsCraZy/Firstlight"
+        },
+        {
+          "label": "Latest release v1.4.2 (published 2026-09-17)",
+          "url": "https://github.com/ThatIsCraZy/Firstlight/releases/tag/v1.4.2"
+        },
+        {
+          "label": "Apache License 2.0",
+          "url": "https://github.com/ThatIsCraZy/Firstlight/blob/main/LICENSE"
+        },
+        {
+          "label": "Official GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/ThatIsCraZy/Firstlight"
+        }
+      ]
+    },
+    {
+      "id": "openbrcm-broadcom-43xx-wifi-driver",
+      "title": "OpenBRCM (Broadcom 43xx Linux Wi-Fi driver)",
+      "game": "Broadcom BCM4352 PCIe SoftMAC Wi-Fi controller (PCI ID 14e4:43b1) and related 43xx hardware",
+      "target_type": "Software",
+      "platform": "Out-of-tree Linux kernel driver using mac80211/cfg80211, BCMA, and firmware-loader APIs. The MVP target is BCM4352 on kernel 7.x; upstream says Linux 6.12 build compatibility is pending.",
+      "kind": "Reimplementation",
+      "status": "Early implementation; no tagged release. The README identifies BCM4352 (14e4:43b1) as the MVP device and reports hardware-proven isolated firmware, initialization, and DMA tests. At the checked revision, RX frame completion and interface bring-up remain unproven, 5 GHz and interface bring-up are disabled, and it is not a complete usable Wi-Fi driver. The latest source push in GitHub metadata was 2026-09-28.",
+      "summary": "A Linux kernel driver written from scratch for Broadcom 43xx PCIe SoftMAC controllers, intended to replace functionality in a proprietary hybrid driver. The upstream explicitly calls it clean-room and says implementation is derived from a separate reverse-engineering specification and public silicon behavior, with no code copied from the proprietary blob or other drivers. Its current hardware validation is limited to isolated subsystems.",
+      "project_url": "https://github.com/0x00000109/OpenBRCM",
+      "updated": "2026-10-16",
+      "strategy": "Upstream-declared clean-room Linux driver implementation based on a separate reverse-engineering specification and public silicon documentation; no proprietary driver code is included according to its provenance policy.",
+      "source_available": "Public source under GNU General Public License version 2 only (GPL-2.0-only).",
+      "first_found": "2026-10-16",
+      "programming_language": "C",
+      "subtype": "Broadcom PCIe SoftMAC Wi-Fi kernel driver",
+      "sources": [
+        {
+          "label": "Maintainer README: target controller, kernel target, current status and known gaps",
+          "url": "https://github.com/0x00000109/OpenBRCM"
+        },
+        {
+          "label": "Upstream clean-room provenance policy",
+          "url": "https://github.com/0x00000109/OpenBRCM/blob/main/docs/provenance.md"
+        },
+        {
+          "label": "GPL-2.0-only license text",
+          "url": "https://github.com/0x00000109/OpenBRCM/blob/main/COPYING"
+        },
+        {
+          "label": "Official GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/0x00000109/OpenBRCM"
+        }
+      ]
+    },
+    {
+      "id": "open-ring-oura-ring-4-ble-driver",
+      "title": "open_ring (Oura Ring 4 BLE protocol driver)",
+      "game": "Oura Ring 4 Bluetooth Low Energy protocol",
+      "target_type": "Software",
+      "platform": "Python host-side BLE implementation using bleak; the README does not provide a tested host-operating-system matrix.",
+      "kind": "Reimplementation",
+      "status": "No tagged release; the repository's last source push in GitHub metadata was 2026-05-11. The README says the protocol is fully mapped and reports structural decoding of 953,206 records across 40 captures with zero decode errors. These are maintainer-reported verification results, not an independent audit.",
+      "summary": "A Python BLE driver, decoder and analytics toolkit for Oura Ring 4 data. The README calls it a clean-room toolkit but also says its development used static reverse engineering of native shared objects from the official Android application, as well as empirical BLE captures. It is therefore recorded as a reverse-engineered protocol implementation, with the upstream clean-room label and its disclosed binary-analysis basis both preserved.",
+      "project_url": "https://github.com/LogosIsLife/open_ring",
+      "updated": "2026-10-16",
+      "strategy": "Reverse-engineered BLE protocol driver; upstream self-describes it as clean-room but discloses static reverse engineering of the official Android app's native shared objects, so the self-label is recorded with that methodological caveat.",
+      "source_available": "Public source under GNU General Public License version 3.0 (GPL-3.0).",
+      "first_found": "2026-10-16",
+      "programming_language": "Python",
+      "subtype": "Bluetooth Low Energy device-protocol driver and data decoder",
+      "sources": [
+        {
+          "label": "Maintainer README: Ring 4 target, self-described clean-room status, disclosed static analysis basis, coverage and project status",
+          "url": "https://github.com/LogosIsLife/open_ring"
+        },
+        {
+          "label": "Maintainer protocol specification",
+          "url": "https://github.com/LogosIsLife/open_ring/blob/master/PROTOCOL.md"
+        },
+        {
+          "label": "GNU GPL version 3 license",
+          "url": "https://github.com/LogosIsLife/open_ring/blob/master/LICENSE.md"
+        },
+        {
+          "label": "Official GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/LogosIsLife/open_ring"
+        }
+      ]
+    },
+    {
+      "id": "ork-driver-rockchip-rk35xx-npu-library",
+      "title": "ork-driver (Rockchip RK35xx NPU matmul library)",
+      "game": "Rockchip RK35xx NPU register-command ISA and matmul execution path",
+      "target_type": "Software",
+      "platform": "ARM64 Rockchip Linux userspace on systems with the in-tree rknpu DRM kernel driver; not a kernel module. RK3588 is hardware-validated, RK3576 is listed as needing on-device validation, and RK3562/RK3568 support is not yet added.",
+      "kind": "Reimplementation",
+      "status": "Active development; source was pushed through 2026-10-14 and no tagged release is listed. Upstream reports RK3588 validation on a Radxa ROCK 5B for fp16, int8/w8a8 and int4 matrix multiplication, with example workloads compared against CPU references. The RK3576 path uses inherited tuning parameters and still needs device validation. This is a focused matmul implementation, not a full API-compatible replacement for Rockchip's proprietary runtime.",
+      "summary": "A clean-room userspace library that synthesizes Rockchip NPU register-command programs and submits them through the open rknpu DRM kernel driver. Upstream says it reverse-engineered the regcmd instruction set from scratch and does not use proprietary librknnrt; the library implements matmul functionality rather than the full proprietary inference-runtime API.",
+      "project_url": "https://github.com/oRKLLM/ork-driver",
+      "updated": "2026-10-16",
+      "strategy": "Upstream-declared clean-room reimplementation of the RK35xx register-command execution path for matmul, using the existing open rknpu kernel driver; not an API-compatible full SDK replacement.",
+      "source_available": "Public source under the ISC License.",
+      "first_found": "2026-10-16",
+      "programming_language": "C",
+      "subtype": "Userspace NPU matmul library and direct hardware driver",
+      "sources": [
+        {
+          "label": "Maintainer README: clean-room claim, NPU interface, proprietary-runtime boundary, supported SoCs and hardware validation",
+          "url": "https://github.com/oRKLLM/ork-driver"
+        },
+        {
+          "label": "SoC support matrix and roadmap",
+          "url": "https://github.com/oRKLLM/ork-driver/blob/main/ROADMAP.md"
+        },
+        {
+          "label": "ISC License",
+          "url": "https://github.com/oRKLLM/ork-driver/blob/main/LICENSE"
+        },
+        {
+          "label": "Official GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/oRKLLM/ork-driver"
+        }
+      ]
+    },
+    {
+      "id": "tvt-iptool-linux-tvt-camera-provisioning",
+      "title": "TVT IPTool for Linux (TVT camera and NVR network provisioning)",
+      "game": "TVT-family IP-camera, NVR, and DVR discovery and network-provisioning protocols",
+      "target_type": "Software",
+      "platform": "Linux x86_64. GTK 3 build is documented for Ubuntu 18.04-era/glibc 2.27 systems; GTK 4 build targets Ubuntu 24.04/current Debian, with Fedora build instructions.",
+      "kind": "Reimplementation",
+      "status": "Latest tagged release v0.1.5 was published 2026-07-15; the repository's last source push was also 2026-07-15 and it is not archived. The README calls this the first release and lists device discovery, IPv4 provisioning, and verification. It does not identify a specific TVT model or firmware compatibility matrix; routed-subnet scanning, IPv6 provisioning, activation, and firmware upgrades are outside the stated scope.",
+      "summary": "A native Linux C/GTK utility that directly implements TVT-family Layer-2 discovery and network provisioning, with SSDP/UPnP response parsing and an authenticated NVR web API path. Upstream labels it clean-room and says the application ships no vendor SDK binaries, headers, credentials, firmware, or assets; discovery and IP changes do not require the optional SDK loader. It is a focused provisioning client, not a full replacement for the vendor application.",
+      "project_url": "https://github.com/dannielperez/tvt-iptool-linux",
+      "updated": "2026-10-16",
+      "strategy": "Upstream-labeled clean-room C/GTK client that implements TVT network discovery and provisioning directly; the README does not document a source-denied specification workflow, so no stronger process claim is inferred.",
+      "source_available": "Public source under the MIT License.",
+      "first_found": "2026-10-16",
+      "programming_language": "C",
+      "subtype": "Linux camera/NVR discovery and network-provisioning utility",
+      "sources": [
+        {
+          "label": "Maintainer README: clean-room label, implemented protocols, scope, platforms, and SDK boundary",
+          "url": "https://github.com/dannielperez/tvt-iptool-linux"
+        },
+        {
+          "label": "Latest release v0.1.5 (published 2026-07-15)",
+          "url": "https://github.com/dannielperez/tvt-iptool-linux/releases/tag/v0.1.5"
+        },
+        {
+          "label": "MIT License",
+          "url": "https://github.com/dannielperez/tvt-iptool-linux/blob/main/LICENSE"
+        },
+        {
+          "label": "Official GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/dannielperez/tvt-iptool-linux"
+        }
+      ]
+    },
+    {
+      "id": "mister-pc88",
+      "title": "PC-88 MiSTer Core",
+      "game": "NEC PC-8801mkII SR software and games",
+      "target_type": "Software",
+      "platform": "NEC PC-8801mkII SR computer on MiSTer FPGA with SDRAM; supports disk, cassette, and Sound Board II configurations",
+      "kind": "Emulator",
+      "status": "Active upstream repository, last pushed 2026-10-16. The README documents D88 2D/2HD floppy images, T88/CMT tape input, YM2203/YM2608 plus ADPCM, and a required user-assembled PC-88 `boot.rom`; the latest checked-in RBF is dated 2026-04-15.",
+      "summary": "FPGA hardware emulator core for the NEC PC-8801mkII SR, including its memory, video, sound-board, disk, and tape paths. It is a MiSTer system core rather than a frontend or a software port. The BIOS, kanji/font and disk ROM images are not included in the tracked tree and must be sourced lawfully by the user.",
+      "project_url": "https://github.com/MiSTer-devel/PC88_MiSTer",
+      "updated": "2026-10-16",
+      "strategy": "MiSTer FPGA hardware recreation of the NEC PC-8801mkII SR; source describes the modeled CPU, video, Sound Board II, floppy and tape interfaces.",
+      "language": "",
+      "source_available": "Public source repository; GitHub reports no declared repository license, so source use and redistribution permissions are unspecified. No BIOS/kanji/font/disk ROM images are included; README requires the user to assemble a boot.rom from machine ROM files, whose copyright is separate.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "VHDL",
+      "subtype": "MiSTer FPGA Japanese home-computer hardware emulator core",
+      "sources": [
+        {
+          "label": "Maintainer repository and README",
+          "url": "https://github.com/MiSTer-devel/PC88_MiSTer"
+        },
+        {
+          "label": "GitHub repository metadata (license and last push)",
+          "url": "https://api.github.com/repos/MiSTer-devel/PC88_MiSTer"
+        }
+      ]
+    },
+    {
+      "id": "mister-wonderswan",
+      "title": "WonderSwan MiSTer Core",
+      "game": "WonderSwan and WonderSwan Color software and games",
+      "target_type": "Software",
+      "platform": "Bandai WonderSwan / WonderSwan Color on MiSTer FPGA with SDRAM",
+      "kind": "Emulator",
+      "status": "Maintained MiSTer core; the upstream repository was last pushed 2026-10-13. It supports monochrome WonderSwan and WonderSwan Color, while the README requires separate user-supplied boot ROMs for each model.",
+      "summary": "FPGA hardware emulation core for Bandai’s WonderSwan family. The project repository contains source and core artifacts but no WonderSwan boot ROM image; the required firmware is copyrighted and must be obtained separately.",
+      "project_url": "https://github.com/MiSTer-devel/WonderSwan_MiSTer",
+      "updated": "2026-10-16",
+      "strategy": "FPGA hardware recreation of the WonderSwan and WonderSwan Color, including their distinct boot ROM paths and 60/75.4 Hz operation options.",
+      "language": "",
+      "source_available": "Public GPL-2.0 source repository. The WonderSwan and WonderSwan Color boot ROMs are required by the README but are not included in the tracked tree; firmware rights remain separate.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "VHDL",
+      "subtype": "MiSTer FPGA handheld console hardware emulator core",
+      "sources": [
+        {
+          "label": "Maintainer repository and README",
+          "url": "https://github.com/MiSTer-devel/WonderSwan_MiSTer"
+        },
+        {
+          "label": "GitHub repository metadata (license and last push)",
+          "url": "https://api.github.com/repos/MiSTer-devel/WonderSwan_MiSTer"
+        }
+      ]
+    },
+    {
+      "id": "mister-neogeo-pocket",
+      "title": "Neo Geo Pocket Color MiSTer Core",
+      "game": "Neo Geo Pocket Color and Neo Geo Pocket software and games",
+      "target_type": "Software",
+      "platform": "SNK Neo Geo Pocket Color / monochrome Neo Geo Pocket on MiSTer FPGA",
+      "kind": "Emulator",
+      "status": "Newly released FPGA core; upstream source last pushed 2026-09-01 and a release RBF is dated 2026-08-24. The README says known ROMs and homebrew were compared against the original system and supports both Color and monochrome models.",
+      "summary": "FPGA hardware recreation of the Neo Geo Pocket Color handheld and its monochrome predecessor. The README requires separate color and monochrome BIOS ROM images; neither firmware nor game ROMs are included in the tracked tree.",
+      "project_url": "https://github.com/MiSTer-devel/NGPC_MiSTer",
+      "updated": "2026-10-16",
+      "strategy": "MiSTer FPGA hardware emulation of the Neo Geo Pocket Color and monochrome Neo Geo Pocket; maintainer reports real-system comparisons for known games and homebrew.",
+      "language": "",
+      "source_available": "Public GPL-2.0 source repository. Requires the user’s color and monochrome BIOS images; BIOS and commercial game ROM rights are separate and no ROM images were found in the tracked tree.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "SystemVerilog",
+      "subtype": "MiSTer FPGA handheld console hardware emulator core",
+      "sources": [
+        {
+          "label": "Maintainer repository and README",
+          "url": "https://github.com/MiSTer-devel/NGPC_MiSTer"
+        },
+        {
+          "label": "GitHub repository metadata (license and last push)",
+          "url": "https://api.github.com/repos/MiSTer-devel/NGPC_MiSTer"
+        }
+      ]
+    },
+    {
+      "id": "mister-gameking",
+      "title": "GameKing MiSTer Core",
+      "game": "Timetop GameKing I and GameKing II software and games",
+      "target_type": "Software",
+      "platform": "Timetop GameKing I / II handheld on MiSTer FPGA",
+      "kind": "Emulator",
+      "status": "Very early but runnable core; the repository was created and last pushed 2026-09-04, with a release bitstream dated 2026-09-03. The README targets GameKing I/II only, says most dumped games run, and identifies bad multi-game dumps and two undumped titles as exceptions; GameKing III is a different system and out of scope.",
+      "summary": "FPGA hardware emulator for the Timetop GameKing I and II, a rare monochrome handheld. The maintainer says the 65C02 path is heavily tested but notes missing or bad cartridge dumps. The source tree contains no BIOS or game ROM images, and the README documents no separate BIOS requirement.",
+      "project_url": "https://github.com/MiSTer-devel/GameKing_MiSTer",
+      "updated": "2026-10-16",
+      "strategy": "MiSTer FPGA hardware recreation of GameKing I/II, with compatibility bounded by the maintainer’s listed cartridge dumps and known missing/bad dumps.",
+      "language": "",
+      "source_available": "Public GPL-2.0 source repository. Cartridge dumps are not included; README reports two undumped games and bad multi-game dumps. No separate BIOS requirement is documented.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "SystemVerilog",
+      "subtype": "MiSTer FPGA handheld console hardware emulator core",
+      "sources": [
+        {
+          "label": "Maintainer repository and README",
+          "url": "https://github.com/MiSTer-devel/GameKing_MiSTer"
+        },
+        {
+          "label": "GitHub repository metadata (license and last push)",
+          "url": "https://api.github.com/repos/MiSTer-devel/GameKing_MiSTer"
+        }
+      ]
+    },
+    {
+      "id": "mister-gamate",
+      "title": "Gamate MiSTer Core",
+      "game": "Bit Corporation Gamate software and games",
+      "target_type": "Software",
+      "platform": "Bit Corporation Gamate handheld on MiSTer FPGA",
+      "kind": "Emulator",
+      "status": "Maintained core; upstream source last pushed 2026-05-31 and the repository contains a release bitstream dated 2026-05-30. The README requires a 4 KiB user-supplied boot ROM and describes two known ROM revisions.",
+      "summary": "FPGA hardware emulator for Bit Corporation’s Gamate handheld. The core requires a 4 KiB boot ROM named `boot0.rom`; firmware and cartridge dumps are not included in the tracked tree.",
+      "project_url": "https://github.com/MiSTer-devel/Gamate_MiSTer",
+      "updated": "2026-10-16",
+      "strategy": "MiSTer FPGA hardware recreation of the Gamate; runs cartridge images with a user-provided boot ROM.",
+      "language": "",
+      "source_available": "Public GPL-2.0 source repository. Requires a 4 KiB Gamate boot ROM and user-supplied game dumps; no firmware or game image files were found in the tracked tree.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "Verilog",
+      "subtype": "MiSTer FPGA handheld console hardware emulator core",
+      "sources": [
+        {
+          "label": "Maintainer repository and README",
+          "url": "https://github.com/MiSTer-devel/Gamate_MiSTer"
+        },
+        {
+          "label": "GitHub repository metadata (license and last push)",
+          "url": "https://api.github.com/repos/MiSTer-devel/Gamate_MiSTer"
+        }
+      ]
+    },
+    {
+      "id": "mister-supervision",
+      "title": "Watara SuperVision MiSTer Core",
+      "game": "Watara SuperVision software and games",
+      "target_type": "Software",
+      "platform": "Watara SuperVision handheld on MiSTer FPGA",
+      "kind": "Emulator",
+      "status": "Runnable core with maintenance unclear; last source push was 2025-07-15 and the latest checked-in bitstream is dated 2025-07-08. The maintainer says the full game library, including the rare Journey to the West, is supported and that no boot ROM or setup is required.",
+      "summary": "FPGA hardware emulator core for the Watara SuperVision handheld. The README says its full known library works without a boot ROM; the source repository contains no game ROMs.",
+      "project_url": "https://github.com/MiSTer-devel/SuperVision_MiSTer",
+      "updated": "2026-10-16",
+      "strategy": "MiSTer FPGA hardware recreation of the Watara SuperVision handheld.",
+      "language": "",
+      "source_available": "Public GPL-2.0 source repository. No boot ROM is required; cartridge images are user-supplied and are not included in the tracked tree.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "VHDL",
+      "subtype": "MiSTer FPGA handheld console hardware emulator core",
+      "sources": [
+        {
+          "label": "Maintainer repository and README",
+          "url": "https://github.com/MiSTer-devel/SuperVision_MiSTer"
+        },
+        {
+          "label": "GitHub repository metadata (license and last push)",
+          "url": "https://api.github.com/repos/MiSTer-devel/SuperVision_MiSTer"
+        }
+      ]
+    },
+    {
+      "id": "mister-pcfx",
+      "title": "PC-FX MiSTer Core",
+      "game": "NEC PC-FX software and games",
+      "target_type": "Software",
+      "platform": "NEC PC-FX console on MiSTer FPGA with SDRAM; CD support currently uses a custom Main_MiSTer build",
+      "kind": "Emulator",
+      "status": "Active early-stage core; upstream source last pushed 2026-09-27 and RBF artifacts are dated through 2026-09-12. The README documents a required PC-FX BIOS image and external FX-BMP ROM, and says CD support uses the maintainer’s custom Main_MiSTer branch or prebuilt binary. A complete title compatibility matrix is not provided.",
+      "summary": "MiSTer FPGA hardware emulator for NEC’s PC-FX. The repository provides the core source and bitstreams, not the commercial console BIOS, FX-BMP ROM, or game discs; CD operation currently depends on the project’s custom MiSTer framework build.",
+      "project_url": "https://github.com/MiSTer-devel/PCFX_MiSTer",
+      "updated": "2026-10-16",
+      "strategy": "FPGA hardware emulation of the PC-FX; the README uses Mednafen and MAME documentation as technical references and describes a custom MiSTer main-binary requirement for CD support.",
+      "language": "",
+      "source_available": "Public GPL-2.0 source repository. `boot.rom` (PC-FX BIOS) and external FX-BMP ROM are user-supplied and are not in the tracked tree; commercial firmware and game-disc rights are separate.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "MiSTer FPGA home-console hardware emulator core",
+      "sources": [
+        {
+          "label": "Maintainer repository and README",
+          "url": "https://github.com/MiSTer-devel/PCFX_MiSTer"
+        },
+        {
+          "label": "GitHub repository metadata (license and last push)",
+          "url": "https://api.github.com/repos/MiSTer-devel/PCFX_MiSTer"
+        }
+      ]
+    },
+    {
+      "id": "mister-rca-studio-ii",
+      "title": "RCA Studio II MiSTer Core",
+      "game": "RCA Studio II/III, Visicom and compatible RCA-family software",
+      "target_type": "Software",
+      "platform": "RCA Studio II, RCA Studio III, Visicom, and compatible systems on MiSTer FPGA",
+      "kind": "Emulator",
+      "status": "Actively developed; upstream source last pushed 2026-10-10 and includes release bitstreams. The README lists RCA Studio II, Studio III, Visicom and compatible models, reports 100% software compatibility across known games/homebrew, and requires four BIOS images for BIOS-dependent systems; selected CHIP-8 and bare-metal programs boot without a BIOS.",
+      "summary": "FPGA core for RCA Studio II-family consoles, including the unreleased Studio III and compatible Visicom variant, with a dedicated CHIP-8 path. BIOS ROMs are not included in the tracked tree; some programs can run without a BIOS.",
+      "project_url": "https://github.com/MiSTer-devel/StudioII_MiSTer",
+      "updated": "2026-10-16",
+      "strategy": "MiSTer FPGA hardware emulation of RCA Studio II-family devices; includes a separate CHIP-8 interpreter implemented for the core.",
+      "language": "",
+      "source_available": "Public GPL-2.0 source repository. README asks users to supply four BIOS images (RCA Studio II, Studio III PAL/NTSC, and Visicom); these ROMs and game images are not included in the tracked tree and retain separate rights.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "MiSTer FPGA early home-console hardware emulator core",
+      "sources": [
+        {
+          "label": "Maintainer repository and README",
+          "url": "https://github.com/MiSTer-devel/StudioII_MiSTer"
+        },
+        {
+          "label": "GitHub repository metadata (license and last push)",
+          "url": "https://api.github.com/repos/MiSTer-devel/StudioII_MiSTer"
+        }
+      ]
+    },
+    {
+      "id": "mister-next-workstation",
+      "title": "NeXT MiSTer Core",
+      "game": "NeXT Computer and NeXTSTEP software",
+      "target_type": "Software",
+      "platform": "NeXT Computer monochrome workstation on MiSTer FPGA",
+      "kind": "Emulator",
+      "status": "Active workstation core; upstream source last pushed 2026-10-13. The README says the real Revision 2.5 v66 boot ROM passes the complete power-on system test, and the core boots a NeXTSTEP 3.3 disk image created by the Previous emulator; keyboard, mouse, SCSI image mounting and network are documented.",
+      "summary": "FPGA hardware emulator for a monochrome NeXT workstation. The core source is GPL-2.0, but the repository also contains binary NeXT PROM reference dumps and does not establish a separate redistribution license for Apple/NeXT firmware or operating-system media.",
+      "project_url": "https://github.com/MiSTer-devel/NeXT_MiSTer",
+      "updated": "2026-10-16",
+      "strategy": "MiSTer FPGA hardware recreation of the NeXT CPU, memory map, system registers, video and peripheral paths; maintainer reports successful POST and NeXTSTEP 3.3 disk boot.",
+      "language": "",
+      "source_available": "Public GPL-2.0 hardware source. The repository’s reference tree contains NeXT PROM binary dumps; the firmware and NeXTSTEP installation media have separate copyright and no separate redistribution grant was identified.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "MiSTer FPGA workstation hardware emulator core",
+      "sources": [
+        {
+          "label": "Maintainer repository and README",
+          "url": "https://github.com/MiSTer-devel/NeXT_MiSTer"
+        },
+        {
+          "label": "GitHub repository metadata (license and last push)",
+          "url": "https://api.github.com/repos/MiSTer-devel/NeXT_MiSTer"
+        }
+      ]
+    },
+    {
+      "id": "mister-sun-2",
+      "title": "Sun-2/160 MiSTer Core",
+      "game": "SunOS and other Sun-2 workstation software",
+      "target_type": "Software",
+      "platform": "Sun-2/160 workstation on MiSTer FPGA with at least 32 MB SDRAM",
+      "kind": "Emulator",
+      "status": "Newly published, actively maintained workstation recreation; upstream source last pushed 2026-10-13. The README reports that SunOS 4.0 installs from tape, boots from disk, and upgrades to 4.0.3 with SunView; the core also supports the Sun-2 color framebuffer.",
+      "summary": "FPGA hardware recreation of the Sun-2/160 workstation. The public GPL-3 source repository includes a `boot0.rom` PROM image under releases; system installation tapes and disk images are separate SunOS media, and the repository does not establish firmware redistribution rights.",
+      "project_url": "https://github.com/MiSTer-devel/Sun-2_MiSTer",
+      "updated": "2026-10-16",
+      "strategy": "MiSTer FPGA hardware recreation of the Sun-2/160 CPU board, memory, PROM, framebuffer, serial devices, keyboard/mouse and network hardware.",
+      "language": "",
+      "source_available": "Public GPL-3.0 core source. The release tree includes `boot0.rom`; the PROM binary has no separate redistribution grant identified, and SunOS tapes/disk images are not part of the source tree.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "SystemVerilog",
+      "subtype": "MiSTer FPGA workstation hardware emulator core",
+      "sources": [
+        {
+          "label": "Maintainer repository and README",
+          "url": "https://github.com/MiSTer-devel/Sun-2_MiSTer"
+        },
+        {
+          "label": "GitHub repository metadata (license and last push)",
+          "url": "https://api.github.com/repos/MiSTer-devel/Sun-2_MiSTer"
+        }
+      ]
+    },
+    {
+      "id": "mister-sun-3",
+      "title": "Sun-3/60 MiSTer Core",
+      "game": "SunOS and other Sun-3 workstation software",
+      "target_type": "Software",
+      "platform": "Sun-3/60 workstation on MiSTer FPGA",
+      "kind": "Emulator",
+      "status": "Newly published and actively maintained; upstream source last pushed 2026-10-13 and a release bitstream is dated 2026-10-05. The README documents a Sun-3/60 platform recreation; per-title operating-system compatibility is not summarized as a general matrix.",
+      "summary": "FPGA hardware emulator for the Sun-3/60 workstation. The public GPL-3 source repository includes a release `boot0.rom` PROM image; SunOS and other workstation system media must be supplied separately, and the PROM’s redistribution rights are not established by the core license.",
+      "project_url": "https://github.com/MiSTer-devel/Sun-3_MiSTer",
+      "updated": "2026-10-16",
+      "strategy": "MiSTer FPGA hardware recreation of a Sun-3/60 workstation and its documented peripheral set.",
+      "language": "",
+      "source_available": "Public GPL-3.0 core source. The release tree includes `boot0.rom`; no separate redistribution grant for Sun firmware was identified. SunOS system and installation media are separate and are not in the tracked tree.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "SystemVerilog",
+      "subtype": "MiSTer FPGA workstation hardware emulator core",
+      "sources": [
+        {
+          "label": "Maintainer repository and README",
+          "url": "https://github.com/MiSTer-devel/Sun-3_MiSTer"
+        },
+        {
+          "label": "GitHub repository metadata (license and last push)",
+          "url": "https://api.github.com/repos/MiSTer-devel/Sun-3_MiSTer"
+        }
+      ]
+    },
+    {
+      "id": "mister-apple-iii",
+      "title": "Apple III MiSTer Core",
+      "game": "Apple III software, disk images and compatible Apple /// titles",
+      "target_type": "Software",
+      "platform": "Apple III personal computer on MiSTer FPGA",
+      "kind": "Emulator",
+      "status": "Early core with ongoing updates; upstream source last pushed 2026-10-01 and includes a release bitstream dated 2026-09-27. The README documents Apple III memory configurations, copy-protected disk boot, hard-disk images, NTSC/PAL modes and a built-in Apple boot ROM; the core is still a new project.",
+      "summary": "FPGA hardware emulator core for the Apple III. The README says the Apple boot ROM is built in and additional ROMs may be loaded from the OSD; no ROM file appears in the tracked tree, and rights to Apple firmware remain separate from the GPL-2.0 source license.",
+      "project_url": "https://github.com/MiSTer-devel/Apple-III_MiSTer",
+      "updated": "2026-10-16",
+      "strategy": "MiSTer FPGA hardware recreation of Apple III CPU, memory, video, keyboard, storage and boot behavior.",
+      "language": "",
+      "source_available": "Public GPL-2.0 core source. README describes a built-in Apple boot ROM, whose firmware rights are separate from the source license; no commercial software or disk images are included in the tracked tree.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "SystemVerilog",
+      "subtype": "MiSTer FPGA vintage-computer hardware emulator core",
+      "sources": [
+        {
+          "label": "Maintainer repository and README",
+          "url": "https://github.com/MiSTer-devel/Apple-III_MiSTer"
+        },
+        {
+          "label": "GitHub repository metadata (license and last push)",
+          "url": "https://api.github.com/repos/MiSTer-devel/Apple-III_MiSTer"
+        }
+      ]
+    },
+    {
+      "id": "mister-interact",
+      "title": "Interact Home Computer MiSTer Core",
+      "game": "Interact Home Computer software, cassette programs and compatible BASIC applications",
+      "target_type": "Software",
+      "platform": "Interact Home Computer (1978) on MiSTer FPGA",
+      "kind": "Emulator",
+      "status": "Runnable core with intermittent maintenance; upstream last pushed 2025-12-09 and the latest checked-in RBF is dated 2025-10-05. The README documents `.K7`/`.CIN` cassette support and requires a user-supplied Interact ROM renamed `boot.rom`.",
+      "summary": "FPGA recreation of the 1978 Interact Home Computer. The MiSTer core supports its cassette formats and keyboard mapping; the system ROM is not included in the tracked tree.",
+      "project_url": "https://github.com/MiSTer-devel/Interact_MiSTer",
+      "updated": "2026-10-16",
+      "strategy": "MiSTer FPGA hardware recreation of the Interact computer, adapted from its earlier FPGA core.",
+      "language": "",
+      "source_available": "Public GPL-2.0 source repository. The README requires the user’s Interact ROM; no ROM image was found in the tracked tree, and firmware rights remain separate.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "Verilog",
+      "subtype": "MiSTer FPGA vintage-computer hardware emulator core",
+      "sources": [
+        {
+          "label": "Maintainer repository and README",
+          "url": "https://github.com/MiSTer-devel/Interact_MiSTer"
+        },
+        {
+          "label": "GitHub repository metadata (license and last push)",
+          "url": "https://api.github.com/repos/MiSTer-devel/Interact_MiSTer"
+        }
+      ]
+    },
+    {
+      "id": "mister-pcxt-ega",
+      "title": "PC/XT EGA MiSTer Core",
+      "game": "IBM PC/XT-compatible DOS and early Windows software",
+      "target_type": "Software",
+      "platform": "IBM PC/XT 5160-compatible machine with EGA video on MiSTer FPGA",
+      "kind": "Emulator",
+      "status": "Active; upstream source last pushed 2026-09-04 and release RBF artifacts are dated through 2026-08-30. The README describes an EGA video path that also handles CGA-compatible software, and says the EGA BIOS option ROM is required.",
+      "summary": "MiSTer FPGA core for an IBM PC/XT-compatible system with a full EGA implementation. The repository includes several alternative BIOS binary files in its `SW` tree; IBM firmware is copyrighted, and the README identifies an EGA option ROM requirement.",
+      "project_url": "https://github.com/MiSTer-devel/PCXT-EGA_MiSTer",
+      "updated": "2026-10-16",
+      "strategy": "FPGA recreation of the IBM PC/XT and EGA adapter, with compatibility for CGA software through the EGA path.",
+      "language": "",
+      "source_available": "Public GPL-3.0 core source, with BIOS binaries also present in the repository’s `SW` tree. The required EGA option ROM and PC system firmware have separate rights; IBM ROMs are copyrighted and should not be presumed redistributable under the core license.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "SystemVerilog",
+      "subtype": "MiSTer FPGA IBM PC-compatible hardware emulator core",
+      "sources": [
+        {
+          "label": "Maintainer repository and README",
+          "url": "https://github.com/MiSTer-devel/PCXT-EGA_MiSTer"
+        },
+        {
+          "label": "GitHub repository metadata (license and last push)",
+          "url": "https://api.github.com/repos/MiSTer-devel/PCXT-EGA_MiSTer"
+        }
+      ]
+    },
+    {
+      "id": "mister-ibm-pcjr",
+      "title": "IBM PCjr MiSTer Core",
+      "game": "IBM PCjr DOS software and games",
+      "target_type": "Software",
+      "platform": "IBM PCjr personal computer on MiSTer FPGA",
+      "kind": "Emulator",
+      "status": "Experimental but has release bitstreams; source last pushed 2026-03-14, with RBF artifacts through 2026-03-13. README documents PCjr BIOS boot flow, configurable 128–640 KiB RAM, BIOS-compatible disk images, keyboard and joystick support.",
+      "summary": "MiSTer FPGA port of an IBM PCjr-compatible system built around the MCL86 and KFPC-XT CPU core work. The README requires users to provide the PCjr BIOS; IBM firmware is not included as a licensed core asset.",
+      "project_url": "https://github.com/MiSTer-devel/PCjr_MiSTer",
+      "updated": "2026-10-16",
+      "strategy": "FPGA hardware emulation of IBM PCjr, reusing the documented MCL86/KFPC-XT CPU core lineage and adding the PCjr memory, BIOS, disk, keyboard and joystick paths.",
+      "language": "",
+      "source_available": "Public GPL-3.0 core source; the repository also contains other legacy BIOS binaries under `SW`. The README requires a user-provided PCjr BIOS, and original IBM ROMs are copyrighted and not covered by the core license.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "SystemVerilog",
+      "subtype": "MiSTer FPGA IBM PC-compatible hardware emulator core",
+      "sources": [
+        {
+          "label": "Maintainer repository and README",
+          "url": "https://github.com/MiSTer-devel/PCjr_MiSTer"
+        },
+        {
+          "label": "GitHub repository metadata (license and last push)",
+          "url": "https://api.github.com/repos/MiSTer-devel/PCjr_MiSTer"
+        }
+      ]
+    },
+    {
+      "id": "mister-oric",
+      "title": "Oric MiSTer Core",
+      "game": "Oric-1, Oric Atmos and Pravetz 8D software",
+      "target_type": "Software",
+      "platform": "Oric-1 / Oric Atmos and Pravetz 8D 8-bit computers on MiSTer FPGA",
+      "kind": "Emulator",
+      "status": "Maintained FPGA core; upstream source last pushed 2026-06-11. The README documents tape loading, snapshots, ULA/video/6502/VIA/AY hardware and Pravetz 8D disk support. The latest checked-in RBF is dated 2026-06-03, close to the repository’s 2026-06-11 source update.",
+      "summary": "MiSTer FPGA hardware core for Oric-1 and Oric Atmos systems, including a Pravetz 8D compatibility option. The public source has no declared GitHub license; the tracked source tree includes a Microdisc ROM binary with no separate firmware rights statement.",
+      "project_url": "https://github.com/MiSTer-devel/Oric_MiSTer",
+      "updated": "2026-10-16",
+      "strategy": "FPGA core ported from earlier MiST/SiDi Oric work, recreating the Oric CPU, ULA video, VIA, AY sound, tape and disk paths.",
+      "language": "",
+      "source_available": "Public source repository, but GitHub reports no declared license. A Microdisc ROM binary is tracked in the repository and its redistribution rights were not established; tape images and other system ROMs require separate rights.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "VHDL",
+      "subtype": "MiSTer FPGA vintage-computer hardware emulator core",
+      "sources": [
+        {
+          "label": "Maintainer repository and README",
+          "url": "https://github.com/MiSTer-devel/Oric_MiSTer"
+        },
+        {
+          "label": "GitHub repository metadata (license and last push)",
+          "url": "https://api.github.com/repos/MiSTer-devel/Oric_MiSTer"
+        }
+      ]
+    },
+    {
+      "id": "mister-colour-genie",
+      "title": "Colour Genie (EACA EG2000) MiSTer Core",
+      "game": "EACA Colour Genie / EG2000 software and cassette programs",
+      "target_type": "Software",
+      "platform": "EACA EG2000 Colour Genie home computer on MiSTer FPGA",
+      "kind": "Emulator",
+      "status": "Runnable FPGA port with maintenance unclear; upstream last pushed 2025-09-08 and a release RBF is dated 2025-09-06. The README describes a from-scratch core and the Colour Genie’s original/upgraded text and graphics modes, BASIC and cassette loading.",
+      "summary": "MiSTer FPGA core for the EACA EG2000 Colour Genie home computer, an early TRS-80-compatible European system. The README describes cassette-based BASIC/machine-code loading; no firmware or software images were found in the tracked tree.",
+      "project_url": "https://github.com/MiSTer-devel/EG2000_MiSTer",
+      "updated": "2026-10-16",
+      "strategy": "FPGA hardware recreation/port of the Colour Genie implementation to MiSTer and other Altera FPGA boards.",
+      "language": "",
+      "source_available": "Public GPL-3.0 source repository. No system ROM or software images were found in the tracked tree; cassette images and any required ROMs must be supplied from separately obtained media.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "MiSTer FPGA vintage-computer hardware emulator core",
+      "sources": [
+        {
+          "label": "Maintainer repository and README",
+          "url": "https://github.com/MiSTer-devel/EG2000_MiSTer"
+        },
+        {
+          "label": "GitHub repository metadata (license and last push)",
+          "url": "https://api.github.com/repos/MiSTer-devel/EG2000_MiSTer"
+        }
+      ]
+    },
+    {
+      "id": "mister-atari-system-2",
+      "title": "Atari System 2 MiSTer Core",
+      "game": "Paperboy, 720 Degrees, Super Sprint, Championship Sprint and APB arcade software",
+      "target_type": "Software",
+      "platform": "Atari System 2 arcade hardware on MiSTer FPGA",
+      "kind": "Emulator",
+      "status": "Active hardware core; source last pushed 2026-09-25 and the repository contains a 2026-09-25 RBF. One bitstream supports the five System 2 games listed in the README; the launched MRA selects the title.",
+      "summary": "FPGA hardware recreation of Atari System 2, built around the DEC T-11 game CPU and a 6502/YM2151/dual-POKEY/TMS5220 sound board with Slapstic protection. Game ROMs are not included; the core uses user-provided MAME-compatible dumps.",
+      "project_url": "https://github.com/MiSTer-devel/Arcade-AtariSystem2_MiSTer",
+      "updated": "2026-10-16",
+      "strategy": "FPGA hardware recreation of Atari System 2, with the README documenting the reconstructed board components and five supported arcade titles.",
+      "language": "",
+      "source_available": "Public GPL-3.0 source repository. No game ROMs are included; users supply legally obtained MAME-compatible dumps. The README says a Paperboy prototype set is incomplete in MAME.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "SystemVerilog",
+      "subtype": "MiSTer FPGA arcade hardware emulator core",
+      "sources": [
+        {
+          "label": "Maintainer repository and README",
+          "url": "https://github.com/MiSTer-devel/Arcade-AtariSystem2_MiSTer"
+        },
+        {
+          "label": "GitHub repository metadata (license and last push)",
+          "url": "https://api.github.com/repos/MiSTer-devel/Arcade-AtariSystem2_MiSTer"
+        }
+      ]
+    },
+    {
+      "id": "mister-igs-pgm",
+      "title": "IGS PolyGame Master MiSTer Core",
+      "game": "Software for supported IGS PolyGame Master arcade cartridges",
+      "target_type": "Software",
+      "platform": "IGS PolyGame Master (PGM) arcade system on MiSTer FPGA",
+      "kind": "Emulator",
+      "status": "Beta and actively tested; upstream source last pushed 2026-09-10 and the repository includes release bitstreams. The README says most games work but the platform’s many variants and bootlegs still need testing, and lists supported and not-yet-working sets individually.",
+      "summary": "MiSTer FPGA core for IGS’s cartridge-based PolyGame Master arcade platform. It models PGM-specific CPUs, sprite/video, sound, protection and battery-backed state; the user must provide MAME-compatible game and parent BIOS dumps.",
+      "project_url": "https://github.com/MiSTer-devel/Arcade-IGSPGM_MiSTer",
+      "updated": "2026-10-16",
+      "strategy": "FPGA hardware emulation of the IGS PGM board, with per-game support and protection work documented in the upstream README.",
+      "language": "",
+      "source_available": "Public GPL-2.0 source repository. BIOS and cartridge dumps are not included; user-provided MAME-compatible files are required. README labels the core beta and says multiple variants/bootlegs remain untested.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "MiSTer FPGA arcade hardware emulator core",
+      "sources": [
+        {
+          "label": "Maintainer repository and README",
+          "url": "https://github.com/MiSTer-devel/Arcade-IGSPGM_MiSTer"
+        },
+        {
+          "label": "GitHub repository metadata (license and last push)",
+          "url": "https://api.github.com/repos/MiSTer-devel/Arcade-IGSPGM_MiSTer"
+        }
+      ]
+    },
+    {
+      "id": "mister-marble-madness-ii",
+      "title": "Marble Madness II MiSTer Core",
+      "game": "Marble Madness II: Marble Man arcade prototype",
+      "target_type": "Software",
+      "platform": "Atari Games Marble Madness II prototype arcade board on MiSTer FPGA",
+      "kind": "Emulator",
+      "status": "Active, hardware-validated core; upstream source last pushed 2026-10-08 and the latest checked-in RBF is dated 2026-09-04. The README reports that its MRA loads the full prototype ROM set and documents focused simulation plus real-ROM CPU/audio reset regressions.",
+      "summary": "FPGA hardware implementation for Atari Games’ unreleased 1991 Marble Madness II prototype. The source includes a hardware-validation note, but no game ROM is distributed; a legally obtained prototype MAME ROM set is required.",
+      "project_url": "https://github.com/MiSTer-devel/Arcade-MarbleMadness2_MiSTer",
+      "updated": "2026-10-16",
+      "strategy": "FPGA recreation of the Marble Madness II prototype board, with a cycle-compatible Motorola 68000, JSA audio, trackball support and EEPROM persistence.",
+      "language": "",
+      "source_available": "Public GPL-3.0 source repository. The prototype game ROM set is explicitly not included and must be obtained separately; no redistribution right for game ROMs is implied by the core source license.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "SystemVerilog",
+      "subtype": "MiSTer FPGA arcade hardware emulator core",
+      "sources": [
+        {
+          "label": "Maintainer repository and README",
+          "url": "https://github.com/MiSTer-devel/Arcade-MarbleMadness2_MiSTer"
+        },
+        {
+          "label": "GitHub repository metadata (license and last push)",
+          "url": "https://api.github.com/repos/MiSTer-devel/Arcade-MarbleMadness2_MiSTer"
+        }
+      ]
+    }
+  ]
+}
