@@ -1,0 +1,46 @@
+{
+  "accepted_additions": 298,
+  "excluded_existing": [
+    {
+      "id": "hipify-cuda-to-hip",
+      "from": "work/research-oct16/next-wave/api-layers/project-additions.json",
+      "reason": "Exact project ID is already in the SQLite catalog; inspected as existing, not re-imported."
+    },
+    {
+      "id": "syclomatic-cuda-to-sycl",
+      "from": "work/research-oct16/next-wave/api-layers/project-additions.json",
+      "reason": "Exact project ID is already in the SQLite catalog; inspected as existing, not re-imported."
+    },
+    {
+      "id": "cygwin-posix-compatibility-layer",
+      "from": "work/research-oct16/next-wave/api-layers/project-additions.json",
+      "reason": "Exact project ID is already in the SQLite catalog; inspected as existing, not re-imported."
+    }
+  ],
+  "reused_project_urls": {
+    "https://github.com/pascalpixel/alchemy": [
+      "golden-sun-broken-seal-decomp-alchemy",
+      "golden-sun-lost-age-decomp-alchemy"
+    ],
+    "https://github.com/akoi89/tgaa-3ds-english-patch": [
+      "great-ace-attorney-adventures-3ds-english-akoi89",
+      "great-ace-attorney-resolve-3ds-english-akoi89"
+    ],
+    "https://github.com/sp00nznet/rampage": [
+      "rampage-world-tour-n64-pc-recomp",
+      "rampage-2-universal-tour-n64-pc-recomp"
+    ],
+    "https://github.com/oaleex/mojorecomp": [
+      "crash-of-the-titans-xbox360-windows-mojorecomp",
+      "crash-mind-over-mutant-xbox360-windows-mojorecomp"
+    ],
+    "https://github.com/wndwsqrrl/3on3nhl-recomp": [
+      "3-on-3-nhl-arcade-xbla-windows-recomp",
+      "3-on-3-nhl-arcade-xbla-android-arm64-recomp"
+    ]
+  },
+  "same_game_platform_independent_projects": {
+    "great-ace-attorney-adventures-3ds-english-akoi89": "Extended English patch based on senyarom; distinct from Scarlet Study predecessor in catalog.",
+    "rocket-slime-3ds-english-fixup-akoi89": "New fix-up layered over existing Team Rocket Slime English patch; distinct scoped follow-on."
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "verified_at": "2026-10-16",
+  "scope": "Repository language metadata for round-three additions, using official GitHub Languages API breakdowns where available and project-owned language evidence otherwise.",
+  "records": [
+    {
+      "project_id": "cobalt-whatsapp-linked-client-reimplementation",
+      "predominant_language": "Java",
+      "language_breakdown_bytes": {
+        "Java": 43164284,
+        "C": 1898773,
+        "TypeScript": 874397,
+        "JavaScript": 467294,
+        "C++": 46674,
+        "Shell": 36833,
+        "Python": 9822,
+        "Batchfile": 72
+      },
+      "evidence_url": "https://api.github.com/repos/Auties00/Cobalt/languages",
+      "evidence": "GitHub's official repository Languages endpoint reports Java as the largest tracked language total (43,164,284 bytes).",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "zproot-prout-android-reimplementation",
+      "predominant_language": "Zig",
+      "language_breakdown_bytes": {
+        "Zig": 44701
+      },
+      "evidence_url": "https://api.github.com/repos/zproot/zproot/languages",
+      "evidence": "GitHub's official Languages endpoint for the canonical core repository reports Zig (44,701 bytes). The separately maintained Android front-end repository reports Kotlin (5,747 bytes) at https://api.github.com/repos/zproot/zproot-android/languages; the project row label reflects the canonical core repository.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "solidcraft-fusion-style-parametric-cad-reimplementation",
+      "predominant_language": "Rust",
+      "language_breakdown_bytes": {
+        "Rust": 16694694,
+        "Python": 228718,
+        "Shell": 45970,
+        "JavaScript": 32364,
+        "PowerShell": 27098,
+        "WGSL": 22479,
+        "Nix": 7955,
+        "HTML": 3567,
+        "CSS": 429
+      },
+      "evidence_url": "https://api.github.com/repos/bherbruck/solidcraft/languages",
+      "evidence": "GitHub's official repository Languages endpoint reports Rust as the largest tracked language total (16,694,694 bytes).",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "golden-sun-recompiled-android",
+      "predominant_language": "C++",
+      "evidence_url": "https://api.github.com/repos/wootbeer/gsrandroid/languages",
+      "evidence": "GitHub's official Languages REST endpoint reports 5,387,495 bytes of C++ as the largest total (72.3% of 7,446,628 recognized language bytes) for the repository. The full repository byte breakdown is recorded in language_breakdown_bytes.",
+      "verified_at": "2026-10-16",
+      "language_breakdown_bytes": {
+        "C++": 5387495,
+        "C": 1952608,
+        "Java": 96097,
+        "CMake": 9423,
+        "Python": 1005
+      }
+    },
+    {
+      "project_id": "sonic-adventure-2-opensa2-android",
+      "predominant_language": "Python",
+      "evidence_url": "https://api.github.com/repos/kittycache9/OpenSA2/languages",
+      "evidence": "GitHub's official Languages REST endpoint reports 7,272,305 bytes of Python as the largest total (47.5% of 15,307,005 recognized language bytes) for the repository. The full repository byte breakdown is recorded in language_breakdown_bytes.",
+      "verified_at": "2026-10-16",
+      "language_breakdown_bytes": {
+        "Python": 7272305,
+        "C": 5090655,
+        "C++": 2627975,
+        "Shell": 283013,
+        "Java": 31933,
+        "GLSL": 1124
+      }
+    },
+    {
+      "project_id": "issd-native-android",
+      "predominant_language": "C",
+      "evidence_url": "https://api.github.com/repos/sergiomanzur/issd-native/languages",
+      "evidence": "GitHub's official Languages REST endpoint reports 64,059,430 bytes of C as the largest total (98.1% of 65,283,503 recognized language bytes) for the repository. The full repository byte breakdown is recorded in language_breakdown_bytes.",
+      "verified_at": "2026-10-16",
+      "language_breakdown_bytes": {
+        "C": 64059430,
+        "Python": 954421,
+        "C++": 193990,
+        "CMake": 31649,
+        "Java": 24846,
+        "Shell": 15321,
+        "PowerShell": 3846
+      }
+    },
+    {
+      "project_id": "blue-dragon-bluedroid-android",
+      "predominant_language": "C++",
+      "evidence_url": "https://api.github.com/repos/RedZeroGotcha/BlueDroid/languages",
+      "evidence": "GitHub's official Languages REST endpoint reports 2,289,216 bytes of C++ as the largest total (94.6% of 2,420,869 recognized language bytes) for the repository. The full repository byte breakdown is recorded in language_breakdown_bytes.",
+      "verified_at": "2026-10-16",
+      "language_breakdown_bytes": {
+        "C++": 2289216,
+        "Python": 44586,
+        "HLSL": 36973,
+        "CMake": 35517,
+        "C": 14577
+      }
+    },
+    {
+      "project_id": "diddy-kong-racing-barrelpad-ios",
+      "predominant_language": "Objective-C++",
+      "evidence_url": "https://api.github.com/repos/chrissotraidis/barrelpad/languages",
+      "evidence": "GitHub's official Languages REST endpoint reports 61,297 bytes of Objective-C++ as the largest total (43.3% of 141,540 recognized language bytes) for the repository. The full repository byte breakdown is recorded in language_breakdown_bytes.",
+      "verified_at": "2026-10-16",
+      "language_breakdown_bytes": {
+        "Objective-C++": 61297,
+        "C": 29651,
+        "Shell": 25260,
+        "Python": 23595,
+        "CMake": 1737
+      }
+    },
+    {
+      "project_id": "binding-of-isaac-flash-recomp-android",
+      "predominant_language": "C++",
+      "evidence_url": "https://api.github.com/repos/whylurking/IsaacRecomp/languages",
+      "evidence": "GitHub's official Languages REST endpoint reports 685,109 bytes of C++ as the largest total (65.4% of 1,047,475 recognized language bytes) for the repository. The full repository byte breakdown is recorded in language_breakdown_bytes.",
+      "verified_at": "2026-10-16",
+      "language_breakdown_bytes": {
+        "C++": 685109,
+        "Java": 216241,
+        "ActionScript": 91393,
+        "Python": 41092,
+        "CMake": 8728,
+        "Shell": 4912
+      }
+    },
+    {
+      "project_id": "madeira-windows-games-iphone",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "Assembly": 16959,
+        "C": 8730282,
+        "C++": 60211,
+        "HLSL": 19886,
+        "JavaScript": 28102,
+        "Metal": 22206,
+        "Objective-C": 491675,
+        "Objective-C++": 224497,
+        "Python": 2482307,
+        "Rust": 17724,
+        "Shell": 156958,
+        "Swift": 1972999
+      },
+      "evidence_url": "https://api.github.com/repos/willfaust/Madeira/languages",
+      "evidence": "GitHub's official Languages API returned 8,730,282 C bytes out of 14,223,806 classified bytes (61.38%), the largest category, followed by Python (2,482,307 bytes; 17.45%) and Swift (1,972,999 bytes; 13.87%). This is a repository-wide measure that includes component sources and build tooling; it does not mean the iOS front end itself is primarily C.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "battletanx-n64-thegh0stship-complete-decomp",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "Assembly": 20652,
+        "C": 4042451,
+        "Makefile": 1205,
+        "Python": 716502,
+        "Shell": 5712
+      },
+      "evidence_url": "https://api.github.com/repos/TheGh0stShip/BattleTanx/languages",
+      "evidence": "GitHub's official Languages API returned 4,042,451 C bytes out of 4,786,522 classified bytes (84.45%), the largest category, followed by Python (716,502 bytes; 14.97%). This is a repository-wide breakdown and includes project tooling as well as matching game source.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "gravity-rush-2-ps4-pc",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://github.com/HayatoG?tab=repositories&page=1",
+      "evidence": "GitHub's repository-list card for HayatoG/gr2_pc displays C++ as the repository's primary language. The Languages API returned a rate-limit error during this audit, so no byte totals are recorded.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "ps-switch-kit",
+      "predominant_language": "C",
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://github.com/HayatoG?tab=repositories&page=1",
+      "evidence": "GitHub's repository-list card for HayatoG/ps-switch-kit displays C as the repository's primary language. The Languages API returned a rate-limit error during this audit, so no byte totals are recorded.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "switch-nvk",
+      "predominant_language": "C",
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://github.com/HayatoG?tab=repositories&page=1",
+      "evidence": "GitHub's repository-list card for HayatoG/switch-nvk displays C as the repository's primary language. The Languages API returned a rate-limit error during this audit, so no byte totals are recorded.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "armsx2-nx",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://github.com/PalindromicBreadLoaf?tab=repositories&page=1",
+      "evidence": "GitHub's repository-list card for the canonical PalindromicBreadLoaf/ARMSX2-NX port displays C++ as the repository's primary language. The Languages API returned a rate-limit error during this audit, so no byte totals are recorded.",
+      "verified_at": "2026-10-16"
+    }
+  ]
+}

@@ -1,0 +1,538 @@
+{
+  "updated": "2026-10-16",
+  "scope": "Additional primary-source-verified game and software projects from social search, application reimplementation, mobile ports, and platform compatibility research. See round3-review.md for provenance and boundaries.",
+  "projects": [
+    {
+      "id": "cobalt-whatsapp-linked-client-reimplementation",
+      "title": "Cobalt (WhatsApp linked-client reimplementation)",
+      "game": "WhatsApp Web, Desktop, and Mobile linked-client behavior",
+      "target_type": "Software",
+      "platform": "Java 25/JVM applications; README lists native libraries for Windows, Linux, and macOS on x86-64 and ARM64",
+      "kind": "Reimplementation",
+      "status": "The README describes the Linked client as a clean-room implementation of WhatsApp Web, Desktop, and Mobile client behavior, with separate Web-companion and Mobile-account modes. It is pre-1.0 and the maintainer expects breaking changes. The README warns that its reverse-engineered private protocol is unsupported by WhatsApp, may violate its terms, cause account restrictions, or stop working. GitHub repository metadata checked 2026-10-16 reports the last push on 2026-07-15.",
+      "summary": "A public Java library that lets JVM applications act as WhatsApp clients through a reverse-engineered Linked-device protocol, with Web, Desktop, and Mobile client flavors. It separately supports Meta's official WhatsApp Cloud API; the project is a protocol/client library, not a standalone messenger user interface.",
+      "project_url": "https://github.com/Auties00/Cobalt",
+      "updated": "2026-10-16",
+      "strategy": "Clean-room implementation of WhatsApp linked-client protocols and behavior",
+      "source_available": "Public MIT-licensed source. The maintainer states the Linked transport uses WhatsApp's private protocol and is unofficial and unsupported; account and service availability caveats are documented in the README.",
+      "first_found": "2026-10-16",
+      "programming_language": "Java",
+      "subtype": "Messaging client protocol and application reimplementation",
+      "sources": [
+        {
+          "label": "Maintainer README: Linked-client method, client modes, API scope, maturity, and terms-of-service caveat",
+          "url": "https://github.com/Auties00/Cobalt#readme"
+        },
+        {
+          "label": "MIT license",
+          "url": "https://github.com/Auties00/Cobalt/blob/master/LICENSE"
+        },
+        {
+          "label": "GitHub repository metadata checked 2026-10-16, including last push date and archive state",
+          "url": "https://api.github.com/repos/Auties00/Cobalt"
+        }
+      ]
+    },
+    {
+      "id": "zproot-prout-android-reimplementation",
+      "title": "zproot (PRoot clean-room reimplementation for Android)",
+      "game": "PRoot user-space root emulation and Linux guest distributions on Android",
+      "target_type": "Software",
+      "platform": "Android devices (targetSdk 35; native aarch64 tracer), with a Zig core and Kotlin Android application",
+      "kind": "Reimplementation",
+      "status": "Work in progress. The Android README says the APK builds, installs, and runs the tracer on a real device; Alpine download/extraction and end-to-end path rewriting are verified, and a static BusyBox shell works. Dynamically linked binaries are in progress; the terminal UI and multi-distribution registry have not started. The README says not to expect a usable Linux container yet. No GitHub release is listed for either repository as of 2026-10-16.",
+      "summary": "An Android application paired with a Zig clean-room reimplementation of PRoot. The tracer uses ptrace to intercept Linux syscalls and rewrite guest filesystem paths into an unprivileged virtual root. The Android front end has early device-tested behavior, but the project does not yet provide a usable Linux container.",
+      "project_url": "https://github.com/zproot/zproot",
+      "updated": "2026-10-16",
+      "strategy": "Clean-room Zig reimplementation of PRoot's ptrace tracer and path-translation behavior, with a Kotlin Android front end",
+      "source_available": "Public MIT-licensed source in separate core and Android repositories. The maintainer states no PRoot, termux-proot, or proot-distro source was read, copied, or translated. No Android app release is listed; the APK is built through the repository's CI workflow.",
+      "first_found": "2026-10-16",
+      "programming_language": "Zig",
+      "subtype": "Android Linux-userland runtime and application",
+      "sources": [
+        {
+          "label": "Core README: PRoot replacement method, status, clean-room statement, and license",
+          "url": "https://github.com/zproot/zproot#readme"
+        },
+        {
+          "label": "Android app README: real-device progress, current limitations, build workflow, and license",
+          "url": "https://github.com/zproot/zproot-android#readme"
+        },
+        {
+          "label": "Core MIT license",
+          "url": "https://github.com/zproot/zproot/blob/master/LICENSE"
+        },
+        {
+          "label": "Android app MIT license",
+          "url": "https://github.com/zproot/zproot-android/blob/main/LICENSE"
+        },
+        {
+          "label": "GitHub REST metadata for the core repository, checked 2026-10-16",
+          "url": "https://api.github.com/repos/zproot/zproot"
+        },
+        {
+          "label": "GitHub REST metadata for the Android app repository, checked 2026-10-16",
+          "url": "https://api.github.com/repos/zproot/zproot-android"
+        },
+        {
+          "label": "GitHub Releases API for the core repository, checked 2026-10-16 (no release records)",
+          "url": "https://api.github.com/repos/zproot/zproot/releases"
+        },
+        {
+          "label": "GitHub Releases API for the Android application, checked 2026-10-16 (no release records)",
+          "url": "https://api.github.com/repos/zproot/zproot-android/releases"
+        }
+      ]
+    },
+    {
+      "id": "solidcraft-fusion-style-parametric-cad-reimplementation",
+      "title": "SolidCraft (Fusion-style parametric CAD application)",
+      "game": "Autodesk Fusion-style parametric 3D CAD workflow",
+      "target_type": "Software",
+      "platform": "Windows, macOS, Linux, and browser via WebAssembly",
+      "kind": "Reimplementation",
+      "status": "The README describes SolidCraft as early but usable for simple parts. It offers desktop installers and a browser build. The maintainer reports that 75 of 76 public reference parts match selected analytic or FreeCAD-computed volume, area, centre-of-mass, and bounding-box measures; the README explicitly says those checks do not establish full geometric or workflow equivalence.",
+      "summary": "An independent Rust parametric CAD application with constrained sketches, a feature timeline, assemblies, sheet-metal tools, and desktop/web interfaces. The maintainers say behavior is designed from public documentation, general CAD conventions, and user feedback under clean-room contribution rules. It uses the third-party truck B-rep kernel and does not claim full Autodesk Fusion 360 compatibility or recovered Autodesk source.",
+      "project_url": "https://github.com/bherbruck/solidcraft",
+      "updated": "2026-10-16",
+      "strategy": "Clean-room implementation of Fusion-style parametric CAD workflows, with a Rust modeling engine and a third-party B-rep kernel",
+      "source_available": "Public source under MIT OR Apache-2.0 at the project's option. Third-party code and assets retain their own licenses; the repository documents the truck kernel and its attribution. The project states it is independent and unaffiliated with Autodesk.",
+      "first_found": "2026-10-16",
+      "programming_language": "Rust",
+      "subtype": "Desktop and web parametric 3D CAD application",
+      "sources": [
+        {
+          "label": "Maintainer README: features, supported platforms, maturity, reference-test limits, and project license",
+          "url": "https://github.com/bherbruck/solidcraft#readme"
+        },
+        {
+          "label": "Clean-room contribution rules and source boundaries",
+          "url": "https://github.com/bherbruck/solidcraft/blob/main/AGENTS.md"
+        },
+        {
+          "label": "Third-party licenses and attribution, including the geometry-kernel dependency",
+          "url": "https://github.com/bherbruck/solidcraft/blob/main/THIRD-PARTY-LICENSES.txt"
+        },
+        {
+          "label": "Release page linked by the maintainer README",
+          "url": "https://github.com/bherbruck/solidcraft/releases"
+        }
+      ]
+    },
+    {
+      "id": "golden-sun-recompiled-android",
+      "title": "Golden Sun Recompiled for Android",
+      "game": "Golden Sun",
+      "target_type": "Game",
+      "platform": "Game Boy Advance → Android (phone and handheld devices)",
+      "kind": "Recompilation",
+      "status": "Android v0.2 was released on 2026-10-10. The maintainer describes the project as super-beta and reports testing on a Retroid Pocket 6 and a phone identified as ‘4 gen 1’; no full-game completion claim is made.",
+      "summary": "Android port based on Golden Sun Recompiled and the Descore framework. On first launch it translates and compiles game code from a supported USA/Europe GBA ROM on-device, then adds touch and controller input. The app includes no game code, ROM, or assets.",
+      "project_url": "https://github.com/wootbeer/gsrandroid",
+      "updated": "2026-10-16",
+      "first_found": "2026-10-16",
+      "strategy": "Android port of the Golden Sun static recompilation; the supported ROM is processed and compiled on-device.",
+      "source_available": "Public source repository and Android APK release; user supplies a legally obtained supported ROM. No game data is included.",
+      "subtype": "Single-game Android target with on-device recompilation",
+      "sources": [
+        {
+          "label": "Maintainer README: upstream base, supported ROMs, on-device build, controls, and beta/device status",
+          "url": "https://github.com/wootbeer/gsrandroid"
+        },
+        {
+          "label": "v0.2 Android release and change log",
+          "url": "https://github.com/wootbeer/gsrandroid/releases"
+        },
+        {
+          "label": "Upstream Golden Sun Recompiled project",
+          "url": "https://github.com/Shmargus/GSRecomp"
+        }
+      ],
+      "programming_language": "C++"
+    },
+    {
+      "id": "sonic-adventure-2-opensa2-android",
+      "title": "OpenSA2: Sonic Adventure 2 Android Port",
+      "game": "Sonic Adventure 2",
+      "target_type": "Game",
+      "platform": "Windows PC (2012 release) → Android ARM64; also Windows/Linux",
+      "kind": "Recompilation",
+      "status": "Experimental 0.1.0-alpha.1 prerelease; the Android APK was updated through 2026-10-15. The maintainer reports touch gameplay on Galaxy S25 Edge and Pixel 9 Pro, with City Escape exercised; broad stage, boss, and event coverage is incomplete and a known post-stage event still reaches an untranslated block.",
+      "summary": "Game-specific static recompilation of the 2012 Windows PC executable: x86 instructions are translated at build time and compiled to native machine code, with a new runtime for graphics, audio, input, and OS services. The Android package contains recompiled logic and runtime; players supply files from their own supported PC installation.",
+      "project_url": "https://github.com/kittycache9/OpenSA2",
+      "updated": "2026-10-16",
+      "first_found": "2026-10-16",
+      "strategy": "Build-time static recompilation of the 2012 PC executable into native code, paired with a game-specific runtime and Android player.",
+      "source_available": "Public source preview and Android APK prerelease; original executable and game assets are not included and must be supplied by the player.",
+      "subtype": "Experimental Android ARM64 target of a single-game PC static recompilation",
+      "sources": [
+        {
+          "label": "Maintainer README: method, Android APK, and original-game requirement",
+          "url": "https://github.com/kittycache9/OpenSA2"
+        },
+        {
+          "label": "Maintainer platform status: Android devices, exercised gameplay, and known limitations",
+          "url": "https://github.com/kittycache9/OpenSA2/blob/main/docs/status.md"
+        },
+        {
+          "label": "0.1.0-alpha.1 release and Android APK update notes",
+          "url": "https://github.com/kittycache9/OpenSA2/releases/tag/v0.1.0-alpha.1"
+        },
+        {
+          "label": "Architecture: x86 translation and game-specific runtime",
+          "url": "https://github.com/kittycache9/OpenSA2/blob/main/docs/architecture.md"
+        }
+      ],
+      "programming_language": "Python"
+    },
+    {
+      "id": "issd-native-android",
+      "title": "ISSD Native: International Superstar Soccer Deluxe Android Port",
+      "game": "International Superstar Soccer Deluxe (USA)",
+      "target_type": "Game",
+      "platform": "Super Nintendo → Android (also Windows/Linux)",
+      "kind": "Recompilation",
+      "status": "The v0.5.0-beta.3 prerelease (2026-10-11) includes Android 8.0+ and improved touch controls. The README says full tournament progression and physical-device playtesting, including Android handhelds, remain on the path to 1.0.",
+      "summary": "Native recompilation of the USA SNES game. The original 65816 code is translated into C, with native replacements for asset decompression, memory streaming, and audio-command handling; a game-specific runner retains SNES hardware models for video, audio, and peripherals. Android builds include touch input. The player supplies their own cartridge dump.",
+      "project_url": "https://github.com/sergiomanzur/issd-native",
+      "updated": "2026-10-16",
+      "first_found": "2026-10-16",
+      "strategy": "Static recompilation of SNES 65816 game code to C with a game-specific native runner.",
+      "source_available": "Public source repository and Android prerelease; a supported USA ROM dump is not included and must be supplied by the user.",
+      "subtype": "Android target with touch controls",
+      "sources": [
+        {
+          "label": "Maintainer README: recompilation method, Android target, touch input, and remaining validation",
+          "url": "https://github.com/sergiomanzur/issd-native"
+        },
+        {
+          "label": "v0.5.0-beta.3 release notes: Android 8.0+ prerelease and touch-control changes",
+          "url": "https://github.com/sergiomanzur/issd-native/releases"
+        }
+      ],
+      "programming_language": "C"
+    },
+    {
+      "id": "blue-dragon-bluedroid-android",
+      "title": "BlueDroid: Blue Dragon Android Port",
+      "game": "Blue Dragon",
+      "target_type": "Game",
+      "platform": "Xbox 360 → Android ARM64 / Vulkan",
+      "kind": "Recompilation",
+      "status": "A debug pre-beta APK is published. The release identifies a single reported device test (Galaxy S23 FE with Xclipse graphics); Mali and Adreno GPUs were not tested, and the included v56 build is explicitly described as not fully implemented.",
+      "summary": "Game-specific Android port of reBlue, the static recompilation of Xbox 360 Blue Dragon. The project identifies Android ARM64 and Vulkan support and requires all three discs from the user's own Global release; the repository contains no original game assets.",
+      "project_url": "https://github.com/RedZeroGotcha/BlueDroid",
+      "updated": "2026-10-16",
+      "first_found": "2026-10-16",
+      "strategy": "Android/ARM64 Vulkan target of the game-specific reBlue static recompilation.",
+      "source_available": "Public source repository and debug pre-beta APK; all three retail discs or user-made images are required and no game assets are bundled.",
+      "subtype": "Experimental Android target of the Xbox 360 static recompilation",
+      "sources": [
+        {
+          "label": "Maintainer README: Blue Dragon target, static recompilation, Android/ARM64, Vulkan, and disc requirements",
+          "url": "https://github.com/RedZeroGotcha/BlueDroid"
+        },
+        {
+          "label": "Pre-beta debug APK release and maintainer's stated test coverage",
+          "url": "https://github.com/RedZeroGotcha/BlueDroid/releases"
+        },
+        {
+          "label": "Upstream game-specific reBlue recompilation",
+          "url": "https://github.com/zolaware/reblue"
+        }
+      ],
+      "programming_language": "C++"
+    },
+    {
+      "id": "diddy-kong-racing-barrelpad-ios",
+      "title": "BarrelPad: Diddy Kong Racing Native Apple Port",
+      "game": "Diddy Kong Racing",
+      "target_type": "Game",
+      "platform": "Nintendo 64 (US 1.1; EU 1.1) → iOS/iPadOS ARM64; also Apple silicon macOS",
+      "kind": "Decompilation",
+      "status": "The maintainer reports gameplay on a physical iPhone 14 and 12.9-inch iPad Pro. The latest v0.2.1 release (2026-10-04) contains a PadMint build recipe, not an app binary; users build locally on an Apple silicon Mac. No App Store or TestFlight release is announced.",
+      "summary": "Native Apple integration for Golden Balloon, a Diddy Kong Racing source port built from the community N64 decompilation. It adds iOS/iPadOS app lifecycle, Metal-backed rendering, local ROM discovery, and customizable touch controls. US 1.1 is physically tested; EU 1.1 is supported by the host but not validated on device. The user supplies the ROM.",
+      "project_url": "https://github.com/chrissotraidis/barrelpad",
+      "updated": "2026-10-16",
+      "first_found": "2026-10-16",
+      "strategy": "Native iOS/iPadOS integration and ARM64 build of Golden Balloon, which is built from the matching Diddy Kong Racing decompilation.",
+      "source_available": "Public source and PadMint build recipe; no ROM or game assets are included. Physical-device installation requires local signing.",
+      "subtype": "Game-specific iOS/iPadOS native port with touch controls",
+      "sources": [
+        {
+          "label": "Maintainer README: upstream method, Apple targets, controls, ROM revisions, and device testing",
+          "url": "https://github.com/chrissotraidis/barrelpad"
+        },
+        {
+          "label": "Latest v0.2.1 release: recipe-only packaging and local PadMint build",
+          "url": "https://github.com/chrissotraidis/barrelpad/releases/tag/v0.2.1"
+        },
+        {
+          "label": "Underlying Golden Balloon source port and decompilation basis",
+          "url": "https://github.com/akratch/goldenballoon"
+        }
+      ],
+      "programming_language": "Objective-C++"
+    },
+    {
+      "id": "binding-of-isaac-flash-recomp-android",
+      "title": "The Binding of Isaac (Flash) Recompiled for Android",
+      "game": "The Binding of Isaac (original Flash game)",
+      "target_type": "Game",
+      "platform": "Windows PC (2011 Flash game / Steam Isaac.exe) → Android ARM64 (Android 7.0+, OpenGL ES 3.0)",
+      "kind": "Recompilation",
+      "status": "The v1.2.0 release (2026-10-13) publishes an Android APK for 64-bit ARM devices with Android 7.0+ and OpenGL ES 3.0. The project provides touch and controller input; it is a native port of the original Flash game, not The Binding of Isaac: Rebirth.",
+      "summary": "Static recompilation of the original game's ActionScript 2 / AVM1 bytecode into C++ with a native engine. The Android APK reads graphics, audio, and code from the user's Steam Isaac.exe and includes touch controls; no game data is bundled. The project covers the original game and named Flash-era editions, not Rebirth or later games.",
+      "project_url": "https://github.com/whylurking/IsaacRecomp",
+      "updated": "2026-10-16",
+      "first_found": "2026-10-16",
+      "strategy": "Static recompilation of AVM1 bytecode into C++ functions compiled with a native engine; Android uses OpenGL ES 3.0.",
+      "source_available": "Public source repository and Android APK release; user supplies Isaac.exe from their own Steam copy. Graphics, sounds, and music are not bundled.",
+      "subtype": "Single-game Android APK with touch and controller input",
+      "sources": [
+        {
+          "label": "Maintainer README: bytecode-to-C++ method, Android requirements, controls, and data requirements",
+          "url": "https://github.com/whylurking/IsaacRecomp"
+        },
+        {
+          "label": "v1.2.0 Android release and download details",
+          "url": "https://github.com/whylurking/IsaacRecomp/releases"
+        }
+      ],
+      "programming_language": "C++"
+    },
+    {
+      "id": "madeira-windows-games-iphone",
+      "title": "Madeira Windows PC Game Compatibility Runtime for iPhone",
+      "game": "Windows PC games (multi-title)",
+      "target_type": "Software",
+      "platform": "Windows x86/x86-64 games → iPhone (iOS 26+; iOS 27 supports built-in device pairing)",
+      "kind": "API Translation",
+      "status": "Active research project; latest release v0.1.3 was published 2026-10-03. The README says many games start and some play well, while compatibility and performance vary by game. Requires an iPhone on iOS 26 or later, JIT enabled, and sideloading with an Apple ID; the built-in pairing flow requires iOS 27. This is not an App Store app because its JIT setup requires a debugger. The README does not claim a broad compatibility guarantee.",
+      "summary": "A single iOS app that runs unmodified Windows PC games through FEX-Emu x86/x86-64-to-ARM64 translation, Wine 11.4 built for ARM64EC (including WoW64 for 32-bit games), Direct3D 9/10/11 rendering through DXMT on Metal, and Madeira's own Direct3D 12-on-Metal implementation. Users provide their Windows game files or Steam library. Microsoft Visual C++ runtime DLLs are not bundled.",
+      "project_url": "https://github.com/willfaust/Madeira",
+      "updated": "2026-10-16",
+      "strategy": "Runtime CPU instruction translation (FEX-Emu) plus Wine ARM64EC/Win32 compatibility, Direct3D 9–11-to-Metal translation through DXMT, and a native Direct3D 12-on-Metal implementation.",
+      "language": "",
+      "source_available": "Public source under GPL-3.0-or-later with the Madeira Converter Exception. Submodule forks have component-specific licenses. The build guide requires external toolchains and setup inputs; this review did not independently reproduce a clean-checkout build. Microsoft's Visual C++ runtime DLLs are not distributed.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Windows game compatibility runtime for jailed iOS",
+      "sources": [
+        {
+          "label": "Maintainer README: method, compatibility status, iOS/JIT requirements, install and build notes, and licensing",
+          "url": "https://github.com/willfaust/Madeira"
+        },
+        {
+          "label": "Latest published release v0.1.3 (2026-10-03): game fixes and JIT/setup requirements",
+          "url": "https://github.com/willfaust/Madeira/releases/tag/v0.1.3"
+        },
+        {
+          "label": "Maintainer build guide: component forks, toolchains, and build steps",
+          "url": "https://github.com/willfaust/Madeira/blob/main/docs/BUILDING.md"
+        },
+        {
+          "label": "Project license",
+          "url": "https://github.com/willfaust/Madeira/blob/main/LICENSE"
+        },
+        {
+          "label": "Madeira Converter Exception",
+          "url": "https://github.com/willfaust/Madeira/blob/main/LICENSE-EXCEPTION.md"
+        },
+        {
+          "label": "Official GitHub repository language byte totals",
+          "url": "https://api.github.com/repos/willfaust/Madeira/languages"
+        },
+        {
+          "label": "X discovery lead by @Ryrenz; not used as evidence for compatibility or project status",
+          "url": "https://x.com/Ryrenz/status/2105222376363274310"
+        }
+      ],
+      "verification": {
+        "checked_at": "2026-10-16",
+        "method": "FEX translates Windows x86/x86-64 instructions to ARM64 at runtime; Wine provides Windows compatibility; DXMT maps Direct3D 9/10/11 to Metal and Madeira supplies a separate D3D12-on-Metal implementation. All components run inside one iOS process.",
+        "supported_targets": "Unmodified Windows PC games; the repository does not publish a complete tested-game matrix in the README reviewed.",
+        "requirements": "iPhone running iOS 26 or later; JIT enabled through StikDebug or the bundled StikJIT helper; Apple ID sideloading. Built-in pairing without a computer requires iOS 27. A free Apple ID signing expires after seven days. Some 64-bit games require Microsoft Visual C++ runtime DLLs that are not included.",
+        "release_and_status": "v0.1.3 published 2026-10-03. README calls Madeira an active research project and says many games start, some play well, and compatibility/performance vary. Release notes say Cuphead, Nine Sols, and Hades II now run; these are maintainer reports, not universal compatibility guarantees.",
+        "source_and_build": "Public GPL-3.0-or-later source with a Converter Exception. The build guide describes multiple component builds and external toolchain inputs. Clean-checkout build reproducibility was not independently verified in this pass.",
+        "discovery_provenance": "The X post linked Madeira and mentioned Windows games running on a non-jailbroken iPhone. The post is only a discovery lead; all catalog claims above come from the repository and its release page."
+      }
+    },
+    {
+      "id": "battletanx-n64-thegh0stship-complete-decomp",
+      "title": "BattleTanx N64 Complete Matching Decompilation (TheGh0stShip)",
+      "game": "BattleTanx (Nintendo 64 USA Rev 0 / NBXE)",
+      "target_type": "Game",
+      "platform": "Nintendo 64 (USA Rev 0, serial NBXE; 8 MiB big-endian .z64 ROM)",
+      "kind": "Decompilation",
+      "status": "The maintainer reports a complete matching decompilation, verified on 2026-10-16: 1,738/1,738 functions, 703,452/703,452 reportable code bytes, 153,924/153,924 initialized-data bytes, and all 7,335,936 bytes of the asset region accounted for. The verification document says all 1,563 matching source units passed the ROM-backed verifier. Some asset bundle entries remain semantically unidentified even though their ranges and enclosing formats are accounted for.",
+      "summary": "A public C and authentic source-assembly reconstruction of BattleTanx N64 USA Rev 0. The project compiles matching source units with pinned compatible toolchains and verifies them byte-for-byte against the user's own legally obtained ROM. No ROM or ROM-derived assets are included. Complete asset-region accounting does not mean every bundle entry has been semantically identified; this repository is a matching decompilation, not a PC port or static recompilation.",
+      "project_url": "https://github.com/TheGh0stShip/BattleTanx",
+      "updated": "2026-10-16",
+      "strategy": "Matching N64 decompilation using reconstructed C and authentic source assembly, compiled with pinned compatible toolchains and compared against the verified USA Rev 0 ROM; initialized data and assets are tracked in separate audited ledgers.",
+      "language": "",
+      "source_available": "Public GPL-3.0 project-authored source and verification/build scripts. The user must supply the supported USA Rev 0 ROM; the repository includes no ROM or ROM-derived assets. BattleTanx and its game data remain the rights holders' property.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Nintendo 64 matching decompilation",
+      "sources": [
+        {
+          "label": "Maintainer README: exact target revision, matching-decompilation totals, method, ROM requirement, and asset-accounting caveat",
+          "url": "https://github.com/TheGh0stShip/BattleTanx"
+        },
+        {
+          "label": "Completion verification regenerated on 2026-10-16: ROM identity, matching totals, source-unit verification, and commands",
+          "url": "https://github.com/TheGh0stShip/BattleTanx/blob/main/docs/VERIFICATION.md"
+        },
+        {
+          "label": "Project license and game-data rights statement",
+          "url": "https://github.com/TheGh0stShip/BattleTanx/blob/main/COPYING"
+        },
+        {
+          "label": "Official GitHub repository language byte totals",
+          "url": "https://api.github.com/repos/TheGh0stShip/BattleTanx/languages"
+        },
+        {
+          "label": "Reddit discovery post linking the exact repository; not used as evidence for completion status",
+          "url": "https://www.reddit.com/r/Battletanx/comments/1x77r4p/battletanx_100_complete_decompiled/"
+        }
+      ],
+      "verification": {
+        "checked_at": "2026-10-16",
+        "method": "The repo describes a matching decompilation. Matching C and authentic source-assembly units are built with pinned IDO 5.3, KMC GCC, and SN Systems GCC-compatible toolchains and checked at retail ROM addresses; initialized data is verified separately.",
+        "supported_version": "BattleTanx USA Rev 0, serial NBXE, 8 MiB big-endian .z64; SHA-1 535860d941738ac1210c20a9b80114fea0e0ff17; SHA-256 c5b7cf3523de025e3f18e2c8df2deb0eced5613e7c46cb8c6c5a4f22644ead3f.",
+        "requirements": "User-supplied legally obtained supported ROM at baseroms/us/baserom.z64; Python 3 and the pinned compatible toolchains installed by the documented setup. ROM and ROM-derived assets are not included.",
+        "completion_evidence": "Verification document dated 2026-10-16 reports 1,738 functions, 703,452 reportable code bytes, 153,924 initialized-data bytes, 7,335,936 asset-region bytes, and 1,563 passing matching source units. Some asset bundles remain semantically unidentified; the complete figure is accounting coverage, not semantic decoding of every asset.",
+        "license": "GPL-3.0 for project-authored code and imported GPL research; game code/data remain the rights holders' property.",
+        "discovery_provenance": "The r/Battletanx post linked this exact repository and announced the decompilation. The repository README and verification file provide all implementation and completion claims.",
+        "lineage_and_overlap": "Independent repository from AbuN64/battletanx-decomp, which remains a separate work-in-progress record for the same game and ROM revision. Also distinct from TheGh0stShip/BattleTanx-Global-Assault, which targets the sequel, and wootbeer/btrecomp, which is a PC recompilation of the original game."
+      }
+    },
+    {
+      "id": "gravity-rush-2-ps4-pc",
+      "title": "Gravity Rush 2 Native PC Port",
+      "game": "Gravity Rush 2",
+      "target_type": "Game",
+      "platform": "PlayStation 4 (CUSA03694, update 01.11) → Linux x86-64 and Windows 10/11 x86-64",
+      "kind": "API Translation",
+      "status": "Latest release checked: v2026.10.15-3159679 (2026-10-15). The README reports the opening, title, menu, and gameplay working at 30 FPS and native 1080p, with Linux tested on Nobara/Fedora 44. Windows builds are available but not yet tested in-game; saves and open-world progression remain under testing; Apple Silicon is planned.",
+      "summary": "Native PC port of the PS4 version of Gravity Rush 2. It runs the original x86-64 game code directly, reimplements PS4 system services, and translates Gnm graphics commands and GCN shaders to Vulkan. The user must provide the game dump and optional PS4 firmware audio library; neither is distributed.",
+      "project_url": "https://github.com/HayatoG/gr2_pc",
+      "updated": "2026-10-16",
+      "strategy": "Run the original PS4 x86-64 code natively, reimplement required PS4 libraries and services, and translate Gnm commands and GCN shaders to Vulkan.",
+      "source_available": "Public GPL-2.0 source repository. The user must supply a legally obtained CUSA03694 game dump and, for audio, a PS4 firmware library; the project distributes neither.",
+      "first_found": "2026-10-16",
+      "programming_language": "C++",
+      "subtype": "PS4-to-PC native game port",
+      "sources": [
+        {
+          "label": "Maintainer README: target version, implementation method, tested platforms, progress, and user-supplied files",
+          "url": "https://github.com/HayatoG/gr2_pc"
+        },
+        {
+          "label": "Latest release: v2026.10.15-3159679 and platform downloads",
+          "url": "https://github.com/HayatoG/gr2_pc/releases/tag/v2026.10.15-3159679"
+        },
+        {
+          "label": "Project GPL-2.0 license",
+          "url": "https://github.com/HayatoG/gr2_pc/blob/main/LICENSE"
+        }
+      ]
+    },
+    {
+      "id": "ps-switch-kit",
+      "title": "PS Switch Kit",
+      "game": "Reusable PlayStation matching-decompilation port framework",
+      "target_type": "Software",
+      "platform": "PlayStation 1 matching-decompilation C → Nintendo Switch homebrew (.nro, AArch64/libnx); tested in Eden",
+      "kind": "Reimplementation",
+      "status": "No release listed. The README claims that Silent Hill 1's decompiled C builds to AArch64 and reaches its warning screen in the Eden emulator using a software PSX rasterizer. The roadmap describes layer-0 build/presentation as proven and lists GTE coverage, the full game engine, main loop, title/menu/gameplay, audio/input, and validation on a second game as unfinished.",
+      "summary": "Reusable framework for bringing matching PlayStation decompilations to native Switch homebrew. It compiles game C for AArch64 and links it with a Psy-Q SDK shim, PSX VRAM/rasterizer runtime, and libnx platform layer. The repository is intentionally separate from any one game's decompilation.",
+      "project_url": "https://github.com/HayatoG/ps-switch-kit",
+      "updated": "2026-10-16",
+      "strategy": "Compile matching-decompilation C for AArch64 and link it against a reusable Psy-Q shim, PSX VRAM/software-rasterizer runtime, and libnx Switch backend.",
+      "source_available": "Public source repository. GitHub identifies an AGPL-3.0 LICENSE file, while the README and roadmap say the kit's license is still TBD and discuss future vendored code; verify license coverage before redistribution.",
+      "first_found": "2026-10-16",
+      "programming_language": "C",
+      "subtype": "Multi-title PS1 decompilation port kit",
+      "sources": [
+        {
+          "label": "Maintainer README: framework method, Silent Hill 1 proof, Eden target, and project status",
+          "url": "https://github.com/HayatoG/ps-switch-kit"
+        },
+        {
+          "label": "Maintainer roadmap: current engine milestones and pending work",
+          "url": "https://github.com/HayatoG/ps-switch-kit/blob/master/docs/ROADMAP.md"
+        },
+        {
+          "label": "Repository LICENSE file; GitHub detects AGPL-3.0, although the README says project licensing remains TBD",
+          "url": "https://github.com/HayatoG/ps-switch-kit/blob/master/LICENSE"
+        }
+      ]
+    },
+    {
+      "id": "switch-nvk",
+      "title": "Mesa NVK Nintendo Switch Driver Port",
+      "game": "Mesa NVK Vulkan driver for Nintendo Switch",
+      "target_type": "Software",
+      "platform": "Mesa NVK / NVIDIA Tegra X1 GM20B (Maxwell) → Nintendo Switch homebrew on libnx/Horizon",
+      "kind": "Reimplementation",
+      "status": "No release listed. BUILD_AND_RUN documents successful M0-M2 cross-build, Switch NRO linking, and a real-Tegra memory/submit/execute/coherency smoke test using vkCmdFillBuffer. A visible vkCmdDraw and display through the Switch window system is listed as the next milestone. The README's branch table calls master a full driver with zero-copy WSI, which conflicts with that build-status document, so rendered output remains unverified.",
+      "summary": "Experimental port of Mesa's open Vulkan NVK driver to the Switch Tegra X1/GM20B. The public repository contains Mesa patches, compatibility shims, and libnx/Horizon integration intended to let Vulkan applications use the Switch GPU without a proprietary NVIDIA blob.",
+      "project_url": "https://github.com/HayatoG/switch-nvk",
+      "updated": "2026-10-16",
+      "strategy": "Port Mesa NVK to Switch Tegra hardware with Mesa patches and Switch-specific memory, submission, compatibility, and window-system integration over libnx/Horizon.",
+      "source_available": "Public GPL-2.0-or-later repository with Mesa/NVK-derived portions under their original MIT/Apache-2.0 terms. Build scripts, patches, shims, and status documents are public; no release binaries were listed.",
+      "first_found": "2026-10-16",
+      "programming_language": "C",
+      "subtype": "Experimental Vulkan graphics-driver port",
+      "sources": [
+        {
+          "label": "Maintainer README: target GPU, Switch integration, branches, and license",
+          "url": "https://github.com/HayatoG/switch-nvk"
+        },
+        {
+          "label": "Build and run notes: reproducible hardware smoke test and next rendering milestone",
+          "url": "https://github.com/HayatoG/switch-nvk/blob/master/BUILD_AND_RUN.md"
+        },
+        {
+          "label": "Project GPL-2.0-or-later license",
+          "url": "https://github.com/HayatoG/switch-nvk/blob/master/LICENSE"
+        }
+      ]
+    },
+    {
+      "id": "armsx2-nx",
+      "title": "ARMSX2 Nintendo Switch Port",
+      "game": "PlayStation 2 software and homebrew",
+      "target_type": "Software",
+      "platform": "PlayStation 2 → Nintendo Switch homebrew (.nro, libnx/DevkitPro)",
+      "kind": "Emulator",
+      "status": "Latest release checked: v3.0.0 (2026-08-24). The README warns that general playable performance is not expected and names the PS2 BIOS, load screens, and MegaMan Legacy Collection as the only observed full-speed examples. The release reports about a 50% improvement across a small tested set and adds OpenGL, USB loading, multiplayer, Vulkan shader cache, and AArch64 MMI recompilers.",
+      "summary": "Independent Nintendo Switch port of the open-source ARMSX2 PlayStation 2 emulator. It builds a Switch .nro using DevkitPro and Switch-specific graphics support. A hacked Switch and a legally obtained PS2 BIOS are required; the port's README warns that most games do not run at playable speed.",
+      "project_url": "https://github.com/PalindromicBreadLoaf/ARMSX2-NX",
+      "updated": "2026-10-16",
+      "strategy": "Adapt the ARMSX2 PlayStation 2 emulator for Switch hardware and package a native homebrew .nro with Switch-specific graphics and input support.",
+      "source_available": "Public GPLv3 source repository with downloadable releases. The user must supply a legally obtained PlayStation 2 BIOS and a hacked Nintendo Switch.",
+      "first_found": "2026-10-16",
+      "programming_language": "C++",
+      "subtype": "Nintendo Switch port of a multi-system PS2 emulator",
+      "sources": [
+        {
+          "label": "Canonical Switch-port README: emulator relationship, method, requirements, build, and performance caveat",
+          "url": "https://github.com/PalindromicBreadLoaf/ARMSX2-NX"
+        },
+        {
+          "label": "Latest release: v3.0.0, dated 2026-08-24",
+          "url": "https://github.com/PalindromicBreadLoaf/ARMSX2-NX/releases/tag/v3.0.0"
+        },
+        {
+          "label": "Public GPLv3 license file",
+          "url": "https://github.com/PalindromicBreadLoaf/ARMSX2-NX/blob/master/COPYING.GPLv3"
+        }
+      ]
+    }
+  ]
+}

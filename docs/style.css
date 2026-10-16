@@ -837,7 +837,7 @@ footer { font-size:11px; }
   footer > span:nth-child(3) { text-align:right; }
   .table-toolbar { padding-right:calc(46px + max(12px, env(safe-area-inset-right)) + 12px); }
   .pagination { padding-right:calc(46px + max(12px, env(safe-area-inset-right)) + 8px); }
-  .floating-nav > summary { width:46px; min-width:46px; height:46px; min-height:46px; padding:0; border-radius:50%; }
+  .floating-nav > summary { width:44px; min-width:44px; height:44px; min-height:44px; padding:0; border-radius:50%; }
   .floating-nav > summary [data-ui="quick_nav_label"] { position:absolute; width:1px; height:1px; overflow:hidden; clip-path:inset(50%); white-space:nowrap; }
   .floating-nav > nav { max-height:calc(100dvh - 92px - env(safe-area-inset-top)); overflow:auto; overscroll-behavior:contain; }
   .details-toggle { border:1px solid var(--glass-border); border-radius:3px; background:var(--field-bg); }
@@ -1009,7 +1009,7 @@ html:lang(ja) .hero h1 { font-size:clamp(46px,4.85vw,62px); letter-spacing:-.05e
 /* Keep the persistent jump control in the outer gutter on compact desktops. */
 @media (min-width:1224px) and (max-width:1375px) {
   .site-header,main,footer { width:min(1216px,calc(100% - 112px)); }
-  .floating-nav { right:max(4px,env(safe-area-inset-right)); }
+  .floating-nav { right:max(0px,env(safe-area-inset-right)); }
 }
 
 @media (max-width:940px) {
@@ -1215,4 +1215,34 @@ html:lang(ja) .hero h1 { font-size:clamp(46px,4.85vw,62px); letter-spacing:-.05e
   .showcase-card:not(:first-child),.process-resource-card { padding:18px; }
   .directory-card { padding:17px; }
   .about { padding:24px 18px; }
+}
+
+/* Give the desktop catalog an editorial scan path; full metadata stays in Details. */
+@media (min-width:1224px) {
+  .catalog-table { table-layout:fixed; }
+  .catalog-table thead th:nth-child(1) { width:22%; }
+  .catalog-table thead th:nth-child(2) { width:11%; }
+  .catalog-table thead th:nth-child(3) { width:12%; }
+  .catalog-table thead th:nth-child(4) { width:16%; }
+  .catalog-table thead th:nth-child(5) { width:15%; }
+  .catalog-table thead th:nth-child(6) { width:8%; }
+  .catalog-table thead th:nth-child(7) { width:8%; }
+  .catalog-table thead th:nth-child(8) { width:8%; }
+  .catalog-table thead button { font:600 11px/1.4 var(--sans); letter-spacing:.015em; }
+  .catalog-table tbody th,.catalog-table tbody td { line-height:1.55; }
+  .table-platform,.table-approach {
+    display:-webkit-box;
+    overflow:hidden;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:3;
+    overflow-wrap:anywhere;
+    font-size:12px;
+    line-height:1.5;
+  }
+  .table-project-title { line-height:1.25; }
+}
+
+@media (max-width:420px) {
+  .site-header .primary-nav > a:not(.github-link) { min-height:44px; font-size:10px; }
+  .floating-nav { right:max(4px,env(safe-area-inset-right)); }
 }
