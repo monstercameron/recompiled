@@ -1,0 +1,70 @@
+{
+  "updated": "2026-10-15",
+  "updates": [
+    {
+      "id": "perfect-dark-decomp",
+      "fields": {
+        "status": "Complete matching decompilation; the README lists six ROM IDs across NTSC, PAL, and Japan, with NTSC 8.7 final as the default. A user-supplied game ROM is required."
+      },
+      "sources": [
+        {
+          "label": "Project README, ROM Versions section",
+          "url": "https://raw.githubusercontent.com/n64decomp/perfect_dark/master/README.md"
+        }
+      ],
+      "evidence_note": "The README lists ntsc-beta, ntsc-1.0, ntsc-final, pal-beta, pal-final, and jpn-final, and says the build defaults to ntsc-final. This adds source-region and revision coverage omitted from the existing status."
+    },
+    {
+      "id": "mario-kart-64-static-recomp",
+      "fields": {
+        "summary": "Native Nintendo 64 static recompilation into a desktop application. The README says it accepts only the North American Nintendo 64 version; the player supplies the game image."
+      },
+      "sources": [
+        {
+          "label": "Project README, ROM selection FAQ",
+          "url": "https://raw.githubusercontent.com/sonicdcer/MarioKart64Recomp/main/README.md"
+        }
+      ],
+      "evidence_note": "The README says the project only accepts one specific ROM, the US version of the N64 release, and that the repository/releases do not contain game assets."
+    },
+    {
+      "id": "star-fox-64-static-recomp",
+      "fields": {
+        "summary": "Nintendo 64 static recompilation into a native desktop application. The README supports only the North American version 1.1 (Rev A) game image; other regional versions are described as possible future support."
+      },
+      "sources": [
+        {
+          "label": "Project README, supported game version",
+          "url": "https://raw.githubusercontent.com/sonicdcer/Starfox64Recomp/main/README.md"
+        }
+      ],
+      "evidence_note": "The README identifies 1.1 (Rev A) North America as the only accepted ROM and says other versions may be supported in the future. It also states game assets are not included."
+    },
+    {
+      "id": "diddy-kong-racing-pc-recomp",
+      "fields": {
+        "summary": "Native static recompilation of Diddy Kong Racing. The current README lists US v1.0 and US Rev A/v1.1 as supported ROM revisions; the game ROM and assets are not included."
+      },
+      "sources": [
+        {
+          "label": "Project README, supported ROMs",
+          "url": "https://raw.githubusercontent.com/ThatGuyMcd/DKR-R/main/README.md"
+        }
+      ],
+      "evidence_note": "The README names both US v1.0 and US Rev A/v1.1, while its release section lists Windows x64, Linux x86-64/aarch64, Steam Deck, and Android arm64 packages. The existing project row already records the current 1.0.6 release and host platforms; this update adds the exact supported game revisions."
+    },
+    {
+      "id": "mario-kart-64-dreamcast-port",
+      "fields": {
+        "summary": "Native Dreamcast port based on the Mario Kart 64 decompilation. The README requires a supported US Nintendo 64 ROM and gives its expected MD5; it also documents testing on physical Dreamcast hardware."
+      },
+      "sources": [
+        {
+          "label": "Project README, ROM setup and hardware testing",
+          "url": "https://raw.githubusercontent.com/jnmartin84/mk64-dc/main/README.md"
+        }
+      ],
+      "evidence_note": "The README names baserom.us.z64, lists the expected MD5 checksum, and explicitly says the build has been tested on physical hardware. This clarifies the source region while preserving the current hardware-status wording."
+    }
+  ]
+}

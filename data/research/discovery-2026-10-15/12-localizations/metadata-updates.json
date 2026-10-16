@@ -1,0 +1,1650 @@
+{
+  "updated": "2026-10-15",
+  "updates": [
+    {
+      "id": "aai2-en",
+      "fields": {
+        "target_languages": "English",
+        "project_status": "Released; official Scarlet Study site also records later Android port work",
+        "primary_source_audit": "Project page describes the English fan translation and a later Android release; original 2019 release URL now returns 404.",
+        "download_page_status": "No current AAI2 download location verified; legacy release URL is unavailable",
+        "language_audit_status": "Source and target language were not independently verified from an accessible current first-party page."
+      },
+      "sources": [
+        {
+          "label": "Maintainer evidence for target_languages, project_status, primary_source_audit, language_audit_status",
+          "url": "https://scarletstudy.net/"
+        },
+        {
+          "label": "Maintainer evidence for download_page_status",
+          "url": "https://scarletstudy.net/2019/11/29/ace-attorney-investigations-2-patch-released/"
+        }
+      ],
+      "evidence_note": "Project page describes the English fan translation and a later Android release; original 2019 release URL now returns 404. The legacy project release path returns a page-not-found response; current Scarlet Study downloads page lists DGS1/DGS2 and Android DGS1 but no AAI2 patch. Current AAI2 release path is unavailable / Shining Force FAQ returned Cloudflare verification, so language details could not be read."
+    },
+    {
+      "id": "appareden-pc98-en",
+      "fields": {
+        "target_languages": "English",
+        "project_status": "Work in progress; completion and patch release not verified",
+        "primary_source_audit": "Project repository is the primary source; browser page did not expose README details during this audit.",
+        "source_language": "Japanese"
+      },
+      "sources": [
+        {
+          "label": "Maintainer evidence for target_languages, project_status, primary_source_audit, source_language",
+          "url": "https://github.com/46OkuMen/appareden"
+        }
+      ],
+      "evidence_note": "The project describes an English translation/patch (or the listed language set) for the Japanese original. Project repository is the primary source; browser page did not expose README details during this audit. Project README/page identifies its target as the Japanese original or Japanese release and describes the English translation."
+    },
+    {
+      "id": "bebop-ps2-en",
+      "fields": {
+        "target_languages": "English",
+        "project_status": "Complete 100%",
+        "supported_game_build": "Japanese PS2 original or Shokai Genteiban Box ISO; both stated supported",
+        "patch_format": "Windows/Linux/macOS patcher; outputs English ISO",
+        "official_download_page": "https://github.com/SONICMAN69/Bebop-PS2-English/releases",
+        "primary_source_audit": "README calls this a full 100% English patch, accepts original or Shokai Genteiban Box ISO, and documents Windows/Linux/macOS patcher use.",
+        "source_language": "Japanese"
+      },
+      "sources": [
+        {
+          "label": "Maintainer evidence for target_languages, project_status, supported_game_build, patch_format, official_download_page, primary_source_audit, source_language",
+          "url": "https://github.com/SONICMAN69/Bebop-PS2-English"
+        }
+      ],
+      "evidence_note": "The project describes an English translation/patch (or the listed language set) for the Japanese original. README calls this a full 100% English patch, accepts original or Shokai Genteiban Box ISO, and documents Windows/Linux/macOS patcher use. Project README/page identifies its target as the Japanese original or Japanese release and describes the English translation."
+    },
+    {
+      "id": "brightis-ps1-en",
+      "fields": {
+        "language_pair": "Japanese → English",
+        "release_version": "1.0.1",
+        "supported_game_build": "Japanese PlayStation disc SCPS-10105, Redump #9919; required input MD5 e69e9013df15e4b9625dfca32af2c070 and SHA-1 94dbbff6ba125b4c155084686e41e1650f6eab41",
+        "patch_format": "Delta patch; maintainer recommends xdelta3 on macOS/Linux or Delta Patcher on Windows",
+        "distribution": "Patch release only; user supplies the exact original disc dump; maintainer says not to request or post game files",
+        "project_status": "Complete and playable start to finish; full script and UI covered, with a few documented small exceptions",
+        "license_or_rights_note": "Unofficial fan translation, free and not for sale; maintainer states it is unaffiliated with Sony or the original developers"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README with version, exact source disc, delta patch instructions, completion status, and redistribution guidance",
+          "url": "https://github.com/WadoTranslations/ps1-brightis-english"
+        }
+      ],
+      "evidence_note": "The README identifies release 1.0.1 as complete, pins the input to Japanese disc SCPS-10105 / Redump #9919 with checksums, instructs users to apply the delta patch to their own disc image, and says not to request or post the game."
+    },
+    {
+      "id": "brothers-conflict-vita-en",
+      "fields": {
+        "language_pair": "Japanese → English",
+        "platform_instructions": "PS Vita edition only; requires a modded Vita, the user's own physical or digital game copy, and about 3 GB for the patch",
+        "compatibility": "The Nintendo Switch edition is explicitly unsupported",
+        "project_status": "Patch covers the listed Passion Pink and Brilliant Blue routes; maintainer documents missing Kaname overnight-event text, nonfunctional name-entry keyboard, event-name omissions, and incomplete Japanese proofreading",
+        "release_version": "No exact patch version stated in the README"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README with supported Vita edition, route coverage, requirements, and known bugs",
+          "url": "https://github.com/AsahinaKyoudai/BrothersConflict"
+        }
+      ],
+      "evidence_note": "The project page says the patch is for PS Vita only, requires a modded console and a personal game copy, and documents the unsupported Switch edition and remaining translation/QA defects. It does not state a patch version or binary patch format."
+    },
+    {
+      "id": "busin0-en",
+      "fields": {
+        "target_languages": "English",
+        "release_version": "Public beta v203",
+        "supported_game_build": "Japanese original PS2 SLPM-65378 software v1.03; not Atlus Best Collection SLPM-65876 v2.01",
+        "patch_format": "xdelta3 patch",
+        "official_download_page": "https://busin0-en.pages.dev/",
+        "platform_instructions": "Apply xdelta3 or Delta Patcher to verified original ISO; README supplies source and output MD5 checks.",
+        "primary_source_audit": "README identifies public beta v203, Japanese PS2 original SLPM-65378 v1.03, xdelta v203, patch instructions, and a separate official patch page.",
+        "source_language": "Japanese"
+      },
+      "sources": [
+        {
+          "label": "Maintainer evidence for target_languages, release_version, supported_game_build, patch_format, official_download_page, platform_instructions, primary_source_audit, source_language",
+          "url": "https://github.com/Fabulu/Busin0Translation"
+        }
+      ],
+      "evidence_note": "The project describes an English translation/patch (or the listed language set) for the Japanese original. README identifies public beta v203, Japanese PS2 original SLPM-65378 v1.03, xdelta v203, patch instructions, and a separate official patch page. Project README/page identifies its target as the Japanese original or Japanese release and describes the English translation."
+    },
+    {
+      "id": "cavalry-language-switcher",
+      "fields": {
+        "target_languages": "Simplified Chinese, Traditional Chinese, Japanese",
+        "language_pair": "English → Simplified Chinese, Traditional Chinese and Japanese",
+        "project_status": "Community language-switching patch released for Cavalry 2.7.2 (patch p12)",
+        "platform": "macOS; Windows x64",
+        "supported_game_build": "Unofficial UI language assets and switcher for Cavalry, providing Simplified Chinese, Traditional Chinese and Japanese UI options for the English application.",
+        "patch_format": "Application resource and Qt UI text patch / language switcher",
+        "release_version": "Cavalry 2.7.2 patch p12",
+        "patch_distribution": {
+          "release_source": "Maintainer GitHub repository and release",
+          "download": "https://github.com/daftAI2026/Cavalry-i18n/releases/tag/cavalry-2.7.2-p12"
+        },
+        "legal_patch_only_details": [
+          "Independent community patch; modifying application resources may require local re-signing on macOS, as documented by the maintainer.",
+          "Compatibility is explicitly tied to Cavalry 2.7.2 in the cited release."
+        ]
+      },
+      "sources": [
+        {
+          "label": "Maintainer README; supported UI languages and application versions",
+          "url": "https://github.com/daftAI2026/Cavalry-i18n"
+        },
+        {
+          "label": "Cavalry 2.7.2 patch p12 release",
+          "url": "https://github.com/daftAI2026/Cavalry-i18n/releases/tag/cavalry-2.7.2-p12"
+        }
+      ],
+      "evidence_note": "Unofficial UI language assets and switcher for Cavalry, providing Simplified Chinese, Traditional Chinese and Japanese UI options for the English application. Independent community patch; modifying application resources may require local re-signing on macOS, as documented by the maintainer. Compatibility is explicitly tied to Cavalry 2.7.2 in the cited release."
+    },
+    {
+      "id": "crw-metal-jacket-pc98-en",
+      "fields": {
+        "target_languages": "English",
+        "project_status": "Reinsertion 100% (1,623/1,623); public patch availability not confirmed",
+        "official_download_page": "https://46okumen.com/projects/crw-metal-jacket",
+        "primary_source_audit": "README reports reinsertion at 100% (1,623/1,623 strings), directs users to 46 OkuMen or Romhacking.net for the patch; no finished patch asset linked in README.",
+        "source_language": "Japanese"
+      },
+      "sources": [
+        {
+          "label": "Maintainer evidence for target_languages, project_status, official_download_page, primary_source_audit, source_language",
+          "url": "https://github.com/46OkuMen/crw"
+        }
+      ],
+      "evidence_note": "The project describes an English translation/patch (or the listed language set) for the Japanese original. README reports reinsertion at 100% (1,623/1,623 strings), directs users to 46 OkuMen or Romhacking.net for the patch; no finished patch asset linked in README. Project README/page identifies its target as the Japanese original or Japanese release and describes the English translation."
+    },
+    {
+      "id": "death-crimson-2-dc-en",
+      "fields": {
+        "target_languages": "English",
+        "release_version": "v1.0, 2024-02-13",
+        "supported_game_build": "Dreamcast CDI source MD5 25CEDC7F5D331892685761F70780A99B; GDI/CUE accepted by tool",
+        "patch_format": "DCP for GDI/CUE; xdelta for CDI",
+        "official_download_page": "https://github.com/DerekPascarella/DeathCrimson2AltarofMelanito-EnglishPatchDreamcast",
+        "primary_source_audit": "README specifies v1.0 (2024-02-13), DCP for GDI/CUE and xdelta for CDI, CDI source/output MD5s, and Universal Dreamcast Patcher/Delta Patcher steps.",
+        "source_language": "Japanese"
+      },
+      "sources": [
+        {
+          "label": "Maintainer evidence for target_languages, release_version, supported_game_build, patch_format, official_download_page, primary_source_audit, source_language",
+          "url": "https://github.com/DerekPascarella/DeathCrimson2AltarofMelanito-EnglishPatchDreamcast"
+        }
+      ],
+      "evidence_note": "The project describes an English translation/patch (or the listed language set) for the Japanese original. README specifies v1.0 (2024-02-13), DCP for GDI/CUE and xdelta for CDI, CDI source/output MD5s, and Universal Dreamcast Patcher/Delta Patcher steps. Project README/page identifies its target as the Japanese original or Japanese release and describes the English translation."
+    },
+    {
+      "id": "delisoba-deluxe-saturn-en",
+      "fields": {
+        "target_languages": "English",
+        "patch_format": "SSP for Sega Saturn Patcher; xdelta for Track 01",
+        "supported_game_build": "Delisoba Deluxe (Japan) disc",
+        "official_download_page": "https://github.com/ExxistanceDC/Delisoba-Deluxe-English-Translation",
+        "primary_source_audit": "README supplies SSP and xdelta formats, Sega Saturn Patcher/Delta Patcher instructions, and says tested with Delisoba Deluxe (Japan).",
+        "source_language": "Japanese"
+      },
+      "sources": [
+        {
+          "label": "Maintainer evidence for target_languages, patch_format, supported_game_build, official_download_page, primary_source_audit, source_language",
+          "url": "https://github.com/ExxistanceDC/Delisoba-Deluxe-English-Translation"
+        }
+      ],
+      "evidence_note": "The project describes an English translation/patch (or the listed language set) for the Japanese original. README supplies SSP and xdelta formats, Sega Saturn Patcher/Delta Patcher instructions, and says tested with Delisoba Deluxe (Japan). Project README/page identifies its target as the Japanese original or Japanese release and describes the English translation."
+    },
+    {
+      "id": "detective-conan-british-empire-en",
+      "fields": {
+        "target_languages": "English",
+        "project_status": "Complete 100%",
+        "release_date": "2024-11-17",
+        "supported_game_build": "Original Japanese or Bandai the Best Edition PS2 ISO",
+        "patch_format": "Windows/Linux patcher package; generates ISO",
+        "official_download_page": "https://github.com/conan-patches/ps2/releases",
+        "primary_source_audit": "README dates English release 2024-11-17, reports 100% translation, accepts original or Bandai the Best ISO, and provides a patcher for Windows/Linux.",
+        "source_language": "Japanese"
+      },
+      "sources": [
+        {
+          "label": "Maintainer evidence for target_languages, project_status, release_date, supported_game_build, patch_format, official_download_page, primary_source_audit, source_language",
+          "url": "https://github.com/conan-patches/ps2"
+        }
+      ],
+      "evidence_note": "The project describes an English translation/patch (or the listed language set) for the Japanese original. README dates English release 2024-11-17, reports 100% translation, accepts original or Bandai the Best ISO, and provides a patcher for Windows/Linux. Project README/page identifies its target as the Japanese original or Japanese release and describes the English translation."
+    },
+    {
+      "id": "doko-demo-issyo-psp-en",
+      "fields": {
+        "target_languages": "English",
+        "project_status": "Very incomplete; v0.1.0-fixed fixes launch crash",
+        "release_version": "v0.1.0-fixed",
+        "patch_format": "xdelta against PSP ISO",
+        "platform_instructions": "PPSSPP or modded PSP/PS Vita/PS3; real-console support requires fixed release",
+        "official_download_page": "https://github.com/pumpkinhasapatch/dokodemo-psp-english/releases",
+        "primary_source_audit": "Latest release v0.1.0-fixed fixes real-PSP launch; release explicitly says translation remains very incomplete and recommends PPSSPP/modded systems.",
+        "source_language": "Japanese"
+      },
+      "sources": [
+        {
+          "label": "Maintainer evidence for target_languages, project_status, release_version, patch_format, platform_instructions, official_download_page, primary_source_audit, source_language",
+          "url": "https://github.com/pumpkinhasapatch/dokodemo-psp-english/releases"
+        }
+      ],
+      "evidence_note": "The project describes an English translation/patch (or the listed language set) for the Japanese original. Latest release v0.1.0-fixed fixes real-PSP launch; release explicitly says translation remains very incomplete and recommends PPSSPP/modded systems. Project README/page identifies its target as the Japanese original or Japanese release and describes the English translation."
+    },
+    {
+      "id": "dqm2-3ds-translation",
+      "fields": {
+        "target_languages": [
+          "English",
+          "German",
+          "Spanish",
+          "French",
+          "Italian"
+        ],
+        "patch_format": "xdelta, CIA release, or Luma LayeredFS",
+        "official_download_page": "https://github.com/Ich73/DQM2-FanTranslation/releases",
+        "primary_source_audit": "README calls this a multilingual translation repository and describes CIA and Luma LayeredFS installation; repository lists EN/DE/ES/FR/IT data folders.",
+        "source_language": "Japanese"
+      },
+      "sources": [
+        {
+          "label": "Maintainer evidence for target_languages, patch_format, official_download_page, primary_source_audit, source_language",
+          "url": "https://github.com/Ich73/DQM2-FanTranslation"
+        }
+      ],
+      "evidence_note": "The project describes an English translation/patch (or the listed language set) for the Japanese original. README calls this a multilingual translation repository and describes CIA and Luma LayeredFS installation; repository lists EN/DE/ES/FR/IT data folders. Project README/page identifies its target as the Japanese original or Japanese release and describes the English translation."
+    },
+    {
+      "id": "dqxi-3ds-en",
+      "fields": {
+        "target_languages": "English",
+        "release_version": "v18 installer package",
+        "supported_game_build": "Japanese Nintendo 3DS title ID 0004000000199200; compatible Windows DQXI S Definitive Edition resources required",
+        "patch_format": "LayeredFS mod or rebuilt CIA",
+        "platform_instructions": "Windows installer; selects user-owned Japanese CIA, supplied code.ips, and compatible PC game root",
+        "official_download_page": "https://github.com/BlackDes1/Dragon-Quest-XI-3DS-Translation-Voice-Patch/releases",
+        "primary_source_audit": "README identifies v18 build instructions for Japanese 3DS title 0004000000199200 plus compatible Windows DQXI S resources; outputs LayeredFS or rebuilt CIA.",
+        "source_language": "Japanese"
+      },
+      "sources": [
+        {
+          "label": "Maintainer evidence for target_languages, release_version, supported_game_build, patch_format, platform_instructions, official_download_page, primary_source_audit, source_language",
+          "url": "https://github.com/BlackDes1/Dragon-Quest-XI-3DS-Translation-Voice-Patch"
+        }
+      ],
+      "evidence_note": "The project describes an English translation/patch (or the listed language set) for the Japanese original. README identifies v18 build instructions for Japanese 3DS title 0004000000199200 plus compatible Windows DQXI S resources; outputs LayeredFS or rebuilt CIA. Project README/page identifies its target as the Japanese original or Japanese release and describes the English translation."
+    },
+    {
+      "id": "dragon-slayer-legend-heroes-pc98-en",
+      "fields": {
+        "target_languages": "English",
+        "patch_format": "IPS patches",
+        "supported_game_build": "PC-98 NFD Event/Program/Scenario disks; README gives CRC32/SHA-1 fingerprints",
+        "license": "Unlicense",
+        "official_download_page": "https://github.com/nleseul/ds6_pc98_trans",
+        "primary_source_audit": "README says IPS patches apply to the 1989 PC-98 NFD disk dumps, provides source disk checksums, and the repository displays Unlicense.",
+        "source_language": "Japanese"
+      },
+      "sources": [
+        {
+          "label": "Maintainer evidence for target_languages, patch_format, supported_game_build, license, official_download_page, primary_source_audit, source_language",
+          "url": "https://github.com/nleseul/ds6_pc98_trans"
+        }
+      ],
+      "evidence_note": "The project describes an English translation/patch (or the listed language set) for the Japanese original. README says IPS patches apply to the 1989 PC-98 NFD disk dumps, provides source disk checksums, and the repository displays Unlicense. Project README/page identifies its target as the Japanese original or Japanese release and describes the English translation."
+    },
+    {
+      "id": "drakengard-3-italian",
+      "fields": {
+        "language_pair": "English (North American release) → Italian",
+        "supported_game_build": "PlayStation 3 English release BLUS31197",
+        "project_status": "In development; main text and menus are translated, while in-game formatting/word-wrap checks and final style/terminology review remain",
+        "distribution": "No released patch format or download package specified in the current README",
+        "license_or_rights_note": "Maintainer describes this as a free, noncommercial fan project unaffiliated with Square Enix"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README with BLUS31197 target, development status, remaining QA, and noncommercial disclaimer",
+          "url": "https://github.com/danjiss/Drakengard-3-Traduzione-italiana"
+        }
+      ],
+      "evidence_note": "The README identifies the English BLUS31197 PS3 release as the base and lists main text/menu translation as done, but format and word-wrap QA plus final editorial review as pending. No released patch format is described."
+    },
+    {
+      "id": "ex-troopers-en",
+      "fields": {
+        "target_languages": "English",
+        "project_status": "Complete, full-game translation for PS3 and 3DS",
+        "release_date": "2022-11-22",
+        "supported_game_build": "Japanese exclusive PS3 and 3DS versions",
+        "official_download_page": "https://fantranslators.info/downloads/",
+        "primary_source_audit": "FTI project page says full English patch for PS3 and 3DS, released after seven years; download/installation linked through official FTI downloads.",
+        "source_language": "Japanese"
+      },
+      "sources": [
+        {
+          "label": "Maintainer evidence for target_languages, project_status, release_date, supported_game_build, official_download_page, primary_source_audit, source_language",
+          "url": "https://fantranslators.info/projects/e-x-troopers/"
+        }
+      ],
+      "evidence_note": "The project describes an English translation/patch (or the listed language set) for the Japanese original. FTI project page says full English patch for PS3 and 3DS, released after seven years; download/installation linked through official FTI downloads. Project README/page identifies its target as the Japanese original or Japanese release and describes the English translation."
+    },
+    {
+      "id": "fire-emblem-warriors-3ds-ko",
+      "fields": {
+        "target_languages": "Korean",
+        "language_pair": "Japanese → Korean",
+        "project_status": "v0.2.3 patch available; maintainer reports testing on real New 3DS hardware",
+        "platform": "New Nintendo 3DS",
+        "supported_game_build": "Korean patch for the Japan-only New 3DS release, covering game dialogue and UI assets. The maintainer provides a builder for a CIA patch from the user's Japanese game dump.",
+        "patch_format": "CIA builder patch; installed on a modified New Nintendo 3DS",
+        "release_version": "0.2.3",
+        "patch_distribution": {
+          "release_source": "Maintainer GitHub repository",
+          "download": null
+        },
+        "legal_patch_only_details": [
+          "Targets the Japanese New 3DS title and update/DLC setup documented by the maintainer; it is not a patch for the Wii U or other regional releases.",
+          "The maintainer's patch builder expects a user-provided game dump and custom firmware."
+        ]
+      },
+      "sources": [
+        {
+          "label": "Maintainer README; target game, scope, version and hardware notes",
+          "url": "https://github.com/arqhive/fire-emblem-warriors-korean-translation"
+        },
+        {
+          "label": "Maintainer patch deployment instructions",
+          "url": "https://github.com/arqhive/fire-emblem-warriors-korean-translation#deployment"
+        }
+      ],
+      "evidence_note": "Korean patch for the Japan-only New 3DS release, covering game dialogue and UI assets. The maintainer provides a builder for a CIA patch from the user's Japanese game dump. Targets the Japanese New 3DS title and update/DLC setup documented by the maintainer; it is not a patch for the Wii U or other regional releases. The maintainer's patch builder expects a user-provided game dump and custom firmware."
+    },
+    {
+      "id": "grandia-dm-en",
+      "fields": {
+        "target_languages": "English",
+        "release_version": "alpha-0.2.0",
+        "supported_game_build": "Grandia - Digital Museum (Japan) (Rev A) (10M); Track 1 MD5 59b19105615ca37886e1e0542ff2967e",
+        "patch_format": "SSP or Track 1 xdelta3",
+        "license": "MIT",
+        "platform_instructions": "Use Sega Saturn Patcher with Separate Track Files, or helper scripts/xdelta3; load generated CUE",
+        "official_download_page": "https://github.com/AngelouCurator/new-parm-archives-patch/releases",
+        "primary_source_audit": "README gives alpha-0.2.0, exact Redump Rev A 10M track MD5, SSP and Track 1 xdelta3, patch steps, and MIT license.",
+        "source_language": "Japanese"
+      },
+      "sources": [
+        {
+          "label": "Maintainer evidence for target_languages, release_version, supported_game_build, patch_format, license, platform_instructions, official_download_page, primary_source_audit, source_language",
+          "url": "https://github.com/AngelouCurator/new-parm-archives-patch"
+        }
+      ],
+      "evidence_note": "The project describes an English translation/patch (or the listed language set) for the Japanese original. README gives alpha-0.2.0, exact Redump Rev A 10M track MD5, SSP and Track 1 xdelta3, patch steps, and MIT license. Project README/page identifies its target as the Japanese original or Japanese release and describes the English translation."
+    },
+    {
+      "id": "heroes-might-magic-iii-vcmi-it",
+      "fields": {
+        "supported_game_build": "GOG Heroes of Might and Magic III Complete Edition; maintainer specifically excludes the HD edition",
+        "patch_format": "VCMI language mod package",
+        "platform_instructions": "PC install requires the user's installed base-game Data, MP3, and Maps folders, VCMI, Italian selected in VCMI, and this language mod",
+        "project_status": "Installable Italian mod; README does not state a release version or completeness level"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README with base-game edition and VCMI installation steps",
+          "url": "https://github.com/vcmi-mods/italian-translation"
+        }
+      ],
+      "evidence_note": "The maintainer's play instructions specify the GOG Complete Edition (not HD), the user's game data folders, VCMI, and the Italian language mod. The README does not quantify translation completeness or identify a game build number."
+    },
+    {
+      "id": "hissatsu-saturn-en",
+      "fields": {
+        "target_languages": "English",
+        "release_version": "v1.0, 2026-08-12",
+        "supported_game_build": "Hissatsu! (Japan) Sega Saturn Track 01",
+        "patch_format": "xdelta",
+        "platform_instructions": "Delta Patcher; tested with Ymir, Kronos, Yabasanshiro, Mednafen and Satiator",
+        "official_download_page": "https://github.com/ExxistanceDC/Hissatsu-English-Translation/releases",
+        "primary_source_audit": "README lists v1.0 dated 2026-08-12, Japan Saturn Track 01 xdelta, Delta Patcher instructions, and tested Japanese disc/emulators/hardware.",
+        "source_language": "Japanese"
+      },
+      "sources": [
+        {
+          "label": "Maintainer evidence for target_languages, release_version, supported_game_build, patch_format, platform_instructions, official_download_page, primary_source_audit, source_language",
+          "url": "https://github.com/ExxistanceDC/Hissatsu-English-Translation"
+        }
+      ],
+      "evidence_note": "The project describes an English translation/patch (or the listed language set) for the Japanese original. README lists v1.0 dated 2026-08-12, Japan Saturn Track 01 xdelta, Delta Patcher instructions, and tested Japanese disc/emulators/hardware. Project README/page identifies its target as the Japanese original or Japanese release and describes the English translation."
+    },
+    {
+      "id": "imas-dearly-stars-en",
+      "fields": {
+        "target_languages": "English",
+        "project_status": "Work in progress; early routes and UI are complete, later routes/graphics not started or ongoing",
+        "supported_game_build": "Japanese Nintendo DS game code VIMJ",
+        "official_download_page": "https://github.com/megastylerC/idolmaster-dearly-stars-english/releases",
+        "primary_source_audit": "README labels project WIP, Japanese DS game code VIMJ, describes release patches built from user-owned ROM and translation/build tools.",
+        "source_language": "Japanese"
+      },
+      "sources": [
+        {
+          "label": "Maintainer evidence for target_languages, project_status, supported_game_build, official_download_page, primary_source_audit, source_language",
+          "url": "https://github.com/megastylerC/idolmaster-dearly-stars-english"
+        }
+      ],
+      "evidence_note": "The project describes an English translation/patch (or the listed language set) for the Japanese original. README labels project WIP, Japanese DS game code VIMJ, describes release patches built from user-owned ROM and translation/build tools. Project README/page identifies its target as the Japanese original or Japanese release and describes the English translation."
+    },
+    {
+      "id": "imas-sls-translation",
+      "fields": {
+        "target_languages": "English",
+        "project_status": "UI-only preview; incomplete",
+        "supported_game_build": "Steam version 1.21 tested",
+        "platform_instructions": "Instructions/FAQ linked on official project site",
+        "official_download_page": "https://imas-sls-fantranslation.github.io/",
+        "primary_source_audit": "Project site says current preview is UI-only and tested on Steam version 1.21; it asks users not to redistribute patches outside official sources.",
+        "source_language": "Japanese"
+      },
+      "sources": [
+        {
+          "label": "Maintainer evidence for target_languages, project_status, supported_game_build, platform_instructions, official_download_page, primary_source_audit, source_language",
+          "url": "https://imas-sls-fantranslation.github.io/"
+        }
+      ],
+      "evidence_note": "The project describes an English translation/patch (or the listed language set) for the Japanese original. Project site says current preview is UI-only and tested on Steam version 1.21; it asks users not to redistribute patches outside official sources. Project README/page identifies its target as the Japanese original or Japanese release and describes the English translation."
+    },
+    {
+      "id": "inazuma-eleven-go-galaxy-it",
+      "fields": {
+        "target_languages": "Italian",
+        "project_status": "Maintainer repository labels itself a release patch for both Supernova and Big Bang; its README does not state a current version, patch format, or application instructions",
+        "official_download_page": "No versioned release artifact or download instructions surfaced on the repository README"
+      },
+      "sources": [
+        {
+          "label": "Game Patching Team release repository identifying both editions",
+          "url": "https://github.com/GamePatchingTeam/IE6-Release"
+        }
+      ],
+      "evidence_note": "The repository description and README identify an Italian release patch for Supernova and Big Bang. The README exposes no patch version, target build, artifact format, or install directions, so those remain unverified."
+    },
+    {
+      "id": "infinite-fusion-pt-br",
+      "fields": {
+        "release_version": "v1.1.6",
+        "project_status": "Fan-made release candidate for public testing and feedback; v1.1.6 leaves Pokédex species/fusion descriptions deferred and some brief lines/names intentionally untranslated",
+        "patch_format": "Windows graphical WPF installer EXE with embedded PT-BR payload, or separate BAT/PowerShell installer ZIP",
+        "platform_instructions": "Installer targets the user's installed PC fangame; creates a backup, applies translated files, and must be rerun after official game updates",
+        "distribution": "Project does not include the game; maintainer directs users to obtain it only from the official Pokémon Infinite Fusion Discord",
+        "supported_game_build": "No exact game build number stated; compatibility can be affected by official game updates"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README and v1.1.6 release notes with release status, installer types, coverage limits, and game-file policy",
+          "url": "https://github.com/ExtremestoneGG/infinite-fusion-ptbr"
+        }
+      ],
+      "evidence_note": "The current README calls v1.1.6 a release candidate for public testing, documents the EXE and separate script installer, explains backup/restore and post-update reinstall, and says the game is excluded. Pokédex species/fusion descriptions remain deferred."
+    },
+    {
+      "id": "jung-rhythm-saturn-en",
+      "fields": {
+        "target_languages": "English",
+        "release_version": "v1.0, 2024-04-20",
+        "patch_format": "SSP or xdelta",
+        "supported_game_build": "Redump Japan Track 01 MD5 2A8828A0E29CF17ED045BDAF29A6E761",
+        "official_download_page": "https://github.com/DerekPascarella/JungRhythm-EnglishPatchSaturn/releases",
+        "primary_source_audit": "README lists v1.0 (2024-04-20), SSP/xdelta distribution, exact Redump Track 01 MD5, and English text/lyrics/graphics/video subtitles.",
+        "source_language": "Japanese"
+      },
+      "sources": [
+        {
+          "label": "Maintainer evidence for target_languages, release_version, patch_format, supported_game_build, official_download_page, primary_source_audit, source_language",
+          "url": "https://github.com/DerekPascarella/JungRhythm-EnglishPatchSaturn"
+        }
+      ],
+      "evidence_note": "The project describes an English translation/patch (or the listed language set) for the Japanese original. README lists v1.0 (2024-04-20), SSP/xdelta distribution, exact Redump Track 01 MD5, and English text/lyrics/graphics/video subtitles. Project README/page identifies its target as the Japanese original or Japanese release and describes the English translation."
+    },
+    {
+      "id": "kamaitachi-no-yoru-sfc-en",
+      "fields": {
+        "language_pair": "Japanese → English",
+        "supported_game_build": "Super Famicom Japanese ROM; unheadered 3 MB image, required MD5 efe8a1e8fbd0c05d1f515e2227e48d11, SHA-1 4c8f357bd86f9ed909d6a89afb0dbe74913fb333, CRC32 71c631aa",
+        "distribution": "Patch is obtained from the maintainer's Releases page; requires the user's legally obtained original ROM",
+        "patch_format": "Current README does not specify the released patch-file format",
+        "project_status": "Source code, notes, build tooling, and release patches are maintained in the repository; exact latest patch version is not stated in the README"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README with SFC target, exact required ROM identity, release-page direction, and legal-copy requirement",
+          "url": "https://github.com/ButThouMust/kamaitachi-sfc-english"
+        }
+      ],
+      "evidence_note": "The README identifies the Super Famicom release, provides exact input ROM fingerprints, directs users to Releases for the patch, and requires a legally obtained, unheadered ROM. It does not name the current patch version or patch format in the README."
+    },
+    {
+      "id": "kancolle-kai-vita-en",
+      "fields": {
+        "target_languages": "Multilingual project; README identifies English data and Chinese localization directories",
+        "project_status": "Work in progress",
+        "supported_game_build": "Kantai Collection Kai v1.00 with patch v1.02",
+        "platform_instructions": "Requires VitaShell and rePatch; project patcher generates files placed under ux0:",
+        "official_download_page": "https://github.com/wchristian/kc-vita-translation/releases",
+        "primary_source_audit": "README labels the project WIP multilingual, requires KanColle Kai v1.00 with patch v1.02, and applies generated rePatch files on Vita.",
+        "source_language": "Japanese"
+      },
+      "sources": [
+        {
+          "label": "Maintainer evidence for target_languages, project_status, supported_game_build, platform_instructions, official_download_page, primary_source_audit, source_language",
+          "url": "https://github.com/wchristian/kc-vita-translation"
+        }
+      ],
+      "evidence_note": "README labels the project WIP multilingual, requires KanColle Kai v1.00 with patch v1.02, and applies generated rePatch files on Vita. Project README/page identifies its target as the Japanese original or Japanese release and describes the English translation."
+    },
+    {
+      "id": "katana-zero-italian",
+      "fields": {
+        "target_languages": "Italian",
+        "translation_basis": "Text is sourced from the official Italian localization in the discontinued Netflix mobile version",
+        "supported_game_build": "PC game v1.0.5, build 3889288 (the only build the maintainer reports testing)",
+        "patch_format": "Automatic patcher downloads/applies patch data; an internet connection is required unless patch files are placed beside it",
+        "platform_instructions": "Linux may require libxcb-cursor0; the README does not provide a confirmed cross-platform game-build matrix",
+        "project_status": "Patch is available, but only v1.0.5 build 3889288 is verified; other versions may retain untranslated lines"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README with source localization, exact tested build, patcher behavior, and compatibility caveat",
+          "url": "https://github.com/zWolfrost/Katana-ZERO-Traduzione-Italiana"
+        }
+      ],
+      "evidence_note": "The maintainer says the patch reuses the official Italian text from the former Netflix mobile version, was tested only on PC v1.0.5 build 3889288, and may leave some lines untranslated on other versions. The patcher needs internet access to retrieve patch data."
+    },
+    {
+      "id": "langrisser-iii-saturn-en",
+      "fields": {
+        "target_languages": "English",
+        "release_version": "v0.7.2",
+        "project_status": "Playable start to finish; polishing remains before v1.0",
+        "supported_game_build": "Japanese Saturn Redump 3M variant; Track 01 SHA-256 557bfaaa37dc11b6190c46dca8841bc252dfe9f1b3ba8b77ff242843b2bff4c8; other variants accepted but unverified",
+        "patch_format": "Source build generates patched CUE/BIN; release repository source",
+        "license": "GPL-3.0",
+        "platform_instructions": "Python 3.10+ build; use generated CUE in emulator",
+        "official_download_page": "https://github.com/hexerkat/langrisser3-english/releases",
+        "primary_source_audit": "README lists v0.7.2 playable end-to-end, Japanese Saturn 3M Redump target SHA-256, Python build from source, and GPL-3.0.",
+        "source_language": "Japanese"
+      },
+      "sources": [
+        {
+          "label": "Maintainer evidence for target_languages, release_version, project_status, supported_game_build, patch_format, license, platform_instructions, official_download_page, primary_source_audit, source_language",
+          "url": "https://github.com/hexerkat/langrisser3-english"
+        }
+      ],
+      "evidence_note": "The project describes an English translation/patch (or the listed language set) for the Japanese original. README lists v0.7.2 playable end-to-end, Japanese Saturn 3M Redump target SHA-256, Python build from source, and GPL-3.0. Project README/page identifies its target as the Japanese original or Japanese release and describes the English translation."
+    },
+    {
+      "id": "metal-max-3-en",
+      "fields": {
+        "target_languages": "English",
+        "release_date": "2020-06-23",
+        "project_status": "Complete and fully playable",
+        "official_download_page": "https://fantranslators.info/downloads/",
+        "primary_source_audit": "FTI release article dated 2020-06-23 calls the Nintendo DS translation complete and fully playable and links official project/download pages.",
+        "source_language": "Japanese"
+      },
+      "sources": [
+        {
+          "label": "Maintainer evidence for target_languages, release_date, project_status, official_download_page, primary_source_audit, source_language",
+          "url": "https://fantranslators.info/2020/06/23/metal-max-3-translation-release/"
+        }
+      ],
+      "evidence_note": "The project describes an English translation/patch (or the listed language set) for the Japanese original. FTI release article dated 2020-06-23 calls the Nintendo DS translation complete and fully playable and links official project/download pages. Project README/page identifies its target as the Japanese original or Japanese release and describes the English translation."
+    },
+    {
+      "id": "million-monkeys-en",
+      "fields": {
+        "target_languages": "English",
+        "project_status": "Partial: 72% (2,900/4,021 strings)",
+        "patch_format": "xdelta; repository also supports rebuilding ISO",
+        "official_download_page": "https://github.com/hypermegacrash/MMTextGadget/releases",
+        "primary_source_audit": "README reports 2,900 of 4,021 strings (72%) translated and links Releases for xdelta; requires Japanese ISO.",
+        "source_language": "Japanese"
+      },
+      "sources": [
+        {
+          "label": "Maintainer evidence for target_languages, project_status, patch_format, official_download_page, primary_source_audit, source_language",
+          "url": "https://github.com/hypermegacrash/MMTextGadget"
+        }
+      ],
+      "evidence_note": "The project describes an English translation/patch (or the listed language set) for the Japanese original. README reports 2,900 of 4,021 strings (72%) translated and links Releases for xdelta; requires Japanese ISO. Project README/page identifies its target as the Japanese original or Japanese release and describes the English translation."
+    },
+    {
+      "id": "mother3-en",
+      "fields": {
+        "target_languages": "English",
+        "release_version": "v1.3",
+        "release_date": "2021-04-20",
+        "patch_format": "platform-specific patcher programs in ZIP (Windows, macOS, Linux)",
+        "platform_instructions": "Apply to user-owned MOTHER 3 ROM; play with GBA emulator",
+        "official_download_page": "https://mother3.fobby.net/blog/downloads/",
+        "primary_source_audit": "Project site announces v1.3 on 2021-04-20; provides Windows/Mac/Linux patchers and instructs applying to a user-supplied ROM then playing on GBA emulator.",
+        "source_language": "Japanese"
+      },
+      "sources": [
+        {
+          "label": "Maintainer evidence for target_languages, release_version, release_date, patch_format, platform_instructions, official_download_page, primary_source_audit, source_language",
+          "url": "https://mother3.fobby.net/"
+        }
+      ],
+      "evidence_note": "The project describes an English translation/patch (or the listed language set) for the Japanese original. Project site announces v1.3 on 2021-04-20; provides Windows/Mac/Linux patchers and instructs applying to a user-supplied ROM then playing on GBA emulator. Project README/page identifies its target as the Japanese original or Japanese release and describes the English translation."
+    },
+    {
+      "id": "mumble-7th-saga-it",
+      "fields": {
+        "target_languages": "Italian",
+        "language_pair": "Source script unspecified → Italian; patch baseline is the US/English ROM",
+        "project_status": "Complete; v1.00 released 2026-05-20",
+        "platform": "Super Nintendo Entertainment System",
+        "supported_game_build": "Italian text patch for the SNES RPG. The maintainer provides an IPS patch for a specifically identified US ROM revision.",
+        "patch_format": "IPS (distributed in ZIP)",
+        "release_version": "1.00 (2026-05-20)",
+        "patch_distribution": {
+          "release_source": "Project maintainer site",
+          "download": "https://www.mumble.romhacking.it/files/itptch_snes_7thsaga_v10.zip"
+        },
+        "legal_patch_only_details": [
+          "Readme verifies a US ROM baseline and checksum but does not identify the source language of the translation script."
+        ]
+      },
+      "sources": [
+        {
+          "label": "Project page and release status",
+          "url": "https://www.mumble.romhacking.it/7thsaga.html"
+        },
+        {
+          "label": "Patch readme; target ROM checksum and patch instructions",
+          "url": "https://www.mumble.romhacking.it/readmes/7thsaga-readme.txt"
+        }
+      ],
+      "evidence_note": "Italian text patch for the SNES RPG. The maintainer provides an IPS patch for a specifically identified US ROM revision. Readme verifies a US ROM baseline and checksum but does not identify the source language of the translation script."
+    },
+    {
+      "id": "mumble-alcahest-it",
+      "fields": {
+        "target_languages": "Italian",
+        "language_pair": "Japanese → Italian",
+        "project_status": "Complete; v1.10 released 2026-08-30",
+        "platform": "Super Nintendo Entertainment System",
+        "supported_game_build": "Italian text translation patch for the Japanese SNES release. Mumble Translations supplies an IPS patch and documents the exact Japanese ROM checksum required.",
+        "patch_format": "IPS (distributed in ZIP)",
+        "release_version": "1.10 (2026-08-30)",
+        "patch_distribution": {
+          "release_source": "Project maintainer site",
+          "download": "https://www.mumble.romhacking.it/files/itptch_snes_alcahest_v11.zip"
+        },
+        "legal_patch_only_details": [
+          "Patch readme specifies the Japanese ROM revision by checksum; it is not a universal ROM patch."
+        ]
+      },
+      "sources": [
+        {
+          "label": "Project page and release status",
+          "url": "https://www.mumble.romhacking.it/alcahest.html"
+        },
+        {
+          "label": "Patch readme; target ROM checksum and patch instructions",
+          "url": "https://www.mumble.romhacking.it/readmes/alcahest-readme.txt"
+        },
+        {
+          "label": "Mumble Translations project hub",
+          "url": "https://www.mumble.romhacking.it/"
+        }
+      ],
+      "evidence_note": "Italian text translation patch for the Japanese SNES release. Mumble Translations supplies an IPS patch and documents the exact Japanese ROM checksum required. Patch readme specifies the Japanese ROM revision by checksum; it is not a universal ROM patch."
+    },
+    {
+      "id": "mumble-equinox-it",
+      "fields": {
+        "target_languages": "Italian",
+        "language_pair": "Source script unspecified; patch baseline is the US/English ROM → Italian",
+        "project_status": "Complete; v1.00 released 2026-03-20",
+        "platform": "Super Nintendo Entertainment System",
+        "supported_game_build": "Italian text patch for the US SNES release; project readme records the target ROM checksum.",
+        "patch_format": "IPS (distributed in ZIP)",
+        "release_version": "1.00 (2026-03-20)",
+        "patch_distribution": {
+          "release_source": "Project maintainer site",
+          "download": "https://www.mumble.romhacking.it/files/itptch_equinox_v100.zip"
+        },
+        "legal_patch_only_details": [
+          "Readme confirms the US ROM baseline but does not identify the source language of the translation script."
+        ]
+      },
+      "sources": [
+        {
+          "label": "Project page and release status",
+          "url": "https://www.mumble.romhacking.it/equinox.html"
+        },
+        {
+          "label": "Patch readme; target ROM checksum and patch instructions",
+          "url": "https://www.mumble.romhacking.it/readmes/equinox-readme.txt"
+        }
+      ],
+      "evidence_note": "Italian text patch for the US SNES release; project readme records the target ROM checksum. Readme confirms the US ROM baseline but does not identify the source language of the translation script."
+    },
+    {
+      "id": "mumble-ignition-factor-it",
+      "fields": {
+        "target_languages": "Italian",
+        "language_pair": "Source script unspecified; patch baseline is the US/English ROM → Italian",
+        "project_status": "Complete; v1.00 released 2025-06-08",
+        "platform": "Super Nintendo Entertainment System",
+        "supported_game_build": "Italian text patch for the US SNES game; the project readme names the supported ROM revision and checksum.",
+        "patch_format": "IPS (distributed in ZIP)",
+        "release_version": "1.00 (2025-06-08)",
+        "patch_distribution": {
+          "release_source": "Project maintainer site",
+          "download": "https://www.mumble.romhacking.it/files/itptch_ignitionfactor_v100.zip"
+        },
+        "legal_patch_only_details": [
+          "Readme confirms a US ROM baseline but does not identify the source language of the translation script."
+        ]
+      },
+      "sources": [
+        {
+          "label": "Project page and release status",
+          "url": "https://www.mumble.romhacking.it/ignition.html"
+        },
+        {
+          "label": "Patch readme; target ROM checksum and patch instructions",
+          "url": "https://www.mumble.romhacking.it/readmes/ignition-leggimi.txt"
+        }
+      ],
+      "evidence_note": "Italian text patch for the US SNES game; the project readme names the supported ROM revision and checksum. Readme confirms a US ROM baseline but does not identify the source language of the translation script."
+    },
+    {
+      "id": "mumble-illusion-of-gaia-it",
+      "fields": {
+        "target_languages": "Italian",
+        "language_pair": "Japanese → Italian",
+        "project_status": "Complete; v1.00 released 2025-09-05",
+        "platform": "Super Nintendo Entertainment System",
+        "supported_game_build": "Italian translation patch based on a Japanese-to-Italian retranslation, distributed for the US SNES ROM revision.",
+        "patch_format": "IPS (distributed in ZIP)",
+        "release_version": "1.00 (2025-09-05)",
+        "patch_distribution": {
+          "release_source": "Project maintainer site",
+          "download": "https://www.mumble.romhacking.it/files/itptch_illusionofgaia_v100.zip"
+        },
+        "legal_patch_only_details": [
+          "The readme identifies a US ROM installation baseline even though the Italian text is described as retranslated from Japanese."
+        ]
+      },
+      "sources": [
+        {
+          "label": "Project page; translation and release details",
+          "url": "https://www.mumble.romhacking.it/gaia.html"
+        },
+        {
+          "label": "Patch readme; target ROM checksum and patch instructions",
+          "url": "https://www.mumble.romhacking.it/readmes/gaia-readme.txt"
+        }
+      ],
+      "evidence_note": "Italian translation patch based on a Japanese-to-Italian retranslation, distributed for the US SNES ROM revision. The readme identifies a US ROM installation baseline even though the Italian text is described as retranslated from Japanese."
+    },
+    {
+      "id": "mumble-secret-of-mana-it",
+      "fields": {
+        "target_languages": "Italian",
+        "language_pair": "Source script unspecified → Italian",
+        "project_status": "Complete; v2.00 released 2026-04-19",
+        "platform": "Super Nintendo Entertainment System",
+        "supported_game_build": "Updated Italian text patch. The maintainer distributes separate IPS patches for identified US and European ROM releases.",
+        "patch_format": "IPS (distributed in ZIP; separate US and EU variants)",
+        "release_version": "2.00 (2026-04-19)",
+        "patch_distribution": {
+          "release_source": "Project maintainer site",
+          "download": "https://www.mumble.romhacking.it/files/itptch_snes_secret-of-mana_v20.zip"
+        },
+        "legal_patch_only_details": [
+          "Readme lists compatible US and EU ROM baselines but does not state the source language for the Italian text.",
+          "The project describes this as an updated/retranslation revision of an earlier Italian patch."
+        ]
+      },
+      "sources": [
+        {
+          "label": "Project page and release status",
+          "url": "https://www.mumble.romhacking.it/som.html"
+        },
+        {
+          "label": "Patch readme; supported ROMs and checksums",
+          "url": "https://www.mumble.romhacking.it/readmes/som-readme.txt"
+        }
+      ],
+      "evidence_note": "Updated Italian text patch. The maintainer distributes separate IPS patches for identified US and European ROM releases. Readme lists compatible US and EU ROM baselines but does not state the source language for the Italian text. The project describes this as an updated/retranslation revision of an earlier Italian patch."
+    },
+    {
+      "id": "mushoku-tensei-chronicle-of-echoes-en",
+      "fields": {
+        "target_languages": "English",
+        "language_pair": "Japanese → English",
+        "project_status": "English patch maintained; v13 reported 2026-10-09",
+        "platform": "Android; Windows PC (DMM); Android emulators and Google Play Games PC",
+        "supported_game_build": "Japanese mobile game. Maintainer documents Android and Windows/DMM installation paths; patch is rolling (patch-latest), so version/date can move.",
+        "patch_format": "Game data patch distributed through the maintainer's installer/releases",
+        "release_version": "13 (2026-10-09)",
+        "patch_distribution": {
+          "release_source": "Maintainer GitHub repository and releases",
+          "download": "https://github.com/Aikiooo/mt-en-applier/releases/tag/patch-latest"
+        },
+        "legal_patch_only_details": [
+          "This is a community patch for a live mobile game, not a publisher localization; README documents platform-specific installation and first-run asset caching behavior.",
+          "English is the published translation; the README says Spanish is in progress."
+        ]
+      },
+      "sources": [
+        {
+          "label": "Maintainer README; supported platforms and patch status",
+          "url": "https://github.com/Aikiooo/mt-en-applier"
+        },
+        {
+          "label": "Rolling patch release",
+          "url": "https://github.com/Aikiooo/mt-en-applier/releases/tag/patch-latest"
+        },
+        {
+          "label": "Maintainer app releases",
+          "url": "https://github.com/Aikiooo/mt-en-applier/releases"
+        }
+      ],
+      "evidence_note": "Unofficial English text patch and installer for the Japanese mobile game, with maintainer-documented Android and Windows/DMM installation paths. This is a community patch for a live mobile game, not a publisher localization; README documents platform-specific installation and first-run asset caching behavior. English is the published translation; the README says Spanish is in progress."
+    },
+    {
+      "id": "nakoruru-dc-en",
+      "fields": {
+        "target_languages": "English",
+        "release_version": "v1.4",
+        "patch_format": "DCP or xdelta for GDI; xdelta variants for CDI Audio-Data and Data-Data modes",
+        "official_download_page": "https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast",
+        "primary_source_audit": "README lists v1.4 and DCP/XDelta for GDI plus two CDI modes, with Universal Dreamcast Patcher/Delta Patcher instructions.",
+        "source_language": "Japanese"
+      },
+      "sources": [
+        {
+          "label": "Maintainer evidence for target_languages, release_version, patch_format, official_download_page, primary_source_audit, source_language",
+          "url": "https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast"
+        }
+      ],
+      "evidence_note": "The project describes an English translation/patch (or the listed language set) for the Japanese original. README lists v1.4 and DCP/XDelta for GDI plus two CDI modes, with Universal Dreamcast Patcher/Delta Patcher instructions. Project README/page identifies its target as the Japanese original or Japanese release and describes the English translation."
+    },
+    {
+      "id": "okaeri-chibi-robo-en",
+      "fields": {
+        "target_languages": "English",
+        "patch_format": "Build tool produces translated .nds ROM from user-owned Japanese ROM",
+        "license": "BSD-3-Clause for code; CC BY-NC 4.0 for designated translation text/art",
+        "platform_instructions": "Build with make (Linux) or Cygwin (Windows), extract then build translated DS image",
+        "official_download_page": "https://github.com/cjuub/okaeri-chibi-translation",
+        "primary_source_audit": "README describes DS English source/build process, says no copyrighted original text/art are included, and states BSD-3-Clause for code and CC BY-NC 4.0 for licensed translation art/text.",
+        "source_language": "Japanese"
+      },
+      "sources": [
+        {
+          "label": "Maintainer evidence for target_languages, patch_format, license, platform_instructions, official_download_page, primary_source_audit, source_language",
+          "url": "https://github.com/cjuub/okaeri-chibi-translation"
+        }
+      ],
+      "evidence_note": "The project describes an English translation/patch (or the listed language set) for the Japanese original. README describes DS English source/build process, says no copyrighted original text/art are included, and states BSD-3-Clause for code and CC BY-NC 4.0 for licensed translation art/text. Project README/page identifies its target as the Japanese original or Japanese release and describes the English translation."
+    },
+    {
+      "id": "persona-psp-latam-es",
+      "fields": {
+        "language_pair": "English → Latin American Spanish",
+        "supported_game_build": "Shin Megami Tensei: Persona (Europe) PSP/PSN ISO; required source MD5 03ee31f32bcd3bb697de347fba4493d9; patched-output MD5 3737ed02ffc0ffbe21ec09e3c20675a7",
+        "patch_format": "External full-ISO xdelta patch",
+        "platform_instructions": "PSP or PPSSPP on PC/Android; xdelta3 or a GUI delta patcher applies the patch",
+        "distribution": "Only translation files, tools, and the difference patch are provided; the ISO and original game files are excluded",
+        "project_status": "Story text and EBOOT text are reported translated and playable end to end; UI graphics, a generic field-message table, and about 570 small text overflows remain or are intentionally out of scope"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README with exact Europe PSP base, xdelta instructions, patch-only policy, status, and remaining work",
+          "url": "https://github.com/Jose-Chavez96/Traduccion_persona_es"
+        }
+      ],
+      "evidence_note": "The README calls this an English-to-Latin-American-Spanish fan patch, pins the target to the European PSP/PSN ISO by MD5, identifies the output hash and xdelta format, and explicitly excludes the ISO. Story text is complete/playable, while UI graphics and minor text overflow remain."
+    },
+    {
+      "id": "persona5x-italian",
+      "fields": {
+        "target_languages": "Italian",
+        "supported_game_build": "Persona 5: The Phantom X Global; project build 21/07/2025-Build1; BepInEx 5.4.22",
+        "patch_format": "BepInEx runtime mod bundle using XUnityAutoTranslator and TextureReplacer; includes a launcher and .NET runtime files",
+        "platform_instructions": "Windows installation into the game's root directory; launch via Launcher.bat",
+        "project_status": "README last modified 2025-07-21; no newer project build is stated",
+        "compatibility": "Maintainer says resources are replaced at runtime without changing the game's files"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README with exact project build, Global compatibility, BepInEx version, and installation method",
+          "url": "https://github.com/GamePatchingTeam/P5X_PatchIT"
+        }
+      ],
+      "evidence_note": "The README states build 21/07/2025-Build1, compatibility with the Global game, BepInEx 5.4.22, and a runtime replacement method that leaves game files unmodified. It instructs Windows users to extract the mod bundle in the game root and use Launcher.bat."
+    },
+    {
+      "id": "phantasy-star-retranslation-multilingual",
+      "fields": {
+        "source_language": "Japanese (first Japanese Sega Master System release)",
+        "target_languages": "English variants, French, extended French, German, Brazilian Portuguese, Spanish, Catalan, and Latin",
+        "release_version": "v2.6.1 released 2025-12-22; v2.7 is labeled beta and yet to be released",
+        "project_status": "Current README describes the unreleased v2.7 beta and retains the v2.6.1 release entry"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README/changelog with source edition, language variants, and release history",
+          "url": "https://github.com/maxim-zhao/psrp"
+        }
+      ],
+      "evidence_note": "The README explicitly bases this multilingual retranslation on the first Japanese Master System release, lists all current language variants, labels v2.7 unreleased/beta, and records v2.6.1 as released on 2025-12-22."
+    },
+    {
+      "id": "pokemon-azoth-en",
+      "fields": {
+        "target_languages": "English",
+        "language_pair": "Chinese → English",
+        "project_status": "Beta; English patch publicly released, project reports ongoing translation polishing and playtesting",
+        "platform": "Game Boy Advance",
+        "supported_game_build": "English text translation of the Chinese Pokémon Azoth fan game. The maintainer publishes a BPS patch that applies to a clean Pokémon FireRed US/EU v1.0 ROM.",
+        "patch_format": "BPS",
+        "release_version": "Latest public beta at verification",
+        "patch_distribution": {
+          "release_source": "Maintainer GitHub repository and releases",
+          "download": "https://github.com/RiFa-Innovation/pkmn-azoth-translation/releases"
+        },
+        "legal_patch_only_details": [
+          "The fan game is originally Chinese, but the public BPS patch is built against a clean US/EU English Pokémon FireRed v1.0 ROM; it does not require applying the Chinese Azoth build first.",
+          "Project README describes a beta with translation polish and playtesting still in progress."
+        ]
+      },
+      "sources": [
+        {
+          "label": "Translation project README and patch instructions",
+          "url": "https://github.com/RiFa-Innovation/pkmn-azoth-translation"
+        },
+        {
+          "label": "Maintainer releases",
+          "url": "https://github.com/RiFa-Innovation/pkmn-azoth-translation/releases"
+        }
+      ],
+      "evidence_note": "English text translation of the Chinese Pokémon Azoth fan game. The maintainer publishes a BPS patch that applies to a clean Pokémon FireRed US/EU v1.0 ROM. The fan game is originally Chinese, but the public BPS patch is built against a clean US/EU English Pokémon FireRed v1.0 ROM; it does not require applying the Chinese Azoth build first. Project README describes a beta with translation polish and playtesting still in progress."
+    },
+    {
+      "id": "pokemon-rejuvenation-italian",
+      "fields": {
+        "target_languages": "Italian",
+        "supported_game_build": "Pokémon Rejuvenation v14.0",
+        "release_version": "Patch v1.1 follows v1.0; v1.0 covers 134,695 of 135,033 strings (99.9%), while v1.1 corrects official move/item/ability names and gender agreement",
+        "distribution": "Patch files only; user supplies an installed game. The patch lives in the game's patch folder and does not modify game files or saves",
+        "platform_instructions": "Windows PowerShell installer; Android, iOS, Linux, and macOS install by copying the patch folder; in-game language set to Italian",
+        "project_status": "Near-complete v14.0 translation with some brief English lines remaining; v1.1 fixes terminology and gender agreement and can be applied mid-save"
+      },
+      "sources": [
+        {
+          "label": "Maintainer Releases page with v1.0/v1.1 notes, exact game version, install platforms, and patch-only/save behavior",
+          "url": "https://github.com/giosci1994/rejuvenation-ita-patch/releases"
+        }
+      ],
+      "evidence_note": "The v1.0 release identifies Pokémon Rejuvenation v14.0 and 99.9% text coverage, requires the user's installed game, and says the patch does not alter game files or saves. v1.1 fixes official Italian terminology and gender agreement; the release instructions list Windows, mobile, Linux, and macOS installation paths."
+    },
+    {
+      "id": "puyo-pop-fever-dc-en",
+      "fields": {
+        "target_languages": "English default; original selectable languages preserved",
+        "release_version": "v1.0, 2023-06-10",
+        "patch_format": "DCP for GDI/CUE; xdelta for CDI",
+        "official_download_page": "https://github.com/DerekPascarella/PuyoPopFever-EnglishPatchDreamcast",
+        "primary_source_audit": "README lists v1.0 (2023-06-10), DCP for GDI and xdelta for CDI, MD5 checks, and default-English behavior while preserving language selection.",
+        "source_language": "Japanese"
+      },
+      "sources": [
+        {
+          "label": "Maintainer evidence for target_languages, release_version, patch_format, official_download_page, primary_source_audit, source_language",
+          "url": "https://github.com/DerekPascarella/PuyoPopFever-EnglishPatchDreamcast"
+        }
+      ],
+      "evidence_note": "The project describes an English translation/patch (or the listed language set) for the Japanese original. README lists v1.0 (2023-06-10), DCP for GDI and xdelta for CDI, MD5 checks, and default-English behavior while preserving language selection. Project README/page identifies its target as the Japanese original or Japanese release and describes the English translation."
+    },
+    {
+      "id": "pvz-fusion-multilingual-localization",
+      "fields": {
+        "target_languages": "English, Indonesian, French, Spanish, Vietnamese, Japanese, Ukrainian, Romanian, Korean",
+        "language_pair": "Chinese → English, Indonesian, French, Spanish, Vietnamese, Japanese, Ukrainian, Romanian and Korean (coverage/status varies by language)",
+        "project_status": "PC multilingual build available; 4.0.5.2 Alpha release dated 2026-10-01; Android English prerelease dated 2026-09-15",
+        "platform": "Windows PC; Android (English port)",
+        "supported_game_build": "Community translation project for the Chinese Plants vs. Zombies Fusion fan game. Upstream lists English, Indonesian, French, Spanish, Vietnamese, Japanese, Ukrainian, Romanian and Korean; Android port evidence currently covers English.",
+        "patch_format": "Pretranslated game builds / translation assets",
+        "release_version": "PC 4.0.5.2 Alpha (2026-10-01)",
+        "patch_distribution": {
+          "release_source": "Upstream translation project and linked Android port maintainer",
+          "download": "https://github.com/Teyliu/PVZF-Translation/releases/tag/4.0.5_alpha"
+        },
+        "legal_patch_only_details": [
+          "Plants vs. Zombies Fusion is itself an unofficial fan game, not a PopCap release.",
+          "Upstream language coverage and translation completeness differ by language; the Android English release is explicitly marked untested on an Android device by its maintainer.",
+          "PC release is an Alpha build; project notes identify untranslated new content and level-editor areas."
+        ]
+      },
+      "sources": [
+        {
+          "label": "Upstream translation project and language/status list",
+          "url": "https://github.com/Teyliu/PVZF-Translation"
+        },
+        {
+          "label": "Maintainer PC release 4.0.5 Alpha",
+          "url": "https://github.com/Teyliu/PVZF-Translation/releases/tag/4.0.5_alpha"
+        },
+        {
+          "label": "Upstream-linked Android English translation port release",
+          "url": "https://github.com/silvershadowkat/pvzf-android-translation/releases/tag/v3.9-release-9"
+        }
+      ],
+      "evidence_note": "Community translation project for the Chinese Plants vs. Zombies Fusion fan game. Upstream lists English, Indonesian, French, Spanish, Vietnamese, Japanese, Ukrainian, Romanian and Korean; Android port evidence currently covers English. Plants vs. Zombies Fusion is itself an unofficial fan game, not a PopCap release. Upstream language coverage and translation completeness differ by language; the Android English release is explicitly marked untested on an Android device by its maintainer. PC release is an Alpha build; project notes identify untranslated new content and level-editor areas."
+    },
+    {
+      "id": "rabbit-saturn-en",
+      "fields": {
+        "target_languages": "English",
+        "release_version": "v1.0, 2024-03-14",
+        "patch_format": "SSP; Sega Saturn Patcher 1.95 or newer",
+        "official_download_page": "https://github.com/DerekPascarella/Rabbit-EnglishPatchSaturn",
+        "primary_source_audit": "README lists v1.0 (2024-03-14), SSP patch for Sega Saturn Patcher 1.95+, and English text plus menus/cutscene text.",
+        "source_language": "Japanese"
+      },
+      "sources": [
+        {
+          "label": "Maintainer evidence for target_languages, release_version, patch_format, official_download_page, primary_source_audit, source_language",
+          "url": "https://github.com/DerekPascarella/Rabbit-EnglishPatchSaturn"
+        }
+      ],
+      "evidence_note": "The project describes an English translation/patch (or the listed language set) for the Japanese original. README lists v1.0 (2024-03-14), SSP patch for Sega Saturn Patcher 1.95+, and English text plus menus/cutscene text. Project README/page identifies its target as the Japanese original or Japanese release and describes the English translation."
+    },
+    {
+      "id": "rainbow-cotton-dc-en",
+      "fields": {
+        "target_languages": "English",
+        "release_version": "v1.0",
+        "patch_format": "DCP; Universal Dreamcast Patcher accepts GDI/CUE",
+        "official_download_page": "https://github.com/DerekPascarella/RainbowCotton-EnglishPatchDreamcast",
+        "primary_source_audit": "README documents DCP for Universal Dreamcast Patcher and full English coverage including text, graphics, and subtitled FMVs.",
+        "source_language": "Japanese"
+      },
+      "sources": [
+        {
+          "label": "Maintainer evidence for target_languages, release_version, patch_format, official_download_page, primary_source_audit, source_language",
+          "url": "https://github.com/DerekPascarella/RainbowCotton-EnglishPatchDreamcast"
+        }
+      ],
+      "evidence_note": "The project describes an English translation/patch (or the listed language set) for the Japanese original. README documents DCP for Universal Dreamcast Patcher and full English coverage including text, graphics, and subtitled FMVs. Project README/page identifies its target as the Japanese original or Japanese release and describes the English translation."
+    },
+    {
+      "id": "rocket-slime-3ds-en",
+      "fields": {
+        "target_languages": "English",
+        "project_status": "Playable; translation 100%, testing 99% per team page",
+        "official_download_page": "https://fantranslators.info/downloads/",
+        "primary_source_audit": "FTI page says menus/images/NPC text are translated and playable, with translation 100% and testing 99%; official download is linked from the page.",
+        "source_language": "Japanese"
+      },
+      "sources": [
+        {
+          "label": "Maintainer evidence for target_languages, project_status, official_download_page, primary_source_audit, source_language",
+          "url": "https://fantranslators.info/projects/rocket-slime-3ds/"
+        }
+      ],
+      "evidence_note": "The project describes an English translation/patch (or the listed language set) for the Japanese original. FTI page says menus/images/NPC text are translated and playable, with translation 100% and testing 99%; official download is linked from the page. Project README/page identifies its target as the Japanese original or Japanese release and describes the English translation."
+    },
+    {
+      "id": "rogue-trader-italian",
+      "fields": {
+        "target_languages": "Italian",
+        "release_version": "Translation files v1.5, dated 2025-10-22; supports Void Shadows and Lex Imperialis DLC",
+        "patch_format": "Replacement localization file esES.json",
+        "platform_instructions": "Copy esES.json into WH40KRT_Data/StreamingAssets/Localization, then select Español in-game to display the Italian text",
+        "distribution": "Repository publishes localization files and translation tooling; no game files are identified as included",
+        "compatibility": "README does not pin an exact game build; DLC support is stated for Void Shadows and Lex Imperialis"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README with file version/date, supported DLCs, and install/selection steps",
+          "url": "https://github.com/EasyPeasyViking/warhammer-40k-rogue-trader-italian"
+        }
+      ],
+      "evidence_note": "The README dates the localization files to v1.5 on 2025-10-22 and lists support for two DLCs. Installation replaces the Spanish localization JSON and selects Spanish in-game; no exact game build is given."
+    },
+    {
+      "id": "segagaga-dreamcast-en",
+      "fields": {
+        "target_languages": "English",
+        "project_status": "Full translation; project repository is forked from ExxistanceDC source repo",
+        "official_download_page": "https://github.com/sega-dreamcast/segagaga-english-translation",
+        "primary_source_audit": "README says patch fully translates dialogue, cutscenes, credits, UI textures and VMU metadata; repository is a fork of the ExxistanceDC project.",
+        "source_language": "Japanese"
+      },
+      "sources": [
+        {
+          "label": "Maintainer evidence for target_languages, project_status, official_download_page, primary_source_audit, source_language",
+          "url": "https://github.com/sega-dreamcast/segagaga-english-translation"
+        }
+      ],
+      "evidence_note": "The project describes an English translation/patch (or the listed language set) for the Japanese original. README says patch fully translates dialogue, cutscenes, credits, UI textures and VMU metadata; repository is a fork of the ExxistanceDC project. Project README/page identifies its target as the Japanese original or Japanese release and describes the English translation."
+    },
+    {
+      "id": "shining-force-iii-translation",
+      "fields": {
+        "target_languages": "English",
+        "project_status": "Not verified; team FAQ blocked by Cloudflare in browser",
+        "primary_source_audit": "Team FAQ URL is protected by Cloudflare verification; no page content was accessible in CUA during this audit.",
+        "language_audit_status": "Source and target language were not independently verified from an accessible current first-party page."
+      },
+      "sources": [
+        {
+          "label": "Maintainer evidence for target_languages, project_status, primary_source_audit, language_audit_status",
+          "url": "https://sf3trans.shiningforcecentral.com/faq/"
+        }
+      ],
+      "evidence_note": "Team FAQ URL is protected by Cloudflare verification; no page content was accessible in CUA during this audit. Current AAI2 release path is unavailable / Shining Force FAQ returned Cloudflare verification, so language details could not be read."
+    },
+    {
+      "id": "shiny-colors-song-for-prism-en",
+      "fields": {
+        "target_languages": "English",
+        "supported_game_build": "DMM PC version; README asks for a current game copy but does not name a specific build",
+        "patch_format": "Localization-file and Unity-asset modifications, loaded with scsp-localify DLL hijacking",
+        "platform_instructions": "Windows DMM install steps documented; maintainer says Linux and macOS should work with limitations",
+        "project_status": "Broad UI/tutorial/story coverage; remaining work includes commu text, Produce Card descriptions, and image translation",
+        "license_or_rights_note": "Maintainer warns the asset edits conflict with the game's terms of service; project is unofficial and community-made"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README with platform, patch mechanism, coverage, and terms-of-service caveat",
+          "url": "https://github.com/gspbeetle/shinysong-translate"
+        }
+      ],
+      "evidence_note": "The README describes an English translation for the DMM PC version using localization and Unity asset replacements plus scsp-localify; it lists Linux/macOS support with limitations and identifies unfinished text/image work. It explicitly warns that asset edits are against the game's terms."
+    },
+    {
+      "id": "shiren-4-psp-en",
+      "fields": {
+        "target_languages": "English",
+        "release_version": "v1.0.1 (latest observed); v1.0.0 also listed",
+        "patch_format": "Release assets; README/release points to named batch patcher instructions",
+        "official_download_page": "https://github.com/SharkSnack/shiren-4/releases",
+        "primary_source_audit": "GitHub releases show v1.0.0 and v1.0.1; latest fixes three listed bugs and says look at release BAT filenames for self-explanatory application.",
+        "source_language": "Japanese"
+      },
+      "sources": [
+        {
+          "label": "Maintainer evidence for target_languages, release_version, patch_format, official_download_page, primary_source_audit, source_language",
+          "url": "https://github.com/SharkSnack/shiren-4/releases"
+        }
+      ],
+      "evidence_note": "The project describes an English translation/patch (or the listed language set) for the Japanese original. GitHub releases show v1.0.0 and v1.0.1; latest fixes three listed bugs and says look at release BAT filenames for self-explanatory application. Project README/page identifies its target as the Japanese original or Japanese release and describes the English translation."
+    },
+    {
+      "id": "shizuku-pc98-en",
+      "fields": {
+        "target_languages": "English",
+        "patch_format": "Not stated in surfaced README",
+        "license": "GPL-3.0",
+        "official_download_page": "https://github.com/Her-Saki/shizuku_pc98_eng",
+        "primary_source_audit": "Repository README confirms an English PC-98 patch; GitHub identifies GPL-3.0 license; no README details on patch version/format surfaced.",
+        "source_language": "Japanese"
+      },
+      "sources": [
+        {
+          "label": "Maintainer evidence for target_languages, patch_format, license, official_download_page, primary_source_audit, source_language",
+          "url": "https://github.com/Her-Saki/shizuku_pc98_eng"
+        }
+      ],
+      "evidence_note": "The project describes an English translation/patch (or the listed language set) for the Japanese original. Repository README confirms an English PC-98 patch; GitHub identifies GPL-3.0 license; no README details on patch version/format surfaced. Project README/page identifies its target as the Japanese original or Japanese release and describes the English translation."
+    },
+    {
+      "id": "snatcher-playstation-saturn-en",
+      "fields": {
+        "target_languages": "English",
+        "release_version": "Saturn v1.0.1 (2026-10-01); PlayStation v1.0",
+        "supported_game_build": "Saturn T-9508G / Japan Redump three-track dump, Track 1 size 479149440 and MD5 fd6c0438987fcbc8f520efeed54b37a5; PS1 SLPS-00154",
+        "patch_format": "xdelta for Saturn tracks 1 and 2; separate PS1 variants",
+        "platform_instructions": "Windows apply.bat, Linux/macOS apply.sh; verify hashes",
+        "official_download_page": "https://github.com/pepasjc/snatcher-translated/releases",
+        "primary_source_audit": "README lists v1.0.1 (2026-10-01), separate Saturn/PS1 patches, Saturn Redump Track 1 hashes, track-based xdelta and install scripts.",
+        "source_language": "Japanese"
+      },
+      "sources": [
+        {
+          "label": "Maintainer evidence for target_languages, release_version, supported_game_build, patch_format, platform_instructions, official_download_page, primary_source_audit, source_language",
+          "url": "https://github.com/pepasjc/snatcher-translated"
+        }
+      ],
+      "evidence_note": "The project describes an English translation/patch (or the listed language set) for the Japanese original. README lists v1.0.1 (2026-10-01), separate Saturn/PS1 patches, Saturn Redump Track 1 hashes, track-based xdelta and install scripts. Project README/page identifies its target as the Japanese original or Japanese release and describes the English translation."
+    },
+    {
+      "id": "srw-og-gaiden-ps2-en",
+      "fields": {
+        "target_languages": "English",
+        "release_version": "v0.2.9",
+        "supported_game_build": "Japanese PS2 serial SLPS-25836; source MD5 cb7dc448f5f46f220c46095c966a3aad0 and SHA-1 2891231bc85603d420c35cda55285d5ecb781f1b",
+        "patch_format": "xdelta3",
+        "project_status": "Whole game translated and playable end to end; some known cosmetic issues",
+        "official_download_page": "https://github.com/camd11/srw-og-gaiden-en/releases",
+        "primary_source_audit": "README lists v0.2.9 xdelta for Japanese PS2 serial SLPS-25836, source MD5/SHA1, complete end-to-end English, and patch instructions.",
+        "source_language": "Japanese"
+      },
+      "sources": [
+        {
+          "label": "Maintainer evidence for target_languages, release_version, supported_game_build, patch_format, project_status, official_download_page, primary_source_audit, source_language",
+          "url": "https://github.com/camd11/srw-og-gaiden-en"
+        }
+      ],
+      "evidence_note": "The project describes an English translation/patch (or the listed language set) for the Japanese original. README lists v0.2.9 xdelta for Japanese PS2 serial SLPS-25836, source MD5/SHA1, complete end-to-end English, and patch instructions. Project README/page identifies its target as the Japanese original or Japanese release and describes the English translation."
+    },
+    {
+      "id": "star-citizen-italian",
+      "fields": {
+        "target_languages": "Italian text; English voice audio retained",
+        "supported_game_build": "Star Citizen LIVE 4.10, package StarCitizen_Traduzione_Italiana_4.10_R2.exe",
+        "patch_format": "Standalone Windows installer distributed through GitHub Releases / Gioca in Italiano app",
+        "platform_instructions": "Installer targets Windows 10/11 and detects the LIVE game folder, backs up originals, and supports restore/update management",
+        "project_status": "Maintainer calls this a complete Italian localization for LIVE 4.10",
+        "license_or_rights_note": "Unofficial, noncommercial fan translation; not approved, sponsored, or affiliated with Cloud Imperium Games or RSI"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README with exact LIVE package name, platform, installation behavior, and noncommercial status",
+          "url": "https://github.com/Sici29/SC-Italian-Translation"
+        }
+      ],
+      "evidence_note": "The README identifies the complete LIVE 4.10 translation and names the 4.10_R2 Windows installer, which preserves English audio and creates a backup. It describes the project as unofficial and noncommercial."
+    },
+    {
+      "id": "summer-time-rendering-another-horizon-en",
+      "fields": {
+        "target_languages": "English",
+        "language_pair": "Simplified Chinese → English",
+        "project_status": "Community translation project; source and build instructions public, no tagged binary patch release found at verification",
+        "platform": "Nintendo Switch",
+        "supported_game_build": "English adaptation for the Japanese Switch adventure, based on the existing Simplified Chinese translation. Project documents coverage of dialogue, tips, chapter introductions, flowchart, menus and additional image text.",
+        "patch_format": "Atmosphere-compatible Switch mod built from project source",
+        "release_version": "Source build; no tagged binary release located",
+        "patch_distribution": {
+          "release_source": "Maintainer GitHub repository and project site",
+          "download": null
+        },
+        "legal_patch_only_details": [
+          "A tagged downloadable patch release was not visible during verification; classify as a public translation/build project rather than a confirmed ready-to-install binary.",
+          "Project README identifies some remaining Japanese labels and summarized tips.",
+          "Installation requires a legally owned game dump and Atmosphere custom firmware."
+        ]
+      },
+      "sources": [
+        {
+          "label": "Maintainer project README and patch scope",
+          "url": "https://github.com/Dream-Cypher/STRAHLocalization"
+        },
+        {
+          "label": "Project guide and localization status",
+          "url": "https://dream-cypher.github.io/STRAHLocalization/"
+        }
+      ],
+      "evidence_note": "English adaptation for the Japanese Switch adventure, based on the existing Simplified Chinese translation. Project documents coverage of dialogue, tips, chapter introductions, flowchart, menus and additional image text. A tagged downloadable patch release was not visible during verification; classify as a public translation/build project rather than a confirmed ready-to-install binary. Project README identifies some remaining Japanese labels and summarized tips. Installation requires a legally owned game dump and Atmosphere custom firmware."
+    },
+    {
+      "id": "summon-night-3-psp-en",
+      "fields": {
+        "target_languages": "English",
+        "release_version": "v0.1.77 test release",
+        "project_status": "Early/incomplete; full-route testing incomplete",
+        "supported_game_build": "Japanese PSP NPJH50380; clean source hash documented, with separate v0.1.73 upgrade",
+        "patch_format": "xdelta; Retro Trans Tools, manual xdelta or DeltaPatcher",
+        "platform_instructions": "Start fresh ISO and in-game save; emulator save states retain older code/resources",
+        "license": "No-sale notice in README; no software license surfaced",
+        "official_download_page": "https://github.com/retro-trans/Summon-Night-3/releases",
+        "primary_source_audit": "README lists test release v0.1.77 for Japanese PSP NPJH50380, xdelta from clean ISO or v0.1.73, incomplete translation/full-route testing, and a no-sale notice.",
+        "source_language": "Japanese"
+      },
+      "sources": [
+        {
+          "label": "Maintainer evidence for target_languages, release_version, project_status, supported_game_build, patch_format, platform_instructions, license, official_download_page, primary_source_audit, source_language",
+          "url": "https://github.com/retro-trans/Summon-Night-3"
+        }
+      ],
+      "evidence_note": "The project describes an English translation/patch (or the listed language set) for the Japanese original. README lists test release v0.1.77 for Japanese PSP NPJH50380, xdelta from clean ISO or v0.1.73, incomplete translation/full-route testing, and a no-sale notice. Project README/page identifies its target as the Japanese original or Japanese release and describes the English translation."
+    },
+    {
+      "id": "super-puzzle-fighter-2x-dc-en",
+      "fields": {
+        "target_languages": "English default; additional original languages remain selectable",
+        "release_version": "v1.1, 2023-06-10 (v1.0 initial 2023-06-04)",
+        "patch_format": "DCP for GDI/CUE; xdelta for CDI",
+        "official_download_page": "https://github.com/DerekPascarella/SuperPuzzleFighter2X-EnglishPatchDreamcast",
+        "primary_source_audit": "README lists v1.1 (2023-06-10), DCP for GDI or xdelta for CDI, and language-selector caveat when old VMU saves are present.",
+        "source_language": "Japanese"
+      },
+      "sources": [
+        {
+          "label": "Maintainer evidence for target_languages, release_version, patch_format, official_download_page, primary_source_audit, source_language",
+          "url": "https://github.com/DerekPascarella/SuperPuzzleFighter2X-EnglishPatchDreamcast"
+        }
+      ],
+      "evidence_note": "The project describes an English translation/patch (or the listed language set) for the Japanese original. README lists v1.1 (2023-06-10), DCP for GDI or xdelta for CDI, and language-selector caveat when old VMU saves are present. Project README/page identifies its target as the Japanese original or Japanese release and describes the English translation."
+    },
+    {
+      "id": "tgaa-3ds-en",
+      "fields": {
+        "target_languages": "English",
+        "supported_game_build": "Dai Gyakuten Saiban 3DS; any region console with Luma3DS 7.2+",
+        "patch_format": "BPS patch data applied by DGS1-Patcher; installs generated CIA",
+        "official_download_page": "https://github.com/ScarletStudy/DGS1-3DS-Release/releases/latest",
+        "platform_instructions": "Install DGS1-Patcher.firm in Luma payloads and patch data on SD; boot patcher, apply, install generated CIA with FBI",
+        "primary_source_audit": "Current project download page links DGS1 latest release; README requires physical/digital DGS cartridge/copy, Luma3DS 7.2+, BPS patch data and installer workflow.",
+        "source_language": "Japanese"
+      },
+      "sources": [
+        {
+          "label": "Maintainer evidence for target_languages, supported_game_build, patch_format, official_download_page, platform_instructions, primary_source_audit, source_language",
+          "url": "https://github.com/ScarletStudy/DGS1-3DS-Release"
+        }
+      ],
+      "evidence_note": "The project describes an English translation/patch (or the listed language set) for the Japanese original. Current project download page links DGS1 latest release; README requires physical/digital DGS cartridge/copy, Luma3DS 7.2+, BPS patch data and installer workflow. Project README/page identifies its target as the Japanese original or Japanese release and describes the English translation."
+    },
+    {
+      "id": "thomas-friends-of-sodor-gbc-en",
+      "fields": {
+        "language_pair": "Japanese → English",
+        "supported_game_build": "Japanese Game Boy Color ROM, 1 MiB; SHA-1 8abd4406ec19bfecd6d675285fa73ef2d5ea622e and CRC32 223bb19c",
+        "patch_format": "BPS preferred; IPS also provided, with separate UK and US dialogue/graphics variants",
+        "distribution": "Patch files and build tools only; user must supply the Japanese ROM, which the maintainer says must never be distributed",
+        "project_status": "All 151 messages translated and checked in both dubs; identified title/menu/game graphics also redrawn; patch builds verified"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README with source ROM fingerprints, BPS/IPS variants, completeness, and no-ROM distribution rule",
+          "url": "https://github.com/zbessinger/thomas-gbc-translation"
+        }
+      ],
+      "evidence_note": "The README pins the Japanese ROM by exact size/hash, offers IPS and BPS for UK and US variants, recommends BPS because it verifies the input, says the ROM is not included and must never be distributed, and reports all 151 messages and identified graphics translated."
+    },
+    {
+      "id": "time-travelers-3ds-en",
+      "fields": {
+        "target_languages": "English",
+        "project_status": "Full main-story translation",
+        "release_version": "v1.0 initial 2025-02-01; v1.4 update 2025-05-27",
+        "supported_game_build": "Nintendo 3DS version",
+        "official_download_page": "https://fantranslators.info/downloads/",
+        "primary_source_audit": "FTI project site lists complete 3DS English patch released 2025-02-01 and v1.4 update dated 2025-05-27.",
+        "source_language": "Japanese"
+      },
+      "sources": [
+        {
+          "label": "Maintainer evidence for target_languages, project_status, release_version, supported_game_build, official_download_page, primary_source_audit, source_language",
+          "url": "https://fantranslators.info/"
+        }
+      ],
+      "evidence_note": "The project describes an English translation/patch (or the listed language set) for the Japanese original. FTI project site lists complete 3DS English patch released 2025-02-01 and v1.4 update dated 2025-05-27. Project README/page identifies its target as the Japanese original or Japanese release and describes the English translation."
+    },
+    {
+      "id": "toaru-virtual-on-vita-en",
+      "fields": {
+        "target_languages": "English",
+        "project_status": "Author reports translation complete; most text/graphics covered",
+        "release_date": "2026-02-09",
+        "patch_format": "xdelta patches",
+        "supported_game_build": "Japanese PS Vita release; forum replies distinguish Japanese version from Asia version and emulator dump compatibility",
+        "official_download_page": "https://gbatemp.net/threads/toaru-majutsu-no-virtual-on-english-translation-xdelta-patches.679584/",
+        "primary_source_audit": "Author’s thread says completed English patch released 2026-02-09 as xdelta; it translates nearly all text/graphics and was geared toward single-player.",
+        "source_language": "Japanese"
+      },
+      "sources": [
+        {
+          "label": "Maintainer evidence for target_languages, project_status, release_date, patch_format, supported_game_build, official_download_page, primary_source_audit, source_language",
+          "url": "https://gbatemp.net/threads/toaru-majutsu-no-virtual-on-english-translation-xdelta-patches.679584/"
+        }
+      ],
+      "evidence_note": "The project describes an English translation/patch (or the listed language set) for the Japanese original. Author’s thread says completed English patch released 2026-02-09 as xdelta; it translates nearly all text/graphics and was geared toward single-player. Project README/page identifies its target as the Japanese original or Japanese release and describes the English translation."
+    },
+    {
+      "id": "tokeru-fuuka-shirousagi-zh-cn",
+      "fields": {
+        "target_languages": "Simplified Chinese",
+        "release_version": "v1.3.0, updated 2026-09-14",
+        "patch_format": "734 MB installer EXE or ZIP; custom model ZIPs and local XMPatch build workflow also offered",
+        "distribution": "Maintainer requires users to obtain/install the legitimate game themselves; patch is noncommercial and unofficial",
+        "project_status": "Story, CG, opening, and most UI text translated; multiple AI translation models are available, with the main package described as AI-translated and human-polished",
+        "supported_game_build": "The page does not state a specific game build/version"
+      },
+      "sources": [
+        {
+          "label": "Project website with patch version/date, package types, coverage, build workflow, and legal-game requirement",
+          "url": "https://kazeshiro.ica.wiki/"
+        }
+      ],
+      "evidence_note": "The project website lists v1.3.0 dated 2026-09-14 and a 734 MB installer or ZIP, plus custom model packages and an XMPatch local build option. It requires the user's legitimate game and marks the translation unofficial/noncommercial; no base game version is stated."
+    },
+    {
+      "id": "tricolore-crise-dc-en",
+      "fields": {
+        "language_pair": "Japanese → English",
+        "release_version": "v1.0.2",
+        "supported_game_build": "Apply to track03.bin from a clean GDI dump; required source SHA-1 5608009f040cbed33e4b29da33fc36e29bc24b62",
+        "patch_format": "BPS patch or JSON patch with Windows helper",
+        "distribution": "Patch data and documentation only; repository excludes game files, BIOS files, and emulator",
+        "project_status": "Functionally complete; v1.0.2 validates 17,151 replacements and leaves only input-name grids and a few nonblocking presentation graphics in Japanese"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README with exact version/base hash, BPS/JSON formats, patch-only policy, and completion status",
+          "url": "https://github.com/closedsockets/tricolore-crise-english-patch"
+        }
+      ],
+      "evidence_note": "The README identifies v1.0.2, the required track03.bin source hash, BPS and JSON patch options, and a functionally complete scope. It explicitly says the repository contains patch data/documentation only and never game files, BIOS, or emulator."
+    },
+    {
+      "id": "trizeal-dc-en",
+      "fields": {
+        "target_languages": "English",
+        "release_version": "v1.0, 2023-10-10",
+        "patch_format": "DCP for GDI/CUE; xdelta for CDI",
+        "official_download_page": "https://github.com/DerekPascarella/Trizeal-EnglishPatchDreamcast",
+        "primary_source_audit": "README lists v1.0 (2023-10-10), DCP for GDI and xdelta for CDI, source/output MD5s and patcher instructions.",
+        "source_language": "Japanese"
+      },
+      "sources": [
+        {
+          "label": "Maintainer evidence for target_languages, release_version, patch_format, official_download_page, primary_source_audit, source_language",
+          "url": "https://github.com/DerekPascarella/Trizeal-EnglishPatchDreamcast"
+        }
+      ],
+      "evidence_note": "The project describes an English translation/patch (or the listed language set) for the Japanese original. README lists v1.0 (2023-10-10), DCP for GDI and xdelta for CDI, source/output MD5s and patcher instructions. Project README/page identifies its target as the Japanese original or Japanese release and describes the English translation."
+    },
+    {
+      "id": "umineko-catbox-console-en",
+      "fields": {
+        "target_languages": "English",
+        "release_version": "rebirth v82.7.2 (finished); master v9.9.99999 preserved as older snapshot",
+        "project_status": "Finished, complete English experience; no further work planned",
+        "supported_game_build": "Nintendo Switch console release",
+        "official_download_page": "https://andolga.github.io/umineko-catbox-english",
+        "primary_source_audit": "README says finished rebirth release v82.7.2 is complete; Switch console patch and supporting source/build scripts, with canonical project link at andolga.github.io.",
+        "source_language": "Japanese"
+      },
+      "sources": [
+        {
+          "label": "Maintainer evidence for target_languages, release_version, project_status, supported_game_build, official_download_page, primary_source_audit, source_language",
+          "url": "https://github.com/Foxdear/umineko-catbox-X-english"
+        }
+      ],
+      "evidence_note": "The project describes an English translation/patch (or the listed language set) for the Japanese original. README says finished rebirth release v82.7.2 is complete; Switch console patch and supporting source/build scripts, with canonical project link at andolga.github.io. Project README/page identifies its target as the Japanese original or Japanese release and describes the English translation."
+    },
+    {
+      "id": "umineko-portable-psp-en",
+      "fields": {
+        "target_languages": "English",
+        "project_status": "Portable 1 complete; Portable 2 translation patch planned",
+        "patch_format": "xdelta patch1.xdelta",
+        "supported_game_build": "Umineko Portable 1 ULJM05968; source SHA-256 documented",
+        "platform_instructions": "PSP/PS Vita recommended; README describes PPSSPP text corruption limitation and Windows/web patch options",
+        "official_download_page": "https://github.com/kotcrab/umineko-portable-english/releases",
+        "primary_source_audit": "README says Portable 1 is fully translated/playable and patch for Portable 2 was planned; provides xdelta web and Windows methods plus PSP/PS Vita play notes.",
+        "source_language": "Japanese"
+      },
+      "sources": [
+        {
+          "label": "Maintainer evidence for target_languages, project_status, patch_format, supported_game_build, platform_instructions, official_download_page, primary_source_audit, source_language",
+          "url": "https://github.com/kotcrab/umineko-portable-english"
+        }
+      ],
+      "evidence_note": "The project describes an English translation/patch (or the listed language set) for the Japanese original. README says Portable 1 is fully translated/playable and patch for Portable 2 was planned; provides xdelta web and Windows methods plus PSP/PS Vita play notes. Project README/page identifies its target as the Japanese original or Japanese release and describes the English translation."
+    },
+    {
+      "id": "valkyria-chronicles-italian",
+      "fields": {
+        "target_languages": "Italian",
+        "patch_format": "Encrypted patch.pkg payload delivered through an installer; Windows executable and Linux/Steam Deck workflow documented",
+        "platform_instructions": "PC installer instructions cover Windows and Linux (Steam Deck)",
+        "project_status": "Work remains on MTP/MXE/MLX/HTX/ESR handling, text and texture translation, refinement, and full-game testing; no current version or exact base build stated",
+        "license_or_rights_note": "Repository includes an LGPL-2.1 license"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README with installer packaging, supported OS workflows, TODO list, and license",
+          "url": "https://github.com/zSavT/Valkyria-Chronicles-Patch-ITA"
+        }
+      ],
+      "evidence_note": "The README documents an encrypted patch.pkg installer, Windows and Linux/Steam Deck packaging, and a broad TODO list including remaining text/texture work and full-game testing. It does not identify a patch release version or exact game build."
+    },
+    {
+      "id": "virtua-cop-2-dc-en",
+      "fields": {
+        "target_languages": "English",
+        "release_version": "v1.1, 2026-09-25 (v1.0 initial 2024-05-23)",
+        "patch_format": "DCP for GDI/CUE; CDI patch remains roadmap work",
+        "official_download_page": "https://github.com/DerekPascarella/VirtuaCop2-EnglishPatchDreamcast",
+        "primary_source_audit": "README lists v1.1 (2026-09-25), DCP for GDI only; CDI remains roadmap work; translates helper text/stages/VMU metadata.",
+        "source_language": "Japanese"
+      },
+      "sources": [
+        {
+          "label": "Maintainer evidence for target_languages, release_version, patch_format, official_download_page, primary_source_audit, source_language",
+          "url": "https://github.com/DerekPascarella/VirtuaCop2-EnglishPatchDreamcast"
+        }
+      ],
+      "evidence_note": "The project describes an English translation/patch (or the listed language set) for the Japanese original. README lists v1.1 (2026-09-25), DCP for GDI only; CDI remains roadmap work; translates helper text/stages/VMU metadata. Project README/page identifies its target as the Japanese original or Japanese release and describes the English translation."
+    },
+    {
+      "id": "xiaomi-pc-manager-en",
+      "fields": {
+        "target_languages": "English",
+        "language_pair": "Chinese → English",
+        "project_status": "Maintained patch/install scripts for Xiaomi PC Manager 5.8.x; maintainer describes best-effort compatibility across 5.8.x",
+        "platform": "Windows 10/11",
+        "supported_game_build": "Community English UI localization for Xiaomi's Chinese-language Windows utility, modifying WebView2 strings, native WinUI resources and artwork with a rollback script.",
+        "patch_format": "Windows application resource and WebView2 string patch with rollback script",
+        "release_version": "5.8.x (best-effort; README focuses on 5.8.1.x)",
+        "patch_distribution": {
+          "release_source": "Maintainer GitHub repository",
+          "download": null
+        },
+        "legal_patch_only_details": [
+          "This is an unofficial application UI patch, not a game localization.",
+          "Maintainer warns that patching changes signed application files and removes their Authenticode signatures; repository includes a restore path.",
+          "No tagged GitHub release was identified; install instructions point to repository scripts."
+        ]
+      },
+      "sources": [
+        {
+          "label": "Maintainer README; target versions, patch scope, installation and caveats",
+          "url": "https://github.com/kremonia/XiaomiPCManager-English"
+        }
+      ],
+      "evidence_note": "Community English UI localization for Xiaomi's Chinese-language Windows utility, modifying WebView2 strings, native WinUI resources and artwork with a rollback script. This is an unofficial application UI patch, not a game localization. Maintainer warns that patching changes signed application files and removes their Authenticode signatures; repository includes a restore path. No tagged GitHub release was identified; install instructions point to repository scripts."
+    },
+    {
+      "id": "yakuza4-remastered-italian",
+      "fields": {
+        "target_languages": "Italian",
+        "patch_format": "OS-specific installer package that applies translation assets to the user's selected Yakuza 4 Remastered install folder",
+        "platform_instructions": "Windows and Linux/Steam Deck installer builds are documented",
+        "project_status": "WIP/alpha materials remain; subtitles and several interface/assets are translated while some boot parameters are partial and Colosseum text has limitations",
+        "supported_game_build": "PC Remastered; README does not state an exact game version/build"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README with install workflow, OS support, translated asset scope, and partial areas",
+          "url": "https://github.com/zSavT/Yakuza4-Patch-ITA"
+        }
+      ],
+      "evidence_note": "The README describes selecting a release installer for the OS and game folder, documents Windows and Linux/Steam Deck builds, and marks several assets translated while some boot parameters remain partial and Colosseum text has limitations. It does not pin an exact game build."
+    },
+    {
+      "id": "yakuza5-remastered-italian",
+      "fields": {
+        "target_languages": "Italian",
+        "patch_format": "OS-specific installer package that applies translation assets to the user's selected Yakuza 5 Remastered install folder",
+        "platform_instructions": "Windows and Linux/Steam Deck installer builds are documented",
+        "project_status": "Alpha/beta materials remain; README lists translated cutscenes, selected UI/assets, minigame and font resources, but does not report full-game completion",
+        "supported_game_build": "PC Remastered; README does not state an exact game version/build"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README with install workflow, OS support, translated asset scope, and alpha/beta materials",
+          "url": "https://github.com/zSavT/Yakuza5-Patch-ITA"
+        }
+      ],
+      "evidence_note": "The README says users select an OS-specific release installer and target game folder. It lists translated assets and separate alpha/beta materials, with Windows/Linux/Steam Deck packaging instructions; it does not state an exact game build or completion level."
+    },
+    {
+      "id": "yo-kai-watch-blasters-2-it",
+      "fields": {
+        "target_languages": "Italian",
+        "supported_game_build": "Nintendo 3DS Sword title ID 00040000001C9400; Magnum title ID 00040000001C9C00",
+        "patch_format": "ROMFS mod archive installed through Luma3DS game patching or Citra's Open Mod Folder workflow",
+        "distribution": "Patch archive obtained from the project release; maintainer disclaims piracy and says Citra use is for a ROM dumped from the user's own original cartridge",
+        "project_status": "Release patch for both Sword and Magnum; README gives no exact patch version"
+      },
+      "sources": [
+        {
+          "label": "Game Patching Team README with edition title IDs, ROMFS installation, and own-cartridge disclaimer",
+          "url": "https://github.com/GamePatchingTeam/YWB2-Release"
+        }
+      ],
+      "evidence_note": "The README lists separate 3DS title IDs for Magnum and Sword and installs the release archive's romfs folder as a Luma3DS/Citra mod. It explicitly rejects piracy and limits Citra support to a ROM dumped from the user's own original cartridge."
+    },
+    {
+      "id": "ysv-ps2-en",
+      "fields": {
+        "target_languages": "English",
+        "release_version": "v1.1",
+        "supported_game_build": "Japanese PS2 SLPM-66360 image; checksum set documented",
+        "patch_format": "xdelta applied with Delta Patcher",
+        "official_download_page": "https://github.com/Kaisaan/lostkefin/releases",
+        "primary_source_audit": "README lists V1.1 release and XDelta application for exact PS2 Japanese SLPM-66360 image with hashes; project also exposes extraction/build scripts and translation sheets.",
+        "source_language": "Japanese"
+      },
+      "sources": [
+        {
+          "label": "Maintainer evidence for target_languages, release_version, supported_game_build, patch_format, official_download_page, primary_source_audit, source_language",
+          "url": "https://github.com/Kaisaan/lostkefin"
+        }
+      ],
+      "evidence_note": "The project describes an English translation/patch (or the listed language set) for the Japanese original. README lists V1.1 release and XDelta application for exact PS2 Japanese SLPM-66360 image with hashes; project also exposes extraction/build scripts and translation sheets. Project README/page identifies its target as the Japanese original or Japanese release and describes the English translation."
+    }
+  ]
+}

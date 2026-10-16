@@ -1,0 +1,2070 @@
+{
+  "updated": "2026-10-15",
+  "updates": [
+    {
+      "id": "alttp-jp-disassembly",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "The Japanese 1.0 disassembly builds exactly to that ROM; the maintainer says routine analysis and understanding will continue.",
+        "subtype": "Byte-exact Super Famicom Japanese 1.0 65816 disassembly"
+      },
+      "sources": [
+        {
+          "label": "Project README",
+          "url": "https://github.com/spannerisms/jpdasm#readme"
+        }
+      ]
+    },
+    {
+      "id": "angle",
+      "fields": {
+        "platform": "OpenGL ES 2.0–3.2 → Vulkan, desktop OpenGL, Direct3D 9/11, or Metal as supported by the selected backend; platform coverage varies by renderer."
+      },
+      "sources": [
+        {
+          "label": "ANGLE maintainer README and backend/platform support tables",
+          "url": "https://github.com/google/angle/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "animal-crossing-3ds-port",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Early v0.1 development build; the maintainer reports about 60 FPS in most New 3DS town scenes and around 40 FPS in the busiest views. Original 3DS/2DS is untested and expected to be slow; only USA GAFE01 Rev 0 is supported.",
+        "summary": "Native New 3DS port of Animal Crossing's decompiled C, forked from the PC port. It compiles for ARM11 and translates GameCube GX commands through emu64/citro3d to PICA200; it supports GameCube-format saves and requires the user's own disc image.",
+        "strategy": "Decompilation-based native New 3DS port with GX-to-PICA200 translation",
+        "source_available": "Public source and CIA/3DSX releases; requires the user's own USA GAFE01 Rev 0 disc image and DSP firmware for sound"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: architecture, performance, exact revision, and hardware caveats",
+          "url": "https://github.com/paaime/ac-3ds/blob/3ds-port/README.md"
+        },
+        {
+          "label": "Maintainer releases",
+          "url": "https://github.com/paaime/ac-3ds/releases"
+        }
+      ]
+    },
+    {
+      "id": "animal-crossing-dreamcast-port",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Work in progress, not playable. The maintainer reports booting on retail Dreamcast and Flycast through town and house interiors with music/SFX; Flycast runs about 16–23 FPS and hardware is slower. Saving, villagers, and some models/materials remain missing.",
+        "summary": "Native SH-4 Dreamcast port of the USA Rev 0 GameCube build from the Animal Crossing decompilation, with GameCube graphics reimplemented for Dreamcast PowerVR. Docker/KallistiOS build steps require the user's own GAFE01 ISO; no game assets are included.",
+        "strategy": "Decompilation-based native SH-4 port with a PowerVR graphics backend",
+        "source_available": "Public source and Docker/KallistiOS build instructions; requires the user's own GAFE01 USA Rev 0 disc image"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: real-hardware status, limitations, supported disc, and build",
+          "url": "https://github.com/TechProGabe/OpenCrossing-Dreamcast/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer Dreamcast build instructions",
+          "url": "https://github.com/TechProGabe/OpenCrossing-Dreamcast/blob/main/BUILDING-DC.md"
+        }
+      ]
+    },
+    {
+      "id": "animal-crossing-xbox-port",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Version 1; the maintainer reports the whole game playable at 60 FPS on stock 64 MB Xbox hardware, with output options through 720p. The user's own USA GAFE01 Rev 0 image is required; other regions and Rev 1 are unsupported.",
+        "summary": "Native original Xbox port built by compiling Animal Crossing's decompiled C for the Xbox Pentium III and GPU. Supports 480i/480p/720p, widescreen, GameCube-format saves, and an Xbox release package; it is not an emulator.",
+        "strategy": "Decompilation-based native Xbox port",
+        "source_available": "Public source and Xbox release package; requires the user's own USA GAFE01 Rev 0 GameCube disc image"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: method, hardware performance, supported image, and install options",
+          "url": "https://github.com/TechProGabe/OpenCrossing-Xbox/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer Xbox releases",
+          "url": "https://github.com/TechProGabe/OpenCrossing-Xbox/releases"
+        }
+      ]
+    },
+    {
+      "id": "anyps5",
+      "fields": {
+        "subtype": "Offline PS5 executable relinker with system-library replacements and Vulkan shader/GPU compatibility; title-specific execution remains unverified until it runs."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README and build documentation",
+          "url": "https://github.com/boykopovar/AnyPS5"
+        },
+        {
+          "label": "Maintainer build documentation",
+          "url": "https://github.com/boykopovar/AnyPS5/blob/main/docs/dev/BUILD.md"
+        }
+      ]
+    },
+    {
+      "id": "asphalt-8-android-vita-port",
+      "fields": {
+        "status": "v0.3 (2026-09-11); maintainer reports menus, races, saves, physical/touch controls, and high-50s race performance for Android Asphalt 8 v2.0.0e on Vita; user-supplied APK/OBB required."
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository: exact source build and current feature claims",
+          "url": "https://gitlab.com/sexcurrybeats/asphalt8-vita"
+        },
+        {
+          "label": "Maintainer release history",
+          "url": "https://gitlab.com/sexcurrybeats/asphalt8-vita/-/releases"
+        }
+      ]
+    },
+    {
+      "id": "banjo-recompiled",
+      "fields": {
+        "platform": "Nintendo 64 → macOS 13+ on Apple silicon or Intel 7th-generation Mac; Windows x64/ARM64, Linux and Steam Deck",
+        "status": "Latest release v1.0.2 (2026-07-31). The README requires the North American 1.0 Nintendo 64 game image and lists macOS 13.0+; no game assets are included.",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "Banjo: Recompiled README: Mac system requirements and accepted ROM",
+          "url": "https://github.com/BanjoRecomp/BanjoRecomp"
+        },
+        {
+          "label": "Latest Banjo: Recompiled release",
+          "url": "https://github.com/BanjoRecomp/BanjoRecomp/releases/tag/v1.0.2"
+        }
+      ]
+    },
+    {
+      "id": "bbhost",
+      "fields": {
+        "status": "Experimental; v0.2.18 was released 2026-10-10. The maintainer reports Bloodborne 1.09 playable through Windows/Linux world areas and bosses; the renderer remains hybrid with PM4/compute work and known GPU hangs/hitches."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README and compatibility caveats",
+          "url": "https://github.com/droogie/bbhost"
+        },
+        {
+          "label": "Maintainer v0.2.18 release (2026-10-10)",
+          "url": "https://github.com/droogie/bbhost/releases/tag/v0.2.18"
+        }
+      ]
+    },
+    {
+      "id": "bbport",
+      "fields": {
+        "summary": "Game-specific experimental Bloodborne runtime for Linux that runs the PS4 x86-64 game code on the host, reimplements selected services, and currently renders through shadPS4-derived PM4 processing with Vulkan shader recompilation. Direct GNM-call-to-Vulkan translation is described as future work."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README and graphics roadmap",
+          "url": "https://github.com/Yharnam-Hunters/bbport"
+        },
+        {
+          "label": "Maintainer release history",
+          "url": "https://github.com/Yharnam-Hunters/bbport/releases"
+        }
+      ]
+    },
+    {
+      "id": "botw-decomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Experimental work-in-progress decompilation of The Legend of Zelda: Breath of the Wild version 1.5.0 for Switch; the repository cannot be used to play the game.",
+        "source_available": "Public source repository; game assets and RomFS content are not included",
+        "subtype": "Nintendo Switch version 1.5.0 game-code decompilation"
+      },
+      "sources": [
+        {
+          "label": "Project README",
+          "url": "https://github.com/zeldaret/botw#readme"
+        }
+      ]
+    },
+    {
+      "id": "chrono-cross-decomp",
+      "fields": {
+        "platform": "PlayStation (Japanese release SLPS 023.64)",
+        "summary": "In-progress matching decompilation of the Japanese PS1 release SLPS 023.64. The README documents extracting the unmodified game image from the 2022 Radical Dreamers Edition remaster's cdrom.dat; game data is not included."
+      },
+      "sources": [
+        {
+          "label": "Project README: supported release and extraction path",
+          "url": "https://github.com/jdperos/chrono-cross-decomp#readme"
+        }
+      ]
+    },
+    {
+      "id": "corsixth",
+      "fields": {
+        "status": "Active; latest release v0.70.1 was published 2026-08-28. The project offers macOS installers and Linux AppImage builds; original Theme Hospital data is required.",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "CorsixTH README: supported systems and required original data",
+          "url": "https://github.com/CorsixTH/CorsixTH/blob/master/README.md"
+        },
+        {
+          "label": "Latest CorsixTH release",
+          "url": "https://github.com/CorsixTH/CorsixTH/releases/tag/v0.70.1"
+        }
+      ]
+    },
+    {
+      "id": "crash-bandicoot-2-ps1-recomp",
+      "fields": {
+        "source_available": "Public source repository and v0.9.6 release; user supplies the North American SCUS-94154 disc image. No game content is included; the release includes the MIT-licensed OpenBIOS replacement."
+      },
+      "sources": [
+        {
+          "label": "Project README: supported disc and source/game-data availability",
+          "url": "https://github.com/Zumbo06/Crash2Recomp#readme"
+        },
+        {
+          "label": "v0.9.6 release",
+          "url": "https://github.com/Zumbo06/Crash2Recomp/releases/tag/v0.9.6"
+        }
+      ]
+    },
+    {
+      "id": "crossover",
+      "fields": {
+        "strategy": "Commercial Wine-based Windows compatibility product; graphics backends are selectable components including WineD3D, DXVK, DXMT, and Apple D3DMetal. Native ARM64 Mac support is a Preview path using a custom FEX build for x86/x64 code."
+      },
+      "sources": [
+        {
+          "label": "CodeWeavers CrossOver Mac graphics backend documentation",
+          "url": "https://support.codeweavers.com/en_US/advanced-settings-in-crossover-mac-26"
+        },
+        {
+          "label": "CodeWeavers native ARM64 Mac Preview announcement",
+          "url": "https://www.codeweavers.com/blog/mjohnson/2026/7/31/crossover-preview-the-right-to-bear-arm64-on-mac"
+        }
+      ]
+    },
+    {
+      "id": "d3d8to9",
+      "fields": {
+        "platform": "Direct3D 8 → Direct3D 9; Windows proxy DLL, with 32-bit and 64-bit builds. It can be chained with a separate D3D9 backend such as DXVK, but does not itself translate to Vulkan.",
+        "status": "Active source project; v1.16.0 was released 2026-09-23."
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository and README",
+          "url": "https://github.com/crosire/d3d8to9"
+        },
+        {
+          "label": "Maintainer v1.16.0 release (2026-09-23)",
+          "url": "https://github.com/crosire/d3d8to9/releases/tag/v1.16.0"
+        }
+      ]
+    },
+    {
+      "id": "d3dmetal-game-porting-toolkit",
+      "fields": {
+        "platform": "Windows Direct3D 11/12 → Metal on Apple silicon macOS, used within Wine/CrossOver and Apple's Game Porting Toolkit",
+        "strategy": "Proprietary Direct3D 11/12-to-Metal graphics translation component; it is not by itself the Windows API compatibility layer.",
+        "status": "Proprietary active graphics component. Apple currently lists Game Porting Toolkit 4; CodeWeavers documents D3DMetal as its Direct3D 11/12 graphics backend. Apple does not publish a separate D3DMetal version on the checked toolkit page.",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "Apple Game Porting Toolkit documentation",
+          "url": "https://developer.apple.com/games/game-porting-toolkit/"
+        },
+        {
+          "label": "CodeWeavers D3DMetal announcement and named game examples",
+          "url": "https://www.codeweavers.com/blog/mjohnson/2023/9/27/crossover-235-is-a-real-game-changer"
+        },
+        {
+          "label": "CodeWeavers CrossOver graphics backend documentation",
+          "url": "https://support.codeweavers.com/en_US/advanced-settings-in-crossover-mac-26"
+        }
+      ]
+    },
+    {
+      "id": "darling-macos-linux-compatibility",
+      "fields": {
+        "status": "Active; latest release v0.1.20260608 was published 2026-06-09 UTC, and the default branch had commits through 2026-09-06. The README reports many command-line tools functional, GUI support in active development, and an initial Metal backend powered by Vulkan translation.",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "Darling maintainer README: system architecture and Metal backend maturity",
+          "url": "https://github.com/darlinghq/darling#readme"
+        },
+        {
+          "label": "Darling v0.1.20260608 release (2026-06-09)",
+          "url": "https://github.com/darlinghq/darling/releases/tag/v0.1.20260608"
+        },
+        {
+          "label": "Darling README: scope and current GUI/Metal status",
+          "url": "https://github.com/darlinghq/darling"
+        },
+        {
+          "label": "Darling recent commits",
+          "url": "https://github.com/darlinghq/darling/commits/master"
+        }
+      ]
+    },
+    {
+      "id": "daytona-usa-model2-recomp",
+      "fields": {
+        "summary": "Static recompilation of the Model 2 i960 program with native modeled board hardware. Setup supports MAME-format daytona93 (Daytona USA Deluxe '93) and daytona ROM sets as separate builds; users supply their own ROMs.",
+        "source_available": "Public source repository; user-supplied MAME-format daytona93 or daytona ROM set required; no game data included",
+        "status": "Active development; the README identifies Windows, macOS and Linux as main builds, and GitHub Actions builds/tests on macOS. No GitHub release is published as of 2026-10-15.",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "Daytona USA recompilation README: supported ROM sets and build flow",
+          "url": "https://github.com/alphanu1/daytona-arcade-recomp#readme"
+        },
+        {
+          "label": "Recompilation design notes",
+          "url": "https://github.com/alphanu1/daytona-arcade-recomp/blob/main/docs/daytona-usa-recomp-design.md"
+        },
+        {
+          "label": "Daytona USA Recomp README: main host platforms and build instructions",
+          "url": "https://github.com/alphanu1/daytona-arcade-recomp"
+        },
+        {
+          "label": "Daytona USA Recomp macOS/desktop CI workflow",
+          "url": "https://github.com/alphanu1/daytona-arcade-recomp/actions"
+        }
+      ]
+    },
+    {
+      "id": "def-jam-fight-for-ny-xbox-recomp",
+      "fields": {
+        "platform": "Original Xbox → Windows x64 (Direct3D 11), Apple silicon macOS and Linux x86-64 (Vulkan), Steam Deck via Linux",
+        "status": "Latest release v0.9.1 (2026-10-15). The README says users provide a supported US Xbox dump and the setup builds the game locally; it describes the Mac/Linux Vulkan path and a 60-fps target.",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "Def Jam Recomp README: platform backends and supported dump",
+          "url": "https://github.com/vyanhursky/DefJamFFNY-recomp"
+        },
+        {
+          "label": "Latest Def Jam Recomp release",
+          "url": "https://github.com/vyanhursky/DefJamFFNY-recomp/releases/tag/v0.9.1"
+        }
+      ]
+    },
+    {
+      "id": "devilutionx",
+      "fields": {
+        "status": "Active; latest stable release v1.5.5 (2025-10-30). The README lists a macOS x86_64 build workflow, and repository development continued through 2026-10-15; original Diablo/Hellfire data is still required.",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "DevilutionX README: macOS build workflow and original-data requirement",
+          "url": "https://github.com/diasurgical/DevilutionX"
+        },
+        {
+          "label": "Latest DevilutionX release",
+          "url": "https://github.com/diasurgical/DevilutionX/releases/tag/1.5.5"
+        },
+        {
+          "label": "macOS x86_64 build workflow",
+          "url": "https://github.com/diasurgical/DevilutionX/actions/workflows/macOS_x86_64.yml"
+        }
+      ]
+    },
+    {
+      "id": "diddy-kong-racing-golden-balloon-nx",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Switch NRO releases are available; v1.2.1-nx documents Switch save/configuration fixes and ongoing optimization. Supported input is the US v1.1 (`us.v80`) ROM; the README does not establish whole-game completion on Switch.",
+        "summary": "Native Switch port of Golden Balloon, a decompilation-based source port of Diddy Kong Racing. It compiles game code for ARM64 rather than emulating the N64; no game data is included.",
+        "strategy": "Decompilation-based native Switch port of the Golden Balloon source port",
+        "source_available": "Public source and Switch NRO releases; requires the user's supported US v1.1 ROM"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: Switch target, user ROM, and platform-specific caveats",
+          "url": "https://github.com/boraeskicioglu/goldenballoon_nx#readme"
+        },
+        {
+          "label": "Maintainer Switch releases",
+          "url": "https://github.com/boraeskicioglu/goldenballoon_nx/releases"
+        }
+      ]
+    },
+    {
+      "id": "diddy-kong-racing-pc-recomp",
+      "fields": {
+        "summary": "Native static recompilation of Diddy Kong Racing. The current README lists US v1.0 and US Rev A/v1.1 as supported ROM revisions; the game ROM and assets are not included."
+      },
+      "sources": [
+        {
+          "label": "Project README, supported ROMs",
+          "url": "https://raw.githubusercontent.com/ThatGuyMcd/DKR-R/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "diddy-kong-racing-vita-port",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Stable Vita release v1.7.2 boots and loads the supported ROM, renders races/menus, saves, and has hardware-confirmed audio and silver-coin jingles. A full Adventure playthrough was confirmed on an earlier Restored baseline, not newly re-tested for v1.7.2.",
+        "summary": "Native PS Vita port of Golden Balloon, a source port based on the Diddy Kong Racing decompilation. Game code is cross-compiled for Vita; the user supplies a US v80 ROM. Current Vita release includes HD texture support and an optional 98-trophy pack.",
+        "strategy": "Decompilation-based native Vita port of the Golden Balloon source port",
+        "source_available": "Public source and stable Vita VPK releases; requires the user's supported US v80 ROM and Vita homebrew runtime"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: current release, hardware status, exact ROM, and limitations",
+          "url": "https://github.com/zm2283145/goldenballoon-vita-port/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer Vita port status table",
+          "url": "https://github.com/zm2283145/goldenballoon-vita-port/blob/main/PORTING_STATUS.md"
+        },
+        {
+          "label": "Maintainer v1.7.2 Vita release",
+          "url": "https://github.com/zm2283145/goldenballoon-vita-port/releases/tag/v1.7.2"
+        }
+      ]
+    },
+    {
+      "id": "digimon-world-3-switch-port",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Early preview v0.6.5-preview.28. On Switch, title/menu and field work, battles run below full speed, and the opening movie is about 15 FPS; save/reload is confirmed for US and EU discs. Full playthrough is not confirmed.",
+        "summary": "Native source port from the matching PlayStation decompilation's C code, not static recompilation or an emulator. A PSY-Z Psy-Q shim supplies console APIs, with SDL3 on PC and libnx/GLES on Switch; the NRO extracts runtime files from the user's own disc.",
+        "strategy": "Decompilation-based native source port with PSY-Z and Switch libnx/GLES backend",
+        "source_available": "Public source, preview release, and build/install instructions; requires the user's supported PlayStation disc"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: exact method, Switch status matrix, supported discs, and installation",
+          "url": "https://github.com/Larbaco/dw3-switch/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer v0.6.5 preview release",
+          "url": "https://github.com/Larbaco/dw3-switch/releases/tag/v0.6.5-preview.28"
+        }
+      ]
+    },
+    {
+      "id": "dk64recomp-nx",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Nintendo Switch homebrew release and build path are documented. The README describes a static MIPS-to-C recompilation and requires the user's own game data; it does not establish a complete-playthrough result.",
+        "summary": "Switch target of Donkey Kong 64 Recompiled: N64 MIPS code is statically translated to C and built as native Switch homebrew without CPU emulation.",
+        "strategy": "Static recompilation of Nintendo 64 MIPS code to native Switch code",
+        "source_available": "Public source and Switch releases; requires user-supplied game data"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: method and Switch build/use",
+          "url": "https://github.com/Trinalord777/DK64Recomp-NX#readme"
+        },
+        {
+          "label": "Maintainer Switch releases",
+          "url": "https://github.com/Trinalord777/DK64Recomp-NX/releases"
+        }
+      ]
+    },
+    {
+      "id": "donkey-kong-country-2-switch-recomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Real Switch hardware boot and execution are reported; buttons, audio, and persistent SRAM work at 1280×720/16:9. Widescreen remains incompletely validated, and the documented input is the North American v1.0 ROM.",
+        "summary": "Native Switch build from a static recompilation of the SNES game; the user supplies the supported ROM. The README records device-level tests and the remaining widescreen validation limit.",
+        "strategy": "Static SNES recompilation to native Switch homebrew",
+        "source_available": "Public source and build instructions; requires the user's own North American v1.0 ROM"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: static recompilation, supported ROM, and real-device test notes",
+          "url": "https://github.com/1weell/DKC2Recomp-Switch#readme"
+        },
+        {
+          "label": "Maintainer releases",
+          "url": "https://github.com/1weell/DKC2Recomp-Switch/releases"
+        }
+      ]
+    },
+    {
+      "id": "dqix-decomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Work in progress; the project builds USA or Japanese 1:1 ROMs and verifies modules against the original. Full-ROM SHA-1 verification also requires an ARM7 BIOS dump.",
+        "strategy": "Matching disassembly and C++ decompilation",
+        "source_available": "Public source repository; user-supplied USA/Japanese ROM and ARM7 BIOS are needed for full-ROM verification",
+        "programming_language": "C++",
+        "subtype": "Nintendo DS 1:1 disassembly/decompilation (USA and Japan)"
+      },
+      "sources": [
+        {
+          "label": "Project README",
+          "url": "https://github.com/DQIX/dqix-decomp#readme"
+        }
+      ]
+    },
+    {
+      "id": "dxmt",
+      "fields": {
+        "platform": "Direct3D 10/11 → Metal; macOS through Wine/CrossOver, with the project primarily documenting x86-64 Wine DLL builds.",
+        "status": "Experimental macOS/Wine implementation of Direct3D 10/11; v0.80 is the latest published release (2026-04-23). The repository has code changes through 2026-10-07, and its issue tracker still lists compatibility and performance bugs.",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "DXMT maintainer repository and install guidance",
+          "url": "https://github.com/3Shain/dxmt"
+        },
+        {
+          "label": "DXMT v0.80 release (2026-04-23)",
+          "url": "https://github.com/3Shain/dxmt/releases/tag/v0.80"
+        },
+        {
+          "label": "DXMT recent commits",
+          "url": "https://github.com/3Shain/dxmt/commits/main"
+        },
+        {
+          "label": "DXMT issue tracker",
+          "url": "https://github.com/3Shain/dxmt/issues"
+        }
+      ]
+    },
+    {
+      "id": "dxvk",
+      "fields": {
+        "platform": "Direct3D 8/9/10/11 → Vulkan; primarily Linux through Wine/Proton, with 32-bit and 64-bit builds. Windows use is explicitly community-supported/unsupported by upstream. The same repository also provides a native library mode for porting without Wine.",
+        "status": "Active; DXVK 3.1.1 was released 2026-09-15. Current 3.x driver requirements and Wine winevulkan requirements are listed in the maintainer wiki."
+      },
+      "sources": [
+        {
+          "label": "DXVK upstream README and API coverage",
+          "url": "https://github.com/doitsujin/dxvk/blob/master/README.md"
+        },
+        {
+          "label": "DXVK 3.1.1 release (2026-09-15)",
+          "url": "https://github.com/doitsujin/dxvk/releases/tag/v3.1.1"
+        },
+        {
+          "label": "DXVK driver support requirements",
+          "url": "https://github.com/doitsujin/dxvk/wiki/Driver-support"
+        }
+      ]
+    },
+    {
+      "id": "dxvk-macos",
+      "fields": {
+        "status": "Experimental/stale Mac-specific build line; latest listed release v1.10.3-20230507-repack was published 2024-07-23. The project relies on Wine and MoltenVK for the D3D10/11→Vulkan→Metal path; current compatibility with modern Wine/MoltenVK is not established.",
+        "programming_language": "C++",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "DXVK-macOS maintainer README",
+          "url": "https://github.com/Gcenx/DXVK-macOS"
+        },
+        {
+          "label": "DXVK-macOS latest listed release",
+          "url": "https://github.com/Gcenx/DXVK-macOS/releases/tag/v1.10.3-20230507-repack"
+        },
+        {
+          "label": "DXVK-macOS GitHub language metadata",
+          "url": "https://api.github.com/repos/Gcenx/DXVK-macOS/languages"
+        }
+      ]
+    },
+    {
+      "id": "f-zero-x-3ds-port",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "The maintainer reports playable New 3DS/New 2DS builds with median 59.6 FPS on tested hardware; heavy Expansion Kit packs can reduce performance.",
+        "summary": "Native New 3DS/2DS port built from the F-Zero X decompilation and G-Diffuser components. The README documents stereoscopic 3D, full audio, and touchscreen settings; it is not N64 emulation.",
+        "strategy": "Decompilation-based native 3DS port using G-Diffuser components",
+        "source_available": "Public source and 3DS build instructions; requires supported N64 game and Expansion Kit data"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: New 3DS target, gameplay features, performance, and data requirements",
+          "url": "https://github.com/cruxxxxxx/gdx-3ds#readme"
+        },
+        {
+          "label": "Maintainer build and release files",
+          "url": "https://github.com/cruxxxxxx/gdx-3ds/releases"
+        }
+      ]
+    },
+    {
+      "id": "f-zero-x-switch-port",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Switch port of G-Diffuser v1.0.1; user must supply N64 game data, 64DD BIOS, and Expansion Kit data, with generated .o2r files copied from PC. The README conflicts on the base revision: its Switch requirement says US Rev 1.0 while its Quick Start names a US Rev 0 input.",
+        "summary": "NX-Diffuser ports G-Diffuser to Switch; G-Diffuser is itself a decompilation-based source port using libultraship. This is a native NRO port, not a direct static recompilation of the original N64 binary.",
+        "strategy": "Decompilation-based native port of G-Diffuser to Switch",
+        "source_available": "Public source and Switch releases; user supplies the N64 ROM, 64DD BIOS, and Expansion Kit data"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: upstream relationship, exact data requirements, feature parity, and NRO install",
+          "url": "https://github.com/PalindromicBreadLoaf/NX-Diffuser#readme"
+        },
+        {
+          "label": "Maintainer Switch releases",
+          "url": "https://github.com/PalindromicBreadLoaf/NX-Diffuser/releases"
+        }
+      ]
+    },
+    {
+      "id": "fatal-frame-ps2-decomp",
+      "fields": {
+        "platform": "PlayStation 2 (US SLUS_203.88; Europe SLES_508.21; Japan SLPS_250.74)",
+        "summary": "Matching PS2 decompilation for the US Fatal Frame, European Project Zero, and Japanese Zero executables. Public C source is paired with assembly fallbacks; users provide their own game files."
+      },
+      "sources": [
+        {
+          "label": "Project README: regional executables and build inputs",
+          "url": "https://github.com/Mikompilation/Himuro#readme"
+        }
+      ]
+    },
+    {
+      "id": "frogger-adventures-temple-of-the-frog-gba-decomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Work in progress, but the current USA build is byte-identical: the README reports zero ROM-diff bytes and no nonmatching functions. Relocatable linking is separate future work because sections and raw pointers remain fixed at base-ROM addresses.",
+        "source_available": "Public source repository; a user-supplied USA base ROM is required for build verification",
+        "subtype": "Byte-identical fixed-address USA GBA decompilation; relocatability is unfinished"
+      },
+      "sources": [
+        {
+          "label": "Project README",
+          "url": "https://github.com/JRickey/frog-adv-temple-decomp#readme"
+        }
+      ]
+    },
+    {
+      "id": "galaxypad-super-mario-galaxy",
+      "fields": {
+        "platform": "Wii → iOS/iPadOS 16+, Apple silicon macOS 14+; native ARM64 game code with Metal",
+        "status": "Experimental release v0.2.2 (2026-10-15). The current engine compiles for Apple silicon and uses Metal; full-game completion is not verified, and the README does not provide a prebuilt IPA.",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "GalaxyPad README: target versions, native ARM64 engine and limits",
+          "url": "https://github.com/chrissotraidis/galaxypad"
+        },
+        {
+          "label": "GalaxyPad v0.2.2 release",
+          "url": "https://github.com/chrissotraidis/galaxypad/releases/tag/v0.2.2"
+        }
+      ]
+    },
+    {
+      "id": "god-hand-decomp",
+      "fields": {
+        "platform": "PlayStation 2 NTSC-U (SLUS-21503)"
+      },
+      "sources": [
+        {
+          "label": "Project README: primary retail target",
+          "url": "https://github.com/LucasPicoli/god-hand-decomp#readme"
+        }
+      ]
+    },
+    {
+      "id": "god-of-war-ii-hd-ps3-recomp",
+      "fields": {
+        "platform": "PlayStation 3 HD version (PowerPC PPU and Cell SPU) → Apple silicon macOS arm64 with Metal",
+        "status": "Latest setup-kit release kit-macos-20260930 (2026-09-30). The README reports Rhodes gameplay, saves and 45–60 fps on Apple silicon, while full-campaign completion is not claimed and a Colossus fight rendering issue remains.",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "God of War II HD README: source version, ARM64 recompilation and test status",
+          "url": "https://github.com/andrebrumdev/gow2-recomp"
+        },
+        {
+          "label": "Latest God of War II setup-kit release",
+          "url": "https://github.com/andrebrumdev/gow2-recomp/releases/tag/kit-macos-20260930"
+        }
+      ]
+    },
+    {
+      "id": "halo-combat-evolved-vita-port",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Version 1.1.0 is the maintainer's current release; screenshots and feature documentation are from PS Vita. The game code is compiled for the Vita ARM processor, and the README identifies official repository downloads and the required user-owned Xbox game.",
+        "summary": "Native Vita port from the original Xbox decompilation, not an emulator: Xbox game code is compiled for ARM and Direct3D rendering is translated to the Vita GPU. The release adds online, co-op, ad hoc, and bot features; multiplayer needs specified PC files.",
+        "strategy": "Decompilation-based native Vita port with Direct3D-to-Vita-GPU translation",
+        "source_available": "Public source and official VPK releases; requires the user's Xbox copy, with extra PC files for online play"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: method, current 1.1.0 release, download policy, and data requirements",
+          "url": "https://github.com/BirchWoodGod/halo-ce-vita#readme"
+        },
+        {
+          "label": "Maintainer 1.1.0 release",
+          "url": "https://github.com/BirchWoodGod/halo-ce-vita/releases/tag/1.1.0"
+        }
+      ]
+    },
+    {
+      "id": "hybrid-heaven-recomp",
+      "fields": {
+        "platform": "Nintendo 64 → Windows x64, Linux x86-64, Android arm64",
+        "status": "Latest release v1.0.1 (2026-10-04). The current README's release matrix lists Windows, Linux and Android only; macOS support is not documented.",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "Hybrid Heaven Recomp README: method and release platform matrix",
+          "url": "https://github.com/ogdanimal/HybridHeaven-Recomp"
+        },
+        {
+          "label": "Latest Hybrid Heaven Recomp release",
+          "url": "https://github.com/ogdanimal/HybridHeaven-Recomp/releases/tag/v1.0.1"
+        }
+      ]
+    },
+    {
+      "id": "infamous-second-son-ps4-pc",
+      "fields": {
+        "summary": "A game-specific native PC port/compatibility runtime for inFAMOUS: Second Son. It runs the PS4 x86-64 game code on Windows/Linux hosts, replaces selected PS4 services, and translates GPU work to Vulkan; compatibility claims apply only to the documented game build and tested hardware."
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository: method and exact game build requirements",
+          "url": "https://github.com/HayatoG/iss_pc"
+        },
+        {
+          "label": "Maintainer releases",
+          "url": "https://github.com/HayatoG/iss_pc/releases"
+        }
+      ]
+    },
+    {
+      "id": "kh-days-decomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Work in progress; the README reports 23,125 of about 23,233 functions (99.5%) decompiled to matching C and all 306 initialized modules byte-identical. Readability, naming, and source organization remain active work.",
+        "source_available": "Public matching-source repository; no ROM/assets or playable game binary are included or produced",
+        "subtype": "Matching C decompilation with byte-verified original assembly for exceptions"
+      },
+      "sources": [
+        {
+          "label": "Project README",
+          "url": "https://github.com/Yokimitsuro/khdays-decomp#readme"
+        }
+      ]
+    },
+    {
+      "id": "kingdom-hearts-358-days-vita-port",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Native Vita port; only the European YKGP cartridge dump is supported (US YKGE and other regions do not work). The README documents save import/export and Vita build steps.",
+        "summary": "The DS decompilation is compiled for Vita; DS 2D/3D, sound, card, and touch behavior are reimplemented on VitaSDK/vitaGL. A Vita homebrew install uses the user's European game dump; no game data is included.",
+        "strategy": "Decompilation-based native Vita port with DS hardware behavior reimplemented on VitaSDK/vitaGL",
+        "source_available": "Public source and VPK/build instructions; requires user's European YKGP cartridge dump and Vita shader runtime"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: technique, exact supported region/hash, saves, and build instructions",
+          "url": "https://github.com/ggdrn/KH-DAYS-VITA#readme"
+        },
+        {
+          "label": "Maintainer architecture notes",
+          "url": "https://github.com/ggdrn/KH-DAYS-VITA/blob/main/ARCHITECTURE.md"
+        }
+      ]
+    },
+    {
+      "id": "kytyps5",
+      "fields": {
+        "kind": "Emulator",
+        "status": "Active development; latest release tag KytyPS5-2026-10-16-3ff6606 was published 2026-10-16 UTC (2026-10-15 EDT). The README reports title-dependent boot/rendering results and says Windows/Linux are primary; macOS is experimental under Rosetta 2 on Apple silicon, with only a small set of in-game tests, so this does not establish broad gameplay compatibility.",
+        "strategy": "Hybrid console emulation with an RDNA2 shader recompiler that translates guest GPU programs to SPIR-V/Vulkan; system and CPU execution are part of the emulator, not a standalone graphics API layer.",
+        "platform": "PlayStation 5 x86-64 software → Windows x64, Linux x64, and experimental macOS x86-64 under Rosetta 2 on Apple silicon; Vulkan 1.3 with MoltenVK on macOS",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "Maintainer project documentation and emulator description",
+          "url": "https://github.com/KytyPS5/KytyPS5"
+        },
+        {
+          "label": "Maintainer release build published 2026-10-15 (local date)",
+          "url": "https://github.com/KytyPS5/KytyPS5/releases/tag/KytyPS5-2026-10-16-83db2ef"
+        },
+        {
+          "label": "Latest KytyPS5 release",
+          "url": "https://github.com/KytyPS5/KytyPS5/releases/tag/KytyPS5-2026-10-16-3ff6606"
+        }
+      ]
+    },
+    {
+      "id": "link-awakening-switch-recomp",
+      "fields": {
+        "platform": "Nintendo Switch → Apple silicon macOS (Metal/MetalFX, macOS 15+), Windows x86-64 (Vulkan), Linux x86-64 (Vulkan); Linux aarch64 experimental",
+        "status": "Beta; latest release beta_4 (2026-10-15). The README identifies macOS as Apple silicon only with Metal/MetalFX, Windows/Linux as x86-64 Vulkan builds, and Linux aarch64 as built but untested on real hardware.",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "LAS Recomp README: supported host architectures and graphics APIs",
+          "url": "https://github.com/peiikai/LASRecomp"
+        },
+        {
+          "label": "LAS Recomp beta_4 release",
+          "url": "https://github.com/peiikai/LASRecomp/releases/tag/beta_4"
+        }
+      ]
+    },
+    {
+      "id": "lost-odyssey-recomp",
+      "fields": {
+        "status": "v0.9.65 release published 2026-10-15 UTC. The current README offers Windows x64, Linux x64 (AppImage/Flatpak), macOS arm64 and Android arm64 packages and documents importing all four discs and DLC; it does not make an explicit full-campaign completion claim.",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "Project README and installation guide",
+          "url": "https://github.com/freefrank/LostOdysseyRecomp"
+        },
+        {
+          "label": "v0.9.65 release notes",
+          "url": "https://github.com/freefrank/LostOdysseyRecomp/releases/tag/v0.9.65"
+        },
+        {
+          "label": "Community release lead",
+          "url": "https://www.dsogaming.com/news/unofficial-pc-version-of-xbox-360-classic-lost-odyssey-released/"
+        }
+      ]
+    },
+    {
+      "id": "lsd-dream-emulator-decomp",
+      "fields": {
+        "status": "In progress; the README reports 194,212 of 199,912 game-function bytes matched in C (97.15%) and documents a helper for launching the matching build. SDK/startup code is outside that percentage.",
+        "summary": "Matching decompilation of the Japanese PS1 executable with a reproducible build and byte-comparison checks. The README reports 97.15% matched game-function bytes and a launch helper; the executable, extracted assets, and BIOS are user-supplied."
+      },
+      "sources": [
+        {
+          "label": "Project README: current matching progress and supported build workflow",
+          "url": "https://github.com/BaileyPillon/lsd-dream-emulator-decompilation#readme"
+        },
+        {
+          "label": "Project status and roadmap",
+          "url": "https://github.com/BaileyPillon/lsd-dream-emulator-decompilation/blob/main/docs/ROADMAP.md"
+        }
+      ]
+    },
+    {
+      "id": "magevk",
+      "fields": {
+        "programming_language": "Objective-C++",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "MageVK GitHub language metadata",
+          "url": "https://api.github.com/repos/dttdrv/magevk/languages"
+        },
+        {
+          "label": "MageVK README and project status",
+          "url": "https://github.com/dttdrv/magevk"
+        }
+      ]
+    },
+    {
+      "id": "mario-kart-64-dreamcast-port",
+      "fields": {
+        "summary": "Native Dreamcast port based on the Mario Kart 64 decompilation. The README requires a supported US Nintendo 64 ROM and gives its expected MD5; it also documents testing on physical Dreamcast hardware."
+      },
+      "sources": [
+        {
+          "label": "Project README, ROM setup and hardware testing",
+          "url": "https://raw.githubusercontent.com/jnmartin84/mk64-dc/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "mario-kart-64-static-recomp",
+      "fields": {
+        "summary": "Native Nintendo 64 static recompilation into a desktop application. The README says it accepts only the North American Nintendo 64 version; the player supplies the game image."
+      },
+      "sources": [
+        {
+          "label": "Project README, ROM selection FAQ",
+          "url": "https://raw.githubusercontent.com/sonicdcer/MarioKart64Recomp/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "mario-kart-wii-3ds-port",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Version 0.5.2 supports Grand Prix, Time Trials, and Battle; Coin Runners and Team VS are unfinished. The maintainer documents building a 3DS CIA from the user's Wii disc.",
+        "summary": "Native Mario Kart Wii adaptation for Nintendo 3DS continued from an earlier port; it is not a Wii emulator or static recompilation. The maintainer supplies a build path that consumes the user's own disc.",
+        "strategy": "Native reimplementation/port to Nintendo 3DS",
+        "source_available": "Public source and 3DS build instructions; requires the user's Wii game disc"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: current mode support, source-port method, and own-disc build",
+          "url": "https://github.com/MiniBandit/MKW-3DS#readme"
+        },
+        {
+          "label": "Maintainer releases",
+          "url": "https://github.com/MiniBandit/MKW-3DS/releases"
+        }
+      ]
+    },
+    {
+      "id": "mario-kart-wii-decomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Work in progress; the README exposes separate main.dol and StaticR.rel progress and requires an existing game copy.",
+        "source_available": "Public source repository; game assets/assembly are not included; original game copy required",
+        "subtype": "Wii main.dol and StaticR.rel source decompilation"
+      },
+      "sources": [
+        {
+          "label": "Project README",
+          "url": "https://github.com/doldecomp/mkw#readme"
+        }
+      ]
+    },
+    {
+      "id": "mass-effect-switch-recomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Active work in progress. Prologue, Normandy deck, Citadel wards, Mako exploration, dialogue, and combat are reported playable; stock-clock performance averages about 25 FPS at 960×544, roughly 20 FPS in foliage-heavy combat and 30+ indoors.",
+        "summary": "Xbox 360 PowerPC `default.xex` is statically translated to C++ with ReXGlue and compiled for Switch ARM64; a custom Vulkan/NVK renderer handles graphics. The user supplies supported Xbox 360 game files; the browser installer processes them locally.",
+        "strategy": "Static PowerPC recompilation with native Vulkan/NVK rendering",
+        "source_available": "Public source and client-side installer; requires the user's supported Xbox 360 disc image or extracted files"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: recompilation method, playable areas, performance, editions, and local installer",
+          "url": "https://github.com/nebadasSwifty/masseffect-nx#readme"
+        },
+        {
+          "label": "Maintainer performance history",
+          "url": "https://github.com/nebadasSwifty/masseffect-nx/blob/main/docs/performance-history.md"
+        },
+        {
+          "label": "Maintainer supported editions",
+          "url": "https://github.com/nebadasSwifty/masseffect-nx/blob/main/docs/editions.md"
+        }
+      ]
+    },
+    {
+      "id": "metal2vulkan",
+      "fields": {
+        "status": "Early alpha; v0.1.0 was released 2026-07-22. The project translates Metal AIR/shader inputs into Vulkan/SPIR-V artifacts; its README marks some validation and developer-tool crates as unpublished.",
+        "programming_language": "Rust",
+        "source_available": "Public source repository (MIT license)",
+        "target_type": "Software",
+        "game": "Metal applications and shaders targeting Vulkan (multi-title)",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "Metal2Vulkan maintainer README and implementation scope",
+          "url": "https://github.com/steelbrain/metal2vulkan/blob/master/README.md"
+        },
+        {
+          "label": "Metal2Vulkan v0.1.0 release (2026-07-22)",
+          "url": "https://github.com/steelbrain/metal2vulkan/releases/tag/v0.1.0"
+        },
+        {
+          "label": "Metal2Vulkan README and crate descriptions",
+          "url": "https://github.com/steelbrain/metal2vulkan"
+        }
+      ]
+    },
+    {
+      "id": "metroid-fusion-decomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Work in progress; USA is the default supported ROM. Europe, Japan, China, and the European beta are marked unsupported in the README.",
+        "source_available": "Public source repository; a base ROM is required for each regional build"
+      },
+      "sources": [
+        {
+          "label": "Project README",
+          "url": "https://github.com/metroidret/mf#readme"
+        }
+      ]
+    },
+    {
+      "id": "microsoft-d3d11on12",
+      "fields": {
+        "platform": "Direct3D 11 user-mode driver/DDI → Direct3D 12; Windows 10 OS component, selected by applications through D3D11On12CreateDevice and requiring a D3D12-capable driver/device.",
+        "summary": "Microsoft’s D3D11 user-mode driver mapping layer submits D3D11 work to D3D12 and supports interop with D3D12. It is an opt-in Windows component, not a drop-in d3d11.dll replacement; Microsoft says source builds are intended for local testing."
+      },
+      "sources": [
+        {
+          "label": "Microsoft D3D11On12 README: mapping model, device selection, and usage caveat",
+          "url": "https://github.com/microsoft/D3D11On12#readme"
+        }
+      ]
+    },
+    {
+      "id": "microsoft-d3d12-translation-layer",
+      "fields": {
+        "summary": "A C++ helper library implementing D3D11-style graphics constructs on Direct3D 12. Microsoft documents it as the shared lower layer used by the Windows D3D11On12 and D3D9On12 components; it is developer integration infrastructure, not a standalone compatibility DLL.",
+        "status": "Active developer library; Microsoft repository received changes on 2026-10-12."
+      },
+      "sources": [
+        {
+          "label": "Microsoft D3D12 Translation Layer README and architecture",
+          "url": "https://github.com/microsoft/D3D12TranslationLayer#readme"
+        },
+        {
+          "label": "Microsoft source repository",
+          "url": "https://github.com/microsoft/D3D12TranslationLayer"
+        }
+      ]
+    },
+    {
+      "id": "microsoft-d3d9on12",
+      "fields": {
+        "platform": "Direct3D 9 user-mode driver/DDI → Direct3D 12; Windows 10 OS component, selected through Direct3DCreate9On12 and requiring a D3D12-capable driver/device.",
+        "summary": "Microsoft’s Direct3D 9 driver mapping layer submits D3D9 commands to D3D12. Applications select the D3D9On12 device through the documented creation API; it is not a replacement d3d9.dll, and source builds are for local testing."
+      },
+      "sources": [
+        {
+          "label": "Microsoft D3D9On12 README: API selection and mapping caveat",
+          "url": "https://github.com/microsoft/D3D9On12#readme"
+        }
+      ]
+    },
+    {
+      "id": "mkdd-decomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Work in progress 1:1 decompilation; the README says the repository contains no game assets or assembly and requires an existing copy.",
+        "source_available": "Public source repository; game assets/assembly are not included; original game copy required",
+        "subtype": "GameCube 1:1 source decompilation"
+      },
+      "sources": [
+        {
+          "label": "Project README",
+          "url": "https://github.com/doldecomp/mkdd#readme"
+        }
+      ]
+    },
+    {
+      "id": "moltenvk",
+      "fields": {
+        "platform": "Vulkan 1.4 subset → Apple Metal; macOS, iOS, tvOS, visionOS, Mac Catalyst, and supported Apple simulators/architectures.",
+        "status": "Active; v1.4.2 was released 2026-07-24. The release notes include 2026 Metal/SPIRV-Cross updates and macOS GPU fixes; Khronos' Apple silicon conformance tracker records v1.4.2 testing on macOS 26.5.2.",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "Khronos MoltenVK README and supported platforms",
+          "url": "https://github.com/KhronosGroup/MoltenVK"
+        },
+        {
+          "label": "MoltenVK 1.4.2 release (2026-07-24)",
+          "url": "https://github.com/KhronosGroup/MoltenVK/releases/tag/v1.4.2"
+        },
+        {
+          "label": "Khronos MoltenVK Apple silicon Vulkan conformance tracking",
+          "url": "https://github.com/KhronosGroup/MoltenVK/issues/1664"
+        }
+      ]
+    },
+    {
+      "id": "mortal-kombat-shaolin-monks-switch-recomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "The repository documents a Switch NRO build and Title Override install; reviewed README does not claim game-wide playability or completion.",
+        "summary": "Original Xbox `default.xbe` is statically translated instruction-by-instruction into C and compiled for Switch ARM64. Xbox NV2A graphics commands are translated to OpenGL/libnx and MCPX audio is output through SDL2; user supplies the game files.",
+        "strategy": "Static Xbox recompilation with NV2A-to-OpenGL/libnx graphics translation",
+        "source_available": "Public source and NRO build instructions; requires user-supplied Xbox game files"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: XBE recompilation, graphics/audio backends, data layout, and NRO build",
+          "url": "https://github.com/gerisson1996/mksm-switch#readme"
+        },
+        {
+          "label": "Maintainer rendering notes",
+          "url": "https://github.com/gerisson1996/mksm-switch/blob/main/VULKAN_NOTES.md"
+        }
+      ]
+    },
+    {
+      "id": "mushihimesama-futari-switch-recomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "The native Switch installer builds an NRO from the user's Xbox 360 Ver 1.5 disc image; Black Label and Ver 1.01 DLC are optional. The README documents handheld/two-player controls and first-run shader compilation, but gives no full-playthrough claim.",
+        "summary": "Static recompilation of `default.xex` and eight Xbox 360 game modules to C++ with ReXGlue, compiled for Switch and rendered through native Vulkan/NVK. The browser installer keeps user game files local.",
+        "strategy": "Static Xbox 360 recompilation with native Vulkan/NVK rendering",
+        "source_available": "Public source and browser installer; requires the user's Xbox 360 disc image; DLC is optional"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: exact executables, renderer, DLC, installer, and Switch controls",
+          "url": "https://github.com/ChanseyIsTheBest/futari-nx#readme"
+        },
+        {
+          "label": "Maintainer build instructions",
+          "url": "https://github.com/ChanseyIsTheBest/futari-nx/blob/main/docs/building.md"
+        }
+      ]
+    },
+    {
+      "id": "need-for-speed-most-wanted-switch-recomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "The maintainer reports a roughly 30 FPS target with heavier scenes dipping below it. The project documents nine supported Xbox 360 regional editions and builds an NRO for the selected edition; user supplies the ISO or `default.xex`.",
+        "summary": "Native Switch static recompilation of the Xbox 360 PowerPC game using ReXGlue and Vulkan/NVK. Game data is user-supplied; compatibility is tied to the listed executable editions.",
+        "strategy": "Static PowerPC recompilation with ReXGlue and Vulkan/NVK",
+        "source_available": "Public source and per-edition build instructions; requires user-owned Xbox 360 game files"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: target method, performance caveat, supported editions, and input files",
+          "url": "https://github.com/StevensND/nfsmw-nx#readme"
+        },
+        {
+          "label": "Maintainer regional edition list",
+          "url": "https://github.com/StevensND/nfsmw-nx/blob/main/docs/editions.md"
+        }
+      ]
+    },
+    {
+      "id": "ocarina-of-time-dreamcast-port",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Native Dreamcast build, CDI packaging, and VMU support are documented. The tested input is the GameCube European Master Quest debug build; the README does not establish physical Dreamcast hardware testing.",
+        "summary": "KallistiOS SH-4 port built from the Ocarina of Time source, with a PowerVR display-list interpreter and AICA audio. The README documents a Dreamcast artifact and the specific GameCube-derived debug input rather than a general N64 ROM target.",
+        "strategy": "Decompilation-based native SH-4 port with PowerVR display-list interpreter",
+        "source_available": "Public source and CDI/build instructions; requires the specified GameCube European Master Quest debug input"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: platform method, input build, and output formats",
+          "url": "https://github.com/jnmartin84/oot-dc#readme"
+        }
+      ]
+    },
+    {
+      "id": "oot3d-decomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Work in progress; USA revisions 0 and 1 are supported, and the README requires a user copy to extract build assets.",
+        "source_available": "Public source repository; game assets are not included and an original USA ROM is required for extraction/build",
+        "subtype": "Nintendo 3DS code.bin decompilation with USA revision 0/1 support"
+      },
+      "sources": [
+        {
+          "label": "Project README",
+          "url": "https://github.com/zeldaret/oot3d#readme"
+        }
+      ]
+    },
+    {
+      "id": "openmw",
+      "fields": {
+        "platform": "Windows game data → Windows, Linux and macOS (current development README lists macOS 14.8+)",
+        "status": "Active; latest tagged release is openmw-0.51.0 (2026-06-19). The current development README identifies 0.52.0 and lists macOS 14.8+; that minimum is for the development branch.",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "OpenMW README: current development version and host requirements",
+          "url": "https://github.com/OpenMW/openmw"
+        },
+        {
+          "label": "Latest OpenMW release",
+          "url": "https://github.com/OpenMW/openmw/releases/tag/openmw-0.51.0"
+        }
+      ]
+    },
+    {
+      "id": "openra",
+      "fields": {
+        "status": "Active; latest GitHub release is release-20250330 (2025-03-30). The README lists macOS among supported desktop hosts, and the repository continued to receive commits through 2026-10-11.",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "OpenRA README: supported desktop systems",
+          "url": "https://github.com/OpenRA/OpenRA/blob/bleed/README.md"
+        },
+        {
+          "label": "Latest OpenRA release",
+          "url": "https://github.com/OpenRA/OpenRA/releases/tag/release-20250330"
+        },
+        {
+          "label": "OpenRA recent commits",
+          "url": "https://github.com/OpenRA/OpenRA/commits/bleed"
+        }
+      ]
+    },
+    {
+      "id": "openrct2",
+      "fields": {
+        "status": "Active; latest release v0.5.6 was published 2026-10-10. The project provides macOS builds and links to official CMake build instructions for macOS.",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "OpenRCT2 README: downloads and macOS build instructions",
+          "url": "https://github.com/OpenRCT2/OpenRCT2/blob/develop/readme.md"
+        },
+        {
+          "label": "Latest OpenRCT2 release",
+          "url": "https://github.com/OpenRCT2/OpenRCT2/releases/tag/v0.5.6"
+        }
+      ]
+    },
+    {
+      "id": "perfect-dark-decomp",
+      "fields": {
+        "status": "Complete matching decompilation; the README lists six ROM IDs across NTSC, PAL, and Japan, with NTSC 8.7 final as the default. A user-supplied game ROM is required."
+      },
+      "sources": [
+        {
+          "label": "Project README, ROM Versions section",
+          "url": "https://raw.githubusercontent.com/n64decomp/perfect_dark/master/README.md"
+        }
+      ]
+    },
+    {
+      "id": "perfect-dark-switch-port",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "The README reports single-player and split-screen multiplayer working in the general port, with minor graphics/gameplay issues and possible crashes; Nintendo Switch is an officially supported and tested ARM64 target with automatic builds. US Rev 1 is recommended; other supported regions need their matching executable.",
+        "summary": "Nintendo Switch build target of the Perfect Dark decompilation-based native port, not a Nintendo 64 emulator. The same repository documents Windows, Linux, macOS, and Switch builds and requires user-supplied ROM data.",
+        "strategy": "Decompilation-based native port with Switch ARM64 build",
+        "source_available": "Public source and automatic Switch builds; requires the user's supported Perfect Dark ROM"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: source method, supported ROM revisions, status, and tested platform matrix",
+          "url": "https://github.com/perfect-dark-pc-port/perfect_dark/blob/port/README.md"
+        },
+        {
+          "label": "Maintainer automatic Switch builds",
+          "url": "https://github.com/perfect-dark-pc-port/perfect_dark/actions"
+        }
+      ]
+    },
+    {
+      "id": "phantom-hourglass-decomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Work in progress; code is decompiled by hand. The repository contains no assets or assembly, so building requires an existing game copy.",
+        "source_available": "Public source repository; game assets/assembly are omitted and a user-owned copy is required for building",
+        "subtype": "Hand decompilation of Nintendo DS code; assets are extracted from user-owned game data"
+      },
+      "sources": [
+        {
+          "label": "Project README",
+          "url": "https://github.com/zeldaret/ph#readme"
+        }
+      ]
+    },
+    {
+      "id": "pokegold-disassembly",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Ongoing disassembly; the README lists Gold and Silver retail ROM outputs plus debug builds.",
+        "subtype": "GBZ80 assembly disassembly with Gold/Silver and debug ROM targets"
+      },
+      "sources": [
+        {
+          "label": "Project README",
+          "url": "https://github.com/pret/pokegold#readme"
+        }
+      ]
+    },
+    {
+      "id": "pokemon-diamond-pearl-decomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Work in progress; the README lists U.S. Diamond and Pearl ROM build outputs with reference SHA-1 hashes.",
+        "subtype": "Nintendo DS C-source decompilation with U.S. Diamond and Pearl build targets"
+      },
+      "sources": [
+        {
+          "label": "Project README",
+          "url": "https://github.com/pret/pokediamond#readme"
+        }
+      ]
+    },
+    {
+      "id": "pokemon-hgss-decomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Work in progress; the README identifies a disassembly and lists U.S. HeartGold and SoulSilver ROM build outputs with hashes.",
+        "subtype": "Nintendo DS disassembly with separate U.S. HeartGold and SoulSilver build targets"
+      },
+      "sources": [
+        {
+          "label": "Project README",
+          "url": "https://github.com/pret/pokeheartgold#readme"
+        }
+      ]
+    },
+    {
+      "id": "pokemon-platinum-decomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Work in progress; the README lists U.S. Platinum revision 0 and revision 1 ROM build targets with hashes.",
+        "subtype": "Nintendo DS decompilation with U.S. revision 0 and revision 1 build targets"
+      },
+      "sources": [
+        {
+          "label": "Project README",
+          "url": "https://github.com/pret/pokeplatinum#readme"
+        }
+      ]
+    },
+    {
+      "id": "pokemon-ruby-sapphire-decomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Disassembly repository; the README lists ROM build outputs for both Pokémon Ruby and Pokémon Sapphire.",
+        "subtype": "Game Boy Advance assembly disassembly with Ruby and Sapphire build targets"
+      },
+      "sources": [
+        {
+          "label": "Project README",
+          "url": "https://github.com/pret/pokeruby#readme"
+        }
+      ]
+    },
+    {
+      "id": "poketcg-disassembly",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Buildable disassembly; the README lists the U.S. Pokémon Trading Card Game ROM output and hash.",
+        "subtype": "Game Boy Color assembly disassembly with RGBDS build target"
+      },
+      "sources": [
+        {
+          "label": "Project README",
+          "url": "https://github.com/pret/poketcg#readme"
+        }
+      ]
+    },
+    {
+      "id": "poketcg2-disassembly",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Disassembly project for the Japanese Card GB2 release; the README requires that base ROM and builds poketcg2.gbc.",
+        "source_available": "Public source repository; the documented build requires a user-supplied Japanese base ROM",
+        "subtype": "Japanese Game Boy Color assembly disassembly with user-supplied base ROM"
+      },
+      "sources": [
+        {
+          "label": "Project README",
+          "url": "https://github.com/pret/poketcg2#readme"
+        }
+      ]
+    },
+    {
+      "id": "portps5",
+      "fields": {
+        "status": "Pre-1.0 research build. The maintainer’s 2026-09-30 PRD says none of the five gate-title requirements had been demonstrated in a gate-title run; most titles are reported not to boot. Windows PC host and user-supplied decrypted PS5 files are required."
+      },
+      "sources": [
+        {
+          "label": "Maintainer PRD: dated compatibility gate status",
+          "url": "https://github.com/ymatrix1/PortPS5/blob/main/docs/PRD.md"
+        },
+        {
+          "label": "Maintainer user guide: requirements and limitations",
+          "url": "https://github.com/ymatrix1/PortPS5/blob/main/docs/USER_GUIDE.md"
+        }
+      ]
+    },
+    {
+      "id": "prosper",
+      "fields": {
+        "status": "Experimental; latest listed release v0.2.4 was published 2026-10-10. The compatibility tracker counts boot/menu/gameplay milestones separately and explicitly does not claim full-game playability from those stages."
+      },
+      "sources": [
+        {
+          "label": "Prosper maintainer compatibility tracker",
+          "url": "https://github.com/mattias800/prosper/blob/main/COMPATIBILITY.md"
+        },
+        {
+          "label": "Prosper v0.2.4 release (2026-10-10)",
+          "url": "https://github.com/mattias800/prosper/releases/tag/v0.2.4"
+        }
+      ]
+    },
+    {
+      "id": "proton",
+      "fields": {
+        "status": "Active; latest listed stable branch release Proton 11.0-2e was published 2026-10-09, alongside the Experimental channel. WineD3D can be selected as an OpenGL backend in place of Vulkan-based DXVK for supported Direct3D versions."
+      },
+      "sources": [
+        {
+          "label": "Valve Proton 11.0-2e release",
+          "url": "https://github.com/ValveSoftware/Proton/releases/tag/proton-11.0-2e"
+        },
+        {
+          "label": "Valve Proton README: selectable graphics path",
+          "url": "https://github.com/ValveSoftware/Proton"
+        }
+      ]
+    },
+    {
+      "id": "pt-ps4-pc-reimplementation",
+      "fields": {
+        "status": "Maintainer’s Oct 15 status post reports the entire teaser from first-boot options/preface through the ending, including the voice step; small lighting/material differences and timing details remain, and no release date is set. The latest published API release remains v1.0.4, so this status is a maintainer WIP report rather than a new release claim.",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "Maintainer status post in r/silenthill",
+          "url": "https://www.reddit.com/r/silenthill/comments/1wu0152/im_decompiling_and_rebuilding_pt_as_a_native_pc/"
+        },
+        {
+          "label": "Project repository and current releases",
+          "url": "https://github.com/LoreanXavier/pt-pc"
+        }
+      ]
+    },
+    {
+      "id": "silent-hill-ps3-port",
+      "fields": {
+        "status": "In development; the repository lists PS3 among planned/in-development ports. Its full-game playable claim applies to the native PC port, and the README provides no PS3-specific playability report.",
+        "summary": "PS3 is a listed target of the broader Silent Hill decompilation project, but the README's playable release is the Windows PC port. No PS3-specific build or gameplay milestone is documented in the project README."
+      },
+      "sources": [
+        {
+          "label": "Project README: platform roadmap and distinction between PC port status and other targets",
+          "url": "https://github.com/SlickAmogus/silent-hill-decomp#readme"
+        }
+      ]
+    },
+    {
+      "id": "skate3-recomp",
+      "fields": {
+        "platform": "Xbox 360 → Windows x64, Linux x86-64, and experimental macOS ARM64",
+        "status": "Latest release v2.0.2 (2026-07-24). The README says Windows is most tested, Linux next, and the macOS ARM build is experimental and more prone to issues.",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "Skate 3 Recomp README: platform support and test order",
+          "url": "https://github.com/mchughalex/skate3recomp"
+        },
+        {
+          "label": "Latest Skate 3 Recomp release",
+          "url": "https://github.com/mchughalex/skate3recomp/releases/tag/v2.0.2"
+        }
+      ]
+    },
+    {
+      "id": "skyward-sword-decomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Work in progress; only the U.S. SOUE01 (NTSC-U 1.0) version is listed as supported, and the README requires an existing copy.",
+        "source_available": "Public source repository; game assets/assembly are not included; supported U.S. game copy required",
+        "subtype": "Wii DOL/REL source decompilation for U.S. version SOUE01"
+      },
+      "sources": [
+        {
+          "label": "Project README",
+          "url": "https://github.com/zeldaret/ss#readme"
+        }
+      ]
+    },
+    {
+      "id": "sm64ds-decomp",
+      "fields": {
+        "status": "Maintainer update reports the decompilation at 98% matching (about 11,000 C/C++ functions) and the native PC port at 45% linked; a demo is available. The matching decomp and executable-linking/port progress are separate measures.",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "Project repository",
+          "url": "https://github.com/tangosdev/sm64ds-decomp"
+        },
+        {
+          "label": "Maintainer progress post in r/decomps",
+          "url": "https://www.reddit.com/r/decomps/comments/1vp4bs2/sm64ds_native_pc_port_is_43_linked/"
+        }
+      ]
+    },
+    {
+      "id": "snap64-recomp",
+      "fields": {
+        "platform": "Nintendo 64 → Windows 10/11 x64, Linux x86-64 and ARM64, Steam Deck, and macOS 14+",
+        "status": "Latest release v1.1.4 (2026-10-11). The README accepts only the US Nintendo 64 cartridge image; it lists macOS 14+ but does not specify a Mac CPU architecture.",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "Snap64 Recomp README: host requirements and supported US ROM",
+          "url": "https://github.com/JackandBeans/Snap64Recomp"
+        },
+        {
+          "label": "Latest Snap64 Recomp release",
+          "url": "https://github.com/JackandBeans/Snap64Recomp/releases/tag/v1.1.4"
+        }
+      ]
+    },
+    {
+      "id": "sonic-advance-1-2-decomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Work in progress matching decompilation of Sonic Advance 1 and 2; the README says the SA1 build is 100% C, with about 60 functions still not matching. Sonic Advance 3 is an eventual target.",
+        "subtype": "Multi-title GBA matching decompilation with separate Sonic Advance 1/2 targets"
+      },
+      "sources": [
+        {
+          "label": "Project README",
+          "url": "https://github.com/SAT-R/sa2#readme"
+        }
+      ]
+    },
+    {
+      "id": "sotn-decomp",
+      "fields": {
+        "status": "Work in progress; the README identifies three supported builds: PS1 USA SLUS-00067, the unreleased Japanese HD build from Dracula X Chronicles data, and the PSP European build.",
+        "summary": "Matching decompilation that compiles byte-for-byte against supported binaries. The current README lists PS1 USA, an unreleased Japanese HD build, and PSP Europe; users must provide their own game data and assets."
+      },
+      "sources": [
+        {
+          "label": "Project README: matching method and supported versions",
+          "url": "https://github.com/Xeeynamo/sotn-decomp#readme"
+        }
+      ]
+    },
+    {
+      "id": "spider-man-edge-of-time-recomp",
+      "fields": {
+        "platform": "Xbox 360 PowerPC → Windows x86-64, Linux x86-64, Apple silicon macOS (Ventura 13.3+; MoltenVK)",
+        "status": "Latest release v1.0.0 (2026-10-04). The README describes PowerPC assembly translated to static C++ with ReXGlue and lists Apple silicon/macOS Ventura 13.3+ with Vulkan through MoltenVK.",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "Edge of Time Recomp README: recompilation method and minimum host requirements",
+          "url": "https://github.com/goliathret/EdgeOfTimeRecomp"
+        },
+        {
+          "label": "Latest Edge of Time Recomp release",
+          "url": "https://github.com/goliathret/EdgeOfTimeRecomp/releases/tag/v1.0.0"
+        }
+      ]
+    },
+    {
+      "id": "spirit-tracks-decomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Work in progress; code is decompiled by hand. The repository excludes assets and assembly and requires an existing copy for ROM builds.",
+        "source_available": "Public source repository; game assets/assembly are omitted and a user-owned copy is required for building",
+        "subtype": "Hand decompilation of Nintendo DS code; assets are extracted from user-owned game data"
+      },
+      "sources": [
+        {
+          "label": "Project README",
+          "url": "https://github.com/zeldaret/st#readme"
+        }
+      ]
+    },
+    {
+      "id": "ssbu-switch-recomp",
+      "fields": {
+        "status": "Maintainer’s current README/post report title, menus and character select plus complete 1v1 matches against CPU through results; Classic, Training and Home-Run Contest are tested only with scripted input. Shaders can hitch on first use; 3–8 player modes and several other modes remain untested, there is no online play, and builds are Windows-only from a user dump.",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "Project README",
+          "url": "https://github.com/Denkishi/ssbu-recomp"
+        },
+        {
+          "label": "Maintainer status post in r/decomps",
+          "url": "https://www.reddit.com/r/decomps/comments/1x3yfjm/im_working_on_a_native_pc_port_of_smash_ultimate/"
+        }
+      ]
+    },
+    {
+      "id": "star-fox-64-static-recomp",
+      "fields": {
+        "summary": "Nintendo 64 static recompilation into a native desktop application. The README supports only the North American version 1.1 (Rev A) game image; other regional versions are described as possible future support."
+      },
+      "sources": [
+        {
+          "label": "Project README, supported game version",
+          "url": "https://raw.githubusercontent.com/sonicdcer/Starfox64Recomp/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "sunpad-super-mario-sunshine",
+      "fields": {
+        "platform": "GameCube → iOS/iPadOS 16+, Apple silicon macOS 14+; experimental tvOS 17+",
+        "status": "Experimental; v0.2.1 was released 2026-10-04. The README describes ahead-of-time game code, Metal rendering, and an interpreter fallback for unrecompiled code; tvOS remains experimental.",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "SunPad README: Apple OS targets and recompilation method",
+          "url": "https://github.com/chrissotraidis/sunpad"
+        },
+        {
+          "label": "Latest SunPad release",
+          "url": "https://github.com/chrissotraidis/sunpad/releases/tag/v0.2.1"
+        }
+      ]
+    },
+    {
+      "id": "sunshine-decomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Work in progress; the README describes a Super Mario Sunshine decompilation and requires an existing game copy for local builds.",
+        "source_available": "Public source repository; game assets/assembly are not included; original game copy required",
+        "subtype": "GameCube game-code decompilation"
+      },
+      "sources": [
+        {
+          "label": "Project README",
+          "url": "https://github.com/doldecomp/sms#readme"
+        }
+      ]
+    },
+    {
+      "id": "super-mario-64-ps5-port",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Version 1.0; maintainer reports testing on PS5 hardware through title/file selection and castle grounds. A 3840×2160 capture reports 60 displayed FPS with interpolation while game logic remains 30 FPS.",
+        "summary": "Native PS5 homebrew built from the Super Mario 64 decompilation through Ghostship/libultraship, using Vulkan/RADV. The user supplies a supported US or Japanese N64 ROM; no game data is included.",
+        "strategy": "Decompilation-based native PS5 port using libultraship and Vulkan/RADV",
+        "source_available": "Public source and PS5 release; requires the user's supported N64 ROM"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: source basis, ROM requirements, hardware test, and frame-rate note",
+          "url": "https://github.com/griches/PS5_Ghostship#readme"
+        },
+        {
+          "label": "Maintainer PS5 releases",
+          "url": "https://github.com/griches/PS5_Ghostship/releases"
+        }
+      ]
+    },
+    {
+      "id": "super-mario-strikers-switch-port",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Version 1.3.0 Switch release; the maintainer describes a native multi-platform source port built from decompiled game code, not static recompilation. The README requires the user's game data and documents Windows/Linux/macOS/Switch targets.",
+        "summary": "Switch target of a native multi-platform port based on the Super Mario Strikers decompilation. Game code is compiled for the host platform; the method is a source port, not binary recompilation.",
+        "strategy": "Decompilation-based native source port with platform-specific graphics/input backends",
+        "source_available": "Public source and Switch release; requires the user's game data"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: source-port method, supported platforms, and data requirement",
+          "url": "https://github.com/new-coke/strikers#readme"
+        },
+        {
+          "label": "Maintainer releases",
+          "url": "https://github.com/new-coke/strikers/releases"
+        }
+      ]
+    },
+    {
+      "id": "super-smash-bros-brawl-decomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Work in progress; the README reports separate code and data progress and requires an existing game copy for builds.",
+        "source_available": "Public source repository; game assets/assembly are not included; original game copy required",
+        "subtype": "Wii code and data source decompilation"
+      },
+      "sources": [
+        {
+          "label": "Project README",
+          "url": "https://github.com/doldecomp/brawl#readme"
+        }
+      ]
+    },
+    {
+      "id": "switchwakerhd-recomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Playable Switch homebrew under active development: the maintainer reports about 30 FPS on the opening island and 26–29 FPS in busier scenes at stock handheld clocks. Handheld, Joy-Con, and Pro Controller play are documented; no Switch release binary is supplied.",
+        "summary": "Wii U PowerPC code is statically recompiled to C; Cafe OS libraries are reimplemented and GX2 graphics are rendered with native deko3d. The Switch NRO is built locally from the user's Wii U version-0 USA or Europe dump.",
+        "strategy": "Static PowerPC recompilation with Cafe OS reimplementation and deko3d rendering",
+        "source_available": "Public source and Switch build/install instructions; user supplies supported Wii U v0 game files; no Switch game binaries are published"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: static recompilation, build/install, controllers, and stock-clock performance",
+          "url": "https://github.com/centollOS/SwitchWakerHD/blob/main/README.md"
+        },
+        {
+          "label": "Switch port architecture and rendering notes",
+          "url": "https://github.com/centollOS/SwitchWakerHD/blob/main/docs/switch-port.md"
+        },
+        {
+          "label": "Maintainer Switch install guide",
+          "url": "https://github.com/centollOS/SwitchWakerHD/blob/main/INSTALL.md"
+        }
+      ]
+    },
+    {
+      "id": "tenkawa-psp-recomp",
+      "fields": {
+        "platform": "PlayStation Portable → Apple silicon macOS (the only tested host; Vulkan through MoltenVK); Linux, Windows and Steam Deck are untested",
+        "status": "Work in progress and not playable. The interpreter reaches the title screen; the recompiled frame loop runs but does not draw. The README accepts only the European ULES-01456 game image.",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "Tenkawa README: tested host, game revision and interpreter/recompiler status",
+          "url": "https://github.com/TeamGDB/Tenkawa"
+        }
+      ]
+    },
+    {
+      "id": "the-last-guardian-ps4-pc",
+      "fields": {
+        "summary": "A title-specific native PC port/compatibility runtime for The Last Guardian. It runs PS4 x86-64 game code on host Windows/Linux, reimplements selected PS4 services, and translates GPU work to Vulkan; the supported input is the user’s dump of CUSA03627 update 01.03."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: exact PS4 dump and method",
+          "url": "https://github.com/HayatoG/tlg_pc"
+        },
+        {
+          "label": "Maintainer release history",
+          "url": "https://github.com/HayatoG/tlg_pc/releases"
+        }
+      ]
+    },
+    {
+      "id": "tokyo-bus-guide-dc-decomp",
+      "fields": {
+        "subtype": "Functional Dreamcast decompilation with partial binary rebuilds that retain original code for unrecovered functions"
+      },
+      "sources": [
+        {
+          "label": "Project README: function equivalence and partial rebuild approach",
+          "url": "https://github.com/lhsazevedo/tbg-decomp#readme"
+        }
+      ]
+    },
+    {
+      "id": "tomba-2-ps1-recomp",
+      "fields": {
+        "platform": "PlayStation USA (SCUS-94454) and Italy PAL (SCES-02686) → Windows and Linux",
+        "summary": "Static recompilation built on psxrecomp. Windows/Linux preview builds target the US SCUS-94454 and Italian PAL SCES-02686 discs; the project prepares native code from all 22 original area files and requires the user's own disc."
+      },
+      "sources": [
+        {
+          "label": "Project README: supported discs, native code generation, and release requirements",
+          "url": "https://github.com/mstan/Tomba2Recomp#readme"
+        }
+      ]
+    },
+    {
+      "id": "tomba-ps1-decomp",
+      "fields": {
+        "status": "In progress; the 2026-10-14 report gives 78.0% matched main-game code for the US reference build. The README lists four regional releases sharing the source tree.",
+        "summary": "Matching PS1 decompilation with the US release as its reference and shared-source builds for four US, Japanese, and PAL variants. The README's 2026-10-14 snapshot reports 78.0% matched main-game code for the US build."
+      },
+      "sources": [
+        {
+          "label": "Project README: regional builds and dated matching report",
+          "url": "https://github.com/hansbonini/psx_tomba#readme"
+        }
+      ]
+    },
+    {
+      "id": "tony-hawks-underground-vita-port",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "The maintainer reports Story, Free Skate, Create-a-Skater, and all levels playable on Vita; most gameplay is reported near 60 FPS. Videos and online features are unavailable, and the user must supply Xbox USA game files.",
+        "summary": "Native PS Vita port based on the PC `kisak-thug` project and Xbox game data, built with VitaSDK; this is a platform port rather than Xbox emulation.",
+        "strategy": "Native Vita platform port based on the PC port and user-supplied Xbox data",
+        "source_available": "Public source and Vita builds; requires the user's Xbox USA game files"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: playable modes, hardware testing, build, and data requirements",
+          "url": "https://github.com/iwannagooutside/thug-vita-port#readme"
+        },
+        {
+          "label": "Maintainer releases",
+          "url": "https://github.com/iwannagooutside/thug-vita-port/releases"
+        }
+      ]
+    },
+    {
+      "id": "ttyd-decomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Work in progress; the README tracks DOL and REL decompilation progress and requires an existing game copy for builds.",
+        "source_available": "Public source repository; game assets/assembly are not included; original game copy required",
+        "subtype": "GameCube DOL and REL source decompilation"
+      },
+      "sources": [
+        {
+          "label": "Project README",
+          "url": "https://github.com/doldecomp/ttyd#readme"
+        }
+      ]
+    },
+    {
+      "id": "twilight-princess-decomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "GameCube release code is fully matching, but not all translation units are linked; work continues on the debug and Wii versions.",
+        "source_available": "Public source repository; game assets/assembly are not included; original game copy required",
+        "subtype": "Shared GameCube/Wii source decompilation with separate version targets"
+      },
+      "sources": [
+        {
+          "label": "Project README",
+          "url": "https://github.com/zeldaret/tp#readme"
+        }
+      ]
+    },
+    {
+      "id": "urban-reign-ps2-recomp",
+      "fields": {
+        "status": "Windows v1.3.0 release (2026-10-13); README labels the port beta and documents static recompilation of the USA PS2 build SLUS-21209. The latest release documents CoopTool support for up to eight human players through multitap, with the user’s own game image required.",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "Project README",
+          "url": "https://github.com/thiagordsfx/urban-reign-recomp"
+        },
+        {
+          "label": "Windows v1.3.0 release notes",
+          "url": "https://github.com/thiagordsfx/urban-reign-recomp/releases/tag/v1.3.0"
+        },
+        {
+          "label": "Author announcement in r/recomps",
+          "url": "https://www.reddit.com/r/recomps/comments/1x4fsis/urban_reign_ps2_static_recompilation_native/"
+        }
+      ]
+    },
+    {
+      "id": "vandal-hearts-decomp",
+      "fields": {
+        "status": "The maintainer marks the matching decompilation and native port complete; US and Japanese matching builds are checked byte-for-byte, and the port supports USA, Asia, and Japan discs.",
+        "summary": "Completed PS1 matching decompilation used by the project's native PC port. The README documents byte-exact US and Japanese builds; the shared PC executable also detects USA, Asia, and Japan game discs."
+      },
+      "sources": [
+        {
+          "label": "Vandal Hearts project README: completion, supported regions, and matching checks",
+          "url": "https://github.com/HalmyLyseas/VandalHearts-PcPort#readme"
+        }
+      ]
+    },
+    {
+      "id": "vandal-hearts-pc-port",
+      "fields": {
+        "status": "v2.0 released; the full game is reported validated through credits on Windows and Linux for USA, Asia, and Japan discs. macOS is community-supported and experimental.",
+        "platform": "PlayStation → Windows and Linux (released); macOS (experimental community build)",
+        "source_available": "Public source repository and Windows/Linux releases; users supply their own supported disc. Release binaries embed a portion of game-derived data."
+      },
+      "sources": [
+        {
+          "label": "Vandal Hearts project README: full-game validation, platforms, and release contents",
+          "url": "https://github.com/HalmyLyseas/VandalHearts-PcPort#readme"
+        },
+        {
+          "label": "Project releases",
+          "url": "https://github.com/HalmyLyseas/VandalHearts-PcPort/releases"
+        }
+      ]
+    },
+    {
+      "id": "virtua-fighter-arcade-model1-recomp",
+      "fields": {
+        "subtype": "Game-specific Sega Model 1 static recompilation with native board-hardware models",
+        "source_available": "Public source repository; user-supplied MAME vf ROM set required; ROMs are not included"
+      },
+      "sources": [
+        {
+          "label": "Virtua Fighter Recomp README: ROM requirement and implementation",
+          "url": "https://github.com/mr-finster/vf1-recomp#readme"
+        },
+        {
+          "label": "Latest project release",
+          "url": "https://github.com/mr-finster/vf1-recomp/releases/latest"
+        }
+      ]
+    },
+    {
+      "id": "vkd3d-proton",
+      "fields": {
+        "platform": "Direct3D 12 → Vulkan; primarily Linux through Wine/Proton, with Windows builds mainly intended for development/testing. Project docs cover x86 32/64-bit and aarch64 cross-builds; usable feature set depends on the Vulkan driver.",
+        "status": "Active Proton graphics component; latest listed release v3.0.1 was published 2026-05-06."
+      },
+      "sources": [
+        {
+          "label": "vkd3d-proton maintainer README and requirements",
+          "url": "https://github.com/HansKristian-Work/vkd3d-proton"
+        },
+        {
+          "label": "vkd3d-proton v3.0.1 release (2026-05-06)",
+          "url": "https://github.com/HansKristian-Work/vkd3d-proton/releases/tag/v3.0.1"
+        }
+      ]
+    },
+    {
+      "id": "vkd3d-upstream",
+      "fields": {
+        "platform": "Direct3D 12 → Vulkan for Windows applications running through Wine on Unix-like hosts; upstream Wine library, distinct from vkd3d-proton.",
+        "status": "Active Wine upstream project; WineHQ announced vkd3d 2.1 on 2026-08-24. Release notes define feature coverage; the API is not presented as fully conformant D3D12."
+      },
+      "sources": [
+        {
+          "label": "WineHQ vkd3d 2.1 release announcement (2026-08-24)",
+          "url": "https://www.winehq.org/news/3"
+        },
+        {
+          "label": "Wine upstream vkd3d repository",
+          "url": "https://gitlab.winehq.org/wine/vkd3d"
+        }
+      ]
+    },
+    {
+      "id": "wind-waker-decomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Work in progress; the README tracks GameCube DOL and REL code progress and requires an existing copy for local builds.",
+        "source_available": "Public source repository; game assets/assembly are not included; original game copy required",
+        "subtype": "GameCube DOL/REL source decompilation"
+      },
+      "sources": [
+        {
+          "label": "Project README",
+          "url": "https://github.com/zeldaret/tww#readme"
+        }
+      ]
+    },
+    {
+      "id": "wind-waker-ps5-port",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Version 1.0.3; the maintainer reports PS5 testing through the Dragon Roost boss room. This is a progress checkpoint, not evidence of full-game completion.",
+        "summary": "Native PS5 target built from the Wind Waker decompilation-based SwitchWaker project. The maintainer publishes a PS5 build and records console gameplay testing to a named dungeon milestone.",
+        "strategy": "Decompilation-based native PS5 port",
+        "source_available": "Public source and PS5 release; game data is not bundled"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: PS5 port basis and console-tested progress",
+          "url": "https://github.com/griches/PS5_SwitchWaker#readme"
+        },
+        {
+          "label": "Maintainer PS5 releases",
+          "url": "https://github.com/griches/PS5_SwitchWaker/releases"
+        }
+      ]
+    },
+    {
+      "id": "wind-waker-switchwaker-port",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Version 0.4.1 Switch builds are provided for USA and Europe revision-0 discs; the maintainer reports testing on real Switch hardware. Disc videos are not implemented and frame-rate drops may occur in heavy docked scenes.",
+        "summary": "Native Nintendo Switch port built from the Wind Waker GameCube decompilation; it is separate from SwitchWakerHD, which statically recompiles the Wii U HD edition. Requires user-owned supported GameCube data.",
+        "strategy": "Decompilation-based native Switch port",
+        "source_available": "Public source and Switch builds; requires a supported USA or Europe revision-0 GameCube disc"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: native port, supported revisions, and Switch limitations",
+          "url": "https://github.com/centollOS/SwitchWaker#readme"
+        },
+        {
+          "label": "Maintainer releases",
+          "url": "https://github.com/centollOS/SwitchWaker/releases"
+        }
+      ]
+    },
+    {
+      "id": "windurango",
+      "fields": {
+        "summary": "An Xbox One ERA compatibility layer for Windows UWP that implements selected Xbox system interfaces, including KernelX and D3D11.X, and runs supported title binaries through Windows services. It is a partial API/system compatibility project, not a full Xbox hardware emulator."
+      },
+      "sources": [
+        {
+          "label": "WinDurango maintainer README: architecture, Windows host requirements, and title status",
+          "url": "https://github.com/WinDurango/WinDurango"
+        }
+      ]
+    },
+    {
+      "id": "wine",
+      "fields": {
+        "platform": "Windows user-mode APIs → POSIX host APIs on Linux, macOS, BSD, and other documented Unix-like systems; graphics translation is supplied by components such as WineD3D, DXVK, and vkd3d rather than Wine’s overall API layer alone.",
+        "status": "Active; Wine 11.0 is the stable release and Wine 11.17 is the latest development release listed on 2026-10-15."
+      },
+      "sources": [
+        {
+          "label": "WineHQ project description and platform scope",
+          "url": "https://www.winehq.org/about"
+        },
+        {
+          "label": "WineHQ current stable/development release listing",
+          "url": "https://www.winehq.org/?page=about"
+        }
+      ]
+    },
+    {
+      "id": "wined3d",
+      "fields": {
+        "platform": "DirectDraw and Direct3D 1–11 → OpenGL through Wine’s graphics implementation on POSIX hosts; actual feature support depends on the Wine version and host OpenGL driver.",
+        "strategy": "Wine’s built-in Direct3D/DirectDraw graphics implementation maps rendering calls to host OpenGL; it is one graphics component in Wine, separate from DXVK and vkd3d."
+      },
+      "sources": [
+        {
+          "label": "WineHQ project information",
+          "url": "https://www.winehq.org/about"
+        },
+        {
+          "label": "Wine developer archive: WineD3D/OpenGL implementation context",
+          "url": "https://www.winehq.org/pipermail/wine-devel/2006-June/048964.html"
+        },
+        {
+          "label": "Valve Proton README: WineD3D selectable backend",
+          "url": "https://github.com/ValveSoftware/Proton"
+        }
+      ]
+    },
+    {
+      "id": "zink",
+      "fields": {
+        "platform": "Desktop OpenGL → Vulkan through Mesa Gallium; requires a usable Vulkan driver, and the exposed OpenGL version/features depend on Mesa and the underlying Vulkan device/driver.",
+        "strategy": "Mesa Gallium OpenGL frontend implemented by emitting Vulkan calls; driver, not an emulator or operating-system compatibility layer."
+      },
+      "sources": [
+        {
+          "label": "Mesa Zink driver documentation: implementation and requirements",
+          "url": "https://docs.mesa3d.org/drivers/zink.html"
+        },
+        {
+          "label": "Mesa Zink source documentation",
+          "url": "https://gitlab.freedesktop.org/mesa/mesa/-/blob/main/docs/drivers/zink.rst"
+        }
+      ]
+    }
+  ]
+}

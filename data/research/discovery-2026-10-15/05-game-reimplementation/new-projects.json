@@ -1,0 +1,321 @@
+{
+  "updated": "2026-10-15",
+  "projects": [
+    {
+      "id": "opentesarena",
+      "title": "OpenTESArena",
+      "game": "The Elder Scrolls: Arena",
+      "target_type": "Game",
+      "platform": "DOS → Windows/Linux/macOS",
+      "kind": "Reimplementation",
+      "status": "Work in progress; the project README describes core exploration, combat, shops, citizens, and travel systems, while quests, spells, saving, and loading remain incomplete.",
+      "summary": "Clean-room C++ reimplementation of The Elder Scrolls: Arena. It does not distribute the original game data; users provide their own files.",
+      "project_url": "https://github.com/afritz1/OpenTESArena",
+      "updated": "2026-10-15",
+      "strategy": "Clean-room native game reimplementation",
+      "language": "",
+      "source_available": "Public C++ source repository; original Arena game data required and not included",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Clean-room engine and game reimplementation",
+      "sources": [
+        {
+          "label": "Maintainer repository README: clean-room scope, current features, platforms, and required data",
+          "url": "https://github.com/afritz1/OpenTESArena"
+        }
+      ]
+    },
+    {
+      "id": "openenroth-might-and-magic-vii",
+      "title": "OpenEnroth",
+      "game": "Might and Magic VII: For Blood and Honor",
+      "target_type": "Game",
+      "platform": "Windows/Linux/macOS; experimental Android build",
+      "kind": "Reimplementation",
+      "status": "Active development; Might and Magic VII is the playable target, while VI and VIII are planned. Nightly builds are documented; an original game installation is required.",
+      "summary": "Open-source C++ reimplementation of the Might and Magic VI–VIII engine family. The README identifies Might and Magic VII as the playable game and says the other two titles are planned.",
+      "project_url": "https://github.com/OpenEnroth/OpenEnroth",
+      "updated": "2026-10-15",
+      "strategy": "Native engine reimplementation from reverse engineering",
+      "language": "",
+      "source_available": "Public C++ source repository and nightly builds; original game data required",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Multi-title engine project; Might and Magic VII currently playable",
+      "sources": [
+        {
+          "label": "Maintainer repository README: game scope, status, platforms, and data requirements",
+          "url": "https://github.com/OpenEnroth/OpenEnroth"
+        }
+      ]
+    },
+    {
+      "id": "opencrystalcaves",
+      "title": "OpenCrystalCaves",
+      "game": "Crystal Caves trilogy",
+      "target_type": "Game",
+      "platform": "DOS → Windows/Linux/macOS",
+      "kind": "Reimplementation",
+      "status": "Episode 1 is playable; the project reimplements the Crystal Caves trilogy and requires original game data for episodes not included with the shareware release.",
+      "summary": "Open-source C++20 reimplementation of the Crystal Caves game engine and trilogy. The repository provides the shareware episode; other original game data is not included.",
+      "project_url": "https://github.com/OpenCrystalCaves/OpenCrystalCaves",
+      "updated": "2026-10-15",
+      "strategy": "Native game engine reimplementation",
+      "language": "",
+      "source_available": "Public C++ source repository; shareware episode is included and other original game data is required",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Multi-title engine reimplementation",
+      "sources": [
+        {
+          "label": "Maintainer repository README: trilogy scope, playable episode, platforms, and data distribution",
+          "url": "https://github.com/OpenCrystalCaves/OpenCrystalCaves"
+        }
+      ]
+    },
+    {
+      "id": "opengothic-gothic-ii",
+      "title": "OpenGothic",
+      "game": "Gothic II: Night of the Raven",
+      "target_type": "Game",
+      "platform": "Windows/Linux/macOS/Android",
+      "kind": "Reimplementation",
+      "status": "The maintainer describes the Gothic II client as feature-complete and reports that the main quest and expansion can be completed. Gothic I is not an officially supported target; original game data is required.",
+      "summary": "Open-source C++ reimplementation of the Gothic II engine and client. It runs the original game data and does not include the commercial assets.",
+      "project_url": "https://github.com/Try/OpenGothic",
+      "updated": "2026-10-15",
+      "strategy": "Reverse-engineered native game engine reimplementation",
+      "language": "",
+      "source_available": "Public C++ source repository; user-supplied Gothic II game data required",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Native engine reimplementation",
+      "sources": [
+        {
+          "label": "Maintainer repository README: supported game, completion status, platforms, and data requirements",
+          "url": "https://github.com/Try/OpenGothic"
+        }
+      ]
+    },
+    {
+      "id": "openlara",
+      "title": "OpenLara: Classic Tomb Raider Engine",
+      "game": "Classic Tomb Raider games (multi-title)",
+      "target_type": "Game",
+      "platform": "DOS/Windows → WebGL, Windows/Linux/macOS, Android/iOS, and documented console ports (support varies)",
+      "kind": "Reimplementation",
+      "status": "Active source project with a WebGL demo and standalone builds; platform-specific ports and binaries have different release dates and support levels.",
+      "summary": "Open-source C/C++ engine reimplementation for the classic Tomb Raider games. It uses game data supplied by the player and offers a browser demo plus platform-specific builds.",
+      "project_url": "https://github.com/XProger/OpenLara",
+      "updated": "2026-10-15",
+      "strategy": "Native engine reimplementation and multi-platform source port",
+      "language": "",
+      "source_available": "Public source repository; original Tomb Raider game data required for full game content",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C/C++",
+      "subtype": "Multi-title game engine; platform ports vary in maintenance and completeness",
+      "sources": [
+        {
+          "label": "Maintainer repository README and release list: engine scope, WebGL demo, and platform targets",
+          "url": "https://github.com/XProger/OpenLara"
+        },
+        {
+          "label": "Maintainer release assets",
+          "url": "https://github.com/XProger/OpenLara/releases"
+        }
+      ]
+    },
+    {
+      "id": "openug2",
+      "title": "OpenUG2",
+      "game": "Need for Speed: Underground 2",
+      "target_type": "Game",
+      "platform": "Windows/Linux/macOS (x86 and ARM targets documented)",
+      "kind": "Reimplementation",
+      "status": "Early prototype; the README documents asset loading, rendering, driving, and races, with only selected content verified. This is not a complete or drop-in game replacement.",
+      "summary": "Clean-room C/C++ engine prototype for Need for Speed: Underground 2. It reads the user’s original game data and does not include EA code or assets.",
+      "project_url": "https://github.com/whoismept/OpenUG2",
+      "updated": "2026-10-15",
+      "strategy": "Clean-room native game engine reimplementation",
+      "language": "",
+      "source_available": "Public source repository; user-supplied Need for Speed: Underground 2 data required",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C/C++",
+      "subtype": "Early-stage clean-room engine prototype",
+      "sources": [
+        {
+          "label": "Maintainer repository README and roadmap: clean-room scope, prototype features, platforms, and data requirements",
+          "url": "https://github.com/whoismept/OpenUG2"
+        },
+        {
+          "label": "Maintainer development roadmap",
+          "url": "https://github.com/whoismept/OpenUG2/issues/5"
+        }
+      ]
+    },
+    {
+      "id": "openrealm-warcraft-iii",
+      "title": "OpenRealm",
+      "game": "Warcraft III (primary playable target)",
+      "target_type": "Game",
+      "platform": "Windows/Linux/macOS/iPadOS",
+      "kind": "Reimplementation",
+      "status": "Experimental open-source engine; Warcraft III is the primary playable target. The README identifies other game support as exploratory and requires user-supplied MPQ data.",
+      "summary": "C-based native engine reimplementation for Warcraft III, with client/server, map scripting, campaign, and multiplayer systems. It reads the user’s MPQ files and does not include Blizzard assets.",
+      "project_url": "https://github.com/corepunch/open-realm",
+      "updated": "2026-10-15",
+      "strategy": "Native engine reimplementation",
+      "language": "",
+      "source_available": "Public C source repository; user-supplied Warcraft III MPQ files required",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Warcraft III engine reimplementation; other titles are exploratory",
+      "sources": [
+        {
+          "label": "Maintainer repository README: supported game, systems, platforms, and MPQ requirements",
+          "url": "https://github.com/corepunch/open-realm"
+        }
+      ]
+    },
+    {
+      "id": "opengold-pool-of-radiance",
+      "title": "OpenGold: Pool of Radiance Reimplementation",
+      "game": "Pool of Radiance",
+      "target_type": "Game",
+      "platform": "DOS → Windows/macOS",
+      "kind": "Reimplementation",
+      "status": "Work in progress; the maintainer documents playable New Phlan and Slums areas, with the full campaign incomplete. Windows and macOS instructions are present.",
+      "summary": "C++20/Godot-based reimplementation of the Pool of Radiance game engine. It reads original game data that is not distributed with the project.",
+      "project_url": "https://github.com/stdarg/OpenGold",
+      "updated": "2026-10-15",
+      "strategy": "Native game engine reimplementation",
+      "language": "",
+      "source_available": "Public source repository; original Pool of Radiance game data required and not included",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Role-playing game engine reimplementation; campaign incomplete",
+      "sources": [
+        {
+          "label": "Maintainer repository README: project identity, implementation, playable areas, and data requirements",
+          "url": "https://github.com/stdarg/OpenGold"
+        }
+      ]
+    },
+    {
+      "id": "the-force-engine-dark-forces",
+      "title": "The Force Engine: Dark Forces",
+      "game": "Star Wars: Dark Forces",
+      "target_type": "Game",
+      "platform": "DOS → Windows/Linux/macOS/Steam Deck",
+      "kind": "Reimplementation",
+      "status": "Dark Forces is reported playable from beginning to end. The engine requires the original commercial game data; Outlaws is a separate, incomplete target.",
+      "summary": "Native C++ reverse-engineered replacement for the Jedi engine used by Dark Forces. It is a new engine implementation, not an emulator, and does not include the commercial game data.",
+      "project_url": "https://github.com/TheForceEngine/TheForceEngine",
+      "updated": "2026-10-15",
+      "strategy": "Reverse-engineered native Jedi engine reimplementation",
+      "language": "",
+      "source_available": "Public source repository; original Dark Forces game data required",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Native game engine replacement; Dark Forces supported, Outlaws incomplete",
+      "sources": [
+        {
+          "label": "Maintainer repository README: engine scope, Dark Forces completeness, platforms, and data requirements",
+          "url": "https://github.com/TheForceEngine/TheForceEngine"
+        }
+      ]
+    },
+    {
+      "id": "mdk-sdl",
+      "title": "MDK SDL",
+      "game": "MDK",
+      "target_type": "Game",
+      "platform": "Windows/Linux/macOS/Android",
+      "kind": "Reimplementation",
+      "status": "The project README marks the game playable level by level. Windows gameplay has been tested; Linux/macOS builds are covered by CI, and Android controls remain in progress.",
+      "summary": "C# / SDL3 reverse-engineered native implementation of MDK. It requires the user’s original game data, which is not included; the repository also documents an Android APK.",
+      "project_url": "https://github.com/nemo22/mdk-sdl",
+      "updated": "2026-10-15",
+      "strategy": "Reverse-engineered native game reimplementation using SDL3",
+      "language": "",
+      "source_available": "Public C# source repository; original MDK game data required and not included",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C#",
+      "subtype": "Cross-platform reverse-engineered game implementation",
+      "sources": [
+        {
+          "label": "Maintainer repository README: project method, playability, platforms, and required data",
+          "url": "https://github.com/nemo22/mdk-sdl"
+        },
+        {
+          "label": "Maintainer release assets",
+          "url": "https://github.com/nemo22/mdk-sdl/releases"
+        }
+      ]
+    },
+    {
+      "id": "opensims2",
+      "title": "OpenSims2",
+      "game": "The Sims 2 (base game)",
+      "target_type": "Game",
+      "platform": "Windows PC → macOS 13+ (Apple Silicon)",
+      "kind": "Reimplementation",
+      "status": "Work in progress; the macOS build reaches neighborhood selection and lots. The README limits support to the base game; expansions are unsupported.",
+      "summary": "Native C++/Metal engine reimplementation of The Sims 2 for Apple Silicon Macs. It asks users to provide their own game folder and does not distribute game files.",
+      "project_url": "https://github.com/opensims2/opensims2-public",
+      "updated": "2026-10-15",
+      "strategy": "Native engine reimplementation using Metal",
+      "language": "",
+      "source_available": "Public source repository; user-supplied Sims 2 base-game files required",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "macOS-native engine reimplementation; base game only",
+      "sources": [
+        {
+          "label": "Maintainer repository README: supported game, build requirements, current progress, and data requirements",
+          "url": "https://github.com/opensims2/opensims2-public"
+        }
+      ]
+    },
+    {
+      "id": "openfodder",
+      "title": "OpenFodder",
+      "game": "Cannon Fodder (Amiga and PC releases)",
+      "target_type": "Game",
+      "platform": "Amiga/PC → Windows/Linux/BSD/other Unix-like systems and WebGL demos",
+      "kind": "Reimplementation",
+      "status": "Released native engine/source port; the project reports support for six Amiga demos and three retail releases. The official site offers playable browser demos and the project publishes desktop builds.",
+      "summary": "Open-source C++ engine reimplementation/source port for Cannon Fodder. The engine is GPL-licensed; players provide original retail game data, while separately distributed shareware demos are available.",
+      "project_url": "https://github.com/OpenFodder/openfodder",
+      "updated": "2026-10-15",
+      "strategy": "Native engine reimplementation and source port",
+      "language": "",
+      "source_available": "Public GPL source repository; retail game data is user-supplied and demos are separately available",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Multi-release engine reimplementation with browser demos",
+      "sources": [
+        {
+          "label": "Maintainer repository README: supported releases, licensing, platforms, and data policy",
+          "url": "https://github.com/OpenFodder/openfodder"
+        },
+        {
+          "label": "Official project site: browser demos and current desktop release",
+          "url": "https://openfodder.com/"
+        }
+      ]
+    }
+  ]
+}

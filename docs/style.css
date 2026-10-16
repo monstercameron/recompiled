@@ -868,9 +868,9 @@ footer { font-size:11px; }
 /* Visual refinement: make the archive's source-to-native signal path the
    signature, then let each part of the index use its own reading rhythm. */
 :root { --sans:"IBM Plex Sans","Avenir Next",sans-serif; --mono:"IBM Plex Mono","SFMono-Regular",Consolas,monospace; }
-:root[data-theme="dark"] { --wave-ink:rgba(164,203,217,.105); --pixel-ink:rgba(164,203,217,.06); }
-body::before { opacity:.34; }
-body::after { opacity:.19; }
+:root[data-theme="dark"] { --wave-ink:rgba(164,203,217,.075); --pixel-ink:rgba(164,203,217,.04); }
+body::before { opacity:.24; }
+body::after { opacity:.12; }
 .site-header { border-bottom-color:color-mix(in srgb,var(--line) 78%,transparent); }
 .site-header .brand-tagline { letter-spacing:.075em; }
 .top-nav { font-size:12px; }
@@ -982,8 +982,8 @@ h1 span { color:var(--ink); white-space:nowrap; }
   .showcase-card:not(:first-child) { padding-inline:26px; }
 }
 @media (max-width:760px) {
-  body::before { opacity:.3; }
-  body::after { opacity:.15; }
+  body::before { opacity:.19; }
+  body::after { opacity:.09; }
   .hero { grid-template-columns:1fr; gap:8px; background:radial-gradient(ellipse 78% 33% at 50% 85%,color-mix(in srgb,var(--blue) 8%,transparent),transparent 78%); }
   .hero-copy { padding:60px 0 16px; }
   h1 { max-width:680px; font-size:clamp(42px,9.7vw,67px); letter-spacing:-.07em; }
@@ -1019,3 +1019,17 @@ h1 span { color:var(--ink); white-space:nowrap; }
   .site-header .primary-nav a { font-size:10px; }
 }
 @media (max-width:360px) { h1 span { white-space:normal; } }
+@media (max-width:760px) {
+  .directory-card p,.process-resource-description { font-size:13px; line-height:1.75; }
+}
+
+/* Keep the persistent jump control legible without pulling focus from content. */
+.floating-nav > summary {
+  border-color:var(--glass-border);
+  background:color-mix(in srgb,var(--glass-surface) 78%,transparent);
+  color:var(--blue);
+  box-shadow:0 5px 16px color-mix(in srgb,var(--ink) 14%,transparent);
+  -webkit-backdrop-filter:blur(12px) saturate(1.12);
+  backdrop-filter:blur(12px) saturate(1.12);
+}
+.floating-nav > summary .ui-icon { color:var(--coral); }

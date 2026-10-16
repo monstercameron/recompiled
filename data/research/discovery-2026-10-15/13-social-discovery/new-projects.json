@@ -1,0 +1,379 @@
+{
+  "updated": "2026-10-15",
+  "reviewed_scope": "Social/community discoveries from X/Twitter leads, maintainer announcements and Reddit r/decomps/r/recomps/r/PSP/community threads; every proposed project was checked against its project-owned repository, README, manifest or release page.",
+  "projects": [
+    {
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "project_started": "2024-07-22",
+      "target_type": "Game",
+      "media": [],
+      "research_lanes": [
+        "social"
+      ],
+      "id": "resident-evil-code-veronica-x-ps2-decomp",
+      "title": "Resident Evil Code: Veronica X PS2 Decompilation",
+      "game": "Resident Evil Code: Veronica X (PS2 US release)",
+      "platform": "PlayStation 2 (US SLUS-201.84)",
+      "kind": "Decompilation",
+      "status": "The maintainer announced the supported PS2 US executable as fully decompiled; the README says the project is playable but remains a work in progress and may have bugs or crashes. This is source reconstruction, not a completed native PC port.",
+      "summary": "MIPS-to-C decompilation of the US PlayStation 2 executable, with builds tested by repackaging a user-provided game image and running it in PCSX2.",
+      "project_url": "https://github.com/AshfordFamily/recvx-decomp",
+      "strategy": "Reverse-engineers the PlayStation 2 MIPS ELF into C source; the repository uses splat/objdiff tooling and recompiles the resulting project for testing.",
+      "language": "C",
+      "programming_language": "C",
+      "subtype": "PlayStation 2 MIPS-to-C decompilation",
+      "source_available": "Open source; requires user-supplied game executable, SDK files, and disc image for build/test.",
+      "sources": [
+        {
+          "label": "Maintainer project repository and README",
+          "url": "https://github.com/AshfordFamily/recvx-decomp"
+        },
+        {
+          "label": "Community announcement linking the project",
+          "url": "https://www.reddit.com/r/decomps/comments/1wvwf30/re_code_veronica_x_has_been_decompiled/"
+        }
+      ],
+      "verification": {
+        "method": "The README identifies the work as reconstruction of the game’s PS2 MIPS ELF to C; the maintainer says all functions of SLUS_201.84 are accounted for and the program can be reproduced with most original bugs intact. No matching/build-equivalence claim is made.",
+        "game_revision_region_coverage": "Resident Evil Code: Veronica X, US PS2 executable SLUS_201.84 only; other regions are planned.",
+        "build_run_dependencies": "Requires the user’s own SLUS_201.84 and PS2 SDK files (version 2.0.0 or 3.0.3); tests repack the ELF into the user’s game image and run it in PCSX2 or on a modified console.",
+        "release_status_version_dates": "Maintainer announcement dated 2026-10-02 says the decompilation is complete; README says the project remains a work in progress and is playable with potential bugs/crashes.",
+        "license_source_assets_availability": "Repository code is MIT-licensed; game assets are not distributed and must be supplied by the user.",
+        "evidence": [
+          {
+            "url": "https://github.com/AshfordFamily/recvx-decomp",
+            "claim": "README identifies PS2 US SLUS_201.84, MIPS-to-C methodology, decompiled systems, build/test requirements and WIP limitations."
+          },
+          {
+            "url": "https://www.reddit.com/r/decomps/comments/1wvwf30/re_code_veronica_x_has_been_decompiled/",
+            "claim": "Maintainer announcement says all functions of SLUS_201.84 are accounted for and names the last decompiled function/date."
+          }
+        ],
+        "platform": "PlayStation 2 (US SLUS-201.84)"
+      }
+    },
+    {
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "target_type": "Game",
+      "media": [],
+      "research_lanes": [
+        "social"
+      ],
+      "id": "resident-evil-code-veronica-xbox360-recomp",
+      "title": "Resident Evil CODE: Veronica Xbox 360 Static Recompilation",
+      "game": "Resident Evil CODE: Veronica (Xbox 360 XEX target)",
+      "platform": "Xbox 360 → Windows x64; Linux build preset untested",
+      "kind": "Recompilation",
+      "status": "Work in progress. The public repository provides Windows build steps and a ReXGlue manifest with initial-boot and in-game function entries; the Linux preset is explicitly untested. It does not claim a finished game or downloadable playable release.",
+      "summary": "Static recompilation of an Xbox 360 XEX for a native PC build using ReXGlue-SDK; exact game build/revision is not stated in the README or manifest.",
+      "project_url": "https://github.com/psxrestore/VeronicaRecomp",
+      "strategy": "Feeds the Xbox 360 XEX through ReXGlue-SDK to generate C++ and compile a native Windows executable.",
+      "language": "C++",
+      "programming_language": "C++",
+      "subtype": "Xbox 360 XEX static recompilation",
+      "source_available": "Public source; build expects the user’s game data under the configured assets directory.",
+      "sources": [
+        {
+          "label": "Project repository and README",
+          "url": "https://github.com/psxrestore/VeronicaRecomp"
+        },
+        {
+          "label": "ReXGlue manifest identifying an XEX input and current function set",
+          "url": "https://github.com/psxrestore/VeronicaRecomp/blob/main/veronicarecomp_manifest.toml"
+        },
+        {
+          "label": "Maintainer comment linking the project from the Code: Veronica discussion",
+          "url": "https://www.reddit.com/r/decomps/comments/1wvwf30/re_code_veronica_x_has_been_decompiled/"
+        }
+      ],
+      "verification": {
+        "method": "Repository describes a static recompilation built through ReXGlue-SDK. The manifest points to assets/default.xex and contains small initial-boot and in-game function sets; it is not an emulator wrapper.",
+        "game_revision_region_coverage": "Xbox 360 XEX target; README calls the game CODE:Veronica. Exact edition/build identifier is not disclosed in the README or manifest.",
+        "build_run_dependencies": "ReXGlue-SDK, Visual Studio 2022 C++ workload, CMake, LLVM/Clang and Ninja; Windows preset documented, Linux preset marked untested.",
+        "release_status_version_dates": "Public WIP source repository, with no GitHub release listed as of 2026-10-15; README does not report full gameplay status.",
+        "license_source_assets_availability": "Source repository is public; manifest expects game data in an assets directory, and no game executable is committed in the listed source tree.",
+        "evidence": [
+          {
+            "url": "https://github.com/psxrestore/VeronicaRecomp",
+            "claim": "README identifies static recompilation via ReXGlue-SDK and provides Windows/Linux build instructions, marking Linux untested."
+          },
+          {
+            "url": "https://github.com/psxrestore/VeronicaRecomp/blob/main/veronicarecomp_manifest.toml",
+            "claim": "Manifest identifies assets/default.xex and the current boot/in-game function entries, establishing an Xbox 360 executable input."
+          }
+        ],
+        "platform": "Xbox 360 XEX → Windows x64 (Linux preset untested)"
+      }
+    },
+    {
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "target_type": "Game",
+      "media": [],
+      "research_lanes": [
+        "social"
+      ],
+      "id": "sonic-r-cross-platform-reimplementation",
+      "title": "Sonic R Cross-Platform Reimplementation",
+      "game": "Sonic R (1998 Sega PC release)",
+      "platform": "Sega PC (x86) → Windows, macOS, Linux, Sega Dreamcast",
+      "kind": "Reimplementation",
+      "status": "Release v1.0-bugfix1 is available. The project README documents native desktop and Dreamcast builds that share one C game-logic codebase; users supply their own Sonic R data.",
+      "summary": "From-scratch reimplementation of the 1998 PC game engine in portable C, reverse-engineered and validated against the original executable; contains no original Sega code.",
+      "project_url": "https://github.com/jnmartin84/sonic-r",
+      "strategy": "Reverse-engineers the original x86 executable and translates/rebuilds its logic as portable C; SDL2 provides desktop support and KallistiOS the Dreamcast target.",
+      "language": "C",
+      "programming_language": "C",
+      "subtype": "Multi-platform game-engine reimplementation",
+      "source_available": "Open source; game engine only, with user-provided game data required.",
+      "sources": [
+        {
+          "label": "Project repository and README",
+          "url": "https://github.com/jnmartin84/sonic-r"
+        },
+        {
+          "label": "Latest published release",
+          "url": "https://github.com/jnmartin84/sonic-r/releases/tag/v1.0-bugfix1"
+        },
+        {
+          "label": "Community/news lead (uses “decompiled” in its headline)",
+          "url": "https://www.reddit.com/r/SonicTheHedgehog/comments/1sspajr/sonic_r_decompiled_by_fan_developer_dreamcast/"
+        }
+      ],
+      "verification": {
+        "method": "The project calls itself a from-scratch game-engine reimplementation with no original Sega code. README describes reverse-engineering and x86-to-C translation, validated against live WinDbg sessions of the original 1998 SONICR.EXE.",
+        "game_revision_region_coverage": "1998 Sega PC release; no other game edition is identified as supported.",
+        "build_run_dependencies": "Windows/macOS/Linux builds use SDL2; Dreamcast build uses KallistiOS. The user supplies the original game data.",
+        "release_status_version_dates": "GitHub release v1.0-bugfix1 was published 2026-09-15; README documents desktop and Dreamcast play guides.",
+        "license_source_assets_availability": "Engine source is public and contains no original Sega code; game data is user-supplied. README identifies a few small supporting assets bundled with the project.",
+        "evidence": [
+          {
+            "url": "https://github.com/jnmartin84/sonic-r",
+            "claim": "README describes targets, implementation method, validation, and user-supplied assets."
+          },
+          {
+            "url": "https://github.com/jnmartin84/sonic-r/releases/tag/v1.0-bugfix1",
+            "claim": "Project release page confirms the current public release tag."
+          }
+        ],
+        "platform": "Sega PC (x86) → Windows, macOS, Linux, Sega Dreamcast"
+      }
+    },
+    {
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "target_type": "Game",
+      "media": [],
+      "research_lanes": [
+        "social"
+      ],
+      "id": "ctr-nitrofueled-windows-api-translation",
+      "title": "Crash Team Racing: Nitro-Fueled Windows API-Translation Port",
+      "game": "Crash Team Racing: Nitro-Fueled (PS4 CUSA13795, update 1.21)",
+      "platform": "PlayStation 4 → Windows 10/11",
+      "kind": "API Translation",
+      "status": "Windows v0.3 release is playable; the README lists Adventure and Arcade races, sound, cutscenes, controllers, keyboard and saving. The project remains in active testing and reports GPU hangs on some setups. User must provide the decrypted CUSA13795 game and 1.21 update.",
+      "summary": "Windows-specific game port derived from the Linux SacredFire port: original x86-64 game code runs on the host CPU, a custom runtime replaces PS4 system libraries, and a shadPS4-derived renderer translates GPU work to Vulkan.",
+      "project_url": "https://github.com/GetLostIn/CTR-NitroFueled-PC",
+      "strategy": "Runs original PS4 x86-64 code directly and replaces its OS/runtime imports; translates PS4 GPU commands and shaders to Vulkan with a shadPS4-derived video core.",
+      "language": "C++",
+      "programming_language": "C and C++",
+      "subtype": "PS4-to-Vulkan game-specific API-translation port for Windows",
+      "source_available": "Open source; project releases contain no game files and require the user’s decrypted game and update.",
+      "sources": [
+        {
+          "label": "Project repository and README",
+          "url": "https://github.com/GetLostIn/CTR-NitroFueled-PC"
+        },
+        {
+          "label": "Current Windows release",
+          "url": "https://github.com/GetLostIn/CTR-NitroFueled-PC/releases/tag/v0.3"
+        },
+        {
+          "label": "Author announcement in r/decomps",
+          "url": "https://www.reddit.com/r/decomps/comments/1x4ad6f/native_windows_port_of_ctr_nitrofueled_ps4_v121/"
+        }
+      ],
+      "verification": {
+        "method": "The README says the PS4 game’s x86-64 code runs on the CPU, a small runtime replaces PS4 system libraries, and a renderer derived from shadPS4 translates PS4 GPU work to Vulkan; it explicitly identifies this as a Windows fork of SacredFire.",
+        "game_revision_region_coverage": "PS4 CUSA13795 (Americas), base game plus update 1.21; other regional editions are not supported by the README.",
+        "build_run_dependencies": "Windows 10/11, Vulkan 1.3 GPU, decrypted game and update folders; project includes a portable launcher and setup steps.",
+        "release_status_version_dates": "Windows v0.3 released 2026-10-13; README says Windows status is playable and notes ongoing testing/GPU Device-lost hangs on some configurations.",
+        "license_source_assets_availability": "GPL source is available; no game files are included and user must provide own decrypted CUSA13795 dump and update.",
+        "evidence": [
+          {
+            "url": "https://github.com/GetLostIn/CTR-NitroFueled-PC",
+            "claim": "README identifies the exact PS4 target, Windows scope, runtime/GPU translation method, playable status and known issues."
+          },
+          {
+            "url": "https://github.com/GetLostIn/CTR-NitroFueled-PC/releases/tag/v0.3",
+            "claim": "Release page confirms the current v0.3 package and update contents."
+          }
+        ],
+        "platform": "PlayStation 4 → Windows 10/11"
+      }
+    },
+    {
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "target_type": "Game",
+      "media": [],
+      "research_lanes": [
+        "social"
+      ],
+      "id": "tobiichi-god-of-war-ps2-port",
+      "title": "God of War PS2 Tobiichi Port",
+      "game": "God of War (PS2 NTSC-U SCUS-97399)",
+      "platform": "PlayStation 2 → Windows x64 and Linux x64",
+      "kind": "Recompilation",
+      "status": "Public source/build scripts are available for Windows and Linux. The installer generates a local build from the user’s NTSC-U disc and automatically plays the opening of the first level to collect VU1/IOP code; the README makes no full-campaign completion claim.",
+      "summary": "Native PC integration of PS2 static recompilation: MIPS game code is translated to C++, with native OpenGL rendering and native VU1/IOP implementations. Built on PS2Recomp and contributors’ existing God of War runtime work.",
+      "project_url": "https://github.com/YYOzcan/Tobiichi-Port",
+      "strategy": "Statically recompiles SCUS_973.99 from MIPS to C++ with PS2Recomp, compiles observed VU1 microcode and IOP modules, and replaces PS2 hardware services with native OpenGL/audio/input/memory-card/movie code.",
+      "language": "C++",
+      "programming_language": "C++",
+      "subtype": "PS2 static recompilation and native PC integration",
+      "source_available": "Public source and build scripts; user supplies the original USA PS2 disc image, and the build is generated locally.",
+      "sources": [
+        {
+          "label": "Project repository and README",
+          "url": "https://github.com/YYOzcan/Tobiichi-Port"
+        },
+        {
+          "label": "Project announcement in r/recomps",
+          "url": "https://www.reddit.com/r/recomps/comments/1x6ymcp/github_yyozcantobiichiport_god_of_war_ps2_pc/"
+        }
+      ],
+      "verification": {
+        "method": "README identifies static MIPS-to-C++ recompilation through PS2Recomp, ahead-of-time VU1 and IOP code generation, and a native OpenGL renderer/runtime. The repository credits and integrates work from KIexster and Waffle565.",
+        "game_revision_region_coverage": "God of War PS2 USA/NTSC-U executable SCUS_973.99 only.",
+        "build_run_dependencies": "User-provided 8 GB NTSC-U ISO, Windows x64 or Linux x64 and platform-specific C++ build tools; installer extracts the image, generates code and compiles the port.",
+        "release_status_version_dates": "Public source repository; no GitHub release listed as of 2026-10-15. Installer’s first-run optimization opens the game for four minutes and plays the first-level opening; README does not claim full playthrough testing.",
+        "license_source_assets_availability": "GPL-3.0 source; game files are not included and are built locally from the user’s own copy.",
+        "evidence": [
+          {
+            "url": "https://github.com/YYOzcan/Tobiichi-Port",
+            "claim": "README specifies exact target executable/revision, native methods, supported hosts, build route and boundaries of documented testing."
+          }
+        ],
+        "platform": "PlayStation 2 → Windows x64 and Linux x64"
+      }
+    },
+    {
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "target_type": "Game",
+      "media": [],
+      "research_lanes": [
+        "social"
+      ],
+      "id": "god-of-war-iii-remastered-ps4-api-translation",
+      "title": "God of War III Remastered PS4 PC API-Translation Port",
+      "game": "God of War III Remastered (PS4 CUSA01623/CUSA01715)",
+      "platform": "PlayStation 4 → Windows 10/11; experimental Linux AppImage",
+      "kind": "API Translation",
+      "status": "Windows v2.3.0 release is available. The README reports a full playthrough at 1080p with a 240 FPS engine frame rate on its test system, while noting texture corruption, crashes and progress blockers on other setups. Linux AppImage is experimental; tested game builds are CUSA01623/CUSA01715 versions 1.00/1.02.",
+      "summary": "Game-specific PS4-to-PC runtime: the original x86-64 game code executes on the host CPU, custom code replaces PS4 system APIs, and shadPS4 translates GPU commands and shaders to Vulkan. This is API translation/runtime replacement, not static recompilation.",
+      "project_url": "https://github.com/FelipePrado0/gow3_pc",
+      "strategy": "Executes the original PS4 x86-64 game code directly on a compatible PC CPU, replaces PS4 system libraries with a game-specific runtime, and translates graphics through shadPS4’s Vulkan video core.",
+      "language": "C++",
+      "programming_language": "C and C++",
+      "subtype": "PS4 game-specific runtime and Vulkan API translation",
+      "source_available": "Source and Windows release are available; no game files are included and users supply their own PS4 dump.",
+      "sources": [
+        {
+          "label": "Project repository and README",
+          "url": "https://github.com/FelipePrado0/gow3_pc"
+        },
+        {
+          "label": "Windows v2.3.0 release",
+          "url": "https://github.com/FelipePrado0/gow3_pc/releases/tag/windows-v2.3.0"
+        },
+        {
+          "label": "Community release lead in r/decomps",
+          "url": "https://www.reddit.com/r/decomps/comments/1x58mv7/god_of_war_iii_remastered_pc_port_out_now_and_its/"
+        }
+      ],
+      "verification": {
+        "method": "README says the original x86-64 code runs on the PC CPU, a custom runtime replaces PS4 system libraries, and the shadPS4 video core translates PS4 GPU commands and shaders to Vulkan. The project is a game-specific fork of a general PC compatibility runtime.",
+        "game_revision_region_coverage": "PS4 CUSA01623 and CUSA01715, versions 01.00 and 01.02, as listed in the README.",
+        "build_run_dependencies": "Windows 10/11 with an AVX CPU and Vulkan 1.3 GPU; experimental Linux x86-64 AppImage requires glibc 2.39+; user supplies a decrypted PS4 dump.",
+        "release_status_version_dates": "Windows release windows-v2.3.0 published 2026-10-15 UTC. README says complete playthrough was tested on one system at native 1080p/240 FPS engine frame rate and warns that other setups have texture corruption, crashes and blockers.",
+        "license_source_assets_availability": "Public source and release; README explicitly says game files are not included.",
+        "evidence": [
+          {
+            "url": "https://github.com/FelipePrado0/gow3_pc",
+            "claim": "README documents method, supported PS4 versions, hosts, current compatibility caveats and tested start-to-finish run on one system."
+          },
+          {
+            "url": "https://github.com/FelipePrado0/gow3_pc/releases/tag/windows-v2.3.0",
+            "claim": "Release page establishes the current Windows stable release."
+          }
+        ],
+        "platform": "PlayStation 4 → Windows 10/11; experimental Linux AppImage"
+      }
+    },
+    {
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "target_type": "Game",
+      "media": [],
+      "research_lanes": [
+        "social"
+      ],
+      "id": "fate-unlimited-codes-psp-recomp",
+      "title": "Fate/unlimited codes PSP Static Recompilation",
+      "game": "Fate/unlimited codes (PSP European release NPEH00007, disc v1.01)",
+      "platform": "PlayStation Portable → Windows x64",
+      "kind": "Recompilation",
+      "status": "Public v0.0.5 build establishes the PSP gameplay base; README marks that base OK while noting battle voice gain still needs correction. The planned PS2 asset replacement is in progress, PS2 controls and online play remain planned, and the current native build is Windows-only.",
+      "summary": "Hybrid native Windows project with the PSP version as its current static-recompilation/gameplay base; PS2 assets and controls are future work. Uses a modified PSPRecomp pipeline and generates the user’s executable locally.",
+      "project_url": "https://github.com/elprogramadorloco-arch/fuc-recomp",
+      "strategy": "Uses a project-specific modified PSPRecomp pipeline to statically recompile the decrypted PSP EBOOT into native Windows x64 code; PPSSPP is a user-supplied preparation tool only, not a runtime emulator.",
+      "language": "C++",
+      "programming_language": "C++",
+      "subtype": "PSP static recompilation to Windows x64",
+      "source_available": "Public source and source-only releases; user supplies the European PSP ISO, fonts and official PPSSPP portable archive and generates a private local binary.",
+      "sources": [
+        {
+          "label": "Project repository and README",
+          "url": "https://github.com/elprogramadorloco-arch/fuc-recomp"
+        },
+        {
+          "label": "Latest published release",
+          "url": "https://github.com/elprogramadorloco-arch/fuc-recomp/releases/tag/v0.0.5"
+        },
+        {
+          "label": "Maintainer WIP announcement in r/decomps",
+          "url": "https://www.reddit.com/r/decomps/comments/1w4veoy/wip_fateunlimited_codes_recomp_psp_static/"
+        }
+      ],
+      "verification": {
+        "method": "README describes a modified PSPRecomp pipeline for static recompilation, with PPSSPP used only to create a local decrypted EBOOT dump. It says the generated native build does not require PPSSPP at runtime.",
+        "game_revision_region_coverage": "European PSP release NPEH00007, disc version 1.01 only; README includes exact expected ISO size/hash.",
+        "build_run_dependencies": "64-bit Windows, CMake 3.22+, user-provided game ISO, 18 PSP PGF fonts and official PPSSPP Windows x64 portable archive v1.20.4+ for local EBOOT extraction.",
+        "release_status_version_dates": "Latest release v0.0.5 published 2026-09-16. README marks the PSP base version OK with battle voice-gain work remaining; PS2 asset replacement is in progress, PS2 controls and online gameplay are planned.",
+        "license_source_assets_availability": "No game ISO, extracted assets or game-derived output is included; the project instructs users to build private derivatives locally.",
+        "evidence": [
+          {
+            "url": "https://github.com/elprogramadorloco-arch/fuc-recomp",
+            "claim": "README identifies exact PSP build, modified PSPRecomp method, Windows host, current roadmap/status and user-supplied inputs."
+          },
+          {
+            "url": "https://github.com/elprogramadorloco-arch/fuc-recomp/releases/tag/v0.0.5",
+            "claim": "Release page confirms the latest public source release."
+          }
+        ],
+        "platform": "PlayStation Portable → Windows x64"
+      }
+    }
+  ]
+}

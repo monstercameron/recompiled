@@ -1,0 +1,166 @@
+{
+  "updated": "2026-10-15",
+  "projects": [
+    {
+      "id": "hadron-windows-games-macos",
+      "title": "Hadron",
+      "game": "Windows games through Steam (multi-title)",
+      "target_type": "Software",
+      "platform": "Windows x86/x86-64 → Apple Silicon macOS arm64 (macOS 27+); Direct3D, Vulkan and OpenGL → Metal",
+      "kind": "API Translation",
+      "status": "Early development; v0.3.0 was published 2026-10-14. The README says a handful of games play well and many do not start. Requires Apple silicon and macOS 27; the project says it uses native arm64 Wine and FEX rather than Rosetta.",
+      "summary": "Open-source Steam Play compatibility stack for Windows games on Apple silicon. Wine is built for arm64, FEX translates x86/x86-64 game instructions, and graphics APIs are translated to Metal. Compatibility remains early and title-specific.",
+      "project_url": "https://github.com/Broyojo/hadron",
+      "updated": "2026-10-15",
+      "strategy": "Native arm64 Wine with FEX CPU translation and graphics API-to-Metal compatibility",
+      "source_available": "Public source repository; components retain their own licenses",
+      "first_found": "2026-10-15",
+      "programming_language": "Objective-C",
+      "subtype": "Apple silicon Windows-game compatibility stack",
+      "sources": [
+        {
+          "label": "Project README: architecture, macOS requirement and compatibility status",
+          "url": "https://github.com/Broyojo/hadron"
+        },
+        {
+          "label": "Latest Hadron release",
+          "url": "https://github.com/Broyojo/hadron/releases/tag/v0.3.0"
+        }
+      ]
+    },
+    {
+      "id": "sikarugir-wine-wrapper",
+      "title": "Sikarugir (Kegworks successor)",
+      "game": "Windows applications and games (multi-title)",
+      "target_type": "Software",
+      "platform": "Windows software → macOS 14.6+; the Apple silicon path requires Rosetta 2",
+      "kind": "API Translation",
+      "status": "Active source development; the repository's latest commit was 2026-10-14, and its releases page has no published releases. The README lists D3DMetal, DXVK, D9VK, DXMT and WineD3D options.",
+      "summary": "Successor to Wineskin that creates user-friendly Wine-wrapped macOS apps for Windows software. Sikarugir manages the wrappers and selects graphics backends; Wine and the selected graphics components provide the underlying compatibility behavior.",
+      "project_url": "https://github.com/Sikarugir-App/Sikarugir",
+      "updated": "2026-10-15",
+      "strategy": "Wine app wrapping and graphics compatibility backend management",
+      "source_available": "Public source repository; bundled components have separate licensing terms",
+      "first_found": "2026-10-15",
+      "subtype": "macOS Wine wrapper",
+      "sources": [
+        {
+          "label": "Canonical Sikarugir repository README and supported macOS/backends",
+          "url": "https://github.com/Sikarugir-App/Sikarugir"
+        },
+        {
+          "label": "Sikarugir releases",
+          "url": "https://github.com/Sikarugir-App/Sikarugir/releases"
+        }
+      ]
+    },
+    {
+      "id": "whisky-macos-wine-wrapper",
+      "title": "Whisky",
+      "game": "Windows applications and games (multi-title)",
+      "target_type": "Software",
+      "platform": "Windows applications and games → Apple silicon macOS (M-series; macOS 14+)",
+      "kind": "API Translation",
+      "status": "Archived by its owner on 2025-05-11 and no longer actively maintained. The latest release is v2.3.5 (2025-04-05); the README lists Apple silicon and macOS Sonoma 14+.",
+      "summary": "SwiftUI macOS application for creating and managing Wine bottles for Windows apps and games. The original README says Whisky is built on CrossOver 22.1.1 and Apple's Game Porting Toolkit, so it is a wrapper around those compatibility components rather than a separate Windows API implementation.",
+      "project_url": "https://github.com/Whisky-App/Whisky",
+      "updated": "2026-10-15",
+      "strategy": "Wine-based Windows compatibility wrapper with CrossOver and Game Porting Toolkit components",
+      "source_available": "Public archived source repository; runtime components have separate licensing terms",
+      "first_found": "2026-10-15",
+      "programming_language": "Swift",
+      "subtype": "macOS Wine wrapper",
+      "sources": [
+        {
+          "label": "Archived upstream repository README and maintenance notice",
+          "url": "https://github.com/Whisky-App/Whisky"
+        },
+        {
+          "label": "Latest Whisky release",
+          "url": "https://github.com/Whisky-App/Whisky/releases/tag/v2.3.5"
+        }
+      ]
+    },
+    {
+      "id": "scotch-macos-windows-compatibility",
+      "title": "Scotch",
+      "game": "Windows applications and games (multi-title)",
+      "target_type": "Software",
+      "platform": "Windows applications and games → Apple silicon macOS 26+; Wine uses Rosetta 2",
+      "kind": "API Translation",
+      "status": "Active; v1.2.2 was published 2026-09-30. The project targets Apple silicon and macOS Tahoe 26 or later; its README lists a pinned compatibility stack and says combinations outside its tested matrix are unsupported.",
+      "summary": "Native SwiftUI app for managing Wine bottles and selectable graphics paths on Apple silicon Macs. It combines Wine with Apple's D3DMetal, DXVK through MoltenVK, DXMT, and Mesa Zink; Wine and those components perform the Windows API and graphics translation.",
+      "project_url": "https://github.com/S3bRR/Scotch",
+      "updated": "2026-10-15",
+      "strategy": "Wine compatibility orchestration with selectable Direct3D/OpenGL-to-Metal backends",
+      "source_available": "Public source repository; third-party components retain their own licenses",
+      "first_found": "2026-10-15",
+      "programming_language": "Swift",
+      "subtype": "macOS Wine and graphics backend manager",
+      "sources": [
+        {
+          "label": "Scotch README: system requirements, backend versions and tested matrix",
+          "url": "https://github.com/S3bRR/Scotch"
+        },
+        {
+          "label": "Latest Scotch release",
+          "url": "https://github.com/S3bRR/Scotch/releases/tag/v1.2.2"
+        }
+      ]
+    },
+    {
+      "id": "cosmos-macos-steam-compatibility",
+      "title": "Cosmos",
+      "game": "Windows games and applications through Steam and standalone installers (multi-title)",
+      "target_type": "Software",
+      "platform": "Windows software → Intel macOS x86-64 and Apple silicon macOS arm64 (M1–M4); app requires macOS 13+, setup scripts macOS 11+",
+      "kind": "API Translation",
+      "status": "Active; latest release v0.7.1 was published 2026-07-05. The README supports Intel and Apple silicon Macs, notes Rosetta 2 is required on Apple silicon, and says Intel paths receive less CI testing.",
+      "summary": "Open-source macOS compatibility app that installs Wine, creates Steam bottles, and builds launchers for Windows games. It uses DXMT by default and can select Apple's D3DMetal, DXVK or WineD3D; the app orchestrates these existing compatibility components.",
+      "project_url": "https://github.com/awest813/Cosmos",
+      "updated": "2026-10-15",
+      "strategy": "Wine-based application compatibility stack with configurable graphics translators",
+      "source_available": "Public source repository (LGPL-3.0-or-later)",
+      "first_found": "2026-10-15",
+      "programming_language": "Swift",
+      "subtype": "macOS game compatibility frontend",
+      "sources": [
+        {
+          "label": "Cosmos README: supported Mac architectures, requirements and graphics backends",
+          "url": "https://github.com/awest813/Cosmos"
+        },
+        {
+          "label": "Latest Cosmos release",
+          "url": "https://github.com/awest813/Cosmos/releases/tag/v0.7.1"
+        }
+      ]
+    },
+    {
+      "id": "mac-gaming-uncle",
+      "title": "Mac Gaming Uncle",
+      "game": "Windows games through Steam (multi-title)",
+      "target_type": "Software",
+      "platform": "Windows x86-64 games → Apple silicon macOS arm64 (macOS 15+); Rosetta 2 for x86-64 code, D3DMetal for Direct3D 11/12",
+      "kind": "API Translation",
+      "status": "Research preview v0.6.1 (2026-10-11) for Apple silicon and macOS 15+. The maintainer reports testing on an M3 Max/macOS 26.6.2 with Wine 11.0.2 and GPTK 4 beta 2; the README documents individual title tests and does not claim broad compatibility.",
+      "summary": "Open-source native macOS Steam shell that composes Wine, Rosetta 2, Apple's D3DMetal and a DXVK/MoltenVK fallback with per-game recipes. It does not include Windows, Steam, games, or D3DMetal binaries; those components are obtained separately under their own terms.",
+      "project_url": "https://github.com/enginefuture/mac-gaming-uncle",
+      "updated": "2026-10-15",
+      "strategy": "Wine and CPU/graphics translation stack orchestration for Windows games on Apple silicon",
+      "source_available": "Public source repository (Apache-2.0 app); third-party components retain their own terms",
+      "first_found": "2026-10-15",
+      "programming_language": "Swift",
+      "subtype": "Apple silicon Windows-game compatibility frontend",
+      "sources": [
+        {
+          "label": "Project README: architecture, compatibility boundaries and research-preview status",
+          "url": "https://github.com/enginefuture/mac-gaming-uncle"
+        },
+        {
+          "label": "Mac Gaming Uncle v0.6.1 release",
+          "url": "https://github.com/enginefuture/mac-gaming-uncle/releases/tag/v0.6.1"
+        }
+      ]
+    }
+  ]
+}

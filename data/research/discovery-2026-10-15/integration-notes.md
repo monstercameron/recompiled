@@ -1,0 +1,13 @@
+# Reviewed research batch: 2026-10-15
+
+This batch integrates source-verified project discoveries and catalog updates. The per-lane manifests and notes are retained beside this file so reviewers can trace each claim to its primary repository or maintainer documentation.
+
+The reviewed additions manifest contains 46 distinct project targets. It includes three NES decompositions housed in one repository and two separate Mesa translation targets, which share repository URLs but have different games or API directions. The God of War Tobiichi integration is held out because it targets the same USA PS2 executable and Windows/Linux output as the existing God of War recompilation, while reusing that project’s work; it remains a candidate for cross-linking rather than a separate target row.
+
+The metadata patch manifest combines 120 updates across the Nintendo, Sony/Sega, graphics/API, Mac compatibility, console-to-console, community, and game-profile lanes. It appends evidence URLs without deleting existing source rows. Where two lanes overlapped, their sources were combined. KytyPS5 uses the later release explicitly marked latest, `KytyPS5-2026-10-16-3ff6606`; graphics-driver and API statuses preserve experimental and target-specific caveats.
+
+Four additional targets were checked directly against their project READMEs and repository language endpoints: Lombyte’s USA Ratchet & Clank decompilation, OpenRAC’s Up Your Arsenal decompilation, JSRF’s native Apple Silicon recompilation, and Fable: The Lost Chapters PC decompilation. Their records retain the exact game builds and current project maturity. The Fable entry makes clear that an authored front-end checkpoint is not evidence of a bootable or playable game.
+
+The game metadata lane adds 46 sourced facts for eight game profiles, plus direct Wikipedia article links for those games. Those eight game keys had no existing facts, so the profile importer’s per-game replacement does not discard prior research. The tools lane adds six directory items and refreshes the existing five process resources in place. The language audit includes 21 projects: 17 additions from the Nintendo and graphics/API lanes, plus the four independently checked targets.
+
+Validation performed before integrating: project IDs and target triples were checked against the 847-row catalog; patch IDs, supported fields, and HTTPS evidence were checked; imports were exercised against a temporary copy of SQLite; the importer preserved existing source rows and rolled back a batch when a referenced project ID was invalid. The final live catalog is rebuilt by `scripts/build.sh` from SQLite and the reviewed manifests.

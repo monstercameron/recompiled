@@ -1,0 +1,1218 @@
+{
+  "updated": "2026-10-15",
+  "scope": "Evidence-backed audit of 42 existing emulator records spanning console, handheld, arcade, computer, calculator/software, and general-purpose machine emulation. Refreshed project activity/release dates and compatibility-facing status; frontend/core and other non-column observations are retained in evidence_note.",
+  "updates": [
+    {
+      "id": "duckstation",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Active; preview build published 2026-10-15.",
+        "game": "PlayStation games and homebrew",
+        "platform": "PlayStation",
+        "programming_language": "C++",
+        "source_available": "Public source repository",
+        "strategy": "Full PS1 system emulation, with interpreter and dynamic-recompiler CPU paths and software or hardware rendering.",
+        "target_type": "Software"
+      },
+      "sources": [
+        {
+          "label": "Official source repository and project description",
+          "url": "https://github.com/stenzek/duckstation"
+        },
+        {
+          "label": "Official upstream release history",
+          "url": "https://github.com/stenzek/duckstation/releases"
+        }
+      ],
+      "evidence_note": "Standalone desktop emulator with Qt frontends; source exposes interpreter and recompiler paths, software/hardware renderers, and a public per-game compatibility wiki. No official Libretro core is advertised by the current project docs. Programming-language value was checked against the upstream repository/build documentation and retained from the catalog."
+    },
+    {
+      "id": "pcsx2",
+      "fields": {
+        "updated": "2026-10-14",
+        "status": "Active; development release v2.9.127 published 2026-10-14.",
+        "game": "PlayStation 2 games, applications, and homebrew",
+        "platform": "PlayStation 2",
+        "programming_language": "C++",
+        "source_available": "Public source repository",
+        "strategy": "PS2 hardware emulation using interpreters and dynamic recompilers for the system's processors and emulated graphics hardware.",
+        "target_type": "Software"
+      },
+      "sources": [
+        {
+          "label": "Official source repository and README",
+          "url": "https://github.com/PCSX2/pcsx2"
+        },
+        {
+          "label": "Official project site",
+          "url": "https://pcsx2.net/"
+        },
+        {
+          "label": "Official upstream release history",
+          "url": "https://github.com/PCSX2/pcsx2/releases"
+        }
+      ],
+      "evidence_note": "Standalone desktop GUI with Qt; upstream documents per-game compatibility ratings and selectable hardware renderers. The project is not presented as an external Libretro core. Programming-language value was checked against the upstream repository/build documentation and retained from the catalog."
+    },
+    {
+      "id": "rpcs3",
+      "fields": {
+        "updated": "2026-09-30",
+        "status": "Active; release v0.0.43 published 2026-09-30.",
+        "game": "PlayStation 3 games, applications, and homebrew",
+        "platform": "PlayStation 3",
+        "programming_language": "C++",
+        "source_available": "Public source repository",
+        "strategy": "Full PS3 system emulation, including Cell processor execution, system modules, and RSX graphics emulation.",
+        "target_type": "Software"
+      },
+      "sources": [
+        {
+          "label": "Official source repository",
+          "url": "https://github.com/RPCS3/rpcs3"
+        },
+        {
+          "label": "Official FAQ",
+          "url": "https://github.com/RPCS3/rpcs3/wiki/FAQ"
+        },
+        {
+          "label": "Official compatibility list",
+          "url": "https://rpcs3.io/compatibility"
+        },
+        {
+          "label": "Official upstream release history",
+          "url": "https://github.com/RPCS3/rpcs3/releases"
+        }
+      ],
+      "evidence_note": "Standalone desktop app; the official compatibility tracker distinguishes playable, ingame, intro, loadable, and nothing states. CPU, RSX, firmware, and game compatibility are separate concerns. Programming-language value was checked against the upstream repository/build documentation and retained from the catalog."
+    },
+    {
+      "id": "ppsspp",
+      "fields": {
+        "updated": "2026-05-16",
+        "status": "Active; release v1.20.4 published 2026-05-16.",
+        "game": "PlayStation Portable games and homebrew",
+        "platform": "PlayStation Portable",
+        "programming_language": "C++",
+        "source_available": "Public source repository",
+        "strategy": "High-level PSP system emulation; it does not require the PSP BIOS to run games.",
+        "target_type": "Software"
+      },
+      "sources": [
+        {
+          "label": "Official source repository and README",
+          "url": "https://github.com/hrydgard/ppsspp"
+        },
+        {
+          "label": "Official project site",
+          "url": "https://www.ppsspp.org/"
+        },
+        {
+          "label": "Official upstream release history",
+          "url": "https://github.com/hrydgard/ppsspp/releases"
+        }
+      ],
+      "evidence_note": "Official standalone desktop/mobile builds and a Libretro core are available. PPSSPP uses high-level PSP emulation and does not require a PSP BIOS to run games. Programming-language value was checked against the upstream repository/build documentation and retained from the catalog."
+    },
+    {
+      "id": "vita3k",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Active experimental project with continuous builds; the official compatibility tracker showed about 64% of tested titles playable on 2026-10-08.",
+        "game": "PlayStation Vita games and applications",
+        "platform": "PlayStation Vita",
+        "programming_language": "C++",
+        "source_available": "Public source repository",
+        "strategy": "Full PS Vita system emulation, with emulated platform services, CPU execution, and graphics translation.",
+        "target_type": "Software"
+      },
+      "sources": [
+        {
+          "label": "Official source repository",
+          "url": "https://github.com/Vita3K/Vita3K"
+        },
+        {
+          "label": "Official project site",
+          "url": "https://vita3k.org/"
+        },
+        {
+          "label": "Official compatibility tracker",
+          "url": "https://vita3k.org/compatibility"
+        },
+        {
+          "label": "Official upstream release history",
+          "url": "https://github.com/Vita3K/Vita3K/releases"
+        }
+      ],
+      "evidence_note": "Standalone desktop and Android builds; no official Libretro core is listed. Compatibility is title-specific and the tracker separates playable, ingame, and bootable states. Programming-language value was checked against the upstream repository/build documentation and retained from the catalog."
+    },
+    {
+      "id": "shadps4",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Active experimental project; a daily prerelease was published 2026-10-15. Compatibility changes rapidly; some commercial titles boot or reach playable status.",
+        "game": "Bloodborne",
+        "platform": "PlayStation 4",
+        "programming_language": "C++",
+        "source_available": "Public source repository",
+        "strategy": "Full PS4 system emulation, including CPU instruction execution/recompilation, system-library emulation, and GPU command/shader translation.",
+        "target_type": "Software"
+      },
+      "sources": [
+        {
+          "label": "Official source repository",
+          "url": "https://github.com/shadps4-emu/shadPS4"
+        },
+        {
+          "label": "Maintainer compatibility reports",
+          "url": "https://github.com/shadps4-compatibility/shadps4-game-compatibility"
+        },
+        {
+          "label": "Official upstream release history",
+          "url": "https://github.com/shadps4-emu/shadPS4/releases"
+        }
+      ],
+      "evidence_note": "Standalone experimental desktop emulator; the compatibility repository tracks title status separately from boot success. Compatibility labels are volatile and do not imply general PS4 playability. Programming-language value was checked against the upstream repository/build documentation and retained from the catalog."
+    },
+    {
+      "id": "cemu",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Maintained; v2.6 is the latest stable release (2025-02-06), and the source repository continued to receive updates through 2026-10-15.",
+        "game": "Wii U games, applications, and homebrew",
+        "platform": "Wii U",
+        "programming_language": "C/C++",
+        "source_available": "Public source repository",
+        "strategy": "Software system emulation with guest CPU recompilation and translated graphics; the current project docs do not specify the exact HLE/LLE split.",
+        "target_type": "Software"
+      },
+      "sources": [
+        {
+          "label": "Official website",
+          "url": "https://cemu.info/index.html"
+        },
+        {
+          "label": "Official source repository",
+          "url": "https://github.com/cemu-project/Cemu"
+        }
+      ],
+      "evidence_note": "Standalone desktop application with bundled GUI; supports user-supplied Wii U system files and title updates. Official compatibility data is maintained in the Cemu Wiki; no official Libretro core is listed. Programming-language value was checked against the upstream repository/build documentation and retained from the catalog."
+    },
+    {
+      "id": "dolphin",
+      "fields": {
+        "updated": "2026-10-12",
+        "status": "Active; official development builds continue, with source updates through 2026-10-12.",
+        "game": "Nintendo GameCube/Wii",
+        "platform": "Windows, Linux, macOS, Android",
+        "programming_language": "C++",
+        "source_available": "Public source repository",
+        "strategy": "Standalone software emulator.",
+        "target_type": "Software"
+      },
+      "sources": [
+        {
+          "label": "Official source repository and supported systems",
+          "url": "https://github.com/dolphin-emu/dolphin"
+        },
+        {
+          "label": "Official FAQ and project history",
+          "url": "https://dolphin-emu.org/docs/faq/"
+        },
+        {
+          "label": "Official download page",
+          "url": "https://dolphin-emu.org/download/"
+        }
+      ],
+      "evidence_note": "Standalone desktop/mobile frontends and an official Libretro core are available. The compatibility list distinguishes perfect, playable, ingame, intro, and unbootable results; GPU/backend and game-specific settings can affect results. Programming-language value was checked against the upstream repository/build documentation and retained from the catalog."
+    },
+    {
+      "id": "azahar",
+      "fields": {
+        "updated": "2026-10-14",
+        "status": "Active community project; release 2127.0-alpha2 was published 2026-10-14.",
+        "game": "Nintendo 3DS",
+        "platform": "Windows, macOS, Linux, Android",
+        "programming_language": "C++",
+        "source_available": "Public source repository",
+        "strategy": "High-level 3DS software emulator.",
+        "target_type": "Software"
+      },
+      "sources": [
+        {
+          "label": "Official source repository, project status, and supported platforms",
+          "url": "https://github.com/azahar-emu/azahar"
+        },
+        {
+          "label": "Official download page",
+          "url": "https://azahar-emu.org/pages/download/"
+        },
+        {
+          "label": "Project announcement about public source release",
+          "url": "https://azahar-emu.org/pages/bloglist/"
+        },
+        {
+          "label": "Official upstream release history",
+          "url": "https://github.com/azahar-emu/azahar/releases"
+        }
+      ],
+      "evidence_note": "Standalone desktop and Android builds. The fork continues the Citra architecture; no upstream-supported Libretro core is advertised. Current release notes and compatibility reports should be preferred over the discontinued original Citra catalog. Programming-language value was checked against the upstream repository/build documentation and retained from the catalog."
+    },
+    {
+      "id": "ares",
+      "fields": {
+        "updated": "2026-10-06",
+        "status": "Active; source repository updated 2026-10-06, with maintained release/nightly distribution.",
+        "game": "Games for supported systems",
+        "platform": "Multi-system consoles, handhelds, and computers",
+        "programming_language": "C++",
+        "source_available": "Public source repository",
+        "strategy": "Single desktop emulator with native integrated system implementations; load a game image and select or auto-detect its system.",
+        "target_type": "Software"
+      },
+      "sources": [
+        {
+          "label": "Official source repository and project goals",
+          "url": "https://github.com/ares-emulator/ares"
+        },
+        {
+          "label": "Official release history, including PC Engine changes",
+          "url": "https://github.com/ares-emulator/ares/releases"
+        },
+        {
+          "label": "Official downloads",
+          "url": "https://ares-emu.net/download"
+        },
+        {
+          "label": "Official supported systems and release status",
+          "url": "https://ares-emu.net/"
+        },
+        {
+          "label": "Official Sega 32X compatibility page",
+          "url": "https://ares-emu.net/compatibility/sega-32x"
+        }
+      ],
+      "evidence_note": "Integrated system implementations are selected within the standalone ares application; it is not a frontend that downloads arbitrary external cores. Accurate/low-level system support varies by individual system. Programming-language value was checked against the upstream repository/build documentation and retained from the catalog."
+    },
+    {
+      "id": "bizhawk",
+      "fields": {
+        "updated": "2026-05-01",
+        "status": "Active; release 2.11.1 published 2026-05-01.",
+        "game": "Games for supported systems",
+        "platform": "Multi-system consoles, handhelds, arcade, and computers",
+        "programming_language": "C#, C++ (some cores)",
+        "source_available": "Public source repository",
+        "strategy": "Standalone EmuHawk application that selects among included emulator cores; core choice and system-wide TAS tools are managed through its GUI.",
+        "target_type": "Software"
+      },
+      "sources": [
+        {
+          "label": "Official project README, supported systems, cores, and languages",
+          "url": "https://github.com/TASEmulators/BizHawk"
+        },
+        {
+          "label": "Official source license and component disclosure",
+          "url": "https://github.com/TASEmulators/BizHawk/blob/master/LICENSE"
+        },
+        {
+          "label": "Official upstream release history",
+          "url": "https://github.com/TASEmulators/BizHawk/releases"
+        }
+      ],
+      "evidence_note": "EmuHawk ships and manages multiple included cores; core selection is per system and visible in the application. The official system list and core documentation provide more detail than a single compatibility label. Programming-language value was checked against the upstream repository/build documentation and retained from the catalog."
+    },
+    {
+      "id": "mgba",
+      "fields": {
+        "updated": "2026-10-08",
+        "status": "Maintained; latest stable release is 0.10.5 (2025-03-09), while source updates continued through 2026-10-08.",
+        "game": "Game Boy/Game Boy Color/Game Boy Advance",
+        "platform": "Windows, macOS, Linux, FreeBSD; ports for Nintendo 3DS, Switch, Wii, and Vita",
+        "programming_language": "C",
+        "source_available": "Public source repository",
+        "strategy": "Standalone software emulator with native GB, GBC, and GBA cores.",
+        "target_type": "Software"
+      },
+      "sources": [
+        {
+          "label": "Official source repository and supported systems",
+          "url": "https://github.com/mgba-emu/mgba"
+        },
+        {
+          "label": "Official downloads and source instructions",
+          "url": "https://mgba.io/downloads.html"
+        },
+        {
+          "label": "Project announcement documents implementation language and source availability",
+          "url": "https://mgba.io/2014/12/09/announcing-mgba/"
+        }
+      ],
+      "evidence_note": "Standalone builds and a Libretro core are maintained from the same project. Game Boy, Game Boy Color, and Game Boy Advance support is represented by native cores; Nintendo DS is outside scope. Programming-language value was checked against the upstream repository/build documentation and retained from the catalog."
+    },
+    {
+      "id": "sameboy",
+      "fields": {
+        "updated": "2026-10-09",
+        "status": "Active; release 1.0.4 published 2026-10-09.",
+        "game": "Game Boy/Game Boy Color/Super Game Boy",
+        "platform": "macOS, iOS, watchOS, Windows, Unix-like systems",
+        "programming_language": "C",
+        "source_available": "Public source repository",
+        "strategy": "Standalone software emulator with native and libretro frontends.",
+        "target_type": "Software"
+      },
+      "sources": [
+        {
+          "label": "Official project overview",
+          "url": "https://sameboy.github.io/"
+        },
+        {
+          "label": "Official source repository",
+          "url": "https://github.com/LIJI32/SameBoy"
+        },
+        {
+          "label": "Official downloads and current version",
+          "url": "https://sameboy.github.io/downloads/"
+        }
+      ],
+      "evidence_note": "The project ships standalone macOS/Windows/Unix frontends and a Libretro core. Its documented accurate emulation includes Game Boy, Game Boy Color, and Super Game Boy modes; performance varies by host. Programming-language value was checked against the upstream repository/build documentation and retained from the catalog."
+    },
+    {
+      "id": "melonds",
+      "fields": {
+        "updated": "2026-08-23",
+        "status": "Active; v1.1 (2025-11-18) remains the latest numbered release, with source updates through 2026-08-23.",
+        "game": "Nintendo DS/DSi",
+        "platform": "Windows, macOS, Linux; project downloads also list Android and iOS builds",
+        "programming_language": "C++",
+        "source_available": "Public source repository",
+        "strategy": "Standalone DS software emulator; optional libretro core.",
+        "target_type": "Software"
+      },
+      "sources": [
+        {
+          "label": "Official emulator repository and build instructions",
+          "url": "https://github.com/melonDS-emu/melonDS"
+        },
+        {
+          "label": "Official download page",
+          "url": "https://melonds.org/download/"
+        },
+        {
+          "label": "Libretro core documentation distinguishes standalone and core features",
+          "url": "https://github.com/JesseTG/melonds-ds"
+        },
+        {
+          "label": "Official upstream release history",
+          "url": "https://github.com/melonDS-emu/melonDS/releases"
+        }
+      ],
+      "evidence_note": "The upstream project provides a standalone desktop emulator; the separately maintained melonDS DS port is not the same official desktop frontend. The DS compatibility list does not mean every DSi feature or title is complete. Programming-language value was checked against the upstream repository/build documentation and retained from the catalog."
+    },
+    {
+      "id": "skyemu",
+      "fields": {
+        "updated": "2026-10-13",
+        "status": "Active; v5 was released 2026-02-12 and source changes continued through 2026-10-13.",
+        "game": "Game Boy, Game Boy Color, Game Boy Advance, and Nintendo DS",
+        "platform": "Windows, macOS, Linux, FreeBSD, iOS, Android, and web",
+        "programming_language": "C",
+        "source_available": "Public source repository",
+        "strategy": "Emulation",
+        "target_type": "Software"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README, supported systems, hosts, and DS status",
+          "url": "https://github.com/skylersaleh/SkyEmu"
+        },
+        {
+          "label": "Maintainer releases; latest v5 dated 2026-02-12",
+          "url": "https://github.com/skylersaleh/SkyEmu/releases"
+        }
+      ],
+      "evidence_note": "Standalone desktop, web, iOS, and Android builds are documented. It combines GB/GBC/GBA/DS support but should not be treated as a substitute for mature platform-specific compatibility lists. Programming-language value was checked against the upstream repository/build documentation and retained from the catalog."
+    },
+    {
+      "id": "noods",
+      "fields": {
+        "updated": "2026-08-09",
+        "status": "Active; rolling release build and source update published 2026-08-09.",
+        "game": "Nintendo DS and Game Boy Advance",
+        "platform": "Windows, macOS, Linux, Android, iOS, Nintendo Switch, Wii U, and PlayStation Vita",
+        "programming_language": "C++",
+        "source_available": "Public source repository",
+        "strategy": "Emulation",
+        "target_type": "Software"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README, supported systems, platforms, and BIOS requirements",
+          "url": "https://github.com/Hydr8gon/NooDS"
+        },
+        {
+          "label": "Maintainer release history",
+          "url": "https://github.com/Hydr8gon/NooDS/releases"
+        }
+      ],
+      "evidence_note": "Standalone builds target desktop, mobile, and several homebrew-capable systems; no official Libretro core is documented. It covers DS and GBA, with version-specific differences between host ports. Programming-language value was checked against the upstream repository/build documentation and retained from the catalog."
+    },
+    {
+      "id": "gearsystem",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Active; release 3.9.22 published 2026-10-11, with source updates through 2026-10-15.",
+        "game": "Sega Mark III; Master System; Game Gear; SG-1000; Othello Multivision",
+        "platform": "8-bit home consoles and handhelds",
+        "programming_language": "C++",
+        "source_available": "Public source repository",
+        "strategy": "Native software emulation of the Z80, video, and sound hardware; standalone application with optional libretro builds.",
+        "target_type": "Software"
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository and supported machines",
+          "url": "https://github.com/drhelius/Gearsystem"
+        },
+        {
+          "label": "Maintainer release history",
+          "url": "https://github.com/drhelius/Gearsystem/releases"
+        }
+      ],
+      "evidence_note": "Standalone builds and an optional Libretro core are available. Model coverage includes Sega Mark III, Master System, Game Gear, SG-1000, and Othello Multivision; compatibility should be read per system/peripheral. Programming-language value was checked against the upstream repository/build documentation and retained from the catalog."
+    },
+    {
+      "id": "blastem",
+      "fields": {
+        "updated": "2026-09-11",
+        "status": "Active; version 1.0.0 released 2026-09-11.",
+        "game": "Genesis / Mega Drive; Sega CD / Mega CD; 32X including CD 32X; Game Gear; SC-3000 / SG-1000; Sega Pico; partial Master System backwards compatibility",
+        "platform": "8-bit and 16-bit Sega home systems, handheld, and add-ons",
+        "programming_language": "C and assembly",
+        "source_available": "Project page",
+        "strategy": "Native software emulation of Sega console and add-on hardware; source is available from the maintainer's Mercurial repository.",
+        "target_type": "Software"
+      },
+      "sources": [
+        {
+          "label": "Maintainer release announcement",
+          "url": "https://www.retrodev.com/blastem/announce_1.0.0.html"
+        },
+        {
+          "label": "Maintainer changelog",
+          "url": "https://www.retrodev.com/blastem/changes.html"
+        },
+        {
+          "label": "Maintainer source repository",
+          "url": "https://www.retrodev.com/repos/blastem"
+        }
+      ],
+      "evidence_note": "Standalone desktop builds are the primary upstream distribution. The project documents Genesis/Mega Drive, Sega CD, 32X, Game Gear, SG-1000/SC-3000 and Sega Pico support; Master System support is partial. Programming-language value was checked against the upstream repository/build documentation and retained from the catalog."
+    },
+    {
+      "id": "jgenesis",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Active; v0.14.1 released 2026-08-22, with source updates through 2026-10-15.",
+        "game": "Genesis / Mega Drive; Sega CD / Mega CD; 32X; SG-1000; Master System / Mark III; Game Gear",
+        "platform": "8-bit and 16-bit Sega home systems, handheld, and add-ons",
+        "programming_language": "Rust",
+        "source_available": "Public source repository",
+        "strategy": "Native software emulation with standalone desktop and web builds; supports combined Sega add-on configurations.",
+        "target_type": "Software"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README and supported systems",
+          "url": "https://github.com/jsgroth/jgenesis"
+        },
+        {
+          "label": "Maintainer release notes",
+          "url": "https://github.com/jsgroth/jgenesis/releases"
+        }
+      ],
+      "evidence_note": "Standalone desktop and web builds; the emulator exposes multiple Sega system implementations and combined add-on configurations in one application. The project publishes system-specific compatibility notes. Programming-language value was checked against the upstream repository/build documentation and retained from the catalog."
+    },
+    {
+      "id": "flycast",
+      "fields": {
+        "updated": "2026-10-14",
+        "status": "Active; v2.7 released 2026-08-19; master/nightly builds and source updates continued through 2026-10-14.",
+        "game": "Dreamcast; Naomi; Naomi 2; Atomiswave",
+        "platform": "32-bit home console and related arcade systems",
+        "programming_language": "C and C++",
+        "source_available": "Public source repository",
+        "strategy": "Native software emulation with standalone builds and an optional libretro interface.",
+        "target_type": "Software"
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository and supported systems",
+          "url": "https://github.com/flyinghead/flycast"
+        },
+        {
+          "label": "Maintainer releases",
+          "url": "https://github.com/flyinghead/flycast/releases"
+        }
+      ],
+      "evidence_note": "Standalone desktop/mobile builds plus the official Libretro core. Beyond Dreamcast, Naomi/Naomi 2 and Atomiswave arcade hardware are supported; arcade compatibility and BIOS requirements differ from console use. Programming-language value was checked against the upstream repository/build documentation and retained from the catalog."
+    },
+    {
+      "id": "ymir",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Active work in progress; latest-nightly build and source updates were available through 2026-10-15.",
+        "game": "Sega Saturn",
+        "platform": "32-bit home console",
+        "programming_language": "C++",
+        "source_available": "Public source repository",
+        "strategy": "Native software emulation of Saturn hardware, with standalone desktop builds.",
+        "target_type": "Software"
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository and project description",
+          "url": "https://github.com/ymir-emu/Ymir"
+        },
+        {
+          "label": "Maintainer releases",
+          "url": "https://github.com/ymir-emu/Ymir/releases"
+        }
+      ],
+      "evidence_note": "Standalone desktop/nightly builds. It is a Saturn work in progress; source activity and nightly output show maintenance but do not establish a complete retail-game compatibility rate. Programming-language value was checked against the upstream repository/build documentation and retained from the catalog."
+    },
+    {
+      "id": "kronos",
+      "fields": {
+        "updated": "2026-07-18",
+        "status": "Public upstream; v2.7.0 (2025-01-16) remains the latest release, with source changes through 2026-07-18.",
+        "game": "Sega Saturn",
+        "platform": "32-bit home console",
+        "programming_language": "C and C++",
+        "source_available": "Public source repository",
+        "strategy": "Native software emulation of Saturn hardware; standalone and libretro build targets share the upstream source.",
+        "target_type": "Software"
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository and build targets",
+          "url": "https://github.com/FCare/Kronos"
+        },
+        {
+          "label": "Maintainer releases",
+          "url": "https://github.com/FCare/Kronos/releases"
+        },
+        {
+          "label": "Project page",
+          "url": "https://fcare.github.io/"
+        }
+      ],
+      "evidence_note": "Standalone and Libretro build paths share upstream code. This repository is a continuation/fork in the Saturn emulator family, so it is retained as a distinct existing implementation rather than proposed as a new addition. Programming-language value was checked against the upstream repository/build documentation and retained from the catalog."
+    },
+    {
+      "id": "bsnes",
+      "fields": {
+        "updated": "2026-10-07",
+        "status": "Active; the project maintains stable and nightly build channels, and source updates continued through 2026-10-07.",
+        "game": "SNES/Super Famicom; Super Game Boy support",
+        "platform": "Windows, macOS, Linux, and libretro-supported platforms",
+        "programming_language": "C++",
+        "source_available": "Public source repository",
+        "strategy": "Accuracy-focused software emulator; project documents low-level emulation for SNES coprocessors.",
+        "target_type": "Software"
+      },
+      "sources": [
+        {
+          "label": "Project README and features",
+          "url": "https://github.com/bsnes-emu/bsnes"
+        },
+        {
+          "label": "Official release and nightly history",
+          "url": "https://github.com/bsnes-emu/bsnes/releases"
+        },
+        {
+          "label": "bsnes project background",
+          "url": "https://bsnes.github.io/about.html"
+        }
+      ],
+      "evidence_note": "Standalone builds and a Libretro core are available. The project emphasizes high accuracy and documents low-level coprocessor emulation; Super Game Boy support is also listed. Programming-language value was checked against the upstream repository/build documentation and retained from the catalog."
+    },
+    {
+      "id": "fceux",
+      "fields": {
+        "updated": "2026-10-14",
+        "status": "Active; version 2.7.0 was released 2026-10-14, with interim builds available.",
+        "game": "NES/Famicom/Famicom Disk System/Dendy",
+        "platform": "Windows, Linux/Unix, macOS",
+        "programming_language": "C++",
+        "source_available": "Public source repository",
+        "strategy": "Standalone NES software emulator with debugging and TAS tooling.",
+        "target_type": "Software"
+      },
+      "sources": [
+        {
+          "label": "Official project description and current release",
+          "url": "https://fceux.com/web/home.html"
+        },
+        {
+          "label": "Official source repository",
+          "url": "https://github.com/TASEmulators/fceux"
+        }
+      ],
+      "evidence_note": "Standalone desktop emulator with debugger/TAS features; a separate Libretro core is available from the Libretro project. Its system scope includes FDS and Dendy variants as well as NES/Famicom. Programming-language value was checked against the upstream repository/build documentation and retained from the catalog."
+    },
+    {
+      "id": "supermodel",
+      "fields": {
+        "updated": "2026-10-14",
+        "status": "Active; a development prerelease dated 2026-10-14 is available.",
+        "game": "Sega Model 3 arcade games",
+        "platform": "Windows, Linux, macOS",
+        "programming_language": "C++",
+        "source_available": "Public source repository",
+        "strategy": "Reverse-engineered Model 3 hardware emulation, including its PowerPC and graphics systems.",
+        "target_type": "Software"
+      },
+      "sources": [
+        {
+          "label": "Official repository, supported platform, and source license",
+          "url": "https://github.com/trzy/Supermodel"
+        },
+        {
+          "label": "Official upstream release history",
+          "url": "https://github.com/trzy/Supermodel/releases"
+        }
+      ],
+      "evidence_note": "Standalone desktop emulator for Sega Model 3; source documents supported game revisions and requirements. No official Libretro core is listed by upstream. Programming-language value was checked against the upstream repository/build documentation and retained from the catalog."
+    },
+    {
+      "id": "mame",
+      "fields": {
+        "updated": "2026-07-30",
+        "status": "Active; MAME 0.289 was released 2026-07-30.",
+        "game": "Arcade systems, vintage computers, and supported home consoles (including Channel F, ColecoVision, Vectrex, FM Towns Marty, PC-FX, CD-i, and Apple Pippin)",
+        "platform": "Arcade, vintage computers, and home consoles; runs on Windows, Linux, FreeBSD, and macOS",
+        "programming_language": "C++",
+        "source_available": "Public source repository",
+        "strategy": "Machine-specific hardware emulation organized as drivers; source code also serves as hardware documentation for preservation.",
+        "target_type": "Software"
+      },
+      "sources": [
+        {
+          "label": "Official project purpose, supported system types, and language",
+          "url": "https://docs.mamedev.org/initialsetup/mameintro.html"
+        },
+        {
+          "label": "Official source repository",
+          "url": "https://github.com/mamedev/mame"
+        },
+        {
+          "label": "Official Fairchild Channel F driver",
+          "url": "https://github.com/mamedev/mame/blob/master/src/mame/fairchild/channelf.cpp"
+        },
+        {
+          "label": "Official Arcadia 2001 driver",
+          "url": "https://github.com/mamedev/mame/blob/master/src/mame/arcadia/arcadia.cpp"
+        },
+        {
+          "label": "Official ColecoVision driver",
+          "url": "https://github.com/mamedev/mame/blob/master/src/mame/coleco/coleco.cpp"
+        },
+        {
+          "label": "Official FM Towns/Marty driver",
+          "url": "https://github.com/mamedev/mame/blob/master/src/mame/fujitsu/fmtowns.cpp"
+        },
+        {
+          "label": "Official PC-FX driver",
+          "url": "https://github.com/mamedev/mame/blob/master/src/mame/nec/pcfx.cpp"
+        },
+        {
+          "label": "Official CD-i driver",
+          "url": "https://github.com/mamedev/mame/blob/master/src/mame/philips/cdi.cpp"
+        },
+        {
+          "label": "Official Apple Pippin driver",
+          "url": "https://github.com/mamedev/mame/blob/master/src/mame/apple/pippin.cpp"
+        },
+        {
+          "label": "Naomi driver",
+          "url": "https://github.com/mamedev/mame/blob/master/src/mame/sega/naomi.cpp"
+        },
+        {
+          "label": "Saturn driver",
+          "url": "https://github.com/mamedev/mame/blob/master/src/mame/sega/saturn.cpp"
+        },
+        {
+          "label": "ST-V driver",
+          "url": "https://github.com/mamedev/mame/blob/master/src/mame/sega/stv.cpp"
+        },
+        {
+          "label": "Model 2 driver",
+          "url": "https://github.com/mamedev/mame/blob/master/src/mame/sega/model2.cpp"
+        },
+        {
+          "label": "Model 3 driver status",
+          "url": "https://github.com/mamedev/mame/blob/master/src/mame/sega/model3.cpp"
+        },
+        {
+          "label": "MAME development language and source repository",
+          "url": "https://docs.mamedev.org/_files/MAME.pdf"
+        },
+        {
+          "label": "Official upstream release history",
+          "url": "https://github.com/mamedev/mame/releases"
+        }
+      ],
+      "evidence_note": "Standalone MAME is a preservation and hardware-documentation project. It covers arcade boards and many computer/console machines; compatibility is driver-specific, and MAME’s own driver/source documentation should be read per machine. Programming-language value was checked against the upstream repository/build documentation and retained from the catalog."
+    },
+    {
+      "id": "finalburn-neo",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Active; the upstream rolling release was updated 2026-10-15.",
+        "game": "Arcade systems (multiple) and selected consoles",
+        "platform": "Windows, macOS, SDL builds on Linux; Libretro ports support additional hosts",
+        "programming_language": "C and C++",
+        "source_available": "Public source repository",
+        "strategy": "Per-system arcade and console hardware emulation, with separate CPU, device, sound, and game-driver code.",
+        "target_type": "Software"
+      },
+      "sources": [
+        {
+          "label": "Official FBNeo repository, supported systems, ports, and source tree",
+          "url": "https://github.com/finalburnneo/FBNeo"
+        },
+        {
+          "label": "Official FBNeo system coverage",
+          "url": "https://github.com/finalburnneo/FBNeo/wiki/"
+        },
+        {
+          "label": "Official upstream release history",
+          "url": "https://github.com/finalburnneo/FBNeo/releases"
+        }
+      ],
+      "evidence_note": "Standalone builds and the Libretro core are available; upstream supports arcade systems plus selected consoles. The driver list is the authoritative compatibility reference, not a universal rating. Programming-language value was checked against the upstream repository/build documentation and retained from the catalog."
+    },
+    {
+      "id": "hypseus-singe",
+      "fields": {
+        "updated": "2026-08-30",
+        "status": "Active; v3.0.2 was released 2026-08-30.",
+        "game": "Laserdisc arcade games and Singe interactive-video games",
+        "platform": "Windows, macOS, Linux, Raspberry Pi",
+        "programming_language": "C and C++",
+        "source_available": "Public source repository",
+        "strategy": "Emulates laserdisc-game control and timing while decoding the associated video; Singe adds scriptable game support.",
+        "target_type": "Software"
+      },
+      "sources": [
+        {
+          "label": "Hypseus Singe project description, supported hosts, and source",
+          "url": "https://github.com/DirtBagXon/hypseus-singe"
+        },
+        {
+          "label": "Official upstream release history",
+          "url": "https://github.com/DirtBagXon/hypseus-singe/releases"
+        }
+      ],
+      "evidence_note": "Standalone desktop and Raspberry Pi builds target laserdisc arcade titles and Singe scripted interactive-video games. It depends on user-provided game video and data assets; no official Libretro core is listed. Programming-language value was checked against the upstream repository/build documentation and retained from the catalog."
+    },
+    {
+      "id": "groovymame",
+      "fields": {
+        "updated": "2026-10-13",
+        "status": "Active; release gm0289sr222f was published 2026-08-27, with source updates through 2026-10-13.",
+        "game": "Raster-based arcade systems supported by MAME",
+        "platform": "MAME-supported arcade systems; PC output to CRT displays",
+        "programming_language": "C++",
+        "source_available": "Public source repository",
+        "strategy": "MAME hardware emulation with CRT-specific timing generation and low-latency video and audio output paths.",
+        "target_type": "Software"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README on CRT timing, latency, and emulation-layer policy",
+          "url": "https://github.com/antonioginer/GroovyMAME"
+        },
+        {
+          "label": "Maintainer releases",
+          "url": "https://github.com/antonioginer/GroovyMAME/releases"
+        }
+      ],
+      "evidence_note": "MAME-derived desktop build for CRT-oriented timing and low-latency output; compatible drivers track the corresponding MAME version. It is a distinct existing fork, not a new emulator candidate. Programming-language value was checked against the upstream repository/build documentation and retained from the catalog."
+    },
+    {
+      "id": "openmsx",
+      "fields": {
+        "updated": "2026-10-14",
+        "status": "Active; v21.0 (2025-09-26) remains the latest numbered release, with source updates through 2026-10-14.",
+        "game": "MSX home computers, including MSX2 and later variants",
+        "platform": "Windows, macOS, Linux, Android, OpenDingux",
+        "programming_language": "C++",
+        "source_available": "Public source repository",
+        "strategy": "System-level emulation of configurable MSX machines and peripherals, with timing and hardware behavior modeled by the emulator.",
+        "target_type": "Software"
+      },
+      "sources": [
+        {
+          "label": "Official openMSX description, source code, and host builds",
+          "url": "https://openmsx.org/"
+        },
+        {
+          "label": "Official source repository",
+          "url": "https://github.com/openMSX/openMSX"
+        },
+        {
+          "label": "Official compilation guide",
+          "url": "https://openmsx.org/manual/compile.html"
+        }
+      ],
+      "evidence_note": "Standalone desktop emulator with machine/extension configuration and an optional openMSX Catapult control frontend. Users supply MSX BIOS/ROM files; machine configuration affects software compatibility. Programming-language value was checked against the upstream repository/build documentation and retained from the catalog."
+    },
+    {
+      "id": "86box",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Active; v6.0 was released 2026-05-31, and source updates continued through 2026-10-15.",
+        "game": "Games and software for emulated IBM PC compatibles",
+        "platform": "IBM PC compatible systems (x86)",
+        "programming_language": "C",
+        "source_available": "Public source repository",
+        "strategy": "Configure a virtual PC model and hardware, then install or boot a compatible operating system and run its games and software.",
+        "target_type": "Software"
+      },
+      "sources": [
+        {
+          "label": "Official emulator repository and supported machine overview",
+          "url": "https://github.com/86Box/86Box"
+        },
+        {
+          "label": "Official documentation on full-system emulation and PCem relationship",
+          "url": "https://86box.readthedocs.io/en/latest/faq.html"
+        },
+        {
+          "label": "86Box documentation",
+          "url": "https://86box.readthedocs.io/"
+        }
+      ],
+      "evidence_note": "Standalone full-PC emulator with selectable machine/motherboard/peripheral models; operating-system and game compatibility depends on the chosen hardware/firmware configuration. It is not a Libretro core. Programming-language value was checked against the upstream repository/build documentation and retained from the catalog."
+    },
+    {
+      "id": "martypc",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Active development; v0.4.1 was released 2025-05-31, and the source repository remained active through 2026-10-15.",
+        "game": "IBM PC, XT, PCjr, and Tandy 1000 software and games",
+        "platform": "Windows, Linux, macOS, web browser",
+        "programming_language": "Rust",
+        "source_available": "Public source repository",
+        "strategy": "Cycle-accurate system emulation centered on the 8088 CPU and period PC chipsets, video, sound, and I/O devices.",
+        "target_type": "Software"
+      },
+      "sources": [
+        {
+          "label": "Official source repository, emulated machines, host platforms, and development status",
+          "url": "https://github.com/dbalsom/martypc"
+        },
+        {
+          "label": "Maintainer's user guide and game notes",
+          "url": "https://github.com/dbalsom/martypc/wiki/MartyPC-User-Guide"
+        },
+        {
+          "label": "Official upstream release history",
+          "url": "https://github.com/dbalsom/martypc/releases"
+        }
+      ],
+      "evidence_note": "Standalone desktop and browser/WASM frontends are documented. Accuracy work focuses on the IBM PC/XT and 8088-era chipset; the current project guide tracks machine-specific limitations. Programming-language value was checked against the upstream repository/build documentation and retained from the catalog."
+    },
+    {
+      "id": "dosbox-staging",
+      "fields": {
+        "updated": "2026-10-08",
+        "status": "Active; stable 0.83.0 is available alongside the dev-latest build published 2026-10-08.",
+        "game": "DOS and Windows 3.1 games on IBM PC-compatible systems",
+        "platform": "Windows, macOS, Linux",
+        "programming_language": "C++",
+        "source_available": "Public source repository",
+        "strategy": "Software emulation of an IBM PC-compatible DOS environment, with game-focused defaults and emulated audio, video, and peripherals.",
+        "target_type": "Software"
+      },
+      "sources": [
+        {
+          "label": "Project goals and emulation scope",
+          "url": "https://www.dosbox-staging.org/about/"
+        },
+        {
+          "label": "Official host-platform support",
+          "url": "https://www.dosbox-staging.org/0.83/manual/using-dosbox-staging/installation/"
+        },
+        {
+          "label": "Official source repository and language",
+          "url": "https://github.com/dosbox-staging/dosbox-staging"
+        }
+      ],
+      "evidence_note": "Standalone DOS emulator with game-focused configuration and a detailed manual. Stable 0.83.0 and the separate dev-latest channel are distinct; development snapshots may change behavior. Programming-language value was checked against the upstream repository/build documentation and retained from the catalog."
+    },
+    {
+      "id": "dosbox-x",
+      "fields": {
+        "updated": "2026-10-14",
+        "status": "Active; release v2026.10.01 was published 2026-10-02, with source updates through 2026-10-14.",
+        "game": "DOS, Windows 3.x/9x/Me, DOS/V, and PC-98 games",
+        "platform": "Windows, Linux, macOS, DOS",
+        "programming_language": "C and C++",
+        "source_available": "Public source repository",
+        "strategy": "Full PC and DOS-system emulation with configurable hardware; it also emulates DOS-based Windows and PC-98 environments.",
+        "target_type": "Software"
+      },
+      "sources": [
+        {
+          "label": "DOSBox-X scope, game support, and host downloads",
+          "url": "https://dosbox-x.com/"
+        },
+        {
+          "label": "Official DOSBox-X source repository",
+          "url": "https://github.com/joncampbell123/dosbox-x"
+        }
+      ],
+      "evidence_note": "Standalone DOS/PC emulator with configurable machines; supports DOS, Windows 3.x/9x/Me, DOS/V, and PC-98 use cases. Compatibility depends on guest configuration; source does not expose a supported official Libretro core. Programming-language value was checked against the upstream repository/build documentation and retained from the catalog."
+    },
+    {
+      "id": "qemu",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Active; upstream source updates continued through 2026-10-15.",
+        "game": "General-purpose computer systems, including x86 PCs for DOS and Windows games",
+        "platform": "Linux, macOS, Windows, BSD, and other supported hosts",
+        "programming_language": "C",
+        "source_available": "Public source repository",
+        "strategy": "Full-system emulation uses the Tiny Code Generator or optional host accelerators to model CPUs and devices for guest operating systems.",
+        "target_type": "Software"
+      },
+      "sources": [
+        {
+          "label": "Official QEMU description and system emulation guide",
+          "url": "https://www.qemu.org/docs/master/about/index.html"
+        },
+        {
+          "label": "Official QEMU system emulation documentation",
+          "url": "https://www.qemu.org/docs/master/system/index.html"
+        },
+        {
+          "label": "Official QEMU source mirror",
+          "url": "https://github.com/qemu/qemu"
+        }
+      ],
+      "evidence_note": "Full-system emulator and virtualizer with many guest architectures and machine models. TCG is its software translation path; KVM/HVF/WHPX and similar accelerators are host-dependent and are not the same as software emulation. Programming-language value was checked against the upstream repository/build documentation and retained from the catalog."
+    },
+    {
+      "id": "hatari",
+      "fields": {
+        "updated": "2025-06-22",
+        "status": "Maintained; Hatari 2.6.0 was released 2025-06-22. ST/STE emulation is mature; TT/Falcon support remains experimental.",
+        "game": "Atari ST, STE, TT, and Falcon computers",
+        "platform": "Linux, BSD, macOS, Windows, and other SDL-supported hosts",
+        "programming_language": "C",
+        "source_available": "Project page",
+        "strategy": "System-level Atari hardware emulation, including the ST-family CPU, video, sound, and peripherals.",
+        "target_type": "Software"
+      },
+      "sources": [
+        {
+          "label": "Official Hatari project description",
+          "url": "https://www.hatari-emu.org/"
+        },
+        {
+          "label": "Official source and release instructions",
+          "url": "https://www.hatari-emu.org/download.html"
+        },
+        {
+          "label": "Official development repository",
+          "url": "https://framagit.org/hatari/hatari"
+        }
+      ],
+      "evidence_note": "Standalone SDL emulator. ST/STE behavior is mature; TT and Falcon remain experimental. The project site documents optional debugger, configuration, and ROM requirements; no upstream Libretro core is listed. Programming-language value was checked against the upstream repository/build documentation and retained from the catalog."
+    },
+    {
+      "id": "vice",
+      "fields": {
+        "updated": "2026-09-27",
+        "status": "Active; v3.10 was released 2025-12-24, with upstream source-mirror updates through 2026-09-27.",
+        "game": "Games and software for Commodore 8-bit computers",
+        "platform": "Commodore 8-bit home computers",
+        "programming_language": "C",
+        "source_available": "Public source repository",
+        "strategy": "Choose the machine-specific emulator within the VICE collection; each emulator runs its target computer and shares common settings and file handling.",
+        "target_type": "Software"
+      },
+      "sources": [
+        {
+          "label": "Official VICE project, supported systems, and current release",
+          "url": "https://vice-emu.sourceforge.io/"
+        },
+        {
+          "label": "Official source code mirror",
+          "url": "https://github.com/VICE-Team/svn-mirror"
+        },
+        {
+          "label": "Official SourceForge project and source access",
+          "url": "https://sourceforge.net/projects/vice-emu/"
+        },
+        {
+          "label": "Official VICE user manual",
+          "url": "https://vice-emu.sourceforge.io/vice.pdf"
+        }
+      ],
+      "evidence_note": "The VICE suite includes separate machine frontends (x64/x64sc, x128, xvic, xpet, xplus4, xcbm-II, xscpu64) with shared settings/media handling. A separate VICE Libretro core is also available. Programming-language value was checked against the upstream repository/build documentation and retained from the catalog."
+    },
+    {
+      "id": "xroar",
+      "fields": {
+        "updated": "2026-07-27",
+        "status": "Active; v1.12.1 was released 2026-07-27.",
+        "game": "Dragon 32/64, Tandy Color Computer, and related 8-bit systems",
+        "platform": "Windows, macOS, Linux, and other supported systems",
+        "programming_language": "C",
+        "source_available": "Project page",
+        "strategy": "System-level emulation of Dragon, CoCo, MC-10, and related 6809-based hardware, with cassette and disk support.",
+        "target_type": "Software"
+      },
+      "sources": [
+        {
+          "label": "Official XRoar project and source downloads",
+          "url": "https://www.6809.org.uk/xroar/"
+        },
+        {
+          "label": "Official XRoar user manual",
+          "url": "https://www.6809.org.uk/xroar/doc/xroar.shtml"
+        }
+      ],
+      "evidence_note": "Standalone GTK/SDL frontends and a browser build are documented. It covers Dragon 32/64, Tandy CoCo I–III, MC-10 and related systems; some historical Android ports predate current 1.x releases. Programming-language value was checked against the upstream repository/build documentation and retained from the catalog."
+    },
+    {
+      "id": "atari800",
+      "fields": {
+        "updated": "2026-10-12",
+        "status": "Active; release 7.2.1 was published 2026-09-13, with source updates through 2026-10-12.",
+        "game": "Atari 8-bit computers and Atari 5200 games",
+        "platform": "Windows, macOS, Linux, Unix, and other SDL-supported hosts",
+        "programming_language": "C",
+        "source_available": "Project page",
+        "strategy": "Configurable hardware emulation for Atari 8-bit computer models and 5200 console systems.",
+        "target_type": "Software"
+      },
+      "sources": [
+        {
+          "label": "Official Atari800 scope and host information",
+          "url": "https://atari800.github.io/"
+        },
+        {
+          "label": "Official language, license, and source repository information",
+          "url": "https://atari800.github.io/development.html"
+        },
+        {
+          "label": "Official downloads",
+          "url": "https://atari800.github.io/download.html"
+        },
+        {
+          "label": "Official Atari800 source releases (including 7.2.1)",
+          "url": "https://github.com/atari800/atari800/releases"
+        }
+      ],
+      "evidence_note": "Standalone configurable Atari 8-bit/5200 emulator; Colleen is a separate Android application. Upstream distinguishes computer models, Atari 5200, BIOS/OS ROMs, and host-specific frontends. Programming-language value was checked against the upstream repository/build documentation and retained from the catalog."
+    },
+    {
+      "id": "atari800-atari-5200",
+      "fields": {
+        "updated": "2026-10-12",
+        "status": "Active; release 7.2.1 was published 2026-09-13, with source updates through 2026-10-12.",
+        "game": "All compatible Atari 5200 software",
+        "platform": "Atari 5200 SuperSystem (1982)",
+        "programming_language": "C",
+        "source_available": "Public source repository",
+        "strategy": "Hardware emulation of the Atari 8-bit/5200 chipset and machine configurations.",
+        "target_type": "Software"
+      },
+      "sources": [
+        {
+          "label": "Official repository and release notes",
+          "url": "https://github.com/atari800/atari800"
+        },
+        {
+          "label": "Upstream system and console support documentation",
+          "url": "https://github.com/atari800/atari800/blob/master/DOC/README"
+        },
+        {
+          "label": "Official upstream release history",
+          "url": "https://github.com/atari800/atari800/releases"
+        }
+      ],
+      "evidence_note": "This row is the Atari 5200 specialization of Atari800, not a separate emulator codebase. The upstream source also supports the related Atari 8-bit computers; the 5200 machine mode is a distinct target configuration. Programming-language value was checked against the upstream repository/build documentation and retained from the catalog."
+    },
+    {
+      "id": "open-simh",
+      "fields": {
+        "updated": "2026-09-22",
+        "status": "Maintained Open SIMH simulator suite; source repository updated 2026-09-22.",
+        "game": "Historical computers including DEC PDP and VAX systems and IBM, HP, and Data General systems documented by Open SIMH",
+        "platform": "Windows, Linux, macOS, and other Unix-like systems",
+        "programming_language": "C",
+        "source_available": "Public source repository (MIT license)",
+        "strategy": "Software simulation of historical computer architectures and selected peripherals.",
+        "target_type": "Software"
+      },
+      "sources": [
+        {
+          "label": "Official project site and simulator list",
+          "url": "https://opensimh.org/simulators"
+        },
+        {
+          "label": "Open SIMH source repository and project description",
+          "url": "https://github.com/open-simh/simh"
+        },
+        {
+          "label": "Supported host and simulator documentation",
+          "url": "https://opensimh.org/simdocs/simh_doc.html"
+        },
+        {
+          "label": "Project license",
+          "url": "https://github.com/open-simh/simh/blob/master/LICENSE.txt"
+        }
+      ],
+      "evidence_note": "Command-line simulator suite with many individually named historic architectures; this is general computer simulation as well as a platform for running vintage software. Open SIMH is maintained separately from the simh/simh repository. Programming-language value was checked against the upstream repository/build documentation and retained from the catalog."
+    },
+    {
+      "id": "pcem",
+      "fields": {
+        "updated": "2026-10-13",
+        "status": "Active development; v17 (2022-01-13) remains the latest stable release, while the source repository continued to receive updates through 2026-10-13.",
+        "game": "Games and software for emulated IBM PC compatibles",
+        "platform": "IBM PC compatible systems (x86)",
+        "programming_language": "C, C++",
+        "source_available": "Public source repository",
+        "strategy": "Configure a virtual PC model and peripherals, then install or boot a compatible operating system and run its games and software.",
+        "target_type": "Software"
+      },
+      "sources": [
+        {
+          "label": "Official PCem source repository, release, license, and supported hardware",
+          "url": "https://github.com/sarah-walker-pcem/pcem"
+        },
+        {
+          "label": "Official release notes",
+          "url": "https://github.com/sarah-walker-pcem/pcem/releases"
+        },
+        {
+          "label": "Official PCem downloads and latest listed release",
+          "url": "https://pcem-emulator.github.io/downloads.html"
+        },
+        {
+          "label": "Official PCem development page",
+          "url": "https://pcem-emulator.github.io/development.html"
+        }
+      ],
+      "evidence_note": "Standalone full-PC model emulator; users choose historical motherboard, chipset, and peripheral configurations before booting their own firmware/OS software. The v17 stable line and newer active source should be distinguished. Programming-language value was checked against the upstream repository/build documentation and retained from the catalog."
+    }
+  ]
+}

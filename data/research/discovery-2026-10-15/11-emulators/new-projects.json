@@ -1,0 +1,270 @@
+{
+  "updated": "2026-10-15",
+  "scope": "Eight distinct open-source emulator additions for uncovered mobile, calculator, PDA, NeXT, Japanese 8-bit computer, and Spectrum Next platforms. Target system is recorded in platform and supported software in game.",
+  "projects": [
+    {
+      "id": "eka2l1",
+      "title": "EKA2L1",
+      "game": "Symbian and Nokia N-Gage games, plus selected Symbian applications",
+      "target_type": "Software",
+      "platform": "Symbian OS and Nokia N-Gage",
+      "kind": "Emulator",
+      "status": "Part-time hobby maintenance; the maintainers say months may pass without active work. The current README reports support for almost all official N-Gage libraries and most S60v1–Symbian Belle games, with only a limited subset of Symbian applications.",
+      "summary": "Open-source Symbian/N-Gage emulator. It emulates the OS kernel and reimplements critical application servers and libraries; compatibility is strongest for games, and some apps remain unsupported.",
+      "project_url": "https://github.com/EKA2L1/EKA2L1",
+      "updated": "2026-10-15",
+      "strategy": "Symbian kernel emulation with reimplemented application servers and libraries",
+      "language": "",
+      "source_available": "Yes; public GPL-3.0 source repository",
+      "first_found": "2026-10-15",
+      "project_started": "",
+      "programming_language": "C++17",
+      "subtype": "Mobile OS and handheld gaming device emulator",
+      "sources": [
+        {
+          "label": "Maintainer README: emulated OS, host builds, compatibility, and maintenance cadence",
+          "url": "https://github.com/EKA2L1/EKA2L1/blob/master/README.md"
+        },
+        {
+          "label": "Maintainer source repository and GPL-3.0 license",
+          "url": "https://github.com/EKA2L1/EKA2L1"
+        },
+        {
+          "label": "Maintainer release/build artifacts",
+          "url": "https://github.com/EKA2L1/EKA2L1/releases"
+        }
+      ]
+    },
+    {
+      "id": "freej2me",
+      "title": "FreeJ2ME",
+      "game": "Java ME / J2ME MIDlets, including mobile games and applications",
+      "target_type": "Software",
+      "platform": "Java ME (J2ME)",
+      "kind": "Emulator",
+      "status": "Maintained source repository; latest repository activity was 2026-10-04. The project has no versioned GitHub release and its README describes compatibility as an ongoing goal rather than publishing a complete compatibility list.",
+      "summary": "Open-source Java ME emulator for running MIDlet JAR files. It supports standalone desktop use and separate SDL2 and Libretro integrations; the Java runtime and native bindings are built from the public source.",
+      "project_url": "https://github.com/hex007/freej2me",
+      "updated": "2026-10-04",
+      "strategy": "Java ME virtual-device and MIDlet emulation",
+      "language": "",
+      "source_available": "Yes; public GPL-3.0 source repository",
+      "first_found": "2026-10-15",
+      "project_started": "",
+      "programming_language": "Java with C SDL2/Libretro bindings",
+      "subtype": "Mobile software emulator; AWT, SDL2, and Libretro frontends",
+      "sources": [
+        {
+          "label": "Maintainer README: frontends, build steps, JAR loading, and compatibility roadmap",
+          "url": "https://github.com/hex007/freej2me/blob/master/README.md"
+        },
+        {
+          "label": "Maintainer license: GPL-3.0 for FreeJ2ME; bundled ASM has separate terms",
+          "url": "https://github.com/hex007/freej2me/blob/master/LICENSE"
+        },
+        {
+          "label": "Maintainer source repository and activity",
+          "url": "https://github.com/hex007/freej2me"
+        }
+      ]
+    },
+    {
+      "id": "cemu-ti-calculator",
+      "title": "CEmu",
+      "game": "TI-84 Plus CE and TI-83 Premium CE calculator software",
+      "target_type": "Software",
+      "platform": "TI-84 Plus CE / TI-83 Premium CE",
+      "kind": "Emulator",
+      "status": "Maintained; stable v2.0 and auto-updating nightly builds are available. The emulator requires a ROM dumped from a calculator the user owns and supports several ASIC/hardware revisions.",
+      "summary": "Developer-focused emulator for TI-84 Plus CE and TI-83 Premium CE calculators. Its project documentation describes accurate, fast emulation, USB transfer support, configurable hardware revisions, and debugging tools.",
+      "project_url": "https://github.com/CE-Programming/CEmu",
+      "updated": "2026-10-14",
+      "strategy": "Calculator system emulation with a C core and Qt-based desktop GUI",
+      "language": "",
+      "source_available": "Yes; public source repository",
+      "first_found": "2026-10-15",
+      "project_started": "",
+      "programming_language": "C and C++",
+      "subtype": "Calculator emulator with developer/debugger features",
+      "sources": [
+        {
+          "label": "Maintainer README: supported calculators, hosts, ASIC revisions, and ROM requirement",
+          "url": "https://github.com/CE-Programming/CEmu/blob/master/README.md"
+        },
+        {
+          "label": "Maintainer release history: stable and nightly builds",
+          "url": "https://github.com/CE-Programming/CEmu/releases"
+        },
+        {
+          "label": "Maintainer source repository",
+          "url": "https://github.com/CE-Programming/CEmu"
+        }
+      ]
+    },
+    {
+      "id": "firebird-ti-nspire",
+      "title": "Firebird Emu",
+      "game": "TI-Nspire calculator software",
+      "target_type": "Software",
+      "platform": "TI-Nspire Touchpad, CX, and CX II families",
+      "kind": "Emulator",
+      "status": "Community-maintained; the latest numbered release is v1.6 (2023), and the repository shows further source activity in 2026. The README lists Touchpad, CX, and CX II (-T/CAS) support; CX II boot ROM availability can limit booting.",
+      "summary": "Open-source, multi-platform TI-Nspire calculator emulator. The project supports desktop and mobile hosts, but a compatible calculator boot ROM is required and current CX II dumping tools may not provide all data needed to boot.",
+      "project_url": "https://github.com/nspire-emus/firebird",
+      "updated": "2026-06-25",
+      "strategy": "TI-Nspire hardware and calculator OS emulation",
+      "language": "",
+      "source_available": "Yes; public GPL-3.0 source repository",
+      "first_found": "2026-10-15",
+      "project_started": "",
+      "programming_language": "C++",
+      "subtype": "Calculator emulator with Android, iOS, desktop, and web-related builds",
+      "sources": [
+        {
+          "label": "Maintainer README: calculator models, host platforms, and ROM details",
+          "url": "https://github.com/nspire-emus/firebird/blob/master/README.md"
+        },
+        {
+          "label": "Maintainer release history",
+          "url": "https://github.com/nspire-emus/firebird/releases"
+        },
+        {
+          "label": "Maintainer source repository and GPL-3.0 license",
+          "url": "https://github.com/nspire-emus/firebird"
+        }
+      ]
+    },
+    {
+      "id": "previous-next",
+      "title": "Previous",
+      "game": "NeXTSTEP, OPENSTEP, NetBSD, Plan 9, and selected compatible software",
+      "target_type": "Software",
+      "platform": "NeXTcube, NeXTcube Turbo, NeXTstation, and NeXTstation variants",
+      "kind": "Emulator",
+      "status": "Maintained; official current downloads list Previous 4.5 for macOS/Windows and 4.4 for Linux, with source revision r1858. The project documents supported NeXT models and guest OS versions; some devices and third-party expansion boards remain unsupported.",
+      "summary": "Open-source NeXT computer emulator based on Hatari, using WinUAE’s m68k emulation core and a separate i860 emulator. The official compatibility page lists m68k NEXTSTEP through 3.3, OPENSTEP 4.0–4.2, NetBSD, and Plan 9; users supply the operating-system images.",
+      "project_url": "https://previous.nextcommunity.net/",
+      "updated": "2026-10-09",
+      "strategy": "Full NeXT hardware emulation using m68k and i860 CPU emulation",
+      "language": "",
+      "source_available": "Yes; public Subversion source repository",
+      "first_found": "2026-10-15",
+      "project_started": "",
+      "programming_language": "C and C++",
+      "subtype": "Workstation computer emulator",
+      "sources": [
+        {
+          "label": "Official project site: models, guest operating systems, current builds, and limitations",
+          "url": "https://previous.nextcommunity.net/"
+        },
+        {
+          "label": "Official source checkout and build instructions",
+          "url": "https://previous.nextcommunity.net/"
+        },
+        {
+          "label": "Maintainer SourceForge source tree (revision r1858)",
+          "url": "https://sourceforge.net/p/previous/code/HEAD/tree/"
+        }
+      ]
+    },
+    {
+      "id": "quasi88",
+      "title": "QUASI88",
+      "game": "PC-8801 computer software and games",
+      "target_type": "Software",
+      "platform": "NEC PC-8801mkIISR and later models",
+      "kind": "Emulator",
+      "status": "Maintained; v0.7.4 was released 2026-05-18 and the source repository shows activity through 2026-06-19. The project documents the PC-8801mkIISR model, CPU/video/audio, disk and cassette media, and modern desktop builds.",
+      "summary": "Open-source emulator for NEC’s PC-8801 family. The current SDL2-based port supports Windows, macOS, Linux, and Raspberry Pi packages and models the Z80 CPUs, display, sound, disks, tape, and peripherals.",
+      "project_url": "https://github.com/bubio/QUASI88",
+      "updated": "2026-06-19",
+      "strategy": "Software emulation of PC-8801 hardware and peripherals",
+      "language": "",
+      "source_available": "Yes; public BSD-3-Clause source repository",
+      "first_found": "2026-10-15",
+      "project_started": "",
+      "programming_language": "C",
+      "subtype": "Japanese 8-bit home-computer emulator",
+      "sources": [
+        {
+          "label": "Maintainer README: supported models, hardware, host builds, and media formats",
+          "url": "https://github.com/bubio/QUASI88/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer release history",
+          "url": "https://github.com/bubio/QUASI88/releases"
+        },
+        {
+          "label": "Maintainer source repository and BSD-3-Clause license",
+          "url": "https://github.com/bubio/QUASI88"
+        }
+      ]
+    },
+    {
+      "id": "jnext-spectrum-next",
+      "title": "JNEXT",
+      "game": "ZX Spectrum Next software",
+      "target_type": "Software",
+      "platform": "ZX Spectrum Next Issue 2; ZX Spectrum 48K, 128K, and +3 modes",
+      "kind": "Emulator",
+      "status": "Active; v1.1.51 was released 2026-10-13. The maintainer describes the emulator as unfinished and says extreme cycle-exactness is not the goal; the stated focus is development of Spectrum Next software.",
+      "summary": "Open-source ZX Spectrum Next emulator with a graphical debugger, headless/test automation, recording, and per-layer inspection. The project models the Issue 2 machine and boots NextZXOS from user-provided SD-card contents; known gaps remain documented.",
+      "project_url": "https://github.com/jorgegv/jnext",
+      "updated": "2026-10-14",
+      "strategy": "Hardware-focused software emulation cross-checked against the Spectrum Next FPGA reference sources",
+      "language": "",
+      "source_available": "Yes; public GPL-3.0 source repository",
+      "first_found": "2026-10-15",
+      "project_started": "",
+      "programming_language": "C++17",
+      "subtype": "Home-computer emulator focused on software development and debugging",
+      "sources": [
+        {
+          "label": "Maintainer README: models, features, known gaps, and supported hosts",
+          "url": "https://github.com/jorgegv/jnext/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer release history",
+          "url": "https://github.com/jorgegv/jnext/releases"
+        },
+        {
+          "label": "Official project homepage",
+          "url": "https://www.jnext.es/"
+        }
+      ]
+    },
+    {
+      "id": "einstein-newton",
+      "title": "Einstein",
+      "game": "NewtonOS software and applications",
+      "target_type": "Software",
+      "platform": "Apple Newton MessagePad and eMate hardware families",
+      "kind": "Emulator",
+      "status": "Maintained; v2026.10.13 was released on 2026-10-13. Officially supported hosts are macOS, iOS, and Ubuntu Linux; Android, Raspberry Pi, and Windows have partial support. A Newton ROM must be supplied by the user.",
+      "summary": "Open-source Apple Newton hardware and NewtonOS emulator. The project includes desktop and mobile applications, but it cannot distribute the copyrighted Newton ROM image required to boot.",
+      "project_url": "https://github.com/pguyot/Einstein",
+      "updated": "2026-10-13",
+      "strategy": "Newton hardware emulation and NewtonOS execution",
+      "language": "",
+      "source_available": "Yes; public GPL-2.0 source repository",
+      "first_found": "2026-10-15",
+      "project_started": "",
+      "programming_language": "C++",
+      "subtype": "PDA / mobile operating-system emulator",
+      "sources": [
+        {
+          "label": "Maintainer README: host support, ROM requirement, and downloads",
+          "url": "https://github.com/pguyot/Einstein/blob/master/README.md"
+        },
+        {
+          "label": "Maintainer release history",
+          "url": "https://github.com/pguyot/Einstein/releases"
+        },
+        {
+          "label": "Maintainer source repository and GPL-2.0 license",
+          "url": "https://github.com/pguyot/Einstein"
+        }
+      ]
+    }
+  ]
+}

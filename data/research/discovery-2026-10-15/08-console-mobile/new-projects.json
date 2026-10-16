@@ -1,0 +1,358 @@
+{
+  "updated": "2026-10-15",
+  "scope": "New game-specific console-origin projects with Android/iOS targets; separate rows for upstream-defined game targets sharing a repository.",
+  "projects": [
+    {
+      "id": "super-mario-strikers-android",
+      "title": "Super Mario Strikers Android Port",
+      "game": "Super Mario Strikers",
+      "platform": "Nintendo GameCube → Android (arm64-v8a)",
+      "kind": "Decompilation",
+      "status": "The repository includes an Android 9+ arm64-v8a APK (v1.2.0) using Vulkan. It documents touch controls and gamepad support; no physical-device test is identified.",
+      "summary": "Android launcher and app layer for the native Super Mario Strikers port built on the community GameCube decompilation. The APK contains no game assets; players provide their own game data.",
+      "project_url": "https://github.com/luisxl15/Strikers-Android-Port",
+      "updated": "2026-10-15",
+      "strategy": "Native port of the matching GameCube decompilation; shared game/runtime code is compiled for ARM64 and rendered through Vulkan, with Android-specific launcher and input integration.",
+      "subtype": "Android target of a decompilation-based native port",
+      "target_type": "Game",
+      "sources": [
+        {
+          "label": "Maintainer README and Android requirements",
+          "url": "https://github.com/luisxl15/Strikers-Android-Port"
+        },
+        {
+          "label": "Included Android APK and checksum",
+          "url": "https://github.com/luisxl15/Strikers-Android-Port/tree/main/apk"
+        }
+      ]
+    },
+    {
+      "id": "sonic-r-android-decomp-port",
+      "title": "Sonic R Android Edition",
+      "game": "Sonic R",
+      "platform": "Windows PC build of the Sega Saturn game → Android",
+      "kind": "Decompilation",
+      "status": "Android releases are available through v1.2.7 (2026-10-04). The README documents SDL2, GLES2 and customizable touch controls; it does not identify a minimum Android version or named device test.",
+      "summary": "Native Android port of the PC Sonic R decompilation, which is based on the Saturn game. It requires the user's own PC game files and includes no retail assets; touch and gamepad input are documented.",
+      "project_url": "https://github.com/ZinexDa/sonic-r-android",
+      "updated": "2026-10-15",
+      "strategy": "Android app and OpenGL ES 2.0 renderer built on the PC game's decompilation.",
+      "subtype": "Android port of a PC decompilation of a console-origin game",
+      "target_type": "Game",
+      "sources": [
+        {
+          "label": "Maintainer README: Android renderer, controls and game-data requirements",
+          "url": "https://github.com/ZinexDa/sonic-r-android"
+        },
+        {
+          "label": "Maintainer Android release history",
+          "url": "https://github.com/ZinexDa/sonic-r-android/releases"
+        }
+      ]
+    },
+    {
+      "id": "sonic-cd-rsdkv3-ios-reimplementation",
+      "title": "RSDKv3 iOS — Sonic CD (2011)",
+      "game": "Sonic CD (2011)",
+      "platform": "Sega CD-derived Retro Engine v3 game → iOS/iPadOS (ARM64)",
+      "kind": "Reimplementation",
+      "status": "An unsigned IPA is published; the README specifies ARM64 and iOS 13+, with touchscreen support on iPhone and iPad. It requires the user's own Data.rsdk; no physical-device test is stated.",
+      "summary": "iOS app for the RSDKv3 engine/game-code reimplementation based on the RSDKModding decompilation. No copyrighted game data is included; users must provide Data.rsdk from a legitimate Sonic CD copy and sideload the IPA.",
+      "project_url": "https://github.com/RadiantDelux/RSDKv3-Decompilation-iOS",
+      "updated": "2026-10-15",
+      "strategy": "iOS engine port/reimplementation based on the RSDKv3 decompilation, packaged as an unsigned native ARM64 app.",
+      "subtype": "Native iOS/iPadOS engine reimplementation",
+      "target_type": "Game",
+      "sources": [
+        {
+          "label": "Maintainer README: iOS requirements, IPA install and user-data requirements",
+          "url": "https://github.com/RadiantDelux/RSDKv3-Decompilation-iOS"
+        },
+        {
+          "label": "Maintainer IPA releases",
+          "url": "https://github.com/RadiantDelux/RSDKv3-Decompilation-iOS/releases"
+        }
+      ]
+    },
+    {
+      "id": "pokemon-emerald-dualscreen-android",
+      "title": "Pokémon Emerald Dual Screen",
+      "game": "Pokémon Emerald",
+      "platform": "Game Boy Advance → Android (dual-screen devices)",
+      "kind": "Decompilation",
+      "status": "The latest published APK is v0.6.0 (2026-10-13). The README targets the AYN Thor and other dual-screen Android devices, but does not document a named physical-device test.",
+      "summary": "Native Android dual-screen mod/port built on the Pokémon Emerald decompilation. It adds a second-screen party, map, bag, settings and battle UI with touch or physical controls; the user supplies a USA or Europe Emerald ROM, and ROM hacks are unsupported.",
+      "project_url": "https://github.com/Goldoire/pokeemerald-dualscreen",
+      "updated": "2026-10-15",
+      "strategy": "Android native port and dual-screen mod built from the pret/pokeemerald decompilation; no GBA emulator is used.",
+      "subtype": "Dual-screen Android port of a GBA decompilation",
+      "target_type": "Game",
+      "sources": [
+        {
+          "label": "Maintainer README: features and Android setup",
+          "url": "https://github.com/Goldoire/pokeemerald-dualscreen"
+        },
+        {
+          "label": "Maintainer v0.6.0 APK release (2026-10-13)",
+          "url": "https://github.com/Goldoire/pokeemerald-dualscreen/releases/tag/v0.6.0"
+        }
+      ]
+    },
+    {
+      "id": "halo-combat-evolved-opence-android",
+      "title": "OpenCE Ports — Halo: Combat Evolved Android",
+      "game": "Halo: Combat Evolved",
+      "platform": "Original Xbox → Android (64-bit ARM)",
+      "kind": "Decompilation",
+      "status": "The official repository publishes Android release/debug ZIPs containing an APK. It requires Android 9+ and 64-bit ARM; the README lists the campaign and touch/gyro controls as working, while warning that 16 KB memory-page kernels cannot run it and some Vulkan shaders appear late. No named Android device is listed.",
+      "summary": "Android port on the existing OpenCE Ports repository, separate from its cataloged Switch target. Xbox build 2342 code from the decompilation is compiled for ARM; Vulkan is the default renderer with OpenGL ES 3 fallback. Users provide an Xbox ISO/XISO of any region, which is unpacked on first launch.",
+      "project_url": "https://github.com/thelinkin3000/halo-ce-universal",
+      "updated": "2026-10-15",
+      "strategy": "Xbox decompilation compiled for native ARM64 with Android Vulkan/OpenGL ES graphics and app/input integration.",
+      "subtype": "Android target distinct from the same repository's Nintendo Switch target",
+      "target_type": "Game",
+      "sources": [
+        {
+          "label": "Maintainer README: Android target, status, controls and supported data",
+          "url": "https://github.com/thelinkin3000/halo-ce-universal"
+        },
+        {
+          "label": "Maintainer releases containing Android packages",
+          "url": "https://github.com/thelinkin3000/halo-ce-universal/releases"
+        }
+      ]
+    },
+    {
+      "id": "pokemon-red-gen1recomp-mobile",
+      "title": "Gen1Recomp — Pokémon Red",
+      "game": "Pokémon Red",
+      "platform": "Game Boy → Android/iOS/iPadOS",
+      "kind": "Reimplementation",
+      "status": "Gen 1 title support; release v0.3.89 (2026-10-15) includes Android APK and iOS IPA. The project does not identify physical phone/tablet testing.",
+      "summary": "Per-title mobile target of the hand-written Lua/LÖVE2D Gen1Recomp engine. It verifies and decodes the user's canonical US ROM on import and does not include game data or emulate the original handheld; the README identifies Gen 1 as the supported baseline.",
+      "project_url": "https://github.com/bryanthaboi/gen1recomp",
+      "updated": "2026-10-15",
+      "strategy": "Hand-written Lua/LÖVE2D game and map-behavior reimplementation; game data, graphics and audio are decoded from a verified user-supplied ROM.",
+      "programming_language": "Lua",
+      "subtype": "Multi-title native reimplementation; separate record for this game",
+      "target_type": "Game",
+      "sources": [
+        {
+          "label": "Maintainer README: title coverage, ROM rules and maturity",
+          "url": "https://github.com/bryanthaboi/gen1recomp"
+        },
+        {
+          "label": "Maintainer v0.3.89 release: Android APK and mobile packages",
+          "url": "https://github.com/bryanthaboi/gen1recomp/releases/tag/v0.3.89"
+        },
+        {
+          "label": "Maintainer iOS IPA installation notes",
+          "url": "https://github.com/bryanthaboi/gen1recomp/blob/dev/docs/platforms/ios.md"
+        }
+      ]
+    },
+    {
+      "id": "pokemon-blue-gen1recomp-mobile",
+      "title": "Gen1Recomp — Pokémon Blue",
+      "game": "Pokémon Blue",
+      "platform": "Game Boy → Android/iOS/iPadOS",
+      "kind": "Reimplementation",
+      "status": "Gen 1 title support; release v0.3.89 (2026-10-15) includes Android APK and iOS IPA. The project does not identify physical phone/tablet testing.",
+      "summary": "Per-title mobile target of the hand-written Lua/LÖVE2D Gen1Recomp engine. It verifies and decodes the user's canonical US ROM on import and does not include game data or emulate the original handheld; the README identifies Gen 1 as the supported baseline.",
+      "project_url": "https://github.com/bryanthaboi/gen1recomp",
+      "updated": "2026-10-15",
+      "strategy": "Hand-written Lua/LÖVE2D game and map-behavior reimplementation; game data, graphics and audio are decoded from a verified user-supplied ROM.",
+      "programming_language": "Lua",
+      "subtype": "Multi-title native reimplementation; separate record for this game",
+      "target_type": "Game",
+      "sources": [
+        {
+          "label": "Maintainer README: title coverage, ROM rules and maturity",
+          "url": "https://github.com/bryanthaboi/gen1recomp"
+        },
+        {
+          "label": "Maintainer v0.3.89 release: Android APK and mobile packages",
+          "url": "https://github.com/bryanthaboi/gen1recomp/releases/tag/v0.3.89"
+        },
+        {
+          "label": "Maintainer iOS IPA installation notes",
+          "url": "https://github.com/bryanthaboi/gen1recomp/blob/dev/docs/platforms/ios.md"
+        }
+      ]
+    },
+    {
+      "id": "pokemon-yellow-gen1recomp-mobile",
+      "title": "Gen1Recomp — Pokémon Yellow",
+      "game": "Pokémon Yellow",
+      "platform": "Game Boy → Android/iOS/iPadOS",
+      "kind": "Reimplementation",
+      "status": "Gen 1 title support; release v0.3.89 (2026-10-15) includes Android APK and iOS IPA. The project does not identify physical phone/tablet testing.",
+      "summary": "Per-title mobile target of the hand-written Lua/LÖVE2D Gen1Recomp engine. It verifies and decodes the user's canonical US ROM on import and does not include game data or emulate the original handheld; the README identifies Gen 1 as the supported baseline.",
+      "project_url": "https://github.com/bryanthaboi/gen1recomp",
+      "updated": "2026-10-15",
+      "strategy": "Hand-written Lua/LÖVE2D game and map-behavior reimplementation; game data, graphics and audio are decoded from a verified user-supplied ROM.",
+      "programming_language": "Lua",
+      "subtype": "Multi-title native reimplementation; separate record for this game",
+      "target_type": "Game",
+      "sources": [
+        {
+          "label": "Maintainer README: title coverage, ROM rules and maturity",
+          "url": "https://github.com/bryanthaboi/gen1recomp"
+        },
+        {
+          "label": "Maintainer v0.3.89 release: Android APK and mobile packages",
+          "url": "https://github.com/bryanthaboi/gen1recomp/releases/tag/v0.3.89"
+        },
+        {
+          "label": "Maintainer iOS IPA installation notes",
+          "url": "https://github.com/bryanthaboi/gen1recomp/blob/dev/docs/platforms/ios.md"
+        }
+      ]
+    },
+    {
+      "id": "pokemon-firered-gen1recomp-mobile",
+      "title": "Gen1Recomp — Pokémon FireRed",
+      "game": "Pokémon FireRed",
+      "platform": "Game Boy Advance → Android/iOS/iPadOS",
+      "kind": "Reimplementation",
+      "status": "Beta GBA title support; release v0.3.89 (2026-10-15) includes Android APK and iOS IPA. The project does not identify physical phone/tablet testing.",
+      "summary": "Per-title mobile target of the hand-written Lua/LÖVE2D Gen1Recomp engine. It verifies and decodes the user's canonical US ROM on import and does not include game data or emulate the original handheld; the README labels GBA support beta.",
+      "project_url": "https://github.com/bryanthaboi/gen1recomp",
+      "updated": "2026-10-15",
+      "strategy": "Hand-written Lua/LÖVE2D game and map-behavior reimplementation; game data, graphics and audio are decoded from a verified user-supplied ROM.",
+      "programming_language": "Lua",
+      "subtype": "Multi-title native reimplementation; separate record for this game",
+      "target_type": "Game",
+      "sources": [
+        {
+          "label": "Maintainer README: title coverage, ROM rules and maturity",
+          "url": "https://github.com/bryanthaboi/gen1recomp"
+        },
+        {
+          "label": "Maintainer v0.3.89 release: Android APK and mobile packages",
+          "url": "https://github.com/bryanthaboi/gen1recomp/releases/tag/v0.3.89"
+        },
+        {
+          "label": "Maintainer iOS IPA installation notes",
+          "url": "https://github.com/bryanthaboi/gen1recomp/blob/dev/docs/platforms/ios.md"
+        }
+      ]
+    },
+    {
+      "id": "pokemon-leafgreen-gen1recomp-mobile",
+      "title": "Gen1Recomp — Pokémon LeafGreen",
+      "game": "Pokémon LeafGreen",
+      "platform": "Game Boy Advance → Android/iOS/iPadOS",
+      "kind": "Reimplementation",
+      "status": "Beta GBA title support; release v0.3.89 (2026-10-15) includes Android APK and iOS IPA. The project does not identify physical phone/tablet testing.",
+      "summary": "Per-title mobile target of the hand-written Lua/LÖVE2D Gen1Recomp engine. It verifies and decodes the user's canonical US ROM on import and does not include game data or emulate the original handheld; the README labels GBA support beta.",
+      "project_url": "https://github.com/bryanthaboi/gen1recomp",
+      "updated": "2026-10-15",
+      "strategy": "Hand-written Lua/LÖVE2D game and map-behavior reimplementation; game data, graphics and audio are decoded from a verified user-supplied ROM.",
+      "programming_language": "Lua",
+      "subtype": "Multi-title native reimplementation; separate record for this game",
+      "target_type": "Game",
+      "sources": [
+        {
+          "label": "Maintainer README: title coverage, ROM rules and maturity",
+          "url": "https://github.com/bryanthaboi/gen1recomp"
+        },
+        {
+          "label": "Maintainer v0.3.89 release: Android APK and mobile packages",
+          "url": "https://github.com/bryanthaboi/gen1recomp/releases/tag/v0.3.89"
+        },
+        {
+          "label": "Maintainer iOS IPA installation notes",
+          "url": "https://github.com/bryanthaboi/gen1recomp/blob/dev/docs/platforms/ios.md"
+        }
+      ]
+    },
+    {
+      "id": "pokemon-ruby-gen1recomp-mobile",
+      "title": "Gen1Recomp — Pokémon Ruby",
+      "game": "Pokémon Ruby",
+      "platform": "Game Boy Advance → Android/iOS/iPadOS",
+      "kind": "Reimplementation",
+      "status": "Beta GBA title support; release v0.3.89 (2026-10-15) includes Android APK and iOS IPA. The project does not identify physical phone/tablet testing.",
+      "summary": "Per-title mobile target of the hand-written Lua/LÖVE2D Gen1Recomp engine. It verifies and decodes the user's canonical US ROM on import and does not include game data or emulate the original handheld; the README labels GBA support beta.",
+      "project_url": "https://github.com/bryanthaboi/gen1recomp",
+      "updated": "2026-10-15",
+      "strategy": "Hand-written Lua/LÖVE2D game and map-behavior reimplementation; game data, graphics and audio are decoded from a verified user-supplied ROM.",
+      "programming_language": "Lua",
+      "subtype": "Multi-title native reimplementation; separate record for this game",
+      "target_type": "Game",
+      "sources": [
+        {
+          "label": "Maintainer README: title coverage, ROM rules and maturity",
+          "url": "https://github.com/bryanthaboi/gen1recomp"
+        },
+        {
+          "label": "Maintainer v0.3.89 release: Android APK and mobile packages",
+          "url": "https://github.com/bryanthaboi/gen1recomp/releases/tag/v0.3.89"
+        },
+        {
+          "label": "Maintainer iOS IPA installation notes",
+          "url": "https://github.com/bryanthaboi/gen1recomp/blob/dev/docs/platforms/ios.md"
+        }
+      ]
+    },
+    {
+      "id": "pokemon-sapphire-gen1recomp-mobile",
+      "title": "Gen1Recomp — Pokémon Sapphire",
+      "game": "Pokémon Sapphire",
+      "platform": "Game Boy Advance → Android/iOS/iPadOS",
+      "kind": "Reimplementation",
+      "status": "Beta GBA title support; release v0.3.89 (2026-10-15) includes Android APK and iOS IPA. The project does not identify physical phone/tablet testing.",
+      "summary": "Per-title mobile target of the hand-written Lua/LÖVE2D Gen1Recomp engine. It verifies and decodes the user's canonical US ROM on import and does not include game data or emulate the original handheld; the README labels GBA support beta.",
+      "project_url": "https://github.com/bryanthaboi/gen1recomp",
+      "updated": "2026-10-15",
+      "strategy": "Hand-written Lua/LÖVE2D game and map-behavior reimplementation; game data, graphics and audio are decoded from a verified user-supplied ROM.",
+      "programming_language": "Lua",
+      "subtype": "Multi-title native reimplementation; separate record for this game",
+      "target_type": "Game",
+      "sources": [
+        {
+          "label": "Maintainer README: title coverage, ROM rules and maturity",
+          "url": "https://github.com/bryanthaboi/gen1recomp"
+        },
+        {
+          "label": "Maintainer v0.3.89 release: Android APK and mobile packages",
+          "url": "https://github.com/bryanthaboi/gen1recomp/releases/tag/v0.3.89"
+        },
+        {
+          "label": "Maintainer iOS IPA installation notes",
+          "url": "https://github.com/bryanthaboi/gen1recomp/blob/dev/docs/platforms/ios.md"
+        }
+      ]
+    },
+    {
+      "id": "pokemon-emerald-gen1recomp-mobile",
+      "title": "Gen1Recomp — Pokémon Emerald",
+      "game": "Pokémon Emerald",
+      "platform": "Game Boy Advance → Android/iOS/iPadOS",
+      "kind": "Reimplementation",
+      "status": "Beta GBA title support; release v0.3.89 (2026-10-15) includes Android APK and iOS IPA. The project does not identify physical phone/tablet testing.",
+      "summary": "Per-title mobile target of the hand-written Lua/LÖVE2D Gen1Recomp engine. It verifies and decodes the user's canonical US ROM on import and does not include game data or emulate the original handheld; the README labels GBA support beta.",
+      "project_url": "https://github.com/bryanthaboi/gen1recomp",
+      "updated": "2026-10-15",
+      "strategy": "Hand-written Lua/LÖVE2D game and map-behavior reimplementation; game data, graphics and audio are decoded from a verified user-supplied ROM.",
+      "programming_language": "Lua",
+      "subtype": "Multi-title native reimplementation; separate record for this game",
+      "target_type": "Game",
+      "sources": [
+        {
+          "label": "Maintainer README: title coverage, ROM rules and maturity",
+          "url": "https://github.com/bryanthaboi/gen1recomp"
+        },
+        {
+          "label": "Maintainer v0.3.89 release: Android APK and mobile packages",
+          "url": "https://github.com/bryanthaboi/gen1recomp/releases/tag/v0.3.89"
+        },
+        {
+          "label": "Maintainer iOS IPA installation notes",
+          "url": "https://github.com/bryanthaboi/gen1recomp/blob/dev/docs/platforms/ios.md"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "updated": "2026-10-15",
+  "updates": [
+    {
+      "id": "sotn-decomp",
+      "fields": {
+        "status": "Work in progress; the README identifies three supported builds: PS1 USA SLUS-00067, the unreleased Japanese HD build from Dracula X Chronicles data, and the PSP European build.",
+        "summary": "Matching decompilation that compiles byte-for-byte against supported binaries. The current README lists PS1 USA, an unreleased Japanese HD build, and PSP Europe; users must provide their own game data and assets."
+      },
+      "sources": [
+        {
+          "label": "Project README: matching method and supported versions",
+          "url": "https://github.com/Xeeynamo/sotn-decomp#readme"
+        }
+      ],
+      "evidence_note": "The README says builds compile byte-for-byte and lists the three supported targets by name/region; it does not present these as complete decompilations."
+    },
+    {
+      "id": "chrono-cross-decomp",
+      "fields": {
+        "platform": "PlayStation (Japanese release SLPS 023.64)",
+        "summary": "In-progress matching decompilation of the Japanese PS1 release SLPS 023.64. The README documents extracting the unmodified game image from the 2022 Radical Dreamers Edition remaster's cdrom.dat; game data is not included."
+      },
+      "sources": [
+        {
+          "label": "Project README: supported release and extraction path",
+          "url": "https://github.com/jdperos/chrono-cross-decomp#readme"
+        }
+      ],
+      "evidence_note": "The README identifies SLPS 023.64 as the Japanese target and describes cdrom.dat from Radical Dreamers Edition as the extraction path."
+    },
+    {
+      "id": "fatal-frame-ps2-decomp",
+      "fields": {
+        "platform": "PlayStation 2 (US SLUS_203.88; Europe SLES_508.21; Japan SLPS_250.74)",
+        "summary": "Matching PS2 decompilation for the US Fatal Frame, European Project Zero, and Japanese Zero executables. Public C source is paired with assembly fallbacks; users provide their own game files."
+      },
+      "sources": [
+        {
+          "label": "Project README: regional executables and build inputs",
+          "url": "https://github.com/Mikompilation/Himuro#readme"
+        }
+      ],
+      "evidence_note": "The README's progress table names each regional executable serial; its build instructions require the corresponding files from the user's disc."
+    },
+    {
+      "id": "god-hand-decomp",
+      "fields": {
+        "platform": "PlayStation 2 NTSC-U (SLUS-21503)"
+      },
+      "sources": [
+        {
+          "label": "Project README: primary retail target",
+          "url": "https://github.com/LucasPicoli/god-hand-decomp#readme"
+        }
+      ],
+      "evidence_note": "The README identifies SLUS-21503 as the primary US retail master and documents the matching build against that executable."
+    },
+    {
+      "id": "lsd-dream-emulator-decomp",
+      "fields": {
+        "status": "In progress; the README reports 194,212 of 199,912 game-function bytes matched in C (97.15%) and documents a helper for launching the matching build. SDK/startup code is outside that percentage.",
+        "summary": "Matching decompilation of the Japanese PS1 executable with a reproducible build and byte-comparison checks. The README reports 97.15% matched game-function bytes and a launch helper; the executable, extracted assets, and BIOS are user-supplied."
+      },
+      "sources": [
+        {
+          "label": "Project README: current matching progress and supported build workflow",
+          "url": "https://github.com/BaileyPillon/lsd-dream-emulator-decompilation#readme"
+        },
+        {
+          "label": "Project status and roadmap",
+          "url": "https://github.com/BaileyPillon/lsd-dream-emulator-decompilation/blob/main/docs/ROADMAP.md"
+        }
+      ],
+      "evidence_note": "The README reports the numerator, denominator, and 97.15% value and explicitly excludes SDK/startup code from the game-code percentage. Treat this as the README's current snapshot."
+    },
+    {
+      "id": "tomba-ps1-decomp",
+      "fields": {
+        "status": "In progress; the 2026-10-14 report gives 78.0% matched main-game code for the US reference build. The README lists four regional releases sharing the source tree.",
+        "summary": "Matching PS1 decompilation with the US release as its reference and shared-source builds for four US, Japanese, and PAL variants. The README's 2026-10-14 snapshot reports 78.0% matched main-game code for the US build."
+      },
+      "sources": [
+        {
+          "label": "Project README: regional builds and dated matching report",
+          "url": "https://github.com/hansbonini/psx_tomba#readme"
+        }
+      ],
+      "evidence_note": "The README dates its local progress report 2026-10-14, reports 78.0% main-game code matched for the US reference, and lists four supported regional release configurations."
+    },
+    {
+      "id": "tomba-2-ps1-recomp",
+      "fields": {
+        "platform": "PlayStation USA (SCUS-94454) and Italy PAL (SCES-02686) → Windows and Linux",
+        "summary": "Static recompilation built on psxrecomp. Windows/Linux preview builds target the US SCUS-94454 and Italian PAL SCES-02686 discs; the project prepares native code from all 22 original area files and requires the user's own disc."
+      },
+      "sources": [
+        {
+          "label": "Project README: supported discs, native code generation, and release requirements",
+          "url": "https://github.com/mstan/Tomba2Recomp#readme"
+        }
+      ],
+      "evidence_note": "The README names the two supported regional serials and says preview builds include native code prepared from all 22 original area files."
+    },
+    {
+      "id": "vandal-hearts-decomp",
+      "fields": {
+        "status": "The maintainer marks the matching decompilation and native port complete; US and Japanese matching builds are checked byte-for-byte, and the port supports USA, Asia, and Japan discs.",
+        "summary": "Completed PS1 matching decompilation used by the project's native PC port. The README documents byte-exact US and Japanese builds; the shared PC executable also detects USA, Asia, and Japan game discs."
+      },
+      "sources": [
+        {
+          "label": "Vandal Hearts project README: completion, supported regions, and matching checks",
+          "url": "https://github.com/HalmyLyseas/VandalHearts-PcPort#readme"
+        }
+      ],
+      "evidence_note": "The README says all three project stages are complete, describes byte-exact US and Japanese decompilation checks, and documents the three regions accepted by the PC port."
+    },
+    {
+      "id": "vandal-hearts-pc-port",
+      "fields": {
+        "status": "v2.0 released; the full game is reported validated through credits on Windows and Linux for USA, Asia, and Japan discs. macOS is community-supported and experimental.",
+        "platform": "PlayStation → Windows and Linux (released); macOS (experimental community build)",
+        "source_available": "Public source repository and Windows/Linux releases; users supply their own supported disc. Release binaries embed a portion of game-derived data."
+      },
+      "sources": [
+        {
+          "label": "Vandal Hearts project README: full-game validation, platforms, and release contents",
+          "url": "https://github.com/HalmyLyseas/VandalHearts-PcPort#readme"
+        },
+        {
+          "label": "Project releases",
+          "url": "https://github.com/HalmyLyseas/VandalHearts-PcPort/releases"
+        }
+      ],
+      "evidence_note": "The README reports end-to-end playthroughs on Windows/Linux, distinguishes experimental macOS support, and says release binaries embed a portion of game-derived data while users provide discs."
+    },
+    {
+      "id": "tokyo-bus-guide-dc-decomp",
+      "fields": {
+        "subtype": "Functional Dreamcast decompilation with partial binary rebuilds that retain original code for unrecovered functions"
+      },
+      "sources": [
+        {
+          "label": "Project README: function equivalence and partial rebuild approach",
+          "url": "https://github.com/lhsazevedo/tbg-decomp#readme"
+        }
+      ],
+      "evidence_note": "The README distinguishes function-level equivalence from byte matching and says rebuilt binaries combine decompiled functions with original code."
+    },
+    {
+      "id": "daytona-usa-model2-recomp",
+      "fields": {
+        "summary": "Static recompilation of the Model 2 i960 program with native modeled board hardware. Setup supports MAME-format daytona93 (Daytona USA Deluxe '93) and daytona ROM sets as separate builds; users supply their own ROMs.",
+        "source_available": "Public source repository; user-supplied MAME-format daytona93 or daytona ROM set required; no game data included"
+      },
+      "sources": [
+        {
+          "label": "Daytona USA recompilation README: supported ROM sets and build flow",
+          "url": "https://github.com/alphanu1/daytona-arcade-recomp#readme"
+        },
+        {
+          "label": "Recompilation design notes",
+          "url": "https://github.com/alphanu1/daytona-arcade-recomp/blob/main/docs/daytona-usa-recomp-design.md"
+        }
+      ],
+      "evidence_note": "The README documents daytona93 and daytona as supported ROM set names, builds them separately, and states the ROM set is not included."
+    },
+    {
+      "id": "virtua-fighter-arcade-model1-recomp",
+      "fields": {
+        "subtype": "Game-specific Sega Model 1 static recompilation with native board-hardware models",
+        "source_available": "Public source repository; user-supplied MAME vf ROM set required; ROMs are not included"
+      },
+      "sources": [
+        {
+          "label": "Virtua Fighter Recomp README: ROM requirement and implementation",
+          "url": "https://github.com/mr-finster/vf1-recomp#readme"
+        },
+        {
+          "label": "Latest project release",
+          "url": "https://github.com/mr-finster/vf1-recomp/releases/latest"
+        }
+      ],
+      "evidence_note": "The README says the game's V60 program is recompiled locally and requires the user's MAME vf.zip; it also describes native reimplementations of the Model 1 board components."
+    },
+    {
+      "id": "silent-hill-ps3-port",
+      "fields": {
+        "status": "In development; the repository lists PS3 among planned/in-development ports. Its full-game playable claim applies to the native PC port, and the README provides no PS3-specific playability report.",
+        "summary": "PS3 is a listed target of the broader Silent Hill decompilation project, but the README's playable release is the Windows PC port. No PS3-specific build or gameplay milestone is documented in the project README."
+      },
+      "sources": [
+        {
+          "label": "Project README: platform roadmap and distinction between PC port status and other targets",
+          "url": "https://github.com/SlickAmogus/silent-hill-decomp#readme"
+        }
+      ],
+      "evidence_note": "The README describes the Windows PC port as fully playable and separately lists PS3 as a port in development; it does not assign the PC status to PS3."
+    },
+    {
+      "id": "crash-bandicoot-2-ps1-recomp",
+      "fields": {
+        "source_available": "Public source repository and v0.9.6 release; user supplies the North American SCUS-94154 disc image. No game content is included; the release includes the MIT-licensed OpenBIOS replacement."
+      },
+      "sources": [
+        {
+          "label": "Project README: supported disc and source/game-data availability",
+          "url": "https://github.com/Zumbo06/Crash2Recomp#readme"
+        },
+        {
+          "label": "v0.9.6 release",
+          "url": "https://github.com/Zumbo06/Crash2Recomp/releases/tag/v0.9.6"
+        }
+      ],
+      "evidence_note": "The README says the build targets North American serial SCUS-94154, distributes no game code/audio/disc content, and ships the MIT-licensed OpenBIOS replacement."
+    }
+  ]
+}

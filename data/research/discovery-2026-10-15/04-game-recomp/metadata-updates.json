@@ -1,0 +1,443 @@
+{
+  "updated": "2026-10-15",
+  "updates": [
+    {
+      "id": "dbz-legacy-of-goku-recomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Experimental v0.0.1 preview. The USA release boots through the attract sequence into gameplay; the project has not been exhaustively tested through the full game.",
+        "summary": "Static Windows recompilation of the GBA game with optional adaptive widescreen. The README requires the user's USA ROM and retail GBA BIOS and cautions that full-game compatibility is unverified.",
+        "source_available": "Public repository; user-supplied game ROM and retail GBA BIOS required; no game data included"
+      },
+      "sources": [
+        { "label": "Project README and compatibility notes", "url": "https://github.com/mstan/DragonBallZLegacyOfGokuRecomp/blob/main/README.md" },
+        { "label": "GitHub repository metadata (primary language)", "url": "https://api.github.com/repos/mstan/DragonBallZLegacyOfGokuRecomp" }
+      ],
+      "evidence_note": "The README identifies the Windows target and USA ROM, reports boot through gameplay, and labels v0.0.1 an experimental preview; it also says the full game has not been exhaustively tested. Repository API primary language is C++ and matches the stored language metadata."
+    },
+    {
+      "id": "dbz-legacy-of-goku-ii-recomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Experimental v0.0.1 preview. The USA release boots into gameplay; strict-static checks cover attract mode, gameplay, and a 6,000-frame traversal route, but the whole game is not exhaustively tested.",
+        "summary": "Windows GBA static recompilation with optional adaptive widescreen. The README requires the user's USA ROM and GBA BIOS and documents zero interpreted instructions or missing dispatches on its checked route, not across the whole game.",
+        "source_available": "Public repository; user-supplied game ROM and retail GBA BIOS required; no game data included"
+      },
+      "sources": [
+        { "label": "Project README and strict-static validation", "url": "https://github.com/mstan/DragonBallZLegacyofGokuIIRecomp/blob/main/README.md" },
+        { "label": "GitHub repository metadata (primary language)", "url": "https://api.github.com/repos/mstan/DragonBallZLegacyofGokuIIRecomp" }
+      ],
+      "evidence_note": "The owner distinguishes tested strict-static routes from exhaustive game coverage and identifies the USA ROM, Windows build, and required BIOS. Repository API primary language is C++ and matches the stored language metadata."
+    },
+    {
+      "id": "dbz-buus-fury-recomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Experimental v0.0.1 preview. The USA release boots through the attract sequence into gameplay, and the checked routes pass strict-static validation; full-game testing is not reported.",
+        "summary": "Static Windows recompilation of the GBA release with optional adaptive widescreen. The README requires the user's USA ROM and retail GBA BIOS and limits its strict-static claim to the documented routes.",
+        "source_available": "Public repository; user-supplied game ROM and retail GBA BIOS required; no game data included"
+      },
+      "sources": [
+        { "label": "Project README and compatibility notes", "url": "https://github.com/mstan/DragonBallZBuusFuryRecomp/blob/main/README.md" },
+        { "label": "GitHub repository metadata (primary language)", "url": "https://api.github.com/repos/mstan/DragonBallZBuusFuryRecomp" }
+      ],
+      "evidence_note": "The README reports gameplay bring-up and strict-static validation for tested routes, while calling the build experimental and not exhaustive. Repository API primary language is C++ and matches the stored language metadata."
+    },
+    {
+      "id": "mario-kart-super-circuit-recomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "platform": "Game Boy Advance → Windows x64, Linux x86-64",
+        "status": "Release v0.1.4 supports Windows x64 and Linux x86-64. The README reports menus, cup selection, races, results, two-player LAN/Internet link play, and cartridge-save fixes; it does not claim a full-game completion test.",
+        "summary": "Static GBA recompilation with optional 60 fps and adaptive-widescreen mods. The README documents native Windows and Linux builds and LAN/Internet link-cable netplay; users provide their own ROM and BIOS.",
+        "source_available": "Public repository and releases; user-supplied GBA ROM and BIOS required; no game data included"
+      },
+      "sources": [
+        { "label": "Project README and platform/status notes", "url": "https://github.com/mstan/MarioKartSuperCircuitRecomp/blob/main/README.md" },
+        { "label": "Project releases", "url": "https://github.com/mstan/MarioKartSuperCircuitRecomp/releases" },
+        { "label": "GitHub repository metadata (primary language)", "url": "https://api.github.com/repos/mstan/MarioKartSuperCircuitRecomp" }
+      ],
+      "evidence_note": "The README expands the supported host set to Windows x64 and Linux x86-64 and specifies the v0.1.4 gameplay, netplay, and save status. Repository API primary language is PowerShell, matching the stored metadata."
+    },
+    {
+      "id": "warioware-twisted-recomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Experimental v0.0.1 builds run on Windows and Android; the README reports menus, microgames, cartridge saves, and gyro stages working, with Android tested on a Galaxy S22 Ultra. It does not report a full-game playthrough.",
+        "summary": "Static GBA recompilation for Windows and Android with native motion input for the cartridge gyroscope. The README requires the user's ROM and GBA BIOS and limits Android testing to the listed device.",
+        "source_available": "Public repository and Android release; user-supplied GBA ROM and retail BIOS required; no game data included"
+      },
+      "sources": [
+        { "label": "Project README and Android compatibility notes", "url": "https://github.com/mstan/WarioWareTwistedRecomp/blob/main/README.md" },
+        { "label": "GitHub repository metadata (primary language)", "url": "https://api.github.com/repos/mstan/WarioWareTwistedRecomp" }
+      ],
+      "evidence_note": "The README narrows device compatibility to a Galaxy S22 Ultra test and confirms gyro stages, saves, and microgames on experimental Windows/Android builds. Repository API primary language is PowerShell, matching the stored metadata."
+    },
+    {
+      "id": "super-mario-advance-2-recomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Experimental v0.0.3 Windows build boots through the opening and attract sequence. The README says widescreen work is still being refined and does not claim broad gameplay coverage.",
+        "summary": "Native Windows recompilation of Super Mario Advance 2 with optional adaptive widescreen. The README specifies the USA/Australia ROM and requires the user's GBA BIOS; game data is not included.",
+        "source_available": "Public repository; user-supplied USA/Australia ROM and retail GBA BIOS required; no game data included"
+      },
+      "sources": [
+        { "label": "Project README, tested revision, and status", "url": "https://github.com/mstan/SuperMarioAdvance2Recomp/blob/main/README.md" },
+        { "label": "GitHub repository metadata (primary language)", "url": "https://api.github.com/repos/mstan/SuperMarioAdvance2Recomp" }
+      ],
+      "evidence_note": "The README identifies v0.0.3, confirms the opening/attract boot boundary, and specifies the USA/Australia ROM rather than claiming a completed game. Repository API primary language is PowerShell, matching the stored metadata."
+    },
+    {
+      "id": "super-mario-advance-4-recomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Experimental v0.0.1 Windows build reaches the title screen and runs Super Mario Bros. 3 gameplay. The supported dump is USA/Australia revision 1; full-game compatibility is not quantified.",
+        "summary": "Native desktop recompilation of Super Mario Advance 4 with a launcher, controller support, audio settings, fullscreen, and save states. The README requires the user's supported ROM and retail GBA BIOS.",
+        "source_available": "Public repository; user-supplied USA/Australia revision 1 ROM and retail GBA BIOS required; no game data included"
+      },
+      "sources": [
+        { "label": "Project README and supported ROM revision", "url": "https://github.com/mstan/SuperMarioAdvance4Recomp/blob/main/README.md" },
+        { "label": "GitHub repository metadata (primary language)", "url": "https://api.github.com/repos/mstan/SuperMarioAdvance4Recomp" }
+      ],
+      "evidence_note": "The owner reports title-screen and gameplay bring-up for the experimental v0.0.1 build and names USA/Australia revision 1 as the supported dump. Repository API primary language is PowerShell, matching the stored metadata."
+    },
+    {
+      "id": "pokemon-firered-recomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Playable bring-up v0.0.1: the USA release boots through the BIOS intro into gameplay, but content is not exhaustively tested and some code paths use a one-time interpreter followed by persisted JIT compilation.",
+        "summary": "GBA ARM7TDMI code is statically translated to native code; uncovered paths first run through an interpreter and are then JIT-compiled and cached. FireRed and LeafGreen are separate targets in one public repository; the game ROM and BIOS are user supplied.",
+        "strategy": "Static recompilation with interpreter/JIT coverage healing",
+        "source_available": "Public repository; user-supplied game ROM and GBA BIOS required; no game data included"
+      },
+      "sources": [
+        { "label": "Project README and runtime coverage model", "url": "https://github.com/mstan/FireRedLeafGreenRecomp/blob/main/README.md" },
+        { "label": "GitHub repository metadata (primary language)", "url": "https://api.github.com/repos/mstan/FireRedLeafGreenRecomp" }
+      ],
+      "evidence_note": "The README states that both target games reach gameplay but are early and not exhaustively tested; uncovered paths run through an interpreter once, then a persisted JIT. This refines the method from static-only wording. Repository API primary language is Python, consistent with the stored field."
+    },
+    {
+      "id": "pokemon-leafgreen-recomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Playable bring-up v0.0.1: the USA release boots through the BIOS intro into gameplay, but content is not exhaustively tested and some code paths use a one-time interpreter followed by persisted JIT compilation.",
+        "summary": "GBA ARM7TDMI code is statically translated to native code; uncovered paths first run through an interpreter and are then JIT-compiled and cached. FireRed and LeafGreen are separate targets in one public repository; the game ROM and BIOS are user supplied.",
+        "strategy": "Static recompilation with interpreter/JIT coverage healing",
+        "source_available": "Public repository; user-supplied game ROM and GBA BIOS required; no game data included"
+      },
+      "sources": [
+        { "label": "Project README and runtime coverage model", "url": "https://github.com/mstan/FireRedLeafGreenRecomp/blob/main/README.md" },
+        { "label": "GitHub repository metadata (primary language)", "url": "https://api.github.com/repos/mstan/FireRedLeafGreenRecomp" }
+      ],
+      "evidence_note": "The README reports the same early gameplay boundary for LeafGreen as FireRed and documents its one-time interpreter/persisted-JIT path. Repository API primary language is Python, consistent with the stored field."
+    },
+    {
+      "id": "pokemon-ruby-recomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Playable bring-up v0.0.1: the USA release boots through the BIOS intro into gameplay, but is not exhaustively tested; the README warns of early-boot, flash, and RTC quirks and documents interpreter/JIT coverage healing.",
+        "summary": "GBA ARM7TDMI code is statically translated to native code, with interpreter execution for uncovered paths followed by persisted JIT compilation. Ruby and Sapphire are separate targets in the same public repository and share the source tree and engine.",
+        "strategy": "Static recompilation with interpreter/JIT coverage healing",
+        "source_available": "Public repository; user-supplied game ROM and GBA BIOS required; no game data included"
+      },
+      "sources": [
+        { "label": "Project README and Ruby/Sapphire runtime notes", "url": "https://github.com/mstan/RubySapphireRecomp/blob/main/README.md" },
+        { "label": "GitHub repository metadata (primary language)", "url": "https://api.github.com/repos/mstan/RubySapphireRecomp" }
+      ],
+      "evidence_note": "The README identifies Ruby as an early gameplay bring-up, calls out additional boot/flash/RTC quirks, and explains that uncovered code is interpreted once and then JIT-compiled. Repository API primary language is Python, consistent with the stored field."
+    },
+    {
+      "id": "pokemon-sapphire-recomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Playable bring-up v0.0.1: the USA release boots through the BIOS intro into gameplay, but is not exhaustively tested; the README warns of early-boot, flash, and RTC quirks and documents interpreter/JIT coverage healing.",
+        "summary": "GBA ARM7TDMI code is statically translated to native code, with interpreter execution for uncovered paths followed by persisted JIT compilation. Ruby and Sapphire are separate targets in the same public repository and share the source tree and engine.",
+        "strategy": "Static recompilation with interpreter/JIT coverage healing",
+        "source_available": "Public repository; user-supplied game ROM and GBA BIOS required; no game data included"
+      },
+      "sources": [
+        { "label": "Project README and Ruby/Sapphire runtime notes", "url": "https://github.com/mstan/RubySapphireRecomp/blob/main/README.md" },
+        { "label": "GitHub repository metadata (primary language)", "url": "https://api.github.com/repos/mstan/RubySapphireRecomp" }
+      ],
+      "evidence_note": "The shared README gives Sapphire the same early bring-up boundary and runtime fallback as Ruby, and specifically warns of boot/flash/RTC quirks. Repository API primary language is Python, consistent with the stored field."
+    },
+    {
+      "id": "pokemon-emerald-recomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Playable bring-up v0.0.1: Emerald boots through the BIOS intro into gameplay, but is not exhaustively tested; the README calls out RTC and battle/contest code paths and documents interpreter/JIT coverage healing.",
+        "summary": "GBA ARM7TDMI code is statically translated to native code, with interpreter execution for uncovered paths followed by persisted JIT compilation. Emerald is a separate target from the FireRed/LeafGreen and Ruby/Sapphire repositories; users provide the ROM and BIOS.",
+        "strategy": "Static recompilation with interpreter/JIT coverage healing",
+        "source_available": "Public repository; user-supplied game ROM and GBA BIOS required; no game data included"
+      },
+      "sources": [
+        { "label": "Project README and runtime coverage model", "url": "https://github.com/mstan/EmeraldRecomp/blob/main/README.md" },
+        { "label": "GitHub repository metadata (primary language)", "url": "https://api.github.com/repos/mstan/EmeraldRecomp" }
+      ],
+      "evidence_note": "The README documents gameplay bring-up, identifies RTC and battle/contest paths as notable deltas, and describes one-time interpreter execution with persisted JIT. Repository API primary language is C++, matching the stored field."
+    },
+    {
+      "id": "zelda-minish-cap-recomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Playable into gameplay in v0.0.1: boot, overworld, dialogue, and save-state round trips are reported working. The project is early and not all paths are statically covered; uncovered code uses an interpreter before persisted JIT compilation.",
+        "summary": "GBA ARM7TDMI code, including the BIOS, is statically translated to native C. An interpreter and persisted JIT handle uncovered paths; the public README describes this as an in-development base and runner, not a finished port.",
+        "strategy": "Static recompilation with interpreter/JIT coverage healing",
+        "source_available": "Public repository; user-supplied GBA ROM required; no game data included"
+      },
+      "sources": [
+        { "label": "Project README and status/runtime notes", "url": "https://github.com/mstan/MinishCapRecomp/blob/main/README.md" },
+        { "label": "GitHub repository metadata (primary language)", "url": "https://api.github.com/repos/mstan/MinishCapRecomp" }
+      ],
+      "evidence_note": "The README reports title-screen-to-gameplay, overworld, dialogue, and save-state progress; it says static coverage is incomplete and uncovered paths use an interpreter followed by persisted JIT. Repository API primary language is C++, matching the stored field."
+    },
+    {
+      "id": "mega-man-zero-recomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Playable static-first bring-up v0.0.2: the game boots through the real BIOS into the opening mission with controls, audio, and persistent SRAM. Tested routes have full static coverage, but uncovered targets still fall back to the interpreter and the whole game is not exhaustively proven static.",
+        "summary": "The GBA ARM/Thumb code and BIOS are recompiled to native C++; the runtime models GBA hardware and retains an instruction interpreter for uncovered code. The README distinguishes tested static routes from whole-game coverage.",
+        "strategy": "Static-first recompilation with runtime interpreter fallback",
+        "source_available": "Public repository; user-supplied GBA ROM required; no game data included"
+      },
+      "sources": [
+        { "label": "Project README and static-coverage notes", "url": "https://github.com/mstan/MegaManZeroRecomp/blob/main/README.md" },
+        { "label": "GitHub repository metadata (primary language)", "url": "https://api.github.com/repos/mstan/MegaManZeroRecomp" }
+      ],
+      "evidence_note": "The owner reports controls, audio, SRAM, and opening-mission progress while explicitly limiting full-static coverage to tested routes; uncovered targets remain interpreted. Repository API primary language is C++, matching the stored field."
+    },
+    {
+      "id": "kingdom-hearts-chain-of-memories-recomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Unclear; the project repository, README, and GitHub API currently return 404, so the latest build and compatibility status could not be verified.",
+        "summary": "This entry was previously documented as a Windows GBA static recompilation with a dynamic RAM-code bridge. The project page is currently unavailable, so its implementation method and test status could not be revalidated.",
+        "source_available": "Unclear; previously public GitHub repository currently returns 404 as of 2026-10-15"
+      },
+      "sources": [
+        { "label": "Former project README (current URL returns 404)", "url": "https://github.com/azurejoga/kh-recomp/blob/master/README.md" },
+        { "label": "GitHub repository API (current request returns 404)", "url": "https://api.github.com/repos/azurejoga/kh-recomp" }
+      ],
+      "evidence_note": "Direct requests to the repository, its master-branch README, and the GitHub repository API returned 404 during this review. A search index still contains a crawl of the former project README, but it is not used to refresh current method, compatibility, or programming-language metadata."
+    },
+    {
+      "id": "super-mario-world-snes-recomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "The owner hand-verified Yoshi's Island (World 1) and Donut Plains (World 2) end to end; World 3 was in progress. Worlds 4–7 and special content are not yet hand-verified, so full-game completion is not established.",
+        "summary": "The SNES 65816 CPU code is statically translated to C; a C hardware runtime handles the PPU, SPC700/APU, DMA, registers, and memory mapping. The README describes active development and identifies the verified campaign boundary rather than claiming an end-to-end completion.",
+        "source_available": "Public source repository; user-supplied ROM required; generated project code is public but no ROM is included"
+      },
+      "sources": [
+        { "label": "Project README and current playthrough boundary", "url": "https://github.com/mstan/SuperMarioWorldRecomp/blob/main/README.md" },
+        { "label": "GitHub repository metadata (primary language)", "url": "https://api.github.com/repos/mstan/SuperMarioWorldRecomp" }
+      ],
+      "evidence_note": "The README narrows the earlier broad playability wording to Worlds 1–2 verified, World 3 in progress, and Worlds 4–7/special content unchecked. It documents 65816-to-C recompilation and the remaining SNES hardware runtime. Repository API primary language is C."
+    },
+    {
+      "id": "zelda-alttp-snes-recomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Hand-verified from boot through the overworld and an early dungeon, including combat and audio. Later Hyrule Castle, Sanctuary, and Dark World content is not hand-verified; the project remains in active development.",
+        "summary": "The SNES 65816 code is statically translated to C. The runtime uses an embedded SNES9x core for the remaining console hardware; the README reports an early-dungeon compatibility boundary and audio tested through title and gameplay.",
+        "source_available": "Public source repository; user-supplied ROM required; no game ROM is included"
+      },
+      "sources": [
+        { "label": "Project README and current compatibility boundary", "url": "https://github.com/mstan/ZeldaAlttPSNESRecomp/blob/main/README.md" },
+        { "label": "GitHub repository metadata (primary language)", "url": "https://api.github.com/repos/mstan/ZeldaAlttPSNESRecomp" }
+      ],
+      "evidence_note": "The README reports boot, overworld traversal, an early dungeon, sword combat, and audio, while naming later areas that remain unverified. It also states that the remaining SNES hardware uses an embedded SNES9x core. Repository API primary language is C."
+    },
+    {
+      "id": "super-metroid-snes-recomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "The default LLE-first build boots, renders, plays audio, completes the attract demo, starts a new game, traverses doors, pauses, and saves at Samus's ship. It remains a work in progress without broad end-to-end testing.",
+        "summary": "An LLE-first SNES project with static native C code for selected game routines and an interpreter/scheduler path for the remaining CPU execution. The current README also describes a separate Windows frame-composition optimization; that host presentation path does not change the guest CPU method.",
+        "strategy": "LLE-first recompilation with static native routines and interpreter fallback"
+      },
+      "sources": [
+        { "label": "Project README and current runtime/status description", "url": "https://github.com/mstan/SuperMetroidRecomp/blob/main/README.md" },
+        { "label": "GitHub repository metadata (primary language)", "url": "https://api.github.com/repos/mstan/SuperMetroidRecomp" }
+      ],
+      "evidence_note": "The README reports the exact boot/attract/new-game/door/pause/save route and labels the build LLE-first. This refines the stored static-only strategy description. Repository API primary language is C."
+    },
+    {
+      "id": "mega-man-x2-snes-recomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "The USA build boots through its intro cutscenes; screenshots verify rendered layers, sprites, palettes, text, and scene transitions. Broad gameplay, audio, and widescreen coverage remain open.",
+        "summary": "Execution is LLE-first: the real 65816 RESET vector runs through an interpreter bridge, with configured ahead-of-time recompilation coverage layered on as an optimization. This is not a claim that the current build executes the whole game statically.",
+        "strategy": "LLE-first interpreter execution with static recompilation coverage",
+        "source_available": "Public source repository; user-supplied verified USA ROM required; no ROM-derived data is committed"
+      },
+      "sources": [
+        { "label": "Project README and ROM identity/status", "url": "https://github.com/mstan/MegaManX2Recomp/blob/master/README.md" },
+        { "label": "GitHub repository metadata (primary language)", "url": "https://api.github.com/repos/mstan/MegaManX2Recomp" }
+      ],
+      "evidence_note": "The README reports intro-scene rendering and explicitly says execution is LLE-first with an interpreter bridge and AOT coverage as an optimization. That evidence corrects the simpler static-recompilation label. Repository API primary language is Python."
+    },
+    {
+      "id": "simcity-snes-static-recomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Released v1.4.0 for Windows. The project translates both W65C816 game instructions and the SPC700 audio program ahead of time and documents no general CPU interpreter, JIT, runtime opcode decoder, or emulator fallback.",
+        "summary": "Fully static SNES recompilation: native C dispatches exact processor-state/program-counter contexts for the game CPU and SPC700 audio program; an authored DSP and host runtime supply the remaining system behavior. Users provide a ROM matching the project's requirements.",
+        "strategy": "Fully static W65C816 and SPC700 recompilation without interpreter/JIT fallback",
+        "source_available": "Public source repository and Windows release; user-supplied matching ROM required; no game ROM included"
+      },
+      "sources": [
+        { "label": "Project README and fully-static execution model", "url": "https://github.com/Junior-Jones/SimCity-SNES-Static-Recomp/blob/main/README.md" },
+        { "label": "Project release page", "url": "https://github.com/Junior-Jones/SimCity-SNES-Static-Recomp/releases" },
+        { "label": "GitHub repository metadata (primary language)", "url": "https://api.github.com/repos/Junior-Jones/SimCity-SNES-Static-Recomp" }
+      ],
+      "evidence_note": "The v1.4.0 README explicitly describes ahead-of-time game and SPC700 translation and rules out interpreter, JIT, decoder, and emulator fallbacks. Repository API primary language is C, matching the stored field."
+    },
+    {
+      "id": "god-of-war-ps2-recomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Experimental Windows x64 build reaches the menus, starts a new game, and runs the ship fight. The project reports native VU1 on that route; 60 fps, save/load, and movies with sound are still in progress, and a full playthrough is pending.",
+        "summary": "The NTSC-U PS2 EE executable is statically recompiled to C++ and VU1 microprograms are compiled ahead of time; a native host runtime replaces other PS2 services. The README documents a partial gameplay test, not full compatibility.",
+        "strategy": "Static EE/VU1 recompilation with a native PS2 host runtime",
+        "source_available": "Public source repository; user-supplied NTSC-U disc files required; game data is not included"
+      },
+      "sources": [
+        { "label": "Project README and milestone table", "url": "https://github.com/KIexster/god-of-war-recomp/blob/main/README.md" },
+        { "label": "GitHub repository metadata (primary language)", "url": "https://api.github.com/repos/KIexster/god-of-war-recomp" }
+      ],
+      "evidence_note": "The README identifies the NTSC-U executable, confirms boot/menu/ship-fight progress and native VU1, and marks full playthrough, stable 60 fps, and save/movie verification as pending or in progress. Repository API primary language is C++."
+    },
+    {
+      "id": "budokai-tenkaichi-3-ps2-recomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "platform": "PlayStation 2 (USA SLUS-21678) → Windows x64, Linux x86-64, macOS",
+        "status": "Playable through logos, title, menus, and rendered fights near the PS2's 30 fps cap. The README lists arena-rendering glitches, shadow/texture differences, and skipped FMVs; it does not claim a complete campaign.",
+        "summary": "The USA PS2 MIPS executable and gameplay overlay are statically recompiled to a native PC tree with an OpenGL or experimental Vulkan renderer. The repository documents native Windows, Linux, and macOS build paths and requires the user's own disc dump.",
+        "source_available": "Public source repository; user-supplied USA SLUS-21678 disc dump required; game files are not included"
+      },
+      "sources": [
+        { "label": "Project README, target revision, platforms, and known issues", "url": "https://github.com/z3xox/BT3-Recomp/blob/main/README.md" },
+        { "label": "GitHub repository metadata (primary language)", "url": "https://api.github.com/repos/z3xox/BT3-Recomp" }
+      ],
+      "evidence_note": "The README narrows playability to rendered fights and working menus, states that FMVs are skipped and rendering defects remain, and documents the supported USA executable and desktop build scripts. Repository API primary language is C++."
+    },
+    {
+      "id": "budokai-tenkaichi-2-ps2-recomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Early Windows x64 development. Boot, first frame, controller and memory-card checks, opening movies, title/menu navigation, demo fights, and a one-player-versus-computer battle are reported operational; these milestones do not establish full-game compatibility.",
+        "summary": "The North American PS2 executable is statically recompiled to C++ with PS2Recomp and runs on a native Windows layer. The README identifies serial SLUS-21441 and gives milestone-level verification rather than a campaign completion claim.",
+        "source_available": "Public source repository; user-supplied North American SLUS-21441 game files required; no game files are included"
+      },
+      "sources": [
+        { "label": "Project README and functional progress table", "url": "https://github.com/oric212/BT2-Recomp/blob/master/README.md" },
+        { "label": "GitHub repository metadata (primary language)", "url": "https://api.github.com/repos/oric212/BT2-Recomp" }
+      ],
+      "evidence_note": "The progress table verifies startup, title/menu paths, demo fights, and one versus battle while stating further game behavior remains unfinished. The README identifies the NTSC-U/SLUS-21441 target and C++20 Windows build. Repository API primary language is C++."
+    },
+    {
+      "id": "shadow-the-hedgehog-ps2-recomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Early Windows x64 development for PS2 serial SLUS-212.61. Static compile/link and a stable bootloader/RDRAM initialization are done; video bypass and controller input are in progress, while menus, 3D gameplay, and audio remain planned or blocked.",
+        "summary": "The PS2 release is statically recompiled into native x86-64 C++ and linked to ps2xRuntime's high-level PS2 hardware services. The README's milestone list places the build before a working game menu or playable 3D scene.",
+        "source_available": "Public source repository; user-supplied PS2 dump required; game assets are not included"
+      },
+      "sources": [
+        { "label": "Project README and milestone table", "url": "https://github.com/nicolasserpa/shadow-the-hedgehog-recomp/blob/main/README.md" },
+        { "label": "GitHub repository metadata (primary language)", "url": "https://api.github.com/repos/nicolasserpa/shadow-the-hedgehog-recomp" }
+      ],
+      "evidence_note": "The README identifies the PS2 serial and separates completed compile/bootloader work from in-progress video/input and planned menu/gameplay/audio milestones. Repository API primary language is CMake, matching the stored metadata field."
+    },
+    {
+      "id": "urban-reign-ps2-recomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Beta release v1.3.0 for Windows x64. The project advertises progressive-scan 60 fps and up to eight players; its README does not state a complete-playthrough test boundary.",
+        "summary": "Static recompilation translates the PS2 game code to C++ for a native Windows program, while graphics use PCSX2's renderer. The project requires the user's USA SLUS-21209 disc image and documents save states, memory cards, and optional texture packs.",
+        "source_available": "Public source repository and release; user-supplied USA SLUS-21209 disc image required; no game data included"
+      },
+      "sources": [
+        { "label": "Project README, release/version, and requirements", "url": "https://github.com/thiagordsfx/urban-reign-recomp/blob/main/README.md" },
+        { "label": "Latest project release", "url": "https://github.com/thiagordsfx/urban-reign-recomp/releases/latest" },
+        { "label": "GitHub repository metadata (primary language)", "url": "https://api.github.com/repos/thiagordsfx/urban-reign-recomp" }
+      ],
+      "evidence_note": "The README reports beta v1.3.0, Windows x64, static C++ translation, and the PCSX2 graphics renderer; it lists performance and player features without a full-campaign claim. Repository API primary language is C++."
+    },
+    {
+      "id": "road-trip-adventure-ps2-recomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Adventure mode (towns, fields, shops, and races) and Quick Race are reported playable on Windows, macOS, and Android. The README requires the USA SLUS-20398 disc and does not claim full-game completion.",
+        "summary": "The PS2 game program, VU1 microcode, and sound driver are statically recompiled to native code. A native host uses Vulkan on Windows/Android and Metal on macOS; users provide the disc and the app creates the recompiled build locally.",
+        "source_available": "Public source repository and platform apps; user-supplied USA SLUS-20398 disc required; no game code or data included"
+      },
+      "sources": [
+        { "label": "Project README, supported platforms, and playable modes", "url": "https://github.com/silentsudin/RoadTripAdventure-recomp/blob/main/README.md" },
+        { "label": "GitHub repository metadata (primary language)", "url": "https://api.github.com/repos/silentsudin/RoadTripAdventure-recomp" }
+      ],
+      "evidence_note": "The README expands the confirmed compatibility boundary to Adventure and Quick Race on all three documented hosts, specifies the USA serial, and identifies native recompilation of game code, VU1, and sound. Repository API primary language is C++."
+    },
+    {
+      "id": "hctp-ps2-recomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Work in progress for Windows; the README reports menus, entrances, exhibition and Season-mode scenes, ring matches, music/commentary, and movie playback working. Existing memory-card data is detected, but saving is not fully tested; match speed is below a steady 60 fps.",
+        "summary": "The NTSC-U PS2 MIPS game code is statically recompiled to C++ with PS2Recomp; the project compiles all 20 VU1 programs and uses the game's IOP modules for sound/disc behavior with paraLLEl-GS for graphics. The README still lists performance and compatibility issues.",
+        "source_available": "Public source repository; user-supplied NTSC-U SLUS-20787 game required; no game code or data is included"
+      },
+      "sources": [
+        { "label": "Project README and October 2026 status", "url": "https://github.com/BigDaddyJRich/hctp-recomp/blob/main/README.md" },
+        { "label": "GitHub repository metadata (primary language)", "url": "https://api.github.com/repos/BigDaddyJRich/hctp-recomp" }
+      ],
+      "evidence_note": "The README identifies NTSC-U SLUS-20787 and lists working modes/audio alongside known match-frame-rate and save limitations. It documents static MIPS recompilation, 20 compiled VU1 programs, the game's IRX modules, and paraLLEl-GS. Repository API primary language is C++."
+    },
+    {
+      "id": "ace-combat-5-ps2-recomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "The maintainer describes the Windows build as fully playable. It targets the US SLUS-20851 release; the README says other regions are unsupported and some menus/effects still use the emulated GS path.",
+        "summary": "The US PS2 main-CPU functions are translated ahead of time from MIPS to C; VU1 programs are native code and the 3D renderer draws native GPU meshes, with remaining menu/effect rendering through the GS path. The user supplies the disc or extracted files.",
+        "source_available": "Public source repository; user-supplied US SLUS-20851 game files required; no game code or assets included"
+      },
+      "sources": [
+        { "label": "Project README and supported revision/rendering notes", "url": "https://github.com/sal063/Ace-Combat-5-Static-recompilation/blob/main/README.md" },
+        { "label": "GitHub repository metadata (primary language)", "url": "https://api.github.com/repos/sal063/Ace-Combat-5-Static-recompilation" }
+      ],
+      "evidence_note": "The README states full playability, identifies the US serial and Windows/Vulkan requirements, and distinguishes the native 3D renderer from remaining GS-rendered menus/effects. Repository API primary language is C."
+    },
+    {
+      "id": "wild-9-ps1-recompiled",
+      "fields": {
+        "updated": "2026-10-15",
+        "platform": "PlayStation (NTSC-U SLUS-00425) → Windows, Linux, macOS",
+        "status": "The repository links public releases and identifies the supported NTSC-U executable. Its README documents a native PC port and features but does not state a full-game playthrough boundary.",
+        "summary": "The PS1 MIPS R3000A executable is statically translated into native C and linked to a PS1 hardware runtime. The project targets the original NTSC-U SLUS-00425 release; users supply their own disc data.",
+        "source_available": "Public source repository and releases; user-supplied NTSC-U SLUS-00425 disc required; game data is not included"
+      },
+      "sources": [
+        { "label": "Project README and target disc identity", "url": "https://github.com/plinkr/Wild9Recomp/blob/main/README.md" },
+        { "label": "Project releases", "url": "https://github.com/plinkr/Wild9Recomp/releases" },
+        { "label": "GitHub repository metadata (primary language)", "url": "https://api.github.com/repos/plinkr/Wild9Recomp" }
+      ],
+      "evidence_note": "The README specifies NTSC-U SLUS-00425 and describes static MIPS-to-C translation with a native runtime; the release link confirms public packages but does not quantify playthrough compatibility. Repository API primary language is Shell, matching the stored metadata."
+    },
+    {
+      "id": "disruptor-ps1-recomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Release candidate v1.0.0-rc.2 targets Windows 10/11. The project advertises 60 fps, true widescreen, and mouse/keyboard support; the README does not state a full-campaign playthrough boundary.",
+        "summary": "A game-specific PS1 recompilation presented as a native Windows game, with high-resolution rendering and modern input. The project page describes release-candidate features, while broad compatibility should not be inferred from those feature claims.",
+        "source_available": "Public source repository and release candidate; user-supplied PlayStation game data required; no game data included"
+      },
+      "sources": [
+        { "label": "Project README and release-candidate platform/features", "url": "https://github.com/Phroster/DisruptorRecomp/blob/main/README.md" },
+        { "label": "Latest release candidate", "url": "https://github.com/Phroster/DisruptorRecomp/releases/latest" },
+        { "label": "GitHub repository metadata (primary language)", "url": "https://api.github.com/repos/Phroster/DisruptorRecomp" }
+      ],
+      "evidence_note": "The README labels the current download a release candidate, names Windows 10/11, and advertises 60 fps/widescreen/input features without giving campaign coverage. Repository API primary language is Python, matching the stored metadata."
+    }
+  ]
+}

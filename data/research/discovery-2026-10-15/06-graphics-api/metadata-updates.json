@@ -1,0 +1,508 @@
+{
+  "updated": "2026-10-15",
+  "scope": "Source-backed updates to existing API Translation records; each field delta is supported by a maintainer, vendor, or standards-body source. Fields are named after the catalog projects table.",
+  "updates": [
+    {
+      "id": "angle",
+      "fields": {
+        "platform": "OpenGL ES 2.0–3.2 → Vulkan, desktop OpenGL, Direct3D 9/11, or Metal as supported by the selected backend; platform coverage varies by renderer."
+      },
+      "sources": [
+        {
+          "label": "ANGLE maintainer README and backend/platform support tables",
+          "url": "https://github.com/google/angle/blob/main/README.md"
+        }
+      ],
+      "evidence_note": "The upstream README identifies the supported OpenGL ES frontends and graphics backends; target OS/backend combinations differ, so the broad prior platform string should retain that caveat."
+    },
+    {
+      "id": "anyps5",
+      "fields": {
+        "subtype": "Offline PS5 executable relinker with system-library replacements and Vulkan shader/GPU compatibility; title-specific execution remains unverified until it runs."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README and build documentation",
+          "url": "https://github.com/boykopovar/AnyPS5"
+        },
+        {
+          "label": "Maintainer build documentation",
+          "url": "https://github.com/boykopovar/AnyPS5/blob/main/docs/dev/BUILD.md"
+        }
+      ],
+      "evidence_note": "The maintainer describes host ELF/PE conversion and replacement PRX libraries; conversion is not itself proof of working runtime compatibility, and the project is not a whole-console emulator."
+    },
+    {
+      "id": "asphalt-8-android-vita-port",
+      "fields": {
+        "status": "v0.3 (2026-09-11); maintainer reports menus, races, saves, physical/touch controls, and high-50s race performance for Android Asphalt 8 v2.0.0e on Vita; user-supplied APK/OBB required."
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository: exact source build and current feature claims",
+          "url": "https://gitlab.com/sexcurrybeats/asphalt8-vita"
+        },
+        {
+          "label": "Maintainer release history",
+          "url": "https://gitlab.com/sexcurrybeats/asphalt8-vita/-/releases"
+        }
+      ],
+      "evidence_note": "The release and README scope this compatibility layer to one Android game build; it is a game-specific port/compatibility project rather than a general Android graphics API translator."
+    },
+    {
+      "id": "bbhost",
+      "fields": {
+        "status": "Experimental; v0.2.18 was released 2026-10-10. The maintainer reports Bloodborne 1.09 playable through Windows/Linux world areas and bosses; the renderer remains hybrid with PM4/compute work and known GPU hangs/hitches."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README and compatibility caveats",
+          "url": "https://github.com/droogie/bbhost"
+        },
+        {
+          "label": "Maintainer v0.2.18 release (2026-10-10)",
+          "url": "https://github.com/droogie/bbhost/releases/tag/v0.2.18"
+        }
+      ],
+      "evidence_note": "The current release is a game-specific PS4-to-PC compatibility runtime with custom code and a hybrid Vulkan/PM4 graphics path, not a reusable console graphics API layer."
+    },
+    {
+      "id": "bbport",
+      "fields": {
+        "summary": "Game-specific experimental Bloodborne runtime for Linux that runs the PS4 x86-64 game code on the host, reimplements selected services, and currently renders through shadPS4-derived PM4 processing with Vulkan shader recompilation. Direct GNM-call-to-Vulkan translation is described as future work."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README and graphics roadmap",
+          "url": "https://github.com/Yharnam-Hunters/bbport"
+        },
+        {
+          "label": "Maintainer release history",
+          "url": "https://github.com/Yharnam-Hunters/bbport/releases"
+        }
+      ],
+      "evidence_note": "The maintainer distinguishes the current command-processor path from a planned direct GNM-to-Vulkan layer; the current project is a title-specific port/runtime rather than a general API translator."
+    },
+    {
+      "id": "crossover",
+      "fields": {
+        "strategy": "Commercial Wine-based Windows compatibility product; graphics backends are selectable components including WineD3D, DXVK, DXMT, and Apple D3DMetal. Native ARM64 Mac support is a Preview path using a custom FEX build for x86/x64 code."
+      },
+      "sources": [
+        {
+          "label": "CodeWeavers CrossOver Mac graphics backend documentation",
+          "url": "https://support.codeweavers.com/en_US/advanced-settings-in-crossover-mac-26"
+        },
+        {
+          "label": "CodeWeavers native ARM64 Mac Preview announcement",
+          "url": "https://www.codeweavers.com/blog/mjohnson/2026/7/31/crossover-preview-the-right-to-bear-arm64-on-mac"
+        }
+      ],
+      "evidence_note": "Separates CrossOver’s Windows API compatibility layer from the graphics translation components it can use; native ARM64 Mac support remains explicitly Preview."
+    },
+    {
+      "id": "d3d8to9",
+      "fields": {
+        "platform": "Direct3D 8 → Direct3D 9; Windows proxy DLL, with 32-bit and 64-bit builds. It can be chained with a separate D3D9 backend such as DXVK, but does not itself translate to Vulkan.",
+        "status": "Active source project; v1.16.0 was released 2026-09-23."
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository and README",
+          "url": "https://github.com/crosire/d3d8to9"
+        },
+        {
+          "label": "Maintainer v1.16.0 release (2026-09-23)",
+          "url": "https://github.com/crosire/d3d8to9/releases/tag/v1.16.0"
+        }
+      ],
+      "evidence_note": "The latest release documents a D3D8-to-D3D9 wrapper; the Vulkan leg in common Linux setups belongs to another layer, typically DXVK."
+    },
+    {
+      "id": "d3dmetal-game-porting-toolkit",
+      "fields": {
+        "platform": "Direct3D 11/12 → Apple Metal on macOS with Apple Silicon; supplied through Apple Game Porting Toolkit and integrated as an optional CrossOver/Wine graphics backend.",
+        "strategy": "Proprietary Direct3D 11/12-to-Metal graphics translation component; it is not by itself the Windows API compatibility layer."
+      },
+      "sources": [
+        {
+          "label": "Apple Game Porting Toolkit documentation",
+          "url": "https://developer.apple.com/games/game-porting-toolkit/"
+        },
+        {
+          "label": "CodeWeavers D3DMetal announcement and named game examples",
+          "url": "https://www.codeweavers.com/blog/mjohnson/2023/9/27/crossover-235-is-a-real-game-changer"
+        }
+      ],
+      "evidence_note": "The product is proprietary and integrated into a broader Windows compatibility environment; platform and graphics API roles should be separated in the record."
+    },
+    {
+      "id": "darling-macos-linux-compatibility",
+      "fields": {
+        "status": "Active; latest listed release v0.1.20260608 was published 2026-06-09. Maintainers report many CLI apps work while GUI support is still developing; the Metal backend is an initial implementation powered by Vulkan translation."
+      },
+      "sources": [
+        {
+          "label": "Darling maintainer README: system architecture and Metal backend maturity",
+          "url": "https://github.com/darlinghq/darling#readme"
+        },
+        {
+          "label": "Darling v0.1.20260608 release (2026-06-09)",
+          "url": "https://github.com/darlinghq/darling/releases/tag/v0.1.20260608"
+        }
+      ],
+      "evidence_note": "Darling primarily reconstructs macOS system APIs/frameworks on Linux; its experimental Metal backend is a component and should not be presented as the project’s main graphics API translation method."
+    },
+    {
+      "id": "dxmt",
+      "fields": {
+        "platform": "Direct3D 10/11 → Metal; macOS through Wine/CrossOver, with the project primarily documenting x86-64 Wine DLL builds.",
+        "status": "Active experimental graphics layer; latest release v0.80 was published 2026-04-23; game-specific fixes and compatibility issues remain documented."
+      },
+      "sources": [
+        {
+          "label": "DXMT maintainer repository and install guidance",
+          "url": "https://github.com/3Shain/dxmt"
+        },
+        {
+          "label": "DXMT v0.80 release (2026-04-23)",
+          "url": "https://github.com/3Shain/dxmt/releases/tag/v0.80"
+        }
+      ],
+      "evidence_note": "The release history supersedes the prior v0.70 status; supported usage is Wine/CrossOver on macOS and should not be broadened to native Windows applications."
+    },
+    {
+      "id": "dxvk",
+      "fields": {
+        "platform": "Direct3D 8/9/10/11 → Vulkan; primarily Linux through Wine/Proton, with 32-bit and 64-bit builds. Windows use is explicitly community-supported/unsupported by upstream. The same repository also provides a native library mode for porting without Wine.",
+        "status": "Active; DXVK 3.1.1 was released 2026-09-15. Current 3.x driver requirements and Wine winevulkan requirements are listed in the maintainer wiki."
+      },
+      "sources": [
+        {
+          "label": "DXVK upstream README and API coverage",
+          "url": "https://github.com/doitsujin/dxvk/blob/master/README.md"
+        },
+        {
+          "label": "DXVK 3.1.1 release (2026-09-15)",
+          "url": "https://github.com/doitsujin/dxvk/releases/tag/v3.1.1"
+        },
+        {
+          "label": "DXVK driver support requirements",
+          "url": "https://github.com/doitsujin/dxvk/wiki/Driver-support"
+        }
+      ],
+      "evidence_note": "The upstream README now lists D3D8 alongside D3D9–11 and describes DXVK Native; the native path is for application/game ports and does not use Wine."
+    },
+    {
+      "id": "dxvk-macos",
+      "fields": {
+        "status": "Experimental/stale Mac-specific build line; latest listed release v1.10.3-20230507-repack was published 2024-07-23. The project relies on Wine and MoltenVK for the D3D10/11→Vulkan→Metal path; current compatibility with modern Wine/MoltenVK is not established."
+      },
+      "sources": [
+        {
+          "label": "DXVK-macOS maintainer README",
+          "url": "https://github.com/Gcenx/DXVK-macOS"
+        },
+        {
+          "label": "DXVK-macOS latest listed release",
+          "url": "https://github.com/Gcenx/DXVK-macOS/releases/tag/v1.10.3-20230507-repack"
+        }
+      ],
+      "evidence_note": "The available release/build line is distinct from upstream DXVK and should not inherit upstream’s current support claims."
+    },
+    {
+      "id": "infamous-second-son-ps4-pc",
+      "fields": {
+        "summary": "A game-specific native PC port/compatibility runtime for inFAMOUS: Second Son. It runs the PS4 x86-64 game code on Windows/Linux hosts, replaces selected PS4 services, and translates GPU work to Vulkan; compatibility claims apply only to the documented game build and tested hardware."
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository: method and exact game build requirements",
+          "url": "https://github.com/HayatoG/iss_pc"
+        },
+        {
+          "label": "Maintainer releases",
+          "url": "https://github.com/HayatoG/iss_pc/releases"
+        }
+      ],
+      "evidence_note": "This is a title-specific port that includes graphics translation, not a general PS4 API layer; keep that distinction visible in its summary/subtype."
+    },
+    {
+      "id": "kytyps5",
+      "fields": {
+        "kind": "Emulator",
+        "status": "Experimental PlayStation 5 emulator; the latest listed release tag is KytyPS5-2026-10-16-83db2ef (published 2026-10-16 UTC). The project reports title-dependent boot/rendering results; its compatibility notes do not establish broad gameplay compatibility.",
+        "strategy": "Hybrid console emulation with an RDNA2 shader recompiler that translates guest GPU programs to SPIR-V/Vulkan; system and CPU execution are part of the emulator, not a standalone graphics API layer."
+      },
+      "sources": [
+        {
+          "label": "Maintainer project documentation and emulator description",
+          "url": "https://github.com/KytyPS5/KytyPS5"
+        },
+        {
+          "label": "Maintainer release build published 2026-10-15 (local date)",
+          "url": "https://github.com/KytyPS5/KytyPS5/releases/tag/KytyPS5-2026-10-16-83db2ef"
+        }
+      ],
+      "evidence_note": "The repository describes the product as an emulator and names its executable kyty_emulator; reclassifying it avoids treating the Vulkan shader recompiler as the whole project. The release page date is UTC and differs from the New York review date."
+    },
+    {
+      "id": "metal2vulkan",
+      "fields": {
+        "status": "Alpha; v0.1.0 was published 2026-07-22. The README describes Metal API and shader translation into Vulkan pipelines, with several newer render/compute stages still project scope rather than a general-purpose production compatibility claim.",
+        "programming_language": "Rust",
+        "source_available": "Public source repository (MIT license)"
+      },
+      "sources": [
+        {
+          "label": "Metal2Vulkan maintainer README and implementation scope",
+          "url": "https://github.com/steelbrain/metal2vulkan/blob/master/README.md"
+        },
+        {
+          "label": "Metal2Vulkan v0.1.0 release (2026-07-22)",
+          "url": "https://github.com/steelbrain/metal2vulkan/releases/tag/v0.1.0"
+        }
+      ],
+      "evidence_note": "The release page gives a stable version/date and the maintainer docs identify the language/license; keep alpha maturity explicit."
+    },
+    {
+      "id": "microsoft-d3d11on12",
+      "fields": {
+        "platform": "Direct3D 11 user-mode driver/DDI → Direct3D 12; Windows 10 OS component, selected by applications through D3D11On12CreateDevice and requiring a D3D12-capable driver/device.",
+        "summary": "Microsoft’s D3D11 user-mode driver mapping layer submits D3D11 work to D3D12 and supports interop with D3D12. It is an opt-in Windows component, not a drop-in d3d11.dll replacement; Microsoft says source builds are intended for local testing."
+      },
+      "sources": [
+        {
+          "label": "Microsoft D3D11On12 README: mapping model, device selection, and usage caveat",
+          "url": "https://github.com/microsoft/D3D11On12#readme"
+        }
+      ],
+      "evidence_note": "The maintainer documentation defines the exact DDI-level mapping and application opt-in, which is more precise than a generic D3D11-to-D3D12 DLL description."
+    },
+    {
+      "id": "microsoft-d3d12-translation-layer",
+      "fields": {
+        "summary": "A C++ helper library implementing D3D11-style graphics constructs on Direct3D 12. Microsoft documents it as the shared lower layer used by the Windows D3D11On12 and D3D9On12 components; it is developer integration infrastructure, not a standalone compatibility DLL.",
+        "status": "Active developer library; Microsoft repository received changes on 2026-10-12."
+      },
+      "sources": [
+        {
+          "label": "Microsoft D3D12 Translation Layer README and architecture",
+          "url": "https://github.com/microsoft/D3D12TranslationLayer#readme"
+        },
+        {
+          "label": "Microsoft source repository",
+          "url": "https://github.com/microsoft/D3D12TranslationLayer"
+        }
+      ],
+      "evidence_note": "Clarifies that the project is a library used by the two Windows mapping layers rather than another application-facing translation layer."
+    },
+    {
+      "id": "microsoft-d3d9on12",
+      "fields": {
+        "platform": "Direct3D 9 user-mode driver/DDI → Direct3D 12; Windows 10 OS component, selected through Direct3DCreate9On12 and requiring a D3D12-capable driver/device.",
+        "summary": "Microsoft’s Direct3D 9 driver mapping layer submits D3D9 commands to D3D12. Applications select the D3D9On12 device through the documented creation API; it is not a replacement d3d9.dll, and source builds are for local testing."
+      },
+      "sources": [
+        {
+          "label": "Microsoft D3D9On12 README: API selection and mapping caveat",
+          "url": "https://github.com/microsoft/D3D9On12#readme"
+        }
+      ],
+      "evidence_note": "The project README documents DDI mapping and device opt-in, distinguishing this OS component from third-party D3D9 wrapper DLLs."
+    },
+    {
+      "id": "moltenvk",
+      "fields": {
+        "platform": "Vulkan 1.4 subset → Apple Metal; macOS, iOS, tvOS, visionOS, Mac Catalyst, and supported Apple simulators/architectures.",
+        "status": "Active Khronos open-source layered implementation; latest listed release MoltenVK 1.4.2 was published 2026-07-24. It implements a Vulkan subset over Metal, with feature coverage defined by its current documentation."
+      },
+      "sources": [
+        {
+          "label": "Khronos MoltenVK README and supported platforms",
+          "url": "https://github.com/KhronosGroup/MoltenVK"
+        },
+        {
+          "label": "MoltenVK 1.4.2 release (2026-07-24)",
+          "url": "https://github.com/KhronosGroup/MoltenVK/releases/tag/v1.4.2"
+        }
+      ],
+      "evidence_note": "Adds a dated release and makes clear that MoltenVK is a layered Vulkan implementation over Metal, not an API for running Windows executables by itself."
+    },
+    {
+      "id": "portps5",
+      "fields": {
+        "status": "Pre-1.0 research build. The maintainer’s 2026-09-30 PRD says none of the five gate-title requirements had been demonstrated in a gate-title run; most titles are reported not to boot. Windows PC host and user-supplied decrypted PS5 files are required."
+      },
+      "sources": [
+        {
+          "label": "Maintainer PRD: dated compatibility gate status",
+          "url": "https://github.com/ymatrix1/PortPS5/blob/main/docs/PRD.md"
+        },
+        {
+          "label": "Maintainer user guide: requirements and limitations",
+          "url": "https://github.com/ymatrix1/PortPS5/blob/main/docs/USER_GUIDE.md"
+        }
+      ],
+      "evidence_note": "The project translates/rel links PS5 binaries and APIs toward Windows/Vulkan, but status should remain pre-release and explicitly experimental; a conversion success is not gameplay compatibility."
+    },
+    {
+      "id": "prosper",
+      "fields": {
+        "status": "Experimental; latest listed release v0.2.4 was published 2026-10-10. The compatibility tracker counts boot/menu/gameplay milestones separately and explicitly does not claim full-game playability from those stages."
+      },
+      "sources": [
+        {
+          "label": "Prosper maintainer compatibility tracker",
+          "url": "https://github.com/mattias800/prosper/blob/main/COMPATIBILITY.md"
+        },
+        {
+          "label": "Prosper v0.2.4 release (2026-10-10)",
+          "url": "https://github.com/mattias800/prosper/releases/tag/v0.2.4"
+        }
+      ],
+      "evidence_note": "The release status is current, while the compatibility tracker supplies the important limitation that milestones do not establish complete playability."
+    },
+    {
+      "id": "proton",
+      "fields": {
+        "status": "Active; latest listed stable branch release Proton 11.0-2e was published 2026-10-09, alongside the Experimental channel. WineD3D can be selected as an OpenGL backend in place of Vulkan-based DXVK for supported Direct3D versions."
+      },
+      "sources": [
+        {
+          "label": "Valve Proton 11.0-2e release",
+          "url": "https://github.com/ValveSoftware/Proton/releases/tag/proton-11.0-2e"
+        },
+        {
+          "label": "Valve Proton README: selectable graphics path",
+          "url": "https://github.com/ValveSoftware/Proton"
+        }
+      ],
+      "evidence_note": "Proton is the full Wine-based Windows compatibility stack; DXVK and WineD3D are graphics components within it, not synonyms for Proton."
+    },
+    {
+      "id": "the-last-guardian-ps4-pc",
+      "fields": {
+        "summary": "A title-specific native PC port/compatibility runtime for The Last Guardian. It runs PS4 x86-64 game code on host Windows/Linux, reimplements selected PS4 services, and translates GPU work to Vulkan; the supported input is the user’s dump of CUSA03627 update 01.03."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: exact PS4 dump and method",
+          "url": "https://github.com/HayatoG/tlg_pc"
+        },
+        {
+          "label": "Maintainer release history",
+          "url": "https://github.com/HayatoG/tlg_pc/releases"
+        }
+      ],
+      "evidence_note": "This entry is a game-specific native port that contains graphics/API translation, rather than a reusable PS4 API layer."
+    },
+    {
+      "id": "vkd3d-proton",
+      "fields": {
+        "platform": "Direct3D 12 → Vulkan; primarily Linux through Wine/Proton, with Windows builds mainly intended for development/testing. Project docs cover x86 32/64-bit and aarch64 cross-builds; usable feature set depends on the Vulkan driver.",
+        "status": "Active Proton graphics component; latest listed release v3.0.1 was published 2026-05-06."
+      },
+      "sources": [
+        {
+          "label": "vkd3d-proton maintainer README and requirements",
+          "url": "https://github.com/HansKristian-Work/vkd3d-proton"
+        },
+        {
+          "label": "vkd3d-proton v3.0.1 release (2026-05-06)",
+          "url": "https://github.com/HansKristian-Work/vkd3d-proton/releases/tag/v3.0.1"
+        }
+      ],
+      "evidence_note": "The release and README clarify the Linux/Wine primary target, Windows development-build caveat, and driver requirements; this is the gaming-focused fork, separate from Wine upstream vkd3d."
+    },
+    {
+      "id": "vkd3d-upstream",
+      "fields": {
+        "platform": "Direct3D 12 → Vulkan for Windows applications running through Wine on Unix-like hosts; upstream Wine library, distinct from vkd3d-proton.",
+        "status": "Active Wine upstream project; WineHQ announced vkd3d 2.1 on 2026-08-24. Release notes define feature coverage; the API is not presented as fully conformant D3D12."
+      },
+      "sources": [
+        {
+          "label": "WineHQ vkd3d 2.1 release announcement (2026-08-24)",
+          "url": "https://www.winehq.org/news/3"
+        },
+        {
+          "label": "Wine upstream vkd3d repository",
+          "url": "https://gitlab.winehq.org/wine/vkd3d"
+        }
+      ],
+      "evidence_note": "Separates Wine upstream from the Proton-oriented fork and retains feature-level caveats instead of implying complete D3D12 parity."
+    },
+    {
+      "id": "windurango",
+      "fields": {
+        "summary": "An Xbox One ERA compatibility layer for Windows UWP that implements selected Xbox system interfaces, including KernelX and D3D11.X, and runs supported title binaries through Windows services. It is a partial API/system compatibility project, not a full Xbox hardware emulator."
+      },
+      "sources": [
+        {
+          "label": "WinDurango maintainer README: architecture, Windows host requirements, and title status",
+          "url": "https://github.com/WinDurango/WinDurango"
+        }
+      ],
+      "evidence_note": "The README describes API/system-library coverage and title-specific compatibility, so records should not imply general Xbox One emulation or complete title support."
+    },
+    {
+      "id": "wine",
+      "fields": {
+        "platform": "Windows user-mode APIs → POSIX host APIs on Linux, macOS, BSD, and other documented Unix-like systems; graphics translation is supplied by components such as WineD3D, DXVK, and vkd3d rather than Wine’s overall API layer alone.",
+        "status": "Active; Wine 11.0 is the stable release and Wine 11.17 is the latest development release listed on 2026-10-15."
+      },
+      "sources": [
+        {
+          "label": "WineHQ project description and platform scope",
+          "url": "https://www.winehq.org/about"
+        },
+        {
+          "label": "WineHQ current stable/development release listing",
+          "url": "https://www.winehq.org/?page=about"
+        }
+      ],
+      "evidence_note": "Keeps the operating-system API compatibility layer distinct from the graphics backends it can host; release versions are checked against WineHQ’s own listing."
+    },
+    {
+      "id": "wined3d",
+      "fields": {
+        "platform": "DirectDraw and Direct3D 1–11 → OpenGL through Wine’s graphics implementation on POSIX hosts; actual feature support depends on the Wine version and host OpenGL driver.",
+        "strategy": "Wine’s built-in Direct3D/DirectDraw graphics implementation maps rendering calls to host OpenGL; it is one graphics component in Wine, separate from DXVK and vkd3d."
+      },
+      "sources": [
+        {
+          "label": "WineHQ project information",
+          "url": "https://www.winehq.org/about"
+        },
+        {
+          "label": "Wine developer archive: WineD3D/OpenGL implementation context",
+          "url": "https://www.winehq.org/pipermail/wine-devel/2006-June/048964.html"
+        },
+        {
+          "label": "Valve Proton README: WineD3D selectable backend",
+          "url": "https://github.com/ValveSoftware/Proton"
+        }
+      ],
+      "evidence_note": "The record should identify OpenGL as WineD3D’s graphics backend and avoid implying that the WineD3D component covers Wine’s entire Windows API surface."
+    },
+    {
+      "id": "zink",
+      "fields": {
+        "platform": "Desktop OpenGL → Vulkan through Mesa Gallium; requires a usable Vulkan driver, and the exposed OpenGL version/features depend on Mesa and the underlying Vulkan device/driver.",
+        "strategy": "Mesa Gallium OpenGL frontend implemented by emitting Vulkan calls; driver, not an emulator or operating-system compatibility layer."
+      },
+      "sources": [
+        {
+          "label": "Mesa Zink driver documentation: implementation and requirements",
+          "url": "https://docs.mesa3d.org/drivers/zink.html"
+        },
+        {
+          "label": "Mesa Zink source documentation",
+          "url": "https://gitlab.freedesktop.org/mesa/mesa/-/blob/main/docs/drivers/zink.rst"
+        }
+      ],
+      "evidence_note": "Makes the API direction explicit and records that Zink depends on a Vulkan-capable host driver, with feature ceilings determined by the underlying device."
+    }
+  ]
+}

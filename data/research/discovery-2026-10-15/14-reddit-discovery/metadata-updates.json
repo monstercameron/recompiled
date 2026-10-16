@@ -1,0 +1,74 @@
+{
+  "updated": "2026-10-15",
+  "updates": [
+    {
+      "id": "snowboard-kids-2-decomp",
+      "fields": {
+        "status": "The maintainer reports that all game functions are implemented in C and compile to matching assembly. The project remains in progress while generated names, documentation, structures, and binary graphics/audio data need cleanup.",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {"label": "Maintainer progress report", "url": "https://blog.chrislewis.au/snowboard-kids-2-is-100-decompiled/"},
+        {"label": "Maintainer repository", "url": "https://github.com/cdlewis/snowboardkids2-decomp"},
+        {"label": "Reddit discovery thread on the related Snowboard Kids decompilation", "url": "https://www.reddit.com/r/decomps/comments/1vzwmni/decompiling_a_nintendo_64_game_in_84_days/"}
+      ],
+      "evidence_note": "The May 17 maintainer report distinguishes function coverage/matching from project completion: naming, documentation, structures, and binary graphics/audio cleanup remain. The Reddit post helped locate the maintainer's linked N64 work, but the status wording is grounded in the project-owned blog and repository."
+    },
+    {
+      "id": "suyu",
+      "fields": {
+        "status": "Release v14.1.0 was published on 2026-10-12. The project provides builds for Windows x86-64, Linux x86-64, macOS arm64, and Android arm64. Its optional recompilation mode has been demonstrated with opening-scene checks for several Switch games; broad full-game compatibility is not established by those tests.",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {"label": "Current maintainer repository", "url": "https://github.com/suyu-emu/suyu-main"},
+        {"label": "Current releases", "url": "https://github.com/suyu-emu/suyu-main/releases"},
+        {"label": "Community discussion of Suyu recompilation", "url": "https://www.reddit.com/r/pcgaming/comments/1wgmcaq/nintendo_switch_emulation_takes_a_leap_forward_as/"}
+      ],
+      "evidence_note": "The release page establishes v14.1.0 and package targets. The repository README describes normal emulator mode separately from optional static/hybrid recompilation; the small set of opening-scene checks should not be read as a general game compatibility guarantee."
+    },
+    {
+      "id": "viva-pinata-trouble-in-paradise-recomp",
+      "fields": {
+        "status": "The current README documents a native renderer alongside the standard ReXGlue/Xenia-renderer development path. Windows and Linux are described; macOS is planned. The native renderer/backend source is not public, and the project does not document full-campaign completion.",
+        "summary": "Xbox 360 static recompilation project for Viva Piñata: Trouble in Paradise. The README documents Windows and Linux builds and a native renderer path, while noting that its renderer/backend source is withheld; macOS is planned.",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {"label": "Maintainer repository and current README", "url": "https://github.com/SolarCookies/TiP-Recomp"},
+        {"label": "Latest release v1.13.0", "url": "https://github.com/SolarCookies/TiP-Recomp/releases"},
+        {"label": "Community update in r/VivaPinata", "url": "https://www.reddit.com/r/VivaPinata/comments/1s6zwry/viva_pinata_trouble_in_paradise_recompiled/"}
+      ],
+      "evidence_note": "The current primary README and release page supersede the catalog's older status, which implied that no native-renderer path existed. Keep the withheld-source caveat and avoid inferring a full-game playthrough from the Reddit announcement."
+    },
+    {
+      "id": "goldeneye-decomp",
+      "fields": {
+        "project_url": "https://gitlab.com/kholdfuzion/goldeneye_src",
+        "status": "The maintainer announced that all files had been decompiled and said the progress tracker was not updating. The primary GitLab README and GitHub mirror still label the project a work in progress, so completion applies only to the maintainer-reported decompilation coverage; matching/build status remains unclear and no native PC port is implied.",
+        "summary": "Nintendo 64 matching decompilation project. In 2026 the maintainer reported that all files were decompiled, while the primary repository and GitHub mirror still label the project WIP; the tracker was said to be out of date.",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {"label": "Primary maintainer repository", "url": "https://gitlab.com/kholdfuzion/goldeneye_src"},
+        {"label": "GitHub project mirror", "url": "https://github.com/n64decomp/007"},
+        {"label": "Maintainer status comment in r/GoldenEye", "url": "https://www.reddit.com/r/GoldenEye/comments/1vqoegq/no_for_me/"}
+      ],
+      "evidence_note": "The Reddit post is the source of the all-files-decompiled claim; the primary README and mirror remain WIP. Retain both sides of this source disagreement and update the broken organization-level project_url to the direct primary repository. Do not describe a finished native port."
+    },
+    {
+      "id": "black-xbox-recomp",
+      "fields": {
+        "status": "Release v0.1.0-alpha.2 was published on 2026-10-14. The repository README documents the first mission and selected scenes as tested, so the full-playthrough claim in the Reddit announcement remains maintainer-reported and not independently established by the primary project documentation. The game is a Windows x64 build; Linux compilation and Wine/Proton execution are also documented.",
+        "summary": "Static recompilation of the original Xbox version of BLACK for a native Windows x64 build. The project remains alpha, requires user-supplied game data, and the README's documented testing is more limited than the maintainer's Reddit claim of end-to-end playability.",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {"label": "Maintainer repository and README", "url": "https://github.com/portingpete/Black-2006-Recomp"},
+        {"label": "Latest alpha release", "url": "https://github.com/portingpete/Black-2006-Recomp/releases"},
+        {"label": "Maintainer announcement in r/decomps", "url": "https://www.reddit.com/r/decomps/comments/1x3p1tn/recomp_black_xbox_classico/"}
+      ],
+      "evidence_note": "The Reddit announcement claims the game may be playable from beginning to end, but the repository README remains narrower, documenting the first mission and selected scenes. This patch reports the release and platform facts while clearly separating the unverified playthrough claim from primary-source test coverage."
+    }
+  ]
+}

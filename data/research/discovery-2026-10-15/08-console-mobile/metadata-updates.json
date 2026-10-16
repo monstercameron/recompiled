@@ -1,0 +1,581 @@
+{
+  "updated": "2026-10-15",
+  "scope": "Source-backed updates to existing console-to-mobile project records. Fields use names from the projects table; unknown mobile compatibility and hardware details are retained as unknown.",
+  "updates": [
+    {
+      "id": "final-fantasy-tactics-advance-recomp",
+      "fields": {
+        "status": "Android status dated 2026-10-09 says playable on device; boot, input and 15/15 lifecycle gates passed on a Poco X3 Pro (Android 14/API 34). The README also records a Xiaomi Mi 11 Android 14/API 34 check. Android is built locally from source; a public distributable APK path is documented, but the app build is debug-signed.",
+        "summary": "Static GBA recompilation with an Android ARM64 build, touch pad, save support and on-device acceptance tests. Requires the supported USA ROM; the launch BIOS is a bundled clean-room emibios, not a retail BIOS. Physical test gates cover boot, input and lifecycle rather than a full-campaign completion claim."
+      },
+      "sources": [
+        {
+          "label": "Maintainer Android README and dated device acceptance log",
+          "url": "https://github.com/james2doyle/ffta-recomp/blob/main/android/README.md"
+        },
+        {
+          "label": "Maintainer source repository",
+          "url": "https://github.com/james2doyle/ffta-recomp"
+        }
+      ],
+      "evidence_note": "The Android README records Android 14/API 34 devices, touch/input tests and a 15-assertion lifecycle gate; it also documents source APK generation and distinguishes private ROM-embedded tests from public ROM-import builds."
+    },
+    {
+      "id": "hybrid-heaven-recomp",
+      "fields": {
+        "platform": "Nintendo 64 → Windows, Linux, macOS, Android (arm64-v8a, Android 9+, Vulkan)",
+        "status": "Android APK releases are available; the README reports testing on a Retroid Pocket 5 (Android 13, Snapdragon 865). The game requires the user's USA ROM; the README does not claim full-game completion.",
+        "summary": "N64 static recompilation with an Android ARM64/Vulkan build, touch overlay and physical/Bluetooth gamepad support. On first launch the app verifies and imports the user's USA ROM; no game data is bundled."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: Android requirements, controls, test device and ROM setup",
+          "url": "https://github.com/ogdanimal/HybridHeaven-Recomp"
+        },
+        {
+          "label": "Maintainer releases",
+          "url": "https://github.com/ogdanimal/HybridHeaven-Recomp/releases"
+        }
+      ],
+      "evidence_note": "The project lists Android 9+, arm64-v8a and Vulkan requirements, identifies the Retroid Pocket 5 test, and documents its APK release naming and USA ROM hash."
+    },
+    {
+      "id": "kartpad-mario-kart-wii",
+      "fields": {
+        "status": "Latest release v0.8.1 (2026-10-13) publishes an Android APK; Android requires ARM64, Vulkan and Android 9+. iPhone/iPad builds are now produced locally through PadMint from the user's disc, with iOS/iPadOS 16+ required. Android Original gameplay with a Razer Kishi was accepted on Pixel 9 Pro XL; the current iPad release candidate has accepted controller/menu checks, not broad device coverage.",
+        "summary": "Mario Kart Wii static recompilation with Android and Apple-mobile integration. Touch, motion steering and controllers are supported; Android ships a ready-to-install APK, while current iPhone/iPad builds use PadMint. Users provide their own game data; a raw ISO/WBFS import needs a Wii common key, while an extracted game-data folder does not."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: current release, platform requirements and setup",
+          "url": "https://github.com/chrissotraidis/kartpad"
+        },
+        {
+          "label": "Maintainer status: current device acceptance and open checks",
+          "url": "https://github.com/chrissotraidis/kartpad/blob/main/docs/STATUS.md"
+        },
+        {
+          "label": "Maintainer v0.8.1 release",
+          "url": "https://github.com/chrissotraidis/kartpad/releases/tag/v0.8.1"
+        }
+      ],
+      "evidence_note": "The current README distinguishes a public Android APK from Apple builds generated with PadMint; the status ledger names the Pixel 9 Pro XL Android acceptance and separate iPad release-candidate checks."
+    },
+    {
+      "id": "road-trip-adventure-ps2-recomp",
+      "fields": {
+        "status": "Adventure mode and Quick Race are reported playable on Windows, macOS and Android. Android has a release APK and requires Android 12+, 64-bit ARM and Vulkan; the project was developed on an AYN Thor. Users supply a USA SLUS-20398 disc image.",
+        "summary": "PS2 code is recompiled to native code on first launch from the user's disc; the Android build uses Vulkan and the Mac build uses Metal. The app imports the USA Road Trip Adventure image, builds game code for the device and supports touch/physical controller play; a specific physical-device acceptance result is not published."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: Android requirements, input, disc and status",
+          "url": "https://github.com/silentsudin/RoadTripAdventure-recomp"
+        },
+        {
+          "label": "Maintainer Android and macOS releases",
+          "url": "https://github.com/silentsudin/RoadTripAdventure-recomp/releases"
+        }
+      ],
+      "evidence_note": "The README specifies Android 12+, ARM64/Vulkan, an APK release and USA SLUS-20398 data; it says Adventure and Quick Race are playable on all listed platforms and describes AYN Thor as the development device."
+    },
+    {
+      "id": "warioware-twisted-recomp",
+      "fields": {
+        "status": "Experimental v0.0.1 Android APK release. The maintainer reports menus, microgames, cartridge saves and gyro stages running on a Galaxy S22 Ultra; broader completion is not claimed.",
+        "summary": "Static GBA recompilation with Android ARM64 and touchscreen controls plus native phone-gyro input. Installation requires the supported USA WarioWare: Twisted! ROM and a retail GBA BIOS; neither is included."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: status, device test and ROM/BIOS requirements",
+          "url": "https://github.com/mstan/WarioWareTwistedRecomp"
+        },
+        {
+          "label": "Maintainer Android v0.0.1 release",
+          "url": "https://github.com/mstan/WarioWareTwistedRecomp/releases/tag/android-v0.0.1"
+        }
+      ],
+      "evidence_note": "The README labels the build experimental, identifies the Galaxy S22 Ultra test and Android arm64 APK, and requires both the matching ROM and retail GBA BIOS."
+    },
+    {
+      "id": "yakumo-mhp3rd-hd-recomp",
+      "fields": {
+        "platform": "PlayStation 3 (PSP HD release) → Windows/Linux/macOS/Android (arm64, Android 10+, Vulkan 1.1)",
+        "status": "The game is marked playable and stable releases include an Android APK. Android requires arm64, Android 10+ and Vulkan 1.1, with touchscreen and gamepad input. The README's tested-platform list covers macOS, Steam Deck and Windows; real-phone Android testing, graphics drivers and performance are explicitly open.",
+        "summary": "Static recompilation of the PSP code in Monster Hunter Portable 3rd HD Ver., with a reimplemented PSP system/runtime and Android Vulkan target. Users provide their own legally obtained NPJB-40001 game data; Android first-run setup imports the large ISO into app storage."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: Android requirements, APK and unresolved device coverage",
+          "url": "https://github.com/TeamGDB/Yakumo"
+        },
+        {
+          "label": "Maintainer compatibility status",
+          "url": "https://github.com/TeamGDB/Yakumo/blob/main/docs/COMPATIBILITY.md"
+        },
+        {
+          "label": "Maintainer stable releases",
+          "url": "https://github.com/TeamGDB/Yakumo/releases"
+        }
+      ],
+      "evidence_note": "The README marks the title playable, specifies Android arm64/Android 10+/Vulkan 1.1 and touch controls, but explicitly lists real Android phone testing and performance as remaining work."
+    },
+    {
+      "id": "pokemon-emerald-voxel-android",
+      "fields": {
+        "platform": "Game Boy Advance → Android (armeabi-v7a, API 36), Windows, Linux",
+        "status": "Experimental Android SDL2 build is marked working; the README provides a debug-APK build/install path and requires Android API 36 with armeabi-v7a. No named physical-device test or public release APK is documented.",
+        "summary": "Native port that runs the decompiled Pokémon Emerald C code directly through SDL2, not a GBA emulator. Android includes a labeled multitouch overlay and SDL gamepad input; a compatible Emerald ROM is required for code generation and is not included."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: platform status, Android ABI/build and controls",
+          "url": "https://github.com/ZallaxDev/pokeemerald-voxel-project"
+        }
+      ],
+      "evidence_note": "The README calls the Android build experimental and working, specifies API 36 and armeabi-v7a as required by the game's pointer layout, and documents only a debug APK build path."
+    },
+    {
+      "id": "mario-party-6-native-android",
+      "fields": {
+        "status": "The current README reports menus, audio, memory-card saves and Towering Treetop board play; minigames are unavailable and transitions skip to the next turn. Android packaging and on-device disc import are documented, but no minimum Android version, ABI or named device test is given.",
+        "summary": "Native port consuming the byte-accurate GameCube decompilation. Android adds a movable/resizable/fadeable GameCube touch controller and on-device import from a user-supplied USA disc or extracted folder. The README does not establish a ready-made public APK release."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: current feature status, Android input and own-disc flow",
+          "url": "https://github.com/iirg4x/mp6-native-port"
+        },
+        {
+          "label": "Maintainer Android touch-controller settings",
+          "url": "https://github.com/iirg4x/mp6-native-port/blob/master/docs/SETTINGS.md"
+        }
+      ],
+      "evidence_note": "The README distinguishes playable board features from unavailable minigames and documents Android packaging and touch controls, but does not state an Android API floor, ABI, public APK release or physical-device test."
+    },
+    {
+      "id": "starcraft64-recomp-android",
+      "fields": {
+        "platform": "Nintendo 64 → Android (arm64-v8a, Android 9/API 28+)",
+        "status": "Android is accepted on one physical phone and on emulators; wider device/performance tests are explicitly outstanding. There are no prebuilt binaries, but the repository documents a local APK build. Only the USA ROM is supported; two-player mode is not.",
+        "summary": "N64 static recompilation with an Android launcher/APK built locally from the user's USA ROM. Android provides touch and gamepad input; ROMs are hash-checked and kept in app-private storage. Vulkan is the default, while the project recommends an OpenGL ES build for Android emulators."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: Android acceptance, ABI/API and build/data requirements",
+          "url": "https://github.com/n0madic/StarCraft64-recomp"
+        },
+        {
+          "label": "Maintainer Android setup guide",
+          "url": "https://github.com/n0madic/StarCraft64-recomp/blob/master/docs/android.md"
+        },
+        {
+          "label": "Maintainer project status and supported modes",
+          "url": "https://github.com/n0madic/StarCraft64-recomp/blob/master/docs/project-status.md"
+        }
+      ],
+      "evidence_note": "The README says Android 9/API 28+ arm64-v8a is accepted on one physical phone and emulators, explicitly says there are no prebuilt binaries, and documents a local APK build and USA-only ROM."
+    },
+    {
+      "id": "nsmb-wii-multiplayer-recomp-android",
+      "fields": {
+        "status": "v0.1.1 Android APK preview for ARM64, Android 11+ and Vulkan. The project reports 60 fps and LAN play on a Galaxy S26 Ultra (Android 16, Snapdragon 8 Elite Gen 5) and T-Mobile REVVL 7 (Android 14, Snapdragon 6 Gen 1). The README says not every level has been checked and Mali GPUs are untested.",
+        "summary": "Wii PowerPC code is statically recompiled to native ARM64 for Android, with a native Wii compatibility layer, on-screen sideways Wii Remote, tilt and shake input. Requires the user's USA disc revision 1; the app accepts extracted game data and does not ship game files."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: Android builds, physical-device matrix, controls and supported disc",
+          "url": "https://github.com/WitherBlitz/NSMB-Wii-Multiplayer-Recompilation"
+        },
+        {
+          "label": "Maintainer v0.1.1 releases",
+          "url": "https://github.com/WitherBlitz/NSMB-Wii-Multiplayer-Recompilation/releases"
+        }
+      ],
+      "evidence_note": "The README names two tested Android phones and reports 60 fps/LAN, while preserving the v0.1.1 preview caveat, per-level coverage gap and Mali-device exclusion."
+    },
+    {
+      "id": "mario-kart-wii-driftdroid",
+      "fields": {
+        "platform": "Nintendo Wii → Android (arm64-v8a, Android 10/API 29+)",
+        "status": "The maintainer calls the app playable end-to-end, with races, menus, audio, saves and online play working; it remains an active work-in-progress and device compatibility/performance vary. Android APK releases are available, but the README does not identify specific tested phone models.",
+        "summary": "Native Android layer over WiiCompiled's Wii static recompilation. Supports original Mario Kart Wii and Retro Rewind, with touch/motion steering, gamepads and in-app disc setup. It requires a clean user-owned PAL RMCP01 disc; Vulkan is preferred, with an OpenGL ES fallback."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: Android requirements, controls, game-data setup and status",
+          "url": "https://github.com/dorPXP/driftdroid"
+        },
+        {
+          "label": "Maintainer Android performance and measurement notes",
+          "url": "https://github.com/dorPXP/driftdroid/blob/android-port/docs/android-performance.md"
+        },
+        {
+          "label": "Maintainer Android releases",
+          "url": "https://github.com/dorPXP/driftdroid/releases"
+        }
+      ],
+      "evidence_note": "The README gives Android 10/API 29+, arm64-v8a, release APK, Vulkan/OpenGL ES options and PAL RMCP01 requirements; it also warns that mobile performance and device compatibility remain works in progress."
+    },
+    {
+      "id": "budokai-tenkaichi-3-android-decomp",
+      "fields": {
+        "platform": "PlayStation 2 → Android (arm64, Android 10+)",
+        "status": "The project reports menus and full battles running on an AYN Odin 3 with Snapdragon 8 Elite/Android 15. APK releases and nightly builds are available; the README still lists other GPUs and wider device testing as unfinished.",
+        "summary": "Android port of the Dragon Ball Z: Budokai Tenkaichi 3 decompilation with an arm64 native engine, ISO installer, editable on-screen controls and resolution/effects settings. Requires the user's USA SLUS-21678 disc image; the app includes no game data."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: Android status, Odin 3 test, APK and ISO setup",
+          "url": "https://github.com/BBlueSkyy/Tenkaichi3DecompAndroid"
+        },
+        {
+          "label": "Maintainer Android releases",
+          "url": "https://github.com/BBlueSkyy/Tenkaichi3DecompAndroid/releases"
+        }
+      ],
+      "evidence_note": "The current README names the AYN Odin 3 and Android 15 test, lists the USA SLUS-21678 ISO, arm64 engine and release/nightly APKs, and says broader GPU testing is still in progress."
+    },
+    {
+      "id": "rogue-squadron-64-recomp-android",
+      "fields": {
+        "platform": "Nintendo 64 → Android (arm64, Vulkan 1.1), Windows, Linux",
+        "status": "The Android release APK was tested on a Snapdragon 8 Gen 3/Adreno 750 device with Android 16. The README calls the game playable and reports Windows playthrough to credits, but does not claim Android campaign completion; the debug APK is markedly slower than the release build.",
+        "summary": "N64 static recompilation with an Android ARM64/Vulkan app, touch layout editor and optional gyro steering. Requires the user's USA v1.0 ROM (`rogue_squadron.z64`); the launcher checks and imports it on first start."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: Android device, release APK and ROM/input details",
+          "url": "https://github.com/MikeSemicolonD/RogueSquadron64Recomp"
+        },
+        {
+          "label": "Maintainer Android release/build instructions",
+          "url": "https://github.com/MikeSemicolonD/RogueSquadron64Recomp#android"
+        }
+      ],
+      "evidence_note": "The Android section identifies the Snapdragon 8 Gen 3/Adreno 750 Android 16 test, an arm64 release APK, touch/gyro input and the USA v1.0 ROM; the full credits playthrough is explicitly described for Windows."
+    },
+    {
+      "id": "ctr-native-android",
+      "fields": {
+        "status": "Android builds currently target 32-bit armeabi-v7a and x86 and require OpenGL ES 3. The README provides a debug APK output path, not a documented public release or physical-device gameplay test.",
+        "summary": "Native Crash Team Racing port from the CTR-ModSDK decompilation using an Android Gradle/SDL3 app. Android users select their own raw NTSC-U single-track BIN in the launcher; a cooked ISO is not suitable because the game uses XA/STR sector data."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: Android ABI, graphics and build output",
+          "url": "https://github.com/Simon358/ctr-native-android"
+        },
+        {
+          "label": "Maintainer Android setup guide and raw-BIN requirements",
+          "url": "https://github.com/Simon358/ctr-native-android/blob/master/README_ANDROID.md"
+        }
+      ],
+      "evidence_note": "The README identifies the 32-bit Android ABIs and GLES3 requirement, points to a debug APK build output and requires the user's NTSC-U raw BIN; no physical-device test is recorded there."
+    },
+    {
+      "id": "harvest-moon-64-android-recomp",
+      "fields": {
+        "platform": "Nintendo 64 → Android (arm64-v8a, Android 9/API 28+, Vulkan 1.1)",
+        "status": "APK releases are available; the README specifies Android 9/API 28+, arm64-v8a and Vulkan 1.1. It documents touch controls and dual-screen companion UI, but does not name a physical test device.",
+        "summary": "Android build of the Harvest Moon 64 static recompilation with an N64 touch overlay and optional second-screen dashboard for dual-display handhelds. It requires the user's NTSC-U ROM; game assets are not distributed."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: Android requirements, ROM import and touch/dual-screen UI",
+          "url": "https://github.com/igawa6/HarvestMoon64Recomp"
+        },
+        {
+          "label": "Maintainer Android releases",
+          "url": "https://github.com/igawa6/HarvestMoon64Recomp/releases"
+        }
+      ],
+      "evidence_note": "The README gives Android 9/API 28+, arm64-v8a, Vulkan 1.1, APK releases and touch controls; it does not identify a named physical device."
+    },
+    {
+      "id": "goemon64-recomp-android",
+      "fields": {
+        "status": "Android v1.0.8 is released. The project specifies Android 9+, arm64-v8a and Vulkan, and reports primary testing on Retroid Pocket 5 and AYN Thor devices; phone touch controls are available as of v1.0.8.",
+        "summary": "Android package of the Mystical Ninja Starring Goemon N64 static recompilation with RT64/Vulkan, ROM import and on-screen N64 controls. Requires the user's own ROM; the APK includes no game content."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: Android compatibility, device tests, ROM import and touch controls",
+          "url": "https://github.com/ogdanimal/Goemon64Recomp-Android"
+        },
+        {
+          "label": "Maintainer Android releases",
+          "url": "https://github.com/ogdanimal/Goemon64Recomp-Android/releases"
+        }
+      ],
+      "evidence_note": "The README specifies Android 9+, arm64-v8a and Vulkan; it names Retroid Pocket 5 and AYN Thor as primary test devices and documents the v1.0.8 touch-control addition."
+    },
+    {
+      "id": "zelda64recomp-android",
+      "fields": {
+        "platform": "Nintendo 64 → Android (ARM64, Android 7+, Vulkan)",
+        "status": "Android beta v0.6.10; the fork reports testing primarily on Snapdragon/Adreno handhelds, including a Snapdragon 8 Gen 2 device. The maintainer warns that device-specific Vulkan issues remain and says Samsung/Google compatibility work has not been completed.",
+        "summary": "Android fork of Zelda 64: Recompiled with touch controls, gyro input, physical controller support and Android-native mod support. The user supplies a supported ROM; APK releases do not include game assets."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: Android requirements, device scope and input",
+          "url": "https://github.com/linkzenic/Zelda64Recomp-Android"
+        },
+        {
+          "label": "Maintainer Android releases",
+          "url": "https://github.com/linkzenic/Zelda64Recomp-Android/releases"
+        }
+      ],
+      "evidence_note": "The README lists Android 7+, ARM64 and Vulkan, names a Snapdragon 8 Gen 2 test device and explicitly cautions against assuming broad Samsung/Google compatibility."
+    },
+    {
+      "id": "gta-vice-city-stories-android-recomp",
+      "fields": {
+        "platform": "PlayStation Portable → Android (ARM64 and ARMv7), Windows",
+        "status": "Beta v0.3.0; Android 8+ with Vulkan is tested on a Galaxy S25 Ultra. The release offers both arm64 and 32-bit ARM APKs; the README lists skipped intro video and remaining freeze/black-screen and high-resolution issues.",
+        "summary": "Android Vulkan port of a static PSP Allegrex-to-C++ recompilation, with fullscreen play and save-state support. Requires the user's own PSP game data; APKs do not include commercial assets."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: Android requirements, device, APK variants and known issues",
+          "url": "https://github.com/codepdbh/PSPRecomp-VCS-Android"
+        },
+        {
+          "label": "Maintainer Android releases",
+          "url": "https://github.com/codepdbh/PSPRecomp-VCS-Android/releases"
+        }
+      ],
+      "evidence_note": "The README specifies Android 8+, Vulkan, Galaxy S25 Ultra testing, separate arm64/armv7 APKs and known video/rendering/stability limitations."
+    },
+    {
+      "id": "asuras-wrath-recomp-android",
+      "fields": {
+        "status": "Experimental Android AArch64 target; the repository supplies an APK build script but its README still lists Android testing, performance work and touch controls as unfinished. No named device test or ready-made release APK is established.",
+        "summary": "Xbox 360 static recompilation with an Android AArch64 build preset. The build requires game files extracted from the user's ISO; the project documents an APK output path but no Android input/device acceptance."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: Android preset, APK build and open testing work",
+          "url": "https://github.com/PauloUbirajara/asuras-wrath-recomp"
+        }
+      ],
+      "evidence_note": "The README identifies an android-aarch64-release preset and build_android.sh APK output, while marking Android testing, performance and touch controls unfinished."
+    },
+    {
+      "id": "forza-horizon-2-recomp-android",
+      "fields": {
+        "platform": "Xbox 360 → Android (ARM64, Android 8+, Vulkan 1.1), Linux x86-64",
+        "status": "Work in progress: the game boots and plays menus/races, but Android performance is below console speed and collisions can be missed. The README offers Android APK releases and a source build; no named Android device test is listed.",
+        "summary": "Xbox 360 PowerPC program statically recompiled to ARM64 for Android, with Vulkan-based GPU emulation and an experimental native Xenos renderer. Android includes touch controls and gamepad support; users provide a USA game copy and the app reads its ISO directly."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: Android requirements, status and disc input",
+          "url": "https://github.com/Gabrick75/fh2-recompiled"
+        },
+        {
+          "label": "Maintainer APK releases",
+          "url": "https://github.com/Gabrick75/fh2-recompiled/releases"
+        }
+      ],
+      "evidence_note": "The README specifies Android 8+, ARM64 and Vulkan 1.1, describes menu/race play and missed collisions, and says the APK and generated code contain no game data."
+    },
+    {
+      "id": "skate3-port-android",
+      "fields": {
+        "platform": "Xbox 360 → Android (arm64-v8a, Android 13/API 33+, Vulkan)",
+        "status": "Experimental release APK; the maintainer reports development/testing on a Poco F3 (Snapdragon 870/Adreno 650). Requires roughly 8 GB free for installation and an Xbox 360 ISO supplied by the user; visual and device-specific issues remain.",
+        "summary": "Android port of the Skate 3 static recompilation, compiling Xbox 360 PowerPC code to native ARM64 with Vulkan. The app imports the user's ISO on-device and supports touch or physical-controller input; extracted game files are removed when the app is uninstalled."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: Android requirements, device test, release APK and ISO setup",
+          "url": "https://github.com/darchap/Skate3-Port"
+        },
+        {
+          "label": "Maintainer Android releases",
+          "url": "https://github.com/darchap/Skate3-Port/releases"
+        }
+      ],
+      "evidence_note": "The README names Android 13/API 33+, ARM64/Vulkan, Poco F3 testing, release APK availability and the approximate free-storage requirement for user-supplied game data."
+    },
+    {
+      "id": "sonic-free-riders-recompiled-android",
+      "fields": {
+        "status": "Android release line v0.4.4 remains a work in progress: menus and races run, and the maintainer reports a playable race on an AYN Thor (Android 13/Adreno 740) at roughly 23–24 fps. Other tracks/modes and devices remain unverified; an Android 9 compatibility APK has not been tested on Android 9.",
+        "summary": "Xbox 360 static recompilation with Android arm64 APKs, on-screen controls and tilt steering. The launcher installs game data from a user-owned USA/Europe disc; the project reports races but cautions that broad game coverage and phone performance are incomplete."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: Android releases, controls and compatibility caveats",
+          "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled"
+        },
+        {
+          "label": "Maintainer Android v0.4.4 performance report",
+          "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/blob/main/docs/android-performance.md"
+        },
+        {
+          "label": "Maintainer Android releases",
+          "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases"
+        }
+      ],
+      "evidence_note": "The README and v0.4.4 Android performance note identify the AYN Thor Android 13/Adreno 740 test, approximate race rate and untested Android 9 compatibility build while retaining the work-in-progress warning."
+    },
+    {
+      "id": "sonic-unleashed-recomp-android",
+      "fields": {
+        "platform": "Xbox 360 → Android (64-bit; Android 10+)",
+        "status": "Experimental Android release APKs are available; the README requires Android 10+ and 64-bit ARM. Target Adreno GPUs have bundled/custom Turnip options, while Mali support is limited to newer Vulkan 1.3 devices; Dimensity 8300 Ultra/Mali-G615 is identified as a working test. Other GPU support is not guaranteed.",
+        "summary": "Android app for the Xbox 360 static recompilation with Vulkan, touchscreen/gamepad input, a mod manager and in-app game-data import. Users provide their own game files; performance, stability and driver compatibility vary by device."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: Android requirements, GPU/device support and controls",
+          "url": "https://github.com/SansNope/UnleashedRecomp-Android"
+        },
+        {
+          "label": "Maintainer Android releases",
+          "url": "https://github.com/SansNope/UnleashedRecomp-Android/releases"
+        }
+      ],
+      "evidence_note": "The current README states Android 10+/64-bit, differentiates Adreno and experimental Mali support, names a Dimensity 8300 Ultra/Mali-G615 test and warns that compatibility varies by GPU and driver."
+    },
+    {
+      "id": "gta-iv-liberty-recomp-android",
+      "fields": {
+        "platform": "Xbox 360 → Android (arm64, Android 10+; Snapdragon/Adreno Vulkan target)",
+        "status": "Unofficial Android port with stable releases and prereleases; the maintainer says it is rough and tested mainly on a Retroid Pocket 5 (Snapdragon 865/Adreno 650). Requirements include ARMv8.2-A, Vulkan 1.2 and 8 GB recommended RAM; Android episodes, online play and newer touch controls are not broadly tested.",
+        "summary": "Android port of the Xbox 360 static recompilation with a Vulkan runtime and on-screen gamepad. Requires the user's own GTA IV files; the project documents setup and reports limited device coverage rather than general Android compatibility."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: Android device, compatibility, storage and open testing",
+          "url": "https://github.com/vaduur/LibertyRecompAndroid"
+        },
+        {
+          "label": "Maintainer releases and prereleases",
+          "url": "https://github.com/vaduur/LibertyRecompAndroid/releases"
+        }
+      ],
+      "evidence_note": "The README identifies the Retroid Pocket 5 as the main test device, documents Android 10+/arm64/Vulkan requirements and explicitly leaves episodes, online play and wider device/input coverage untested."
+    },
+    {
+      "id": "diddy-kong-racing-pc-recomp",
+      "fields": {
+        "status": "Release 1.0.6 includes an Android 9+ ARM64 APK. The README supports US v1.0 and US Rev A/v1.1 ROMs, but states that ARM/Android/Steam Deck still need physical-device checks; the iOS mention refers to a separate source port and no iOS binary ships here.",
+        "summary": "N64 static recompilation with Android ARM64 package and first-run ROM import. Users supply a compatible US ROM; Android hardware qualification is still open despite the release number."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: platform builds, ROM support and device-test limits",
+          "url": "https://github.com/ThatGuyMcd/DKR-R"
+        },
+        {
+          "label": "Maintainer v1.0.6 release packages",
+          "url": "https://github.com/ThatGuyMcd/DKR-R/releases"
+        },
+        {
+          "label": "Maintainer platform support matrix",
+          "url": "https://github.com/ThatGuyMcd/DKR-R/blob/main/docs/PLATFORMS.md"
+        }
+      ],
+      "evidence_note": "The README lists the Android 9+/arm64 APK and supported US ROM revisions, explicitly says Android still needs physical checks, and distinguishes its iOS references from this project's actual targets."
+    },
+    {
+      "id": "nfs-most-wanted-ios-recomp",
+      "fields": {
+        "status": "v0.3.0 iOS release IPA is available. The maintainer reports playability with rough edges, nearly full-game 60 fps on an iPad Pro M4, and tests on an iPad Pro M4 and iPhone 17 Pro. Requires iOS/iPadOS 26+ on recent Apple hardware and the USA Xbox 360 ISO.",
+        "summary": "Xbox 360 static recompilation to native Apple ARM64, with Xenos graphics translated to Vulkan over Metal. The iOS app includes touch layouts and iOS game-controller input; users sideload the IPA and provide their own USA edition ISO."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: iOS status, device tests, controls and requirements",
+          "url": "https://github.com/bep1s69/nfsmw-ios"
+        },
+        {
+          "label": "Maintainer iOS IPA releases",
+          "url": "https://github.com/bep1s69/nfsmw-ios/releases"
+        }
+      ],
+      "evidence_note": "The README specifies iOS/iPadOS 26+, reports iPad Pro M4 and iPhone 17 Pro tests, describes touch/controller input and provides the IPA release and USA Xbox 360 ISO requirements."
+    },
+    {
+      "id": "lost-odyssey-recomp",
+      "fields": {
+        "status": "Android arm64 release APKs are available and require Android 8+ with Vulkan. The project documents touch controls and importing disc images or extracted folders, but the README does not identify a named Android test device or claim Android campaign completion.",
+        "summary": "Xbox 360 static recompilation with a native Android app and four-disc/DLC importer. Users supply their own compatible game set (USA/Europe or Asian multilingual) and select/import discs; no game data ships in the APK."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: Android requirements, APK, controls and disc import",
+          "url": "https://github.com/freefrank/LostOdysseyRecomp"
+        },
+        {
+          "label": "Maintainer releases",
+          "url": "https://github.com/freefrank/LostOdysseyRecomp/releases"
+        },
+        {
+          "label": "Maintainer Android installation guide",
+          "url": "https://github.com/freefrank/LostOdysseyRecomp/blob/main/docs/INSTALLING.md"
+        }
+      ],
+      "evidence_note": "The README lists Android arm64 APKs for Android 8+/Vulkan, a touch overlay and supported four-disc data import; it does not provide physical Android device coverage."
+    },
+    {
+      "id": "nfs-most-wanted-android-recomp",
+      "fields": {
+        "status": "Android work remains in progress. On a Snapdragon 8 Elite with Qualcomm's driver the maintainer reports the 3D main menu at about 50 fps and ISO boot through menus/races with a Bluetooth controller and sound; Turnip is much slower. Android requires a 64-bit Snapdragon, Android 10+ and Vulkan 1.1.",
+        "summary": "Android ARM64 port of the Xbox 360 static recompilation with Vulkan, touch controls and per-edition APK builds. It requires the matching user-owned ISO; PAL Spain, USA and Japan editions have separate APKs and different verification status."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: Android status, minimum requirements and edition-specific builds",
+          "url": "https://github.com/victorgbd/NFSMW-Recompiled-Mobile"
+        },
+        {
+          "label": "Maintainer Android-specific technical notes",
+          "url": "https://github.com/victorgbd/NFSMW-Recompiled-Mobile/blob/main/docs/android.md"
+        }
+      ],
+      "evidence_note": "The README and Android notes describe the Snapdragon 8 Elite/Qualcomm test, slower Turnip performance, Android 10+/Vulkan 1.1 requirements, per-region APKs and an in-progress status."
+    },
+    {
+      "id": "god-of-war-ghost-of-sparta-pc-recomp",
+      "fields": {
+        "platform": "PlayStation Portable → Windows x64, macOS Apple silicon, Android (arm64, Android 10+)",
+        "status": "Alpha static recompilation; only the game's beginning has been played. Android APK releases are available, the README names a Moto g84 (Snapdragon 695) test at 2× resolution, and it warns about bugs, graphics glitches and crashes.",
+        "summary": "PSP code is statically recompiled to C++ and run on a PSP system-software reimplementation with Vulkan rendering. Android 10+ ARM64 builds have touch/gamepad input; users provide the European UCES-01401 ISO and the app imports it on first launch."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: Android requirements, test device and maturity",
+          "url": "https://github.com/arnaldolima1/gow-ghost-of-sparta-pc"
+        },
+        {
+          "label": "Maintainer Android releases",
+          "url": "https://github.com/arnaldolima1/gow-ghost-of-sparta-pc/releases"
+        }
+      ],
+      "evidence_note": "The README specifies Android 10+ ARM64 APKs and input, identifies Moto g84/Snapdragon 695 testing, and retains the alpha-only opening progress and European UCES-01401 data requirement."
+    },
+    {
+      "id": "metroid-prime-hunters-android-recomp",
+      "fields": {
+        "status": "v0.2.5 Android APK release. The only documented physical device is the AYN Thor (Android 13, dual-screen ARM64), where the maintainer reports about 58–59 fps and second-screen stylus/touch operation. Other-device support is not established.",
+        "summary": "Nintendo DS code is statically recompiled to native ARM64 for Android and packaged for dual-screen devices. Requires the user's own USA AMHE-0 cartridge dump; the app verifies/imports it and uses the lower touchscreen as the DS stylus screen."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: Android device limits, input and ROM import",
+          "url": "https://github.com/aabrole/HuntersRecomp"
+        },
+        {
+          "label": "Maintainer Android releases",
+          "url": "https://github.com/aabrole/HuntersRecomp/releases"
+        }
+      ],
+      "evidence_note": "The README sets Android 11+ dual-screen ARM64 as the target, says only AYN Thor is tested, documents the USA AMHE-0 ROM and describes lower-screen stylus input."
+    }
+  ]
+}

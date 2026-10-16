@@ -1,0 +1,119 @@
+{
+  "updated": "2026-10-15",
+  "format_note": "Each entry identifies an existing catalog project by id. Apply only the listed fields; each changed field carries its supporting source links.",
+  "metadata_updates": [
+    {
+      "project_id": "ssbu-switch-recomp",
+      "fields": {
+        "status": {
+          "value": "Maintainer’s current README/post report title, menus and character select plus complete 1v1 matches against CPU through results; Classic, Training and Home-Run Contest are tested only with scripted input. Shaders can hitch on first use; 3–8 player modes and several other modes remain untested, there is no online play, and builds are Windows-only from a user dump.",
+          "sources": [
+            {
+              "label": "Project README",
+              "url": "https://github.com/Denkishi/ssbu-recomp"
+            },
+            {
+              "label": "Maintainer status post in r/decomps",
+              "url": "https://www.reddit.com/r/decomps/comments/1x3yfjm/im_working_on_a_native_pc_port_of_smash_ultimate/"
+            }
+          ]
+        },
+        "updated": {
+          "value": "2026-10-15"
+        }
+      }
+    },
+    {
+      "project_id": "pt-ps4-pc-reimplementation",
+      "fields": {
+        "status": {
+          "value": "Maintainer’s Oct 15 status post reports the entire teaser from first-boot options/preface through the ending, including the voice step; small lighting/material differences and timing details remain, and no release date is set. The latest published API release remains v1.0.4, so this status is a maintainer WIP report rather than a new release claim.",
+          "sources": [
+            {
+              "label": "Maintainer status post in r/silenthill",
+              "url": "https://www.reddit.com/r/silenthill/comments/1wu0152/im_decompiling_and_rebuilding_pt_as_a_native_pc/"
+            },
+            {
+              "label": "Project repository and current releases",
+              "url": "https://github.com/LoreanXavier/pt-pc"
+            }
+          ]
+        },
+        "updated": {
+          "value": "2026-10-15"
+        }
+      }
+    },
+    {
+      "project_id": "sm64ds-decomp",
+      "fields": {
+        "status": {
+          "value": "Maintainer update reports the decompilation at 98% matching (about 11,000 C/C++ functions) and the native PC port at 45% linked; a demo is available. The matching decomp and executable-linking/port progress are separate measures.",
+          "sources": [
+            {
+              "label": "Project repository",
+              "url": "https://github.com/tangosdev/sm64ds-decomp"
+            },
+            {
+              "label": "Maintainer progress post in r/decomps",
+              "url": "https://www.reddit.com/r/decomps/comments/1vp4bs2/sm64ds_native_pc_port_is_43_linked/"
+            }
+          ]
+        },
+        "updated": {
+          "value": "2026-10-15"
+        }
+      }
+    },
+    {
+      "project_id": "urban-reign-ps2-recomp",
+      "fields": {
+        "status": {
+          "value": "Windows v1.3.0 release (2026-10-13); README labels the port beta and documents static recompilation of the USA PS2 build SLUS-21209. The latest release documents CoopTool support for up to eight human players through multitap, with the user’s own game image required.",
+          "sources": [
+            {
+              "label": "Project README",
+              "url": "https://github.com/thiagordsfx/urban-reign-recomp"
+            },
+            {
+              "label": "Windows v1.3.0 release notes",
+              "url": "https://github.com/thiagordsfx/urban-reign-recomp/releases/tag/v1.3.0"
+            },
+            {
+              "label": "Author announcement in r/recomps",
+              "url": "https://www.reddit.com/r/recomps/comments/1x4fsis/urban_reign_ps2_static_recompilation_native/"
+            }
+          ]
+        },
+        "updated": {
+          "value": "2026-10-15"
+        }
+      }
+    },
+    {
+      "project_id": "lost-odyssey-recomp",
+      "fields": {
+        "status": {
+          "value": "v0.9.65 release published 2026-10-15 UTC. The current README offers Windows x64, Linux x64 (AppImage/Flatpak), macOS arm64 and Android arm64 packages and documents importing all four discs and DLC; it does not make an explicit full-campaign completion claim.",
+          "sources": [
+            {
+              "label": "Project README and installation guide",
+              "url": "https://github.com/freefrank/LostOdysseyRecomp"
+            },
+            {
+              "label": "v0.9.65 release notes",
+              "url": "https://github.com/freefrank/LostOdysseyRecomp/releases/tag/v0.9.65"
+            },
+            {
+              "label": "Community release lead",
+              "url": "https://www.dsogaming.com/news/unofficial-pc-version-of-xbox-360-classic-lost-odyssey-released/"
+            }
+          ]
+        },
+        "updated": {
+          "value": "2026-10-15"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "updated": "2026-10-15",
+  "scope": "New console-to-console and console-to-desktop targets found in primary maintainer repositories; deduplicated against the 847-project SQLite catalog by repository and source→target.",
+  "projects": [
+    {
+      "id": "animal-crossing-pc-port",
+      "title": "Animal Crossing Native PC Port",
+      "game": "Animal Crossing",
+      "target_type": "Game",
+      "platform": "Nintendo GameCube → Windows x86",
+      "kind": "Decompilation",
+      "status": "Playtest release v0.9.3-playtest; a prebuilt Windows release and source build are documented. Only USA GAFE01_00 Rev 0 is supported, and the user must provide the disc image.",
+      "summary": "Native x86 PC port built from the Animal Crossing C decompilation. The GameCube GX graphics API is translated to OpenGL 3.3; no game assets or assembly are included.",
+      "project_url": "https://github.com/flyngmt/ACGC-PC-Port",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based native PC port with GX-to-OpenGL 3.3 translation",
+      "language": "",
+      "source_available": "Public source and Windows releases; requires the user's own USA GAFE01_00 Rev 0 disc image",
+      "first_found": "2026-10-15",
+      "project_started": "",
+      "programming_language": "C",
+      "subtype": "Native PC port",
+      "sources": [
+        {
+          "label": "Maintainer README: method, supported disc, and build instructions",
+          "url": "https://github.com/flyngmt/ACGC-PC-Port/blob/master/README.md"
+        },
+        {
+          "label": "Maintainer releases: current playtest package",
+          "url": "https://github.com/flyngmt/ACGC-PC-Port/releases"
+        }
+      ]
+    },
+    {
+      "id": "mario-kart-wii-wiicompiled-pc",
+      "title": "Mario Kart Wii WiiCompiled PC Port",
+      "game": "Mario Kart Wii",
+      "target_type": "Game",
+      "platform": "Nintendo Wii → Windows and macOS",
+      "kind": "Recompilation",
+      "status": "Playable development build; the maintainer says gameplay should be playable and ghost runs match original physics, while compatibility, rendering, networking, and performance remain under active work. Windows 10/11 and macOS 12+ are listed; only a clean PAL RMCP01 dump is accepted.",
+      "summary": "Native PC port using static recompilation: Wii PowerPC code is translated ahead of time and compiled for the host, with no Wii CPU emulator, interpreter, or JIT at runtime. No game code or assets are distributed.",
+      "project_url": "https://github.com/patchzyy/Wiicompiled",
+      "updated": "2026-10-15",
+      "strategy": "Static recompilation to native desktop code",
+      "language": "",
+      "source_available": "Public source and installer releases; user supplies a clean PAL RMCP01 disc image",
+      "first_found": "2026-10-15",
+      "project_started": "",
+      "programming_language": "",
+      "subtype": "Native PC static recompilation",
+      "sources": [
+        {
+          "label": "Maintainer README: technique, supported hosts, exact disc revision, and compatibility status",
+          "url": "https://github.com/patchzyy/Wiicompiled/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer releases: Windows and macOS installers",
+          "url": "https://github.com/patchzyy/Wiicompiled/releases"
+        }
+      ]
+    },
+    {
+      "id": "ship-of-harkinian-switch-port",
+      "title": "Ship of Harkinian Switch Port",
+      "game": "The Legend of Zelda: Ocarina of Time",
+      "target_type": "Game",
+      "platform": "Nintendo 64 → Nintendo Switch homebrew",
+      "kind": "Decompilation",
+      "status": "Switch NRO release and Atmosphère title-override install steps are documented; CI builds are explicitly for playtesting and may contain bugs or crashes. The reviewed README does not establish full-game compatibility.",
+      "summary": "Nintendo Switch target of Ship of Harkinian, built on the Ocarina of Time decompilation and libultraship. The Switch package uses the user's prepared .o2r game-data file and does not include copyrighted assets.",
+      "project_url": "https://github.com/GermanNunez-code/Shipwright-Switch",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based native port using Ship of Harkinian and libultraship",
+      "language": "",
+      "source_available": "Public source, Switch NRO release, and CI playtest builds; requires the user's supported ROM and prepared game-data files",
+      "first_found": "2026-10-15",
+      "project_started": "",
+      "programming_language": "",
+      "subtype": "Nintendo Switch homebrew port",
+      "sources": [
+        {
+          "label": "Maintainer README: Switch install, input requirements, and playtest caveat",
+          "url": "https://github.com/GermanNunez-code/Shipwright-Switch/blob/develop/README.md"
+        },
+        {
+          "label": "Maintainer Switch releases",
+          "url": "https://github.com/GermanNunez-code/Shipwright-Switch/releases"
+        }
+      ]
+    },
+    {
+      "id": "super-mario-sunshine-pc-port",
+      "title": "Super Mario Sunshine Native PC Port",
+      "game": "Super Mario Sunshine",
+      "target_type": "Game",
+      "platform": "Nintendo GameCube → Windows, Linux, and macOS",
+      "kind": "Decompilation",
+      "status": "Linux x86, Linux x86-64, and Intel macOS/Rosetta builds are listed as playable; Linux x86-64 is still being checked stage by stage. The Windows build boots under Wine while native runtime checks continue. Only North American GMSE01 Rev 0 is supported.",
+      "summary": "Native PC port compiled from the matching Super Mario Sunshine decompilation. It reads game data from the user's disc image and includes no game data; build and run scripts and a separate setup launcher are documented.",
+      "project_url": "https://github.com/chasem-dev/sms-pc-port",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based native PC port",
+      "language": "",
+      "source_available": "Public source and launcher releases; requires the user's own GMSE01 Rev 0 disc image",
+      "first_found": "2026-10-15",
+      "project_started": "",
+      "programming_language": "C",
+      "subtype": "Native PC port",
+      "sources": [
+        {
+          "label": "Maintainer README: supported operating systems, game revision, build, and play status",
+          "url": "https://github.com/chasem-dev/sms-pc-port/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer launcher releases",
+          "url": "https://github.com/chasem-dev/SMS-Launcher/releases"
+        }
+      ]
+    }
+  ]
+}

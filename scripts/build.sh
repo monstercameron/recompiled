@@ -25,11 +25,20 @@ fi
 if [[ -f data/research/project-research-reviewed-2026-10.json ]]; then
   python3 scripts/catalog.py import data/research/project-research-reviewed-2026-10.json
 fi
+if [[ -f data/research/discovery-2026-10-15/project-additions-reviewed.json ]]; then
+  python3 scripts/catalog.py import data/research/discovery-2026-10-15/project-additions-reviewed.json
+fi
+if [[ -f data/research/discovery-2026-10-15/project-updates-reviewed.json ]]; then
+  python3 scripts/catalog.py import-project-updates data/research/discovery-2026-10-15/project-updates-reviewed.json
+fi
 if [[ -f data/research/media.json ]]; then
   python3 scripts/catalog.py import-media data/research/media.json
 fi
 if [[ -f data/research/mobile-port-game-profiles.json ]]; then
   python3 scripts/catalog.py import-game-profiles data/research/mobile-port-game-profiles.json
+fi
+if [[ -f data/research/discovery-2026-10-15/15-game-metadata/game-facts.json ]]; then
+  python3 scripts/catalog.py import-game-profiles data/research/discovery-2026-10-15/15-game-metadata/game-facts.json
 fi
 if [[ -f data/research/wikipedia-links.json ]]; then
   python3 scripts/catalog.py import-wikipedia-links data/research/wikipedia-links.json
@@ -37,8 +46,17 @@ fi
 if [[ -f data/research/wikipedia-links-additions-2026-10.json ]]; then
   python3 scripts/catalog.py import-wikipedia-links data/research/wikipedia-links-additions-2026-10.json
 fi
+if [[ -f data/research/discovery-2026-10-15/15-game-metadata/wikipedia-links.json ]]; then
+  python3 scripts/catalog.py import-wikipedia-links data/research/discovery-2026-10-15/15-game-metadata/wikipedia-links.json
+fi
+if [[ -f data/research/discovery-2026-10-15/new-game-wikipedia-links.json ]]; then
+  python3 scripts/catalog.py import-wikipedia-links data/research/discovery-2026-10-15/new-game-wikipedia-links.json
+fi
 if [[ -f data/research/directory.json ]]; then
   python3 scripts/catalog.py import-directory data/research/directory.json
+fi
+if [[ -f data/research/discovery-2026-10-15/18-tools-resources/directory-additions.json ]]; then
+  python3 scripts/catalog.py import-directory data/research/discovery-2026-10-15/18-tools-resources/directory-additions.json
 fi
 if [[ -f data/research/programming-languages.json ]]; then
   python3 scripts/catalog.py import-programming-languages data/research/programming-languages.json
@@ -48,6 +66,9 @@ if [[ -f data/research/programming-language-additions-2026-10.json ]]; then
 fi
 if [[ -f data/research/project-language-evidence-2026-10.json ]]; then
   python3 scripts/catalog.py import-programming-languages data/research/project-language-evidence-2026-10.json
+fi
+if [[ -f data/research/discovery-2026-10-15/programming-languages-reviewed.json ]]; then
+  python3 scripts/catalog.py import-programming-languages data/research/discovery-2026-10-15/programming-languages-reviewed.json
 fi
 if [[ -f data/research/console-gallery.json ]]; then
   if python3 - <<'PY'
@@ -75,6 +96,9 @@ PY
 fi
 python3 scripts/catalog.py import-featured-projects data/research/featured-projects.json
 python3 scripts/catalog.py import-process-resources data/research/process-resources.json
+if [[ -f data/research/discovery-2026-10-15/18-tools-resources/resource-updates.json ]]; then
+  python3 scripts/catalog.py import-process-resources data/research/discovery-2026-10-15/18-tools-resources/resource-updates.json
+fi
 python3 scripts/catalog.py export
 cargo build --locked --release --target wasm32-unknown-unknown
 wasm-bindgen --target web --out-dir docs/pkg target/wasm32-unknown-unknown/release/recompiled.wasm

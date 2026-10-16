@@ -1,0 +1,398 @@
+{
+  "updated": "2026-10-15",
+  "updates": [
+    {
+      "id": "pokegold-disassembly",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Ongoing disassembly; the README lists Gold and Silver retail ROM outputs plus debug builds.",
+        "subtype": "GBZ80 assembly disassembly with Gold/Silver and debug ROM targets"
+      },
+      "sources": [
+        {
+          "label": "Project README",
+          "url": "https://github.com/pret/pokegold#readme"
+        }
+      ],
+      "evidence_note": "The README identifies this as a Pokémon Gold/Silver disassembly and lists the two retail ROMs and two debug builds with hashes."
+    },
+    {
+      "id": "poketcg-disassembly",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Buildable disassembly; the README lists the U.S. Pokémon Trading Card Game ROM output and hash.",
+        "subtype": "Game Boy Color assembly disassembly with RGBDS build target"
+      },
+      "sources": [
+        {
+          "label": "Project README",
+          "url": "https://github.com/pret/poketcg#readme"
+        }
+      ],
+      "evidence_note": "The README identifies a Pokémon TCG disassembly, lists its U.S. ROM output, and documents assembling it with RGBDS."
+    },
+    {
+      "id": "poketcg2-disassembly",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Disassembly project for the Japanese Card GB2 release; the README requires that base ROM and builds poketcg2.gbc.",
+        "source_available": "Public source repository; the documented build requires a user-supplied Japanese base ROM",
+        "subtype": "Japanese Game Boy Color assembly disassembly with user-supplied base ROM"
+      },
+      "sources": [
+        {
+          "label": "Project README",
+          "url": "https://github.com/pret/poketcg2#readme"
+        }
+      ],
+      "evidence_note": "The README names the Japanese base ROM, instructs users to supply it as baserom.gbc, and states that make produces poketcg2.gbc."
+    },
+    {
+      "id": "pokemon-ruby-sapphire-decomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Disassembly repository; the README lists ROM build outputs for both Pokémon Ruby and Pokémon Sapphire.",
+        "subtype": "Game Boy Advance assembly disassembly with Ruby and Sapphire build targets"
+      },
+      "sources": [
+        {
+          "label": "Project README",
+          "url": "https://github.com/pret/pokeruby#readme"
+        }
+      ],
+      "evidence_note": "The README explicitly calls this a Ruby/Sapphire disassembly and lists SHA-1-identified ROM build outputs for both titles."
+    },
+    {
+      "id": "metroid-fusion-decomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Work in progress; USA is the default supported ROM. Europe, Japan, China, and the European beta are marked unsupported in the README.",
+        "source_available": "Public source repository; a base ROM is required for each regional build"
+      },
+      "sources": [
+        {
+          "label": "Project README",
+          "url": "https://github.com/metroidret/mf#readme"
+        }
+      ],
+      "evidence_note": "The README lists the supported regional builds, marks Europe/Japan/China/European beta unsupported, and says a baserom is required for each desired ROM."
+    },
+    {
+      "id": "frogger-adventures-temple-of-the-frog-gba-decomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Work in progress, but the current USA build is byte-identical: the README reports zero ROM-diff bytes and no nonmatching functions. Relocatable linking is separate future work because sections and raw pointers remain fixed at base-ROM addresses.",
+        "source_available": "Public source repository; a user-supplied USA base ROM is required for build verification",
+        "subtype": "Byte-identical fixed-address USA GBA decompilation; relocatability is unfinished"
+      },
+      "sources": [
+        {
+          "label": "Project README",
+          "url": "https://github.com/JRickey/frog-adv-temple-decomp#readme"
+        }
+      ],
+      "evidence_note": "The README’s generated progress report says main builds a byte-identical ROM with zero diff bytes and no nonmatching functions; it separately explains fixed-address linking and future shiftability work."
+    },
+    {
+      "id": "sonic-advance-1-2-decomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Work in progress matching decompilation of Sonic Advance 1 and 2; the README says the SA1 build is 100% C, with about 60 functions still not matching. Sonic Advance 3 is an eventual target.",
+        "subtype": "Multi-title GBA matching decompilation with separate Sonic Advance 1/2 targets"
+      },
+      "sources": [
+        {
+          "label": "Project README",
+          "url": "https://github.com/SAT-R/sa2#readme"
+        }
+      ],
+      "evidence_note": "The README calls the project a work-in-progress matching decompilation, reports the SA1 build as 100% C with roughly 60 nonmatching functions, and describes SA3 as future work."
+    },
+    {
+      "id": "alttp-jp-disassembly",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "The Japanese 1.0 disassembly builds exactly to that ROM; the maintainer says routine analysis and understanding will continue.",
+        "subtype": "Byte-exact Super Famicom Japanese 1.0 65816 disassembly"
+      },
+      "sources": [
+        {
+          "label": "Project README",
+          "url": "https://github.com/spannerisms/jpdasm#readme"
+        }
+      ],
+      "evidence_note": "The README says the project is a full Japanese 1.0 disassembly that compiles exactly to the target ROM while remaining a work in progress for further analysis."
+    },
+    {
+      "id": "dqix-decomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Work in progress; the project builds USA or Japanese 1:1 ROMs and verifies modules against the original. Full-ROM SHA-1 verification also requires an ARM7 BIOS dump.",
+        "strategy": "Matching disassembly and C++ decompilation",
+        "source_available": "Public source repository; user-supplied USA/Japanese ROM and ARM7 BIOS are needed for full-ROM verification",
+        "programming_language": "C++",
+        "subtype": "Nintendo DS 1:1 disassembly/decompilation (USA and Japan)"
+      },
+      "sources": [
+        {
+          "label": "Project README",
+          "url": "https://github.com/DQIX/dqix-decomp#readme"
+        }
+      ],
+      "evidence_note": "The README describes a 1:1 disassembly/decompilation, supports USA and Japanese ROMs, verifies modules, and notes the ARM7 BIOS requirement for full-ROM SHA-1 verification."
+    },
+    {
+      "id": "kh-days-decomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Work in progress; the README reports 23,125 of about 23,233 functions (99.5%) decompiled to matching C and all 306 initialized modules byte-identical. Readability, naming, and source organization remain active work.",
+        "source_available": "Public matching-source repository; no ROM/assets or playable game binary are included or produced",
+        "subtype": "Matching C decompilation with byte-verified original assembly for exceptions"
+      },
+      "sources": [
+        {
+          "label": "Project README",
+          "url": "https://github.com/Yokimitsuro/khdays-decomp#readme"
+        }
+      ],
+      "evidence_note": "The status section separates C-matched function progress from whole-module matching and says the repository is a source-only decompilation with no ROM, assets, or playable binary."
+    },
+    {
+      "id": "pokemon-diamond-pearl-decomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Work in progress; the README lists U.S. Diamond and Pearl ROM build outputs with reference SHA-1 hashes.",
+        "subtype": "Nintendo DS C-source decompilation with U.S. Diamond and Pearl build targets"
+      },
+      "sources": [
+        {
+          "label": "Project README",
+          "url": "https://github.com/pret/pokediamond#readme"
+        }
+      ],
+      "evidence_note": "The README identifies a WIP Diamond decompilation and lists build outputs for both pokediamond.us.nds and pokepearl.us.nds."
+    },
+    {
+      "id": "pokemon-hgss-decomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Work in progress; the README identifies a disassembly and lists U.S. HeartGold and SoulSilver ROM build outputs with hashes.",
+        "subtype": "Nintendo DS disassembly with separate U.S. HeartGold and SoulSilver build targets"
+      },
+      "sources": [
+        {
+          "label": "Project README",
+          "url": "https://github.com/pret/pokeheartgold#readme"
+        }
+      ],
+      "evidence_note": "The README explicitly calls this a WIP disassembly and lists build outputs for the U.S. HeartGold and SoulSilver titles."
+    },
+    {
+      "id": "pokemon-platinum-decomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Work in progress; the README lists U.S. Platinum revision 0 and revision 1 ROM build targets with hashes.",
+        "subtype": "Nintendo DS decompilation with U.S. revision 0 and revision 1 build targets"
+      },
+      "sources": [
+        {
+          "label": "Project README",
+          "url": "https://github.com/pret/pokeplatinum#readme"
+        }
+      ],
+      "evidence_note": "The README explicitly calls this a WIP decompilation and lists U.S. Platinum revisions 0 and 1 as build outputs."
+    },
+    {
+      "id": "phantom-hourglass-decomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Work in progress; code is decompiled by hand. The repository contains no assets or assembly, so building requires an existing game copy.",
+        "source_available": "Public source repository; game assets/assembly are omitted and a user-owned copy is required for building",
+        "subtype": "Hand decompilation of Nintendo DS code; assets are extracted from user-owned game data"
+      },
+      "sources": [
+        {
+          "label": "Project README",
+          "url": "https://github.com/zeldaret/ph#readme"
+        }
+      ],
+      "evidence_note": "The README says this is a WIP hand decompilation and explicitly states that assets and assembly are not included and an existing copy is required."
+    },
+    {
+      "id": "spirit-tracks-decomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Work in progress; code is decompiled by hand. The repository excludes assets and assembly and requires an existing copy for ROM builds.",
+        "source_available": "Public source repository; game assets/assembly are omitted and a user-owned copy is required for building",
+        "subtype": "Hand decompilation of Nintendo DS code; assets are extracted from user-owned game data"
+      },
+      "sources": [
+        {
+          "label": "Project README",
+          "url": "https://github.com/zeldaret/st#readme"
+        }
+      ],
+      "evidence_note": "The README calls this a WIP hand decompilation, says the repository contains no assets or assembly, and lists supported build versions."
+    },
+    {
+      "id": "oot3d-decomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Work in progress; USA revisions 0 and 1 are supported, and the README requires a user copy to extract build assets.",
+        "source_available": "Public source repository; game assets are not included and an original USA ROM is required for extraction/build",
+        "subtype": "Nintendo 3DS code.bin decompilation with USA revision 0/1 support"
+      },
+      "sources": [
+        {
+          "label": "Project README",
+          "url": "https://github.com/zeldaret/oot3d#readme"
+        }
+      ],
+      "evidence_note": "The README identifies a WIP decompilation, says assets are excluded, and instructs contributors to place a USA v0 or v1 ROM in the disassembly directory."
+    },
+    {
+      "id": "botw-decomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Experimental work-in-progress decompilation of The Legend of Zelda: Breath of the Wild version 1.5.0 for Switch; the repository cannot be used to play the game.",
+        "source_available": "Public source repository; game assets and RomFS content are not included",
+        "subtype": "Nintendo Switch version 1.5.0 game-code decompilation"
+      },
+      "sources": [
+        {
+          "label": "Project README",
+          "url": "https://github.com/zeldaret/botw#readme"
+        }
+      ],
+      "evidence_note": "The README identifies version 1.5.0 on Switch and explicitly says assets/RomFS are absent and the repository cannot be used to play the game."
+    },
+    {
+      "id": "mkdd-decomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Work in progress 1:1 decompilation; the README says the repository contains no game assets or assembly and requires an existing copy.",
+        "source_available": "Public source repository; game assets/assembly are not included; original game copy required",
+        "subtype": "GameCube 1:1 source decompilation"
+      },
+      "sources": [
+        {
+          "label": "Project README",
+          "url": "https://github.com/doldecomp/mkdd#readme"
+        }
+      ],
+      "evidence_note": "The README describes a WIP 1:1 decompilation and explicitly states that assets/assembly are absent and an existing copy is required."
+    },
+    {
+      "id": "sunshine-decomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Work in progress; the README describes a Super Mario Sunshine decompilation and requires an existing game copy for local builds.",
+        "source_available": "Public source repository; game assets/assembly are not included; original game copy required",
+        "subtype": "GameCube game-code decompilation"
+      },
+      "sources": [
+        {
+          "label": "Project README",
+          "url": "https://github.com/doldecomp/sms#readme"
+        }
+      ],
+      "evidence_note": "The README describes a WIP decompilation, says game assets and assembly are not included, and requires an existing copy."
+    },
+    {
+      "id": "ttyd-decomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Work in progress; the README tracks DOL and REL decompilation progress and requires an existing game copy for builds.",
+        "source_available": "Public source repository; game assets/assembly are not included; original game copy required",
+        "subtype": "GameCube DOL and REL source decompilation"
+      },
+      "sources": [
+        {
+          "label": "Project README",
+          "url": "https://github.com/doldecomp/ttyd#readme"
+        }
+      ],
+      "evidence_note": "The README describes a WIP decompilation, exposes DOL/REL progress categories, and states that assets/assembly are absent and a game copy is required."
+    },
+    {
+      "id": "wind-waker-decomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Work in progress; the README tracks GameCube DOL and REL code progress and requires an existing copy for local builds.",
+        "source_available": "Public source repository; game assets/assembly are not included; original game copy required",
+        "subtype": "GameCube DOL/REL source decompilation"
+      },
+      "sources": [
+        {
+          "label": "Project README",
+          "url": "https://github.com/zeldaret/tww#readme"
+        }
+      ],
+      "evidence_note": "The README describes a WIP GameCube decompilation, lists DOL and REL progress indicators, and says no game assets or assembly are included."
+    },
+    {
+      "id": "twilight-princess-decomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "GameCube release code is fully matching, but not all translation units are linked; work continues on the debug and Wii versions.",
+        "source_available": "Public source repository; game assets/assembly are not included; original game copy required",
+        "subtype": "Shared GameCube/Wii source decompilation with separate version targets"
+      },
+      "sources": [
+        {
+          "label": "Project README",
+          "url": "https://github.com/zeldaret/tp#readme"
+        }
+      ],
+      "evidence_note": "The README distinguishes fully matching GameCube code from unlinked translation units and ongoing debug/Wii matching; it also states that assets/assembly are absent."
+    },
+    {
+      "id": "mario-kart-wii-decomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Work in progress; the README exposes separate main.dol and StaticR.rel progress and requires an existing game copy.",
+        "source_available": "Public source repository; game assets/assembly are not included; original game copy required",
+        "subtype": "Wii main.dol and StaticR.rel source decompilation"
+      },
+      "sources": [
+        {
+          "label": "Project README",
+          "url": "https://github.com/doldecomp/mkw#readme"
+        }
+      ],
+      "evidence_note": "The README describes a WIP decompilation, tracks main.dol and StaticR.rel separately, and says assets/assembly are omitted."
+    },
+    {
+      "id": "super-smash-bros-brawl-decomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Work in progress; the README reports separate code and data progress and requires an existing game copy for builds.",
+        "source_available": "Public source repository; game assets/assembly are not included; original game copy required",
+        "subtype": "Wii code and data source decompilation"
+      },
+      "sources": [
+        {
+          "label": "Project README",
+          "url": "https://github.com/doldecomp/brawl#readme"
+        }
+      ],
+      "evidence_note": "The README identifies a WIP decompilation, displays code/data progress, and states the repository lacks assets/assembly and requires a game copy."
+    },
+    {
+      "id": "skyward-sword-decomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Work in progress; only the U.S. SOUE01 (NTSC-U 1.0) version is listed as supported, and the README requires an existing copy.",
+        "source_available": "Public source repository; game assets/assembly are not included; supported U.S. game copy required",
+        "subtype": "Wii DOL/REL source decompilation for U.S. version SOUE01"
+      },
+      "sources": [
+        {
+          "label": "Project README",
+          "url": "https://github.com/zeldaret/ss#readme"
+        }
+      ],
+      "evidence_note": "The README describes a WIP Wii decompilation, names SOUE01 as the only supported version, and states that game assets/assembly are not included."
+    }
+  ]
+}

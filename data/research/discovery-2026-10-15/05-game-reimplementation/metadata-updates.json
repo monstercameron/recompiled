@@ -1,0 +1,419 @@
+{
+  "updated": "2026-10-15",
+  "updates": [
+    {
+      "id": "colin-mcrae-rally-2-opencmr2",
+      "fields": {
+        "kind": "Decompilation",
+        "platform": "Windows PC → Windows/Linux/macOS/Android",
+        "strategy": "Native port built from the separate matching CMR2Decomp source; replaces legacy APIs with SDL3 and SDL GPU.",
+        "source_available": "Public OpenCMR2 port source and matching CMR2Decomp source; original game data required",
+        "subtype": "Decompilation-based native port",
+        "summary": "OpenCMR2 is a native cross-platform port built on the separate matching CMR2Decomp source project. It runs recovered game logic and replaces legacy DirectX, audio, input, and network APIs with SDL3 and SDL GPU; it does not itself perform the matching decompilation."
+      },
+      "sources": [
+        {
+          "label": "OpenCMR2 README: relationship to matching game decompilation and supported platforms",
+          "url": "https://github.com/pablocpas/OpenCMR2"
+        },
+        {
+          "label": "Matching Colin McRae Rally 2.0 decompilation source",
+          "url": "https://github.com/pablocpas/CMR2Decomp"
+        }
+      ],
+      "evidence_note": "The port README identifies CMR2Decomp as its game-code source. Under the catalog taxonomy, native ports built from recovered matching source belong with Decompilation rather than Reimplementation."
+    },
+    {
+      "id": "metaforce-metroid-prime",
+      "fields": {
+        "kind": "Decompilation",
+        "platform": "GameCube → Windows/Linux/macOS/Android/iOS (builds currently unavailable)",
+        "status": "The project is being stabilized and the README says builds are currently unavailable; the README lists Windows, Linux, macOS, Android, and iOS targets.",
+        "strategy": "Native engine port built on the matching Metroid Prime decompilation source",
+        "source_available": "Public source repository; based on PrimeDecomp source; original Metroid Prime game data required",
+        "subtype": "Decompilation-based native engine port",
+        "summary": "Metaforce is a native cross-platform engine port built on the matching Metroid Prime decompilation source. It requires user-supplied game data; the current README says builds are unavailable while the project stabilizes."
+      },
+      "sources": [
+        {
+          "label": "Metaforce README: relationship to PrimeDecomp, platforms, and current build status",
+          "url": "https://github.com/AxioDL/metaforce"
+        },
+        {
+          "label": "Matching Metroid Prime decompilation source",
+          "url": "https://github.com/PrimeDecomp/prime"
+        }
+      ],
+      "evidence_note": "The upstream README names the PrimeDecomp project as the source foundation and currently says builds are unavailable. This source-derived port fits Decompilation in the catalog taxonomy."
+    },
+    {
+      "id": "ectopad-metroid-prime-ios",
+      "fields": {
+        "kind": "Decompilation",
+        "strategy": "iOS integration/port of the Metaforce engine built on Metroid Prime decompilation source; adapts Aurora/Dawn rendering to Metal.",
+        "source_available": "Public source repository; Metaforce/PrimeDecomp lineage; user-supplied game data required; no public IPA documented",
+        "programming_language": "C++",
+        "subtype": "iOS integration of the decompilation-derived Metaforce engine"
+      },
+      "sources": [
+        {
+          "label": "EctoPad README: Metaforce/Aurora engine lineage, source build, and IPA status",
+          "url": "https://github.com/chrissotraidis/ectopad"
+        },
+        {
+          "label": "Metaforce project README",
+          "url": "https://github.com/AxioDL/metaforce"
+        }
+      ],
+      "evidence_note": "EctoPad is an Apple mobile integration of Metaforce rather than a new clean-room implementation; GitHub repository language metadata identifies C++ as its implementation language."
+    },
+    {
+      "id": "ocarina-of-time-shipwright-android",
+      "fields": {
+        "kind": "Decompilation",
+        "strategy": "Android port of Ship of Harkinian, the native engine built from Ocarina of Time decompilation source.",
+        "source_available": "Public source repository and APK releases; user-supplied supported Ocarina of Time ROM required",
+        "subtype": "Android port of a decompilation-derived native engine"
+      },
+      "sources": [
+        {
+          "label": "Shipwright Android README: upstream engine lineage and ROM import",
+          "url": "https://github.com/linkzenic/Shipwright-Android"
+        },
+        {
+          "label": "Ship of Harkinian project README: decompilation-based engine",
+          "url": "https://github.com/HarbourMasters/Shipwright"
+        }
+      ],
+      "evidence_note": "The Android project identifies itself as a port of Ship of Harkinian; upstream states the engine is built from Ocarina of Time decompilation work."
+    },
+    {
+      "id": "ship-of-harkinian-3ds",
+      "fields": {
+        "kind": "Decompilation",
+        "strategy": "Nintendo 3DS port of Ship of Harkinian, the native engine built from Ocarina of Time decompilation source.",
+        "source_available": "Public source repository; user-supplied Ocarina of Time game data required",
+        "subtype": "Nintendo 3DS port of a decompilation-derived native engine"
+      },
+      "sources": [
+        {
+          "label": "3DS project README: Ship of Harkinian port lineage and current status",
+          "url": "https://github.com/999sian/soh-3ds"
+        },
+        {
+          "label": "Ship of Harkinian project README: decompilation-based engine",
+          "url": "https://github.com/HarbourMasters/Shipwright"
+        }
+      ],
+      "evidence_note": "The 3DS repository describes itself as a Ship of Harkinian port; that upstream engine is based on Ocarina of Time decompilation source."
+    },
+    {
+      "id": "ocarina-of-time-ps4-port",
+      "fields": {
+        "kind": "Decompilation",
+        "strategy": "PlayStation 4 port of Ship of Harkinian, the native engine built from Ocarina of Time decompilation source.",
+        "source_available": "Public source repository and PS4 packages; user-supplied Ocarina of Time game data required",
+        "subtype": "PlayStation 4 port of a decompilation-derived native engine"
+      },
+      "sources": [
+        {
+          "label": "PS4 port README: Ship of Harkinian dependency",
+          "url": "https://github.com/alechurri/shipofharkinian-ps4"
+        },
+        {
+          "label": "Ship of Harkinian project README: decompilation-based engine",
+          "url": "https://github.com/HarbourMasters/Shipwright"
+        }
+      ],
+      "evidence_note": "The PS4 repository explicitly identifies Ship of Harkinian as its base; the upstream engine is sourced from the Ocarina of Time decompilation."
+    },
+    {
+      "id": "ocarina-of-time-ps5-port",
+      "fields": {
+        "kind": "Decompilation",
+        "strategy": "PlayStation 5 port of Ship of Harkinian, the native engine built from Ocarina of Time decompilation source.",
+        "source_available": "Public source repository and PS5 packages; user-supplied Ocarina of Time game data required",
+        "subtype": "PlayStation 5 port of a decompilation-derived native engine"
+      },
+      "sources": [
+        {
+          "label": "PS5 port README: Ship of Harkinian dependency and user data",
+          "url": "https://github.com/mshivam019/oot64-ps5"
+        },
+        {
+          "label": "Ship of Harkinian project README: decompilation-based engine",
+          "url": "https://github.com/HarbourMasters/Shipwright"
+        }
+      ],
+      "evidence_note": "The port README identifies Ship of Harkinian as its engine; Ship of Harkinian is built from the matching Ocarina of Time decompilation."
+    },
+    {
+      "id": "majoras-mask-ps4-port",
+      "fields": {
+        "kind": "Decompilation",
+        "strategy": "PlayStation 4 port of 2Ship2Harkinian, the native Majora’s Mask engine built from decompilation source.",
+        "source_available": "Public source repository and PS4 packages; user-supplied Majora’s Mask game data required",
+        "subtype": "PlayStation 4 port of a decompilation-derived native engine"
+      },
+      "sources": [
+        {
+          "label": "PS4 port README: 2Ship2Harkinian dependency",
+          "url": "https://github.com/alechurri/2ship2harkinian-ps4"
+        },
+        {
+          "label": "2Ship2Harkinian upstream repository",
+          "url": "https://github.com/HarbourMasters/2ship2harkinian"
+        }
+      ],
+      "evidence_note": "The PS4 port names 2Ship2Harkinian as its base; that native engine derives from the Majora’s Mask decompilation project."
+    },
+    {
+      "id": "two-ship-two-harkinian-3ds",
+      "fields": {
+        "kind": "Decompilation",
+        "strategy": "Nintendo 3DS port of 2Ship2Harkinian, the native Majora’s Mask engine built from decompilation source.",
+        "source_available": "Public source repository; user-supplied Majora’s Mask game data required",
+        "subtype": "Nintendo 3DS port of a decompilation-derived native engine"
+      },
+      "sources": [
+        {
+          "label": "3DS repository README: 2Ship lineage and development status",
+          "url": "https://github.com/TiBlin/2ship2harkinian-3DS"
+        },
+        {
+          "label": "2Ship2Harkinian upstream repository",
+          "url": "https://github.com/HarbourMasters/2ship2harkinian"
+        }
+      ],
+      "evidence_note": "The 3DS port is based on 2Ship2Harkinian, which is built from Majora’s Mask decompilation work."
+    },
+    {
+      "id": "two-ship-two-harkinian-wiiu",
+      "fields": {
+        "kind": "Decompilation",
+        "strategy": "Wii U port of 2Ship2Harkinian, the native Majora’s Mask engine built from decompilation source.",
+        "source_available": "Public source repository; user-supplied Majora’s Mask game data required",
+        "subtype": "Wii U port of a decompilation-derived native engine"
+      },
+      "sources": [
+        {
+          "label": "Wii U repository README: engine lineage and build target",
+          "url": "https://github.com/HarbourMasters/2ship2harkinian-WiiU"
+        },
+        {
+          "label": "2Ship2Harkinian upstream repository",
+          "url": "https://github.com/HarbourMasters/2ship2harkinian"
+        }
+      ],
+      "evidence_note": "The Wii U repo is a platform port of 2Ship2Harkinian, whose upstream engine is based on the matching Majora’s Mask decompilation."
+    },
+    {
+      "id": "sm64coopnx-switch-port",
+      "fields": {
+        "kind": "Decompilation",
+        "strategy": "Native Nintendo Switch port of sm64coopdx, built on the Super Mario 64 decompilation-derived PC port.",
+        "source_available": "Public source repository; Super Mario 64 decompilation source and user game data required",
+        "subtype": "Nintendo Switch port of a decompilation-derived multiplayer source port"
+      },
+      "sources": [
+        {
+          "label": "sm64coopNX README: sm64coopdx and SM64 decompilation lineage",
+          "url": "https://github.com/KakarottoCake/sm64coopnx"
+        },
+        {
+          "label": "sm64coopdx upstream repository",
+          "url": "https://github.com/coop-deluxe/sm64coopdx"
+        }
+      ],
+      "evidence_note": "The project README traces sm64coopNX through sm64coopdx to the community Super Mario 64 decompilation source; catalog it as Decompilation, not a clean-room engine reimplementation."
+    },
+    {
+      "id": "opengoal-jak-and-daxter",
+      "fields": {
+        "kind": "Decompilation",
+        "strategy": "Recovered GOAL source is compiled with the project’s custom native compiler; this is a decompilation-derived source build.",
+        "source_available": "Public source repository; user-provided original PS2 game files required",
+        "subtype": "Decompilation-derived native source build"
+      },
+      "sources": [
+        {
+          "label": "OpenGOAL README: decompilation, compiler, and user game files",
+          "url": "https://github.com/open-goal/jak-project"
+        }
+      ],
+      "evidence_note": "The README says the project decompiles the original GOAL code and compiles that recovered source with a custom compiler. The catalog taxonomy places projects built from recovered matching source under Decompilation."
+    },
+    {
+      "id": "space-cadet-pinball",
+      "fields": {
+        "kind": "Decompilation",
+        "platform": "Windows PC → Windows/macOS/Linux",
+        "strategy": "Recovered/decompiled C code converted into a compilable C++ implementation.",
+        "source_available": "Public source repository; original Space Cadet or Full Tilt! resource files required and not included",
+        "subtype": "Decompilation-derived native source implementation",
+        "summary": "C++ implementation reconstructed from decompiled Space Cadet pinball code. It requires original Windows or Full Tilt! resource files and documents modern desktop builds."
+      },
+      "sources": [
+        {
+          "label": "SpaceCadetPinball README: decompiled code, resources, and desktop platforms",
+          "url": "https://github.com/k4zmu2a/SpaceCadetPinball"
+        }
+      ],
+      "evidence_note": "The maintainer says the subsystems were decompiled and C pseudocode was converted to compilable C++; that recovered code lineage fits Decompilation in the catalog taxonomy."
+    },
+    {
+      "id": "corsixth",
+      "fields": {
+        "source_available": "Public source repository; original Theme Hospital game data required",
+        "subtype": "Lua game engine reimplementation"
+      },
+      "sources": [
+        {
+          "label": "CorsixTH README: reimplementation method and required game data",
+          "url": "https://github.com/CorsixTH/CorsixTH"
+        }
+      ],
+      "evidence_note": "The README describes CorsixTH as a reimplementation and states that it uses files from the original game; the source is publicly available."
+    },
+    {
+      "id": "daggerfall-unity",
+      "fields": {
+        "source_available": "Public source repository and releases; original Daggerfall data required or obtainable through the documented free-game distribution",
+        "subtype": "Unity-based game engine reimplementation"
+      },
+      "sources": [
+        {
+          "label": "Daggerfall Unity README: project type, data setup, and distribution",
+          "url": "https://github.com/Interkarma/daggerfall-unity"
+        }
+      ],
+      "evidence_note": "The maintainer describes Daggerfall Unity as a Unity recreation and documents game-data setup; the source is publicly available."
+    },
+    {
+      "id": "devilutionx",
+      "fields": {
+        "source_available": "Public source repository; original Diablo or Hellfire game data required",
+        "subtype": "Cross-platform reverse-engineered engine reimplementation"
+      },
+      "sources": [
+        {
+          "label": "DevilutionX README: reverse-engineered engine and data requirements",
+          "url": "https://github.com/diasurgical/DevilutionX"
+        }
+      ],
+      "evidence_note": "The upstream README describes a cross-platform reverse-engineered game implementation and says users provide original game files."
+    },
+    {
+      "id": "openmw",
+      "fields": {
+        "source_available": "Public source repository; original Morrowind game data required",
+        "subtype": "Open-world RPG engine reimplementation"
+      },
+      "sources": [
+        {
+          "label": "OpenMW README: engine scope and original game-data requirement",
+          "url": "https://github.com/OpenMW/openmw"
+        }
+      ],
+      "evidence_note": "The README identifies OpenMW as an engine reimplementation and directs users to provide Morrowind data."
+    },
+    {
+      "id": "openra",
+      "fields": {
+        "source_available": "Public source repository; mod assets are supplied through OpenRA installers or user-owned game data depending on the title",
+        "subtype": "Cross-platform RTS engine reimplementation with game-specific mods"
+      },
+      "sources": [
+        {
+          "label": "OpenRA README: game mods, supported operating systems, and asset setup",
+          "url": "https://github.com/OpenRA/OpenRA"
+        }
+      ],
+      "evidence_note": "OpenRA describes a shared C# engine and game-specific mods; asset availability and setup differ by mod, so the source-availability note avoids implying every game’s data is bundled."
+    },
+    {
+      "id": "openrct2",
+      "fields": {
+        "source_available": "Public source repository; original RollerCoaster Tycoon 2 game files required",
+        "subtype": "Engine reimplementation and expansion"
+      },
+      "sources": [
+        {
+          "label": "OpenRCT2 README: project scope and original game-file setup",
+          "url": "https://github.com/OpenRCT2/OpenRCT2"
+        }
+      ],
+      "evidence_note": "The upstream README describes OpenRCT2 as an open-source reimplementation and documents the need for original game files."
+    },
+    {
+      "id": "openxcom",
+      "fields": {
+        "source_available": "Public source repository; original UFO: Enemy Unknown / X-COM and Terror from the Deep resources required",
+        "subtype": "C++/SDL engine reimplementation for two classic X-COM games"
+      },
+      "sources": [
+        {
+          "label": "OpenXcom README: supported games and resource-file requirement",
+          "url": "https://github.com/OpenXcom/OpenXcom"
+        }
+      ],
+      "evidence_note": "The README documents OpenXcom as an open-source clone for the two original X-COM games and explains that resource files come from the user’s copies."
+    },
+    {
+      "id": "aleph-one-marathon",
+      "fields": {
+        "programming_language": "C++",
+        "source_available": "Public source repository; scenario data is required for full game content",
+        "subtype": "Multi-title native engine continuation and source port"
+      },
+      "sources": [
+        {
+          "label": "Aleph One README: engine scope, supported titles, and scenario data",
+          "url": "https://github.com/Aleph-One-Marathon/alephone"
+        },
+        {
+          "label": "GitHub repository language metadata",
+          "url": "https://api.github.com/repos/Aleph-One-Marathon/alephone"
+        }
+      ],
+      "evidence_note": "The upstream README describes the Marathon engine continuation and titles supported; GitHub repository language metadata lists C++ as the predominant language."
+    },
+    {
+      "id": "zelda3-android",
+      "fields": {
+        "programming_language": "C/C++",
+        "source_available": "Public Android port source; asset extraction from a user-owned A Link to the Past ROM is required",
+        "subtype": "Android app port of the native Zelda3 C reimplementation"
+      },
+      "sources": [
+        {
+          "label": "Android port README: upstream Zelda3 lineage and ROM asset extraction",
+          "url": "https://github.com/Waterdish/zelda3-android"
+        },
+        {
+          "label": "Upstream Zelda3 reimplementation README",
+          "url": "https://github.com/snesrev/zelda3"
+        },
+        {
+          "label": "GitHub repository language metadata",
+          "url": "https://api.github.com/repos/Waterdish/zelda3-android"
+        }
+      ],
+      "evidence_note": "The Android repository is a platform integration of snesrev/zelda3, whose upstream calls itself a C reimplementation; language metadata for the Android repository shows C and C++ sources."
+    },
+    {
+      "id": "morrowind-openmw-android",
+      "fields": {
+        "source_available": "Public community fork of OpenMW 0.51; user-supplied Morrowind game data required",
+        "subtype": "Community Android/ChromeOS fork of the OpenMW engine"
+      },
+      "sources": [
+        {
+          "label": "OpenMW Android README: OpenMW version, supported devices, and game-data requirement",
+          "url": "https://github.com/Andiweli/OpenMW-Android"
+        }
+      ],
+      "evidence_note": "The fork README identifies its OpenMW 0.51 base and documents that the user supplies Morrowind data; the PowerShell repository-language classification is packaging metadata and was not changed."
+    }
+  ]
+}

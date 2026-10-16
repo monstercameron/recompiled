@@ -1,0 +1,189 @@
+{
+  "updated": "2026-10-15",
+  "projects": [
+    {
+      "id": "wii-sports-decomp",
+      "title": "Wii Sports Decompilation",
+      "game": "Wii Sports",
+      "target_type": "Game",
+      "platform": "Nintendo Wii",
+      "kind": "Decompilation",
+      "status": "Work in progress; the matching decompilation targets U.S. revision 1. The repository excludes game assets and assembly, and a user copy is required.",
+      "summary": "Matching source reconstruction for Wii Sports U.S. revision 1 (RSPE01_01). The README gives the supported revision and SHA-1, and states that the repository contains neither game assets nor assembly.",
+      "project_url": "https://github.com/doldecomp/ogws",
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "strategy": "Matching decompilation",
+      "source_available": "Public source repository; game assets and assembly are not included; original game copy required",
+      "programming_language": "C",
+      "subtype": "Matching decompilation of Wii Sports U.S. revision 1",
+      "sources": [
+        {
+          "label": "Project README (matching method, supported revision, and source requirements)",
+          "url": "https://github.com/doldecomp/ogws#readme"
+        }
+      ]
+    },
+    {
+      "id": "kirby-air-ride-decomp",
+      "title": "Kirby Air Ride Decompilation",
+      "game": "Kirby Air Ride",
+      "target_type": "Game",
+      "platform": "Nintendo GameCube",
+      "kind": "Decompilation",
+      "status": "Work in progress; the README identifies the U.S./Korean main.dol target and provides a build workflow, with no completion percentage stated.",
+      "summary": "A GameCube decompilation project for the U.S./Korean release of Kirby Air Ride. The README documents a main.dol build and requires a clean game DOL plus GameCube SDK/compiler files.",
+      "project_url": "https://github.com/doldecomp/kar",
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "strategy": "Source decompilation; matching status not stated",
+      "source_available": "Public source repository; a clean game DOL and GameCube SDK/compiler files are required for the documented build",
+      "programming_language": "",
+      "subtype": "GameCube main.dol decompilation (U.S./Korean release)",
+      "sources": [
+        {
+          "label": "Project README (target, status, and build requirements)",
+          "url": "https://github.com/doldecomp/kar#readme"
+        }
+      ]
+    },
+    {
+      "id": "the-incredibles-gamecube-decomp",
+      "title": "The Incredibles GameCube Decompilation",
+      "game": "The Incredibles",
+      "target_type": "Game",
+      "platform": "Nintendo GameCube",
+      "kind": "Decompilation",
+      "status": "Work in progress; the README documents a main.dol build for the U.S. release and does not publish a completion estimate.",
+      "summary": "A decompilation of The Incredibles for GameCube U.S. release. The repository documents a main.dol build; an original main.dol is optional for build-diff inspection.",
+      "project_url": "https://github.com/seilc/incredibles",
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "strategy": "Source decompilation; matching status not stated",
+      "source_available": "Public source repository; original main.dol is optional for diff inspection",
+      "programming_language": "C++",
+      "subtype": "GameCube main.dol decompilation (U.S. release)",
+      "sources": [
+        {
+          "label": "Project README (target, status, and build requirements)",
+          "url": "https://github.com/seilc/incredibles#readme"
+        }
+      ]
+    },
+    {
+      "id": "smt-snes-jp10-disassembly",
+      "title": "Shin Megami Tensei SNES Japanese 1.0 Disassembly",
+      "game": "Shin Megami Tensei (Super Famicom, Japan 1.0)",
+      "target_type": "Game",
+      "platform": "Super Nintendo Entertainment System (SNES)",
+      "kind": "Decompilation",
+      "status": "Far from complete; the maintainer describes the published Japanese 1.0 disassembly as incomplete.",
+      "summary": "An incomplete 65816 assembly disassembly of the Japanese 1.0 Super Famicom release of Shin Megami Tensei, with address labels and notes about stale references and reverse-engineered routines.",
+      "project_url": "https://github.com/spannerisms/smt1dasm",
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "strategy": "65816 assembly disassembly",
+      "source_available": "Public source repository",
+      "programming_language": "65816 assembly",
+      "subtype": "Partial Japanese 1.0 65816 assembly disassembly",
+      "sources": [
+        {
+          "label": "Project README (target revision, disassembly method, and completeness)",
+          "url": "https://github.com/spannerisms/smt1dasm#readme"
+        }
+      ]
+    },
+    {
+      "id": "arcana-snes-disassembly",
+      "title": "Arcana SNES Disassembly",
+      "game": "Arcana",
+      "target_type": "Game",
+      "platform": "Super Nintendo Entertainment System (SNES)",
+      "kind": "Decompilation",
+      "status": "Published 65c816 assembly disassembly; the README maps the bank files and DiztinGUIsh project but does not state completeness or byte-exact build status.",
+      "summary": "A bank-organized 65c816 assembly disassembly of the SNES game Arcana. The repository includes the project file and source files for game code, data, graphics, text, and audio banks.",
+      "project_url": "https://github.com/SarahShinespark/arcana-disassembly",
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "strategy": "65816 assembly disassembly",
+      "source_available": "Public source repository",
+      "programming_language": "65816 assembly",
+      "subtype": "DiztinGUIsh-backed banked assembly disassembly",
+      "sources": [
+        {
+          "label": "Project README (file map and disassembly scope)",
+          "url": "https://github.com/SarahShinespark/arcana-disassembly#readme"
+        }
+      ]
+    },
+    {
+      "id": "adventure-island-nes-disassembly",
+      "title": "Adventure Island NES Disassembly",
+      "game": "Adventure Island",
+      "target_type": "Game",
+      "platform": "Nintendo Entertainment System (NES)",
+      "kind": "Decompilation",
+      "status": "Listed by the repository under “Disassembled”; the README says listed source code compiles to the original ROM.",
+      "summary": "A game-specific source entry in a public multi-game NES disassembly collection. The maintainer lists Adventure Island among the disassembled titles and says each listed source is compilable and equal to its original ROM.",
+      "project_url": "https://github.com/cyneprepou4uk/NES-Games-Disassembly",
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "strategy": "Byte-identical 6502 assembly disassembly",
+      "source_available": "Public source repository",
+      "programming_language": "6502 assembly",
+      "subtype": "NES 6502 ROM-matching disassembly",
+      "sources": [
+        {
+          "label": "Collection README (disassembled-title list and build claim)",
+          "url": "https://github.com/cyneprepou4uk/NES-Games-Disassembly#readme"
+        }
+      ]
+    },
+    {
+      "id": "castlevania-iii-nes-disassembly",
+      "title": "Castlevania III NES Disassembly",
+      "game": "Castlevania III: Dracula’s Curse",
+      "target_type": "Game",
+      "platform": "Nintendo Entertainment System (NES)",
+      "kind": "Decompilation",
+      "status": "Listed by the repository under “Disassembled”; the README says listed source code compiles to the original ROM.",
+      "summary": "A game-specific source entry in a public multi-game NES disassembly collection. The maintainer lists Castlevania III among the disassembled titles and says each listed source is compilable and equal to its original ROM.",
+      "project_url": "https://github.com/cyneprepou4uk/NES-Games-Disassembly",
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "strategy": "Byte-identical 6502 assembly disassembly",
+      "source_available": "Public source repository",
+      "programming_language": "6502 assembly",
+      "subtype": "NES 6502 ROM-matching disassembly",
+      "sources": [
+        {
+          "label": "Collection README (disassembled-title list and build claim)",
+          "url": "https://github.com/cyneprepou4uk/NES-Games-Disassembly#readme"
+        }
+      ]
+    },
+    {
+      "id": "felix-the-cat-nes-disassembly",
+      "title": "Felix the Cat NES Disassembly",
+      "game": "Felix the Cat",
+      "target_type": "Game",
+      "platform": "Nintendo Entertainment System (NES)",
+      "kind": "Decompilation",
+      "status": "Listed by the repository under “Disassembled”; the README says listed source code compiles to the original ROM.",
+      "summary": "A game-specific source entry in a public multi-game NES disassembly collection. The maintainer lists Felix the Cat among the disassembled titles and says each listed source is compilable and equal to its original ROM.",
+      "project_url": "https://github.com/cyneprepou4uk/NES-Games-Disassembly",
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "strategy": "Byte-identical 6502 assembly disassembly",
+      "source_available": "Public source repository",
+      "programming_language": "6502 assembly",
+      "subtype": "NES 6502 ROM-matching disassembly",
+      "sources": [
+        {
+          "label": "Collection README (disassembled-title list and build claim)",
+          "url": "https://github.com/cyneprepou4uk/NES-Games-Disassembly#readme"
+        }
+      ]
+    }
+  ]
+}

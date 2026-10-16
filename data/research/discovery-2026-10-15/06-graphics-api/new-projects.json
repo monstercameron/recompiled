@@ -1,0 +1,258 @@
+{
+  "updated": "2026-10-15",
+  "scope": "Primary-source reviewed graphics/API translation layers missing from the catalog; APIs, implementation method, status, platform/hardware requirements, language/source availability, and release dates are recorded where maintainers document them.",
+  "projects": [
+    {
+      "id": "gl4es",
+      "title": "GL4ES",
+      "game": "OpenGL applications and games targeting embedded/mobile graphics (multi-title)",
+      "target_type": "Software",
+      "platform": "OpenGL 2.1/1.5 → OpenGL ES 2.0/1.1; Linux, Android, Emscripten, AmigaOS 4 and listed ARM single-board systems",
+      "kind": "API Translation",
+      "status": "Active; the maintainer describes it as a desktop OpenGL-to-OpenGL ES translation library; repository updated 2026-10-14.",
+      "summary": "Translates legacy desktop OpenGL calls to OpenGL ES for systems whose drivers expose OpenGL ES rather than desktop OpenGL. It is used by applications and ports, not a game emulator.",
+      "project_url": "https://github.com/ptitSeb/gl4es",
+      "updated": "2026-10-15",
+      "strategy": "Desktop OpenGL API translation to OpenGL ES",
+      "source_available": "Public source repository (MIT license)",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Graphics API compatibility library",
+      "sources": [
+        {
+          "label": "Maintainer repository and README: API direction, platform support, and project status",
+          "url": "https://github.com/ptitSeb/gl4es"
+        }
+      ]
+    },
+    {
+      "id": "mesa-d3d12-gallium",
+      "title": "Mesa Gallium D3D12 Driver",
+      "game": "OpenGL applications in WSL and systems with Direct3D 12 support (multi-title)",
+      "target_type": "Software",
+      "platform": "OpenGL 3.3 → Microsoft Direct3D 12; primarily Linux applications in WSL/WSLg using a Windows D3D12 GPU driver",
+      "kind": "API Translation",
+      "status": "Mesa documents this as an active Gallium driver that emits Direct3D 12 calls to provide desktop OpenGL 3.3, including as the WSLg graphics acceleration path.",
+      "summary": "A Mesa Gallium driver that emits Direct3D 12 calls rather than targeting a specific GPU architecture. Microsoft and Mesa document it as the OpenGL acceleration path for Linux GUI applications under WSLg when the Windows GPU driver supports WSL virtualization.",
+      "project_url": "https://gitlab.freedesktop.org/mesa/mesa",
+      "updated": "2026-10-15",
+      "strategy": "Mesa Gallium OpenGL frontend mapped to Direct3D 12",
+      "source_available": "Public Mesa source repository (component licenses vary)",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "OpenGL-on-Direct3D 12 Gallium driver",
+      "sources": [
+        {
+          "label": "Mesa D3D12 driver documentation: API target and OpenGL support",
+          "url": "https://docs.mesa3d.org/drivers/d3d12.html"
+        },
+        {
+          "label": "Microsoft WSLg documentation: D3D12-backed Mesa OpenGL acceleration",
+          "url": "https://github.com/microsoft/wslg"
+        }
+      ]
+    },
+    {
+      "id": "mesa-kosmickrisp",
+      "title": "KosmicKrisp",
+      "game": "Vulkan applications on Apple Silicon Macs (multi-title)",
+      "target_type": "Software",
+      "platform": "Vulkan 1.4 → Metal 4; macOS 26 or newer on Apple Silicon",
+      "kind": "API Translation",
+      "status": "Khronos-conformant Vulkan 1.4 Mesa driver as of 2026-10-01; requires Apple Silicon, Metal 4, and macOS 26 or newer.",
+      "summary": "A Mesa Vulkan driver layered on Apple Metal for Apple Silicon Macs. Khronos reports that it passed Vulkan 1.4 conformance testing on 2026-10-01; the Vulkan SDK distributes a conformant build.",
+      "project_url": "https://gitlab.freedesktop.org/mesa/mesa",
+      "updated": "2026-10-15",
+      "strategy": "Vulkan driver implementation on top of Metal 4",
+      "source_available": "Public Mesa source repository (MIT/X11 and other component licenses)",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Vulkan-on-Metal Mesa driver",
+      "sources": [
+        {
+          "label": "Mesa KosmicKrisp documentation: API, OS, and hardware requirements",
+          "url": "https://docs.mesa3d.org/drivers/kosmickrisp.html"
+        },
+        {
+          "label": "Khronos conformance announcement: Vulkan 1.4 status and date",
+          "url": "https://www.khronos.org/news/permalink/kosmickrisp-achieves-vulkan-1.4-conformance-on-apple-silicon"
+        }
+      ]
+    },
+    {
+      "id": "dxgl",
+      "title": "DXGL",
+      "game": "DirectDraw and Direct3D 7-era games (multi-title)",
+      "target_type": "Software",
+      "platform": "DirectDraw/Direct3D 7-era calls → OpenGL; Windows 10 or newer standard build, Windows XP SP3 or newer legacy build; also usable under Wine",
+      "kind": "API Translation",
+      "status": "Active; 0.5.28 was released 2026-10-14. The README says the 0.6.0-dev branch is nonfunctional and directs users to 0.5.x; DirectDraw 1–7 support is partial and 3D remains incomplete.",
+      "summary": "A DirectDraw replacement wrapper that maps legacy 2D and some 3D API behavior to OpenGL. The maintainer lists OpenGL 2.0 with framebuffer-object and non-power-of-two texture support as the minimum, recommends OpenGL 3.2+, and requires SSE2 for the standard build.",
+      "project_url": "https://github.com/dxgldotorg/dxgl",
+      "updated": "2026-10-15",
+      "strategy": "Legacy DirectDraw/Direct3D calls wrapped over OpenGL",
+      "source_available": "Public source repository (LGPL-2.1)",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C/C++",
+      "subtype": "Windows graphics API wrapper",
+      "sources": [
+        {
+          "label": "Maintainer README: API coverage, branch caveat, and hardware/OS requirements",
+          "url": "https://github.com/dxgldotorg/dxgl"
+        },
+        {
+          "label": "Maintainer release 0.5.28 (2026-10-14)",
+          "url": "https://github.com/dxgldotorg/dxgl/releases/tag/0.5.28"
+        }
+      ]
+    },
+    {
+      "id": "cnc-ddraw",
+      "title": "cnc-ddraw",
+      "game": "Classic DirectDraw software-rendered 2D games (multi-title)",
+      "target_type": "Software",
+      "platform": "DirectDraw software-renderer API → GDI, OpenGL, or Direct3D 9; Windows ME through Windows 11 and Wine on Linux/macOS/Android",
+      "kind": "API Translation",
+      "status": "Active source repository; the maintainer lists Windows ME/2000/XP through Windows 11 and Wine hosts. Formal release page and current source activity differ, so no latest numbered release is claimed here.",
+      "summary": "A DirectDraw API reimplementation with selectable GDI, OpenGL, and Direct3D 9 output backends for classic 2D software-rendered games. The project explicitly says it does not support games that render through Direct3D.",
+      "project_url": "https://github.com/FunkyFr3sh/cnc-ddraw",
+      "updated": "2026-10-15",
+      "strategy": "DirectDraw API reimplementation with GDI/OpenGL/Direct3D 9 renderers",
+      "source_available": "Public source repository (MIT license)",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C/C++",
+      "subtype": "DirectDraw compatibility wrapper for 2D games",
+      "sources": [
+        {
+          "label": "Maintainer README: renderer choices, supported systems, and Direct3D-game limitation",
+          "url": "https://github.com/FunkyFr3sh/cnc-ddraw"
+        },
+        {
+          "label": "Maintainer release history",
+          "url": "https://github.com/FunkyFr3sh/cnc-ddraw/releases"
+        }
+      ]
+    },
+    {
+      "id": "dgvoodoo2",
+      "title": "dgVoodoo2",
+      "game": "Legacy Glide and DirectX applications/games (multi-title)",
+      "target_type": "Software",
+      "platform": "Glide 2/3, DirectX 1–7, Direct3D 8.1/9 → Direct3D 11/12 or Microsoft WARP; Windows 7 or newer",
+      "kind": "API Translation",
+      "status": "Active proprietary wrapper; maintainer README identifies version 2.87.5, re-released 2026-09-15. Output options include D3D feature levels 10.0, 10.1, 11.0, 12.0 and WARP software rendering, with documented limitations on older feature levels.",
+      "summary": "Implements legacy Glide and DirectX graphics interfaces over modern Direct3D 11/12 for old Windows software. This is a graphics-API compatibility wrapper, not a whole-system emulator; the implementation source is not published.",
+      "project_url": "https://dege.fw.hu/dgVoodoo2/",
+      "updated": "2026-10-15",
+      "strategy": "Legacy graphics API implementations over Direct3D 11/12 or WARP",
+      "source_available": "Proprietary; maintainer provides binary packages and documentation, no source repository",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "Proprietary Windows graphics API wrapper",
+      "sources": [
+        {
+          "label": "Maintainer dgVoodoo2 readme: APIs, output backends, Windows support, and current version",
+          "url": "https://dege.fw.hu/dgVoodoo2/ReadmeGeneral/"
+        },
+        {
+          "label": "Maintainer project page",
+          "url": "https://dege.fw.hu/dgVoodoo2/"
+        }
+      ]
+    },
+    {
+      "id": "nglide",
+      "title": "nGlide",
+      "game": "3dfx Glide applications and games (multi-title)",
+      "target_type": "Software",
+      "platform": "Glide 2.11/2.60/3.10 → Direct3D or Vulkan; Windows XP/7/8/10/11, with a DirectX 9.0- or Vulkan 1.0-capable GPU",
+      "kind": "API Translation",
+      "status": "The developer currently lists freeware version 2.10 and supports Glide 2.11/2.60/3.10 through Direct3D or Vulkan. The developer announced the first public release, version 0.90, on 2009-11-07.",
+      "summary": "A Windows Glide wrapper for running applications written for 3dfx Glide without a Voodoo graphics card. It accepts three Glide DLL/API versions and renders through Direct3D or Vulkan; DOS Glide use requires a separately patched DOSBox build.",
+      "project_url": "https://www.zeus-software.com/downloads/nglide",
+      "updated": "2026-10-15",
+      "strategy": "Glide API wrapper over Direct3D or Vulkan",
+      "source_available": "Proprietary freeware; binary downloads and documentation only",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "Proprietary Windows Glide wrapper",
+      "sources": [
+        {
+          "label": "Developer nGlide page: Glide versions, backends, OS/GPU requirements, and version",
+          "url": "https://www.zeus-software.com/downloads/nglide"
+        },
+        {
+          "label": "Developer announcement of first public release (2009-11-07)",
+          "url": "https://www.zeus-software.com/forum/viewtopic.php?p=10"
+        }
+      ]
+    },
+    {
+      "id": "wine-nine-standalone",
+      "title": "Gallium Nine Standalone",
+      "game": "Direct3D 9 applications and games under Wine (multi-title)",
+      "target_type": "Software",
+      "platform": "Direct3D 9 → Mesa Gallium driver; Linux through Wine; requires a Gallium-based Mesa driver and Mesa Nine state tracker",
+      "kind": "API Translation",
+      "status": "Latest listed release is v0.10 (2024-10-06); current maintenance status is unclear. It implements the Wine side of Gallium Nine and relies on Mesa’s D3D9 frontend and a compatible Gallium driver.",
+      "summary": "A standalone Wine component that exposes the Mesa Gallium Nine Direct3D 9 implementation to stock Wine without patched Wine builds. It bypasses WineD3D’s traditional D3D9-to-OpenGL path; DRI3 is the preferred lower-overhead backend and DRI2 is documented as a fallback.",
+      "project_url": "https://github.com/iXit/wine-nine-standalone",
+      "updated": "2026-10-15",
+      "strategy": "Wine D3D9 interface connected directly to Mesa Gallium Nine",
+      "source_available": "Public source repository (LGPL-2.1)",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Wine D3D9 integration for Mesa Gallium Nine",
+      "sources": [
+        {
+          "label": "Maintainer README: integration model, requirements, and backends",
+          "url": "https://github.com/iXit/wine-nine-standalone/blob/main/README.rst"
+        },
+        {
+          "label": "Maintainer v0.10 release (2024-10-06)",
+          "url": "https://github.com/iXit/wine-nine-standalone/releases/tag/v0.10"
+        },
+        {
+          "label": "Mesa documentation for the Nine Direct3D 9 frontend",
+          "url": "https://idr.pages.freedesktop.org/mesa/gallium-nine.html"
+        }
+      ]
+    },
+    {
+      "id": "valve-togl",
+      "title": "Valve ToGL",
+      "game": "Direct3D 9 rendering in Valve Source 1 software (multi-title)",
+      "target_type": "Software",
+      "platform": "Limited Direct3D 9.0c subset → OpenGL; used by Valve Source 1 rendering paths on Linux/macOS, but the public repository is an unsupported source dump",
+      "kind": "API Translation",
+      "status": "Public source dump; Valve says it supports only a limited D3D9 subset, has some Shader Model 3 support, is supplied as-is, and most likely will not build by itself.",
+      "summary": "Valve’s ToGL is a Direct3D-to-OpenGL abstraction layer with a bytecode-level HLSL-to-GLSL translator. The public code came from the Dota 2 source tree and contains Source Engine-specific behavior, so it should not be treated as a general, ready-to-build D3D9 translator.",
+      "project_url": "https://github.com/ValveSoftware/ToGL",
+      "updated": "2026-10-15",
+      "strategy": "Limited D3D9 interface and shader bytecode translation to OpenGL",
+      "source_available": "Public source dump (Valve license file; unsupported and may not build)",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Source Engine graphics translation layer",
+      "sources": [
+        {
+          "label": "Valve project README: API scope, shader limitations, and support caveat",
+          "url": "https://github.com/ValveSoftware/ToGL"
+        },
+        {
+          "label": "Valve developer’s release note: original Source-engine use and platform context",
+          "url": "https://richg42.blogspot.com/2014/03/togl-d3d9-opengl-layer-source-release.html"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "updated": "2026-10-15",
+  "projects": [
+    {
+      "id": "parappa-2-ps2-decomp",
+      "title": "PaRappa the Rapper 2 Decompilation",
+      "game": "PaRappa the Rapper 2",
+      "target_type": "Game",
+      "platform": "PlayStation 2",
+      "kind": "Decompilation",
+      "status": "Work in progress; currently targets the July 12 NTSC-J prototype. The README lists separate Emotion Engine and IOP workstreams and does not claim a completed matching executable.",
+      "summary": "A matching decompilation of the PS2 game, currently targeting the July 12 NTSC-J prototype. The public repository tracks Emotion Engine and IOP modules; game data must be supplied from the user's own copy.",
+      "project_url": "https://github.com/parappadev/parappa2",
+      "updated": "2026-10-15",
+      "strategy": "Matching decompilation",
+      "language": "",
+      "source_available": "Public source repository; user-supplied game data required",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "PlayStation 2 matching decompilation",
+      "sources": [
+        {
+          "label": "Project README: target build and progress structure",
+          "url": "https://github.com/parappadev/parappa2#readme"
+        },
+        {
+          "label": "Project decompilation guide",
+          "url": "https://github.com/parappadev/parappa2/blob/main/docs/decompilation.md"
+        }
+      ]
+    },
+    {
+      "id": "haunting-ground-ps2-openhuey",
+      "title": "Haunting Ground Decompilation and Native PC Port (OpenHuey)",
+      "game": "Haunting Ground",
+      "target_type": "Game",
+      "platform": "PlayStation 2 → PC",
+      "kind": "Decompilation",
+      "status": "The README reports a working title, rooms, cutscenes, gameplay, saving/loading, and endings. About 20 story-script commands and the Hewie-play mode remain unfinished.",
+      "summary": "The project functionally decompiles Haunting Ground's PS2 code to C and runs it natively on PC with a PC renderer. An actor-oriented Forth rewrite is also under development. The build requires the US executable SLUS_210.75 and user-supplied game data; neither is included.",
+      "project_url": "https://github.com/ArnautDaniel/OpenHuey",
+      "updated": "2026-10-15",
+      "strategy": "Functional decompilation with a native PC runtime",
+      "language": "",
+      "source_available": "Public source repository; original executable and game data required",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C and Forth",
+      "subtype": "PS2 decompilation-based native PC port",
+      "sources": [
+        {
+          "label": "OpenHuey README: method, supported game build, and current status",
+          "url": "https://github.com/ArnautDaniel/OpenHuey#readme"
+        },
+        {
+          "label": "Decompilation build and workflow guide",
+          "url": "https://github.com/ArnautDaniel/OpenHuey/blob/main/docs/decomp.md"
+        }
+      ]
+    },
+    {
+      "id": "spider-man-2-ps2-recomp",
+      "title": "Spider-Man 2 PS2 Recompilation",
+      "game": "Spider-Man 2 (PlayStation 2 version)",
+      "target_type": "Game",
+      "platform": "PlayStation 2 → Windows x64",
+      "kind": "Recompilation",
+      "status": "Not playable yet. The README reports that the current Windows build boots through the initial blockers and renders the memory-card warning and game logos; legal-splash text and rendering work remain.",
+      "summary": "Experimental static recompilation of the USA PS2 release SLUS-20776. The public source includes recompiler/runtime code, tests, and Ghidra scripts. The game executable, disc image, assets, and generated game code are excluded and must be supplied or generated locally from the user's own disc.",
+      "project_url": "https://github.com/saltyboosack-blip/Spider-Man-2-PS2-Recomp",
+      "updated": "2026-10-15",
+      "strategy": "Static PlayStation 2 recompilation",
+      "language": "",
+      "source_available": "Public source repository; user-supplied legal game files required",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "PS2 Emotion Engine static recompilation",
+      "sources": [
+        {
+          "label": "Project README: target release, build requirements, and non-playable status",
+          "url": "https://github.com/saltyboosack-blip/Spider-Man-2-PS2-Recomp#readme"
+        },
+        {
+          "label": "Maintainer handoff: current implementation checkpoint",
+          "url": "https://github.com/saltyboosack-blip/Spider-Man-2-PS2-Recomp/blob/main/docs/HANDOFF.md"
+        }
+      ]
+    },
+    {
+      "id": "burnout-3-ps2-recomp",
+      "title": "Burnout 3: Takedown PS2 Recompilation for PC",
+      "game": "Burnout 3: Takedown (PlayStation 2 version)",
+      "target_type": "Game",
+      "platform": "PlayStation 2 NTSC-U (SLUS-21050) → Windows x64",
+      "kind": "Recompilation",
+      "status": "Alpha PC port. The README describes native operation across menus, races, crash mode, career, and saves; it requires the user's own NTSC-U disc image.",
+      "summary": "Translates the PS2 game's program to C++ and compiles it for Windows, with a Vulkan renderer, widescreen, and PC settings. The repository and releases exclude game content; users provide their own SLUS-21050 disc image.",
+      "project_url": "https://github.com/danielgomesvieira2000/burnout3-pc",
+      "updated": "2026-10-15",
+      "strategy": "Static recompilation of PS2 game code to native C++",
+      "language": "",
+      "source_available": "Public source repository; user-supplied game disc required; no game content included",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "PS2-to-Windows game recompilation",
+      "sources": [
+        {
+          "label": "Project README: supported disc, implementation, alpha status, and features",
+          "url": "https://github.com/danielgomesvieira2000/burnout3-pc#readme"
+        },
+        {
+          "label": "Project releases",
+          "url": "https://github.com/danielgomesvieira2000/burnout3-pc/releases"
+        }
+      ]
+    },
+    {
+      "id": "virtua-tennis-dreamcast-decomp",
+      "title": "Virtua Tennis Dreamcast Decompilation",
+      "game": "Virtua Tennis",
+      "target_type": "Game",
+      "platform": "Sega Dreamcast",
+      "kind": "Decompilation",
+      "status": "Work in progress. The README reports equivalent C for 417 of 3,280 functions (12.7%), no matching C functions yet, and 1,033 named functions for the USA MK-51054 v1.001 build.",
+      "summary": "Dreamcast decompilation and rebuild tools for the USA release MK-51054 v1.001. Functionally equivalent C is tested against the original; byte-matching is a further goal. Setup requires the user's own disc and Katana SDK, and refuses other releases.",
+      "project_url": "https://github.com/consolesplayingconsoles/virtua-tennis-decomp",
+      "updated": "2026-10-15",
+      "strategy": "Functional-equivalence decompilation with byte-matching as a further goal",
+      "language": "",
+      "source_available": "Public source repository; user-supplied Dreamcast disc and Katana SDK required",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C and Python",
+      "subtype": "Dreamcast functional decompilation",
+      "sources": [
+        {
+          "label": "Project README: supported release, method, requirements, and progress report",
+          "url": "https://github.com/consolesplayingconsoles/virtua-tennis-decomp#readme"
+        },
+        {
+          "label": "Project source repository",
+          "url": "https://github.com/consolesplayingconsoles/virtua-tennis-decomp"
+        }
+      ]
+    },
+    {
+      "id": "crazy-taxi-dreamcast-decomp",
+      "title": "Crazy Taxi Dreamcast Decompilation",
+      "game": "Crazy Taxi",
+      "target_type": "Game",
+      "platform": "Sega Dreamcast",
+      "kind": "Decompilation",
+      "status": "Work in progress. The README reports equivalent C for 443 of 2,827 functions (15.7%) and eight matching functions for the European MK-51035 v1.000 build.",
+      "summary": "A Dreamcast decompilation with function-by-function behavioral tests and a byte-matching rebuild goal. The current supported release is the European English/Japanese MK-51035 v1.000 build; setup refuses other revisions. Game-derived files are generated locally from the user's own disc.",
+      "project_url": "https://github.com/consolesplayingconsoles/crazy-taxi-decomp",
+      "updated": "2026-10-15",
+      "strategy": "Functional-equivalence decompilation with byte-matching units",
+      "language": "",
+      "source_available": "Public source repository; game-derived files generated from the user's own Dreamcast disc",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C and Python",
+      "subtype": "Dreamcast functional decompilation",
+      "sources": [
+        {
+          "label": "Project README: supported release, method, requirements, and progress report",
+          "url": "https://github.com/consolesplayingconsoles/crazy-taxi-decomp#readme"
+        },
+        {
+          "label": "Project source repository",
+          "url": "https://github.com/consolesplayingconsoles/crazy-taxi-decomp"
+        }
+      ]
+    },
+    {
+      "id": "castlevania-chronicles-ps1-recomp",
+      "title": "Castlevania Chronicles PS1 Recompilation",
+      "game": "Castlevania Chronicles",
+      "target_type": "Game",
+      "platform": "PlayStation → Windows x64, macOS Apple Silicon, Linux x64",
+      "kind": "Recompilation",
+      "status": "v0.3.10 released; full-game compatibility remains under test. The README says all eight stage overlays are registered but explicitly does not treat that as a full playthrough validation.",
+      "summary": "A desktop recompilation of the USA PlayStation release SLUS-01384, with v0.3.10 packages for Windows x64, macOS Apple Silicon, and Linux x64. The project uses RecompOne; users provide their own CUE/BIN or CHD disc image.",
+      "project_url": "https://github.com/Spicywonda/castlevania-chronicles-recomp",
+      "updated": "2026-10-15",
+      "strategy": "Game-specific PlayStation recompilation using RecompOne",
+      "language": "",
+      "source_available": "Public source repository and release packages; user-supplied disc required",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C#",
+      "subtype": "PS1 game-specific recompilation",
+      "sources": [
+        {
+          "label": "Project README: supported disc, release platforms, and compatibility limits",
+          "url": "https://github.com/Spicywonda/castlevania-chronicles-recomp#readme"
+        },
+        {
+          "label": "v0.3.10 release",
+          "url": "https://github.com/Spicywonda/castlevania-chronicles-recomp/releases/tag/v0.3.10"
+        }
+      ]
+    },
+    {
+      "id": "metal-gear-solid-ps1-recomp",
+      "title": "Midnight Ghost Stone: Metal Gear Solid PS1 Recompilation",
+      "game": "Metal Gear Solid (PlayStation version)",
+      "target_type": "Game",
+      "platform": "PlayStation USA v1.0 (SLUS-00594 / SLUS-00776) → Windows x64, Linux x86-64",
+      "kind": "Recompilation",
+      "status": "Experimental alpha.1 is marked untested; the maintainer says the builds are for early testing and does not certify campaign completion or platform compatibility.",
+      "summary": "A PC recompilation project that uses static MIPS-to-native recompilation for most game logic, with selected decompiled C routines. It presents original assets through Vulkan. The project-specific work is labeled AI-generated under human direction; discs, extracted assets, and generated translations are excluded. Only the USA v1.0 discs are currently targeted.",
+      "project_url": "https://github.com/coccofresco/mgsone-recomp",
+      "updated": "2026-10-15",
+      "strategy": "Static MIPS-to-native recompilation with selected decompiled C routines",
+      "language": "",
+      "source_available": "Public source and untested prerelease packages; user-supplied USA v1.0 discs and extracted assets required",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++ and Python",
+      "subtype": "PS1 static recompilation with Vulkan presentation",
+      "sources": [
+        {
+          "label": "Project README: implementation method, supported discs, AI-use disclosure, and alpha status",
+          "url": "https://github.com/coccofresco/mgsone-recomp#readme"
+        },
+        {
+          "label": "alpha.1 prerelease marked untested",
+          "url": "https://github.com/coccofresco/mgsone-recomp/releases/tag/alpha.1"
+        }
+      ]
+    },
+    {
+      "id": "rogue-trip-ps1-recomp",
+      "title": "Rogue Trip: Vacation 2012 Recompilation",
+      "game": "Rogue Trip: Vacation 2012",
+      "target_type": "Game",
+      "platform": "PlayStation → Linux x86-64",
+      "kind": "Recompilation",
+      "status": "v0.1.0 Linux AppImage; the README reports testing on Garuda x86-64 with menus and the first level working. The rest of the game has not been fully tested.",
+      "summary": "A PS1 static recompilation built with PSXRecomp. The README targets the USA SLUS-00643 disc, requires the user's own 17-track image, and reports only Linux testing; OpenBIOS is included.",
+      "project_url": "https://github.com/Wuteva/RogueTripRecomp",
+      "updated": "2026-10-15",
+      "strategy": "Static recompilation using PSXRecomp",
+      "language": "",
+      "source_available": "Public source repository and Linux release; user-supplied game disc required; OpenBIOS included",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C and Shell",
+      "subtype": "PS1 game-specific static recompilation",
+      "sources": [
+        {
+          "label": "Project README: supported disc, release, platform testing, and gameplay status",
+          "url": "https://github.com/Wuteva/RogueTripRecomp#readme"
+        },
+        {
+          "label": "Project releases",
+          "url": "https://github.com/Wuteva/RogueTripRecomp/releases"
+        }
+      ]
+    }
+  ]
+}

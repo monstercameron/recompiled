@@ -1,0 +1,539 @@
+{
+  "updated": "2026-10-15",
+  "scope": "Evidence-backed refresh of existing console-to-console, console-to-PC, and console-to-handheld entries. Each update links maintainer-authored README, status/build documentation, or releases; no database import was performed.",
+  "updates": [
+    {
+      "id": "animal-crossing-dreamcast-port",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Work in progress, not playable. The maintainer reports booting on retail Dreamcast and Flycast through town and house interiors with music/SFX; Flycast runs about 16–23 FPS and hardware is slower. Saving, villagers, and some models/materials remain missing.",
+        "summary": "Native SH-4 Dreamcast port of the USA Rev 0 GameCube build from the Animal Crossing decompilation, with GameCube graphics reimplemented for Dreamcast PowerVR. Docker/KallistiOS build steps require the user's own GAFE01 ISO; no game assets are included.",
+        "strategy": "Decompilation-based native SH-4 port with a PowerVR graphics backend",
+        "source_available": "Public source and Docker/KallistiOS build instructions; requires the user's own GAFE01 USA Rev 0 disc image"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: real-hardware status, limitations, supported disc, and build",
+          "url": "https://github.com/TechProGabe/OpenCrossing-Dreamcast/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer Dreamcast build instructions",
+          "url": "https://github.com/TechProGabe/OpenCrossing-Dreamcast/blob/main/BUILDING-DC.md"
+        }
+      ],
+      "evidence_note": "The current README gives a stricter playable-status boundary than the short catalog entry: boot and limited town exploration work, but the maintainer explicitly says it is not a playable game and documents performance and save gaps."
+    },
+    {
+      "id": "animal-crossing-3ds-port",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Early v0.1 development build; the maintainer reports about 60 FPS in most New 3DS town scenes and around 40 FPS in the busiest views. Original 3DS/2DS is untested and expected to be slow; only USA GAFE01 Rev 0 is supported.",
+        "summary": "Native New 3DS port of Animal Crossing's decompiled C, forked from the PC port. It compiles for ARM11 and translates GameCube GX commands through emu64/citro3d to PICA200; it supports GameCube-format saves and requires the user's own disc image.",
+        "strategy": "Decompilation-based native New 3DS port with GX-to-PICA200 translation",
+        "source_available": "Public source and CIA/3DSX releases; requires the user's own USA GAFE01 Rev 0 disc image and DSP firmware for sound"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: architecture, performance, exact revision, and hardware caveats",
+          "url": "https://github.com/paaime/ac-3ds/blob/3ds-port/README.md"
+        },
+        {
+          "label": "Maintainer releases",
+          "url": "https://github.com/paaime/ac-3ds/releases"
+        }
+      ],
+      "evidence_note": "README identifies the target as New 3DS-family homebrew, distinguishes it from the reused PC platform layer, limits input to GAFE01 Rev 0, and says original 3DS hardware is untested."
+    },
+    {
+      "id": "animal-crossing-xbox-port",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Version 1; the maintainer reports the whole game playable at 60 FPS on stock 64 MB Xbox hardware, with output options through 720p. The user's own USA GAFE01 Rev 0 image is required; other regions and Rev 1 are unsupported.",
+        "summary": "Native original Xbox port built by compiling Animal Crossing's decompiled C for the Xbox Pentium III and GPU. Supports 480i/480p/720p, widescreen, GameCube-format saves, and an Xbox release package; it is not an emulator.",
+        "strategy": "Decompilation-based native Xbox port",
+        "source_available": "Public source and Xbox release package; requires the user's own USA GAFE01 Rev 0 GameCube disc image"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: method, hardware performance, supported image, and install options",
+          "url": "https://github.com/TechProGabe/OpenCrossing-Xbox/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer Xbox releases",
+          "url": "https://github.com/TechProGabe/OpenCrossing-Xbox/releases"
+        }
+      ],
+      "evidence_note": "README gives unusually concrete target-device evidence: stock 64 MB hardware, 60 FPS, 480i/480p/720p, and compatibility restrictions; it also confirms the release XBE and required user image."
+    },
+    {
+      "id": "switchwakerhd-recomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Playable Switch homebrew under active development: the maintainer reports about 30 FPS on the opening island and 26–29 FPS in busier scenes at stock handheld clocks. Handheld, Joy-Con, and Pro Controller play are documented; no Switch release binary is supplied.",
+        "summary": "Wii U PowerPC code is statically recompiled to C; Cafe OS libraries are reimplemented and GX2 graphics are rendered with native deko3d. The Switch NRO is built locally from the user's Wii U version-0 USA or Europe dump.",
+        "strategy": "Static PowerPC recompilation with Cafe OS reimplementation and deko3d rendering",
+        "source_available": "Public source and Switch build/install instructions; user supplies supported Wii U v0 game files; no Switch game binaries are published"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: static recompilation, build/install, controllers, and stock-clock performance",
+          "url": "https://github.com/centollOS/SwitchWakerHD/blob/main/README.md"
+        },
+        {
+          "label": "Switch port architecture and rendering notes",
+          "url": "https://github.com/centollOS/SwitchWakerHD/blob/main/docs/switch-port.md"
+        },
+        {
+          "label": "Maintainer Switch install guide",
+          "url": "https://github.com/centollOS/SwitchWakerHD/blob/main/INSTALL.md"
+        }
+      ],
+      "evidence_note": "Corrects the catalog's 'early/research port' status: the README documents play on real Switch, controls, saves, mod/settings features, exact v0 inputs, and measured stock-clock performance while still limiting compatibility claims."
+    },
+    {
+      "id": "digimon-world-3-switch-port",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Early preview v0.6.5-preview.28. On Switch, title/menu and field work, battles run below full speed, and the opening movie is about 15 FPS; save/reload is confirmed for US and EU discs. Full playthrough is not confirmed.",
+        "summary": "Native source port from the matching PlayStation decompilation's C code, not static recompilation or an emulator. A PSY-Z Psy-Q shim supplies console APIs, with SDL3 on PC and libnx/GLES on Switch; the NRO extracts runtime files from the user's own disc.",
+        "strategy": "Decompilation-based native source port with PSY-Z and Switch libnx/GLES backend",
+        "source_available": "Public source, preview release, and build/install instructions; requires the user's supported PlayStation disc"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: exact method, Switch status matrix, supported discs, and installation",
+          "url": "https://github.com/Larbaco/dw3-switch/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer v0.6.5 preview release",
+          "url": "https://github.com/Larbaco/dw3-switch/releases/tag/v0.6.5-preview.28"
+        }
+      ],
+      "evidence_note": "The README explicitly distinguishes this native source port from static recompilation and records per-area status, save confirmation, regional support, and the NRO/disc workflow."
+    },
+    {
+      "id": "f-zero-x-switch-port",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Switch port of G-Diffuser v1.0.1; user must supply N64 game data, 64DD BIOS, and Expansion Kit data, with generated .o2r files copied from PC. The README conflicts on the base revision: its Switch requirement says US Rev 1.0 while its Quick Start names a US Rev 0 input.",
+        "summary": "NX-Diffuser ports G-Diffuser to Switch; G-Diffuser is itself a decompilation-based source port using libultraship. This is a native NRO port, not a direct static recompilation of the original N64 binary.",
+        "strategy": "Decompilation-based native port of G-Diffuser to Switch",
+        "source_available": "Public source and Switch releases; user supplies the N64 ROM, 64DD BIOS, and Expansion Kit data"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: upstream relationship, exact data requirements, feature parity, and NRO install",
+          "url": "https://github.com/PalindromicBreadLoaf/NX-Diffuser#readme"
+        },
+        {
+          "label": "Maintainer Switch releases",
+          "url": "https://github.com/PalindromicBreadLoaf/NX-Diffuser/releases"
+        }
+      ],
+      "evidence_note": "Clarifies that NX-Diffuser ports the decompilation-based G-Diffuser source port, not the original binary directly. The README itself gives conflicting US Rev 1.0 and US Rev 0 instructions, so the staged status preserves that uncertainty rather than choosing a revision."
+    },
+    {
+      "id": "perfect-dark-switch-port",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "The README reports single-player and split-screen multiplayer working in the general port, with minor graphics/gameplay issues and possible crashes; Nintendo Switch is an officially supported and tested ARM64 target with automatic builds. US Rev 1 is recommended; other supported regions need their matching executable.",
+        "summary": "Nintendo Switch build target of the Perfect Dark decompilation-based native port, not a Nintendo 64 emulator. The same repository documents Windows, Linux, macOS, and Switch builds and requires user-supplied ROM data.",
+        "strategy": "Decompilation-based native port with Switch ARM64 build",
+        "source_available": "Public source and automatic Switch builds; requires the user's supported Perfect Dark ROM"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: source method, supported ROM revisions, status, and tested platform matrix",
+          "url": "https://github.com/perfect-dark-pc-port/perfect_dark/blob/port/README.md"
+        },
+        {
+          "label": "Maintainer automatic Switch builds",
+          "url": "https://github.com/perfect-dark-pc-port/perfect_dark/actions"
+        }
+      ],
+      "evidence_note": "Replaces an underspecified Switch build-only status with the maintainer's status matrix and device target. The progress statement remains scoped to the general port; no Switch-only full-playthrough claim is inferred."
+    },
+    {
+      "id": "dk64recomp-nx",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Nintendo Switch homebrew release and build path are documented. The README describes a static MIPS-to-C recompilation and requires the user's own game data; it does not establish a complete-playthrough result.",
+        "summary": "Switch target of Donkey Kong 64 Recompiled: N64 MIPS code is statically translated to C and built as native Switch homebrew without CPU emulation.",
+        "strategy": "Static recompilation of Nintendo 64 MIPS code to native Switch code",
+        "source_available": "Public source and Switch releases; requires user-supplied game data"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: method and Switch build/use",
+          "url": "https://github.com/Trinalord777/DK64Recomp-NX#readme"
+        },
+        {
+          "label": "Maintainer Switch releases",
+          "url": "https://github.com/Trinalord777/DK64Recomp-NX/releases"
+        }
+      ],
+      "evidence_note": "Replaces the generic 'released port' label with the verified technique and the limit of the evidence: public Switch releases exist, but the README does not claim a full playthrough."
+    },
+    {
+      "id": "donkey-kong-country-2-switch-recomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Real Switch hardware boot and execution are reported; buttons, audio, and persistent SRAM work at 1280×720/16:9. Widescreen remains incompletely validated, and the documented input is the North American v1.0 ROM.",
+        "summary": "Native Switch build from a static recompilation of the SNES game; the user supplies the supported ROM. The README records device-level tests and the remaining widescreen validation limit.",
+        "strategy": "Static SNES recompilation to native Switch homebrew",
+        "source_available": "Public source and build instructions; requires the user's own North American v1.0 ROM"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: static recompilation, supported ROM, and real-device test notes",
+          "url": "https://github.com/1weell/DKC2Recomp-Switch#readme"
+        },
+        {
+          "label": "Maintainer releases",
+          "url": "https://github.com/1weell/DKC2Recomp-Switch/releases"
+        }
+      ],
+      "evidence_note": "Expands the short hardware-boot status with the controls/audio/save evidence and explicitly retains the maintainer's warning that widescreen has not been fully validated."
+    },
+    {
+      "id": "mass-effect-switch-recomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Active work in progress. Prologue, Normandy deck, Citadel wards, Mako exploration, dialogue, and combat are reported playable; stock-clock performance averages about 25 FPS at 960×544, roughly 20 FPS in foliage-heavy combat and 30+ indoors.",
+        "summary": "Xbox 360 PowerPC `default.xex` is statically translated to C++ with ReXGlue and compiled for Switch ARM64; a custom Vulkan/NVK renderer handles graphics. The user supplies supported Xbox 360 game files; the browser installer processes them locally.",
+        "strategy": "Static PowerPC recompilation with native Vulkan/NVK rendering",
+        "source_available": "Public source and client-side installer; requires the user's supported Xbox 360 disc image or extracted files"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: recompilation method, playable areas, performance, editions, and local installer",
+          "url": "https://github.com/nebadasSwifty/masseffect-nx#readme"
+        },
+        {
+          "label": "Maintainer performance history",
+          "url": "https://github.com/nebadasSwifty/masseffect-nx/blob/main/docs/performance-history.md"
+        },
+        {
+          "label": "Maintainer supported editions",
+          "url": "https://github.com/nebadasSwifty/masseffect-nx/blob/main/docs/editions.md"
+        }
+      ],
+      "evidence_note": "Makes the current status concrete without claiming full completion, and records the no-overclock/stock-hardware performance and supported Xbox editions documented by the maintainer."
+    },
+    {
+      "id": "mortal-kombat-shaolin-monks-switch-recomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "The repository documents a Switch NRO build and Title Override install; reviewed README does not claim game-wide playability or completion.",
+        "summary": "Original Xbox `default.xbe` is statically translated instruction-by-instruction into C and compiled for Switch ARM64. Xbox NV2A graphics commands are translated to OpenGL/libnx and MCPX audio is output through SDL2; user supplies the game files.",
+        "strategy": "Static Xbox recompilation with NV2A-to-OpenGL/libnx graphics translation",
+        "source_available": "Public source and NRO build instructions; requires user-supplied Xbox game files"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: XBE recompilation, graphics/audio backends, data layout, and NRO build",
+          "url": "https://github.com/gerisson1996/mksm-switch#readme"
+        },
+        {
+          "label": "Maintainer rendering notes",
+          "url": "https://github.com/gerisson1996/mksm-switch/blob/main/VULKAN_NOTES.md"
+        }
+      ],
+      "evidence_note": "Corrects the catalog's Vulkan description: the maintainer's current README says the original Xbox NV2A command stream is translated to OpenGL/libnx, not Vulkan. It also states the exact XBE-to-C/ARM64 technique and avoids a playability overclaim."
+    },
+    {
+      "id": "mushihimesama-futari-switch-recomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "The native Switch installer builds an NRO from the user's Xbox 360 Ver 1.5 disc image; Black Label and Ver 1.01 DLC are optional. The README documents handheld/two-player controls and first-run shader compilation, but gives no full-playthrough claim.",
+        "summary": "Static recompilation of `default.xex` and eight Xbox 360 game modules to C++ with ReXGlue, compiled for Switch and rendered through native Vulkan/NVK. The browser installer keeps user game files local.",
+        "strategy": "Static Xbox 360 recompilation with native Vulkan/NVK rendering",
+        "source_available": "Public source and browser installer; requires the user's Xbox 360 disc image; DLC is optional"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: exact executables, renderer, DLC, installer, and Switch controls",
+          "url": "https://github.com/ChanseyIsTheBest/futari-nx#readme"
+        },
+        {
+          "label": "Maintainer build instructions",
+          "url": "https://github.com/ChanseyIsTheBest/futari-nx/blob/main/docs/building.md"
+        }
+      ],
+      "evidence_note": "Refines the source-method and source-availability fields from the project's own method and install notes; does not upgrade its status beyond what the README establishes."
+    },
+    {
+      "id": "need-for-speed-most-wanted-switch-recomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "The maintainer reports a roughly 30 FPS target with heavier scenes dipping below it. The project documents nine supported Xbox 360 regional editions and builds an NRO for the selected edition; user supplies the ISO or `default.xex`.",
+        "summary": "Native Switch static recompilation of the Xbox 360 PowerPC game using ReXGlue and Vulkan/NVK. Game data is user-supplied; compatibility is tied to the listed executable editions.",
+        "strategy": "Static PowerPC recompilation with ReXGlue and Vulkan/NVK",
+        "source_available": "Public source and per-edition build instructions; requires user-owned Xbox 360 game files"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: target method, performance caveat, supported editions, and input files",
+          "url": "https://github.com/StevensND/nfsmw-nx#readme"
+        },
+        {
+          "label": "Maintainer regional edition list",
+          "url": "https://github.com/StevensND/nfsmw-nx/blob/main/docs/editions.md"
+        }
+      ],
+      "evidence_note": "Adds the compatibility boundary the short existing row lacked: each build is tied to one of nine documented editions and uses files from the user's own Xbox 360 copy."
+    },
+    {
+      "id": "super-mario-strikers-switch-port",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Version 1.3.0 Switch release; the maintainer describes a native multi-platform source port built from decompiled game code, not static recompilation. The README requires the user's game data and documents Windows/Linux/macOS/Switch targets.",
+        "summary": "Switch target of a native multi-platform port based on the Super Mario Strikers decompilation. Game code is compiled for the host platform; the method is a source port, not binary recompilation.",
+        "strategy": "Decompilation-based native source port with platform-specific graphics/input backends",
+        "source_available": "Public source and Switch release; requires the user's game data"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: source-port method, supported platforms, and data requirement",
+          "url": "https://github.com/new-coke/strikers#readme"
+        },
+        {
+          "label": "Maintainer releases",
+          "url": "https://github.com/new-coke/strikers/releases"
+        }
+      ],
+      "evidence_note": "Makes the implementation classification explicit because the README says this is a native source port, not a static recompilation, despite the nearby decompilation project."
+    },
+    {
+      "id": "super-mario-64-ps5-port",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Version 1.0; maintainer reports testing on PS5 hardware through title/file selection and castle grounds. A 3840×2160 capture reports 60 displayed FPS with interpolation while game logic remains 30 FPS.",
+        "summary": "Native PS5 homebrew built from the Super Mario 64 decompilation through Ghostship/libultraship, using Vulkan/RADV. The user supplies a supported US or Japanese N64 ROM; no game data is included.",
+        "strategy": "Decompilation-based native PS5 port using libultraship and Vulkan/RADV",
+        "source_available": "Public source and PS5 release; requires the user's supported N64 ROM"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: source basis, ROM requirements, hardware test, and frame-rate note",
+          "url": "https://github.com/griches/PS5_Ghostship#readme"
+        },
+        {
+          "label": "Maintainer PS5 releases",
+          "url": "https://github.com/griches/PS5_Ghostship/releases"
+        }
+      ],
+      "evidence_note": "Adds a measured but bounded PS5 test result and distinguishes the interpolated display rate from the game's 30 FPS logic rate."
+    },
+    {
+      "id": "tony-hawks-underground-vita-port",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "The maintainer reports Story, Free Skate, Create-a-Skater, and all levels playable on Vita; most gameplay is reported near 60 FPS. Videos and online features are unavailable, and the user must supply Xbox USA game files.",
+        "summary": "Native PS Vita port based on the PC `kisak-thug` project and Xbox game data, built with VitaSDK; this is a platform port rather than Xbox emulation.",
+        "strategy": "Native Vita platform port based on the PC port and user-supplied Xbox data",
+        "source_available": "Public source and Vita builds; requires the user's Xbox USA game files"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: playable modes, hardware testing, build, and data requirements",
+          "url": "https://github.com/iwannagooutside/thug-vita-port#readme"
+        },
+        {
+          "label": "Maintainer releases",
+          "url": "https://github.com/iwannagooutside/thug-vita-port/releases"
+        }
+      ],
+      "evidence_note": "Replaces a broad 'playable' statement with the modes and device-performance evidence the maintainer names, while preserving unavailable online/video features."
+    },
+    {
+      "id": "halo-combat-evolved-vita-port",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Version 1.1.0 is the maintainer's current release; screenshots and feature documentation are from PS Vita. The game code is compiled for the Vita ARM processor, and the README identifies official repository downloads and the required user-owned Xbox game.",
+        "summary": "Native Vita port from the original Xbox decompilation, not an emulator: Xbox game code is compiled for ARM and Direct3D rendering is translated to the Vita GPU. The release adds online, co-op, ad hoc, and bot features; multiplayer needs specified PC files.",
+        "strategy": "Decompilation-based native Vita port with Direct3D-to-Vita-GPU translation",
+        "source_available": "Public source and official VPK releases; requires the user's Xbox copy, with extra PC files for online play"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: method, current 1.1.0 release, download policy, and data requirements",
+          "url": "https://github.com/BirchWoodGod/halo-ce-vita#readme"
+        },
+        {
+          "label": "Maintainer 1.1.0 release",
+          "url": "https://github.com/BirchWoodGod/halo-ce-vita/releases/tag/1.1.0"
+        }
+      ],
+      "evidence_note": "The current release README documents a substantial 1.1.0 Vita package, exact execution method, game-data boundary, and official VPK source; it corrects the existing placeholder-style request to re-check status."
+    },
+    {
+      "id": "kingdom-hearts-358-days-vita-port",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Native Vita port; only the European YKGP cartridge dump is supported (US YKGE and other regions do not work). The README documents save import/export and Vita build steps.",
+        "summary": "The DS decompilation is compiled for Vita; DS 2D/3D, sound, card, and touch behavior are reimplemented on VitaSDK/vitaGL. A Vita homebrew install uses the user's European game dump; no game data is included.",
+        "strategy": "Decompilation-based native Vita port with DS hardware behavior reimplemented on VitaSDK/vitaGL",
+        "source_available": "Public source and VPK/build instructions; requires user's European YKGP cartridge dump and Vita shader runtime"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: technique, exact supported region/hash, saves, and build instructions",
+          "url": "https://github.com/ggdrn/KH-DAYS-VITA#readme"
+        },
+        {
+          "label": "Maintainer architecture notes",
+          "url": "https://github.com/ggdrn/KH-DAYS-VITA/blob/main/ARCHITECTURE.md"
+        }
+      ],
+      "evidence_note": "Makes the strict regional compatibility boundary explicit and records the user-provided cartridge/build requirements and reimplemented DS subsystems."
+    },
+    {
+      "id": "f-zero-x-3ds-port",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "The maintainer reports playable New 3DS/New 2DS builds with median 59.6 FPS on tested hardware; heavy Expansion Kit packs can reduce performance.",
+        "summary": "Native New 3DS/2DS port built from the F-Zero X decompilation and G-Diffuser components. The README documents stereoscopic 3D, full audio, and touchscreen settings; it is not N64 emulation.",
+        "strategy": "Decompilation-based native 3DS port using G-Diffuser components",
+        "source_available": "Public source and 3DS build instructions; requires supported N64 game and Expansion Kit data"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: New 3DS target, gameplay features, performance, and data requirements",
+          "url": "https://github.com/cruxxxxxx/gdx-3ds#readme"
+        },
+        {
+          "label": "Maintainer build and release files",
+          "url": "https://github.com/cruxxxxxx/gdx-3ds/releases"
+        }
+      ],
+      "evidence_note": "Adds device scope and the reported feature/performance evidence while keeping the limitation on demanding Expansion Kit content."
+    },
+    {
+      "id": "diddy-kong-racing-vita-port",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Stable Vita release v1.7.2 boots and loads the supported ROM, renders races/menus, saves, and has hardware-confirmed audio and silver-coin jingles. A full Adventure playthrough was confirmed on an earlier Restored baseline, not newly re-tested for v1.7.2.",
+        "summary": "Native PS Vita port of Golden Balloon, a source port based on the Diddy Kong Racing decompilation. Game code is cross-compiled for Vita; the user supplies a US v80 ROM. Current Vita release includes HD texture support and an optional 98-trophy pack.",
+        "strategy": "Decompilation-based native Vita port of the Golden Balloon source port",
+        "source_available": "Public source and stable Vita VPK releases; requires the user's supported US v80 ROM and Vita homebrew runtime"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: current release, hardware status, exact ROM, and limitations",
+          "url": "https://github.com/zm2283145/goldenballoon-vita-port/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer Vita port status table",
+          "url": "https://github.com/zm2283145/goldenballoon-vita-port/blob/main/PORTING_STATUS.md"
+        },
+        {
+          "label": "Maintainer v1.7.2 Vita release",
+          "url": "https://github.com/zm2283145/goldenballoon-vita-port/releases/tag/v1.7.2"
+        }
+      ],
+      "evidence_note": "The new v1.7.2 README differentiates features retained in the latest build from the earlier full Adventure playthrough, avoiding an unsupported claim that the latest release was re-completed."
+    },
+    {
+      "id": "diddy-kong-racing-golden-balloon-nx",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Switch NRO releases are available; v1.2.1-nx documents Switch save/configuration fixes and ongoing optimization. Supported input is the US v1.1 (`us.v80`) ROM; the README does not establish whole-game completion on Switch.",
+        "summary": "Native Switch port of Golden Balloon, a decompilation-based source port of Diddy Kong Racing. It compiles game code for ARM64 rather than emulating the N64; no game data is included.",
+        "strategy": "Decompilation-based native Switch port of the Golden Balloon source port",
+        "source_available": "Public source and Switch NRO releases; requires the user's supported US v1.1 ROM"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: Switch target, user ROM, and platform-specific caveats",
+          "url": "https://github.com/boraeskicioglu/goldenballoon_nx#readme"
+        },
+        {
+          "label": "Maintainer Switch releases",
+          "url": "https://github.com/boraeskicioglu/goldenballoon_nx/releases"
+        }
+      ],
+      "evidence_note": "Keeps the Vita port and Switch derivative as separate targets and attributes the v1.2.1 release details to the Switch repository; no campaign-completion claim is inferred."
+    },
+    {
+      "id": "mario-kart-wii-3ds-port",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Version 0.5.2 supports Grand Prix, Time Trials, and Battle; Coin Runners and Team VS are unfinished. The maintainer documents building a 3DS CIA from the user's Wii disc.",
+        "summary": "Native Mario Kart Wii adaptation for Nintendo 3DS continued from an earlier port; it is not a Wii emulator or static recompilation. The maintainer supplies a build path that consumes the user's own disc.",
+        "strategy": "Native reimplementation/port to Nintendo 3DS",
+        "source_available": "Public source and 3DS build instructions; requires the user's Wii game disc"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: current mode support, source-port method, and own-disc build",
+          "url": "https://github.com/MiniBandit/MKW-3DS#readme"
+        },
+        {
+          "label": "Maintainer releases",
+          "url": "https://github.com/MiniBandit/MKW-3DS/releases"
+        }
+      ],
+      "evidence_note": "Adds the exact supported/unfinished game modes and build input documented by the maintainer, distinguishing this native adaptation from Wii emulation or the separate static-recompilation projects."
+    },
+    {
+      "id": "ocarina-of-time-dreamcast-port",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Native Dreamcast build, CDI packaging, and VMU support are documented. The tested input is the GameCube European Master Quest debug build; the README does not establish physical Dreamcast hardware testing.",
+        "summary": "KallistiOS SH-4 port built from the Ocarina of Time source, with a PowerVR display-list interpreter and AICA audio. The README documents a Dreamcast artifact and the specific GameCube-derived debug input rather than a general N64 ROM target.",
+        "strategy": "Decompilation-based native SH-4 port with PowerVR display-list interpreter",
+        "source_available": "Public source and CDI/build instructions; requires the specified GameCube European Master Quest debug input"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: platform method, input build, and output formats",
+          "url": "https://github.com/jnmartin84/oot-dc#readme"
+        }
+      ],
+      "evidence_note": "Clarifies the unusually specific input build and separates documented Dreamcast artifact/VMU support from unverified real-hardware execution."
+    },
+    {
+      "id": "wind-waker-ps5-port",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Version 1.0.3; the maintainer reports PS5 testing through the Dragon Roost boss room. This is a progress checkpoint, not evidence of full-game completion.",
+        "summary": "Native PS5 target built from the Wind Waker decompilation-based SwitchWaker project. The maintainer publishes a PS5 build and records console gameplay testing to a named dungeon milestone.",
+        "strategy": "Decompilation-based native PS5 port",
+        "source_available": "Public source and PS5 release; game data is not bundled"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: PS5 port basis and console-tested progress",
+          "url": "https://github.com/griches/PS5_SwitchWaker#readme"
+        },
+        {
+          "label": "Maintainer PS5 releases",
+          "url": "https://github.com/griches/PS5_SwitchWaker/releases"
+        }
+      ],
+      "evidence_note": "Adds the measured checkpoint and avoids turning a boss-room test into a completion or compatibility guarantee."
+    },
+    {
+      "id": "wind-waker-switchwaker-port",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "Version 0.4.1 Switch builds are provided for USA and Europe revision-0 discs; the maintainer reports testing on real Switch hardware. Disc videos are not implemented and frame-rate drops may occur in heavy docked scenes.",
+        "summary": "Native Nintendo Switch port built from the Wind Waker GameCube decompilation; it is separate from SwitchWakerHD, which statically recompiles the Wii U HD edition. Requires user-owned supported GameCube data.",
+        "strategy": "Decompilation-based native Switch port",
+        "source_available": "Public source and Switch builds; requires a supported USA or Europe revision-0 GameCube disc"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: native port, supported revisions, and Switch limitations",
+          "url": "https://github.com/centollOS/SwitchWaker#readme"
+        },
+        {
+          "label": "Maintainer releases",
+          "url": "https://github.com/centollOS/SwitchWaker/releases"
+        }
+      ],
+      "evidence_note": "Explicitly distinguishes the GameCube source port from the separate Wii U HD recompilation row and records the README's supported revisions and Switch-specific limits."
+    }
+  ]
+}

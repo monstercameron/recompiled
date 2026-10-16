@@ -1,0 +1,1421 @@
+{
+  "updated": "2026-10-15",
+  "projects": [
+    {
+      "id": "wii-sports-decomp",
+      "title": "Wii Sports Decompilation",
+      "game": "Wii Sports",
+      "target_type": "Game",
+      "platform": "Nintendo Wii",
+      "kind": "Decompilation",
+      "status": "Work in progress; the matching decompilation targets U.S. revision 1. The repository excludes game assets and assembly, and a user copy is required.",
+      "summary": "Matching source reconstruction for Wii Sports U.S. revision 1 (RSPE01_01). The README gives the supported revision and SHA-1, and states that the repository contains neither game assets nor assembly.",
+      "project_url": "https://github.com/doldecomp/ogws",
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "strategy": "Matching decompilation",
+      "source_available": "Public source repository; game assets and assembly are not included; original game copy required",
+      "programming_language": "C",
+      "subtype": "Matching decompilation of Wii Sports U.S. revision 1",
+      "sources": [
+        {
+          "label": "Project README (matching method, supported revision, and source requirements)",
+          "url": "https://github.com/doldecomp/ogws#readme"
+        }
+      ]
+    },
+    {
+      "id": "kirby-air-ride-decomp",
+      "title": "Kirby Air Ride Decompilation",
+      "game": "Kirby Air Ride",
+      "target_type": "Game",
+      "platform": "Nintendo GameCube",
+      "kind": "Decompilation",
+      "status": "Work in progress; the README identifies the U.S./Korean main.dol target and provides a build workflow, with no completion percentage stated.",
+      "summary": "A GameCube decompilation project for the U.S./Korean release of Kirby Air Ride. The README documents a main.dol build and requires a clean game DOL plus GameCube SDK/compiler files.",
+      "project_url": "https://github.com/doldecomp/kar",
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "strategy": "Source decompilation; matching status not stated",
+      "source_available": "Public source repository; a clean game DOL and GameCube SDK/compiler files are required for the documented build",
+      "programming_language": "",
+      "subtype": "GameCube main.dol decompilation (U.S./Korean release)",
+      "sources": [
+        {
+          "label": "Project README (target, status, and build requirements)",
+          "url": "https://github.com/doldecomp/kar#readme"
+        }
+      ]
+    },
+    {
+      "id": "the-incredibles-gamecube-decomp",
+      "title": "The Incredibles GameCube Decompilation",
+      "game": "The Incredibles",
+      "target_type": "Game",
+      "platform": "Nintendo GameCube",
+      "kind": "Decompilation",
+      "status": "Work in progress; the README documents a main.dol build for the U.S. release and does not publish a completion estimate.",
+      "summary": "A decompilation of The Incredibles for GameCube U.S. release. The repository documents a main.dol build; an original main.dol is optional for build-diff inspection.",
+      "project_url": "https://github.com/seilc/incredibles",
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "strategy": "Source decompilation; matching status not stated",
+      "source_available": "Public source repository; original main.dol is optional for diff inspection",
+      "programming_language": "C++",
+      "subtype": "GameCube main.dol decompilation (U.S. release)",
+      "sources": [
+        {
+          "label": "Project README (target, status, and build requirements)",
+          "url": "https://github.com/seilc/incredibles#readme"
+        }
+      ]
+    },
+    {
+      "id": "smt-snes-jp10-disassembly",
+      "title": "Shin Megami Tensei SNES Japanese 1.0 Disassembly",
+      "game": "Shin Megami Tensei (Super Famicom, Japan 1.0)",
+      "target_type": "Game",
+      "platform": "Super Nintendo Entertainment System (SNES)",
+      "kind": "Decompilation",
+      "status": "Far from complete; the maintainer describes the published Japanese 1.0 disassembly as incomplete.",
+      "summary": "An incomplete 65816 assembly disassembly of the Japanese 1.0 Super Famicom release of Shin Megami Tensei, with address labels and notes about stale references and reverse-engineered routines.",
+      "project_url": "https://github.com/spannerisms/smt1dasm",
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "strategy": "65816 assembly disassembly",
+      "source_available": "Public source repository",
+      "programming_language": "65816 assembly",
+      "subtype": "Partial Japanese 1.0 65816 assembly disassembly",
+      "sources": [
+        {
+          "label": "Project README (target revision, disassembly method, and completeness)",
+          "url": "https://github.com/spannerisms/smt1dasm#readme"
+        }
+      ]
+    },
+    {
+      "id": "arcana-snes-disassembly",
+      "title": "Arcana SNES Disassembly",
+      "game": "Arcana",
+      "target_type": "Game",
+      "platform": "Super Nintendo Entertainment System (SNES)",
+      "kind": "Decompilation",
+      "status": "Published 65c816 assembly disassembly; the README maps the bank files and DiztinGUIsh project but does not state completeness or byte-exact build status.",
+      "summary": "A bank-organized 65c816 assembly disassembly of the SNES game Arcana. The repository includes the project file and source files for game code, data, graphics, text, and audio banks.",
+      "project_url": "https://github.com/SarahShinespark/arcana-disassembly",
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "strategy": "65816 assembly disassembly",
+      "source_available": "Public source repository",
+      "programming_language": "65816 assembly",
+      "subtype": "DiztinGUIsh-backed banked assembly disassembly",
+      "sources": [
+        {
+          "label": "Project README (file map and disassembly scope)",
+          "url": "https://github.com/SarahShinespark/arcana-disassembly#readme"
+        }
+      ]
+    },
+    {
+      "id": "adventure-island-nes-disassembly",
+      "title": "Adventure Island NES Disassembly",
+      "game": "Adventure Island",
+      "target_type": "Game",
+      "platform": "Nintendo Entertainment System (NES)",
+      "kind": "Decompilation",
+      "status": "Listed by the repository under “Disassembled”; the README says listed source code compiles to the original ROM.",
+      "summary": "A game-specific source entry in a public multi-game NES disassembly collection. The maintainer lists Adventure Island among the disassembled titles and says each listed source is compilable and equal to its original ROM.",
+      "project_url": "https://github.com/cyneprepou4uk/NES-Games-Disassembly",
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "strategy": "Byte-identical 6502 assembly disassembly",
+      "source_available": "Public source repository",
+      "programming_language": "6502 assembly",
+      "subtype": "NES 6502 ROM-matching disassembly",
+      "sources": [
+        {
+          "label": "Collection README (disassembled-title list and build claim)",
+          "url": "https://github.com/cyneprepou4uk/NES-Games-Disassembly#readme"
+        }
+      ]
+    },
+    {
+      "id": "castlevania-iii-nes-disassembly",
+      "title": "Castlevania III NES Disassembly",
+      "game": "Castlevania III: Dracula’s Curse",
+      "target_type": "Game",
+      "platform": "Nintendo Entertainment System (NES)",
+      "kind": "Decompilation",
+      "status": "Listed by the repository under “Disassembled”; the README says listed source code compiles to the original ROM.",
+      "summary": "A game-specific source entry in a public multi-game NES disassembly collection. The maintainer lists Castlevania III among the disassembled titles and says each listed source is compilable and equal to its original ROM.",
+      "project_url": "https://github.com/cyneprepou4uk/NES-Games-Disassembly",
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "strategy": "Byte-identical 6502 assembly disassembly",
+      "source_available": "Public source repository",
+      "programming_language": "6502 assembly",
+      "subtype": "NES 6502 ROM-matching disassembly",
+      "sources": [
+        {
+          "label": "Collection README (disassembled-title list and build claim)",
+          "url": "https://github.com/cyneprepou4uk/NES-Games-Disassembly#readme"
+        }
+      ]
+    },
+    {
+      "id": "felix-the-cat-nes-disassembly",
+      "title": "Felix the Cat NES Disassembly",
+      "game": "Felix the Cat",
+      "target_type": "Game",
+      "platform": "Nintendo Entertainment System (NES)",
+      "kind": "Decompilation",
+      "status": "Listed by the repository under “Disassembled”; the README says listed source code compiles to the original ROM.",
+      "summary": "A game-specific source entry in a public multi-game NES disassembly collection. The maintainer lists Felix the Cat among the disassembled titles and says each listed source is compilable and equal to its original ROM.",
+      "project_url": "https://github.com/cyneprepou4uk/NES-Games-Disassembly",
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "strategy": "Byte-identical 6502 assembly disassembly",
+      "source_available": "Public source repository",
+      "programming_language": "6502 assembly",
+      "subtype": "NES 6502 ROM-matching disassembly",
+      "sources": [
+        {
+          "label": "Collection README (disassembled-title list and build claim)",
+          "url": "https://github.com/cyneprepou4uk/NES-Games-Disassembly#readme"
+        }
+      ]
+    },
+    {
+      "id": "parappa-2-ps2-decomp",
+      "title": "PaRappa the Rapper 2 Decompilation",
+      "game": "PaRappa the Rapper 2",
+      "target_type": "Game",
+      "platform": "PlayStation 2",
+      "kind": "Decompilation",
+      "status": "Work in progress; currently targets the July 12 NTSC-J prototype. The README lists separate Emotion Engine and IOP workstreams and does not claim a completed matching executable.",
+      "summary": "A matching decompilation of the PS2 game, currently targeting the July 12 NTSC-J prototype. The public repository tracks Emotion Engine and IOP modules; game data must be supplied from the user's own copy.",
+      "project_url": "https://github.com/parappadev/parappa2",
+      "updated": "2026-10-15",
+      "strategy": "Matching decompilation",
+      "language": "",
+      "source_available": "Public source repository; user-supplied game data required",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "PlayStation 2 matching decompilation",
+      "sources": [
+        {
+          "label": "Project README: target build and progress structure",
+          "url": "https://github.com/parappadev/parappa2#readme"
+        },
+        {
+          "label": "Project decompilation guide",
+          "url": "https://github.com/parappadev/parappa2/blob/main/docs/decompilation.md"
+        }
+      ]
+    },
+    {
+      "id": "haunting-ground-ps2-openhuey",
+      "title": "Haunting Ground Decompilation and Native PC Port (OpenHuey)",
+      "game": "Haunting Ground",
+      "target_type": "Game",
+      "platform": "PlayStation 2 → PC",
+      "kind": "Decompilation",
+      "status": "The README reports a working title, rooms, cutscenes, gameplay, saving/loading, and endings. About 20 story-script commands and the Hewie-play mode remain unfinished.",
+      "summary": "The project functionally decompiles Haunting Ground's PS2 code to C and runs it natively on PC with a PC renderer. An actor-oriented Forth rewrite is also under development. The build requires the US executable SLUS_210.75 and user-supplied game data; neither is included.",
+      "project_url": "https://github.com/ArnautDaniel/OpenHuey",
+      "updated": "2026-10-15",
+      "strategy": "Functional decompilation with a native PC runtime",
+      "language": "",
+      "source_available": "Public source repository; original executable and game data required",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C and Forth",
+      "subtype": "PS2 decompilation-based native PC port",
+      "sources": [
+        {
+          "label": "OpenHuey README: method, supported game build, and current status",
+          "url": "https://github.com/ArnautDaniel/OpenHuey#readme"
+        },
+        {
+          "label": "Decompilation build and workflow guide",
+          "url": "https://github.com/ArnautDaniel/OpenHuey/blob/main/docs/decomp.md"
+        }
+      ]
+    },
+    {
+      "id": "spider-man-2-ps2-recomp",
+      "title": "Spider-Man 2 PS2 Recompilation",
+      "game": "Spider-Man 2 (PlayStation 2 version)",
+      "target_type": "Game",
+      "platform": "PlayStation 2 → Windows x64",
+      "kind": "Recompilation",
+      "status": "Not playable yet. The README reports that the current Windows build boots through the initial blockers and renders the memory-card warning and game logos; legal-splash text and rendering work remain.",
+      "summary": "Experimental static recompilation of the USA PS2 release SLUS-20776. The public source includes recompiler/runtime code, tests, and Ghidra scripts. The game executable, disc image, assets, and generated game code are excluded and must be supplied or generated locally from the user's own disc.",
+      "project_url": "https://github.com/saltyboosack-blip/Spider-Man-2-PS2-Recomp",
+      "updated": "2026-10-15",
+      "strategy": "Static PlayStation 2 recompilation",
+      "language": "",
+      "source_available": "Public source repository; user-supplied legal game files required",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "PS2 Emotion Engine static recompilation",
+      "sources": [
+        {
+          "label": "Project README: target release, build requirements, and non-playable status",
+          "url": "https://github.com/saltyboosack-blip/Spider-Man-2-PS2-Recomp#readme"
+        },
+        {
+          "label": "Maintainer handoff: current implementation checkpoint",
+          "url": "https://github.com/saltyboosack-blip/Spider-Man-2-PS2-Recomp/blob/main/docs/HANDOFF.md"
+        }
+      ]
+    },
+    {
+      "id": "burnout-3-ps2-recomp",
+      "title": "Burnout 3: Takedown PS2 Recompilation for PC",
+      "game": "Burnout 3: Takedown (PlayStation 2 version)",
+      "target_type": "Game",
+      "platform": "PlayStation 2 NTSC-U (SLUS-21050) → Windows x64",
+      "kind": "Recompilation",
+      "status": "Alpha PC port. The README describes native operation across menus, races, crash mode, career, and saves; it requires the user's own NTSC-U disc image.",
+      "summary": "Translates the PS2 game's program to C++ and compiles it for Windows, with a Vulkan renderer, widescreen, and PC settings. The repository and releases exclude game content; users provide their own SLUS-21050 disc image.",
+      "project_url": "https://github.com/danielgomesvieira2000/burnout3-pc",
+      "updated": "2026-10-15",
+      "strategy": "Static recompilation of PS2 game code to native C++",
+      "language": "",
+      "source_available": "Public source repository; user-supplied game disc required; no game content included",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "PS2-to-Windows game recompilation",
+      "sources": [
+        {
+          "label": "Project README: supported disc, implementation, alpha status, and features",
+          "url": "https://github.com/danielgomesvieira2000/burnout3-pc#readme"
+        },
+        {
+          "label": "Project releases",
+          "url": "https://github.com/danielgomesvieira2000/burnout3-pc/releases"
+        }
+      ]
+    },
+    {
+      "id": "virtua-tennis-dreamcast-decomp",
+      "title": "Virtua Tennis Dreamcast Decompilation",
+      "game": "Virtua Tennis",
+      "target_type": "Game",
+      "platform": "Sega Dreamcast",
+      "kind": "Decompilation",
+      "status": "Work in progress. The README reports equivalent C for 417 of 3,280 functions (12.7%), no matching C functions yet, and 1,033 named functions for the USA MK-51054 v1.001 build.",
+      "summary": "Dreamcast decompilation and rebuild tools for the USA release MK-51054 v1.001. Functionally equivalent C is tested against the original; byte-matching is a further goal. Setup requires the user's own disc and Katana SDK, and refuses other releases.",
+      "project_url": "https://github.com/consolesplayingconsoles/virtua-tennis-decomp",
+      "updated": "2026-10-15",
+      "strategy": "Functional-equivalence decompilation with byte-matching as a further goal",
+      "language": "",
+      "source_available": "Public source repository; user-supplied Dreamcast disc and Katana SDK required",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C and Python",
+      "subtype": "Dreamcast functional decompilation",
+      "sources": [
+        {
+          "label": "Project README: supported release, method, requirements, and progress report",
+          "url": "https://github.com/consolesplayingconsoles/virtua-tennis-decomp#readme"
+        },
+        {
+          "label": "Project source repository",
+          "url": "https://github.com/consolesplayingconsoles/virtua-tennis-decomp"
+        }
+      ]
+    },
+    {
+      "id": "crazy-taxi-dreamcast-decomp",
+      "title": "Crazy Taxi Dreamcast Decompilation",
+      "game": "Crazy Taxi",
+      "target_type": "Game",
+      "platform": "Sega Dreamcast",
+      "kind": "Decompilation",
+      "status": "Work in progress. The README reports equivalent C for 443 of 2,827 functions (15.7%) and eight matching functions for the European MK-51035 v1.000 build.",
+      "summary": "A Dreamcast decompilation with function-by-function behavioral tests and a byte-matching rebuild goal. The current supported release is the European English/Japanese MK-51035 v1.000 build; setup refuses other revisions. Game-derived files are generated locally from the user's own disc.",
+      "project_url": "https://github.com/consolesplayingconsoles/crazy-taxi-decomp",
+      "updated": "2026-10-15",
+      "strategy": "Functional-equivalence decompilation with byte-matching units",
+      "language": "",
+      "source_available": "Public source repository; game-derived files generated from the user's own Dreamcast disc",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C and Python",
+      "subtype": "Dreamcast functional decompilation",
+      "sources": [
+        {
+          "label": "Project README: supported release, method, requirements, and progress report",
+          "url": "https://github.com/consolesplayingconsoles/crazy-taxi-decomp#readme"
+        },
+        {
+          "label": "Project source repository",
+          "url": "https://github.com/consolesplayingconsoles/crazy-taxi-decomp"
+        }
+      ]
+    },
+    {
+      "id": "castlevania-chronicles-ps1-recomp",
+      "title": "Castlevania Chronicles PS1 Recompilation",
+      "game": "Castlevania Chronicles",
+      "target_type": "Game",
+      "platform": "PlayStation → Windows x64, macOS Apple Silicon, Linux x64",
+      "kind": "Recompilation",
+      "status": "v0.3.10 released; full-game compatibility remains under test. The README says all eight stage overlays are registered but explicitly does not treat that as a full playthrough validation.",
+      "summary": "A desktop recompilation of the USA PlayStation release SLUS-01384, with v0.3.10 packages for Windows x64, macOS Apple Silicon, and Linux x64. The project uses RecompOne; users provide their own CUE/BIN or CHD disc image.",
+      "project_url": "https://github.com/Spicywonda/castlevania-chronicles-recomp",
+      "updated": "2026-10-15",
+      "strategy": "Game-specific PlayStation recompilation using RecompOne",
+      "language": "",
+      "source_available": "Public source repository and release packages; user-supplied disc required",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C#",
+      "subtype": "PS1 game-specific recompilation",
+      "sources": [
+        {
+          "label": "Project README: supported disc, release platforms, and compatibility limits",
+          "url": "https://github.com/Spicywonda/castlevania-chronicles-recomp#readme"
+        },
+        {
+          "label": "v0.3.10 release",
+          "url": "https://github.com/Spicywonda/castlevania-chronicles-recomp/releases/tag/v0.3.10"
+        }
+      ]
+    },
+    {
+      "id": "metal-gear-solid-ps1-recomp",
+      "title": "Midnight Ghost Stone: Metal Gear Solid PS1 Recompilation",
+      "game": "Metal Gear Solid (PlayStation version)",
+      "target_type": "Game",
+      "platform": "PlayStation USA v1.0 (SLUS-00594 / SLUS-00776) → Windows x64, Linux x86-64",
+      "kind": "Recompilation",
+      "status": "Experimental alpha.1 is marked untested; the maintainer says the builds are for early testing and does not certify campaign completion or platform compatibility.",
+      "summary": "A PC recompilation project that uses static MIPS-to-native recompilation for most game logic, with selected decompiled C routines. It presents original assets through Vulkan. The project-specific work is labeled AI-generated under human direction; discs, extracted assets, and generated translations are excluded. Only the USA v1.0 discs are currently targeted.",
+      "project_url": "https://github.com/coccofresco/mgsone-recomp",
+      "updated": "2026-10-15",
+      "strategy": "Static MIPS-to-native recompilation with selected decompiled C routines",
+      "language": "",
+      "source_available": "Public source and untested prerelease packages; user-supplied USA v1.0 discs and extracted assets required",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++ and Python",
+      "subtype": "PS1 static recompilation with Vulkan presentation",
+      "sources": [
+        {
+          "label": "Project README: implementation method, supported discs, AI-use disclosure, and alpha status",
+          "url": "https://github.com/coccofresco/mgsone-recomp#readme"
+        },
+        {
+          "label": "alpha.1 prerelease marked untested",
+          "url": "https://github.com/coccofresco/mgsone-recomp/releases/tag/alpha.1"
+        }
+      ]
+    },
+    {
+      "id": "rogue-trip-ps1-recomp",
+      "title": "Rogue Trip: Vacation 2012 Recompilation",
+      "game": "Rogue Trip: Vacation 2012",
+      "target_type": "Game",
+      "platform": "PlayStation → Linux x86-64",
+      "kind": "Recompilation",
+      "status": "v0.1.0 Linux AppImage; the README reports testing on Garuda x86-64 with menus and the first level working. The rest of the game has not been fully tested.",
+      "summary": "A PS1 static recompilation built with PSXRecomp. The README targets the USA SLUS-00643 disc, requires the user's own 17-track image, and reports only Linux testing; OpenBIOS is included.",
+      "project_url": "https://github.com/Wuteva/RogueTripRecomp",
+      "updated": "2026-10-15",
+      "strategy": "Static recompilation using PSXRecomp",
+      "language": "",
+      "source_available": "Public source repository and Linux release; user-supplied game disc required; OpenBIOS included",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C and Shell",
+      "subtype": "PS1 game-specific static recompilation",
+      "sources": [
+        {
+          "label": "Project README: supported disc, release, platform testing, and gameplay status",
+          "url": "https://github.com/Wuteva/RogueTripRecomp#readme"
+        },
+        {
+          "label": "Project releases",
+          "url": "https://github.com/Wuteva/RogueTripRecomp/releases"
+        }
+      ]
+    },
+    {
+      "id": "gl4es",
+      "title": "GL4ES",
+      "game": "OpenGL applications and games targeting embedded/mobile graphics (multi-title)",
+      "target_type": "Software",
+      "platform": "OpenGL 2.1/1.5 → OpenGL ES 2.0/1.1; Linux, Android, Emscripten, AmigaOS 4 and listed ARM single-board systems",
+      "kind": "API Translation",
+      "status": "Active; the maintainer describes it as a desktop OpenGL-to-OpenGL ES translation library; repository updated 2026-10-14.",
+      "summary": "Translates legacy desktop OpenGL calls to OpenGL ES for systems whose drivers expose OpenGL ES rather than desktop OpenGL. It is used by applications and ports, not a game emulator.",
+      "project_url": "https://github.com/ptitSeb/gl4es",
+      "updated": "2026-10-15",
+      "strategy": "Desktop OpenGL API translation to OpenGL ES",
+      "source_available": "Public source repository (MIT license)",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Graphics API compatibility library",
+      "sources": [
+        {
+          "label": "Maintainer repository and README: API direction, platform support, and project status",
+          "url": "https://github.com/ptitSeb/gl4es"
+        }
+      ]
+    },
+    {
+      "id": "mesa-d3d12-gallium",
+      "title": "Mesa Gallium D3D12 Driver",
+      "game": "OpenGL applications in WSL and systems with Direct3D 12 support (multi-title)",
+      "target_type": "Software",
+      "platform": "OpenGL 3.3 → Microsoft Direct3D 12; primarily Linux applications in WSL/WSLg using a Windows D3D12 GPU driver",
+      "kind": "API Translation",
+      "status": "Mesa documents this as an active Gallium driver that emits Direct3D 12 calls to provide desktop OpenGL 3.3, including as the WSLg graphics acceleration path.",
+      "summary": "A Mesa Gallium driver that emits Direct3D 12 calls rather than targeting a specific GPU architecture. Microsoft and Mesa document it as the OpenGL acceleration path for Linux GUI applications under WSLg when the Windows GPU driver supports WSL virtualization.",
+      "project_url": "https://gitlab.freedesktop.org/mesa/mesa",
+      "updated": "2026-10-15",
+      "strategy": "Mesa Gallium OpenGL frontend mapped to Direct3D 12",
+      "source_available": "Public Mesa source repository (component licenses vary)",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "OpenGL-on-Direct3D 12 Gallium driver",
+      "sources": [
+        {
+          "label": "Mesa D3D12 driver documentation: API target and OpenGL support",
+          "url": "https://docs.mesa3d.org/drivers/d3d12.html"
+        },
+        {
+          "label": "Microsoft WSLg documentation: D3D12-backed Mesa OpenGL acceleration",
+          "url": "https://github.com/microsoft/wslg"
+        }
+      ]
+    },
+    {
+      "id": "mesa-kosmickrisp",
+      "title": "KosmicKrisp",
+      "game": "Vulkan applications on Apple Silicon Macs (multi-title)",
+      "target_type": "Software",
+      "platform": "Vulkan 1.4 → Metal 4; macOS 26 or newer on Apple Silicon",
+      "kind": "API Translation",
+      "status": "Khronos-conformant Vulkan 1.4 Mesa driver as of 2026-10-01; requires Apple Silicon, Metal 4, and macOS 26 or newer.",
+      "summary": "A Mesa Vulkan driver layered on Apple Metal for Apple Silicon Macs. Khronos reports that it passed Vulkan 1.4 conformance testing on 2026-10-01; the Vulkan SDK distributes a conformant build.",
+      "project_url": "https://gitlab.freedesktop.org/mesa/mesa",
+      "updated": "2026-10-15",
+      "strategy": "Vulkan driver implementation on top of Metal 4",
+      "source_available": "Public Mesa source repository (MIT/X11 and other component licenses)",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Vulkan-on-Metal Mesa driver",
+      "sources": [
+        {
+          "label": "Mesa KosmicKrisp documentation: API, OS, and hardware requirements",
+          "url": "https://docs.mesa3d.org/drivers/kosmickrisp.html"
+        },
+        {
+          "label": "Khronos conformance announcement: Vulkan 1.4 status and date",
+          "url": "https://www.khronos.org/news/permalink/kosmickrisp-achieves-vulkan-1.4-conformance-on-apple-silicon"
+        }
+      ]
+    },
+    {
+      "id": "dxgl",
+      "title": "DXGL",
+      "game": "DirectDraw and Direct3D 7-era games (multi-title)",
+      "target_type": "Software",
+      "platform": "DirectDraw/Direct3D 7-era calls → OpenGL; Windows 10 or newer standard build, Windows XP SP3 or newer legacy build; also usable under Wine",
+      "kind": "API Translation",
+      "status": "Active; 0.5.28 was released 2026-10-14. The README says the 0.6.0-dev branch is nonfunctional and directs users to 0.5.x; DirectDraw 1–7 support is partial and 3D remains incomplete.",
+      "summary": "A DirectDraw replacement wrapper that maps legacy 2D and some 3D API behavior to OpenGL. The maintainer lists OpenGL 2.0 with framebuffer-object and non-power-of-two texture support as the minimum, recommends OpenGL 3.2+, and requires SSE2 for the standard build.",
+      "project_url": "https://github.com/dxgldotorg/dxgl",
+      "updated": "2026-10-15",
+      "strategy": "Legacy DirectDraw/Direct3D calls wrapped over OpenGL",
+      "source_available": "Public source repository (LGPL-2.1)",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C/C++",
+      "subtype": "Windows graphics API wrapper",
+      "sources": [
+        {
+          "label": "Maintainer README: API coverage, branch caveat, and hardware/OS requirements",
+          "url": "https://github.com/dxgldotorg/dxgl"
+        },
+        {
+          "label": "Maintainer release 0.5.28 (2026-10-14)",
+          "url": "https://github.com/dxgldotorg/dxgl/releases/tag/0.5.28"
+        }
+      ]
+    },
+    {
+      "id": "cnc-ddraw",
+      "title": "cnc-ddraw",
+      "game": "Classic DirectDraw software-rendered 2D games (multi-title)",
+      "target_type": "Software",
+      "platform": "DirectDraw software-renderer API → GDI, OpenGL, or Direct3D 9; Windows ME through Windows 11 and Wine on Linux/macOS/Android",
+      "kind": "API Translation",
+      "status": "Active source repository; the maintainer lists Windows ME/2000/XP through Windows 11 and Wine hosts. Formal release page and current source activity differ, so no latest numbered release is claimed here.",
+      "summary": "A DirectDraw API reimplementation with selectable GDI, OpenGL, and Direct3D 9 output backends for classic 2D software-rendered games. The project explicitly says it does not support games that render through Direct3D.",
+      "project_url": "https://github.com/FunkyFr3sh/cnc-ddraw",
+      "updated": "2026-10-15",
+      "strategy": "DirectDraw API reimplementation with GDI/OpenGL/Direct3D 9 renderers",
+      "source_available": "Public source repository (MIT license)",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C/C++",
+      "subtype": "DirectDraw compatibility wrapper for 2D games",
+      "sources": [
+        {
+          "label": "Maintainer README: renderer choices, supported systems, and Direct3D-game limitation",
+          "url": "https://github.com/FunkyFr3sh/cnc-ddraw"
+        },
+        {
+          "label": "Maintainer release history",
+          "url": "https://github.com/FunkyFr3sh/cnc-ddraw/releases"
+        }
+      ]
+    },
+    {
+      "id": "dgvoodoo2",
+      "title": "dgVoodoo2",
+      "game": "Legacy Glide and DirectX applications/games (multi-title)",
+      "target_type": "Software",
+      "platform": "Glide 2/3, DirectX 1–7, Direct3D 8.1/9 → Direct3D 11/12 or Microsoft WARP; Windows 7 or newer",
+      "kind": "API Translation",
+      "status": "Active proprietary wrapper; maintainer README identifies version 2.87.5, re-released 2026-09-15. Output options include D3D feature levels 10.0, 10.1, 11.0, 12.0 and WARP software rendering, with documented limitations on older feature levels.",
+      "summary": "Implements legacy Glide and DirectX graphics interfaces over modern Direct3D 11/12 for old Windows software. This is a graphics-API compatibility wrapper, not a whole-system emulator; the implementation source is not published.",
+      "project_url": "https://dege.fw.hu/dgVoodoo2/",
+      "updated": "2026-10-15",
+      "strategy": "Legacy graphics API implementations over Direct3D 11/12 or WARP",
+      "source_available": "Proprietary; maintainer provides binary packages and documentation, no source repository",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "Proprietary Windows graphics API wrapper",
+      "sources": [
+        {
+          "label": "Maintainer dgVoodoo2 readme: APIs, output backends, Windows support, and current version",
+          "url": "https://dege.fw.hu/dgVoodoo2/ReadmeGeneral/"
+        },
+        {
+          "label": "Maintainer project page",
+          "url": "https://dege.fw.hu/dgVoodoo2/"
+        }
+      ]
+    },
+    {
+      "id": "nglide",
+      "title": "nGlide",
+      "game": "3dfx Glide applications and games (multi-title)",
+      "target_type": "Software",
+      "platform": "Glide 2.11/2.60/3.10 → Direct3D or Vulkan; Windows XP/7/8/10/11, with a DirectX 9.0- or Vulkan 1.0-capable GPU",
+      "kind": "API Translation",
+      "status": "The developer currently lists freeware version 2.10 and supports Glide 2.11/2.60/3.10 through Direct3D or Vulkan. The developer announced the first public release, version 0.90, on 2009-11-07.",
+      "summary": "A Windows Glide wrapper for running applications written for 3dfx Glide without a Voodoo graphics card. It accepts three Glide DLL/API versions and renders through Direct3D or Vulkan; DOS Glide use requires a separately patched DOSBox build.",
+      "project_url": "https://www.zeus-software.com/downloads/nglide",
+      "updated": "2026-10-15",
+      "strategy": "Glide API wrapper over Direct3D or Vulkan",
+      "source_available": "Proprietary freeware; binary downloads and documentation only",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "Proprietary Windows Glide wrapper",
+      "sources": [
+        {
+          "label": "Developer nGlide page: Glide versions, backends, OS/GPU requirements, and version",
+          "url": "https://www.zeus-software.com/downloads/nglide"
+        },
+        {
+          "label": "Developer announcement of first public release (2009-11-07)",
+          "url": "https://www.zeus-software.com/forum/viewtopic.php?p=10"
+        }
+      ]
+    },
+    {
+      "id": "wine-nine-standalone",
+      "title": "Gallium Nine Standalone",
+      "game": "Direct3D 9 applications and games under Wine (multi-title)",
+      "target_type": "Software",
+      "platform": "Direct3D 9 → Mesa Gallium driver; Linux through Wine; requires a Gallium-based Mesa driver and Mesa Nine state tracker",
+      "kind": "API Translation",
+      "status": "Latest listed release is v0.10 (2024-10-06); current maintenance status is unclear. It implements the Wine side of Gallium Nine and relies on Mesa’s D3D9 frontend and a compatible Gallium driver.",
+      "summary": "A standalone Wine component that exposes the Mesa Gallium Nine Direct3D 9 implementation to stock Wine without patched Wine builds. It bypasses WineD3D’s traditional D3D9-to-OpenGL path; DRI3 is the preferred lower-overhead backend and DRI2 is documented as a fallback.",
+      "project_url": "https://github.com/iXit/wine-nine-standalone",
+      "updated": "2026-10-15",
+      "strategy": "Wine D3D9 interface connected directly to Mesa Gallium Nine",
+      "source_available": "Public source repository (LGPL-2.1)",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Wine D3D9 integration for Mesa Gallium Nine",
+      "sources": [
+        {
+          "label": "Maintainer README: integration model, requirements, and backends",
+          "url": "https://github.com/iXit/wine-nine-standalone/blob/main/README.rst"
+        },
+        {
+          "label": "Maintainer v0.10 release (2024-10-06)",
+          "url": "https://github.com/iXit/wine-nine-standalone/releases/tag/v0.10"
+        },
+        {
+          "label": "Mesa documentation for the Nine Direct3D 9 frontend",
+          "url": "https://idr.pages.freedesktop.org/mesa/gallium-nine.html"
+        }
+      ]
+    },
+    {
+      "id": "valve-togl",
+      "title": "Valve ToGL",
+      "game": "Direct3D 9 rendering in Valve Source 1 software (multi-title)",
+      "target_type": "Software",
+      "platform": "Limited Direct3D 9.0c subset → OpenGL; used by Valve Source 1 rendering paths on Linux/macOS, but the public repository is an unsupported source dump",
+      "kind": "API Translation",
+      "status": "Public source dump; Valve says it supports only a limited D3D9 subset, has some Shader Model 3 support, is supplied as-is, and most likely will not build by itself.",
+      "summary": "Valve’s ToGL is a Direct3D-to-OpenGL abstraction layer with a bytecode-level HLSL-to-GLSL translator. The public code came from the Dota 2 source tree and contains Source Engine-specific behavior, so it should not be treated as a general, ready-to-build D3D9 translator.",
+      "project_url": "https://github.com/ValveSoftware/ToGL",
+      "updated": "2026-10-15",
+      "strategy": "Limited D3D9 interface and shader bytecode translation to OpenGL",
+      "source_available": "Public source dump (Valve license file; unsupported and may not build)",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Source Engine graphics translation layer",
+      "sources": [
+        {
+          "label": "Valve project README: API scope, shader limitations, and support caveat",
+          "url": "https://github.com/ValveSoftware/ToGL"
+        },
+        {
+          "label": "Valve developer’s release note: original Source-engine use and platform context",
+          "url": "https://richg42.blogspot.com/2014/03/togl-d3d9-opengl-layer-source-release.html"
+        }
+      ]
+    },
+    {
+      "id": "hadron-windows-games-macos",
+      "title": "Hadron",
+      "game": "Windows games through Steam (multi-title)",
+      "target_type": "Software",
+      "platform": "Windows x86/x86-64 → Apple Silicon macOS arm64 (macOS 27+); Direct3D, Vulkan and OpenGL → Metal",
+      "kind": "API Translation",
+      "status": "Early development; v0.3.0 was published 2026-10-14. The README says a handful of games play well and many do not start. Requires Apple silicon and macOS 27; the project says it uses native arm64 Wine and FEX rather than Rosetta.",
+      "summary": "Open-source Steam Play compatibility stack for Windows games on Apple silicon. Wine is built for arm64, FEX translates x86/x86-64 game instructions, and graphics APIs are translated to Metal. Compatibility remains early and title-specific.",
+      "project_url": "https://github.com/Broyojo/hadron",
+      "updated": "2026-10-15",
+      "strategy": "Native arm64 Wine with FEX CPU translation and graphics API-to-Metal compatibility",
+      "source_available": "Public source repository; components retain their own licenses",
+      "first_found": "2026-10-15",
+      "programming_language": "Objective-C",
+      "subtype": "Apple silicon Windows-game compatibility stack",
+      "sources": [
+        {
+          "label": "Project README: architecture, macOS requirement and compatibility status",
+          "url": "https://github.com/Broyojo/hadron"
+        },
+        {
+          "label": "Latest Hadron release",
+          "url": "https://github.com/Broyojo/hadron/releases/tag/v0.3.0"
+        }
+      ]
+    },
+    {
+      "id": "sikarugir-wine-wrapper",
+      "title": "Sikarugir (Kegworks successor)",
+      "game": "Windows applications and games (multi-title)",
+      "target_type": "Software",
+      "platform": "Windows software → macOS 14.6+; the Apple silicon path requires Rosetta 2",
+      "kind": "API Translation",
+      "status": "Active source development; the repository's latest commit was 2026-10-14, and its releases page has no published releases. The README lists D3DMetal, DXVK, D9VK, DXMT and WineD3D options.",
+      "summary": "Successor to Wineskin that creates user-friendly Wine-wrapped macOS apps for Windows software. Sikarugir manages the wrappers and selects graphics backends; Wine and the selected graphics components provide the underlying compatibility behavior.",
+      "project_url": "https://github.com/Sikarugir-App/Sikarugir",
+      "updated": "2026-10-15",
+      "strategy": "Wine app wrapping and graphics compatibility backend management",
+      "source_available": "Public source repository; bundled components have separate licensing terms",
+      "first_found": "2026-10-15",
+      "subtype": "macOS Wine wrapper",
+      "sources": [
+        {
+          "label": "Canonical Sikarugir repository README and supported macOS/backends",
+          "url": "https://github.com/Sikarugir-App/Sikarugir"
+        },
+        {
+          "label": "Sikarugir releases",
+          "url": "https://github.com/Sikarugir-App/Sikarugir/releases"
+        }
+      ]
+    },
+    {
+      "id": "whisky-macos-wine-wrapper",
+      "title": "Whisky",
+      "game": "Windows applications and games (multi-title)",
+      "target_type": "Software",
+      "platform": "Windows applications and games → Apple silicon macOS (M-series; macOS 14+)",
+      "kind": "API Translation",
+      "status": "Archived by its owner on 2025-05-11 and no longer actively maintained. The latest release is v2.3.5 (2025-04-05); the README lists Apple silicon and macOS Sonoma 14+.",
+      "summary": "SwiftUI macOS application for creating and managing Wine bottles for Windows apps and games. The original README says Whisky is built on CrossOver 22.1.1 and Apple's Game Porting Toolkit, so it is a wrapper around those compatibility components rather than a separate Windows API implementation.",
+      "project_url": "https://github.com/Whisky-App/Whisky",
+      "updated": "2026-10-15",
+      "strategy": "Wine-based Windows compatibility wrapper with CrossOver and Game Porting Toolkit components",
+      "source_available": "Public archived source repository; runtime components have separate licensing terms",
+      "first_found": "2026-10-15",
+      "programming_language": "Swift",
+      "subtype": "macOS Wine wrapper",
+      "sources": [
+        {
+          "label": "Archived upstream repository README and maintenance notice",
+          "url": "https://github.com/Whisky-App/Whisky"
+        },
+        {
+          "label": "Latest Whisky release",
+          "url": "https://github.com/Whisky-App/Whisky/releases/tag/v2.3.5"
+        }
+      ]
+    },
+    {
+      "id": "scotch-macos-windows-compatibility",
+      "title": "Scotch",
+      "game": "Windows applications and games (multi-title)",
+      "target_type": "Software",
+      "platform": "Windows applications and games → Apple silicon macOS 26+; Wine uses Rosetta 2",
+      "kind": "API Translation",
+      "status": "Active; v1.2.2 was published 2026-09-30. The project targets Apple silicon and macOS Tahoe 26 or later; its README lists a pinned compatibility stack and says combinations outside its tested matrix are unsupported.",
+      "summary": "Native SwiftUI app for managing Wine bottles and selectable graphics paths on Apple silicon Macs. It combines Wine with Apple's D3DMetal, DXVK through MoltenVK, DXMT, and Mesa Zink; Wine and those components perform the Windows API and graphics translation.",
+      "project_url": "https://github.com/S3bRR/Scotch",
+      "updated": "2026-10-15",
+      "strategy": "Wine compatibility orchestration with selectable Direct3D/OpenGL-to-Metal backends",
+      "source_available": "Public source repository; third-party components retain their own licenses",
+      "first_found": "2026-10-15",
+      "programming_language": "Swift",
+      "subtype": "macOS Wine and graphics backend manager",
+      "sources": [
+        {
+          "label": "Scotch README: system requirements, backend versions and tested matrix",
+          "url": "https://github.com/S3bRR/Scotch"
+        },
+        {
+          "label": "Latest Scotch release",
+          "url": "https://github.com/S3bRR/Scotch/releases/tag/v1.2.2"
+        }
+      ]
+    },
+    {
+      "id": "cosmos-macos-steam-compatibility",
+      "title": "Cosmos",
+      "game": "Windows games and applications through Steam and standalone installers (multi-title)",
+      "target_type": "Software",
+      "platform": "Windows software → Intel macOS x86-64 and Apple silicon macOS arm64 (M1–M4); app requires macOS 13+, setup scripts macOS 11+",
+      "kind": "API Translation",
+      "status": "Active; latest release v0.7.1 was published 2026-07-05. The README supports Intel and Apple silicon Macs, notes Rosetta 2 is required on Apple silicon, and says Intel paths receive less CI testing.",
+      "summary": "Open-source macOS compatibility app that installs Wine, creates Steam bottles, and builds launchers for Windows games. It uses DXMT by default and can select Apple's D3DMetal, DXVK or WineD3D; the app orchestrates these existing compatibility components.",
+      "project_url": "https://github.com/awest813/Cosmos",
+      "updated": "2026-10-15",
+      "strategy": "Wine-based application compatibility stack with configurable graphics translators",
+      "source_available": "Public source repository (LGPL-3.0-or-later)",
+      "first_found": "2026-10-15",
+      "programming_language": "Swift",
+      "subtype": "macOS game compatibility frontend",
+      "sources": [
+        {
+          "label": "Cosmos README: supported Mac architectures, requirements and graphics backends",
+          "url": "https://github.com/awest813/Cosmos"
+        },
+        {
+          "label": "Latest Cosmos release",
+          "url": "https://github.com/awest813/Cosmos/releases/tag/v0.7.1"
+        }
+      ]
+    },
+    {
+      "id": "mac-gaming-uncle",
+      "title": "Mac Gaming Uncle",
+      "game": "Windows games through Steam (multi-title)",
+      "target_type": "Software",
+      "platform": "Windows x86-64 games → Apple silicon macOS arm64 (macOS 15+); Rosetta 2 for x86-64 code, D3DMetal for Direct3D 11/12",
+      "kind": "API Translation",
+      "status": "Research preview v0.6.1 (2026-10-11) for Apple silicon and macOS 15+. The maintainer reports testing on an M3 Max/macOS 26.6.2 with Wine 11.0.2 and GPTK 4 beta 2; the README documents individual title tests and does not claim broad compatibility.",
+      "summary": "Open-source native macOS Steam shell that composes Wine, Rosetta 2, Apple's D3DMetal and a DXVK/MoltenVK fallback with per-game recipes. It does not include Windows, Steam, games, or D3DMetal binaries; those components are obtained separately under their own terms.",
+      "project_url": "https://github.com/enginefuture/mac-gaming-uncle",
+      "updated": "2026-10-15",
+      "strategy": "Wine and CPU/graphics translation stack orchestration for Windows games on Apple silicon",
+      "source_available": "Public source repository (Apache-2.0 app); third-party components retain their own terms",
+      "first_found": "2026-10-15",
+      "programming_language": "Swift",
+      "subtype": "Apple silicon Windows-game compatibility frontend",
+      "sources": [
+        {
+          "label": "Project README: architecture, compatibility boundaries and research-preview status",
+          "url": "https://github.com/enginefuture/mac-gaming-uncle"
+        },
+        {
+          "label": "Mac Gaming Uncle v0.6.1 release",
+          "url": "https://github.com/enginefuture/mac-gaming-uncle/releases/tag/v0.6.1"
+        }
+      ]
+    },
+    {
+      "id": "animal-crossing-pc-port",
+      "title": "Animal Crossing Native PC Port",
+      "game": "Animal Crossing",
+      "target_type": "Game",
+      "platform": "Nintendo GameCube → Windows x86",
+      "kind": "Decompilation",
+      "status": "Playtest release v0.9.3-playtest; a prebuilt Windows release and source build are documented. Only USA GAFE01_00 Rev 0 is supported, and the user must provide the disc image.",
+      "summary": "Native x86 PC port built from the Animal Crossing C decompilation. The GameCube GX graphics API is translated to OpenGL 3.3; no game assets or assembly are included.",
+      "project_url": "https://github.com/flyngmt/ACGC-PC-Port",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based native PC port with GX-to-OpenGL 3.3 translation",
+      "language": "",
+      "source_available": "Public source and Windows releases; requires the user's own USA GAFE01_00 Rev 0 disc image",
+      "first_found": "2026-10-15",
+      "project_started": "",
+      "programming_language": "C",
+      "subtype": "Native PC port",
+      "sources": [
+        {
+          "label": "Maintainer README: method, supported disc, and build instructions",
+          "url": "https://github.com/flyngmt/ACGC-PC-Port/blob/master/README.md"
+        },
+        {
+          "label": "Maintainer releases: current playtest package",
+          "url": "https://github.com/flyngmt/ACGC-PC-Port/releases"
+        }
+      ]
+    },
+    {
+      "id": "mario-kart-wii-wiicompiled-pc",
+      "title": "Mario Kart Wii WiiCompiled PC Port",
+      "game": "Mario Kart Wii",
+      "target_type": "Game",
+      "platform": "Nintendo Wii → Windows and macOS",
+      "kind": "Recompilation",
+      "status": "Playable development build; the maintainer says gameplay should be playable and ghost runs match original physics, while compatibility, rendering, networking, and performance remain under active work. Windows 10/11 and macOS 12+ are listed; only a clean PAL RMCP01 dump is accepted.",
+      "summary": "Native PC port using static recompilation: Wii PowerPC code is translated ahead of time and compiled for the host, with no Wii CPU emulator, interpreter, or JIT at runtime. No game code or assets are distributed.",
+      "project_url": "https://github.com/patchzyy/Wiicompiled",
+      "updated": "2026-10-15",
+      "strategy": "Static recompilation to native desktop code",
+      "language": "",
+      "source_available": "Public source and installer releases; user supplies a clean PAL RMCP01 disc image",
+      "first_found": "2026-10-15",
+      "project_started": "",
+      "programming_language": "",
+      "subtype": "Native PC static recompilation",
+      "sources": [
+        {
+          "label": "Maintainer README: technique, supported hosts, exact disc revision, and compatibility status",
+          "url": "https://github.com/patchzyy/Wiicompiled/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer releases: Windows and macOS installers",
+          "url": "https://github.com/patchzyy/Wiicompiled/releases"
+        }
+      ]
+    },
+    {
+      "id": "ship-of-harkinian-switch-port",
+      "title": "Ship of Harkinian Switch Port",
+      "game": "The Legend of Zelda: Ocarina of Time",
+      "target_type": "Game",
+      "platform": "Nintendo 64 → Nintendo Switch homebrew",
+      "kind": "Decompilation",
+      "status": "Switch NRO release and Atmosphère title-override install steps are documented; CI builds are explicitly for playtesting and may contain bugs or crashes. The reviewed README does not establish full-game compatibility.",
+      "summary": "Nintendo Switch target of Ship of Harkinian, built on the Ocarina of Time decompilation and libultraship. The Switch package uses the user's prepared .o2r game-data file and does not include copyrighted assets.",
+      "project_url": "https://github.com/GermanNunez-code/Shipwright-Switch",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based native port using Ship of Harkinian and libultraship",
+      "language": "",
+      "source_available": "Public source, Switch NRO release, and CI playtest builds; requires the user's supported ROM and prepared game-data files",
+      "first_found": "2026-10-15",
+      "project_started": "",
+      "programming_language": "",
+      "subtype": "Nintendo Switch homebrew port",
+      "sources": [
+        {
+          "label": "Maintainer README: Switch install, input requirements, and playtest caveat",
+          "url": "https://github.com/GermanNunez-code/Shipwright-Switch/blob/develop/README.md"
+        },
+        {
+          "label": "Maintainer Switch releases",
+          "url": "https://github.com/GermanNunez-code/Shipwright-Switch/releases"
+        }
+      ]
+    },
+    {
+      "id": "super-mario-sunshine-pc-port",
+      "title": "Super Mario Sunshine Native PC Port",
+      "game": "Super Mario Sunshine",
+      "target_type": "Game",
+      "platform": "Nintendo GameCube → Windows, Linux, and macOS",
+      "kind": "Decompilation",
+      "status": "Linux x86, Linux x86-64, and Intel macOS/Rosetta builds are listed as playable; Linux x86-64 is still being checked stage by stage. The Windows build boots under Wine while native runtime checks continue. Only North American GMSE01 Rev 0 is supported.",
+      "summary": "Native PC port compiled from the matching Super Mario Sunshine decompilation. It reads game data from the user's disc image and includes no game data; build and run scripts and a separate setup launcher are documented.",
+      "project_url": "https://github.com/chasem-dev/sms-pc-port",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based native PC port",
+      "language": "",
+      "source_available": "Public source and launcher releases; requires the user's own GMSE01 Rev 0 disc image",
+      "first_found": "2026-10-15",
+      "project_started": "",
+      "programming_language": "C",
+      "subtype": "Native PC port",
+      "sources": [
+        {
+          "label": "Maintainer README: supported operating systems, game revision, build, and play status",
+          "url": "https://github.com/chasem-dev/sms-pc-port/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer launcher releases",
+          "url": "https://github.com/chasem-dev/SMS-Launcher/releases"
+        }
+      ]
+    },
+    {
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "project_started": "2024-07-22",
+      "target_type": "Game",
+      "media": [],
+      "research_lanes": [
+        "social"
+      ],
+      "id": "resident-evil-code-veronica-x-ps2-decomp",
+      "title": "Resident Evil Code: Veronica X PS2 Decompilation",
+      "game": "Resident Evil Code: Veronica X (PS2 US release)",
+      "platform": "PlayStation 2 (US SLUS-201.84)",
+      "kind": "Decompilation",
+      "status": "The maintainer announced the supported PS2 US executable as fully decompiled; the README says the project is playable but remains a work in progress and may have bugs or crashes. This is source reconstruction, not a completed native PC port.",
+      "summary": "MIPS-to-C decompilation of the US PlayStation 2 executable, with builds tested by repackaging a user-provided game image and running it in PCSX2.",
+      "project_url": "https://github.com/AshfordFamily/recvx-decomp",
+      "strategy": "Reverse-engineers the PlayStation 2 MIPS ELF into C source; the repository uses splat/objdiff tooling and recompiles the resulting project for testing.",
+      "language": "C",
+      "programming_language": "C",
+      "subtype": "PlayStation 2 MIPS-to-C decompilation",
+      "source_available": "Open source; requires user-supplied game executable, SDK files, and disc image for build/test.",
+      "sources": [
+        {
+          "label": "Maintainer project repository and README",
+          "url": "https://github.com/AshfordFamily/recvx-decomp"
+        },
+        {
+          "label": "Community announcement linking the project",
+          "url": "https://www.reddit.com/r/decomps/comments/1wvwf30/re_code_veronica_x_has_been_decompiled/"
+        }
+      ],
+      "verification": {
+        "method": "The README identifies the work as reconstruction of the game’s PS2 MIPS ELF to C; the maintainer says all functions of SLUS_201.84 are accounted for and the program can be reproduced with most original bugs intact. No matching/build-equivalence claim is made.",
+        "game_revision_region_coverage": "Resident Evil Code: Veronica X, US PS2 executable SLUS_201.84 only; other regions are planned.",
+        "build_run_dependencies": "Requires the user’s own SLUS_201.84 and PS2 SDK files (version 2.0.0 or 3.0.3); tests repack the ELF into the user’s game image and run it in PCSX2 or on a modified console.",
+        "release_status_version_dates": "Maintainer announcement dated 2026-10-02 says the decompilation is complete; README says the project remains a work in progress and is playable with potential bugs/crashes.",
+        "license_source_assets_availability": "Repository code is MIT-licensed; game assets are not distributed and must be supplied by the user.",
+        "evidence": [
+          {
+            "url": "https://github.com/AshfordFamily/recvx-decomp",
+            "claim": "README identifies PS2 US SLUS_201.84, MIPS-to-C methodology, decompiled systems, build/test requirements and WIP limitations."
+          },
+          {
+            "url": "https://www.reddit.com/r/decomps/comments/1wvwf30/re_code_veronica_x_has_been_decompiled/",
+            "claim": "Maintainer announcement says all functions of SLUS_201.84 are accounted for and names the last decompiled function/date."
+          }
+        ],
+        "platform": "PlayStation 2 (US SLUS-201.84)"
+      }
+    },
+    {
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "target_type": "Game",
+      "media": [],
+      "research_lanes": [
+        "social"
+      ],
+      "id": "resident-evil-code-veronica-xbox360-recomp",
+      "title": "Resident Evil CODE: Veronica Xbox 360 Static Recompilation",
+      "game": "Resident Evil CODE: Veronica (Xbox 360 XEX target)",
+      "platform": "Xbox 360 → Windows x64; Linux build preset untested",
+      "kind": "Recompilation",
+      "status": "Work in progress. The public repository provides Windows build steps and a ReXGlue manifest with initial-boot and in-game function entries; the Linux preset is explicitly untested. It does not claim a finished game or downloadable playable release.",
+      "summary": "Static recompilation of an Xbox 360 XEX for a native PC build using ReXGlue-SDK; exact game build/revision is not stated in the README or manifest.",
+      "project_url": "https://github.com/psxrestore/VeronicaRecomp",
+      "strategy": "Feeds the Xbox 360 XEX through ReXGlue-SDK to generate C++ and compile a native Windows executable.",
+      "language": "C++",
+      "programming_language": "C++",
+      "subtype": "Xbox 360 XEX static recompilation",
+      "source_available": "Public source; build expects the user’s game data under the configured assets directory.",
+      "sources": [
+        {
+          "label": "Project repository and README",
+          "url": "https://github.com/psxrestore/VeronicaRecomp"
+        },
+        {
+          "label": "ReXGlue manifest identifying an XEX input and current function set",
+          "url": "https://github.com/psxrestore/VeronicaRecomp/blob/main/veronicarecomp_manifest.toml"
+        },
+        {
+          "label": "Maintainer comment linking the project from the Code: Veronica discussion",
+          "url": "https://www.reddit.com/r/decomps/comments/1wvwf30/re_code_veronica_x_has_been_decompiled/"
+        }
+      ],
+      "verification": {
+        "method": "Repository describes a static recompilation built through ReXGlue-SDK. The manifest points to assets/default.xex and contains small initial-boot and in-game function sets; it is not an emulator wrapper.",
+        "game_revision_region_coverage": "Xbox 360 XEX target; README calls the game CODE:Veronica. Exact edition/build identifier is not disclosed in the README or manifest.",
+        "build_run_dependencies": "ReXGlue-SDK, Visual Studio 2022 C++ workload, CMake, LLVM/Clang and Ninja; Windows preset documented, Linux preset marked untested.",
+        "release_status_version_dates": "Public WIP source repository, with no GitHub release listed as of 2026-10-15; README does not report full gameplay status.",
+        "license_source_assets_availability": "Source repository is public; manifest expects game data in an assets directory, and no game executable is committed in the listed source tree.",
+        "evidence": [
+          {
+            "url": "https://github.com/psxrestore/VeronicaRecomp",
+            "claim": "README identifies static recompilation via ReXGlue-SDK and provides Windows/Linux build instructions, marking Linux untested."
+          },
+          {
+            "url": "https://github.com/psxrestore/VeronicaRecomp/blob/main/veronicarecomp_manifest.toml",
+            "claim": "Manifest identifies assets/default.xex and the current boot/in-game function entries, establishing an Xbox 360 executable input."
+          }
+        ],
+        "platform": "Xbox 360 XEX → Windows x64 (Linux preset untested)"
+      }
+    },
+    {
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "target_type": "Game",
+      "media": [],
+      "research_lanes": [
+        "social"
+      ],
+      "id": "sonic-r-cross-platform-reimplementation",
+      "title": "Sonic R Cross-Platform Reimplementation",
+      "game": "Sonic R (1998 Sega PC release)",
+      "platform": "Sega PC (x86) → Windows, macOS, Linux, Sega Dreamcast",
+      "kind": "Reimplementation",
+      "status": "Release v1.0-bugfix1 is available. The project README documents native desktop and Dreamcast builds that share one C game-logic codebase; users supply their own Sonic R data.",
+      "summary": "From-scratch reimplementation of the 1998 PC game engine in portable C, reverse-engineered and validated against the original executable; contains no original Sega code.",
+      "project_url": "https://github.com/jnmartin84/sonic-r",
+      "strategy": "Reverse-engineers the original x86 executable and translates/rebuilds its logic as portable C; SDL2 provides desktop support and KallistiOS the Dreamcast target.",
+      "language": "C",
+      "programming_language": "C",
+      "subtype": "Multi-platform game-engine reimplementation",
+      "source_available": "Open source; game engine only, with user-provided game data required.",
+      "sources": [
+        {
+          "label": "Project repository and README",
+          "url": "https://github.com/jnmartin84/sonic-r"
+        },
+        {
+          "label": "Latest published release",
+          "url": "https://github.com/jnmartin84/sonic-r/releases/tag/v1.0-bugfix1"
+        },
+        {
+          "label": "Community/news lead (uses “decompiled” in its headline)",
+          "url": "https://www.reddit.com/r/SonicTheHedgehog/comments/1sspajr/sonic_r_decompiled_by_fan_developer_dreamcast/"
+        }
+      ],
+      "verification": {
+        "method": "The project calls itself a from-scratch game-engine reimplementation with no original Sega code. README describes reverse-engineering and x86-to-C translation, validated against live WinDbg sessions of the original 1998 SONICR.EXE.",
+        "game_revision_region_coverage": "1998 Sega PC release; no other game edition is identified as supported.",
+        "build_run_dependencies": "Windows/macOS/Linux builds use SDL2; Dreamcast build uses KallistiOS. The user supplies the original game data.",
+        "release_status_version_dates": "GitHub release v1.0-bugfix1 was published 2026-09-15; README documents desktop and Dreamcast play guides.",
+        "license_source_assets_availability": "Engine source is public and contains no original Sega code; game data is user-supplied. README identifies a few small supporting assets bundled with the project.",
+        "evidence": [
+          {
+            "url": "https://github.com/jnmartin84/sonic-r",
+            "claim": "README describes targets, implementation method, validation, and user-supplied assets."
+          },
+          {
+            "url": "https://github.com/jnmartin84/sonic-r/releases/tag/v1.0-bugfix1",
+            "claim": "Project release page confirms the current public release tag."
+          }
+        ],
+        "platform": "Sega PC (x86) → Windows, macOS, Linux, Sega Dreamcast"
+      }
+    },
+    {
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "target_type": "Game",
+      "media": [],
+      "research_lanes": [
+        "social"
+      ],
+      "id": "ctr-nitrofueled-windows-api-translation",
+      "title": "Crash Team Racing: Nitro-Fueled Windows API-Translation Port",
+      "game": "Crash Team Racing: Nitro-Fueled (PS4 CUSA13795, update 1.21)",
+      "platform": "PlayStation 4 → Windows 10/11",
+      "kind": "API Translation",
+      "status": "Windows v0.3 release is playable; the README lists Adventure and Arcade races, sound, cutscenes, controllers, keyboard and saving. The project remains in active testing and reports GPU hangs on some setups. User must provide the decrypted CUSA13795 game and 1.21 update.",
+      "summary": "Windows-specific game port derived from the Linux SacredFire port: original x86-64 game code runs on the host CPU, a custom runtime replaces PS4 system libraries, and a shadPS4-derived renderer translates GPU work to Vulkan.",
+      "project_url": "https://github.com/GetLostIn/CTR-NitroFueled-PC",
+      "strategy": "Runs original PS4 x86-64 code directly and replaces its OS/runtime imports; translates PS4 GPU commands and shaders to Vulkan with a shadPS4-derived video core.",
+      "language": "C++",
+      "programming_language": "C and C++",
+      "subtype": "PS4-to-Vulkan game-specific API-translation port for Windows",
+      "source_available": "Open source; project releases contain no game files and require the user’s decrypted game and update.",
+      "sources": [
+        {
+          "label": "Project repository and README",
+          "url": "https://github.com/GetLostIn/CTR-NitroFueled-PC"
+        },
+        {
+          "label": "Current Windows release",
+          "url": "https://github.com/GetLostIn/CTR-NitroFueled-PC/releases/tag/v0.3"
+        },
+        {
+          "label": "Author announcement in r/decomps",
+          "url": "https://www.reddit.com/r/decomps/comments/1x4ad6f/native_windows_port_of_ctr_nitrofueled_ps4_v121/"
+        }
+      ],
+      "verification": {
+        "method": "The README says the PS4 game’s x86-64 code runs on the CPU, a small runtime replaces PS4 system libraries, and a renderer derived from shadPS4 translates PS4 GPU work to Vulkan; it explicitly identifies this as a Windows fork of SacredFire.",
+        "game_revision_region_coverage": "PS4 CUSA13795 (Americas), base game plus update 1.21; other regional editions are not supported by the README.",
+        "build_run_dependencies": "Windows 10/11, Vulkan 1.3 GPU, decrypted game and update folders; project includes a portable launcher and setup steps.",
+        "release_status_version_dates": "Windows v0.3 released 2026-10-13; README says Windows status is playable and notes ongoing testing/GPU Device-lost hangs on some configurations.",
+        "license_source_assets_availability": "GPL source is available; no game files are included and user must provide own decrypted CUSA13795 dump and update.",
+        "evidence": [
+          {
+            "url": "https://github.com/GetLostIn/CTR-NitroFueled-PC",
+            "claim": "README identifies the exact PS4 target, Windows scope, runtime/GPU translation method, playable status and known issues."
+          },
+          {
+            "url": "https://github.com/GetLostIn/CTR-NitroFueled-PC/releases/tag/v0.3",
+            "claim": "Release page confirms the current v0.3 package and update contents."
+          }
+        ],
+        "platform": "PlayStation 4 → Windows 10/11"
+      }
+    },
+    {
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "target_type": "Game",
+      "media": [],
+      "research_lanes": [
+        "social"
+      ],
+      "id": "god-of-war-iii-remastered-ps4-api-translation",
+      "title": "God of War III Remastered PS4 PC API-Translation Port",
+      "game": "God of War III Remastered (PS4 CUSA01623/CUSA01715)",
+      "platform": "PlayStation 4 → Windows 10/11; experimental Linux AppImage",
+      "kind": "API Translation",
+      "status": "Windows v2.3.0 release is available. The README reports a full playthrough at 1080p with a 240 FPS engine frame rate on its test system, while noting texture corruption, crashes and progress blockers on other setups. Linux AppImage is experimental; tested game builds are CUSA01623/CUSA01715 versions 1.00/1.02.",
+      "summary": "Game-specific PS4-to-PC runtime: the original x86-64 game code executes on the host CPU, custom code replaces PS4 system APIs, and shadPS4 translates GPU commands and shaders to Vulkan. This is API translation/runtime replacement, not static recompilation.",
+      "project_url": "https://github.com/FelipePrado0/gow3_pc",
+      "strategy": "Executes the original PS4 x86-64 game code directly on a compatible PC CPU, replaces PS4 system libraries with a game-specific runtime, and translates graphics through shadPS4’s Vulkan video core.",
+      "language": "C++",
+      "programming_language": "C and C++",
+      "subtype": "PS4 game-specific runtime and Vulkan API translation",
+      "source_available": "Source and Windows release are available; no game files are included and users supply their own PS4 dump.",
+      "sources": [
+        {
+          "label": "Project repository and README",
+          "url": "https://github.com/FelipePrado0/gow3_pc"
+        },
+        {
+          "label": "Windows v2.3.0 release",
+          "url": "https://github.com/FelipePrado0/gow3_pc/releases/tag/windows-v2.3.0"
+        },
+        {
+          "label": "Community release lead in r/decomps",
+          "url": "https://www.reddit.com/r/decomps/comments/1x58mv7/god_of_war_iii_remastered_pc_port_out_now_and_its/"
+        }
+      ],
+      "verification": {
+        "method": "README says the original x86-64 code runs on the PC CPU, a custom runtime replaces PS4 system libraries, and the shadPS4 video core translates PS4 GPU commands and shaders to Vulkan. The project is a game-specific fork of a general PC compatibility runtime.",
+        "game_revision_region_coverage": "PS4 CUSA01623 and CUSA01715, versions 01.00 and 01.02, as listed in the README.",
+        "build_run_dependencies": "Windows 10/11 with an AVX CPU and Vulkan 1.3 GPU; experimental Linux x86-64 AppImage requires glibc 2.39+; user supplies a decrypted PS4 dump.",
+        "release_status_version_dates": "Windows release windows-v2.3.0 published 2026-10-15 UTC. README says complete playthrough was tested on one system at native 1080p/240 FPS engine frame rate and warns that other setups have texture corruption, crashes and blockers.",
+        "license_source_assets_availability": "Public source and release; README explicitly says game files are not included.",
+        "evidence": [
+          {
+            "url": "https://github.com/FelipePrado0/gow3_pc",
+            "claim": "README documents method, supported PS4 versions, hosts, current compatibility caveats and tested start-to-finish run on one system."
+          },
+          {
+            "url": "https://github.com/FelipePrado0/gow3_pc/releases/tag/windows-v2.3.0",
+            "claim": "Release page establishes the current Windows stable release."
+          }
+        ],
+        "platform": "PlayStation 4 → Windows 10/11; experimental Linux AppImage"
+      }
+    },
+    {
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "target_type": "Game",
+      "media": [],
+      "research_lanes": [
+        "social"
+      ],
+      "id": "fate-unlimited-codes-psp-recomp",
+      "title": "Fate/unlimited codes PSP Static Recompilation",
+      "game": "Fate/unlimited codes (PSP European release NPEH00007, disc v1.01)",
+      "platform": "PlayStation Portable → Windows x64",
+      "kind": "Recompilation",
+      "status": "Public v0.0.5 build establishes the PSP gameplay base; README marks that base OK while noting battle voice gain still needs correction. The planned PS2 asset replacement is in progress, PS2 controls and online play remain planned, and the current native build is Windows-only.",
+      "summary": "Hybrid native Windows project with the PSP version as its current static-recompilation/gameplay base; PS2 assets and controls are future work. Uses a modified PSPRecomp pipeline and generates the user’s executable locally.",
+      "project_url": "https://github.com/elprogramadorloco-arch/fuc-recomp",
+      "strategy": "Uses a project-specific modified PSPRecomp pipeline to statically recompile the decrypted PSP EBOOT into native Windows x64 code; PPSSPP is a user-supplied preparation tool only, not a runtime emulator.",
+      "language": "C++",
+      "programming_language": "C++",
+      "subtype": "PSP static recompilation to Windows x64",
+      "source_available": "Public source and source-only releases; user supplies the European PSP ISO, fonts and official PPSSPP portable archive and generates a private local binary.",
+      "sources": [
+        {
+          "label": "Project repository and README",
+          "url": "https://github.com/elprogramadorloco-arch/fuc-recomp"
+        },
+        {
+          "label": "Latest published release",
+          "url": "https://github.com/elprogramadorloco-arch/fuc-recomp/releases/tag/v0.0.5"
+        },
+        {
+          "label": "Maintainer WIP announcement in r/decomps",
+          "url": "https://www.reddit.com/r/decomps/comments/1w4veoy/wip_fateunlimited_codes_recomp_psp_static/"
+        }
+      ],
+      "verification": {
+        "method": "README describes a modified PSPRecomp pipeline for static recompilation, with PPSSPP used only to create a local decrypted EBOOT dump. It says the generated native build does not require PPSSPP at runtime.",
+        "game_revision_region_coverage": "European PSP release NPEH00007, disc version 1.01 only; README includes exact expected ISO size/hash.",
+        "build_run_dependencies": "64-bit Windows, CMake 3.22+, user-provided game ISO, 18 PSP PGF fonts and official PPSSPP Windows x64 portable archive v1.20.4+ for local EBOOT extraction.",
+        "release_status_version_dates": "Latest release v0.0.5 published 2026-09-16. README marks the PSP base version OK with battle voice-gain work remaining; PS2 asset replacement is in progress, PS2 controls and online gameplay are planned.",
+        "license_source_assets_availability": "No game ISO, extracted assets or game-derived output is included; the project instructs users to build private derivatives locally.",
+        "evidence": [
+          {
+            "url": "https://github.com/elprogramadorloco-arch/fuc-recomp",
+            "claim": "README identifies exact PSP build, modified PSPRecomp method, Windows host, current roadmap/status and user-supplied inputs."
+          },
+          {
+            "url": "https://github.com/elprogramadorloco-arch/fuc-recomp/releases/tag/v0.0.5",
+            "claim": "Release page confirms the latest public source release."
+          }
+        ],
+        "platform": "PlayStation Portable → Windows x64"
+      }
+    },
+    {
+      "id": "lombyte-ratchet-clank-ps2-decomp",
+      "title": "Lombyte — Ratchet & Clank PS2 Decompilation",
+      "game": "Ratchet & Clank",
+      "target_type": "Game",
+      "platform": "PlayStation 2 (NTSC-U, SCUS_971.99)",
+      "kind": "Decompilation",
+      "status": "Work in progress. The README identifies the NTSC-U SCUS_971.99 build and describes ongoing byte-matching decompilation; no playable native port or complete decompilation is claimed. The project lists a native Rust port as a long-term goal.",
+      "summary": "C source reconstruction of the original PS2 executable, with function and data matching checked against the USA retail build. The repository contains project source rather than the game executable or assets; users need their own game data.",
+      "project_url": "https://github.com/lombyte-project/Lombyte",
+      "updated": "2026-10-15",
+      "strategy": "Matching decompilation of the original PS2 executable",
+      "language": "",
+      "source_available": "Public source repository; user-supplied original PS2 game data required; game files are not included",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "PS2 game decompilation; native Rust port is a stated long-term goal",
+      "sources": [
+        {
+          "label": "Project README and target-disc notes",
+          "url": "https://github.com/lombyte-project/Lombyte"
+        },
+        {
+          "label": "GitHub repository language metadata",
+          "url": "https://api.github.com/repos/lombyte-project/Lombyte"
+        }
+      ]
+    },
+    {
+      "id": "ratchet-clank-up-your-arsenal-ps2-decomp",
+      "title": "Ratchet & Clank: Up Your Arsenal Decompilation",
+      "game": "Ratchet & Clank: Up Your Arsenal",
+      "target_type": "Game",
+      "platform": "PlayStation 2 (NTSC-U, SCUS-97353)",
+      "kind": "Decompilation",
+      "status": "Work in progress. The README reports that three supported executables currently build byte-identically and gives separate function-progress counts; this does not imply that every executable is fully matched or that the game has a native playable port.",
+      "summary": "Matching C decompilation of the PS2 NTSC-U release, tracked against executable byte output. The repository documents retail-build identifiers and does not include the original game files.",
+      "project_url": "https://github.com/OpenRAC/rac3-uya-decomp",
+      "updated": "2026-10-15",
+      "strategy": "Matching decompilation of PS2 executable code",
+      "language": "",
+      "source_available": "Public source repository; user-supplied PS2 game data required; game files are not included",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "PlayStation 2 NTSC-U matching decompilation",
+      "sources": [
+        {
+          "label": "Project README, executable IDs, and byte-match progress",
+          "url": "https://github.com/OpenRAC/rac3-uya-decomp"
+        },
+        {
+          "label": "GitHub repository language metadata",
+          "url": "https://api.github.com/repos/OpenRAC/rac3-uya-decomp"
+        }
+      ]
+    },
+    {
+      "id": "jet-set-radio-future-macos-recomp",
+      "title": "Jet Set Radio Future Apple Silicon Recompilation",
+      "game": "Jet Set Radio Future",
+      "target_type": "Game",
+      "platform": "Original Xbox → macOS on Apple Silicon",
+      "kind": "Recompilation",
+      "status": "Work in progress; the maintainer reported play through chapter 2 at a steady 60 fps on Apple Silicon in a September 2026 README update. The project does not claim a complete-campaign test.",
+      "summary": "Static recompilation of the original Xbox game for native macOS on Apple Silicon. Its host runtime includes a Direct3D 8-to-Metal graphics lift; users must provide their own Xbox game data, which the repository does not distribute.",
+      "project_url": "https://github.com/andeecollard/jsrf-recomp",
+      "updated": "2026-10-15",
+      "strategy": "Static Xbox code recompilation to native Apple Silicon macOS",
+      "language": "",
+      "source_available": "Public source repository; user-supplied original Xbox game data required; game files are not included",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Original Xbox static recompilation for Apple Silicon macOS",
+      "sources": [
+        {
+          "label": "Project README and macOS compatibility notes",
+          "url": "https://github.com/andeecollard/jsrf-recomp"
+        },
+        {
+          "label": "GitHub repository language metadata",
+          "url": "https://api.github.com/repos/andeecollard/jsrf-recomp"
+        }
+      ]
+    },
+    {
+      "id": "fable-the-lost-chapters-pc-decomp",
+      "title": "Fable: The Lost Chapters PC Decompilation",
+      "game": "Fable: The Lost Chapters",
+      "target_type": "Game",
+      "platform": "Windows PC (x86, 32-bit)",
+      "kind": "Decompilation",
+      "status": "Active research. The README reports 37.48% functional and 16.30% byte-identical on its earlier 49,568-function snapshot. The authored frontend checkpoint does not establish that the reconstructed engine boots or that the game is playable.",
+      "summary": "Native x86 decompilation work on the Windows PC edition of Fable: The Lost Chapters, using static analysis, symbol recovery, runtime instrumentation, and compiler reconstruction. The repository does not include game data or assets.",
+      "project_url": "https://github.com/BuffJesus/FableDecomp",
+      "updated": "2026-10-15",
+      "strategy": "Native x86 decompilation with runtime analysis and byte matching",
+      "language": "",
+      "source_available": "Public source repository; game data and assets are not included",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Windows x86 PC decompilation; authored checkpoint is not a playable build",
+      "sources": [
+        {
+          "label": "Project README and progress snapshot",
+          "url": "https://github.com/BuffJesus/FableDecomp"
+        },
+        {
+          "label": "GitHub repository language metadata",
+          "url": "https://api.github.com/repos/BuffJesus/FableDecomp"
+        }
+      ]
+    }
+  ]
+}

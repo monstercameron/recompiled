@@ -14,6 +14,11 @@ PROJECT_KINDS = (
     "Decompilation", "Recompilation", "API Translation", "Fan Localization",
     "Reimplementation", "Emulator",
 )
+PROJECT_UPDATE_FIELDS = {
+    "title", "game", "target_type", "platform", "kind", "status", "summary",
+    "project_url", "updated", "strategy", "language", "source_available",
+    "first_found", "project_started", "programming_language", "subtype",
+}
 PROJECT_KIND_SQL = ", ".join(f"'{kind}'" for kind in PROJECT_KINDS)
 
 SCHEMA = f"""
@@ -840,6 +845,106 @@ def import_file(path):
     print(f"Imported or updated {len(projects):,} verified records in {DATABASE}")
 
 
+def import_project_updates(path):
+    """Apply source-backed metadata patches without replacing project records or sources."""
+    data = json.loads(pathlib.Path(path).read_text(encoding="utf-8"))
+    if not isinstance(data, dict) or not isinstance(data.get("updates"), list) or not data["updates"]:
+        raise ValueError("Project updates must contain a non-empty updates array")
+    updated = data.get("updated")
+    if updated is not None and (not isinstance(updated, str) or not updated.strip()):
+        raise ValueError("The update batch date must be a non-empty string")
+
+    # Validate the complete patch before opening a write transaction. This keeps a
+    # malformed batch from partially updating the catalog.
+    normalized = []
+    seen_ids = set()
+    for update in data["updates"]:
+        if not isinstance(update, dict):
+            raise ValueError("Every project update must be an object")
+        project_id = update.get("id")
+        fields = update.get("fields")
+        sources = update.get("sources")
+        if not isinstance(project_id, str) or not project_id.strip():
+            raise ValueError("Every project update needs an ID")
+        if project_id in seen_ids:
+            raise ValueError(f"Project update IDs must be unique in a batch: {project_id}")
+        seen_ids.add(project_id)
+        if not isinstance(fields, dict) or not fields:
+            raise ValueError(f"Project update needs at least one field: {project_id}")
+        unknown = set(fields) - PROJECT_UPDATE_FIELDS
+        if unknown:
+            raise ValueError(f"Unsupported metadata fields for {project_id}: {sorted(unknown)}")
+        for field, value in fields.items():
+            if not isinstance(value, str) or not value.strip():
+                raise ValueError(f"Metadata values must be non-empty strings: {project_id}.{field}")
+            if field == "kind" and value not in PROJECT_KINDS:
+                raise ValueError(f"Unknown project kind in {project_id}: {value}")
+            if field == "target_type" and value not in {"Game", "Software"}:
+                raise ValueError(f"Unknown target type in {project_id}: {value}")
+            if field == "project_url":
+                _https_url(value, "Project URL", project_id)
+        if not isinstance(sources, list) or not sources:
+            raise ValueError(f"Every project update needs an HTTPS evidence source: {project_id}")
+        unique_sources = []
+        seen_urls = set()
+        for source in sources:
+            if not isinstance(source, dict):
+                raise ValueError(f"Project source must be an object: {project_id}")
+            label, url = source.get("label"), source.get("url")
+            if not isinstance(label, str) or not label.strip():
+                raise ValueError(f"Project source needs a label: {project_id}")
+            _https_url(url, "Project source URL", project_id)
+            if url not in seen_urls:
+                unique_sources.append({"label": label.strip(), "url": url})
+                seen_urls.add(url)
+        normalized.append({"id": project_id, "fields": fields, "sources": unique_sources})
+
+    connection = connect()
+    try:
+        with connection:
+            for update in normalized:
+                project_id = update["id"]
+                project = connection.execute(
+                    "SELECT target_type FROM projects WHERE id=?", (project_id,)
+                ).fetchone()
+                if not project:
+                    raise ValueError(f"Cannot patch an unknown project ID: {project_id}")
+                assignments = ", ".join(f"{field}=?" for field in update["fields"])
+                values = [update["fields"][field] for field in update["fields"]]
+                connection.execute(
+                    f"UPDATE projects SET {assignments} WHERE id=?", (*values, project_id)
+                )
+                target_type = update["fields"].get("target_type", project["target_type"])
+                if "game" in update["fields"] and target_type == "Game":
+                    connection.execute(
+                        "INSERT OR IGNORE INTO games(game_key) VALUES(?)", (update["fields"]["game"],)
+                    )
+
+                existing = connection.execute(
+                    "SELECT position,url FROM sources WHERE project_id=? ORDER BY position", (project_id,)
+                ).fetchall()
+                existing_urls = {row["url"] for row in existing}
+                position = max((row["position"] for row in existing), default=-1) + 1
+                for source in update["sources"]:
+                    if source["url"] in existing_urls:
+                        continue
+                    connection.execute(
+                        "INSERT INTO sources(project_id,position,label,url) VALUES(?,?,?,?)",
+                        (project_id, position, source["label"], source["url"]),
+                    )
+                    existing_urls.add(source["url"])
+                    position += 1
+
+            updated = updated or date.today().isoformat()
+            connection.execute(
+                "INSERT INTO metadata(key,value) VALUES('updated',?) "
+                "ON CONFLICT(key) DO UPDATE SET value=excluded.value", (updated,),
+            )
+    finally:
+        connection.close()
+    print(f"Applied {len(normalized):,} source-backed project updates in {DATABASE}")
+
+
 def import_emulators(path):
     """Add or update emulator records while preserving existing project and source rows."""
     data = json.loads(pathlib.Path(path).read_text(encoding="utf-8"))
@@ -1045,6 +1150,10 @@ def main():
     commands = parser.add_subparsers(dest="command", required=True)
     importer = commands.add_parser("import", help="Upsert verified records from a JSON file")
     importer.add_argument("input", help="JSON file with a projects array")
+    project_updates_importer = commands.add_parser(
+        "import-project-updates", help="Apply source-backed field patches without replacing project sources"
+    )
+    project_updates_importer.add_argument("input", help="JSON file with an updates array")
     emulator_importer = commands.add_parser("import-emulators", help="Add or update source-verified emulator records")
     emulator_importer.add_argument("manifest", help="JSON emulator manifest")
     media_importer = commands.add_parser("import-media", help="Attach reviewed source-linked media to existing projects")
@@ -1069,6 +1178,8 @@ def main():
     args = parser.parse_args()
     if args.command == "import":
         import_file(args.input)
+    elif args.command == "import-project-updates":
+        import_project_updates(args.input)
     elif args.command == "import-emulators":
         import_emulators(args.manifest)
     elif args.command == "import-media":

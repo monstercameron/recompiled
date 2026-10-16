@@ -1,0 +1,71 @@
+{
+  "verified_at": "2026-10-15",
+  "items": [
+    {
+      "id": "splat",
+      "item_type": "Tool",
+      "category": "Decompilation tooling",
+      "name": "splat",
+      "description": "A binary-splitting tool for decompilation and modding projects, with support for Nintendo 64, PlayStation, PlayStation 2, and PSP binaries.",
+      "url": "https://github.com/ethteck/splat",
+      "source_url": "https://github.com/ethteck/splat",
+      "source_evidence": "The maintainer README describes splat as a binary-splitting tool for decompilation and modding, lists N64, PSX, PS2, and PSP support, and recommends decomp-toolkit for GameCube/Wii projects.",
+      "verified_at": "2026-10-15"
+    },
+    {
+      "id": "decomp-toolkit",
+      "item_type": "Tool",
+      "category": "Decompilation tooling",
+      "name": "decomp-toolkit",
+      "description": "A command-line toolkit for GameCube and Wii decompilation projects, including disc inspection and extraction, DOL/ELF analysis, binary splitting, and linker-script generation.",
+      "url": "https://github.com/encounter/decomp-toolkit",
+      "source_url": "https://github.com/encounter/decomp-toolkit/blob/main/README.md",
+      "source_evidence": "The maintainer README identifies decomp-toolkit as a GameCube/Wii decompilation toolkit and documents disc and executable analysis, DOL splitting, linker-script generation, and integration with objdiff and decomp.me.",
+      "verified_at": "2026-10-15"
+    },
+    {
+      "id": "bepinex",
+      "item_type": "Tool",
+      "category": "Game modding frameworks",
+      "name": "BepInEx",
+      "description": "A plugin-loading and patching framework for Unity, XNA, and other .NET games; its official documentation covers installation, plugin development, and runtime patching.",
+      "url": "https://github.com/BepInEx/BepInEx",
+      "source_url": "https://docs.bepinex.dev/master/articles/dev_guide/plugin_tutorial/index.html",
+      "source_evidence": "The official repository describes BepInEx as a Unity/XNA game patcher and plugin framework. Its current docs include setup instructions, a C# plugin walkthrough, runtime patching, and installation guidance for Windows, Linux, and macOS.",
+      "verified_at": "2026-10-15"
+    },
+    {
+      "id": "moltenvk",
+      "item_type": "Tool",
+      "category": "Graphics API translation",
+      "name": "MoltenVK",
+      "description": "A Khronos Vulkan portability layer that implements Vulkan graphics and compute functionality over Apple Metal for macOS, iOS, tvOS, and visionOS applications.",
+      "url": "https://github.com/KhronosGroup/MoltenVK",
+      "source_url": "https://github.com/KhronosGroup/MoltenVK/blob/main/README.md",
+      "source_evidence": "The Khronos-maintained README describes MoltenVK as a Vulkan portability implementation layered over Apple Metal and lists macOS, iOS, tvOS, and visionOS as target platforms; it also documents SPIR-V to Metal shader conversion.",
+      "verified_at": "2026-10-15"
+    },
+    {
+      "id": "angle",
+      "item_type": "Tool",
+      "category": "Graphics API translation",
+      "name": "ANGLE",
+      "description": "An OpenGL ES implementation and translation layer that maps OpenGL ES 2.0–3.1 content to available backends including Vulkan, desktop OpenGL, Direct3D 9, and Direct3D 11.",
+      "url": "https://github.com/google/angle",
+      "source_url": "https://github.com/google/angle/blob/main/README.md",
+      "source_evidence": "The README describes translation of OpenGL ES API calls to platform graphics APIs and documents support matrices for OpenGL ES versions, renderers, and platforms. The GitHub repository is labeled a public mirror of the Chromium-hosted upstream.",
+      "verified_at": "2026-10-15"
+    },
+    {
+      "id": "nexus-mods",
+      "item_type": "Website",
+      "category": "Game mods and community tools",
+      "name": "Nexus Mods",
+      "description": "A multi-game site for discovering, publishing, and installing game modifications, with tools such as the Vortex mod manager and Collections.",
+      "url": "https://www.nexusmods.com/",
+      "source_url": "https://www.nexusmods.com/about",
+      "source_evidence": "The official about page describes Nexus Mods as a mod discovery and publishing platform across thousands of games and documents its Vortex manager, Collections, and creator/community features.",
+      "verified_at": "2026-10-15"
+    }
+  ]
+}

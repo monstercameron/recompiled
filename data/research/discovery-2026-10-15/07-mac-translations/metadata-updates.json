@@ -1,0 +1,491 @@
+{
+  "updated": "2026-10-15",
+  "updates": [
+    {
+      "id": "d3dmetal-game-porting-toolkit",
+      "fields": {
+        "platform": "Windows Direct3D 11/12 → Metal on Apple silicon macOS, used within Wine/CrossOver and Apple's Game Porting Toolkit",
+        "status": "Proprietary active graphics component. Apple currently lists Game Porting Toolkit 4; CodeWeavers documents D3DMetal as its Direct3D 11/12 graphics backend. Apple does not publish a separate D3DMetal version on the checked toolkit page.",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "Apple Game Porting Toolkit 4 page",
+          "url": "https://developer.apple.com/games/game-porting-toolkit/"
+        },
+        {
+          "label": "CodeWeavers CrossOver graphics backend documentation",
+          "url": "https://support.codeweavers.com/en_US/advanced-settings-in-crossover-mac-26"
+        }
+      ],
+      "evidence_note": "Apple's current page identifies Game Porting Toolkit 4, while CodeWeavers' Mac backend documentation identifies D3DMetal as the Direct3D 11/12 translation path. Kept D3DMetal's standalone version unspecified because Apple does not publish one on the checked page."
+    },
+    {
+      "id": "dxmt",
+      "fields": {
+        "status": "Experimental macOS/Wine implementation of Direct3D 10/11; v0.80 is the latest published release (2026-04-23). The repository has code changes through 2026-10-07, and its issue tracker still lists compatibility and performance bugs.",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "DXMT project README",
+          "url": "https://github.com/3Shain/dxmt"
+        },
+        {
+          "label": "DXMT v0.80 release",
+          "url": "https://github.com/3Shain/dxmt/releases/tag/v0.80"
+        },
+        {
+          "label": "DXMT recent commits",
+          "url": "https://github.com/3Shain/dxmt/commits/main"
+        },
+        {
+          "label": "DXMT issue tracker",
+          "url": "https://github.com/3Shain/dxmt/issues"
+        }
+      ],
+      "evidence_note": "Replaced the older v0.70 release reference with v0.80, dated 2026-04-23, and checked the current repository history and open issue list. This describes project activity and known issues, not a game-compatibility guarantee."
+    },
+    {
+      "id": "dxvk-macos",
+      "fields": {
+        "programming_language": "C++",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "DXVK-macOS GitHub language metadata",
+          "url": "https://api.github.com/repos/Gcenx/DXVK-macOS/languages"
+        },
+        {
+          "label": "DXVK-macOS repository",
+          "url": "https://github.com/Gcenx/DXVK-macOS"
+        }
+      ],
+      "evidence_note": "GitHub's repository language endpoint identifies C++ as the primary language. The existing status already reflects the latest macOS release and default-branch commit, so those fields were not changed."
+    },
+    {
+      "id": "darling-macos-linux-compatibility",
+      "fields": {
+        "status": "Active; latest release v0.1.20260608 was published 2026-06-09 UTC, and the default branch had commits through 2026-09-06. The README reports many command-line tools functional, GUI support in active development, and an initial Metal backend powered by Vulkan translation.",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "Darling README: scope and current GUI/Metal status",
+          "url": "https://github.com/darlinghq/darling"
+        },
+        {
+          "label": "Latest Darling release",
+          "url": "https://github.com/darlinghq/darling/releases/tag/v0.1.20260608"
+        },
+        {
+          "label": "Darling recent commits",
+          "url": "https://github.com/darlinghq/darling/commits/master"
+        }
+      ],
+      "evidence_note": "Added the latest tagged release and refreshed the activity date while retaining the README's caveat that GUI application support remains in development."
+    },
+    {
+      "id": "magevk",
+      "fields": {
+        "programming_language": "Objective-C++",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "MageVK GitHub language metadata",
+          "url": "https://api.github.com/repos/dttdrv/magevk/languages"
+        },
+        {
+          "label": "MageVK README and project status",
+          "url": "https://github.com/dttdrv/magevk"
+        }
+      ],
+      "evidence_note": "GitHub's language breakdown identifies Objective-C++ as the largest source-language component. The existing experimental scope and last-push date were already represented accurately."
+    },
+    {
+      "id": "moltenvk",
+      "fields": {
+        "status": "Active; v1.4.2 was released 2026-07-24. The release notes include 2026 Metal/SPIRV-Cross updates and macOS GPU fixes; Khronos' Apple silicon conformance tracker records v1.4.2 testing on macOS 26.5.2.",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "MoltenVK v1.4.2 release notes",
+          "url": "https://github.com/KhronosGroup/MoltenVK/releases/tag/v1.4.2"
+        },
+        {
+          "label": "Khronos MoltenVK Apple silicon Vulkan conformance tracking",
+          "url": "https://github.com/KhronosGroup/MoltenVK/issues/1664"
+        },
+        {
+          "label": "MoltenVK README",
+          "url": "https://github.com/KhronosGroup/MoltenVK"
+        }
+      ],
+      "evidence_note": "Updated the release version and date to v1.4.2 and linked the Khronos conformance record for its Apple silicon/macOS test context; this does not imply complete Vulkan conformance."
+    },
+    {
+      "id": "metal2vulkan",
+      "fields": {
+        "target_type": "Software",
+        "game": "Metal applications and shaders targeting Vulkan (multi-title)",
+        "status": "Early alpha; v0.1.0 was released 2026-07-22. The project translates Metal AIR/shader inputs into Vulkan/SPIR-V artifacts; its README marks some validation and developer-tool crates as unpublished.",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "Metal2Vulkan README and crate descriptions",
+          "url": "https://github.com/steelbrain/metal2vulkan"
+        },
+        {
+          "label": "Metal2Vulkan v0.1.0 release",
+          "url": "https://github.com/steelbrain/metal2vulkan/releases/tag/v0.1.0"
+        }
+      ],
+      "evidence_note": "Corrected the legacy target type from Game to Software because Metal2Vulkan is a general shader/API translation project, then refreshed its alpha/release status from the project's README and v0.1.0 release."
+    },
+    {
+      "id": "kytyps5",
+      "fields": {
+        "platform": "PlayStation 5 x86-64 software → Windows x64, Linux x64, and experimental macOS x86-64 under Rosetta 2 on Apple silicon; Vulkan 1.3 with MoltenVK on macOS",
+        "status": "Active development; latest release tag KytyPS5-2026-10-16 was published 2026-10-16 UTC (2026-10-15 EDT). README says Windows and Linux are primary; macOS is experimental, uses the x86-64 build under Rosetta 2, and has only a small set of in-game tests on Apple silicon.",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "KytyPS5 README: supported hosts, Rosetta and MoltenVK path",
+          "url": "https://github.com/KytyPS5/KytyPS5"
+        },
+        {
+          "label": "Latest KytyPS5 release",
+          "url": "https://github.com/KytyPS5/KytyPS5/releases/tag/KytyPS5-2026-10-16-3ff6606"
+        }
+      ],
+      "evidence_note": "Replaced the generic macOS/Vulkan label with the README's exact x86-64-under-Rosetta path on Apple silicon and retained the project's experimental status and limited title testing."
+    },
+    {
+      "id": "skate3-recomp",
+      "fields": {
+        "platform": "Xbox 360 → Windows x64, Linux x86-64, and experimental macOS ARM64",
+        "status": "Latest release v2.0.2 (2026-07-24). The README says Windows is most tested, Linux next, and the macOS ARM build is experimental and more prone to issues.",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "Skate 3 Recomp README: platform support and test order",
+          "url": "https://github.com/mchughalex/skate3recomp"
+        },
+        {
+          "label": "Latest Skate 3 Recomp release",
+          "url": "https://github.com/mchughalex/skate3recomp/releases/tag/v2.0.2"
+        }
+      ],
+      "evidence_note": "Specified the Apple-silicon ARM host path and retained the explicit experimental caveat; release metadata confirms v2.0.2."
+    },
+    {
+      "id": "snap64-recomp",
+      "fields": {
+        "platform": "Nintendo 64 → Windows 10/11 x64, Linux x86-64 and ARM64, Steam Deck, and macOS 14+",
+        "status": "Latest release v1.1.4 (2026-10-11). The README accepts only the US Nintendo 64 cartridge image; it lists macOS 14+ but does not specify a Mac CPU architecture.",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "Snap64 Recomp README: host requirements and supported US ROM",
+          "url": "https://github.com/JackandBeans/Snap64Recomp"
+        },
+        {
+          "label": "Latest Snap64 Recomp release",
+          "url": "https://github.com/JackandBeans/Snap64Recomp/releases/tag/v1.1.4"
+        }
+      ],
+      "evidence_note": "Expanded the supported host list using the README's platform badge and added its macOS minimum and ROM-region limit. Left Mac CPU architecture unspecified because the project does not state it."
+    },
+    {
+      "id": "def-jam-fight-for-ny-xbox-recomp",
+      "fields": {
+        "platform": "Original Xbox → Windows x64 (Direct3D 11), Apple silicon macOS and Linux x86-64 (Vulkan), Steam Deck via Linux",
+        "status": "Latest release v0.9.1 (2026-10-15). The README says users provide a supported US Xbox dump and the setup builds the game locally; it describes the Mac/Linux Vulkan path and a 60-fps target.",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "Def Jam Recomp README: platform backends and supported dump",
+          "url": "https://github.com/vyanhursky/DefJamFFNY-recomp"
+        },
+        {
+          "label": "Latest Def Jam Recomp release",
+          "url": "https://github.com/vyanhursky/DefJamFFNY-recomp/releases/tag/v0.9.1"
+        }
+      ],
+      "evidence_note": "Replaced the generic Windows/macOS/Linux list with the README's host architectures and graphics backends, and refreshed the release/status facts from v0.9.1."
+    },
+    {
+      "id": "hybrid-heaven-recomp",
+      "fields": {
+        "platform": "Nintendo 64 → Windows x64, Linux x86-64, Android arm64",
+        "status": "Latest release v1.0.1 (2026-10-04). The current README's release matrix lists Windows, Linux and Android only; macOS support is not documented.",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "Hybrid Heaven Recomp README: method and release platform matrix",
+          "url": "https://github.com/ogdanimal/HybridHeaven-Recomp"
+        },
+        {
+          "label": "Latest Hybrid Heaven Recomp release",
+          "url": "https://github.com/ogdanimal/HybridHeaven-Recomp/releases/tag/v1.0.1"
+        }
+      ],
+      "evidence_note": "Removed the unsupported macOS entry: the current README lists Windows x64, Linux x86-64 and Android arm64 release builds, with no macOS target. The project remains a static recompilation."
+    },
+    {
+      "id": "god-of-war-ii-hd-ps3-recomp",
+      "fields": {
+        "platform": "PlayStation 3 HD version (PowerPC PPU and Cell SPU) → Apple silicon macOS arm64 with Metal",
+        "status": "Latest setup-kit release kit-macos-20260930 (2026-09-30). The README reports Rhodes gameplay, saves and 45–60 fps on Apple silicon, while full-campaign completion is not claimed and a Colossus fight rendering issue remains.",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "God of War II HD README: source version, ARM64 recompilation and test status",
+          "url": "https://github.com/andrebrumdev/gow2-recomp"
+        },
+        {
+          "label": "Latest God of War II setup-kit release",
+          "url": "https://github.com/andrebrumdev/gow2-recomp/releases/tag/kit-macos-20260930"
+        }
+      ],
+      "evidence_note": "Made the Apple silicon ARM64/Metal target explicit and replaced the generic experimental note with current README testing limits and the latest setup-kit version."
+    },
+    {
+      "id": "tenkawa-psp-recomp",
+      "fields": {
+        "platform": "PlayStation Portable → Apple silicon macOS (the only tested host; Vulkan through MoltenVK); Linux, Windows and Steam Deck are untested",
+        "status": "Work in progress and not playable. The interpreter reaches the title screen; the recompiled frame loop runs but does not draw. The README accepts only the European ULES-01456 game image.",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "Tenkawa README: tested host, game revision and interpreter/recompiler status",
+          "url": "https://github.com/TeamGDB/Tenkawa"
+        }
+      ],
+      "evidence_note": "Restricted the stated verified host to Apple silicon macOS, which the README says is the only tested platform; it explicitly leaves Linux, Windows and Steam Deck untested."
+    },
+    {
+      "id": "link-awakening-switch-recomp",
+      "fields": {
+        "platform": "Nintendo Switch → Apple silicon macOS (Metal/MetalFX, macOS 15+), Windows x86-64 (Vulkan), Linux x86-64 (Vulkan); Linux aarch64 experimental",
+        "status": "Beta; latest release beta_4 (2026-10-15). The README identifies macOS as Apple silicon only with Metal/MetalFX, Windows/Linux as x86-64 Vulkan builds, and Linux aarch64 as built but untested on real hardware.",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "LAS Recomp README: supported host architectures and graphics APIs",
+          "url": "https://github.com/peiikai/LASRecomp"
+        },
+        {
+          "label": "LAS Recomp beta_4 release",
+          "url": "https://github.com/peiikai/LASRecomp/releases/tag/beta_4"
+        }
+      ],
+      "evidence_note": "Replaced the generic desktop list with the README's platform-by-platform architecture/backend matrix and current beta release."
+    },
+    {
+      "id": "spider-man-edge-of-time-recomp",
+      "fields": {
+        "platform": "Xbox 360 PowerPC → Windows x86-64, Linux x86-64, Apple silicon macOS (Ventura 13.3+; MoltenVK)",
+        "status": "Latest release v1.0.0 (2026-10-04). The README describes PowerPC assembly translated to static C++ with ReXGlue and lists Apple silicon/macOS Ventura 13.3+ with Vulkan through MoltenVK.",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "Edge of Time Recomp README: recompilation method and minimum host requirements",
+          "url": "https://github.com/goliathret/EdgeOfTimeRecomp"
+        },
+        {
+          "label": "Latest Edge of Time Recomp release",
+          "url": "https://github.com/goliathret/EdgeOfTimeRecomp/releases/tag/v1.0.0"
+        }
+      ],
+      "evidence_note": "Added the explicit Apple silicon/MoltenVK path and minimum macOS version from the project requirements; release page verifies v1.0.0."
+    },
+    {
+      "id": "galaxypad-super-mario-galaxy",
+      "fields": {
+        "platform": "Wii → iOS/iPadOS 16+, Apple silicon macOS 14+; native ARM64 game code with Metal",
+        "status": "Experimental release v0.2.2 (2026-10-15). The current engine compiles for Apple silicon and uses Metal; full-game completion is not verified, and the README does not provide a prebuilt IPA.",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "GalaxyPad README: target versions, native ARM64 engine and limits",
+          "url": "https://github.com/chrissotraidis/galaxypad"
+        },
+        {
+          "label": "GalaxyPad v0.2.2 release",
+          "url": "https://github.com/chrissotraidis/galaxypad/releases/tag/v0.2.2"
+        }
+      ],
+      "evidence_note": "Made the Apple silicon/macOS 14+ target and native ARM64/Metal engine explicit, and tied the experimental/full-game caveat to current v0.2.2 documentation."
+    },
+    {
+      "id": "sunpad-super-mario-sunshine",
+      "fields": {
+        "platform": "GameCube → iOS/iPadOS 16+, Apple silicon macOS 14+; experimental tvOS 17+",
+        "status": "Experimental; v0.2.1 was released 2026-10-04. The README describes ahead-of-time game code, Metal rendering, and an interpreter fallback for unrecompiled code; tvOS remains experimental.",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "SunPad README: Apple OS targets and recompilation method",
+          "url": "https://github.com/chrissotraidis/sunpad"
+        },
+        {
+          "label": "Latest SunPad release",
+          "url": "https://github.com/chrissotraidis/sunpad/releases/tag/v0.2.1"
+        }
+      ],
+      "evidence_note": "Expanded the Mac target to its documented Apple silicon/macOS minimum, separated experimental tvOS support, and refreshed the release version."
+    },
+    {
+      "id": "daytona-usa-model2-recomp",
+      "fields": {
+        "status": "Active development; the README identifies Windows, macOS and Linux as main builds, and GitHub Actions builds/tests on macOS. No GitHub release is published as of 2026-10-15.",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "Daytona USA Recomp README: main host platforms and build instructions",
+          "url": "https://github.com/alphanu1/daytona-arcade-recomp"
+        },
+        {
+          "label": "Daytona USA Recomp macOS/desktop CI workflow",
+          "url": "https://github.com/alphanu1/daytona-arcade-recomp/actions"
+        }
+      ],
+      "evidence_note": "Confirmed macOS as a documented main build and CI target; kept the project in development status because no tagged release is listed."
+    },
+    {
+      "id": "banjo-recompiled",
+      "fields": {
+        "platform": "Nintendo 64 → macOS 13+ on Apple silicon or Intel 7th-generation Mac; Windows x64/ARM64, Linux and Steam Deck",
+        "status": "Latest release v1.0.2 (2026-07-31). The README requires the North American 1.0 Nintendo 64 game image and lists macOS 13.0+; no game assets are included.",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "Banjo: Recompiled README: Mac system requirements and accepted ROM",
+          "url": "https://github.com/BanjoRecomp/BanjoRecomp"
+        },
+        {
+          "label": "Latest Banjo: Recompiled release",
+          "url": "https://github.com/BanjoRecomp/BanjoRecomp/releases/tag/v1.0.2"
+        }
+      ],
+      "evidence_note": "Added the documented Apple silicon/Intel Mac requirement, minimum macOS version and supported North American ROM revision, then recorded the latest release."
+    },
+    {
+      "id": "openmw",
+      "fields": {
+        "platform": "Windows game data → Windows, Linux and macOS (current development README lists macOS 14.8+)",
+        "status": "Active; latest tagged release is openmw-0.51.0 (2026-06-19). The current development README identifies 0.52.0 and lists macOS 14.8+; that minimum is for the development branch.",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "OpenMW README: current development version and host requirements",
+          "url": "https://github.com/OpenMW/openmw"
+        },
+        {
+          "label": "Latest OpenMW release",
+          "url": "https://github.com/OpenMW/openmw/releases/tag/openmw-0.51.0"
+        }
+      ],
+      "evidence_note": "Separated the latest tagged release from the version/OS requirement on the current development README, avoiding an implication that the 0.51.0 release requires the development branch's newer macOS minimum."
+    },
+    {
+      "id": "openrct2",
+      "fields": {
+        "status": "Active; latest release v0.5.6 was published 2026-10-10. The project provides macOS builds and links to official CMake build instructions for macOS.",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "OpenRCT2 README: downloads and macOS build instructions",
+          "url": "https://github.com/OpenRCT2/OpenRCT2/blob/develop/readme.md"
+        },
+        {
+          "label": "Latest OpenRCT2 release",
+          "url": "https://github.com/OpenRCT2/OpenRCT2/releases/tag/v0.5.6"
+        }
+      ],
+      "evidence_note": "Refreshed the release status to v0.5.6 and retained macOS as a documented native target."
+    },
+    {
+      "id": "openra",
+      "fields": {
+        "status": "Active; latest GitHub release is release-20250330 (2025-03-30). The README lists macOS among supported desktop hosts, and the repository continued to receive commits through 2026-10-11.",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "OpenRA README: supported desktop systems",
+          "url": "https://github.com/OpenRA/OpenRA/blob/bleed/README.md"
+        },
+        {
+          "label": "Latest OpenRA release",
+          "url": "https://github.com/OpenRA/OpenRA/releases/tag/release-20250330"
+        },
+        {
+          "label": "OpenRA recent commits",
+          "url": "https://github.com/OpenRA/OpenRA/commits/bleed"
+        }
+      ],
+      "evidence_note": "Updated the last published release and repository activity separately; macOS remains documented as a supported host."
+    },
+    {
+      "id": "devilutionx",
+      "fields": {
+        "status": "Active; latest stable release v1.5.5 (2025-10-30). The README lists a macOS x86_64 build workflow, and repository development continued through 2026-10-15; original Diablo/Hellfire data is still required.",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "DevilutionX README: macOS build workflow and original-data requirement",
+          "url": "https://github.com/diasurgical/DevilutionX"
+        },
+        {
+          "label": "Latest DevilutionX release",
+          "url": "https://github.com/diasurgical/DevilutionX/releases/tag/1.5.5"
+        },
+        {
+          "label": "macOS x86_64 build workflow",
+          "url": "https://github.com/diasurgical/DevilutionX/actions/workflows/macOS_x86_64.yml"
+        }
+      ],
+      "evidence_note": "Separated the latest stable release from ongoing repository development and recorded the explicitly named macOS x86_64 workflow without inferring Apple silicon support."
+    },
+    {
+      "id": "corsixth",
+      "fields": {
+        "status": "Active; latest release v0.70.1 was published 2026-08-28. The project offers macOS installers and Linux AppImage builds; original Theme Hospital data is required.",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "CorsixTH README: supported systems and required original data",
+          "url": "https://github.com/CorsixTH/CorsixTH/blob/master/README.md"
+        },
+        {
+          "label": "Latest CorsixTH release",
+          "url": "https://github.com/CorsixTH/CorsixTH/releases/tag/v0.70.1"
+        }
+      ],
+      "evidence_note": "Refreshed the published release and confirmed the current README continues to list macOS installers and require original game data."
+    }
+  ]
+}

@@ -1,0 +1,284 @@
+{
+  "updated": "2026-10-15",
+  "projects": [
+    {
+      "id": "cataclysm-dda-android",
+      "title": "Cataclysm: Dark Days Ahead Android build",
+      "game": "Cataclysm: Dark Days Ahead",
+      "target_type": "Game",
+      "platform": "Windows/Linux/macOS PC → Android",
+      "kind": "Reimplementation",
+      "status": "The official project publishes experimental Android APKs. The build documentation lists ARM and x86 ABI variants, but does not state a minimum Android version or a device test matrix.",
+      "summary": "Official Android source build of the open-source survival roguelike. The project release workflow publishes experimental arm32 and arm64 APKs; Android build documentation also describes x86 and x86_64 ABI options. The public repository includes the game source and data, so no commercial PC game files are required.",
+      "project_url": "https://github.com/CleverRaven/Cataclysm-DDA",
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "strategy": "Native Android source port",
+      "source_available": "Public C++ source repository with Android application, game data, build documentation, and experimental APK releases",
+      "programming_language": "C++",
+      "subtype": "Official experimental Android build; arm32/arm64 release APKs",
+      "sources": [
+        {
+          "label": "Official Android build and device-install documentation",
+          "url": "https://github.com/CleverRaven/Cataclysm-DDA/blob/master/doc/c%2B%2B/COMPILING.md"
+        },
+        {
+          "label": "Official experimental release workflow and Android ABI artifacts",
+          "url": "https://github.com/CleverRaven/Cataclysm-DDA/blob/master/.github/workflows/release.yml"
+        },
+        {
+          "label": "Experimental Android release history",
+          "url": "https://github.com/CleverRaven/Cataclysm-DDA/releases"
+        }
+      ]
+    },
+    {
+      "id": "corsixth-android",
+      "title": "CorsixTH for Android",
+      "game": "Theme Hospital",
+      "target_type": "Game",
+      "platform": "DOS/Windows PC → Android",
+      "kind": "Reimplementation",
+      "status": "A pre-release APK is available from GitHub Releases and Google Play's testing channel. The README specifies Android 8.1+ and a 640×480 minimum display; it requires Theme Hospital files or can download the official demo. The author warns that the port is under redevelopment and may have bugs or missing features.",
+      "summary": "Android port of CorsixTH, the open-source Theme Hospital engine reimplementation. Players can import their original game data or download the demo in-app. The README does not name tested device models or Android CPU ABIs.",
+      "project_url": "https://github.com/alanwoolley/CorsixTH-Android",
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "strategy": "Native Android port of CorsixTH",
+      "source_available": "Public source repository and pre-release APKs; the original Theme Hospital data is not bundled, but the official demo can be downloaded in-app",
+      "programming_language": "C++, Java, Lua",
+      "subtype": "Android application with touch controls and in-app game-data import",
+      "sources": [
+        {
+          "label": "Android port README, requirements, game-data setup, and release links",
+          "url": "https://github.com/alanwoolley/CorsixTH-Android"
+        },
+        {
+          "label": "Maintainer's project page and redevelopment status",
+          "url": "https://www.armedpineapple.co.uk/projects/corsixth-for-android/"
+        },
+        {
+          "label": "GitHub pre-release APKs",
+          "url": "https://github.com/alanwoolley/CorsixTH-Android/releases"
+        },
+        {
+          "label": "GitHub repository language breakdown",
+          "url": "https://api.github.com/repos/alanwoolley/CorsixTH-Android/languages"
+        }
+      ]
+    },
+    {
+      "id": "brogue-ce-android",
+      "title": "Brogue CE Android",
+      "game": "Brogue: Community Edition",
+      "target_type": "Game",
+      "platform": "Windows/macOS/Linux PC → Android",
+      "kind": "Reimplementation",
+      "status": "The port repository describes itself as a personal, unsupported Android fork, while F-Droid lists developer-built version 1.15.1.23 from August 2026. The F-Droid build requires Android 7.0+, and lists arm64-v8a, armeabi-v7a, and x86_64 packages. No device-model test matrix is published.",
+      "summary": "Android port of Brogue Community Edition with swipe movement, touch gestures, and a mobile inventory/menu overlay. F-Droid verifies its package against the source tarball. The open-source roguelike does not require proprietary PC game data.",
+      "project_url": "https://github.com/tyrannotorus/c-brogue-ce-android",
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "strategy": "Native Android source port",
+      "source_available": "Public C and Java source repository; F-Droid provides APKs and source-build metadata; no commercial data is required",
+      "programming_language": "C, Java",
+      "subtype": "Touch-oriented Android fork with F-Droid builds",
+      "sources": [
+        {
+          "label": "Android port README and APK releases",
+          "url": "https://github.com/tyrannotorus/c-brogue-ce-android"
+        },
+        {
+          "label": "F-Droid release, minimum Android version, and ABI packages",
+          "url": "https://f-droid.org/packages/org.broguece.game/"
+        },
+        {
+          "label": "GitHub repository language breakdown",
+          "url": "https://api.github.com/repos/tyrannotorus/c-brogue-ce-android/languages"
+        }
+      ]
+    },
+    {
+      "id": "freeciv-android",
+      "title": "Freeciv for Android",
+      "game": "Freeciv",
+      "target_type": "Game",
+      "platform": "Windows/Linux PC → Android",
+      "kind": "Reimplementation",
+      "status": "The public Android port repository contains Freeciv 2.6.0 and documents an APK build; its README points users to a downloadable APK. The stated Android SDK 26 requirement is for the build environment, not a confirmed runtime floor. No current Android minimum, ABI list, or device-test matrix is stated.",
+      "summary": "An Android port of the open-source Civilization-inspired strategy game, based on Freeciv 2.6.0. The source includes game code and data and does not require proprietary PC assets. The repository's build instructions require the old NDK r12b and Java 8.",
+      "project_url": "https://github.com/zielmicha/freeciv-android",
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "strategy": "Android source port",
+      "source_available": "Public C, Java, and Python source repository; APK download is linked from the README; no proprietary game data is required",
+      "programming_language": "C, Java, JavaScript, Python",
+      "subtype": "Legacy Android port bundling Freeciv 2.6.0",
+      "sources": [
+        {
+          "label": "Project README, included version, APK download, and Android build requirements",
+          "url": "https://github.com/zielmicha/freeciv-android"
+        },
+        {
+          "label": "GitHub repository language breakdown",
+          "url": "https://api.github.com/repos/zielmicha/freeciv-android/languages"
+        }
+      ]
+    },
+    {
+      "id": "flare-engine-android",
+      "title": "FLARE Engine Android port",
+      "game": "FLARE: Free Libre Action Roleplaying Engine",
+      "target_type": "Software",
+      "platform": "Windows/Linux/macOS PC → Android",
+      "kind": "Reimplementation",
+      "status": "The official wiki lists a version 1.15 Android APK and describes the port as functional. Android OS floor, ABI support, and tested device models are not specified in that guide.",
+      "summary": "Android build of the open-source FLARE isometric action RPG engine. The mobile app needs the game data copied manually from the 613 MB Windows 1.15 bundle; this is a project data transfer, not a commercial PC game requirement. The wiki notes that storage access may need a user-created Flare folder on newer Android versions.",
+      "project_url": "https://github.com/flareteam/flare-engine",
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "strategy": "Cross-platform game-engine source port",
+      "source_available": "Public C++ source repository and Android APK link; game data is distributed separately in the Windows release bundle",
+      "programming_language": "C++",
+      "subtype": "Android runtime for FLARE game data",
+      "sources": [
+        {
+          "label": "Official Android port guide, APK, and manual game-data installation",
+          "url": "https://github.com/flareteam/flare-engine/wiki/Android-port"
+        },
+        {
+          "label": "FLARE engine source repository",
+          "url": "https://github.com/flareteam/flare-engine"
+        },
+        {
+          "label": "GitHub repository language breakdown",
+          "url": "https://api.github.com/repos/flareteam/flare-engine/languages"
+        }
+      ]
+    },
+    {
+      "id": "barony-android-port",
+      "title": "Barony Android Port",
+      "game": "Barony",
+      "target_type": "Game",
+      "platform": "Windows PC → Android",
+      "kind": "Reimplementation",
+      "status": "The current normal prerelease is version 5.0.2 Beta 8. It supports Android 8.0+ on arm64-v8a with OpenGL ES 3. Beta 3 release notes document testing on a Galaxy S24 Ultra, Galaxy Note 9, and Poco F7; the maintainer says GPU compatibility testing is ongoing. The APK excludes commercial game data, which users import from an owned Steam or GOG v5.0.2 copy using a Windows data builder.",
+      "summary": "Permissioned Android-focused source fork of Barony with offline single-player, gamepad and touch controls, and optional experimental LAN multiplayer. The public repository provides APKs, source, checksums, and an owned-data archive builder; it does not redistribute game or DLC assets.",
+      "project_url": "https://github.com/DifferentNet/barony-android-port",
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "strategy": "Native Android source fork",
+      "source_available": "Public C++ source fork, prerelease APKs, checksums, and Windows data builder; commercial game data is supplied privately by the user",
+      "programming_language": "C++, C, PowerShell, Java",
+      "subtype": "Android 8+ arm64-v8a port with GLES3 and touch/gamepad input",
+      "sources": [
+        {
+          "label": "Project README, fork permission, current beta, Android requirements, and data-import instructions",
+          "url": "https://github.com/DifferentNet/barony-android-port/blob/main/README.md"
+        },
+        {
+          "label": "Beta release notes and documented Android device verification",
+          "url": "https://github.com/DifferentNet/barony-android-port/releases"
+        },
+        {
+          "label": "GitHub repository language breakdown",
+          "url": "https://api.github.com/repos/DifferentNet/barony-android-port/languages"
+        }
+      ]
+    },
+    {
+      "id": "celeste-android",
+      "title": "Celeste Android",
+      "game": "Celeste",
+      "target_type": "Game",
+      "platform": "Windows PC → Android",
+      "kind": "Reimplementation",
+      "status": "The project publishes installable APK releases for Android 8.0/API 26+ on arm64-v8a. A controller is required because touch controls are not implemented. The README reports testing with Celeste 1.4.0.0 and gameplay on a Galaxy S23 with Snapdragon 8 Gen 2 running Android 16. Users import their own PC FNA build; no game files are included.",
+      "summary": "Native Android runtime port for the user's own Celeste PC FNA build, using .NET, FNA, SDL3, and FMOD. The app imports and patches a copy on the device without modifying the original executable. The repository is public; proprietary game and FMOD data remain user-provided.",
+      "project_url": "https://github.com/BelmanteGu/CelesteAndroid",
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "strategy": "Native Android runtime port",
+      "source_available": "Public C# source repository and APK releases; the user supplies the commercial Celeste FNA game files and associated content",
+      "programming_language": "C#",
+      "subtype": "Android 8+ arm64 FNA/.NET runtime; controller required",
+      "sources": [
+        {
+          "label": "Project README, compatibility requirements, device test, install guide, and source build",
+          "url": "https://github.com/BelmanteGu/CelesteAndroid"
+        },
+        {
+          "label": "GitHub repository language breakdown",
+          "url": "https://api.github.com/repos/BelmanteGu/CelesteAndroid/languages"
+        }
+      ]
+    },
+    {
+      "id": "warzone-2100-web-android",
+      "title": "Warzone 2100 browser port for Android",
+      "game": "Warzone 2100",
+      "target_type": "Game",
+      "platform": "Windows/macOS/Linux PC → Android browser",
+      "kind": "Reimplementation",
+      "status": "A project-maintainer response links an Android browser build at play.wz2100.net. The source is maintained in the public upstream repository, but the maintainer response does not identify a minimum browser/OS version, CPU/ABI requirement, or tested device models.",
+      "summary": "Browser-based WebAssembly port of the open-source real-time strategy game, playable on Android according to the upstream project's maintainer. This is a browser experience rather than a native Android package; current device compatibility details are not published in the cited project response.",
+      "project_url": "https://play.wz2100.net/",
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "strategy": "Browser/WebAssembly source port",
+      "source_available": "The upstream C++ game source is public; the maintainer's announcement links the hosted browser build but does not link a separate web-build repository",
+      "programming_language": "C++",
+      "subtype": "Android browser build using WebAssembly",
+      "sources": [
+        {
+          "label": "Upstream maintainer's Android browser-port announcement",
+          "url": "https://github.com/Warzone2100/warzone2100/discussions/3603"
+        },
+        {
+          "label": "Hosted browser build",
+          "url": "https://play.wz2100.net/"
+        },
+        {
+          "label": "Public upstream source repository",
+          "url": "https://github.com/Warzone2100/warzone2100"
+        }
+      ]
+    },
+    {
+      "id": "pocketzot-dcss-mobile",
+      "title": "PocketZot",
+      "game": "Dungeon Crawl Stone Soup",
+      "target_type": "Game",
+      "platform": "Windows/Linux PC → iOS/Android browser",
+      "kind": "Reimplementation",
+      "status": "The project is a live, installable progressive web app for iPhone and Android browsers, with no App Store or Play Store package. Online play connects to WebTiles servers; optional offline play fetches a separate DCSS WebAssembly engine. The project does not publish minimum OS/browser requirements or a device test matrix.",
+      "summary": "Unofficial mobile-first DCSS web client with portrait touch controls and ASCII/tile rendering. The public TypeScript client handles online WebTiles sessions; a companion public C++ engine port compiled to WebAssembly enables offline local games. No user-owned PC game files are required.",
+      "project_url": "https://github.com/pocketzot/pocketzot",
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "strategy": "Mobile web client with optional local WebAssembly engine",
+      "source_available": "Public TypeScript client source and separate public C++ WebAssembly engine source; no commercial data required",
+      "programming_language": "TypeScript, C++",
+      "subtype": "Installable iOS/Android PWA; online WebTiles client and offline engine",
+      "sources": [
+        {
+          "label": "Project README, live PWA, install method, and mobile features",
+          "url": "https://github.com/pocketzot/pocketzot"
+        },
+        {
+          "label": "Attribution and details separating online client from offline WebAssembly engine",
+          "url": "https://github.com/pocketzot/pocketzot/blob/main/ATTRIBUTION.md"
+        },
+        {
+          "label": "Separate offline engine source",
+          "url": "https://github.com/pocketzot/pocketzot-engine"
+        },
+        {
+          "label": "GitHub client repository language breakdown",
+          "url": "https://api.github.com/repos/pocketzot/pocketzot/languages"
+        }
+      ]
+    }
+  ]
+}

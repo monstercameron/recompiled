@@ -1,0 +1,414 @@
+{
+  "verified_at": "2026-10-15",
+  "research_lane": "12-fan-localization-round2",
+  "catalog_snapshot": "/Users/earlcameron/Desktop/recompiled/data/catalog.sqlite (847 projects; 80 Fan Localization records)",
+  "projects": [
+    {
+      "id": "ar-tonelico-2-metafalica-en",
+      "title": "Project Metafalica 2.0 — Ar tonelico II English Retranslation",
+      "game": "Ar tonelico II: Melody of Metafalica",
+      "platform": "PlayStation 2",
+      "kind": "Fan Localization",
+      "status": "Complete; v2.0 official release dated 2026-09-24",
+      "summary": "A complete English retranslation of Ar tonelico II from its Japanese script, replacing the existing English localization and including technical fixes. The maintainer provides separate patches for four retail game editions.",
+      "project_url": "https://www.projectmetafalica.com/?p=537",
+      "updated": "2026-09-24",
+      "strategy": "Fan retranslation patch",
+      "language": "English",
+      "source_available": "Version-specific xdelta patches",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "English retranslation",
+      "target_type": "Game",
+      "sources": [
+        {
+          "label": "Maintainer project, downloads, compatibility and release history",
+          "url": "https://www.projectmetafalica.com/?p=537"
+        }
+      ],
+      "language_pair": "Japanese → English retranslation; US/EU English editions are also supported",
+      "patch_release": {
+        "version": "2.0",
+        "date": "2026-09-24",
+        "download": "https://www.projectmetafalica.com/?p=537"
+      },
+      "patch_format": "xdelta patch; separate US, EU, Japanese and Japanese reprint packages",
+      "supported_game_build": "Original retail PS2 releases: US, EU, Japan, and Japan reprint (PS2 The Best); patch applies directly to the matching original ISO",
+      "release_source": "Project Metafalica maintainer site",
+      "caveats": [
+        "Requires the user's own matching retail disc dump; an undub or previously patched image is not required and is not the stated target."
+      ]
+    },
+    {
+      "id": "our-life-beginnings-always-jp",
+      "title": "Our Life: Beginnings & Always Japanese Patch",
+      "game": "Our Life: Beginnings & Always",
+      "platform": "PC (Steam/itch); Android (itch APK)",
+      "kind": "Fan Localization",
+      "status": "Released; v1.20 dated 2026-09-04; route and choice QA is incomplete",
+      "summary": "Unofficial Japanese story-text patch for the English-language visual novel, including DLC text and an optional Japanese/English switching package. Most menus and settings remain English, and the maintainer says not all routes and choices have been fully tested.",
+      "project_url": "https://nekomint-2.itch.io/olba-jp-patch",
+      "updated": "2026-09-04",
+      "strategy": "Fan translation patch",
+      "language": "Japanese",
+      "source_available": ".rpa patch files distributed in ZIP archives",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "Text localization",
+      "target_type": "Game",
+      "sources": [
+        {
+          "label": "Maintainer itch page; supported versions, patch format, release history and distribution terms",
+          "url": "https://nekomint-2.itch.io/olba-jp-patch"
+        }
+      ],
+      "language_pair": "English → Japanese (a second package supports Japanese/English switching)",
+      "patch_release": {
+        "version": "1.20",
+        "date": "2026-09-04",
+        "download": "https://nekomint-2.itch.io/olba-jp-patch"
+      },
+      "patch_format": ".rpa resource archive in ZIP; copy one patch file into the game's game folder",
+      "supported_game_build": "Our Life: Beginnings & Always v1.7.1 on Steam/itch; itch Android APK v1.7.1, voice and no-voice variants",
+      "release_source": "Maintainer itch page",
+      "caveats": [
+        "Maintainer says the patch contains no game data and was released with GB Patch Games' permission; the download is free, but unauthorized redistribution is prohibited.",
+        "Story and choice text are translated; most UI remains English, and exhaustive route QA is not claimed."
+      ]
+    },
+    {
+      "id": "xoxo-droplets-jp",
+      "title": "XOXO Droplets Japanese Patch",
+      "game": "XOXO Droplets",
+      "platform": "PC (Steam/itch)",
+      "kind": "Fan Localization",
+      "status": "Released; v1.00 dated 2026-04-05",
+      "summary": "An unofficial Japanese text patch for the English-language visual novel, distributed as a Ren'Py resource archive. The maintainer identifies the supported game build and says the game itself is not included.",
+      "project_url": "https://nekomint-2.itch.io/xod-jp-patch",
+      "updated": "2026-04-05",
+      "strategy": "Fan translation patch",
+      "language": "Japanese",
+      "source_available": ".rpa patch file in a ZIP archive",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "Text localization",
+      "target_type": "Game",
+      "sources": [
+        {
+          "label": "Maintainer itch page; supported game version, patch format, release and distribution terms",
+          "url": "https://nekomint-2.itch.io/xod-jp-patch"
+        }
+      ],
+      "language_pair": "English → Japanese",
+      "patch_release": {
+        "version": "1.00",
+        "date": "2026-04-05",
+        "download": "https://nekomint-2.itch.io/xod-jp-patch"
+      },
+      "patch_format": ".rpa resource archive in ZIP; install into the game's game folder",
+      "supported_game_build": "XOXO Droplets v1.30 (Steam/itch)",
+      "release_source": "Maintainer itch page",
+      "caveats": [
+        "The maintainer says the game itself is not included; the mod is free, unauthorized redistribution is prohibited, and bundled fonts retain their own open-font licenses."
+      ]
+    },
+    {
+      "id": "new-love-plus-plus-en",
+      "title": "New Love Plus+ English Patch",
+      "game": "New Love Plus+",
+      "platform": "Nintendo 3DS",
+      "kind": "Fan Localization",
+      "status": "v1.0.0-rc3 release candidate published in September 2026; translation and platform testing remain incomplete",
+      "summary": "A fan English localization patcher for the Japanese 3DS dating sim. The current release candidate produces an installable CIA, but the project's progress page reports partial dialogue coverage and unproofread machine-pass content; LayeredFS and confirmed CFW/Luma support are not available at this stage.",
+      "project_url": "https://newloveplus.loc.moe/",
+      "updated": null,
+      "strategy": "Fan translation patch",
+      "language": "English",
+      "source_available": "Patcher source and translation assets; outputs a patched CIA from the user's game dump",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "Text localization",
+      "target_type": "Game",
+      "sources": [
+        {
+          "label": "Maintainer project and translation progress",
+          "url": "https://newloveplus.loc.moe/"
+        },
+        {
+          "label": "Patch release candidate, source-build compatibility and install limitations",
+          "url": "https://newloveplus.loc.moe/download/"
+        },
+        {
+          "label": "Maintainer patcher repository; patcher builds from the user's dump",
+          "url": "https://github.com/czyrustuazon/NewLovePlusPlusEngPatcher"
+        }
+      ],
+      "language_pair": "Japanese → English",
+      "patch_release": {
+        "version": "1.0.0-rc3",
+        "download": "https://github.com/czyrustuazon/NewLovePlusPlusEngPatcher/releases",
+        "date": "2026-09"
+      },
+      "patch_format": "One-click patcher builds an English CIA from a verified decrypted CIA/.3ds/.cci dump; CIA installation is the only supported route in the release candidate",
+      "supported_game_build": "Japanese 3DS title ID 00040000000F4E00; patcher checks known-good hashes and rejects unmatched dumps",
+      "release_source": "Maintainer site and GitHub repository/releases",
+      "caveats": [
+        "The maintainer reports 424 of 578 dialogue script packs translated, phone/SMS text at 0%, and system/menu text as a 98.1% machine pass that is unreviewed; progress figures were last updated 2026-09-12.",
+        "No CFW/Luma3DS version is confirmed tested; LayeredFS is disabled until the patch leaves release-candidate status.",
+        "Patcher requires the user's own decrypted game dump; the project states the patch only modifies that dump."
+      ]
+    },
+    {
+      "id": "dragon-quest-monsters-joker-3-professional-en-fixed",
+      "title": "Dragon Quest Monsters: Joker 3 Professional Fixed English Build",
+      "game": "Dragon Quest Monsters: Joker 3 Professional",
+      "platform": "Nintendo 3DS",
+      "kind": "Fan Localization",
+      "status": "Released fixed English build v2.21 (2026-10-07); compatibility and playtesting notes are published",
+      "summary": "A corrected rebuild of the 2021 English fan translation, fixing text, crashes, and incomplete Japanese strings while crediting the original translation team. The maintainer distributes two xdelta patches and does not distribute the resulting game CIAs.",
+      "project_url": "https://github.com/Akoi89/DQMJ3P-english-fixed",
+      "updated": "2026-10-07",
+      "strategy": "Fan translation patch",
+      "language": "English",
+      "source_available": "Two xdelta patches (base and update); resulting CIAs are not distributed",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "Text localization",
+      "target_type": "Game",
+      "sources": [
+        {
+          "label": "Maintainer README; target build, patch-only distribution, and application steps",
+          "url": "https://github.com/Akoi89/DQMJ3P-english-fixed"
+        },
+        {
+          "label": "Maintainer release history; current v2.21 release and date",
+          "url": "https://github.com/Akoi89/DQMJ3P-english-fixed/releases"
+        }
+      ],
+      "language_pair": "Japanese → English; rebuild corrects the earlier English fan translation",
+      "patch_release": {
+        "version": "2.21",
+        "date": "2026-10-07",
+        "download": "https://github.com/Akoi89/DQMJ3P-english-fixed/releases"
+      },
+      "patch_format": "Two xdelta3 patches, one for the base title and one for its update; patch ZIP includes an apply script",
+      "supported_game_build": "Japanese 3DS base CTR-P-BDQJ, title ID 00040000001ACB00, version 0.1.0; Japanese Ver.1.3 update CTR-U-BDQJ, title ID 0004000E001ACB00, version 3.4.0",
+      "release_source": "Maintainer GitHub releases",
+      "caveats": [
+        "Requires both the exact Japanese base and official Ver.1.3 update; the CIAs produced by the patches are not distributed.",
+        "The README credits the Joker 3 Translation Team and notes the source text came from a 2021 patch release whose publication used the team's text without their full consent."
+      ]
+    },
+    {
+      "id": "tomodachi-collection-nds-en",
+      "title": "Tomodachi Collection English Translation",
+      "game": "Tomodachi Collection",
+      "platform": "Nintendo DS; compatible DS-family systems with the documented loaders",
+      "kind": "Fan Localization",
+      "status": "Full English patch v1.0 released; some text and graphics remain Japanese by design",
+      "summary": "A full English fan translation of the Japan-only Nintendo DS game, extending an earlier community patch. It translates the game's readable text while intentionally leaving voice-synthesized lyrics/text, kana keyboard pages, and a few decorative graphics in Japanese.",
+      "project_url": "https://github.com/CarlosA49/tomodachi-collection-english",
+      "updated": null,
+      "strategy": "Fan translation patch",
+      "language": "English",
+      "source_available": "xdelta patch only; no ROM is distributed",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "Text localization",
+      "target_type": "Game",
+      "sources": [
+        {
+          "label": "Maintainer README; version, patch format, legal-dump requirement and exact ROM fingerprint",
+          "url": "https://github.com/CarlosA49/tomodachi-collection-english"
+        }
+      ],
+      "language_pair": "Japanese → English",
+      "patch_release": {
+        "version": "1.0",
+        "download": "https://github.com/CarlosA49/tomodachi-collection-english"
+      },
+      "patch_format": "xdelta3 patch file",
+      "supported_game_build": "Japanese Tomodachi Collection NDS game code CCUJ, version 1.1, source MD5 7AB6ACD97168F6D70E953A9C8057337C",
+      "release_source": "Maintainer GitHub repository",
+      "caveats": [
+        "Repository contains a patch, not a ROM; maintainer directs users to apply it to their own clean, legally dumped Japanese cartridge image.",
+        "Works on DS-family systems; DSi/3DS play requires TWiLightMenu++ and nds-bootstrap v2.16.0 or newer to handle the game's anti-piracy check."
+      ]
+    },
+    {
+      "id": "super-heroine-chronicle-ps3-en",
+      "title": "Saber's Super Heroine Chronicle English Patch",
+      "game": "Super Heroine Chronicle",
+      "platform": "PlayStation 3; RPCS3",
+      "kind": "Fan Localization",
+      "status": "v3.1 released 2026-10-07; partial text remains Japanese and v4 polish is planned",
+      "summary": "An unofficial English text patch covering story dialogue, battle messages, menus, items, UI and system text. The installer patches the user's original Japanese PS3 files and verifies/restores them; the patch is not compatible with the Vita edition.",
+      "project_url": "https://github.com/deucebucket/sabers-shc-english-patch",
+      "updated": "2026-10-07",
+      "strategy": "Fan translation patch",
+      "language": "English",
+      "source_available": "ZIP release with xdelta patch and installer; no game data included",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "Text localization",
+      "target_type": "Game",
+      "sources": [
+        {
+          "label": "Maintainer README; target disc, exact input hash, install workflow and known gaps",
+          "url": "https://github.com/deucebucket/sabers-shc-english-patch"
+        },
+        {
+          "label": "Maintainer v3.1 release and publication date",
+          "url": "https://github.com/deucebucket/sabers-shc-english-patch/releases/latest"
+        }
+      ],
+      "language_pair": "Japanese → English",
+      "patch_release": {
+        "version": "3.1",
+        "date": "2026-10-07",
+        "download": "https://github.com/deucebucket/sabers-shc-english-patch/releases/latest"
+      },
+      "patch_format": "xdelta binary difference applied by Windows, shell, Linux, Steam Deck or Mac installer",
+      "supported_game_build": "Japanese PS3 release BLJS10244; original ShcPack.cpk MD5 834351ca822e97d6a24facf01cc5e5f4; verified patched output MD5 ba93cf943333aec995a00a09b7492b79",
+      "release_source": "Maintainer GitHub releases",
+      "caveats": [
+        "Release and repository say no game data is included; use an owned original Japanese PS3 dump. Vita version is unsupported.",
+        "Some names, speaker tags, battle UI, chapter title cards and prompts remain Japanese; v4 polish is planned.",
+        "Tools are MIT and translation text is offered as proposed CC0 with owner confirmation pending, according to the repository."
+      ]
+    },
+    {
+      "id": "puyo-puyo-tetris-3ds-en",
+      "title": "Puyo Puyo Tetris 3DS English Localization Patch",
+      "game": "Puyo Puyo Tetris",
+      "platform": "Nintendo 3DS; real 3DS and Azahar testing documented",
+      "kind": "Fan Localization",
+      "status": "Build 1.1.1 / DLC 0.2.10 available; most text and voices localized, but some assets and later content remain unverified",
+      "summary": "Carries Sega's official English text and voices from the PC release onto the Japan-only 3DS edition, extending earlier fan work. It includes xdelta and LayeredFS options and a Japanese-voice edition; the release bundle also contains a pre-patched DLC CIA, while the base game is not distributed.",
+      "project_url": "https://github.com/Akoi89/puyopuyotetris-3ds-english-patch",
+      "updated": null,
+      "strategy": "Fan localization patch using official regional assets",
+      "language": "English",
+      "source_available": "xdelta and LayeredFS patch packages; a patched DLC CIA is also listed in the release files",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "Text, voice and UI localization",
+      "target_type": "Game",
+      "sources": [
+        {
+          "label": "Maintainer README; supported title/update, formats, release files and test notes",
+          "url": "https://github.com/Akoi89/puyopuyotetris-3ds-english-patch"
+        },
+        {
+          "label": "Maintainer release notes; v1.1.1 / DLC 0.2.10 current changes",
+          "url": "https://github.com/Akoi89/puyopuyotetris-3ds-english-patch/blob/master/RELEASE_NOTES.md"
+        }
+      ],
+      "language_pair": "Japanese → English; uses Sega's official English PC text and voice assets, with some hand-written strings",
+      "patch_release": {
+        "version": "1.1.1 (base); 0.2.10 (DLC)",
+        "download": "https://github.com/Akoi89/puyopuyotetris-3ds-english-patch/releases/latest"
+      },
+      "patch_format": "xdelta3 patches for user dumps and LayeredFS ZIPs; optional Japanese-voice edition; patched DLC CIA is also distributed",
+      "supported_game_build": "Japanese Nintendo 3DS base game plus Japanese v1.2.0 update; separate DLC files. Title ID 0004000000101200 appears in the LayeredFS install path.",
+      "release_source": "Maintainer GitHub releases",
+      "caveats": [
+        "The README says the Japanese base game is not distributed. The release list includes a pre-patched DLC CIA, so this is not a strictly patch-only DLC distribution.",
+        "Latest reported 1.1.1 checks were in Azahar on 2026-09-28; several voice, art and later story paths remain unconfirmed. The repository states game content is outside its GPL tools/docs license."
+      ]
+    },
+    {
+      "id": "higurashi-hou-switch-zh-cn",
+      "title": "Higurashi no Naku Koro ni Hou Switch Simplified Chinese Patch",
+      "game": "Higurashi no Naku Koro ni Hou",
+      "platform": "Nintendo Switch; supported Nintendo Switch emulators",
+      "kind": "Fan Localization",
+      "status": "Public V2.2 released 2026-10-08 for game versions 2.0.0 / 2.0.2; separate V1.1 line covers 1.0.0 / 1.2.0",
+      "summary": "A Simplified Chinese Switch localization loaded as a LayeredFS mod. The project publishes two version tracks that must not be mixed; the current V2.2 line includes the base game and Origin/DLC content.",
+      "project_url": "https://github.com/daheiai/higurashi-hou-switch-cn",
+      "updated": "2026-10-08",
+      "strategy": "Fan translation patch",
+      "language": "Simplified Chinese",
+      "source_available": "LayeredFS / mod package from maintainer download page",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "Text localization",
+      "target_type": "Game",
+      "sources": [
+        {
+          "label": "Maintainer README; supported versions, title ID, format, platforms and language",
+          "url": "https://github.com/daheiai/higurashi-hou-switch-cn"
+        },
+        {
+          "label": "Maintainer official download and update page",
+          "url": "https://hanchan.daheiai.com/"
+        }
+      ],
+      "language_pair": "Japanese → Simplified Chinese (zh-CN)",
+      "patch_release": {
+        "version": "Public V2.2",
+        "date": "2026-10-08",
+        "download": "https://hanchan.daheiai.com/#downloads"
+      },
+      "patch_format": "LayeredFS / mod package; does not modify the game base",
+      "supported_game_build": "Switch title ID 0100F6A00A684000; V2.2 supports game 2.0.0 / 2.0.2; separate V1.1 supports 1.0.0 / 1.2.0",
+      "release_source": "Maintainer GitHub repository and official site",
+      "caveats": [
+        "The maintainer says the project is free and unrelated to 07th Expansion and Entergram; the two version tracks are incompatible.",
+        "The team also has a separate PSV patch for Higurashi Sui; it is a different game and not included in this candidate."
+      ]
+    },
+    {
+      "id": "gundam-senki-ps3-zh-cn",
+      "title": "Mobile Suit Gundam: Battlefield Record U.C. 0081 Simplified Chinese Patch",
+      "game": "Mobile Suit Gundam: Battlefield Record U.C. 0081",
+      "platform": "PlayStation 3; RPCS3",
+      "kind": "Fan Localization",
+      "status": "Formal 2026-10-07 package released; in-game startup remains unverified and a prior black-screen report is not confirmed fixed",
+      "summary": "Simplified Chinese text, resource and video-subtitle differences for the Japanese PS3 release, distributed with offline installers and rollback support. The maintainer limits use to noncommercial personal use and prohibits redistribution of the patch files.",
+      "project_url": "https://github.com/AmuroRX-93/Gundam0081-Chinese-Patch",
+      "updated": "2026-10-07",
+      "strategy": "Fan translation patch",
+      "language": "Simplified Chinese",
+      "source_available": "Three patch-data ZIPs plus Windows, macOS and Linux installers; repository source archives do not contain patch data",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "Text, UI and subtitle localization",
+      "target_type": "Game",
+      "sources": [
+        {
+          "label": "Maintainer README; formal release status, build target, patch distribution and legal terms",
+          "url": "https://github.com/AmuroRX-93/Gundam0081-Chinese-Patch"
+        },
+        {
+          "label": "Maintainer releases",
+          "url": "https://github.com/AmuroRX-93/Gundam0081-Chinese-Patch/releases"
+        }
+      ],
+      "language_pair": "Japanese → Simplified Chinese",
+      "patch_release": {
+        "version": "20261007 formal package",
+        "date": "2026-10-07",
+        "download": "https://github.com/AmuroRX-93/Gundam0081-Chinese-Patch/releases"
+      },
+      "patch_format": "Differential resource ZIPs applied by offline installer scripts; includes base and official 1.02 update localization resources",
+      "supported_game_build": "Japanese PS3 BLJS-10050 / BLJS10050; official APP_VER 01.02 update resources are supported",
+      "release_source": "Maintainer GitHub releases and repository",
+      "caveats": [
+        "Requires the user's own matching game, official update 1.02 and applicable DLC; patch does not unlock missing DLC.",
+        "Author permits sharing the repository link, not the patch files, and limits use to personal noncommercial use.",
+        "Formal package notes say offline installer tests passed, while Windows and in-game startup were not verified; an earlier black-screen report is not confirmed fixed."
+      ]
+    }
+  ]
+}

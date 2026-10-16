@@ -1,0 +1,646 @@
+{
+  "updated": "2026-10-15",
+  "reviewed_scope": "Reddit-led discovery from r/decomps, r/recomps, r/emulation, and system/game-specific communities. Reddit was used to find candidates; every staged record was checked against its maintainer repository, README, project site, or release page.",
+  "projects": [
+    {
+      "id": "snowboard-kids-decomp",
+      "title": "Snowboard Kids Decompilation",
+      "game": "Snowboard Kids",
+      "target_type": "Game",
+      "platform": "Nintendo 64 (North American and Japanese ROM versions)",
+      "kind": "Decompilation",
+      "status": "The Japanese build currently uses extracted assembly; the North American matching C decompilation remains in progress. The repository documents build-and-verify workflows for both ROM versions.",
+      "summary": "Nintendo 64 source reconstruction project for Snowboard Kids, with a matching C decompilation in progress for the North American version and a separate Japanese build path.",
+      "project_url": "https://github.com/cdlewis/snowboardkids-decomp",
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "strategy": "Matching decompilation",
+      "language": "",
+      "source_available": "Public source repository; original game data is user-supplied.",
+      "programming_language": "C",
+      "subtype": "Nintendo 64 matching source decompilation",
+      "media": [],
+      "research_lanes": [
+        "reddit"
+      ],
+      "sources": [
+        {
+          "label": "Maintainer repository and README",
+          "url": "https://github.com/cdlewis/snowboardkids-decomp"
+        },
+        {
+          "label": "Reddit lead in r/decomps",
+          "url": "https://www.reddit.com/r/decomps/comments/1vzwmni/decompiling_a_nintendo_64_game_in_84_days/"
+        },
+        {
+          "label": "Maintainer blog describing the decompilation work",
+          "url": "https://blog.chrislewis.au/decompiling-a-nintendo-64-game-in-84-days/"
+        }
+      ],
+      "verification": {
+        "method": "The README distinguishes the Japanese extracted-assembly build from the North American matching C decompilation and provides build-and-verify instructions.",
+        "game_revision_region_coverage": "Nintendo 64 North American and Japanese ROM versions; status differs by version.",
+        "build_run_dependencies": "Requires the user's own supported ROM image to build and verify.",
+        "release_status_version_dates": "Public source project; matching C decompilation is still in progress as of 2026-10-15.",
+        "license_source_assets_availability": "Repository source is public; game assets are not supplied.",
+        "evidence": [
+          {
+            "url": "https://github.com/cdlewis/snowboardkids-decomp",
+            "claim": "README documents version-specific build paths and the in-progress matching C decompilation."
+          },
+          {
+            "url": "https://blog.chrislewis.au/decompiling-a-nintendo-64-game-in-84-days/",
+            "claim": "Maintainer blog describes the source reconstruction effort and progress."
+          }
+        ],
+        "platform": "Nintendo 64"
+      }
+    },
+    {
+      "id": "snowboard-kids-static-recomp",
+      "title": "Snowboard Kids: Recompiled",
+      "game": "Snowboard Kids",
+      "target_type": "Game",
+      "platform": "Nintendo 64 → Windows, Linux, macOS",
+      "kind": "Recompilation",
+      "status": "Release v1.0.6 is available. The project uses N64:Recompiled and RT64 for desktop builds, supports the North American ROM version, and does not include game assets.",
+      "summary": "Static recompilation of Snowboard Kids into native desktop builds using the N64:Recompiled toolchain and RT64 graphics runtime.",
+      "project_url": "https://github.com/cdlewis/snowboardkids-recomp",
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "strategy": "Static recompilation",
+      "language": "",
+      "source_available": "Public source and release repository; original game assets are excluded.",
+      "programming_language": "C++",
+      "subtype": "Nintendo 64 static recompilation",
+      "media": [],
+      "research_lanes": [
+        "reddit"
+      ],
+      "sources": [
+        {
+          "label": "Maintainer repository and README",
+          "url": "https://github.com/cdlewis/snowboardkids-recomp"
+        },
+        {
+          "label": "Latest published release v1.0.6",
+          "url": "https://github.com/cdlewis/snowboardkids-recomp/releases"
+        },
+        {
+          "label": "Reddit project introduction in r/decomps",
+          "url": "https://www.reddit.com/r/decomps/comments/1wxj37j/introducing_snowboard_kids_recompiled/"
+        }
+      ],
+      "verification": {
+        "method": "The README identifies N64:Recompiled and RT64 as the static recompilation and rendering stack.",
+        "game_revision_region_coverage": "North American Nintendo 64 ROM version only.",
+        "build_run_dependencies": "Windows, Linux, or macOS desktop build; the user supplies the matching game ROM.",
+        "release_status_version_dates": "Release v1.0.6 was published on 2026-10-13.",
+        "license_source_assets_availability": "Source and release files are public; copyrighted game assets are not included.",
+        "evidence": [
+          {
+            "url": "https://github.com/cdlewis/snowboardkids-recomp",
+            "claim": "README describes the recompilation toolchain, supported ROM, desktop targets, and excluded game assets."
+          },
+          {
+            "url": "https://github.com/cdlewis/snowboardkids-recomp/releases",
+            "claim": "Release page lists v1.0.6."
+          }
+        ],
+        "platform": "Nintendo 64 → Windows, Linux, macOS"
+      }
+    },
+    {
+      "id": "glover-r-static-recomp",
+      "title": "Glover R Recompilation",
+      "game": "Glover",
+      "target_type": "Game",
+      "platform": "Nintendo 64 → Windows x64, Linux x64, Steam Deck",
+      "kind": "Recompilation",
+      "status": "Release v1.0.1 is available for Windows x64 and Linux x64, with Steam Deck listed as supported. The project targets the North American revision 0 ROM.",
+      "summary": "Static recompilation of the Nintendo 64 version of Glover for native desktop and Steam Deck use.",
+      "project_url": "https://github.com/ThatGuyMcd/Glover-R",
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "strategy": "Static recompilation",
+      "language": "",
+      "source_available": "Public source and release repository; requires the user's own supported ROM.",
+      "programming_language": "C++",
+      "subtype": "Nintendo 64 static recompilation",
+      "media": [],
+      "research_lanes": [
+        "reddit"
+      ],
+      "sources": [
+        {
+          "label": "Maintainer repository and README",
+          "url": "https://github.com/ThatGuyMcd/Glover-R"
+        },
+        {
+          "label": "Published releases",
+          "url": "https://github.com/ThatGuyMcd/Glover-R/releases"
+        },
+        {
+          "label": "Reddit project announcement in r/decomps",
+          "url": "https://www.reddit.com/r/decomps/comments/1wz2hik/glover_recompilation/"
+        }
+      ],
+      "verification": {
+        "method": "The README identifies a static recompilation, the supported input ROM revision, and available native targets.",
+        "game_revision_region_coverage": "North American Nintendo 64 revision 0.",
+        "build_run_dependencies": "Windows x64 or Linux x64; Steam Deck is listed by the project. The user provides the supported ROM.",
+        "release_status_version_dates": "Release v1.0.1 is listed on the project's releases page.",
+        "license_source_assets_availability": "Public source and release page; original game data is not included.",
+        "evidence": [
+          {
+            "url": "https://github.com/ThatGuyMcd/Glover-R",
+            "claim": "README documents recompilation method, revision coverage, and supported hosts."
+          },
+          {
+            "url": "https://github.com/ThatGuyMcd/Glover-R/releases",
+            "claim": "Release page lists v1.0.1."
+          }
+        ],
+        "platform": "Nintendo 64 → Windows x64, Linux x64, Steam Deck"
+      }
+    },
+    {
+      "id": "jet-force-gemini-n64-recomp",
+      "title": "Jet Force Gemini Recompilation",
+      "game": "Jet Force Gemini",
+      "target_type": "Game",
+      "platform": "Nintendo 64 → Windows x64",
+      "kind": "Recompilation",
+      "status": "Release v1.1.0 is available for Windows x64 and targets the North American ROM. The maintainer reports a start-to-finish playable state, with remaining control and accuracy validation; the reported playtest used optional gameplay mods and a completed save.",
+      "summary": "Static recompilation of the Nintendo 64 game Jet Force Gemini to a native Windows x64 build.",
+      "project_url": "https://github.com/TK22-26/JetForceGemini-Recomp",
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "strategy": "Static recompilation",
+      "language": "",
+      "source_available": "Public source and release repository; user-supplied supported ROM required.",
+      "programming_language": "C++",
+      "subtype": "Nintendo 64 static recompilation",
+      "media": [],
+      "research_lanes": [
+        "reddit"
+      ],
+      "sources": [
+        {
+          "label": "Maintainer repository and README",
+          "url": "https://github.com/TK22-26/JetForceGemini-Recomp"
+        },
+        {
+          "label": "Latest published release v1.1.0",
+          "url": "https://github.com/TK22-26/JetForceGemini-Recomp/releases"
+        },
+        {
+          "label": "Reddit progress post in r/decomps",
+          "url": "https://www.reddit.com/r/decomps/comments/1x066mm/jet_force_gemini_is_40_complete/"
+        }
+      ],
+      "verification": {
+        "method": "The README identifies static recompilation and limits the target to the North American ROM. It reports start-to-finish playability but also describes the conditions and remaining validation work.",
+        "game_revision_region_coverage": "North American Nintendo 64 ROM.",
+        "build_run_dependencies": "Windows x64 build from the user's own supported ROM.",
+        "release_status_version_dates": "Release v1.1.0 was published on 2026-10-09.",
+        "license_source_assets_availability": "Public source and release repository; game assets are user-provided.",
+        "evidence": [
+          {
+            "url": "https://github.com/TK22-26/JetForceGemini-Recomp",
+            "claim": "README states platform, ROM coverage, playtest conditions, and remaining validation."
+          },
+          {
+            "url": "https://github.com/TK22-26/JetForceGemini-Recomp/releases",
+            "claim": "Release page lists v1.1.0."
+          }
+        ],
+        "platform": "Nintendo 64 → Windows x64"
+      }
+    },
+    {
+      "id": "crash-bandicoot-ps1-recomp",
+      "title": "Crash Bandicoot PS1 Recompilation Launcher",
+      "game": "Crash Bandicoot (PlayStation)",
+      "target_type": "Game",
+      "platform": "PlayStation → Windows, Linux, Android",
+      "kind": "Recompilation",
+      "status": "Version 2.2 was published on 2026-10-14. The launcher locally statically recompiles the original PlayStation code; the project remains a work in progress and requires the US disc image SCUS-94900.",
+      "summary": "A launcher and build workflow for statically recompiling the original PlayStation Crash Bandicoot executable into native Windows, Linux, and Android builds.",
+      "project_url": "https://github.com/Matteo842/CrashBandicoot-Launcher",
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "strategy": "Static recompilation",
+      "language": "",
+      "source_available": "Public launcher and build source; requires a user-supplied supported game disc image.",
+      "programming_language": "",
+      "subtype": "PlayStation executable static recompilation launcher",
+      "media": [],
+      "research_lanes": [
+        "reddit"
+      ],
+      "sources": [
+        {
+          "label": "Maintainer repository and README",
+          "url": "https://github.com/Matteo842/CrashBandicoot-Launcher"
+        },
+        {
+          "label": "Version 2.2 release",
+          "url": "https://github.com/Matteo842/CrashBandicoot-Launcher/releases"
+        },
+        {
+          "label": "Reddit project announcement in r/recomps",
+          "url": "https://www.reddit.com/r/recomps/comments/1wwxith/hi_everyone_version_20_of_my_crash_bandicoot_ps1/"
+        }
+      ],
+      "verification": {
+        "method": "The README describes local static recompilation of the original PS1 code and names the required input disc; the launcher does not bundle game code or assets.",
+        "game_revision_region_coverage": "US PlayStation disc SCUS-94900.",
+        "build_run_dependencies": "Windows, Linux, or Android target; the user supplies the supported disc image. The README notes widescreen issues and ongoing work.",
+        "release_status_version_dates": "Version 2.2 was published on 2026-10-14; project is still WIP.",
+        "license_source_assets_availability": "Public launcher and build source; original game data is not included.",
+        "evidence": [
+          {
+            "url": "https://github.com/Matteo842/CrashBandicoot-Launcher",
+            "claim": "README identifies static recompilation, supported input, host targets, and current WIP limitations."
+          },
+          {
+            "url": "https://github.com/Matteo842/CrashBandicoot-Launcher/releases",
+            "claim": "Releases page lists version 2.2."
+          }
+        ],
+        "platform": "PlayStation → Windows, Linux, Android"
+      }
+    },
+    {
+      "id": "dragon-quest-i-3ds-english-patch",
+      "title": "Dragon Quest I 3DS English Patch",
+      "game": "Dragon Quest I (Nintendo 3DS remake)",
+      "target_type": "Game",
+      "platform": "Nintendo 3DS (Japanese release) → English",
+      "kind": "Fan Localization",
+      "status": "Beta v0.90 is available. The maintainer reports early gameplay checks in Azahar; a full playthrough and testing on real 3DS hardware remain pending.",
+      "summary": "An English fan-translation patch for the Japanese Nintendo 3DS remake of Dragon Quest I.",
+      "project_url": "https://github.com/topcatromhacking-lgtm/dragon-quest-1-3ds-english",
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "strategy": "Fan translation patch",
+      "language": "English",
+      "source_available": "Public patch/build source; original game data is not included.",
+      "programming_language": "",
+      "subtype": "Nintendo 3DS fan translation patch",
+      "media": [],
+      "research_lanes": [
+        "reddit"
+      ],
+      "sources": [
+        {
+          "label": "Maintainer repository and README",
+          "url": "https://github.com/topcatromhacking-lgtm/dragon-quest-1-3ds-english"
+        },
+        {
+          "label": "Reddit release thread in r/dragonquest",
+          "url": "https://www.reddit.com/r/dragonquest/comments/1x5dn4m/release_dragon_quest_i_ii_and_iii_for_3ds_english/"
+        },
+        {
+          "label": "Maintainer release thread on GBAtemp",
+          "url": "https://gbatemp.net/threads/release-dragon-quest-i-ii-and-iii-for-3ds-english-translation.684975/"
+        }
+      ],
+      "verification": {
+        "method": "The README identifies a fan-localization patch and beta status, and reports early gameplay testing in the Azahar emulator.",
+        "game_revision_region_coverage": "Japanese Nintendo 3DS remake; the README does not claim coverage of other regions or editions.",
+        "build_run_dependencies": "Requires the user's Japanese 3DS game data and a compatible patching or emulation setup; full playthrough and real-hardware verification are pending.",
+        "release_status_version_dates": "Beta v0.90 is the documented current status as of 2026-10-15.",
+        "license_source_assets_availability": "Patch/build source is public; game data is not included.",
+        "evidence": [
+          {
+            "url": "https://github.com/topcatromhacking-lgtm/dragon-quest-1-3ds-english",
+            "claim": "README records beta version, game-specific patch scope, and limited testing."
+          },
+          {
+            "url": "https://gbatemp.net/threads/release-dragon-quest-i-ii-and-iii-for-3ds-english-translation.684975/",
+            "claim": "Maintainer release post announces the grouped English patches."
+          }
+        ],
+        "platform": "Nintendo 3DS (Japanese release) → English"
+      }
+    },
+    {
+      "id": "dragon-quest-ii-3ds-english-patch",
+      "title": "Dragon Quest II 3DS English Patch",
+      "game": "Dragon Quest II: Luminaries of the Legendary Line (Nintendo 3DS remake)",
+      "target_type": "Game",
+      "platform": "Nintendo 3DS (Japanese release) → English",
+      "kind": "Fan Localization",
+      "status": "Beta v0.90 is available. The maintainer reports testing of the opening narrative and companion naming in Azahar; a full playthrough and real-hardware testing remain pending.",
+      "summary": "An English fan-translation patch for the Japanese Nintendo 3DS remake of Dragon Quest II.",
+      "project_url": "https://github.com/topcatromhacking-lgtm/dragon-quest-2-3ds-english",
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "strategy": "Fan translation patch",
+      "language": "English",
+      "source_available": "Public patch/build source; original game data is not included.",
+      "programming_language": "",
+      "subtype": "Nintendo 3DS fan translation patch",
+      "media": [],
+      "research_lanes": [
+        "reddit"
+      ],
+      "sources": [
+        {
+          "label": "Maintainer repository and README",
+          "url": "https://github.com/topcatromhacking-lgtm/dragon-quest-2-3ds-english"
+        },
+        {
+          "label": "Reddit release thread in r/dragonquest",
+          "url": "https://www.reddit.com/r/dragonquest/comments/1x5dn4m/release_dragon_quest_i_ii_and_iii_for_3ds_english/"
+        },
+        {
+          "label": "Maintainer release thread on GBAtemp",
+          "url": "https://gbatemp.net/threads/release-dragon-quest-i-ii-and-iii-for-3ds-english-translation.684975/"
+        }
+      ],
+      "verification": {
+        "method": "The README identifies a fan-localization patch and beta status, with early narrative and companion-name checks in Azahar.",
+        "game_revision_region_coverage": "Japanese Nintendo 3DS remake; the README does not claim coverage of other regions or editions.",
+        "build_run_dependencies": "Requires the user's Japanese 3DS game data and a compatible patching or emulation setup; full playthrough and real-hardware verification are pending.",
+        "release_status_version_dates": "Beta v0.90 is the documented current status as of 2026-10-15.",
+        "license_source_assets_availability": "Patch/build source is public; game data is not included.",
+        "evidence": [
+          {
+            "url": "https://github.com/topcatromhacking-lgtm/dragon-quest-2-3ds-english",
+            "claim": "README records beta version, game-specific patch scope, and limited testing."
+          },
+          {
+            "url": "https://gbatemp.net/threads/release-dragon-quest-i-ii-and-iii-for-3ds-english-translation.684975/",
+            "claim": "Maintainer release post announces the grouped English patches."
+          }
+        ],
+        "platform": "Nintendo 3DS (Japanese release) → English"
+      }
+    },
+    {
+      "id": "dragon-quest-iii-3ds-english-patch",
+      "title": "Dragon Quest III 3DS English Patch",
+      "game": "Dragon Quest III: The Seeds of Salvation (Nintendo 3DS remake)",
+      "target_type": "Game",
+      "platform": "Nintendo 3DS (Japanese release) → English",
+      "kind": "Fan Localization",
+      "status": "Beta v0.90 is available. The maintainer reports early menu, shop, inn, and level-up gameplay checks in Azahar; a full playthrough and real-hardware testing remain pending.",
+      "summary": "An English fan-translation patch for the Japanese Nintendo 3DS remake of Dragon Quest III.",
+      "project_url": "https://github.com/topcatromhacking-lgtm/dragon-quest-3-3ds-english",
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "strategy": "Fan translation patch",
+      "language": "English",
+      "source_available": "Public patch/build source; original game data is not included.",
+      "programming_language": "",
+      "subtype": "Nintendo 3DS fan translation patch",
+      "media": [],
+      "research_lanes": [
+        "reddit"
+      ],
+      "sources": [
+        {
+          "label": "Maintainer repository and README",
+          "url": "https://github.com/topcatromhacking-lgtm/dragon-quest-3-3ds-english"
+        },
+        {
+          "label": "Reddit release thread in r/dragonquest",
+          "url": "https://www.reddit.com/r/dragonquest/comments/1x5dn4m/release_dragon_quest_i_ii_and_iii_for_3ds_english/"
+        },
+        {
+          "label": "Maintainer release thread on GBAtemp",
+          "url": "https://gbatemp.net/threads/release-dragon-quest-i-ii-and-iii-for-3ds-english-translation.684975/"
+        }
+      ],
+      "verification": {
+        "method": "The README identifies a fan-localization patch and beta status, with early gameplay checks in Azahar for menus, commerce, lodging, and leveling.",
+        "game_revision_region_coverage": "Japanese Nintendo 3DS remake; the README does not claim coverage of other regions or editions.",
+        "build_run_dependencies": "Requires the user's Japanese 3DS game data and a compatible patching or emulation setup; full playthrough and real-hardware verification are pending.",
+        "release_status_version_dates": "Beta v0.90 is the documented current status as of 2026-10-15.",
+        "license_source_assets_availability": "Patch/build source is public; game data is not included.",
+        "evidence": [
+          {
+            "url": "https://github.com/topcatromhacking-lgtm/dragon-quest-3-3ds-english",
+            "claim": "README records beta version, game-specific patch scope, and limited testing."
+          },
+          {
+            "url": "https://gbatemp.net/threads/release-dragon-quest-i-ii-and-iii-for-3ds-english-translation.684975/",
+            "claim": "Maintainer release post announces the grouped English patches."
+          }
+        ],
+        "platform": "Nintendo 3DS (Japanese release) → English"
+      }
+    },
+    {
+      "id": "terranigma-decomp-pc-port",
+      "title": "Terranigma Decompilation and PC Port",
+      "game": "Terranigma",
+      "target_type": "Game",
+      "platform": "Super Nintendo → native PC (planned/in progress)",
+      "kind": "Decompilation",
+      "status": "The maintainer's project site, updated 2026-10-12, reports 92.86% decompilation progress and a vanilla native PC port in progress. No public source repository or downloadable port was listed on the site as of 2026-10-15.",
+      "summary": "A Super Nintendo Terranigma decompilation effort with a native PC port planned from the reconstructed game code.",
+      "project_url": "https://diemilchgebendekuh.de/terranigma-decompilation/",
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "strategy": "Matching decompilation",
+      "language": "",
+      "source_available": "Maintainer project page; public source repository and downloadable port were not listed as of 2026-10-15.",
+      "programming_language": "C",
+      "subtype": "Super Nintendo decompilation with native PC port in progress",
+      "media": [],
+      "research_lanes": [
+        "reddit"
+      ],
+      "sources": [
+        {
+          "label": "Maintainer project and progress page",
+          "url": "https://diemilchgebendekuh.de/terranigma-decompilation/"
+        },
+        {
+          "label": "Reddit progress lead in r/decomps",
+          "url": "https://www.reddit.com/r/decomps/comments/1w892lg/terranigma_decompilation_work_in_progress_90/"
+        },
+        {
+          "label": "Reddit gameplay recordings of the PC port",
+          "url": "https://www.reddit.com/r/decomps/comments/1we77lw/gameplay_recordings_terranigma_pc_port/"
+        }
+      ],
+      "verification": {
+        "method": "The maintainer site tracks source reconstruction progress separately from the vanilla PC port, and describes the port as work in progress.",
+        "game_revision_region_coverage": "Original Japanese Super Nintendo game; the project site does not specify additional regional coverage.",
+        "build_run_dependencies": "No public build/release instructions or downloadable port were listed on the maintainer site at verification time.",
+        "release_status_version_dates": "Progress page updated 2026-10-12 reports 92.86% decompilation completion; vanilla port remains in progress.",
+        "license_source_assets_availability": "No public project source repository was linked from the maintainer site at verification time.",
+        "evidence": [
+          {
+            "url": "https://diemilchgebendekuh.de/terranigma-decompilation/",
+            "claim": "Maintainer site reports decompilation percentage, port progress, and lack of a public release at this checkpoint."
+          }
+        ],
+        "platform": "Super Nintendo → native PC (planned/in progress)"
+      }
+    },
+    {
+      "id": "3dsrecomp",
+      "title": "3dsrecomp",
+      "game": "Nintendo 3DS game binaries (multi-title recompilation tool)",
+      "target_type": "Software",
+      "platform": "Nintendo 3DS ARM11/Thumb/VFP binaries → C library for Zakuro",
+      "kind": "Recompilation",
+      "status": "Work in progress. The public tool translates supported 3DS ARM code to C and is paired with Zakuro, which can provide interpreter fallback; the repository reports tests across several titles but does not include game code or assets.",
+      "summary": "A general-purpose Nintendo 3DS binary-to-C static recompiler and runtime component, rather than a game-specific port. It is paired with the Zakuro interpreter/runtime and is tested against multiple user-supplied games.",
+      "project_url": "https://github.com/fearkov/3dsrecomp",
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "strategy": "Static binary recompilation",
+      "language": "",
+      "source_available": "Public tool source; no game binaries or copyrighted game assets are included.",
+      "programming_language": "C",
+      "subtype": "Nintendo 3DS ARM-to-C static recompiler",
+      "media": [],
+      "research_lanes": [
+        "reddit"
+      ],
+      "sources": [
+        {
+          "label": "Maintainer repository and README",
+          "url": "https://github.com/fearkov/3dsrecomp"
+        },
+        {
+          "label": "Reddit tool announcement in r/decomps",
+          "url": "https://www.reddit.com/r/decomps/comments/1wvclpc/3dsrecomp_static_recompilation_for_3ds_games_19/"
+        }
+      ],
+      "verification": {
+        "method": "The README describes a general-purpose translator from 3DS ARM instructions to C and its pairing with Zakuro; examples span multiple game targets.",
+        "game_revision_region_coverage": "Multi-title tool; exact tested game binaries and regions are documented in the repository rather than as a single catalog target.",
+        "build_run_dependencies": "Toolchain and Zakuro runtime are required; users supply their own legally obtained game binaries.",
+        "release_status_version_dates": "Repository labels the tool work in progress; no title-specific finished port is claimed.",
+        "license_source_assets_availability": "Tool source is public; game code and assets are not included.",
+        "evidence": [
+          {
+            "url": "https://github.com/fearkov/3dsrecomp",
+            "claim": "README documents the ARM-to-C tool, Zakuro pairing, tested-title examples, and WIP status."
+          }
+        ],
+        "platform": "Nintendo 3DS ARM11/Thumb/VFP binaries → C library for Zakuro"
+      }
+    },
+    {
+      "id": "wind-waker-hd-decomp",
+      "title": "The Wind Waker HD Decompilation",
+      "game": "The Legend of Zelda: The Wind Waker HD",
+      "target_type": "Game",
+      "platform": "Wii U",
+      "kind": "Decompilation",
+      "status": "The project README reports 28,244 of 39,713 USA v0 functions decompiled and verified. GameCube-shared functions are reported at 22,068 of 22,215; this is a decompilation effort that feeds a hybrid recompilation workflow, not an independently runnable PC port.",
+      "summary": "Wii U Wind Waker HD source decompilation project with extensive function-matching coverage and shared GameCube code; the repository does not provide a standalone playable port.",
+      "project_url": "https://github.com/ZeldaWWHDDecomp/wwhd",
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "strategy": "Matching decompilation",
+      "language": "",
+      "source_available": "Public decompilation source; requires user-supplied Wii U game data for the hybrid build workflow.",
+      "programming_language": "C",
+      "subtype": "Wii U matching decompilation",
+      "media": [],
+      "research_lanes": [
+        "reddit"
+      ],
+      "sources": [
+        {
+          "label": "Maintainer repository and README",
+          "url": "https://github.com/ZeldaWWHDDecomp/wwhd"
+        },
+        {
+          "label": "Reddit progress lead in r/decomps",
+          "url": "https://www.reddit.com/r/decomps/comments/1wxunvl/zelda_wind_waker_hd_decomp_almost_100/"
+        }
+      ],
+      "verification": {
+        "method": "The README distinguishes Wii U decompilation progress from the existing Wind Waker HD static recompilation and states the verified function counts.",
+        "game_revision_region_coverage": "USA v0 function-matching coverage is quantified in the README; no other Wii U version is claimed.",
+        "build_run_dependencies": "Hybrid recompilation workflow requires a supported user dump and associated port runtime; decompilation source is not a standalone game build.",
+        "release_status_version_dates": "README reports 28,244/39,713 USA v0 functions and 22,068/22,215 shared GameCube functions; project remains in progress.",
+        "license_source_assets_availability": "Public source project; game data is not included.",
+        "evidence": [
+          {
+            "url": "https://github.com/ZeldaWWHDDecomp/wwhd",
+            "claim": "README gives decompilation coverage counts, supported input revision, and distinction from a standalone port."
+          }
+        ],
+        "platform": "Wii U"
+      }
+    },
+    {
+      "id": "shadow-of-the-colossus-ps4-api-translation",
+      "title": "Shadow of the Colossus PS4 PC Port",
+      "game": "Shadow of the Colossus (PlayStation 4 remake)",
+      "target_type": "Game",
+      "platform": "PlayStation 4 → Windows 10/11 x64",
+      "kind": "API Translation",
+      "status": "The native Windows port runs the original PS4 x86-64 game code on the host CPU and translates graphics to Vulkan through a game-specific runtime. The README lists v0.57, title/menu and open-world rendering, save handling, and user-supplied audio modules; it does not claim a full-campaign playthrough.",
+      "summary": "Game-specific PS4-to-Windows runtime and API translation for the 2018 Shadow of the Colossus remake; the original CPU code runs directly on PC while PS4 graphics commands are translated to Vulkan.",
+      "project_url": "https://github.com/AjncSystem/ShadowOfTheColossus-PC",
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "strategy": "PS4 system API replacement and Vulkan graphics translation",
+      "language": "",
+      "source_available": "Public source and Windows release; user supplies the supported game dump and decrypted audio modules.",
+      "programming_language": "C++",
+      "subtype": "PS4 game-specific native Windows API-translation port",
+      "media": [],
+      "research_lanes": [
+        "reddit"
+      ],
+      "sources": [
+        {
+          "label": "Maintainer repository and README",
+          "url": "https://github.com/AjncSystem/ShadowOfTheColossus-PC"
+        },
+        {
+          "label": "Published releases",
+          "url": "https://github.com/AjncSystem/ShadowOfTheColossus-PC/releases"
+        },
+        {
+          "label": "Reddit discovery thread in r/decomps",
+          "url": "https://www.reddit.com/r/decomps/comments/1x5z43h/shadow_of_thecolossus_pc/"
+        }
+      ],
+      "verification": {
+        "method": "The README describes direct host execution of the original x86-64 game code, a game-specific system loader, and translation of the PS4 GPU to Vulkan; this is API translation/runtime replacement rather than static recompilation.",
+        "game_revision_region_coverage": "PS4 Bluepoint remake, CUSA08809; EU version 1.01 is preferred and required for the listed 60 FPS and 16x filtering patches.",
+        "build_run_dependencies": "Windows 10/11 x64 and a Vulkan 1.3 GPU. Requires a user-supplied game dump and decrypted libSceNgs2/libSceUlt audio modules; without them the game runs silently.",
+        "release_status_version_dates": "README changelog lists v0.57. It documents title/menu and open-world rendering, save handling, and a historical roughly 40-minute map test at v0.0.13; it does not claim a full-campaign playthrough. AMD behavior and 8 GB VRAM limits remain noted.",
+        "license_source_assets_availability": "GPL-2.0-or-later project source is public; game files and Sony firmware modules are not included.",
+        "evidence": [
+          {
+            "url": "https://github.com/AjncSystem/ShadowOfTheColossus-PC",
+            "claim": "README identifies target revision, direct code execution, Vulkan translation, supported Windows requirements, release notes, and limitations."
+          },
+          {
+            "url": "https://github.com/AjncSystem/ShadowOfTheColossus-PC/releases",
+            "claim": "Project release page provides the downloadable Windows build."
+          }
+        ],
+        "platform": "PlayStation 4 → Windows 10/11 x64"
+      }
+    }
+  ]
+}
