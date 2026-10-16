@@ -64,6 +64,9 @@ fi
 if [[ -f data/research/discovery-2026-10-15/18-tools-resources/directory-additions.json ]]; then
   python3 scripts/catalog.py import-directory data/research/discovery-2026-10-15/18-tools-resources/directory-additions.json
 fi
+if [[ -f data/research/discovery-2026-10-16/next-wave/directory-additions.json ]]; then
+  python3 scripts/catalog.py import-directory data/research/discovery-2026-10-16/next-wave/directory-additions.json
+fi
 if [[ -f data/research/programming-languages.json ]]; then
   python3 scripts/catalog.py import-programming-languages data/research/programming-languages.json
 fi

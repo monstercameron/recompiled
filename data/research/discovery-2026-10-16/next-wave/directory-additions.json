@@ -1,0 +1,27 @@
+{
+  "verified_at": "2026-10-16",
+  "items": [
+    {
+      "id": "recomp-fyi",
+      "item_type": "Website",
+      "category": "Project discovery",
+      "name": "recomp.fyi",
+      "description": "A community-maintained index of game decompilations, recompilations, and source ports, with project pages, repository activity, filters, and an Atom feed. Use it to discover leads, then verify methods, status, and platform support at each project's own source.",
+      "url": "https://recomp.fyi/",
+      "source_url": "https://recomp.fyi/",
+      "source_evidence": "The homepage describes its public project table, repository-based activity scan, per-game pages, filters, and Atom feed. It also warns that scripted metadata can be wrong and that owner-claimed details are the reliable source. This catalog records the site as a discovery pointer and does not reproduce its project table.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "id": "decomp-dev-archive",
+      "item_type": "Website",
+      "category": "Historical project archive",
+      "name": "decomp.dev",
+      "description": "Historical matching-decompilation project pages and progress records remain available. The site has disabled its public index and new project submissions.",
+      "url": "https://decomp.dev/",
+      "source_url": "https://decomp.dev/",
+      "source_evidence": "The site's current notice says existing project pages and historical data remain available, while the main index and new project submissions are disabled. It also states that the site's code is not open source and may not be replicated; this entry only links to the archive and does not copy its data or code.",
+      "verified_at": "2026-10-16"
+    }
+  ]
+}
