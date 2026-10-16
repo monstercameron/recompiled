@@ -91,6 +91,21 @@ fi
 if [[ -f data/research/discovery-2026-10-16/media-reviewed.json ]]; then
   python3 scripts/catalog.py import-media data/research/discovery-2026-10-16/media-reviewed.json
 fi
+if [[ -f data/research/discovery-2026-10-16/next-wave/project-additions-reviewed.json ]]; then
+  python3 scripts/catalog.py import data/research/discovery-2026-10-16/next-wave/project-additions-reviewed.json
+fi
+if [[ -f data/research/discovery-2026-10-16/next-wave/project-updates-reviewed.json ]]; then
+  python3 scripts/catalog.py import-project-updates data/research/discovery-2026-10-16/next-wave/project-updates-reviewed.json
+fi
+if [[ -f data/research/discovery-2026-10-16/next-wave/programming-languages-reviewed.json ]]; then
+  python3 scripts/catalog.py import-programming-languages data/research/discovery-2026-10-16/next-wave/programming-languages-reviewed.json
+fi
+if [[ -f data/research/discovery-2026-10-16/next-wave/media-reviewed.json ]]; then
+  python3 scripts/catalog.py import-media data/research/discovery-2026-10-16/next-wave/media-reviewed.json
+fi
+if [[ -f data/research/discovery-2026-10-16/next-wave/wikipedia-links-reviewed.json ]]; then
+  python3 scripts/catalog.py import-wikipedia-links data/research/discovery-2026-10-16/next-wave/wikipedia-links-reviewed.json
+fi
 if [[ -f data/research/console-gallery.json ]]; then
   if python3 - <<'PY'
 import json

@@ -1,0 +1,242 @@
+{
+  "updated": "2026-10-16",
+  "scope": "Source-backed updates to existing project records from the same review wave. The disputed Pokémon Black repository mapping is held out for identity resolution.",
+  "updates": [
+    {
+      "id": "mario-kart-64-xbox-port",
+      "fields": {
+        "status": "A separate public fork documents deterministic online multiplayer for the Original Xbox port and cross-console play with Xbox 360 as host and Original Xbox as joiner. Its README reports validation from a fresh GitHub clone and documents a Release XISO build path; no published release is listed. This is fork-reported status, not a claim of independent compatibility testing.",
+        "summary": "Native Original Xbox port based on the Mario Kart 64 N64 decompilation and jnmartin84’s Dreamcast port. A related fork adds deterministic netplay and Xbox 360 crossplay (Xbox 360 hosts; Original Xbox joins). User-supplied game data is required.",
+        "source_available": "The canonical Original Xbox port has public source. A related public fork states that its newly authored netplay/crossplay code is GPL-3.0-only; the base port, decompilation, Dreamcast port, RXDK, and other third-party components retain their own terms. The repositories do not include the user-supplied ROM or generated game assets."
+      },
+      "sources": [
+        {
+          "label": "Netplay fork README: relationship to base port, N64 source, supported Xbox 360 host / Original Xbox join setup, and tested build instructions",
+          "url": "https://github.com/sirdankz/Mario-Kart-64-X-Netplay/blob/main/README.md"
+        },
+        {
+          "label": "Netplay fork license-scope note: newly authored netplay code only",
+          "url": "https://github.com/sirdankz/Mario-Kart-64-X-Netplay/blob/main/NETPLAY-LICENSE.md"
+        },
+        {
+          "label": "GitHub repository API: public fork identity, fork status, and activity dates",
+          "url": "https://api.github.com/repos/sirdankz/Mario-Kart-64-X-Netplay"
+        }
+      ]
+    },
+    {
+      "id": "mario-party-4-gc-decomp",
+      "fields": {
+        "status": "The README reports that both U.S. revisions are completely matching while PAL and Japanese versions remain incomplete. A separate Party Board native port based on the decompilation now has an Android phone arm64-v8a APK: current continuation release v0.19.0 is a 2026-10-13 pre-release. The decomp README's older statement that no working PC port exists is stale; Party Board remains a work in progress and does not claim full-game completion.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Mario Party 4 decompilation README (matching progress and older no-port statement)",
+          "url": "https://github.com/mariopartyrd/marioparty4#readme"
+        },
+        {
+          "label": "Party Board current continuation README: native port, mobile input, online play, supported discs, and current release",
+          "url": "https://github.com/zeranemesis/Marioparty4"
+        },
+        {
+          "label": "Party Board v0.19.0 phone APK release, published 2026-10-13",
+          "url": "https://github.com/zeranemesis/Marioparty4/releases/tag/v0.19.0"
+        }
+      ]
+    },
+    {
+      "id": "god-of-war-iii-remastered-ps4-api-translation",
+      "fields": {
+        "updated": "2026-10-16",
+        "status": "The latest stable published release is Windows v2.3.0 (2026-10-15); no v2.4.0 release is listed. On 2026-10-16 the main branch bumped its development version to 2.4.0 after adding built-in beta ultrawide resolutions (21:9, 32:9 and 16:10; 3440x1440 was tested) and completing more of the Brazilian Portuguese launcher translation. The README still reports a tested full playthrough at native 1080p / 240 FPS on one test system, while documenting graphics, crash and progress issues on other setups."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: latest source feature and tested-playthrough caveats",
+          "url": "https://github.com/FelipePrado0/gow3_pc/blob/main/README.md"
+        },
+        {
+          "label": "2026-10-16 main commit: development version bump to 2.4.0",
+          "url": "https://github.com/FelipePrado0/gow3_pc/commit/7180a7bafa"
+        },
+        {
+          "label": "2026-10-16 feature commit: built-in ultrawide resolutions and Brazilian Portuguese launcher translation",
+          "url": "https://github.com/FelipePrado0/gow3_pc/commit/bd497bb9b2"
+        },
+        {
+          "label": "Latest stable published Windows release, v2.3.0",
+          "url": "https://github.com/FelipePrado0/gow3_pc/releases/tag/windows-v2.3.0"
+        }
+      ]
+    },
+    {
+      "id": "god-of-war-ps2-recomp",
+      "fields": {
+        "updated": "2026-10-16",
+        "summary": "Windows x64 static recompilation of the PS2 NTSC-U SCUS-97399 executable to C++ using PS2Recomp. Since October 2026, this repository has based its native hardware runtime on Waffle565’s God of War Native Port while maintaining its own God of War function map, recompilation configuration, patches, overrides, scripts and status checks. It does not include game files or generated code; build requires the user’s own legal copy.",
+        "status": "Experimental Windows x64 build; the current README reports boot, menus, new game, the ship fight, native VU1 and native IOP. The 60-fps target, save/load, movies with sound and full playthrough remain in progress or pending. The README now identifies Waffle565’s separate native port as the base runtime; the two repositories share code and project lineage and should not be treated as independent ports without that caveat."
+      },
+      "sources": [
+        {
+          "label": "Current maintainer README: runtime relationship, exact target and status table",
+          "url": "https://github.com/KIexster/god-of-war-recomp/blob/main/README.md"
+        },
+        {
+          "label": "Related Waffle565 native runtime/port README and status",
+          "url": "https://github.com/Waffle565/God-Of-War-Native-Port/blob/main/README.md"
+        },
+        {
+          "label": "GitHub repository API: current canonical identity and activity date",
+          "url": "https://api.github.com/repos/KIexster/god-of-war-recomp"
+        }
+      ]
+    },
+    {
+      "id": "king-of-fighters-95-neogeo-recomp",
+      "fields": {
+        "status": "The README documents desktop builds and a native PS5 homebrew target, and claims locked 60 fps on PC and PS5. Commit f202354 (2026-10-15) adds input sampling immediately before simulation, removes one frame of display latency, enables a 1 ms Windows timer, and adds a toggleable VSync / Ultra-Low Latency mode. It does not add a full-playthrough claim.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Maintainer commit adding low-latency input and VSync mode",
+          "url": "https://github.com/seba371375/kof95sr/commit/f202354c70973e0ab2fe5ae72749bcf4e0b322cf"
+        },
+        {
+          "label": "Maintainer README and build/compatibility notes",
+          "url": "https://github.com/seba371375/kof95sr/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "gears-of-war-2-xbox360-native-pc-recomp",
+      "fields": {
+        "platform": "Xbox 360 → Windows 10/11 x64 (Direct3D 12); Android 10+ ARM64 (experimental build)",
+        "status": "v0.1.1 release. Act 1 is the only campaign portion played; two-player LAN System Link has been tested PC-to-PC and PC-to-Android. Android gameplay on a Galaxy S25 Ultra is reported at 2.6–5.2 FPS (menus 30–50 FPS); Android internet play is untested, three/four-player co-op is early, and full campaign completion is not claimed.",
+        "summary": "Statically recompiles the player's retail Xbox 360 default.xex to native x64 with ReXGlue and a Direct3D 12 Windows host; the repository also includes an Android ARM64 build path with touch controls. The Windows release is v0.1.1. Users must supply their own title-ID 4D53082D copy; no game files are included.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README and project repository",
+          "url": "https://github.com/santiquiroz/gears-of-war-2-pc-port#readme"
+        },
+        {
+          "label": "Latest release: Android build, performance, and tested co-op scope",
+          "url": "https://github.com/santiquiroz/gears-of-war-2-pc-port/releases/tag/v0.1.1"
+        }
+      ]
+    },
+    {
+      "id": "ninja-gaiden-black-original-xbox-recomp",
+      "fields": {
+        "status": "Pre-release v0.9.5 (2026-10-16 UTC): fixes Linux/Steam Deck saving over an existing slot; Windows is unchanged from v0.9.4. The maintainer still says the game has not been played through to the end; a Chapter 3 drone-related crash remains under investigation.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README and project repository",
+          "url": "https://github.com/gamboozino/ngbrecomp#readme"
+        },
+        {
+          "label": "Release notes: Linux/Steam Deck save fix and remaining playthrough caveat",
+          "url": "https://github.com/gamboozino/ngbrecomp/releases/tag/v0.9.5"
+        }
+      ]
+    },
+    {
+      "id": "halo-ce-chupathingy-decomp-port",
+      "fields": {
+        "status": "v0.7.5d security update (2026-10-16 UTC): private or password-protected multiplayer sessions are no longer listed in the game browser, and an invite listed before the host changes visibility/password stops working. Release also publishes Windows, macOS, Linux, Android, and dedicated-server builds; update before hosting private/password games.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README and project repository",
+          "url": "https://github.com/ChupathingyCE/chupathingyce#readme"
+        },
+        {
+          "label": "Release notes: invite/privacy security fix and build platforms",
+          "url": "https://github.com/ChupathingyCE/chupathingyce/releases/tag/v0.7.5d"
+        }
+      ]
+    },
+    {
+      "id": "anyps5",
+      "fields": {
+        "updated": "2026-10-16",
+        "status": "Work in progress. The maintainer's progress history dated 2026-10-15 reports 3,292/3,706 currently declared system-library functions implemented (88.83%) and 1,166/1,166 known shader instructions translated (100%). These denominators are the project's current lists, not all PS5 functions or games. Unsupported or unexpected states still terminate execution; converting a binary does not establish that a title runs."
+      },
+      "sources": [
+        {
+          "label": "AnyPS5 maintainer progress history, latest point 2026-10-15",
+          "url": "https://boykopovar.github.io/AnyPS5/history.html"
+        },
+        {
+          "label": "AnyPS5 maintainer README: scope, status limits, and Vulkan/SPIR-V path",
+          "url": "https://github.com/boykopovar/AnyPS5"
+        }
+      ]
+    },
+    {
+      "id": "prosper",
+      "fields": {
+        "updated": "2026-10-16",
+        "status": "Experimental research compatibility layer; the official compatibility overview was last updated 2026-10-12. The current generated tracker lists 84 titles by highest measured milestone: 14 reached a reviewed automatic gameplay snapshot guard, 1 a PS5 hardware comparison, 3 manual visual verification, 12 gameplay with a rendered scene, 23 title screen, 11 any real graphics, and 20 not started. These are title-specific routed milestones, not a claim that those games are fully playable. The latest listed release remains v0.2.4 (2026-10-10).",
+        "summary": "Experimental user-space PS5-to-PC compatibility layer for Linux and Windows, with macOS x86-64 documented for the Darwin substrate only. PS5 x86-64 game code runs directly on the host CPU; the project loads/links SELF and ELF modules, reimplements selected PS5 system libraries and ABI details, and translates AGC/PM4 graphics plus RDNA2 shaders to Vulkan 1.4/SPIR-V. It is explicitly not a product or general-purpose game runner. Its source describes specific user-supplied dump routes and milestones, which do not establish full-game completion.",
+        "platform": "PlayStation 5 x86-64 → Linux and Windows 10/11 x86-64; macOS x86-64 exercises the Darwin substrate only. AGC/RDNA2 graphics → Vulkan 1.4/SPIR-V."
+      },
+      "sources": [
+        {
+          "label": "Prosper maintainer compatibility overview, last updated 2026-10-12",
+          "url": "https://github.com/mattias800/prosper/blob/main/COMPATIBILITY.md"
+        },
+        {
+          "label": "Prosper generated 84-title milestone tracker and its caveats",
+          "url": "https://github.com/mattias800/prosper/blob/main/PROGRESS_TRACKER.md"
+        },
+        {
+          "label": "Prosper v0.2.4 release (2026-10-10)",
+          "url": "https://github.com/mattias800/prosper/releases/tag/v0.2.4"
+        },
+        {
+          "label": "Maintainer README: architecture and compatibility limits",
+          "url": "https://github.com/mattias800/prosper"
+        }
+      ]
+    },
+    {
+      "id": "metal2vulkan",
+      "fields": {
+        "platform": "Metal AIR/LLVM IR shaders and a documented subset of Metal-shaped API programs → SPIR-V and Vulkan pipelines; the published runtime requires a Vulkan 1.2 device. Building the Rust libraries requires Rust 1.98 or newer.",
+        "status": "Alpha; the current repository manifests declare version 0.2.0, while the README says that version is not on crates.io and the crates.io 0.1.0 listing is an unrelated earlier design. The latest GitHub release tag remains v0.1.0 (2026-07-22). The README describes typed refusals for unsupported inputs and states that APIs and outputs can change during the 0.x series.",
+        "summary": "A Rust workspace with a Metal AIR/LLVM IR-to-SPIR-V translator and a separate Metal-shaped runtime over Vulkan. The current README documents compute, render, tessellation, tile, and mesh stages and a Vulkan 1.2 device requirement; unsupported or not-yet-covered inputs fail with a refusal instead of claiming an equivalent pipeline. The authored validation suite compares selected cases against Metal, while the private corpus is not included in the public repository, so the project does not imply complete Metal compatibility.",
+        "source_available": "Public source; the repository declares dual licensing under GPL-2.0-or-later OR LGPL-3.0-or-later. GitHub's license detector reports NOASSERTION; the prior catalog value of MIT was incorrect.",
+        "subtype": "Metal AIR shader translator and partial Metal API runtime"
+      },
+      "sources": [
+        {
+          "label": "Current project README: translator/runtime crates, Alpha caveats, Vulkan requirement, and validation limits",
+          "url": "https://github.com/steelbrain/metal2vulkan/blob/master/README.md"
+        },
+        {
+          "label": "Workspace manifest: Rust 1.98 minimum, crate version 0.2.0, and dual-license declaration",
+          "url": "https://github.com/steelbrain/metal2vulkan/blob/master/Cargo.toml"
+        },
+        {
+          "label": "Published GitHub release v0.1.0 (2026-07-22)",
+          "url": "https://github.com/steelbrain/metal2vulkan/releases/tag/v0.1.0"
+        },
+        {
+          "label": "Current dual-license text",
+          "url": "https://github.com/steelbrain/metal2vulkan/blob/master/LICENSE"
+        },
+        {
+          "label": "Vulkan runtime API coverage and requirements",
+          "url": "https://github.com/steelbrain/metal2vulkan/blob/master/crates/metal2vulkan-runtime/README.md"
+        }
+      ]
+    }
+  ]
+}
