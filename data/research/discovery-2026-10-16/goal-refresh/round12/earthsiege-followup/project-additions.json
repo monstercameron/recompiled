@@ -1,0 +1,47 @@
+{
+  "updated": "2026-10-16",
+  "scope": "One source-checked HERCULAN Engine reimplementation discovered from a Reddit discussion; game files and media remain remote references only.",
+  "projects": [
+    {
+      "id": "earthsiege-2-herculan-reimplementation",
+      "title": "Earthsiege 2 — HERCULAN Engine",
+      "game": "Earthsiege 2",
+      "target_type": "Game",
+      "platform": "Windows 10+ and Linux x86-64 (glibc 2.34+), OpenGL 3.3; requires original Earthsiege 2 files",
+      "kind": "Reimplementation",
+      "status": "Beta. Release v0.9.8 was published 2026-10-16. The maintainer says it supports the full retail v1.0, Hi-Rez 1.0, and 1.10 GoldGames versions; the engine supports Windows and Linux. Original game files are required and are not included.",
+      "summary": "A reverse-engineered, modern reimplementation of Dynamix’s 1996 mech simulation Earthsiege 2. It supports widescreen and ultrawide displays, hardware-accelerated OpenGL rendering, retail file formats and saves, and installation from a retail CD or ISO. The repository also contains HercWorks CSharp, a related Windows-only tool suite that is not a separate catalog project.",
+      "project_url": "https://github.com/kevinfoley/Herculan",
+      "updated": "2026-10-16",
+      "strategy": "Reverse-engineered native engine reimplementation",
+      "language": "English, French, and German (documented retail game versions)",
+      "source_available": "Public source repository under MIT; HERCULAN branding assets are excluded from that license. Requires the user’s own original game files; no game data is distributed.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C#",
+      "subtype": "1996 Windows game engine reimplementation; Linux and modern Windows support",
+      "sources": [
+        {
+          "label": "Maintainer README: reimplementation method, beta status, supported game versions, platforms, original-data requirement, and screenshots",
+          "url": "https://github.com/kevinfoley/Herculan/blob/main/README.MD"
+        },
+        {
+          "label": "HERCULAN 0.9.8 release published 2026-10-16",
+          "url": "https://github.com/kevinfoley/Herculan/releases/tag/v0.9.8"
+        },
+        {
+          "label": "MIT license and explicit branding-asset exception",
+          "url": "https://github.com/kevinfoley/Herculan/blob/main/LICENSE.txt"
+        },
+        {
+          "label": "GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/kevinfoley/Herculan"
+        },
+        {
+          "label": "Official GitHub Languages API byte totals checked 2026-10-16",
+          "url": "https://api.github.com/repos/kevinfoley/Herculan/languages"
+        }
+      ]
+    }
+  ]
+}

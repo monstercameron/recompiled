@@ -1,0 +1,121 @@
+{
+  "verified_at": "2026-10-16",
+  "records": [
+    {
+      "project_id": "burnout-3-xbox-native-android-recomp-b3x",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 3076521,
+        "Python": 1648372,
+        "Java": 326687,
+        "Shell": 55639,
+        "CMake": 38125,
+        "Perl": 6225,
+        "C++": 4522
+      },
+      "evidence_url": "https://api.github.com/repos/aribrilliantsyah/Burnout3-Recompiled-Mobile/languages",
+      "evidence": "Exact GitHub REST Languages API byte totals for the repository; totals cover the full repository (including host app, runtime, tooling and support code) and are not counts of game implementation code.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "yoshis-island-sma3-android-static-recomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 91187,
+        "Python": 89699,
+        "Java": 67603,
+        "CMake": 4924
+      },
+      "evidence_url": "https://api.github.com/repos/Edwin2929/sma3-recomp-android./languages",
+      "evidence": "Exact GitHub REST Languages API byte totals for the repository; totals cover the full repository (including host app, runtime, tooling and support code) and are not counts of game implementation code.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "wwf-wrestlemania-arcade-c-recomp-android-tv",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 798591,
+        "Python": 237528,
+        "Assembly": 95738,
+        "CMake": 36347,
+        "Shell": 7689,
+        "Batchfile": 5684,
+        "Java": 317
+      },
+      "evidence_url": "https://api.github.com/repos/lurendrejer/wwfmania_recomp_public/languages",
+      "evidence": "Exact GitHub REST Languages API byte totals for the repository; totals cover the full repository (including host app, runtime, tooling and support code) and are not counts of game implementation code.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "binding-of-isaac-repentance-clean-room-android",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 92622,
+        "Python": 31317,
+        "CMake": 5975
+      },
+      "evidence_url": "https://api.github.com/repos/caos-obliquo/tboi-recomp/languages",
+      "evidence": "Exact GitHub REST Languages API byte totals for the repository; totals cover the full repository (including host app, runtime, tooling and support code) and are not counts of game implementation code.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "pokemon-emerald-decompilation-android",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 23246288,
+        "Assembly": 6209208,
+        "C++": 1110610,
+        "Makefile": 73534,
+        "Linker Script": 59514,
+        "Python": 44997,
+        "Java": 12018,
+        "CMake": 4713,
+        "PowerShell": 2942,
+        "Shell": 919
+      },
+      "evidence_url": "https://api.github.com/repos/gradenGnostic/pokeemerald-multiplatform/languages",
+      "evidence": "Exact GitHub REST Languages API byte totals for the repository; totals cover the full repository (including host app, runtime, tooling and support code) and are not counts of game implementation code.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "bully-anniversary-android-switch-homebrew",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 298701,
+        "Makefile": 8909,
+        "C++": 2003
+      },
+      "evidence_url": "https://api.github.com/repos/givethesourceplox/bully-NX/languages",
+      "evidence": "Exact GitHub REST Languages API byte totals for the complete Switch wrapper repository; totals include loader/support code and do not represent the game library supplied by the user.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "streets-of-rage-x-android-switch-translation",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 313376,
+        "Makefile": 6328
+      },
+      "evidence_url": "https://api.github.com/repos/delsonazevedo/sorx_nx/languages",
+      "evidence": "Exact GitHub REST Languages API byte totals for the Switch wrapper repository; the Android game binary/package is supplied separately.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "viridite-android-to-horizon-compatibility-layer",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 452049,
+        "C": 214219,
+        "JavaScript": 147177,
+        "HTML": 67731,
+        "CSS": 19645,
+        "Python": 13982,
+        "Makefile": 11534,
+        "Shell": 1978
+      },
+      "evidence_url": "https://api.github.com/repos/Viridite/Viridite/languages",
+      "evidence": "Exact GitHub REST Languages API byte totals for the complete compatibility layer and launcher repository; totals include frontend and support files.",
+      "verified_at": "2026-10-16"
+    }
+  ]
+}

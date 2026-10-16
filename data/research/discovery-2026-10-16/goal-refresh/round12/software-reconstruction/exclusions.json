@@ -1,0 +1,39 @@
+{
+  "checked_at": "2026-10-16",
+  "held_or_excluded_candidates": [
+    {
+      "candidate": "OpenDPS / DPS5005 firmware replacement",
+      "url": "https://github.com/kanflo/opendps",
+      "disposition": "Hold",
+      "reason": "The captured README identifies itself as a p1ngb4ck fork even though GitHub API reports kanflo/opendps as a non-fork repository. Provenance is inconsistent, and the newest returned release artifact is from 2021; clarify canonical repository/source lineage before adding."
+    },
+    {
+      "candidate": "Even Realities G1 firmware decompilation",
+      "url": "https://github.com/JohnRThomas/even_realities_decomp",
+      "disposition": "Hold",
+      "reason": "GitHub marks it as a fork; the README is partly inherited from an unrelated Nordic sample and does not establish a clean target/version scope or licensing for original firmware analysis. No release or license was found."
+    },
+    {
+      "candidate": "VEX SDK (including vex-sdk-jumptable)",
+      "url": "https://github.com/vexide/vex-sdk",
+      "disposition": "Hold as adjacent, not a target reconstruction addition",
+      "reason": "The repository is a Rust SDK/bindings and tools project whose jumptable crate calls VEXos by firmware addresses; it does not reconstruct the VEXos firmware or a particular application. It may be useful as a related-resource link in a future VEXAPI enrichment."
+    },
+    {
+      "candidate": "Revenant automated reverse-engineering engine",
+      "url": "https://github.com/DatanoiseTV/revenant",
+      "disposition": "Exclude from target-project catalog additions",
+      "reason": "A generic reverse-engineering automation tool, not reconstruction of one identified application or firmware target."
+    }
+  ],
+  "nearby_existing_records_not_duplicates": [
+    {
+      "candidate": "FNIRSI 2C53T projects",
+      "urls": [
+        "https://github.com/DavidClawson/OpenScope-2C53T",
+        "https://github.com/DavidClawson/ripcord"
+      ],
+      "decision": "Keep separate: the catalog rows target a 2C53T handheld scope/multimeter, whereas FNIRSI 1013D/1014D are distinct oscilloscope models and firmware lineages."
+    }
+  ]
+}

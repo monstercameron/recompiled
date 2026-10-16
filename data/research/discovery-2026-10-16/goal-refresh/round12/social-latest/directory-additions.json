@@ -1,0 +1,39 @@
+{
+  "verified_at": "2026-10-16",
+  "scope": "Source-verified discovery and reusable static-recompilation resources. URLs only; no directory content or tool assets are copied.",
+  "items": [
+    {
+      "id": "unbaked-games-project-registry",
+      "item_type": "Website",
+      "category": "Project discovery",
+      "name": "unbaked.games",
+      "description": "A searchable, cross-platform registry of decompiled, recompiled, reimplemented, disassembled and source-released games, with method/platform filters and a public JSON API. Its homepage currently reports 4,606 games and 9,027 projects (updated 2026-10-16). The maintainer documents GitHub existence/activity/license checks, duplicate/fork removal, and code-only links; use each original project repository as the authority and do not treat its index as copied catalog data.",
+      "url": "https://unbaked.games/",
+      "source_url": "https://unbaked.games/about/",
+      "source_evidence": "The site's About page defines the registry and methods; says it links source code/tools, not game files; excludes leaked-source projects and taken-down repositories; and documents a GitHub API review on 2026-10-15 for repository existence, stars, license and activity, including removal of dead repositories and duplicates/forks. It states project repositories remain authoritative and exposes a public JSON API. The homepage reported 4,606 games and 9,027 projects updated 2026-10-16 when checked.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "id": "recomp-ui-shared-static-recomp-launcher",
+      "item_type": "Tool",
+      "category": "Static recompilation support",
+      "name": "recomp-ui",
+      "description": "MIT-licensed, console-agnostic launcher and in-game settings UI for static-recompilation ports. The maintainer documents a shared C ABI/CMake integration, runtime settings overlay, optional schema-driven Mods interface, and production integrations for Mega Man X and Ape Escape. This is reusable UI infrastructure rather than a game-specific project.",
+      "url": "https://github.com/RetroPortingToolKit/recomp-ui",
+      "source_url": "https://github.com/RetroPortingToolKit/recomp-ui#readme",
+      "source_evidence": "The current maintainer README says the repository is part of RetroPortingToolkit and identifies the maintainer; describes a shared console-agnostic launcher/runtime UI, C ABI and CMake integration, optional host-provided Mods UI, and Mega Man X/Ape Escape integrations. GitHub's repository metadata reports a public repository with MIT license and recent activity (checked 2026-10-16).",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "id": "recomp-common-shared-port-ui-and-settings",
+      "item_type": "Tool",
+      "category": "Static recompilation support",
+      "name": "recomp-common",
+      "description": "A GPL-3.0-only C++17 library for static-recomp ports that supplies a console-agnostic in-game overlay, shared settings rules, bitmap text and a launcher. The README says the core has no external dependencies and identifies use by cps2recomp, satrecomp and Vampire Savior Recomp. It is a reusable component, not a title-specific recompilation.",
+      "url": "https://github.com/tmcleroy/recomp-common",
+      "source_url": "https://github.com/tmcleroy/recomp-common#readme",
+      "source_evidence": "The maintainer README describes the overlay, settings agreement and launcher; says the C++17 core has no dependencies beyond the standard library; lists cps2recomp, satrecomp and Vampire Savior Recomp as users; and identifies GPL-3.0-only licensing. GitHub metadata confirms a public non-fork repository and recent activity (checked 2026-10-16).",
+      "verified_at": "2026-10-16"
+    }
+  ]
+}

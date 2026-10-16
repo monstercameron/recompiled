@@ -1,0 +1,84 @@
+[
+  {
+    "sha": "2f7f0c4c01da3433e6386774416ea33f6c3753af",
+    "node_id": "C_kwDOVAXoatoAKDJmN2YwYzRjMDFkYTM0MzNlNjM4Njc3NDQxNmVhMzNmNmMzNzUzYWY",
+    "commit": {
+      "author": {
+        "name": "ethernet",
+        "email": "arilotter@gmail.com",
+        "date": "2026-10-13T19:03:51Z"
+      },
+      "committer": {
+        "name": "ethernet",
+        "email": "arilotter@gmail.com",
+        "date": "2026-10-13T19:03:51Z"
+      },
+      "message": "mirror: bootstrap flash-driver + view/input pipeline work\n\nSyncs the parallel RE session (the work that was still private):\n\n- analysis/ghidra-scripts/probe35-69 + mem_scan{2}.py + FindDspiUsers.py\n  (view system, input pipeline, memory scan, bootstrap MMIO/flash/disasm).\n  Probes only - the raw decompiler output they produce stays private.\n- docs/flash-driver.md   SPI NOR upgrade path decoded from the bootstrap:\n  DSPI 0xfc05c000, multi-vendor JEDEC RDID probe, erase 256 KB / program\n  512 B, staged in DDR at 0x3FF80008, layout bootstrap+FPGA 0x0-0x7FFFF and\n  MAIN OS 0x80000+. The opcode-level helpers sit behind absolute pointers\n  that do not point at those instructions in the file, so the real driver is\n  runtime-loaded - a replacement OS uses standard JEDEC commands instead.\n- docs/usb-reflash.md    plan + stages to make the custom OS own USB (receive\n  to RAM, validate, write only the MAIN OS section, reboot), keeping the\n  FUNC+power DIN path as the invariant that never breaks.\n- README/STATUS updated with the flash/upgrade-path findings + pointers.\n\nSanitization: leak-scanned (no binaries, no hex dumps). Paraphrased two more\nquoted device strings on the way out (the downgrade-refusal and upgrade-state\nmessages). \"OS UPGRADE\" is kept in the recovery instructions - it names the\nmenu entry a user has to select, so genericising it would break them.",
+      "tree": {
+        "sha": "cd157ef17d1d956983d869573a2ccc199c9a09a4",
+        "url": "https://api.github.com/repos/ethernet8023/rytm-fw-re/git/trees/cd157ef17d1d956983d869573a2ccc199c9a09a4"
+      },
+      "url": "https://api.github.com/repos/ethernet8023/rytm-fw-re/git/commits/2f7f0c4c01da3433e6386774416ea33f6c3753af",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAggv7kgN4gq9ilCWVWxT+yhG7bsr\nI9MDkVe9kzlnz6azsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5\nAAAAQLTxmqbSqnLTna3kl4CIfFCPQa+HqHZ+3YpfLI+BZ6gpaBn/qc1x0+F46zgYB6p471\nT/0Kjyrbqh+IH5BFVtYQo=\n-----END SSH SIGNATURE-----",
+        "payload": "tree cd157ef17d1d956983d869573a2ccc199c9a09a4\nparent f8b99e7f7ee5048ef41a65804849ba27db2f433d\nauthor ethernet <arilotter@gmail.com> 1791918231 -0400\ncommitter ethernet <arilotter@gmail.com> 1791918231 -0400\n\nmirror: bootstrap flash-driver + view/input pipeline work\n\nSyncs the parallel RE session (the work that was still private):\n\n- analysis/ghidra-scripts/probe35-69 + mem_scan{2}.py + FindDspiUsers.py\n  (view system, input pipeline, memory scan, bootstrap MMIO/flash/disasm).\n  Probes only - the raw decompiler output they produce stays private.\n- docs/flash-driver.md   SPI NOR upgrade path decoded from the bootstrap:\n  DSPI 0xfc05c000, multi-vendor JEDEC RDID probe, erase 256 KB / program\n  512 B, staged in DDR at 0x3FF80008, layout bootstrap+FPGA 0x0-0x7FFFF and\n  MAIN OS 0x80000+. The opcode-level helpers sit behind absolute pointers\n  that do not point at those instructions in the file, so the real driver is\n  runtime-loaded - a replacement OS uses standard JEDEC commands instead.\n- docs/usb-reflash.md    plan + stages to make the custom OS own USB (receive\n  to RAM, validate, write only the MAIN OS section, reboot), keeping the\n  FUNC+power DIN path as the invariant that never breaks.\n- README/STATUS updated with the flash/upgrade-path findings + pointers.\n\nSanitization: leak-scanned (no binaries, no hex dumps). Paraphrased two more\nquoted device strings on the way out (the downgrade-refusal and upgrade-state\nmessages). \"OS UPGRADE\" is kept in the recovery instructions - it names the\nmenu entry a user has to select, so genericising it would break them.\n",
+        "verified_at": "2026-10-13T19:03:53Z"
+      }
+    },
+    "url": "https://api.github.com/repos/ethernet8023/rytm-fw-re/commits/2f7f0c4c01da3433e6386774416ea33f6c3753af",
+    "html_url": "https://github.com/ethernet8023/rytm-fw-re/commit/2f7f0c4c01da3433e6386774416ea33f6c3753af",
+    "comments_url": "https://api.github.com/repos/ethernet8023/rytm-fw-re/commits/2f7f0c4c01da3433e6386774416ea33f6c3753af/comments",
+    "author": {
+      "login": "ethernet8023",
+      "id": 666465,
+      "node_id": "MDQ6VXNlcjY2NjQ2NQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/666465?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ethernet8023",
+      "html_url": "https://github.com/ethernet8023",
+      "followers_url": "https://api.github.com/users/ethernet8023/followers",
+      "following_url": "https://api.github.com/users/ethernet8023/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ethernet8023/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ethernet8023/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ethernet8023/subscriptions",
+      "organizations_url": "https://api.github.com/users/ethernet8023/orgs",
+      "repos_url": "https://api.github.com/users/ethernet8023/repos",
+      "events_url": "https://api.github.com/users/ethernet8023/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ethernet8023/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "ethernet8023",
+      "id": 666465,
+      "node_id": "MDQ6VXNlcjY2NjQ2NQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/666465?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ethernet8023",
+      "html_url": "https://github.com/ethernet8023",
+      "followers_url": "https://api.github.com/users/ethernet8023/followers",
+      "following_url": "https://api.github.com/users/ethernet8023/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ethernet8023/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ethernet8023/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ethernet8023/subscriptions",
+      "organizations_url": "https://api.github.com/users/ethernet8023/orgs",
+      "repos_url": "https://api.github.com/users/ethernet8023/repos",
+      "events_url": "https://api.github.com/users/ethernet8023/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ethernet8023/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f8b99e7f7ee5048ef41a65804849ba27db2f433d",
+        "url": "https://api.github.com/repos/ethernet8023/rytm-fw-re/commits/f8b99e7f7ee5048ef41a65804849ba27db2f433d",
+        "html_url": "https://github.com/ethernet8023/rytm-fw-re/commit/f8b99e7f7ee5048ef41a65804849ba27db2f433d"
+      }
+    ]
+  }
+]

@@ -1,0 +1,621 @@
+{
+  "verified_at": "2026-10-16",
+  "profile_count": 35,
+  "fact_count": 202,
+  "target_game_keys": [
+    "007: Nightfire",
+    "Alice's Cottage II",
+    "Betrayal at Krondor (DOS releases 1.00 and 1.02)",
+    "Biohazard 2 November 6, 1996 prototype (Resident Evil 1.5)",
+    "DELTARUNE Chapter 5",
+    "DS Telejan",
+    "DX-Ball 1.07",
+    "Deadly Danmaku Trial: DoDonPachi Dai-Ou-Jou Edition",
+    "Death Note: Successors to L",
+    "Deep 3D: Submarine Odyssey (Android release)",
+    "Densetsu no Ogre Battle Gaiden: Zenobia no Ouji",
+    "DoDonPachi Dai-Ou-Jou DX",
+    "Doraemon 3: Nobita no Machi SOS!",
+    "Dragon Quest X Online",
+    "Dragon Slayer I",
+    "Fallout 3 / Fallout: New Vegas engine branch",
+    "Fire Emblem If",
+    "Gakuen iDOLM@STER",
+    "Germs Nerawareta Machi",
+    "Gluk the Thunder Warrior",
+    "Go Go Ackman",
+    "Grand Theft Auto V WebAssembly build 8b0b5899ed",
+    "Growlanser VI: Precarious World",
+    "Hell Fighter",
+    "Innocent Tour",
+    "Isseki Hatchou: Kore 1ppon de 8shurui!",
+    "JULY",
+    "Kettou Beast Wars: Beast Senshi Saikyou Ketteisen",
+    "Macross Ultimate Frontier",
+    "Magical Drop DX",
+    "Marchen Veil",
+    "Mashed: Fully Loaded (PC, 2004)",
+    "Minecraft Classic client behavior (2009-era; the project also partially supports some pre-0.30 features)",
+    "Minecraft Java Edition 26.2-snapshot-1 renderer",
+    "Mushishi: Amefuru Sato"
+  ],
+  "profiles": [
+    {
+      "game_key": "007: Nightfire",
+      "fact_count": 7,
+      "covered_fields": [
+        "canonical_name",
+        "genre",
+        "original_platform",
+        "developer",
+        "publisher",
+        "regional_release_date",
+        "series"
+      ],
+      "sources": [
+        "https://gamefaqs.gamespot.com/xbox/561312-007-nightfire/data",
+        "https://en.wikipedia.org/wiki/James_Bond_007:_Nightfire"
+      ],
+      "missing_or_qualified": "No regional dates beyond the North American Xbox date were included; facts are for the Xbox edition used by the port project."
+    },
+    {
+      "game_key": "Alice's Cottage II",
+      "fact_count": 5,
+      "covered_fields": [
+        "canonical_name",
+        "original_platform",
+        "developer",
+        "publisher",
+        "regional_release_date"
+      ],
+      "sources": [
+        "https://www.romhackplaza.org/translations/alices-cottage-ii-english-translation-pc-98",
+        "https://gamesdb.launchbox-app.com/games/details/139333-alice-no-yakata-ii",
+        "https://gamefaqs.gamespot.com/games/company/72749-alice-soft"
+      ],
+      "missing_or_qualified": "No trustworthy genre label was found; the title is described as an Alice Soft PC-98 fandisc/collection, but that description was not forced into a game genre."
+    },
+    {
+      "game_key": "Betrayal at Krondor (DOS releases 1.00 and 1.02)",
+      "fact_count": 7,
+      "covered_fields": [
+        "canonical_name",
+        "genre",
+        "original_platform",
+        "developer",
+        "publisher",
+        "regional_release_date",
+        "series"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Betrayal_at_Krondor",
+        "https://gamefaqs.gamespot.com/pc/564546-betrayal-at-krondor/data"
+      ],
+      "missing_or_qualified": "GameFAQs confirms US disk and CD release rows and their shared 1993-06-22 date, but does not map those rows to the key’s 1.00/1.02 version numbers. The broader Wikipedia credit lists Sierra On-Line, while GameFAQs lists Dynamix in its publisher column for these US rows."
+    },
+    {
+      "game_key": "Biohazard 2 November 6, 1996 prototype (Resident Evil 1.5)",
+      "fact_count": 5,
+      "covered_fields": [
+        "canonical_name",
+        "genre",
+        "original_platform",
+        "developer",
+        "series"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Resident_Evil_1.5"
+      ],
+      "missing_or_qualified": "The article supports the canceled prototype, platform and series context, but the key’s November 6, 1996 date is not independently sourced; no release date, publisher or mode is recorded."
+    },
+    {
+      "game_key": "DELTARUNE Chapter 5",
+      "fact_count": 5,
+      "covered_fields": [
+        "canonical_name",
+        "genre",
+        "original_platform",
+        "developer",
+        "regional_release_date"
+      ],
+      "sources": [
+        "https://toby.fangamer.com/newsletters/ch5-release-date/",
+        "https://en.wikipedia.org/wiki/Deltarune"
+      ],
+      "missing_or_qualified": "The source supports Chapter 5’s global release date. Platform information refers to the original Chapter 1 PC release, not a complete inventory of Chapter 5 platforms."
+    },
+    {
+      "game_key": "DS Telejan",
+      "fact_count": 5,
+      "covered_fields": [
+        "canonical_name",
+        "genre",
+        "original_platform",
+        "developer",
+        "publisher"
+      ],
+      "sources": [
+        "https://www.mobygames.com/game/211389/ds-telejan/"
+      ],
+      "missing_or_qualified": "MobyGames supplies a 1981 arcade year, but no explicit region label was found in the reviewed record, so no regional date is stored."
+    },
+    {
+      "game_key": "DX-Ball 1.07",
+      "fact_count": 4,
+      "covered_fields": [
+        "canonical_name",
+        "genre",
+        "original_platform",
+        "developer"
+      ],
+      "sources": [
+        "https://github.com/N0zoM1z0/dx-ball"
+      ],
+      "missing_or_qualified": "The available version-specific information comes from the reconstruction repository and its bundled documentation; no reliable regional release date or publisher credit was located."
+    },
+    {
+      "game_key": "Deadly Danmaku Trial: DoDonPachi Dai-Ou-Jou Edition",
+      "fact_count": 6,
+      "covered_fields": [
+        "canonical_name",
+        "genre",
+        "original_platform",
+        "developer",
+        "publisher",
+        "regional_release_date"
+      ],
+      "sources": [
+        "https://store.steampowered.com/app/1815030/GMODE/",
+        "https://www.mobygames.com/game/166128/danmaku-kentei-shiken-dai-ou-jou-hen/?s=date"
+      ],
+      "missing_or_qualified": "MobyGames documents the original DoJa title and its later Switch/Windows reissues; the fan patch targets the Steam G-MODE Archives+ release, not the 2006 mobile build."
+    },
+    {
+      "game_key": "Death Note: Successors to L",
+      "fact_count": 7,
+      "covered_fields": [
+        "canonical_name",
+        "genre",
+        "original_platform",
+        "developer",
+        "publisher",
+        "regional_release_date",
+        "series"
+      ],
+      "sources": [
+        "https://gamefaqs.gamespot.com/ds/938630-death-note-l-o-tsugu-mono/data"
+      ],
+      "missing_or_qualified": "The exact title is supported by the DS game record; the English subtitle is a translation of the Japanese title, and no mode fact is included."
+    },
+    {
+      "game_key": "Deep 3D: Submarine Odyssey (Android release)",
+      "fact_count": 5,
+      "covered_fields": [
+        "canonical_name",
+        "genre",
+        "original_platform",
+        "developer",
+        "publisher"
+      ],
+      "sources": [
+        "https://www.mobygames.com/game/148747/deep-submarine-odyssey/"
+      ],
+      "missing_or_qualified": "The Android-edition qualifier remains unverified. MobyGames documents J2ME mobile; the Switch port discussion mentions Android game libraries but does not establish a distinct official Android release date or platform listing."
+    },
+    {
+      "game_key": "Densetsu no Ogre Battle Gaiden: Zenobia no Ouji",
+      "fact_count": 7,
+      "covered_fields": [
+        "canonical_name",
+        "genre",
+        "original_platform",
+        "developer",
+        "publisher",
+        "regional_release_date",
+        "series"
+      ],
+      "sources": [
+        "https://gamefaqs.gamespot.com/ngpc/197773-densetsu-no-ogre-battle-gaiden-zenobia-no-ouji/data"
+      ],
+      "missing_or_qualified": "The covered title data reflects the Japanese Neo Geo Pocket Color release; no later platform facts are included."
+    },
+    {
+      "game_key": "DoDonPachi Dai-Ou-Jou DX",
+      "fact_count": 7,
+      "covered_fields": [
+        "canonical_name",
+        "genre",
+        "original_platform",
+        "developer",
+        "publisher",
+        "regional_release_date",
+        "series"
+      ],
+      "sources": [
+        "https://www.mobygames.com/game/165075/dodonpachi-dai-ou-jou-dx/"
+      ],
+      "missing_or_qualified": "The original DoJa edition is documented separately from later Switch/Windows G-MODE Archives+ reissues. No unsupported Steam-specific release date was added."
+    },
+    {
+      "game_key": "Doraemon 3: Nobita no Machi SOS!",
+      "fact_count": 7,
+      "covered_fields": [
+        "canonical_name",
+        "genre",
+        "original_platform",
+        "developer",
+        "publisher",
+        "regional_release_date",
+        "series"
+      ],
+      "sources": [
+        "https://gamefaqs.gamespot.com/n64/577493-doraemon-3-nobita-no-machi-sos/data"
+      ],
+      "missing_or_qualified": "Facts refer to the original Japanese Nintendo 64 release; no other regional or port metadata was added."
+    },
+    {
+      "game_key": "Dragon Quest X Online",
+      "fact_count": 7,
+      "covered_fields": [
+        "canonical_name",
+        "genre",
+        "original_platform",
+        "developer",
+        "publisher",
+        "regional_release_date",
+        "series"
+      ],
+      "sources": [
+        "https://www.dragonquest.jp/news/detail/651/",
+        "https://en.wikipedia.org/wiki/Dragon_Quest_X"
+      ],
+      "missing_or_qualified": "Facts describe the original Japanese Wii release; later platforms, versions, and service changes are outside this profile."
+    },
+    {
+      "game_key": "Dragon Slayer I",
+      "fact_count": 6,
+      "covered_fields": [
+        "canonical_name",
+        "genre",
+        "original_platform",
+        "developer",
+        "publisher",
+        "regional_release_date"
+      ],
+      "sources": [
+        "https://gamefaqs.gamespot.com/gameboy/563008-dragon-slayer-i/data",
+        "https://www.mobygames.com/game/18618/dragon-slayer/releases/"
+      ],
+      "missing_or_qualified": "The profile refers specifically to the Game Boy adaptation; no regional facts for other Dragon Slayer versions are included."
+    },
+    {
+      "game_key": "Fallout 3 / Fallout: New Vegas engine branch",
+      "fact_count": 2,
+      "covered_fields": [
+        "canonical_name",
+        "collection_context"
+      ],
+      "sources": [
+        "https://gitlab.com/BlackPhrase/sugarbombengine",
+        "https://en.wikipedia.org/wiki/Fallout:_New_Vegas"
+      ],
+      "missing_or_qualified": "This key denotes a shared engine-lineage target rather than one standalone game. No single platform, genre, developer, publisher, game-series entry or release date is attributable to the branch."
+    },
+    {
+      "game_key": "Fire Emblem If",
+      "fact_count": 7,
+      "covered_fields": [
+        "canonical_name",
+        "genre",
+        "original_platform",
+        "developer",
+        "publisher",
+        "regional_release_date",
+        "series"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Fire_Emblem_Fates"
+      ],
+      "missing_or_qualified": "The profile uses the Japanese release of the Nintendo 3DS game; it does not split Fates’ later regional editions."
+    },
+    {
+      "game_key": "Gakuen iDOLM@STER",
+      "fact_count": 7,
+      "covered_fields": [
+        "canonical_name",
+        "genre",
+        "original_platform",
+        "developer",
+        "publisher",
+        "regional_release_date",
+        "series"
+      ],
+      "sources": [
+        "https://www.bandainamco.co.jp/en/ir/library/feature04_01_2025.html",
+        "https://www.cyberagent.co.jp/en/service/game/",
+        "https://gakuen.idolmaster-official.jp/media/"
+      ],
+      "missing_or_qualified": "The official product page lists App Store, Google Play, and DMM GAMES; this profile records the original smartphone apps. The Windows DMM release is excluded."
+    },
+    {
+      "game_key": "Germs Nerawareta Machi",
+      "fact_count": 6,
+      "covered_fields": [
+        "canonical_name",
+        "genre",
+        "original_platform",
+        "developer",
+        "publisher",
+        "regional_release_date"
+      ],
+      "sources": [
+        "https://www.mobygames.com/game/100963/germs-nerawareta-machi/",
+        "https://gamefaqs.gamespot.com/ps/575588-germs-nerawareta-machi/data"
+      ],
+      "missing_or_qualified": "The profile refers to the Japanese PlayStation release; no regional or later release data is included."
+    },
+    {
+      "game_key": "Gluk the Thunder Warrior",
+      "fact_count": 3,
+      "covered_fields": [
+        "canonical_name",
+        "original_platform",
+        "collection_context"
+      ],
+      "sources": [
+        "https://romhackplaza.org/index.php/translations/gluk-the-thunder-warrior-portuguese-translation-nintendo-entertainment-system",
+        "https://www.youtube.com/watch?v=atD8ItZy0k4"
+      ],
+      "missing_or_qualified": "Only the NES target and variant relationship are sourced. A reliable source for release territory/date, genre, developer, and publisher of the Gluk-branded variant was not found."
+    },
+    {
+      "game_key": "Go Go Ackman",
+      "fact_count": 6,
+      "covered_fields": [
+        "canonical_name",
+        "genre",
+        "original_platform",
+        "developer",
+        "publisher",
+        "regional_release_date"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Go!_Go!_Ackman"
+      ],
+      "missing_or_qualified": "The profile covers the original Japanese Super Famicom release; no facts for later sequels or translations are included."
+    },
+    {
+      "game_key": "Grand Theft Auto V WebAssembly build 8b0b5899ed",
+      "fact_count": 7,
+      "covered_fields": [
+        "canonical_name",
+        "genre",
+        "original_platform",
+        "developer",
+        "publisher",
+        "regional_release_date",
+        "series"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Grand_Theft_Auto_V",
+        "https://ir.take2games.com/static-files/cd1abec3-a89b-44ce-8fb2-04636febfe8e"
+      ],
+      "missing_or_qualified": "The profile covers the underlying Grand Theft Auto V game. The build hash 8b0b5899ed and the unofficial WebAssembly build itself were not substantiated by the cited game sources."
+    },
+    {
+      "game_key": "Growlanser VI: Precarious World",
+      "fact_count": 7,
+      "covered_fields": [
+        "canonical_name",
+        "genre",
+        "original_platform",
+        "developer",
+        "publisher",
+        "regional_release_date",
+        "series"
+      ],
+      "sources": [
+        "https://www.mobygames.com/game/200891/growlanser-vi-precarious-world/",
+        "https://en.wikipedia.org/wiki/Growlanser"
+      ],
+      "missing_or_qualified": "The profile covers the Japanese PlayStation 2 release; no international release facts are included."
+    },
+    {
+      "game_key": "Hell Fighter",
+      "fact_count": 5,
+      "covered_fields": [
+        "canonical_name",
+        "genre",
+        "original_platform",
+        "developer",
+        "publisher"
+      ],
+      "sources": [
+        "https://www.emu-land.net/en/consoles/dendy/roms/hell-fighter"
+      ],
+      "missing_or_qualified": "The consulted databases disagree on the release year (1991 versus 1992), so no date is recorded. Developer/publisher/genre fields rely on the Emu-Land database record."
+    },
+    {
+      "game_key": "Innocent Tour",
+      "fact_count": 6,
+      "covered_fields": [
+        "canonical_name",
+        "genre",
+        "original_platform",
+        "developer",
+        "publisher",
+        "regional_release_date"
+      ],
+      "sources": [
+        "https://gamefaqs.gamespot.com/pc98/991629-innocent-tour/data"
+      ],
+      "missing_or_qualified": "Only the release year is stored because the selected GameFAQs record supports year precision. The exact day shown by a separate PC-98 credit transcription was not needed."
+    },
+    {
+      "game_key": "Isseki Hatchou: Kore 1ppon de 8shurui!",
+      "fact_count": 6,
+      "covered_fields": [
+        "canonical_name",
+        "genre",
+        "original_platform",
+        "developer",
+        "publisher",
+        "regional_release_date"
+      ],
+      "sources": [
+        "https://gamesdb.launchbox-app.com/games/details/126697-isseki-hacchou-kore-1-pon-de-8-shurui"
+      ],
+      "missing_or_qualified": "Fields are supported by LaunchBox’s database record; no secondary corroboration or regional alternatives are included."
+    },
+    {
+      "game_key": "JULY",
+      "fact_count": 6,
+      "covered_fields": [
+        "canonical_name",
+        "genre",
+        "original_platform",
+        "developer",
+        "publisher",
+        "regional_release_date"
+      ],
+      "sources": [
+        "https://www.mobygames.com/game/93359/july/"
+      ],
+      "missing_or_qualified": "The profile covers the Japanese Dreamcast release; no later port information is included."
+    },
+    {
+      "game_key": "Kettou Beast Wars: Beast Senshi Saikyou Ketteisen",
+      "fact_count": 7,
+      "covered_fields": [
+        "canonical_name",
+        "genre",
+        "original_platform",
+        "developer",
+        "publisher",
+        "regional_release_date",
+        "series"
+      ],
+      "sources": [
+        "https://gamefaqs.gamespot.com/gbc/581767-kettou-beast-wars/data"
+      ],
+      "missing_or_qualified": "The profile covers the Japanese Game Boy Color release. No facts are transferred from other Beast Wars games."
+    },
+    {
+      "game_key": "Macross Ultimate Frontier",
+      "fact_count": 7,
+      "covered_fields": [
+        "canonical_name",
+        "genre",
+        "original_platform",
+        "developer",
+        "publisher",
+        "regional_release_date",
+        "series"
+      ],
+      "sources": [
+        "https://gamefaqs.gamespot.com/psp/961063-macross-ultimate-frontier/data"
+      ],
+      "missing_or_qualified": "The profile covers the Japanese PSP release; later franchise metadata is outside scope."
+    },
+    {
+      "game_key": "Magical Drop DX",
+      "fact_count": 6,
+      "covered_fields": [
+        "canonical_name",
+        "genre",
+        "original_platform",
+        "developer",
+        "publisher",
+        "series"
+      ],
+      "sources": [
+        "https://www.mobygames.com/game/152161/magical-drop-dx/"
+      ],
+      "missing_or_qualified": "No regional date was stored because the accessible record enumerates multiple mobile and reissue platforms and the target project is the later G-MODE Archives+ release."
+    },
+    {
+      "game_key": "Marchen Veil",
+      "fact_count": 6,
+      "covered_fields": [
+        "canonical_name",
+        "genre",
+        "original_platform",
+        "developer",
+        "publisher",
+        "regional_release_date"
+      ],
+      "sources": [
+        "https://gamefaqs.gamespot.com/pc88/330932-marchen-veil-i/media",
+        "https://gamefaqs.gamespot.com/famicomds/578388-marchen-veil/data"
+      ],
+      "missing_or_qualified": "The original platform/date are PC-88 (1985); the NES translation project targets the later Famicom Disk System port (1987). The original and port publishers are distinguished in the publisher value."
+    },
+    {
+      "game_key": "Mashed: Fully Loaded (PC, 2004)",
+      "fact_count": 6,
+      "covered_fields": [
+        "canonical_name",
+        "genre",
+        "original_platform",
+        "developer",
+        "publisher",
+        "regional_release_date"
+      ],
+      "sources": [
+        "https://store.steampowered.com/app/281280",
+        "https://en.wikipedia.org/wiki/Mashed_(video_game)"
+      ],
+      "missing_or_qualified": "The PC 2004 date corresponds to Mashed / Drive to Survive in the consulted records; those sources do not verify the “Fully Loaded” edition label for PC in 2004. No Fully Loaded-specific PC facts are asserted."
+    },
+    {
+      "game_key": "Minecraft Classic client behavior (2009-era; the project also partially supports some pre-0.30 features)",
+      "fact_count": 3,
+      "covered_fields": [
+        "canonical_name",
+        "genre",
+        "original_platform"
+      ],
+      "sources": [
+        "https://www.minecraft.net/en-us/article/embrace-past-minecraft-classic",
+        "https://www.minecraft.net/en-us/article/what-minecraft"
+      ],
+      "missing_or_qualified": "The official source supports browser-playable Minecraft Classic and its 2009-era context; the project-specific pre-0.30 compatibility range is not game metadata and is not asserted."
+    },
+    {
+      "game_key": "Minecraft Java Edition 26.2-snapshot-1 renderer",
+      "fact_count": 3,
+      "covered_fields": [
+        "canonical_name",
+        "original_platform",
+        "regional_release_date"
+      ],
+      "sources": [
+        "https://www.minecraft.net/tr-tr/article/minecraft-26-2-snapshot-1"
+      ],
+      "missing_or_qualified": "The official snapshot post supports the build title, Java Edition context, and post date; no developer/publisher or genre fact is recorded specifically for this snapshot build."
+    },
+    {
+      "game_key": "Mushishi: Amefuru Sato",
+      "fact_count": 6,
+      "covered_fields": [
+        "canonical_name",
+        "genre",
+        "original_platform",
+        "developer",
+        "publisher",
+        "regional_release_date"
+      ],
+      "sources": [
+        "https://www.mobygames.com/game/142930/mushishi-amefuru-sato/",
+        "https://gamefaqs.gamespot.com/ds/943553-mushishi-amefuru-sato/data"
+      ],
+      "missing_or_qualified": "The profile covers the Japanese Nintendo DS release; no regional alternate title or port facts are included."
+    }
+  ],
+  "notes": [
+    "All 35 exact batch keys appear once; no database or tracked project files were edited.",
+    "Only current importer field names are used: canonical_name, collection_context, developer, genre, original_platform, publisher, regional_release_date, and series.",
+    "A regional_release_date is included only when a source supplies a region or a clearly global/platform-specific release statement; each date declares day, month, or year precision.",
+    "Source choice favors official publisher/developer/store sources, then MobyGames, GameFAQs, LaunchBox, or a source directly tied to an unusual build where primary metadata is unavailable."
+  ]
+}

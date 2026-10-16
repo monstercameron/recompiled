@@ -1,0 +1,125 @@
+{
+  "verified_at": "2026-10-16",
+  "catalog_snapshot": {
+    "path": "data/catalog.sqlite",
+    "project_count": 3411,
+    "mode": "read-only",
+    "project_rows": 3450
+  },
+  "dedupe_scope": "Searched SQLite projects/directory_items and JSON manifests under data/research and work/research-2026-10-16. Compared canonical repository URLs, stable IDs, and target/title terms. No live importer was run.",
+  "included": [
+    {
+      "id": "persona-2-innocent-sin-psp-french",
+      "target": "Persona 2: Innocent Sin (PSP)",
+      "pair": "English → French",
+      "primary_evidence": [
+        "README identifies the European PSP target and French patch.",
+        "CONTRIBUTING.md says original English text is shown beside French proposals.",
+        "Public v0.2.8-beta release published 2026-10-10 requires the European ISO."
+      ],
+      "live_status": "Public beta; story/NPC dialogue marked complete, but menu/system text about 15%.",
+      "repo_api": {
+        "url": "https://api.github.com/repos/chenetulipe/P2-FR-IS-PSP",
+        "archived": false,
+        "pushed_at": "2026-10-10T14:28:45Z",
+        "latest_release": "v0.2.8-beta",
+        "release_published_at": "2026-10-10T14:28:46Z",
+        "languages": {
+          "Python": 461652,
+          "HTML": 22876,
+          "Batchfile": 2377,
+          "JavaScript": 2023
+        }
+      },
+      "dedupe": "No same project URL/ID or PSP French localization row found. A separate Persona 2 PS1 recompilation exists and is a distinct project/method."
+    },
+    {
+      "id": "pokemon-unbound-french",
+      "target": "Pokémon Unbound (GBA)",
+      "pair": "English → French",
+      "primary_evidence": [
+        "README instructs applying the French BPS to English Pokémon Unbound 2.1.1.1 built from FireRed USA Squirrels.",
+        "README calls French the complete, byte-perfect reference translation.",
+        "v2.1.179 release contains the French BPS, manifest, and checksums."
+      ],
+      "live_status": "Public French BPS in release v2.1.179 (2026-10-13); original ROM is not included.",
+      "repo_api": {
+        "url": "https://api.github.com/repos/AntonyKervazoCanut/gba_translator",
+        "archived": false,
+        "pushed_at": "2026-10-13T08:06:41Z",
+        "latest_release": "v2.1.179",
+        "release_published_at": "2026-10-13T08:06:34Z",
+        "languages": {
+          "Python": 4257349,
+          "TypeScript": 553977,
+          "Makefile": 30867,
+          "Lua": 26727,
+          "Shell": 11333,
+          "JavaScript": 6255,
+          "HTML": 2069
+        }
+      },
+      "dedupe": "German, Italian, and Indonesian Pokémon Unbound localizations exist, but no French row or same repository URL was found. Only French is proposed."
+    },
+    {
+      "id": "yoiyami-dancers-steam-zh-cn",
+      "target": "Yoiyami Dancers (Steam 1.4.2)",
+      "pair": "Japanese → Simplified Chinese",
+      "primary_evidence": [
+        "README says uninstall restores the original Japanese .dxa assets.",
+        "README lists story, UI, button prompts, song names, and achievements.",
+        "v1.4.2-cn patch ZIP published 2026-10-16."
+      ],
+      "live_status": "Released for Steam 1.4.2; other builds not guaranteed.",
+      "repo_api": {
+        "url": "https://api.github.com/repos/Cyclin15/YoiyamiDancers-ChinesePatch",
+        "archived": false,
+        "created_at": "2026-10-16T07:56:25Z",
+        "pushed_at": "2026-10-16T08:01:10Z",
+        "latest_release": "v1.4.2-cn",
+        "release_published_at": "2026-10-16T07:57:00Z",
+        "languages": {}
+      },
+      "dedupe": "No matching project URL, localization row, ID, or candidate manifest found."
+    },
+    {
+      "id": "harvest-moon-back-to-nature-ps1-ptbr",
+      "target": "Harvest Moon: Back to Nature (PS1 USA)",
+      "pair": "English → Brazilian Portuguese",
+      "primary_evidence": [
+        "README's English section identifies the USA PS1 version and the source text as English.",
+        "README lists current translation counts and explicitly says no patch is released.",
+        "Latest commit on 2026-10-15 records translation progress."
+      ],
+      "live_status": "Active WIP; dialogue near completion, some executable text, text graphics, full playtest, and release remain pending.",
+      "repo_api": {
+        "url": "https://api.github.com/repos/GabriPires/traducao-hm-btn-ptbr",
+        "archived": false,
+        "created_at": "2026-10-14T16:15:44Z",
+        "pushed_at": "2026-10-15T20:51:17Z",
+        "latest_commit": "https://github.com/GabriPires/traducao-hm-btn-ptbr/commit/d2b0d3a430c7787313c16ba3e9aacd771e58e0b7",
+        "languages": {
+          "Python": 88308
+        }
+      },
+      "dedupe": "No same project URL/ID or Harvest Moon: Back to Nature localization row found; it is marked WIP with no patch."
+    }
+  ],
+  "tool_dedupe": [
+    {
+      "id": "hoshi2star",
+      "existing_directory_match": false,
+      "evidence": "No current directory item with matching ID/name/repository URL."
+    },
+    {
+      "id": "game-translate",
+      "existing_directory_match": false,
+      "evidence": "No current directory item with matching ID/name/repository URL."
+    },
+    {
+      "id": "pokemon-unbound-translation-toolkit",
+      "existing_directory_match": false,
+      "evidence": "No current directory item with matching ID/name/repository URL; entry describes the toolchain associated with the French patch project."
+    }
+  ]
+}

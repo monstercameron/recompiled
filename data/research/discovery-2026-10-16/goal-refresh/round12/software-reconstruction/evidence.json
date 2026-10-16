@@ -1,0 +1,314 @@
+{
+  "checked_at": "2026-10-16",
+  "records": [
+    {
+      "project_id": "analog-rytm-mkii-os-reverse-engineering-and-replacement",
+      "project_url": "https://github.com/ethernet8023/rytm-fw-re",
+      "checked_at": "2026-10-16",
+      "claims": [
+        {
+          "url": "https://github.com/ethernet8023/rytm-fw-re",
+          "claim": "The README identifies OS 1.74, the from-source replacement image, its experimental boot/display state, and says stock firmware images and raw dumps are excluded."
+        },
+        {
+          "url": "https://github.com/ethernet8023/rytm-fw-re/blob/master/STATUS.md",
+          "claim": "The maintainer records the alpha hardware boot and recovery behavior; it warns that the boot-menu recovery path uses MIDI DIN."
+        },
+        {
+          "url": "https://api.github.com/repos/ethernet8023/rytm-fw-re/releases",
+          "claim": "No releases were returned by the official GitHub Releases endpoint at review time."
+        }
+      ],
+      "primary_sources": [
+        {
+          "label": "Maintainer README: OS 1.74 target, replacement firmware build, hardware status, and exclusion of stock firmware",
+          "url": "https://github.com/ethernet8023/rytm-fw-re"
+        },
+        {
+          "label": "Maintainer status handoff: alpha hardware test and recovery constraints",
+          "url": "https://github.com/ethernet8023/rytm-fw-re/blob/master/STATUS.md"
+        },
+        {
+          "label": "Official GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/ethernet8023/rytm-fw-re"
+        },
+        {
+          "label": "Official GitHub release list; no releases returned at review time",
+          "url": "https://api.github.com/repos/ethernet8023/rytm-fw-re/releases"
+        },
+        {
+          "label": "Official GitHub Languages API byte map",
+          "url": "https://api.github.com/repos/ethernet8023/rytm-fw-re/languages"
+        }
+      ],
+      "github_metadata_url": "https://api.github.com/repos/ethernet8023/rytm-fw-re",
+      "github_language_bytes_url": "https://api.github.com/repos/ethernet8023/rytm-fw-re/languages"
+    },
+    {
+      "project_id": "hp-hstns-pd44-psu-firmware-decompilation",
+      "project_url": "https://github.com/darwinbeing/hstns-pd44-firmware",
+      "checked_at": "2026-10-16",
+      "claims": [
+        {
+          "url": "https://github.com/darwinbeing/hstns-pd44-firmware",
+          "claim": "README describes the board, MCU, firmware extraction, assembly-to-C reconstruction, completed core control analysis, and remaining TODOs."
+        },
+        {
+          "url": "https://github.com/darwinbeing/hstns-pd44-firmware/blob/main/LICENSE",
+          "claim": "The repository provides a MIT license file."
+        },
+        {
+          "url": "https://api.github.com/repos/darwinbeing/hstns-pd44-firmware/releases",
+          "claim": "No releases were returned by the official GitHub Releases endpoint at review time."
+        }
+      ],
+      "primary_sources": [
+        {
+          "label": "Maintainer README: hardware target, extraction/decompilation method, progress, and TODOs",
+          "url": "https://github.com/darwinbeing/hstns-pd44-firmware"
+        },
+        {
+          "label": "Official repository MIT license file",
+          "url": "https://github.com/darwinbeing/hstns-pd44-firmware/blob/main/LICENSE"
+        },
+        {
+          "label": "Official GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/darwinbeing/hstns-pd44-firmware"
+        },
+        {
+          "label": "Official GitHub release list; no releases returned at review time",
+          "url": "https://api.github.com/repos/darwinbeing/hstns-pd44-firmware/releases"
+        },
+        {
+          "label": "Official GitHub Languages API byte map",
+          "url": "https://api.github.com/repos/darwinbeing/hstns-pd44-firmware/languages"
+        }
+      ],
+      "github_metadata_url": "https://api.github.com/repos/darwinbeing/hstns-pd44-firmware",
+      "github_language_bytes_url": "https://api.github.com/repos/darwinbeing/hstns-pd44-firmware/languages"
+    },
+    {
+      "project_id": "sjcam-sj4000-air-v3-lelouch-reimplementation",
+      "project_url": "https://github.com/keowu/sjcam",
+      "checked_at": "2026-10-16",
+      "claims": [
+        {
+          "url": "https://github.com/keowu/sjcam",
+          "claim": "README identifies the tested board, replacement `sdv` UI, build requirements, release workflow, and proprietary-material caveats."
+        },
+        {
+          "url": "https://github.com/keowu/sjcam/releases/tag/v0.0.1",
+          "claim": "GitHub release v0.0.1 provides the first Lelouch release on 2026-07-19."
+        },
+        {
+          "url": "https://keowu.re/posts/Lelouch--Reverse-Engineering-of-an-SJCAM-Action-Camera-with-proprietary-Android--based-firmware-and-Rewriting-a-completely-OpenSource-CFW",
+          "claim": "The README links this maintainer article as the extended account of firmware extraction and the replacement interface."
+        }
+      ],
+      "primary_sources": [
+        {
+          "label": "Maintainer README: target board, `sdv` replacement, methods, build requirements, and proprietary-material caveat",
+          "url": "https://github.com/keowu/sjcam"
+        },
+        {
+          "label": "Lelouch v0.0.1 release",
+          "url": "https://github.com/keowu/sjcam/releases/tag/v0.0.1"
+        },
+        {
+          "label": "Maintainer research article linked by the README",
+          "url": "https://keowu.re/posts/Lelouch--Reverse-Engineering-of-an-SJCAM-Action-Camera-with-proprietary-Android--based-firmware-and-Rewriting-a-completely-OpenSource-CFW"
+        },
+        {
+          "label": "Official GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/keowu/sjcam"
+        },
+        {
+          "label": "Official GitHub Languages API byte map",
+          "url": "https://api.github.com/repos/keowu/sjcam/languages"
+        }
+      ],
+      "github_metadata_url": "https://api.github.com/repos/keowu/sjcam",
+      "github_language_bytes_url": "https://api.github.com/repos/keowu/sjcam/languages"
+    },
+    {
+      "project_id": "vex-v5-vexos-private-api-firmware-decompilation",
+      "project_url": "https://github.com/cetio/VEXAPI",
+      "checked_at": "2026-10-16",
+      "claims": [
+        {
+          "url": "https://github.com/cetio/VEXAPI",
+          "claim": "README describes jump-table mapping, inferred headers, snapshot date, incomplete status, and license scope."
+        },
+        {
+          "url": "https://github.com/cetio/VEXAPI/blob/main/firmware/README.md",
+          "claim": "The firmware notes list VEXos 1.1.2.0 and build metadata and explicitly say the checked-in boot split cannot be confirmed as an extraction of that package."
+        },
+        {
+          "url": "https://github.com/cetio/VEXAPI/releases/tag/v1.1",
+          "claim": "The latest release snapshot observed is v1.1, published 2026-09-11."
+        }
+      ],
+      "primary_sources": [
+        {
+          "label": "Maintainer README: VEXAPI scope, inferred API, caveats, version, and license boundary",
+          "url": "https://github.com/cetio/VEXAPI"
+        },
+        {
+          "label": "Firmware snapshot notes: VEXos version, image contents, and extraction uncertainty",
+          "url": "https://github.com/cetio/VEXAPI/blob/main/firmware/README.md"
+        },
+        {
+          "label": "Official repository license file",
+          "url": "https://github.com/cetio/VEXAPI/blob/main/LICENSE.txt"
+        },
+        {
+          "label": "VEXAPI v1.1 release",
+          "url": "https://github.com/cetio/VEXAPI/releases/tag/v1.1"
+        },
+        {
+          "label": "Official GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/cetio/VEXAPI"
+        },
+        {
+          "label": "Official GitHub Languages API byte map",
+          "url": "https://api.github.com/repos/cetio/VEXAPI/languages"
+        }
+      ],
+      "github_metadata_url": "https://api.github.com/repos/cetio/VEXAPI",
+      "github_language_bytes_url": "https://api.github.com/repos/cetio/VEXAPI/languages"
+    },
+    {
+      "project_id": "radtel-950-pro-firmware-reverse-engineering",
+      "project_url": "https://github.com/JKI757/radtel-950-pro",
+      "checked_at": "2026-10-16",
+      "claims": [
+        {
+          "url": "https://github.com/JKI757/radtel-950-pro",
+          "claim": "README identifies the target, MCU, decompiled artifacts, peripheral maps, and says custom firmware is a future goal."
+        },
+        {
+          "url": "https://github.com/JKI757/radtel-950-pro/blob/main/docs/Function_Names.csv",
+          "claim": "The repository links a function catalogue that documents its firmware annotation work."
+        },
+        {
+          "url": "https://api.github.com/repos/JKI757/radtel-950-pro/releases",
+          "claim": "No releases were returned by the official GitHub Releases endpoint at review time."
+        }
+      ],
+      "primary_sources": [
+        {
+          "label": "Maintainer README: exact radio target, decompiled artifacts, peripheral analysis, and stated future goal",
+          "url": "https://github.com/JKI757/radtel-950-pro"
+        },
+        {
+          "label": "Function catalogue cited by the README",
+          "url": "https://github.com/JKI757/radtel-950-pro/blob/main/docs/Function_Names.csv"
+        },
+        {
+          "label": "Official GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/JKI757/radtel-950-pro"
+        },
+        {
+          "label": "Official GitHub release list; no releases returned at review time",
+          "url": "https://api.github.com/repos/JKI757/radtel-950-pro/releases"
+        },
+        {
+          "label": "Official GitHub Languages API byte map",
+          "url": "https://api.github.com/repos/JKI757/radtel-950-pro/languages"
+        }
+      ],
+      "github_metadata_url": "https://api.github.com/repos/JKI757/radtel-950-pro",
+      "github_language_bytes_url": "https://api.github.com/repos/JKI757/radtel-950-pro/languages"
+    },
+    {
+      "project_id": "fnirsi-101xd-open-firmware-1014d-port",
+      "project_url": "https://github.com/Donwulff/FNIRSI_1014D_Firmware",
+      "checked_at": "2026-10-16",
+      "claims": [
+        {
+          "url": "https://github.com/Donwulff/FNIRSI_1014D_Firmware/tree/atlan4-base",
+          "claim": "README documents the branch, 1014D-tested state, untested 1013D variant, GPLv3, and source lineage."
+        },
+        {
+          "url": "https://github.com/Donwulff/FNIRSI_1014D_Firmware/blob/atlan4-base/PORT_A.md",
+          "claim": "The port notes document the 1014D port’s history and limitations."
+        },
+        {
+          "url": "https://api.github.com/repos/Donwulff/FNIRSI_1014D_Firmware",
+          "claim": "The official repository metadata reports fork status and the most recent push date."
+        }
+      ],
+      "primary_sources": [
+        {
+          "label": "Maintainer README: active branch, models, tested status, safe scope boundaries, and provenance",
+          "url": "https://github.com/Donwulff/FNIRSI_1014D_Firmware/tree/atlan4-base"
+        },
+        {
+          "label": "Port history and limitations for the FNIRSI 1014D",
+          "url": "https://github.com/Donwulff/FNIRSI_1014D_Firmware/blob/atlan4-base/PORT_A.md"
+        },
+        {
+          "label": "Official GitHub GPL-3.0 license file",
+          "url": "https://github.com/Donwulff/FNIRSI_1014D_Firmware/blob/atlan4-base/LICENSE"
+        },
+        {
+          "label": "Official GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/Donwulff/FNIRSI_1014D_Firmware"
+        },
+        {
+          "label": "Official GitHub Languages API byte map",
+          "url": "https://api.github.com/repos/Donwulff/FNIRSI_1014D_Firmware/languages"
+        }
+      ],
+      "github_metadata_url": "https://api.github.com/repos/Donwulff/FNIRSI_1014D_Firmware",
+      "github_language_bytes_url": "https://api.github.com/repos/Donwulff/FNIRSI_1014D_Firmware/languages"
+    },
+    {
+      "project_id": "libcbus-clipsal-pci-serial-protocol-reimplementation",
+      "project_url": "https://github.com/micolous/cbus",
+      "checked_at": "2026-10-16",
+      "claims": [
+        {
+          "url": "https://github.com/micolous/cbus",
+          "claim": "README says the implementation is written from scratch from Open C-Bus documentation plus reverse engineering; it lists interfaces, supported platforms, LGPL terms, and status limitations."
+        },
+        {
+          "url": "https://cbus.readthedocs.io/en/latest/",
+          "claim": "The project’s linked documentation site describes libcbus usage and supported modules."
+        },
+        {
+          "url": "https://updates.clipsal.com/ClipsalSoftwareDownload/DL/downloads/OpenCBus/OpenCBusProtocolDownloads.html",
+          "claim": "This is the Open C-Bus documentation download page referenced as a basis for the protocol implementation."
+        }
+      ],
+      "primary_sources": [
+        {
+          "label": "Maintainer README: protocol method, supported PC interfaces, MQTT bridge, status, and license",
+          "url": "https://github.com/micolous/cbus"
+        },
+        {
+          "label": "Project documentation site",
+          "url": "https://cbus.readthedocs.io/en/latest/"
+        },
+        {
+          "label": "Official Open C-Bus protocol documentation page referenced in the README",
+          "url": "https://updates.clipsal.com/ClipsalSoftwareDownload/DL/downloads/OpenCBus/OpenCBusProtocolDownloads.html"
+        },
+        {
+          "label": "Official repository LGPL license terms",
+          "url": "https://github.com/micolous/cbus/blob/master/COPYING.LESSER"
+        },
+        {
+          "label": "Official GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/micolous/cbus"
+        },
+        {
+          "label": "Official GitHub Languages API byte map",
+          "url": "https://api.github.com/repos/micolous/cbus/languages"
+        }
+      ],
+      "github_metadata_url": "https://api.github.com/repos/micolous/cbus",
+      "github_language_bytes_url": "https://api.github.com/repos/micolous/cbus/languages"
+    }
+  ]
+}

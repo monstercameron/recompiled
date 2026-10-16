@@ -1,0 +1,436 @@
+{
+  "updated": "2026-10-16",
+  "scope": "Fresh non-game software and firmware source reconstruction, application/API decompilation, and clean-room or independent protocol reimplementations. Seven candidates with primary-source evidence and no exact catalog or pre-existing staging match; existing round-10 ProjectLibre and Pinacoteca staging is reviewed separately and not duplicated.",
+  "projects": [
+    {
+      "id": "analog-rytm-mkii-os-reverse-engineering-and-replacement",
+      "title": "Elektron Analog Rytm MKII OS reverse engineering and replacement firmware",
+      "game": "Elektron Analog Rytm MKII operating system, OS 1.74",
+      "target_type": "Software",
+      "platform": "Elektron Analog Rytm MKII; ColdFire MCF5445x firmware, installed through the device SysEx update path.",
+      "kind": "Reimplementation",
+      "status": "Experimental. The maintainer reports that an alpha replacement OS booted on hardware and passed a memory probe; the public build initializes core devices, draws a display test pattern, and parks. Static splash and LED palette changes were separately hardware-confirmed. No GitHub release is listed; the latest source push was 2026-10-13.",
+      "summary": "Reverse-engineering notes and build tooling for the Analog Rytm MKII OS 1.74, plus a from-source replacement firmware that wraps into a flashable SysEx update. The repository says it contains no Elektron firmware, raw memory dumps, or disassembly listings. The replacement OS is an experimental hardware bring-up, not a feature-complete synthesizer OS.",
+      "project_url": "https://github.com/ethernet8023/rytm-fw-re",
+      "updated": "2026-10-16",
+      "strategy": "Static analysis of the OS 1.74 update container and ColdFire firmware, hardware experiments, and an independently built replacement image; also includes reversible static splash/LED data modifications.",
+      "programming_language": "Python",
+      "subtype": "Embedded musical-instrument firmware reverse engineering and replacement",
+      "source_available": "Public source repository; GitHub metadata reports no repository license. The README explicitly says stock Elektron firmware and raw dumps are not included. Hardware recovery instructions and the restricted scope of the experimental replacement are documented.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "sources": [
+        {
+          "label": "Maintainer README: OS 1.74 target, replacement firmware build, hardware status, and exclusion of stock firmware",
+          "url": "https://github.com/ethernet8023/rytm-fw-re"
+        },
+        {
+          "label": "Maintainer status handoff: alpha hardware test and recovery constraints",
+          "url": "https://github.com/ethernet8023/rytm-fw-re/blob/master/STATUS.md"
+        },
+        {
+          "label": "Official GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/ethernet8023/rytm-fw-re"
+        },
+        {
+          "label": "Official GitHub release list; no releases returned at review time",
+          "url": "https://api.github.com/repos/ethernet8023/rytm-fw-re/releases"
+        },
+        {
+          "label": "Official GitHub Languages API byte map",
+          "url": "https://api.github.com/repos/ethernet8023/rytm-fw-re/languages"
+        }
+      ],
+      "verification": {
+        "supported_versions": "Targets the Elektron Analog Rytm MKII stock OS update version 1.74. README identifies a ColdFire MCF5445x-class device and builds a replacement main OS section as a SysEx image; it does not claim other Analog Rytm models or OS versions.",
+        "release_status_version_dates": "No GitHub release was returned. The latest source commit and repository pushed_at were 2026-10-13. README and STATUS.md report an alpha replacement booting on a physical unit, while the public build is a display test/park image; static splash and LED modifications were hardware-confirmed.",
+        "license_source_assets_availability": "GitHub repository metadata has no license classifier. The README says the repository contains only the maintainer’s code, analysis tools, and factual notes—not Elektron firmware, dumps, or disassembly listings. STATUS.md describes the MIDI DIN-only recovery path for its hardware-tested build.",
+        "evidence": [
+          {
+            "url": "https://github.com/ethernet8023/rytm-fw-re",
+            "claim": "The README identifies OS 1.74, the from-source replacement image, its experimental boot/display state, and says stock firmware images and raw dumps are excluded."
+          },
+          {
+            "url": "https://github.com/ethernet8023/rytm-fw-re/blob/master/STATUS.md",
+            "claim": "The maintainer records the alpha hardware boot and recovery behavior; it warns that the boot-menu recovery path uses MIDI DIN."
+          },
+          {
+            "url": "https://api.github.com/repos/ethernet8023/rytm-fw-re/releases",
+            "claim": "No releases were returned by the official GitHub Releases endpoint at review time."
+          }
+        ]
+      }
+    },
+    {
+      "id": "hp-hstns-pd44-psu-firmware-decompilation",
+      "title": "HSTNS-PD44 server power-supply firmware decompilation",
+      "game": "HP HSTNS-PD44 800 W server power-supply digital controller firmware",
+      "target_type": "Software",
+      "platform": "HP HSTNS-PD44 board; Microchip dsPIC33FJ64GS606 controller with on-board AT45DB021E SPI flash; MPLAB X project.",
+      "kind": "Decompilation",
+      "status": "Core control-algorithm decompilation and C refactoring are reported complete. Configurable OCP/OVP shutdown, fan control, PMBus, calibration storage, and boot-integrity work remain listed as in progress or planned. No GitHub release was returned; latest source push was 2026-04-05.",
+      "summary": "A hardware-extracted HSTNS-PD44 firmware image is analyzed and reconstructed as readable, named C source with assembly cross-references in an MPLAB X project. The maintainer documents the 2P2Z voltage loop, current foldback, sampling, and peripheral setup; the repository also lists multiple unimplemented controller and protection features.",
+      "project_url": "https://github.com/darwinbeing/hstns-pd44-firmware",
+      "updated": "2026-10-16",
+      "strategy": "Read device flash, disassemble the dsPIC firmware, reconstruct readable C function-by-function, and cross-reference the source against assembly.",
+      "programming_language": "Assembly",
+      "subtype": "Embedded power-supply control firmware decompilation and source reconstruction",
+      "source_available": "Public repository. GitHub identifies the repository license as MIT; the repository includes decompiled/reconstructed controller code. The record does not infer that the MIT classifier resolves rights in any material derived from the original device firmware.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "sources": [
+        {
+          "label": "Maintainer README: hardware target, extraction/decompilation method, progress, and TODOs",
+          "url": "https://github.com/darwinbeing/hstns-pd44-firmware"
+        },
+        {
+          "label": "Official repository MIT license file",
+          "url": "https://github.com/darwinbeing/hstns-pd44-firmware/blob/main/LICENSE"
+        },
+        {
+          "label": "Official GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/darwinbeing/hstns-pd44-firmware"
+        },
+        {
+          "label": "Official GitHub release list; no releases returned at review time",
+          "url": "https://api.github.com/repos/darwinbeing/hstns-pd44-firmware/releases"
+        },
+        {
+          "label": "Official GitHub Languages API byte map",
+          "url": "https://api.github.com/repos/darwinbeing/hstns-pd44-firmware/languages"
+        }
+      ],
+      "verification": {
+        "supported_versions": "The README identifies the HP HSTNS-PD44 800 W PSU board and dsPIC33FJ64GS606 microcontroller. It describes a 64 KB program-flash dump and a separate 256 KB serial-flash dump; no OEM firmware version string is provided in the reviewed README.",
+        "release_status_version_dates": "No GitHub release was returned. The latest source commit and repository pushed_at were 2026-04-05. README says core decompilation/refactoring is complete but lists protection shutdown, fan, calibration/flash, PMBus, and firmware integrity features as in progress or planned.",
+        "license_source_assets_availability": "GitHub metadata identifies MIT and the repository contains a LICENSE file. The README describes code reconstructed from the device firmware; the repository-level license classifier is reported as source metadata and is not a separate legal assessment of derived material.",
+        "evidence": [
+          {
+            "url": "https://github.com/darwinbeing/hstns-pd44-firmware",
+            "claim": "README describes the board, MCU, firmware extraction, assembly-to-C reconstruction, completed core control analysis, and remaining TODOs."
+          },
+          {
+            "url": "https://github.com/darwinbeing/hstns-pd44-firmware/blob/main/LICENSE",
+            "claim": "The repository provides a MIT license file."
+          },
+          {
+            "url": "https://api.github.com/repos/darwinbeing/hstns-pd44-firmware/releases",
+            "claim": "No releases were returned by the official GitHub Releases endpoint at review time."
+          }
+        ]
+      }
+    },
+    {
+      "id": "sjcam-sj4000-air-v3-lelouch-reimplementation",
+      "title": "Lelouch (SJCAM SJ4000 Air Allwinner V3 interface replacement)",
+      "game": "The SJCAM SJ4000 Air camera application and firmware UI behavior on the researched Allwinner V3 board",
+      "target_type": "Software",
+      "platform": "Specific SJCAM SJ4000 Air board using Allwinner V3, Android 4.4-derived system, ST7789V display, and GC4653 sensor. README says older Novatek NT9665X SJ4000 models use a different firmware and are not covered by Lelouch compatibility.",
+      "kind": "Reimplementation",
+      "status": "Experimental source project; release v0.0.1 of the Lelouch replacement was published 2026-07-19. The README documents a replacement for the original `sdv` application and build instructions tested on x86-64 Linux. The project does not claim to replace the whole OS or support other SJ4000 board variants.",
+      "summary": "Reverse-engineering notes, firmware parsers and repackers, protocol research, and Lelouch, a replacement for the camera’s `sdv` user-interface application. Lelouch reuses proprietary libraries and services recovered from the target firmware, so it is a replacement application for one researched board rather than a clean standalone firmware distribution. The repository explicitly notes that some included firmware, recovered libraries, and other components are proprietary or third-party.",
+      "project_url": "https://github.com/keowu/sjcam",
+      "updated": "2026-10-16",
+      "strategy": "Reverse-engineer firmware containers and proprietary interfaces, then rebuild the `sdv` application interface against services and libraries already on the specific camera firmware.",
+      "programming_language": "C",
+      "subtype": "Action-camera application and firmware reverse engineering",
+      "source_available": "Public source repository and v0.0.1 release; no repository-wide license is declared in GitHub metadata. README says the tree contains recovered proprietary/third-party firmware material; it explicitly cautions that these components are not made open source by their presence.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "sources": [
+        {
+          "label": "Maintainer README: target board, `sdv` replacement, methods, build requirements, and proprietary-material caveat",
+          "url": "https://github.com/keowu/sjcam"
+        },
+        {
+          "label": "Lelouch v0.0.1 release",
+          "url": "https://github.com/keowu/sjcam/releases/tag/v0.0.1"
+        },
+        {
+          "label": "Maintainer research article linked by the README",
+          "url": "https://keowu.re/posts/Lelouch--Reverse-Engineering-of-an-SJCAM-Action-Camera-with-proprietary-Android--based-firmware-and-Rewriting-a-completely-OpenSource-CFW"
+        },
+        {
+          "label": "Official GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/keowu/sjcam"
+        },
+        {
+          "label": "Official GitHub Languages API byte map",
+          "url": "https://api.github.com/repos/keowu/sjcam/languages"
+        }
+      ],
+      "verification": {
+        "supported_versions": "The README limits Lelouch to the researched Allwinner V3 version of the SJCAM SJ4000 Air, with ST7789V display and GC4653 image sensor. It warns that product names alone do not establish compatibility and describes the older Novatek NT9665X line as separate firmware research.",
+        "release_status_version_dates": "GitHub lists Lelouch v0.0.1, published 2026-07-19; repository pushed_at was 2026-07-19. The README has build instructions and describes working interface features, but labels the target firmware and camera-specific behavior; it does not claim a full replacement OS or compatibility with every SJ4000.",
+        "license_source_assets_availability": "GitHub repository metadata has no license classifier. The repository publishes source and a release archive, but its README explicitly says that recovered libraries, firmware samples, and other third-party/proprietary artifacts are included for interoperability/security research and remain under their own rights and terms.",
+        "evidence": [
+          {
+            "url": "https://github.com/keowu/sjcam",
+            "claim": "README identifies the tested board, replacement `sdv` UI, build requirements, release workflow, and proprietary-material caveats."
+          },
+          {
+            "url": "https://github.com/keowu/sjcam/releases/tag/v0.0.1",
+            "claim": "GitHub release v0.0.1 provides the first Lelouch release on 2026-07-19."
+          },
+          {
+            "url": "https://keowu.re/posts/Lelouch--Reverse-Engineering-of-an-SJCAM-Action-Camera-with-proprietary-Android--based-firmware-and-Rewriting-a-completely-OpenSource-CFW",
+            "claim": "The README links this maintainer article as the extended account of firmware extraction and the replacement interface."
+          }
+        ]
+      },
+      "media": [
+        {
+          "kind": "image",
+          "label": "Lelouch project banner",
+          "url": "https://raw.githubusercontent.com/keowu/sjcam/main/imgs/intro.png",
+          "source_url": "https://github.com/keowu/sjcam",
+          "discovered_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "id": "vex-v5-vexos-private-api-firmware-decompilation",
+      "title": "VEXAPI (VEX V5/VEXos private API reverse analysis)",
+      "game": "VEX V5 user-program runtime and VEXos 1.1.2.0 system firmware API",
+      "target_type": "Software",
+      "platform": "VEX V5 ARM firmware and 32-bit ARM EABI user runtime; repository identifies VEXos 1.1.2.0 build 20220922.10.00.00 as its firmware snapshot.",
+      "kind": "Decompilation",
+      "status": "Repository release v1.1 was published 2026-09-11, but the README says the firmware/API snapshots were last updated 2024-01-11, are semi-incomplete, and lack current-hardware verification. The README notes that the VEXos extraction/download workflow is not automated and that the checked-in split boot image cannot be confirmed as an extraction of the listed update package.",
+      "summary": "An unofficial VEX V5 reverse-analysis collection of extracted firmware/runtime files, inferred private headers, and VEXos jump-table offsets. It documents how SDK wrappers reach firmware functions; the maintainer marks the names and offsets as incomplete and potentially tied to the archived firmware/runtime version.",
+      "project_url": "https://github.com/cetio/VEXAPI",
+      "updated": "2026-10-16",
+      "strategy": "Inspect the VEX V5 runtime and extracted firmware, use symbols and disassembly to map the VEXos jump table, and reconstruct partial public/private API headers.",
+      "programming_language": "C++",
+      "subtype": "Robotics-controller firmware API reverse analysis",
+      "source_available": "Public repository; GitHub metadata identifies Apache-2.0, and the README limits the license to original repository work. VEX headers, libraries, firmware, marks, and third-party material remain under their own rights and terms.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "sources": [
+        {
+          "label": "Maintainer README: VEXAPI scope, inferred API, caveats, version, and license boundary",
+          "url": "https://github.com/cetio/VEXAPI"
+        },
+        {
+          "label": "Firmware snapshot notes: VEXos version, image contents, and extraction uncertainty",
+          "url": "https://github.com/cetio/VEXAPI/blob/main/firmware/README.md"
+        },
+        {
+          "label": "Official repository license file",
+          "url": "https://github.com/cetio/VEXAPI/blob/main/LICENSE.txt"
+        },
+        {
+          "label": "VEXAPI v1.1 release",
+          "url": "https://github.com/cetio/VEXAPI/releases/tag/v1.1"
+        },
+        {
+          "label": "Official GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/cetio/VEXAPI"
+        },
+        {
+          "label": "Official GitHub Languages API byte map",
+          "url": "https://api.github.com/repos/cetio/VEXAPI/languages"
+        }
+      ],
+      "verification": {
+        "supported_versions": "README documents VEXos V5 version 1.1.2.0, build 20220922.10.00.00, with vision firmware 1.0.0.18 and a separate boot-image split. It says the checked-in `BOOT.zip` cannot be confirmed as an extraction of the versioned update package; exact runtime compatibility should therefore be treated as uncertain.",
+        "release_status_version_dates": "GitHub v1.1 release published 2026-09-11. The README dates the firmware and API snapshots to 2024-01-11 and says updates are not automated, hardware access is unavailable, and inferred offsets remain semi-incomplete.",
+        "license_source_assets_availability": "GitHub metadata identifies Apache-2.0. README says that license covers original work only; VEX firmware, headers, libraries, trademarks, and other third-party material remain under their respective terms.",
+        "evidence": [
+          {
+            "url": "https://github.com/cetio/VEXAPI",
+            "claim": "README describes jump-table mapping, inferred headers, snapshot date, incomplete status, and license scope."
+          },
+          {
+            "url": "https://github.com/cetio/VEXAPI/blob/main/firmware/README.md",
+            "claim": "The firmware notes list VEXos 1.1.2.0 and build metadata and explicitly say the checked-in boot split cannot be confirmed as an extraction of that package."
+          },
+          {
+            "url": "https://github.com/cetio/VEXAPI/releases/tag/v1.1",
+            "claim": "The latest release snapshot observed is v1.1, published 2026-09-11."
+          }
+        ]
+      }
+    },
+    {
+      "id": "radtel-950-pro-firmware-reverse-engineering",
+      "title": "Radtel 950 Pro firmware reverse-engineering workspace",
+      "game": "Radtel 950 Pro dual-band mobile-radio OEM firmware",
+      "target_type": "Software",
+      "platform": "Radtel 950 Pro radio; Artery AT32F403A Cortex-M4F; README maps BK4829 transceivers, SI4732 receiver, display, controls, and firmware behavior.",
+      "kind": "Decompilation",
+      "status": "Reverse-engineering workspace rather than a replacement-firmware release. The README describes decrypted OEM images, Ghidra work, decompiled function maps, and peripheral analysis; custom firmware is only a long-term goal. No release or exact OEM firmware revision is identified. Latest source commit was 2025-10-26; repository metadata was updated 2026-09-19.",
+      "summary": "A hardware and firmware analysis workspace for the Radtel 950 Pro. It includes decompiled output, decrypted firmware and Ghidra artifacts, a function catalogue, and notes on the display and RF peripherals. The README describes future custom-firmware work, but does not document a replacement build.",
+      "project_url": "https://github.com/JKI757/radtel-950-pro",
+      "updated": "2026-10-16",
+      "strategy": "Inspect decrypted OEM firmware in Ghidra, annotate the disassembly/decompiler output, and map MCU peripherals against the reference BSP and hardware.",
+      "programming_language": "C",
+      "subtype": "Mobile-radio embedded firmware reverse engineering",
+      "source_available": "Public repository with decompiled outputs, tools, and hardware notes; no repository-wide license is declared by GitHub. README attributes OEM firmware and Artery reference materials to their owners; it does not describe the contents as relicensed.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "sources": [
+        {
+          "label": "Maintainer README: exact radio target, decompiled artifacts, peripheral analysis, and stated future goal",
+          "url": "https://github.com/JKI757/radtel-950-pro"
+        },
+        {
+          "label": "Function catalogue cited by the README",
+          "url": "https://github.com/JKI757/radtel-950-pro/blob/main/docs/Function_Names.csv"
+        },
+        {
+          "label": "Official GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/JKI757/radtel-950-pro"
+        },
+        {
+          "label": "Official GitHub release list; no releases returned at review time",
+          "url": "https://api.github.com/repos/JKI757/radtel-950-pro/releases"
+        },
+        {
+          "label": "Official GitHub Languages API byte map",
+          "url": "https://api.github.com/repos/JKI757/radtel-950-pro/languages"
+        }
+      ],
+      "verification": {
+        "supported_versions": "README identifies the Radtel 950 Pro and Artery AT32F403A MCU, but no OEM firmware version/date is supplied. The documentation maps two BK4829 RF transceivers, SI4732 broadcast receiver, display, controls, and bus behavior; this does not establish support for similar radio models.",
+        "release_status_version_dates": "No GitHub release was returned. The latest source commit was 2025-10-26; GitHub metadata reports updated_at 2026-09-19. README says custom replacement firmware is a long-term goal; it reports no replacement firmware release.",
+        "license_source_assets_availability": "GitHub repository metadata has no license classifier. The README states that OEM firmware/reference BSP belong to Radtel/Artery and describes decrypted OEM images and decompiled outputs in the workspace; no permission or license for those third-party files is asserted by this record.",
+        "evidence": [
+          {
+            "url": "https://github.com/JKI757/radtel-950-pro",
+            "claim": "README identifies the target, MCU, decompiled artifacts, peripheral maps, and says custom firmware is a future goal."
+          },
+          {
+            "url": "https://github.com/JKI757/radtel-950-pro/blob/main/docs/Function_Names.csv",
+            "claim": "The repository links a function catalogue that documents its firmware annotation work."
+          },
+          {
+            "url": "https://api.github.com/repos/JKI757/radtel-950-pro/releases",
+            "claim": "No releases were returned by the official GitHub Releases endpoint at review time."
+          }
+        ]
+      }
+    },
+    {
+      "id": "fnirsi-101xd-open-firmware-1014d-port",
+      "title": "FNIRSI 101xd open firmware (1013D/1014D port)",
+      "game": "FNIRSI 1013D tablet and 1014D benchtop oscilloscope firmware",
+      "target_type": "Software",
+      "platform": "Shared ARM-based scope firmware. README says the 1014D port is the default and hardware-tested; the 1013D build is not hardware-tested. Active branch: `atlan4-base`.",
+      "kind": "Reimplementation",
+      "status": "Experimental open firmware. The maintainer documents a hardware-tested 1014D build on branch `atlan4-base`; 1013D firmware builds are explicitly untested. No GitHub release was returned; latest source push was 2026-10-02. The repository is a fork and documents code lineage from the original 1013D reverse-engineering and later community firmware projects.",
+      "summary": "A forked open-firmware tree that extends community FNIRSI scope firmware across the 1013D and 1014D models. It packages a shared 101xd application and an 1014D-specific bootloader/SD image. The README attributes its upstream reverse-engineering and source lineage, and marks the 1013D target as untested in this branch.",
+      "project_url": "https://github.com/Donwulff/FNIRSI_1014D_Firmware",
+      "updated": "2026-10-16",
+      "strategy": "Continue and port community-written replacement firmware to the 1014D hardware, retaining explicit upstream lineage; this is not represented as a clean-room rewrite of the manufacturer’s firmware.",
+      "programming_language": "C",
+      "subtype": "Oscilloscope embedded open-firmware port and model compatibility",
+      "source_available": "Public source fork under GPL-3.0 according to GitHub metadata and the README. The README names the upstream reverse-engineering/source projects and gives model-specific hardware-test caveats.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "sources": [
+        {
+          "label": "Maintainer README: active branch, models, tested status, safe scope boundaries, and provenance",
+          "url": "https://github.com/Donwulff/FNIRSI_1014D_Firmware/tree/atlan4-base"
+        },
+        {
+          "label": "Port history and limitations for the FNIRSI 1014D",
+          "url": "https://github.com/Donwulff/FNIRSI_1014D_Firmware/blob/atlan4-base/PORT_A.md"
+        },
+        {
+          "label": "Official GitHub GPL-3.0 license file",
+          "url": "https://github.com/Donwulff/FNIRSI_1014D_Firmware/blob/atlan4-base/LICENSE"
+        },
+        {
+          "label": "Official GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/Donwulff/FNIRSI_1014D_Firmware"
+        },
+        {
+          "label": "Official GitHub Languages API byte map",
+          "url": "https://api.github.com/repos/Donwulff/FNIRSI_1014D_Firmware/languages"
+        }
+      ],
+      "verification": {
+        "supported_versions": "The active branch is `atlan4-base`; README identifies 1014D hardware as the tested target and says its build uses the stock FPGA. The same tree can build the 1013D variant, but README explicitly says the 1013D build has not been hardware-tested. Firmware branch is not a released version.",
+        "release_status_version_dates": "No GitHub release was returned. GitHub repository metadata reports pushed_at 2026-10-02. README documents 1014D hardware use, an experimental install/migration process, and no hardware validation for its 1013D build.",
+        "license_source_assets_availability": "GitHub metadata identifies GPL-3.0 and the README states GPLv3. It is a fork; the README documents lineage through pecostm32 and Atlan4 work. Do not describe it as an independent clean-room reimplementation.",
+        "evidence": [
+          {
+            "url": "https://github.com/Donwulff/FNIRSI_1014D_Firmware/tree/atlan4-base",
+            "claim": "README documents the branch, 1014D-tested state, untested 1013D variant, GPLv3, and source lineage."
+          },
+          {
+            "url": "https://github.com/Donwulff/FNIRSI_1014D_Firmware/blob/atlan4-base/PORT_A.md",
+            "claim": "The port notes document the 1014D port’s history and limitations."
+          },
+          {
+            "url": "https://api.github.com/repos/Donwulff/FNIRSI_1014D_Firmware",
+            "claim": "The official repository metadata reports fork status and the most recent push date."
+          }
+        ]
+      }
+    },
+    {
+      "id": "libcbus-clipsal-pci-serial-protocol-reimplementation",
+      "title": "libcbus (Clipsal C-Bus PCI protocol reimplementation)",
+      "game": "Clipsal C-Bus PCI serial protocol and PC-interface behavior",
+      "target_type": "Software",
+      "platform": "Python 3.7+ on Linux (ARM/x86) and macOS x86 according to README; serial 5500PC, USB 5500PCU, and Ethernet 5500CN PC interfaces are listed.",
+      "kind": "Reimplementation",
+      "status": "A published Python implementation with MQTT/Home Assistant bridge and PCI simulator. README reports the most recent user-facing update section as 2020-02-22 and says its Hass.io integration was still in progress; latest source commit captured from GitHub was 2021-10-24. No GitHub release was returned; repository is not marked archived.",
+      "summary": "A pure-Python implementation of the Clipsal C-Bus PCI serial protocol, written from scratch using public Open C-Bus documentation and reverse engineering to fill gaps. It also provides an MQTT bridge and a PCI simulator. The maintainer explicitly says it does not use the vendor libcbm or C-Gate implementation.",
+      "project_url": "https://github.com/micolous/cbus",
+      "updated": "2026-10-16",
+      "strategy": "Independent protocol reimplementation based on published Open C-Bus documents plus black-box reverse engineering for undocumented behavior.",
+      "programming_language": "Python",
+      "subtype": "Building-control bus protocol and interface reimplementation",
+      "source_available": "Public source repository under LGPL-3.0-or-later. The README states that the project is not certified or endorsed by Clipsal/Schneider Electric and describes support for named C-Bus PC interfaces.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "sources": [
+        {
+          "label": "Maintainer README: protocol method, supported PC interfaces, MQTT bridge, status, and license",
+          "url": "https://github.com/micolous/cbus"
+        },
+        {
+          "label": "Project documentation site",
+          "url": "https://cbus.readthedocs.io/en/latest/"
+        },
+        {
+          "label": "Official Open C-Bus protocol documentation page referenced in the README",
+          "url": "https://updates.clipsal.com/ClipsalSoftwareDownload/DL/downloads/OpenCBus/OpenCBusProtocolDownloads.html"
+        },
+        {
+          "label": "Official repository LGPL license terms",
+          "url": "https://github.com/micolous/cbus/blob/master/COPYING.LESSER"
+        },
+        {
+          "label": "Official GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/micolous/cbus"
+        },
+        {
+          "label": "Official GitHub Languages API byte map",
+          "url": "https://api.github.com/repos/micolous/cbus/languages"
+        }
+      ],
+      "verification": {
+        "supported_versions": "README requires Python 3.7+ and lists Clipsal 5500PC serial PCI, 5500PCU USB PCI, and 5500CN Ethernet PCI (likely also 5500CN2). Ethernet interface configuration is explicitly out of scope. Primary development platforms listed are Linux ARM/x86 and macOS x86.",
+        "release_status_version_dates": "No GitHub release was returned. The latest source commit captured from GitHub was 2021-10-24 and repository pushed_at was 2022-04-29. The README’s recent-updates section is dated 2020-02-22 and notes ongoing documentation/integration work; repository is not archived.",
+        "license_source_assets_availability": "README identifies GNU LGPL version 3 or later and links COPYING/COPYING.LESSER. The README says the implementation is not certified or endorsed by Clipsal/Schneider Electric.",
+        "evidence": [
+          {
+            "url": "https://github.com/micolous/cbus",
+            "claim": "README says the implementation is written from scratch from Open C-Bus documentation plus reverse engineering; it lists interfaces, supported platforms, LGPL terms, and status limitations."
+          },
+          {
+            "url": "https://cbus.readthedocs.io/en/latest/",
+            "claim": "The project’s linked documentation site describes libcbus usage and supported modules."
+          },
+          {
+            "url": "https://updates.clipsal.com/ClipsalSoftwareDownload/DL/downloads/OpenCBus/OpenCBusProtocolDownloads.html",
+            "claim": "This is the Open C-Bus documentation download page referenced as a basis for the protocol implementation."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+[
+  {
+    "sha": "5aae0949e5761c5eecd957e01f15cac162d34dbe",
+    "node_id": "C_kwDOVLehJtoAKDVhYWUwOTQ5ZTU3NjFjNWVlY2Q5NTdlMDFmMTVjYWMxNjJkMzRkYmU",
+    "commit": {
+      "author": {
+        "name": "Marcelo Frau",
+        "email": "marcelofrau@gmail.com",
+        "date": "2026-10-15T20:59:23Z"
+      },
+      "committer": {
+        "name": "Marcelo Frau",
+        "email": "marcelofrau@gmail.com",
+        "date": "2026-10-15T20:59:23Z"
+      },
+      "message": "chore: bootstrap Pinacoteca project\n\nClean-room reimplementation of Picasa's viewing, album organization and\nphoto maintenance workflow, written in Rust.\n\n- Cargo workspace: app, core, decoders, db crates\n- Domain skeleton with tests: catalog, albums, non-destructive edit stack\n- SQLite schema v1 (catalog, albums, tags, edit stacks)\n- Documentation: vision, scope, roadmap, architecture, clean-room protocol\n- CI: fmt, clippy, test on Linux and Windows\n- GPL-3.0-or-later\n\nProprietary reference binaries are git-ignored and never redistributed.",
+      "tree": {
+        "sha": "c4a05c8931bf1c58e854207ab35c36a5bcf2117a",
+        "url": "https://api.github.com/repos/marcelofrau/pinacoteca/git/trees/c4a05c8931bf1c58e854207ab35c36a5bcf2117a"
+      },
+      "url": "https://api.github.com/repos/marcelofrau/pinacoteca/git/commits/5aae0949e5761c5eecd957e01f15cac162d34dbe",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/marcelofrau/pinacoteca/commits/5aae0949e5761c5eecd957e01f15cac162d34dbe",
+    "html_url": "https://github.com/marcelofrau/pinacoteca/commit/5aae0949e5761c5eecd957e01f15cac162d34dbe",
+    "comments_url": "https://api.github.com/repos/marcelofrau/pinacoteca/commits/5aae0949e5761c5eecd957e01f15cac162d34dbe/comments",
+    "author": {
+      "login": "marcelofrau",
+      "id": 1341820,
+      "node_id": "MDQ6VXNlcjEzNDE4MjA=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1341820?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/marcelofrau",
+      "html_url": "https://github.com/marcelofrau",
+      "followers_url": "https://api.github.com/users/marcelofrau/followers",
+      "following_url": "https://api.github.com/users/marcelofrau/following{/other_user}",
+      "gists_url": "https://api.github.com/users/marcelofrau/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/marcelofrau/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/marcelofrau/subscriptions",
+      "organizations_url": "https://api.github.com/users/marcelofrau/orgs",
+      "repos_url": "https://api.github.com/users/marcelofrau/repos",
+      "events_url": "https://api.github.com/users/marcelofrau/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/marcelofrau/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "marcelofrau",
+      "id": 1341820,
+      "node_id": "MDQ6VXNlcjEzNDE4MjA=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1341820?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/marcelofrau",
+      "html_url": "https://github.com/marcelofrau",
+      "followers_url": "https://api.github.com/users/marcelofrau/followers",
+      "following_url": "https://api.github.com/users/marcelofrau/following{/other_user}",
+      "gists_url": "https://api.github.com/users/marcelofrau/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/marcelofrau/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/marcelofrau/subscriptions",
+      "organizations_url": "https://api.github.com/users/marcelofrau/orgs",
+      "repos_url": "https://api.github.com/users/marcelofrau/repos",
+      "events_url": "https://api.github.com/users/marcelofrau/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/marcelofrau/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": []
+  }
+]

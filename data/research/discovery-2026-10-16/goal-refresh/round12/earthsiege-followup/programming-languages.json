@@ -1,0 +1,21 @@
+{
+  "updated": "2026-10-16",
+  "scope": "Exact repository-wide byte map from the official GitHub Languages API.",
+  "records": [
+    {
+      "project_id": "earthsiege-2-herculan-reimplementation",
+      "predominant_language": "C#",
+      "language_breakdown_bytes": {
+        "C#": 7277773,
+        "Python": 285861,
+        "Java": 168904,
+        "GLSL": 36611,
+        "PowerShell": 9889,
+        "Shell": 9249
+      },
+      "evidence_url": "https://api.github.com/repos/kevinfoley/Herculan/languages",
+      "evidence": "Exact byte totals returned by the official GitHub Languages endpoint on 2026-10-16; C# is the largest reported category.",
+      "verified_at": "2026-10-16"
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "verified_at": "2026-10-16",
+  "scope": "Remaining Round-12 Wikipedia references: 12 previously blank existing game keys and seven newly added Round-12 Game keys. Earthsiege 2 is excluded because the existing earthsiege-followup/wikipedia-links.json already supplies the same exact direct article. The other three Round-12 candidate keys with existing URLs are also excluded.",
+  "entries": [
+    {
+      "game_key": "Advanced Daisenryaku",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Daisenryaku",
+      "wikipedia_title": "Daisenryaku",
+      "match": "direct",
+      "note": "The article has a dedicated “Advanced Daisenryaku: Deutsch Dengeki Sakusen” section identifying it as a Mega Drive war game, and the console table lists that exact title on Mega Drive. This matches the catalog project’s Mega Drive target; the game key uses its shortened title.",
+      "dedupe_note": "One entry for this exact existing game_key; no other candidate key is being merged."
+    },
+    {
+      "game_key": "Bokura no Kazoku: My Family Growing Up in the 21st Century (Japan)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Bokura_no_Kazoku",
+      "wikipedia_title": "Bokura no Kazoku",
+      "match": "direct",
+      "note": "Dedicated article identifies the Japan-only 2005 PlayStation 2 simulation game Bokura no Kazoku; the key’s English explanatory subtitle and region are additional catalog qualifiers.",
+      "dedupe_note": "One entry for this exact existing game_key."
+    },
+    {
+      "game_key": "HyperBlade (1996, HYPERX.EXE v1.0.0.1)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/HyperBlade",
+      "wikipedia_title": "HyperBlade",
+      "match": "direct",
+      "note": "Dedicated article identifies HyperBlade as a 1996 Windows 95 game and describes its Direct3D support. The game key’s executable version is a build-level qualifier for this same Windows target.",
+      "dedupe_note": "One entry for this exact existing game_key."
+    },
+    {
+      "game_key": "Mister Mosquito",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Mister_Mosquito",
+      "wikipedia_title": "Mister Mosquito",
+      "match": "direct",
+      "note": "Dedicated article identifies Mister Mosquito as a PlayStation 2 game, matching the original target for the Windows recompilation project.",
+      "dedupe_note": "One entry for this exact existing game_key."
+    },
+    {
+      "game_key": "NBA Jam: On Fire Edition",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/NBA_Jam_(2010_video_game)",
+      "wikipedia_title": "NBA Jam (2010 video game)",
+      "match": "direct",
+      "note": "The article has a distinct “On Fire Edition” section identifying it as a remastered Xbox 360 and PlayStation 3 downloadable edition released in October 2011; this directly covers the catalog’s Xbox 360 target.",
+      "dedupe_note": "One entry for this exact existing game_key; use the 2010 game article because it explicitly covers the named 2011 edition."
+    },
+    {
+      "game_key": "Populous: The Beginning (1998) and Undiscovered Worlds expansion",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Populous%3A_The_Beginning",
+      "wikipedia_title": "Populous: The Beginning",
+      "match": "direct",
+      "note": "Dedicated article identifies the 1998 Windows game and explicitly states that Bullfrog released its Undiscovered Worlds expansion in 1999, matching both parts of the key.",
+      "dedupe_note": "One entry covers the base game and its named expansion under one existing game_key."
+    },
+    {
+      "game_key": "Street Fighter III: 3rd Strike: Fight for the Future (Arcade CPS3, sfiii3nr1)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Street_Fighter_III%3A_3rd_Strike",
+      "wikipedia_title": "Street Fighter III: 3rd Strike",
+      "match": "direct",
+      "note": "Dedicated article identifies the 1999 arcade fighting game, lists CP System III as its arcade hardware, and discusses the arcade revisions; it also documents console ports. The article directly covers the CPS3 arcade game named by the key.",
+      "dedupe_note": "One entry for this exact existing game_key; no separate article was found for the sfiii3nr1 revision."
+    },
+    {
+      "game_key": "Super Mario Galaxy (USA Wii RMGE01 revision 0)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Super_Mario_Galaxy",
+      "wikipedia_title": "Super Mario Galaxy",
+      "match": "direct",
+      "note": "Dedicated article identifies the 2007 Wii game Super Mario Galaxy. The USA disc ID/revision in the key specifies a particular build of that game.",
+      "dedupe_note": "One entry for this exact existing game_key."
+    },
+    {
+      "game_key": "Transformers (PlayStation 2, PAL SLES-52388; North American title: Transformers Armada: Prelude to Energon)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Transformers%3A_Armada",
+      "wikipedia_title": "Transformers: Armada",
+      "match": "direct",
+      "note": "The article’s “Related media – Video game” section identifies the PlayStation 2 game as originally called Transformers Armada: Prelude to Energon and later simply titled Transformers, and gives North American and European release details. This exactly resolves the PAL game identity and its North American alias.",
+      "dedupe_note": "One entry for this exact existing game_key; the article is about Armada but contains a dedicated description of the matching PS2 game."
+    },
+    {
+      "game_key": "Vagrant Story (PlayStation USA SLUS_010.40)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Vagrant_Story",
+      "wikipedia_title": "Vagrant Story",
+      "match": "direct",
+      "note": "Dedicated article identifies Vagrant Story as a 2000 Square game developed and published for PlayStation; the USA disc identifier is a build qualifier.",
+      "dedupe_note": "One entry for this exact existing game_key."
+    },
+    {
+      "game_key": "White Knight Chronicles II (USA BLUS30784, disc v01.00)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/White_Knight_Chronicles_II",
+      "wikipedia_title": "White Knight Chronicles II",
+      "match": "direct",
+      "note": "Dedicated article identifies White Knight Chronicles II as a PlayStation 3 role-playing game and gives the North American release date; the key’s disc ID/version selects the USA release.",
+      "dedupe_note": "One entry for this exact existing game_key."
+    },
+    {
+      "game_key": "Zombie Revenge (Dreamcast Europe, MK-5103850 V1.000)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Zombie_Revenge",
+      "wikipedia_title": "Zombie Revenge",
+      "match": "direct",
+      "note": "Dedicated article identifies Zombie Revenge as a 1999 arcade game with a Dreamcast port and discusses the Dreamcast version. The Europe disc code is an edition qualifier for that game.",
+      "dedupe_note": "One entry for this exact existing game_key."
+    },
+    {
+      "game_key": "Yoshi’s Island: Super Mario Advance 3 (USA, Game Boy Advance)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Yoshi%27s_Island",
+      "wikipedia_title": "Yoshi's Island",
+      "match": "direct",
+      "note": "The dedicated Yoshi’s Island article states that the game was ported to Game Boy Advance under the exact title Yoshi’s Island: Super Mario Advance 3 and describes the GBA version. This is the platform/edition in the key.",
+      "dedupe_note": "One entry covers the exact new Game key; the article’s page title omits the GBA subtitle but directly documents that edition."
+    },
+    {
+      "game_key": "WWF WrestleMania: The Arcade Game (Arcade, Wolf Unit REV 1.30)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/WWF_WrestleMania%3A_The_Arcade_Game",
+      "wikipedia_title": "WWF WrestleMania: The Arcade Game",
+      "match": "direct",
+      "note": "Dedicated article identifies the arcade video game, lists Midway Wolf Unit hardware, and distinguishes arcade from home ports. The key narrows it to Wolf Unit revision 1.30.",
+      "dedupe_note": "One entry for the exact new Game key; revision 1.30 is a build-level qualifier not separately described in the article."
+    },
+    {
+      "game_key": "Bully: Anniversary Edition (Android ARM64 v1.4.311)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Bully_(video_game)",
+      "wikipedia_title": "Bully (video game)",
+      "match": "direct",
+      "note": "Dedicated Bully article explicitly identifies Anniversary Edition as the updated Scholarship Edition release for Android and iOS. It does not cover the ARM64 v1.4.311 build identifier, which is a build-level qualifier.",
+      "dedupe_note": "One entry for the exact new Game key; use the article only for its covered Anniversary Edition identity, not as evidence for the build number."
+    },
+    {
+      "game_key": "Streets of Rage X (OpenBOR fan game; Android release)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Streets+of+Rage+X+%28OpenBOR+fan+game%3B+Android+release%29",
+      "wikipedia_title": null,
+      "match": "exact-title-search",
+      "note": "No English Wikipedia article directly identifying this fan game was found in the exact-title search. The exact-title Wikipedia search is used rather than an article for the Streets of Rage franchise or another fan game.",
+      "dedupe_note": "One entry for the exact new Game key; no franchise article attached."
+    },
+    {
+      "game_key": "Persona 2: Innocent Sin",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Persona_2%3A_Innocent_Sin",
+      "wikipedia_title": "Persona 2: Innocent Sin",
+      "match": "direct",
+      "note": "Dedicated article identifies Persona 2: Innocent Sin as the 1999 PlayStation role-playing game and describes its later PSP remake; this matches the named game targeted by the translation project.",
+      "dedupe_note": "One entry for the exact new Game key."
+    },
+    {
+      "game_key": "Yoiyami Dancers",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Yoiyami+Dancers",
+      "wikipedia_title": null,
+      "match": "exact-title-search",
+      "note": "No English Wikipedia article directly identifying Yoiyami Dancers was found in the exact-title search. No article for a broader Touhou or rhythm-game topic is attached.",
+      "dedupe_note": "One entry for the exact new Game key; no franchise article attached."
+    },
+    {
+      "game_key": "Harvest Moon: Back to Nature",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Harvest_Moon%3A_Back_to_Nature",
+      "wikipedia_title": "Harvest Moon: Back to Nature",
+      "match": "direct",
+      "note": "Dedicated article identifies the 1999 PlayStation game and discusses the original and female-protagonist editions; this directly matches the game named by the translation project.",
+      "dedupe_note": "One entry for the exact new Game key."
+    }
+  ]
+}

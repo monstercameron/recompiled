@@ -1,0 +1,203 @@
+{
+  "updated": "2026-10-16",
+  "research_lane": "continuation-round12/localization",
+  "catalog_snapshot": {
+    "path": "data/catalog.sqlite",
+    "project_rows": 3450,
+    "access": "read-only"
+  },
+  "scope": "Source-verified human-language fan localizations plus localization authoring/conversion tools. Human translation directions are separate from GitHub programming-language byte evidence. Only the French Pokémon Unbound output is proposed from its multi-language toolkit because other target languages already have catalog entries.",
+  "projects": [
+    {
+      "id": "persona-2-innocent-sin-psp-french",
+      "title": "Persona 2: Innocent Sin PSP French Translation",
+      "game": "Persona 2: Innocent Sin",
+      "target_type": "Game",
+      "platform": "PlayStation Portable (European release ULES01557)",
+      "kind": "Fan Localization",
+      "status": "Public beta v0.2.8-beta published 2026-10-10. The README marks the main story and NPC dialogue 100% translated and EBOOT menus/system text about 15% complete. The latest release addresses all 393 reported dialogue data-size overflows; the project remains a beta.",
+      "summary": "English → French patch for the European PSP release ULES01557. The public xdelta patch covers the French main story and NPC dialogue; system menus are still in progress. An optional HD texture pack and browser patcher are documented. The patch requires the user's own European ISO.",
+      "project_url": "https://github.com/chenetulipe/P2-FR-IS-PSP",
+      "updated": "2026-10-16",
+      "strategy": "Fan translation patch (xdelta; optional HD texture overlay)",
+      "language": "French",
+      "source_language": "English",
+      "target_language": "French",
+      "language_pair": "English → French (maintainer documentation compares original English text with French proposals; patch base is European ULES01557)",
+      "source_available": "Public xdelta patch, source repository, and browser patcher; requires the user-provided European ULES01557 ISO.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "Python",
+      "programming_language_status": "GitHub Languages API byte map: {\"Python\":461652,\"HTML\":22876,\"Batchfile\":2377,\"JavaScript\":2023}. Python is predominant among detected programming languages; the translation pair is separate.",
+      "subtype": "PSP fan localization patch",
+      "patch_release": {
+        "version": "v0.2.8-beta",
+        "date": "2026-10-10",
+        "published_at_utc": "2026-10-10T14:28:46Z",
+        "url": "https://github.com/chenetulipe/P2-FR-IS-PSP/releases/tag/v0.2.8-beta",
+        "format": "xdelta patch"
+      },
+      "caveats": [
+        "Main-story and NPC-dialogue percentages do not imply complete system/menu coverage; the maintainer README puts EBOOT menus/system text at roughly 15%.",
+        "The optional French texture pack is separate from the main xdelta patch."
+      ],
+      "sources": [
+        {
+          "label": "Maintainer README: target, progress, patcher, and media links",
+          "url": "https://github.com/chenetulipe/P2-FR-IS-PSP/blob/main/README.md"
+        },
+        {
+          "label": "Latest public beta v0.2.8 and supported European ISO",
+          "url": "https://github.com/chenetulipe/P2-FR-IS-PSP/releases/tag/v0.2.8-beta"
+        },
+        {
+          "label": "Maintainer contribution guide: original English text is displayed beside French proposals",
+          "url": "https://github.com/chenetulipe/P2-FR-IS-PSP/blob/main/CONTRIBUTING.md"
+        },
+        {
+          "label": "GitHub Languages API byte map",
+          "url": "https://api.github.com/repos/chenetulipe/P2-FR-IS-PSP/languages"
+        }
+      ]
+    },
+    {
+      "id": "pokemon-unbound-french",
+      "title": "Pokémon Unbound French Translation Patch",
+      "game": "Pokémon Unbound",
+      "target_type": "Game",
+      "platform": "Game Boy Advance",
+      "kind": "Fan Localization",
+      "status": "French BPS patch included in public toolkit release v2.1.179, published 2026-10-13. The maintainer calls French the complete, byte-perfect reference translation; this patch targets Pokémon Unbound 2.1.1.1 built from the specified US FireRed image.",
+      "summary": "English → French BPS fan patch for Pokémon Unbound 2.1.1.1. The French patch is the toolkit's stated complete reference localization; apply it to the English Unbound ROM created from the exact FireRed (USA) Squirrels base. The release also bundles other language outputs, but this catalog record covers the distinct French target.",
+      "project_url": "https://github.com/AntonyKervazoCanut/gba_translator",
+      "updated": "2026-10-16",
+      "strategy": "ROM translation and BPS patch",
+      "language": "French",
+      "source_language": "English",
+      "target_language": "French",
+      "language_pair": "English → French",
+      "source_available": "Public toolkit source and downloadable BPS patch; original ROM is not included.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "Python",
+      "programming_language_status": "GitHub Languages API byte map: {\"Python\":4257349,\"TypeScript\":553977,\"Makefile\":30867,\"Lua\":26727,\"Shell\":11333,\"JavaScript\":6255,\"HTML\":2069}. Python has the largest detected source-code byte total; the human translation pair is separate.",
+      "subtype": "GBA fan localization patch",
+      "patch_release": {
+        "version": "v2.1.179",
+        "date": "2026-10-13",
+        "published_at_utc": "2026-10-13T08:06:34Z",
+        "url": "https://github.com/AntonyKervazoCanut/gba_translator/releases/tag/v2.1.179",
+        "format": "BPS patch"
+      },
+      "caveats": [
+        "The patch requires the specific Pokémon Unbound 2.1.1.1 English build described in maintainer instructions; it does not include a game ROM.",
+        "Other language outputs from the same release are not proposed as additional rows because the catalog already has Pokémon Unbound German, Italian, and Indonesian entries."
+      ],
+      "sources": [
+        {
+          "label": "Maintainer README: English base-ROM instructions, French patch, toolkit scope, and completeness claim",
+          "url": "https://github.com/AntonyKervazoCanut/gba_translator/blob/unbound/README.md"
+        },
+        {
+          "label": "v2.1.179 release: French BPS asset, manifest, checksums, and release date",
+          "url": "https://github.com/AntonyKervazoCanut/gba_translator/releases/tag/v2.1.179"
+        },
+        {
+          "label": "GitHub Languages API byte map",
+          "url": "https://api.github.com/repos/AntonyKervazoCanut/gba_translator/languages"
+        }
+      ]
+    },
+    {
+      "id": "yoiyami-dancers-steam-zh-cn",
+      "title": "Yoiyami Dancers Simplified Chinese Patch",
+      "game": "Yoiyami Dancers",
+      "target_type": "Game",
+      "platform": "Windows PC / Steam",
+      "kind": "Fan Localization",
+      "status": "Public v1.4.2 Simplified Chinese ZIP published 2026-10-16 for Steam game version 1.4.2. Maintainer README says the package covers all story text, UI, button instructions, song names, and achievements; text embedded in images is not redrawn.",
+      "summary": "Japanese → Simplified Chinese asset-replacement patch for the Steam version of Yoiyami Dancers 1.4.2. Installation overlays the package's asset folder; bundled original files permit restoring Japanese assets. It does not include the game.",
+      "project_url": "https://github.com/Cyclin15/YoiyamiDancers-ChinesePatch",
+      "updated": "2026-10-16",
+      "strategy": "Asset replacement fan translation patch",
+      "language": "Simplified Chinese",
+      "source_language": "Japanese",
+      "target_language": "Simplified Chinese",
+      "language_pair": "Japanese → Simplified Chinese (README says the backed-up/restored files are the original Japanese assets)",
+      "source_available": "Public 29 MB patch ZIP in GitHub Releases; original Steam game is required and not included.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "",
+      "programming_language_status": "GitHub Languages API returned the exact empty byte map {}. No predominant programming-language bytes are reported; this asset patch has no measurable code-language majority. Do not infer code language from Japanese → Simplified Chinese.",
+      "subtype": "Steam PC fan localization patch",
+      "patch_release": {
+        "version": "v1.4.2-cn",
+        "date": "2026-10-16",
+        "published_at_utc": "2026-10-16T07:57:00Z",
+        "url": "https://github.com/Cyclin15/YoiyamiDancers-ChinesePatch/releases/tag/v1.4.2-cn",
+        "format": "asset-folder overlay ZIP"
+      },
+      "caveats": [
+        "The patch README limits compatibility to Steam version 1.4.2; other builds are not guaranteed.",
+        "Text embedded in images is not translated."
+      ],
+      "sources": [
+        {
+          "label": "Maintainer README: supported Steam version, language scope, install/restore process",
+          "url": "https://github.com/Cyclin15/YoiyamiDancers-ChinesePatch/blob/main/README.md"
+        },
+        {
+          "label": "v1.4.2-cn public ZIP release",
+          "url": "https://github.com/Cyclin15/YoiyamiDancers-ChinesePatch/releases/tag/v1.4.2-cn"
+        },
+        {
+          "label": "GitHub Languages API byte map (empty)",
+          "url": "https://api.github.com/repos/Cyclin15/YoiyamiDancers-ChinesePatch/languages"
+        }
+      ]
+    },
+    {
+      "id": "harvest-moon-back-to-nature-ps1-ptbr",
+      "title": "Harvest Moon: Back to Nature Brazilian Portuguese Translation",
+      "game": "Harvest Moon: Back to Nature",
+      "target_type": "Game",
+      "platform": "PlayStation (USA / NTSC-U, SLUS-01115)",
+      "kind": "Fan Localization",
+      "status": "Active work in progress; latest maintainer commit checked 2026-10-15. README reports 5,873 of 6,011 dialogue texts translated, 10 shop strings pending among 387 fixed executable strings, and all 16 minigame texts translated. Text graphics, full-game testing, and release remain pending; no patch has been released.",
+      "summary": "English → Brazilian Portuguese translation in progress for the US PlayStation release. The public repository contains Python extraction/build tooling, translation data, tests, and format documentation; the author says the original game data is not distributed and the patch has not yet been released.",
+      "project_url": "https://github.com/GabriPires/traducao-hm-btn-ptbr",
+      "updated": "2026-10-16",
+      "strategy": "Custom extraction and disc-rebuild tooling; patch release pending",
+      "language": "Brazilian Portuguese",
+      "source_language": "English",
+      "target_language": "Brazilian Portuguese",
+      "language_pair": "English → Brazilian Portuguese (README identifies the source as the USA version and describes its original text as English)",
+      "source_available": "Public Python tools, translation data, documentation, and tests; no patch release yet; user must supply the exact compatible US game image.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "Python",
+      "programming_language_status": "GitHub Languages API byte map: {\"Python\":88308}. Python is the only detected code-language category; the English → Brazilian Portuguese pair is independent evidence.",
+      "subtype": "PS1 fan localization project (WIP)",
+      "patch_release": null,
+      "caveats": [
+        "No playable patch is publicly released yet.",
+        "README notes that executable strings are pending and that text graphics and full start-to-finish testing remain unfinished.",
+        "Repository license covers tools/tests/documentation; translation text has a separate status described in the README."
+      ],
+      "sources": [
+        {
+          "label": "Maintainer README: English source, supported US disc, translation counts, no-release status",
+          "url": "https://github.com/GabriPires/traducao-hm-btn-ptbr/blob/main/README.md"
+        },
+        {
+          "label": "Latest maintainer commit: translation progress recorded 2026-10-15",
+          "url": "https://github.com/GabriPires/traducao-hm-btn-ptbr/commit/d2b0d3a430c7787313c16ba3e9aacd771e58e0b7"
+        },
+        {
+          "label": "GitHub Languages API byte map",
+          "url": "https://api.github.com/repos/GabriPires/traducao-hm-btn-ptbr/languages"
+        }
+      ]
+    }
+  ]
+}

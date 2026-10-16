@@ -1,0 +1,178 @@
+{
+  "verified_at": "2026-10-16",
+  "scope": "Exact GitHub Languages API byte maps for every net-new GitHub-backed project in the social-latest addition manifest. Repository-wide maps may include tools and do not isolate game-specific source. Empty API results remain explicit unknowns.",
+  "records": [
+    {
+      "project_id": "super-metroid-csharp-port",
+      "predominant_language": "C#",
+      "language_breakdown_bytes": {
+        "C#": 37999045,
+        "Python": 91026,
+        "PowerShell": 60608,
+        "HLSL": 25545,
+        "C++": 15883,
+        "Shell": 3626,
+        "C": 3199,
+        "CMake": 1817,
+        "Batchfile": 957
+      },
+      "evidence_url": "https://api.github.com/repos/MrJackSpade/SuperMetroidDecomp/languages",
+      "evidence": "Exact GitHub Languages API byte totals fetched on 2026-10-16: C# is largest (37,999,045 of 38,201,706 recognized bytes, 99.5%). These are repository-wide bytes, including project tooling; they do not isolate game-specific source.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "bokura-no-kazoku-ps2-decomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 2991963,
+        "Python": 155074,
+        "Linker Script": 26537,
+        "C": 24717,
+        "Makefile": 8382,
+        "Shell": 7300,
+        "PHP": 441
+      },
+      "evidence_url": "https://api.github.com/repos/conor-sometimes/bokura-no-kazoku-decomp/languages",
+      "evidence": "Exact GitHub Languages API byte totals fetched on 2026-10-16: C++ is largest (2,991,963 of 3,214,414 recognized bytes, 93.1%). These are repository-wide bytes, including project tooling; they do not isolate game-specific source.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "white-knight-chronicles-ii-ps3-windows-recomp",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Python": 309659,
+        "C++": 187511,
+        "CMake": 25483,
+        "C": 21790,
+        "PowerShell": 8093,
+        "Java": 4001
+      },
+      "evidence_url": "https://api.github.com/repos/WK2D/White-Knight-Chronicles-2-Decomp/languages",
+      "evidence": "Exact GitHub Languages API byte totals fetched on 2026-10-16: Python is largest (309,659 of 556,537 recognized bytes, 55.6%). These are repository-wide bytes, including project tooling; they do not isolate game-specific source.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "hyperblade-1996-windows-decomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 3560473,
+        "Python": 1207222,
+        "C": 202833,
+        "CMake": 27716
+      },
+      "evidence_url": "https://api.github.com/repos/zach2good/hyperblade-decomp/languages",
+      "evidence": "Exact GitHub Languages API byte totals fetched on 2026-10-16: C++ is largest (3,560,473 of 4,998,244 recognized bytes, 71.2%). These are repository-wide bytes, including project tooling; they do not isolate game-specific source.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "zombie-revenge-dreamcast-decomp",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Python": 307079,
+        "Shell": 12059,
+        "Dockerfile": 1128
+      },
+      "evidence_url": "https://api.github.com/repos/consolesplayingconsoles/zombie-revenge-decomp/languages",
+      "evidence": "Exact GitHub Languages API byte totals fetched on 2026-10-16: Python is largest (307,079 of 320,266 recognized bytes, 95.9%). These are repository-wide bytes, including project tooling; they do not isolate game-specific source.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "street-fighter-iii-3rd-strike-cps3-reconstruction",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 29757976,
+        "Batchfile": 182750,
+        "Python": 3736,
+        "Makefile": 3004,
+        "Assembly": 2204
+      },
+      "evidence_url": "https://api.github.com/repos/gibletto/sfIII3-cps3-decomp/languages",
+      "evidence": "Exact GitHub Languages API byte totals fetched on 2026-10-16: C is largest (29,757,976 of 29,949,670 recognized bytes, 99.4%). These are repository-wide bytes, including project tooling; they do not isolate game-specific source.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "transformers-ps2-decomp-tracker",
+      "predominant_language": null,
+      "language_breakdown_bytes": {},
+      "evidence_url": "https://api.github.com/repos/kayliox/transformers-ps2-decomp/languages",
+      "evidence": "Exact GitHub Languages API request on 2026-10-16 returned an empty object. The repository currently exposes only a progress-tracking README and images; its README states that source code is not public yet. This is an explicit unknown, not an inferred language assignment.",
+      "reason_unknown": "The README states decompilation source is not public; GitHub reports no recognized source-language bytes.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "vagrant-story-ps1-native-dynarec-port",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 247608,
+        "Python": 55856,
+        "CMake": 2761,
+        "Shell": 85
+      },
+      "evidence_url": "https://api.github.com/repos/SomeoneIsWorking/psx-vagrant-story/languages",
+      "evidence": "Exact GitHub Languages API byte totals fetched on 2026-10-16: C++ is largest (247,608 of 306,310 recognized bytes, 80.8%). These are repository-wide bytes, including project tooling; they do not isolate game-specific source.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "lezac-dos-software-decompilation",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Python": 164440,
+        "Pascal": 19877,
+        "JavaScript": 9782,
+        "C": 4738,
+        "Makefile": 1089
+      },
+      "evidence_url": "https://api.github.com/repos/Hubert-Rybak/lezac-decompilation/languages",
+      "evidence": "Exact GitHub Languages API byte totals fetched on 2026-10-16: Python is largest (164,440 of 199,926 recognized bytes, 82.3%). These are repository-wide bytes, including project tooling; they do not isolate game-specific source.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "roconstruct-roblox-client-decompilation",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Python": 1717116,
+        "JavaScript": 23262,
+        "HTML": 6651,
+        "Shell": 4162,
+        "PowerShell": 3953,
+        "Batchfile": 3732,
+        "CSS": 1148
+      },
+      "evidence_url": "https://api.github.com/repos/colingsnyder2-ux/RoConstruct/languages",
+      "evidence": "Exact GitHub Languages API byte totals fetched on 2026-10-16: Python is largest (1,717,116 of 1,760,024 recognized bytes, 97.6%). These are repository-wide bytes, including project tooling; they do not isolate game-specific source.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "super-mario-galaxy-macios-native-port",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 20695802,
+        "C": 5225519,
+        "Python": 909356,
+        "CMake": 135623,
+        "Assembly": 22971,
+        "Swift": 8487,
+        "JavaScript": 2766,
+        "Shell": 606,
+        "Objective-C": 293
+      },
+      "evidence_url": "https://api.github.com/repos/classicrob/MacioGalaxy/languages",
+      "evidence": "Exact GitHub Languages API byte totals fetched on 2026-10-16: C++ is largest (20,695,802 of 27,001,423 recognized bytes, 76.6%). These are repository-wide bytes, including project tooling; they do not isolate game-specific source.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "populous-the-beginning-macos-static-recomp",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 242377,
+        "Python": 69399,
+        "Shell": 16608,
+        "CMake": 3252,
+        "Java": 2402
+      },
+      "evidence_url": "https://api.github.com/repos/iagodemacedo/OpenPopTB-MacOS/languages",
+      "evidence": "Exact GitHub Languages API byte totals fetched on 2026-10-16: C is largest (242,377 of 334,038 recognized bytes, 72.6%). These are repository-wide bytes, including project tooling; they do not isolate game-specific source.",
+      "verified_at": "2026-10-16"
+    }
+  ]
+}

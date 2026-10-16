@@ -1,0 +1,66 @@
+{
+  "checked_at": "2026-10-16",
+  "scope": "Relevant API/runtime search leads excluded because the same project was already cataloged, was already staged, or was a package manager rather than a new implementation.",
+  "records": [
+    {
+      "candidate": "Wine / WineD3D / Proton / DXVK / VKD3D-Proton",
+      "url": "https://gitlab.winehq.org/wine/wine",
+      "disposition": "Already cataloged",
+      "reason": "The catalog separately records the general Windows API compatibility layer, its OpenGL Direct3D graphics component, and Proton's Direct3D-to-Vulkan runtime layers."
+    },
+    {
+      "candidate": "D8VK",
+      "url": "https://github.com/AlpyneDreams/d8vk",
+      "disposition": "Already cataloged",
+      "reason": "The catalog records D8VK and notes that its implementation is now maintained in DXVK."
+    },
+    {
+      "candidate": "DXMT / D9MT / MTLD3D / DXVK-MacOS / VKD3D-Proton-MacOS / Alloy / Mullion / Metalloid",
+      "url": "https://github.com/3Shain/dxmt",
+      "disposition": "Already cataloged",
+      "reason": "Existing catalog rows cover these Direct3D-to-Metal or Vulkan/MoltenVK-on-Metal layers, including separate maintained implementations and forks."
+    },
+    {
+      "candidate": "ZLUDA",
+      "url": "https://github.com/vosen/ZLUDA",
+      "disposition": "Already cataloged",
+      "reason": "The catalog already tracks the CUDA-to-AMD GPU compatibility project; forked ZLUDA variants were not proposed as separate projects."
+    },
+    {
+      "candidate": "LSW and Weave",
+      "url": "https://github.com/barrersoftware/lsw",
+      "disposition": "Already cataloged",
+      "reason": "The catalog includes these Windows PE/Win32 compatibility runtimes for Linux, with their limited/experimental scopes and current status."
+    },
+    {
+      "candidate": "WineGUI / WineShelf / Vintner",
+      "url": "https://github.com/winegui/WineGUI",
+      "disposition": "Not staged as API translators",
+      "reason": "These are frontends or runtime managers that orchestrate Wine and existing compatibility components; this lane is restricted to projects with a separate runtime or API implementation."
+    },
+    {
+      "candidate": "Microsoft LiteBox Windows-on-Linux feature work",
+      "url": "https://github.com/microsoft/litebox/pull/712",
+      "disposition": "Held: unmerged upstream pull request",
+      "reason": "The search lead is a large open pull request proposing Windows PE execution support inside LiteBox, not a merged or separately released runtime project. It contains substantial early loader and API work, but remains a proposal/work-in-progress in the existing LiteBox repository. Recheck if upstream merges or publishes it as a supported capability."
+    },
+    {
+      "candidate": "prosperNG",
+      "url": "https://github.com/snapetech-org/prosperNG",
+      "disposition": "Excluded: direct fork of cataloged project",
+      "reason": "GitHub repository metadata identifies mattias800/prosper as the parent; the fork has no separate releases or independent runtime identity. The parent prosper project is already cataloged and prior research explicitly deduplicated this fork."
+    },
+    {
+      "candidate": "OpenGNM stack umbrella",
+      "url": "https://github.com/PS4-OpenGNM/opengnm-stack",
+      "disposition": "Already cataloged through its components",
+      "reason": "The database includes OpenGNM, opengnm-psbc, and vulkan-ps4 separately. The umbrella repository documents these same runtime/compiler/ICD components rather than a fourth independent implementation."
+    },
+    {
+      "candidate": "Wine Mono",
+      "url": "https://gitlab.winehq.org/mono/wine-mono",
+      "disposition": "Staged as one new project",
+      "reason": "Wine Mono is a distinct maintained .NET Framework compatibility runtime with its own Wine-specific source repository and release tags; it is not the general mono/mono runtime or Wine's system API layer."
+    }
+  ]
+}

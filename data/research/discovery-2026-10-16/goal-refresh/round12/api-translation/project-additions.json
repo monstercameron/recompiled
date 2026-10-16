@@ -1,0 +1,59 @@
+{
+  "updated": "2026-10-16",
+  "scope": "Source-reviewed, non-game API/runtime compatibility candidates not previously represented by an exact project URL or ID. This batch stages the distinct Wine Mono .NET Framework runtime; it is separate from the cataloged general Mono runtime and does not claim to be a Windows system-API translation layer.",
+  "projects": [
+    {
+      "id": "wine-mono-dotnet-framework-runtime",
+      "title": "Wine Mono (.NET Framework Runtime for Wine)",
+      "game": "Windows .NET Framework applications and games (multi-application runtime)",
+      "target_type": "Software",
+      "platform": "Microsoft .NET Framework applications targeting 4.8.1 and earlier → Wine on Linux, macOS, BSD, and other Wine-supported hosts",
+      "kind": "Reimplementation",
+      "status": "WineHQ's latest release directed to Wine users is wine-mono-11.3.0 (2026-08-17). wine-mono-11.2.1 (2026-09-04) is a bug-fix release for Proton; its release notes direct Wine users to 11.3.0. The canonical repository's latest commit was 2026-10-14 and only changed contributor-policy documentation. Compatibility depends on each application and the implemented .NET Framework behavior.",
+      "summary": "Wine Mono packages a modified Framework Mono runtime, class libraries, and related components as an implementation of .NET Framework 4.8.1 and earlier for applications running inside Wine. It works with Wine's built-in mscoree.dll and is explicitly not intended as a general-purpose Mono distribution. This is a managed-framework runtime reimplementation, separate from Wine's Windows system-API compatibility layer and from the general, legacy mono/mono runtime; it does not guarantee that every .NET application will work.",
+      "project_url": "https://gitlab.winehq.org/mono/wine-mono",
+      "updated": "2026-10-16",
+      "strategy": "A modified Mono runtime and class-library package is installed into Wine and integrated with Wine's built-in mscoree.dll to implement .NET Framework behavior for Windows managed applications.",
+      "language": "",
+      "source_available": "Public source in the WineHQ GitLab repository. The COPYING file describes multiple component licenses, including GPL/LGPL/MIT for Mono portions, LGPL for the compiler, and distinct terms for bundled components; GitHub reports NOASSERTION, so no single repository-wide SPDX license is claimed.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Wine-specific .NET Framework compatibility runtime",
+      "sources": [
+        {
+          "label": "Canonical WineHQ source repository and README: exact purpose, .NET Framework scope, Wine integration, build and install flow",
+          "url": "https://gitlab.winehq.org/mono/wine-mono"
+        },
+        {
+          "label": "Official GitHub mirror README: Wine-only purpose, .NET Framework 4.8.1-and-earlier scope, and modified Mono runtime composition",
+          "url": "https://github.com/wine-mono/wine-mono"
+        },
+        {
+          "label": "Wine users' release wine-mono-11.3.0, published 2026-08-17",
+          "url": "https://gitlab.winehq.org/mono/wine-mono/-/releases/wine-mono-11.3.0"
+        },
+        {
+          "label": "Proton-specific bug-fix release wine-mono-11.2.1; notes direct Wine users to 11.3.0",
+          "url": "https://gitlab.winehq.org/mono/wine-mono/-/releases/wine-mono-11.2.1"
+        },
+        {
+          "label": "Canonical GitLab latest commit metadata checked 2026-10-16; latest commit is a contributor policy template",
+          "url": "https://gitlab.winehq.org/mono/wine-mono/-/commit/0c9325369a5d3f863c2930fe0ca8abbb9f122aa0"
+        },
+        {
+          "label": "Project COPYING: mixed licenses and component-specific scope",
+          "url": "https://github.com/wine-mono/wine-mono/blob/main/COPYING"
+        },
+        {
+          "label": "Official GitHub mirror metadata and repository status checked 2026-10-16",
+          "url": "https://api.github.com/repos/wine-mono/wine-mono"
+        },
+        {
+          "label": "Official GitHub Languages API byte totals for the source mirror, checked 2026-10-16",
+          "url": "https://api.github.com/repos/wine-mono/wine-mono/languages"
+        }
+      ]
+    }
+  ]
+}

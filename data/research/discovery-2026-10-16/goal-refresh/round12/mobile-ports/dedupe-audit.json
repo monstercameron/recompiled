@@ -1,0 +1,183 @@
+{
+  "checked_on": "2026-10-16",
+  "live_project_count": 3450,
+  "proposal_count": 7,
+  "new_project_ids": [
+    "burnout-3-xbox-native-android-recomp-b3x",
+    "yoshis-island-sma3-android-static-recomp",
+    "wwf-wrestlemania-arcade-c-recomp-android-tv",
+    "binding-of-isaac-repentance-clean-room-android",
+    "bully-anniversary-android-switch-homebrew",
+    "streets-of-rage-x-android-switch-translation",
+    "viridite-android-to-horizon-compatibility-layer"
+  ],
+  "staged_research_roots": [
+    "/Users/earlcameron/Desktop/recompiled/work/research-2026-10-16",
+    "/Users/earlcameron/Documents/Codex/2026-10-15/new/work/research-2026-10-16"
+  ],
+  "addition_manifests_scanned": 149,
+  "unique_staged_catalog_rows": 1277,
+  "manifest_parse_errors": [],
+  "repository_normalization": "Lowercase HTTPS host/path; strip www., query, fragment, trailing slash, and optional .git suffix.",
+  "game_normalization": "Lowercase punctuation-normalized game name; remove bracketed/parenthetical edition/platform qualifiers for same-title review.",
+  "results": [
+    {
+      "candidate_id": "burnout-3-xbox-native-android-recomp-b3x",
+      "candidate_url": "https://github.com/aribrilliantsyah/Burnout3-Recompiled-Mobile",
+      "game_key": "Burnout 3: Takedown (Original Xbox, North American NTSC-U retail release)",
+      "live_id_collision": false,
+      "live_repository_collision": false,
+      "staged_id_collisions": [],
+      "staged_repository_collisions": [],
+      "same_game_live_rows": [
+        {
+          "id": "burnout-3-original-xbox-multiplatform-takedawn",
+          "title": "Takedawn",
+          "game": "Burnout 3: Takedown (Original Xbox, North American NTSC-U retail release)",
+          "platform": "Original Xbox NTSC-U → macOS arm64, Windows x86-64, Linux x86-64/Steam Deck, and experimental Android ARM64",
+          "kind": "Recompilation",
+          "project_url": "https://github.com/xenophobentx/takedawn"
+        },
+        {
+          "id": "burnout-3-original-xbox-switch-recomp",
+          "title": "Burnout 3: Takedown Original Xbox to Nintendo Switch Recompilation",
+          "game": "Burnout 3: Takedown",
+          "platform": "Original Xbox (NTSC-U) → Nintendo Switch and native Linux x86-64 (SDL2 with OpenGL or Vulkan; Switch hardware test reported at 40–55 FPS in races; Linux gameplay testing is not explicitly reported)",
+          "kind": "Recompilation",
+          "project_url": "https://github.com/antoxa2584x/burnout3-sw"
+        },
+        {
+          "id": "burnout-3-ps2-recomp",
+          "title": "Burnout 3: Takedown PS2 Recompilation for PC",
+          "game": "Burnout 3: Takedown (PlayStation 2 version)",
+          "platform": "PlayStation 2 NTSC-U (SLUS-21050) → Windows x64",
+          "kind": "Recompilation",
+          "project_url": "https://github.com/danielgomesvieira2000/burnout3-pc"
+        },
+        {
+          "id": "burnout-3-xbox-recomp",
+          "title": "Burnout 3: Takedown Xbox Recompilation",
+          "game": "Burnout 3: Takedown",
+          "platform": "Original Xbox → Windows x64",
+          "kind": "Recompilation",
+          "project_url": "https://github.com/sp00nznet/burnout3"
+        }
+      ],
+      "same_game_staged_rows": [
+        {
+          "id": "burnout-3-original-xbox-multiplatform-takedawn",
+          "title": "Takedawn",
+          "game": "Burnout 3: Takedown (Original Xbox, North American NTSC-U retail release)",
+          "platform": "Original Xbox NTSC-U → macOS arm64, Windows x86-64, Linux x86-64/Steam Deck, and experimental Android ARM64",
+          "kind": "Recompilation",
+          "project_url": "https://github.com/xenophobentx/takedawn",
+          "manifest": "/Users/earlcameron/Desktop/recompiled/work/research-2026-10-16/continuation-2026-10-16/reconcile/approved-import-union.json",
+          "manifests": [
+            "/Users/earlcameron/Desktop/recompiled/work/research-2026-10-16/continuation-2026-10-16/reconcile/approved-import-union.json",
+            "/Users/earlcameron/Desktop/recompiled/work/research-2026-10-16/continuation-2026-10-16/reconcile/approved-net-new-additions.json"
+          ]
+        },
+        {
+          "id": "burnout-3-original-xbox-switch-recomp",
+          "title": "Burnout 3: Takedown Original Xbox to Nintendo Switch Recompilation",
+          "game": "Burnout 3: Takedown",
+          "platform": "Original Xbox (NTSC-U) → Nintendo Switch",
+          "kind": "Recompilation",
+          "project_url": "https://github.com/antoxa2584x/burnout3-sw",
+          "manifest": "/Users/earlcameron/Desktop/recompiled/work/research-2026-10-16/goal-refresh/continuation-next-additions/new-projects.json",
+          "manifests": [
+            "/Users/earlcameron/Desktop/recompiled/work/research-2026-10-16/goal-refresh/continuation-next-additions/new-projects.json",
+            "/Users/earlcameron/Desktop/recompiled/work/research-2026-10-16/goal-refresh/console-to-console/new-projects.json"
+          ]
+        }
+      ],
+      "assessment": "No exact ID/repository collision. Same-game cross-platform or alternative-implementation entries are listed explicitly for manual review."
+    },
+    {
+      "candidate_id": "yoshis-island-sma3-android-static-recomp",
+      "candidate_url": "https://github.com/Edwin2929/sma3-recomp-android.",
+      "game_key": "Yoshi’s Island: Super Mario Advance 3 (USA, Game Boy Advance)",
+      "live_id_collision": false,
+      "live_repository_collision": false,
+      "staged_id_collisions": [],
+      "staged_repository_collisions": [],
+      "same_game_live_rows": [],
+      "same_game_staged_rows": [],
+      "assessment": "No exact ID, repository, or normalized same-game collision found."
+    },
+    {
+      "candidate_id": "wwf-wrestlemania-arcade-c-recomp-android-tv",
+      "candidate_url": "https://github.com/lurendrejer/wwfmania_recomp_public",
+      "game_key": "WWF WrestleMania: The Arcade Game (Arcade, Wolf Unit REV 1.30)",
+      "live_id_collision": false,
+      "live_repository_collision": false,
+      "staged_id_collisions": [],
+      "staged_repository_collisions": [],
+      "same_game_live_rows": [],
+      "same_game_staged_rows": [],
+      "assessment": "No exact ID, repository, or normalized same-game collision found."
+    },
+    {
+      "candidate_id": "binding-of-isaac-repentance-clean-room-android",
+      "candidate_url": "https://github.com/caos-obliquo/tboi-recomp",
+      "game_key": "The Binding of Isaac: Repentance",
+      "live_id_collision": false,
+      "live_repository_collision": false,
+      "staged_id_collisions": [],
+      "staged_repository_collisions": [],
+      "same_game_live_rows": [
+        {
+          "id": "binding-of-isaac-repentance-vita-recomp",
+          "title": "The Binding of Isaac: Repentance Vita Recompilation",
+          "game": "The Binding of Isaac: Repentance",
+          "platform": "Windows PC (Repentance v1.7.9b) → PlayStation Vita",
+          "kind": "Recompilation",
+          "project_url": "https://github.com/0xl0cal/repentogxm"
+        }
+      ],
+      "same_game_staged_rows": [],
+      "assessment": "No exact ID/repository collision. Same-game cross-platform or alternative-implementation entries are listed explicitly for manual review."
+    },
+    {
+      "candidate_id": "bully-anniversary-android-switch-homebrew",
+      "candidate_url": "https://github.com/givethesourceplox/bully-NX",
+      "game_key": "Bully: Anniversary Edition (Android ARM64 v1.4.311)",
+      "live_id_collision": false,
+      "live_repository_collision": false,
+      "staged_id_collisions": [],
+      "staged_repository_collisions": [],
+      "same_game_live_rows": [],
+      "same_game_staged_rows": [],
+      "assessment": "No exact ID, repository, or normalized same-game collision found."
+    },
+    {
+      "candidate_id": "streets-of-rage-x-android-switch-translation",
+      "candidate_url": "https://github.com/delsonazevedo/sorx_nx",
+      "game_key": "Streets of Rage X (OpenBOR fan game; Android release)",
+      "live_id_collision": false,
+      "live_repository_collision": false,
+      "staged_id_collisions": [],
+      "staged_repository_collisions": [],
+      "same_game_live_rows": [],
+      "same_game_staged_rows": [],
+      "assessment": "No exact ID, repository, or normalized same-game collision found."
+    },
+    {
+      "candidate_id": "viridite-android-to-horizon-compatibility-layer",
+      "candidate_url": "https://github.com/Viridite/Viridite",
+      "game_key": "Viridite Android-to-Horizon Compatibility Layer",
+      "live_id_collision": false,
+      "live_repository_collision": false,
+      "staged_id_collisions": [],
+      "staged_repository_collisions": [],
+      "same_game_live_rows": [],
+      "same_game_staged_rows": [],
+      "assessment": "No exact ID, repository, or normalized same-game collision found."
+    }
+  ],
+  "existing_project_reconciliation": {
+    "catalog_id": "pokemon-emerald-decompilation-android",
+    "new_row_proposed": false,
+    "reason": "The live catalog row points at KamiKitsune420/pokeemerald-multiplatform, a fork of the GradenGnostic source parent. Parent README, v1 desktop-only release, latest push, and exact parent language map provide newer primary evidence; stage project URL, status, source links, review date, and language-map refresh for the existing ID, not a second addition."
+  }
+}

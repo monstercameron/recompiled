@@ -1,0 +1,90 @@
+{
+  "verified_at": "2026-10-16",
+  "records": [
+    {
+      "project_id": "ssx-3-xbox-pal-windows-static-recomp",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 273391,
+        "PowerShell": 64412,
+        "GLSL": 19013,
+        "Shell": 8477,
+        "CMake": 8236,
+        "Python": 7314,
+        "Batchfile": 2938,
+        "GDB": 419
+      },
+      "evidence_url": "https://api.github.com/repos/koenhendriks/SSX3-recomp/languages",
+      "evidence": "Exact GitHub Languages API per-language byte counts. C has the most counted bytes; generated/game-derived code is not committed per the maintainer README.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "rollcage-stage-ii-psx-static-recomp",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Python": 45794,
+        "CMake": 4396,
+        "Shell": 3989,
+        "C": 2551
+      },
+      "evidence_url": "https://api.github.com/repos/alexbeavs-ps1-ports/rollcage-stage-ii-recomp/languages",
+      "evidence": "Exact GitHub Languages API byte counts. Python is the largest repository language; local generated C is built from the user-supplied disc.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "toy-story-2-n64-spaceranger-static-recomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 874647,
+        "Python": 68388,
+        "C": 58680,
+        "CMake": 21529,
+        "PowerShell": 14462
+      },
+      "evidence_url": "https://api.github.com/repos/Capridog/SpaceRanger/languages",
+      "evidence": "Exact GitHub Languages API per-language byte counts.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "the-darkness-xbox360-vr-static-recomp-research",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Python": 115562,
+        "C++": 51866,
+        "Batchfile": 10140,
+        "PowerShell": 3304,
+        "Shell": 3086,
+        "CMake": 553
+      },
+      "evidence_url": "https://api.github.com/repos/TefMeister/the-darkness-vr/languages",
+      "evidence": "Exact GitHub Languages API per-language byte counts; Python is largest in this research/tooling repository.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "tears-of-the-kingdom-cryrecomp-static-recomp-research",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 4012,
+        "Python": 924,
+        "CMake": 763,
+        "Shell": 625
+      },
+      "evidence_url": "https://api.github.com/repos/xzhuofan/CryRecomp/languages",
+      "evidence": "Exact GitHub Languages API per-language byte counts.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "toy-story-2-ps1-lightrec-native-port",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 417488,
+        "Python": 72600,
+        "CMake": 8657,
+        "Shell": 87
+      },
+      "evidence_url": "https://api.github.com/repos/SomeoneIsWorking/psx-toy-story-2/languages",
+      "evidence": "Exact GitHub Languages API per-language byte counts.",
+      "verified_at": "2026-10-16"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "updated": "2026-10-16",
+  "items": [
+    {
+      "id": "hoshi2star",
+      "item_type": "Tool",
+      "category": "Fan localization authoring",
+      "name": "Hoshi2Star",
+      "url": "https://github.com/KATBlackCoder/Hoshi2Star",
+      "source_url": "https://github.com/KATBlackCoder/Hoshi2Star/blob/main/README.md",
+      "description": "Desktop CAT editor and LLM orchestrator for translating Japanese RPG Maker MV/MZ and Wolf RPG games. Includes glossary, cross-project translation memory, placeholder/line-width QA, and export back into game files; supports local Ollama and optional cloud inference.",
+      "source_evidence": "Maintainer README documents Japanese RPG Maker MV/MZ support, partial Wolf RPG support, CAT workflow and game-file export. The app shows Japanese originals and English examples but supports configurable target languages, not a fixed pair. Latest public release is v0.4.10 (2026-07-07), with Linux AppImage/deb/rpm and Windows MSI/EXE assets: https://github.com/KATBlackCoder/Hoshi2Star/releases/tag/v0.4.10. Repository is not archived and latest commit checked 2026-10-16: https://github.com/KATBlackCoder/Hoshi2Star/commit/de76e64f232b1a15cbbba2f8947926f028211bb8. README version badge is stale at 0.4.3; release page is version authority. GitHub Languages API bytes: Rust 1,883,362; Python 724,352; TypeScript 557,310; HTML 533,300; CSS 9,425; JavaScript 1,194. Rust is largest.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "id": "game-translate",
+      "item_type": "Tool",
+      "category": "Fan localization conversion and patching",
+      "name": "Game Translate",
+      "url": "https://github.com/DogSay/game-translate",
+      "source_url": "https://github.com/DogSay/game-translate/blob/main/README.md",
+      "description": "Windows game-localization converter that takes existing Simplified Chinese text in compatible Unreal Engine localization assets and produces a reversible external Traditional Chinese patch. It does not translate from English or Japanese; Unity patching is not implemented.",
+      "source_evidence": "Maintainer README says Game Translate converts existing Simplified Chinese text to Traditional Chinese for compatible Unreal Engine games via an external .locres patch and zhconvert.org; it is not an automatic source-language translator. README explicitly says only source code is public and there is no downloadable Windows executable yet; per-game/package support still needs runtime confirmation: https://github.com/DogSay/game-translate/blob/main/README.md. Repository is not archived; its latest commit checked 2026-10-16 is dated 2026-10-05: https://github.com/DogSay/game-translate/commit/34be11837d8e5ced9da7817dfe1dec2142a55ea3. Exact GitHub Languages API bytes: C# 254,612 and JavaScript 134,124 (C# predominant). This human-language utility is distinct from Proton-like OS/graphics/API translation.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "id": "pokemon-unbound-translation-toolkit",
+      "item_type": "Tool",
+      "category": "ROM fan localization build tools",
+      "name": "Pokémon Unbound Multi-language ROM Translation Toolkit",
+      "url": "https://github.com/AntonyKervazoCanut/gba_translator",
+      "source_url": "https://github.com/AntonyKervazoCanut/gba_translator/blob/unbound/README.md",
+      "description": "Python-led, game-specific extraction/build workflow and patch repository for Pokémon Unbound language editions. README describes French as the complete reference translation and a multi-language pipeline for Italian, German, and experimental targets; releases package BPS outputs with a manifest and SHA256 checksums.",
+      "source_evidence": "Maintainer README calls the repository an open-source Pokémon Unbound ROM translation toolkit and documents English base-ROM patching, French BPS workflow, and language-specific build/graphics workflows. Release v2.1.179 (2026-10-13) contains French, Italian, German, and experimental Indie BPS assets, a release manifest, and SHA256 sums: https://github.com/AntonyKervazoCanut/gba_translator/releases/tag/v2.1.179. Exact GitHub Languages API map shows Python 4,257,349 bytes is predominant. Tooling is listed separately from the French patch project row.",
+      "verified_at": "2026-10-16"
+    }
+  ]
+}

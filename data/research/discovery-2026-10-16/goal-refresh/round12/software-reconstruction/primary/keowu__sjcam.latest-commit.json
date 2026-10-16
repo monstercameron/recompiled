@@ -1,0 +1,84 @@
+[
+  {
+    "sha": "cec1fabc54a5b83e48e5f195632b1ab305275c81",
+    "node_id": "C_kwDOQgr3cNoAKGNlYzFmYWJjNTRhNWI4M2U0OGU1ZjE5NTYzMmIxYWIzMDUyNzVjODE",
+    "commit": {
+      "author": {
+        "name": "João Vitor",
+        "email": "joaovitordev@protonmail.ch",
+        "date": "2026-07-19T00:29:02Z"
+      },
+      "committer": {
+        "name": "João Vitor",
+        "email": "joaovitordev@protonmail.ch",
+        "date": "2026-07-19T00:29:02Z"
+      },
+      "message": "feat: add GitHub Actions CI for Lelouch builds\n\n- add CI workflow for Lelouch and wpa_supplicant builds\n- add tools-test workflow for firmware parser and utility validation\n- add CI helper scripts for isolated builds, binary validation, and\n  release packaging\n- add CI status badge to README files",
+      "tree": {
+        "sha": "a0e4669ce8f788147d0945ed1e57ea01525edc60",
+        "url": "https://api.github.com/repos/keowu/sjcam/git/trees/a0e4669ce8f788147d0945ed1e57ea01525edc60"
+      },
+      "url": "https://api.github.com/repos/keowu/sjcam/git/commits/cec1fabc54a5b83e48e5f195632b1ab305275c81",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/keowu/sjcam/commits/cec1fabc54a5b83e48e5f195632b1ab305275c81",
+    "html_url": "https://github.com/keowu/sjcam/commit/cec1fabc54a5b83e48e5f195632b1ab305275c81",
+    "comments_url": "https://api.github.com/repos/keowu/sjcam/commits/cec1fabc54a5b83e48e5f195632b1ab305275c81/comments",
+    "author": {
+      "login": "keowu",
+      "id": 42323126,
+      "node_id": "MDQ6VXNlcjQyMzIzMTI2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/42323126?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/keowu",
+      "html_url": "https://github.com/keowu",
+      "followers_url": "https://api.github.com/users/keowu/followers",
+      "following_url": "https://api.github.com/users/keowu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/keowu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/keowu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/keowu/subscriptions",
+      "organizations_url": "https://api.github.com/users/keowu/orgs",
+      "repos_url": "https://api.github.com/users/keowu/repos",
+      "events_url": "https://api.github.com/users/keowu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/keowu/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "keowu",
+      "id": 42323126,
+      "node_id": "MDQ6VXNlcjQyMzIzMTI2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/42323126?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/keowu",
+      "html_url": "https://github.com/keowu",
+      "followers_url": "https://api.github.com/users/keowu/followers",
+      "following_url": "https://api.github.com/users/keowu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/keowu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/keowu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/keowu/subscriptions",
+      "organizations_url": "https://api.github.com/users/keowu/orgs",
+      "repos_url": "https://api.github.com/users/keowu/repos",
+      "events_url": "https://api.github.com/users/keowu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/keowu/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ed3fe61c5ce0f538590d9a94489871f6496fdb97",
+        "url": "https://api.github.com/repos/keowu/sjcam/commits/ed3fe61c5ce0f538590d9a94489871f6496fdb97",
+        "html_url": "https://github.com/keowu/sjcam/commit/ed3fe61c5ce0f538590d9a94489871f6496fdb97"
+      }
+    ]
+  }
+]

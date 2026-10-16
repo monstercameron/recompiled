@@ -1,0 +1,38 @@
+{
+  "updated": "2026-10-16",
+  "scope": "Exact repository-wide byte maps returned by the official GitHub Languages API for the official mirror of the canonical WineHQ GitLab project. Counts include vendored/framework components and build tools; they do not measure only the Wine-specific modifications.",
+  "records": [
+    {
+      "project_id": "wine-mono-dotnet-framework-runtime",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 28137465,
+        "C++": 2105736,
+        "C#": 1828914,
+        "Objective-C": 1061370,
+        "CMake": 518887,
+        "Perl": 230177,
+        "Java": 226031,
+        "Python": 196339,
+        "Makefile": 105022,
+        "SmPL": 66339,
+        "Shell": 42477,
+        "HLSL": 40702,
+        "M4": 25544,
+        "Metal": 16404,
+        "HTML": 10696,
+        "IL Assembly": 7799,
+        "Batchfile": 4526,
+        "CSS": 4017,
+        "Lua": 2922,
+        "JavaScript": 1960,
+        "Meson": 894,
+        "Swift": 270
+      },
+      "evidence_url": "https://api.github.com/repos/wine-mono/wine-mono/languages",
+      "evidence": "Exact repository-wide byte totals returned by the official GitHub Languages endpoint on 2026-10-16. C is the largest reported category. The official GitHub mirror's main commit SHA matched the canonical GitLab main commit SHA at review time; totals include large upstream runtime/class-library components and tooling and are not a measure of Wine-specific code.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": null
+    }
+  ]
+}

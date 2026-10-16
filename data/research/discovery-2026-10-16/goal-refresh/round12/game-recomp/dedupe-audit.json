@@ -1,0 +1,128 @@
+{
+  "checked_at": "2026-10-16",
+  "catalog_rows_checked": 3411,
+  "additions": [
+    {
+      "id": "ssx-3-xbox-pal-windows-static-recomp",
+      "repo": "https://github.com/koenhendriks/SSX3-recomp",
+      "game": "SSX 3 (Original Xbox PAL)",
+      "decision": "add",
+      "reason": "Source README gives exact PAL Xbox input, Windows x64/Vulkan target, static recompilation method, own-disc requirement and detailed maintainer-reported playability."
+    },
+    {
+      "id": "rollcage-stage-ii-psx-static-recomp",
+      "repo": "https://github.com/alexbeavs-ps1-ports/rollcage-stage-ii-recomp",
+      "game": "Rollcage Stage II (PlayStation, USA SLUS-00867)",
+      "decision": "add",
+      "reason": "Dedicated repo and v0.1.0 release; exact USA serial/disc/BIOS, Windows package setup/start checks, Linux/macOS CI packages, and unverified-host caveats documented."
+    },
+    {
+      "id": "toy-story-2-n64-spaceranger-static-recomp",
+      "repo": "https://github.com/Capridog/SpaceRanger",
+      "game": "Toy Story 2: Buzz Lightyear to the Rescue (Nintendo 64, USA)",
+      "decision": "add",
+      "reason": "Dedicated N64 static recomp repo and v0.1.0; Windows target, own-USA-ROM requirement, maintainer-reported start-to-finish playability and known issues documented."
+    },
+    {
+      "id": "toy-story-2-ps1-lightrec-native-port",
+      "repo": "https://github.com/SomeoneIsWorking/psx-toy-story-2",
+      "game": "Toy Story 2: Buzz Lightyear to the Rescue! (PlayStation, USA SLUS_008.93)",
+      "decision": "add",
+      "reason": "Prior manifest lead absent from SQLite; distinct PS1 target and dynamic-recompilation runtime, maintainer README documents exact areas observed and incomplete native subsystems."
+    },
+    {
+      "id": "the-darkness-xbox360-vr-static-recomp-research",
+      "repo": "https://github.com/TefMeister/the-darkness-vr",
+      "game": "The Darkness (Xbox 360)",
+      "decision": "add",
+      "reason": "Independent, project-owned Xbox 360 recompilation for stereo/VR work, separate from the already-cataloged Windows projects; README qualifies current PC/stereo milestone and makes clear VR is unfinished and unsupported."
+    },
+    {
+      "id": "tears-of-the-kingdom-cryrecomp-static-recomp-research",
+      "repo": "https://github.com/xzhuofan/CryRecomp",
+      "game": "The Legend of Zelda: Tears of the Kingdom",
+      "decision": "add",
+      "reason": "Dedicated experimental static recompilation research; explicit non-playable status and measurable module/link/nnMain milestones documented."
+    }
+  ],
+  "existing_review": [
+    {
+      "repo": "https://github.com/ysrdevs/goldeneye-metal",
+      "action": "attach maintainer-linked YouTube gameplay video; existing status/release accurate"
+    },
+    {
+      "repo": "https://github.com/elpetese/black-macos-recomp",
+      "action": "no patch; current title-screen/first-mission status and caveats match README"
+    },
+    {
+      "repo": "https://github.com/sciaschi/CBFD-Recompiled",
+      "action": "attach README screenshot; v0.1.6 and complete-through-end maintainer claim match"
+    },
+    {
+      "repo": "https://github.com/elliotttate/wave-race-64-recomp",
+      "action": "attach two README-linked YouTube videos; Windows/macOS status and Linux caveat match"
+    },
+    {
+      "repo": "https://github.com/andeecollard/jsrf-recomp",
+      "action": "no patch; chapter-2-at-60fps status matches dated README"
+    },
+    {
+      "repo": "https://github.com/elliotttate/DKC3Recomp",
+      "action": "refine status to describe bring-up/widescreen verified states without implying whole-game playability"
+    },
+    {
+      "repo": "https://github.com/silentsudin/RoadTripAdventure-recomp",
+      "action": "no patch; Android and desktop platform/playability record matches current README"
+    },
+    {
+      "repo": "https://github.com/antoxa2584x/burnout3-sw",
+      "action": "add Linux x86-64 native target to platform field; preserve note that README reports hardware tests only for Switch"
+    },
+    {
+      "repo": "https://github.com/Revan67/ThirdAge-Recomp",
+      "action": "no patch; current Oct 9 main-menu/audio milestone still supported by README and docs"
+    },
+    {
+      "repo": "https://github.com/saulob/geometry-wars-retro-evolved-2-recompiled",
+      "action": "refresh to 2026-10-16 v0.3.1 status and explicit experimental-Linux single hardware-report caveat"
+    },
+    {
+      "repo": "https://github.com/Denkishi/ssbu-recomp",
+      "action": "no content change; detailed partial-playability status matches current README"
+    },
+    {
+      "repo": "https://github.com/dougchansan/mk8-recomp",
+      "action": "no content change; v6 native-foundations and in-progress native-runtime constraints are represented"
+    },
+    {
+      "repo": "https://github.com/linuxkafe/Utopia-SNES-Static-Recomp",
+      "action": "no content change; README still states non-playable, headless-only progress as of Oct 13"
+    }
+  ],
+  "holds": [
+    {
+      "repo": "https://github.com/MattSG/mm3-recomp",
+      "reason": "The README describes merging with/contributing into the already-cataloged Lakshya PC-native project lineage. Avoid duplicate same-title row absent evidence of an independently scoped product."
+    },
+    {
+      "repo": "https://github.com/YYOzcan/Tobiichi-Port",
+      "reason": "README credits/uses the already-cataloged KIexster God of War recomp work; downstream duplicate lineage."
+    },
+    {
+      "repo": "https://github.com/Alexbeav/psxrecomp-ports",
+      "reason": "Multi-title collection is not itself a game-specific project row. Individual game repositories are reviewed separately."
+    },
+    {
+      "repo": "https://github.com/RetroPortingToolKit/recomp-ui",
+      "reason": "Shared UI/tooling library, outside this game-specific project batch."
+    },
+    {
+      "repo": "https://github.com/Nio03/unricopie",
+      "reason": "Catalog/tracker, not a game project."
+    },
+    {
+      "repo": "https://github.com/cefege/recomphub.com",
+      "reason": "Project discovery database/website, not a game project."
+    }
+  ]
+}

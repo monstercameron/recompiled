@@ -1,0 +1,57 @@
+{
+  "updated": "2026-10-16",
+  "scope": "Only source-backed corrections/refreshes found during the round-12 game recompilation audit.",
+  "updates": [
+    {
+      "id": "burnout-3-original-xbox-switch-recomp",
+      "fields": {
+        "platform": "Original Xbox (NTSC-U) → Nintendo Switch and native Linux x86-64 (SDL2 with OpenGL or Vulkan; Switch hardware test reported at 40–55 FPS in races; Linux gameplay testing is not explicitly reported)",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: platform setup and current status",
+          "url": "https://github.com/antoxa2584x/burnout3-sw/blob/main/README.md"
+        },
+        {
+          "label": "Latest v0.2.1 release",
+          "url": "https://github.com/antoxa2584x/burnout3-sw/releases/tag/v0.2.1"
+        }
+      ]
+    },
+    {
+      "id": "geometry-wars-retro-evolved-2-xbox360-recomp",
+      "fields": {
+        "status": "Windows v0.3.1 release published 2026-10-16. README also documents a native Linux/Steam Deck AppImage as experimental; real-hardware Linux testing so far is a single Steam Machine report.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "v0.3.1 release",
+          "url": "https://github.com/saulob/geometry-wars-retro-evolved-2-recompiled/releases/tag/v0.3.1"
+        },
+        {
+          "label": "Maintainer README: Windows and experimental Linux status",
+          "url": "https://github.com/saulob/geometry-wars-retro-evolved-2-recompiled/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "donkey-kong-country-3-recomp",
+      "fields": {
+        "status": "Bring-up remains in progress. The maintainer README reports widescreen rendering checked in named states including Lakeside Limbo, Murky Mill, Floodlit Fish, KAOS, and Bleak; this does not establish full-campaign playability.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: current status and documented game-state checks",
+          "url": "https://github.com/elliotttate/DKC3Recomp/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer bring-up notes linked from the README",
+          "url": "https://github.com/elliotttate/DKC3Recomp/blob/main/docs/BRINGUP.md"
+        }
+      ]
+    }
+  ]
+}

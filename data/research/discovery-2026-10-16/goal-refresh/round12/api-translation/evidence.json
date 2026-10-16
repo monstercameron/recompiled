@@ -1,0 +1,88 @@
+{
+  "checked_at": "2026-10-16",
+  "canonical_project": {
+    "host": "https://gitlab.winehq.org",
+    "path": "mono/wine-mono",
+    "api_url": "https://gitlab.winehq.org/api/v4/projects/mono%2Fwine-mono",
+    "metadata": {
+      "id": 1840,
+      "name_with_namespace": "Mono / Wine Mono",
+      "path_with_namespace": "mono/wine-mono",
+      "description": ".NET Framework replacement for Wine",
+      "created_at": "2024-02-17T17:59:26.749Z",
+      "default_branch": "main",
+      "last_activity_at": "2026-10-14T21:32:12.304Z",
+      "star_count": 4,
+      "forks_count": 8,
+      "visibility": "public"
+    },
+    "latest_default_branch_commit": {
+      "api_url": "https://gitlab.winehq.org/api/v4/projects/1840/repository/commits?per_page=1",
+      "sha": "0c9325369a5d3f863c2930fe0ca8abbb9f122aa0",
+      "date": "2026-10-14T21:30:34Z",
+      "message": "Add a PR template to ensure GitHub contributors see WineHQ's policies.",
+      "web_url": "https://gitlab.winehq.org/mono/wine-mono/-/commit/0c9325369a5d3f863c2930fe0ca8abbb9f122aa0"
+    },
+    "latest_releases": [
+      {
+        "version": "wine-mono-11.3.0",
+        "released_at": "2026-08-17T17:41:40Z",
+        "release_url": "https://gitlab.winehq.org/mono/wine-mono/-/releases/wine-mono-11.3.0",
+        "relevance": "Regular release for Wine users. Release notes include ARM64 and arm64ec build changes, Mono fixes, and FNA/SDL/llvm-mingw component updates."
+      },
+      {
+        "version": "wine-mono-11.2.1",
+        "released_at": "2026-09-04T16:50:57Z",
+        "release_url": "https://gitlab.winehq.org/mono/wine-mono/-/releases/wine-mono-11.2.1",
+        "relevance": "Bug-fix release for Proton; release text says Wine users should update to 11.3.0."
+      }
+    ]
+  },
+  "github_official_mirror": {
+    "url": "https://github.com/wine-mono/wine-mono",
+    "readme_url": "https://github.com/wine-mono/wine-mono/blob/main/README.md",
+    "repo_api_url": "https://api.github.com/repos/wine-mono/wine-mono",
+    "metadata": {
+      "created_at": "2011-11-10T22:53:12Z",
+      "pushed_at": "2026-10-14T21:32:14Z",
+      "updated_at": "2026-10-14T21:32:18Z",
+      "archived": false,
+      "fork": false,
+      "stargazers_count": 393,
+      "license_spdx_id": "NOASSERTION",
+      "main_sha": "0c9325369a5d3f863c2930fe0ca8abbb9f122aa0"
+    },
+    "languages_api_url": "https://api.github.com/repos/wine-mono/wine-mono/languages",
+    "language_bytes": {
+      "C": 28137465,
+      "C++": 2105736,
+      "C#": 1828914,
+      "Objective-C": 1061370,
+      "CMake": 518887,
+      "Perl": 230177,
+      "Java": 226031,
+      "Python": 196339,
+      "Makefile": 105022,
+      "SmPL": 66339,
+      "Shell": 42477,
+      "HLSL": 40702,
+      "M4": 25544,
+      "Metal": 16404,
+      "HTML": 10696,
+      "IL Assembly": 7799,
+      "Batchfile": 4526,
+      "CSS": 4017,
+      "Lua": 2922,
+      "JavaScript": 1960,
+      "Meson": 894,
+      "Swift": 270
+    },
+    "latest_release": "wine-mono-11.2.1",
+    "latest_release_url": "https://github.com/wine-mono/wine-mono/releases/tag/wine-mono-11.2.1"
+  },
+  "license_evidence": {
+    "url": "https://github.com/wine-mono/wine-mono/blob/main/COPYING",
+    "summary": "Wine Mono consists of multiple projects with different terms. COPYING lists GPL/LGPL/MIT terms for Mono components, LGPL v2 for its compiler, and separately identifies FNA, SDL, WPF, WinForms, and other component licensing. GitHub repository metadata returns NOASSERTION; do not assert a single SPDX license for the project."
+  },
+  "no_direct_media_found": true
+}

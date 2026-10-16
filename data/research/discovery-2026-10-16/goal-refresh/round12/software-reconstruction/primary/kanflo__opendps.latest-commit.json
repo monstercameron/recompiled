@@ -1,0 +1,89 @@
+[
+  {
+    "sha": "565f776371f2a68141aa4bb2c73c7ff5e7640d2e",
+    "node_id": "C_kwDOBQOkVtoAKDU2NWY3NzYzNzFmMmE2ODE0MWFhNGJiMmM3M2M3ZmY1ZTc2NDBkMmU",
+    "commit": {
+      "author": {
+        "name": "Johan Kanflo",
+        "email": "johan.kanflo@bitfuse.net",
+        "date": "2026-09-02T18:41:36Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-09-02T18:41:36Z"
+      },
+      "message": "Merge pull request #279 from bHOLDher/wiki-updates\n\nWiki: fix outdated flashing instructions, document Pi Pico as programmer",
+      "tree": {
+        "sha": "758be966a7a474bc19cb8ad58870d28a209bb096",
+        "url": "https://api.github.com/repos/kanflo/opendps/git/trees/758be966a7a474bc19cb8ad58870d28a209bb096"
+      },
+      "url": "https://api.github.com/repos/kanflo/opendps/git/commits/565f776371f2a68141aa4bb2c73c7ff5e7640d2e",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqmG3gCRC1aQ7uu5UhlAAAPE4QAARiU9+Zo4M+YwsHEbNSGKAK\n61Xwv68D4Ns5bhrgQhI406nPORNZncTI/mUDgR/GhfcSgNFQHlaqwO/7YO0C8w9d\nD3VvEIqgFVqG5Tf3U2rnMOgEoyd+7iSdOi85exyCUW5uzB2MFCN32iAl9Z/dIKd+\nt8BkctZlEADhOh/dK522+a0TgKZIlh3Xv8BB0bSkKnnW472xPeB7/Tsb+QJ87FTe\nhIHzZomufGvrJO5s5/lTBKLd3lP0+TlzJ4men/37MTy72fEJ/TAYtqaEDUwczKNA\nXhc5wBSISTV0jtou/IwHdnEJnxwPx7nG1gUUp+L66XFJfXeHbn3FBulwFYjwBdJx\nC0ksY8E0UX4zUcm1QoM/PtSZm7QMDsRqoeEeL2d2bUUWQ+AzSjqRYHdcWq3MZkdL\niqvo2QxY9cbIFvAD8SaZWZOEgUR27aFZ5QNDsnwVE1k5SU0h/Ul3/ToXeo8jvNFg\nQsXGgs6KAqu3zMMI/ws10Y9Day9+J/ASVFfFWrilGVg/JQJ7OTJI999nedcQrtr6\niUiA8eCEhqFPU6FX5FgNOvpqYqfAuWZbr8xughLo6QxffFmed0CNuLTVwOhSJRRz\ngbdyZO61SkYCm62FjmcW6WKDWKDKeCrYGFpwfzKAskcSJXRBoi2VhBdRSw/k8L9P\nMhG8Om3q6sM9QIkfSfbw\n=fBHo\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 758be966a7a474bc19cb8ad58870d28a209bb096\nparent 0e98ff7e5ebca095ef0267d6ce57aed45fd96a06\nparent 91db2256b7feb57bfeaa49e8b98f6a39635d2d43\nauthor Johan Kanflo <johan.kanflo@bitfuse.net> 1788374496 +0200\ncommitter GitHub <noreply@github.com> 1788374496 +0200\n\nMerge pull request #279 from bHOLDher/wiki-updates\n\nWiki: fix outdated flashing instructions, document Pi Pico as programmer",
+        "verified_at": "2026-09-02T18:41:37Z"
+      }
+    },
+    "url": "https://api.github.com/repos/kanflo/opendps/commits/565f776371f2a68141aa4bb2c73c7ff5e7640d2e",
+    "html_url": "https://github.com/kanflo/opendps/commit/565f776371f2a68141aa4bb2c73c7ff5e7640d2e",
+    "comments_url": "https://api.github.com/repos/kanflo/opendps/commits/565f776371f2a68141aa4bb2c73c7ff5e7640d2e/comments",
+    "author": {
+      "login": "kanflo",
+      "id": 931076,
+      "node_id": "MDQ6VXNlcjkzMTA3Ng==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/931076?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kanflo",
+      "html_url": "https://github.com/kanflo",
+      "followers_url": "https://api.github.com/users/kanflo/followers",
+      "following_url": "https://api.github.com/users/kanflo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kanflo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kanflo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kanflo/subscriptions",
+      "organizations_url": "https://api.github.com/users/kanflo/orgs",
+      "repos_url": "https://api.github.com/users/kanflo/repos",
+      "events_url": "https://api.github.com/users/kanflo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kanflo/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0e98ff7e5ebca095ef0267d6ce57aed45fd96a06",
+        "url": "https://api.github.com/repos/kanflo/opendps/commits/0e98ff7e5ebca095ef0267d6ce57aed45fd96a06",
+        "html_url": "https://github.com/kanflo/opendps/commit/0e98ff7e5ebca095ef0267d6ce57aed45fd96a06"
+      },
+      {
+        "sha": "91db2256b7feb57bfeaa49e8b98f6a39635d2d43",
+        "url": "https://api.github.com/repos/kanflo/opendps/commits/91db2256b7feb57bfeaa49e8b98f6a39635d2d43",
+        "html_url": "https://github.com/kanflo/opendps/commit/91db2256b7feb57bfeaa49e8b98f6a39635d2d43"
+      }
+    ]
+  }
+]

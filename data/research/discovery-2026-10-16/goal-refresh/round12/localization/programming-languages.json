@@ -1,0 +1,57 @@
+{
+  "verified_at": "2026-10-16",
+  "evidence_type": "GitHub REST Languages API byte totals; predominant_language is selected from repository code bytes only, never inferred from the human translation language.",
+  "records": [
+    {
+      "project_id": "persona-2-innocent-sin-psp-french",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Python": 461652,
+        "HTML": 22876,
+        "Batchfile": 2377,
+        "JavaScript": 2023
+      },
+      "evidence_url": "https://api.github.com/repos/chenetulipe/P2-FR-IS-PSP/languages",
+      "evidence": "Exact API byte map. Python is predominant; HTML is markup. The human localization is English → French.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": null
+    },
+    {
+      "project_id": "pokemon-unbound-french",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Python": 4257349,
+        "TypeScript": 553977,
+        "Makefile": 30867,
+        "Lua": 26727,
+        "Shell": 11333,
+        "JavaScript": 6255,
+        "HTML": 2069
+      },
+      "evidence_url": "https://api.github.com/repos/AntonyKervazoCanut/gba_translator/languages",
+      "evidence": "Exact API byte map. Python has the largest measured code-byte total. The French patch is English → French; translation language is unrelated to the code-language assignment.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": null
+    },
+    {
+      "project_id": "yoiyami-dancers-steam-zh-cn",
+      "predominant_language": null,
+      "language_breakdown_bytes": {},
+      "evidence_url": "https://api.github.com/repos/Cyclin15/YoiyamiDancers-ChinesePatch/languages",
+      "evidence": "GitHub Languages API returned {}; no programming-language bytes are reported. Do not infer source-code language from the Chinese asset payload.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": "GitHub reports an empty language byte map; no predominant programming language is measurable."
+    },
+    {
+      "project_id": "harvest-moon-back-to-nature-ps1-ptbr",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Python": 88308
+      },
+      "evidence_url": "https://api.github.com/repos/GabriPires/traducao-hm-btn-ptbr/languages",
+      "evidence": "Exact API byte map contains Python: 88308 bytes. Python is the only detected programming-language category. Translation direction is English → Brazilian Portuguese and does not establish the code-language result.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": null
+    }
+  ]
+}

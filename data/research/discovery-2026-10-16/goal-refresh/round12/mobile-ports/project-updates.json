@@ -1,0 +1,31 @@
+{
+  "updated": "2026-10-16",
+  "updates": [
+    {
+      "id": "pokemon-emerald-decompilation-android",
+      "fields": {
+        "project_url": "https://github.com/gradenGnostic/pokeemerald-multiplatform",
+        "updated": "2026-10-16",
+        "status": "Windows and Linux builds are available in the parent repository’s v1 release (published 2026-08-11); its release assets are desktop archives only, with no Android APK. The maintainer documents the Android ARMv7 SDL2 build as working but experimental, requires Android API 36 / armeabi-v7a, and names no tested physical device. The parent repository’s latest push was 2026-08-15."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README in the parent repository for the already-cataloged Android multiplatform fork; confirms Windows/Linux working, experimental Android ARMv7 build, API 36/armeabi-v7a requirement, and no game ROM distribution",
+          "url": "https://github.com/gradenGnostic/pokeemerald-multiplatform/blob/main/README.md"
+        },
+        {
+          "label": "Parent GitHub repository metadata; parent lineage and last push checked 2026-10-16",
+          "url": "https://api.github.com/repos/gradenGnostic/pokeemerald-multiplatform"
+        },
+        {
+          "label": "Official parent repository GitHub Languages API exact byte totals checked 2026-10-16",
+          "url": "https://api.github.com/repos/gradenGnostic/pokeemerald-multiplatform/languages"
+        },
+        {
+          "label": "Parent repository v1 release (2026-08-11) with Windows/Linux archives only; no Android APK asset",
+          "url": "https://github.com/gradenGnostic/pokeemerald-multiplatform/releases/tag/v1"
+        }
+      ]
+    }
+  ]
+}

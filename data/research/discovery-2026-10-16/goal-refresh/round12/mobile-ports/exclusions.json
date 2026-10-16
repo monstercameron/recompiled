@@ -1,0 +1,79 @@
+{
+  "checked_on": "2026-10-16",
+  "holds": [
+    {
+      "repository": "https://github.com/portfolio2282/farcry3recompiledandroid",
+      "reason": "GitHub repository metadata has no description or language map; README endpoint returns 404, no releases are listed, and no maintained source or verifiable implementation status was available. Held as an unqualified lead."
+    },
+    {
+      "repository": "https://github.com/emmahiguita/LibertyRecomp-MidRange-Edition",
+      "reason": "A direct derivative/compatibility fork of the already-cataloged LibertyRecompAndroid project for the same GTA IV Xbox 360 → Android target. It advertises a Mali/GPU compatibility build and its own device report, but adds no distinct game or platform target; preserve as lineage/compatibility evidence rather than creating a duplicate game-port row."
+    },
+    {
+      "repository": "https://github.com/Yannis100/vita-port-skill",
+      "reason": "A reusable PS Vita porting agent-skill/toolkit rather than a finished game or application port; out of the game-project catalog scope."
+    },
+    {
+      "repository": "https://github.com/DuskDarf1/Dark-Nebula-1-2-Recompilied",
+      "reason": "The README describes iOS preservation ports of a game originally designed for iOS, not PC/console-to-phone or phone-to-console work. The project’s binary/data/runtime provenance and license scope are not sufficiently clear for this mobile-port lane."
+    },
+    {
+      "repository": "https://github.com/ZinexDa/sonic-r-android",
+      "reason": "Already cataloged as sonic-r-android-decomp-port. The exact repository, Android target, status, and language evidence were checked; do not add a second row."
+    },
+    {
+      "repository": "https://github.com/andrewnakas/skate3-ios-setup",
+      "reason": "Already cataloged as skate3-ios-recomp. It appeared in a prior staged/approved addition manifest and in the live catalog; no duplicate addition."
+    },
+    {
+      "repository": "https://github.com/aribrilliantsyah/Burnout3-Recompiled-Mobile",
+      "reason": "This proposed Android row shares the exact Burnout 3 Original Xbox → Android game/platform tuple with existing Takedawn and is derived from sp00nznet/burnout3. It is retained as a distinct Android-specific implementation because its README documents its own SDL2 app, Vulkan/NV2A renderer and device matrix, but the overlap must remain explicit and popularity must not be double-counted as an independent game target."
+    },
+    {
+      "repository": "https://github.com/OptiJuegos/PvZ2Native",
+      "reason": "The README describes loading an Android ARM32 game binary on Windows/Linux/macOS using a CPU JIT plus native Android-API reimplementations; it is a desktop compatibility project, not a phone/console port for this mobile lane. It may merit a separate desktop/API-translation review."
+    },
+    {
+      "repository": "https://github.com/SamsWebs/storm-engine-v2",
+      "reason": "A cross-platform game engine/template with Android and Switch homebrew targets, not a specific legacy game decompilation, recompilation, or port target."
+    },
+    {
+      "repository": "https://github.com/sbeeds/port_vita",
+      "reason": "A general Android-to-PS-Vita .so loader/boilerplate and porting technique. It is a framework rather than one game-specific port; catalog separately only if the project list is expanded to reusable tools."
+    },
+    {
+      "repository": "https://github.com/Sasky828373/nfsmwpc-recompiled",
+      "reason": "A very small fork/duplicate search hit for the already-cataloged Need for Speed Most Wanted PC-to-Android recompilation repository codepdbh/nfsmwpc-recompiled; do not create a second target row."
+    }
+  ],
+  "distinct_target_notes": [
+    {
+      "candidate": "pokemon-emerald-decompilation-android",
+      "note": "The same Android ARMv7 decompilation fork lineage is already in the live catalog as pokemon-emerald-decompilation-android. Treat GradenGnostic as a source/status/language refresh for that row, not a second addition; the cataloged KamiKitsune420 repository is a fork of GradenGnostic."
+    },
+    {
+      "candidate": "yoshis-island-sma3-android-static-recomp",
+      "note": "No row or staged addition for this repository was found; a prior malformed/404 SMA3 lead referred to a different URL. This repository’s trailing-dot GitHub URL is live and exposes a v0.9 APK release."
+    },
+    {
+      "candidate": "binding-of-isaac-repentance-clean-room-android",
+      "note": "Existing Binding of Isaac records concern the original Flash version on Android and the Repentance PC build on Vita; this is a distinct Repentance engine/API reimplementation targeting Android, albeit an explicitly non-playable scaffold."
+    },
+    {
+      "candidate": "wwf-wrestlemania-arcade-c-recomp-android-tv",
+      "note": "An existing WWF WrestleMania 2000 N64 recomp is a different game and source target. This record is the arcade WWF WrestleMania: The Arcade Game TMS34010 program and an Android TV build."
+    },
+    {
+      "candidate": "bully-anniversary-android-switch-homebrew",
+      "note": "Game-specific Android ARM64 binary wrapper targeting Switch homebrew; distinct from the cataloged Xbox 360 Bully: Scholarship Edition recompilation. It is an API/ABI compatibility port, not a recompilation of Bully code."
+    },
+    {
+      "candidate": "streets-of-rage-x-android-switch-translation",
+      "note": "Android OpenBOR fan-game binaries are adapted to Switch Horizon OS through native homebrew shims. This is a platform-API port and does not bundle the separately distributed Streets of Rage X game."
+    },
+    {
+      "candidate": "viridite-android-to-horizon-compatibility-layer",
+      "note": "Reusable Android-to-Horizon software compatibility/translation layer; treat Hill Climb Racing as its current test title, not an additional game project row. Custom license is source-available, attribution, non-commercial, and share-alike."
+    }
+  ]
+}

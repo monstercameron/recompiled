@@ -1,0 +1,317 @@
+{
+  "updated": "2026-10-16",
+  "scope": "Fresh console/PC-to-Android and mobile-adjacent projects found by GitHub/web search and qualified against maintainer source. Every status distinguishes released APKs, local-build-only targets, device reports, and incomplete work. No live catalog or tracked files were changed.",
+  "projects": [
+    {
+      "id": "burnout-3-xbox-native-android-recomp-b3x",
+      "title": "Burnout 3: Takedown Original Xbox Android Static Recompilation (b3x)",
+      "game": "Burnout 3: Takedown (Original Xbox, North American NTSC-U retail release)",
+      "target_type": "Game",
+      "platform": "Original Xbox NTSC-U XBE → Android 11+ ARM64 (arm64-v8a), Vulkan 1.1+; Windows and Linux desktop builds are also documented",
+      "kind": "Recompilation",
+      "status": "The maintainer labels the Android build 1.0.0 and reports races at 55–60 fps on an Android 13 Infinix X6815D (Dimensity 920/Mali-G68) and 36–44 fps on an Android 15 POCO M3 (Snapdragon 662/Adreno 610). These are project-reported tests. The README gives local build/install instructions; the GitHub Releases API showed no published release assets when checked on 2026-10-16. The game is not included.",
+      "summary": "An Android-specific static recompilation of Burnout 3’s original Xbox NTSC-U executable: xboxrecomp lifts the XBE instructions to C, which is compiled for ARM64; a native Vulkan renderer translates NV2A graphics work, and SDL2 supplies Android app, audio, touch, and controller integration. The README credits sp00nznet’s Burnout 3 recompilation and xboxrecomp toolkit. A user-owned ISO or extracted game directory is required; no game data is shipped.",
+      "project_url": "https://github.com/aribrilliantsyah/Burnout3-Recompiled-Mobile",
+      "updated": "2026-10-16",
+      "strategy": "Static Original Xbox x86-to-C recompilation with an Android ARM64 build and native Vulkan renderer; SDL2 Android app shell and user-supplied NTSC-U game data.",
+      "language": "English (the supported NTSC-U game image documented by the project)",
+      "source_available": "Public source repository; GitHub identifies MIT. The README credits sp00nznet/Burnout 3 recompilation and its MIT xboxrecomp toolkit. No retail game data is included; a user-owned Original Xbox NTSC-U copy is required. No GitHub release asset was present at the 2026-10-16 check.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Original Xbox static recompilation; Android Vulkan port",
+      "sources": [
+        {
+          "label": "Maintainer README: static recompilation method, Android requirements, device results, content boundary, build process and credits",
+          "url": "https://github.com/aribrilliantsyah/Burnout3-Recompiled-Mobile/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer Android-device notes and GPU test matrix",
+          "url": "https://github.com/aribrilliantsyah/Burnout3-Recompiled-Mobile/blob/main/docs/research/android-devices.md"
+        },
+        {
+          "label": "Project change log; the README labels the Android version 1.0.0",
+          "url": "https://github.com/aribrilliantsyah/Burnout3-Recompiled-Mobile/blob/main/CHANGELOG.md"
+        },
+        {
+          "label": "Repository license",
+          "url": "https://github.com/aribrilliantsyah/Burnout3-Recompiled-Mobile/blob/main/LICENSE"
+        },
+        {
+          "label": "GitHub repository metadata; default branch, latest push and release availability checked 2026-10-16",
+          "url": "https://api.github.com/repos/aribrilliantsyah/Burnout3-Recompiled-Mobile"
+        },
+        {
+          "label": "Official GitHub Languages API byte totals checked 2026-10-16",
+          "url": "https://api.github.com/repos/aribrilliantsyah/Burnout3-Recompiled-Mobile/languages"
+        },
+        {
+          "label": "Burnout 3 recompilation and xboxrecomp toolkit credited by the Android repository",
+          "url": "https://github.com/sp00nznet/burnout3"
+        }
+      ]
+    },
+    {
+      "id": "yoshis-island-sma3-android-static-recomp",
+      "title": "Yoshi’s Island: Super Mario Advance 3 Android Static Recompilation",
+      "game": "Yoshi’s Island: Super Mario Advance 3 (USA, Game Boy Advance)",
+      "target_type": "Game",
+      "platform": "Game Boy Advance USA → Android 9+ ARM64 (API 28+); Linux is used for host validation and build preparation",
+      "kind": "Recompilation",
+      "status": "Experimental v0.9 ARM64 APK is available in the GitHub release tagged “Descarga” (2026-10-04; 31.8 MB). The README still says the 0.9 upload is pending, so its download note is stale. The maintainer reports 120 fps on a Pixel 7 Pro with v0.8; this is not independently measured and does not validate v0.9’s touch-layout editor. The README says full-game/level coverage, audio, saves, lifecycle and physical controller checks remain incomplete.",
+      "summary": "A game-specific GBA static recompilation using the GBARecomp toolchain and project-specific address/disassembly metadata. Game and BIOS code are translated to C++ and compiled for ARM64 with strict native dispatch and no interpreter fallback. The Android app supports on-screen controls, configurable layouts, and partial English, Latin American Spanish, and Brazilian Portuguese text. Users provide their own matching USA ROM and GBA BIOS; neither is included.",
+      "project_url": "https://github.com/Edwin2929/sma3-recomp-android.",
+      "updated": "2026-10-16",
+      "strategy": "Strict static recompilation of GBA program code to C++, compiled for Android ARM64 using GBARecomp and project-specific disassembly/address tables; unsupported calls do not fall back to an interpreter.",
+      "language": "English, Latin American Spanish, and Brazilian Portuguese partial menu/name text; the README says graphics labels, credits, and Mario Bros remain English.",
+      "source_available": "Public source repository, but no repository-wide license grant was found. The README reports that the GBARecomp engine uses PolyForm Noncommercial 1.0.0 and arm-recomp-core uses MIT; those terms do not grant rights to the game or BIOS. The user supplies a matching USA ROM and GBA BIOS; generated game code and the ROM are not included.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Nintendo Game Boy Advance static recompilation for Android",
+      "sources": [
+        {
+          "label": "Maintainer README: method, Android target, supported partial text languages, ROM/BIOS inputs, testing caveats and license notes",
+          "url": "https://github.com/Edwin2929/sma3-recomp-android./blob/main/README.md"
+        },
+        {
+          "label": "Published v0.9 ARM64 APK, release metadata dated 2026-10-04; release page resolves the stale README download note",
+          "url": "https://github.com/Edwin2929/sma3-recomp-android./releases/tag/Descarga"
+        },
+        {
+          "label": "Maintainer validation report and explicit limits on device/gameplay coverage",
+          "url": "https://github.com/Edwin2929/sma3-recomp-android./blob/main/docs/VALIDACION.md"
+        },
+        {
+          "label": "Project third-party license notes",
+          "url": "https://github.com/Edwin2929/sma3-recomp-android./blob/main/THIRD_PARTY.md"
+        },
+        {
+          "label": "GitHub repository metadata and license classifier checked 2026-10-16",
+          "url": "https://api.github.com/repos/Edwin2929/sma3-recomp-android."
+        },
+        {
+          "label": "Official GitHub Languages API byte totals checked 2026-10-16",
+          "url": "https://api.github.com/repos/Edwin2929/sma3-recomp-android./languages"
+        },
+        {
+          "label": "GBARecomp toolchain used by the project; its own license applies separately",
+          "url": "https://github.com/mstan/gbarecomp"
+        },
+        {
+          "label": "SMA3 disassembly/address research referenced by the project",
+          "url": "https://github.com/KarisaAdvynia/sma3-disasm"
+        }
+      ]
+    },
+    {
+      "id": "wwf-wrestlemania-arcade-c-recomp-android-tv",
+      "title": "WWF WrestleMania: The Arcade Game Recompilation for Android TV",
+      "game": "WWF WrestleMania: The Arcade Game (Arcade, Wolf Unit REV 1.30)",
+      "target_type": "Game",
+      "platform": "Midway Wolf Unit arcade (TMS34010, REV 1.30) → desktop Windows/macOS/Linux and Android TV; NVIDIA Shield TV Pro is the only documented Android device, with no phone/tablet test claimed",
+      "kind": "Recompilation",
+      "status": "The recompiled game boots, passes its power-up self-test, runs attract mode, and plays matches using original art; fidelity checks against arcade hardware remain listed as next. The README and Android-specific notes report the Android TV app built and run on an NVIDIA Shield TV Pro, while also identifying some Android packaging/data-copy steps as untested; no Android release is listed and other devices have not been tried.",
+      "summary": "A C recompilation of the original TMS34010 game program translated from the historical assembly/disassembly source, hosted with SDL2 and a Wolf Unit hardware runtime. It supports desktop systems and an Android TV app with controller navigation. Users provide the original game images and sound ROM data; these are not included. The project separates optional display/gameplay modifications from the original behavior.",
+      "project_url": "https://github.com/lurendrejer/wwfmania_recomp_public",
+      "updated": "2026-10-16",
+      "strategy": "Static TMS34010-to-C recompilation with a Wolf Unit runtime and SDL2 platform layer; Android TV uses an SDL2 activity and controller input.",
+      "language": "",
+      "source_available": "Public GPL-3.0 source. Original arcade image and sound data are not distributed; the user must supply the source game data. The README links the historical assembly/disassembly source and documents the project’s license.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Arcade TMS34010 static recompilation; Android TV port",
+      "sources": [
+        {
+          "label": "Maintainer README: revision, TMS34010-to-C method, status, modifications and platform overview",
+          "url": "https://github.com/lurendrejer/wwfmania_recomp_public/blob/main/README.md"
+        },
+        {
+          "label": "Android TV build/run status, device scope and still-untested packaging work",
+          "url": "https://github.com/lurendrejer/wwfmania_recomp_public/blob/main/docs/ANDROID.md"
+        },
+        {
+          "label": "Project GPL-3.0 license",
+          "url": "https://github.com/lurendrejer/wwfmania_recomp_public/blob/main/LICENSE"
+        },
+        {
+          "label": "Original assembly/disassembly source credited by the project",
+          "url": "https://github.com/historicalsource/wwf-wrestlemania"
+        },
+        {
+          "label": "GitHub repository metadata; pushed 2026-10-09 and no published release found at the 2026-10-16 check",
+          "url": "https://api.github.com/repos/lurendrejer/wwfmania_recomp_public"
+        },
+        {
+          "label": "Official GitHub Languages API byte totals checked 2026-10-16",
+          "url": "https://api.github.com/repos/lurendrejer/wwfmania_recomp_public/languages"
+        }
+      ]
+    },
+    {
+      "id": "binding-of-isaac-repentance-clean-room-android",
+      "title": "The Binding of Isaac: Repentance Clean-Room Engine for Android",
+      "game": "The Binding of Isaac: Repentance",
+      "target_type": "Game",
+      "platform": "Windows PC/Steam 32-bit x86 → Android ARM64 (primary target) and Linux x86-64",
+      "kind": "Reimplementation",
+      "status": "The v0.1.0 release (2026-10-12) is explicitly an early scaffold, not a playable game: the repository reports 0 of 655 native function bodies implemented and nothing rendered. It does contain a recovered/registered API surface, engine lifecycle scaffolding, reproducible binding-table extraction from the user’s own install, and CI cross-compilation for Android ARM64.",
+      "summary": "An independent MIT-licensed C++17 clean-room engine reimplementation targeting the Windows/Steam PC game’s runtime behavior on Android ARM64 and Linux. It reads a user-owned Steam installation at runtime and ships no game code, data, sprites, audio, video, or text. The first release registers 655 Lua-facing method names and includes Android cross-build checks, but implements no native method bodies or renderer yet.",
+      "project_url": "https://github.com/caos-obliquo/tboi-recomp",
+      "updated": "2026-10-16",
+      "strategy": "Clean-room C++17 engine/API reimplementation from a compatibility specification and user-local binding-table analysis; it does not statically translate the game executable.",
+      "language": "",
+      "source_available": "Public MIT source. The README describes the implementation as clean-room and says it contains no game code/assets/data; it reads files from a user-owned Steam install. The project does not grant rights to the commercial game.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Early-stage clean-room engine reimplementation with Android ARM64 target",
+      "sources": [
+        {
+          "label": "Maintainer README: clean-room method, exact PC input and Android/Linux targets, data boundary, and current 0/655 implementation state",
+          "url": "https://github.com/caos-obliquo/tboi-recomp/blob/main/README.md"
+        },
+        {
+          "label": "First release v0.1.0, explicitly describing a non-playable scaffold",
+          "url": "https://github.com/caos-obliquo/tboi-recomp/releases/tag/v0.1.0"
+        },
+        {
+          "label": "Repository MIT license",
+          "url": "https://github.com/caos-obliquo/tboi-recomp/blob/main/LICENSE"
+        },
+        {
+          "label": "GitHub repository metadata and dates checked 2026-10-16",
+          "url": "https://api.github.com/repos/caos-obliquo/tboi-recomp"
+        },
+        {
+          "label": "Official GitHub Languages API byte totals checked 2026-10-16",
+          "url": "https://api.github.com/repos/caos-obliquo/tboi-recomp/languages"
+        }
+      ]
+    },
+    {
+      "id": "bully-anniversary-android-switch-homebrew",
+      "title": "Bully: Anniversary Edition Android-to-Switch Homebrew Port",
+      "game": "Bully: Anniversary Edition (Android ARM64 v1.4.311)",
+      "target_type": "Game",
+      "platform": "Android arm64-v8a app v1.4.311 → Nintendo Switch Horizon OS (AArch64 homebrew)",
+      "kind": "API Translation",
+      "status": "Work in progress: the maintainer says the Switch wrapper boots and runs the game, but it is unfinished and still uses temporary workarounds. Installation requires the matching user-owned Android APK data and native libraries; the repository distributes neither.",
+      "summary": "A game-specific Nintendo Switch homebrew wrapper for the Android release of Bully: Anniversary Edition. It loads the original Android ARM64 game library and adapts the required runtime calls through a Switch-side compatibility layer; it does not decompile or reimplement the game. The project is derived from fgsfds’ max_nx Switch loader and the Bully Vita port lineage.",
+      "project_url": "https://github.com/givethesourceplox/bully-NX",
+      "updated": "2026-10-16",
+      "strategy": "Android ARM64 native-binary compatibility port: retain the original game .so and bridge the Android runtime/API surface to Nintendo Switch Horizon OS via a Switch homebrew loader and shims.",
+      "language": "English (Android release v1.4.311 target)",
+      "source_available": "Public MIT-licensed wrapper source. No Android APK, game libraries, or game assets are included; the user must supply files from an officially obtained v1.4.311 copy. The repository is a derivative of fgsfds/max_nx; upstream/game terms remain separate.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Android-to-Switch runtime/API compatibility port",
+      "sources": [
+        {
+          "label": "Maintainer README: exact Android app version/ABI, user-supplied files, work-in-progress status, and Switch launch requirements",
+          "url": "https://github.com/givethesourceplox/bully-NX/blob/master/README.md"
+        },
+        {
+          "label": "GitHub repository metadata and declared MIT license; parent lineage checked 2026-10-16",
+          "url": "https://api.github.com/repos/givethesourceplox/bully-NX"
+        },
+        {
+          "label": "Official GitHub Languages API byte totals checked 2026-10-16",
+          "url": "https://api.github.com/repos/givethesourceplox/bully-NX/languages"
+        },
+        {
+          "label": "Nintendo Switch Android-binary loader project identified as the fork parent",
+          "url": "https://github.com/fgsfdsfgs/max_nx"
+        },
+        {
+          "label": "Bully Vita source project identified in the repository description",
+          "url": "https://github.com/TheOfficialFloW/bully_vita"
+        }
+      ]
+    },
+    {
+      "id": "streets-of-rage-x-android-switch-translation",
+      "title": "Streets of Rage X Android-to-Switch Homebrew Port",
+      "game": "Streets of Rage X (OpenBOR fan game; Android release)",
+      "target_type": "Game",
+      "platform": "Android arm64-v8a release → Nintendo Switch Horizon OS (AArch64 homebrew)",
+      "kind": "API Translation",
+      "status": "Release 1.0.1 (2026-08-14) is published. The maintainer documents that the port can play all stages after the initial asset extraction, while videos are stubbed and first-run loading can be slow. It requires the user to provide the Android libraries and game package from the Android release.",
+      "summary": "A MIT-licensed Nintendo Switch homebrew loader for the Android release of the OpenBOR fan game Streets of Rage X. It loads the Android ARM64 SDL2/OpenBOR libraries and bridges Android-facing JNI, libc, EGL/GLES, audio, and lifecycle calls to Switch services; it is not a source recompilation or Android emulator. The project does not bundle the Android game package or its assets.",
+      "project_url": "https://github.com/delsonazevedo/sorx_nx",
+      "updated": "2026-10-16",
+      "strategy": "Android ABI/API compatibility layer on Switch: execute the provided Android ARM64 libraries while bridging fake JNI, bionic-to-newlib libc, EGL/GLES imports, audio, and SDL activity lifecycle to native Switch homebrew services.",
+      "language": "English (the project wrapper; game language follows the user-supplied Android game release)",
+      "source_available": "Public MIT-licensed Switch wrapper source. Users supply the Android binaries and OpenBOR package from the separately distributed fan game; the port repository says it does not include the game assets.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Android OpenBOR game-to-Switch API translation/homebrew port",
+      "sources": [
+        {
+          "label": "Maintainer README: Android-to-Switch runtime method, required files, status/limitations, build and credits",
+          "url": "https://github.com/delsonazevedo/sorx_nx/blob/main/README.md"
+        },
+        {
+          "label": "Version 1.0.1 Switch-port release, published 2026-08-14",
+          "url": "https://github.com/delsonazevedo/sorx_nx/releases/tag/1.0.1"
+        },
+        {
+          "label": "Repository license and metadata; last push and release state checked 2026-10-16",
+          "url": "https://api.github.com/repos/delsonazevedo/sorx_nx"
+        },
+        {
+          "label": "Official GitHub Languages API byte totals checked 2026-10-16",
+          "url": "https://api.github.com/repos/delsonazevedo/sorx_nx/languages"
+        },
+        {
+          "label": "Separate upstream Streets of Rage X Android/OpenBOR game release referenced by the port",
+          "url": "https://www.chronocrash.com/forum/resources/streets-of-rage-x-windows-android.274/"
+        }
+      ]
+    },
+    {
+      "id": "viridite-android-to-horizon-compatibility-layer",
+      "title": "Viridite Android-to-Horizon Compatibility Layer",
+      "game": "Viridite Android-to-Horizon Compatibility Layer",
+      "target_type": "Software",
+      "platform": "Android ARM64/ARM32 native NDK applications → Nintendo Switch Horizon OS (AArch64)",
+      "kind": "API Translation",
+      "status": "Experimental source-available compatibility layer. The maintainer reports Hill Climb Racing playable on real Switch hardware with touch input, audio, and a locked 60 fps; the README still notes a crash in the Shop screen and that full save-persistence round-trip testing is outstanding. The README says other detected games are not thereby confirmed playable.",
+      "summary": "A Nintendo Switch homebrew launcher and Android-runtime compatibility/translation layer. It runs Android native libraries on Horizon OS without Android or a whole-device emulator, adapting the needed Android ABI/API, JNI, filesystem, graphics, and audio behavior to Switch-side services. Hill Climb Racing 1.x is the hardware-tested target; this is a reusable software framework, not a catalog entry for each recognized APK.",
+      "project_url": "https://github.com/Viridite/Viridite",
+      "updated": "2026-10-16",
+      "strategy": "Runtime Android ABI/API translation for Horizon OS: load Android native ELF libraries and bridge JNI, libc, graphics, storage, and audio behavior to Nintendo Switch services.",
+      "language": "",
+      "source_available": "Public source repository under a custom source-available, non-commercial, attribution/share-alike license; it is not a standard permissive open-source license. No third-party Android application binaries or game data are included.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Android application compatibility layer for Nintendo Switch homebrew",
+      "sources": [
+        {
+          "label": "Maintainer README: architecture, tested Hill Climb Racing target, hardware-reported playability, and remaining blockers",
+          "url": "https://github.com/Viridite/Viridite/blob/main/README.md"
+        },
+        {
+          "label": "Custom Android Horizon NX Free & Source-Available License v1.0",
+          "url": "https://github.com/Viridite/Viridite/blob/main/LICENSE"
+        },
+        {
+          "label": "Latest tagged v0.2.133-testing-alpha release; release notes identify included components and build date 2026-08-08",
+          "url": "https://github.com/Viridite/Viridite/releases/tag/v0.2.133-testing-alpha"
+        },
+        {
+          "label": "GitHub repository metadata and latest source push checked 2026-10-16",
+          "url": "https://api.github.com/repos/Viridite/Viridite"
+        },
+        {
+          "label": "Official GitHub Languages API exact byte totals checked 2026-10-16",
+          "url": "https://api.github.com/repos/Viridite/Viridite/languages"
+        }
+      ]
+    }
+  ]
+}

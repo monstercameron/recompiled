@@ -1,0 +1,59 @@
+{
+  "checked_on": "2026-10-16",
+  "live_catalog": {
+    "database": "data/catalog.sqlite",
+    "projects": 3411,
+    "directory_items": 55,
+    "read_mode": "SQLite URI mode=ro"
+  },
+  "project_additions": {
+    "proposed_count": 12,
+    "exact_id_collisions": [],
+    "exact_canonical_project_url_collisions": [],
+    "target_overlaps_reviewed": [
+      {
+        "candidate_id": "super-metroid-csharp-port",
+        "game": "Super Metroid",
+        "existing_ids": ["super-metroid-snes-recomp", "super-metroid-disassembly", "super-metroid-3ds-native-port"],
+        "decision": "retain as a distinct C# behavior translation with Windows/Android builds; it is not an alias of the existing static recompilation, annotated disassembly, or 3DS port."
+      },
+      {
+        "candidate_id": "vagrant-story-ps1-native-dynarec-port",
+        "game": "Vagrant Story",
+        "existing_ids": ["vagrant-story-decomp", "vagrant-story-native-pc-port"],
+        "decision": "retain as a distinct psxport/Lightrec dynamic-recompilation effort. The existing Vagrant Story native-PC row uses the rood-boi/rood-reverse source-port lineage; repository, execution method and current boot milestones differ."
+      },
+      {
+        "candidate_id": "super-mario-galaxy-macios-native-port",
+        "game": "Super Mario Galaxy",
+        "existing_ids": ["galaxypad-super-mario-galaxy", "super-mario-galaxy-petari-decomp", "super-mario-galaxy-wii-recomp", "super-mario-galaxy-android-port", "super-mario-galaxy-galaxyquest-vr-port", "super-mario-galaxy-new-3ds-static-recomp"],
+        "decision": "retain: separate repository and independent native Apple-Silicon implementation based on Petari; not an alias of GalaxyPad or the other platform-specific projects."
+      },
+      {
+        "candidate_id": "populous-the-beginning-macos-static-recomp",
+        "game": "Populous: The Beginning and Undiscovered Worlds",
+        "existing_ids": ["recomp-kit-x86-windows-static-recompiler"],
+        "decision": "retain as a game-specific playable port. The existing row is a general-purpose 32-bit Windows static-recompiler toolkit that names Populous as a first target, not this distinct game-specific implementation/release."
+      }
+    ],
+    "other_staged_addition_collisions": [],
+    "discovery_leads_only": [
+      "SuperMetroidDecomp appeared in previous raw lead/search-result files, but no importer-ready project addition was found.",
+      "MacioGalaxy appeared in a prior federated lead file, but no importer-ready project addition or live catalog row was found.",
+      "OpenPopTB-MacOS appeared in previous broad GitHub search/lead files, but no importer-ready project addition or live catalog row was found."
+    ],
+    "omitted_exact_staged_overlap": "toy-story-2-ps1-lightrec-native-port was detected in continuation-round12/game-recomp/new-projects.json and is intentionally absent from this lane."
+  },
+  "directory_additions": {
+    "proposed_count": 3,
+    "exact_url_collisions": [],
+    "already_present_related_entries": [
+      {"id": "recompendium-static-recompilation-catalog", "url": "https://nio03.github.io/unricopie/", "decision": "verified current and not duplicated"},
+      {"id": "recomp-fyi", "url": "https://recomp.fyi/", "decision": "already cataloged; not repeated"}
+    ]
+  },
+  "project_updates": {
+    "staged_count": 0,
+    "decision": "No evidence-backed field change to a live project row was warranted. Tourist Trophy's exact current progress is already in its row; Smash64DS's latest README status snapshot is dated 2026-10-02 and matches its row; CTRPad's v0.2.2/2026-10-05 status is already recorded."
+  }
+}

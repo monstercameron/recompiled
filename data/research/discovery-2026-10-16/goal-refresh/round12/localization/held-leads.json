@@ -1,0 +1,44 @@
+{
+  "verified_at": "2026-10-16",
+  "held": [
+    {
+      "repository": "https://github.com/P0ttwal/unbound-german-deutsch",
+      "target": "Pokémon Unbound, German",
+      "status": "README provides German UPS patch for Unbound 2.1.1.1; no GitHub Releases; Languages API map is empty.",
+      "reason": "Same game and language target as existing pokemon-unbound-de-german row, maintained from a different repository. Held as a competing patch variant to avoid a duplicate row unless the catalog deliberately tracks alternate translations.",
+      "sources": [
+        "https://github.com/P0ttwal/unbound-german-deutsch",
+        "https://github.com/pokemon-unbound-de/pokemon-unbound-de/releases/tag/v0.1.3"
+      ]
+    },
+    {
+      "repository": "https://github.com/sincess1/the-guild-1-remake-europa-1410-rusifikator",
+      "target": "The Guild 1 Remake: Europa 1410, Russian",
+      "status": "Public v1.0.1 patch for Steam Early Access 0.4.5 (2026-09-27); Russian occupies the German locale slot.",
+      "reason": "Maintainer README lists English and German as game locales but does not identify the source locale used for the Russian text. Do not infer a language pair.",
+      "sources": [
+        "https://github.com/sincess1/the-guild-1-remake-europa-1410-rusifikator",
+        "https://github.com/sincess1/the-guild-1-remake-europa-1410-rusifikator/releases/tag/v1.0.1"
+      ]
+    },
+    {
+      "repository": "https://github.com/743859910/GitHub_Desktop_Simplified_Chinese",
+      "target": "GitHub Desktop, Simplified Chinese",
+      "status": "README claims support for GitHub Desktop 3.5.0–3.6.7 on Linux/macOS/Windows and includes upstream 3.6.7 notes dated 2026-10-14; its named release tag is dated 2025-03-12.",
+      "reason": "Target UI language is explicit but maintainer materials do not identify the source locale or exact base strings. Held rather than assert an English → Simplified Chinese pair.",
+      "sources": [
+        "https://github.com/743859910/GitHub_Desktop_Simplified_Chinese",
+        "https://github.com/743859910/GitHub_Desktop_Simplified_Chinese/releases/tag/Latest-Version"
+      ]
+    },
+    {
+      "repository": "https://github.com/GabriPires/traducao-hm-btn-ptbr",
+      "target": "Harvest Moon: Back to Nature PS1 USA, Brazilian Portuguese",
+      "status": "Active WIP with no patch release yet.",
+      "reason": "Included as a verified WIP project despite no downloadable patch; it is not counted among released patch packages.",
+      "sources": [
+        "https://github.com/GabriPires/traducao-hm-btn-ptbr/blob/main/README.md"
+      ]
+    }
+  ]
+}

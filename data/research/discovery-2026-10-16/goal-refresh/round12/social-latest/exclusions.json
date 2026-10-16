@@ -1,0 +1,83 @@
+{
+  "checked_on": "2026-10-16",
+  "exclusions": [
+    {
+      "candidate": "Toy Story 2 PlayStation native/dynamic-recompilation port",
+      "url": "https://github.com/SomeoneIsWorking/psx-toy-story-2",
+      "decision": "deduplicated against an active sibling-lane addition",
+      "evidence": "The exact repository is already in work/research-2026-10-16/continuation-round12/game-recomp/new-projects.json as toy-story-2-ps1-lightrec-native-port; not repeated here."
+    },
+    {
+      "candidate": "Pokémon Colosseum matching decompilation",
+      "url": "https://github.com/dougchansan/pkmn-colosseum",
+      "decision": "deduplicated against a staged project addition",
+      "evidence": "The exact repository appears in data/research/discovery-2026-10-16/next-wave/project-additions-reviewed.json."
+    },
+    {
+      "candidate": "Tourist Trophy PS2 decompilation",
+      "url": "https://github.com/gustavocanepa/tt-decomp",
+      "decision": "already cataloged; no update warranted",
+      "evidence": "Live row tourist-trophy-ps2-matching-decompilation already reports the current README progress snapshot (22,501/31,593 functions, 71.2%; 32.3% code bytes; snapshot commit 2935e55bc607). The primary README confirms those figures."
+    },
+    {
+      "candidate": "Super Smash Bros. 64 Nintendo DS source port",
+      "url": "https://github.com/rockenrooster/Smash64DS_Port",
+      "decision": "already cataloged; no status patch warranted",
+      "evidence": "Live row super-smash-bros-64-n64-to-nintendo-ds-port matches the maintainer README's explicitly dated 2026-10-02 status snapshot. The repository's later push does not itself document a newer compatibility claim."
+    },
+    {
+      "candidate": "CTRPad Apple ports for Crash Team Racing",
+      "url": "https://github.com/chrissotraidis/ctrpad",
+      "decision": "already cataloged; no update warranted",
+      "evidence": "Live row crash-team-racing-ctrpad-ios already captures README release/status information through v0.2.2 (2026-10-05); repository push metadata shows no later source push at review time."
+    },
+    {
+      "candidate": "Recompendium / Nio03 unricopie",
+      "url": "https://nio03.github.io/unricopie/",
+      "decision": "already cataloged as a directory Website; no material metadata change staged",
+      "evidence": "Existing directory item recompendium-static-recompilation-catalog links the live site and its official GitHub README. Current site/repository pages confirm the same discovery purpose and project sections."
+    },
+    {
+      "candidate": "recomp.fyi registry",
+      "url": "https://recomp.fyi/",
+      "decision": "already cataloged as a directory Website",
+      "evidence": "Existing directory item recomp-fyi already records the official site's searchable game/project table, activity information and Atom feed."
+    },
+    {
+      "candidate": "OverkillLabs PSPRecomp macOS / VCSNative social lead",
+      "url": "https://github.com/OverkillLabs/PSPRecomp-MacOS",
+      "decision": "held: primary repository unavailable",
+      "evidence": "The Reddit maintainer post links this path, but GitHub API returned 404. A cached search result named OverkillLabs/PSPRecomp-Vulkan, and that path also returned 404 via the live GitHub API. No current primary repository or release could be verified, so no project row is staged. Discovery post: https://www.reddit.com/r/decomps/comments/1wguf67/native_arm_vice_city_stories_recomp_based_on/."
+    },
+    {
+      "candidate": "Tatsunoko vs. Capcom Apple-Silicon experiment",
+      "url": "https://www.reddit.com/r/EmuDev/comments/1wgyhbl/wip_tatsunoko_vs_capcom_ultimate_allstars_on/",
+      "decision": "held: announcement only, no public code repository found",
+      "evidence": "The author post describes a personal working ARM64/macOS recomp and lists tools/results, but no source repo or stable project page was found in the search pass. The post is retained as a discovery lead only."
+    },
+    {
+      "candidate": "The Sims 2 PowerPC recompilation / Android port experiment",
+      "url": "https://www.reddit.com/r/decomps/comments/1x1tlll/the_sims_2_recompiled_native_android_port_is_the/",
+      "decision": "held: social self-report without a public primary repository",
+      "evidence": "The post and linked YouTube channel report that a Mac PowerPC executable has been translated to C and boots to a menu on Apple Silicon, with Android still a goal. No public project repository or durable source/build artifact was located."
+    },
+    {
+      "candidate": "Jade Empire native Apple-Silicon experiment",
+      "url": "https://www.reddit.com/r/decomps/comments/1x0r368/jade_empire_decompiled_and_recompiled_for_native/",
+      "decision": "held: social-only claim without a public primary repository",
+      "evidence": "The poster reports a native macOS build and gameplay/video evidence in the thread, but no public source repository or stable project page was found. The OS/game claims remain maintainer-reported, so no importer-ready row is proposed."
+    },
+    {
+      "candidate": "MW2 private decompilation lead",
+      "url": "",
+      "decision": "held: source and project identity are not publicly verifiable",
+      "evidence": "Search results and secondary discussion point to a maintainer's private research; the title is not named in durable public project documentation and no public repository exists."
+    },
+    {
+      "candidate": "Dino Crisis modern controls",
+      "url": "https://github.com/nahuelx32/dino-crisis-modern-controls",
+      "decision": "excluded as an enhancement mod/patch, not a decompilation, recompilation, API translation, localization, reimplementation or emulator",
+      "evidence": "The repository presents control enhancements rather than reconstructed or translated game code."
+    }
+  ]
+}

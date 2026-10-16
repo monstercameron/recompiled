@@ -1,0 +1,115 @@
+{
+  "verified_at": "2026-10-16",
+  "records": [
+    {
+      "project_id": "analog-rytm-mkii-os-reverse-engineering-and-replacement",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Python": 227732,
+        "C++": 14103,
+        "Assembly": 2651,
+        "Makefile": 1670,
+        "Linker Script": 1420,
+        "Nix": 174
+      },
+      "evidence_url": "https://api.github.com/repos/ethernet8023/rytm-fw-re/languages",
+      "evidence": "Official GitHub REST Languages endpoint checked 2026-10-16; Python is the largest repository-wide tracked byte category (227,732 bytes). Counts include all tracked repository material, including tools, headers, and documentation, and do not necessarily represent the implementation language of one product component.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "hp-hstns-pd44-psu-firmware-decompilation",
+      "predominant_language": "Assembly",
+      "language_breakdown_bytes": {
+        "Assembly": 2497801,
+        "C": 1053454,
+        "Python": 78387,
+        "Makefile": 73452,
+        "Shell": 31756,
+        "Java": 24610
+      },
+      "evidence_url": "https://api.github.com/repos/darwinbeing/hstns-pd44-firmware/languages",
+      "evidence": "Official GitHub REST Languages endpoint checked 2026-10-16; Assembly is the largest repository-wide tracked byte category (2,497,801 bytes). Counts include all tracked repository material, including tools, headers, and documentation, and do not necessarily represent the implementation language of one product component.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "sjcam-sj4000-air-v3-lelouch-reimplementation",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 9539803,
+        "C++": 6765933,
+        "Python": 126864,
+        "Makefile": 53294,
+        "Lua": 16749,
+        "Objective-C": 10993,
+        "Wolfram Language": 10901,
+        "Shell": 6583,
+        "NSIS": 3383,
+        "QMake": 2385
+      },
+      "evidence_url": "https://api.github.com/repos/keowu/sjcam/languages",
+      "evidence": "Official GitHub REST Languages endpoint checked 2026-10-16; C is the largest repository-wide tracked byte category (9,539,803 bytes). Counts include all tracked repository material, including tools, headers, and documentation, and do not necessarily represent the implementation language of one product component.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "vex-v5-vexos-private-api-firmware-decompilation",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 276406,
+        "C": 73552,
+        "Python": 249
+      },
+      "evidence_url": "https://api.github.com/repos/cetio/VEXAPI/languages",
+      "evidence": "Official GitHub REST Languages endpoint checked 2026-10-16; C++ is the largest repository-wide tracked byte category (276,406 bytes). Counts include all tracked repository material, including tools, headers, and documentation, and do not necessarily represent the implementation language of one product component.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "radtel-950-pro-firmware-reverse-engineering",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 33430525,
+        "HTML": 308126,
+        "Assembly": 152440,
+        "Linker Script": 114296,
+        "CMake": 100755,
+        "C#": 26098,
+        "Python": 23621,
+        "Shell": 483
+      },
+      "evidence_url": "https://api.github.com/repos/JKI757/radtel-950-pro/languages",
+      "evidence": "Official GitHub REST Languages endpoint checked 2026-10-16; C is the largest repository-wide tracked byte category (33,430,525 bytes). Counts include all tracked repository material, including tools, headers, and documentation, and do not necessarily represent the implementation language of one product component.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "fnirsi-101xd-open-firmware-1014d-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 5413176,
+        "Makefile": 85732,
+        "Assembly": 82755,
+        "Verilog": 37754,
+        "C++": 37636,
+        "Python": 30940,
+        "Shell": 16093,
+        "Tcl": 1953,
+        "Linker Script": 1592,
+        "Perl": 954,
+        "BitBake": 163
+      },
+      "evidence_url": "https://api.github.com/repos/Donwulff/FNIRSI_1014D_Firmware/languages",
+      "evidence": "Official GitHub REST Languages endpoint checked 2026-10-16; C is the largest repository-wide tracked byte category (5,413,176 bytes). Counts include all tracked repository material, including tools, headers, and documentation, and do not necessarily represent the implementation language of one product component.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "libcbus-clipsal-pci-serial-protocol-reimplementation",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Python": 244285,
+        "Shell": 6235,
+        "Dockerfile": 1158
+      },
+      "evidence_url": "https://api.github.com/repos/micolous/cbus/languages",
+      "evidence": "Official GitHub REST Languages endpoint checked 2026-10-16; Python is the largest repository-wide tracked byte category (244,285 bytes). Counts include all tracked repository material, including tools, headers, and documentation, and do not necessarily represent the implementation language of one product component.",
+      "verified_at": "2026-10-16"
+    }
+  ]
+}

@@ -1,0 +1,322 @@
+{
+  "checked_at": "2026-10-16",
+  "database": {
+    "path": "data/catalog.sqlite",
+    "access": "Read-only",
+    "project_count": 3411,
+    "software_target_count": 1050,
+    "exact_repository_url_checks": {
+      "https://github.com/ethernet8023/rytm-fw-re": [],
+      "https://github.com/darwinbeing/hstns-pd44-firmware": [],
+      "https://github.com/keowu/sjcam": [],
+      "https://github.com/cetio/VEXAPI": [],
+      "https://github.com/JKI757/radtel-950-pro": [],
+      "https://github.com/Donwulff/FNIRSI_1014D_Firmware": [],
+      "https://github.com/micolous/cbus": []
+    },
+    "nearby_catalog_rows": [
+      {
+        "term": "FNIRSI",
+        "id": "fnirsi-2c53t-ripcord-firmware-decompilation",
+        "title": "ripcord (FNIRSI 2C53T firmware reverse-engineering pipeline)",
+        "target": "FNIRSI 2C53T oscilloscope stock firmware V1.0.3–V1.2.0",
+        "url": "https://github.com/DavidClawson/ripcord"
+      },
+      {
+        "term": "FNIRSI",
+        "id": "openscope-2c53t-firmware-reimplementation",
+        "title": "OpenScope 2C53T firmware reimplementation",
+        "target": "FNIRSI 2C53T handheld oscilloscope / multimeter / signal generator stock firmware",
+        "url": "https://github.com/DavidClawson/OpenScope-2C53T"
+      },
+      {
+        "term": "Radtel",
+        "id": "radtel-rt950-pro-bare-metal-replacement-firmware",
+        "title": "Radtel RT-950 Pro Bare-Metal Replacement Firmware",
+        "target": "Radtel RT-950 Pro handheld radio firmware",
+        "url": "https://github.com/Hertzz58/Radtel-RT950-Pro-Firmware"
+      },
+      {
+        "term": "Radtel 950 Pro",
+        "id": "radtel-rt950-pro-bare-metal-replacement-firmware",
+        "title": "Radtel RT-950 Pro Bare-Metal Replacement Firmware",
+        "target": "Radtel RT-950 Pro handheld radio firmware",
+        "url": "https://github.com/Hertzz58/Radtel-RT950-Pro-Firmware",
+        "decision": "Distinct repository and deliverable, not an exact duplicate: this existing record tracks the GPL bare-metal replacement project; JKI757/radtel-950-pro is a separate reverse-engineering workspace for decrypted OEM images, Ghidra analysis, and function renaming. Keep the target relationship explicit and do not merge claims or licenses."
+      }
+    ],
+    "result": "No proposed repository URL matches an existing project_url. One closely related catalog record already tracks an independent bare-metal replacement firmware for the same Radtel RT-950 Pro radio (Hertzz58/Radtel-RT950-Pro-Firmware). The JKI757 candidate is retained as a distinct companion reverse-engineering workspace because its repository contains its own decrypted OEM image/Ghidra artifacts and decompiled function-mapping project; it does not claim the existing bare-metal replacement implementation. FNIRSI 2C53T rows target different hardware. No VEXAPI, SJCAM SJ4000 Air, HSTNS-PD44, Analog Rytm MKII, or Clipsal C-Bus row was found by the exact title/target/repository terms checked."
+  },
+  "manifest_audit": {
+    "searched_roots": [
+      "data/research/**/*",
+      "work/**/*"
+    ],
+    "scanned_file_count": 4212,
+    "file_extensions": [
+      ".csv",
+      ".json",
+      ".md",
+      ".toml",
+      ".txt"
+    ],
+    "excluded_from_preexisting_scan": "work/research-2026-10-16/continuation-round12/software-reconstruction/primary/**/* (freshly captured source snapshots, not prior staging)",
+    "candidate_checks": [
+      {
+        "candidate_id": "analog-rytm-mkii-os-reverse-engineering-and-replacement",
+        "preexisting_manifest_hits": [
+          {
+            "needle": "https://github.com/ethernet8023/rytm-fw-re",
+            "paths": [
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/evidence.json",
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/project-additions.json"
+            ]
+          },
+          {
+            "needle": "ethernet8023/rytm-fw-re",
+            "paths": [
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/evidence.json",
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/programming-languages.json",
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/project-additions.json"
+            ]
+          },
+          {
+            "needle": "rytm-fw-re",
+            "paths": [
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/evidence.json",
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/programming-languages.json",
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/project-additions.json"
+            ]
+          },
+          {
+            "needle": "analog-rytm-mkii-os-reverse-engineering-and-replacement",
+            "paths": [
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/evidence.json",
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/programming-languages.json",
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/project-additions.json"
+            ]
+          }
+        ],
+        "manifest_result": "No exact repository, slug, target phrase, or proposed ID match"
+      },
+      {
+        "candidate_id": "hp-hstns-pd44-psu-firmware-decompilation",
+        "preexisting_manifest_hits": [
+          {
+            "needle": "https://github.com/darwinbeing/hstns-pd44-firmware",
+            "paths": [
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/evidence.json",
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/project-additions.json"
+            ]
+          },
+          {
+            "needle": "darwinbeing/hstns-pd44-firmware",
+            "paths": [
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/evidence.json",
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/programming-languages.json",
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/project-additions.json"
+            ]
+          },
+          {
+            "needle": "hstns-pd44-firmware",
+            "paths": [
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/evidence.json",
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/programming-languages.json",
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/project-additions.json"
+            ]
+          },
+          {
+            "needle": "hp-hstns-pd44-psu-firmware-decompilation",
+            "paths": [
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/evidence.json",
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/programming-languages.json",
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/project-additions.json"
+            ]
+          }
+        ],
+        "manifest_result": "No exact repository, slug, target phrase, or proposed ID match"
+      },
+      {
+        "candidate_id": "sjcam-sj4000-air-v3-lelouch-reimplementation",
+        "preexisting_manifest_hits": [
+          {
+            "needle": "https://github.com/keowu/sjcam",
+            "paths": [
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/evidence.json",
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/media.json",
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/project-additions.json"
+            ]
+          },
+          {
+            "needle": "keowu/sjcam",
+            "paths": [
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/evidence.json",
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/programming-languages.json",
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/media.json",
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/project-additions.json"
+            ]
+          },
+          {
+            "needle": "SJCAM SJ4000 Air Allwinner V3",
+            "paths": [
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/project-additions.json"
+            ]
+          },
+          {
+            "needle": "sjcam-sj4000-air-v3-lelouch-reimplementation",
+            "paths": [
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/evidence.json",
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/programming-languages.json",
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/media.json",
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/project-additions.json"
+            ]
+          }
+        ],
+        "manifest_result": "No exact repository, slug, target phrase, or proposed ID match"
+      },
+      {
+        "candidate_id": "vex-v5-vexos-private-api-firmware-decompilation",
+        "preexisting_manifest_hits": [
+          {
+            "needle": "https://github.com/cetio/VEXAPI",
+            "paths": [
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/evidence.json",
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/project-additions.json"
+            ]
+          },
+          {
+            "needle": "cetio/VEXAPI",
+            "paths": [
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/evidence.json",
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/programming-languages.json",
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/project-additions.json"
+            ]
+          },
+          {
+            "needle": "vex-v5-vexos-private-api-firmware-decompilation",
+            "paths": [
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/evidence.json",
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/programming-languages.json",
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/project-additions.json"
+            ]
+          }
+        ],
+        "manifest_result": "No exact repository, slug, target phrase, or proposed ID match"
+      },
+      {
+        "candidate_id": "radtel-950-pro-firmware-reverse-engineering",
+        "preexisting_manifest_hits": [
+          {
+            "needle": "https://github.com/JKI757/radtel-950-pro",
+            "paths": [
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/evidence.json",
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/project-additions.json"
+            ]
+          },
+          {
+            "needle": "JKI757/radtel-950-pro",
+            "paths": [
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/evidence.json",
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/programming-languages.json",
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/project-additions.json"
+            ]
+          },
+          {
+            "needle": "radtel-950-pro-firmware-reverse-engineering",
+            "paths": [
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/evidence.json",
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/programming-languages.json",
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/project-additions.json"
+            ]
+          }
+        ],
+        "manifest_result": "No exact repository, slug, target phrase, or proposed ID match"
+      },
+      {
+        "candidate_id": "fnirsi-101xd-open-firmware-1014d-port",
+        "preexisting_manifest_hits": [
+          {
+            "needle": "https://github.com/Donwulff/FNIRSI_1014D_Firmware",
+            "paths": [
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/evidence.json",
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/project-additions.json"
+            ]
+          },
+          {
+            "needle": "Donwulff/FNIRSI_1014D_Firmware",
+            "paths": [
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/evidence.json",
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/programming-languages.json",
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/project-additions.json"
+            ]
+          },
+          {
+            "needle": "fnirsi-101xd-open-firmware-1014d-port",
+            "paths": [
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/evidence.json",
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/programming-languages.json",
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/project-additions.json"
+            ]
+          }
+        ],
+        "manifest_result": "No exact repository, slug, target phrase, or proposed ID match"
+      },
+      {
+        "candidate_id": "libcbus-clipsal-pci-serial-protocol-reimplementation",
+        "preexisting_manifest_hits": [
+          {
+            "needle": "https://github.com/micolous/cbus",
+            "paths": [
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/evidence.json",
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/project-additions.json"
+            ]
+          },
+          {
+            "needle": "micolous/cbus",
+            "paths": [
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/evidence.json",
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/programming-languages.json",
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/project-additions.json"
+            ]
+          },
+          {
+            "needle": "Clipsal C-Bus PCI serial protocol",
+            "paths": [
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/project-additions.json"
+            ]
+          },
+          {
+            "needle": "libcbus-clipsal-pci-serial-protocol-reimplementation",
+            "paths": [
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/evidence.json",
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/programming-languages.json",
+              "work/research-2026-10-16/continuation-round12/software-reconstruction/project-additions.json"
+            ]
+          }
+        ],
+        "manifest_result": "No exact repository, slug, target phrase, or proposed ID match"
+      }
+    ],
+    "database_and_tracked_files_modified": false
+  },
+  "reviewed_existing_staging": [
+    {
+      "candidate": "microProject / ProjectLibre desktop compatibility reconstruction",
+      "repository": "https://github.com/tetsuji16/ProjectLibre",
+      "existing_manifest": "work/research-2026-10-16/goal-refresh/round10/software-legacy/new-projects.json",
+      "decision": "Retain as an already-staged candidate; do not repeat it in this continuation batch.",
+      "current_recheck": "README and roadmap confirm a ProjectLibre-derived Java/Swing application with incomplete Microsoft Project desktop compatibility. The repo identifies MIT and v0.0.24.1248 is published as the latest stable release on 2026-10-14; open compatibility and release-acceptance gates remain.",
+      "language_reconciliation": "The exact GitHub Languages map is HTML 40,880,690 bytes; Java 11,639,306; XSLT 239,276; Python 90,044; JavaScript 37,695; CSS 35,438; Batchfile 24,089; Shell 19,954; Perl 9,744; PowerShell 7,008. The existing programming-languages.json record already has the exact map and HTML as predominant, but project-additions.json had programming_language=Java. That staged field has been corrected to HTML; the summary and source notes retain the actual app technology (Java/Swing).",
+      "license_caveat": "Repository metadata and the checked-in LICENSE identify MIT; the README discloses mixed ProjectLibre-derived, legacy, and newly reconstructed code. Full compatibility is not claimed."
+    },
+    {
+      "candidate": "Pinacoteca / Picasa workflow reimplementation",
+      "repository": "https://github.com/marcelofrau/pinacoteca",
+      "existing_manifest": "work/research-2026-10-16/goal-refresh/round10/software-legacy/new-projects.json",
+      "decision": "Retain as an already-staged, very-early project; do not repeat it in this continuation batch.",
+      "current_recheck": "README and roadmap still place it at bootstrap/behavior-analysis stage: M0 is in progress and M1 analysis, M2 architecture, and M3 viewer MVP are pending. No release was returned. It does not yet report a usable photo viewer.",
+      "language_reconciliation": "GitHub API map contains Rust: 21,674 bytes only, so Rust remains the correct predominant language in the staged record.",
+      "license_caveat": "GitHub metadata identifies GPL-3.0 and the README states GPL-3.0-or-later; clean-room docs prohibit shipping Google binaries, source, or assets."
+    }
+  ]
+}

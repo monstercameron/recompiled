@@ -1,0 +1,379 @@
+{
+  "updated": "2026-10-16",
+  "scope": "Primary-source reviewed native desktop ports and static recompilations for console/handheld-origin games; 13 target rows across seven public repositories.",
+  "projects": [
+    {
+      "id": "pokemon-firered-pokerecomp-pc",
+      "title": "PokéRecomp: Pokémon FireRed Native PC Port",
+      "game": "Pokémon FireRed",
+      "platform": "Game Boy Advance → Windows x86 (MSYS2/MinGW32)",
+      "kind": "Decompilation",
+      "status": "Playable, according to the project README; v2.1.3 was published 2026-10-14.",
+      "summary": "The shared PokeRecomp launcher compiles the pret FireRed C source for x86 and links an SDL2 platform layer. The README marks FireRed playable. The player supplies a ROM; the README also notes that included decompilation data remains copyrighted and is not covered by the port code license.",
+      "project_url": "https://github.com/sonsegajp/PokeRecomp",
+      "updated": "2026-10-16",
+      "strategy": "Decompilation-based source port: compiles pret C game source for x86 and links an SDL2 native platform layer; this is not static recompilation of a retail binary.",
+      "language": "",
+      "source_available": "Public source repository",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "Shared multi-game PC port; each row represents a separately named GBA/GBC target.",
+      "target_type": "Game",
+      "sources": [
+        {
+          "label": "Project repository and README",
+          "url": "https://github.com/sonsegajp/PokeRecomp"
+        },
+        {
+          "label": "v2.1.3 release",
+          "url": "https://github.com/sonsegajp/PokeRecomp/releases/tag/v2.1.3"
+        }
+      ]
+    },
+    {
+      "id": "pokemon-leafgreen-pokerecomp-pc",
+      "title": "PokéRecomp: Pokémon LeafGreen Native PC Port",
+      "game": "Pokémon LeafGreen",
+      "platform": "Game Boy Advance → Windows x86 (MSYS2/MinGW32)",
+      "kind": "Decompilation",
+      "status": "Playable, according to the project README; v2.1.3 was published 2026-10-14.",
+      "summary": "The shared PokeRecomp launcher compiles the pret LeafGreen C source for x86 and links an SDL2 platform layer. The README marks LeafGreen playable. The player supplies a ROM; the README also notes that included decompilation data remains copyrighted and is not covered by the port code license.",
+      "project_url": "https://github.com/sonsegajp/PokeRecomp",
+      "updated": "2026-10-16",
+      "strategy": "Decompilation-based source port: compiles pret C game source for x86 and links an SDL2 native platform layer; this is not static recompilation of a retail binary.",
+      "language": "",
+      "source_available": "Public source repository",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "Shared multi-game PC port; each row represents a separately named GBA/GBC target.",
+      "target_type": "Game",
+      "sources": [
+        {
+          "label": "Project repository and README",
+          "url": "https://github.com/sonsegajp/PokeRecomp"
+        },
+        {
+          "label": "v2.1.3 release",
+          "url": "https://github.com/sonsegajp/PokeRecomp/releases/tag/v2.1.3"
+        }
+      ]
+    },
+    {
+      "id": "pokemon-ruby-pokerecomp-pc",
+      "title": "PokéRecomp: Pokémon Ruby Native PC Port",
+      "game": "Pokémon Ruby",
+      "platform": "Game Boy Advance → Windows x86 (MSYS2/MinGW32)",
+      "kind": "Decompilation",
+      "status": "Boots and reaches battles, with rendering issues noted by the README; needs the external sibling pret-source build.",
+      "summary": "PokeRecomp adds Pokémon Ruby to a shared native PC launcher by linking symbol-prefixed objects built from the sibling pokeruby repository. The README warns that without the sibling build, the produced executable only supports FireRed and LeafGreen. The player supplies the ROM.",
+      "project_url": "https://github.com/sonsegajp/PokeRecomp",
+      "updated": "2026-10-16",
+      "strategy": "Decompilation-based source port: compiles pret C game source for x86 and links an SDL2 native platform layer; this is not static recompilation of a retail binary.",
+      "language": "",
+      "source_available": "Public source repository",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "Shared multi-game PC port; each row represents a separately named GBA/GBC target.",
+      "target_type": "Game",
+      "sources": [
+        {
+          "label": "Project repository and README",
+          "url": "https://github.com/sonsegajp/PokeRecomp"
+        },
+        {
+          "label": "v2.1.3 release",
+          "url": "https://github.com/sonsegajp/PokeRecomp/releases/tag/v2.1.3"
+        }
+      ]
+    },
+    {
+      "id": "pokemon-sapphire-pokerecomp-pc",
+      "title": "PokéRecomp: Pokémon Sapphire Native PC Port",
+      "game": "Pokémon Sapphire",
+      "platform": "Game Boy Advance → Windows x86 (MSYS2/MinGW32)",
+      "kind": "Decompilation",
+      "status": "Boots and reaches battles, with rendering issues noted by the README; needs the external sibling pret-source build.",
+      "summary": "PokeRecomp adds Pokémon Sapphire to a shared native PC launcher by linking symbol-prefixed objects built from the sibling pokeruby repository. The README warns that without the sibling build, the produced executable only supports FireRed and LeafGreen. The player supplies the ROM.",
+      "project_url": "https://github.com/sonsegajp/PokeRecomp",
+      "updated": "2026-10-16",
+      "strategy": "Decompilation-based source port: compiles pret C game source for x86 and links an SDL2 native platform layer; this is not static recompilation of a retail binary.",
+      "language": "",
+      "source_available": "Public source repository",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "Shared multi-game PC port; each row represents a separately named GBA/GBC target.",
+      "target_type": "Game",
+      "sources": [
+        {
+          "label": "Project repository and README",
+          "url": "https://github.com/sonsegajp/PokeRecomp"
+        },
+        {
+          "label": "v2.1.3 release",
+          "url": "https://github.com/sonsegajp/PokeRecomp/releases/tag/v2.1.3"
+        }
+      ]
+    },
+    {
+      "id": "pokemon-gold-pokerecomp-pc",
+      "title": "PokéRecomp: Pokémon Gold Native PC Port",
+      "game": "Pokémon Gold",
+      "platform": "Game Boy Color → Windows x86 (MSYS2/MinGW32)",
+      "kind": "Decompilation",
+      "status": "Listed as playable via recompiled Game Boy Color code; requires the external sibling pokegold-native build.",
+      "summary": "PokeRecomp adds Pokémon Gold to a shared native PC launcher through recompiled Game Boy Color code, linking symbol-prefixed objects from the sibling pokegold-native repository. That sibling source is not bundled; without it, the README says the build only supports FireRed and LeafGreen. The player supplies a ROM.",
+      "project_url": "https://github.com/sonsegajp/PokeRecomp",
+      "updated": "2026-10-16",
+      "strategy": "Decompilation-based source port: compiles pret C game source for x86 and links an SDL2 native platform layer; this is not static recompilation of a retail binary.",
+      "language": "",
+      "source_available": "Public source repository",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "Shared multi-game PC port; each row represents a separately named GBA/GBC target.",
+      "target_type": "Game",
+      "sources": [
+        {
+          "label": "Project repository and README",
+          "url": "https://github.com/sonsegajp/PokeRecomp"
+        },
+        {
+          "label": "v2.1.3 release",
+          "url": "https://github.com/sonsegajp/PokeRecomp/releases/tag/v2.1.3"
+        }
+      ]
+    },
+    {
+      "id": "pokemon-silver-pokerecomp-pc",
+      "title": "PokéRecomp: Pokémon Silver Native PC Port",
+      "game": "Pokémon Silver",
+      "platform": "Game Boy Color → Windows x86 (MSYS2/MinGW32)",
+      "kind": "Decompilation",
+      "status": "Listed as playable via recompiled Game Boy Color code; requires the external sibling pokegold-native build.",
+      "summary": "PokeRecomp adds Pokémon Silver to a shared native PC launcher through recompiled Game Boy Color code, linking symbol-prefixed objects from the sibling pokegold-native repository. That sibling source is not bundled; without it, the README says the build only supports FireRed and LeafGreen. The player supplies a ROM.",
+      "project_url": "https://github.com/sonsegajp/PokeRecomp",
+      "updated": "2026-10-16",
+      "strategy": "Decompilation-based source port: compiles pret C game source for x86 and links an SDL2 native platform layer; this is not static recompilation of a retail binary.",
+      "language": "",
+      "source_available": "Public source repository",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "Shared multi-game PC port; each row represents a separately named GBA/GBC target.",
+      "target_type": "Game",
+      "sources": [
+        {
+          "label": "Project repository and README",
+          "url": "https://github.com/sonsegajp/PokeRecomp"
+        },
+        {
+          "label": "v2.1.3 release",
+          "url": "https://github.com/sonsegajp/PokeRecomp/releases/tag/v2.1.3"
+        }
+      ]
+    },
+    {
+      "id": "pokemon-crystal-pokerecomp-pc",
+      "title": "PokéRecomp: Pokémon Crystal Native PC Port",
+      "game": "Pokémon Crystal",
+      "platform": "Game Boy Color → Windows x86 (MSYS2/MinGW32)",
+      "kind": "Decompilation",
+      "status": "Listed as playable via recompiled Game Boy Color code; requires the external sibling pokegold-native build.",
+      "summary": "PokeRecomp adds Pokémon Crystal to a shared native PC launcher through recompiled Game Boy Color code, linking symbol-prefixed objects from the sibling pokegold-native repository. That sibling source is not bundled; without it, the README says the build only supports FireRed and LeafGreen. The player supplies a ROM.",
+      "project_url": "https://github.com/sonsegajp/PokeRecomp",
+      "updated": "2026-10-16",
+      "strategy": "Decompilation-based source port: compiles pret C game source for x86 and links an SDL2 native platform layer; this is not static recompilation of a retail binary.",
+      "language": "",
+      "source_available": "Public source repository",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "Shared multi-game PC port; each row represents a separately named GBA/GBC target.",
+      "target_type": "Game",
+      "sources": [
+        {
+          "label": "Project repository and README",
+          "url": "https://github.com/sonsegajp/PokeRecomp"
+        },
+        {
+          "label": "v2.1.3 release",
+          "url": "https://github.com/sonsegajp/PokeRecomp/releases/tag/v2.1.3"
+        }
+      ]
+    },
+    {
+      "id": "crash-team-racing-ctr-native-pc",
+      "title": "CTR Native: Crash Team Racing PC Port",
+      "game": "Crash Team Racing",
+      "platform": "PlayStation → Windows x86 and Linux x86",
+      "kind": "Decompilation",
+      "status": "Beta 7.1 release available (published 2026-07-07); README documents native Windows and Linux builds.",
+      "summary": "A native PC port of the 1999 PlayStation game built on the CTR-ModSDK decompilation. Decompiled game source is compiled for Windows and Linux behind a native SDL3/platform layer; the player supplies the supported NTSC-U disc image.",
+      "project_url": "https://github.com/CTR-tools/ctr-native",
+      "updated": "2026-10-16",
+      "strategy": "Decompilation-based native source port; compiles the reconstructed game source for x86 and replaces PlayStation platform services with a host layer.",
+      "language": "",
+      "source_available": "Public source repository",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "Native desktop port based on CTR-ModSDK; raw NTSC-U BIN disc input is required.",
+      "target_type": "Game",
+      "sources": [
+        {
+          "label": "Project repository and README",
+          "url": "https://github.com/CTR-tools/ctr-native"
+        },
+        {
+          "label": "Beta 7.1 release",
+          "url": "https://github.com/CTR-tools/ctr-native/releases/tag/beta-7.1"
+        }
+      ]
+    },
+    {
+      "id": "ratchet-clank-rerac-native-pc",
+      "title": "ReRAC: Ratchet & Clank Native PC Rewrite",
+      "game": "Ratchet & Clank",
+      "platform": "PlayStation 2 → macOS Apple Silicon (tested); Windows build (experimental, untested)",
+      "kind": "Reimplementation",
+      "status": "Early active development; the README says all levels load and render but the project is not yet playable from start to finish. v0.3.4-alpha released 2026-10-15.",
+      "summary": "A Rust/Bevy native rewrite of Ratchet & Clank (2002) that ports game systems to a desktop runtime rather than emulating the PS2. Players supply the supported NTSC-U disc. The project says it is still incomplete and its launcher has not yet been released.",
+      "project_url": "https://github.com/re-rac/rerac",
+      "updated": "2026-10-16",
+      "strategy": "Native source reimplementation in Rust/Bevy; game systems run on the host, with no emulator in the execution path.",
+      "language": "",
+      "source_available": "Public source repository",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "Early desktop rewrite; supported disc is NTSC-U SCUS-97199.",
+      "target_type": "Game",
+      "sources": [
+        {
+          "label": "Project repository and README",
+          "url": "https://github.com/re-rac/rerac"
+        },
+        {
+          "label": "v0.3.4-alpha release",
+          "url": "https://github.com/re-rac/rerac/releases/tag/v0.3.4-alpha"
+        }
+      ]
+    },
+    {
+      "id": "goldeneye-007-mgb64-native-pc",
+      "title": "MGB64: GoldenEye 007 Decompilation and Native PC Port",
+      "game": "GoldenEye 007",
+      "platform": "Nintendo 64 → macOS Apple Silicon, Windows x64, and Linux x86-64",
+      "kind": "Decompilation",
+      "status": "Discontinued and unmaintained, per the README; v0.4.0-alpha.3 is the latest listed release. The README reports all 20 single-player levels boot, play, and reach mission-complete.",
+      "summary": "An independent portable-C decompilation and native source port of the 1997 N64 game. It uses a native platform layer for video, audio, input, timing, and saves, and requires the player’s own legally dumped ROM. The project is archived.",
+      "project_url": "https://github.com/akratch/mgb64",
+      "updated": "2026-10-16",
+      "strategy": "Decompilation-based native source port; reconstructed game code runs with a dedicated desktop platform layer, not as a static binary recompilation.",
+      "language": "",
+      "source_available": "Public source repository",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "Archived multi-platform GoldenEye source port; the repository marks itself discontinued.",
+      "target_type": "Game",
+      "sources": [
+        {
+          "label": "Project repository and README",
+          "url": "https://github.com/akratch/mgb64"
+        },
+        {
+          "label": "v0.4.0-alpha.3 release",
+          "url": "https://github.com/akratch/mgb64/releases/tag/v0.4.0-alpha.3"
+        }
+      ]
+    },
+    {
+      "id": "nba-jam-on-fire-openjam-native-pc",
+      "title": "OpenJam: NBA Jam: On Fire Edition Native PC Recompilation",
+      "game": "NBA Jam: On Fire Edition",
+      "platform": "Xbox 360 / XBLA → Windows x86-64",
+      "kind": "Recompilation",
+      "status": "v1.0 release published 2026-09-26; README reports the recompiled game boots to gameplay and published PS3-format mods install and play. It also lists unresolved graphics/runtime rough edges.",
+      "summary": "A ReXGlue-based static recompilation of the Xbox 360 XBLA edition to a native Windows program. The README says the PowerPC game code is translated ahead of time to C++, and the repository contains no game files; the player supplies their legally acquired copy.",
+      "project_url": "https://github.com/GTTeancum/OpenJam",
+      "updated": "2026-10-16",
+      "strategy": "Static recompilation of Xbox 360 PowerPC code to native C++ through ReXGlue, with a native Windows runtime.",
+      "language": "",
+      "source_available": "Public source repository",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "Xbox 360 XBLA static recompilation; README notes the Windows build also serves as a reference for a possible original-Xbox port.",
+      "target_type": "Game",
+      "sources": [
+        {
+          "label": "Project repository and README",
+          "url": "https://github.com/GTTeancum/OpenJam"
+        },
+        {
+          "label": "v1.0 release",
+          "url": "https://github.com/GTTeancum/OpenJam/releases/tag/v1.0"
+        }
+      ]
+    },
+    {
+      "id": "advanced-daisenryaku-megadrive-native-windows",
+      "title": "Advanced Daisenryaku Mega Drive Native Windows Port",
+      "game": "Advanced Daisenryaku",
+      "platform": "Sega Mega Drive / Genesis → Windows x64",
+      "kind": "Recompilation",
+      "status": "Experimental development build. The README reports the logo, menus, tactical battles, campaigns, saves, and controller paths are partly implemented; it explicitly says full-game equivalence is not established and some boundaries, audio commands, player-two input, and campaign flow remain incomplete.",
+      "summary": "A native Windows reconstruction of the Mega Drive strategy game using statically translated game logic in C/C++, with ROM differential tests and no runtime 68000 interpreter. The README describes ongoing work, selected visual comparisons rather than full equivalence, and requires a user-supplied ROM.",
+      "project_url": "https://github.com/eric-wen-dev-it/AdvancedDaisenryaku",
+      "updated": "2026-10-16",
+      "strategy": "Static translation/recompilation of Mega Drive 68000 code into C/C++ with a native Win32/Direct2D/DirectWrite/XAudio2 host layer.",
+      "language": "",
+      "source_available": "Public source repository",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "Experimental PC port of the Sega Mega Drive/Genesis target; full-game behavioral equivalence is unverified.",
+      "target_type": "Game",
+      "sources": [
+        {
+          "label": "Project repository and README",
+          "url": "https://github.com/eric-wen-dev-it/AdvancedDaisenryaku"
+        }
+      ]
+    },
+    {
+      "id": "mister-mosquito-ps2-native-pc",
+      "title": "Mister Mosquito Native Windows Recompilation",
+      "game": "Mister Mosquito",
+      "platform": "PlayStation 2 → Windows x64",
+      "kind": "Recompilation",
+      "status": "Early work in progress; the README reports title, menus, and the first stage working with sound on Vulkan. No release yet.",
+      "summary": "A game-specific native Windows port that translates the PS2 MIPS program to C++ and runs it against the ps2-port-engine host runtime. The project README reports booting the title, menus, and first stage with sound, widescreen, and up to 4× PS2 resolution. It contains no game code or assets; a user-owned NTSC-U SLUS-20375 disc image is required.",
+      "project_url": "https://github.com/danielgomesvieira2000/mister-mosquito-pc",
+      "updated": "2026-10-16",
+      "strategy": "Static translation/recompilation of PlayStation 2 MIPS code into C++ with the game's platform runtime hosted natively on Windows.",
+      "language": "",
+      "source_available": "Public source repository",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "PS2-to-Windows static code translation; early playable bring-up with no public release yet.",
+      "target_type": "Game",
+      "sources": [
+        {
+          "label": "Project repository and README",
+          "url": "https://github.com/danielgomesvieira2000/mister-mosquito-pc"
+        },
+        {
+          "label": "Shared PS2 native port engine",
+          "url": "https://github.com/danielgomesvieira2000/ps2-port-engine"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+[
+  {
+    "sha": "45409ce2c725cf918437ff4e808b34f6b83da793",
+    "node_id": "C_kwDOTI07udoAKDQ1NDA5Y2UyYzcyNWNmOTE4NDM3ZmY0ZTgwOGIzNGY2YjgzZGE3OTM",
+    "commit": {
+      "author": {
+        "name": "Claude",
+        "email": "noreply@anthropic.com",
+        "date": "2026-09-04T01:46:37Z"
+      },
+      "committer": {
+        "name": "Claude",
+        "email": "noreply@anthropic.com",
+        "date": "2026-09-04T01:46:37Z"
+      },
+      "message": "Carry the new engine families and run the APK cache test in CI\n\nThe game database gained six titles from xflipperkast's other Switch ports, and\ntwo engine families that matter because Viridite structurally cannot run\neither: Adobe AIR, where the .so files are the runtime and the game is\nActionScript in a signed SWF, and Dalvik, where the game's logic is DEX. Both\nlook like ordinary NDK games from the outside -- native libraries and all --\nso the launcher now names the reason rather than tagging them untested.\n\nAlso builds and runs the Core's new APK read-cache test, which checks that\ncached reads return the file's actual bytes: a wrong cache corrupts assets and\nlooks like anything but a caching bug.\n\nCo-Authored-By: Claude Opus 5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01RTRouo9RmaJoddQDvf8F9o",
+      "tree": {
+        "sha": "868abe2148efb60f8d2221bc4f5db7cee94e9b3c",
+        "url": "https://api.github.com/repos/Viridite/Viridite/git/trees/868abe2148efb60f8d2221bc4f5db7cee94e9b3c"
+      },
+      "url": "https://api.github.com/repos/Viridite/Viridite/git/commits/45409ce2c725cf918437ff4e808b34f6b83da793",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgrLzsfFISF4by8Q+FKz27YpkK1USsBB+m\namu1QkJnbDsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5AAAAQIEltoCO\ndk6UZzf54OQWHAaahhtYY/IzAPGftjQ9rRriGKAF8S6DJSQIiGcQcfnJch+MtGXEESGNBFodN0V0\nqAI=\n-----END SSH SIGNATURE-----",
+        "payload": "tree 868abe2148efb60f8d2221bc4f5db7cee94e9b3c\nparent 49f2a47bd288f95c2e8addc28b6cc4d386972daa\nauthor Claude <noreply@anthropic.com> 1788486397 +0000\ncommitter Claude <noreply@anthropic.com> 1788486397 +0000\n\nCarry the new engine families and run the APK cache test in CI\n\nThe game database gained six titles from xflipperkast's other Switch ports, and\ntwo engine families that matter because Viridite structurally cannot run\neither: Adobe AIR, where the .so files are the runtime and the game is\nActionScript in a signed SWF, and Dalvik, where the game's logic is DEX. Both\nlook like ordinary NDK games from the outside -- native libraries and all --\nso the launcher now names the reason rather than tagging them untested.\n\nAlso builds and runs the Core's new APK read-cache test, which checks that\ncached reads return the file's actual bytes: a wrong cache corrupts assets and\nlooks like anything but a caching bug.\n\nCo-Authored-By: Claude Opus 5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01RTRouo9RmaJoddQDvf8F9o\n",
+        "verified_at": "2026-09-04T01:46:41Z"
+      }
+    },
+    "url": "https://api.github.com/repos/Viridite/Viridite/commits/45409ce2c725cf918437ff4e808b34f6b83da793",
+    "html_url": "https://github.com/Viridite/Viridite/commit/45409ce2c725cf918437ff4e808b34f6b83da793",
+    "comments_url": "https://api.github.com/repos/Viridite/Viridite/commits/45409ce2c725cf918437ff4e808b34f6b83da793/comments",
+    "author": {
+      "login": "claude",
+      "id": 81847,
+      "node_id": "MDQ6VXNlcjgxODQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/claude",
+      "html_url": "https://github.com/claude",
+      "followers_url": "https://api.github.com/users/claude/followers",
+      "following_url": "https://api.github.com/users/claude/following{/other_user}",
+      "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+      "organizations_url": "https://api.github.com/users/claude/orgs",
+      "repos_url": "https://api.github.com/users/claude/repos",
+      "events_url": "https://api.github.com/users/claude/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/claude/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "claude",
+      "id": 81847,
+      "node_id": "MDQ6VXNlcjgxODQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/claude",
+      "html_url": "https://github.com/claude",
+      "followers_url": "https://api.github.com/users/claude/followers",
+      "following_url": "https://api.github.com/users/claude/following{/other_user}",
+      "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+      "organizations_url": "https://api.github.com/users/claude/orgs",
+      "repos_url": "https://api.github.com/users/claude/repos",
+      "events_url": "https://api.github.com/users/claude/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/claude/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "49f2a47bd288f95c2e8addc28b6cc4d386972daa",
+        "url": "https://api.github.com/repos/Viridite/Viridite/commits/49f2a47bd288f95c2e8addc28b6cc4d386972daa",
+        "html_url": "https://github.com/Viridite/Viridite/commit/49f2a47bd288f95c2e8addc28b6cc4d386972daa"
+      }
+    ]
+  }
+]

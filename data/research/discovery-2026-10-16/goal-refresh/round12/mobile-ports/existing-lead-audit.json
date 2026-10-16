@@ -1,0 +1,250 @@
+{
+  "checked_on": "2026-10-16",
+  "leads": [
+    {
+      "repository": "https://github.com/codepdbh/NFS-CARBON-360-ANDROID-RECOMP",
+      "catalog": {
+        "id": "need-for-speed-carbon-xbox360-recomp-android",
+        "title": "Need for Speed Carbon Xbox 360 Recompilation for Android and PC",
+        "game": "Need for Speed Carbon (Xbox 360, English PAL edition)",
+        "platform": "Xbox 360 → Android ARM64 / Windows x86-64",
+        "kind": "Recompilation",
+        "updated": "2026-10-15",
+        "programming_language": "JavaScript",
+        "language_evidence": {
+          "predominant_language": "JavaScript",
+          "verified_at": "2026-10-15",
+          "source_url": "https://api.github.com/repos/codepdbh/NFS-CARBON-360-ANDROID-RECOMP/languages"
+        },
+        "stored_media_count": 0
+      },
+      "upstream": {
+        "pushed_at": "2026-10-12T13:58:19Z",
+        "created_at": "2026-10-01T21:21:52Z",
+        "license_spdx": "NOASSERTION",
+        "latest_release": {
+          "tag_name": "v0.3.3",
+          "published_at": "2026-10-12T13:58:20Z",
+          "prerelease": false,
+          "url": "https://github.com/codepdbh/NFS-CARBON-360-ANDROID-RECOMP/releases/tag/v0.3.3",
+          "asset_count": 2
+        },
+        "language_api_matches_catalog_map": true
+      },
+      "decision": "No project-field patch: the live row is already reviewed at or after the latest durable release/repository status captured, and the source check confirmed the current method/target; no primary-source change was found. Source-linked media is proposed separately where the README embeds it.",
+      "project_fields_patch": "None; latest durable release/push evidence does not post-date the catalog review, so no status/platform/metadata claim changed.",
+      "proposed_media_count": 0
+    },
+    {
+      "repository": "https://github.com/OpenPort-Labs/mw2-android",
+      "catalog": {
+        "id": "call-of-duty-modern-warfare-2-xbox360-android-recomp",
+        "title": "Call of Duty: Modern Warfare 2 Xbox 360 Static Recompilation for PC/Android",
+        "game": "Call of Duty: Modern Warfare 2 (2009, Xbox 360 version)",
+        "platform": "Xbox 360 → Android ARM64, Linux, Windows x86-64",
+        "kind": "Recompilation",
+        "updated": "2026-10-15",
+        "programming_language": "C++",
+        "language_evidence": {
+          "predominant_language": "C++",
+          "verified_at": "2026-10-15",
+          "source_url": "https://api.github.com/repos/OpenPort-Labs/mw2-android/languages"
+        },
+        "stored_media_count": 0
+      },
+      "upstream": {
+        "pushed_at": "2026-10-13T13:09:50Z",
+        "created_at": "2026-10-09T05:47:03Z",
+        "license_spdx": "NOASSERTION",
+        "latest_release": {
+          "tag_name": "v0.0.2",
+          "published_at": "2026-10-13T09:48:40Z",
+          "prerelease": false,
+          "url": "https://github.com/OpenPort-Labs/mw2-android/releases/tag/v0.0.2",
+          "asset_count": 1
+        },
+        "language_api_matches_catalog_map": true
+      },
+      "decision": "No project-field patch: the live row is already reviewed at or after the latest durable release/repository status captured, and the source check confirmed the current method/target; no primary-source change was found. Source-linked media is proposed separately where the README embeds it.",
+      "project_fields_patch": "None; latest durable release/push evidence does not post-date the catalog review, so no status/platform/metadata claim changed.",
+      "proposed_media_count": 0
+    },
+    {
+      "repository": "https://github.com/SansNope/UnleashedRecomp-Android",
+      "catalog": {
+        "id": "sonic-unleashed-recomp-android",
+        "title": "Sonic Unleashed Recompiled Android",
+        "game": "Sonic Unleashed (Xbox 360 version)",
+        "platform": "Xbox 360 → Android (64-bit; Android 10+)",
+        "kind": "Recompilation",
+        "updated": "2026-10-14T02:24:43Z",
+        "programming_language": "C",
+        "language_evidence": {
+          "predominant_language": "C",
+          "verified_at": "2026-10-15",
+          "source_url": "https://api.github.com/repos/SansNope/UnleashedRecomp-Android/languages"
+        },
+        "stored_media_count": 0
+      },
+      "upstream": {
+        "pushed_at": "2026-10-14T02:24:43Z",
+        "created_at": "2026-07-04T06:44:05Z",
+        "license_spdx": "GPL-3.0",
+        "latest_release": {
+          "tag_name": "v0.6.1",
+          "published_at": "2026-10-10T02:06:44Z",
+          "prerelease": false,
+          "url": "https://github.com/SansNope/UnleashedRecomp-Android/releases/tag/v0.6.1",
+          "asset_count": 1
+        },
+        "language_api_matches_catalog_map": true
+      },
+      "decision": "No project-field patch: the live row is already reviewed at or after the latest durable release/repository status captured, and the source check confirmed the current method/target; no primary-source change was found. Source-linked media is proposed separately where the README embeds it.",
+      "project_fields_patch": "None; latest durable release/push evidence does not post-date the catalog review, so no status/platform/metadata claim changed.",
+      "proposed_media_count": 0,
+      "media_note": "README directly embeds one GitHub user-attachment image, but its URL returned HTTP 403 during URL-only availability check; omitted rather than storing a broken media URI."
+    },
+    {
+      "repository": "https://github.com/vaduur/LibertyRecompAndroid",
+      "catalog": {
+        "id": "gta-iv-liberty-recomp-android",
+        "title": "Liberty Recompiled Android",
+        "game": "Grand Theft Auto IV (Xbox 360 version)",
+        "platform": "Xbox 360 → Android (arm64, Android 10+; Snapdragon/Adreno Vulkan target)",
+        "kind": "Recompilation",
+        "updated": "2026-10-14T08:04:34Z",
+        "programming_language": "C++",
+        "language_evidence": {
+          "predominant_language": "C++",
+          "verified_at": "2026-10-15",
+          "source_url": "https://api.github.com/repos/vaduur/LibertyRecompAndroid/languages"
+        },
+        "stored_media_count": 0
+      },
+      "upstream": {
+        "pushed_at": "2026-10-14T08:04:34Z",
+        "created_at": "2026-10-08T15:32:54Z",
+        "license_spdx": "GPL-3.0",
+        "latest_release": {
+          "tag_name": "v0.5.9.3",
+          "published_at": "2026-10-14T07:52:08Z",
+          "prerelease": false,
+          "url": "https://github.com/vaduur/LibertyRecompAndroid/releases/tag/v0.5.9.3",
+          "asset_count": 1
+        },
+        "language_api_matches_catalog_map": true
+      },
+      "decision": "No project-field patch: the live row is already reviewed at or after the latest durable release/repository status captured, and the source check confirmed the current method/target; no primary-source change was found. Source-linked media is proposed separately where the README embeds it.",
+      "project_fields_patch": "None; latest durable release/push evidence does not post-date the catalog review, so no status/platform/metadata claim changed.",
+      "proposed_media_count": 4,
+      "media_note": "Every staged URI is directly linked from the project README (or the README-linked GitHub-hosted resource) and returned HTTP 200 in HEAD checks; no bytes were copied locally."
+    },
+    {
+      "repository": "https://github.com/alphanu1/daytona-arcade-recomp",
+      "catalog": {
+        "id": "daytona-usa-model2-recomp",
+        "title": "Daytona USA Model 2 Recompilation",
+        "game": "Daytona USA",
+        "platform": "Sega Model 2 arcade → Windows/macOS/Linux; Android arm64; iOS; PS Vita; Dreamcast via Flycast only (native console port in progress)",
+        "kind": "Recompilation",
+        "updated": "2026-10-15",
+        "programming_language": "C++",
+        "language_evidence": {
+          "predominant_language": "C++",
+          "verified_at": "2026-10-15",
+          "source_url": "https://api.github.com/repos/alphanu1/daytona-arcade-recomp/languages"
+        },
+        "stored_media_count": 0
+      },
+      "upstream": {
+        "pushed_at": "2026-10-13T20:33:27Z",
+        "created_at": "2026-09-24T18:15:43Z",
+        "license_spdx": "BSD-3-Clause",
+        "latest_release": null,
+        "language_api_matches_catalog_map": true
+      },
+      "decision": "No project-field patch: the live row is already reviewed at or after the latest durable release/repository status captured, and the source check confirmed the current method/target; no primary-source change was found. Source-linked media is proposed separately where the README embeds it.",
+      "project_fields_patch": "None; latest durable release/push evidence does not post-date the catalog review, so no status/platform/metadata claim changed.",
+      "proposed_media_count": 0
+    },
+    {
+      "repository": "https://github.com/SSunnKing/ZeldaWWHDRecompAndroid---ENHANCED",
+      "catalog": {
+        "id": "wind-waker-hd-android-enhanced-fork",
+        "title": "Wind Waker HD Recompilation: Enhanced Android Fork",
+        "game": "The Legend of Zelda: The Wind Waker HD",
+        "platform": "Wii U → Android arm64 (Android 11+, Vulkan 1.1)",
+        "kind": "Recompilation",
+        "updated": "2026-10-16",
+        "programming_language": "C++",
+        "language_evidence": {
+          "predominant_language": "C++",
+          "verified_at": "2026-10-16",
+          "source_url": "https://api.github.com/repos/SSunnKing/ZeldaWWHDRecompAndroid---ENHANCED/languages"
+        },
+        "stored_media_count": 0
+      },
+      "upstream": {
+        "pushed_at": "2026-10-13T13:23:32Z",
+        "created_at": "2026-10-06T21:30:00Z",
+        "license_spdx": "MPL-2.0",
+        "latest_release": {
+          "tag_name": "1.5",
+          "published_at": "2026-10-13T13:23:32Z",
+          "prerelease": false,
+          "url": "https://github.com/SSunnKing/ZeldaWWHDRecompAndroid---ENHANCED/releases/tag/1.5",
+          "asset_count": 1
+        },
+        "language_api_matches_catalog_map": true
+      },
+      "decision": "No project-field patch: the live row is already reviewed at or after the latest durable release/repository status captured, and the source check confirmed the current method/target; no primary-source change was found. Source-linked media is proposed separately where the README embeds it.",
+      "project_fields_patch": "None; latest durable release/push evidence does not post-date the catalog review, so no status/platform/metadata claim changed.",
+      "proposed_media_count": 0
+    },
+    {
+      "repository": "https://github.com/Player124413/MarathonRecomp_android-test-edition",
+      "catalog": {
+        "id": "sonic-2006-marathon-android-recomp",
+        "title": "Sonic the Hedgehog (2006) Marathon Recompiled for Android",
+        "game": "Sonic the Hedgehog (2006, Xbox 360 version)",
+        "platform": "Xbox 360 → Android ARM64 (Android 10+ conservative minimum; Vulkan)",
+        "kind": "Recompilation",
+        "updated": "2026-10-16",
+        "programming_language": "C++",
+        "language_evidence": {
+          "predominant_language": "C++",
+          "verified_at": "2026-10-16",
+          "source_url": "https://api.github.com/repos/Player124413/MarathonRecomp_android-test-edition/languages"
+        },
+        "stored_media_count": 0
+      },
+      "upstream": {
+        "pushed_at": "2026-09-12T09:29:58Z",
+        "created_at": "2026-07-20T10:17:08Z",
+        "license_spdx": "GPL-3.0",
+        "latest_release": {
+          "tag_name": "Third",
+          "published_at": "2026-08-04T22:50:30Z",
+          "prerelease": false,
+          "url": "https://github.com/Player124413/MarathonRecomp_android-test-edition/releases/tag/Third",
+          "asset_count": 1
+        },
+        "language_api_matches_catalog_map": true
+      },
+      "decision": "No project-field patch: the live row is already reviewed at or after the latest durable release/repository status captured, and the source check confirmed the current method/target; no primary-source change was found. Source-linked media is proposed separately where the README embeds it.",
+      "project_fields_patch": "None; latest durable release/push evidence does not post-date the catalog review, so no status/platform/metadata claim changed.",
+      "proposed_media_count": 1,
+      "media_note": "Every staged URI is directly linked from the project README (or the README-linked GitHub-hosted resource) and returned HTTP 200 in HEAD checks; no bytes were copied locally."
+    }
+  ],
+  "summary": {
+    "existing_leads_checked": 7,
+    "project_field_updates": 0,
+    "language_breakdown_updates": 0,
+    "existing_media_groups_proposed": 2,
+    "media_links_proposed": 5,
+    "media_url_policy": "Store direct remote URIs only; validate availability with HTTP HEAD and do not cache/download images."
+  },
+  "catalog_rows_at_first_check": 3411,
+  "current_catalog_rows_at_completion": 3450
+}

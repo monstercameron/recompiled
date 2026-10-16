@@ -1,0 +1,153 @@
+{
+  "updated": "2026-10-16",
+  "baseline_catalog_projects": 3411,
+  "proposed_project_rows": 13,
+  "proposed_unique_repositories": 7,
+  "decisions": [
+    {
+      "url": "https://github.com/CTR-tools/ctr-native",
+      "decision": "include",
+      "why": "New game-specific PS1-to-PC source port; distinct repo from catalogued Android/Vita derivatives."
+    },
+    {
+      "url": "https://github.com/sonsegajp/PokeRecomp",
+      "decision": "include",
+      "why": "New shared native PC source-port repo; seven explicit GBA/GBC target records are separate, game-specific build inputs."
+    },
+    {
+      "url": "https://github.com/re-rac/rerac",
+      "decision": "include",
+      "why": "Distinct Rust/Bevy rewrite and repository from the existing Ratchet & Clank native PC source port; early status preserved."
+    },
+    {
+      "url": "https://github.com/akratch/mgb64",
+      "decision": "include",
+      "why": "Distinct discontinued GoldenEye decomp/source port; useful archival project, status marked discontinued."
+    },
+    {
+      "url": "https://github.com/GTTeancum/OpenJam",
+      "decision": "include",
+      "why": "New Xbox 360/XBLA-to-Windows static recompilation."
+    },
+    {
+      "url": "https://github.com/eric-wen-dev-it/AdvancedDaisenryaku",
+      "decision": "include",
+      "why": "New Sega Mega Drive-to-Windows static-translation port; experimental limits are explicit."
+    },
+    {
+      "url": "https://github.com/nathanialf/ico-pc",
+      "decision": "exclude",
+      "why": "Already present in data/research/console-phone-projects.json; deduplicated despite not being in the baseline catalog."
+    },
+    {
+      "url": "https://github.com/centollOS/SwitchWaker",
+      "decision": "exclude",
+      "why": "Already present in the live catalog and historical project manifests."
+    },
+    {
+      "url": "https://github.com/KIexster/god-of-war-recomp",
+      "decision": "exclude",
+      "why": "Already present in historical project-addition manifests."
+    },
+    {
+      "url": "https://github.com/BasedYuki/the-3rd-birthday-recomp",
+      "decision": "exclude",
+      "why": "Already present in live SQLite and historical project-addition manifests."
+    },
+    {
+      "url": "https://github.com/evoluketion/PokemonPurePlatinum",
+      "decision": "exclude",
+      "why": "Already present in the live catalog/manifests; separate competing Platinum port is not re-added here."
+    },
+    {
+      "url": "https://github.com/Odrannnn/MetroidPrimePort",
+      "decision": "exclude",
+      "why": "Already present in live catalog/project manifest."
+    },
+    {
+      "url": "https://github.com/Yokimitsuro/khdays-port",
+      "decision": "exclude",
+      "why": "Already present in live catalog/project manifest."
+    },
+    {
+      "url": "https://github.com/rockenrooster/Smash64DS_Port",
+      "decision": "exclude",
+      "why": "Already present in live catalog/project manifest."
+    },
+    {
+      "url": "https://github.com/jkdansereau/goldeneye-pc-port",
+      "decision": "exclude",
+      "why": "Already present in a historical project-addition manifest; does not count as a new row in this lane."
+    },
+    {
+      "url": "https://github.com/luispolis124/OpenInnocent",
+      "decision": "hold",
+      "why": "Primary README describes a goal/status plan but does not demonstrate a substantive playable or native implementation; monitor for implementation evidence."
+    },
+    {
+      "url": "https://github.com/danielgomesvieira2000/ps2-port-engine",
+      "decision": "exclude",
+      "why": "General-purpose PS2 porting toolkit/runtime, not a specific game target."
+    },
+    {
+      "url": "https://github.com/callumjenkins/saturn-recomp",
+      "decision": "exclude",
+      "why": "General-purpose Saturn recompiler/runtime; its game-specific satellite projects were already catalogued."
+    },
+    {
+      "url": "https://github.com/danielgomesvieira2000/mister-mosquito-pc",
+      "decision": "include",
+      "why": "New game-specific PS2-to-Windows static translation project. The primary README documents a playable first-stage bring-up and no release yet; it appears only as a linked target in an engine evidence JSON, not as a project-addition row or catalog entry."
+    },
+    {
+      "url": "https://github.com/BigDaddyJRich/hctp-recomp",
+      "decision": "exclude",
+      "why": "Already present in data/research/recomp-additions.json and live SQLite; not staged twice."
+    },
+    {
+      "url": "https://github.com/mstan/MinishCapRecomp",
+      "decision": "exclude",
+      "why": "Already present in data/research/recomp-additions.json and live SQLite; not staged twice."
+    },
+    {
+      "url": "https://github.com/drakolordx7/KillzoneRecomp",
+      "decision": "exclude",
+      "why": "Already present in live SQLite; not staged twice."
+    },
+    {
+      "url": "https://github.com/paaime/ac-3ds",
+      "decision": "exclude",
+      "why": "Already represented in data/research/console-console-projects.json and the live catalog."
+    },
+    {
+      "url": "https://github.com/kylebrussell/goldeneye-3ds",
+      "decision": "exclude",
+      "why": "Already represented in the round-9 project-additions manifest and live catalog."
+    },
+    {
+      "url": "https://github.com/Denkishi/ssbu-recomp",
+      "decision": "exclude",
+      "why": "Already represented in the round-9 project-additions manifest and live catalog."
+    },
+    {
+      "url": "https://github.com/HayatoG/tmc",
+      "decision": "exclude",
+      "why": "Already represented in prior decomp-addition and console-console manifests; not restaged as a second target record."
+    },
+    {
+      "url": "https://github.com/thiagordsfx/urban-reign-recomp",
+      "decision": "exclude",
+      "why": "Already represented in data/research/recomp-additions.json and live SQLite."
+    },
+    {
+      "url": "https://github.com/saltyboosack-blip/Spider-Man-2-PS2-Recomp",
+      "decision": "exclude",
+      "why": "Already represented in existing PS2 project-addition manifests."
+    },
+    {
+      "url": "https://github.com/isifire/halo-ce-vita",
+      "decision": "exclude",
+      "why": "Same Xbox-to-Vita Halo game-target as the canonical project already in the database; derivative excluded."
+    }
+  ]
+}

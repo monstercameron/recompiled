@@ -1,0 +1,30 @@
+{
+  "checked_at": "2026-10-16",
+  "database": "data/catalog.sqlite, 3,411 project records at review time",
+  "candidate": "Wine Mono (.NET Framework runtime for Wine)",
+  "proposed_id": "wine-mono-dotnet-framework-runtime",
+  "canonical_url": "https://gitlab.winehq.org/mono/wine-mono",
+  "checks": [
+    {
+      "scope": "SQLite project ID, canonical project URL, exact title, and Wine Mono string search",
+      "result": "No existing project ID, exact project URL, or Wine Mono record found."
+    },
+    {
+      "scope": "Existing related .NET/Mono records",
+      "result": "The catalog has mono-dotnet-runtime-legacy-upstream at https://github.com/mono/mono. That row tracks the general legacy Mono upstream and links to https://gitlab.winehq.org/wine-mono/mono, the Mono upstream repository/branch. Wine Mono at https://gitlab.winehq.org/mono/wine-mono is a distinct, separately released Wine-specific package/runtime, explicitly restricted by its README to replacing .NET Framework in Wine. The distinct target and release line justify a separate record."
+    },
+    {
+      "scope": "All reviewed manifests and research notes under data/research/ and work/ before staging this lane",
+      "result": "No occurrence of the proposed ID, canonical Wine Mono GitLab repository URL, or official wine-mono/wine-mono GitHub mirror was found. Generic mentions of Wine Mono as a dependency in game/readme evidence were not standalone project proposals."
+    },
+    {
+      "scope": "Canonical-source and mirror identity",
+      "result": "WineHQ GitLab README instructs users to clone the GitLab source and identifies the GitHub repository as its official mirror. On 2026-10-16, the latest default-branch commit SHA from both hosts was 0c9325369a5d3f863c2930fe0ca8abbb9f122aa0."
+    },
+    {
+      "scope": "Other runtime/graphics candidates",
+      "result": "The sampled Direct3D/Vulkan/Metal paths (Wine, Proton, DXVK, DXVK-MacOS, D8VK, D7VK, D3D9/11On12, VKD3D, MoltenVK, DXMT, D9MT, MTLD3D, Alloy, Mullion, Metalloid, Dozen, Zink, LSW, Weave, and ZLUDA) are represented in the current catalog; previously staged duplicates were excluded."
+    }
+  ],
+  "canonical_database_modified": false
+}

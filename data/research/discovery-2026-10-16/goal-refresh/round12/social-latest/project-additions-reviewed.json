@@ -1,0 +1,310 @@
+{
+  "updated": "2026-10-16",
+  "scope": "High-confidence recent projects discovered through public Reddit/X/GitHub search and verified against each project's primary repository or maintainer page. Includes game and software targets; social posts are discovery references, never the only evidence when a repository exists. All media URLs are remote HTTPS URIs; no assets are copied into the repository.",
+  "projects": [
+    {
+      "id": "super-metroid-csharp-port",
+      "title": "Super Metroid C# Port",
+      "game": "Super Metroid",
+      "target_type": "Game",
+      "platform": "SNES Japan/USA NTSC v1.0 ROM → Windows x64 and Android ARM64",
+      "kind": "Reimplementation",
+      "status": "The project README describes the C# port as playable from the opening through the ending, with minor known glitches. Windows x64 and Android ARM64 release builds are listed; users must provide a supported NTSC v1.0 ROM.",
+      "summary": "Translates the original Super Metroid program into readable, commented C#. The ROM supplies graphics, room data, tables and audio resources; the shared managed game core uses a Direct3D 11 renderer with software fallback on Windows and a software renderer on Android. This is a behavior-preserving C# port, not a byte-matching recompilation. It is distinct from the cataloged SNES recompilation and annotated disassembly projects.",
+      "project_url": "https://github.com/MrJackSpade/SuperMetroidDecomp",
+      "updated": "2026-10-16",
+      "strategy": "Behavioral translation of the original game program into a managed C# implementation; the user's supported ROM supplies game data and serves as the reference.",
+      "language": "",
+      "source_available": "Public C# source and Windows/Android releases. The user must provide a Japan/USA NTSC v1.0 ROM; ROMs and extracted game assets are not included.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C#",
+      "subtype": "C# native port from translated game program",
+      "sources": [
+        {"label": "Maintainer README: translation method, supported ROM, platforms, and end-to-end playability claim", "url": "https://github.com/MrJackSpade/SuperMetroidDecomp/blob/main/README.md"},
+        {"label": "Project release page for Windows and Android builds", "url": "https://github.com/MrJackSpade/SuperMetroidDecomp/releases"},
+        {"label": "Repository metadata checked 2026-10-16", "url": "https://api.github.com/repos/MrJackSpade/SuperMetroidDecomp"}
+      ],
+      "media": [
+        {"kind": "image", "label": "Super Metroid C# port title-screen screenshot", "url": "https://raw.githubusercontent.com/MrJackSpade/SuperMetroidDecomp/main/docs/images/title-screen.png", "preview_url": "https://raw.githubusercontent.com/MrJackSpade/SuperMetroidDecomp/main/docs/images/title-screen.png", "source_url": "https://github.com/MrJackSpade/SuperMetroidDecomp/blob/main/README.md", "discovered_on": "2026-10-16"}
+      ]
+    },
+    {
+      "id": "bokura-no-kazoku-ps2-decomp",
+      "title": "Bokura no Kazoku PS2 Matching Decompilation",
+      "game": "Bokura no Kazoku: My Family Growing Up in the 21st Century (Japan)",
+      "target_type": "Game",
+      "platform": "PlayStation 2 Japan (SCPS-15088; NTSC, Emotion Engine / MIPS R5900)",
+      "kind": "Decompilation",
+      "status": "Active matching decompilation. The README's 2026-10-16 snapshot reports 6,378/7,223 functions in C (88.3%) and 49.6% of .text bytes; the build is reported to match the original ELF byte-for-byte.",
+      "summary": "Reconstructs the Japanese PS2 executable in C/C++ and assembly using the original Emotion Engine toolchains, then checks a byte-for-byte build. The project documents the exact supported disc and boot ELF hashes. It also has a separate future mod build and English-translation roadmap; neither is represented here as a released translation or port. The repository does not include game data, and setup starts from the user's own disc image.",
+      "project_url": "https://github.com/conor-sometimes/bokura-no-kazoku-decomp",
+      "updated": "2026-10-16",
+      "strategy": "Matching source reconstruction using the original Sony Emotion Engine compiler family and byte-for-byte executable comparison.",
+      "language": "",
+      "source_available": "Public source repository; the user supplies the Japanese PS2 disc image. Game code and disc data are not included.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Matching decompilation",
+      "sources": [
+        {"label": "Maintainer README: target disc identity, exact-match build, and progress dated 2026-10-16", "url": "https://github.com/conor-sometimes/bokura-no-kazoku-decomp/blob/main/README.md"},
+        {"label": "Compiler/toolchain notes for the PS2 build", "url": "https://github.com/conor-sometimes/bokura-no-kazoku-decomp/blob/main/docs/compiler.md"},
+        {"label": "Repository metadata checked 2026-10-16", "url": "https://api.github.com/repos/conor-sometimes/bokura-no-kazoku-decomp"}
+      ]
+    },
+    {
+      "id": "white-knight-chronicles-ii-ps3-windows-recomp",
+      "title": "White Knight Chronicles II PS3-to-Windows Recompilation Research",
+      "game": "White Knight Chronicles II (USA BLUS30784, disc v01.00)",
+      "target_type": "Game",
+      "platform": "PlayStation 3 → native Windows; Apple Silicon portability is planned, not verified",
+      "kind": "Recompilation",
+      "status": "Early, active research and not a playable port. The README documents a rendered title menu and movies, native text/dialog and the Customize Avatar room/body; gameplay, saves, full visual fidelity, the 1.01 update and DLC are still unverified or planned.",
+      "summary": "Game-specific PS3 static-recompilation research targeting native Windows execution using C/C++. The project separates analysis, compilation, boot, rendering and gameplay milestones, and reports each verified result in its findings log and image gallery. The user must supply the matching game data; update and DLC support are plans rather than current runtime capabilities.",
+      "project_url": "https://github.com/WK2D/White-Knight-Chronicles-2-Decomp",
+      "updated": "2026-10-16",
+      "strategy": "Static recompilation of the PS3 game code into C/C++ for a native Windows runtime; reported rendered milestones do not establish playable compatibility.",
+      "language": "",
+      "source_available": "Public research and source repository; the matching retail disc and any update/DLC data are not included.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "Python",
+      "subtype": "PS3 static recompilation research",
+      "sources": [
+        {"label": "Maintainer README: exact target, method, verified progress, and explicit non-playable status", "url": "https://github.com/WK2D/White-Knight-Chronicles-2-Decomp/blob/main/README.md"},
+        {"label": "Newest-first project gallery and milestone evidence", "url": "https://github.com/WK2D/White-Knight-Chronicles-2-Decomp/blob/main/docs/GALLERY.md"},
+        {"label": "Repository metadata checked 2026-10-16", "url": "https://api.github.com/repos/WK2D/White-Knight-Chronicles-2-Decomp"}
+      ],
+      "media": [
+        {"kind": "image", "label": "Latest verified avatar-room rendering screenshot", "url": "https://raw.githubusercontent.com/WK2D/White-Knight-Chronicles-2-Decomp/main/verification/screenshots/2026-10-16-native-avatar-shading.png", "preview_url": "https://raw.githubusercontent.com/WK2D/White-Knight-Chronicles-2-Decomp/main/verification/screenshots/2026-10-16-native-avatar-shading.png", "source_url": "https://github.com/WK2D/White-Knight-Chronicles-2-Decomp/blob/main/README.md", "discovered_on": "2026-10-16"}
+      ]
+    },
+    {
+      "id": "hyperblade-1996-windows-decomp",
+      "title": "HyperBlade Windows Matching Decompilation",
+      "game": "HyperBlade (1996, HYPERX.EXE v1.0.0.1)",
+      "target_type": "Game",
+      "platform": "Windows x86 (v1.0.0.1; Visual C++ 6.0 SP3)",
+      "kind": "Decompilation",
+      "status": "Active matching decompilation. The README reports 2,791/3,054 game functions matching exactly, covering 75.34% of game-code bytes. A basic Windows bring-up shim runs the game in a simplest-form test build; the project directs modern-system play to a separate port.",
+      "summary": "Rebuilds HyperBlade's 1996 Windows executable from source with Visual C++ 6.0 SP3 and scores functions using reccmp. Only the patched v1.0.0.1 executable matches the documented reference. The repository contains source and a basic bring-up build, not the game binary or data; the player must provide a copy.",
+      "project_url": "https://github.com/zach2good/hyperblade-decomp",
+      "updated": "2026-10-16",
+      "strategy": "Matching decompilation measured against the original executable and compiler; the separately maintained hyperblade-20XX project is the modern portable port.",
+      "language": "",
+      "source_available": "Public source; the user supplies the original patched HYPERX.EXE v1.0.0.1 and game data. No game binary is included.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Matching Windows executable decompilation",
+      "sources": [
+        {"label": "Maintainer README: exact supported binary, matching progress, and bring-up scope", "url": "https://github.com/zach2good/hyperblade-decomp/blob/main/README.md"},
+        {"label": "Maintainer's modernized and portable follow-on project", "url": "https://github.com/zach2good/hyperblade-20XX"},
+        {"label": "Repository metadata checked 2026-10-16", "url": "https://api.github.com/repos/zach2good/hyperblade-decomp"}
+      ],
+      "media": [
+        {"kind": "image", "label": "HyperBlade software bring-up gameplay screenshot", "url": "https://raw.githubusercontent.com/zach2good/hyperblade-decomp/main/docs/gameplay_soft.png", "preview_url": "https://raw.githubusercontent.com/zach2good/hyperblade-decomp/main/docs/gameplay_soft.png", "source_url": "https://github.com/zach2good/hyperblade-decomp/blob/main/README.md", "discovered_on": "2026-10-16"}
+      ]
+    },
+    {
+      "id": "zombie-revenge-dreamcast-decomp",
+      "title": "Zombie Revenge Dreamcast Decompilation",
+      "game": "Zombie Revenge (Dreamcast Europe, MK-5103850 V1.000)",
+      "target_type": "Game",
+      "platform": "Sega Dreamcast Europe (MK-5103850, V1.000)",
+      "kind": "Decompilation",
+      "status": "Kick-off stage, active. The README reports 1,026/4,232 functions named. The build reconstructs the executable byte-for-byte, while C functions are tracked separately for equivalent behavior; matching C is described as a later/bonus tier.",
+      "summary": "A Dreamcast decompilation whose setup extracts the user's original 1ST_READ.BIN, generates one assembly unit per function and verifies rebuilt bytes. The README identifies the supported European retail build and its hash, and explicitly states the repository contains no game code or data. Equivalent C behavior and byte-matching C are distinguished in the project's progress model.",
+      "project_url": "https://github.com/consolesplayingconsoles/zombie-revenge-decomp",
+      "updated": "2026-10-16",
+      "strategy": "Executable reconstruction with an assembly baseline and function-by-function equivalent/matching C work; byte-identical assembly output does not imply that all original logic has been reimplemented in C.",
+      "language": "",
+      "source_available": "Public source; the user supplies a matching European Dreamcast disc and a Katana SDK. Game code/data are generated locally and ignored by Git.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "Python",
+      "subtype": "Dreamcast executable decompilation",
+      "sources": [
+        {"label": "Maintainer README: kick-off scope, supported disc identity, build model and function counts", "url": "https://github.com/consolesplayingconsoles/zombie-revenge-decomp/blob/main/README.md"},
+        {"label": "Repository metadata checked 2026-10-16", "url": "https://api.github.com/repos/consolesplayingconsoles/zombie-revenge-decomp"}
+      ]
+    },
+    {
+      "id": "street-fighter-iii-3rd-strike-cps3-reconstruction",
+      "title": "Street Fighter III: 3rd Strike CPS3 Program Reconstruction",
+      "game": "Street Fighter III: 3rd Strike: Fight for the Future (Arcade CPS3, sfiii3nr1)",
+      "target_type": "Game",
+      "platform": "Capcom CPS3 arcade (sfiii3nr1) → rebuilt program image for MAME; the repository uses Windows-hosted original Hitachi tools",
+      "kind": "Decompilation",
+      "status": "Work in progress. Public C and SH-2 source builds a functional CPS3 program image, but the README says byte-for-byte matching is still in its final stages. Build-time SHA-1 verification is documented; complete matching is not claimed.",
+      "summary": "Reconstructs the arcade CPS3 program ROM in C and SH-2 assembly using the original Hitachi SHC/assembler/linker toolchain. The PS2 Anniversary debug disc was used as a reference; the README explicitly says the reconstructed target is 100% arcade game logic. Build instructions require the user's sfiii3nr1 ROM set and produce a replacement program image for MAME, without claiming a finished byte-identical build.",
+      "project_url": "https://github.com/gibletto/sfIII3-cps3-decomp",
+      "updated": "2026-10-16",
+      "strategy": "Source reconstruction with the original Hitachi C/SH-2 toolchain and a program-image SHA-1 check; exact ROM matching is stated to be incomplete.",
+      "language": "",
+      "source_available": "Public C/SH-2 source. Build requires the user's sfiii3nr1 ROM set; repository license metadata is absent and no single repository-wide license is claimed.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "CPS3 arcade program reconstruction; matching in progress",
+      "sources": [
+        {"label": "Maintainer README: arcade target, original toolchain, reference disc scope, and byte-match caveat", "url": "https://github.com/gibletto/sfIII3-cps3-decomp/blob/main/README.md"},
+        {"label": "Repository metadata and license field checked 2026-10-16", "url": "https://api.github.com/repos/gibletto/sfIII3-cps3-decomp"}
+      ]
+    },
+    {
+      "id": "transformers-ps2-decomp-tracker",
+      "title": "Transformers PS2 Matching Decompilation (Public Progress Tracker)",
+      "game": "Transformers (PlayStation 2, PAL SLES-52388; North American title: Transformers Armada: Prelude to Energon)",
+      "target_type": "Game",
+      "platform": "PlayStation 2 PAL SLES-52388; North American release is titled Transformers Armada: Prelude to Energon",
+      "kind": "Decompilation",
+      "status": "The public maintainer README describes an active project started in October 2026 and displays 7.3% matching progress, but explicitly says the source code is not public yet. The match percentage is maintainer-reported and cannot be independently audited from this repository at this time.",
+      "summary": "A maintainer-owned public tracker for a planned matching PS2 decompilation of Transformers. The README explains its stated per-function byte-comparison method, identifies the PAL target and North American alias, and asks prospective contributors to coordinate to avoid duplicate work. This record covers the progress tracker only; no decompilation source is public in the repository yet.",
+      "project_url": "https://github.com/kayliox/transformers-ps2-decomp",
+      "updated": "2026-10-16",
+      "strategy": "Planned matching decompilation: original-compiler source is checked byte-for-byte against the retail executable; only the maintainer's claimed status is public for now.",
+      "language": "",
+      "source_available": "Public project-tracking README only; the maintainer states that decompilation source is not public yet.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "Project tracker only; decompilation source not public",
+      "sources": [
+        {"label": "Maintainer README: project target, matching method, October 2026 start and explicit source-availability status", "url": "https://github.com/kayliox/transformers-ps2-decomp/blob/main/README.md"},
+        {"label": "Repository metadata checked 2026-10-16; no recognized source-language files were returned", "url": "https://api.github.com/repos/kayliox/transformers-ps2-decomp"}
+      ],
+      "media": [
+        {"kind": "image", "label": "Maintainer's Transformers PS2 project screenshot", "url": "https://raw.githubusercontent.com/kayliox/transformers-ps2-decomp/main/docs/images/jungle.jpg", "preview_url": "https://raw.githubusercontent.com/kayliox/transformers-ps2-decomp/main/docs/images/jungle.jpg", "source_url": "https://github.com/kayliox/transformers-ps2-decomp/blob/main/README.md", "discovered_on": "2026-10-16"}
+      ]
+    },
+    {
+      "id": "vagrant-story-ps1-native-dynarec-port",
+      "title": "Vagrant Story PlayStation Native/Dynamic-Recompilation Port",
+      "game": "Vagrant Story (PlayStation USA SLUS_010.40)",
+      "target_type": "Game",
+      "platform": "PlayStation USA SLUS_010.40 → Linux x86-64 native product using psxport/Lightrec",
+      "kind": "Recompilation",
+      "status": "Active work in progress, not playable end to end. The maintainer reports that a new game reaches the BATTLE prologue and that a warp command can load a free-roam map; later overlays, save progression and further gameplay are unverified.",
+      "summary": "Game-specific native/dynamic-recompilation port using psxport's per-core Lightrec runtime for PS1 guest instructions, with title-owned resident/overlay provisioning and native CD, memory-card, input, timing and rendering work. It uses the original USA disc supplied by the player and does not distribute game content; the repository describes the game as booting into a limited playable scene, not as a completed port.",
+      "project_url": "https://github.com/SomeoneIsWorking/psx-vagrant-story",
+      "updated": "2026-10-16",
+      "strategy": "Runtime dynamic recompilation of PS1 guest code through psxport/Lightrec with game-specific native subsystems; not a static recompilation.",
+      "language": "",
+      "source_available": "Public source; requires the user's USA SLUS_010.40 disc. The project vendors the CC0 rood-reverse decompilation source and does not include game content.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Game-specific dynamic-recompilation port",
+      "sources": [
+        {"label": "Maintainer README: PS1 target, Lightrec execution method, boot milestone and unverified features", "url": "https://github.com/SomeoneIsWorking/psx-vagrant-story/blob/main/README.md"},
+        {"label": "Repository metadata checked 2026-10-16", "url": "https://api.github.com/repos/SomeoneIsWorking/psx-vagrant-story"}
+      ]
+    },
+    {
+      "id": "lezac-dos-software-decompilation",
+      "title": "Lezac DOS Software Decompilation and REA Study",
+      "game": "Larax & Zaco LEZAC.EXE v1.0 shareware software",
+      "target_type": "Software",
+      "platform": "16-bit DOS x86 software (LEZAC.EXE v1.0); native differential probes and DOSBox-X reference",
+      "kind": "Decompilation",
+      "status": "Active evidence-backed reverse engineering. The README reports 215 procedures exported, seven routines reconstructed in original-style Pascal and six portable C routines, plus differential tests against the original executable. It explicitly says this is not a playable or bit-identical rebuild and not recovered original source.",
+      "summary": "Reverse-engineers the LEZAC shareware executable with REA and Ghidra. Public artifacts include evidence-linked function dossiers, pseudocode and assembly listings, recovered Pascal/C routines, packed-layout measurements, and native-versus-original probes. The author carefully distinguishes these reconstructions from original source recovery and a complete playable rebuild.",
+      "project_url": "https://github.com/Hubert-Rybak/lezac-decompilation",
+      "updated": "2026-10-16",
+      "strategy": "Evidence-backed software reverse engineering, with selected routines reconstructed and differentially tested; full matching or a playable rebuild is not claimed.",
+      "language": "",
+      "source_available": "Public analysis, tests and reconstruction source; README identifies the original LEZAC.EXE as an external reference and does not claim to include the original executable or source.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "Python",
+      "subtype": "DOS application reverse engineering and partial routine reconstruction",
+      "sources": [
+        {"label": "Maintainer README: software target, evidence methods, reconstruction counts and explicit limitations", "url": "https://github.com/Hubert-Rybak/lezac-decompilation/blob/main/README.md"},
+        {"label": "Repository metadata checked 2026-10-16", "url": "https://api.github.com/repos/Hubert-Rybak/lezac-decompilation"}
+      ]
+    },
+    {
+      "id": "roconstruct-roblox-client-decompilation",
+      "title": "RoConstruct: Legacy Roblox Client Matching Decompilation",
+      "game": "Roblox legacy Windows client software (2007–2012 builds)",
+      "target_type": "Software",
+      "platform": "Legacy 32-bit Windows Roblox clients (2007–2012) → source-level matching rebuilds; WebAssembly/Linux/macOS ports are future goals, not current support claims",
+      "kind": "Decompilation",
+      "status": "Active collaborative matching decompilation. The maintainer's source list identifies eight client builds from 2007–2012 and their exact MSVC versions. The project accepts a match only when the original compiler produces byte-identical code; verified progress is published on the project site.",
+      "summary": "Reconstructs functions from classic Roblox client executables as C++ and verifies each against the exact original Microsoft compiler and flags. The project coordinates contributors and agents through a local toolchain and server-verified matching workflow. The clients remain user-supplied: the maintainer explicitly says never to commit or share client files. The project discusses possible ports, but does not claim those as completed targets.",
+      "project_url": "https://github.com/colingsnyder2-ux/RoConstruct",
+      "updated": "2026-10-16",
+      "strategy": "Matching executable decompilation using version-specific Microsoft C++ compilers and byte-identical function checks.",
+      "language": "",
+      "source_available": "Public tooling, reconstructed source and research; original Roblox client files are not committed or shared and must remain user-supplied.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "Python",
+      "subtype": "Software client decompilation; multi-version matching project",
+      "sources": [
+        {"label": "Maintainer README: matching method, tool workflow and prohibition on sharing original client files", "url": "https://github.com/colingsnyder2-ux/RoConstruct/blob/main/README.md"},
+        {"label": "Maintainer source inventory: eight exact client builds and compiler versions", "url": "https://github.com/colingsnyder2-ux/RoConstruct/blob/main/docs/SOURCES.md"},
+        {"label": "Live maintainer progress site", "url": "https://colingsnyder2-ux.github.io/RoConstruct/"},
+        {"label": "Repository metadata checked 2026-10-16", "url": "https://api.github.com/repos/colingsnyder2-ux/RoConstruct"}
+      ],
+      "media": [
+        {"kind": "image", "label": "RoConstruct project logo", "url": "https://raw.githubusercontent.com/colingsnyder2-ux/RoConstruct/main/docs/logo.png", "preview_url": "https://raw.githubusercontent.com/colingsnyder2-ux/RoConstruct/main/docs/logo.png", "source_url": "https://github.com/colingsnyder2-ux/RoConstruct/blob/main/README.md", "discovered_on": "2026-10-16"}
+      ]
+    },
+    {
+      "id": "super-mario-galaxy-macios-native-port",
+      "title": "Petari for Apple Silicon: Super Mario Galaxy Native macOS Port",
+      "game": "Super Mario Galaxy (USA Wii RMGE01 revision 0)",
+      "target_type": "Game",
+      "platform": "Wii USA RMGE01 revision 0 → macOS on Apple Silicon ARM64 (Metal via Aurora); developed on macOS 27",
+      "kind": "Recompilation",
+      "status": "The maintainer describes the game as playable in a development build. Automated tests enter all 135 galaxy missions and check movement, jump, spin, camera and pause; not every mission has been completed and the ending is unplayed. Physical controllers are untested and visual fidelity is not yet systematically compared.",
+      "summary": "An independent native Apple Silicon port based on the Petari Super Mario Galaxy decompilation. It compiles the original game code for ARM64 and renders through Metal using Aurora rather than an emulator. The port adds native menus and optional gameplay helpers; users must supply/extract their own USA revision-0 disc data. The repository is explicit that this native-port work is not decompilation work and is not intended for upstream Petari.",
+      "project_url": "https://github.com/classicrob/MacioGalaxy",
+      "updated": "2026-10-16",
+      "strategy": "Native ARM64 compilation of Petari's reconstructed game code with a Metal renderer through Aurora; game-specific native port changes are maintained separately.",
+      "language": "",
+      "source_available": "Public port source, licensed CC0-1.0. The user supplies the USA RMGE01 revision-0 disc data; the repository contains no Nintendo game assets.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Decompilation-based native macOS port",
+      "sources": [
+        {"label": "Maintainer README: source lineage, method, supported game revision, current test coverage and known limitations", "url": "https://github.com/classicrob/MacioGalaxy/blob/main/README.md"},
+        {"label": "Upstream Petari decompilation used as the source base", "url": "https://github.com/SMGCommunity/Petari"},
+        {"label": "Aurora Metal/WebGPU rendering backend used by the port", "url": "https://github.com/encounter/aurora"},
+        {"label": "Repository metadata checked 2026-10-16", "url": "https://api.github.com/repos/classicrob/MacioGalaxy"}
+      ]
+    },
+    {
+      "id": "populous-the-beginning-macos-static-recomp",
+      "title": "OpenPopTB-MacOS: Populous: The Beginning Native Recompilation",
+      "game": "Populous: The Beginning (1998) and Undiscovered Worlds expansion",
+      "target_type": "Game",
+      "platform": "Original Windows x86 executables → Apple Silicon macOS ARM64; signed release requires macOS 14+, source build supports macOS 12+",
+      "kind": "Recompilation",
+      "status": "The maintainer reports single-player fully playable through the campaign, tutorial, Rolling Demo and Undiscovered Worlds expansion, with original software-rendered graphics, sound, music and FMV audio. Multiplayer remains unfinished. GitHub release v0.1.2 is listed as a signed/notarized Apple Silicon build.",
+      "summary": "Statically recompiles the original Windows x86 executables and QMixer sound DLL into C and runs them on a small Win32/DirectDraw/DirectInput/DirectSound compatibility runtime over SDL3. The user supplies a GOG or compatible Windows game installation; the first launch recompiles it locally. The project is distinct from the cataloged general-purpose Recomp-Kit static recompiler: this repository provides a game-specific, playable Populous port, and contains no game code or data.",
+      "project_url": "https://github.com/iagodemacedo/OpenPopTB-MacOS",
+      "updated": "2026-10-16",
+      "strategy": "Static x86-to-C recompilation plus a game-specific Win32/DirectX API runtime implemented over SDL3; no emulator, Wine or VM is used.",
+      "language": "",
+      "source_available": "Public recompiler and runtime, plus signed/notarized releases. The user must own and supply the GOG or compatible game copy; no game code or data are included.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Windows x86 static recompilation to native Apple Silicon",
+      "sources": [
+        {"label": "Maintainer README: recompilation method, supported game versions, release platform and playability scope", "url": "https://github.com/iagodemacedo/OpenPopTB-MacOS/blob/main/README.md"},
+        {"label": "Maintainer release v0.1.2 (signed and notarized Apple Silicon build)", "url": "https://github.com/iagodemacedo/OpenPopTB-MacOS/releases/tag/v0.1.2"},
+        {"label": "Reddit announcement used as a discovery lead; project claims were checked against the primary README", "url": "https://www.reddit.com/r/decomps/comments/1x67yvk/openpoptbmacos_static_recompilation_of_populous/"},
+        {"label": "Repository metadata checked 2026-10-16", "url": "https://api.github.com/repos/iagodemacedo/OpenPopTB-MacOS"}
+      ],
+      "media": [
+        {"kind": "image", "label": "Animated rolling demo showing the native macOS build", "url": "https://raw.githubusercontent.com/iagodemacedo/OpenPopTB-MacOS/main/docs/media/demo.webp", "preview_url": "https://raw.githubusercontent.com/iagodemacedo/OpenPopTB-MacOS/main/docs/media/demo.webp", "source_url": "https://github.com/iagodemacedo/OpenPopTB-MacOS/blob/main/README.md", "discovered_on": "2026-10-16"}
+      ]
+    }
+  ]
+}

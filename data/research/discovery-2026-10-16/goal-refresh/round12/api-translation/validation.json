@@ -1,0 +1,33 @@
+{
+  "checked_at": "2026-10-16",
+  "project_manifest_json": "pass",
+  "language_manifest_json": "pass",
+  "github_language_bytes_match_captured_official_endpoint": "pass",
+  "mirror_commit_sha_matches_canonical_gitlab_main": "pass",
+  "predominant_language_is_largest_byte_bucket": "pass",
+  "https_project_sources": 8,
+  "catalog_dedupe": {
+    "read_only_catalog_count": 3411,
+    "id_collisions": 0,
+    "canonical_project_url_collisions": 0,
+    "exact_title_collisions": 0
+  },
+  "research_manifest_dedupe": {
+    "json_and_markdown_files_checked_outside_this_lane": 4124,
+    "candidate_id_or_canonical_url_collisions": 0
+  },
+  "scratch_import": {
+    "real_catalog_importer": "pass",
+    "disposable_copy_project_count_before": 3411,
+    "disposable_copy_project_count_after": 3412,
+    "programming_language_row": "pass",
+    "sqlite_integrity_check": "ok",
+    "sqlite_foreign_key_check": "empty"
+  },
+  "media": {
+    "direct_project_linked_media_found": 0,
+    "local_media_downloaded": false
+  },
+  "canonical_database_modified": false,
+  "tracked_files_modified": false
+}
