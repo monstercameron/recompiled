@@ -457,7 +457,7 @@ html[data-egg-mode="crt"] body::after { opacity:.38; background-image:repeating-
 .console-gallery-controls input,.console-gallery-controls select { width:100%; min-width:0; min-height:44px; padding:9px 11px; border:1px solid var(--control-border); border-radius:2px; background:var(--field-bg); color:var(--ink); font:11px var(--sans); text-transform:none; letter-spacing:normal; }
 .console-gallery-count { margin:0 0 13px; color:var(--muted); font:9px var(--mono); }
 .console-gallery-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:12px; }
-.console-gallery-card { min-width:0; overflow:hidden; border:1px solid var(--glass-border); background:var(--glass-surface); -webkit-backdrop-filter:blur(12px) saturate(1.08); backdrop-filter:blur(12px) saturate(1.08); transition:transform var(--motion-base) var(--ease-standard),border-color var(--motion-fast) var(--ease-standard),box-shadow var(--motion-base) var(--ease-standard); }
+.console-gallery-card { min-width:0; overflow:hidden; border:1px solid var(--glass-border); background:var(--glass-surface); -webkit-backdrop-filter:blur(12px) saturate(1.08); backdrop-filter:blur(12px) saturate(1.08); content-visibility:auto; contain-intrinsic-size:auto 390px; transition:transform var(--motion-base) var(--ease-standard),border-color var(--motion-fast) var(--ease-standard),box-shadow var(--motion-base) var(--ease-standard); }
 .console-gallery-card:hover,.console-gallery-card:focus-within { transform:translateY(-3px); border-color:var(--outline); box-shadow:0 12px 28px rgba(25,42,57,.1); }
 .console-gallery-photo { position:relative; display:grid; place-items:center; aspect-ratio:4/3; overflow:hidden; background:linear-gradient(145deg,#f3f1e9,#e3e4dc); }
 .console-gallery-photo > img:first-child { width:100%; height:100%; object-fit:contain; padding:15px; transition:transform 420ms var(--ease-gentle),filter 420ms var(--ease-gentle); }
@@ -1245,4 +1245,5 @@ html:lang(ja) .hero h1 { font-size:clamp(46px,4.85vw,62px); letter-spacing:-.05e
 @media (max-width:420px) {
   .site-header .primary-nav > a:not(.github-link) { min-height:44px; font-size:10px; }
   .floating-nav { right:max(4px,env(safe-area-inset-right)); }
+  .console-gallery-card { contain-intrinsic-size:auto 320px; }
 }

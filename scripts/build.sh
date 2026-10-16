@@ -152,6 +152,7 @@ if missing:
     raise SystemExit(1)
 PY
   then
+    python3 scripts/generate-console-gallery-previews.py --check
     python3 scripts/catalog.py import-console-gallery data/research/console-gallery.json
   else
     echo "Skipping console-gallery import; its local image set is incomplete."

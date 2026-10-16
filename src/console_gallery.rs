@@ -161,6 +161,9 @@ fn card_markup(item: &ConsoleHardware, locale: &str) -> String {
     } else {
         format!("./{image_path}")
     };
+    let preview_src = console_preview_asset(&image_path)
+        .map(|path| format!("./{path}"))
+        .unwrap_or_else(|| image_src.clone());
     let source_page = super::safe_link(&item.source_page_url);
     let original = super::safe_link(&item.source_image_url);
     let source_logo_path = safe_asset(&item.source_logo_path, "assets/source-logos/");
@@ -277,9 +280,9 @@ fn card_markup(item: &ConsoleHardware, locale: &str) -> String {
         .map(|year| year.to_string())
         .unwrap_or_else(|| super::i18n::tr(locale, "console_year_unknown").to_string());
     format!(
-        "<article class=\"console-gallery-card\" data-console-id=\"{}\"><div class=\"console-gallery-photo\"><img src=\"{}\" alt=\"{}\" loading=\"lazy\" decoding=\"async\"> <span class=\"console-maker-mark\">{}</span>{}</div><div class=\"console-gallery-caption\"><h3>{}</h3><div class=\"console-gallery-meta\"><span>{}</span><span>{}</span></div><p class=\"console-gallery-maker-name\">{}</p>{}</div></article>",
+        "<article class=\"console-gallery-card\" data-console-id=\"{}\"><div class=\"console-gallery-photo\"><img src=\"{}\" alt=\"{}\" loading=\"lazy\" decoding=\"async\" fetchpriority=\"low\"> <span class=\"console-maker-mark\">{}</span>{}</div><div class=\"console-gallery-caption\"><h3>{}</h3><div class=\"console-gallery-meta\"><span>{}</span><span>{}</span></div><p class=\"console-gallery-maker-name\">{}</p>{}</div></article>",
         super::escape_html(&item.id),
-        super::escape_html(&image_src),
+        super::escape_html(&preview_src),
         super::escape_html(&item.alt),
         maker_logo,
         source_logo,
@@ -289,6 +292,23 @@ fn card_markup(item: &ConsoleHardware, locale: &str) -> String {
         super::escape_html(&item.maker),
         source_credit
     )
+}
+
+fn console_preview_asset(original: &str) -> Option<String> {
+    let file_name = original.strip_prefix("assets/consoles/")?;
+    let (stem, extension) = file_name.rsplit_once('.')?;
+    if !matches!(
+        extension.to_ascii_lowercase().as_str(),
+        "jpg" | "jpeg" | "png"
+    ) {
+        return None;
+    }
+    let path = format!("assets/console-previews/{stem}.jpg");
+    if safe_asset(&path, "assets/console-previews/").is_empty() {
+        None
+    } else {
+        Some(path)
+    }
 }
 
 fn linked_license(label: &str, url: Option<&str>) -> String {

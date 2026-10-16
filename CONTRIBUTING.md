@@ -60,7 +60,7 @@ Keep the existing `id` when a repository changes name, adds a platform, publishe
 
 If one repository contains distinct ports for multiple games, create one game-specific row per verified title and explain the relationship in the title or summary. If a repository combines several ports that share one codebase and maintainers, keep the rows linked to that canonical repository and avoid counting the repository multiple times in popularity summaries.
 
-To refresh media, update `data/research/media.json` and use the media importer. Keep external media as original URLs and include the page that links to each asset; do not download or mirror project media. Console-gallery photos are the documented exception and require a Commons file page, exact license, creator credit, attribution, and the original image URL in the gallery manifest.
+To refresh media, update `data/research/media.json` and use the media importer. Keep external media as original URLs and include the page that links to each asset; do not download or mirror project media. Console-gallery photos are the documented exception and require a Commons file page, exact license, creator credit, attribution, and the original image URL in the gallery manifest. After caching the unchanged source images, run `python3 scripts/generate-console-gallery-previews.py` to create 760px JPEG display copies under `docs/assets/console-previews/`; the gallery loads these lighter previews while keeping the original files and Commons credits.
 
 ## Import and verify
 
