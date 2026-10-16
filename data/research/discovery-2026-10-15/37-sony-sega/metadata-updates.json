@@ -1,0 +1,23 @@
+{
+  "updated": "2026-10-15",
+  "updates": [
+    {
+      "id": "dbz-budokai-hd-ps3-recomp",
+      "fields": {
+        "status": "Work in progress. The default build demonstrates PS3 ELF/game-main startup, SPURS/EDGE activity, and a custom animated test scene over cycling game images; actual game menus and geometry are not established. Experimental game-world/menu probes are off by default, and audio/input remain stubbed.",
+        "summary": "Static Windows x64 recompilation of the PS3 Budokai HD Collection release using ps3recomp. Current default output is a test renderer with game textures, not verified gameplay; the user must provide the decrypted EBOOT and original disc data."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: current default-build output, gated experiments, and unimplemented gameplay/audio/input",
+          "url": "https://github.com/gnome41/dbz-budokai-hd#readme"
+        },
+        {
+          "label": "GitHub repository metadata and language information",
+          "url": "https://api.github.com/repos/gnome41/dbz-budokai-hd"
+        }
+      ],
+      "evidence_note": "The README distinguishes its default animated sphere/background viewer from gated game-world and menu experiments, and explicitly says persistent menu/game rendering and input are not established."
+    }
+  ]
+}

@@ -52,6 +52,9 @@ fi
 if [[ -f data/research/discovery-2026-10-15/new-game-wikipedia-links.json ]]; then
   python3 scripts/catalog.py import-wikipedia-links data/research/discovery-2026-10-15/new-game-wikipedia-links.json
 fi
+if [[ -f data/research/discovery-2026-10-15/46-wikipedia-current-gaps/wikipedia-links.json ]]; then
+  python3 scripts/catalog.py import-wikipedia-links data/research/discovery-2026-10-15/46-wikipedia-current-gaps/wikipedia-links.json
+fi
 if [[ -f data/research/directory.json ]]; then
   python3 scripts/catalog.py import-directory data/research/directory.json
 fi

@@ -94,5 +94,95 @@ class ProjectUpdateImportTests(unittest.TestCase):
         self.assertEqual(count, 2)
 
 
+class GameProfileImportTests(unittest.TestCase):
+    def setUp(self):
+        self.temp = tempfile.TemporaryDirectory()
+        self.addCleanup(self.temp.cleanup)
+        catalog.DATABASE = Path(self.temp.name) / "catalog.sqlite"
+
+    def write_manifest(self, content):
+        path = Path(self.temp.name) / "profiles.json"
+        path.write_text(json.dumps(content), encoding="utf-8")
+        return path
+
+    def test_carried_fact_keeps_its_verification_date_and_new_fact_uses_batch_date(self):
+        with catalog.connect() as connection:
+            connection.execute("INSERT INTO games(game_key) VALUES(?)", ("Sample Game (PC)",))
+            connection.execute(
+                """INSERT INTO game_facts
+                (game_key,position,field,value_json,source_url,evidence,verified_on)
+                VALUES(?,?,?,?,?,?,?)""",
+                ("Sample Game (PC)", 0, "genre", json.dumps("Puzzle"),
+                 "https://example.org/game", "Official game page lists the genre.", "2024-03-01"),
+            )
+
+        path = self.write_manifest({
+            "verified_at": "2026-10-15",
+            "profiles": [{
+                "game_key": "Sample Game (PC)",
+                "facts": [
+                    {
+                        "field": "genre", "value": "Puzzle",
+                        "source_url": "https://example.org/game",
+                        "evidence": "Official game page lists the genre.",
+                        "verified_on": "2024-03-01",
+                    },
+                    {
+                        "field": "developer", "value": "Example Studio",
+                        "source_url": "https://example.org/game",
+                        "evidence": "Official game page names Example Studio as developer.",
+                    },
+                ],
+            }],
+        })
+
+        catalog.import_game_profiles(path)
+
+        with catalog.connect() as connection:
+            facts = connection.execute(
+                "SELECT field,verified_on FROM game_facts WHERE game_key=? ORDER BY position",
+                ("Sample Game (PC)",),
+            ).fetchall()
+        self.assertEqual([(row["field"], row["verified_on"]) for row in facts], [
+            ("genre", "2024-03-01"),
+            ("developer", "2026-10-15"),
+        ])
+
+    def test_invalid_fact_verification_date_rejects_batch_without_replacing_existing_facts(self):
+        with catalog.connect() as connection:
+            connection.execute("INSERT INTO games(game_key) VALUES(?)", ("Sample Game (PC)",))
+            connection.execute(
+                """INSERT INTO game_facts
+                (game_key,position,field,value_json,source_url,evidence,verified_on)
+                VALUES(?,?,?,?,?,?,?)""",
+                ("Sample Game (PC)", 0, "genre", json.dumps("Puzzle"),
+                 "https://example.org/game", "Existing verified profile fact.", "2024-03-01"),
+            )
+
+        path = self.write_manifest({
+            "verified_at": "2026-10-15",
+            "profiles": [{
+                "game_key": "Sample Game (PC)",
+                "facts": [{
+                    "field": "genre", "value": "Puzzle",
+                    "source_url": "https://example.org/game",
+                    "evidence": "Updated evidence.",
+                    "verified_on": "not-a-date",
+                }],
+            }],
+        })
+
+        with self.assertRaisesRegex(ValueError, "Game fact verification date must be YYYY-MM-DD"):
+            catalog.import_game_profiles(path)
+
+        with catalog.connect() as connection:
+            fact = connection.execute(
+                "SELECT evidence,verified_on FROM game_facts WHERE game_key=?",
+                ("Sample Game (PC)",),
+            ).fetchone()
+        self.assertEqual(fact["evidence"], "Existing verified profile fact.")
+        self.assertEqual(fact["verified_on"], "2024-03-01")
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -1,0 +1,40 @@
+{
+  "updated": "2026-10-15",
+  "scope": "Two evidence-backed date fills for existing source-available 3DS emulators whose status already recorded the same source/release dates. No system, language, or compatibility claims were changed.",
+  "updates": [
+    {
+      "id": "3beans",
+      "fields": {
+        "updated": "2026-08-05"
+      },
+      "sources": [
+        {
+          "label": "Maintainer rolling release dated 2026-08-05",
+          "url": "https://github.com/Hydr8gon/3Beans/releases/tag/release"
+        },
+        {
+          "label": "GitHub repository metadata checked 2026-10-15",
+          "url": "https://api.github.com/repos/Hydr8gon/3Beans"
+        }
+      ],
+      "evidence_note": "The database status already says the rolling build and repository were updated 2026-08-05; this fills the blank updated field from the release and repository metadata."
+    },
+    {
+      "id": "panda3ds",
+      "fields": {
+        "updated": "2026-10-04"
+      },
+      "sources": [
+        {
+          "label": "GitHub repository metadata: most recent source push on 2026-10-04",
+          "url": "https://api.github.com/repos/wheremyfoodat/Panda3DS"
+        },
+        {
+          "label": "Maintainer latest formal release v0.9, published 2024-12-25",
+          "url": "https://github.com/wheremyfoodat/Panda3DS/releases/tag/v0.9"
+        }
+      ],
+      "evidence_note": "The existing status already distinguishes current source activity through 2026-10-04 from the older v0.9 formal release; this fills the blank updated field with the source-activity date."
+    }
+  ]
+}

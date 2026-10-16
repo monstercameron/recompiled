@@ -1,0 +1,22 @@
+# Nintendo handheld and home-console discovery
+
+Reviewed GitHub searches for Game Boy/Color/Advance, Nintendo DS, 3DS, N64, GameCube, Wii, Wii U, Switch, decompilation, static recompilation, and native-port terms. Reddit searches supplied community leads, including the Super Robot Wars 64 recompilation announcement and an unreleased Super Mario Odyssey SwitchRecomp claim. Each included status, method, platform, version, and source/game-file requirement is grounded in the maintainer's repository, README, or release page; GitHub's Languages API was used for the listed primary-language field.
+
+The decomp.dev homepage now says its public index and new-project submissions are disabled. It remains useful context for project discovery, but it did not supply included project claims. See https://decomp.dev/. The GitHub-maintained repo/readme pages and releases are the evidence sources in the records.
+
+## Review decisions
+
+- Staged 13 new project records: Dragon Quest IX European recompilation research; Kingdom Hearts 358/2 Days PC port; Air Traffic Chaos DS decompilation; BIT.TRIP COMPLETE Wii decompilation; The Sims: Bustin' Out GameCube decompilation; Puyo Puyo!! 20th Anniversary Wii decompilation scaffold; Game Boy Tetris assembly disassembly; Conker's Bad Fur Day Reloaded recompilation; Aero Fighters Assault N64 recompilation workspace; Pokémon: Let's Go, Eevee! Switch recompilation; Super Robot Wars 64 recompilation; MOTHER 3 recompilation; and Go Go Ackman SNES recompilation.
+- The matching Dragon Quest IX project already in the catalog covers USA/Japan; the new DQ9-Decomp repository explicitly targets the European release and supplies different static-recompilation/runtime research. Its README says it is not a playable PC release and lacks an end-to-end game generator, so the record states those limits.
+- Kingdom Hearts 358/2 Days already has a matching decompilation record and a Vita project. The PC port is a separate repository and platform; its README explicitly separates the PC runtime from the matching decompilation.
+- The Sims: Bustin' Out record already covers the GBA version. The staged project targets the distinct GameCube USA release G4ME69 revision 0.
+- The existing MOTHER 3 record is a fan localization. The new repository statically recompiles the English-patched GBA game; this is recorded as a separate project and method.
+- Conker's Bad Fur Day already has desktop and Android recompilation records. ConkerBFDReloaded is a separate, non-fork repository with a distinct source tree, Classic/Modern modes, and its own v1.3.6 release; it is staged as another project and the target overlap is explicit.
+- BIT.TRIP COMPLETE is one aggregate record. Although its README says the repository effectively covers each individual BIT.TRIP WiiWare entry, it only documents one Wii disc Game ID (SVTEXS) and does not enumerate separate entry-specific build targets. No additional title rows were inferred.
+- Tetris Game Boy is recorded as an assembly disassembly, not a verified matching C decompilation. The maintainer README and repository files do not identify the exact regional ROM revision or matching status.
+- Puyo Puyo!! 20th Anniversary Wii is included as a weak-maturity scaffold because it has title-specific SAUJ8P configuration and symbol/split maps, even though its README remains the generic DTK template and no game-code implementation or matching status is documented. Punch-Out!! Wii was excluded because its sole commit is a title-only README without code or build evidence.
+- Super Smash Bros. Ultimate and Super Metroid recompilation leads exactly duplicate cataloged repositories/targets and were skipped. Saru Get You: Saru Saru Daisakusen targets PSP and was outside scope. The SwitchRecomp Odyssey Reddit post remains an unverified lead because no public maintainer repo/release was found and the post says the source is not yet public.
+
+## Validation
+
+`new-projects.json` parses as JSON and contains 13 records. All required project fields are present, each row has at least one HTTPS source, and the staged IDs and repository URLs were checked against `data/catalog.sqlite`, `docs/catalog.json`, `data/research/discovery-2026-10-15/project-additions-reviewed.json`, and every staged discovery JSON manifest. No staged ID or repository URL duplicates were found. Intentional same-title entries are separately documented above and in the manifest. `metadata-updates.json` parses and contains zero patches. No import or catalog build was run, as requested.

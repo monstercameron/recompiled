@@ -1,0 +1,534 @@
+{
+  "updated": "2026-10-15",
+  "projects": [
+    {
+      "id": "parasite-eve-ps1-decomp",
+      "title": "Parasite Eve PS1 Decompilation",
+      "game": "Parasite Eve (USA Disc 1, SLUS-006.62)",
+      "target_type": "Game",
+      "platform": "PlayStation (USA Disc 1, SLUS-006.62)",
+      "kind": "Decompilation",
+      "status": "Work in progress. The repository uses objdiff against retail binaries and enforces module SHA-1 checks, but the README does not claim complete decompilation.",
+      "summary": "A matching C decompilation of the North American PlayStation executable and its room/scene overlays. The repository is source-only; users supply their own executable/disc, PSYQ SDK files, and local toolchain, and generated assembly/output is not distributed.",
+      "project_url": "https://github.com/khasinski/parasite-eve-decomp",
+      "updated": "2026-10-15",
+      "strategy": "Matching C decompilation checked through the stock PSX compiler pipeline",
+      "language": "",
+      "source_available": "Public source repository; requires user-supplied game executable/disc, PSYQ SDK files, and compiler toolchain; no game data or generated output is included.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "PlayStation matching decompilation",
+      "sources": [
+        {
+          "label": "Maintainer README: target build, matching policy, and current progress",
+          "url": "https://github.com/khasinski/parasite-eve-decomp#readme"
+        },
+        {
+          "label": "Project architecture and overlay build documentation",
+          "url": "https://github.com/khasinski/parasite-eve-decomp/blob/main/docs/ARCHITECTURE.md"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/khasinski/parasite-eve-decomp/languages"
+        }
+      ]
+    },
+    {
+      "id": "tenchu-stealth-assassins-ps1-recomp",
+      "title": "Tenchu: Stealth Assassins PS1 Recompilation",
+      "game": "Tenchu: Stealth Assassins (USA, SLUS-00706)",
+      "target_type": "Game",
+      "platform": "PlayStation → Linux x64 (published AppImage/ZIP; Windows run path unverified)",
+      "kind": "Recompilation",
+      "status": "Early, incomplete v0.1.0 release. The README says the game boots, plays, and saves, but has not been played through; dialogue/music work, other sound effects and later missions remain unverified, and Windows has not been tested.",
+      "summary": "A launcher uses a RecompOne fork to statically translate the user's USA PS1 disc to C# and build it locally. The disc is required at setup and runtime; a PlayStation BIOS is optional because the engine supplies HLE services.",
+      "project_url": "https://github.com/Heromachine/Tenchu-SA-Recomp",
+      "updated": "2026-10-15",
+      "strategy": "Static PlayStation code recompilation to C# via a RecompOne fork",
+      "language": "",
+      "source_available": "Public source and Linux x64 release packages; user-supplied USA game disc required; no game code or data is distributed.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C#",
+      "subtype": "PS1 static recompilation and native launcher",
+      "sources": [
+        {
+          "label": "Maintainer README: method, supported disc, requirements, and limitations",
+          "url": "https://github.com/Heromachine/Tenchu-SA-Recomp#readme"
+        },
+        {
+          "label": "First release v0.1.0",
+          "url": "https://github.com/Heromachine/Tenchu-SA-Recomp/releases/tag/v0.1.0"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/Heromachine/Tenchu-SA-Recomp/languages"
+        }
+      ]
+    },
+    {
+      "id": "xenogears-usa-ps1-recomp",
+      "title": "Xenogears USA PS1 Static Recompilation",
+      "game": "Xenogears (USA, SLUS-006.64, Disc 1 and Disc 2)",
+      "target_type": "Game",
+      "platform": "PlayStation → Windows, macOS, and Linux x86-64",
+      "kind": "Recompilation",
+      "status": "Alpha. The project reports BIOS boot, title screen, intro FMV, and opening gameplay running with graphics, audio, input, and memory-card saves; it has not been validated end to end.",
+      "summary": "A PSXRecomp-based static translation of the USA PS1 executable from MIPS R3000A to C and native x86-64. Releases include OpenBIOS; users supply both game discs, and the source build also needs a locally supplied retail BIOS for its retail backend.",
+      "project_url": "https://github.com/OpokXeno/xenogears-recomp",
+      "updated": "2026-10-15",
+      "strategy": "MIPS R3000A static recompilation to C through PSXRecomp with a native runtime",
+      "language": "",
+      "source_available": "Public source and desktop releases; user-supplied USA discs required; retail BIOS is not distributed, while releases include the separately licensed OpenBIOS image.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "PS1 static recompilation",
+      "sources": [
+        {
+          "label": "Maintainer README: supported discs, method, runtime requirements, and alpha status",
+          "url": "https://github.com/OpokXeno/xenogears-recomp#readme"
+        },
+        {
+          "label": "Project releases",
+          "url": "https://github.com/OpokXeno/xenogears-recomp/releases"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/OpokXeno/xenogears-recomp/languages"
+        }
+      ]
+    },
+    {
+      "id": "resident-evil-code-veronica-x-ps2-native-port",
+      "title": "Resident Evil Code: Veronica X Enhanced Native PC Port",
+      "game": "Resident Evil Code: Veronica X (PS2 US, SLUS-20184)",
+      "target_type": "Game",
+      "platform": "PlayStation 2 → Linux and Windows x86",
+      "kind": "Reimplementation",
+      "status": "Public Linux and Windows release builds are available. The README documents extensive native rendering, controls, saves, mods, and co-op features, but does not state that the full game has been validated end to end.",
+      "summary": "A source-level native PC port built from the separate community decompilation. The original game code and PS2 platform layer are compiled for PC; PS2 services are emulated at subsystem boundaries and native paths replace selected expensive parts. Users provide their own NTSC-U disc image.",
+      "project_url": "https://github.com/aikatore/recvx-enhanced-recomp",
+      "updated": "2026-10-15",
+      "strategy": "Native source port based on a PS2 decompilation, with boundary-level hardware emulation and native rendering paths",
+      "language": "",
+      "source_available": "Public source and Linux/Windows release builds; user supplies the NTSC-U SLUS-20184 disc image; no game data is included.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Decompilation-based PS2 native PC port",
+      "sources": [
+        {
+          "label": "Maintainer README: native port architecture, features, disc requirement, and release builds",
+          "url": "https://github.com/aikatore/recvx-enhanced-recomp#readme"
+        },
+        {
+          "label": "Project releases",
+          "url": "https://github.com/aikatore/recvx-enhanced-recomp/releases"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/aikatore/recvx-enhanced-recomp/languages"
+        }
+      ]
+    },
+    {
+      "id": "virtual-hydlide-saturn-recomp",
+      "title": "Virtual Hydlide Saturn Recompilation and PC Port",
+      "game": "Virtual Hydlide (Europe, MK-81380 V1.000)",
+      "target_type": "Game",
+      "platform": "Sega Saturn → native PC",
+      "kind": "Recompilation",
+      "status": "Work in progress. The README says all 15 programs compile and agree with an interpreter; the game reaches its field with video and sound, and interpolation draws at 60 fps over the game's 12 fps logic. The remaining areas and full playthrough are unverified.",
+      "summary": "A game-specific static SH-2-to-C++ recompiler and runtime built on saturnkit, targeting the European MK-81380 V1.000 disc. The repository contains documentation and tools but no game data; users supply their own original disc.",
+      "project_url": "https://github.com/vs-sr-dev/pc-virtualhydlide",
+      "updated": "2026-10-15",
+      "strategy": "Static SH-2-to-C++ recompilation with a native PC runtime",
+      "language": "",
+      "source_available": "Public source, documentation, and tools; user must provide the original European Saturn disc; no game data or assets are included.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "Python",
+      "subtype": "Sega Saturn game-specific static recompilation",
+      "sources": [
+        {
+          "label": "Maintainer README: target disc, recompilation workflow, and current session status",
+          "url": "https://github.com/vs-sr-dev/pc-virtualhydlide#readme"
+        },
+        {
+          "label": "Project video/audio and frame-rate status",
+          "url": "https://github.com/vs-sr-dev/pc-virtualhydlide/blob/main/docs/14-frame-rate.md"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/vs-sr-dev/pc-virtualhydlide/languages"
+        }
+      ]
+    },
+    {
+      "id": "deep-fear-saturn-recomp",
+      "title": "Deep Fear Saturn Recompilation and PC Port",
+      "game": "Deep Fear (Europe, MK-81804 V1.001, 2 discs)",
+      "target_type": "Game",
+      "platform": "Sega Saturn → native PC",
+      "kind": "Recompilation",
+      "status": "Work in progress. The README's latest session reports that the recompiled game reaches the ERS Room with the player, gauges, and room name rendered, and that the player can walk; no full-game validation is claimed.",
+      "summary": "A static SH-2-to-C++ recompilation of Deep Fear's two-disc European release using the game-specific tools and shared saturnkit runtime. The repository contains tools and analysis only; users supply their own original discs.",
+      "project_url": "https://github.com/vs-sr-dev/pc-deepfear",
+      "updated": "2026-10-15",
+      "strategy": "Static SH-2-to-C++ recompilation with a game-specific runtime layer",
+      "language": "",
+      "source_available": "Public source, documentation, and tools; requires both original European Saturn discs; no game data or assets are included.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "Python",
+      "subtype": "Sega Saturn game-specific static recompilation",
+      "sources": [
+        {
+          "label": "Maintainer README: supported discs, build workflow, and latest status",
+          "url": "https://github.com/vs-sr-dev/pc-deepfear#readme"
+        },
+        {
+          "label": "Project runtime progress and first-room report",
+          "url": "https://github.com/vs-sr-dev/pc-deepfear/blob/main/docs/11-runtime.md"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/vs-sr-dev/pc-deepfear/languages"
+        }
+      ]
+    },
+    {
+      "id": "x-japan-virtual-shock-saturn-recomp",
+      "title": "X JAPAN Virtual Shock 001 Saturn Recompilation and PC Port",
+      "game": "X JAPAN Virtual Shock 001 (Japan, GS-9023 V1.000)",
+      "target_type": "Game",
+      "platform": "Sega Saturn → native PC",
+      "kind": "Recompilation",
+      "status": "Work in progress. The README says the recompiled game is playable from boot through its opening movie, title, briefing, backstage, game-over sequence, and first item; no complete playthrough is reported.",
+      "summary": "A static SH-2-to-C++ recompilation of the Japanese Saturn release, including tooling for its XA audio and interleaved media. The repository contains source and documentation but no game content; users provide their own original disc.",
+      "project_url": "https://github.com/vs-sr-dev/pc-xjapan",
+      "updated": "2026-10-15",
+      "strategy": "Static SH-2-to-C++ recompilation with a native PC runtime",
+      "language": "",
+      "source_available": "Public source, documentation, and tools; user must provide the original Japanese Saturn disc; no game data or assets are included.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "Python",
+      "subtype": "Sega Saturn game-specific static recompilation",
+      "sources": [
+        {
+          "label": "Maintainer README: supported disc, build workflow, and current playable extent",
+          "url": "https://github.com/vs-sr-dev/pc-xjapan#readme"
+        },
+        {
+          "label": "Project recompiler report",
+          "url": "https://github.com/vs-sr-dev/pc-xjapan/blob/main/docs/09-recompiler.md"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/vs-sr-dev/pc-xjapan/languages"
+        }
+      ]
+    },
+    {
+      "id": "lost-world-jurassic-park-model3-recomp",
+      "title": "The Lost World: Jurassic Park Model 3 Recompilation",
+      "game": "The Lost World: Jurassic Park (Sega Model 3 Step 1.5 arcade)",
+      "target_type": "Game",
+      "platform": "Sega Model 3 Step 1.5 → native PC",
+      "kind": "Recompilation",
+      "status": "Playable. The maintainer reports the full attract cycle, all five stages and bosses, sound, light-gun input, and two-player network play; some transparency and polygon errors remain.",
+      "summary": "A game-specific static PowerPC-to-native-C recompilation linked against the separate model3recomp board runtime. Requires the user's own Model 3 ROM set; neither ROMs nor generated game code are distributed.",
+      "project_url": "https://github.com/sp00nznet/lostworld",
+      "updated": "2026-10-15",
+      "strategy": "Static PowerPC-to-C recompilation with a separately maintained Model 3 board runtime",
+      "language": "",
+      "source_available": "Public source and build configuration; user-supplied game ROM set required; ROMs, assets, and generated recompilation output are not distributed.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Sega Model 3 game-specific static recompilation",
+      "sources": [
+        {
+          "label": "Maintainer README: game-specific scope, playability, and required ROMs",
+          "url": "https://github.com/sp00nznet/lostworld#readme"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/sp00nznet/lostworld/languages"
+        }
+      ]
+    },
+    {
+      "id": "virtua-cop-model2-recomp",
+      "title": "Virtua Cop Model 2 Recompilation",
+      "game": "Virtua Cop (Model 2 arcade, Revision A and Revision B ROM sets)",
+      "target_type": "Game",
+      "platform": "Sega Model 2 → Windows",
+      "kind": "Recompilation",
+      "status": "Attract mode and a first-person stage run with native rendering and mouse light-gun input. Playing a stage through to completion is unverified, and sound is not implemented.",
+      "summary": "Static recompilation of Virtua Cop's i960 ROM program to C, linked against the separate model2recomp board runtime. The game-specific repository supplies the ROM loader/lifter; users must provide their own Revision A or B ROM set.",
+      "project_url": "https://github.com/sp00nznet/virtuacop",
+      "updated": "2026-10-15",
+      "strategy": "Static Intel i960-to-C recompilation with a native Model 2 board runtime",
+      "language": "",
+      "source_available": "Public source and tooling; user supplies their own Virtua Cop Revision A or B ROM set; no game ROM data or generated C is distributed.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "Python",
+      "subtype": "Sega Model 2 game-specific static recompilation",
+      "sources": [
+        {
+          "label": "Maintainer README: static lift, target ROM revisions, gameplay status, and missing audio",
+          "url": "https://github.com/sp00nznet/virtuacop#readme"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/sp00nznet/virtuacop/languages"
+        }
+      ]
+    },
+    {
+      "id": "sega-rally-championship-model2-recomp",
+      "title": "Sega Rally Championship Model 2A Recompilation",
+      "game": "Sega Rally Championship (Model 2A Revision B arcade)",
+      "target_type": "Game",
+      "platform": "Sega Model 2A Revision B → macOS Apple silicon",
+      "kind": "Recompilation",
+      "status": "Public macOS Apple silicon Player Preview 1 released 2026-10-15. The release reports that the exact public app imports the user's verified Revision B ROM ZIP and passes a 2,100-frame CRT/audio check; full arcade-fidelity certification and a complete championship remain unverified.",
+      "summary": "Static recompilation of the arcade game's i960 program to native C++ with native Model 2A devices, SDL3, Metal graphics, and sound. The public Mac player contains compiled game instructions but no ROM/archive/assets; it imports the user's verified Revision B ROM ZIP locally.",
+      "project_url": "https://github.com/LaurentGarcia/sega-rally-recomp",
+      "updated": "2026-10-15",
+      "strategy": "Static i960-to-C++ recompilation with native Model 2A runtime, Metal renderer, and sound",
+      "language": "",
+      "source_available": "Public source and a prebuilt macOS Apple silicon player; the player includes compiled game instructions but no ROM or extracted assets and requires the user's verified Revision B ROM ZIP.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Sega Model 2A game-specific static recompilation",
+      "sources": [
+        {
+          "label": "Maintainer README: recompilation, supported ROM, and release status",
+          "url": "https://github.com/LaurentGarcia/sega-rally-recomp#readme"
+        },
+        {
+          "label": "Mac Player Preview 1 release and validation notes",
+          "url": "https://github.com/LaurentGarcia/sega-rally-recomp/releases/tag/v0.1.0-player.1"
+        },
+        {
+          "label": "Platform package and validation status",
+          "url": "https://github.com/LaurentGarcia/sega-rally-recomp/blob/main/docs/release-platforms.md"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/LaurentGarcia/sega-rally-recomp/languages"
+        }
+      ]
+    },
+    {
+      "id": "crazy-taxi-ps3-recomp",
+      "title": "Crazy Taxi PS3 Recompilation",
+      "game": "Crazy Taxi (PS3 PSN release, NPUB30242)",
+      "target_type": "Game",
+      "platform": "PlayStation 3 PSN → Windows",
+      "kind": "Recompilation",
+      "status": "Alpha. The current build reaches the title and runs the attract demo, but the README says nothing beyond the title has been tried; menu input and gameplay are unverified.",
+      "summary": "Static recompilation of the PS3 PSN release's PPU/SPU code into a native Windows executable using ps3recomp. The user supplies the PSN package, decrypted executable, and required decryption keys; no game code or data is included.",
+      "project_url": "https://github.com/sp00nznet/crazytaxi-ps3",
+      "updated": "2026-10-15",
+      "strategy": "Static PS3 PPU/SPU recompilation to a native Windows executable",
+      "language": "",
+      "source_available": "Public source repository; requires the user's own PS3 PSN game package and legally obtained decryption inputs; no game code or data is distributed.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "CMake",
+      "subtype": "PlayStation 3 game-specific static recompilation",
+      "sources": [
+        {
+          "label": "Maintainer README: PSN target, build requirements, and alpha status",
+          "url": "https://github.com/sp00nznet/crazytaxi-ps3#readme"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/sp00nznet/crazytaxi-ps3/languages"
+        }
+      ]
+    },
+    {
+      "id": "rampage-world-tour-ps3-recomp",
+      "title": "Rampage World Tour PS3 Recompilation",
+      "game": "Rampage World Tour (PS3 PSN release, NPUB30003)",
+      "target_type": "Game",
+      "platform": "PlayStation 3 PSN → native PC",
+      "kind": "Recompilation",
+      "status": "Work in progress; the maintainer reports that boot reaches the PS3 package's Midway/Backbone logo sequence, but menus, input, and gameplay have not been reached.",
+      "summary": "Static recompilation of the PS3 release's generic Midway arcade-emulator executable, distributed with Rampage World Tour game data, to native PC through ps3recomp. The README clarifies that the executable can address several Midway arcade ROM names; users supply their own PSN package and no game data is included.",
+      "project_url": "https://github.com/sp00nznet/rampage-ps3",
+      "updated": "2026-10-15",
+      "strategy": "Static PS3 PPU/SPU recompilation of the release's arcade-emulator shell",
+      "language": "",
+      "source_available": "Public source and build configuration; requires the user's own PS3 PSN package, executable, and game data; no game code, ROMs, or assets are distributed.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "PlayStation 3 package-specific static recompilation",
+      "sources": [
+        {
+          "label": "Maintainer README: PSN package, emulator-shell scope, build requirements, and current status",
+          "url": "https://github.com/sp00nznet/rampage-ps3#readme"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/sp00nznet/rampage-ps3/languages"
+        }
+      ]
+    },
+    {
+      "id": "shadow-of-the-colossus-ps3-recomp",
+      "title": "Shadow of the Colossus PS3 HD Recompilation",
+      "game": "Shadow of the Colossus (PS3 HD release, NPUA80677)",
+      "target_type": "Game",
+      "platform": "PlayStation 3 PSN HD remaster → Windows",
+      "kind": "Recompilation",
+      "status": "Work in progress. The recompiled build boots, opens a window, and runs a display-flip loop, but the README says it draws nothing yet and stalls before opening the game's PSARC data.",
+      "summary": "Static recompilation of the native PS3 HD-remaster PPU/SPU executable to PC using ps3recomp. This is distinct from the existing PS2 recompilation record; the user must supply the PSN package and game data, and nothing copyrighted is distributed.",
+      "project_url": "https://github.com/sp00nznet/shadowofthecolossus",
+      "updated": "2026-10-15",
+      "strategy": "Static PS3 PPU/SPU recompilation to native Windows code",
+      "language": "",
+      "source_available": "Public source repository; user-supplied PS3 package and game data required; no game content, firmware, or keys are included.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "CMake",
+      "subtype": "PlayStation 3 HD-remaster game-specific static recompilation",
+      "sources": [
+        {
+          "label": "Maintainer README: PS3 HD target, recompilation path, and current boot/rendering status",
+          "url": "https://github.com/sp00nznet/shadowofthecolossus#readme"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/sp00nznet/shadowofthecolossus/languages"
+        }
+      ]
+    },
+    {
+      "id": "simpsons-arcade-ps3-recomp",
+      "title": "The Simpsons Arcade Game PS3 Recompilation",
+      "game": "The Simpsons Arcade Game (PS3 PSN release, NPUB30563)",
+      "target_type": "Game",
+      "platform": "PlayStation 3 PSN → Windows x64",
+      "kind": "Recompilation",
+      "status": "Playable from the intro and menus through Stage 1 onward, with keyboard/pad input, saving, and audio. The README reports a two-player same-machine co-op test via psnr; later stages and four-player coverage are not fully validated.",
+      "summary": "A separate static recompilation of the PS3 PSN release into a native PC executable using ps3recomp. This is distinct from the cataloged Xbox 360 XBLA release; users supply their own PS3 package and assets.",
+      "project_url": "https://github.com/sp00nznet/simpsonsarcade-ps3",
+      "updated": "2026-10-15",
+      "strategy": "Static PS3 PPU/SPU recompilation to native Windows code",
+      "language": "",
+      "source_available": "Public source repository; requires the user's own PS3 PSN package and game files; no game code or assets are distributed.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "PlayStation 3 game-specific static recompilation",
+      "sources": [
+        {
+          "label": "Maintainer README: PS3 PSN title ID, playable scope, and online test",
+          "url": "https://github.com/sp00nznet/simpsonsarcade-ps3#readme"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/sp00nznet/simpsonsarcade-ps3/languages"
+        }
+      ]
+    },
+    {
+      "id": "tornado-outbreak-ps3-recomp",
+      "title": "Tornado Outbreak PS3 Recompilation",
+      "game": "Tornado Outbreak (PS3 disc, BLUS30371)",
+      "target_type": "Game",
+      "platform": "PlayStation 3 → Windows",
+      "kind": "Recompilation",
+      "status": "In game. The build reaches the first level with player-controlled tornado gameplay; the README reports about 10–16 fps and a white transition that does not clear. Full-game playthrough is not claimed.",
+      "summary": "Static recompilation of the PS3 PowerPC program to native Windows using ps3recomp. The user supplies the disc image, decrypted executable, and captured SPU job code needed for the build; no game code or assets are included.",
+      "project_url": "https://github.com/sp00nznet/tornado",
+      "updated": "2026-10-15",
+      "strategy": "Static PS3 PPU/SPU recompilation to a native Windows executable",
+      "language": "",
+      "source_available": "Public source repository; user supplies their own BLUS30371 disc and derives game code locally; no game code or assets are distributed.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "PlayStation 3 game-specific static recompilation",
+      "sources": [
+        {
+          "label": "Maintainer README: supported PS3 release, first-level gameplay, and known issue",
+          "url": "https://github.com/sp00nznet/tornado#readme"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/sp00nznet/tornado/languages"
+        }
+      ]
+    },
+    {
+      "id": "tokyo-jungle-ps3-recomp",
+      "title": "Tokyo Jungle PS3 Recompilation",
+      "game": "Tokyo Jungle (PlayStation 3 releases)",
+      "target_type": "Game",
+      "platform": "PlayStation 3 → Windows x64",
+      "kind": "Recompilation",
+      "status": "Early work in progress (Phase 8). The build opens a D3D12 window, completes PSN data-install flow, loads game assets and initializes audio, but does not yet draw 3D geometry; input and playable modes have not started.",
+      "summary": "Static recompilation of the PS3 PowerPC executable to native x86-64 with ps3recomp. The README lists North American PSN, European PSN, and Japanese disc release IDs, but does not claim full validation across all regions. Users supply their own game files.",
+      "project_url": "https://github.com/sp00nznet/tokyojungle",
+      "updated": "2026-10-15",
+      "strategy": "Static PS3 PPU/SPU recompilation to native Windows code",
+      "language": "",
+      "source_available": "Public source repository; user must supply their own supported PS3 game release and decrypted executable; no game data is included.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "PlayStation 3 game-specific static recompilation",
+      "sources": [
+        {
+          "label": "Maintainer README: platform IDs, recompiled components, and Phase 8 status",
+          "url": "https://github.com/sp00nznet/tokyojungle#readme"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/sp00nznet/tokyojungle/languages"
+        }
+      ]
+    },
+    {
+      "id": "crazy-taxi-xbox360-xbla-recomp",
+      "title": "Crazy Taxi Xbox 360 XBLA Recompilation",
+      "game": "Crazy Taxi (Xbox 360 XBLA, 2010, title ID 58410A34)",
+      "target_type": "Game",
+      "platform": "Xbox 360 XBLA PowerPC → Windows x86-64",
+      "kind": "Recompilation",
+      "status": "Work in progress. The README reports first boot, D3D12 rendering, and keyboard/Xbox-controller input; title/demo audio works, in-game audio is partial, the content/license unlock path is not started, and the settings menu is still in progress.",
+      "summary": "Static recompilation of the XBLA PowerPC executable to native x86-64 C++ using XenonRecomp and ReXGlue. The repository includes extraction and build tooling but requires the user's own XBLA package; game code and data are not included.",
+      "project_url": "https://github.com/sp00nznet/ctxbla",
+      "updated": "2026-10-15",
+      "strategy": "Static Xbox 360 PowerPC-to-C++ recompilation with a native Windows runtime",
+      "language": "",
+      "source_available": "Public source and build tooling; requires the user's own Xbox 360 XBLA package and game files; no game content or generated code is distributed.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "Python",
+      "subtype": "Xbox 360 XBLA static recompilation of a Sega game",
+      "sources": [
+        {
+          "label": "Maintainer README: static recompilation method, target title ID, current status, and build requirements",
+          "url": "https://github.com/sp00nznet/ctxbla#readme"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/sp00nznet/ctxbla/languages"
+        }
+      ]
+    }
+  ]
+}

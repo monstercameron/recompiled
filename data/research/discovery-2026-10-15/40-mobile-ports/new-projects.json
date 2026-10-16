@@ -1,0 +1,188 @@
+{
+  "updated": "2026-10-15",
+  "scope": "Fresh, source-verified console/PC-to-phone projects and Android multi-game compatibility front ends; distinguishes native ports/recompilations from general-purpose translation-stack software.",
+  "projects": [
+    {
+      "id": "nfs3-android-recomp",
+      "title": "Need for Speed III: Hot Pursuit Android Recompilation",
+      "game": "Need for Speed III: Hot Pursuit (1998 PC release)",
+      "target_type": "Game",
+      "platform": "Windows PC (1998 retail release) → Android 8+ / ARM64 (arm64-v8a; OpenGL ES 3.0)",
+      "kind": "Recompilation",
+      "status": "The latest GitHub release found is v0.77, published 2026-10-16 UTC, with an Android APK. The README documents Android 8+, arm64-v8a, OpenGL ES 3.0, touch/gamepad controls, split-screen, and network races; it does not state full-game completion or list a device test matrix.",
+      "summary": "Android build of the 1998 Windows PC game. The maintainer describes a static recompilation of the original executable to portable C++, with Windows, DirectX, and Glide interfaces implemented through SDL3 and OpenGL ES. The v0.77 notes say several subsystems have since been replaced with native code. The app contains no game content and imports data from the user's retail disc.",
+      "project_url": "https://github.com/ZloiKILLER/nfs3recompiled-android",
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "strategy": "Static recompilation of the Windows PC executable to portable C++, with SDL3/OpenGL ES Android integration and ongoing replacement of recompiled subsystems with native code.",
+      "source_available": "Public C++ and Android source repository with an APK release; game content is excluded. User must supply FEDATA and GAMEDATA from their 1998 retail disc, or an ISO/BIN-CUE image.",
+      "programming_language": "C++",
+      "subtype": "Android ARM64 target of a PC static recompilation",
+      "sources": [
+        {
+          "label": "Maintainer README: game version, method, Android requirements, and disc-data import",
+          "url": "https://github.com/ZloiKILLER/nfs3recompiled-android"
+        },
+        {
+          "label": "Latest release found: v0.77 Android APK and release notes",
+          "url": "https://github.com/ZloiKILLER/nfs3recompiled-android/releases/tag/v0.77"
+        },
+        {
+          "label": "Technical notes on the recompilation and Android build",
+          "url": "https://github.com/ZloiKILLER/nfs3recompiled-android/blob/main/TECHNICAL.md"
+        }
+      ]
+    },
+    {
+      "id": "system-shock-android-port",
+      "title": "System Shock Android Port",
+      "game": "System Shock (compatible original CD-ROM or Enhanced Edition resources; floppy data unsupported)",
+      "target_type": "Game",
+      "platform": "PC CD-ROM / System Shock: Enhanced Edition data → Android 13+ / ARM64 (arm64-v8a)",
+      "kind": "Reimplementation",
+      "status": "Stable v1.0.0 APK release. The maintainer accepted a complete start-to-finish playthrough and first-run importer test on the Retroid Pocket 5 before release. Android 13+ and ARM64 are required; other device compatibility is not established by the reported test.",
+      "summary": "Native Android/ARM64 source port based on Shockolate, with controller and touch-pointer input. Users import a compatible res folder containing data and sound from an original CD-ROM or System Shock: Enhanced Edition installation; the repository and APK exclude proprietary game resources.",
+      "project_url": "https://github.com/raposomiguel50/system-shock-android",
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "strategy": "Shockolate-based native Android source port; the Android app provides controls and imports user-supplied compatible resources.",
+      "source_available": "Public source repository and stable Android APK; proprietary game data is not included. A compatible original CD-ROM or Enhanced Edition resource set is required; floppy data is unsupported by the stated upstream baseline.",
+      "programming_language": "C, C++, Java",
+      "subtype": "Shockolate source port for Android ARM64; one reference device has a complete playthrough report",
+      "sources": [
+        {
+          "label": "Maintainer README: Android version, architecture, port method, and reference-device result",
+          "url": "https://github.com/raposomiguel50/system-shock-android"
+        },
+        {
+          "label": "Game-data guide: compatible original CD-ROM and Enhanced Edition resources; floppy limitation",
+          "url": "https://github.com/raposomiguel50/system-shock-android/blob/main/docs/GAME_DATA.md"
+        },
+        {
+          "label": "Stable v1.0.0 APK release and accepted complete-playthrough report",
+          "url": "https://github.com/raposomiguel50/system-shock-android/releases/tag/v1.0.0"
+        }
+      ]
+    },
+    {
+      "id": "pocket-wormhole-ftl-android",
+      "title": "Pocket Wormhole Android Port",
+      "game": "FTL: Faster Than Light (Steam/GOG PC data)",
+      "target_type": "Game",
+      "platform": "Windows PC Steam/GOG release → Android 8.0+ (API 26; OpenGL ES 3.0; APK ABI not specified in README)",
+      "kind": "Reimplementation",
+      "status": "The latest release found is v0.2.7 (2026-10-11), with an Android APK. The README documents touch controls, a working import flow, and known touch/UI limitations; it does not report a full-game completion test or specify the APK ABI.",
+      "summary": "Native Android port of Project Wormhole, the clean-room reimplementation of the FTL engine. The Android app loads assets from the user's own Steam/GOG PC installation via ftl.dat; it does not include FTL assets. Android 8.0/API 26 and a GLES 3.0 GPU are required.",
+      "project_url": "https://github.com/adamkulik/pocket-wormhole",
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "strategy": "Android port of the clean-room Project Wormhole engine reimplementation, with Android GLES 3.0 rendering and touch controls.",
+      "source_available": "Public source and Android APK releases; no FTL assets are included. User must own the game and provide ftl.dat from a Steam or GOG PC installation.",
+      "programming_language": "Kotlin, Java",
+      "subtype": "Android target for a clean-room engine reimplementation; user imports PC game assets",
+      "sources": [
+        {
+          "label": "Maintainer README: engine method, Steam/GOG data requirement, controls, and Android requirements",
+          "url": "https://github.com/adamkulik/pocket-wormhole"
+        },
+        {
+          "label": "Latest release found: v0.2.7 APK and notes",
+          "url": "https://github.com/adamkulik/pocket-wormhole/releases/tag/v0.2.7"
+        }
+      ]
+    },
+    {
+      "id": "andropolis-micropolis-android",
+      "title": "Andropolis Android Port",
+      "game": "Micropolis (GPL release of the original SimCity)",
+      "target_type": "Game",
+      "platform": "MicropolisCore C++ engine → Android 7.0+ (API 24; arm64-v8a and x86_64)",
+      "kind": "Reimplementation",
+      "status": "The latest GitHub release found is v0.1.7 (2026-09-30), with an APK. The README lists the full classic simulation, eight scenarios, and 23 sample cities. It says Google Play and F-Droid releases are planned; no named physical-device test matrix is provided.",
+      "summary": "Native Android port of Micropolis, the GPL release of the original SimCity. Android NDK builds the existing MicropolisCore C++ simulation engine, while Kotlin connects to it through a small C ABI and JNI; the README says the simulation itself is not rewritten. The open-source project includes scenarios and sample cities, so proprietary SimCity data is not required.",
+      "project_url": "https://github.com/ds17f/andropolis",
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "strategy": "Native Android port of the open-source MicropolisCore engine through the Android NDK, C ABI, and JNI.",
+      "source_available": "Public Kotlin/C++ source and APK; the project uses the GPL MicropolisCore engine and open-source game content. No proprietary SimCity files are required.",
+      "programming_language": "Kotlin, C++",
+      "subtype": "Micropolis Android source port; APK release, with API 24+ arm64-v8a and x86_64 builds",
+      "sources": [
+        {
+          "label": "Maintainer README: Micropolis target, native-port method, included scenarios, and release distribution",
+          "url": "https://github.com/ds17f/andropolis"
+        },
+        {
+          "label": "Latest release found: v0.1.7 APK",
+          "url": "https://github.com/ds17f/andropolis/releases/tag/v0.1.7"
+        },
+        {
+          "label": "Android build configuration: API 24 minimum and arm64-v8a/x86_64 ABIs",
+          "url": "https://github.com/ds17f/andropolis/blob/main/android/app/build.gradle.kts"
+        }
+      ]
+    },
+    {
+      "id": "gamenative-android-pc-games",
+      "title": "GameNative",
+      "game": "Windows PC games (multi-title)",
+      "target_type": "Software",
+      "platform": "Windows PC games → Android 8.0+ (API 26; ARM64 and legacy ARM32 app variants)",
+      "kind": "API Translation",
+      "status": "The latest release found is v1.3.0 (2026-10-14), with a standard Android APK and a separate legacy XR APK. The maintainer says the project is early: not every game runs, and some titles need configuration changes. The Android build configuration lists arm64-v8a modern variants and arm64-v8a/armeabi-v7a legacy variants.",
+      "summary": "Android front end for running owned Windows PC games from Steam, Epic, GOG, and Amazon without streaming. The project's third-party notices identify Wine/Proton, Box64/FEX, and DXVK/VKD3D/Mesa components in its compatibility stack. Per-game compatibility varies. Users sign in to storefronts and install their own games; game content is not bundled as part of a port for each title.",
+      "project_url": "https://github.com/utkarshdalal/GameNative",
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "strategy": "Android storefront and launch front end orchestrating Wine/Proton, CPU translation, and Direct3D/Vulkan translation components; this is multi-game compatibility software rather than a game-specific port.",
+      "source_available": "Public Kotlin/Java application source and APK releases. The third-party notice identifies some source-withheld native/helper binaries. Users need storefront accounts, licenses, and their own installed games; the project does not include individual commercial game data.",
+      "programming_language": "Kotlin",
+      "subtype": "Multi-title Windows PC game compatibility front end for Android; per-title results vary",
+      "sources": [
+        {
+          "label": "Maintainer README: supported storefronts, Android setup, and compatibility limits",
+          "url": "https://github.com/utkarshdalal/GameNative"
+        },
+        {
+          "label": "Latest release found: v1.3.0 Android APKs",
+          "url": "https://github.com/utkarshdalal/GameNative/releases/tag/v1.3.0"
+        },
+        {
+          "label": "Android build configuration: API and ARM ABI variants",
+          "url": "https://github.com/utkarshdalal/GameNative/blob/master/app/build.gradle.kts"
+        },
+        {
+          "label": "Maintainer third-party notices for Wine/Proton, Box64/FEX, DXVK/VKD3D/Mesa and helper binaries",
+          "url": "https://github.com/utkarshdalal/GameNative/blob/master/THIRD_PARTY_NOTICES"
+        }
+      ]
+    },
+    {
+      "id": "droiddeck-android-pc-games",
+      "title": "DroidDeck",
+      "game": "Windows PC games (multi-title)",
+      "target_type": "Software",
+      "platform": "Windows PC games via Valve ARM64 Proton → Android 9+ / ARM64 on Adreno 730+ or Adreno 8xx; Adreno 6xx experimental",
+      "kind": "API Translation",
+      "status": "The latest release found is DroidDeck 0.4.0 (2026-10-12), with Android APKs. The README requires Android 9+ and an Adreno 730-or-newer or 8xx GPU; Adreno 6xx is experimental, and Mali, Xclipse, PowerVR, and Adreno 710 are unsupported. It warns that some DirectX 12 games can crash on the experimental Adreno 6xx path.",
+      "summary": "Android handheld front end that launches Steam in Big Picture and runs Windows PC games through Valve's ARM64 Proton. It also documents sign-in and library downloads for Steam, GOG, Epic, and Amazon Games. Users need compatible Android hardware and their own store accounts/game entitlements; Proton and other runtime components are installed separately or downloaded during setup.",
+      "project_url": "https://github.com/Droid-Deck/DroidDeck",
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "strategy": "Android game-launcher front end using Valve's ARM64 Proton compatibility stack; a multi-title compatibility environment, not a game-specific port.",
+      "source_available": "Public Kotlin source and Android APK releases. Users provide compatible hardware, storefront sign-ins, and game licenses; the Linux runtime is installed as a separate setup step.",
+      "programming_language": "Kotlin",
+      "subtype": "SteamOS-style Android front end for Proton on supported Adreno handhelds",
+      "sources": [
+        {
+          "label": "Maintainer README: ARM64 Proton target, supported Android/GPU requirements, store integration, and setup",
+          "url": "https://github.com/Droid-Deck/DroidDeck"
+        },
+        {
+          "label": "Latest release found: DroidDeck 0.4.0 Android APKs",
+          "url": "https://github.com/Droid-Deck/DroidDeck/releases/tag/0.4.0"
+        }
+      ]
+    }
+  ]
+}

@@ -3336,21 +3336,29 @@ mod catalog_tests {
     }
 
     #[test]
-    fn every_game_profile_has_a_wikipedia_reference() {
+    fn every_game_target_has_a_wikipedia_reference() {
         let catalog = serde_json::from_str::<Catalog>(include_str!("../docs/catalog.json"))
             .expect("published catalog should deserialize");
-        assert!(
-            !catalog.profiles.is_empty(),
-            "catalog should include game profiles"
-        );
-        for profile in catalog.profiles {
+        let game_keys = catalog
+            .projects
+            .iter()
+            .filter(|project| project.target_type == "Game")
+            .map(|project| project.game.as_str())
+            .collect::<BTreeSet<_>>();
+        assert!(!game_keys.is_empty(), "catalog should include game targets");
+        for game_key in game_keys {
+            let profile = catalog
+                .profiles
+                .iter()
+                .find(|profile| profile.game_key == game_key)
+                .unwrap_or_else(|| panic!("{game_key} is missing its game profile"));
             let url = profile.wikipedia_url.as_deref().unwrap_or_else(|| {
                 panic!("{} is missing its Wikipedia reference", profile.game_key)
             });
             assert!(
                 url.starts_with("https://en.wikipedia.org/"),
                 "{} has an unexpected Wikipedia URL: {url}",
-                profile.game_key
+                profile.game_key,
             );
         }
     }

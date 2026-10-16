@@ -1,0 +1,669 @@
+{
+  "updated": "2026-10-15",
+  "research_lane": "42-fan-localizations",
+  "catalog_snapshot": "1290 projects in /Users/earlcameron/Desktop/recompiled/data/catalog.sqlite; 106 Fan Localization records; checked 2026-10-15",
+  "projects": [
+    {
+      "id": "yu-yu-hakusho-gaiden-en",
+      "title": "Yu Yu Hakusho Gaiden English Translation",
+      "game": "Yu Yu Hakusho Gaiden",
+      "target_type": "Game",
+      "platform": "Mega Drive / Sega Genesis",
+      "kind": "Fan Localization",
+      "status": "Complete; Patch Clan lists English v1.0.1, with its IPS file marked updated 2026-10-06. The maintainers' release listing documents v1.0 Build 9 (2026-09-19) and a complete MAME playthrough of all three endings; real hardware was not tested.",
+      "summary": "English translation patch for the Japan-only Mega Drive adventure RPG. It translates all 1,531 script lines, battle names, and title graphics; the maintainer describes expanding the ROM from 2 MB to 4 MB and diverting original text reads to appended English text.",
+      "project_url": "https://www.patchclan.com/#/jogo/yu-yu-hakusho-gaiden",
+      "updated": "2026-10-06",
+      "strategy": "Fan localization patch; IPS patch with appended text and four-byte detours",
+      "language": "English",
+      "source_language": "Japanese",
+      "target_languages": "English",
+      "language_pair": "Japanese → English",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "Mega Drive fan translation",
+      "source_available": "Patch Clan lists and serves the IPS patch; no game ROM is included. Direct patch URL: https://www.patchclan.com/patches/yu-yu-hakusho-gaiden-en.ips",
+      "patch_release": {
+        "version": "English v1.0.1",
+        "date": "2026-10-06",
+        "date_semantics": "Patch Clan lists this as the patch-file updated date",
+        "distribution": "IPS patch only",
+        "download": "https://www.patchclan.com/patches/yu-yu-hakusho-gaiden-en.ips"
+      },
+      "patch_format": "IPS; yu-yu-hakusho-gaiden-en.ips",
+      "supported_game_build": "Yu Yu Hakusho Gaiden (Japan).md; MD5 a339561a0d46fee4c2569de0b237a02b; CRC32 7dc98176; SHA-1 274b86709b509852ca004ceaa244f3ae1d455c50",
+      "release_source": "Patch Clan maintainer site; Patch Clan release listing on ROMhack Plaza",
+      "caveats": [
+        "The maintainers' release listing reports no real-hardware test.",
+        "The Japanese original does not save before the first chapter; the translation preserves that behavior."
+      ],
+      "sources": [
+        {
+          "label": "Patch Clan maintainer page: current version, patch asset, and supported ROM",
+          "url": "https://www.patchclan.com/#/jogo/yu-yu-hakusho-gaiden"
+        },
+        {
+          "label": "Patch Clan release listing: completeness, v1.0 Build 9, testing, patch method, and source-ROM hashes",
+          "url": "https://www.romhackplaza.org/translations/yuyu-hakusho-gaiden-english-translation-sega-genesis"
+        },
+        {
+          "label": "Direct IPS patch asset; availability checked 2026-10-15",
+          "url": "https://www.patchclan.com/patches/yu-yu-hakusho-gaiden-en.ips"
+        }
+      ]
+    },
+    {
+      "id": "magic-knight-rayearth-2-making-of-magic-knight-en",
+      "title": "Magic Knight Rayearth 2: Making of Magic Knight English Translation",
+      "game": "Magic Knight Rayearth 2: Making of Magic Knight",
+      "target_type": "Game",
+      "platform": "Game Gear",
+      "kind": "Fan Localization",
+      "status": "Complete; Patch Clan lists English v1.5, with its IPS file marked updated 2026-09-29. The maintainer's release listing records v1.4.4 on 2026-09-27; the official site is the newer version evidence.",
+      "summary": "Complete English patch for the Japan-only Game Gear game. The project translates about 2,600 script lines and all screens, adds a variable-width font, and reports review of the script and playthroughs of all 11 endings.",
+      "project_url": "https://www.patchclan.com/#/jogo/magic-knight-rayearth-2",
+      "updated": "2026-09-29",
+      "strategy": "Fan localization patch with a custom variable-width Latin font",
+      "language": "English",
+      "source_language": "Japanese",
+      "target_languages": "English",
+      "language_pair": "Japanese → English",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "Game Gear fan translation",
+      "source_available": "Patch Clan serves the IPS patch; no game ROM is included. Direct patch URL: https://www.patchclan.com/patches/magic-knight-rayearth-2-en.ips",
+      "patch_release": {
+        "version": "English v1.5",
+        "date": "2026-09-29",
+        "date_semantics": "Patch Clan lists this as the patch-file updated date",
+        "distribution": "IPS patch only",
+        "download": "https://www.patchclan.com/patches/magic-knight-rayearth-2-en.ips"
+      },
+      "patch_format": "IPS; magic-knight-rayearth-2-en.ips",
+      "supported_game_build": "Magic Knight Rayearth 2 (Japan).gg; MD5 b19256c6716147a9744f5bd528f14450; CRC32 1c2c2b04; SHA-1 29615d86057f3323ecda75d47102e77d364f6499",
+      "release_source": "Patch Clan maintainer site; Patch Clan release listing on ROMhack Plaza",
+      "caveats": [
+        "The current v1.5 version is listed on the official Patch Clan page; the ROMhack Plaza release entry still shows v1.4.4."
+      ],
+      "sources": [
+        {
+          "label": "Patch Clan maintainer page: current v1.5 version, patch asset, and supported ROM",
+          "url": "https://www.patchclan.com/#/jogo/magic-knight-rayearth-2"
+        },
+        {
+          "label": "Patch Clan release listing: translation coverage, testing, and source-ROM hashes",
+          "url": "https://romhackplaza.org/translations/magic-knight-rayearth-2-making-of-magic-knight-english-translation-sega-game-gear"
+        },
+        {
+          "label": "Direct IPS patch asset; availability checked 2026-10-15",
+          "url": "https://www.patchclan.com/patches/magic-knight-rayearth-2-en.ips"
+        }
+      ]
+    },
+    {
+      "id": "taekwon-do-en-es-pt",
+      "title": "Taekwon-Do English, Spanish, and Portuguese Translation",
+      "game": "Taekwon-Do",
+      "target_type": "Game",
+      "platform": "Super Famicom / Super Nintendo",
+      "kind": "Fan Localization",
+      "status": "Complete; Patch Clan lists v1.1 English/Spanish and English/Portuguese patch builds, with patch assets marked updated 2026-10-09. The Japanese cartridge's two language slots are used for English plus Spanish in one build and English plus Portuguese in the other.",
+      "summary": "Fan translation patch project for Human Entertainment's Japan-only taekwondo game. It provides bilingual English/Spanish and English/Portuguese builds, translates and reviews 539 texts per language, redraws text graphics, and preserves the cartridge's password saves.",
+      "project_url": "https://www.patchclan.com/#/jogo/taekwondo",
+      "updated": "2026-10-09",
+      "strategy": "Fan localization patches; two bilingual builds replace the original Japanese/Korean language choices",
+      "language": "English, Spanish, Portuguese",
+      "source_language": "Japanese",
+      "target_languages": "English, Spanish, Portuguese",
+      "language_pair": "Japanese/Korean → English and Spanish, or English and Portuguese",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "Super Famicom fan translation",
+      "source_available": "Patch Clan serves IPS assets for the English/Spanish build and the separate English/Portuguese build; no ROM is included.",
+      "patch_release": {
+        "version": "English v1.1; Español v1.1; Português v1.1",
+        "date": "2026-10-09",
+        "date_semantics": "Patch Clan lists this as the patch-file updated date",
+        "distribution": "IPS patches; English and Spanish asset links provide the bilingual EN/ES build, while Portuguese is a separate EN/PT build",
+        "downloads": [
+          "https://www.patchclan.com/patches/taekwondo-en.ips",
+          "https://www.patchclan.com/patches/taekwondo-es.ips",
+          "https://www.patchclan.com/patches/taekwondo-pt.ips"
+        ]
+      },
+      "patch_format": "IPS; taekwondo-en.ips and taekwondo-es.ips for the bilingual English/Spanish version; taekwondo-pt.ips for the English/Portuguese version",
+      "supported_game_build": "Taekwon-Do (Japan) (Ja,Ko).sfc; MD5 e9eb2c3d0b6e21baafbfc4b614e04a3f; CRC32 93f29dde; SHA-1 dc61cb9b82eb58a9b09cb93a10b6731eaa4cd053",
+      "release_source": "Patch Clan maintainer site; Patch Clan release listing on ROMhack Plaza",
+      "caveats": [
+        "Portuguese is a separate build because the cartridge supports only two selectable languages.",
+        "The opening narration plays before language selection and is English in both builds."
+      ],
+      "sources": [
+        {
+          "label": "Patch Clan maintainer page: current languages, versions, patch assets, and two-build behavior",
+          "url": "https://www.patchclan.com/#/jogo/taekwondo"
+        },
+        {
+          "label": "Patch Clan release listing: English/Spanish coverage, reviews, testing, and source-ROM hashes",
+          "url": "https://www.romhackplaza.org/translations/taekwon-do-english-spanish-translation-super-nintendo"
+        },
+        {
+          "label": "Direct IPS patch assets; availability checked 2026-10-15",
+          "url": "https://www.patchclan.com/patches/taekwondo-en.ips"
+        },
+        {
+          "label": "Direct Portuguese IPS patch asset; availability checked 2026-10-15",
+          "url": "https://www.patchclan.com/patches/taekwondo-pt.ips"
+        }
+      ]
+    },
+    {
+      "id": "dragon-ball-3-gokuu-den-en-pt-es",
+      "title": "Dragon Ball 3: Gokuu Den English, Portuguese, and Spanish Translation",
+      "game": "Dragon Ball 3: Gokuu Den",
+      "target_type": "Game",
+      "platform": "Famicom / Nintendo Entertainment System",
+      "kind": "Fan Localization",
+      "status": "Complete; Patch Clan lists English v1.1, Portuguese v1.1, and Spanish v1.1 patches. English v1.1 was released 2026-10-15; the official site marks the three IPS assets updated 2026-10-14.",
+      "summary": "Complete fan translations for the Japan-only Famicom board-game RPG, available in English, Portuguese, and Spanish. The patch set translates the full script and text graphics; v1.1 also adds saves and quality-of-life changes and fixes reported cartridge bugs.",
+      "project_url": "https://www.patchclan.com/#/jogo/dragon-ball-3",
+      "updated": "2026-10-15",
+      "strategy": "Fan localization patches with translated text and redrawn graphics",
+      "language": "English, Portuguese, Spanish",
+      "source_language": "Japanese",
+      "target_languages": "English, Portuguese, Spanish",
+      "language_pair": "Japanese → English, Portuguese, and Spanish",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "Famicom fan translation",
+      "source_available": "Patch Clan serves one IPS patch per target language; no ROM is included.",
+      "patch_release": {
+        "version": "English v1.1; Português v1.1; Español v1.1",
+        "date": "2026-10-15",
+        "date_semantics": "English release date; official site lists each language asset updated 2026-10-14",
+        "distribution": "IPS patch per language",
+        "downloads": [
+          "https://www.patchclan.com/patches/dragon-ball-3-en.ips",
+          "https://www.patchclan.com/patches/dragon-ball-3-pt.ips",
+          "https://www.patchclan.com/patches/dragon-ball-3-es.ips"
+        ]
+      },
+      "patch_format": "IPS; separate English, Portuguese, and Spanish patches",
+      "supported_game_build": "Dragon Ball 3 - Gokuu Den (Japan) (Rev 1).nes; MD5 0bc3d5d7d1e7f2206ce1c157402ff944; CRC32 ed45ce26; SHA-1 cbec2dfc44ec97928048bce33055fae11314e9f4",
+      "release_source": "Patch Clan maintainer site; Patch Clan release listing on ROMhack Plaza",
+      "caveats": [
+        "The current release listing says saving was tested in Mesen and FCEUmm, not on real hardware or flash carts; passwords remain available.",
+        "The maintained page also documents the fan translation's changes to original-game bugs and playability."
+      ],
+      "sources": [
+        {
+          "label": "Patch Clan maintainer page: current language versions and direct IPS links",
+          "url": "https://www.patchclan.com/#/jogo/dragon-ball-3"
+        },
+        {
+          "label": "Patch Clan v1.1 release listing: coverage, tested build, patch instructions, and status",
+          "url": "https://romhackplaza.org/translations/dragon-ball-3-the-legend-of-goku-english-translation-nintendo-entertainment-system"
+        },
+        {
+          "label": "Direct English IPS patch asset; availability checked 2026-10-15",
+          "url": "https://www.patchclan.com/patches/dragon-ball-3-en.ips"
+        },
+        {
+          "label": "Direct Portuguese IPS patch asset; availability checked 2026-10-15",
+          "url": "https://www.patchclan.com/patches/dragon-ball-3-pt.ips"
+        },
+        {
+          "label": "Direct Spanish IPS patch asset; availability checked 2026-10-15",
+          "url": "https://www.patchclan.com/patches/dragon-ball-3-es.ips"
+        }
+      ]
+    },
+    {
+      "id": "the-gorillaman-en",
+      "title": "The Gorillaman English Translation",
+      "game": "The Gorillaman",
+      "target_type": "Game",
+      "platform": "Famicom / Nintendo Entertainment System",
+      "kind": "Fan Localization",
+      "status": "Complete; Patch Clan lists English v1.4, with the IPS asset marked updated 2026-09-25. The maintainer's release listing records v1.4 on 2026-09-27 and reports all three endings completed.",
+      "summary": "English fan translation patch for the Japan-only Famicom board game. It covers the text and text graphics, and the same patch also fixes two original cartridge freezes and adds battery saves and multitap support.",
+      "project_url": "https://www.patchclan.com/#/jogo/gorilla-man",
+      "updated": "2026-09-27",
+      "strategy": "Fan localization patch with original-game bug fixes and additional features",
+      "language": "English",
+      "source_language": "Japanese",
+      "target_languages": "English",
+      "language_pair": "Japanese → English",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "Famicom fan translation",
+      "source_available": "Patch Clan serves an IPS patch only; no ROM is included. Direct patch URL: https://www.patchclan.com/patches/gorilla-man-en.ips",
+      "patch_release": {
+        "version": "English v1.4",
+        "date": "2026-09-27",
+        "distribution": "IPS patch only",
+        "download": "https://www.patchclan.com/patches/gorilla-man-en.ips"
+      },
+      "patch_format": "IPS; gorilla-man-en.ips",
+      "supported_game_build": "Gorilla Man, The (Japan).nes; MD5 2377df3f6909fa9fd858ab03791e8db9; CRC32 218eaa50; SHA-1 b57f39e01414a95bb1bdc90c51e1c705d46173f9",
+      "release_source": "Patch Clan maintainer site; Patch Clan release listing on ROMhack Plaza",
+      "caveats": [
+        "The short CLICK P practice screen and the classroom blackboard date column remain Japanese by design."
+      ],
+      "sources": [
+        {
+          "label": "Patch Clan maintainer page: current version, patch asset, and supported ROM",
+          "url": "https://www.patchclan.com/#/jogo/gorilla-man"
+        },
+        {
+          "label": "Patch Clan release listing: coverage, testing, original-ROM hashes, and patch-only distribution",
+          "url": "https://www.romhackplaza.org/translations/the-gorillaman-english-translation-nintendo-entertainment-system"
+        },
+        {
+          "label": "Direct IPS patch asset; availability checked 2026-10-15",
+          "url": "https://www.patchclan.com/patches/gorilla-man-en.ips"
+        }
+      ]
+    },
+    {
+      "id": "shin-sd-gundam-gaiden-knight-gundam-monogatari-en",
+      "title": "Shin SD Gundam Gaiden: Knight Gundam Monogatari English Translation",
+      "game": "Shin SD Gundam Gaiden: Knight Gundam Monogatari",
+      "target_type": "Game",
+      "platform": "Game Boy / Super Game Boy",
+      "kind": "Fan Localization",
+      "status": "Complete; v1.0 released 2026-10-14. The maintainer reports a full Game Boy hardware playthrough and verified BPS output.",
+      "summary": "English fan translation of the Japan-only Game Boy RPG, including story text, menus, item descriptions, puzzle hints, title graphics, and Super Game Boy border lettering. The README identifies it as AI-assisted with human review and hardware playtesting.",
+      "project_url": "https://github.com/JamesClark1989/game_translations/tree/main/shin-sd-knight-gundam-gameboy",
+      "updated": "2026-10-14",
+      "strategy": "Fan localization patch with BPS output",
+      "language": "English",
+      "source_language": "Japanese",
+      "target_languages": "English",
+      "language_pair": "Japanese → English",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "Game Boy fan translation",
+      "source_available": "Maintainer repository contains the BPS patch and a ZIP distribution; no game ROM is included. The repository does not show a tagged GitHub release.",
+      "patch_release": {
+        "version": "v1.0",
+        "date": "2026-10-14",
+        "distribution": "BPS patch in maintainer repository; no tagged GitHub release identified",
+        "download": "https://github.com/JamesClark1989/game_translations/tree/main/shin-sd-knight-gundam-gameboy/patch"
+      },
+      "patch_format": "BPS; sd_shin_knight_gundam_english.bps",
+      "supported_game_build": "Shin SD Gundam Gaiden - Knight Gundam Monogatari (Japan) (SGB Enhanced).gb, Revision 0, 262144 bytes; CRC32 E5A78B9B; SHA-1 62e1d4dc9f6fae94e981bdcf2fa4b65bb3949644",
+      "release_source": "Maintainer GitHub repository; maintainer-authored ROMhack Plaza release listing",
+      "caveats": [
+        "The maintainer identifies the translation as AI-assisted; human review and a start-to-finish Game Boy hardware playthrough are reported."
+      ],
+      "sources": [
+        {
+          "label": "Maintainer repository: BPS patch, source materials, and patch procedure",
+          "url": "https://github.com/JamesClark1989/game_translations/tree/main/shin-sd-knight-gundam-gameboy"
+        },
+        {
+          "label": "Maintainer-authored release listing: v1.0 date, translation scope, hardware test, and exact source ROM hashes",
+          "url": "https://romhackplaza.org/translations/shin-sd-gundam-gaiden-knight-gundam-monogatari-english-translation-game-boy"
+        },
+        {
+          "label": "Direct raw BPS patch; repository availability checked 2026-10-15",
+          "url": "https://raw.githubusercontent.com/JamesClark1989/game_translations/main/shin-sd-knight-gundam-gameboy/patch/sd_shin_knight_gundam_english.bps"
+        }
+      ]
+    },
+    {
+      "id": "medarot-navi-en-es419",
+      "title": "Medarot Navi English and Latin American Spanish Translation",
+      "game": "Medarot Navi",
+      "target_type": "Game",
+      "platform": "Game Boy Advance",
+      "kind": "Fan Localization",
+      "status": "Playable and in final validation; maintainer release v2026.10.03-822db99 was published 2026-10-03. The README says both translations cover all game text and 314 art labels, but also states the text drafts were written by an LLM and need polishing.",
+      "summary": "Maintainer repository provides English and Latin American Spanish language packs for both Kuwagata and Kabuto GBA versions, plus source tooling, IPS patches, and patchers. The project builds from the user's own cartridge dump and does not include game data.",
+      "project_url": "https://github.com/caribbeansc/mdr-navi-i18n",
+      "updated": "2026-10-03",
+      "strategy": "Language-pack fan localization built by repository tools from the user's own GBA dump",
+      "language": "English, Spanish (Latin America)",
+      "source_language": "Japanese",
+      "target_languages": "English, Spanish (Latin America; es-419)",
+      "language_pair": "Japanese → English and Latin American Spanish",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "Python",
+      "subtype": "GBA fan translation",
+      "source_available": "Public repository contains translation packs, source tools, latest-release IPS patches, and Windows/macOS patchers; no ROM or game data is included.",
+      "patch_release": {
+        "version": "v2026.10.03-822db99",
+        "date": "2026-10-03",
+        "distribution": "Release assets include IPS patches and desktop patchers for both target languages and cartridge builds",
+        "download": "https://github.com/caribbeansc/mdr-navi-i18n/releases/tag/v2026.10.03-822db99"
+      },
+      "patch_format": "IPS patches per language and cartridge variant; Windows/macOS patcher also builds a patched ROM from a matching user-supplied GBA dump",
+      "supported_game_build": "Japanese Medarot Navi GBA cartridges: Kuwagata SHA-1 de8de6734f0f990832988ea133fa05241946800e and Kabuto SHA-1 3135545e02fa5557dda0976165cf5c7f3c0b6f8e; one language pack supports both shifted builds.",
+      "release_source": "Maintainer GitHub repository and tagged release",
+      "caveats": [
+        "The README describes both language packs as LLM-written drafts in final validation; 100% means every line has a draft, not a fully proofread localization."
+      ],
+      "sources": [
+        {
+          "label": "Maintainer README: language coverage, build variants, patch formats, stage, and translation caveat",
+          "url": "https://github.com/caribbeansc/mdr-navi-i18n#readme"
+        },
+        {
+          "label": "Maintainer release v2026.10.03-822db99: distributed patches and patchers",
+          "url": "https://github.com/caribbeansc/mdr-navi-i18n/releases/tag/v2026.10.03-822db99"
+        }
+      ]
+    },
+    {
+      "id": "splatterworld-en",
+      "title": "Splatterworld English Translation",
+      "game": "Splatterworld",
+      "target_type": "Game",
+      "platform": "Nintendo Entertainment System prototype",
+      "kind": "Fan Localization",
+      "status": "Complete; Aeon Genesis lists version 1.10, with latest release dated 2026-01-18. The maintainer repository includes xdelta patch outputs, source/build scripts, and translation assets.",
+      "summary": "English fan translation of Namco's unreleased prototype RPG. The public source project expects the user's Japanese prototype dump and builds an expanded translated image and xdelta patches.",
+      "project_url": "https://www.aeongenesis.net/projects/splatterworld",
+      "updated": "2026-01-18",
+      "strategy": "Fan localization patch built with assembly/data modifications and distributed as xdelta",
+      "language": "English",
+      "source_language": "Japanese",
+      "target_languages": "English",
+      "language_pair": "Japanese → English",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "Python and xkas assembly",
+      "subtype": "NES prototype fan translation",
+      "source_available": "Maintainer GitHub repository includes xdelta patch files, source/build scripts, and translation assets; users provide the Japanese prototype dump. Aeon Genesis also links a patch download.",
+      "patch_release": {
+        "version": "1.10",
+        "date": "2026-01-18",
+        "distribution": "xdelta patches; repository includes source and build instructions",
+        "download": "https://www.aeongenesis.net/projects/splatterworld"
+      },
+      "patch_format": "xdelta; multiple variants are in the source repository, including the main translation and optional combo/run-button patches",
+      "supported_game_build": "Japanese Splatterworld prototype dump, named splatterworld_j.nes for the build; the README requires a Japanese prototype ROM and does not publish a specific source checksum.",
+      "release_source": "Aeon Genesis project page and maintainer GitHub repository",
+      "caveats": [
+        "The game is a prototype, not a commercial retail release.",
+        "The repository does not provide the game image; an exact source-ROM checksum was not found."
+      ],
+      "sources": [
+        {
+          "label": "Aeon Genesis project page: status, version, release date, and patch download",
+          "url": "https://www.aeongenesis.net/projects/splatterworld"
+        },
+        {
+          "label": "Maintainer repository: translation method, xdelta outputs, build requirements, and source-ROM handling",
+          "url": "https://github.com/GideonZhi/splatterworld"
+        }
+      ]
+    },
+    {
+      "id": "tokimeki-memorial-2-en",
+      "title": "Tokimeki Memorial 2 English Translation",
+      "game": "Tokimeki Memorial 2",
+      "target_type": "Game",
+      "platform": "PlayStation",
+      "kind": "Fan Localization",
+      "status": "Released; v1.0 published 2026-10-15. The maintainer says the whole script is machine-translated and only partly reviewed in-game; all five discs have xdelta release patches and the repository also provides a Python patcher.",
+      "summary": "English fan translation patch for the five-disc Japanese PlayStation dating sim. The project modifies dialogue, menus, names, pictures, and the text renderer; it is tested in DuckStation, while real hardware has not been tested.",
+      "project_url": "https://github.com/jonny-anime/tokimeki-memorial-2-english-patch",
+      "updated": "2026-10-15",
+      "strategy": "Fan localization patch; per-disc xdelta patches and Python patcher",
+      "language": "English",
+      "source_language": "Japanese",
+      "target_languages": "English",
+      "language_pair": "Japanese → English",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "Python",
+      "subtype": "PlayStation fan translation",
+      "source_available": "GitHub v1.0 release provides five per-disc xdelta patches and checksums.txt; repository also contains Python patching tools, translation text, and translated pictures. No disc images or BIOS files are included.",
+      "patch_release": {
+        "version": "v1.0",
+        "date": "2026-10-15",
+        "distribution": "GitHub release with one xdelta patch per disc plus checksums.txt",
+        "download": "https://github.com/jonny-anime/tokimeki-memorial-2-english-patch/releases/tag/v1.0"
+      },
+      "patch_format": "Five xdelta patches, one per disc, applied to matching BIN images; Python 3.10+ patcher can build patched discs from the user's own images",
+      "supported_game_build": "Japanese PlayStation Rev 1, discs 1–5, serials SLPM-86355 through SLPM-86359; one BIN per disc in MODE2/2352 with corresponding CUE; other pressings and CHD/PBP/ISO formats are untested. Release checksums.txt lists per-disc input/output fingerprints.",
+      "release_source": "Maintainer GitHub repository and v1.0 release",
+      "caveats": [
+        "The maintainer labels the release machine-translated and partly reviewed; some sports-day instructions, date panels, full-screen stills, and movie text remain Japanese.",
+        "All reported game testing used DuckStation; real PlayStation hardware has not been tested."
+      ],
+      "sources": [
+        {
+          "label": "Maintainer README: translation scope, source discs, patch instructions, review status, and testing",
+          "url": "https://github.com/jonny-anime/tokimeki-memorial-2-english-patch#readme"
+        },
+        {
+          "label": "Maintainer v1.0 release: date and five-disc xdelta patch distribution",
+          "url": "https://github.com/jonny-anime/tokimeki-memorial-2-english-patch/releases/tag/v1.0"
+        },
+        {
+          "label": "Maintainer release checksum manifest for each Japanese and English disc image",
+          "url": "https://github.com/jonny-anime/tokimeki-memorial-2-english-patch/releases/download/v1.0/checksums.txt"
+        }
+      ]
+    },
+    {
+      "id": "super-robot-wars-4-en",
+      "title": "Super Robot Wars 4 English Translation",
+      "game": "Super Robot Wars 4 / Dai 4 Ji Super Robot Taisen",
+      "target_type": "Game",
+      "platform": "Super Nintendo Entertainment System",
+      "kind": "Fan Localization",
+      "status": "Complete; Aeon Genesis lists v1.00, initially and most recently released 2026-08-22, and says the translation has no known issues.",
+      "summary": "English fan translation of the Japanese SNES strategy RPG. The official project page offers a patch ZIP and notes optional music-persistence and English-lyrics patches.",
+      "project_url": "https://www.aeongenesis.net/projects/srw4",
+      "updated": "2026-08-22",
+      "strategy": "Fan localization patch",
+      "language": "English",
+      "source_language": "Japanese",
+      "target_languages": "English",
+      "language_pair": "Japanese → English",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "SNES fan translation",
+      "source_available": "Aeon Genesis offers a ZIP patch download; the project page does not describe any included game data or source code.",
+      "patch_release": {
+        "version": "1.00",
+        "date": "2026-08-22",
+        "distribution": "Patch ZIP; inner patch format not stated on the project page",
+        "download": "https://www.aeongenesis.net/download/srw4"
+      },
+      "patch_format": "ZIP patch package; the inner patch format was not documented on the official project page and was not independently inspected",
+      "supported_game_build": "Japanese SNES release Dai 4 Ji Super Robot Taisen; exact ROM revision and checksum are not stated on the official project page.",
+      "release_source": "Aeon Genesis maintainer project page",
+      "caveats": [
+        "The official page does not state an exact supported ROM checksum or inner patch format."
+      ],
+      "sources": [
+        {
+          "label": "Aeon Genesis maintainer project page: SNES target, English translation status, current version, and patch download",
+          "url": "https://www.aeongenesis.net/projects/srw4"
+        },
+        {
+          "label": "Direct patch ZIP download; official page labels it as the patch",
+          "url": "https://www.aeongenesis.net/download/srw4"
+        }
+      ]
+    },
+    {
+      "id": "xenosaga-i-ii-ds-en-final",
+      "title": "Xenosaga I+II DS Complete English Translation",
+      "game": "Xenosaga I+II",
+      "target_type": "Game",
+      "platform": "Nintendo DS",
+      "kind": "Fan Localization",
+      "status": "Complete English v1.0 Final released 2026-09-05. The maintainer reports the full supported text coverage is complete, but runtime QA covers cold boot through the first battle rather than an exhaustive playthrough. A separate v1.0.1 Episode 4 Hotfix TEST1 package dated 2026-09-27 is marked experimental.",
+      "summary": "English fan localization patch for the Japan-only DS game. The v1.0 release covers supported dialogue and choices, menus, item descriptions, database content, chapter/title graphics, and battle UI; the maintainer says the patch was runtime-tested through the opening tutorial and first battle.",
+      "project_url": "https://github.com/vw5hwbngy4-debug/Xenosaga-I-II-DS-English",
+      "updated": "2026-09-27",
+      "strategy": "Fan localization patch; BPS distribution with a separately published experimental Episode 4 hotfix",
+      "language": "English",
+      "source_language": "Japanese",
+      "target_languages": "English",
+      "language_pair": "Japanese → English",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "Nintendo DS fan translation",
+      "source_available": "Maintainer v1.0 GitHub release includes a BPS patch and release documentation; repository site provides a local browser patcher. No Nintendo DS ROM is distributed. A separate v1.0.1 hotfix package is marked experimental.",
+      "patch_release": {
+        "version": "v1.0 Final (2026-09-05); experimental v1.0.1 Episode 4 Hotfix TEST1 (2026-09-27)",
+        "date": "2026-09-05",
+        "distribution": "BPS patch for the final v1.0 release; separate experimental hotfix package for Episode 4",
+        "download": "https://github.com/vw5hwbngy4-debug/Xenosaga-I-II-DS-English/releases/tag/v1.0",
+        "experimental_hotfix": "https://github.com/vw5hwbngy4-debug/Xenosaga-I-II-DS-English/releases/tag/v1.0.1"
+      },
+      "patch_format": "BPS for the v1.0 Final release; a separate ZIP package is labeled experimental for the Episode 4 hotfix",
+      "supported_game_build": "Clean Japanese Xenosaga I+II Nintendo DS ROM; SHA-256 938d07521cfc937d179402e85c8b0b43f3e929a494838ff1455b29126b56d356",
+      "release_source": "Maintainer GitHub repository and v1.0/v1.0.1 releases",
+      "caveats": [
+        "The maintainer explicitly says the tested coverage is not exhaustive or a full-game certification.",
+        "The v1.0.1 Episode 4 Hotfix TEST1 is experimental and intended for users experiencing an Episode 4 post-battle loop, sprite corruption, or crash; the final v1.0 remains the documented standard release."
+      ],
+      "sources": [
+        {
+          "label": "Maintainer repository README: final v1.0 scope, source-ROM hash, patch format, and test coverage",
+          "url": "https://github.com/vw5hwbngy4-debug/Xenosaga-I-II-DS-English#readme"
+        },
+        {
+          "label": "Maintainer v1.0 release: release date, BPS asset, supported source hash, and runtime QA",
+          "url": "https://github.com/vw5hwbngy4-debug/Xenosaga-I-II-DS-English/releases/tag/v1.0"
+        },
+        {
+          "label": "Maintainer v1.0.1 release: experimental Episode 4 hotfix status and intended issue",
+          "url": "https://github.com/vw5hwbngy4-debug/Xenosaga-I-II-DS-English/releases/tag/v1.0.1"
+        },
+        {
+          "label": "Maintainer official project website with local browser patcher",
+          "url": "https://xenosaga.wolken.page/"
+        }
+      ]
+    },
+    {
+      "id": "xenosaga-i-ii-ds-dutch",
+      "title": "Xenosaga I+II DS Complete Dutch Localization",
+      "game": "Xenosaga I+II",
+      "target_type": "Game",
+      "platform": "Nintendo DS",
+      "kind": "Fan Localization",
+      "status": "Complete; v1.0.17 was released 2026-09-05 and is listed by the maintainer as the current Dutch release. Release notes identify full Dutch story dialogue and choices plus menus, options, character/status screens, system/UI text, and battle attack labels.",
+      "summary": "Dutch fan localization patch for the Japan-only Nintendo DS game, developed as a separate language project alongside the maintainer's English patch. The release includes BPS patch files only and documents the exact clean Japanese source ROM.",
+      "project_url": "https://github.com/vw5hwbngy4-debug/Xenosaga-I-II-DS-Dutch",
+      "updated": "2026-09-05",
+      "strategy": "Fan localization patch; BPS distribution",
+      "language": "Dutch",
+      "source_language": "Japanese",
+      "target_languages": "Dutch",
+      "language_pair": "Japanese → Dutch",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "Nintendo DS fan translation",
+      "source_available": "Maintainer v1.0.17 GitHub release includes the BPS patch and a release ZIP; no Nintendo DS ROM is distributed.",
+      "patch_release": {
+        "version": "v1.0.17",
+        "date": "2026-09-05",
+        "distribution": "BPS patch and release ZIP",
+        "download": "https://github.com/vw5hwbngy4-debug/Xenosaga-I-II-DS-Dutch/releases/tag/v1.0.17"
+      },
+      "patch_format": "BPS patch; Xenosaga_I_II_DS_Dutch_v1.0.17.bps",
+      "supported_game_build": "Clean Japanese Xenosaga I+II Nintendo DS ROM; SHA-256 938d07521cfc937d179402e85c8b0b43f3e929a494838ff1455b29126b56d356",
+      "release_source": "Maintainer GitHub repository and v1.0.17 release",
+      "caveats": [
+        "Release notes describe extensive localization QA and final runtime/UI fixes but do not claim exhaustive start-to-finish certification."
+      ],
+      "sources": [
+        {
+          "label": "Maintainer repository: Dutch localization project",
+          "url": "https://github.com/vw5hwbngy4-debug/Xenosaga-I-II-DS-Dutch"
+        },
+        {
+          "label": "Maintainer v1.0.17 release: status, coverage, BPS distribution, and exact source-ROM hash",
+          "url": "https://github.com/vw5hwbngy4-debug/Xenosaga-I-II-DS-Dutch/releases/tag/v1.0.17"
+        },
+        {
+          "label": "Official Dutch project website",
+          "url": "https://xenosaga-nederlands.wolken.page/"
+        },
+        {
+          "label": "Direct BPS patch asset",
+          "url": "https://github.com/vw5hwbngy4-debug/Xenosaga-I-II-DS-Dutch/releases/download/v1.0.17/Xenosaga_I_II_DS_Dutch_v1.0.17.bps"
+        }
+      ]
+    },
+    {
+      "id": "xenosaga-i-ii-ds-vector-en-beta",
+      "title": "Xenosaga I+II DS English Translation — Vector Translations",
+      "game": "Xenosaga I+II",
+      "target_type": "Game",
+      "platform": "Nintendo DS",
+      "kind": "Fan Localization",
+      "status": "Work in progress; Vector Translations published a first public beta on 2026-03-30 covering the first three chapters. The team account sought Japanese translators; the latest verifiable public build remains this partial beta, with no complete release found.",
+      "summary": "A separate English fan translation by Vector Translations, distinct from the separately released full-game v1.0 English patch. The team describes this effort as non-AI; its public beta contains a BPS patch for chapters 1–3.",
+      "project_url": "https://bsky.app/profile/vectortranslations.bsky.social/post/3micfcaagqk2d",
+      "updated": "2026-03-30",
+      "strategy": "Fan localization patch; team describes the translation process as non-AI",
+      "language": "English",
+      "source_language": "Japanese",
+      "target_languages": "English",
+      "language_pair": "Japanese → English",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "Nintendo DS fan translation",
+      "source_available": "Official team Bluesky post links Google Drive and MEGA distribution. The Google Drive ZIP was inspected and contains a BPS patch, README.pdf, and FLIPS patcher ZIP; no game ROM is included.",
+      "patch_release": {
+        "version": "First public beta; chapters 1–3",
+        "date": "2026-03-30",
+        "distribution": "ZIP containing a BPS patch and FLIPS patcher",
+        "download": "https://drive.google.com/file/d/11J82TJoNQ6m0FJZqccpaZSJw1qCU-22M/view",
+        "alternate_download": "https://mega.nz/file/u0UilZDK#eWd2_oKeFZE9KJn1S9RCZ3ENvGIH-lAIceqHvtnbXaA"
+      },
+      "patch_format": "BPS; the official beta ZIP contains Xenosaga I+II English - 1st public Beta.bps",
+      "supported_game_build": "Clean Japanese Xenosaga I+II Nintendo DS image; BPS header expects a 67,108,864-byte source with CRC32 6BCE1271. The official announcement does not state the exact cartridge code or revision.",
+      "release_source": "Vector Translations official Bluesky account and linked beta patch archive",
+      "caveats": [
+        "Only chapters 1–3 are covered in the public beta.",
+        "The beta download README is distributed as a PDF; its full instructions were not used to infer any additional compatibility claims.",
+        "The official team account's latest verified release/status posts are from 2026-03-30; no later complete public release was found."
+      ],
+      "sources": [
+        {
+          "label": "Vector Translations official Bluesky announcement: full-project intent and non-AI claim",
+          "url": "https://bsky.app/profile/vectortranslations.bsky.social/post/3mi7n43zlg226"
+        },
+        {
+          "label": "Vector Translations official Bluesky beta release: first three chapters and patch links",
+          "url": "https://bsky.app/profile/vectortranslations.bsky.social/post/3micfcaagqk2d"
+        },
+        {
+          "label": "Official Google Drive beta ZIP, including BPS patch and patcher",
+          "url": "https://drive.google.com/file/d/11J82TJoNQ6m0FJZqccpaZSJw1qCU-22M/view"
+        },
+        {
+          "label": "Official alternate MEGA beta distribution",
+          "url": "https://mega.nz/file/u0UilZDK#eWd2_oKeFZE9KJn1S9RCZ3ENvGIH-lAIceqHvtnbXaA"
+        },
+        {
+          "label": "Vector Translations team-member status comment in September community thread; used only for progress context",
+          "url": "https://www.reddit.com/r/Xenosaga/comments/1w7xtcy/xenosaga_iii_ds_complete_english_and_dutch/"
+        }
+      ]
+    }
+  ]
+}

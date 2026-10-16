@@ -373,6 +373,12 @@ def import_game_profiles(path):
     profiles = data.get("profiles", []) if isinstance(data, dict) else data
     if not isinstance(profiles, list):
         raise ValueError("Game profiles must contain a profile list")
+    batch_verified_on = data.get("verified_at") if isinstance(data, dict) else None
+    if batch_verified_on is not None:
+        try:
+            date.fromisoformat(batch_verified_on)
+        except (TypeError, ValueError) as error:
+            raise ValueError("Game profile verification date must be YYYY-MM-DD") from error
     connection = connect()
     fact_count = 0
     try:
@@ -390,11 +396,19 @@ def import_game_profiles(path):
                     if not fact.get("field") or not fact.get("evidence") or not fact.get("source_url"):
                         raise ValueError(f"A game fact needs a field, source, and evidence: {game_key}")
                     _https_url(fact["source_url"], "Game fact source URL", game_key)
+                    verified_on = fact.get("verified_on")
+                    if verified_on is None:
+                        verified_on = batch_verified_on
+                    if verified_on is not None:
+                        try:
+                            date.fromisoformat(verified_on)
+                        except (TypeError, ValueError) as error:
+                            raise ValueError(f"Game fact verification date must be YYYY-MM-DD: {game_key}") from error
                     connection.execute(
                         """INSERT INTO game_facts(game_key,position,field,value_json,source_url,evidence,date_granularity,verified_on)
                         VALUES(?,?,?,?,?,?,?,?)""",
                         (game_key, position, fact["field"], json.dumps(fact.get("value"), ensure_ascii=False),
-                         fact["source_url"], fact["evidence"], fact.get("date_granularity"), data.get("verified_at") if isinstance(data, dict) else None),
+                         fact["source_url"], fact["evidence"], fact.get("date_granularity"), verified_on),
                     )
                     fact_count += 1
     finally:

@@ -1,0 +1,501 @@
+{
+  "updated": "2026-10-15",
+  "reviewed_scope": "Nintendo handheld and home-console title-specific decompilation, recompilation, reimplementation, and native-port repositories discovered through GitHub searches and community/tracker leads. Maintainer repositories, README/build documentation, and releases were used to verify included claims. Similar-title records in the catalog are retained as separate entries only where the source identifies a distinct project, version, or host target.",
+  "projects": [
+    {
+      "id": "dragon-quest-ix-eu-native-recomp",
+      "title": "Dragon Quest IX European Native Recompilation Research",
+      "game": "Dragon Quest IX: Sentinels of the Starry Skies (European release)",
+      "platform": "Nintendo DS Europe → Linux desktop; Windows and Steam Deck are listed as targets without validation",
+      "kind": "Recompilation",
+      "status": "Research-stage tooling and runtime are published, but the README says no end-to-end game generator or playable build is available. It reports aggregate matching figures from a local run while noting that full-module verification and runtime parity remain incomplete.",
+      "summary": "Title-specific ARM9/ARM7 static-recompilation tooling and an experimental Nintendo DS runtime for Dragon Quest IX's European release. The repository contains no generated game code or game data.",
+      "project_url": "https://github.com/0bAndyWirus/DQ9-Decomp",
+      "updated": "2026-10-15",
+      "strategy": "Static recompilation of ARM9/ARM7 code to native C++; experimental SDL2 and Godot hosts",
+      "language": "",
+      "source_available": "Public research tooling and runtime; requires a user-supplied European game copy. The README says title-specific generated code and an end-to-end generation workflow are not published.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "European Nintendo DS release; native runtime parity and Windows/Steam Deck validation are not established",
+      "target_type": "Game",
+      "sources": [
+        {
+          "label": "Maintainer README: target, method, status, inputs, and limitations",
+          "url": "https://github.com/0bAndyWirus/DQ9-Decomp#readme"
+        },
+        {
+          "label": "GitHub repository language statistics",
+          "url": "https://api.github.com/repos/0bAndyWirus/DQ9-Decomp/languages"
+        }
+      ],
+      "media": [],
+      "links": []
+    },
+    {
+      "id": "kingdom-hearts-358-days-pc-port",
+      "title": "Kingdom Hearts 358/2 Days Native PC Port",
+      "game": "Kingdom Hearts 358/2 Days",
+      "platform": "Nintendo DS → Windows, Linux, and macOS",
+      "kind": "Reimplementation",
+      "status": "Early development. The front end runs natively through character select and an experimental Twilight Town gameplay harness is available; the README says the game does not yet have a reconstructed mission or combat loop.",
+      "summary": "A native C++ PC source port that adapts understood game code and behavior to a portable runtime. Its maintainer explicitly separates it from the project's matching Nintendo DS decompilation.",
+      "project_url": "https://github.com/Yokimitsuro/khdays-port",
+      "updated": "2026-10-15",
+      "strategy": "Native source port with a portable PC runtime, rendering, input, audio, and filesystem support",
+      "language": "",
+      "source_available": "Public source repository; users must provide their own game copy. The repository says it contains no ROM, game assets, or copyrighted binaries.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "PC port; supported game region/revision is not specified in the reviewed README",
+      "target_type": "Game",
+      "sources": [
+        {
+          "label": "Maintainer README: project relationship, supported hosts, status, and game-file requirement",
+          "url": "https://github.com/Yokimitsuro/khdays-port#readme"
+        },
+        {
+          "label": "GitHub repository language statistics",
+          "url": "https://api.github.com/repos/Yokimitsuro/khdays-port/languages"
+        }
+      ],
+      "media": [],
+      "links": []
+    },
+    {
+      "id": "air-traffic-chaos-nds-decomp",
+      "title": "Air Traffic Chaos Nintendo DS Decompilation",
+      "game": "Air Traffic Chaos (Nintendo DS USA)",
+      "platform": "Nintendo DS USA (ROM SHA-1 4f36e459b6d2472c403a008a61140377a6c53229)",
+      "kind": "Decompilation",
+      "status": "Early work in progress. The README documents extraction, configuration, and ROM rebuild commands, but does not report matching progress or claim a complete decompilation.",
+      "summary": "A Nintendo DS decompilation and modification project with ARM9 reverse-engineering sources and a documented rebuild-and-diff workflow for the USA ROM.",
+      "project_url": "https://github.com/sasja-san/atc",
+      "updated": "2026-10-15",
+      "strategy": "Nintendo DS ROM extraction/rebuild using dsd plus reverse-engineered C; byte-matching status is not stated",
+      "language": "",
+      "source_available": "Public source repository; the README instructs users to provide the USA game ROM and a DS BIOS7 dump. No release is listed.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "Python",
+      "subtype": "USA release; ROM identity is supplied by the project README",
+      "target_type": "Game",
+      "sources": [
+        {
+          "label": "Maintainer README: target, ROM identity, source layout, and build steps",
+          "url": "https://github.com/sasja-san/atc#readme"
+        },
+        {
+          "label": "GitHub repository language statistics",
+          "url": "https://api.github.com/repos/sasja-san/atc/languages"
+        }
+      ],
+      "media": [],
+      "links": []
+    },
+    {
+      "id": "bittrip-complete-wii-decomp",
+      "title": "BIT.TRIP COMPLETE Wii Decompilation",
+      "game": "BIT.TRIP COMPLETE (Wii)",
+      "platform": "Nintendo Wii (Game ID SVTEXS; region not specified in the README)",
+      "kind": "Decompilation",
+      "status": "The README documents configuration and build from a user-supplied Wii disc image; project completion and matching progress are not stated.",
+      "summary": "A Wii decompilation of the BIT.TRIP COMPLETE compilation. The maintainer says the same repository also covers the individual BIT.TRIP WiiWare entries in effect; this batch records the compilation once because separate entry build targets are not enumerated in the README.",
+      "project_url": "https://github.com/Fatih120/bittrip",
+      "updated": "2026-10-15",
+      "strategy": "DTK-based source decompilation; matching status is not stated",
+      "language": "",
+      "source_available": "Public source repository; a user-supplied Wii disc image with Game ID SVTEXS is required to configure and build. The README says game assets and assembly are not included.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "Python",
+      "subtype": "Wii compilation; the repository also refers to the individual WiiWare entries",
+      "target_type": "Game",
+      "sources": [
+        {
+          "label": "Maintainer README: compilation scope, game ID, source requirement, and build steps",
+          "url": "https://github.com/Fatih120/bittrip#readme"
+        },
+        {
+          "label": "GitHub repository language statistics",
+          "url": "https://api.github.com/repos/Fatih120/bittrip/languages"
+        }
+      ],
+      "media": [],
+      "links": []
+    },
+    {
+      "id": "puyo-puyo-20th-wii-decomp",
+      "title": "Puyo Puyo!! 20th Anniversary Wii Decompilation",
+      "game": "Puyo Puyo!! 20th Anniversary (Wii)",
+      "platform": "Nintendo Wii (game ID SAUJ8P; region/revision not stated)",
+      "kind": "Decompilation",
+      "status": "Early scaffold. The public tree includes title-specific configuration, symbol maps, and split maps, but the README is still the generic decomp-toolkit template and does not state build or matching progress.",
+      "summary": "A Wii decompilation project with game-specific SAUJ8P configuration and symbol/split maps. No game-specific C source or release is documented in the reviewed tree.",
+      "project_url": "https://github.com/Fatih120/puyo20th-rvl",
+      "updated": "2026-10-15",
+      "strategy": "DTK project configuration and symbol/split mapping; game-code matching status is not documented",
+      "language": "",
+      "source_available": "Public repository with title-specific configuration and symbol maps. The README template instructs contributors to provide an original game image; no game-specific source implementation or release is documented.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "Python",
+      "subtype": "Nintendo Wii; configured game ID SAUJ8P",
+      "target_type": "Game",
+      "sources": [
+        {
+          "label": "Maintainer repository and README template",
+          "url": "https://github.com/Fatih120/puyo20th-rvl#readme"
+        },
+        {
+          "label": "Title-specific SAUJ8P configuration and symbol/split maps",
+          "url": "https://github.com/Fatih120/puyo20th-rvl/tree/main/config/SAUJ8P"
+        },
+        {
+          "label": "GitHub repository language statistics",
+          "url": "https://api.github.com/repos/Fatih120/puyo20th-rvl/languages"
+        }
+      ],
+      "media": [],
+      "links": []
+    },
+    {
+      "id": "sims-bustin-out-gamecube-decomp",
+      "title": "The Sims: Bustin' Out GameCube Decompilation",
+      "game": "The Sims: Bustin’ Out (GameCube USA)",
+      "platform": "Nintendo GameCube USA G4ME69 revision 0",
+      "kind": "Decompilation",
+      "status": "Work in progress. The README reports 6.24% whole-executable matching, with 11.43% of game-code functions matched at the time of its status table.",
+      "summary": "A matching GameCube decompilation targeting USA revision 0. It aims to rebuild an executable byte-identical to the disc using the original SN Systems ProDG toolchain; game assets and disc code are not included.",
+      "project_url": "https://github.com/daftblazer/bustin-out-decomp",
+      "updated": "2026-10-15",
+      "strategy": "Matching C/C++ decompilation using SN Systems ProDG for GameCube",
+      "language": "",
+      "source_available": "Public source repository; requires a user-supplied GameCube copy. The README identifies the target main.dol SHA-1 as 26f0bf319a5fd3ea3d3d86e6117fbc78e259231c.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "USA G4ME69 revision 0; original CodeWarrior is not the target toolchain",
+      "target_type": "Game",
+      "sources": [
+        {
+          "label": "Maintainer README: exact version, toolchain, source requirement, and matching progress",
+          "url": "https://github.com/daftblazer/bustin-out-decomp#readme"
+        },
+        {
+          "label": "GitHub repository language statistics",
+          "url": "https://api.github.com/repos/daftblazer/bustin-out-decomp/languages"
+        }
+      ],
+      "media": [],
+      "links": []
+    },
+    {
+      "id": "tetris-gameboy-assembly-disassembly",
+      "title": "Tetris Game Boy Assembly Disassembly",
+      "game": "Tetris (Game Boy)",
+      "platform": "Nintendo Game Boy (region/revision not specified)",
+      "kind": "Decompilation",
+      "status": "The repository labels itself a decompilation back to assembly and contains assembly source files plus a Makefile; the README does not document a specific ROM revision or matching-build status.",
+      "summary": "An assembly-language disassembly project for the Game Boy version of Tetris. Its exact regional build target and byte-matching state remain undocumented.",
+      "project_url": "https://github.com/DanielBenGD/Tetris-Gameboy-Decompilation",
+      "updated": "2026-10-15",
+      "strategy": "Assembly-language disassembly; byte-matching status is not established",
+      "language": "",
+      "source_available": "Public repository containing assembly sources and a Makefile; the repository does not document required baseline ROM files.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "Assembly",
+      "subtype": "Game Boy; exact regional ROM/revision is not stated",
+      "target_type": "Game",
+      "sources": [
+        {
+          "label": "Maintainer README and repository source files",
+          "url": "https://github.com/DanielBenGD/Tetris-Gameboy-Decompilation"
+        },
+        {
+          "label": "GitHub repository language statistics",
+          "url": "https://api.github.com/repos/DanielBenGD/Tetris-Gameboy-Decompilation/languages"
+        }
+      ],
+      "media": [],
+      "links": []
+    },
+    {
+      "id": "conker-bad-fur-day-reloaded-recomp",
+      "title": "Conker's Bad Fur Day Reloaded Recompilation",
+      "game": "Conker’s Bad Fur Day (Nintendo 64 USA)",
+      "platform": "Nintendo 64 USA → Windows x64 and Linux x64",
+      "kind": "Recompilation",
+      "status": "A v1.3.6 release is available for Windows and Linux. The README describes both a Classic mode and a Modern mode; no full-game compatibility statement is made here.",
+      "summary": "An independent N64 recompilation project with a classic presentation mode and a modern mode with widescreen, higher frame rate, and free camera. It is a separate repository from the existing CBFD-Recompiled project.",
+      "project_url": "https://github.com/DahSidiAbdallah/ConkerBFDReloaded",
+      "updated": "2026-10-15",
+      "strategy": "N64 static recompilation to a native PC application",
+      "language": "",
+      "source_available": "Public source and release packages; requires the user's own USA ROM (SHA-1 4cbadd3c4e0729dec46af64ad018050eada4f47a).",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "USA ROM; Windows and Linux x64 releases",
+      "target_type": "Game",
+      "sources": [
+        {
+          "label": "Maintainer README: target ROM, method, modes, and host requirements",
+          "url": "https://github.com/DahSidiAbdallah/ConkerBFDReloaded#readme"
+        },
+        {
+          "label": "Maintainer release v1.3.6",
+          "url": "https://github.com/DahSidiAbdallah/ConkerBFDReloaded/releases/tag/v1.3.6"
+        },
+        {
+          "label": "GitHub repository language statistics",
+          "url": "https://api.github.com/repos/DahSidiAbdallah/ConkerBFDReloaded/languages"
+        }
+      ],
+      "media": [],
+      "links": []
+    },
+    {
+      "id": "aero-fighters-assault-n64-recomp",
+      "title": "Aero Fighters Assault N64 Recompilation Workspace",
+      "game": "Aero Fighters Assault (Nintendo 64 USA)",
+      "platform": "Nintendo 64 USA → Windows (documented build path)",
+      "kind": "Recompilation",
+      "status": "An early recompilation workspace with N64Recomp output, a ROM-splitting workflow, and Windows build instructions. The repository has no release, and the README does not state gameplay or completion status.",
+      "summary": "A static-recompilation workspace for the USA release of Aero Fighters Assault, following N64Recomp-style workflows and requiring a user-supplied ROM.",
+      "project_url": "https://github.com/DohmBoy64Bit/Aero64Final",
+      "updated": "2026-10-15",
+      "strategy": "N64Recomp-style static recompilation with game-specific host/runtime code",
+      "language": "",
+      "source_available": "Public source workspace; README requires a legally obtained USA ROM. No release is listed.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "USA target; Windows build instructions; gameplay state not documented",
+      "target_type": "Game",
+      "sources": [
+        {
+          "label": "Maintainer README: target version, method, user-provided ROM, and build workflow",
+          "url": "https://github.com/DohmBoy64Bit/Aero64Final#readme"
+        },
+        {
+          "label": "GitHub repository language statistics",
+          "url": "https://api.github.com/repos/DohmBoy64Bit/Aero64Final/languages"
+        }
+      ],
+      "media": [],
+      "links": []
+    },
+    {
+      "id": "pokemon-lets-go-eevee-switch-recomp",
+      "title": "Pokémon: Let's Go, Eevee! Switch Recompilation",
+      "game": "Pokémon: Let's Go, Eevee!",
+      "platform": "Nintendo Switch v1.0.0 → Windows x64",
+      "kind": "Recompilation",
+      "status": "Playable through Viridian City according to the README; not completed from start to finish. Only the Eevee v1.0.0 release on Windows is documented as supported.",
+      "summary": "A native Windows port using static recompilation via LAS Recomp. It supports an extracted user-supplied base-game copy and reports functioning exploration, capture, battles, menus, and saves.",
+      "project_url": "https://github.com/raulzrrs/letsgo-recomp",
+      "updated": "2026-10-15",
+      "strategy": "Static recompilation of Switch code through LAS Recomp into native PC code",
+      "language": "",
+      "source_available": "Public source and v0.1.0 release; requires the user's extracted Pokémon: Let's Go, Eevee! v1.0.0 base-game files (exefs and romfs). No game files are included.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Eevee edition v1.0.0 only; Windows 10/11 x64; other Switch versions and operating systems are not documented as supported",
+      "target_type": "Game",
+      "sources": [
+        {
+          "label": "Maintainer README: method, exact game version, supported host, requirements, and tested status",
+          "url": "https://github.com/raulzrrs/letsgo-recomp#readme"
+        },
+        {
+          "label": "Maintainer release v0.1.0",
+          "url": "https://github.com/raulzrrs/letsgo-recomp/releases/tag/v0.1.0"
+        },
+        {
+          "label": "GitHub repository language statistics",
+          "url": "https://api.github.com/repos/raulzrrs/letsgo-recomp/languages"
+        }
+      ],
+      "media": [],
+      "links": []
+    },
+    {
+      "id": "super-robot-wars-64-native-recomp",
+      "title": "Super Robot Wars 64 Native Recompilation",
+      "game": "Super Robot Wars 64 (Japan Rev. 0)",
+      "platform": "Nintendo 64 Japan Rev. 0 → Windows, macOS Apple silicon, Linux, Steam Deck, and Android",
+      "kind": "Recompilation",
+      "status": "Experimental native recompilation with an available v0.4.8 release. The README marks Windows, Steam Deck, and Android as experimental and documents an install-and-play workflow using a Japanese Rev. 0 ROM.",
+      "summary": "N64Recomp-based native project with English and Chinese translations, the original Japanese text, optional HD art, widescreen, and configurable fixes. The repository contains no ROM or generated game code.",
+      "project_url": "https://github.com/dyzz/srw64-recomp",
+      "updated": "2026-10-15",
+      "strategy": "N64 static recompilation with RT64 rendering",
+      "language": "",
+      "source_available": "Public source and release; requires the user's Japanese Super Robot Taisen 64 revision 0 ROM. The repository does not include game data or generated game code.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "Python",
+      "subtype": "Japanese Rev. 0 ROM; Windows, Steam Deck, and Android are explicitly marked experimental",
+      "target_type": "Game",
+      "sources": [
+        {
+          "label": "Maintainer README: method, exact ROM, platform support, and current status",
+          "url": "https://github.com/dyzz/srw64-recomp#readme"
+        },
+        {
+          "label": "Maintainer release v0.4.8",
+          "url": "https://github.com/dyzz/srw64-recomp/releases/tag/v0.4.8"
+        },
+        {
+          "label": "GitHub repository language statistics",
+          "url": "https://api.github.com/repos/dyzz/srw64-recomp/languages"
+        }
+      ],
+      "media": [],
+      "links": []
+    },
+    {
+      "id": "mother3-native-recomp",
+      "title": "MOTHER 3 Native Recompilation",
+      "game": "MOTHER 3 (English Fan Translation v1.3)",
+      "platform": "Game Boy Advance → Windows, Linux, and Android",
+      "kind": "Recompilation",
+      "status": "Native multi-platform release packages are documented; the latest repository release reviewed is v1.0.5. The README requires a supported English-patched ROM and a GBA BIOS dump.",
+      "summary": "Static recompilation of GBA ARM/Thumb code into native C++ for MOTHER 3. The project supports the official English fan translation v1.3 and a documented high-quality sound mod input.",
+      "project_url": "https://github.com/josiahg2502-glitch/Mother3Recomp",
+      "updated": "2026-10-15",
+      "strategy": "Static recompilation of GBA ARM/Thumb machine code to native code using gbarecomp",
+      "language": "",
+      "source_available": "Public source and release packages; requires the user's English v1.3-patched MOTHER 3 ROM and GBA BIOS dump. The repository says it contains no ROM or BIOS.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "English fan translation v1.3; Windows, Linux, and Android packages",
+      "target_type": "Game",
+      "sources": [
+        {
+          "label": "Maintainer README: method, exact ROM/BIOS requirements, and host packages",
+          "url": "https://github.com/josiahg2502-glitch/Mother3Recomp#readme"
+        },
+        {
+          "label": "Maintainer release v1.0.5",
+          "url": "https://github.com/josiahg2502-glitch/Mother3Recomp/releases/tag/v1.0.5"
+        },
+        {
+          "label": "GitHub repository language statistics",
+          "url": "https://api.github.com/repos/josiahg2502-glitch/Mother3Recomp/languages"
+        }
+      ],
+      "media": [],
+      "links": []
+    },
+    {
+      "id": "go-go-ackman-snes-recomp",
+      "title": "Go Go Ackman Super Nintendo Recompilation",
+      "game": "Go Go Ackman (Super Famicom Japan)",
+      "platform": "Super Nintendo Entertainment System Japan → Windows and Linux",
+      "kind": "Recompilation",
+      "status": "A v1.0 desktop release is available. The README documents the supported Japanese ROM and interactive desktop features; it makes no full-game compatibility claim.",
+      "summary": "A desktop port of Go Go Ackman built with SNESRecomp, SDL3, and Dear ImGui. The supported Japanese ROM is supplied separately by the user; optional English and Brazilian Portuguese translation patches are documented.",
+      "project_url": "https://github.com/catmidori/gogoackman1recomp",
+      "updated": "2026-10-15",
+      "strategy": "SNES static recompilation through the SNESRecomp framework",
+      "language": "",
+      "source_available": "Public source and v1.0 release; requires the supported Japanese ROM (1,310,720 bytes, SHA-256 e8a33b6c8e15cf0aa60e9694471a51926fb97ad895d4714384c6abff28a33a1f). No ROM is embedded.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Japanese Super Famicom ROM; Windows and Linux builds, including Flatpak",
+      "target_type": "Game",
+      "sources": [
+        {
+          "label": "Maintainer README: method, host platforms, supported ROM, and features",
+          "url": "https://github.com/catmidori/gogoackman1recomp#readme"
+        },
+        {
+          "label": "Maintainer release v1.0",
+          "url": "https://github.com/catmidori/gogoackman1recomp/releases/tag/v1.0"
+        },
+        {
+          "label": "GitHub repository language statistics",
+          "url": "https://api.github.com/repos/catmidori/gogoackman1recomp/languages"
+        }
+      ],
+      "media": [],
+      "links": []
+    }
+  ],
+  "exclusions": [
+    {
+      "candidate": "Punch-Out!! Wii decompilation, xelathing/POWiiDecomp",
+      "reason": "The public repository contains one commit and a README that only repeats the project title; no source implementation, target version, or build evidence is available to review.",
+      "evidence_url": "https://github.com/xelathing/POWiiDecomp"
+    },
+    {
+      "candidate": "Super Smash Bros. Ultimate Switch recompilation, Denkishi/ssbu-recomp",
+      "reason": "Exact repository and target duplicate of the existing ssbu-switch-recomp catalog record.",
+      "evidence_url": "https://github.com/Denkishi/ssbu-recomp"
+    },
+    {
+      "candidate": "Super Metroid SNES recompilation, mstan/SuperMetroidRecomp",
+      "reason": "Exact repository and target duplicate of the existing super-metroid-snes-recomp catalog record.",
+      "evidence_url": "https://github.com/mstan/SuperMetroidRecomp"
+    },
+    {
+      "candidate": "Saru Get You: Saru Saru Daisakusen recompilation, jackgllghr/bigmission-recomp",
+      "reason": "The verified target is a PSP game and falls outside this Nintendo handheld/home-console scope.",
+      "evidence_url": "https://github.com/jackgllghr/bigmission-recomp"
+    },
+    {
+      "candidate": "Super Mario Odyssey SwitchRecomp project (Reddit lead)",
+      "reason": "The Reddit post is a discovery lead, but says the source is not yet publicly available; no maintainer repository or release was found to verify the project details for a catalog record.",
+      "evidence_url": "https://www.reddit.com/r/decomps/comments/1x229bk/switchrecomp_super_mario_odyssey_recompiled_into/"
+    }
+  ],
+  "catalog_duplicates_skipped": [
+    {
+      "candidate": "Kingdom Hearts 358/2 Days decompilation, Yokimitsuro/khdays-decomp",
+      "reason": "Already catalogued as kh-days-decomp. The separately maintained khdays-port repository is included because its README distinguishes the native PC port from the matching decompilation.",
+      "evidence_url": "https://github.com/Yokimitsuro/khdays-decomp"
+    },
+    {
+      "candidate": "Dragon Quest IX matching decompilation, DQIX/dqix-decomp",
+      "reason": "Already catalogued as dqix-decomp for USA and Japanese targets. The new DQ9-Decomp research repository is a distinct project with a European target and static recompilation tooling; the different project and version are stated in its record.",
+      "evidence_url": "https://github.com/DQIX/dqix-decomp"
+    },
+    {
+      "candidate": "The Sims: Bustin' Out Game Boy Advance decompilation, DaBrown95/tsbodp",
+      "reason": "Existing catalog record covers the Game Boy Advance release. The new record is the separate GameCube USA G4ME69 target.",
+      "evidence_url": "https://github.com/DaBrown95/tsbodp"
+    },
+    {
+      "candidate": "MOTHER 3 English fan localization, mother3.fobby.net",
+      "reason": "Existing catalog record covers the fan localization. The new repository is a separate native recompilation project.",
+      "evidence_url": "https://mother3.fobby.net/"
+    },
+    {
+      "candidate": "Conker's Bad Fur Day existing PC recompilation, Sciaschi/CBFD-Recompiled",
+      "reason": "The new record is a separate, non-fork GitHub project with its own source and v1.3.6 release; it is retained as a distinct project while the target overlap is documented in the record.",
+      "evidence_url": "https://github.com/sciaschi/CBFD-Recompiled"
+    }
+  ],
+  "review_notes": [
+    {
+      "topic": "Multi-title BIT.TRIP repository",
+      "note": "The maintainer README describes BIT.TRIP COMPLETE for Wii and says the repository effectively covers each individual WiiWare entry. It gives one disc Game ID (SVTEXS) and one build workflow but does not enumerate distinct per-entry build targets, so one compilation-level record is staged and no per-entry rows are inferred."
+    },
+    {
+      "topic": "Project tracker and community leads",
+      "note": "GitHub searches were supplemented with Reddit searches, including the Super Robot Wars 64 project announcement. The decomp.dev homepage currently reports that its public index and new project additions are disabled, so it was used as tracker context rather than evidence for project claims. Community and tracker results were checked against maintainer repositories/readmes/releases before inclusion."
+    },
+    {
+      "topic": "Puyo Puyo!! 20th Anniversary scaffold",
+      "note": "The README remains the generic DTK template, but the repository has game-specific SAUJ8P configuration and substantial title-specific symbol/split maps. It is included as an early, unverified scaffold with no claim of built or matched game code."
+    }
+  ]
+}

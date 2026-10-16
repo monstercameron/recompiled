@@ -903,6 +903,8 @@ html:lang(ja) .hero h1 { font-size:clamp(46px,4.85vw,62px); letter-spacing:-.05e
 .hero-jump:hover { transform:translateY(-2px); border-color:var(--hero-ink); background:var(--hero-ink); color:var(--hero-surface); box-shadow:0 8px 22px rgba(0,0,0,.18); }
 .hero-jump .ui-icon { width:15px; height:15px; transition:transform var(--motion-fast) var(--ease-standard); }
 .hero-jump:hover .ui-icon { transform:translateY(2px); }
+/* Keep keyboard focus visible on the dark hero surface in both themes. */
+.hero :focus-visible { outline-color:var(--hero-signal); }
 .hero-figure { width:min(440px,100%); aspect-ratio:1.2; overflow:hidden; border:1px solid rgba(237,245,238,.2); border-radius:4px; background:rgba(237,245,238,.045); box-shadow:0 18px 42px rgba(0,0,0,.17),inset 0 1px rgba(255,255,255,.1); }
 .hero-signal-map { position:absolute; z-index:0; inset:0; width:100%; height:100%; }
 .signal-board { fill:var(--hero-surface-raised); stroke:rgba(237,245,238,.22); stroke-width:1; }
@@ -1039,8 +1041,10 @@ html:lang(ja) .hero h1 { font-size:clamp(46px,4.85vw,62px); letter-spacing:-.05e
   .orbit-core { width:86px; height:86px; border-radius:14px; }
   .orbit-core b { font-size:25px; }
   .signal-readout { font-size:6.4px; }
-  .site-header .primary-nav { scrollbar-width:none; }
-  .site-header .primary-nav::-webkit-scrollbar { display:none; }
+  .site-header .primary-nav { scrollbar-width:thin; scrollbar-color:color-mix(in srgb,var(--blue) 62%,var(--line)) transparent; }
+  .site-header .primary-nav::-webkit-scrollbar { height:3px; }
+  .site-header .primary-nav::-webkit-scrollbar-track { background:transparent; }
+  .site-header .primary-nav::-webkit-scrollbar-thumb { border-radius:999px; background:color-mix(in srgb,var(--blue) 62%,var(--line)); }
   .site-header .primary-nav > a:not(.github-link) { min-height:44px; }
   .site-header .primary-nav a { font-size:10px; }
 }

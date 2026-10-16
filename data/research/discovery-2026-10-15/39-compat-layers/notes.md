@@ -1,0 +1,23 @@
+# Compatibility and API translation discoveries (2026-10-15)
+
+This lane checked operating-system and graphics API compatibility candidates against SQLite, `docs/catalog.json`, the central reviewed additions, and all staged research manifests. Two non-duplicate API translation projects are staged in `new-projects.json`; no database, generated catalog, or central manifest files were edited.
+
+## Staged projects
+
+- **Dozen (Mesa dzn Vulkan Driver)** translates Vulkan 1.2 to Microsoft Direct3D 12 through Mesa's `dzn` Vulkan ICD. It is distinct from the existing Mesa Gallium D3D12 OpenGL driver, which translates OpenGL to D3D12. Mesa's source identifies `VK_DRIVER_ID_MESA_DOZEN`, reports Vulkan 1.2, creates a D3D12 device, and emits a warning that the implementation is non-conformant. Mesa exposes it under the `microsoft-experimental` Vulkan-driver build option. The host needs a usable D3D12 adapter and driver; the Microsoft WSL issue documents this path for Linux Vulkan applications in WSL2. No game or application source is required. Primary evidence: [Mesa dzn device implementation](https://gitlab.freedesktop.org/mesa/mesa/-/blob/main/src/microsoft/vulkan/dzn_device.c), [Mesa dzn build files](https://gitlab.freedesktop.org/mesa/mesa/-/blob/main/src/microsoft/vulkan/meson.build), [Mesa build configuration](https://gitlab.freedesktop.org/mesa/mesa/-/blob/main/meson.build), [Microsoft's Vulkan-on-12 specification](https://github.com/microsoft/DirectX-Specs/blob/master/d3d/VulkanOn12.md), and the [Microsoft WSL issue documenting dzn use](https://github.com/microsoft/WSL/issues/41410).
+- **DxWrapper** is a Windows per-game proxy-DLL wrapper whose `Dd7to9` option converts DirectDraw/Direct3D 1–7 to Direct3D 9. Its maintainer reports most DirectDraw APIs implemented, with Direct3D coverage still limited, and a per-title compatibility matrix with mixed results. Release v1.9.8700.25 was published 2026-10-12. No original game source is needed; users provide the installed game files and place the wrapper DLL/configuration beside the executable. The repository also integrates other wrappers such as D3D8-to-D3D9; this record is limited to the separately documented Dd7to9 path. Primary evidence: [DxWrapper README](https://github.com/elishacloud/dxwrapper), [Dd7to9 API and compatibility notes](https://github.com/elishacloud/dxwrapper/wiki/DirectDraw-to-Direct3D9-Conversion), and [release v1.9.8700.25](https://github.com/elishacloud/dxwrapper/releases/tag/v1.9.8700.25).
+
+Both rows have `target_type: Software`, because the records describe reusable drivers/wrappers supporting multiple applications rather than one game or application port. The language values come from the primary source files for Dozen and GitHub's language endpoint for DxWrapper: Dozen is primarily C with C++ for DXCore integration, and DxWrapper is primarily C with C++ code.
+
+## Deduplication and exclusions
+
+- **WineVDM / OTVDM** is already in SQLite and staged by `34-archives`; it is a Win16-on-64-bit-Windows compatibility runtime using CPU emulation plus Wine-derived Win16-to-Win32 conversion. It remains excluded here rather than duplicated.
+- **N64Recomp-browser** adds Emscripten/WebGPU frontend and build support to existing N64 static recompilations. It patches recomp/runtime/rendering dependencies and builds browser pages, but is not a standalone guest-to-host API translation project; it may fit a tools/resources directory. [Maintainer README](https://github.com/amazingalek/N64Recomp-browser)
+- **RecompStore** installs and updates native PS5 ports and configures them from user-owned disc images; it does not implement API translation or application compatibility. It may fit a directory entry, not an API Translation project. [Maintainer README](https://github.com/elripalda/RecompStore)
+- Major adjacent graphics directions are already covered by current or staged records, including ANGLE, DXVK, vkd3d, DXGL, D3D8-to-D3D9, WineD3D, MoltenVK, Zink, Mesa's OpenGL-over-D3D12 driver, and the macOS Direct3D/Metal projects. These were not re-added.
+
+## Verification
+
+- Verified both staged IDs and canonical project identities against SQLite, `docs/catalog.json`, `project-additions-reviewed.json`, and all staged discovery JSON files; neither Dozen nor DxWrapper has an existing record.
+- Checked primary implementation/build documentation and current release pages on 2026-10-15. No start dates were stated in the reviewed sources, so `project_started` is null.
+- JSON parsing and required project-field/source-URL checks were run locally. The staged manifests are research only and have not been imported.

@@ -1,0 +1,150 @@
+{
+  "updated": "2026-10-15",
+  "scope": "Fresh reverse-engineering and software binary-analysis tools, with emphasis on source reconstruction, static recompilation, and underrepresented embedded instruction sets. The game-specific entry is an application tool; it does not add a game title.",
+  "projects": [
+    {
+      "id": "decomp-wtf-matching-decompilation-tool",
+      "title": "decomp.wtf",
+      "game": "Game binaries and community decompilation projects (multi-title tool)",
+      "target_type": "Software",
+      "platform": "Linux; Windows via WSL 2 (documented as unstable); macOS unsupported. From-scratch inputs include GameCube/Wii and Nintendo 64 (recommended), plus beta PlayStation 1/2, Game Boy Advance, and Nintendo DS ROMs/discs/program files.",
+      "kind": "Decompilation",
+      "status": "Discontinued and archived. The maintainer says no further issue fixes, pull-request reviews, or releases are planned; v0.10.6 is identified as the last installable version. The README labels GameCube/Wii and N64 as the recommended paths; PS1/PS2/GBA/DS remain beta.",
+      "summary": "Local GUI and MCP application that coordinates agents to reconstruct C/C++ functions from user-supplied game binaries or existing community decomp projects. Each candidate is built with the target project’s original compiler and checked byte-for-byte against the original function or project build; matched output can be exported as a rebuildable source tree. It does not provide ROMs or game code.",
+      "project_url": "https://github.com/i12bp8/decomp.wtf",
+      "updated": "2026-10-15",
+      "strategy": "Per-function matching source reconstruction: splat/spimdisasm or platform-specific analyzers locate code; an agent drafts C/C++; pinned original compilers build it; the result is linked at the original address and checked byte-for-byte. Public project forks use their own build and objdiff checks. This is a matching decompiler workflow, not a machine-code static recompiler.",
+      "language": "",
+      "source_available": "Public MIT-licensed Python application source. Requires the user’s own game ROM/disc/program file or a checkout of a supported public decomp project; no copyrighted game binary or assets are included. Some proprietary compiler toolchains are optional and installed only after user acceptance.",
+      "first_found": "2026-10-15",
+      "programming_language": "Python",
+      "subtype": "Local matching-decompilation GUI and MCP workflow for game software",
+      "sources": [
+        {
+          "label": "Maintainer README: discontinuation, final installable version, methods, platforms, and input requirements",
+          "url": "https://github.com/i12bp8/decomp.wtf#readme"
+        },
+        {
+          "label": "Repository metadata: archived state and MIT license checked 2026-10-15",
+          "url": "https://api.github.com/repos/i12bp8/decomp.wtf"
+        },
+        {
+          "label": "GitHub language breakdown checked 2026-10-15",
+          "url": "https://api.github.com/repos/i12bp8/decomp.wtf/languages"
+        }
+      ]
+    },
+    {
+      "id": "winrecomp-pe32-static-recompiler",
+      "title": "WinRecomp",
+      "game": "PE32/i386 Windows application binaries (multi-title recompilation tool)",
+      "target_type": "Software",
+      "platform": "32-bit i386 Windows PE executables → generated native Windows x64 CMake projects. Linux builds support analysis/diagnostics; the documented E3 Windows API integration is targeted at Windows x64.",
+      "kind": "Recompilation",
+      "status": "Early development; the README describes runtime version 0.2 and seven verified roadmap gates totaling 50/100 planning points. Synthetic translated programs, including a GUI/framebuffer comparison, are tested on Windows. An E3-derived x64 executable has been generated, but the maintainer explicitly says actual E3 Windows startup, rendering, and gameplay are unverified; there is no universal PE32 compatibility claim.",
+      "summary": "Static recompilation tool for bounded PE32/i386 Windows executables. It analyzes guest code and emits C++ instruction translations plus a CMake project that preserves 32-bit guest state while building for native Windows x64. Unsupported instructions, imports, and indirect transfers stop with errors rather than silently becoming no-ops. The repository contains synthetic fixtures, not a proprietary target executable or its assets.",
+      "project_url": "https://github.com/Zippingrocks/WindowsRecompTool",
+      "updated": "2026-10-15",
+      "strategy": "PE32/i386 analysis and bounded static lifting to C++, linked with a runtime that models guest memory, registers, imports, and selected Win32 APIs; generated code is built for Windows x64 and exercised against guest/native conformance fixtures.",
+      "language": "",
+      "source_available": "Public MIT-licensed C++ source. The analyst supplies the original PE32 executable and any application data/assets; game-derived binaries and generated source stay local according to the README.",
+      "first_found": "2026-10-15",
+      "programming_language": "C++",
+      "subtype": "Static PE32/i386 Windows-to-x64 recompilation framework",
+      "sources": [
+        {
+          "label": "Maintainer README: target profile, runtime behavior, maturity, limitations, and local input requirements",
+          "url": "https://github.com/Zippingrocks/WindowsRecompTool#readme"
+        },
+        {
+          "label": "Maintainer status document: Windows x64 build evidence and unverified real-game milestones",
+          "url": "https://github.com/Zippingrocks/WindowsRecompTool/blob/main/docs/status.md"
+        },
+        {
+          "label": "Repository metadata: MIT license and source activity checked 2026-10-15",
+          "url": "https://api.github.com/repos/Zippingrocks/WindowsRecompTool"
+        },
+        {
+          "label": "GitHub language breakdown checked 2026-10-15",
+          "url": "https://api.github.com/repos/Zippingrocks/WindowsRecompTool/languages"
+        }
+      ]
+    },
+    {
+      "id": "fission-binary-source-reconstruction",
+      "title": "Fission",
+      "game": "Native machine-code binaries (multi-format analysis and source-recovery tool)",
+      "target_type": "Software",
+      "platform": "The current strongest documented evaluation path is Windows x86-64 PE. The loader and committed Sleigh specifications provide other binary-format and instruction coverage, but the README cautions against broad architecture-parity claims.",
+      "kind": "Decompilation",
+      "status": "Active; latest tagged release found is v0.2.3 (2026-08-28), with source commits through 2026-10-15. The README says its long-term rebuildable-source target is not reached: one tested binary’s 68 decompiled functions currently produce 20 missing/duplicate declaration errors when compiled together.",
+      "summary": "Rust-native binary-analysis workspace that loads executable images, lifts instruction semantics through committed Ghidra-style Sleigh specifications to p-code, then applies its own intermediate representations, control-flow structuring, type recovery, and source rendering. Its execution differential checks reconstructed behavior; current source output is an early prototype and has not yet rebuilt the tested binary as a unit.",
+      "project_url": "https://github.com/fission-systems/Fission",
+      "updated": "2026-10-15",
+      "strategy": "Sleigh-based instruction decoding and semantic lifting through p-code into NIR/HIR, followed by CFG structuring, type recovery, and source emission; validates function behavior by executing the emitted body and comparing it with machine code.",
+      "language": "",
+      "source_available": "Public Apache-2.0 Rust source. Analysts supply binaries for examination; the project keeps its Sleigh specifications and signature data in the repository and does not include proprietary target applications.",
+      "first_found": "2026-10-15",
+      "programming_language": "Rust",
+      "subtype": "Semantics-first binary analysis and experimental rebuildable source reconstruction",
+      "sources": [
+        {
+          "label": "Maintainer README: analysis pipeline, execution-differential method, current reconstruction boundary, and license",
+          "url": "https://github.com/fission-systems/Fission#readme"
+        },
+        {
+          "label": "Maintainer evaluation guide: supported binary workflow and strongest Windows x64 evidence",
+          "url": "https://github.com/fission-systems/Fission/blob/main/docs/EVALUATION.md"
+        },
+        {
+          "label": "Latest tagged release found: v0.2.3 (2026-08-28)",
+          "url": "https://github.com/fission-systems/Fission/releases/tag/v0.2.3"
+        },
+        {
+          "label": "GitHub repository metadata: Apache-2.0 license and source activity checked 2026-10-15",
+          "url": "https://api.github.com/repos/fission-systems/Fission"
+        },
+        {
+          "label": "GitHub language breakdown checked 2026-10-15",
+          "url": "https://api.github.com/repos/fission-systems/Fission/languages"
+        }
+      ]
+    },
+    {
+      "id": "binary-ninja-c166-st10-architecture-plugin",
+      "title": "C166/ST10 Architecture Plugin for Binary Ninja",
+      "game": "Infineon C166 / STMicro ST10 embedded firmware",
+      "target_type": "Software",
+      "platform": "Infineon C166-classic, C166-vx, C166-v2, and ST10 firmware; Binary Ninja plugin binaries are published for Windows x64, Linux x64, macOS x64, and macOS ARM64.",
+      "kind": "Decompilation",
+      "status": "Maintained; release stable-6.0.10601 was published 2026-09-09. The README reports full instruction disassembly and only partial lifting to Binary Ninja Low Level IL, so some instruction semantics and resulting decompilation remain unsupported.",
+      "summary": "Binary Ninja architecture plugin for analyzing embedded firmware built for the Infineon C166 and STMicro ST10 instruction families. It adds disassembly, partial Low Level IL semantics, calling conventions, and extended-mode/data-page register support. Analysis requires a compatible Binary Ninja installation and a user-provided firmware image.",
+      "project_url": "https://github.com/idaholab/bn-st10-arch",
+      "updated": "2026-10-15",
+      "strategy": "Architecture plugin that decodes C166/ST10 instructions and supplies partial Binary Ninja LLIL semantics, with C166 calling-convention and extended DPP/EXT state support; it enables binary analysis but does not provide a complete source reconstruction.",
+      "language": "",
+      "source_available": "Public MIT-licensed C++ source and release binaries. Requires Binary Ninja 5.1.8104 or later and user-supplied firmware; the Binary Ninja analysis application is a separate dependency.",
+      "first_found": "2026-10-15",
+      "programming_language": "C++",
+      "subtype": "Embedded C166/ST10 disassembler and partial lifter plugin",
+      "sources": [
+        {
+          "label": "Maintainer README: instruction coverage, partial LLIL lifting, Binary Ninja requirements, and license",
+          "url": "https://github.com/idaholab/bn-st10-arch#readme"
+        },
+        {
+          "label": "Stable release 6.0.10601 (2026-09-09), including Windows/Linux/macOS binaries",
+          "url": "https://github.com/idaholab/bn-st10-arch/releases/tag/stable-6.0.10601"
+        },
+        {
+          "label": "Repository metadata: MIT license and source activity checked 2026-10-15",
+          "url": "https://api.github.com/repos/idaholab/bn-st10-arch"
+        },
+        {
+          "label": "GitHub language breakdown checked 2026-10-15",
+          "url": "https://api.github.com/repos/idaholab/bn-st10-arch/languages"
+        }
+      ]
+    }
+  ]
+}

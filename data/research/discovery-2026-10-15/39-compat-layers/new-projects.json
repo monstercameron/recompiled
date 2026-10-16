@@ -1,0 +1,80 @@
+{
+  "updated": "2026-10-15",
+  "scope": "Source-verified operating-system and graphics API compatibility layers not already present in the catalog or staged additions. The two records cover Mesa Dozen's Vulkan-to-Direct3D 12 driver and DxWrapper's DirectDraw/Direct3D 1–7-to-Direct3D 9 feature. No database, generated catalog, or central manifest edits are included.",
+  "projects": [
+    {
+      "id": "mesa-dozen-vulkan-d3d12",
+      "title": "Dozen (Mesa dzn Vulkan Driver)",
+      "game": "Vulkan applications (multi-title)",
+      "target_type": "Software",
+      "platform": "Vulkan 1.2 applications in Linux userspace, commonly WSL2/WSLg, → Microsoft Direct3D 12 through Mesa's dzn ICD and DXCore adapter enumeration; requires a host D3D12-capable GPU/driver. Mesa also supports Windows builds.",
+      "kind": "API Translation",
+      "status": "Active upstream Mesa driver; the current source advertises Vulkan 1.2 and emits Mesa's non-conformance warning. It is selected through Mesa's experimental microsoft-experimental Vulkan-driver build option and has no separate release stream.",
+      "summary": "Dozen (dzn) is Mesa's Vulkan implementation over Microsoft Direct3D 12. It exposes Vulkan to applications in Linux/WSL userspace where the backing host provides a D3D12 adapter; feature support depends on the D3D12 driver, and Mesa explicitly marks this implementation non-conformant.",
+      "project_url": "https://gitlab.freedesktop.org/mesa/mesa/-/tree/main/src/microsoft/vulkan",
+      "updated": "2026-10-15",
+      "strategy": "Vulkan ICD translates Vulkan 1.2 device work to Microsoft Direct3D 12 and DXCore.",
+      "language": "English",
+      "source_available": "Public source in the Mesa repository; the dzn implementation is primarily C with C++ DXCore code. Vulkan application source code is not required.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C and C++",
+      "subtype": "Vulkan-over-Direct3D 12 graphics driver",
+      "sources": [
+        {
+          "label": "Mesa dzn device source: Vulkan 1.2 version, D3D12 device creation, Dozen driver identity, and non-conformance warning",
+          "url": "https://gitlab.freedesktop.org/mesa/mesa/-/blob/main/src/microsoft/vulkan/dzn_device.c"
+        },
+        {
+          "label": "Mesa dzn driver build files: Vulkan ICD, source files, and DXCore/D3D12 backend",
+          "url": "https://gitlab.freedesktop.org/mesa/mesa/-/blob/main/src/microsoft/vulkan/meson.build"
+        },
+        {
+          "label": "Mesa Meson configuration: microsoft-experimental Vulkan driver option",
+          "url": "https://gitlab.freedesktop.org/mesa/mesa/-/blob/main/meson.build"
+        },
+        {
+          "label": "Microsoft Vulkan-on-12 specification: goal of translating Vulkan API calls to D3D12",
+          "url": "https://github.com/microsoft/DirectX-Specs/blob/master/d3d/VulkanOn12.md"
+        },
+        {
+          "label": "Microsoft WSL issue and response: dzn Vulkan ICD use on a Windows Direct3D 12 adapter",
+          "url": "https://github.com/microsoft/WSL/issues/41410"
+        }
+      ]
+    },
+    {
+      "id": "dxwrapper-ddraw-d3d9-translation",
+      "title": "DxWrapper",
+      "game": "Legacy DirectDraw/Direct3D games (multi-title)",
+      "target_type": "Software",
+      "platform": "DirectDraw and Direct3D 1–7 → Direct3D 9; Windows 10/11 host using a per-game proxy DLL and a D3D9-capable graphics driver.",
+      "kind": "API Translation",
+      "status": "Active; latest listed release v1.9.8700.25 was published 2026-10-12. The maintainer's Dd7to9 notes say most DirectDraw APIs are implemented while Direct3D coverage remains limited; its game matrix reports compatibility per title.",
+      "summary": "A per-game DirectX compatibility wrapper for older Windows games. Its Dd7to9 feature converts DirectDraw and Direct3D 1–7 calls to Direct3D 9; DxWrapper also supplies compatibility fixes and integrates other wrapper projects, so this entry focuses on its distinct Dd7to9 translation path.",
+      "project_url": "https://github.com/elishacloud/dxwrapper",
+      "updated": "2026-10-15",
+      "strategy": "A proxy DLL enables the Dd7to9 backend, which implements DirectDraw/Direct3D 1–7 over Direct3D 9; game-specific compatibility options are set in dxwrapper.ini.",
+      "language": "English",
+      "source_available": "Public C/C++ source repository with binary releases. The game executable and data are user-supplied; no game source code is required.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C and C++",
+      "subtype": "Legacy DirectX compatibility wrapper with DirectDraw/Direct3D-to-D3D9 translation",
+      "sources": [
+        {
+          "label": "DxWrapper maintainer README: wrapper purpose and documented graphics/API conversions",
+          "url": "https://github.com/elishacloud/dxwrapper"
+        },
+        {
+          "label": "Dd7to9 maintainer wiki: API direction, implementation limits, installation, and per-game matrix",
+          "url": "https://github.com/elishacloud/dxwrapper/wiki/DirectDraw-to-Direct3D9-Conversion"
+        },
+        {
+          "label": "Latest listed DxWrapper release v1.9.8700.25 (2026-10-12)",
+          "url": "https://github.com/elishacloud/dxwrapper/releases/tag/v1.9.8700.25"
+        }
+      ]
+    }
+  ]
+}

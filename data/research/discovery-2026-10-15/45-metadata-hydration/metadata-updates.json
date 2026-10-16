@@ -1,0 +1,348 @@
+{
+  "updated": "2026-10-15",
+  "updates": [
+    {
+      "id": "acgc-android-port",
+      "fields": {
+        "source_available": "Public source repository and APK releases; no game data is included. Users supply their own supported GameCube disc image.",
+        "platform": "Nintendo GameCube → Android 8+ (ARM64 or ARMv7; OpenGL ES 3)"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: source and game-data distribution",
+          "url": "https://github.com/zwaetschge/ACGC-Android-Port/blob/master/README.md"
+        }
+      ]
+    },
+    {
+      "id": "aleph-one-marathon",
+      "fields": {
+        "source_available": "GPL-3.0 source repository and source tarballs are public; game scenario/data files are distributed separately or supplied by the user."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: source and game-data distribution",
+          "url": "https://github.com/Aleph-One-Marathon/alephone/blob/master/README.md"
+        }
+      ]
+    },
+    {
+      "id": "ballpad-super-mario-strikers-ios",
+      "fields": {
+        "source_available": "Public source repository; no ready-to-install app is published. PadMint builds a local app from source; users supply their own supported disc image.",
+        "platform": "Nintendo GameCube → iOS/iPadOS 17+ (native ARM64)"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: source and game-data distribution",
+          "url": "https://github.com/chrissotraidis/ballpad/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "basilisk-ii-classic-mac",
+      "fields": {
+        "source_available": "GPL source is public in the shared macemu repository; users must separately supply a Mac OS copy and Macintosh ROM image."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: source and game-data distribution",
+          "url": "https://github.com/cebix/macemu/blob/master/README.md"
+        }
+      ]
+    },
+    {
+      "id": "bellpad-animal-crossing-ios",
+      "fields": {
+        "source_available": "Public source repository and reproducible build recipe; no store-distributed app. Users supply legally obtained supported game data.",
+        "platform": "Nintendo GameCube → Apple Silicon macOS and iOS/iPadOS 17+ (ARM64)"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: source and game-data distribution",
+          "url": "https://github.com/chrissotraidis/bellpad/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "ectopad-metroid-prime-ios",
+      "fields": {
+        "source_available": "Public source/build instructions; no public IPA is currently available. Users supply their own supported Metroid Prime disc image.",
+        "platform": "Nintendo GameCube → iOS/iPadOS 14+ and Apple Silicon macOS"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: source and game-data distribution",
+          "url": "https://github.com/chrissotraidis/ectopad/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "gta-vice-city-stories-android-recomp",
+      "fields": {
+        "source_available": "Public source repository and APK releases contain only the program; users must supply their own game files."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: source and game-data distribution",
+          "url": "https://github.com/codepdbh/PSPRecomp-VCS-Android/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "harvest-moon-64-android-recomp",
+      "fields": {
+        "source_available": "Public source repository and Android APK releases; game assets are not included and users must supply an NTSC-U ROM.",
+        "platform": "Nintendo 64 → Android 9+ (arm64-v8a)"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: source and game-data distribution",
+          "url": "https://github.com/igawa6/HarvestMoon64Recomp/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "meleepad-melee-ios",
+      "fields": {
+        "source_available": "Public source repository and module-free app shell; PadMint builds the game module from the user’s own supported disc. Generated game code is not distributed.",
+        "platform": "Nintendo GameCube → iOS/iPadOS 16+ and Apple Silicon macOS 14+"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: source and game-data distribution",
+          "url": "https://github.com/chrissotraidis/meleepad/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "metroid-prime-hunters-android-recomp",
+      "fields": {
+        "source_available": "Public source repository and APK releases; no game data is included. Users supply a verified USA revision 0 cartridge dump.",
+        "platform": "Nintendo DS → Android 11+ (arm64; dual-screen; AYN Thor tested)"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: source and game-data distribution",
+          "url": "https://github.com/aabrole/HuntersRecomp/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "mini-vmac",
+      "fields": {
+        "source_available": "Public source repository with build scripts for the documented Macintosh models and host platforms."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: source and game-data distribution",
+          "url": "https://github.com/minivmac/minivmac/blob/master/README.md"
+        }
+      ]
+    },
+    {
+      "id": "minish-cap-aleks-ultimate-nx",
+      "fields": {
+        "source_available": "Public source repository and Switch NRO releases; no ROM or copyrighted game data is included. Users supply their own legally obtained USA GBA ROM."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: source and game-data distribution",
+          "url": "https://github.com/Alexgg1014/The-Legend-of-Zelda-The-Minish-Cap-Alek-s-Ultimate-NX-Edition/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "perfect-dark-android",
+      "fields": {
+        "source_available": "Public source repository and automatic builds; the user must supply a supported Perfect Dark ROM, which is not included.",
+        "platform": "Nintendo 64 → Android 5+ (arm64-v8a, armeabi-v7a, x86_64, x86)"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: source and game-data distribution",
+          "url": "https://github.com/izzy2lost/perfect_dark/blob/port/README.md"
+        },
+        {
+          "label": "Maintainer Android README: Android 5/API 21+, supported ABIs, and user-supplied ROM",
+          "url": "https://github.com/izzy2lost/perfect_dark/blob/android-features/README.md"
+        },
+        {
+          "label": "Maintainer Android 2.0.0 release",
+          "url": "https://github.com/izzy2lost/perfect_dark/releases/tag/2.0.0"
+        }
+      ]
+    },
+    {
+      "id": "projectreach-halo-xbox-ios",
+      "fields": {
+        "source_available": "Public source repository and build instructions; there is no app download. Users supply their own supported Xbox disc image.",
+        "platform": "Original Xbox → iOS/iPadOS 17.4+ and Apple Silicon macOS 14.4+"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: source and game-data distribution",
+          "url": "https://github.com/chrissotraidis/projectreach/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "sacred-stones-android-recomp",
+      "fields": {
+        "source_available": "Public source repository and Windows/Android release packages; the game ROM, GBA BIOS, and generated ROM-derived code are not included.",
+        "platform": "Game Boy Advance → Windows x64 and Android 9+ (ARM64)"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: source and game-data distribution",
+          "url": "https://github.com/Lordingard/SacredStonesRecomp/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "sheepshaver-classic-mac",
+      "fields": {
+        "source_available": "GPL source is public in the shared macemu repository; users must separately supply a Mac OS copy and PowerMac ROM image."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: source and game-data distribution",
+          "url": "https://github.com/cebix/macemu/blob/master/README.md"
+        }
+      ]
+    },
+    {
+      "id": "sm64-android-port-base",
+      "fields": {
+        "source_available": "Public source and Android build instructions; a user-supplied Super Mario 64 baserom is required and is not included."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: source and game-data distribution",
+          "url": "https://github.com/VDavid003/sm64-port-android-base/blob/master/README.md"
+        }
+      ]
+    },
+    {
+      "id": "snappad-pokemon-snap-ios",
+      "fields": {
+        "source_available": "Public integration source and build instructions; public playable downloads are paused. Users provide their own USA ROM; the repository excludes ROM-derived code and game assets.",
+        "platform": "Nintendo 64 → iOS/iPadOS 15+ and Apple Silicon macOS"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: source and game-data distribution",
+          "url": "https://github.com/chrissotraidis/snappad/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "spaghettikart-android",
+      "fields": {
+        "source_available": "Public source and releases; no copyrighted game assets are included. Users provide a supported USA ROM."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: source and game-data distribution",
+          "url": "https://github.com/izzy2lost/SpaghettiKart/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "starship-android",
+      "fields": {
+        "source_available": "Public source and releases; no copyrighted game assets are included. Users provide a supported US ROM to generate game assets."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: source and game-data distribution",
+          "url": "https://github.com/izzy2lost/Starship/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "theft4-gta-iv-ios",
+      "fields": {
+        "source_available": "Public source repository and unsigned iOS IPA release; no game files or generated game data are included. Users provide files from their own legally obtained Xbox 360 copy."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: source and game-data distribution",
+          "url": "https://github.com/KoreanSeats1/Theft4/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "wheeldroid-mario-kart-wii-android",
+      "fields": {
+        "source_available": "Public source repository; neither Nintendo code nor game assets/data are included. Users supply their own legally dumped PAL RMCP01 disc image."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: source and game-data distribution",
+          "url": "https://github.com/KeithKirenai/wheeldroid/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "zelda3-android",
+      "fields": {
+        "source_available": "Public source repository and Android release; users extract game assets locally from their own ROM, which is not included."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: source and game-data distribution",
+          "url": "https://github.com/Waterdish/zelda3-android/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "cavalry-language-switcher",
+      "fields": {
+        "updated": "2026-09-29"
+      },
+      "sources": [
+        {
+          "label": "Latest maintainer release, Cavalry 2.7.2 patch 12",
+          "url": "https://github.com/daftAI2026/Cavalry-i18n/releases/tag/cavalry-2.7.2-p12"
+        }
+      ]
+    },
+    {
+      "id": "fire-emblem-warriors-3ds-ko",
+      "fields": {
+        "updated": "2026-10-11"
+      },
+      "sources": [
+        {
+          "label": "Latest maintainer patch release, v0.2.3",
+          "url": "https://github.com/arqhive/fire-emblem-warriors-korean-translation/releases/tag/v0.2.3"
+        }
+      ]
+    },
+    {
+      "id": "pokemon-azoth-en",
+      "fields": {
+        "updated": "2026-10-13"
+      },
+      "sources": [
+        {
+          "label": "Latest maintainer patch release, beta-22",
+          "url": "https://github.com/RiFa-Innovation/pkmn-azoth-translation/releases/tag/beta-22"
+        }
+      ]
+    },
+    {
+      "id": "crossover",
+      "fields": {
+        "source_available": "Commercial product; CodeWeavers publishes a FOSS source bundle for CrossOver 26.3.0 and lists its included upstream components."
+      },
+      "sources": [
+        {
+          "label": "CodeWeavers source-code page: downloadable FOSS bundle and component list",
+          "url": "https://www.codeweavers.com/crossover/source"
+        }
+      ]
+    }
+  ]
+}

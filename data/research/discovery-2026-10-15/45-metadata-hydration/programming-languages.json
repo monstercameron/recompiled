@@ -1,0 +1,1602 @@
+{
+  "verified_at": "2026-10-15",
+  "records": [
+    {
+      "project_id": "acgc-android-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 40390684,
+        "C++": 1299769,
+        "Python": 828306,
+        "Java": 300513,
+        "Pawn": 40510,
+        "CMake": 36207,
+        "GLSL": 31062,
+        "Assembly": 22697,
+        "Shell": 1208,
+        "Smarty": 914,
+        "Dockerfile": 157
+      },
+      "evidence_url": "https://api.github.com/repos/zwaetschge/ACGC-Android-Port/languages",
+      "source_url": "https://api.github.com/repos/zwaetschge/ACGC-Android-Port/languages",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Official GitHub repository language byte totals",
+          "url": "https://api.github.com/repos/zwaetschge/ACGC-Android-Port/languages"
+        },
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/zwaetschge/ACGC-Android-Port"
+        }
+      ],
+      "evidence": "GitHub's official Languages REST endpoint for https://github.com/zwaetschge/ACGC-Android-Port reports 40,390,684 bytes of C, the largest language total (94.0% of 42,952,027 recognized language bytes). The complete byte breakdown is recorded in language_breakdown_bytes; counts are repository-level Linguist totals."
+    },
+    {
+      "project_id": "aleph-one-marathon",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 5316551,
+        "C": 3593020,
+        "Makefile": 42660,
+        "GLSL": 25340,
+        "Lua": 15897,
+        "M4": 14365,
+        "PowerShell": 7646,
+        "Objective-C++": 6891,
+        "Perl": 5980,
+        "Shell": 5562,
+        "HTML": 3395,
+        "AppleScript": 1575,
+        "CMake": 610
+      },
+      "evidence_url": "https://api.github.com/repos/Aleph-One-Marathon/alephone/languages",
+      "source_url": "https://api.github.com/repos/Aleph-One-Marathon/alephone/languages",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Official GitHub repository language byte totals",
+          "url": "https://api.github.com/repos/Aleph-One-Marathon/alephone/languages"
+        },
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/Aleph-One-Marathon/alephone"
+        }
+      ],
+      "evidence": "GitHub's official Languages REST endpoint for https://github.com/Aleph-One-Marathon/alephone reports 5,316,551 bytes of C++, the largest language total (58.8% of 9,039,492 recognized language bytes). The complete byte breakdown is recorded in language_breakdown_bytes; counts are repository-level Linguist totals."
+    },
+    {
+      "project_id": "animal-crossing-gamecube-decomp",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 33692893,
+        "C++": 940042,
+        "Python": 601355,
+        "Pawn": 40510,
+        "Assembly": 22697,
+        "Smarty": 914
+      },
+      "evidence_url": "https://api.github.com/repos/ACreTeam/ac-decomp/languages",
+      "source_url": "https://api.github.com/repos/ACreTeam/ac-decomp/languages",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Official GitHub repository language byte totals",
+          "url": "https://api.github.com/repos/ACreTeam/ac-decomp/languages"
+        },
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/ACreTeam/ac-decomp"
+        }
+      ],
+      "evidence": "GitHub's official Languages REST endpoint for https://github.com/ACreTeam/ac-decomp reports 33,692,893 bytes of C, the largest language total (95.5% of 35,298,411 recognized language bytes). The complete byte breakdown is recorded in language_breakdown_bytes; counts are repository-level Linguist totals."
+    },
+    {
+      "project_id": "ballpad-super-mario-strikers-ios",
+      "predominant_language": "Objective-C++",
+      "language_breakdown_bytes": {
+        "Objective-C++": 450109,
+        "Swift": 302795,
+        "Shell": 195228,
+        "Python": 149841,
+        "Awk": 104136,
+        "C++": 84526,
+        "C": 65032,
+        "CMake": 24687,
+        "Objective-C": 21937
+      },
+      "evidence_url": "https://api.github.com/repos/chrissotraidis/ballpad/languages",
+      "source_url": "https://api.github.com/repos/chrissotraidis/ballpad/languages",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Official GitHub repository language byte totals",
+          "url": "https://api.github.com/repos/chrissotraidis/ballpad/languages"
+        },
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/chrissotraidis/ballpad"
+        }
+      ],
+      "evidence": "GitHub's official Languages REST endpoint for https://github.com/chrissotraidis/ballpad reports 450,109 bytes of Objective-C++, the largest language total (32.2% of 1,398,291 recognized language bytes). The complete byte breakdown is recorded in language_breakdown_bytes; counts are repository-level Linguist totals."
+    },
+    {
+      "project_id": "basilisk-ii-classic-mac",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 5265362,
+        "C": 2247621,
+        "M4": 273435,
+        "Objective-C++": 178614,
+        "Assembly": 133197,
+        "Makefile": 73131,
+        "HTML": 61092,
+        "Objective-C": 48292,
+        "Shell": 28015,
+        "Roff": 5447,
+        "Perl": 1316
+      },
+      "evidence_url": "https://api.github.com/repos/cebix/macemu/languages",
+      "source_url": "https://api.github.com/repos/cebix/macemu/languages",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Official GitHub repository language byte totals",
+          "url": "https://api.github.com/repos/cebix/macemu/languages"
+        },
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/cebix/macemu/tree/master/BasiliskII"
+        }
+      ],
+      "evidence": "GitHub's official Languages REST endpoint for https://github.com/cebix/macemu/tree/master/BasiliskII reports 5,265,362 bytes of C++, the largest language total (63.3% of 8,315,522 recognized language bytes). The complete byte breakdown is recorded in language_breakdown_bytes; counts are repository-level Linguist totals."
+    },
+    {
+      "project_id": "bellpad-animal-crossing-ios",
+      "predominant_language": "Objective-C++",
+      "language_breakdown_bytes": {
+        "Objective-C++": 177087,
+        "Shell": 52756,
+        "C++": 39044,
+        "Python": 16502,
+        "C": 6735,
+        "Objective-C": 5283,
+        "CMake": 2321
+      },
+      "evidence_url": "https://api.github.com/repos/chrissotraidis/bellpad/languages",
+      "source_url": "https://api.github.com/repos/chrissotraidis/bellpad/languages",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Official GitHub repository language byte totals",
+          "url": "https://api.github.com/repos/chrissotraidis/bellpad/languages"
+        },
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/chrissotraidis/bellpad"
+        }
+      ],
+      "evidence": "GitHub's official Languages REST endpoint for https://github.com/chrissotraidis/bellpad reports 177,087 bytes of Objective-C++, the largest language total (59.1% of 299,728 recognized language bytes). The complete byte breakdown is recorded in language_breakdown_bytes; counts are repository-level Linguist totals."
+    },
+    {
+      "project_id": "cavalry-language-switcher",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 2741028,
+        "Rust": 2108818,
+        "JavaScript": 1396953,
+        "Objective-C++": 182101,
+        "PowerShell": 85704,
+        "Python": 54294,
+        "Objective-C": 51738,
+        "Shell": 48814,
+        "CSS": 46945,
+        "CMake": 28666,
+        "NSIS": 20206,
+        "HTML": 14465,
+        "C": 4415,
+        "Swift": 3585
+      },
+      "evidence_url": "https://api.github.com/repos/daftAI2026/Cavalry-i18n/languages",
+      "source_url": "https://api.github.com/repos/daftAI2026/Cavalry-i18n/languages",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Official GitHub repository language byte totals",
+          "url": "https://api.github.com/repos/daftAI2026/Cavalry-i18n/languages"
+        },
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/daftAI2026/Cavalry-i18n"
+        }
+      ],
+      "evidence": "GitHub's official Languages REST endpoint for https://github.com/daftAI2026/Cavalry-i18n reports 2,741,028 bytes of C++, the largest language total (40.4% of 6,787,732 recognized language bytes). The complete byte breakdown is recorded in language_breakdown_bytes; counts are repository-level Linguist totals."
+    },
+    {
+      "project_id": "crossover",
+      "predominant_language": null,
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://www.codeweavers.com/crossover/source",
+      "source_url": "https://www.codeweavers.com/crossover/source",
+      "evidence": "CodeWeavers publishes a FOSS source bundle for CrossOver and lists its component projects, but that page provides no whole-product predominant-language declaration or byte totals. The bundle does not supply a per-language count for the CrossOver product itself.",
+      "reason_unknown": "The first-party source page exposes FOSS component source for CrossOver 26.3.0, not repository-level language totals for the CrossOver product; assigning a predominant language would be unsupported.",
+      "breakdown_unavailable_reason": "No public repository language byte totals or maintainer-declared predominant language are available from the cited primary source.",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Primary project source",
+          "url": "https://www.codeweavers.com/crossover/source"
+        }
+      ]
+    },
+    {
+      "project_id": "ectopad-metroid-prime-ios",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 71620,
+        "Shell": 14206
+      },
+      "evidence_url": "https://api.github.com/repos/chrissotraidis/ectopad/languages",
+      "source_url": "https://api.github.com/repos/chrissotraidis/ectopad/languages",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Official GitHub repository language byte totals",
+          "url": "https://api.github.com/repos/chrissotraidis/ectopad/languages"
+        },
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/chrissotraidis/ectopad"
+        }
+      ],
+      "evidence": "GitHub's official Languages REST endpoint for https://github.com/chrissotraidis/ectopad reports 71,620 bytes of C++, the largest language total (83.4% of 85,826 recognized language bytes). The complete byte breakdown is recorded in language_breakdown_bytes; counts are repository-level Linguist totals."
+    },
+    {
+      "project_id": "emerald-dragon-pce-english-translation",
+      "predominant_language": "Assembly",
+      "language_breakdown_bytes": {
+        "Assembly": 2951282,
+        "C": 2456107,
+        "C++": 2134561,
+        "Makefile": 56589,
+        "Shell": 45976,
+        "Python": 16899,
+        "CMake": 16824,
+        "Batchfile": 2832,
+        "BitBake": 805,
+        "Pawn": 318,
+        "SWIG": 298,
+        "AGS Script": 35
+      },
+      "evidence_url": "https://api.github.com/repos/suppertails66/emdrtools/languages",
+      "source_url": "https://api.github.com/repos/suppertails66/emdrtools/languages",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Official GitHub repository language byte totals",
+          "url": "https://api.github.com/repos/suppertails66/emdrtools/languages"
+        },
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/suppertails66/emdrtools"
+        }
+      ],
+      "evidence": "GitHub's official Languages REST endpoint for https://github.com/suppertails66/emdrtools reports 2,951,282 bytes of Assembly, the largest language total (38.4% of 7,682,526 recognized language bytes). The complete byte breakdown is recorded in language_breakdown_bytes; counts are repository-level Linguist totals."
+    },
+    {
+      "project_id": "enkyori-renai-english",
+      "predominant_language": null,
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://momotranslations.itch.io/enkyori-renai-english-patch",
+      "source_url": "https://momotranslations.itch.io/enkyori-renai-english-patch",
+      "evidence": "The creator-linked itch.io page distributes an English localization asset pack and install instructions for the original Windows game. It does not provide a source repository or language-byte breakdown for code.",
+      "reason_unknown": "The primary project page offers a localization patch asset and directs users to install it into the original game; no source-code language evidence is published.",
+      "breakdown_unavailable_reason": "No public repository language byte totals or maintainer-declared predominant language are available from the cited primary source.",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Primary project source",
+          "url": "https://momotranslations.itch.io/enkyori-renai-english-patch"
+        }
+      ]
+    },
+    {
+      "project_id": "ferrum-apple-silicon-windows-compat",
+      "predominant_language": null,
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/PyroSoftPro/Ferrum/languages",
+      "source_url": "https://api.github.com/repos/PyroSoftPro/Ferrum/languages",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Official GitHub repository language byte totals",
+          "url": "https://api.github.com/repos/PyroSoftPro/Ferrum/languages"
+        },
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/PyroSoftPro/Ferrum"
+        }
+      ],
+      "evidence": "GitHub’s official Languages REST endpoint returned an empty JSON object: {}; it provides no language byte totals to rank.",
+      "reason_unknown": "The official repository language endpoint returns no byte-count entries, so a predominant programming language cannot be established from this repository-level evidence."
+    },
+    {
+      "project_id": "fire-emblem-warriors-3ds-ko",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Python": 263997,
+        "Batchfile": 117
+      },
+      "evidence_url": "https://api.github.com/repos/arqhive/fire-emblem-warriors-korean-translation/languages",
+      "source_url": "https://api.github.com/repos/arqhive/fire-emblem-warriors-korean-translation/languages",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Official GitHub repository language byte totals",
+          "url": "https://api.github.com/repos/arqhive/fire-emblem-warriors-korean-translation/languages"
+        },
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/arqhive/fire-emblem-warriors-korean-translation"
+        }
+      ],
+      "evidence": "GitHub's official Languages REST endpoint for https://github.com/arqhive/fire-emblem-warriors-korean-translation reports 263,997 bytes of Python, the largest language total (100.0% of 264,114 recognized language bytes). The complete byte breakdown is recorded in language_breakdown_bytes; counts are repository-level Linguist totals."
+    },
+    {
+      "project_id": "galaxy-fraulein-yuna-2-pce-english-translation",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 1293367,
+        "C++": 1132728,
+        "Assembly": 432044,
+        "Shell": 53055,
+        "Makefile": 23735,
+        "CMake": 15687,
+        "Python": 10323,
+        "Batchfile": 2502
+      },
+      "evidence_url": "https://api.github.com/repos/suppertails66/yuna2tools/languages",
+      "source_url": "https://api.github.com/repos/suppertails66/yuna2tools/languages",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Official GitHub repository language byte totals",
+          "url": "https://api.github.com/repos/suppertails66/yuna2tools/languages"
+        },
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/suppertails66/yuna2tools"
+        }
+      ],
+      "evidence": "GitHub's official Languages REST endpoint for https://github.com/suppertails66/yuna2tools reports 1,293,367 bytes of C, the largest language total (43.6% of 2,963,441 recognized language bytes). The complete byte breakdown is recorded in language_breakdown_bytes; counts are repository-level Linguist totals."
+    },
+    {
+      "project_id": "galaxy-fraulein-yuna-pce-english-translation",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 1293367,
+        "C++": 1096685,
+        "Assembly": 785904,
+        "Shell": 41690,
+        "HTML": 36456,
+        "Makefile": 23669,
+        "CMake": 15687,
+        "Python": 10323,
+        "Batchfile": 2502
+      },
+      "evidence_url": "https://api.github.com/repos/suppertails66/yunatools/languages",
+      "source_url": "https://api.github.com/repos/suppertails66/yunatools/languages",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Official GitHub repository language byte totals",
+          "url": "https://api.github.com/repos/suppertails66/yunatools/languages"
+        },
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/suppertails66/yunatools"
+        }
+      ],
+      "evidence": "GitHub's official Languages REST endpoint for https://github.com/suppertails66/yunatools reports 1,293,367 bytes of C, the largest language total (39.1% of 3,306,283 recognized language bytes). The complete byte breakdown is recorded in language_breakdown_bytes; counts are repository-level Linguist totals."
+    },
+    {
+      "project_id": "gta-vice-city-stories-android-recomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 111433635,
+        "Java": 82834,
+        "Python": 28717,
+        "CMake": 22943,
+        "PowerShell": 18836,
+        "Batchfile": 15881,
+        "GLSL": 15594
+      },
+      "evidence_url": "https://api.github.com/repos/codepdbh/PSPRecomp-VCS-Android/languages",
+      "source_url": "https://api.github.com/repos/codepdbh/PSPRecomp-VCS-Android/languages",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Official GitHub repository language byte totals",
+          "url": "https://api.github.com/repos/codepdbh/PSPRecomp-VCS-Android/languages"
+        },
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/codepdbh/PSPRecomp-VCS-Android"
+        }
+      ],
+      "evidence": "GitHub's official Languages REST endpoint for https://github.com/codepdbh/PSPRecomp-VCS-Android reports 111,433,635 bytes of C++, the largest language total (99.8% of 111,618,440 recognized language bytes). The complete byte breakdown is recorded in language_breakdown_bytes; counts are repository-level Linguist totals."
+    },
+    {
+      "project_id": "hangover-arm64-linux-wine",
+      "predominant_language": "Dockerfile",
+      "language_breakdown_bytes": {
+        "Dockerfile": 19957,
+        "Makefile": 6456
+      },
+      "evidence_url": "https://api.github.com/repos/AndreRH/hangover/languages",
+      "source_url": "https://api.github.com/repos/AndreRH/hangover/languages",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Official GitHub repository language byte totals",
+          "url": "https://api.github.com/repos/AndreRH/hangover/languages"
+        },
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/AndreRH/hangover"
+        }
+      ],
+      "evidence": "GitHub's official Languages REST endpoint for https://github.com/AndreRH/hangover reports 19,957 bytes of Dockerfile, the largest language total (75.6% of 26,413 recognized language bytes). The complete byte breakdown is recorded in language_breakdown_bytes; counts are repository-level Linguist totals."
+    },
+    {
+      "project_id": "harvest-moon-64-android-recomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 1308535,
+        "Java": 302987,
+        "C": 191010,
+        "Python": 45317,
+        "Shell": 23860,
+        "CMake": 17046,
+        "Linker Script": 4129,
+        "Makefile": 1321
+      },
+      "evidence_url": "https://api.github.com/repos/igawa6/HarvestMoon64Recomp/languages",
+      "source_url": "https://api.github.com/repos/igawa6/HarvestMoon64Recomp/languages",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Official GitHub repository language byte totals",
+          "url": "https://api.github.com/repos/igawa6/HarvestMoon64Recomp/languages"
+        },
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/igawa6/HarvestMoon64Recomp"
+        }
+      ],
+      "evidence": "GitHub's official Languages REST endpoint for https://github.com/igawa6/HarvestMoon64Recomp reports 1,308,535 bytes of C++, the largest language total (69.1% of 1,894,205 recognized language bytes). The complete byte breakdown is recorded in language_breakdown_bytes; counts are repository-level Linguist totals."
+    },
+    {
+      "project_id": "khamrai-ps1-en",
+      "predominant_language": null,
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/chivien99999/khamrai-english/languages",
+      "source_url": "https://api.github.com/repos/chivien99999/khamrai-english/languages",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Official GitHub repository language byte totals",
+          "url": "https://api.github.com/repos/chivien99999/khamrai-english/languages"
+        },
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/chivien99999/khamrai-english"
+        }
+      ],
+      "evidence": "GitHub’s official Languages REST endpoint returned an empty JSON object: {}; it provides no language byte totals to rank.",
+      "reason_unknown": "The official repository language endpoint returns no byte-count entries, so a predominant programming language cannot be established from this repository-level evidence."
+    },
+    {
+      "project_id": "madou-monogatari-i-pce-english-translation",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 1291011,
+        "C++": 733205,
+        "Assembly": 366834,
+        "Makefile": 73717,
+        "Shell": 32127,
+        "CMake": 27043,
+        "Python": 10323,
+        "Batchfile": 2502,
+        "Objective-C": 96
+      },
+      "evidence_url": "https://api.github.com/repos/suppertails66/madou1pcetools/languages",
+      "source_url": "https://api.github.com/repos/suppertails66/madou1pcetools/languages",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Official GitHub repository language byte totals",
+          "url": "https://api.github.com/repos/suppertails66/madou1pcetools/languages"
+        },
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/suppertails66/madou1pcetools"
+        }
+      ],
+      "evidence": "GitHub's official Languages REST endpoint for https://github.com/suppertails66/madou1pcetools reports 1,291,011 bytes of C, the largest language total (50.9% of 2,536,858 recognized language bytes). The complete byte breakdown is recorded in language_breakdown_bytes; counts are repository-level Linguist totals."
+    },
+    {
+      "project_id": "mario-kart-wii-wiicompiled-pc",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 3701628,
+        "C#": 2935814,
+        "C": 280071,
+        "Shell": 127282,
+        "PowerShell": 124202,
+        "CMake": 122564,
+        "Objective-C++": 28673,
+        "Assembly": 1705
+      },
+      "evidence_url": "https://api.github.com/repos/patchzyy/Wiicompiled/languages",
+      "source_url": "https://api.github.com/repos/patchzyy/Wiicompiled/languages",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Official GitHub repository language byte totals",
+          "url": "https://api.github.com/repos/patchzyy/Wiicompiled/languages"
+        },
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/patchzyy/Wiicompiled"
+        }
+      ],
+      "evidence": "GitHub's official Languages REST endpoint for https://github.com/patchzyy/Wiicompiled reports 3,701,628 bytes of C++, the largest language total (50.6% of 7,321,939 recognized language bytes). The complete byte breakdown is recorded in language_breakdown_bytes; counts are repository-level Linguist totals."
+    },
+    {
+      "project_id": "meleepad-melee-ios",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Python": 588800,
+        "Objective-C++": 544690,
+        "C++": 231873,
+        "Shell": 117564,
+        "C": 72128,
+        "Objective-C": 41956,
+        "Rust": 3388,
+        "CMake": 1502,
+        "Dockerfile": 238
+      },
+      "evidence_url": "https://api.github.com/repos/chrissotraidis/meleepad/languages",
+      "source_url": "https://api.github.com/repos/chrissotraidis/meleepad/languages",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Official GitHub repository language byte totals",
+          "url": "https://api.github.com/repos/chrissotraidis/meleepad/languages"
+        },
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/chrissotraidis/meleepad"
+        }
+      ],
+      "evidence": "GitHub's official Languages REST endpoint for https://github.com/chrissotraidis/meleepad reports 588,800 bytes of Python, the largest language total (36.8% of 1,602,139 recognized language bytes). The complete byte breakdown is recorded in language_breakdown_bytes; counts are repository-level Linguist totals."
+    },
+    {
+      "project_id": "metroid-prime-hunters-android-recomp",
+      "predominant_language": "Java",
+      "language_breakdown_bytes": {
+        "Java": 278779,
+        "CMake": 1168,
+        "Makefile": 662
+      },
+      "evidence_url": "https://api.github.com/repos/aabrole/HuntersRecomp/languages",
+      "source_url": "https://api.github.com/repos/aabrole/HuntersRecomp/languages",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Official GitHub repository language byte totals",
+          "url": "https://api.github.com/repos/aabrole/HuntersRecomp/languages"
+        },
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/aabrole/HuntersRecomp"
+        }
+      ],
+      "evidence": "GitHub's official Languages REST endpoint for https://github.com/aabrole/HuntersRecomp reports 278,779 bytes of Java, the largest language total (99.3% of 280,609 recognized language bytes). The complete byte breakdown is recorded in language_breakdown_bytes; counts are repository-level Linguist totals."
+    },
+    {
+      "project_id": "mewgenics-cn",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Python": 104631
+      },
+      "evidence_url": "https://api.github.com/repos/rainzz-512/Mewgenics-Chinese-Translation/languages",
+      "source_url": "https://api.github.com/repos/rainzz-512/Mewgenics-Chinese-Translation/languages",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Official GitHub repository language byte totals",
+          "url": "https://api.github.com/repos/rainzz-512/Mewgenics-Chinese-Translation/languages"
+        },
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/rainzz-512/Mewgenics-Chinese-Translation"
+        }
+      ],
+      "evidence": "GitHub's official Languages REST endpoint for https://github.com/rainzz-512/Mewgenics-Chinese-Translation reports 104,631 bytes of Python, the largest language total (100.0% of 104,631 recognized language bytes). The complete byte breakdown is recorded in language_breakdown_bytes; counts are repository-level Linguist totals."
+    },
+    {
+      "project_id": "might-and-magic-pce-english-translation",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Python": 1217
+      },
+      "evidence_url": "https://api.github.com/repos/TiCoKH/PCEngine_eng_patch/languages",
+      "source_url": "https://api.github.com/repos/TiCoKH/PCEngine_eng_patch/languages",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Official GitHub repository language byte totals",
+          "url": "https://api.github.com/repos/TiCoKH/PCEngine_eng_patch/languages"
+        },
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/TiCoKH/PCEngine_eng_patch"
+        }
+      ],
+      "evidence": "GitHub's official Languages REST endpoint for https://github.com/TiCoKH/PCEngine_eng_patch reports 1,217 bytes of Python, the largest language total (100.0% of 1,217 recognized language bytes). The complete byte breakdown is recorded in language_breakdown_bytes; counts are repository-level Linguist totals."
+    },
+    {
+      "project_id": "mini-vmac",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 1873976,
+        "SWIG": 476373,
+        "Objective-C": 111145,
+        "C++": 37783,
+        "Rez": 22925,
+        "Shell": 5523
+      },
+      "evidence_url": "https://api.github.com/repos/minivmac/minivmac/languages",
+      "source_url": "https://api.github.com/repos/minivmac/minivmac/languages",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Official GitHub repository language byte totals",
+          "url": "https://api.github.com/repos/minivmac/minivmac/languages"
+        },
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/minivmac/minivmac"
+        }
+      ],
+      "evidence": "GitHub's official Languages REST endpoint for https://github.com/minivmac/minivmac reports 1,873,976 bytes of C, the largest language total (74.1% of 2,527,725 recognized language bytes). The complete byte breakdown is recorded in language_breakdown_bytes; counts are repository-level Linguist totals."
+    },
+    {
+      "project_id": "minish-cap-aleks-ultimate-nx",
+      "predominant_language": null,
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/Alexgg1014/The-Legend-of-Zelda-The-Minish-Cap-Alek-s-Ultimate-NX-Edition/languages",
+      "source_url": "https://api.github.com/repos/Alexgg1014/The-Legend-of-Zelda-The-Minish-Cap-Alek-s-Ultimate-NX-Edition/languages",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Official GitHub repository language byte totals",
+          "url": "https://api.github.com/repos/Alexgg1014/The-Legend-of-Zelda-The-Minish-Cap-Alek-s-Ultimate-NX-Edition/languages"
+        },
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/Alexgg1014/The-Legend-of-Zelda-The-Minish-Cap-Alek-s-Ultimate-NX-Edition"
+        }
+      ],
+      "evidence": "GitHub’s official Languages REST endpoint returned an empty JSON object: {}; it provides no language byte totals to rank.",
+      "reason_unknown": "The official repository language endpoint returns no byte-count entries, so a predominant programming language cannot be established from this repository-level evidence."
+    },
+    {
+      "project_id": "mumble-7th-saga-it",
+      "predominant_language": null,
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://www.mumble.romhacking.it/7thsaga.html",
+      "source_url": "https://www.mumble.romhacking.it/7thsaga.html",
+      "evidence": "The maintainer page identifies an Italian SNES translation and offers an IPS patch with a readme; it does not publish a code repository or programming-language statistics.",
+      "reason_unknown": "The primary project page distributes a ROM patch rather than a code repository with language totals; no predominant programming language can be assigned.",
+      "breakdown_unavailable_reason": "No public repository language byte totals or maintainer-declared predominant language are available from the cited primary source.",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Primary project source",
+          "url": "https://www.mumble.romhacking.it/7thsaga.html"
+        }
+      ]
+    },
+    {
+      "project_id": "mumble-alcahest-it",
+      "predominant_language": null,
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://www.mumble.romhacking.it/alcahest.html",
+      "source_url": "https://www.mumble.romhacking.it/alcahest.html",
+      "evidence": "The maintainer page identifies an Italian SNES translation and offers an IPS patch with a readme; it does not publish a code repository or programming-language statistics.",
+      "reason_unknown": "The primary project page distributes a ROM patch rather than a code repository with language totals; no predominant programming language can be assigned.",
+      "breakdown_unavailable_reason": "No public repository language byte totals or maintainer-declared predominant language are available from the cited primary source.",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Primary project source",
+          "url": "https://www.mumble.romhacking.it/alcahest.html"
+        }
+      ]
+    },
+    {
+      "project_id": "mumble-equinox-it",
+      "predominant_language": null,
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://www.mumble.romhacking.it/equinox.html",
+      "source_url": "https://www.mumble.romhacking.it/equinox.html",
+      "evidence": "The maintainer page identifies an Italian SNES translation and offers an IPS patch with a readme; it does not publish a code repository or programming-language statistics.",
+      "reason_unknown": "The primary project page distributes a ROM patch rather than a code repository with language totals; no predominant programming language can be assigned.",
+      "breakdown_unavailable_reason": "No public repository language byte totals or maintainer-declared predominant language are available from the cited primary source.",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Primary project source",
+          "url": "https://www.mumble.romhacking.it/equinox.html"
+        }
+      ]
+    },
+    {
+      "project_id": "mumble-ignition-factor-it",
+      "predominant_language": null,
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://www.mumble.romhacking.it/ignition.html",
+      "source_url": "https://www.mumble.romhacking.it/ignition.html",
+      "evidence": "The maintainer page identifies an Italian SNES translation and offers an IPS patch with a readme; it does not publish a code repository or programming-language statistics.",
+      "reason_unknown": "The primary project page distributes a ROM patch rather than a code repository with language totals; no predominant programming language can be assigned.",
+      "breakdown_unavailable_reason": "No public repository language byte totals or maintainer-declared predominant language are available from the cited primary source.",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Primary project source",
+          "url": "https://www.mumble.romhacking.it/ignition.html"
+        }
+      ]
+    },
+    {
+      "project_id": "mumble-illusion-of-gaia-it",
+      "predominant_language": null,
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://www.mumble.romhacking.it/gaia.html",
+      "source_url": "https://www.mumble.romhacking.it/gaia.html",
+      "evidence": "The maintainer page identifies an Italian SNES translation and offers an IPS patch with a readme; it does not publish a code repository or programming-language statistics.",
+      "reason_unknown": "The primary project page distributes a ROM patch rather than a code repository with language totals; no predominant programming language can be assigned.",
+      "breakdown_unavailable_reason": "No public repository language byte totals or maintainer-declared predominant language are available from the cited primary source.",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Primary project source",
+          "url": "https://www.mumble.romhacking.it/gaia.html"
+        }
+      ]
+    },
+    {
+      "project_id": "mumble-secret-of-mana-it",
+      "predominant_language": null,
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://www.mumble.romhacking.it/som.html",
+      "source_url": "https://www.mumble.romhacking.it/som.html",
+      "evidence": "The maintainer page identifies an Italian SNES translation and offers IPS patches with a readme; it does not publish a code repository or programming-language statistics.",
+      "reason_unknown": "The primary project page distributes ROM patches rather than a code repository with language totals; no predominant programming language can be assigned.",
+      "breakdown_unavailable_reason": "No public repository language byte totals or maintainer-declared predominant language are available from the cited primary source.",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Primary project source",
+          "url": "https://www.mumble.romhacking.it/som.html"
+        }
+      ]
+    },
+    {
+      "project_id": "mushoku-tensei-chronicle-of-echoes-en",
+      "predominant_language": "Java",
+      "language_breakdown_bytes": {
+        "Java": 191939,
+        "PowerShell": 138525,
+        "Python": 40688,
+        "AIDL": 2530,
+        "Batchfile": 575
+      },
+      "evidence_url": "https://api.github.com/repos/Aikiooo/mt-en-applier/languages",
+      "source_url": "https://api.github.com/repos/Aikiooo/mt-en-applier/languages",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Official GitHub repository language byte totals",
+          "url": "https://api.github.com/repos/Aikiooo/mt-en-applier/languages"
+        },
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/Aikiooo/mt-en-applier"
+        }
+      ],
+      "evidence": "GitHub's official Languages REST endpoint for https://github.com/Aikiooo/mt-en-applier reports 191,939 bytes of Java, the largest language total (51.3% of 374,257 recognized language bytes). The complete byte breakdown is recorded in language_breakdown_bytes; counts are repository-level Linguist totals."
+    },
+    {
+      "project_id": "perfect-dark-android",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 14446598,
+        "Linker Script": 696355,
+        "Python": 665163,
+        "C++": 411898,
+        "Assembly": 385342,
+        "Java": 226805,
+        "CMake": 25690,
+        "Shell": 1922,
+        "Makefile": 121,
+        "BitBake": 59,
+        "PHP": 57
+      },
+      "evidence_url": "https://api.github.com/repos/izzy2lost/perfect_dark/languages",
+      "source_url": "https://api.github.com/repos/izzy2lost/perfect_dark/languages",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Official GitHub repository language byte totals",
+          "url": "https://api.github.com/repos/izzy2lost/perfect_dark/languages"
+        },
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/izzy2lost/perfect_dark"
+        }
+      ],
+      "evidence": "GitHub's official Languages REST endpoint for https://github.com/izzy2lost/perfect_dark reports 14,446,598 bytes of C, the largest language total (85.7% of 16,860,010 recognized language bytes). The complete byte breakdown is recorded in language_breakdown_bytes; counts are repository-level Linguist totals."
+    },
+    {
+      "project_id": "pokemon-azoth-en",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Python": 259842,
+        "Assembly": 2484
+      },
+      "evidence_url": "https://api.github.com/repos/RiFa-Innovation/pkmn-azoth-translation/languages",
+      "source_url": "https://api.github.com/repos/RiFa-Innovation/pkmn-azoth-translation/languages",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Official GitHub repository language byte totals",
+          "url": "https://api.github.com/repos/RiFa-Innovation/pkmn-azoth-translation/languages"
+        },
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/RiFa-Innovation/pkmn-azoth-translation"
+        }
+      ],
+      "evidence": "GitHub's official Languages REST endpoint for https://github.com/RiFa-Innovation/pkmn-azoth-translation reports 259,842 bytes of Python, the largest language total (99.1% of 262,326 recognized language bytes). The complete byte breakdown is recorded in language_breakdown_bytes; counts are repository-level Linguist totals."
+    },
+    {
+      "project_id": "private-eye-dol-pce-english-translation",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 1293367,
+        "C++": 1282110,
+        "Assembly": 652198,
+        "Shell": 47840,
+        "Makefile": 23669,
+        "CMake": 15687,
+        "Python": 10323,
+        "Batchfile": 2502
+      },
+      "evidence_url": "https://api.github.com/repos/suppertails66/pidoltools/languages",
+      "source_url": "https://api.github.com/repos/suppertails66/pidoltools/languages",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Official GitHub repository language byte totals",
+          "url": "https://api.github.com/repos/suppertails66/pidoltools/languages"
+        },
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/suppertails66/pidoltools"
+        }
+      ],
+      "evidence": "GitHub's official Languages REST endpoint for https://github.com/suppertails66/pidoltools reports 1,293,367 bytes of C, the largest language total (38.9% of 3,327,696 recognized language bytes). The complete byte breakdown is recorded in language_breakdown_bytes; counts are repository-level Linguist totals."
+    },
+    {
+      "project_id": "projectreach-halo-xbox-ios",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 1514022,
+        "Python": 1002007,
+        "Objective-C": 617253,
+        "Shell": 80859,
+        "Ruby": 10631,
+        "Objective-C++": 9621,
+        "Scilab": 6801,
+        "CMake": 4225,
+        "Wolfram Language": 2416,
+        "Assembly": 1013
+      },
+      "evidence_url": "https://api.github.com/repos/chrissotraidis/projectreach/languages",
+      "source_url": "https://api.github.com/repos/chrissotraidis/projectreach/languages",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Official GitHub repository language byte totals",
+          "url": "https://api.github.com/repos/chrissotraidis/projectreach/languages"
+        },
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/chrissotraidis/projectreach"
+        }
+      ],
+      "evidence": "GitHub's official Languages REST endpoint for https://github.com/chrissotraidis/projectreach reports 1,514,022 bytes of C, the largest language total (46.6% of 3,248,848 recognized language bytes). The complete byte breakdown is recorded in language_breakdown_bytes; counts are repository-level Linguist totals."
+    },
+    {
+      "project_id": "pvz-fusion-multilingual-localization",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Python": 29534
+      },
+      "evidence_url": "https://api.github.com/repos/Teyliu/PVZF-Translation/languages",
+      "source_url": "https://api.github.com/repos/Teyliu/PVZF-Translation/languages",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Official GitHub repository language byte totals",
+          "url": "https://api.github.com/repos/Teyliu/PVZF-Translation/languages"
+        },
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/Teyliu/PVZF-Translation"
+        }
+      ],
+      "evidence": "GitHub's official Languages REST endpoint for https://github.com/Teyliu/PVZF-Translation reports 29,534 bytes of Python, the largest language total (100.0% of 29,534 recognized language bytes). The complete byte breakdown is recorded in language_breakdown_bytes; counts are repository-level Linguist totals."
+    },
+    {
+      "project_id": "rosetta-2",
+      "predominant_language": null,
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://developer.apple.com/documentation/apple-silicon/about-the-rosetta-translation-environment",
+      "source_url": "https://developer.apple.com/documentation/apple-silicon/about-the-rosetta-translation-environment",
+      "evidence": "Apple’s first-party documentation describes Rosetta’s translation behavior and supported macOS versions; it does not expose implementation source or programming-language statistics.",
+      "reason_unknown": "The proprietary OS component has no public source repository or language breakdown in Apple’s documentation.",
+      "breakdown_unavailable_reason": "No public repository language byte totals or maintainer-declared predominant language are available from the cited primary source.",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Primary project source",
+          "url": "https://developer.apple.com/documentation/apple-silicon/about-the-rosetta-translation-environment"
+        }
+      ]
+    },
+    {
+      "project_id": "sacred-stones-android-recomp",
+      "predominant_language": "PowerShell",
+      "language_breakdown_bytes": {
+        "PowerShell": 75262,
+        "C++": 42164,
+        "Java": 16494,
+        "CMake": 12012,
+        "Assembly": 156
+      },
+      "evidence_url": "https://api.github.com/repos/Lordingard/SacredStonesRecomp/languages",
+      "source_url": "https://api.github.com/repos/Lordingard/SacredStonesRecomp/languages",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Official GitHub repository language byte totals",
+          "url": "https://api.github.com/repos/Lordingard/SacredStonesRecomp/languages"
+        },
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/Lordingard/SacredStonesRecomp"
+        }
+      ],
+      "evidence": "GitHub's official Languages REST endpoint for https://github.com/Lordingard/SacredStonesRecomp reports 75,262 bytes of PowerShell, the largest language total (51.5% of 146,088 recognized language bytes). The complete byte breakdown is recorded in language_breakdown_bytes; counts are repository-level Linguist totals."
+    },
+    {
+      "project_id": "sailor-moon-pcecd-english-translation",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 631456,
+        "Shell": 108919,
+        "Assembly": 16235,
+        "Makefile": 2481
+      },
+      "evidence_url": "https://api.github.com/repos/suppertails66/bssmpcetools/languages",
+      "source_url": "https://api.github.com/repos/suppertails66/bssmpcetools/languages",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Official GitHub repository language byte totals",
+          "url": "https://api.github.com/repos/suppertails66/bssmpcetools/languages"
+        },
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/suppertails66/bssmpcetools"
+        }
+      ],
+      "evidence": "GitHub's official Languages REST endpoint for https://github.com/suppertails66/bssmpcetools reports 631,456 bytes of C++, the largest language total (83.2% of 759,091 recognized language bytes). The complete byte breakdown is recorded in language_breakdown_bytes; counts are repository-level Linguist totals."
+    },
+    {
+      "project_id": "sheepshaver-classic-mac",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 5265362,
+        "C": 2247621,
+        "M4": 273435,
+        "Objective-C++": 178614,
+        "Assembly": 133197,
+        "Makefile": 73131,
+        "HTML": 61092,
+        "Objective-C": 48292,
+        "Shell": 28015,
+        "Roff": 5447,
+        "Perl": 1316
+      },
+      "evidence_url": "https://api.github.com/repos/cebix/macemu/languages",
+      "source_url": "https://api.github.com/repos/cebix/macemu/languages",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Official GitHub repository language byte totals",
+          "url": "https://api.github.com/repos/cebix/macemu/languages"
+        },
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/cebix/macemu/tree/master/SheepShaver"
+        }
+      ],
+      "evidence": "GitHub's official Languages REST endpoint for https://github.com/cebix/macemu/tree/master/SheepShaver reports 5,265,362 bytes of C++, the largest language total (63.3% of 8,315,522 recognized language bytes). The complete byte breakdown is recorded in language_breakdown_bytes; counts are repository-level Linguist totals."
+    },
+    {
+      "project_id": "ship-of-harkinian-switch-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 22071668,
+        "C++": 9688331,
+        "CMake": 97965,
+        "C#": 15779,
+        "Dockerfile": 5061,
+        "Python": 3115,
+        "Shell": 2624,
+        "PowerShell": 1959,
+        "Objective-C++": 1085,
+        "PHP": 57
+      },
+      "evidence_url": "https://api.github.com/repos/GermanNunez-code/Shipwright-Switch/languages",
+      "source_url": "https://api.github.com/repos/GermanNunez-code/Shipwright-Switch/languages",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Official GitHub repository language byte totals",
+          "url": "https://api.github.com/repos/GermanNunez-code/Shipwright-Switch/languages"
+        },
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/GermanNunez-code/Shipwright-Switch"
+        }
+      ],
+      "evidence": "GitHub's official Languages REST endpoint for https://github.com/GermanNunez-code/Shipwright-Switch reports 22,071,668 bytes of C, the largest language total (69.2% of 31,887,644 recognized language bytes). The complete byte breakdown is recorded in language_breakdown_bytes; counts are repository-level Linguist totals."
+    },
+    {
+      "project_id": "sikarugir-wine-wrapper",
+      "predominant_language": null,
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/Sikarugir-App/Sikarugir/languages",
+      "source_url": "https://api.github.com/repos/Sikarugir-App/Sikarugir/languages",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Official GitHub repository language byte totals",
+          "url": "https://api.github.com/repos/Sikarugir-App/Sikarugir/languages"
+        },
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/Sikarugir-App/Sikarugir"
+        }
+      ],
+      "evidence": "GitHub’s official Languages REST endpoint returned an empty JSON object: {}; it provides no language byte totals to rank.",
+      "reason_unknown": "The official repository language endpoint returns no byte-count entries, so a predominant programming language cannot be established from this repository-level evidence."
+    },
+    {
+      "project_id": "sm64-android-port-base",
+      "predominant_language": "Java",
+      "language_breakdown_bytes": {
+        "Java": 188721,
+        "Makefile": 3728,
+        "Dockerfile": 1382,
+        "Shell": 477,
+        "CMake": 448
+      },
+      "evidence_url": "https://api.github.com/repos/VDavid003/sm64-port-android-base/languages",
+      "source_url": "https://api.github.com/repos/VDavid003/sm64-port-android-base/languages",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Official GitHub repository language byte totals",
+          "url": "https://api.github.com/repos/VDavid003/sm64-port-android-base/languages"
+        },
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/VDavid003/sm64-port-android-base"
+        }
+      ],
+      "evidence": "GitHub's official Languages REST endpoint for https://github.com/VDavid003/sm64-port-android-base reports 188,721 bytes of Java, the largest language total (96.9% of 194,756 recognized language bytes). The complete byte breakdown is recorded in language_breakdown_bytes; counts are repository-level Linguist totals."
+    },
+    {
+      "project_id": "snakes-ngage-static-recomp",
+      "predominant_language": null,
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/sp00nznet/snakes-ngage/languages",
+      "source_url": "https://api.github.com/repos/sp00nznet/snakes-ngage/languages",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Official GitHub repository language byte totals",
+          "url": "https://api.github.com/repos/sp00nznet/snakes-ngage/languages"
+        },
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/sp00nznet/snakes-ngage"
+        }
+      ],
+      "evidence": "GitHub’s official Languages REST endpoint returned an empty JSON object: {}; it provides no language byte totals to rank.",
+      "reason_unknown": "The official repository language endpoint returns no byte-count entries, so a predominant programming language cannot be established from this repository-level evidence."
+    },
+    {
+      "project_id": "snappad-pokemon-snap-ios",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Python": 233229,
+        "C++": 195956,
+        "Objective-C++": 117006,
+        "Shell": 58814,
+        "CMake": 24252,
+        "C": 7369
+      },
+      "evidence_url": "https://api.github.com/repos/chrissotraidis/snappad/languages",
+      "source_url": "https://api.github.com/repos/chrissotraidis/snappad/languages",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Official GitHub repository language byte totals",
+          "url": "https://api.github.com/repos/chrissotraidis/snappad/languages"
+        },
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/chrissotraidis/snappad"
+        }
+      ],
+      "evidence": "GitHub's official Languages REST endpoint for https://github.com/chrissotraidis/snappad reports 233,229 bytes of Python, the largest language total (36.6% of 636,626 recognized language bytes). The complete byte breakdown is recorded in language_breakdown_bytes; counts are repository-level Linguist totals."
+    },
+    {
+      "project_id": "sonicn-ngage-static-recomp",
+      "predominant_language": null,
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/sp00nznet/sonicn-ngage/languages",
+      "source_url": "https://api.github.com/repos/sp00nznet/sonicn-ngage/languages",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Official GitHub repository language byte totals",
+          "url": "https://api.github.com/repos/sp00nznet/sonicn-ngage/languages"
+        },
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/sp00nznet/sonicn-ngage"
+        }
+      ],
+      "evidence": "GitHub’s official Languages REST endpoint returned an empty JSON object: {}; it provides no language byte totals to rank.",
+      "reason_unknown": "The official repository language endpoint returns no byte-count entries, so a predominant programming language cannot be established from this repository-level evidence."
+    },
+    {
+      "project_id": "spaghettikart-android",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 15849975,
+        "C++": 1962064,
+        "Java": 206301,
+        "Python": 157396,
+        "CMake": 115411,
+        "Kotlin": 58481,
+        "HLSL": 11256,
+        "Metal": 9600,
+        "GLSL": 9504,
+        "Shell": 7356,
+        "Dockerfile": 3589,
+        "Makefile": 1654,
+        "BitBake": 947
+      },
+      "evidence_url": "https://api.github.com/repos/izzy2lost/SpaghettiKart/languages",
+      "source_url": "https://api.github.com/repos/izzy2lost/SpaghettiKart/languages",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Official GitHub repository language byte totals",
+          "url": "https://api.github.com/repos/izzy2lost/SpaghettiKart/languages"
+        },
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/izzy2lost/SpaghettiKart"
+        }
+      ],
+      "evidence": "GitHub's official Languages REST endpoint for https://github.com/izzy2lost/SpaghettiKart reports 15,849,975 bytes of C, the largest language total (86.2% of 18,393,534 recognized language bytes). The complete byte breakdown is recorded in language_breakdown_bytes; counts are repository-level Linguist totals."
+    },
+    {
+      "project_id": "spriggan-mark-2-pce-english-translation",
+      "predominant_language": null,
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/gagnonpl/spriggan-mark2-en/languages",
+      "source_url": "https://api.github.com/repos/gagnonpl/spriggan-mark2-en/languages",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Official GitHub repository language byte totals",
+          "url": "https://api.github.com/repos/gagnonpl/spriggan-mark2-en/languages"
+        },
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/gagnonpl/spriggan-mark2-en"
+        }
+      ],
+      "evidence": "GitHub’s official Languages REST endpoint returned an empty JSON object: {}; it provides no language byte totals to rank.",
+      "reason_unknown": "The official repository language endpoint returns no byte-count entries, so a predominant programming language cannot be established from this repository-level evidence."
+    },
+    {
+      "project_id": "starship-android",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 8370855,
+        "C++": 1810448,
+        "Java": 255495,
+        "CMake": 160461,
+        "Python": 107580,
+        "HLSL": 22000,
+        "Metal": 18622,
+        "GLSL": 16746,
+        "Pawn": 6374,
+        "Objective-C++": 2715,
+        "PHP": 1867,
+        "Makefile": 1130,
+        "Shell": 510
+      },
+      "evidence_url": "https://api.github.com/repos/izzy2lost/Starship/languages",
+      "source_url": "https://api.github.com/repos/izzy2lost/Starship/languages",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Official GitHub repository language byte totals",
+          "url": "https://api.github.com/repos/izzy2lost/Starship/languages"
+        },
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/izzy2lost/Starship"
+        }
+      ],
+      "evidence": "GitHub's official Languages REST endpoint for https://github.com/izzy2lost/Starship reports 8,370,855 bytes of C, the largest language total (77.7% of 10,774,803 recognized language bytes). The complete byte breakdown is recorded in language_breakdown_bytes; counts are repository-level Linguist totals."
+    },
+    {
+      "project_id": "step-on-it-lego-racers-reimplementation",
+      "predominant_language": null,
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://navigatorsharp.itch.io/steponit",
+      "source_url": "https://navigatorsharp.itch.io/steponit",
+      "evidence": "The creator’s page describes Step On It as a released LEGO Racers remake and distributes player builds; it does not publish source code or programming-language byte totals.",
+      "reason_unknown": "The creator distributes executable builds rather than a public source repository, so the implementation language is not evidenced.",
+      "breakdown_unavailable_reason": "No public repository language byte totals or maintainer-declared predominant language are available from the cited primary source.",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Primary project source",
+          "url": "https://navigatorsharp.itch.io/steponit"
+        }
+      ]
+    },
+    {
+      "project_id": "summer-time-rendering-another-horizon-en",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Python": 35976,
+        "PowerShell": 5439
+      },
+      "evidence_url": "https://api.github.com/repos/Dream-Cypher/STRAHLocalization/languages",
+      "source_url": "https://api.github.com/repos/Dream-Cypher/STRAHLocalization/languages",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Official GitHub repository language byte totals",
+          "url": "https://api.github.com/repos/Dream-Cypher/STRAHLocalization/languages"
+        },
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/Dream-Cypher/STRAHLocalization"
+        }
+      ],
+      "evidence": "GitHub's official Languages REST endpoint for https://github.com/Dream-Cypher/STRAHLocalization reports 35,976 bytes of Python, the largest language total (86.9% of 41,415 recognized language bytes). The complete byte breakdown is recorded in language_breakdown_bytes; counts are repository-level Linguist totals."
+    },
+    {
+      "project_id": "tengai-makyou-ziria-pce-english-translation",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 1333692,
+        "C": 1293367,
+        "Assembly": 450454,
+        "Shell": 49211,
+        "Makefile": 23735,
+        "CMake": 15687,
+        "Python": 10323,
+        "Batchfile": 2502
+      },
+      "evidence_url": "https://api.github.com/repos/suppertails66/tenmatools/languages",
+      "source_url": "https://api.github.com/repos/suppertails66/tenmatools/languages",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Official GitHub repository language byte totals",
+          "url": "https://api.github.com/repos/suppertails66/tenmatools/languages"
+        },
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/suppertails66/tenmatools"
+        }
+      ],
+      "evidence": "GitHub's official Languages REST endpoint for https://github.com/suppertails66/tenmatools reports 1,333,692 bytes of C++, the largest language total (42.0% of 3,178,971 recognized language bytes). The complete byte breakdown is recorded in language_breakdown_bytes; counts are repository-level Linguist totals."
+    },
+    {
+      "project_id": "theft4-gta-iv-ios",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 272297233,
+        "C": 26924057,
+        "Python": 10295264,
+        "HTML": 4408618,
+        "Java": 2583169,
+        "HLSL": 1709539,
+        "Assembly": 802191,
+        "Objective-C++": 625125,
+        "CMake": 430208,
+        "Objective-C": 316881,
+        "JavaScript": 278377,
+        "Go": 273136,
+        "TypeScript": 195791,
+        "Pascal": 146031,
+        "Yacc": 127584,
+        "CSS": 110800,
+        "Shell": 72249,
+        "GLSL": 70586,
+        "Batchfile": 59547,
+        "TeX": 58985,
+        "Metal": 45058,
+        "PowerShell": 43665,
+        "Lua": 39009,
+        "Hack": 31483,
+        "Lex": 22745,
+        "C#": 17467,
+        "Makefile": 16885,
+        "Starlark": 12589,
+        "PostScript": 5476,
+        "Pawn": 2222,
+        "SourcePawn": 1938,
+        "Linker Script": 897,
+        "GDB": 878,
+        "Dockerfile": 489
+      },
+      "evidence_url": "https://api.github.com/repos/KoreanSeats1/Theft4/languages",
+      "source_url": "https://api.github.com/repos/KoreanSeats1/Theft4/languages",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Official GitHub repository language byte totals",
+          "url": "https://api.github.com/repos/KoreanSeats1/Theft4/languages"
+        },
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/KoreanSeats1/Theft4"
+        }
+      ],
+      "evidence": "GitHub's official Languages REST endpoint for https://github.com/KoreanSeats1/Theft4 reports 272,297,233 bytes of C++, the largest language total (84.6% of 322,026,172 recognized language bytes). The complete byte breakdown is recorded in language_breakdown_bytes; counts are repository-level Linguist totals."
+    },
+    {
+      "project_id": "twilight-syndrome-ds-en-es",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Python": 134190
+      },
+      "evidence_url": "https://api.github.com/repos/Secabel/twilight-syndrome/languages",
+      "source_url": "https://api.github.com/repos/Secabel/twilight-syndrome/languages",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Official GitHub repository language byte totals",
+          "url": "https://api.github.com/repos/Secabel/twilight-syndrome/languages"
+        },
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/Secabel/twilight-syndrome"
+        }
+      ],
+      "evidence": "GitHub's official Languages REST endpoint for https://github.com/Secabel/twilight-syndrome reports 134,190 bytes of Python, the largest language total (100.0% of 134,190 recognized language bytes). The complete byte breakdown is recorded in language_breakdown_bytes; counts are repository-level Linguist totals."
+    },
+    {
+      "project_id": "wheeldroid-mario-kart-wii-android",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 3658471,
+        "C#": 2951600,
+        "C": 288648,
+        "Java": 212833,
+        "PowerShell": 146287,
+        "Kotlin": 134277,
+        "Shell": 116285,
+        "CMake": 114860,
+        "Assembly": 3578,
+        "Batchfile": 3384,
+        "Objective-C++": 793
+      },
+      "evidence_url": "https://api.github.com/repos/KeithKirenai/wheeldroid/languages",
+      "source_url": "https://api.github.com/repos/KeithKirenai/wheeldroid/languages",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Official GitHub repository language byte totals",
+          "url": "https://api.github.com/repos/KeithKirenai/wheeldroid/languages"
+        },
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/KeithKirenai/wheeldroid"
+        }
+      ],
+      "evidence": "GitHub's official Languages REST endpoint for https://github.com/KeithKirenai/wheeldroid reports 3,658,471 bytes of C++, the largest language total (47.9% of 7,631,016 recognized language bytes). The complete byte breakdown is recorded in language_breakdown_bytes; counts are repository-level Linguist totals."
+    },
+    {
+      "project_id": "wine",
+      "predominant_language": "C",
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://gitlab.winehq.org/api/v4/projects/wine%2Fwine/languages",
+      "source_url": "https://gitlab.winehq.org/api/v4/projects/wine%2Fwine/languages",
+      "evidence": "Wine’s official GitLab Languages API reports percentages, not byte totals: C 81.17%, C++ 10.77%, Ruby 3.22%, POV-Ray SDL 1.12%, and Python 0.79%. C is predominant. No byte breakdown is published by this endpoint.",
+      "language_breakdown_percent": {
+        "C": 81.17,
+        "C++": 10.77,
+        "Ruby": 3.22,
+        "POV-Ray SDL": 1.12,
+        "Python": 0.79
+      },
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Official GitLab repository language percentages",
+          "url": "https://gitlab.winehq.org/api/v4/projects/wine%2Fwine/languages"
+        },
+        {
+          "label": "Primary project repository",
+          "url": "https://gitlab.winehq.org/wine/wine"
+        }
+      ]
+    },
+    {
+      "project_id": "xak-iii-pce-english-translation",
+      "predominant_language": null,
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://www.ysutopia.net/translations/xak3/",
+      "source_url": "https://www.ysutopia.net/translations/xak3/",
+      "evidence": "The maintainer’s Xak III page documents the English patch and project notes but does not publish a public code repository or language totals.",
+      "reason_unknown": "The primary project page is a patch/translation page without source repository byte totals; no predominant programming language can be assigned.",
+      "breakdown_unavailable_reason": "No public repository language byte totals or maintainer-declared predominant language are available from the cited primary source.",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Primary project source",
+          "url": "https://www.ysutopia.net/translations/xak3/"
+        }
+      ]
+    },
+    {
+      "project_id": "xiaomi-pc-manager-en",
+      "predominant_language": "PowerShell",
+      "language_breakdown_bytes": {
+        "PowerShell": 44991,
+        "C#": 21322,
+        "Batchfile": 445
+      },
+      "evidence_url": "https://api.github.com/repos/kremonia/XiaomiPCManager-English/languages",
+      "source_url": "https://api.github.com/repos/kremonia/XiaomiPCManager-English/languages",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Official GitHub repository language byte totals",
+          "url": "https://api.github.com/repos/kremonia/XiaomiPCManager-English/languages"
+        },
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/kremonia/XiaomiPCManager-English"
+        }
+      ],
+      "evidence": "GitHub's official Languages REST endpoint for https://github.com/kremonia/XiaomiPCManager-English reports 44,991 bytes of PowerShell, the largest language total (67.4% of 66,758 recognized language bytes). The complete byte breakdown is recorded in language_breakdown_bytes; counts are repository-level Linguist totals."
+    },
+    {
+      "project_id": "ys-iv-dawn-of-ys-pce-english-translation",
+      "predominant_language": null,
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://www.ysutopia.net/projects/ys4/",
+      "source_url": "https://www.ysutopia.net/projects/ys4/",
+      "evidence": "The maintainer page provides the English text and dub patches plus translation notes; it does not publish a code repository or language totals.",
+      "reason_unknown": "The primary project page distributes patches and translation materials without source repository language totals; no predominant programming language can be assigned.",
+      "breakdown_unavailable_reason": "No public repository language byte totals or maintainer-declared predominant language are available from the cited primary source.",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Primary project source",
+          "url": "https://www.ysutopia.net/projects/ys4/"
+        }
+      ]
+    },
+    {
+      "project_id": "zelda3-android",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 26742595,
+        "C++": 11813096,
+        "Objective-C": 724420,
+        "Shell": 671769,
+        "Java": 414549,
+        "M4": 362128,
+        "CMake": 333183,
+        "Perl": 96565,
+        "Makefile": 53279,
+        "Assembly": 32239,
+        "JavaScript": 18010,
+        "Python": 4957,
+        "Metal": 3691,
+        "Batchfile": 1115,
+        "HTML": 755
+      },
+      "evidence_url": "https://api.github.com/repos/Waterdish/zelda3-android/languages",
+      "source_url": "https://api.github.com/repos/Waterdish/zelda3-android/languages",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Official GitHub repository language byte totals",
+          "url": "https://api.github.com/repos/Waterdish/zelda3-android/languages"
+        },
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/Waterdish/zelda3-android"
+        }
+      ],
+      "evidence": "GitHub's official Languages REST endpoint for https://github.com/Waterdish/zelda3-android reports 26,742,595 bytes of C, the largest language total (64.8% of 41,272,351 recognized language bytes). The complete byte breakdown is recorded in language_breakdown_bytes; counts are repository-level Linguist totals."
+    },
+    {
+      "project_id": "zero4-champ-pce-english-translation",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 2416049,
+        "Assembly": 1205648,
+        "C++": 1111710,
+        "Pascal": 131792,
+        "Makefile": 50428,
+        "Shell": 28248,
+        "Python": 16899,
+        "CMake": 16818,
+        "Batchfile": 2652,
+        "SWIG": 298,
+        "Pawn": 201
+      },
+      "evidence_url": "https://api.github.com/repos/suppertails66/zero4tools/languages",
+      "source_url": "https://api.github.com/repos/suppertails66/zero4tools/languages",
+      "verified_at": "2026-10-15",
+      "sources": [
+        {
+          "label": "Official GitHub repository language byte totals",
+          "url": "https://api.github.com/repos/suppertails66/zero4tools/languages"
+        },
+        {
+          "label": "Primary project repository",
+          "url": "https://github.com/suppertails66/zero4tools"
+        }
+      ],
+      "evidence": "GitHub's official Languages REST endpoint for https://github.com/suppertails66/zero4tools reports 2,416,049 bytes of C, the largest language total (48.5% of 4,980,743 recognized language bytes). The complete byte breakdown is recorded in language_breakdown_bytes; counts are repository-level Linguist totals."
+    }
+  ]
+}

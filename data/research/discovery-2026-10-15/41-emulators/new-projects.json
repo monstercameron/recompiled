@@ -1,0 +1,343 @@
+{
+  "updated": "2026-10-15",
+  "scope": "Gap-focused emulator discovery across computers, consoles, handheld and virtual-pet devices, arcade hardware, and newer source-available research emulators. Exact repository roots and target identities were checked against SQLite, generated docs, central additions, and prior staged manifests. Dates and compatibility limits are source snapshots checked 2026-10-15.",
+  "projects": [
+    {
+      "id": "pc6001vx-nec-pc6001",
+      "title": "PC6001VX",
+      "game": "NEC PC-6001 series computer software and games",
+      "target_type": "Software",
+      "platform": "NEC PC-6001 family, including PC-6001/A, PC-6001mkII, PC-6601, PC-6001mkIISR, and PC-6601SR modes",
+      "kind": "Emulator",
+      "status": "Active; v4.5.1 was released 2026-10-02. The maintainer targets Linux/Unix-like systems and Android; Windows binaries are also published as a portability check. Original ROM dumps are normally required, with an embedded compatible-ROM option whose supported BASIC modes have documented limits.",
+      "summary": "Cross-platform derivative of the PC6001V emulator for NEC's PC-6001 family. It models the selected machine and its ROMs, tape/disk media, and peripherals; the documentation distinguishes original ROM dumps from its more limited compatible-ROM mode.",
+      "project_url": "https://github.com/eighttails/PC6001VX",
+      "updated": "2026-10-02",
+      "strategy": "System-level PC-6001 hardware emulation based on PC6001V, with model-specific ROM and peripheral support",
+      "language": "",
+      "source_available": "Yes; public LGPL-2.1 source repository",
+      "first_found": "2026-10-15",
+      "project_started": "",
+      "programming_language": "C++ (primary), with C and assembly components",
+      "subtype": "Japanese 8-bit home-computer emulator",
+      "sources": [
+        {
+          "label": "Maintainer manual: target models, ROM requirements, host builds, and version history",
+          "url": "https://github.com/eighttails/PC6001VX/blob/master/README.adoc"
+        },
+        {
+          "label": "Maintainer release v4.5.1",
+          "url": "https://github.com/eighttails/PC6001VX/releases/tag/v4.5.1"
+        },
+        {
+          "label": "GitHub repository metadata: source activity and license",
+          "url": "https://api.github.com/repos/eighttails/PC6001VX"
+        },
+        {
+          "label": "GitHub language breakdown for the source repository",
+          "url": "https://api.github.com/repos/eighttails/PC6001VX/languages"
+        }
+      ]
+    },
+    {
+      "id": "mz800emu-sharp-mz",
+      "title": "mz800emu",
+      "game": "Sharp MZ-series home-computer software and games",
+      "target_type": "Software",
+      "platform": "Sharp MZ-800, MZ-700, and MZ-1500",
+      "kind": "Emulator",
+      "status": "Active; v2.0.6 was released 2026-10-14 and the source repository was updated 2026-10-15. The README lists Linux and Windows support; BSD may work but is not regularly tested. The project is GPL-3.0.",
+      "summary": "Open-source emulator for three Sharp MZ home computers, with Z80A, display, sound, disk, tape, and peripheral emulation. The project also includes an integrated Z80 debugger and documents its host support and build limits.",
+      "project_url": "https://github.com/michalhucik/mz800emu",
+      "updated": "2026-10-15",
+      "strategy": "Software emulation of Sharp MZ-series computer hardware and peripherals",
+      "language": "",
+      "source_available": "Yes; public GPL-3.0 source repository",
+      "first_found": "2026-10-15",
+      "project_started": "",
+      "programming_language": "C and C++ (C11/C++17)",
+      "subtype": "Japanese 8-bit home-computer emulator",
+      "sources": [
+        {
+          "label": "Maintainer README: supported machines, hardware, languages, and host support",
+          "url": "https://github.com/michalhucik/mz800emu/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer release v2.0.6",
+          "url": "https://github.com/michalhucik/mz800emu/releases/tag/v2.0.6"
+        },
+        {
+          "label": "GitHub repository metadata: source activity and license",
+          "url": "https://api.github.com/repos/michalhucik/mz800emu"
+        },
+        {
+          "label": "GitHub language breakdown for the source repository",
+          "url": "https://api.github.com/repos/michalhucik/mz800emu/languages"
+        }
+      ]
+    },
+    {
+      "id": "lisaem-apple-lisa",
+      "title": "LisaEm",
+      "game": "Apple Lisa Office System and other compatible Lisa software",
+      "target_type": "Software",
+      "platform": "Apple Lisa computer family",
+      "kind": "Emulator",
+      "status": "Public source project; current maintenance and compatibility status are unclear. The README identifies the source as LisaEm 1.2.7 RC4 dated 2022-04-01; the repository was last pushed 2024-07-24, and GitHub lists no formal releases as of 2026-10-15. Its build README includes Linux, Windows/Cygwin, and macOS instructions but no current host-support matrix.",
+      "summary": "wxWidgets-based Apple Lisa emulator with Lisa disk-image and filesystem tools. The project source remains available under GPL-3.0, but its current release cadence and supported host matrix are not documented.",
+      "project_url": "https://github.com/rayarachelian/lisaem",
+      "updated": "2024-07-24",
+      "strategy": "Apple Lisa hardware emulation with a wxWidgets desktop interface",
+      "language": "",
+      "source_available": "Yes; public GPL-3.0 source repository",
+      "first_found": "2026-10-15",
+      "project_started": "",
+      "programming_language": "C and C++",
+      "subtype": "Personal-computer/workstation emulator",
+      "sources": [
+        {
+          "label": "Maintainer README: emulator scope, source version, build notes, and GPL-3.0 terms",
+          "url": "https://github.com/rayarachelian/lisaem/blob/master/README.md"
+        },
+        {
+          "label": "Maintainer change history",
+          "url": "https://github.com/rayarachelian/lisaem/blob/master/ChangeLog"
+        },
+        {
+          "label": "GitHub repository metadata: last push and source language",
+          "url": "https://api.github.com/repos/rayarachelian/lisaem"
+        },
+        {
+          "label": "GitHub releases endpoint; no formal releases listed when checked 2026-10-15",
+          "url": "https://api.github.com/repos/rayarachelian/lisaem/releases?per_page=1"
+        },
+        {
+          "label": "GitHub language breakdown for the source repository",
+          "url": "https://api.github.com/repos/rayarachelian/lisaem/languages"
+        }
+      ]
+    },
+    {
+      "id": "capybara-tamagotchi-paradise",
+      "title": "Capybara",
+      "game": "Tamagotchi Paradise firmware and virtual-pet software",
+      "target_type": "Software",
+      "platform": "Tamagotchi Paradise hardware based on the Sonix SNC73410",
+      "kind": "Emulator",
+      "status": "Active source project; v0.2.2 was released 2026-08-31 and the repository was updated 2026-09-10. The README reports tested Land, Water, Sky, and Jade Forest editions; White Glacier and Orange Tropical are untested. It requires a flash dump from the user's own device and distributes no firmware or keys.",
+      "summary": "Rust bare-metal emulator for the Sonix SNC73410 used by Tamagotchi Paradise. It runs the device's factory firmware and models the ARMv7-M core and undocumented peripherals; users provide a flash dump from their own device.",
+      "project_url": "https://github.com/infinition/capybara",
+      "updated": "2026-09-10",
+      "strategy": "ARMv7-M and measured Sonix SNC73410 peripheral emulation for factory firmware",
+      "language": "",
+      "source_available": "Yes; public GPL-3.0 source repository; firmware and keys are not included",
+      "first_found": "2026-10-15",
+      "project_started": "",
+      "programming_language": "Rust",
+      "subtype": "Handheld virtual-pet / embedded-system emulator",
+      "sources": [
+        {
+          "label": "Maintainer README: hardware, firmware-dump requirement, supported editions, status, and host systems",
+          "url": "https://github.com/infinition/capybara/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer release v0.2.2",
+          "url": "https://github.com/infinition/capybara/releases/tag/v0.2.2"
+        },
+        {
+          "label": "GitHub repository metadata: source activity and license",
+          "url": "https://api.github.com/repos/infinition/capybara"
+        },
+        {
+          "label": "GitHub language breakdown for the source repository",
+          "url": "https://api.github.com/repos/infinition/capybara/languages"
+        }
+      ]
+    },
+    {
+      "id": "sfemu-cps1",
+      "title": "sfemu",
+      "game": "Street Fighter I and Street Fighter II arcade software",
+      "target_type": "Software",
+      "platform": "Capcom Play System (CPS-1); Street Fighter I and II board configurations",
+      "kind": "Emulator",
+      "status": "Experimental; v0.1.0 was released 2026-08-29, and the repository's latest push was also 2026-08-29. The README documents a Street Fighter II World 910214 gameplay capture and a separate Street Fighter I board driver; later maintenance and a complete host-platform matrix are unclear. Users supply their own MAME-format ROM sets.",
+      "summary": "Source-available Rust emulator for Street Fighter I and II on CPS-1 hardware. It implements 68000 and Z80 CPU cores, graphics, and sound devices; the repository includes no game ROMs.",
+      "project_url": "https://github.com/lichen79/sfemu",
+      "updated": "2026-08-29",
+      "strategy": "CPS-1 hardware emulation with Street Fighter-specific board drivers",
+      "language": "",
+      "source_available": "Yes; public MIT-licensed source repository; game ROMs are not included",
+      "first_found": "2026-10-15",
+      "project_started": "",
+      "programming_language": "Rust",
+      "subtype": "Arcade emulator (CPS-1; limited title scope)",
+      "sources": [
+        {
+          "label": "Maintainer README: supported title configurations, hardware, ROM policy, and project-reported demo/status",
+          "url": "https://github.com/lichen79/sfemu"
+        },
+        {
+          "label": "Maintainer v0.1.0 release",
+          "url": "https://github.com/lichen79/sfemu/releases/tag/v0.1.0"
+        },
+        {
+          "label": "GitHub repository metadata: last push and license",
+          "url": "https://api.github.com/repos/lichen79/sfemu"
+        },
+        {
+          "label": "GitHub language breakdown for the source repository",
+          "url": "https://api.github.com/repos/lichen79/sfemu/languages"
+        }
+      ]
+    },
+    {
+      "id": "rustynes",
+      "title": "RustyNES",
+      "game": "Nintendo Entertainment System/Famicom, Famicom Disk System, Vs. System, and PlayChoice-10 software",
+      "target_type": "Software",
+      "platform": "Nintendo Entertainment System / Famicom and related Famicom Disk System and arcade variants",
+      "kind": "Emulator",
+      "status": "Active; v3.2.0 was published 2026-10-15. The README discloses LLM-assisted development and presents test and compatibility claims as project-reported results. Its version badge lags the current GitHub release page, so the release endpoint is used for the latest version.",
+      "summary": "Rust emulator project for NES/Famicom software, with documented Famicom Disk System and Vs./PlayChoice-10 support. The source repository publishes desktop, web, and Libretro builds and discloses AI-assisted development.",
+      "project_url": "https://github.com/doublegate/RustyNES",
+      "updated": "2026-10-15",
+      "strategy": "Software emulation of NES/Famicom CPU, video, audio, cartridge boards, and related variants",
+      "language": "",
+      "source_available": "Yes; public GPL-3.0-or-later source repository",
+      "first_found": "2026-10-15",
+      "project_started": "",
+      "programming_language": "Rust",
+      "subtype": "Console emulator (NES/Famicom and FDS/Vs./PlayChoice-10)",
+      "sources": [
+        {
+          "label": "Maintainer README: target systems, host builds, disclosed AI assistance, and documented status",
+          "url": "https://github.com/doublegate/RustyNES"
+        },
+        {
+          "label": "Maintainer release v3.2.0",
+          "url": "https://github.com/doublegate/RustyNES/releases/tag/v3.2.0"
+        },
+        {
+          "label": "GitHub repository metadata: source activity and license",
+          "url": "https://api.github.com/repos/doublegate/RustyNES"
+        },
+        {
+          "label": "GitHub language breakdown for the source repository",
+          "url": "https://api.github.com/repos/doublegate/RustyNES/languages"
+        }
+      ]
+    },
+    {
+      "id": "rustysnes",
+      "title": "RustySNES",
+      "game": "SNES / Super Famicom software",
+      "target_type": "Software",
+      "platform": "Super Nintendo Entertainment System / Super Famicom",
+      "kind": "Emulator",
+      "status": "Maintained in 2026; v1.31.1 was released 2026-08-05 and source activity was recorded through 2026-08-20. The README discloses heavily AI-assisted development and describes its accuracy and compatibility tests as project-reported evidence.",
+      "summary": "Rust emulator project for SNES/Super Famicom software. Its documentation lists low-level emulation for multiple cartridge coprocessor families and native, web, and Libretro builds; GitHub reports Apache-2.0 and MIT licenses in the repository.",
+      "project_url": "https://github.com/doublegate/RustySNES",
+      "updated": "2026-08-20",
+      "strategy": "Software emulation of SNES/Super Famicom hardware and cartridge coprocessors",
+      "language": "",
+      "source_available": "Yes; public source repository; GitHub reports Apache-2.0 and MIT licenses",
+      "first_found": "2026-10-15",
+      "project_started": "",
+      "programming_language": "Rust",
+      "subtype": "Console emulator (SNES/Super Famicom with coprocessor support)",
+      "sources": [
+        {
+          "label": "Maintainer README: system scope, host builds, AI-assistance disclosure, and documented status",
+          "url": "https://github.com/doublegate/RustySNES"
+        },
+        {
+          "label": "Maintainer release v1.31.1",
+          "url": "https://github.com/doublegate/RustySNES/releases/tag/v1.31.1"
+        },
+        {
+          "label": "GitHub repository metadata: source activity and license",
+          "url": "https://api.github.com/repos/doublegate/RustySNES"
+        },
+        {
+          "label": "GitHub language breakdown for the source repository",
+          "url": "https://api.github.com/repos/doublegate/RustySNES/languages"
+        }
+      ]
+    },
+    {
+      "id": "sem86-x86-research",
+      "title": "Sem86",
+      "game": "x86 PC operating systems and software from user-supplied disk images",
+      "target_type": "Software",
+      "platform": "x86 full-system PC emulation",
+      "kind": "Emulator",
+      "status": "Research project; the maintainer says it is not ready for production use. The README lists Linux and Android hosts and gives a Windows 98 boot example. The repository was last pushed 2026-08-21; GitHub lists no formal release as of 2026-10-15.",
+      "summary": "Full-system x86 emulator that loads instruction semantics from a runtime input file instead of hard-coding them. Its README demonstrates booting a guest with a user-supplied disk image and labels the project research-only.",
+      "project_url": "https://github.com/libLISA/Sem86",
+      "updated": "2026-08-21",
+      "strategy": "x86 full-system emulation with runtime-loaded instruction semantics",
+      "language": "",
+      "source_available": "Yes; public AGPL-3.0 source repository",
+      "first_found": "2026-10-15",
+      "project_started": "",
+      "programming_language": "Rust (primary; additional C, Kotlin, and web/build components appear in the repository language breakdown)",
+      "subtype": "Research x86 full-system emulator",
+      "sources": [
+        {
+          "label": "Maintainer README: x86 scope, Linux/Android hosts, boot example, and research-status warning",
+          "url": "https://github.com/libLISA/Sem86/blob/main/README.md"
+        },
+        {
+          "label": "GitHub repository metadata: source activity, language, and AGPL-3.0 license",
+          "url": "https://api.github.com/repos/libLISA/Sem86"
+        },
+        {
+          "label": "GitHub releases endpoint; no formal releases listed when checked 2026-10-15",
+          "url": "https://api.github.com/repos/libLISA/Sem86/releases?per_page=1"
+        },
+        {
+          "label": "GitHub language breakdown for the source repository",
+          "url": "https://api.github.com/repos/libLISA/Sem86/languages"
+        }
+      ]
+    },
+    {
+      "id": "rax-multi-architecture-emulator",
+      "title": "rax",
+      "game": "Linux guest software, bare-metal programs, and bytecode for supported CPU architectures",
+      "target_type": "Software",
+      "platform": "x86-64, Arm/AArch64, Qualcomm Hexagon, RISC-V RV64, eBPF, and Solana SBPF guest architectures",
+      "kind": "Emulator",
+      "status": "Active research project; v0.1.2 was released 2026-09-16 and the repository continued to receive changes on 2026-10-15. The README documents Linux boot paths for x86-64/AArch64, bare-metal Hexagon and RISC-V paths, and user-mode Linux ELF execution. The maintainer says it is not a production hypervisor or security sandbox.",
+      "summary": "Rust CPU and system emulator covering multiple processor and bytecode architectures. The documented current paths include x86-64 and AArch64 Linux guests, bare-metal Hexagon/RISC-V programs, and user-mode Linux executables; the project describes itself as research software.",
+      "project_url": "https://github.com/HexRaysSA/rax",
+      "updated": "2026-10-15",
+      "strategy": "Multi-architecture software CPU emulation, user-mode execution, and virtual-machine system models",
+      "language": "",
+      "source_available": "Yes; public MIT-licensed source repository",
+      "first_found": "2026-10-15",
+      "project_started": "",
+      "programming_language": "Rust",
+      "subtype": "Research multi-architecture CPU/full-system emulator",
+      "sources": [
+        {
+          "label": "Maintainer README: guest architectures, system/user-mode paths, limitations, and research status",
+          "url": "https://github.com/HexRaysSA/rax"
+        },
+        {
+          "label": "Maintainer release v0.1.2",
+          "url": "https://github.com/HexRaysSA/rax/releases/tag/v0.1.2"
+        },
+        {
+          "label": "GitHub repository metadata: source activity and MIT license",
+          "url": "https://api.github.com/repos/HexRaysSA/rax"
+        },
+        {
+          "label": "GitHub language breakdown for the source repository",
+          "url": "https://api.github.com/repos/HexRaysSA/rax/languages"
+        }
+      ]
+    }
+  ]
+}

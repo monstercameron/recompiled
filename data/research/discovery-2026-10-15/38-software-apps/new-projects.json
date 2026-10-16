@@ -1,0 +1,162 @@
+{
+  "updated": "2026-10-15",
+  "scope": "Primary-source-verified reconstructions of historically released desktop or media applications, with public project source and an explicit clone or reimplementation claim. Candidates are staged for review only; this file does not change SQLite or generated catalog data.",
+  "projects": [
+    {
+      "id": "fasttracker-ii-desktop-clone",
+      "title": "FastTracker II Clone",
+      "game": "FastTracker II for MS-DOS (specific original release not pinned)",
+      "target_type": "Software",
+      "platform": "FastTracker II for MS-DOS → portable C/SDL2 application for Windows 7 SP1+, macOS 10.11+ (Intel and Apple silicon), and Linux x86-64 packages or source builds",
+      "kind": "Reimplementation",
+      "status": "The maintainer's download page lists clone v2.26 dated 2026-10-15. It provides Windows and universal macOS builds and links Linux amd64 packages; the maintainer does not support those Linux packages and warns that compiling can depend on the distribution and GCC version. The repository README describes the result as a highly accurate clone, not a full compatibility guarantee.",
+      "summary": "A portable desktop clone of the classic MS-DOS FastTracker II music tracker. The C/SDL2 application adds newer sample-editing and import features; its author says the XM player is directly ported from the original source with permission and that the code combines original and new code.",
+      "project_url": "https://github.com/8bitbubsy/ft2-clone",
+      "updated": "2026-10-15",
+      "strategy": "Portable C/SDL2 application that recreates the FastTracker II tracker; selected player code is ported from the original source with permission",
+      "source_available": "Public GitHub source under BSD-3-Clause; the README attributes some code to the original FastTracker II source and says the port is used with permission",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C (predominant in GitHub's repository language breakdown), with C++, Objective-C, CMake, and shell build files",
+      "subtype": "Desktop music tracker / application clone",
+      "sources": [
+        {
+          "label": "Maintainer README: target application, ported XM player, clone scope, source lineage, and Linux build caveat",
+          "url": "https://github.com/8bitbubsy/ft2-clone/blob/master/README.md"
+        },
+        {
+          "label": "Maintainer download page: v2.26 release date, supported Windows/macOS builds, and Linux package caveat",
+          "url": "https://16-bits.org/ft2.php"
+        },
+        {
+          "label": "GitHub repository metadata checked 2026-10-15: public, non-fork, unarchived repository and latest push",
+          "url": "https://api.github.com/repos/8bitbubsy/ft2-clone"
+        },
+        {
+          "label": "GitHub language breakdown for the source repository checked 2026-10-15",
+          "url": "https://api.github.com/repos/8bitbubsy/ft2-clone/languages"
+        }
+      ]
+    },
+    {
+      "id": "protracker-2-3d-desktop-clone",
+      "title": "ProTracker 2 Clone",
+      "game": "ProTracker 2.3D for Amiga",
+      "target_type": "Software",
+      "platform": "ProTracker 2.3D for Amiga → portable C/SDL2 application; maintainer builds are listed for Windows 7 SP1+ and macOS 10.11+ (Intel and Apple silicon), with Linux source/build instructions",
+      "kind": "Reimplementation",
+      "status": "The maintainer's download page lists ProTracker 2 Clone v1.92 dated 2026-07-24 for Windows and macOS. The repository identifies Windows, macOS, and Linux as targets and provides compile instructions; it notes that Linux packages depend on distribution availability. The stated goal is a highly accurate clone, not a complete compatibility guarantee.",
+      "summary": "A portable desktop reconstruction of the classic ProTracker 2.3D music tracker for Amiga. It reproduces the tracker interface and adds audio filters and mixer improvements intended to approximate Amiga playback behavior.",
+      "project_url": "https://github.com/8bitbubsy/pt2-clone",
+      "updated": "2026-10-15",
+      "strategy": "Portable C/SDL2 desktop clone of the ProTracker 2.3D application",
+      "source_available": "Public GitHub source under BSD-3-Clause with build instructions",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C (predominant in GitHub's repository language breakdown), with C++, Objective-C, CMake, and shell build files",
+      "subtype": "Desktop music tracker / application clone",
+      "sources": [
+        {
+          "label": "Maintainer README: ProTracker 2.3D target, clone goal, audio differences, and Linux instructions",
+          "url": "https://github.com/8bitbubsy/pt2-clone/blob/master/README.md"
+        },
+        {
+          "label": "Maintainer download page: v1.92 release date and supported Windows/macOS builds",
+          "url": "https://16-bits.org/pt2.php"
+        },
+        {
+          "label": "GitHub BSD-3-Clause license",
+          "url": "https://github.com/8bitbubsy/pt2-clone/blob/master/LICENSE"
+        },
+        {
+          "label": "GitHub repository metadata checked 2026-10-15: public, non-fork, unarchived repository and latest push",
+          "url": "https://api.github.com/repos/8bitbubsy/pt2-clone"
+        },
+        {
+          "label": "GitHub language breakdown for the source repository checked 2026-10-15",
+          "url": "https://api.github.com/repos/8bitbubsy/pt2-clone/languages"
+        }
+      ]
+    },
+    {
+      "id": "webamp-winamp-2-browser-reimplementation",
+      "title": "Webamp",
+      "game": "Winamp 2 media player (skin-rendering parity documented against Winamp 2.9)",
+      "target_type": "Software",
+      "platform": "Winamp 2 desktop-player experience → browser app for modern Edge, Firefox, Safari, and Chrome; an Electron desktop wrapper is separately listed by the project",
+      "kind": "Reimplementation",
+      "status": "The project changelog identifies v2.3.1 as the current Webamp release. The README documents current Edge, Firefox, Safari, and Chrome support and says Internet Explorer is unsupported. The skin documentation states that classic Winamp 2 skins are rendered pixel-for-pixel as in Winamp 2.9; the project does not claim compatibility with Winamp binary plugins or the entire desktop product.",
+      "summary": "A browser-based Winamp 2 reimplementation built with HTML5 and JavaScript/TypeScript. It recreates the media-player interface and supports classic Winamp 2 skins, with documented pixel-level skin rendering compared with Winamp 2.9.",
+      "project_url": "https://github.com/captbaritone/webamp",
+      "updated": "2026-10-15",
+      "strategy": "Reimplement Winamp 2's player interface and behavior for modern web browsers, including a custom renderer for classic Winamp 2 skins",
+      "source_available": "Public MIT-licensed source; the README notes that the Winamp name, interface, and sample audio may belong to Nullsoft",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "TypeScript (predominant in the GitHub language breakdown), plus JavaScript and web/build languages",
+      "subtype": "Browser media player / application reimplementation",
+      "sources": [
+        {
+          "label": "Maintainer README: Winamp 2 reimplementation, web technology, browser support, Electron wrapper, and license note",
+          "url": "https://github.com/captbaritone/webamp"
+        },
+        {
+          "label": "Webamp changelog: current release 2.3.1",
+          "url": "https://docs.webamp.org/docs/changelog/"
+        },
+        {
+          "label": "Webamp skin documentation: pixel-level rendering comparison with Winamp 2.9",
+          "url": "https://docs.webamp.org/docs/features/skins/"
+        },
+        {
+          "label": "GitHub repository metadata checked 2026-10-15: public, non-fork, unarchived repository and latest push",
+          "url": "https://api.github.com/repos/captbaritone/webamp"
+        },
+        {
+          "label": "GitHub language breakdown for the source repository checked 2026-10-15",
+          "url": "https://api.github.com/repos/captbaritone/webamp/languages"
+        }
+      ]
+    },
+    {
+      "id": "jspaint-classic-microsoft-paint-reimplementation",
+      "title": "JS Paint",
+      "game": "Classic Microsoft Paint interface and behavior, especially the Windows 95/98/XP-era application",
+      "target_type": "Software",
+      "platform": "Classic MS Paint-style editor → browser application, including mobile-friendly touch interaction, plus an Electron desktop application for Windows, macOS, and Linux",
+      "kind": "Reimplementation",
+      "status": "The maintainer describes JS Paint as a pixel-perfect remake of classic MS Paint and says it recreates its tools and menus to a high degree of fidelity. The README says some tools remain incomplete; full clipboard support in the web app requires a browser with the Async Clipboard API for images (the README's Chrome 76+ note is historical). The Electron build is cross-platform, but its README warns that Electron is out of date and automatic updates are not implemented. The repository's latest push checked on 2026-10-15 was 2026-07-19.",
+      "summary": "An open-source browser and Electron remake of classic Microsoft Paint, aimed at the Windows 95/98/XP-era interface and behavior. It adds modern features such as more undo steps, additional image formats, themes, accessibility options, and touch interaction; it is an application reimplementation rather than a binary-compatible Paint runtime.",
+      "project_url": "https://github.com/1j01/jspaint",
+      "updated": "2026-10-15",
+      "strategy": "Recreate classic MS Paint's user interface and editing behavior as a web application, with an Electron desktop build",
+      "source_available": "Public MIT-licensed source repository; maintainer links Electron releases from the README",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "JavaScript (predominant in GitHub's language breakdown), with CSS, HTML, and small TypeScript and shell components",
+      "subtype": "Raster image editor / classic desktop application remake",
+      "sources": [
+        {
+          "label": "Maintainer README: Paint-era target, fidelity, features, web limitations, and Electron desktop support and caveats",
+          "url": "https://github.com/1j01/jspaint/blob/master/README.md"
+        },
+        {
+          "label": "Maintainer about page: browser remake, MIT license, and Windows/macOS/Linux desktop app",
+          "url": "https://jspaint.app/about.html"
+        },
+        {
+          "label": "Maintainer GitHub releases for the Electron desktop application",
+          "url": "https://github.com/1j01/jspaint/releases"
+        },
+        {
+          "label": "GitHub repository metadata checked 2026-10-15: public, non-fork, unarchived repository and latest push",
+          "url": "https://api.github.com/repos/1j01/jspaint"
+        },
+        {
+          "label": "GitHub language breakdown for the source repository checked 2026-10-15",
+          "url": "https://api.github.com/repos/1j01/jspaint/languages"
+        }
+      ]
+    }
+  ]
+}
