@@ -1,0 +1,161 @@
+{
+  "updated": "2026-10-16",
+  "scope": "Source-verified additions from primary GitHub repositories, with Reddit and curated GitHub search used only for discovery. Each project is checked against the live catalog and work/data manifests.",
+  "projects": [
+    {
+      "id": "goldeneye-007-pc-native-port",
+      "title": "GoldenEye 007 Native PC Port",
+      "game": "GoldenEye 007",
+      "target_type": "Game",
+      "platform": "Nintendo 64 → Windows x64, Linux x86-64, Steam Deck",
+      "kind": "Decompilation",
+      "status": "v0.5.0 (2026-10-07) is a pre-1.0 release. The maintainer reports the campaign and 2–4 player split-screen playable end to end on Windows, Linux, and Steam Deck. Release packages accept the US NTSC-U ROM; the current project page says PAL/JP ROMs can be built from source, while macOS and ARM builds are not available yet.",
+      "summary": "Native C source port built from the GoldenEye 007 decompilation, with a software RSP and a PC hardware-services layer. The user supplies the ROM; no ROM or bulk game assets are shipped.",
+      "project_url": "https://github.com/jkdansereau/goldeneye-pc-port",
+      "updated": "2026-10-14",
+      "strategy": "Native C port compiled from the matching N64 decompilation; software RSP and native PC services, not binary recompilation or a full-system emulator",
+      "language": "",
+      "source_available": "Public source and v0.5.0 releases. The project NOTICE says MIT covers the PC port layer, build system, PC-port tools, and docs; files inherited from the GoldenEye decompilation are outside that grant, and upstream n64decomp/007 has no explicit license. The user supplies a ROM; no ROM or bulk game assets are included.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Nintendo 64 matching-decompilation-based native PC port",
+      "sources": [
+        {
+          "label": "Maintainer README: source, method, current targets, ROM requirement, and v0.5 status",
+          "url": "https://github.com/jkdansereau/goldeneye-pc-port/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer project page: compatibility, campaign status, and supported ROMs",
+          "url": "https://github.com/jkdansereau/goldeneye-pc-port/blob/main/docs/index.md"
+        },
+        {
+          "label": "Latest release v0.5.0",
+          "url": "https://github.com/jkdansereau/goldeneye-pc-port/releases/tag/v0.5.0"
+        },
+        {
+          "label": "Repository license (MIT)",
+          "url": "https://github.com/jkdansereau/goldeneye-pc-port/blob/main/LICENSE"
+        },
+        {
+          "label": "Maintainer NOTICE: scope of MIT grant and inherited decompilation terms",
+          "url": "https://github.com/jkdansereau/goldeneye-pc-port/blob/main/NOTICE"
+        },
+        {
+          "label": "Upstream GoldenEye 007 decompilation used as the source base",
+          "url": "https://github.com/n64decomp/007"
+        },
+        {
+          "label": "GitHub repository metadata (push date and repository identity)",
+          "url": "https://api.github.com/repos/jkdansereau/goldeneye-pc-port"
+        },
+        {
+          "label": "GitHub Languages API byte totals",
+          "url": "https://api.github.com/repos/jkdansereau/goldeneye-pc-port/languages"
+        }
+      ]
+    },
+    {
+      "id": "super-smash-bros-n64-pc-port-battleship",
+      "title": "BattleShip: Super Smash Bros. N64 Native Port",
+      "game": "Super Smash Bros. (Nintendo 64, US and Japanese releases)",
+      "target_type": "Game",
+      "platform": "Nintendo 64 → Windows, Linux, Apple Silicon macOS, Android",
+      "kind": "Reimplementation",
+      "status": "The latest published release is v1.6 (2026-08-12); the README lists Windows, Linux, Apple Silicon macOS, and Android builds, and the release publishes packages for those hosts. Rollback netcode is work in progress. The repository does not state an end-to-end completion result or a device-coverage matrix.",
+      "summary": "Native C/C++ source port built on the Super Smash Bros. N64 decompilation, using libultraship for rendering, audio, and input and Torch for ROM-based asset extraction. Users provide supported US NTSC-U v1.0 or Japanese v1.0 ROMs; Nintendo assets and ROM data are not distributed.",
+      "project_url": "https://github.com/JRickey/BattleShip",
+      "updated": "2026-10-15",
+      "strategy": "Native C/C++ port based on N64 decompiled source, with libultraship host services and Torch asset extraction",
+      "language": "",
+      "source_available": "Public source and releases. The LICENSE limits MIT to port-specific files; it says the decomp C source is an upstream submodule without an explicit upstream license, and libultraship/Torch are separately licensed. The user supplies a supported ROM; Nintendo assets and ROM data are not included.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "N64 decompilation-based native port for desktop and Android",
+      "sources": [
+        {
+          "label": "Maintainer README: supported games, hosts, method, assets, and project status",
+          "url": "https://github.com/JRickey/BattleShip/blob/main/README.md"
+        },
+        {
+          "label": "Latest release v1.6 and host packages",
+          "url": "https://github.com/JRickey/BattleShip/releases/tag/v1.6"
+        },
+        {
+          "label": "License file (MIT terms; GitHub SPDX classification is unrecognized)",
+          "url": "https://github.com/JRickey/BattleShip/blob/main/LICENSE"
+        },
+        {
+          "label": "License file: MIT scope, decomp submodule, and separate dependency terms",
+          "url": "https://github.com/JRickey/BattleShip/blob/main/LICENSE"
+        },
+        {
+          "label": "Upstream Super Smash Bros. N64 decompilation under the `decomp/` submodule",
+          "url": "https://github.com/VetriTheRetri/ssb-decomp-re"
+        },
+        {
+          "label": "GitHub repository metadata (canonical repository identity and push date)",
+          "url": "https://api.github.com/repos/JRickey/BattleShip"
+        },
+        {
+          "label": "GitHub Languages API byte totals",
+          "url": "https://api.github.com/repos/JRickey/BattleShip/languages"
+        }
+      ]
+    },
+    {
+      "id": "paper-mario-n64-android-paperboat",
+      "title": "PaperBoat Android Port for Paper Mario 64",
+      "game": "Paper Mario",
+      "target_type": "Game",
+      "platform": "Nintendo 64 → Android (arm64-v8a)",
+      "kind": "Decompilation",
+      "status": "Experimental Android fork of HarbourMasters PaperBoat. The public repository contains an Android app and Kotlin/Java/JNI/NDK build; its Gradle configuration sets Android API 24 as the minimum and targets arm64-v8a. GitHub Actions completed an Android build successfully on 2026-09-17 and produced a PaperBoat-android-arm64-debug artifact, marked unexpired when checked 2026-10-16. No tagged release is listed, and the latest source push is 2026-09-17. A Reddit user reports that it runs on an Android handheld, but the repository gives no end-to-end campaign compatibility claim.",
+      "summary": "An unofficial Android arm64 port of HarbourMasters PaperBoat, the native Paper Mario 64 project based on the Paper Mario decompilation. This fork adds an Android launcher, JNI bridge and NDK build. It does not include the supported retail game copy; users must provide their own ROM.",
+      "project_url": "https://github.com/YlPorts/PaperBoat-android",
+      "updated": "2026-10-16",
+      "strategy": "Decompilation-based native Android port through a PaperBoat fork, with Android app, JNI and NDK integration.",
+      "language": "",
+      "source_available": "Public GitHub fork. PaperBoat’s upstream README says copyrighted game assets are not included and a supported user-provided copy is required. GitHub repository metadata reports CC0-1.0 for this fork; upstream component notices remain relevant.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Android arm64 port of decompilation-based PaperBoat",
+      "sources": [
+        {
+          "label": "Reddit discovery lead in r/OdinHandheld; post author links the fork and reports APKs in Actions (secondary provenance)",
+          "url": "https://www.reddit.com/r/OdinHandheld/comments/1wtswga/paperboat_android_fork_looks_and_works_great_so/"
+        },
+        {
+          "label": "Public fork repository and Android source tree",
+          "url": "https://github.com/YlPorts/PaperBoat-android"
+        },
+        {
+          "label": "Maintainer Android build documentation",
+          "url": "https://github.com/YlPorts/PaperBoat-android/blob/develop/docs/android-ios-web.md"
+        },
+        {
+          "label": "Android Gradle configuration: API 24 minimum and arm64-v8a ABI",
+          "url": "https://github.com/YlPorts/PaperBoat-android/blob/develop/android/app/build.gradle.kts"
+        },
+        {
+          "label": "Successful Android GitHub Actions run; Android arm64 debug artifact metadata is available through the run",
+          "url": "https://github.com/YlPorts/PaperBoat-android/actions/runs/35263909902"
+        },
+        {
+          "label": "GitHub Actions artifact API: PaperBoat-android-arm64-debug, 11,786,670 bytes, not expired on 2026-10-16",
+          "url": "https://api.github.com/repos/YlPorts/PaperBoat-android/actions/runs/35263909902/artifacts"
+        },
+        {
+          "label": "Upstream PaperBoat README: game identity and user-provided supported copy requirement",
+          "url": "https://github.com/HarbourMasters/PaperBoat#readme"
+        },
+        {
+          "label": "GitHub repository Languages API byte totals",
+          "url": "https://api.github.com/repos/YlPorts/PaperBoat-android/languages"
+        }
+      ]
+    }
+  ]
+}

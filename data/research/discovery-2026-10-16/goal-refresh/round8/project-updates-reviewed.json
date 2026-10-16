@@ -1,0 +1,63 @@
+{
+  "updated": "2026-10-16",
+  "scope": "Justified status refinements based on current project-owned README/release sources. No status patch is staged for the already-updated Vandal Hearts or other duplicate project rows.",
+  "updates": [
+    {
+      "id": "sm64ds-decomp",
+      "fields": {
+        "updated": "2026-10-16",
+        "status": "The live README’s generated counter reports 11,389/11,389 functions and 2,238,108/2,238,108 code bytes matched, including 108 exact hand-written assembly primitives. Its prose still calls matching close to finished and describes several remaining nonmatching large or floor-constrained functions, so the progress counter and narrative do not fully agree. Separate progress bars show 4,385/11,386 functions (38.5%) converted to readable C++ and 10,595/11,328 matched translation units (93.5%) linked into the Windows PC port; the port is not at the same completion level as the byte-match counter."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: live progress counters and matching-status explanation",
+          "url": "https://github.com/tangosdev/sm64ds-decomp/blob/main/README.md"
+        },
+        {
+          "label": "GitHub repository metadata (latest push date)",
+          "url": "https://api.github.com/repos/tangosdev/sm64ds-decomp"
+        }
+      ],
+      "evidence_note": "The README currently displays all-functions/all-code-size progress at 100% but later says matching is close to finished and some ordinary functions remain NONMATCHING. It explicitly says 108 hand-written assembly primitives count only when byte-checked. The patch records this source-level discrepancy rather than upgrading the project to unqualified completion."
+    },
+    {
+      "id": "ssbu-switch-recomp",
+      "fields": {
+        "updated": "2026-10-16",
+        "status": "Early and incomplete. The October 2026 README reports boot through menus and complete 1v1 CPU matches through results; Classic, Training, and Home-Run Contest have only scripted-input testing, and Adventure reaches its intro while its map and fights are untested. Team/Squad/Tourney modes, 3–8 player play, and Stage Builder editing are untested; online play is unavailable. Automated controller tests use virtual devices only, so physical pads are unconfirmed. A clean-clone build and scripted match are verified; matching decompilation is paused, and Linux/Steam Deck have not started."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: October 2026 compatibility and testing matrix",
+          "url": "https://github.com/Denkishi/ssbu-recomp/blob/main/README.md"
+        },
+        {
+          "label": "GitHub repository metadata (latest push date)",
+          "url": "https://api.github.com/repos/Denkishi/ssbu-recomp"
+        }
+      ],
+      "evidence_note": "The source README has a more detailed October 2026 status matrix than the Oct 15 catalog entry, including Adventure reachability, virtual-only controller tests, clean-clone build verification, paused matching decompilation, and Linux/Steam Deck not started."
+    },
+    {
+      "id": "kartpad-mario-kart-wii",
+      "fields": {
+        "status": "Latest release v0.8.1 (2026-10-13) publishes an Android APK; Android requires ARM64, Vulkan, and Android 9+. iPhone/iPad and Apple Silicon Mac builds are produced locally through PadMint from the user’s disc; tvOS is only an experimental preview. Android Original gameplay with a Razer Kishi was accepted on Pixel 9 Pro XL; the current iPad release candidate has accepted controller/menu checks, not broad device coverage."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: current host support, setup, and tvOS caveat",
+          "url": "https://github.com/chrissotraidis/kartpad/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer status: current device acceptance and open checks",
+          "url": "https://github.com/chrissotraidis/kartpad/blob/main/docs/STATUS.md"
+        },
+        {
+          "label": "Maintainer v0.8.1 release",
+          "url": "https://github.com/chrissotraidis/kartpad/releases/tag/v0.8.1"
+        }
+      ],
+      "evidence_note": "The current database and Oct 16 staged status update accurately cover v0.8.1 and device tests but list tvOS in the platform field without the README’s experimental-preview qualification; this patch makes that boundary explicit."
+    }
+  ]
+}
