@@ -4768,6 +4768,707 @@
       "evidence_url": "https://api.github.com/repos/jmacato/ZoidsLegacyDecomp/languages",
       "evidence": "GitHub's Languages API reports byte counts by detected language; predominant_language is C, matching the repository API language field in the project row.",
       "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "acgc-android-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "Assembly": 22697,
+        "C": 40390684,
+        "C++": 1299769,
+        "CMake": 36207,
+        "Dockerfile": 157,
+        "GLSL": 31062,
+        "Java": 300513,
+        "Pawn": 40510,
+        "Python": 828306,
+        "Shell": 1208,
+        "Smarty": 914
+      },
+      "evidence_url": "https://api.github.com/repos/zwaetschge/ACGC-Android-Port/languages",
+      "evidence": "C: 40,390,684 bytes (94.04% of 42,952,027 GitHub-classified bytes)",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "animal-crossing-gamecube-decomp",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "Assembly": 22697,
+        "C": 33692893,
+        "C++": 940042,
+        "Pawn": 40510,
+        "Python": 601355,
+        "Smarty": 914
+      },
+      "evidence_url": "https://api.github.com/repos/ACreTeam/ac-decomp/languages",
+      "evidence": "C: 33,692,893 bytes (95.45% of 35,298,411 GitHub-classified bytes)",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "ballpad-super-mario-strikers-ios",
+      "predominant_language": "Objective-C++",
+      "language_breakdown_bytes": {
+        "Awk": 104136,
+        "C": 65032,
+        "C++": 84526,
+        "CMake": 24687,
+        "Objective-C": 21937,
+        "Objective-C++": 450109,
+        "Python": 149841,
+        "Shell": 195228,
+        "Swift": 302795
+      },
+      "evidence_url": "https://api.github.com/repos/chrissotraidis/ballpad/languages",
+      "evidence": "Objective-C++: 450,109 bytes (32.19% of 1,398,291 GitHub-classified bytes)",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "basilisk-ii-classic-mac",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "Assembly": 133197,
+        "C": 2247621,
+        "C++": 5265362,
+        "HTML": 61092,
+        "M4": 273435,
+        "Makefile": 73131,
+        "Objective-C": 48292,
+        "Objective-C++": 178614,
+        "Perl": 1316,
+        "Roff": 5447,
+        "Shell": 28015
+      },
+      "evidence_url": "https://api.github.com/repos/cebix/macemu/languages",
+      "evidence": "C++: 5,265,362 bytes (63.32% of 8,315,522 GitHub-classified bytes)",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "bellpad-animal-crossing-ios",
+      "predominant_language": "Objective-C++",
+      "language_breakdown_bytes": {
+        "C": 6735,
+        "C++": 39044,
+        "CMake": 2321,
+        "Objective-C": 5283,
+        "Objective-C++": 177087,
+        "Python": 16502,
+        "Shell": 52756
+      },
+      "evidence_url": "https://api.github.com/repos/chrissotraidis/bellpad/languages",
+      "evidence": "Objective-C++: 177,087 bytes (59.08% of 299,728 GitHub-classified bytes)",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "cavalry-language-switcher",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C": 4415,
+        "C++": 2741028,
+        "CMake": 28666,
+        "CSS": 46945,
+        "HTML": 14465,
+        "JavaScript": 1396953,
+        "NSIS": 20206,
+        "Objective-C": 51738,
+        "Objective-C++": 182101,
+        "PowerShell": 85704,
+        "Python": 54294,
+        "Rust": 2108818,
+        "Shell": 48814,
+        "Swift": 3585
+      },
+      "evidence_url": "https://api.github.com/repos/daftAI2026/Cavalry-i18n/languages",
+      "evidence": "C++: 2,741,028 bytes (40.38% of 6,787,732 GitHub-classified bytes)",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "emerald-dragon-pce-english-translation",
+      "predominant_language": "Assembly",
+      "language_breakdown_bytes": {
+        "AGS Script": 35,
+        "Assembly": 2951282,
+        "Batchfile": 2832,
+        "BitBake": 805,
+        "C": 2456107,
+        "C++": 2134561,
+        "CMake": 16824,
+        "Makefile": 56589,
+        "Pawn": 318,
+        "Python": 16899,
+        "SWIG": 298,
+        "Shell": 45976
+      },
+      "evidence_url": "https://api.github.com/repos/suppertails66/emdrtools/languages",
+      "evidence": "Assembly: 2,951,282 bytes (38.42% of 7,682,526 GitHub-classified bytes)",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "fire-emblem-warriors-3ds-ko",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Batchfile": 117,
+        "Python": 263997
+      },
+      "evidence_url": "https://api.github.com/repos/arqhive/fire-emblem-warriors-korean-translation/languages",
+      "evidence": "Python: 263,997 bytes (99.96% of 264,114 GitHub-classified bytes)",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "galaxy-fraulein-yuna-2-pce-english-translation",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "Assembly": 432044,
+        "Batchfile": 2502,
+        "C": 1293367,
+        "C++": 1132728,
+        "CMake": 15687,
+        "Makefile": 23735,
+        "Python": 10323,
+        "Shell": 53055
+      },
+      "evidence_url": "https://api.github.com/repos/suppertails66/yuna2tools/languages",
+      "evidence": "C: 1,293,367 bytes (43.64% of 2,963,441 GitHub-classified bytes)",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "galaxy-fraulein-yuna-pce-english-translation",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "Assembly": 785904,
+        "Batchfile": 2502,
+        "C": 1293367,
+        "C++": 1096685,
+        "CMake": 15687,
+        "HTML": 36456,
+        "Makefile": 23669,
+        "Python": 10323,
+        "Shell": 41690
+      },
+      "evidence_url": "https://api.github.com/repos/suppertails66/yunatools/languages",
+      "evidence": "C: 1,293,367 bytes (39.12% of 3,306,283 GitHub-classified bytes)",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "gta-vice-city-stories-android-recomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "Batchfile": 15881,
+        "C++": 111433635,
+        "CMake": 22943,
+        "GLSL": 15594,
+        "Java": 82834,
+        "PowerShell": 18836,
+        "Python": 28717
+      },
+      "evidence_url": "https://api.github.com/repos/codepdbh/PSPRecomp-VCS-Android/languages",
+      "evidence": "C++: 111,433,635 bytes (99.83% of 111,618,440 GitHub-classified bytes)",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "hangover-arm64-linux-wine",
+      "predominant_language": "Dockerfile",
+      "language_breakdown_bytes": {
+        "Dockerfile": 19957,
+        "Makefile": 6456
+      },
+      "evidence_url": "https://api.github.com/repos/AndreRH/hangover/languages",
+      "evidence": "Dockerfile: 19,957 bytes (75.56% of 26,413 GitHub-classified bytes)",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "harvest-moon-64-android-recomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C": 191010,
+        "C++": 1308535,
+        "CMake": 17046,
+        "Java": 302987,
+        "Linker Script": 4129,
+        "Makefile": 1321,
+        "Python": 45317,
+        "Shell": 23860
+      },
+      "evidence_url": "https://api.github.com/repos/igawa6/HarvestMoon64Recomp/languages",
+      "evidence": "C++: 1,308,535 bytes (69.08% of 1,894,205 GitHub-classified bytes)",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "madou-monogatari-i-pce-english-translation",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "Assembly": 366834,
+        "Batchfile": 2502,
+        "C": 1291011,
+        "C++": 733205,
+        "CMake": 27043,
+        "Makefile": 73717,
+        "Objective-C": 96,
+        "Python": 10323,
+        "Shell": 32127
+      },
+      "evidence_url": "https://api.github.com/repos/suppertails66/madou1pcetools/languages",
+      "evidence": "C: 1,291,011 bytes (50.89% of 2,536,858 GitHub-classified bytes)",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "mario-kart-wii-wiicompiled-pc",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "Assembly": 1705,
+        "C": 280071,
+        "C#": 2935814,
+        "C++": 3701628,
+        "CMake": 122564,
+        "Objective-C++": 28673,
+        "PowerShell": 124202,
+        "Shell": 127282
+      },
+      "evidence_url": "https://api.github.com/repos/patchzyy/Wiicompiled/languages",
+      "evidence": "C++: 3,701,628 bytes (50.56% of 7,321,939 GitHub-classified bytes)",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "meleepad-melee-ios",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "C": 72128,
+        "C++": 231873,
+        "CMake": 1502,
+        "Dockerfile": 238,
+        "Objective-C": 41956,
+        "Objective-C++": 544690,
+        "Python": 588800,
+        "Rust": 3388,
+        "Shell": 117564
+      },
+      "evidence_url": "https://api.github.com/repos/chrissotraidis/meleepad/languages",
+      "evidence": "Python: 588,800 bytes (36.75% of 1,602,139 GitHub-classified bytes)",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "metroid-prime-hunters-android-recomp",
+      "predominant_language": "Java",
+      "language_breakdown_bytes": {
+        "CMake": 1168,
+        "Java": 278779,
+        "Makefile": 662
+      },
+      "evidence_url": "https://api.github.com/repos/aabrole/HuntersRecomp/languages",
+      "evidence": "Java: 278,779 bytes (99.35% of 280,609 GitHub-classified bytes)",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "mewgenics-cn",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Python": 104631
+      },
+      "evidence_url": "https://api.github.com/repos/rainzz-512/Mewgenics-Chinese-Translation/languages",
+      "evidence": "Python: 104,631 bytes (100.00% of 104,631 GitHub-classified bytes)",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "might-and-magic-pce-english-translation",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Python": 1217
+      },
+      "evidence_url": "https://api.github.com/repos/TiCoKH/PCEngine_eng_patch/languages",
+      "evidence": "Python: 1,217 bytes (100.00% of 1,217 GitHub-classified bytes)",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "mini-vmac",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 1873976,
+        "C++": 37783,
+        "Objective-C": 111145,
+        "Rez": 22925,
+        "SWIG": 476373,
+        "Shell": 5523
+      },
+      "evidence_url": "https://api.github.com/repos/minivmac/minivmac/languages",
+      "evidence": "C: 1,873,976 bytes (74.14% of 2,527,725 GitHub-classified bytes)",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "mushoku-tensei-chronicle-of-echoes-en",
+      "predominant_language": "Java",
+      "language_breakdown_bytes": {
+        "AIDL": 2530,
+        "Batchfile": 575,
+        "Java": 191939,
+        "PowerShell": 138525,
+        "Python": 40688
+      },
+      "evidence_url": "https://api.github.com/repos/Aikiooo/mt-en-applier/languages",
+      "evidence": "Java: 191,939 bytes (51.29% of 374,257 GitHub-classified bytes)",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "perfect-dark-android",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "Assembly": 385342,
+        "BitBake": 59,
+        "C": 14446598,
+        "C++": 411898,
+        "CMake": 25690,
+        "Java": 226805,
+        "Linker Script": 696355,
+        "Makefile": 121,
+        "PHP": 57,
+        "Python": 665163,
+        "Shell": 1922
+      },
+      "evidence_url": "https://api.github.com/repos/izzy2lost/perfect_dark/languages",
+      "evidence": "C: 14,446,598 bytes (85.69% of 16,860,010 GitHub-classified bytes)",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "pokemon-azoth-en",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Assembly": 2484,
+        "Python": 259842
+      },
+      "evidence_url": "https://api.github.com/repos/RiFa-Innovation/pkmn-azoth-translation/languages",
+      "evidence": "Python: 259,842 bytes (99.05% of 262,326 GitHub-classified bytes)",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "private-eye-dol-pce-english-translation",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "Assembly": 652198,
+        "Batchfile": 2502,
+        "C": 1293367,
+        "C++": 1282110,
+        "CMake": 15687,
+        "Makefile": 23669,
+        "Python": 10323,
+        "Shell": 47840
+      },
+      "evidence_url": "https://api.github.com/repos/suppertails66/pidoltools/languages",
+      "evidence": "C: 1,293,367 bytes (38.87% of 3,327,696 GitHub-classified bytes)",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "projectreach-halo-xbox-ios",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "Assembly": 1013,
+        "C": 1514022,
+        "CMake": 4225,
+        "Objective-C": 617253,
+        "Objective-C++": 9621,
+        "Python": 1002007,
+        "Ruby": 10631,
+        "Scilab": 6801,
+        "Shell": 80859,
+        "Wolfram Language": 2416
+      },
+      "evidence_url": "https://api.github.com/repos/chrissotraidis/projectreach/languages",
+      "evidence": "C: 1,514,022 bytes (46.60% of 3,248,848 GitHub-classified bytes)",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "pvz-fusion-multilingual-localization",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Python": 29534
+      },
+      "evidence_url": "https://api.github.com/repos/Teyliu/PVZF-Translation/languages",
+      "evidence": "Python: 29,534 bytes (100.00% of 29,534 GitHub-classified bytes)",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "sacred-stones-android-recomp",
+      "predominant_language": "PowerShell",
+      "language_breakdown_bytes": {
+        "Assembly": 156,
+        "C++": 42164,
+        "CMake": 12012,
+        "Java": 16494,
+        "PowerShell": 75262
+      },
+      "evidence_url": "https://api.github.com/repos/Lordingard/SacredStonesRecomp/languages",
+      "evidence": "PowerShell: 75,262 bytes (51.52% of 146,088 GitHub-classified bytes)",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "sailor-moon-pcecd-english-translation",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "Assembly": 16235,
+        "C++": 631456,
+        "Makefile": 2481,
+        "Shell": 108919
+      },
+      "evidence_url": "https://api.github.com/repos/suppertails66/bssmpcetools/languages",
+      "evidence": "C++: 631,456 bytes (83.19% of 759,091 GitHub-classified bytes)",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "sheepshaver-classic-mac",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "Assembly": 133197,
+        "C": 2247621,
+        "C++": 5265362,
+        "HTML": 61092,
+        "M4": 273435,
+        "Makefile": 73131,
+        "Objective-C": 48292,
+        "Objective-C++": 178614,
+        "Perl": 1316,
+        "Roff": 5447,
+        "Shell": 28015
+      },
+      "evidence_url": "https://api.github.com/repos/cebix/macemu/languages",
+      "evidence": "C++: 5,265,362 bytes (63.32% of 8,315,522 GitHub-classified bytes)",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "ship-of-harkinian-switch-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 22071668,
+        "C#": 15779,
+        "C++": 9688331,
+        "CMake": 97965,
+        "Dockerfile": 5061,
+        "Objective-C++": 1085,
+        "PHP": 57,
+        "PowerShell": 1959,
+        "Python": 3115,
+        "Shell": 2624
+      },
+      "evidence_url": "https://api.github.com/repos/GermanNunez-code/Shipwright-Switch/languages",
+      "evidence": "C: 22,071,668 bytes (69.22% of 31,887,644 GitHub-classified bytes)",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "sm64-android-port-base",
+      "predominant_language": "Java",
+      "language_breakdown_bytes": {
+        "CMake": 448,
+        "Dockerfile": 1382,
+        "Java": 188721,
+        "Makefile": 3728,
+        "Shell": 477
+      },
+      "evidence_url": "https://api.github.com/repos/VDavid003/sm64-port-android-base/languages",
+      "evidence": "Java: 188,721 bytes (96.90% of 194,756 GitHub-classified bytes)",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "snappad-pokemon-snap-ios",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "C": 7369,
+        "C++": 195956,
+        "CMake": 24252,
+        "Objective-C++": 117006,
+        "Python": 233229,
+        "Shell": 58814
+      },
+      "evidence_url": "https://api.github.com/repos/chrissotraidis/snappad/languages",
+      "evidence": "Python: 233,229 bytes (36.64% of 636,626 GitHub-classified bytes)",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "spaghettikart-android",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "BitBake": 947,
+        "C": 15849975,
+        "C++": 1962064,
+        "CMake": 115411,
+        "Dockerfile": 3589,
+        "GLSL": 9504,
+        "HLSL": 11256,
+        "Java": 206301,
+        "Kotlin": 58481,
+        "Makefile": 1654,
+        "Metal": 9600,
+        "Python": 157396,
+        "Shell": 7356
+      },
+      "evidence_url": "https://api.github.com/repos/izzy2lost/SpaghettiKart/languages",
+      "evidence": "C: 15,849,975 bytes (86.17% of 18,393,534 GitHub-classified bytes)",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "starship-android",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 8370855,
+        "C++": 1810448,
+        "CMake": 160461,
+        "GLSL": 16746,
+        "HLSL": 22000,
+        "Java": 255495,
+        "Makefile": 1130,
+        "Metal": 18622,
+        "Objective-C++": 2715,
+        "PHP": 1867,
+        "Pawn": 6374,
+        "Python": 107580,
+        "Shell": 510
+      },
+      "evidence_url": "https://api.github.com/repos/izzy2lost/Starship/languages",
+      "evidence": "C: 8,370,855 bytes (77.69% of 10,774,803 GitHub-classified bytes)",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "summer-time-rendering-another-horizon-en",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "PowerShell": 5439,
+        "Python": 35976
+      },
+      "evidence_url": "https://api.github.com/repos/Dream-Cypher/STRAHLocalization/languages",
+      "evidence": "Python: 35,976 bytes (86.87% of 41,415 GitHub-classified bytes)",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "tengai-makyou-ziria-pce-english-translation",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "Assembly": 450454,
+        "Batchfile": 2502,
+        "C": 1293367,
+        "C++": 1333692,
+        "CMake": 15687,
+        "Makefile": 23735,
+        "Python": 10323,
+        "Shell": 49211
+      },
+      "evidence_url": "https://api.github.com/repos/suppertails66/tenmatools/languages",
+      "evidence": "C++: 1,333,692 bytes (41.95% of 3,178,971 GitHub-classified bytes)",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "theft4-gta-iv-ios",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "Assembly": 802191,
+        "Batchfile": 59547,
+        "C": 26924057,
+        "C#": 17467,
+        "C++": 272297233,
+        "CMake": 430208,
+        "CSS": 110800,
+        "Dockerfile": 489,
+        "GDB": 878,
+        "GLSL": 70586,
+        "Go": 273136,
+        "HLSL": 1709539,
+        "HTML": 4408618,
+        "Hack": 31483,
+        "Java": 2583169,
+        "JavaScript": 278377,
+        "Lex": 22745,
+        "Linker Script": 897,
+        "Lua": 39009,
+        "Makefile": 16885,
+        "Metal": 45058,
+        "Objective-C": 316881,
+        "Objective-C++": 625125,
+        "Pascal": 146031,
+        "Pawn": 2222,
+        "PostScript": 5476,
+        "PowerShell": 43665,
+        "Python": 10295264,
+        "Shell": 72249,
+        "SourcePawn": 1938,
+        "Starlark": 12589,
+        "TeX": 58985,
+        "TypeScript": 195791,
+        "Yacc": 127584
+      },
+      "evidence_url": "https://api.github.com/repos/KoreanSeats1/Theft4/languages",
+      "evidence": "C++: 272,297,233 bytes (84.56% of 322,026,172 GitHub-classified bytes)",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "twilight-syndrome-ds-en-es",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Python": 134190
+      },
+      "evidence_url": "https://api.github.com/repos/Secabel/twilight-syndrome/languages",
+      "evidence": "Python: 134,190 bytes (100.00% of 134,190 GitHub-classified bytes)",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "wheeldroid-mario-kart-wii-android",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "Assembly": 3578,
+        "Batchfile": 3384,
+        "C": 288648,
+        "C#": 2951600,
+        "C++": 3658471,
+        "CMake": 114860,
+        "Java": 212833,
+        "Kotlin": 134277,
+        "Objective-C++": 793,
+        "PowerShell": 146287,
+        "Shell": 116285
+      },
+      "evidence_url": "https://api.github.com/repos/KeithKirenai/wheeldroid/languages",
+      "evidence": "C++: 3,658,471 bytes (47.94% of 7,631,016 GitHub-classified bytes)",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "wine",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 81.17,
+        "C++": 10.77,
+        "POV-Ray SDL": 1.12,
+        "Python": 0.79,
+        "Ruby": 3.22
+      },
+      "evidence_url": "https://gitlab.winehq.org/api/v4/projects/wine%2Fwine/languages",
+      "evidence": "C: 81.17% of GitLab-reported repository language share",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "xiaomi-pc-manager-en",
+      "predominant_language": "PowerShell",
+      "language_breakdown_bytes": {
+        "Batchfile": 445,
+        "C#": 21322,
+        "PowerShell": 44991
+      },
+      "evidence_url": "https://api.github.com/repos/kremonia/XiaomiPCManager-English/languages",
+      "evidence": "PowerShell: 44,991 bytes (67.39% of 66,758 GitHub-classified bytes)",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "zero4-champ-pce-english-translation",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "Assembly": 1205648,
+        "Batchfile": 2652,
+        "C": 2416049,
+        "C++": 1111710,
+        "CMake": 16818,
+        "Makefile": 50428,
+        "Pascal": 131792,
+        "Pawn": 201,
+        "Python": 16899,
+        "SWIG": 298,
+        "Shell": 28248
+      },
+      "evidence_url": "https://api.github.com/repos/suppertails66/zero4tools/languages",
+      "evidence": "C: 2,416,049 bytes (48.51% of 4,980,743 GitHub-classified bytes)",
+      "verified_at": "2026-10-16"
     }
-  ]
+  ],
+  "scope": "Official repository language evidence for cataloged projects, with audited fixes for previously blank predominant-language fields."
 }

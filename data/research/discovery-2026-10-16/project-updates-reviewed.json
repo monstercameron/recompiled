@@ -1,6 +1,6 @@
 {
   "updated": "2026-10-16",
-  "scope": "Source-backed metadata refreshes and corrections reconciled from the reviewed October 2026 research lanes.",
+  "scope": "Reviewed, source-backed project metadata patches across discovered decompilations, ports, translations, software reconstructions, and catalog-gap corrections. Each field is attributed to official project evidence; unchanged or unverified facts are left as recorded.",
   "updates": [
     {
       "id": "3beans",
@@ -78,7 +78,8 @@
       "id": "acgc-android-port",
       "fields": {
         "platform": "Nintendo GameCube → Android 8+ (ARM64 or ARMv7; OpenGL ES 3)",
-        "source_available": "Public source repository and APK releases; no game data is included. Users supply their own supported GameCube disc image."
+        "source_available": "Public source repository and APK releases; no game data is included. Users supply their own supported GameCube disc image.",
+        "programming_language": "C"
       },
       "sources": [
         {
@@ -88,6 +89,10 @@
         {
           "label": "Maintainer README: source and game-data distribution",
           "url": "https://github.com/zwaetschge/ACGC-Android-Port/blob/master/README.md"
+        },
+        {
+          "label": "GitHub Languages API — C: 40,390,684 bytes (94.04% of 42,952,027 GitHub-classified bytes); rechecked 2026-10-16",
+          "url": "https://api.github.com/repos/zwaetschge/ACGC-Android-Port/languages"
         }
       ]
     },
@@ -378,7 +383,8 @@
       "id": "ballpad-super-mario-strikers-ios",
       "fields": {
         "platform": "Nintendo GameCube → iOS/iPadOS 17+ (native ARM64)",
-        "source_available": "Public GPL-3.0 source repository; no ready-to-install app is published. PadMint builds a local app from source; users supply their own supported disc image."
+        "source_available": "Public GPL-3.0 source repository; no ready-to-install app is published. PadMint builds a local app from source; users supply their own supported disc image.",
+        "programming_language": "Objective-C++"
       },
       "sources": [
         {
@@ -388,6 +394,10 @@
         {
           "label": "Maintainer README: source and game-data distribution",
           "url": "https://github.com/chrissotraidis/ballpad/blob/main/README.md"
+        },
+        {
+          "label": "GitHub Languages API — Objective-C++: 450,109 bytes (32.19% of 1,398,291 GitHub-classified bytes); rechecked 2026-10-16",
+          "url": "https://api.github.com/repos/chrissotraidis/ballpad/languages"
         }
       ]
     },
@@ -474,7 +484,8 @@
     {
       "id": "basilisk-ii-classic-mac",
       "fields": {
-        "source_available": "GPL source is public in the shared macemu repository; users must separately supply a Mac OS copy and Macintosh ROM image."
+        "source_available": "GPL source is public in the shared macemu repository; users must separately supply a Mac OS copy and Macintosh ROM image.",
+        "programming_language": "C++"
       },
       "sources": [
         {
@@ -484,6 +495,10 @@
         {
           "label": "Maintainer README: source and game-data distribution",
           "url": "https://github.com/cebix/macemu/blob/master/README.md"
+        },
+        {
+          "label": "GitHub Languages API — C++: 5,265,362 bytes (63.32% of 8,315,522 GitHub-classified bytes); rechecked 2026-10-16",
+          "url": "https://api.github.com/repos/cebix/macemu/languages"
         }
       ]
     },
@@ -526,12 +541,22 @@
     {
       "id": "beetle-adventure-racing-recomp",
       "fields": {
-        "source_available": "Public source repository (AGPL-3.0 license)"
+        "source_available": "Public source repository (AGPL-3.0 license)",
+        "status": "Latest release v0.4.2-alpha (2026-09-20) is marked early and lightly tested. Its release notes list an intermittent startup crash and a race-exit freeze; Linux is in progress and unreleased, and macOS is untested.",
+        "platform": "Nintendo 64 → Windows x64 (released); Linux build in progress and unreleased; macOS untested"
       },
       "sources": [
         {
           "label": "GitHub repository API: source availability and license metadata",
           "url": "https://api.github.com/repos/danielgomesvieira2000/beetle-adventure-racing-recomp"
+        },
+        {
+          "label": "GitHub v0.4.2-alpha release (asset list and release notes)",
+          "url": "https://github.com/danielgomesvieira2000/beetle-adventure-racing-recomp/releases/tag/v0.4.2-alpha"
+        },
+        {
+          "label": "Maintainer README (platform and Linux build status)",
+          "url": "https://github.com/danielgomesvieira2000/beetle-adventure-racing-recomp#readme"
         }
       ]
     },
@@ -539,7 +564,8 @@
       "id": "bellpad-animal-crossing-ios",
       "fields": {
         "platform": "Nintendo GameCube → Apple Silicon macOS and iOS/iPadOS 17+ (ARM64)",
-        "source_available": "Public source repository and reproducible build recipe; no store-distributed app. Users supply legally obtained supported game data."
+        "source_available": "Public source repository and reproducible build recipe; no store-distributed app. Users supply legally obtained supported game data.",
+        "programming_language": "Objective-C++"
       },
       "sources": [
         {
@@ -549,6 +575,10 @@
         {
           "label": "Maintainer README: source and game-data distribution",
           "url": "https://github.com/chrissotraidis/bellpad/blob/main/README.md"
+        },
+        {
+          "label": "GitHub Languages API — Objective-C++: 177,087 bytes (59.08% of 299,728 GitHub-classified bytes); rechecked 2026-10-16",
+          "url": "https://api.github.com/repos/chrissotraidis/bellpad/languages"
         }
       ]
     },
@@ -905,12 +935,17 @@
     {
       "id": "cavalry-language-switcher",
       "fields": {
-        "updated": "2026-09-29"
+        "updated": "2026-09-29",
+        "programming_language": "C++"
       },
       "sources": [
         {
           "label": "Latest maintainer release, Cavalry 2.7.2 patch 12",
           "url": "https://github.com/daftAI2026/Cavalry-i18n/releases/tag/cavalry-2.7.2-p12"
+        },
+        {
+          "label": "GitHub Languages API — C++: 2,741,028 bytes (40.38% of 6,787,732 GitHub-classified bytes); rechecked 2026-10-16",
+          "url": "https://api.github.com/repos/daftAI2026/Cavalry-i18n/languages"
         }
       ]
     },
@@ -2198,12 +2233,17 @@
     {
       "id": "fire-emblem-warriors-3ds-ko",
       "fields": {
-        "updated": "2026-10-11"
+        "updated": "2026-10-11",
+        "programming_language": "Python"
       },
       "sources": [
         {
           "label": "Latest maintainer patch release, v0.2.3",
           "url": "https://github.com/arqhive/fire-emblem-warriors-korean-translation/releases/tag/v0.2.3"
+        },
+        {
+          "label": "GitHub Languages API — Python: 263,997 bytes (99.96% of 264,114 GitHub-classified bytes); rechecked 2026-10-16",
+          "url": "https://api.github.com/repos/arqhive/fire-emblem-warriors-korean-translation/languages"
         }
       ]
     },
@@ -2559,7 +2599,8 @@
         "project_url": "https://gitlab.com/kholdfuzion/goldeneye_src",
         "status": "The maintainer announced that all files had been decompiled and said the progress tracker was not updating. The primary GitLab README and GitHub mirror still label the project a work in progress, so completion applies only to the maintainer-reported decompilation coverage; matching/build status remains unclear and no native PC port is implied.",
         "summary": "Nintendo 64 matching decompilation project. In 2026 the maintainer reported that all files were decompiled, while the primary repository and GitHub mirror still label the project WIP; the tracker was said to be out of date.",
-        "updated": "2026-10-15"
+        "updated": "2026-10-15",
+        "source_available": "Public source repository (GitLab)"
       },
       "sources": [
         {
@@ -2573,6 +2614,10 @@
         {
           "label": "Maintainer status comment in r/GoldenEye",
           "url": "https://www.reddit.com/r/GoldenEye/comments/1vqoegq/no_for_me/"
+        },
+        {
+          "label": "GitLab project API (public visibility verified)",
+          "url": "https://gitlab.com/api/v4/projects/kholdfuzion%2Fgoldeneye_src"
         }
       ]
     },
@@ -2682,7 +2727,8 @@
         "platform": "PlayStation Portable → Android (ARM64 and ARMv7), Windows",
         "source_available": "Public MIT-licensed source repository and Android APK releases contain only the program; users must supply their own game files.",
         "status": "Beta v0.3.0; Android 8+ with Vulkan is tested on a Galaxy S25 Ultra. The release offers both arm64 and 32-bit ARM APKs; the README lists skipped intro video and remaining freeze/black-screen and high-resolution issues.",
-        "summary": "Android Vulkan port of a static PSP Allegrex-to-C++ recompilation, with fullscreen play and save-state support. Requires the user's own PSP game data; APKs do not include commercial assets."
+        "summary": "Android Vulkan port of a static PSP Allegrex-to-C++ recompilation, with fullscreen play and save-state support. Requires the user's own PSP game data; APKs do not include commercial assets.",
+        "programming_language": "C++"
       },
       "sources": [
         {
@@ -2700,6 +2746,10 @@
         {
           "label": "Maintainer README: source and game-data distribution",
           "url": "https://github.com/codepdbh/PSPRecomp-VCS-Android/blob/main/README.md"
+        },
+        {
+          "label": "GitHub Languages API — C++: 111,433,635 bytes (99.83% of 111,618,440 GitHub-classified bytes); rechecked 2026-10-16",
+          "url": "https://api.github.com/repos/codepdbh/PSPRecomp-VCS-Android/languages"
         }
       ]
     },
@@ -2823,7 +2873,8 @@
         "platform": "Nintendo 64 → Android 9+ (arm64-v8a; Vulkan 1.1)",
         "source_available": "Public GPL-3.0 source repository and Android APK releases; game assets are not included and users must supply an NTSC-U ROM.",
         "status": "APK releases are available; the README specifies Android 9/API 28+, arm64-v8a and Vulkan 1.1. It documents touch controls and dual-screen companion UI, but does not name a physical test device.",
-        "summary": "Android build of the Harvest Moon 64 static recompilation with an N64 touch overlay and optional second-screen dashboard for dual-display handhelds. It requires the user's NTSC-U ROM; game assets are not distributed."
+        "summary": "Android build of the Harvest Moon 64 static recompilation with an N64 touch overlay and optional second-screen dashboard for dual-display handhelds. It requires the user's NTSC-U ROM; game assets are not distributed.",
+        "programming_language": "C++"
       },
       "sources": [
         {
@@ -2841,6 +2892,10 @@
         {
           "label": "Maintainer README: source and game-data distribution",
           "url": "https://github.com/igawa6/HarvestMoon64Recomp/blob/main/README.md"
+        },
+        {
+          "label": "GitHub Languages API — C++: 1,308,535 bytes (69.08% of 1,894,205 GitHub-classified bytes); rechecked 2026-10-16",
+          "url": "https://api.github.com/repos/igawa6/HarvestMoon64Recomp/languages"
         }
       ]
     },
@@ -3948,7 +4003,8 @@
         "status": "Playable static-first bring-up v0.0.2: the game boots through the real BIOS into the opening mission with controls, audio, and persistent SRAM. Tested routes have full static coverage, but uncovered targets still fall back to the interpreter and the whole game is not exhaustively proven static.",
         "strategy": "Static-first recompilation with runtime interpreter fallback",
         "summary": "The GBA ARM/Thumb code and BIOS are recompiled to native C++; the runtime models GBA hardware and retains an instruction interpreter for uncovered code. The README distinguishes tested static routes from whole-game coverage.",
-        "updated": "2026-10-15"
+        "updated": "2026-10-15",
+        "platform": "Game Boy Advance → Windows x64 (published release binaries)"
       },
       "sources": [
         {
@@ -3958,6 +4014,14 @@
         {
           "label": "GitHub repository metadata (primary language) / GitHub repository API: source availability and license metadata",
           "url": "https://api.github.com/repos/mstan/MegaManZeroRecomp"
+        },
+        {
+          "label": "Maintainer README (Windows x64 release and Windows build prerequisites)",
+          "url": "https://github.com/mstan/MegaManZeroRecomp#readme"
+        },
+        {
+          "label": "Maintainer GitHub releases",
+          "url": "https://github.com/mstan/MegaManZeroRecomp/releases"
         }
       ]
     },
@@ -4001,7 +4065,8 @@
       "id": "meleepad-melee-ios",
       "fields": {
         "platform": "Nintendo GameCube → iOS/iPadOS 16+ and Apple Silicon macOS 14+",
-        "source_available": "Public GPL-3.0 source repository and module-free app shell; PadMint builds the game module from the user’s own supported disc. Generated game code is not distributed."
+        "source_available": "Public GPL-3.0 source repository and module-free app shell; PadMint builds the game module from the user’s own supported disc. Generated game code is not distributed.",
+        "programming_language": "Python"
       },
       "sources": [
         {
@@ -4011,6 +4076,10 @@
         {
           "label": "Maintainer README: source and game-data distribution",
           "url": "https://github.com/chrissotraidis/meleepad/blob/main/README.md"
+        },
+        {
+          "label": "GitHub Languages API — Python: 588,800 bytes (36.75% of 1,602,139 GitHub-classified bytes); rechecked 2026-10-16",
+          "url": "https://api.github.com/repos/chrissotraidis/meleepad/languages"
         }
       ]
     },
@@ -4107,7 +4176,8 @@
         "platform": "Nintendo DS → Android 11+ (arm64; dual-screen; AYN Thor tested)",
         "source_available": "Public GPL-3.0 source repository and APK releases; no game data is included. Users supply a verified USA revision 0 cartridge dump.",
         "status": "v0.2.5 Android APK release. The only documented physical device is the AYN Thor (Android 13, dual-screen ARM64), where the maintainer reports about 58–59 fps and second-screen stylus/touch operation. Other-device support is not established.",
-        "summary": "Nintendo DS code is statically recompiled to native ARM64 for Android and packaged for dual-screen devices. Requires the user's own USA AMHE-0 cartridge dump; the app verifies/imports it and uses the lower touchscreen as the DS stylus screen."
+        "summary": "Nintendo DS code is statically recompiled to native ARM64 for Android and packaged for dual-screen devices. Requires the user's own USA AMHE-0 cartridge dump; the app verifies/imports it and uses the lower touchscreen as the DS stylus screen.",
+        "programming_language": "Java"
       },
       "sources": [
         {
@@ -4125,6 +4195,10 @@
         {
           "label": "Maintainer README: source and game-data distribution",
           "url": "https://github.com/aabrole/HuntersRecomp/blob/main/README.md"
+        },
+        {
+          "label": "GitHub Languages API — Java: 278,779 bytes (99.35% of 280,609 GitHub-classified bytes); rechecked 2026-10-16",
+          "url": "https://api.github.com/repos/aabrole/HuntersRecomp/languages"
         }
       ]
     },
@@ -4287,7 +4361,8 @@
     {
       "id": "mini-vmac",
       "fields": {
-        "source_available": "Public GPL-2.0 source repository with build scripts for the documented Macintosh models and host platforms."
+        "source_available": "Public GPL-2.0 source repository with build scripts for the documented Macintosh models and host platforms.",
+        "programming_language": "C"
       },
       "sources": [
         {
@@ -4297,6 +4372,10 @@
         {
           "label": "Maintainer README: source and game-data distribution",
           "url": "https://github.com/minivmac/minivmac/blob/master/README.md"
+        },
+        {
+          "label": "GitHub Languages API — C: 1,873,976 bytes (74.14% of 2,527,725 GitHub-classified bytes); rechecked 2026-10-16",
+          "url": "https://api.github.com/repos/minivmac/minivmac/languages"
         }
       ]
     },
@@ -4797,11 +4876,20 @@
     {
       "id": "okaeri-chibi-robo-en",
       "fields": {
-        "source_available": "Public source repository (BSD-3-Clause license)"
+        "source_available": "Public source repository (BSD-3-Clause license)",
+        "status": "Released; latest tagged patch v1.1 was published 2016-07-05. The repository received a later commit on 2024-06-24; no newer tagged release is listed as checked 2026-10-16."
       },
       "sources": [
         {
           "label": "GitHub repository API: source availability and license metadata",
+          "url": "https://api.github.com/repos/cjuub/okaeri-chibi-translation"
+        },
+        {
+          "label": "GitHub v1.1 release (published date)",
+          "url": "https://github.com/cjuub/okaeri-chibi-translation/releases/tag/v1.1"
+        },
+        {
+          "label": "GitHub repository API (latest push date)",
           "url": "https://api.github.com/repos/cjuub/okaeri-chibi-translation"
         }
       ]
@@ -5179,7 +5267,8 @@
       "id": "perfect-dark-android",
       "fields": {
         "platform": "Nintendo 64 → Android 5+ (arm64-v8a, armeabi-v7a, x86_64, x86)",
-        "source_available": "Public MIT-licensed source repository and automatic builds; the user must supply a supported Perfect Dark ROM, which is not included."
+        "source_available": "Public MIT-licensed source repository and automatic builds; the user must supply a supported Perfect Dark ROM, which is not included.",
+        "programming_language": "C"
       },
       "sources": [
         {
@@ -5197,6 +5286,10 @@
         {
           "label": "Maintainer Android 2.0.0 release",
           "url": "https://github.com/izzy2lost/perfect_dark/releases/tag/2.0.0"
+        },
+        {
+          "label": "GitHub Languages API — C: 14,446,598 bytes (85.69% of 16,860,010 GitHub-classified bytes); rechecked 2026-10-16",
+          "url": "https://api.github.com/repos/izzy2lost/perfect_dark/languages"
         }
       ]
     },
@@ -5343,12 +5436,17 @@
     {
       "id": "pokemon-azoth-en",
       "fields": {
-        "updated": "2026-10-13"
+        "updated": "2026-10-13",
+        "programming_language": "Python"
       },
       "sources": [
         {
           "label": "Latest maintainer patch release, beta-22",
           "url": "https://github.com/RiFa-Innovation/pkmn-azoth-translation/releases/tag/beta-22"
+        },
+        {
+          "label": "GitHub Languages API — Python: 259,842 bytes (99.05% of 262,326 GitHub-classified bytes); rechecked 2026-10-16",
+          "url": "https://api.github.com/repos/RiFa-Innovation/pkmn-azoth-translation/languages"
         }
       ]
     },
@@ -5399,7 +5497,8 @@
         "status": "Playable bring-up v0.0.1: Emerald boots through the BIOS intro into gameplay, but is not exhaustively tested; the README calls out RTC and battle/contest code paths and documents interpreter/JIT coverage healing.",
         "strategy": "Static recompilation with interpreter/JIT coverage healing",
         "summary": "GBA ARM7TDMI code is statically translated to native code, with interpreter execution for uncovered paths followed by persisted JIT compilation. Emerald is a separate target from the FireRed/LeafGreen and Ruby/Sapphire repositories; users provide the ROM and BIOS.",
-        "updated": "2026-10-15"
+        "updated": "2026-10-15",
+        "platform": "Game Boy Advance → Windows x64 (published release binaries)"
       },
       "sources": [
         {
@@ -5409,6 +5508,14 @@
         {
           "label": "GitHub repository metadata (primary language) / GitHub repository API: source availability and license metadata",
           "url": "https://api.github.com/repos/mstan/EmeraldRecomp"
+        },
+        {
+          "label": "Maintainer README (Windows x64 release and Windows build prerequisites)",
+          "url": "https://github.com/mstan/EmeraldRecomp#readme"
+        },
+        {
+          "label": "Maintainer GitHub releases",
+          "url": "https://github.com/mstan/EmeraldRecomp/releases"
         }
       ]
     },
@@ -5462,7 +5569,8 @@
         "status": "Playable bring-up v0.0.1: the USA release boots through the BIOS intro into gameplay, but content is not exhaustively tested and some code paths use a one-time interpreter followed by persisted JIT compilation.",
         "strategy": "Static recompilation with interpreter/JIT coverage healing",
         "summary": "GBA ARM7TDMI code is statically translated to native code; uncovered paths first run through an interpreter and are then JIT-compiled and cached. FireRed and LeafGreen are separate targets in one public repository; the game ROM and BIOS are user supplied.",
-        "updated": "2026-10-15"
+        "updated": "2026-10-15",
+        "platform": "Game Boy Advance → Windows x64 (published release binaries)"
       },
       "sources": [
         {
@@ -5472,6 +5580,14 @@
         {
           "label": "GitHub repository metadata (primary language) / GitHub repository API: source availability and license metadata",
           "url": "https://api.github.com/repos/mstan/FireRedLeafGreenRecomp"
+        },
+        {
+          "label": "Maintainer README (Windows x64 release and Windows build prerequisites)",
+          "url": "https://github.com/mstan/FireRedLeafGreenRecomp#readme"
+        },
+        {
+          "label": "Maintainer GitHub releases",
+          "url": "https://github.com/mstan/FireRedLeafGreenRecomp/releases"
         }
       ]
     },
@@ -5510,7 +5626,8 @@
         "status": "Playable bring-up v0.0.1: the USA release boots through the BIOS intro into gameplay, but content is not exhaustively tested and some code paths use a one-time interpreter followed by persisted JIT compilation.",
         "strategy": "Static recompilation with interpreter/JIT coverage healing",
         "summary": "GBA ARM7TDMI code is statically translated to native code; uncovered paths first run through an interpreter and are then JIT-compiled and cached. FireRed and LeafGreen are separate targets in one public repository; the game ROM and BIOS are user supplied.",
-        "updated": "2026-10-15"
+        "updated": "2026-10-15",
+        "platform": "Game Boy Advance → Windows x64 (published release binaries)"
       },
       "sources": [
         {
@@ -5520,6 +5637,14 @@
         {
           "label": "GitHub repository metadata (primary language) / GitHub repository API: source availability and license metadata",
           "url": "https://api.github.com/repos/mstan/FireRedLeafGreenRecomp"
+        },
+        {
+          "label": "Maintainer README (Windows x64 release and Windows build prerequisites)",
+          "url": "https://github.com/mstan/FireRedLeafGreenRecomp#readme"
+        },
+        {
+          "label": "Maintainer GitHub releases",
+          "url": "https://github.com/mstan/FireRedLeafGreenRecomp/releases"
         }
       ]
     },
@@ -5570,7 +5695,8 @@
         "status": "Playable bring-up v0.0.1: the USA release boots through the BIOS intro into gameplay, but is not exhaustively tested; the README warns of early-boot, flash, and RTC quirks and documents interpreter/JIT coverage healing.",
         "strategy": "Static recompilation with interpreter/JIT coverage healing",
         "summary": "GBA ARM7TDMI code is statically translated to native code, with interpreter execution for uncovered paths followed by persisted JIT compilation. Ruby and Sapphire are separate targets in the same public repository and share the source tree and engine.",
-        "updated": "2026-10-15"
+        "updated": "2026-10-15",
+        "platform": "Game Boy Advance → Windows x64 (published release binaries)"
       },
       "sources": [
         {
@@ -5580,6 +5706,14 @@
         {
           "label": "GitHub repository metadata (primary language) / GitHub repository API: source availability and license metadata",
           "url": "https://api.github.com/repos/mstan/RubySapphireRecomp"
+        },
+        {
+          "label": "Maintainer README (Windows x64 release and Windows build prerequisites)",
+          "url": "https://github.com/mstan/RubySapphireRecomp#readme"
+        },
+        {
+          "label": "Maintainer GitHub releases",
+          "url": "https://github.com/mstan/RubySapphireRecomp/releases"
         }
       ]
     },
@@ -5606,7 +5740,8 @@
         "status": "Playable bring-up v0.0.1: the USA release boots through the BIOS intro into gameplay, but is not exhaustively tested; the README warns of early-boot, flash, and RTC quirks and documents interpreter/JIT coverage healing.",
         "strategy": "Static recompilation with interpreter/JIT coverage healing",
         "summary": "GBA ARM7TDMI code is statically translated to native code, with interpreter execution for uncovered paths followed by persisted JIT compilation. Ruby and Sapphire are separate targets in the same public repository and share the source tree and engine.",
-        "updated": "2026-10-15"
+        "updated": "2026-10-15",
+        "platform": "Game Boy Advance → Windows x64 (published release binaries)"
       },
       "sources": [
         {
@@ -5616,6 +5751,14 @@
         {
           "label": "GitHub repository metadata (primary language) / GitHub repository API: source availability and license metadata",
           "url": "https://api.github.com/repos/mstan/RubySapphireRecomp"
+        },
+        {
+          "label": "Maintainer README (Windows x64 release and Windows build prerequisites)",
+          "url": "https://github.com/mstan/RubySapphireRecomp#readme"
+        },
+        {
+          "label": "Maintainer GitHub releases",
+          "url": "https://github.com/mstan/RubySapphireRecomp/releases"
         }
       ]
     },
@@ -5733,7 +5876,8 @@
       "id": "projectreach-halo-xbox-ios",
       "fields": {
         "platform": "Original Xbox → iOS/iPadOS 17.4+ and Apple Silicon macOS 14.4+",
-        "source_available": "Public source repository and build instructions; there is no app download. Users supply their own supported Xbox disc image."
+        "source_available": "Public source repository and build instructions; there is no app download. Users supply their own supported Xbox disc image.",
+        "programming_language": "C"
       },
       "sources": [
         {
@@ -5743,6 +5887,10 @@
         {
           "label": "Maintainer README: source and game-data distribution",
           "url": "https://github.com/chrissotraidis/projectreach/blob/main/README.md"
+        },
+        {
+          "label": "GitHub Languages API — C: 1,514,022 bytes (46.60% of 3,248,848 GitHub-classified bytes); rechecked 2026-10-16",
+          "url": "https://api.github.com/repos/chrissotraidis/projectreach/languages"
         }
       ]
     },
@@ -6118,7 +6266,8 @@
       "id": "sacred-stones-android-recomp",
       "fields": {
         "platform": "Game Boy Advance → Windows x64 and Android 9+ (ARM64)",
-        "source_available": "Public source repository and Windows/Android release packages; the game ROM, GBA BIOS, and generated ROM-derived code are not included."
+        "source_available": "Public source repository and Windows/Android release packages; the game ROM, GBA BIOS, and generated ROM-derived code are not included.",
+        "programming_language": "PowerShell"
       },
       "sources": [
         {
@@ -6128,6 +6277,10 @@
         {
           "label": "Maintainer README: source and game-data distribution",
           "url": "https://github.com/Lordingard/SacredStonesRecomp/blob/main/README.md"
+        },
+        {
+          "label": "GitHub Languages API — PowerShell: 75,262 bytes (51.52% of 146,088 GitHub-classified bytes); rechecked 2026-10-16",
+          "url": "https://api.github.com/repos/Lordingard/SacredStonesRecomp/languages"
         }
       ]
     },
@@ -6241,7 +6394,8 @@
     {
       "id": "sheepshaver-classic-mac",
       "fields": {
-        "source_available": "GPL source is public in the shared macemu repository; users must separately supply a Mac OS copy and PowerMac ROM image."
+        "source_available": "GPL source is public in the shared macemu repository; users must separately supply a Mac OS copy and PowerMac ROM image.",
+        "programming_language": "C++"
       },
       "sources": [
         {
@@ -6251,6 +6405,10 @@
         {
           "label": "Maintainer README: source and game-data distribution",
           "url": "https://github.com/cebix/macemu/blob/master/README.md"
+        },
+        {
+          "label": "GitHub Languages API — C++: 5,265,362 bytes (63.32% of 8,315,522 GitHub-classified bytes); rechecked 2026-10-16",
+          "url": "https://api.github.com/repos/cebix/macemu/languages"
         }
       ]
     },
@@ -6468,7 +6626,8 @@
     {
       "id": "sm64-android-port-base",
       "fields": {
-        "source_available": "Public source and Android build instructions; a user-supplied Super Mario 64 baserom is required and is not included."
+        "source_available": "Public source and Android build instructions; a user-supplied Super Mario 64 baserom is required and is not included.",
+        "programming_language": "Java"
       },
       "sources": [
         {
@@ -6478,6 +6637,10 @@
         {
           "label": "Maintainer README: source and game-data distribution",
           "url": "https://github.com/VDavid003/sm64-port-android-base/blob/master/README.md"
+        },
+        {
+          "label": "GitHub Languages API — Java: 188,721 bytes (96.90% of 194,756 GitHub-classified bytes); rechecked 2026-10-16",
+          "url": "https://api.github.com/repos/VDavid003/sm64-port-android-base/languages"
         }
       ]
     },
@@ -6576,7 +6739,8 @@
       "id": "snappad-pokemon-snap-ios",
       "fields": {
         "platform": "Nintendo 64 → iOS/iPadOS 15+ and Apple Silicon macOS",
-        "source_available": "Public integration source and build instructions; public playable downloads are paused. Users provide their own USA ROM; the repository excludes ROM-derived code and game assets."
+        "source_available": "Public integration source and build instructions; public playable downloads are paused. Users provide their own USA ROM; the repository excludes ROM-derived code and game assets.",
+        "programming_language": "Python"
       },
       "sources": [
         {
@@ -6586,6 +6750,10 @@
         {
           "label": "Maintainer README: source and game-data distribution",
           "url": "https://github.com/chrissotraidis/snappad/blob/main/README.md"
+        },
+        {
+          "label": "GitHub Languages API — Python: 233,229 bytes (36.64% of 636,626 GitHub-classified bytes); rechecked 2026-10-16",
+          "url": "https://api.github.com/repos/chrissotraidis/snappad/languages"
         }
       ]
     },
@@ -6871,7 +7039,8 @@
     {
       "id": "spaghettikart-android",
       "fields": {
-        "source_available": "Public source and releases; no copyrighted game assets are included. Users provide a supported USA ROM."
+        "source_available": "Public source and releases; no copyrighted game assets are included. Users provide a supported USA ROM.",
+        "programming_language": "C"
       },
       "sources": [
         {
@@ -6881,6 +7050,10 @@
         {
           "label": "Maintainer README: source and game-data distribution",
           "url": "https://github.com/izzy2lost/SpaghettiKart/blob/main/README.md"
+        },
+        {
+          "label": "GitHub Languages API — C: 15,849,975 bytes (86.17% of 18,393,534 GitHub-classified bytes); rechecked 2026-10-16",
+          "url": "https://api.github.com/repos/izzy2lost/SpaghettiKart/languages"
         }
       ]
     },
@@ -7086,7 +7259,8 @@
     {
       "id": "starship-android",
       "fields": {
-        "source_available": "Public CC0-1.0 source repository and releases; no copyrighted game assets are included. Users provide a supported US ROM to generate game assets."
+        "source_available": "Public CC0-1.0 source repository and releases; no copyrighted game assets are included. Users provide a supported US ROM to generate game assets.",
+        "programming_language": "C"
       },
       "sources": [
         {
@@ -7096,6 +7270,10 @@
         {
           "label": "Maintainer README: source and game-data distribution",
           "url": "https://github.com/izzy2lost/Starship/blob/main/README.md"
+        },
+        {
+          "label": "GitHub Languages API — C: 8,370,855 bytes (77.69% of 10,774,803 GitHub-classified bytes); rechecked 2026-10-16",
+          "url": "https://api.github.com/repos/izzy2lost/Starship/languages"
         }
       ]
     },
@@ -7595,7 +7773,8 @@
     {
       "id": "theft4-gta-iv-ios",
       "fields": {
-        "source_available": "Public GPL-3.0 source repository and unsigned iOS IPA release; no game files or generated game data are included. Users provide files from their own legally obtained Xbox 360 copy."
+        "source_available": "Public GPL-3.0 source repository and unsigned iOS IPA release; no game files or generated game data are included. Users provide files from their own legally obtained Xbox 360 copy.",
+        "programming_language": "C++"
       },
       "sources": [
         {
@@ -7605,6 +7784,10 @@
         {
           "label": "Maintainer README: source and game-data distribution",
           "url": "https://github.com/KoreanSeats1/Theft4/blob/main/README.md"
+        },
+        {
+          "label": "GitHub Languages API — C++: 272,297,233 bytes (84.56% of 322,026,172 GitHub-classified bytes); rechecked 2026-10-16",
+          "url": "https://api.github.com/repos/KoreanSeats1/Theft4/languages"
         }
       ]
     },
@@ -7699,12 +7882,22 @@
     {
       "id": "trouble-makers-recomp",
       "fields": {
-        "source_available": "Public source repository (GPL-3.0 license)"
+        "source_available": "Public source repository (GPL-3.0 license)",
+        "status": "Latest release v0.8.4 (2026-10-05). Release notes validate 52 playable progression rows and Steam Deck startup, while noting boss-background issues; this is not a full-playthrough claim.",
+        "platform": "Nintendo 64 → Windows x64, Linux x86-64, Steam Deck (published Windows ZIP and x86_64 AppImages)"
       },
       "sources": [
         {
           "label": "GitHub repository API: source availability and license metadata",
           "url": "https://api.github.com/repos/ThiagoLira/trouble-makers-pc-recomp"
+        },
+        {
+          "label": "GitHub v0.8.4 release (assets, validation, known issues)",
+          "url": "https://github.com/ThiagoLira/trouble-makers-pc-recomp/releases/tag/v0.8.4"
+        },
+        {
+          "label": "Maintainer README (supported targets and project status)",
+          "url": "https://github.com/ThiagoLira/trouble-makers-pc-recomp#readme"
         }
       ]
     },
@@ -8201,7 +8394,8 @@
     {
       "id": "wheeldroid-mario-kart-wii-android",
       "fields": {
-        "source_available": "Public GPL-3.0 source repository; neither Nintendo code nor game assets/data are included. Users supply their own legally dumped PAL RMCP01 disc image."
+        "source_available": "Public GPL-3.0 source repository; neither Nintendo code nor game assets/data are included. Users supply their own legally dumped PAL RMCP01 disc image.",
+        "programming_language": "C++"
       },
       "sources": [
         {
@@ -8211,6 +8405,10 @@
         {
           "label": "Maintainer README: source and game-data distribution",
           "url": "https://github.com/KeithKirenai/wheeldroid/blob/main/README.md"
+        },
+        {
+          "label": "GitHub Languages API — C++: 3,658,471 bytes (47.94% of 7,631,016 GitHub-classified bytes); rechecked 2026-10-16",
+          "url": "https://api.github.com/repos/KeithKirenai/wheeldroid/languages"
         }
       ]
     },
@@ -8481,7 +8679,8 @@
         "status": "Playable into gameplay in v0.0.1: boot, overworld, dialogue, and save-state round trips are reported working. The project is early and not all paths are statically covered; uncovered code uses an interpreter before persisted JIT compilation.",
         "strategy": "Static recompilation with interpreter/JIT coverage healing",
         "summary": "GBA ARM7TDMI code, including the BIOS, is statically translated to native C. An interpreter and persisted JIT handle uncovered paths; the public README describes this as an in-development base and runner, not a finished port.",
-        "updated": "2026-10-15"
+        "updated": "2026-10-15",
+        "platform": "Game Boy Advance → Windows x64 (published release binaries)"
       },
       "sources": [
         {
@@ -8491,6 +8690,14 @@
         {
           "label": "GitHub repository metadata (primary language) / GitHub repository API: source availability and license metadata",
           "url": "https://api.github.com/repos/mstan/MinishCapRecomp"
+        },
+        {
+          "label": "Maintainer README (Windows x64 release and Windows build prerequisites)",
+          "url": "https://github.com/mstan/MinishCapRecomp#readme"
+        },
+        {
+          "label": "Maintainer GitHub releases",
+          "url": "https://github.com/mstan/MinishCapRecomp/releases"
         }
       ]
     },
@@ -8564,6 +8771,1904 @@
         {
           "label": "GitHub repository API: source availability and license metadata",
           "url": "https://api.github.com/repos/linkzenic/Zelda64Recomp-Android"
+        }
+      ]
+    },
+    {
+      "id": "pokemon-red-gen1recomp-mobile",
+      "fields": {
+        "platform": "Game Boy → Android, iOS/iPadOS, Windows, macOS, Linux, PlayStation 4, Nintendo Switch, Xbox UWP, and PortMaster-compatible handhelds",
+        "status": "Gen 1 title support; v0.3.89 (2026-10-15) publishes Android APK and iOS IPA plus Windows, macOS, Linux, PS4, Switch, Xbox UWP, and PortMaster builds. The README does not provide a physical mobile-device compatibility matrix.",
+        "source_available": "Public engine source under GPL-3.0 with project-specific additional terms; launcher files identified in LICENSE.MD are proprietary. Official platform builds are published. Users supply a supported original ROM for local import; no ROM or extracted game content is distributed."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: game support and platform-specific documentation",
+          "url": "https://github.com/bryanthaboi/gen1recomp/blob/dev/README.md"
+        },
+        {
+          "label": "Official v0.3.89 release and platform build assets",
+          "url": "https://github.com/bryanthaboi/gen1recomp/releases/tag/v0.3.89"
+        },
+        {
+          "label": "Project license and proprietary launcher exceptions",
+          "url": "https://github.com/bryanthaboi/gen1recomp/blob/dev/LICENSE.MD"
+        }
+      ]
+    },
+    {
+      "id": "pokemon-blue-gen1recomp-mobile",
+      "fields": {
+        "platform": "Game Boy → Android, iOS/iPadOS, Windows, macOS, Linux, PlayStation 4, Nintendo Switch, Xbox UWP, and PortMaster-compatible handhelds",
+        "status": "Gen 1 title support; v0.3.89 (2026-10-15) publishes Android APK and iOS IPA plus Windows, macOS, Linux, PS4, Switch, Xbox UWP, and PortMaster builds. The README does not provide a physical mobile-device compatibility matrix.",
+        "source_available": "Public engine source under GPL-3.0 with project-specific additional terms; launcher files identified in LICENSE.MD are proprietary. Official platform builds are published. Users supply a supported original ROM for local import; no ROM or extracted game content is distributed."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: game support and platform-specific documentation",
+          "url": "https://github.com/bryanthaboi/gen1recomp/blob/dev/README.md"
+        },
+        {
+          "label": "Official v0.3.89 release and platform build assets",
+          "url": "https://github.com/bryanthaboi/gen1recomp/releases/tag/v0.3.89"
+        },
+        {
+          "label": "Project license and proprietary launcher exceptions",
+          "url": "https://github.com/bryanthaboi/gen1recomp/blob/dev/LICENSE.MD"
+        }
+      ]
+    },
+    {
+      "id": "pokemon-yellow-gen1recomp-mobile",
+      "fields": {
+        "platform": "Game Boy → Android, iOS/iPadOS, Windows, macOS, Linux, PlayStation 4, Nintendo Switch, Xbox UWP, and PortMaster-compatible handhelds",
+        "status": "Gen 1 title support; v0.3.89 (2026-10-15) publishes Android APK and iOS IPA plus Windows, macOS, Linux, PS4, Switch, Xbox UWP, and PortMaster builds. The README does not provide a physical mobile-device compatibility matrix.",
+        "source_available": "Public engine source under GPL-3.0 with project-specific additional terms; launcher files identified in LICENSE.MD are proprietary. Official platform builds are published. Users supply a supported original ROM for local import; no ROM or extracted game content is distributed."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: game support and platform-specific documentation",
+          "url": "https://github.com/bryanthaboi/gen1recomp/blob/dev/README.md"
+        },
+        {
+          "label": "Official v0.3.89 release and platform build assets",
+          "url": "https://github.com/bryanthaboi/gen1recomp/releases/tag/v0.3.89"
+        },
+        {
+          "label": "Project license and proprietary launcher exceptions",
+          "url": "https://github.com/bryanthaboi/gen1recomp/blob/dev/LICENSE.MD"
+        }
+      ]
+    },
+    {
+      "id": "pokemon-emerald-gen1recomp-mobile",
+      "fields": {
+        "platform": "Game Boy Advance → Android, iOS/iPadOS, Windows, macOS, Linux, PlayStation 4, Nintendo Switch, Xbox UWP, and PortMaster-compatible handhelds",
+        "status": "Beta GBA title support; v0.3.89 (2026-10-15) publishes Android APK and iOS IPA plus Windows, macOS, Linux, PS4, Switch, Xbox UWP, and PortMaster builds. The README does not provide a physical mobile-device compatibility matrix.",
+        "source_available": "Public engine source under GPL-3.0 with project-specific additional terms; launcher files identified in LICENSE.MD are proprietary. Official platform builds are published. Users supply a supported original ROM for local import; no ROM or extracted game content is distributed."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: game support and platform-specific documentation",
+          "url": "https://github.com/bryanthaboi/gen1recomp/blob/dev/README.md"
+        },
+        {
+          "label": "Official v0.3.89 release and platform build assets",
+          "url": "https://github.com/bryanthaboi/gen1recomp/releases/tag/v0.3.89"
+        },
+        {
+          "label": "Project license and proprietary launcher exceptions",
+          "url": "https://github.com/bryanthaboi/gen1recomp/blob/dev/LICENSE.MD"
+        }
+      ]
+    },
+    {
+      "id": "pokemon-firered-gen1recomp-mobile",
+      "fields": {
+        "platform": "Game Boy Advance → Android, iOS/iPadOS, Windows, macOS, Linux, PlayStation 4, Nintendo Switch, Xbox UWP, and PortMaster-compatible handhelds",
+        "status": "Beta GBA title support; v0.3.89 (2026-10-15) publishes Android APK and iOS IPA plus Windows, macOS, Linux, PS4, Switch, Xbox UWP, and PortMaster builds. The README does not provide a physical mobile-device compatibility matrix.",
+        "source_available": "Public engine source under GPL-3.0 with project-specific additional terms; launcher files identified in LICENSE.MD are proprietary. Official platform builds are published. Users supply a supported original ROM for local import; no ROM or extracted game content is distributed."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: game support and platform-specific documentation",
+          "url": "https://github.com/bryanthaboi/gen1recomp/blob/dev/README.md"
+        },
+        {
+          "label": "Official v0.3.89 release and platform build assets",
+          "url": "https://github.com/bryanthaboi/gen1recomp/releases/tag/v0.3.89"
+        },
+        {
+          "label": "Project license and proprietary launcher exceptions",
+          "url": "https://github.com/bryanthaboi/gen1recomp/blob/dev/LICENSE.MD"
+        }
+      ]
+    },
+    {
+      "id": "pokemon-leafgreen-gen1recomp-mobile",
+      "fields": {
+        "platform": "Game Boy Advance → Android, iOS/iPadOS, Windows, macOS, Linux, PlayStation 4, Nintendo Switch, Xbox UWP, and PortMaster-compatible handhelds",
+        "status": "Beta GBA title support; v0.3.89 (2026-10-15) publishes Android APK and iOS IPA plus Windows, macOS, Linux, PS4, Switch, Xbox UWP, and PortMaster builds. The README does not provide a physical mobile-device compatibility matrix.",
+        "source_available": "Public engine source under GPL-3.0 with project-specific additional terms; launcher files identified in LICENSE.MD are proprietary. Official platform builds are published. Users supply a supported original ROM for local import; no ROM or extracted game content is distributed."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: game support and platform-specific documentation",
+          "url": "https://github.com/bryanthaboi/gen1recomp/blob/dev/README.md"
+        },
+        {
+          "label": "Official v0.3.89 release and platform build assets",
+          "url": "https://github.com/bryanthaboi/gen1recomp/releases/tag/v0.3.89"
+        },
+        {
+          "label": "Project license and proprietary launcher exceptions",
+          "url": "https://github.com/bryanthaboi/gen1recomp/blob/dev/LICENSE.MD"
+        }
+      ]
+    },
+    {
+      "id": "pokemon-ruby-gen1recomp-mobile",
+      "fields": {
+        "platform": "Game Boy Advance → Android, iOS/iPadOS, Windows, macOS, Linux, PlayStation 4, Nintendo Switch, Xbox UWP, and PortMaster-compatible handhelds",
+        "status": "Beta GBA title support; v0.3.89 (2026-10-15) publishes Android APK and iOS IPA plus Windows, macOS, Linux, PS4, Switch, Xbox UWP, and PortMaster builds. The README does not provide a physical mobile-device compatibility matrix.",
+        "source_available": "Public engine source under GPL-3.0 with project-specific additional terms; launcher files identified in LICENSE.MD are proprietary. Official platform builds are published. Users supply a supported original ROM for local import; no ROM or extracted game content is distributed."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: game support and platform-specific documentation",
+          "url": "https://github.com/bryanthaboi/gen1recomp/blob/dev/README.md"
+        },
+        {
+          "label": "Official v0.3.89 release and platform build assets",
+          "url": "https://github.com/bryanthaboi/gen1recomp/releases/tag/v0.3.89"
+        },
+        {
+          "label": "Project license and proprietary launcher exceptions",
+          "url": "https://github.com/bryanthaboi/gen1recomp/blob/dev/LICENSE.MD"
+        }
+      ]
+    },
+    {
+      "id": "pokemon-sapphire-gen1recomp-mobile",
+      "fields": {
+        "platform": "Game Boy Advance → Android, iOS/iPadOS, Windows, macOS, Linux, PlayStation 4, Nintendo Switch, Xbox UWP, and PortMaster-compatible handhelds",
+        "status": "Beta GBA title support; v0.3.89 (2026-10-15) publishes Android APK and iOS IPA plus Windows, macOS, Linux, PS4, Switch, Xbox UWP, and PortMaster builds. The README does not provide a physical mobile-device compatibility matrix.",
+        "source_available": "Public engine source under GPL-3.0 with project-specific additional terms; launcher files identified in LICENSE.MD are proprietary. Official platform builds are published. Users supply a supported original ROM for local import; no ROM or extracted game content is distributed."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: game support and platform-specific documentation",
+          "url": "https://github.com/bryanthaboi/gen1recomp/blob/dev/README.md"
+        },
+        {
+          "label": "Official v0.3.89 release and platform build assets",
+          "url": "https://github.com/bryanthaboi/gen1recomp/releases/tag/v0.3.89"
+        },
+        {
+          "label": "Project license and proprietary launcher exceptions",
+          "url": "https://github.com/bryanthaboi/gen1recomp/blob/dev/LICENSE.MD"
+        }
+      ]
+    },
+    {
+      "id": "d8vk-integrated-dxvk",
+      "fields": {
+        "platform": "Windows Direct3D 8 applications → Linux through Wine/Proton; 32-bit and 64-bit builds. Current D3D8 implementation is maintained in DXVK.",
+        "source_available": "The historical standalone source remains public under Zlib; its README says development was merged into DXVK, whose public source now includes Direct3D 8 support. Use upstream DXVK for the maintained implementation."
+      },
+      "sources": [
+        {
+          "label": "D8VK maintainer README: project merged into DXVK",
+          "url": "https://github.com/AlpyneDreams/d8vk/blob/main/README.md"
+        },
+        {
+          "label": "Current DXVK README: Direct3D 8 support and Linux/Wine scope",
+          "url": "https://github.com/doitsujin/dxvk"
+        }
+      ]
+    },
+    {
+      "id": "heroes2-fheroes2-vita",
+      "fields": {
+        "source_available": "The Vita source/playground is public under GPL-2.0; Vita support was merged into upstream fheroes2, where current Vita packages are published. Players supply original Heroes II data (HEROES2.AGG and MAPS); expansion and music files are optional. No original game data is included."
+      },
+      "sources": [
+        {
+          "label": "Vita maintainer README: upstream merge, build and required game data",
+          "url": "https://github.com/Northfear/fheroes2-vita/blob/master/README.md"
+        },
+        {
+          "label": "Upstream fheroes2 release containing the Vita package",
+          "url": "https://github.com/ihhub/fheroes2/releases/tag/1.1.17"
+        },
+        {
+          "label": "Upstream source and GPL-2.0 license",
+          "url": "https://github.com/ihhub/fheroes2"
+        }
+      ]
+    },
+    {
+      "id": "super-mario-bros-nes-vanilla",
+      "fields": {
+        "platform": "Nintendo Entertainment System ROM → Linux desktop and Windows x64 builds (SDL2/SDL3).",
+        "subtype": "Gameplay reimplementation in C from reverse-engineered code",
+        "source_available": "Public C source under GPL-3.0. A legally obtained supported ROM is required; the maintainer states the repository includes no ROM, level data, or graphical assets."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: ROM requirement, exclusions and gameplay status",
+          "url": "https://codeberg.org/dannysp/SMB-Vanilla/src/branch/main/README.md"
+        },
+        {
+          "label": "Maintainer build instructions for Linux and Windows x64",
+          "url": "https://codeberg.org/dannysp/SMB-Vanilla/src/branch/main/BUILDING.md"
+        },
+        {
+          "label": "Project GPL-3.0 license",
+          "url": "https://codeberg.org/dannysp/SMB-Vanilla/src/branch/main/LICENSE.md"
+        }
+      ]
+    },
+    {
+      "id": "super-mario-bros-2j-nes-vanilla",
+      "fields": {
+        "platform": "Nintendo Entertainment System ROM → Linux desktop and Windows x64 builds (SDL2/SDL3).",
+        "subtype": "Gameplay reimplementation in C from reverse-engineered code",
+        "source_available": "Public C source under GPL-3.0. A legally obtained supported ROM is required; the maintainer states the repository includes no ROM, level data, or graphical assets."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: ROM requirement, exclusions and gameplay status",
+          "url": "https://codeberg.org/dannysp/SMB-Vanilla/src/branch/main/README.md"
+        },
+        {
+          "label": "Maintainer build instructions for Linux and Windows x64",
+          "url": "https://codeberg.org/dannysp/SMB-Vanilla/src/branch/main/BUILDING.md"
+        },
+        {
+          "label": "Project GPL-3.0 license",
+          "url": "https://codeberg.org/dannysp/SMB-Vanilla/src/branch/main/LICENSE.md"
+        }
+      ]
+    },
+    {
+      "id": "indiana-jones-desktop-adventures-webfun",
+      "fields": {
+        "source_available": "Public Codeberg source repository with maintainer-linked live browser demo and documentation. The repository tree has no license file or declared license, so public availability does not establish reuse permissions."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: shared engine scope, live demo and documentation",
+          "url": "https://codeberg.org/cyco/WebFun/src/branch/master/README.md"
+        },
+        {
+          "label": "Maintainer-linked live WebFun demo",
+          "url": "https://www.webfun.io/"
+        }
+      ]
+    },
+    {
+      "id": "yoda-stories-webfun",
+      "fields": {
+        "source_available": "Public Codeberg source repository with maintainer-linked live browser demo and documentation. The repository tree has no license file or declared license, so public availability does not establish reuse permissions."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: shared engine scope, live demo and documentation",
+          "url": "https://codeberg.org/cyco/WebFun/src/branch/master/README.md"
+        },
+        {
+          "label": "Maintainer-linked live WebFun demo",
+          "url": "https://www.webfun.io/"
+        }
+      ]
+    },
+    {
+      "id": "windows-live-movie-maker-2012-reconstruction",
+      "fields": {
+        "source_available": "Public MIT-licensed C++14/ATL/WTL reconstruction repository, including source, analysis notes, tests, and a phased roadmap. The project describes an ongoing reconstruction; MIT covers this repository, not Microsoft’s original application or assets."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: reconstruction scope, source tree and roadmap",
+          "url": "https://codeberg.org/PatoFlamejanteTV/WindowsMovieMakerDecomp/src/branch/main/README.md"
+        },
+        {
+          "label": "Project MIT license",
+          "url": "https://codeberg.org/PatoFlamejanteTV/WindowsMovieMakerDecomp/src/branch/main/LICENSE"
+        }
+      ]
+    },
+    {
+      "id": "animal-crossing-gamecube-decomp",
+      "fields": {
+        "programming_language": "C"
+      },
+      "sources": [
+        {
+          "label": "GitHub Languages API — C: 33,692,893 bytes (95.45% of 35,298,411 GitHub-classified bytes); rechecked 2026-10-16",
+          "url": "https://api.github.com/repos/ACreTeam/ac-decomp/languages"
+        }
+      ]
+    },
+    {
+      "id": "emerald-dragon-pce-english-translation",
+      "fields": {
+        "programming_language": "Assembly"
+      },
+      "sources": [
+        {
+          "label": "GitHub Languages API — Assembly: 2,951,282 bytes (38.42% of 7,682,526 GitHub-classified bytes); rechecked 2026-10-16",
+          "url": "https://api.github.com/repos/suppertails66/emdrtools/languages"
+        }
+      ]
+    },
+    {
+      "id": "galaxy-fraulein-yuna-2-pce-english-translation",
+      "fields": {
+        "programming_language": "C"
+      },
+      "sources": [
+        {
+          "label": "GitHub Languages API — C: 1,293,367 bytes (43.64% of 2,963,441 GitHub-classified bytes); rechecked 2026-10-16",
+          "url": "https://api.github.com/repos/suppertails66/yuna2tools/languages"
+        }
+      ]
+    },
+    {
+      "id": "galaxy-fraulein-yuna-pce-english-translation",
+      "fields": {
+        "programming_language": "C"
+      },
+      "sources": [
+        {
+          "label": "GitHub Languages API — C: 1,293,367 bytes (39.12% of 3,306,283 GitHub-classified bytes); rechecked 2026-10-16",
+          "url": "https://api.github.com/repos/suppertails66/yunatools/languages"
+        }
+      ]
+    },
+    {
+      "id": "hangover-arm64-linux-wine",
+      "fields": {
+        "programming_language": "Dockerfile"
+      },
+      "sources": [
+        {
+          "label": "GitHub Languages API — Dockerfile: 19,957 bytes (75.56% of 26,413 GitHub-classified bytes); rechecked 2026-10-16",
+          "url": "https://api.github.com/repos/AndreRH/hangover/languages"
+        }
+      ]
+    },
+    {
+      "id": "madou-monogatari-i-pce-english-translation",
+      "fields": {
+        "programming_language": "C"
+      },
+      "sources": [
+        {
+          "label": "GitHub Languages API — C: 1,291,011 bytes (50.89% of 2,536,858 GitHub-classified bytes); rechecked 2026-10-16",
+          "url": "https://api.github.com/repos/suppertails66/madou1pcetools/languages"
+        }
+      ]
+    },
+    {
+      "id": "mario-kart-wii-wiicompiled-pc",
+      "fields": {
+        "programming_language": "C++"
+      },
+      "sources": [
+        {
+          "label": "GitHub Languages API — C++: 3,701,628 bytes (50.56% of 7,321,939 GitHub-classified bytes); rechecked 2026-10-16",
+          "url": "https://api.github.com/repos/patchzyy/Wiicompiled/languages"
+        }
+      ]
+    },
+    {
+      "id": "mewgenics-cn",
+      "fields": {
+        "programming_language": "Python"
+      },
+      "sources": [
+        {
+          "label": "GitHub Languages API — Python: 104,631 bytes (100.00% of 104,631 GitHub-classified bytes); rechecked 2026-10-16",
+          "url": "https://api.github.com/repos/rainzz-512/Mewgenics-Chinese-Translation/languages"
+        }
+      ]
+    },
+    {
+      "id": "might-and-magic-pce-english-translation",
+      "fields": {
+        "programming_language": "Python"
+      },
+      "sources": [
+        {
+          "label": "GitHub Languages API — Python: 1,217 bytes (100.00% of 1,217 GitHub-classified bytes); rechecked 2026-10-16",
+          "url": "https://api.github.com/repos/TiCoKH/PCEngine_eng_patch/languages"
+        }
+      ]
+    },
+    {
+      "id": "mushoku-tensei-chronicle-of-echoes-en",
+      "fields": {
+        "programming_language": "Java"
+      },
+      "sources": [
+        {
+          "label": "GitHub Languages API — Java: 191,939 bytes (51.29% of 374,257 GitHub-classified bytes); rechecked 2026-10-16",
+          "url": "https://api.github.com/repos/Aikiooo/mt-en-applier/languages"
+        }
+      ]
+    },
+    {
+      "id": "private-eye-dol-pce-english-translation",
+      "fields": {
+        "programming_language": "C"
+      },
+      "sources": [
+        {
+          "label": "GitHub Languages API — C: 1,293,367 bytes (38.87% of 3,327,696 GitHub-classified bytes); rechecked 2026-10-16",
+          "url": "https://api.github.com/repos/suppertails66/pidoltools/languages"
+        }
+      ]
+    },
+    {
+      "id": "pvz-fusion-multilingual-localization",
+      "fields": {
+        "programming_language": "Python"
+      },
+      "sources": [
+        {
+          "label": "GitHub Languages API — Python: 29,534 bytes (100.00% of 29,534 GitHub-classified bytes); rechecked 2026-10-16",
+          "url": "https://api.github.com/repos/Teyliu/PVZF-Translation/languages"
+        }
+      ]
+    },
+    {
+      "id": "sailor-moon-pcecd-english-translation",
+      "fields": {
+        "programming_language": "C++"
+      },
+      "sources": [
+        {
+          "label": "GitHub Languages API — C++: 631,456 bytes (83.19% of 759,091 GitHub-classified bytes); rechecked 2026-10-16",
+          "url": "https://api.github.com/repos/suppertails66/bssmpcetools/languages"
+        }
+      ]
+    },
+    {
+      "id": "ship-of-harkinian-switch-port",
+      "fields": {
+        "programming_language": "C"
+      },
+      "sources": [
+        {
+          "label": "GitHub Languages API — C: 22,071,668 bytes (69.22% of 31,887,644 GitHub-classified bytes); rechecked 2026-10-16",
+          "url": "https://api.github.com/repos/GermanNunez-code/Shipwright-Switch/languages"
+        }
+      ]
+    },
+    {
+      "id": "summer-time-rendering-another-horizon-en",
+      "fields": {
+        "programming_language": "Python"
+      },
+      "sources": [
+        {
+          "label": "GitHub Languages API — Python: 35,976 bytes (86.87% of 41,415 GitHub-classified bytes); rechecked 2026-10-16",
+          "url": "https://api.github.com/repos/Dream-Cypher/STRAHLocalization/languages"
+        }
+      ]
+    },
+    {
+      "id": "tengai-makyou-ziria-pce-english-translation",
+      "fields": {
+        "programming_language": "C++"
+      },
+      "sources": [
+        {
+          "label": "GitHub Languages API — C++: 1,333,692 bytes (41.95% of 3,178,971 GitHub-classified bytes); rechecked 2026-10-16",
+          "url": "https://api.github.com/repos/suppertails66/tenmatools/languages"
+        }
+      ]
+    },
+    {
+      "id": "twilight-syndrome-ds-en-es",
+      "fields": {
+        "programming_language": "Python"
+      },
+      "sources": [
+        {
+          "label": "GitHub Languages API — Python: 134,190 bytes (100.00% of 134,190 GitHub-classified bytes); rechecked 2026-10-16",
+          "url": "https://api.github.com/repos/Secabel/twilight-syndrome/languages"
+        }
+      ]
+    },
+    {
+      "id": "wine",
+      "fields": {
+        "programming_language": "C"
+      },
+      "sources": [
+        {
+          "label": "GitLab project languages API — C: 81.17% of GitLab-reported repository language share; rechecked 2026-10-16",
+          "url": "https://gitlab.winehq.org/api/v4/projects/wine%2Fwine/languages"
+        }
+      ]
+    },
+    {
+      "id": "xiaomi-pc-manager-en",
+      "fields": {
+        "programming_language": "PowerShell"
+      },
+      "sources": [
+        {
+          "label": "GitHub Languages API — PowerShell: 44,991 bytes (67.39% of 66,758 GitHub-classified bytes); rechecked 2026-10-16",
+          "url": "https://api.github.com/repos/kremonia/XiaomiPCManager-English/languages"
+        }
+      ]
+    },
+    {
+      "id": "zero4-champ-pce-english-translation",
+      "fields": {
+        "programming_language": "C"
+      },
+      "sources": [
+        {
+          "label": "GitHub Languages API — C: 2,416,049 bytes (48.51% of 4,980,743 GitHub-classified bytes); rechecked 2026-10-16",
+          "url": "https://api.github.com/repos/suppertails66/zero4tools/languages"
+        }
+      ]
+    },
+    {
+      "id": "amplitude-ps2-project-amp",
+      "fields": {
+        "source_available": "Public source repository (GitLab)"
+      },
+      "sources": [
+        {
+          "label": "GitLab repository API (public visibility verified)",
+          "url": "https://gitlab.com/api/v4/projects/ztpeditor%2Fproject-amp"
+        }
+      ]
+    },
+    {
+      "id": "asphalt-8-android-vita-port",
+      "fields": {
+        "source_available": "Public source repository (GitLab)"
+      },
+      "sources": [
+        {
+          "label": "GitLab repository API (public visibility verified)",
+          "url": "https://gitlab.com/api/v4/projects/sexcurrybeats%2Fasphalt8-vita"
+        }
+      ]
+    },
+    {
+      "id": "croc-legend-of-gobbos-psx-demo-decomp",
+      "fields": {
+        "source_available": "Public source repository (Codeberg)"
+      },
+      "sources": [
+        {
+          "label": "Codeberg repository API (public visibility verified)",
+          "url": "https://codeberg.org/api/v1/repos/misbk/croc_psx"
+        }
+      ]
+    },
+    {
+      "id": "digimon-world-psx-windows-static-recomp",
+      "fields": {
+        "source_available": "Public source repository (GitLab)"
+      },
+      "sources": [
+        {
+          "label": "GitLab repository API (public visibility verified)",
+          "url": "https://gitlab.com/api/v4/projects/ethan4love%2Fpsx-recomp-port"
+        }
+      ]
+    },
+    {
+      "id": "jet-set-radio-future-xbox-decomp",
+      "fields": {
+        "source_available": "Public source repository (Codeberg)"
+      },
+      "sources": [
+        {
+          "label": "Codeberg repository API (public visibility verified)",
+          "url": "https://codeberg.org/api/v1/repos/KeybadeBlox/JSRF-Decompilation"
+        }
+      ]
+    },
+    {
+      "id": "ridge-racer-6-xbox360-recomp",
+      "fields": {
+        "source_available": "Public source repository (GitLab)"
+      },
+      "sources": [
+        {
+          "label": "GitLab repository API (public visibility verified)",
+          "url": "https://gitlab.com/api/v4/projects/FermataRest%2FRidgeRacer6-Recompilation"
+        }
+      ]
+    },
+    {
+      "id": "saints-row-xbox360-recomp-linux",
+      "fields": {
+        "source_available": "Public source repository (GitLab)"
+      },
+      "sources": [
+        {
+          "label": "GitLab repository API (public visibility verified)",
+          "url": "https://gitlab.com/api/v4/projects/HttpAnimations%2Fsaints-row-recomp"
+        }
+      ]
+    },
+    {
+      "id": "timesplitters-future-perfect-gc-decomp",
+      "fields": {
+        "source_available": "Public source repository (Codeberg)"
+      },
+      "sources": [
+        {
+          "label": "Codeberg repository API (public visibility verified)",
+          "url": "https://codeberg.org/api/v1/repos/OpenMonkey/tsfp-decomp"
+        }
+      ]
+    },
+    {
+      "id": "halo-combat-evolved-opence-android",
+      "fields": {
+        "source_available": "Public source repository (GitHub)"
+      },
+      "sources": [
+        {
+          "label": "GitHub repository REST API (visibility and availability check)",
+          "url": "https://api.github.com/repos/thelinkin3000/halo-ce-universal"
+        }
+      ]
+    },
+    {
+      "id": "pokemon-black-decomp",
+      "fields": {
+        "source_available": "Previously recorded GitHub repository returns 404; public source availability is unconfirmed as checked 2026-10-16.",
+        "status": "Unclear; the catalogued Goldoire repository URL returns 404 as of 2026-10-16, so the current status of that project cannot be verified."
+      },
+      "sources": [
+        {
+          "label": "GitHub repository REST API (visibility and availability check)",
+          "url": "https://api.github.com/repos/Goldoire/pokeblack"
+        }
+      ]
+    },
+    {
+      "id": "pokemon-emerald-dualscreen-android",
+      "fields": {
+        "source_available": "Public source repository (GitHub)"
+      },
+      "sources": [
+        {
+          "label": "GitHub repository REST API (visibility and availability check)",
+          "url": "https://api.github.com/repos/Goldoire/pokeemerald-dualscreen"
+        }
+      ]
+    },
+    {
+      "id": "rayman2-n64-recomp",
+      "fields": {
+        "source_available": "Previously recorded GitHub repository returns 404; public source availability is unconfirmed as checked 2026-10-16.",
+        "status": "Unclear; the catalogued project repository returns 404 as of 2026-10-16, so its earlier boot/no-render report cannot be revalidated."
+      },
+      "sources": [
+        {
+          "label": "GitHub repository REST API (visibility and availability check)",
+          "url": "https://api.github.com/repos/danielgomesvieira2000/rayman-2-the-great-escape-recomp"
+        }
+      ]
+    },
+    {
+      "id": "sonic-cd-rsdkv3-ios-reimplementation",
+      "fields": {
+        "source_available": "Public source repository (GitHub)"
+      },
+      "sources": [
+        {
+          "label": "GitHub repository REST API (visibility and availability check)",
+          "url": "https://api.github.com/repos/RadiantDelux/RSDKv3-Decompilation-iOS"
+        }
+      ]
+    },
+    {
+      "id": "sonic-r-android-decomp-port",
+      "fields": {
+        "source_available": "Public source repository (GitHub)"
+      },
+      "sources": [
+        {
+          "label": "GitHub repository REST API (visibility and availability check)",
+          "url": "https://api.github.com/repos/ZinexDa/sonic-r-android"
+        }
+      ]
+    },
+    {
+      "id": "super-mario-strikers-android",
+      "fields": {
+        "source_available": "Public source repository (GitHub)"
+      },
+      "sources": [
+        {
+          "label": "GitHub repository REST API (visibility and availability check)",
+          "url": "https://api.github.com/repos/luisxl15/Strikers-Android-Port"
+        }
+      ]
+    },
+    {
+      "id": "4do-3do",
+      "fields": {
+        "subtype": "3DO Interactive Multiplayer emulator",
+        "status": "Historical; SourceForge lists a Windows emulator project with a last update of 2016-01-21, while its archived page still labels it Beta.",
+        "updated": "2016-01-21",
+        "platform": "3DO Interactive Multiplayer → Windows (SourceForge-listed)",
+        "source_available": "Public source listing; SourceForge identifies the project as open source under GPL-2.0."
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://sourceforge.net/projects/fourdo/"
+        },
+        {
+          "label": "SourceForge project page: target, license, host, and last-update date",
+          "url": "https://sourceforge.net/projects/fourdo/"
+        }
+      ]
+    },
+    {
+      "id": "a7800-atari-7800",
+      "fields": {
+        "subtype": "Atari 7800 hardware-emulator project"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://github.com/7800-devtools/a7800"
+        }
+      ]
+    },
+    {
+      "id": "amiberry",
+      "fields": {
+        "subtype": "Amiga hardware emulator and launcher frontend"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://github.com/BlitterStudio/amiberry"
+        }
+      ]
+    },
+    {
+      "id": "basilisk-ii",
+      "fields": {
+        "subtype": "68k Macintosh hardware emulator"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://github.com/kanjitalk755/macemu"
+        }
+      ]
+    },
+    {
+      "id": "beebem",
+      "fields": {
+        "subtype": "BBC Micro computer emulator for Windows"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://github.com/stardot/beebem-windows"
+        }
+      ]
+    },
+    {
+      "id": "bigpemu-atari-jaguar",
+      "fields": {
+        "subtype": "Atari Jaguar and Jaguar CD emulator"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://www.richwhitehouse.com/jaguar/"
+        }
+      ]
+    },
+    {
+      "id": "bochs",
+      "fields": {
+        "subtype": "Portable IA-32/x86 PC system emulator",
+        "status": "Active; official site lists Bochs 3.1, released 2026-08-23. It describes a portable, open-source C++ IA-32/x86 PC emulator.",
+        "updated": "2026-08-23",
+        "platform": "IA-32/x86 PC system emulation → Windows, Linux, FreeBSD, OpenBSD, macOS and other hosts",
+        "source_available": "Public C++ source tree linked by the official project site; the project describes Bochs as open source."
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://bochs.sourceforge.io/"
+        },
+        {
+          "label": "Official project homepage: emulation scope, source tree, and 3.1 release",
+          "url": "https://bochs.sourceforge.io/"
+        }
+      ]
+    },
+    {
+      "id": "caprice32",
+      "fields": {
+        "subtype": "Amstrad CPC 8-bit home-computer emulator"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://github.com/ColinPitrat/caprice32"
+        }
+      ]
+    },
+    {
+      "id": "cen64",
+      "fields": {
+        "strategy": "Register-transfer-level, cycle-accurate Nintendo 64 hardware emulation; the README says it aims for accurate internal hardware behavior."
+      },
+      "sources": [
+        {
+          "label": "Official project README documents emulation method or project scope",
+          "url": "https://github.com/n64dev/cen64"
+        }
+      ]
+    },
+    {
+      "id": "cerf-windows-ce",
+      "fields": {
+        "subtype": "Windows CE device and ROM emulator"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://github.com/gweslab/cerf"
+        }
+      ]
+    },
+    {
+      "id": "citron-neo",
+      "fields": {
+        "subtype": "Nintendo Switch system emulator"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://github.com/citron-neo/emulator"
+        }
+      ]
+    },
+    {
+      "id": "corgi3ds",
+      "fields": {
+        "strategy": "Low-level Nintendo 3DS emulation; the README reports booting hacked firmware and loading ARM9 payloads."
+      },
+      "sources": [
+        {
+          "label": "Official project README documents emulation method or project scope",
+          "url": "https://github.com/PSI-Rockin/Corgi3DS"
+        }
+      ]
+    },
+    {
+      "id": "cxbx-reloaded-original-xbox",
+      "fields": {
+        "subtype": "Original Xbox high-level-emulation (HLE) emulator"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://github.com/Cxbx-Reloaded/Cxbx-Reloaded"
+        }
+      ]
+    },
+    {
+      "id": "decaf-emu",
+      "fields": {
+        "subtype": "Wii U system-emulation research project"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://github.com/decaf-emu/decaf-emu"
+        }
+      ]
+    },
+    {
+      "id": "denise-emulator",
+      "fields": {
+        "subtype": "Commodore 64 and Amiga computer emulator"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://github.com/piciji/denise"
+        }
+      ]
+    },
+    {
+      "id": "desmume",
+      "fields": {
+        "subtype": "Nintendo DS system emulator"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://github.com/TASEmulators/desmume"
+        }
+      ]
+    },
+    {
+      "id": "dingusppc",
+      "fields": {
+        "subtype": "Experimental PowerPC Macintosh hardware emulator"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://github.com/dingusdev/dingusppc"
+        }
+      ]
+    },
+    {
+      "id": "dobiestation",
+      "fields": {
+        "subtype": "Experimental PlayStation 2 system emulator"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://github.com/PSI-Rockin/DobieStation"
+        }
+      ]
+    },
+    {
+      "id": "dosbox-pure",
+      "fields": {
+        "subtype": "DOSBox-based DOS/x86 PC emulator core for Libretro"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://codeberg.org/schelling/dosbox-pure"
+        }
+      ]
+    },
+    {
+      "id": "dust",
+      "fields": {
+        "strategy": "Accuracy-focused Nintendo DS hardware emulation in Rust, with debugger support; the README does not assert a specific low-level/HLE split."
+      },
+      "sources": [
+        {
+          "label": "Official project README documents emulation method or project scope",
+          "url": "https://github.com/kelpsyberry/dust"
+        }
+      ]
+    },
+    {
+      "id": "eden",
+      "fields": {
+        "subtype": "Nintendo Switch system emulator"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://eden-emu.dev/"
+        }
+      ]
+    },
+    {
+      "id": "eightyone-sinclair-emulator",
+      "fields": {
+        "subtype": "Sinclair 8-bit home-computer emulator"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://github.com/charlierobson/EightyOne"
+        }
+      ]
+    },
+    {
+      "id": "emulicious",
+      "fields": {
+        "subtype": "8-bit console and handheld emulator with debugger"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://emulicious.net/"
+        }
+      ]
+    },
+    {
+      "id": "epsxe",
+      "fields": {
+        "subtype": "Sony PlayStation emulator"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://epsxe.com/"
+        }
+      ]
+    },
+    {
+      "id": "freedo-3do",
+      "fields": {
+        "subtype": "Archived 3DO Interactive Multiplayer emulator listing",
+        "status": "Historical archived SourceForge listing; last update 2013-03-12. Its notice says the project moved and that the then-current project was no longer open source, so current upstream status is unverified.",
+        "updated": "2013-03-12",
+        "platform": "3DO Interactive Multiplayer → Linux and Windows (archived SourceForge listing)",
+        "source_available": "Source status is unresolved: the archived SourceForge listing labels GPL-2.0 but also states the moved project was no longer open source; do not infer the current upstream license from this listing."
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://sourceforge.net/projects/freedo/"
+        },
+        {
+          "label": "Archived SourceForge listing: historical date and conflicting source-status notice",
+          "url": "https://sourceforge.net/projects/freedo/"
+        }
+      ]
+    },
+    {
+      "id": "fs-uae",
+      "fields": {
+        "subtype": "Amiga hardware emulator and game-launcher frontend"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://fs-uae.net/"
+        }
+      ]
+    },
+    {
+      "id": "fuse-sinclair-emulator",
+      "fields": {
+        "subtype": "Sinclair ZX Spectrum emulator"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://fuse-emulator.sourceforge.net/"
+        }
+      ]
+    },
+    {
+      "id": "gambatte",
+      "fields": {
+        "subtype": "Game Boy and Game Boy Color emulator core"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://github.com/libretro/gambatte-libretro"
+        }
+      ]
+    },
+    {
+      "id": "genesis-plus-gx",
+      "fields": {
+        "subtype": "Sega 8-bit/16-bit console, handheld, and CD-system emulator"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://github.com/ekeeke/Genesis-Plus-GX"
+        }
+      ]
+    },
+    {
+      "id": "geolith-neo-geo-aes",
+      "fields": {
+        "subtype": "Neo Geo AES/MVS/CD system emulator"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://gitlab.com/jgemu/geolith"
+        }
+      ]
+    },
+    {
+      "id": "gopher64",
+      "fields": {
+        "strategy": "Nintendo 64 system emulation with a compatibility focus; the project description does not state a cycle-accuracy or HLE/LLE design."
+      },
+      "sources": [
+        {
+          "label": "Official project README documents emulation method or project scope",
+          "url": "https://github.com/gopher64/gopher64"
+        }
+      ]
+    },
+    {
+      "id": "gsplus-apple-iigs",
+      "fields": {
+        "subtype": "Apple IIgs computer emulator"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://apple2.gs/plus/"
+        }
+      ]
+    },
+    {
+      "id": "handy-atari-lynx",
+      "fields": {
+        "subtype": "Atari Lynx emulator core for Libretro"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://github.com/libretro/libretro-handy"
+        }
+      ]
+    },
+    {
+      "id": "jpcsp",
+      "fields": {
+        "subtype": "PlayStation Portable system emulator"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://github.com/jpcsp/jpcsp"
+        }
+      ]
+    },
+    {
+      "id": "jzintv-intellivision",
+      "fields": {
+        "subtype": "Mattel Intellivision console emulator with FujiNet peripheral support"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://github.com/FujiNetWIFI/jzintv"
+        }
+      ]
+    },
+    {
+      "id": "kega-fusion",
+      "fields": {
+        "subtype": "Multi-system Sega console and handheld emulator"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://www.carpeludum.com/kega-fusion/"
+        }
+      ]
+    },
+    {
+      "id": "kyty",
+      "fields": {
+        "subtype": "Experimental PlayStation 4/PlayStation 5 system emulator"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://github.com/InoriRus/Kyty"
+        }
+      ]
+    },
+    {
+      "id": "lemur-vb",
+      "fields": {
+        "strategy": "Native Virtual Boy system emulation using the shrooms-vb core."
+      },
+      "sources": [
+        {
+          "label": "Official project README documents emulation method or project scope",
+          "url": "https://git.virtual-boy.com/PVB/lemur"
+        }
+      ]
+    },
+    {
+      "id": "lxdream",
+      "fields": {
+        "subtype": "Sega Dreamcast hardware emulator"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://github.com/lxdream/lxdream"
+        }
+      ]
+    },
+    {
+      "id": "meka",
+      "fields": {
+        "subtype": "Sega 8-bit console and computer emulator"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://github.com/ocornut/meka"
+        }
+      ]
+    },
+    {
+      "id": "mesence",
+      "fields": {
+        "subtype": "Multi-system console and handheld emulator"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://github.com/nesdev-org/MesenCE"
+        }
+      ]
+    },
+    {
+      "id": "minivmac",
+      "fields": {
+        "subtype": "Early Macintosh hardware emulator"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://www.gryphel.com/c/minivmac/"
+        }
+      ]
+    },
+    {
+      "id": "nanoboyadvance",
+      "fields": {
+        "strategy": "Accuracy-focused Game Boy Advance system emulation."
+      },
+      "sources": [
+        {
+          "label": "Official project README documents emulation method or project scope",
+          "url": "https://codeberg.org/nba-emu/NanoBoyAdvance"
+        }
+      ]
+    },
+    {
+      "id": "nestopia-ue",
+      "fields": {
+        "subtype": "Nintendo Entertainment System/Famicom emulator core and frontend"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://0ldsk00l.ca/nestopia/"
+        }
+      ]
+    },
+    {
+      "id": "ngpcraft",
+      "fields": {
+        "strategy": "Neo Geo Pocket Color handheld emulation with save states, speed control, and debugging tools."
+      },
+      "sources": [
+        {
+          "label": "Official project README documents emulation method or project scope",
+          "url": "https://github.com/Tixul/Ngpcraft_emulator"
+        }
+      ]
+    },
+    {
+      "id": "nogba",
+      "fields": {
+        "subtype": "Game Boy Advance, Nintendo DS, and DSi emulator"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://problemkaputt.de/gba.htm"
+        }
+      ]
+    },
+    {
+      "id": "np2kai",
+      "fields": {
+        "subtype": "NEC PC-9801 personal-computer emulator"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://github.com/AZO234/NP2kai"
+        }
+      ]
+    },
+    {
+      "id": "nulldc",
+      "fields": {
+        "subtype": "Archived Sega Dreamcast emulator for Windows/x86"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://github.com/skmp/nullDC-v1"
+        }
+      ]
+    },
+    {
+      "id": "nulldc-rust",
+      "fields": {
+        "subtype": "Sega Dreamcast emulator implementation in Rust"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://github.com/skmp/nullDC-rust"
+        }
+      ]
+    },
+    {
+      "id": "nxemu",
+      "fields": {
+        "subtype": "Nintendo Switch system emulator"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://www.nxemu.com/"
+        }
+      ]
+    },
+    {
+      "id": "o2em-odyssey2",
+      "fields": {
+        "subtype": "Magnavox Odyssey²/Philips Videopac console emulator"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://github.com/lutris/o2em"
+        }
+      ]
+    },
+    {
+      "id": "oboromi",
+      "fields": {
+        "subtype": "Nintendo Switch 2 emulator proof of concept"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://github.com/0xNikilite/oboromi"
+        }
+      ]
+    },
+    {
+      "id": "opera-3do",
+      "fields": {
+        "subtype": "3DO Interactive Multiplayer emulator core for Libretro"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://github.com/libretro/opera-libretro"
+        }
+      ]
+    },
+    {
+      "id": "pce-stenzek",
+      "fields": {
+        "subtype": "IBM PC simulator/emulator targeting 8086 through Pentium systems"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://github.com/stenzek/pce"
+        }
+      ]
+    },
+    {
+      "id": "pcjs",
+      "fields": {
+        "subtype": "Browser-based x86 PC and historical-computer emulator suite"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://www.pcjs.org/"
+        }
+      ]
+    },
+    {
+      "id": "pcsx-redux",
+      "fields": {
+        "subtype": "PlayStation emulator and development/reverse-engineering tool suite"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://github.com/grumpycoders/pcsx-redux"
+        }
+      ]
+    },
+    {
+      "id": "pcsx-reloaded",
+      "fields": {
+        "subtype": "Sony PlayStation system emulator"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://github.com/pcsxr/PCSX-Reloaded"
+        }
+      ]
+    },
+    {
+      "id": "picodrive",
+      "fields": {
+        "subtype": "Sega home-console, handheld, and add-on emulator"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://github.com/irixxxx/picodrive"
+        }
+      ]
+    },
+    {
+      "id": "play-",
+      "fields": {
+        "subtype": "PlayStation 2 system emulator"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://github.com/jpd002/Play-"
+        }
+      ]
+    },
+    {
+      "id": "pokemini-libretro",
+      "fields": {
+        "strategy": "Pokémon Mini handheld hardware emulation exposed through Libretro."
+      },
+      "sources": [
+        {
+          "label": "Official project README documents emulation method or project scope",
+          "url": "https://github.com/libretro/PokeMini"
+        }
+      ]
+    },
+    {
+      "id": "potator-libretro",
+      "fields": {
+        "strategy": "Watara Supervision handheld hardware emulation exposed through Libretro."
+      },
+      "sources": [
+        {
+          "label": "Official project README documents emulation method or project scope",
+          "url": "https://github.com/libretro/potator"
+        }
+      ]
+    },
+    {
+      "id": "project64",
+      "fields": {
+        "subtype": "Nintendo 64 system emulator"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://github.com/project64/project64"
+        }
+      ]
+    },
+    {
+      "id": "prosystem-atari-7800",
+      "fields": {
+        "subtype": "Atari 7800 console emulator"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://github.com/gstanton/ProSystem1_3"
+        }
+      ]
+    },
+    {
+      "id": "raine",
+      "fields": {
+        "subtype": "Arcade-system emulator and frontend"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://github.com/zelurker/raine"
+        }
+      ]
+    },
+    {
+      "id": "red-viper",
+      "fields": {
+        "strategy": "Virtual Boy system emulation ported to Nintendo 3DS; the README documents a native homebrew target."
+      },
+      "sources": [
+        {
+          "label": "Official project README documents emulation method or project scope",
+          "url": "https://github.com/skyfloogle/red-viper"
+        }
+      ]
+    },
+    {
+      "id": "redream",
+      "fields": {
+        "subtype": "Sega Dreamcast emulator"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://redream.io/"
+        }
+      ]
+    },
+    {
+      "id": "reicast",
+      "fields": {
+        "subtype": "Sega Dreamcast hardware emulator"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://github.com/skmp/reicast-emulator"
+        }
+      ]
+    },
+    {
+      "id": "ryubing",
+      "fields": {
+        "subtype": "Nintendo Switch emulator continuation"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://ryujinx.app/"
+        }
+      ]
+    },
+    {
+      "id": "ryujinx",
+      "fields": {
+        "subtype": "Nintendo Switch system emulator"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://docs.ryujinx.app/"
+        }
+      ]
+    },
+    {
+      "id": "sameduck-megaduck",
+      "fields": {
+        "strategy": "SameBoy-derived Game Boy/Mega Duck emulation with project patches for Mega Duck and Super Junior/Quique systems."
+      },
+      "sources": [
+        {
+          "label": "Official project README documents emulation method or project scope",
+          "url": "https://github.com/bbbbbr/SuperJuniorSameDuck"
+        }
+      ]
+    },
+    {
+      "id": "sharpemu",
+      "fields": {
+        "subtype": "Experimental PlayStation 5 system emulator"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://github.com/sharpemu/sharpemu"
+        }
+      ]
+    },
+    {
+      "id": "sheepshaver",
+      "fields": {
+        "subtype": "PowerPC Macintosh hardware emulator"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://github.com/kanjitalk755/macemu"
+        }
+      ]
+    },
+    {
+      "id": "simcoupe",
+      "fields": {
+        "subtype": "SAM Coupé Z80 home-computer emulator"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://simonowen.com/simcoupe/"
+        }
+      ]
+    },
+    {
+      "id": "skyline",
+      "fields": {
+        "subtype": "Nintendo Switch homebrew and game emulator for Android"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://github.com/skyline-emu/skyline"
+        }
+      ]
+    },
+    {
+      "id": "snes9x",
+      "fields": {
+        "subtype": "Super Nintendo/Super Famicom system emulator"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://github.com/snes9xgit/snes9x"
+        }
+      ]
+    },
+    {
+      "id": "stella-atari-2600",
+      "fields": {
+        "subtype": "Atari 2600 VCS emulator"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://github.com/stella-emu/stella"
+        }
+      ]
+    },
+    {
+      "id": "strato",
+      "fields": {
+        "subtype": "Nintendo Switch homebrew and game emulator for Android"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://github.com/strato-emu/strato"
+        }
+      ]
+    },
+    {
+      "id": "sudachi",
+      "fields": {
+        "subtype": "Nintendo Switch system emulator"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://github.com/q4a/sudachi"
+        }
+      ]
+    },
+    {
+      "id": "super-zsnes",
+      "fields": {
+        "subtype": "GPU-powered Super Nintendo/Super Famicom emulator"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://zsnes.com/"
+        }
+      ]
+    },
+    {
+      "id": "tanuki3ds",
+      "fields": {
+        "strategy": "Nintendo 3DS software emulation; the project does not document a more specific HLE/LLE split."
+      },
+      "sources": [
+        {
+          "label": "Official project README documents emulation method or project scope",
+          "url": "https://github.com/burhanr13/Tanuki3DS"
+        }
+      ]
+    },
+    {
+      "id": "ultrahle",
+      "fields": {
+        "subtype": "Nintendo 64 high-level-emulation (HLE) emulator"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://github.com/emu-russia/UltraHLE"
+        }
+      ]
+    },
+    {
+      "id": "vamiga",
+      "fields": {
+        "subtype": "Amiga 500/1000/2000 hardware emulator for macOS"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://github.com/dirkwhoffmann/vAmiga"
+        }
+      ]
+    },
+    {
+      "id": "vectrexy-vectrex",
+      "fields": {
+        "subtype": "Vectrex console emulator"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://github.com/amaiorano/vectrexy"
+        }
+      ]
+    },
+    {
+      "id": "virtual-jaguar-atari-jaguar",
+      "fields": {
+        "subtype": "Atari Jaguar and Jaguar CD emulator core for Libretro"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://github.com/libretro/virtualjaguar-libretro"
+        }
+      ]
+    },
+    {
+      "id": "virtualfriend",
+      "fields": {
+        "strategy": "Virtual Boy system emulation implemented in a multiplatform Rust application, designed for Apple Vision Pro."
+      },
+      "sources": [
+        {
+          "label": "Official project README documents emulation method or project scope",
+          "url": "https://github.com/agg23/virtualfriend"
+        }
+      ]
+    },
+    {
+      "id": "visualboyadvance-m",
+      "fields": {
+        "subtype": "Game Boy/Game Boy Advance emulator and Libretro core"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://github.com/visualboyadvance-m/visualboyadvance-m"
+        }
+      ]
+    },
+    {
+      "id": "winfellow",
+      "fields": {
+        "subtype": "Amiga hardware emulator for Windows"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://petschau.github.io/WinFellow/"
+        }
+      ]
+    },
+    {
+      "id": "winuae",
+      "fields": {
+        "subtype": "Amiga hardware emulator"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://github.com/tonioni/WinUAE"
+        }
+      ]
+    },
+    {
+      "id": "xemu-original-xbox",
+      "fields": {
+        "subtype": "Original Xbox low-level hardware emulator"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://xemu.app/"
+        }
+      ]
+    },
+    {
+      "id": "xenia-canary-xbox-360",
+      "fields": {
+        "subtype": "Community Xbox 360 emulator fork"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://github.com/xenia-canary/xenia-canary"
+        }
+      ]
+    },
+    {
+      "id": "xenia-xbox-360",
+      "fields": {
+        "subtype": "Xbox 360 emulator research project"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://github.com/xenia-project/xenia"
+        }
+      ]
+    },
+    {
+      "id": "yaba-sanshiro",
+      "fields": {
+        "subtype": "Sega Saturn emulator for Android, iOS, and Windows",
+        "status": "Maintained; the official download page lists v1.20.51 and provides the corresponding complete source under the GNU GPL.",
+        "platform": "Sega Saturn → Android, iOS, and Windows",
+        "source_available": "Complete source for released binaries is provided under the GNU GPL on the official downloads page."
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://www.yabasanshiro.com/download"
+        },
+        {
+          "label": "Official downloads page: platforms and GPL source version",
+          "url": "https://www.yabasanshiro.com/download"
+        }
+      ]
+    },
+    {
+      "id": "yabause",
+      "fields": {
+        "subtype": "Sega Saturn console emulator"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://github.com/Yabause/yabause"
+        }
+      ]
+    },
+    {
+      "id": "zesarux",
+      "fields": {
+        "subtype": "ZX Spectrum-family and compatible computer emulator"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://github.com/chernandezba/zesarux"
+        }
+      ]
+    },
+    {
+      "id": "zsnes-legacy",
+      "fields": {
+        "subtype": "Super Nintendo emulator legacy line and portability fork"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://github.com/xyproto/zsnes"
         }
       ]
     }
