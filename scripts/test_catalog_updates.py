@@ -93,6 +93,58 @@ class ProjectUpdateImportTests(unittest.TestCase):
         self.assertEqual(status, "In progress")
         self.assertEqual(count, 2)
 
+    def test_game_rekey_removes_only_unreferenced_old_profile(self):
+        with catalog.connect() as connection:
+            connection.execute("INSERT INTO games(game_key) VALUES(?)", ("Sample Game",))
+            connection.execute("INSERT INTO games(game_key) VALUES(?)", ("Shared Game",))
+            connection.execute(
+                """INSERT INTO game_facts
+                (game_key,position,field,value_json,source_url,evidence)
+                VALUES(?,?,?,?,?,?)""",
+                ("Sample Game", 0, "genre", json.dumps("Puzzle"),
+                 "https://example.org/legacy-game", "A fact for the old game key."),
+            )
+            connection.execute(
+                "UPDATE projects SET game='Shared Game' WHERE id='sample'"
+            )
+            connection.execute(
+                """INSERT INTO projects
+                (id,title,game,target_type,platform,kind,status,summary,project_url)
+                VALUES(?,?,?,?,?,?,?,?,?)""",
+                ("second", "Second", "Sample Game", "Game", "PC", "Decompilation",
+                 "In progress", "Another target", "https://github.com/example/second"),
+            )
+            connection.execute(
+                """INSERT INTO game_facts
+                (game_key,position,field,value_json,source_url,evidence)
+                VALUES(?,?,?,?,?,?)""",
+                ("Shared Game", 0, "genre", json.dumps("Puzzle"),
+                 "https://example.org/game", "A sourced fact."),
+            )
+
+        path = self.write_manifest({
+            "updates": [{
+                "id": "second",
+                "fields": {"game": "New Game"},
+                "sources": [{"label": "Identity", "url": "https://example.org/identity"}],
+            }],
+        })
+        catalog.import_project_updates(path)
+
+        with catalog.connect() as connection:
+            keys = {row[0] for row in connection.execute("SELECT game_key FROM games")}
+            facts = connection.execute(
+                "SELECT COUNT(*) FROM game_facts WHERE game_key='Shared Game'"
+            ).fetchone()[0]
+            old_facts = connection.execute(
+                "SELECT COUNT(*) FROM game_facts WHERE game_key='Sample Game'"
+            ).fetchone()[0]
+        self.assertNotIn("Sample Game", keys)
+        self.assertIn("Shared Game", keys)
+        self.assertIn("New Game", keys)
+        self.assertEqual(facts, 1)
+        self.assertEqual(old_facts, 0)
+
 
 class GameProfileImportTests(unittest.TestCase):
     def setUp(self):

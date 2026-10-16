@@ -1,0 +1,83 @@
+{
+  "updated": "2026-10-16",
+  "scope": "One English Wikipedia direct article or exact-title search fallback for each exact game key assigned in part-01. Existing search fallbacks were upgraded to direct title/section articles where a relevant English page was verified.",
+  "entries": [
+    {
+      "game_key": "2048",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/2048_(video_game)",
+      "wikipedia_title": "2048 (video game)",
+      "match": "direct",
+      "note": "The direct article covers the original browser puzzle and its 2014 release."
+    },
+    {
+      "game_key": "Block Blast",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Block_Blast!",
+      "wikipedia_title": "Block Blast!",
+      "match": "direct",
+      "note": "Dedicated English article for Block Blast!; the article covers Hungry Studio, mobile platforms, genre, and 2021 launch."
+    },
+    {
+      "game_key": "Bounce (Nokia mobile game)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Bounce_(video_game_series)",
+      "wikipedia_title": "Bounce (video game series)",
+      "match": "direct",
+      "note": "The article has a dedicated “Bounce (2001)” section for the original Nokia mobile game."
+    },
+    {
+      "game_key": "Call of Duty: Roads to Victory",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Call_of_Duty:_Roads_to_Victory",
+      "wikipedia_title": "Call of Duty: Roads to Victory",
+      "match": "direct",
+      "note": "Direct article for the PSP game."
+    },
+    {
+      "game_key": "Command & Conquer: Tiberian Dawn, Red Alert, and Dune 2000",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Command+%26+Conquer%3A+Tiberian+Dawn%2C+Red+Alert%2C+and+Dune+2000",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "The exact key combines three separate games; no single English Wikipedia game article covers the combined key, so this opens a search for the full exact title."
+    },
+    {
+      "game_key": "Dragon Ball 3: Gokuu Den",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Dragon+Ball+3%3A+Gokuu+Den",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No dedicated English Wikipedia article for this Famicom game was verified; this opens an exact-title search."
+    },
+    {
+      "game_key": "Evo's Space Adventures (PS1)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Space_Station_Silicon_Valley",
+      "wikipedia_title": "Space Station Silicon Valley",
+      "match": "direct",
+      "note": "The article explicitly identifies the European PlayStation port as Evo’s Space Adventures and credits Runecraft."
+    },
+    {
+      "game_key": "Fairy Tail: Madoushi (Nintendo DS Japan)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Fairy+Tail%3A+Madoushi+%28Nintendo+DS+Japan%29",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No standalone English Wikipedia article for the Japanese DS game was verified; this opens an exact-key search."
+    },
+    {
+      "game_key": "Freedoom and compatible Doom-family IWADs",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Doom_modding#Freedoom",
+      "wikipedia_title": "Doom modding",
+      "match": "direct",
+      "note": "The Freedoom URL redirects to a dedicated Freedoom section in the English Doom modding article; the link targets that section."
+    },
+    {
+      "game_key": "From TV Animation Slam Dunk: Yonkyo Gekitotsu!!",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=From+TV+Animation+Slam+Dunk%3A+Yonkyo+Gekitotsu%21%21",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No dedicated English Wikipedia game article was verified; this opens an exact-title search."
+    },
+    {
+      "game_key": "Guimo (DOS, version 2.2)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Guimo+%28DOS%2C+version+2.2%29",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No English Wikipedia article for this DOS game/version was verified; this opens an exact-key search."
+    }
+  ]
+}

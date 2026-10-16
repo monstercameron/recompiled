@@ -1,0 +1,164 @@
+{
+  "part": 3,
+  "game_keys": [
+    "PlayStation 1 games (multi-title)",
+    "Progenitor",
+    "RPG Maker 2000/2003 games (multi-title)",
+    "SD Gundam - Dimension War",
+    "Sen no Hatou, Tsukisome no Kouki",
+    "Silent Hill: Chapter Two",
+    "Silmarils ALIS virtual-machine games (multi-title)",
+    "Super Gomoku Narabe Renju",
+    "Supported PC adventure games (multi-engine)",
+    "Taekwon-Do",
+    "Terrors"
+  ],
+  "targets": [
+    {
+      "game_key": "PlayStation 1 games (multi-title)",
+      "project_ids": [
+        "psx-android-static-recomp"
+      ],
+      "project_titles": [
+        "PSX Android (psxrecomp multi-title builds)"
+      ],
+      "platforms": [
+        "PlayStation → Android"
+      ]
+    },
+    {
+      "game_key": "Progenitor",
+      "project_ids": [
+        "progenitor-pc98-en"
+      ],
+      "project_titles": [
+        "Progenitor PC-98 English Translation"
+      ],
+      "platforms": [
+        "NEC PC-9801"
+      ]
+    },
+    {
+      "game_key": "RPG Maker 2000/2003 games (multi-title)",
+      "project_ids": [
+        "easyrpg-player"
+      ],
+      "project_titles": [
+        "EasyRPG Player"
+      ],
+      "platforms": [
+        "RPG Maker 2000/2003 game data → Windows",
+        " Linux",
+        " macOS",
+        " Android",
+        " WebAssembly",
+        " and several homebrew platforms; iOS is available through the libretro core in RetroArch",
+        " not as a standalone official app"
+      ]
+    },
+    {
+      "game_key": "SD Gundam - Dimension War",
+      "project_ids": [
+        "sd-gundam-dimension-war-virtual-boy-recomp"
+      ],
+      "project_titles": [
+        "SD Gundam: Dimension War Recompiled"
+      ],
+      "platforms": [
+        "Virtual Boy → Windows x64"
+      ]
+    },
+    {
+      "game_key": "Sen no Hatou, Tsukisome no Kouki",
+      "project_ids": [
+        "senmomo-windows-en"
+      ],
+      "project_titles": [
+        "Senmomo English Patch"
+      ],
+      "platforms": [
+        "Windows PC (BGI engine)"
+      ]
+    },
+    {
+      "game_key": "Silent Hill: Chapter Two",
+      "project_ids": [
+        "silent-hill-chapter-two-j2me-en"
+      ],
+      "project_titles": [
+        "Silent Hill: Chapter Two Java ME English Patch"
+      ],
+      "platforms": [
+        "Java ME"
+      ]
+    },
+    {
+      "game_key": "Silmarils ALIS virtual-machine games (multi-title)",
+      "project_ids": [
+        "alis-silmarils-vm-reimplementation"
+      ],
+      "project_titles": [
+        "ALIS: Silmarils Virtual Machine Reimplementation"
+      ],
+      "platforms": [
+        "Multiple original Silmarils releases (PC",
+        " Atari ST",
+        " Amiga",
+        " Macintosh",
+        " and others) → Windows",
+        " macOS",
+        " and Linux; input-version support varies by title"
+      ]
+    },
+    {
+      "game_key": "Super Gomoku Narabe Renju",
+      "project_ids": [
+        "super-gomoku-narabe-renju-sfc-en-vi"
+      ],
+      "project_titles": [
+        "Super Gomoku Narabe Renju English and Vietnamese Translation"
+      ],
+      "platforms": [
+        "Super Famicom / Super Nintendo"
+      ]
+    },
+    {
+      "game_key": "Supported PC adventure games (multi-engine)",
+      "project_ids": [
+        "scummvm-mobile"
+      ],
+      "project_titles": [
+        "ScummVM Android and iOS ports"
+      ],
+      "platforms": [
+        "PC (MS-DOS/Windows/Linux) → Android/iOS"
+      ]
+    },
+    {
+      "game_key": "Taekwon-Do",
+      "project_ids": [
+        "taekwon-do-en-es-pt"
+      ],
+      "project_titles": [
+        "Taekwon-Do English",
+        " Spanish",
+        " and Portuguese Translation"
+      ],
+      "platforms": [
+        "Super Famicom / Super Nintendo"
+      ]
+    },
+    {
+      "game_key": "Terrors",
+      "project_ids": [
+        "terrors-wonderswan-en-es"
+      ],
+      "project_titles": [
+        "Terrors WonderSwan English and Spanish Patches"
+      ],
+      "platforms": [
+        "WonderSwan"
+      ]
+    }
+  ]
+}

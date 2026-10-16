@@ -1,0 +1,173 @@
+{
+  "verified_at": "2026-10-16",
+  "authoritative_database": "/Users/earlcameron/Desktop/recompiled/data/catalog.sqlite",
+  "catalog_project_rows_checked": 2673,
+  "proposed_project_updates": 53,
+  "literal_one_fixes": 9,
+  "repository_value_rows_found": 45,
+  "repository_value_rows_patched": 43,
+  "repository_rows_with_explicit_spdx": 19,
+  "repository_rows_with_no_spdx_metadata": 24,
+  "repository_rows_held": 2,
+  "round6_generic_repository_overlap": 43,
+  "round6_already_applied_manifest": {
+    "path": "/Users/earlcameron/Desktop/recompiled/work/research-2026-10-16/goal-refresh/fresh-metadata-gaps/metadata-updates.json",
+    "rows": 53,
+    "all_source_available_values_match_current_catalog": true,
+    "mismatch_count": 0,
+    "overlap_with_this_patch_ids": 0,
+    "excluded_as_noop": true
+  },
+  "literal_one_ids_in_current_catalog": [
+    "amstrad-pcw-mister-core",
+    "arcade-astrocade-mister-core",
+    "colecods-ds",
+    "ep128emu",
+    "gameandwatch-mister-core",
+    "gamecom-mister-core",
+    "gp32emu",
+    "ibm-pc110-mister-core",
+    "yakc-east-german-computers"
+  ],
+  "database_was_modified": false,
+  "held": [
+    {
+      "id": "shizuku-pc98-en",
+      "reason": "Source-backed status/source/summary update is already staged in the sibling localization manifest; do not duplicate. Existing platform NEC PC-98 is already specific. GitHub Languages API returned an empty breakdown, so do not infer or set predominant language.",
+      "covered_by": "work/research-2026-10-16/goal-refresh/revalidation/localizations/metadata-updates.json"
+    },
+    {
+      "id": "oni-zero-fukkatsu-ps1-en",
+      "reason": "Source-backed release/source-availability correction is already staged in the sibling localization manifest; do not duplicate. Its staged v1.0 citation currently points to a 404 ps1trans URL and should be replaced by the canonical maintainer release URL below. Existing Python predominant-language evidence is already present.",
+      "covered_by": "work/research-2026-10-16/goal-refresh/revalidation/localizations/metadata-updates.json",
+      "correct_first_party_release_url": "https://github.com/chivien99999/oni-zero-fukkatsu-english/releases/tag/v1.0"
+    },
+    {
+      "id": "block-blast-3ds-homebrew",
+      "reason": "Appears as a new project in a staged new-projects file but already exists in the catalog. It is represented here as a focused existing-row patch and media import, not a duplicate project addition.",
+      "staged_candidate": "work/research-2026-10-16/goal-refresh/revalidation/console-ports/new-projects.json"
+    },
+    {
+      "id": "vkd3d-upstream",
+      "title": "vkd3d (Wine upstream)",
+      "project_url": "https://gitlab.winehq.org/wine/vkd3d",
+      "current_source_available": "Repository",
+      "reason": "Non-GitHub source. The GitLab web/API endpoint was not readable in this review (sign-in redirect/404), so availability or license details are not inferred."
+    },
+    {
+      "id": "wine",
+      "title": "Wine",
+      "project_url": "https://gitlab.winehq.org/wine/wine",
+      "current_source_available": "Repository",
+      "reason": "Non-GitHub source. The GitLab web/API endpoint was not readable in this review (sign-in redirect/404), so availability or license details are not inferred."
+    }
+  ],
+  "no_op_existing_projects": [
+    {
+      "id": "dragon-ball-3-gokuu-den-en-pt-es",
+      "reason": "Already catalogued with PatchClan English, Portuguese and Spanish v1.1 data and current source links; no duplicate addition or metadata update needed."
+    },
+    {
+      "id": "shin-sd-gundam-gaiden-knight-gundam-monogatari-en",
+      "reason": "Already catalogued with v1.0, 2026-10-14 release date, BPS availability and hardware playthrough status; no duplicate addition or metadata update needed."
+    },
+    {
+      "id": "pokecrystal",
+      "reason": "Distinct Pokémon Crystal disassembly project; not the Arabic fan patch."
+    },
+    {
+      "id": "pokemon-crystal-pokerecomp-mobile",
+      "reason": "Distinct Pokémon Crystal mobile reimplementation; not the Arabic fan patch."
+    }
+  ],
+  "verified_no_patch_fields": [
+    {
+      "id": "amstrad-pcw-mister-core",
+      "programming_language": "SystemVerilog",
+      "official_github_languages_top": "SystemVerilog",
+      "matches": true,
+      "status_present": true,
+      "platform_present": true,
+      "updated": "2026-10-16"
+    },
+    {
+      "id": "arcade-astrocade-mister-core",
+      "programming_language": "VHDL",
+      "official_github_languages_top": "VHDL",
+      "matches": true,
+      "status_present": true,
+      "platform_present": true,
+      "updated": "2026-10-16"
+    },
+    {
+      "id": "colecods-ds",
+      "programming_language": "C",
+      "official_github_languages_top": "C",
+      "matches": true,
+      "status_present": true,
+      "platform_present": true,
+      "updated": "2026-10-16"
+    },
+    {
+      "id": "ep128emu",
+      "programming_language": "C++",
+      "official_github_languages_top": "C++",
+      "matches": true,
+      "status_present": true,
+      "platform_present": true,
+      "updated": "2026-10-16"
+    },
+    {
+      "id": "gameandwatch-mister-core",
+      "programming_language": "SystemVerilog",
+      "official_github_languages_top": "SystemVerilog",
+      "matches": true,
+      "status_present": true,
+      "platform_present": true,
+      "updated": "2026-10-16"
+    },
+    {
+      "id": "gamecom-mister-core",
+      "programming_language": "Verilog",
+      "official_github_languages_top": "Verilog",
+      "matches": true,
+      "status_present": true,
+      "platform_present": true,
+      "updated": "2026-10-16"
+    },
+    {
+      "id": "gp32emu",
+      "programming_language": "C",
+      "official_github_languages_top": "C",
+      "matches": true,
+      "status_present": true,
+      "platform_present": true,
+      "updated": "2026-10-16"
+    },
+    {
+      "id": "ibm-pc110-mister-core",
+      "programming_language": "Verilog",
+      "official_github_languages_top": "Verilog",
+      "matches": true,
+      "status_present": true,
+      "platform_present": true,
+      "updated": "2026-10-16"
+    },
+    {
+      "id": "yakc-east-german-computers",
+      "programming_language": "Assembly",
+      "official_github_languages_top": "Assembly",
+      "matches": true,
+      "status_present": true,
+      "platform_present": true,
+      "updated": "2026-10-16"
+    }
+  ],
+  "metadata_scope_notes": [
+    "The nine remaining literal-one rows are the exact emulator IDs in the round6 additions. Their current status, target platform, review date, and predominant language already match the round6 first-party snapshot; only source_available is patched.",
+    "Of 45 current generic Repository values, 43 are GitHub rows with a first-party repository metadata snapshot. Nineteen have explicit SPDX metadata; 24 have no SPDX-identified license metadata. Both categories are patched with wording that reports API metadata without a legal inference. Two GitLab rows are held because the first-party endpoint redirected/returned 404 in this review.",
+    "The separate 53-row fresh-metadata-gaps manifest is excluded because all 53 source_available values already match current SQLite; it has no ID overlap with this proposed batch.",
+    "Block Blast already has programming_language=C and updated=2026-10-16. The patch changes only status, platform and source_available and adds five PC-rendered README screenshots with caveat labels.",
+    "A standalone license column does not exist in this schema; verified source/license details are kept in source_available with first-party evidence sources."
+  ]
+}

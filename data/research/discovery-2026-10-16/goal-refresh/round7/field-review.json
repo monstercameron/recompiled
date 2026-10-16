@@ -1,0 +1,208 @@
+{
+  "verified_at": "2026-10-16",
+  "authoritative_database": "/Users/earlcameron/Desktop/recompiled/data/catalog.sqlite",
+  "project_count": 2673,
+  "round6_boolean_rows": [
+    {
+      "id": "amstrad-pcw-mister-core",
+      "old": "1",
+      "value": "Public SystemVerilog/Verilog/VHDL source and runnable dated MiSTer bitstreams in the repository. The maintainer README documents two PCW model groups and standard DSK images; GitHub reports no recognized repository license or tagged release."
+    },
+    {
+      "id": "arcade-astrocade-mister-core",
+      "old": "1",
+      "value": "Public VHDL/Verilog/SystemVerilog source plus dated MiSTer RBF and MRA files in the repository. The README says arcade ROMs are not included and must be supplied separately; GitHub reports no recognized repository license or tagged release."
+    },
+    {
+      "id": "colecods-ds",
+      "old": "1",
+      "value": "Public C/C++ source and v11.0 Nintendo DS/DSi release assets. The maintainer permits copying and distribution only for non-commercial use, with attribution and third-party core terms preserved; required BIOS and game files are not bundled."
+    },
+    {
+      "id": "ep128emu",
+      "old": "1",
+      "value": "Public C++ source under the GNU GPL v2 (the repository includes COPYING) and tagged release 2.0.11.2. The README documents Windows installer assets and source builds for Linux/POSIX and macOS."
+    },
+    {
+      "id": "gameandwatch-mister-core",
+      "old": "1",
+      "value": "Public MiSTer RTL, ROM-generator source and generated game packages. The README lists component-specific terms: core RTL/docs MIT, MiSTer glue GPLv3, vendored SDRAM controller MIT, and framework files under their upstream notices; no tagged GitHub release is listed."
+    },
+    {
+      "id": "gamecom-mister-core",
+      "old": "1",
+      "value": "Public Verilog/SystemVerilog source under GPL-2.0 and a dated runnable RBF bitstream in the repository releases directory; no tagged GitHub release is listed."
+    },
+    {
+      "id": "gp32emu",
+      "old": "1",
+      "value": "Public C/C++/JavaScript source and beta release 1.0. The maintainer README says BIOS, game and commercial assets are not bundled; no repository-wide license was identified in the README or GitHub license metadata."
+    },
+    {
+      "id": "ibm-pc110-mister-core",
+      "old": "1",
+      "value": "Public GPL-3.0-or-later source for PC110-specific code and downloadable MiSTer-ready release packages; shared CPU/platform RTL keeps its upstream per-file licenses. The README says the public v2026.08.08 package needs a later MiSTer Main build and is not in the official update database; IBM firmware is not included."
+    },
+    {
+      "id": "yakc-east-german-computers",
+      "old": "1",
+      "value": "Public MIT-licensed source repository; the README links a WebAssembly/browser demo. The maintainer marks the project abandoned and no tagged GitHub release is listed."
+    }
+  ],
+  "block_blast": {
+    "id": "block-blast-3ds-homebrew",
+    "title": "Block Blast 3DS Homebrew",
+    "old": {
+      "status": "Release v1.3 was published 2026-07-27. The maintainer provides CIA and 3DSX builds and documents stylus or button play, automatic saves, and stereoscopic 3D. The README says its screenshots are rendered by the game’s PC drawing code rather than captured from a console, and makes no hardware frame-rate claim.",
+      "platform": "Block Blast-style mobile puzzle → Nintendo 3DS homebrew",
+      "source_available": "Public source repository and CIA/3DSX releases",
+      "updated": "2026-10-16",
+      "programming_language": "C"
+    },
+    "fields": {
+      "status": "Latest published GitHub release is v1.3 (2026-07-27). The current README changelog also lists v1.4 save-threading and performance changes, but GitHub does not list a v1.4 release. The README gallery is PC-rendered rather than captured from a console and makes no hardware frame-rate claim.",
+      "platform": "Nintendo 3DS family: original 3DS, 3DS XL, 2DS, New 3DS and New 2DS; install as CIA via CFW/Luma and FBI or as 3DSX via Homebrew Launcher.",
+      "source_available": "Public zlib-licensed C source and CIA/3DSX builds. The README says the independent game generates its graphics and audio in code and includes no original Block Blast code or assets."
+    },
+    "sources": [
+      {
+        "label": "Maintainer README at reviewed commit: hardware list, install routes, PC-rendered screenshot disclosure, generated assets and zlib license",
+        "url": "https://github.com/TheFilipcom4607/BlockBlast-3DS/blob/6d8c7d6e67b696ddcba462256ff6d56da853632d/README.md"
+      },
+      {
+        "label": "Latest published GitHub release v1.3 (2026-07-27)",
+        "url": "https://github.com/TheFilipcom4607/BlockBlast-3DS/releases/tag/V1.3"
+      },
+      {
+        "label": "Maintainer zlib license",
+        "url": "https://github.com/TheFilipcom4607/BlockBlast-3DS/blob/6d8c7d6e67b696ddcba462256ff6d56da853632d/LICENSE"
+      }
+    ]
+  },
+  "generic_repository_scan": {
+    "found": 45,
+    "round6_overlap": 43,
+    "patched_with_explicit_spdx": 19,
+    "patched_with_no_spdx_metadata": 24,
+    "held": 2,
+    "held_rows": [
+      {
+        "id": "vkd3d-upstream",
+        "title": "vkd3d (Wine upstream)",
+        "project_url": "https://gitlab.winehq.org/wine/vkd3d",
+        "current_source_available": "Repository",
+        "reason": "Non-GitHub source. The GitLab web/API endpoint was not readable in this review (sign-in redirect/404), so availability or license details are not inferred."
+      },
+      {
+        "id": "wine",
+        "title": "Wine",
+        "project_url": "https://gitlab.winehq.org/wine/wine",
+        "current_source_available": "Repository",
+        "reason": "Non-GitHub source. The GitLab web/API endpoint was not readable in this review (sign-in redirect/404), so availability or license details are not inferred."
+      }
+    ]
+  },
+  "round6_language_checks": [
+    {
+      "id": "amstrad-pcw-mister-core",
+      "programming_language": "SystemVerilog",
+      "official_github_languages_top": "SystemVerilog",
+      "matches": true,
+      "status_present": true,
+      "platform_present": true,
+      "updated": "2026-10-16"
+    },
+    {
+      "id": "arcade-astrocade-mister-core",
+      "programming_language": "VHDL",
+      "official_github_languages_top": "VHDL",
+      "matches": true,
+      "status_present": true,
+      "platform_present": true,
+      "updated": "2026-10-16"
+    },
+    {
+      "id": "colecods-ds",
+      "programming_language": "C",
+      "official_github_languages_top": "C",
+      "matches": true,
+      "status_present": true,
+      "platform_present": true,
+      "updated": "2026-10-16"
+    },
+    {
+      "id": "ep128emu",
+      "programming_language": "C++",
+      "official_github_languages_top": "C++",
+      "matches": true,
+      "status_present": true,
+      "platform_present": true,
+      "updated": "2026-10-16"
+    },
+    {
+      "id": "gameandwatch-mister-core",
+      "programming_language": "SystemVerilog",
+      "official_github_languages_top": "SystemVerilog",
+      "matches": true,
+      "status_present": true,
+      "platform_present": true,
+      "updated": "2026-10-16"
+    },
+    {
+      "id": "gamecom-mister-core",
+      "programming_language": "Verilog",
+      "official_github_languages_top": "Verilog",
+      "matches": true,
+      "status_present": true,
+      "platform_present": true,
+      "updated": "2026-10-16"
+    },
+    {
+      "id": "gp32emu",
+      "programming_language": "C",
+      "official_github_languages_top": "C",
+      "matches": true,
+      "status_present": true,
+      "platform_present": true,
+      "updated": "2026-10-16"
+    },
+    {
+      "id": "ibm-pc110-mister-core",
+      "programming_language": "Verilog",
+      "official_github_languages_top": "Verilog",
+      "matches": true,
+      "status_present": true,
+      "platform_present": true,
+      "updated": "2026-10-16"
+    },
+    {
+      "id": "yakc-east-german-computers",
+      "programming_language": "Assembly",
+      "official_github_languages_top": "Assembly",
+      "matches": true,
+      "status_present": true,
+      "platform_present": true,
+      "updated": "2026-10-16"
+    }
+  ],
+  "round6_reconciliation": {
+    "path": "/Users/earlcameron/Desktop/recompiled/work/research-2026-10-16/goal-refresh/fresh-metadata-gaps/metadata-updates.json",
+    "rows": 53,
+    "all_source_available_values_match_current_catalog": true,
+    "mismatch_count": 0,
+    "overlap_with_this_patch_ids": 0,
+    "excluded_as_noop": true
+  },
+  "remaining_literal_one_ids": [
+    "amstrad-pcw-mister-core",
+    "arcade-astrocade-mister-core",
+    "colecods-ds",
+    "ep128emu",
+    "gameandwatch-mister-core",
+    "gamecom-mister-core",
+    "gp32emu",
+    "ibm-pc110-mister-core",
+    "yakc-east-german-computers"
+  ],
+  "proposed_update_count": 53
+}

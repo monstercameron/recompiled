@@ -1,0 +1,676 @@
+{
+  "verified_at": "2026-10-16",
+  "scope": "Exact existing Game targets from part-01; all had a games row and zero game_facts in the 2026-10-16 catalog snapshot. Grouped C&C facts are labeled per constituent original title. Facts describe original releases; port/recompilation details are included only where the cited source identifies the exact port.",
+  "profiles": [
+    {
+      "game_key": "2048",
+      "facts": [
+        {
+          "field": "canonical_name",
+          "value": "2048",
+          "source_url": "https://en.wikipedia.org/wiki/2048_(video_game)",
+          "evidence": "The English article title and infobox identify the game as 2048.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Puzzle",
+          "source_url": "https://en.wikipedia.org/wiki/2048_(video_game)",
+          "evidence": "The article infobox lists Puzzle and describes the game as a sliding-tile puzzle.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "Web browser",
+          "source_url": "https://en.wikipedia.org/wiki/2048_(video_game)",
+          "evidence": "The article lists Web browser as a platform and says the first release was on the web.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "Web: 2014-03-09",
+          "source_url": "https://en.wikipedia.org/wiki/2048_(video_game)",
+          "evidence": "The article gives the web release date as 9 March 2014.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "day"
+        },
+        {
+          "field": "developer",
+          "value": "Gabriele Cirulli",
+          "source_url": "https://en.wikipedia.org/wiki/2048_(video_game)",
+          "evidence": "The article identifies Italian web developer Gabriele Cirulli as the game’s creator.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "edition_context",
+          "value": "The original web release was free and open-source software under the MIT License; the article describes Threes and 1024 as influences.",
+          "source_url": "https://en.wikipedia.org/wiki/2048_(video_game)",
+          "evidence": "The article states the game was released as free/open-source software under the MIT License and discusses its relationship to Threes and 1024.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Block Blast",
+      "facts": [
+        {
+          "field": "canonical_name",
+          "value": "Block Blast!",
+          "source_url": "https://en.wikipedia.org/wiki/Block_Blast!",
+          "evidence": "The English article styles the title as Block Blast!.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Puzzle",
+          "source_url": "https://en.wikipedia.org/wiki/Block_Blast!",
+          "evidence": "The infobox and opening paragraph classify Block Blast! as a puzzle game.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "Mobile (iOS and Android)",
+          "source_url": "https://en.wikipedia.org/wiki/Block_Blast!",
+          "evidence": "The article lists iOS and Android and says the game launched as a mobile game in 2021.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "platforms",
+          "value": "iOS and Android",
+          "source_url": "https://en.wikipedia.org/wiki/Block_Blast!",
+          "evidence": "The article lists iOS and Android platforms and names iPhone, iPad, and Android devices.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "2021 (launch year)",
+          "source_url": "https://en.wikipedia.org/wiki/Block_Blast!",
+          "evidence": "The article says Block Blast! launched in 2021.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "year"
+        },
+        {
+          "field": "developer",
+          "value": "Hungry Studio",
+          "source_url": "https://apps.apple.com/us/app/block-blast/id1617391485",
+          "evidence": "The official App Store listing identifies Hungry Studio as developer.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Bounce (Nokia mobile game)",
+      "facts": [
+        {
+          "field": "canonical_name",
+          "value": "Bounce (2001)",
+          "source_url": "https://en.wikipedia.org/wiki/Bounce_(video_game_series)",
+          "evidence": "The article’s “Bounce (2001)” section identifies the original Nokia mobile title.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Platformer",
+          "source_url": "https://en.wikipedia.org/wiki/Bounce_(video_game_series)",
+          "evidence": "The article classifies Bounce as a platformer.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "Nokia mobile phones; first featured on the Nokia 9210 Communicator (Series 80 / Symbian)",
+          "source_url": "https://en.wikipedia.org/wiki/Bounce_(video_game_series)",
+          "evidence": "The article says the game first came preloaded on the Nokia 9210 Communicator, with later Nokia phone releases.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "platforms",
+          "value": "Symbian and J2ME mobile phones",
+          "source_url": "https://en.wikipedia.org/wiki/Bounce_(video_game_series)",
+          "evidence": "The article lists mobile phone, J2ME, and Symbian platforms for the series and discusses the original Symbian handset release and later versions.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "2001",
+          "source_url": "https://en.wikipedia.org/wiki/Bounce_(video_game_series)",
+          "evidence": "The article gives 2001 as the original Bounce release year.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "year"
+        },
+        {
+          "field": "developer",
+          "value": "Nokia",
+          "source_url": "https://en.wikipedia.org/wiki/Bounce_(video_game_series)",
+          "evidence": "The article identifies Nokia as publisher of the series and describes Nokia as making the original Bounce.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Nokia",
+          "source_url": "https://en.wikipedia.org/wiki/Bounce_(video_game_series)",
+          "evidence": "The article infobox identifies Nokia as publisher.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "edition_context",
+          "value": "The original game was a 2D side-scroller with 11 levels and was preloaded on the Nokia 9210 Communicator.",
+          "source_url": "https://en.wikipedia.org/wiki/Bounce_(video_game_series)",
+          "evidence": "The article’s original-game section describes the 2D side-scrolling play, 11 levels, and initial Nokia 9210 preinstallation.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Call of Duty: Roads to Victory",
+      "facts": [
+        {
+          "field": "canonical_name",
+          "value": "Call of Duty: Roads to Victory",
+          "source_url": "https://en.wikipedia.org/wiki/Call_of_Duty:_Roads_to_Victory",
+          "evidence": "The article title and infobox identify the exact game.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "First-person shooter",
+          "source_url": "https://en.wikipedia.org/wiki/Call_of_Duty:_Roads_to_Victory",
+          "evidence": "The article infobox and opening paragraph classify it as a first-person shooter.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "PlayStation Portable",
+          "source_url": "https://en.wikipedia.org/wiki/Call_of_Duty:_Roads_to_Victory",
+          "evidence": "The article identifies PlayStation Portable as the game’s original platform.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "platforms",
+          "value": "PlayStation Portable; later playable on PlayStation Vita",
+          "source_url": "https://en.wikipedia.org/wiki/Call_of_Duty:_Roads_to_Victory",
+          "evidence": "The article lists PSP and PS Vita and explains that a voucher enabled the game on Vita.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "North America: 2007-03-13",
+          "source_url": "https://en.wikipedia.org/wiki/Call_of_Duty:_Roads_to_Victory",
+          "evidence": "The article gives March 13, 2007 as the North American PSP release date.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "day"
+        },
+        {
+          "field": "developer",
+          "value": "Amaze Entertainment",
+          "source_url": "https://en.wikipedia.org/wiki/Call_of_Duty:_Roads_to_Victory",
+          "evidence": "The article credits Amaze Entertainment as developer.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Activision",
+          "source_url": "https://en.wikipedia.org/wiki/Call_of_Duty:_Roads_to_Victory",
+          "evidence": "The article credits Activision as publisher.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "series",
+          "value": "Call of Duty",
+          "source_url": "https://en.wikipedia.org/wiki/Call_of_Duty:_Roads_to_Victory",
+          "evidence": "The article lists Call of Duty as the series.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "edition_context",
+          "value": "It was the first and only Call of Duty game made for PSP.",
+          "source_url": "https://en.wikipedia.org/wiki/Call_of_Duty:_Roads_to_Victory",
+          "evidence": "The article’s development section calls it the first and only franchise game made for PSP.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Command & Conquer: Tiberian Dawn, Red Alert, and Dune 2000",
+      "facts": [
+        {
+          "field": "genre",
+          "value": "Real-time strategy",
+          "source_url": "https://www.openra.net/about/",
+          "evidence": "OpenRA’s official about page describes the project as recreating and modernizing classic real-time strategy games and names Command & Conquer, Red Alert, and Dune 2000.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "Tiberian Dawn / Command & Conquer: MS-DOS",
+          "source_url": "https://en.wikipedia.org/wiki/Command_%26_Conquer_(1995_video_game)",
+          "evidence": "The game article lists DOS first and identifies the original 1995 release as the DOS release.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "developer",
+          "value": "Tiberian Dawn / Command & Conquer: Westwood Studios",
+          "source_url": "https://en.wikipedia.org/wiki/Command_%26_Conquer_(1995_video_game)",
+          "evidence": "The article credits Westwood Studios with developing Command & Conquer / Tiberian Dawn.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Tiberian Dawn / Command & Conquer: Westwood Studios (North America); Virgin Interactive Entertainment (Europe, PC)",
+          "source_url": "https://en.wikipedia.org/wiki/Command_%26_Conquer_(1995_video_game)",
+          "evidence": "The article’s publisher field lists Westwood Studios for North America and Virgin Interactive Entertainment for Europe PC.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "Tiberian Dawn / Command & Conquer: North America 1995-09-26; Europe 1995-09-29",
+          "source_url": "https://en.wikipedia.org/wiki/Command_%26_Conquer_(1995_video_game)",
+          "evidence": "The article lists DOS release dates of September 26, 1995 in North America and September 29, 1995 in Europe.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "day"
+        },
+        {
+          "field": "original_platform",
+          "value": "Red Alert: PC (MS-DOS and Windows 95)",
+          "source_url": "https://en.wikipedia.org/wiki/Command_%26_Conquer:_Red_Alert",
+          "evidence": "The article says the initial PC release included MS-DOS and Windows 95 versions in one package.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "developer",
+          "value": "Red Alert: Westwood Studios",
+          "source_url": "https://en.wikipedia.org/wiki/Command_%26_Conquer:_Red_Alert",
+          "evidence": "The article credits Westwood Studios as developer.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Red Alert: Westwood Studios (North America); Virgin Interactive Entertainment (Europe)",
+          "source_url": "https://en.wikipedia.org/wiki/Command_%26_Conquer:_Red_Alert",
+          "evidence": "The article’s publisher field lists Westwood Studios for North America and Virgin Interactive Entertainment for Europe.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "Red Alert: North America 1996-11-22; Europe 1996-12-04 (PC)",
+          "source_url": "https://en.wikipedia.org/wiki/Command_%26_Conquer:_Red_Alert",
+          "evidence": "The article lists the PC release dates as November 22, 1996 in North America and December 4, 1996 in Europe.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "day"
+        },
+        {
+          "field": "original_platform",
+          "value": "Dune 2000: Microsoft Windows",
+          "source_url": "https://en.wikipedia.org/wiki/Dune_2000",
+          "evidence": "The article identifies the 1998 original release as a Microsoft Windows release; PlayStation was a later port.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "developer",
+          "value": "Dune 2000: Intelligent Games",
+          "source_url": "https://en.wikipedia.org/wiki/Dune_2000",
+          "evidence": "The article credits Intelligent Games as developer.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Dune 2000: Westwood Studios (North America); Virgin Interactive (Europe, PC)",
+          "source_url": "https://en.wikipedia.org/wiki/Dune_2000",
+          "evidence": "The article’s publisher field lists Westwood Studios for North America and Virgin Interactive for the European PC release.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "Dune 2000: North America 1998-09-04; Europe 1998-11-12 (Windows)",
+          "source_url": "https://en.wikipedia.org/wiki/Dune_2000",
+          "evidence": "The article lists Windows release dates of September 4, 1998 in North America and November 12, 1998 in Europe.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "day"
+        },
+        {
+          "field": "edition_context",
+          "value": "OpenRA is an open-source community project that modernizes the three separately released games named in this key.",
+          "source_url": "https://www.openra.net/about/",
+          "evidence": "The official OpenRA page describes an open-source project for modernizing Red Alert, Command & Conquer (Tiberian Dawn), and Dune 2000.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Dragon Ball 3: Gokuu Den",
+      "facts": [
+        {
+          "field": "canonical_name",
+          "value": "Dragon Ball 3: Gokuu Den",
+          "source_url": "https://gamecatalog.net/dragon-ball3/",
+          "evidence": "The Japanese game-catalog record gives the English title as Dragon Ball 3: Gokuu Den.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Adventure role-playing game",
+          "source_url": "https://gamecatalog.net/dragon-ball3/",
+          "evidence": "The catalog classifies the game as adventure and role-playing.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "Family Computer (Famicom), Japan",
+          "source_url": "https://gamecatalog.net/dragon-ball3/",
+          "evidence": "The catalog identifies the platform as Family Computer and notes it was released exclusively for that system.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "developer",
+          "value": "TOSE Software",
+          "source_url": "https://gamecatalog.net/dragon-ball3/",
+          "evidence": "The catalog lists TOSE as the developer.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Bandai",
+          "source_url": "https://gamecatalog.net/dragon-ball3/",
+          "evidence": "The catalog lists Bandai as the publisher.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "Japan: 1989-10-27",
+          "source_url": "https://gamecatalog.net/dragon-ball3/",
+          "evidence": "The catalog gives October 27, 1989 as the Famicom release date.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "day"
+        },
+        {
+          "field": "edition_context",
+          "value": "The game retells the Dragon Ball story through Goku’s fight with Piccolo Jr.",
+          "source_url": "https://www.arcade-history.com/game/53997/dragon-ball-3-gokuu-den-model-ba-db3",
+          "evidence": "The cartridge history entry says the game covers the Dragon Ball story through the fight against Piccolo Junior.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Evo's Space Adventures (PS1)",
+      "facts": [
+        {
+          "field": "canonical_name",
+          "value": "Evo's Space Adventures",
+          "source_url": "https://en.wikipedia.org/wiki/Space_Station_Silicon_Valley",
+          "evidence": "The article explicitly says the PlayStation port was released under the name Evo’s Space Adventures.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Platformer",
+          "source_url": "https://en.wikipedia.org/wiki/Space_Station_Silicon_Valley",
+          "evidence": "The article’s infobox classifies Space Station Silicon Valley, including its PlayStation port, as a platformer.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "PlayStation (European release titled Evo’s Space Adventures)",
+          "source_url": "https://en.wikipedia.org/wiki/Space_Station_Silicon_Valley",
+          "evidence": "The article identifies the PlayStation version as the European port sold under the Evo’s Space Adventures name.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "developer",
+          "value": "Runecraft (PlayStation port)",
+          "source_url": "https://en.wikipedia.org/wiki/Space_Station_Silicon_Valley",
+          "evidence": "The article’s developer note says Runecraft developed the PlayStation port.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Take-Two Interactive Software Europe Ltd.",
+          "source_url": "https://www.mobygames.com/game/8899/space-station-silicon-valley/releases/",
+          "evidence": "MobyGames’ PlayStation release record lists Take-Two Interactive Software Europe as publisher.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "Europe: June 2000 (PlayStation)",
+          "source_url": "https://en.wikipedia.org/wiki/Space_Station_Silicon_Valley",
+          "evidence": "The article lists the PlayStation release in Europe as June 2000.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "month"
+        },
+        {
+          "field": "edition_context",
+          "value": "The PS1 release is a port of Space Station Silicon Valley, first released on Nintendo 64 in 1998.",
+          "source_url": "https://en.wikipedia.org/wiki/Space_Station_Silicon_Valley",
+          "evidence": "The article says the original game debuted on Nintendo 64 in 1998 and that the later PlayStation port was titled Evo’s Space Adventures.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Fairy Tail: Madoushi (Nintendo DS Japan)",
+      "facts": [
+        {
+          "field": "canonical_name",
+          "value": "TV Anime Fairy Tail: Gekitou! Madoushi Kessen",
+          "source_url": "https://www.nintendo.co.jp/ds/software/bh6j/index.html",
+          "evidence": "The official Nintendo Japan page identifies the title as TV Anime Fairy Tail: Gekitou! Madoushi Kessen.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Fighting action",
+          "source_url": "https://www.nintendo.co.jp/ds/software/bh6j/index.html",
+          "evidence": "The Nintendo page lists 格闘アクション (fighting action) as the genre.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "Nintendo DS (Japan)",
+          "source_url": "https://www.nintendo.co.jp/ds/software/bh6j/index.html",
+          "evidence": "The official Nintendo page is the Japanese Nintendo DS software page for this title.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "developer",
+          "value": "A.I.",
+          "source_url": "https://gamefaqs.gamespot.com/ds/991700-tv-anime-fairy-tail-gekitou-madoushi-kessen/data",
+          "evidence": "GameFAQs credits A.I. as the developer in the game detail record.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Hudson Soft",
+          "source_url": "https://www.nintendo.co.jp/ds/software/bh6j/index.html",
+          "evidence": "The official Nintendo Japan page lists the manufacturer as Hudson (now Konami); the Japanese retail listing also credits Hudson as seller/publisher.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "Japan: 2010-07-22",
+          "source_url": "https://www.nintendo.co.jp/ds/software/bh6j/index.html",
+          "evidence": "The official Nintendo Japan page gives July 22, 2010 as the release date.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "day"
+        },
+        {
+          "field": "series",
+          "value": "Fairy Tail",
+          "source_url": "https://www.nintendo.co.jp/ds/software/bh6j/index.html",
+          "evidence": "The official Nintendo description identifies the game as based on Fairy Tail.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "edition_context",
+          "value": "The Japanese DS retail record identifies product code NTR-P-BH6J.",
+          "source_url": "https://books.rakuten.co.jp/rb/6479793/",
+          "evidence": "The Japanese retail listing gives the exact Nintendo DS product code NTR-P-BH6J.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Freedoom and compatible Doom-family IWADs",
+      "facts": [
+        {
+          "field": "canonical_name",
+          "value": "Freedoom",
+          "source_url": "https://en.wikipedia.org/wiki/Doom_modding#Freedoom",
+          "evidence": "The dedicated Freedoom section names the project Freedoom.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "First-person shooter",
+          "source_url": "https://en.wikipedia.org/wiki/Doom_modding#Freedoom",
+          "evidence": "The Freedoom infobox classifies the project as a first-person shooter.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "platforms",
+          "value": "Linux, Microsoft Windows, macOS, MS-DOS, and Android",
+          "source_url": "https://en.wikipedia.org/wiki/Doom_modding#Freedoom",
+          "evidence": "The Freedoom infobox lists these supported platforms.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "Doom-compatible source ports (Freedoom is distributed as IWAD data, not as a standalone engine)",
+          "source_url": "https://github.com/freedoom/freedoom/blob/master/manual/freedoom-manual-en.adoc",
+          "evidence": "The official manual explains that Freedoom is distributed as IWAD files and must be played with a Doom engine/source port.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "developer",
+          "value": "Various contributors",
+          "source_url": "https://en.wikipedia.org/wiki/Doom_modding#Freedoom",
+          "evidence": "The Freedoom infobox credits various contributors as original authors.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "2003-04-16 (first release)",
+          "source_url": "https://en.wikipedia.org/wiki/Doom_modding#Freedoom",
+          "evidence": "The Freedoom infobox gives April 16, 2003 as the first release date.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "day"
+        },
+        {
+          "field": "edition_context",
+          "value": "Freedoom is a free replacement for Doom’s game resources, distributed as two single-player IWADs and FreeDM; it requires a compatible Doom engine/source port to play.",
+          "source_url": "https://github.com/freedoom/freedoom/blob/master/manual/freedoom-manual-en.adoc",
+          "evidence": "The project manual says Freedoom is free/open-source game data distributed as freedoom1.wad, freedoom2.wad, and freedm.wad, and that a Doom source port is needed to play it.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "From TV Animation Slam Dunk: Yonkyo Gekitotsu!!",
+      "facts": [
+        {
+          "field": "canonical_name",
+          "value": "From TV Animation Slam Dunk: Yonkyo Gekitotsu!!",
+          "source_url": "https://www.gavas.jp/products/detail.php?product_id=2971",
+          "evidence": "The Japanese game-catalog record gives the English title as From TV Animation Slam Dunk - Yonkyou Gekitotsu!! and lists cartridge code SHVC-UX.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Sports / basketball simulation",
+          "source_url": "https://gamefaqs.gamespot.com/snes/575559-from-tv-animation-slam-dunk-yonkyo-taiketsu/data",
+          "evidence": "The SHVC-UX Japanese release record classifies the game as a sports, team basketball simulation.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "Super Famicom / Super Nintendo Entertainment System",
+          "source_url": "https://www.gavas.jp/products/detail.php?product_id=2971",
+          "evidence": "The Japanese catalog identifies Super Famicom as the system; the same cartridge code is listed as Super Nintendo on the release database.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "developer",
+          "value": "TOSE",
+          "source_url": "https://gamefaqs.gamespot.com/snes/575559-from-tv-animation-slam-dunk-yonkyo-taiketsu/data",
+          "evidence": "The matching SHVC-UX release record credits TOSE as developer.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Bandai",
+          "source_url": "https://www.gavas.jp/products/detail.php?product_id=2971",
+          "evidence": "The Japanese catalog lists Bandai as the manufacturer/publisher.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "Japan: 1994-03-26",
+          "source_url": "https://www.gavas.jp/products/detail.php?product_id=2971",
+          "evidence": "The Japanese catalog gives March 26, 1994 as the Super Famicom release date.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "day"
+        },
+        {
+          "field": "series",
+          "value": "Slam Dunk",
+          "source_url": "https://gamefaqs.gamespot.com/snes/575559-from-tv-animation-slam-dunk-yonkyo-taiketsu/data",
+          "evidence": "The matching release record identifies Slam Dunk as a franchise.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Guimo (DOS, version 2.2)",
+      "facts": [
+        {
+          "field": "canonical_name",
+          "value": "Guimo",
+          "source_url": "https://www.classicdosgames.com/game/Guimo.html",
+          "evidence": "The DOS archive identifies the game as Guimo.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Platform game",
+          "source_url": "https://www.classicdosgames.com/game/Guimo.html",
+          "evidence": "The archive classifies Guimo as a platform game.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "MS-DOS / PC-compatible computer",
+          "source_url": "https://www.classicdosgames.com/game/Guimo.html",
+          "evidence": "The archive lists the game and the v2.2 shareware release for DOS.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "developer",
+          "value": "Southlogic Studios (Jack in the Box Computing)",
+          "source_url": "https://www.classicdosgames.com/game/Guimo.html",
+          "evidence": "The archive identifies Southlogic Studios / Jack in the Box Computing as developer.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Jack in the Box Computing (Southlogic Studios)",
+          "source_url": "https://www.classicdosgames.com/game/Guimo.html",
+          "evidence": "The archive lists Jack in the Box Computing (Southlogic Studios) as publisher.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "Version 2.2 shareware: 1997-12-18",
+          "source_url": "https://www.classicdosgames.com/game/Guimo.html",
+          "evidence": "The archive’s download table dates the DOS v2.2 shareware release to December 18, 1997.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "day"
+        },
+        {
+          "field": "edition_context",
+          "value": "Version 2.2 is the archived shareware release; the archive notes that only the first level is playable in shareware.",
+          "source_url": "https://www.classicdosgames.com/game/Guimo.html",
+          "evidence": "The archive identifies the v2.2 download as shareware and says the shareware version has only the first level playable.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    }
+  ]
+}

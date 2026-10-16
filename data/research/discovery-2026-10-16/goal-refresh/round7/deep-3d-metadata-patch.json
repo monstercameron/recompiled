@@ -1,0 +1,32 @@
+{
+  "updated": "2026-10-16",
+  "scope": "Replace the misleading Android-release game label with an edition-qualified key for the J2ME game build documented by the upstream compatibility engine. This supersedes the earlier Deep 3D platform-only patch in this folder.",
+  "updates": [
+    {
+      "id": "deep-3d-submarine-odyssey-android-switch-port",
+      "fields": {
+        "game": "Deep 3D: Submarine Odyssey (J2ME, Sony Ericsson 1.0.8)",
+        "platform": "Original Fishlabs DEEP J2ME/MIDlet game data (Sony Ericsson 1.0.8 JAR) → TheWWWorm fan-made Android compatibility-engine APK/libraries → Nintendo Switch homebrew",
+        "summary": "An unofficial Nintendo Switch port of TheWWWorm’s fan-made compatibility-engine edition for Fishlabs’ original DEEP: Submarine Odyssey. The upstream engine is developed and gameplay-checked against the Sony Ericsson 1.0.8 DEEP JAR, and the Switch port can import an original DEEP JAR directly. Android APK/libraries describe compatibility-engine components, not a later official Fishlabs Android game release."
+      },
+      "sources": [
+        {
+          "label": "ABYSSAL Switch port README: game identity, original JAR import, Android APK input, and TheWWWorm Android-port source credit",
+          "url": "https://github.com/artslay/abyssal_nx/blob/main/README.md"
+        },
+        {
+          "label": "Upstream compatibility-engine README: original user-owned JAR and Sony Ericsson DEEP 1.0.8 gameplay-validation build",
+          "url": "https://github.com/TheWWWorm/abyssal/blob/main/README.md"
+        },
+        {
+          "label": "Upstream v1.0.0 release: Android is an engine package; engine ships without game content and imports user-supplied DEEP JAR",
+          "url": "https://github.com/TheWWWorm/abyssal/releases/tag/v1.0.0"
+        },
+        {
+          "label": "Fishlabs game list: DEEP: Submarine Odyssey (2007) on J2ME and Symbian",
+          "url": "https://en.wikipedia.org/wiki/Fishlabs"
+        }
+      ]
+    }
+  ]
+}

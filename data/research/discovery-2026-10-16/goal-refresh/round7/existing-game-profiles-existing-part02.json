@@ -1,0 +1,476 @@
+{
+  "verified_at": "2026-10-16",
+  "scope": "Source-linked basic profiles for the exact part-02 game keys, preserving distinctions between original games, ports, fan games, and multi-title targets.",
+  "profiles": [
+    {
+      "game_key": "Haou Taikei Ryuu Knight: Lord of Paladin",
+      "facts": [
+        {
+          "field": "genre",
+          "value": "Role-playing",
+          "source_url": "https://gamefaqs.gamespot.com/snes/575498-haou-taikei-ryuu-knight-lord-of-paladin/data",
+          "evidence": "The release record classifies the Super Nintendo game as a role-playing game.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "Super Famicom",
+          "source_url": "https://gamefaqs.gamespot.com/snes/575498-haou-taikei-ryuu-knight-lord-of-paladin/data",
+          "evidence": "The title is listed as a Super Nintendo game in the release record.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "developer",
+          "value": "Japan Art Media",
+          "source_url": "https://gamefaqs.gamespot.com/snes/575498-haou-taikei-ryuu-knight-lord-of-paladin/data",
+          "evidence": "The release record credits Japan Art Media (JAM) as developer.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Bandai",
+          "source_url": "https://gamefaqs.gamespot.com/snes/575498-haou-taikei-ryuu-knight-lord-of-paladin/data",
+          "evidence": "The release record credits Bandai as publisher.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "Japan: 1994",
+          "source_url": "https://gamefaqs.gamespot.com/snes/575498-haou-taikei-ryuu-knight-lord-of-paladin/data",
+          "evidence": "The release record dates the Japanese release to 1994.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "year"
+        }
+      ]
+    },
+    {
+      "game_key": "Legend of Doom",
+      "facts": [
+        {
+          "field": "genre",
+          "value": "First-person shooter",
+          "source_url": "https://www.moddb.com/mods/legend-of-doom",
+          "evidence": "ModDB classifies Legend of Doom as a first-person shooter and describes it as a total conversion for DOOM.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "PC (DOOM/GZDoom)",
+          "source_url": "https://www.moddb.com/mods/legend-of-doom",
+          "evidence": "The original release is a DOOM total conversion; its release notes identify GZDoom as the engine used to recreate the NES Hyrule world.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "developer",
+          "value": "DeTwelve Games",
+          "source_url": "https://www.moddb.com/mods/legend-of-doom",
+          "evidence": "The ModDB listing identifies the mod as Legend of Doom by DeTwelve.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "release_date",
+          "value": "2021-10-02",
+          "source_url": "https://www.moddb.com/mods/legend-of-doom",
+          "evidence": "The ModDB release list dates the initial 1.0.0 full version to October 2, 2021.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "day"
+        },
+        {
+          "field": "notable_context",
+          "value": "A DOOM total conversion recreating the original NES world of Hyrule; the 3DS project is a port of this GZDoom conversion.",
+          "source_url": "https://github.com/EstebanPdN/legend-of-doom-3ds",
+          "evidence": "The port repository identifies Legend of Doom as a first-person GZDoom conversion of the original The Legend of Zelda, created by DeTwelve Games.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Love Quest",
+      "facts": [
+        {
+          "field": "genre",
+          "value": "Role-playing",
+          "source_url": "https://gamefaqs.gamespot.com/snes/581814-love-quest",
+          "evidence": "The release record classifies Love Quest as a role-playing game.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "Super Famicom",
+          "source_url": "https://gamefaqs.gamespot.com/snes/581814-love-quest",
+          "evidence": "The game is listed as a Super Nintendo release in the title and release data.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "developer",
+          "value": "C-Lab",
+          "source_url": "https://gamefaqs.gamespot.com/snes/581814-love-quest",
+          "evidence": "The release record credits C-Lab as developer.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Tokuma Shoten",
+          "source_url": "https://gamefaqs.gamespot.com/snes/581814-love-quest",
+          "evidence": "The release record credits Tokuma Shoten as publisher.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "Japan: March 17, 1995",
+          "source_url": "https://gamefaqs.gamespot.com/snes/581814-love-quest",
+          "evidence": "The release record gives March 17, 1995 for the Japanese release.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "day"
+        },
+        {
+          "field": "gameplay_summary",
+          "value": "An RPG in which the protagonist searches for his missing bride and battles by attempting to win women over.",
+          "source_url": "https://www.super-famicom.jp/data/ra/love_quest.html",
+          "evidence": "The Japanese Super Famicom reference describes the premise and explains that combat is framed as wooing women rather than defeating them.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "MOTHER: Encore",
+      "facts": [
+        {
+          "field": "platforms",
+          "value": "Windows, macOS, and Linux",
+          "source_url": "https://mother-encore.itch.io/mother-encore",
+          "evidence": "The official itch.io page lists Windows, macOS, and Linux as downloadable platforms.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Role-playing, action, and puzzle",
+          "source_url": "https://mother-encore.itch.io/mother-encore",
+          "evidence": "The official page classifies the game in the role-playing, action, and puzzle genres.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "developer",
+          "value": "MOTHER: Encore",
+          "source_url": "https://mother-encore.itch.io/mother-encore",
+          "evidence": "The official game page lists MOTHER: Encore as the author.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "development_status",
+          "value": "In development",
+          "source_url": "https://mother-encore.itch.io/mother-encore",
+          "evidence": "The official page marks the game as in development.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "notable_context",
+          "value": "A free, unofficial fan game that takes an alternative approach to MOTHER 1 and is presented as a distinct experience rather than a replacement for the original.",
+          "source_url": "https://mother-encore.itch.io/mother-encore",
+          "evidence": "The developers’ disclaimer describes MOTHER: Encore as a free unofficial fan game and explicitly distinguishes it from MOTHER 1.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Magic Knight Rayearth 2: Making of Magic Knight",
+      "facts": [
+        {
+          "field": "genre",
+          "value": "Raising simulation",
+          "source_url": "https://gamegear.jp/magicknightrayearth2/",
+          "evidence": "The Japanese Game Gear review describes it as a raising simulation in which the characters are trained to become Magic Knights.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "Sega Game Gear",
+          "source_url": "https://strategywiki.org/wiki/Magic_Knight_Rayearth_2:_Making_of_Magic_Knight",
+          "evidence": "The reference identifies Sega Game Gear as the game system.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "developer",
+          "value": "Sega",
+          "source_url": "https://gamefaqs.gamespot.com/games/franchise/2564-magic-knight-rayearth",
+          "evidence": "The franchise release listing credits Sega as developer.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Sega",
+          "source_url": "https://gamefaqs.gamespot.com/games/franchise/2564-magic-knight-rayearth",
+          "evidence": "The franchise release listing credits Sega as publisher.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "Japan: August 4, 1995",
+          "source_url": "https://strategywiki.org/wiki/Magic_Knight_Rayearth_2:_Making_of_Magic_Knight",
+          "evidence": "The reference gives August 4, 1995 as the Japanese Game Gear release date.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "day"
+        },
+        {
+          "field": "notable_context",
+          "value": "The second Rayearth game released for Game Gear; it is a character-raising simulation focused on Hikaru, Umi, and Fuu.",
+          "source_url": "https://gamegear.jp/magicknightrayearth2/",
+          "evidence": "The review contrasts the title with the earlier Game Gear RPG and describes training the three characters over 50 days.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Maison Ikkoku",
+      "facts": [
+        {
+          "field": "genre",
+          "value": "Adventure",
+          "source_url": "https://gamefaqs.gamespot.com/nes/578605-maison-ikkoku/data",
+          "evidence": "The title-specific Famicom release record classifies Maison Ikkoku as an adventure game.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "Famicom",
+          "source_url": "https://gamefaqs.gamespot.com/nes/578605-maison-ikkoku/data",
+          "evidence": "The game record identifies this release as the Famicom/NES version.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "developer",
+          "value": "Bothtec",
+          "source_url": "https://gamefaqs.gamespot.com/nes/578605-maison-ikkoku/data",
+          "evidence": "The title-specific Famicom release record lists Bothtec as developer and publisher.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Bothtec",
+          "source_url": "https://gamefaqs.gamespot.com/nes/578605-maison-ikkoku/data",
+          "evidence": "The title-specific Famicom release record lists Bothtec as developer and publisher.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "Japan: July 21, 1988",
+          "source_url": "https://gamefaqs.gamespot.com/nes/578605-maison-ikkoku/data",
+          "evidence": "The title-specific Famicom release record gives July 21, 1988 as its Japanese release date.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "day"
+        },
+        {
+          "field": "notable_context",
+          "value": "The Famicom version is a port of the earlier PC-98 game, with updated graphics.",
+          "source_url": "https://www.furinkan.com/maison/misc/videogames.html",
+          "evidence": "The Maison Ikkoku game reference identifies the Famicom version as a port of the PC-98 game with updated graphics.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Mercurius Pretty: End of the Century",
+      "facts": [
+        {
+          "field": "genre",
+          "value": "Virtual-life simulation",
+          "source_url": "https://gamefaqs.gamespot.com/dreamcast/577278-mercurius-pretty-end-of-the-century",
+          "evidence": "The Dreamcast release record classifies the game as a virtual-life simulation.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "Dreamcast",
+          "source_url": "https://gamefaqs.gamespot.com/dreamcast/577278-mercurius-pretty-end-of-the-century",
+          "evidence": "The title-specific release record lists Dreamcast as the platform.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "developer",
+          "value": "Stack",
+          "source_url": "https://gamefaqs.gamespot.com/dreamcast/577278-mercurius-pretty-end-of-the-century",
+          "evidence": "The release record credits Stack as developer.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "NEC Interchannel",
+          "source_url": "https://gamefaqs.gamespot.com/dreamcast/577278-mercurius-pretty-end-of-the-century",
+          "evidence": "The release record credits NEC Interchannel as publisher.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "Japan: November 16, 2000",
+          "source_url": "https://gamefaqs.gamespot.com/dreamcast/577278-mercurius-pretty-end-of-the-century",
+          "evidence": "The release record gives November 16, 2000 for the Japanese release.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "day"
+        },
+        {
+          "field": "notable_context",
+          "value": "The Dreamcast title is an adventure-oriented new work related to the earlier PC-9801 Mercurius Pretty life-raising simulation.",
+          "source_url": "https://collection.rcgs.jp/page/PACKAGE0009680",
+          "evidence": "The RCGS collection record says the 2000 Dreamcast release was nearly a new game and had stronger adventure elements than the 1994 PC-9801 original.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Minecraft Classic 0.30",
+      "facts": [
+        {
+          "field": "genre",
+          "value": "Sandbox",
+          "source_url": "https://gamefaqs.gamespot.com/pc/606524-minecraft/data",
+          "evidence": "The Minecraft release record classifies the game as an action-adventure sandbox.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "PC (Java Edition Classic; browser-playable)",
+          "source_url": "https://minecraft.fandom.com/wiki/Java_Edition_Classic_0.30",
+          "evidence": "The version reference identifies 0.30 as a Java Edition Classic release and says the Creative variant was featured for free on the Minecraft website.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "developer",
+          "value": "Markus Persson (Notch)",
+          "source_url": "https://en.wikipedia.org/wiki/Markus_Persson",
+          "evidence": "The article identifies Persson as the creator of Minecraft and states that he released the original edition, later called Classic.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Mojang AB",
+          "source_url": "https://gamefaqs.gamespot.com/pc/606524-minecraft/data",
+          "evidence": "The release record lists Mojang AB as publisher of Minecraft Classic.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "release_date",
+          "value": "November 10, 2009",
+          "source_url": "https://minecraft.fandom.com/wiki/Java_Edition_Classic_0.30",
+          "evidence": "The version reference dates the 0.30 Classic releases to November 10, 2009.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "day"
+        },
+        {
+          "field": "notable_context",
+          "value": "Minecraft Classic 0.30 comprised Creative and Survival versions and was the final Classic version released.",
+          "source_url": "https://minecraft.fandom.com/wiki/Java_Edition_Classic_0.30",
+          "evidence": "The version reference states that 0.30 covered two versions, one Creative and one Survival, and was the final Classic version.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Multiple PlayStation 5 games",
+      "facts": [
+        {
+          "field": "platforms",
+          "value": "PlayStation 5 (multiple distinct titles)",
+          "source_url": "https://github.com/KytyPS5/KytyPS5",
+          "evidence": "The project’s primary repository describes KytyPS5 as a PlayStation 5 emulator and reports support for a selection of distinct 2D and 3D games.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "collection_context",
+          "value": "A multi-title target group rather than one individual game; no single genre, developer, publisher, or release date applies.",
+          "source_url": "https://github.com/KytyPS5/KytyPS5",
+          "evidence": "The repository describes an emulator that runs a selection of PS5 games and names several different example titles, confirming that the catalog key represents multiple games rather than one release.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Nana",
+      "facts": [
+        {
+          "field": "genre",
+          "value": "Adventure / visual novel",
+          "source_url": "https://gamefaqs.gamespot.com/ps2/925958-nana/data",
+          "evidence": "The PS2 release record classifies Nana as an adventure game in the visual-novel subgenre.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "PlayStation 2",
+          "source_url": "https://gamefaqs.gamespot.com/ps2/925958-nana/data",
+          "evidence": "The release record lists PlayStation 2 as the game platform.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "developer",
+          "value": "Konami Computer Entertainment Japan (KCEJ)",
+          "source_url": "https://gamefaqs.gamespot.com/ps2/925958-nana/data",
+          "evidence": "The release record credits KCEJ as developer.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Konami",
+          "source_url": "https://gamefaqs.gamespot.com/ps2/925958-nana/data",
+          "evidence": "The release record credits Konami as publisher.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "Japan: March 17, 2005",
+          "source_url": "https://gamefaqs.gamespot.com/ps2/925958-nana/data",
+          "evidence": "The release record gives March 17, 2005 for the Japanese release.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "day"
+        },
+        {
+          "field": "notable_context",
+          "value": "A game adaptation based on Ai Yazawa’s Nana manga, with the story covering material from manga volumes 5 through the beginning of volume 8.",
+          "source_url": "https://game.watch.impress.co.jp/docs/20050315/nana.htm",
+          "evidence": "The launch coverage says players spend time with Nana, Ren, Takumi, and other characters while following the manga’s events from volume 5 to the opening of volume 8.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Plants vs. Zombies Fusion",
+      "facts": [
+        {
+          "field": "genre",
+          "value": "Strategy / tower defense fangame",
+          "source_url": "https://goood.games/game/plants-vs-zombies-fusion",
+          "evidence": "The game catalog classifies Plants vs. Zombies: Fusion as a strategy fangame and describes its plant-fusion mechanic.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "PC (Microsoft Windows)",
+          "source_url": "https://downhop.com/games/plants-vs-zombies-fusion",
+          "evidence": "The game listing identifies Microsoft Windows PC as a platform for the 2024 fangame.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "developer",
+          "value": "Blue Fly (LanPiaoPiaoFly)",
+          "source_url": "https://goood.games/game/plants-vs-zombies-fusion",
+          "evidence": "The game catalog credits Blue Fly as the developer.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "release_date",
+          "value": "July 14, 2024",
+          "source_url": "https://goood.games/game/plants-vs-zombies-fusion",
+          "evidence": "The game catalog lists July 14, 2024 as the first release date.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "day"
+        },
+        {
+          "field": "notable_context",
+          "value": "A fan-made Plants vs. Zombies strategy game centered on combining plants to make stronger units.",
+          "source_url": "https://goood.games/game/plants-vs-zombies-fusion",
+          "evidence": "The overview identifies the title as a fangame and describes plant fusion as its main concept.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    }
+  ]
+}

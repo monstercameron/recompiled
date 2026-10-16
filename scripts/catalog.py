@@ -919,7 +919,7 @@ def import_project_updates(path):
             for update in normalized:
                 project_id = update["id"]
                 project = connection.execute(
-                    "SELECT target_type FROM projects WHERE id=?", (project_id,)
+                    "SELECT target_type,game FROM projects WHERE id=?", (project_id,)
                 ).fetchone()
                 if not project:
                     raise ValueError(f"Cannot patch an unknown project ID: {project_id}")
@@ -933,6 +933,15 @@ def import_project_updates(path):
                     connection.execute(
                         "INSERT OR IGNORE INTO games(game_key) VALUES(?)", (update["fields"]["game"],)
                     )
+                    old_game = project["game"]
+                    new_game = update["fields"]["game"]
+                    if old_game != new_game:
+                        connection.execute(
+                            """DELETE FROM games
+                               WHERE game_key=?
+                                 AND NOT EXISTS (SELECT 1 FROM projects WHERE game=?)""",
+                            (old_game, old_game),
+                        )
 
                 existing = connection.execute(
                     "SELECT position,label,url FROM sources WHERE project_id=? ORDER BY position", (project_id,)

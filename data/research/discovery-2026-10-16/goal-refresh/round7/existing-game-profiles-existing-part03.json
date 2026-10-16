@@ -1,0 +1,431 @@
+{
+  "verified_at": "2026-10-16",
+  "profiles": [
+    {
+      "game_key": "PlayStation 1 games (multi-title)",
+      "facts": [
+        {
+          "field": "game_scope",
+          "value": "Multiple original PlayStation 1 games packaged as native Android apps using psxrecomp static recompilation.",
+          "source_url": "https://github.com/dguillot-gh/psx-android",
+          "evidence": "The project describes itself as PlayStation 1 games built as native Android apps with static recompilation; per-game repositories hold separate configurations.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "Sony PlayStation (PlayStation 1)",
+          "source_url": "https://github.com/dguillot-gh/psx-android",
+          "evidence": "The project README explicitly identifies the source titles as PlayStation 1 games.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "notable_context",
+          "value": "Static recompilation converts each game program to C and compiles it for Android; this is a multi-title project, not one game.",
+          "source_url": "https://github.com/dguillot-gh/psx-android",
+          "evidence": "The project README explains the static-recompilation process and says game repositories have per-title configuration and terms.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Progenitor",
+      "facts": [
+        {
+          "field": "genre",
+          "value": "Space adventure / strategy role-playing game",
+          "source_url": "https://www.mobygames.com/game/215456/progenitor/",
+          "evidence": "MobyGames describes Progenitor as a space adventure/strategy game and lists adventure, strategy/tactics, and RPG elements.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "developer",
+          "value": "Koei",
+          "source_url": "https://gamefaqs.gamespot.com/pc98/414726-progenitor/data",
+          "evidence": "The PC-98 release listing credits Koei as developer.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Koei",
+          "source_url": "https://gamefaqs.gamespot.com/pc98/414726-progenitor/data",
+          "evidence": "The PC-98 release listing names Koei as publisher.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "NEC PC-9801 (PC-98)",
+          "source_url": "https://gamefaqs.gamespot.com/pc98/414726-progenitor/data",
+          "evidence": "The release record identifies the original Japanese version for NEC PC-98.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_release_date",
+          "value": "1994-10-01",
+          "source_url": "https://gamefaqs.gamespot.com/pc98/414726-progenitor/data",
+          "evidence": "The Japanese PC-98 release record gives October 1, 1994.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "day"
+        },
+        {
+          "field": "series",
+          "value": "Rekoeition",
+          "source_url": "https://www.mobygames.com/game/215456/progenitor/",
+          "evidence": "MobyGames lists Progenitor in the Rekoeition series.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "RPG Maker 2000/2003 games (multi-title)",
+      "facts": [
+        {
+          "field": "game_scope",
+          "value": "Multiple games made with RPG Maker 2000 or 2003, including compatible EasyRPG games.",
+          "source_url": "https://github.com/EasyRPG/Player",
+          "evidence": "EasyRPG Player describes itself as an interpreter for RPG Maker 2000, RPG Maker 2003, and EasyRPG games.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "Windows PC game projects; individual runtime ports vary.",
+          "source_url": "https://store.steampowered.com/app/383730/RPG_Maker_2000?l=english",
+          "evidence": "The official RPG Maker 2000 store page says exported creations can be played on Windows; individual runtime ports vary.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "SD Gundam - Dimension War",
+      "facts": [
+        {
+          "field": "genre",
+          "value": "Tactical role-playing",
+          "source_url": "https://en.wikipedia.org/wiki/SD_Gundam_Dimension_War",
+          "evidence": "The article classifies the game as a tactical role-playing video game.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "developer",
+          "value": "Locomotive Corporation",
+          "source_url": "https://en.wikipedia.org/wiki/SD_Gundam_Dimension_War",
+          "evidence": "The article credits Locomotive Corporation as developer.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Bandai",
+          "source_url": "https://en.wikipedia.org/wiki/SD_Gundam_Dimension_War",
+          "evidence": "The article identifies Bandai as publisher.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "Virtual Boy",
+          "source_url": "https://en.wikipedia.org/wiki/SD_Gundam_Dimension_War",
+          "evidence": "The article lists the Virtual Boy as the game platform.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_release_date",
+          "value": "1995-12-22",
+          "source_url": "https://en.wikipedia.org/wiki/SD_Gundam_Dimension_War",
+          "evidence": "The article gives December 22, 1995 as the Japanese release date.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "day"
+        },
+        {
+          "field": "notable_context",
+          "value": "It was the last Virtual Boy game published in Japan.",
+          "source_url": "https://en.wikipedia.org/wiki/SD_Gundam_Dimension_War",
+          "evidence": "The article says its December 22, 1995 release made it the final Virtual Boy game published in Japan.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Sen no Hatou, Tsukisome no Kouki",
+      "facts": [
+        {
+          "field": "genre",
+          "value": "Adventure (ADV)",
+          "source_url": "https://august-soft.com/hatou/products.html",
+          "evidence": "The official product page classifies the game as an ADV (adventure) with the Japanese label “忠義と愛のADV.”",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "developer",
+          "value": "August",
+          "source_url": "https://gamefaqs.gamespot.com/pc/189820-sen-no-hatou-tsukisome-no-kouki/data",
+          "evidence": "The PC release listing credits August as developer.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "Windows PC",
+          "source_url": "https://august-soft.com/hatou/products.html",
+          "evidence": "The official product specifications list Japanese Windows Vista, 7, 8.1, and 10 as supported systems.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_release_date",
+          "value": "2016-09-23",
+          "source_url": "https://august-soft.com/hatou/products.html",
+          "evidence": "The official product page gives September 23, 2016 as the release date.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "day"
+        },
+        {
+          "field": "publisher",
+          "value": "August",
+          "source_url": "https://gamefaqs.gamespot.com/pc/189820-sen-no-hatou-tsukisome-no-kouki/data",
+          "evidence": "The Japanese PC release record lists August as publisher.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Silent Hill: Chapter Two",
+      "facts": [
+        {
+          "field": "genre",
+          "value": "Point-and-click horror adventure",
+          "source_url": "https://www.silenthillmemories.net/sh_mobile2/info_en.htm",
+          "evidence": "The game-specific page describes a horror setting, puzzle solving, combat, and a point-and-click interface.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "developer",
+          "value": "Gamefederation",
+          "source_url": "https://www.silenthillmemories.net/sh_mobile2/info_en.htm",
+          "evidence": "The game-specific release page credits Gamefederation as developer.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Konami",
+          "source_url": "https://www.silenthillmemories.net/sh_mobile2/info_en.htm",
+          "evidence": "The game-specific release page credits Konami as publisher.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "Java ME mobile phones",
+          "source_url": "https://www.silenthillmemories.net/sh_mobile2/info_en.htm",
+          "evidence": "The game-specific page lists mobile phones (Java) as the platform.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_release_date",
+          "value": "2008-09",
+          "source_url": "https://www.silenthillmemories.net/sh_mobile2/info_en.htm",
+          "evidence": "The game-specific page dates the Silent Hill Mobile 2 release to September 2008.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "month"
+        },
+        {
+          "field": "alternate_title",
+          "value": "Silent Hill Mobile 2",
+          "source_url": "https://www.silenthillmemories.net/sh_mobile2/info_en.htm",
+          "evidence": "The game-specific page identifies the Java ME release by the title Silent Hill Mobile 2.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Silmarils ALIS virtual-machine games (multi-title)",
+      "facts": [
+        {
+          "field": "game_scope",
+          "value": "Multiple Silmarils game titles that use the ALIS (Actor Language Integrated System) virtual machine.",
+          "source_url": "https://github.com/maestun/alis",
+          "evidence": "The ALIS reimplementation README says the virtual machine was created by Silmarils and that the repository runs original game data files.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "developer",
+          "value": "Silmarils (across the titles in this group)",
+          "source_url": "https://github.com/maestun/alis",
+          "evidence": "The README identifies Silmarils as the videogame company that created the ALIS machine and discusses games from that company.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "Varies by title; documented releases include PC, Amiga, and Atari ST versions.",
+          "source_url": "https://github.com/maestun/alis",
+          "evidence": "The compatibility notes describe supported Silmarils titles across systems, including PC, Amiga, and Atari ST releases.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "notable_context",
+          "value": "ALIS is a proprietary virtual machine; original game disks contain its interpreter along with title data and scripts.",
+          "source_url": "https://github.com/maestun/alis",
+          "evidence": "The README explains that Silmarils game disks include the virtual-machine interpreter and compressed game files containing assets and pseudo-assembly scripts.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Super Gomoku Narabe Renju",
+      "facts": [
+        {
+          "field": "genre",
+          "value": "Board game (Gomoku / Renju)",
+          "source_url": "https://gamefaqs.gamespot.com/snes/571060-super-gomoku-narabe-renju/data",
+          "evidence": "The listing categorizes the game as a board/card game and names Gomoku Narabe: Renju.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "developer",
+          "value": "Naxat Soft",
+          "source_url": "https://gamefaqs.gamespot.com/snes/571060-super-gomoku-narabe-renju/data",
+          "evidence": "The Japanese Super Nintendo release credits Naxat Soft as developer.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Naxat Soft",
+          "source_url": "https://gamefaqs.gamespot.com/snes/571060-super-gomoku-narabe-renju/data",
+          "evidence": "The Japanese release record names Naxat Soft as publisher.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "Super Famicom (Super Nintendo)",
+          "source_url": "https://www.gavas.jp/products/detail.php?product_id=2709",
+          "evidence": "The Japanese product catalog lists the original title for Super Famicom (SFC).",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_release_date",
+          "value": "1994-03-25",
+          "source_url": "https://gamefaqs.gamespot.com/snes/571060-super-gomoku-narabe-renju/data",
+          "evidence": "The Japanese release record gives March 25, 1994.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "day"
+        }
+      ]
+    },
+    {
+      "game_key": "Supported PC adventure games (multi-engine)",
+      "facts": [
+        {
+          "field": "game_scope",
+          "value": "A multi-title set of adventure games supported by ScummVM across multiple game engines.",
+          "source_url": "https://docs.scummvm.org/en/v2026.4.0/index.html",
+          "evidence": "The official documentation says ScummVM supports classic point-and-click adventure games, text adventures, and RPGs, and notes that its supported library spans many titles.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Adventure games; ScummVM’s wider supported library also includes text adventures and RPGs.",
+          "source_url": "https://docs.scummvm.org/en/v2026.4.0/index.html",
+          "evidence": "The official project documentation names graphic point-and-click adventures, text adventures, and RPGs as supported game types.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "Varies by game; ScummVM records an original platform for each title.",
+          "source_url": "https://docs.scummvm.org/en/v2026.1.0/settings/game.html",
+          "evidence": "The official settings documentation defines Platform as the original platform of the selected game, so this multi-title group has no single platform value.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "notable_context",
+          "value": "ScummVM replaces original game executables and runs the supplied game data on supported devices.",
+          "source_url": "https://docs.scummvm.org/en/v2026.4.0/index.html",
+          "evidence": "The official overview explains that ScummVM replaces the executables shipped with games and uses their game data files.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Taekwon-Do",
+      "facts": [
+        {
+          "field": "genre",
+          "value": "Fighting / sports",
+          "source_url": "https://en.wikipedia.org/wiki/Taekwon-Do_(video_game)",
+          "evidence": "The article lists Fighting and Sports genres and describes tournament Taekwondo combat.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "developer",
+          "value": "Human Entertainment",
+          "source_url": "https://en.wikipedia.org/wiki/Taekwon-Do_(video_game)",
+          "evidence": "The article credits Human Entertainment as developer.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Human Entertainment",
+          "source_url": "https://en.wikipedia.org/wiki/Taekwon-Do_(video_game)",
+          "evidence": "The article credits Human Entertainment as publisher of the Japanese original.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "Super Famicom",
+          "source_url": "https://en.wikipedia.org/wiki/Taekwon-Do_(video_game)",
+          "evidence": "The article lists Super Famicom as the platform.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_release_date",
+          "value": "1994-06-28",
+          "source_url": "https://en.wikipedia.org/wiki/Taekwon-Do_(video_game)",
+          "evidence": "The article gives June 28, 1994 as the Japanese release date.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "day"
+        }
+      ]
+    },
+    {
+      "game_key": "Terrors",
+      "facts": [
+        {
+          "field": "genre",
+          "value": "Horror visual novel / adventure",
+          "source_url": "https://www.mobygames.com/game/228594/terrors/",
+          "evidence": "MobyGames classifies Terrors as an adventure and visual novel and describes it as horror-themed.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "developer",
+          "value": "Megas",
+          "source_url": "https://www.mobygames.com/game/228594/terrors/",
+          "evidence": "The WonderSwan game listing credits Megas as developer.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Bandai",
+          "source_url": "https://www.mobygames.com/game/228594/terrors/",
+          "evidence": "The WonderSwan game listing credits Bandai as publisher.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "WonderSwan",
+          "source_url": "https://www.mobygames.com/game/228594/terrors/",
+          "evidence": "The source lists the Japanese release on WonderSwan.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_release_date",
+          "value": "1999-08-05",
+          "source_url": "https://www.mobygames.com/game/228594/terrors/",
+          "evidence": "MobyGames gives August 5, 1999 as the WonderSwan release date.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "day"
+        },
+        {
+          "field": "notable_context",
+          "value": "The game contains six branching horror stories.",
+          "source_url": "https://www.mobygames.com/game/228594/terrors/",
+          "evidence": "The game description identifies six visual horror stories whose choices change their endings.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    }
+  ]
+}

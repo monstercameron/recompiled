@@ -1,0 +1,155 @@
+{
+  "part": 1,
+  "game_keys": [
+    "2048",
+    "Block Blast",
+    "Bounce (Nokia mobile game)",
+    "Call of Duty: Roads to Victory",
+    "Command & Conquer: Tiberian Dawn, Red Alert, and Dune 2000",
+    "Dragon Ball 3: Gokuu Den",
+    "Evo's Space Adventures (PS1)",
+    "Fairy Tail: Madoushi (Nintendo DS Japan)",
+    "Freedoom and compatible Doom-family IWADs",
+    "From TV Animation Slam Dunk: Yonkyo Gekitotsu!!",
+    "Guimo (DOS, version 2.2)"
+  ],
+  "targets": [
+    {
+      "game_key": "2048",
+      "project_ids": [
+        "2048-nintendo-3ds-port"
+      ],
+      "project_titles": [
+        "2048 Nintendo 3DS Port"
+      ],
+      "platforms": [
+        "Linux 2048.c → Nintendo 3DS homebrew"
+      ]
+    },
+    {
+      "game_key": "Block Blast",
+      "project_ids": [
+        "block-blast-3ds-homebrew"
+      ],
+      "project_titles": [
+        "Block Blast 3DS Homebrew"
+      ],
+      "platforms": [
+        "Block Blast-style mobile puzzle → Nintendo 3DS homebrew"
+      ]
+    },
+    {
+      "game_key": "Bounce (Nokia mobile game)",
+      "project_ids": [
+        "bounce-vita-port"
+      ],
+      "project_titles": [
+        "Bounce Vita"
+      ],
+      "platforms": [
+        "Nokia feature-phone game → PlayStation Vita"
+      ]
+    },
+    {
+      "game_key": "Call of Duty: Roads to Victory",
+      "project_ids": [
+        "call-of-duty-roads-to-victory-psp-web-recomp"
+      ],
+      "project_titles": [
+        "Call of Duty: Roads to Victory Web Recompilation"
+      ],
+      "platforms": [
+        "PlayStation Portable → WebAssembly/WebGL2 browser"
+      ]
+    },
+    {
+      "game_key": "Command & Conquer: Tiberian Dawn, Red Alert, and Dune 2000",
+      "project_ids": [
+        "openra"
+      ],
+      "project_titles": [
+        "OpenRA"
+      ],
+      "platforms": [
+        "DOS/Windows → Windows/Linux/macOS"
+      ]
+    },
+    {
+      "game_key": "Dragon Ball 3: Gokuu Den",
+      "project_ids": [
+        "dragon-ball-3-gokuu-den-en-pt-es"
+      ],
+      "project_titles": [
+        "Dragon Ball 3: Gokuu Den English",
+        " Portuguese",
+        " and Spanish Translation"
+      ],
+      "platforms": [
+        "Famicom / Nintendo Entertainment System"
+      ]
+    },
+    {
+      "game_key": "Evo's Space Adventures (PS1)",
+      "project_ids": [
+        "evos-space-adventures-psx-decomp"
+      ],
+      "project_titles": [
+        "Evo's Space Adventures PSX Decompilation"
+      ],
+      "platforms": [
+        "PlayStation 1"
+      ]
+    },
+    {
+      "game_key": "Fairy Tail: Madoushi (Nintendo DS Japan)",
+      "project_ids": [
+        "fairy-tail-madoushi-nds-decomp"
+      ],
+      "project_titles": [
+        "Fairy Tail: Madoushi (Nintendo DS Japan) Decompilation"
+      ],
+      "platforms": [
+        "Nintendo DS (Japan build",
+        " product code BH6J)"
+      ]
+    },
+    {
+      "game_key": "Freedoom and compatible Doom-family IWADs",
+      "project_ids": [
+        "freedoom-android-gzdoom-2026"
+      ],
+      "project_titles": [
+        "Freedoom for Android — 2026 Modernization"
+      ],
+      "platforms": [
+        "Freedoom/Doom-family IWAD data → Android (minSdk 23; arm64-v8a and armeabi-v7a)"
+      ]
+    },
+    {
+      "game_key": "From TV Animation Slam Dunk: Yonkyo Gekitotsu!!",
+      "project_ids": [
+        "slam-dunk-yonkyou-gekitotsu-sfc-en-beta"
+      ],
+      "project_titles": [
+        "Slam Dunk: Yonkyou Gekitotsu English Translation Beta"
+      ],
+      "platforms": [
+        "Super Famicom / Super Nintendo"
+      ]
+    },
+    {
+      "game_key": "Guimo (DOS, version 2.2)",
+      "project_ids": [
+        "openguimo"
+      ],
+      "project_titles": [
+        "OpenGuimo"
+      ],
+      "platforms": [
+        "DOS game data → Windows",
+        " macOS",
+        " Linux and Web"
+      ]
+    }
+  ]
+}

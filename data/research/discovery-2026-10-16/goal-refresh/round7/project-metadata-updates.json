@@ -1,0 +1,895 @@
+{
+  "updated": "2026-10-16",
+  "updates": [
+    {
+      "id": "amstrad-pcw-mister-core",
+      "fields": {
+        "source_available": "Public SystemVerilog/Verilog/VHDL source and runnable dated MiSTer bitstreams in the repository. The maintainer README documents two PCW model groups and standard DSK images; GitHub reports no recognized repository license or tagged release."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: supported PCW models, features, disk formats and usage",
+          "url": "https://github.com/MiSTer-devel/Amstrad-PCW_MiSTer/blob/master/README.md"
+        },
+        {
+          "label": "Official dated MiSTer bitstreams",
+          "url": "https://github.com/MiSTer-devel/Amstrad-PCW_MiSTer/tree/master/releases"
+        },
+        {
+          "label": "GitHub repository metadata (license and release state)",
+          "url": "https://api.github.com/repos/MiSTer-devel/Amstrad-PCW_MiSTer"
+        }
+      ]
+    },
+    {
+      "id": "another-world-cross-release-source-reconstruction",
+      "fields": {
+        "source_available": "Public source repository; GitHub reports no SPDX-identified license metadata."
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/ArqueologiaDigital/another-world-source-reconstruction"
+        },
+        {
+          "label": "Official GitHub repository API (public visibility; no SPDX-identified repository license metadata)",
+          "url": "https://api.github.com/repos/ArqueologiaDigital/another-world-source-reconstruction"
+        }
+      ]
+    },
+    {
+      "id": "arcade-astrocade-mister-core",
+      "fields": {
+        "source_available": "Public VHDL/Verilog/SystemVerilog source plus dated MiSTer RBF and MRA files in the repository. The README says arcade ROMs are not included and must be supplied separately; GitHub reports no recognized repository license or tagged release."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: core history, ROM requirement and MRA files",
+          "url": "https://github.com/MiSTer-devel/Arcade-Astrocade_MiSTer/blob/master/README.txt"
+        },
+        {
+          "label": "Official MiSTer arcade documentation and supported game families",
+          "url": "https://github.com/MiSTer-devel/MkDocs_MiSTer/blob/main/docs/cores/arcade.md"
+        },
+        {
+          "label": "Official core bitstreams and MRA files",
+          "url": "https://github.com/MiSTer-devel/Arcade-Astrocade_MiSTer/tree/master/releases"
+        },
+        {
+          "label": "GitHub repository metadata (license and release state)",
+          "url": "https://api.github.com/repos/MiSTer-devel/Arcade-Astrocade_MiSTer"
+        }
+      ]
+    },
+    {
+      "id": "battletanx-global-assault-vita-recomp",
+      "fields": {
+        "source_available": "Public source repository; GitHub repository metadata identifies the repository-level license as GPL-3.0."
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/TheGh0stShip/VitaTanxGA"
+        },
+        {
+          "label": "Official GitHub repository API (public visibility and repository-level license: GPL-3.0)",
+          "url": "https://api.github.com/repos/TheGh0stShip/VitaTanxGA"
+        }
+      ]
+    },
+    {
+      "id": "block-blast-3ds-homebrew",
+      "fields": {
+        "status": "Latest published GitHub release is v1.3 (2026-07-27). The current README changelog also lists v1.4 save-threading and performance changes, but GitHub does not list a v1.4 release. The README gallery is PC-rendered rather than captured from a console and makes no hardware frame-rate claim.",
+        "platform": "Nintendo 3DS family: original 3DS, 3DS XL, 2DS, New 3DS and New 2DS; install as CIA via CFW/Luma and FBI or as 3DSX via Homebrew Launcher.",
+        "source_available": "Public zlib-licensed C source and CIA/3DSX builds. The README says the independent game generates its graphics and audio in code and includes no original Block Blast code or assets."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README at reviewed commit: hardware list, install routes, PC-rendered screenshot disclosure, generated assets and zlib license",
+          "url": "https://github.com/TheFilipcom4607/BlockBlast-3DS/blob/6d8c7d6e67b696ddcba462256ff6d56da853632d/README.md"
+        },
+        {
+          "label": "Latest published GitHub release v1.3 (2026-07-27)",
+          "url": "https://github.com/TheFilipcom4607/BlockBlast-3DS/releases/tag/V1.3"
+        },
+        {
+          "label": "Maintainer zlib license",
+          "url": "https://github.com/TheFilipcom4607/BlockBlast-3DS/blob/6d8c7d6e67b696ddcba462256ff6d56da853632d/LICENSE"
+        }
+      ]
+    },
+    {
+      "id": "blood-1997-matching-decompilation",
+      "fields": {
+        "source_available": "Public source repository; GitHub reports no SPDX-identified license metadata."
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/NBlood/Blood-RE"
+        },
+        {
+          "label": "Official GitHub repository API (public visibility; no SPDX-identified repository license metadata)",
+          "url": "https://api.github.com/repos/NBlood/Blood-RE"
+        }
+      ]
+    },
+    {
+      "id": "blood-mapedit-matching-decompilation",
+      "fields": {
+        "source_available": "Public source repository; GitHub reports no SPDX-identified license metadata."
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/NBlood/Blood-RE"
+        },
+        {
+          "label": "Official GitHub repository API (public visibility; no SPDX-identified repository license metadata)",
+          "url": "https://api.github.com/repos/NBlood/Blood-RE"
+        }
+      ]
+    },
+    {
+      "id": "bloody-roar-ii-ps1-pc-recomp",
+      "fields": {
+        "source_available": "Public source repository; GitHub repository metadata identifies the repository-level license as MIT."
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/novapowers0/BloodyRoar2Recomp"
+        },
+        {
+          "label": "Official GitHub repository API (public visibility and repository-level license: MIT)",
+          "url": "https://api.github.com/repos/novapowers0/BloodyRoar2Recomp"
+        }
+      ]
+    },
+    {
+      "id": "castlevania-sotn-ps1-3ds-recomp",
+      "fields": {
+        "source_available": "Public source repository; GitHub reports no SPDX-identified license metadata."
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/randygil/SymphonyRecomp-3DS"
+        },
+        {
+          "label": "Official GitHub repository API (public visibility; no SPDX-identified repository license metadata)",
+          "url": "https://api.github.com/repos/randygil/SymphonyRecomp-3DS"
+        }
+      ]
+    },
+    {
+      "id": "castlevania-sotn-xbla-switch-recomp",
+      "fields": {
+        "source_available": "Public source repository; GitHub repository metadata identifies the repository-level license as MIT."
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/Surmavanick/castlevania-nx"
+        },
+        {
+          "label": "Official GitHub repository API (public visibility and repository-level license: MIT)",
+          "url": "https://api.github.com/repos/Surmavanick/castlevania-nx"
+        }
+      ]
+    },
+    {
+      "id": "championship-manager-0102-macos-arm64-recomp",
+      "fields": {
+        "source_available": "Public source repository; GitHub reports no SPDX-identified license metadata."
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/VictorDMor/cm0102mac"
+        },
+        {
+          "label": "Official GitHub repository API (public visibility; no SPDX-identified repository license metadata)",
+          "url": "https://api.github.com/repos/VictorDMor/cm0102mac"
+        }
+      ]
+    },
+    {
+      "id": "chibi-robo-gamecube-windows-static-recomp",
+      "fields": {
+        "source_available": "Public source repository; GitHub repository metadata identifies the repository-level license as GPL-3.0."
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/Armandpro12/chibi-robo-pc"
+        },
+        {
+          "label": "Official GitHub repository API (public visibility and repository-level license: GPL-3.0)",
+          "url": "https://api.github.com/repos/Armandpro12/chibi-robo-pc"
+        }
+      ]
+    },
+    {
+      "id": "colecods-ds",
+      "fields": {
+        "source_available": "Public C/C++ source and v11.0 Nintendo DS/DSi release assets. The maintainer permits copying and distribution only for non-commercial use, with attribution and third-party core terms preserved; required BIOS and game files are not bundled."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: source copyright/distribution terms, BIOS requirements and bundled content",
+          "url": "https://github.com/wavemotion-dave/ColecoDS/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer v11.0 release and assets (2026-08-20)",
+          "url": "https://github.com/wavemotion-dave/ColecoDS/releases/tag/11.0"
+        }
+      ]
+    },
+    {
+      "id": "command-conquer-red-alert-2-pc-recomp",
+      "fields": {
+        "source_available": "Public source repository; GitHub reports no SPDX-identified license metadata."
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/sp00nznet/redalert2-recomp"
+        },
+        {
+          "label": "Official GitHub repository API (public visibility; no SPDX-identified repository license metadata)",
+          "url": "https://api.github.com/repos/sp00nznet/redalert2-recomp"
+        }
+      ]
+    },
+    {
+      "id": "crash-team-racing-vita-high-octane",
+      "fields": {
+        "source_available": "Public source repository; GitHub repository metadata identifies the repository-level license as GPL-3.0."
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/Rinnegatamante/Crash-Team-Racing-High-Octane"
+        },
+        {
+          "label": "Official GitHub repository API (public visibility and repository-level license: GPL-3.0)",
+          "url": "https://api.github.com/repos/Rinnegatamante/Crash-Team-Racing-High-Octane"
+        }
+      ]
+    },
+    {
+      "id": "dragon-age-origins-xbox360-windows-recomp",
+      "fields": {
+        "source_available": "Public source repository; GitHub repository metadata identifies the repository-level license as MIT."
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/96dot/DAORecomp"
+        },
+        {
+          "label": "Official GitHub repository API (public visibility and repository-level license: MIT)",
+          "url": "https://api.github.com/repos/96dot/DAORecomp"
+        }
+      ]
+    },
+    {
+      "id": "ep128emu",
+      "fields": {
+        "source_available": "Public C++ source under the GNU GPL v2 (the repository includes COPYING) and tagged release 2.0.11.2. The README documents Windows installer assets and source builds for Linux/POSIX and macOS."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: source/build availability and host platforms",
+          "url": "https://github.com/istvan-v/ep128emu/blob/master/README"
+        },
+        {
+          "label": "Maintainer COPYING file: GNU GPL version 2",
+          "url": "https://github.com/istvan-v/ep128emu/blob/master/COPYING"
+        },
+        {
+          "label": "Maintainer release 2.0.11.2",
+          "url": "https://github.com/istvan-v/ep128emu/releases/tag/2.0.11.2"
+        }
+      ]
+    },
+    {
+      "id": "f-zero-snes-vita-recomp",
+      "fields": {
+        "source_available": "Public source repository; GitHub reports no SPDX-identified license metadata."
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/rameauv/FZeroRecomp-vita"
+        },
+        {
+          "label": "Official GitHub repository API (public visibility; no SPDX-identified repository license metadata)",
+          "url": "https://api.github.com/repos/rameauv/FZeroRecomp-vita"
+        }
+      ]
+    },
+    {
+      "id": "final-fantasy-xi-macos-arm64-recomp",
+      "fields": {
+        "source_available": "Public source repository; GitHub repository metadata identifies the repository-level license as MIT."
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/rubymatrix/xi-on-anything"
+        },
+        {
+          "label": "Official GitHub repository API (public visibility and repository-level license: MIT)",
+          "url": "https://api.github.com/repos/rubymatrix/xi-on-anything"
+        }
+      ]
+    },
+    {
+      "id": "gameandwatch-mister-core",
+      "fields": {
+        "source_available": "Public MiSTer RTL, ROM-generator source and generated game packages. The README lists component-specific terms: core RTL/docs MIT, MiSTer glue GPLv3, vendored SDRAM controller MIT, and framework files under their upstream notices; no tagged GitHub release is listed."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: source/package availability and component-specific licensing table",
+          "url": "https://github.com/MiSTer-devel/GameAndWatch_MiSTer/blob/master/README.md"
+        },
+        {
+          "label": "Maintainer repository and generated ROM package tree",
+          "url": "https://github.com/MiSTer-devel/GameAndWatch_MiSTer"
+        },
+        {
+          "label": "GitHub repository metadata (repository-level license/release state)",
+          "url": "https://api.github.com/repos/MiSTer-devel/GameAndWatch_MiSTer"
+        }
+      ]
+    },
+    {
+      "id": "gamecom-mister-core",
+      "fields": {
+        "source_available": "Public Verilog/SystemVerilog source under GPL-2.0 and a dated runnable RBF bitstream in the repository releases directory; no tagged GitHub release is listed."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: core behavior and source/project notes",
+          "url": "https://github.com/MiSTer-devel/GameCom_MiSTer/blob/master/Readme.md"
+        },
+        {
+          "label": "Maintainer GPL-2.0 license",
+          "url": "https://github.com/MiSTer-devel/GameCom_MiSTer/blob/master/LICENSE"
+        },
+        {
+          "label": "Official dated core bitstreams",
+          "url": "https://github.com/MiSTer-devel/GameCom_MiSTer/tree/master/releases"
+        }
+      ]
+    },
+    {
+      "id": "gears-of-war-3-xbox360-windows-recomp",
+      "fields": {
+        "source_available": "Public source repository; GitHub repository metadata identifies the repository-level license as GPL-3.0."
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/KiltedKernel/gears-of-war-3-pc-port"
+        },
+        {
+          "label": "Official GitHub repository API (public visibility and repository-level license: GPL-3.0)",
+          "url": "https://api.github.com/repos/KiltedKernel/gears-of-war-3-pc-port"
+        }
+      ]
+    },
+    {
+      "id": "golden-sun-gba-desktop-recomp",
+      "fields": {
+        "source_available": "Public source repository; GitHub reports no SPDX-identified license metadata."
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/Shmargus/GSRecomp"
+        },
+        {
+          "label": "Official GitHub repository API (public visibility; no SPDX-identified repository license metadata)",
+          "url": "https://api.github.com/repos/Shmargus/GSRecomp"
+        }
+      ]
+    },
+    {
+      "id": "gp32emu",
+      "fields": {
+        "source_available": "Public C/C++/JavaScript source and beta release 1.0. The maintainer README says BIOS, game and commercial assets are not bundled; no repository-wide license was identified in the README or GitHub license metadata."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: source builds, frontends and bundled-asset policy",
+          "url": "https://github.com/gameblabla/gp32emu/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer beta release 1.0 (2026-06-08)",
+          "url": "https://github.com/gameblabla/gp32emu/releases/tag/1.0"
+        },
+        {
+          "label": "GitHub repository metadata (no recognized repository license)",
+          "url": "https://api.github.com/repos/gameblabla/gp32emu"
+        }
+      ]
+    },
+    {
+      "id": "ibm-pc110-mister-core",
+      "fields": {
+        "source_available": "Public GPL-3.0-or-later source for PC110-specific code and downloadable MiSTer-ready release packages; shared CPU/platform RTL keeps its upstream per-file licenses. The README says the public v2026.08.08 package needs a later MiSTer Main build and is not in the official update database; IBM firmware is not included."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: source licensing, public package and MiSTer Main prerequisite",
+          "url": "https://github.com/ahmadexp/PC110_MiSTer/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer third-party notices: upstream licenses and firmware exclusions",
+          "url": "https://github.com/ahmadexp/PC110_MiSTer/blob/main/THIRD_PARTY_NOTICES.md"
+        },
+        {
+          "label": "Maintainer release 2026-08-25 package",
+          "url": "https://github.com/ahmadexp/PC110_MiSTer/releases/tag/de25-platform-v2-20260825"
+        }
+      ]
+    },
+    {
+      "id": "ken-griffey-jr-slugfest-n64-linux-recomp",
+      "fields": {
+        "source_available": "Public source repository; GitHub repository metadata identifies the repository-level license as GPL-3.0."
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/CalenCyr/SlugfestRecompiled"
+        },
+        {
+          "label": "Official GitHub repository API (public visibility and repository-level license: GPL-3.0)",
+          "url": "https://api.github.com/repos/CalenCyr/SlugfestRecompiled"
+        }
+      ]
+    },
+    {
+      "id": "lord-of-the-rings-two-towers-xbox-recomp",
+      "fields": {
+        "source_available": "Public source repository; GitHub reports no SPDX-identified license metadata."
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/Gumpolas/TooTawersRecomp"
+        },
+        {
+          "label": "Official GitHub repository API (public visibility; no SPDX-identified repository license metadata)",
+          "url": "https://api.github.com/repos/Gumpolas/TooTawersRecomp"
+        }
+      ]
+    },
+    {
+      "id": "mario-kart-64-switch-port-spaghettikart",
+      "fields": {
+        "source_available": "Public source repository; GitHub reports no SPDX-identified license metadata."
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/HarbourMasters/SpaghettiKart"
+        },
+        {
+          "label": "Official GitHub repository API (public visibility; no SPDX-identified repository license metadata)",
+          "url": "https://api.github.com/repos/HarbourMasters/SpaghettiKart"
+        }
+      ]
+    },
+    {
+      "id": "mega-man-x-switch-recomp",
+      "fields": {
+        "source_available": "Public source repository; GitHub reports no SPDX-identified license metadata."
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/Thorhax/MegaManX-NX"
+        },
+        {
+          "label": "Official GitHub repository API (public visibility; no SPDX-identified repository license metadata)",
+          "url": "https://api.github.com/repos/Thorhax/MegaManX-NX"
+        }
+      ]
+    },
+    {
+      "id": "metroid-zero-mission-switch-port",
+      "fields": {
+        "source_available": "Public source repository; GitHub repository metadata identifies the repository-level license as GPL-3.0."
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/JJTapiaXX/Metroid-Zero-Mission-NX"
+        },
+        {
+          "label": "Official GitHub repository API (public visibility and repository-level license: GPL-3.0)",
+          "url": "https://api.github.com/repos/JJTapiaXX/Metroid-Zero-Mission-NX"
+        }
+      ]
+    },
+    {
+      "id": "new-star-soccer-5-source-reconstruction",
+      "fields": {
+        "source_available": "Public source repository; GitHub repository metadata identifies the repository-level license as MIT."
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/pr0sc0per9000/nss5-forge"
+        },
+        {
+          "label": "Official GitHub repository API (public visibility and repository-level license: MIT)",
+          "url": "https://api.github.com/repos/pr0sc0per9000/nss5-forge"
+        }
+      ]
+    },
+    {
+      "id": "nfs-carbon-pc-macos-arm64-recomp",
+      "fields": {
+        "source_available": "Public source repository; GitHub reports no SPDX-identified license metadata."
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/vasist15-source/nfs-carbon-mac"
+        },
+        {
+          "label": "Official GitHub repository API (public visibility; no SPDX-identified repository license metadata)",
+          "url": "https://api.github.com/repos/vasist15-source/nfs-carbon-mac"
+        }
+      ]
+    },
+    {
+      "id": "nfs-most-wanted-pc-android-recomp",
+      "fields": {
+        "source_available": "Public source repository; GitHub reports no SPDX-identified license metadata."
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/codepdbh/nfsmwpc-recompiled"
+        },
+        {
+          "label": "Official GitHub repository API (public visibility; no SPDX-identified repository license metadata)",
+          "url": "https://api.github.com/repos/codepdbh/nfsmwpc-recompiled"
+        }
+      ]
+    },
+    {
+      "id": "nfs-most-wanted-pc-macos-recomp",
+      "fields": {
+        "source_available": "Public source repository; GitHub reports no SPDX-identified license metadata."
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/elforeign/nfs-most-wanted-mac"
+        },
+        {
+          "label": "Official GitHub repository API (public visibility; no SPDX-identified repository license metadata)",
+          "url": "https://api.github.com/repos/elforeign/nfs-most-wanted-mac"
+        }
+      ]
+    },
+    {
+      "id": "nfs-underground-2-pc-macos-arm64-recomp",
+      "fields": {
+        "source_available": "Public source repository; GitHub repository metadata identifies the repository-level license as MIT."
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/TalhaMudo/NFSU2Recomp"
+        },
+        {
+          "label": "Official GitHub repository API (public visibility and repository-level license: MIT)",
+          "url": "https://api.github.com/repos/TalhaMudo/NFSU2Recomp"
+        }
+      ]
+    },
+    {
+      "id": "paper-mario-n64-switch-port-paperboat",
+      "fields": {
+        "source_available": "Public source repository; GitHub repository metadata identifies the repository-level license as CC0-1.0."
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/Thorhax/PaperBoat-NX-Modern"
+        },
+        {
+          "label": "Official GitHub repository API (public visibility and repository-level license: CC0-1.0)",
+          "url": "https://api.github.com/repos/Thorhax/PaperBoat-NX-Modern"
+        }
+      ]
+    },
+    {
+      "id": "peggle-2-xbox360-switch-recomp",
+      "fields": {
+        "source_available": "Public source repository; GitHub repository metadata identifies the repository-level license as GPL-3.0."
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/ChanseyIsTheBest/peggle2-nx"
+        },
+        {
+          "label": "Official GitHub repository API (public visibility and repository-level license: GPL-3.0)",
+          "url": "https://api.github.com/repos/ChanseyIsTheBest/peggle2-nx"
+        }
+      ]
+    },
+    {
+      "id": "pokemon-crystal-gen2recomped-console",
+      "fields": {
+        "source_available": "Public source repository; GitHub reports no SPDX-identified license metadata."
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/UNDERdecoded/Gen2Recomped"
+        },
+        {
+          "label": "Official GitHub repository API (public visibility; no SPDX-identified repository license metadata)",
+          "url": "https://api.github.com/repos/UNDERdecoded/Gen2Recomped"
+        }
+      ]
+    },
+    {
+      "id": "pokemon-gold-gen2recomped-console",
+      "fields": {
+        "source_available": "Public source repository; GitHub reports no SPDX-identified license metadata."
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/UNDERdecoded/Gen2Recomped"
+        },
+        {
+          "label": "Official GitHub repository API (public visibility; no SPDX-identified repository license metadata)",
+          "url": "https://api.github.com/repos/UNDERdecoded/Gen2Recomped"
+        }
+      ]
+    },
+    {
+      "id": "pokemon-silver-gen2recomped-console",
+      "fields": {
+        "source_available": "Public source repository; GitHub reports no SPDX-identified license metadata."
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/UNDERdecoded/Gen2Recomped"
+        },
+        {
+          "label": "Official GitHub repository API (public visibility; no SPDX-identified repository license metadata)",
+          "url": "https://api.github.com/repos/UNDERdecoded/Gen2Recomped"
+        }
+      ]
+    },
+    {
+      "id": "quest-bbc-micro-byte-exact-source-reconstruction",
+      "fields": {
+        "source_available": "Public source repository; GitHub reports no SPDX-identified license metadata."
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/retro-foundry/quest-decomp"
+        },
+        {
+          "label": "Official GitHub repository API (public visibility; no SPDX-identified repository license metadata)",
+          "url": "https://api.github.com/repos/retro-foundry/quest-decomp"
+        }
+      ]
+    },
+    {
+      "id": "saru-saru-daisakusen-psp-recomp",
+      "fields": {
+        "source_available": "Public source repository; GitHub repository metadata identifies the repository-level license as MIT."
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/jackgllghr/bigmission-recomp"
+        },
+        {
+          "label": "Official GitHub repository API (public visibility and repository-level license: MIT)",
+          "url": "https://api.github.com/repos/jackgllghr/bigmission-recomp"
+        }
+      ]
+    },
+    {
+      "id": "star-fox-64-switch-port-starship",
+      "fields": {
+        "source_available": "Public source repository; GitHub repository metadata identifies the repository-level license as CC0-1.0."
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/HarbourMasters/Starship"
+        },
+        {
+          "label": "Official GitHub repository API (public visibility and repository-level license: CC0-1.0)",
+          "url": "https://api.github.com/repos/HarbourMasters/Starship"
+        }
+      ]
+    },
+    {
+      "id": "star-wars-shadows-of-the-empire-n64-recomp",
+      "fields": {
+        "source_available": "Public source repository; GitHub reports no SPDX-identified license metadata."
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/GTTeancum/SotE-Recomp"
+        },
+        {
+          "label": "Official GitHub repository API (public visibility; no SPDX-identified repository license metadata)",
+          "url": "https://api.github.com/repos/GTTeancum/SotE-Recomp"
+        }
+      ]
+    },
+    {
+      "id": "starcraft-64-switch-port",
+      "fields": {
+        "source_available": "Public source repository; GitHub reports no SPDX-identified license metadata."
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/gabryboy12-ai/StarCraft64-NX"
+        },
+        {
+          "label": "Official GitHub repository API (public visibility; no SPDX-identified repository license metadata)",
+          "url": "https://api.github.com/repos/gabryboy12-ai/StarCraft64-NX"
+        }
+      ]
+    },
+    {
+      "id": "super-mario-64-switch-port-ghostship",
+      "fields": {
+        "source_available": "Public source repository; GitHub repository metadata identifies the repository-level license as MIT."
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/HarbourMasters/Ghostship"
+        },
+        {
+          "label": "Official GitHub repository API (public visibility and repository-level license: MIT)",
+          "url": "https://api.github.com/repos/HarbourMasters/Ghostship"
+        }
+      ]
+    },
+    {
+      "id": "super-mario-sunshine-switch-port",
+      "fields": {
+        "source_available": "Public source repository; GitHub repository metadata identifies the repository-level license as MIT."
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/chasem-dev/sms-switch"
+        },
+        {
+          "label": "Official GitHub repository API (public visibility and repository-level license: MIT)",
+          "url": "https://api.github.com/repos/chasem-dev/sms-switch"
+        }
+      ]
+    },
+    {
+      "id": "super-smash-bros-64-switch-port-battleship",
+      "fields": {
+        "source_available": "Public source repository; GitHub reports no SPDX-identified license metadata."
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/KawaiiBunga/BattleShipNX"
+        },
+        {
+          "label": "Official GitHub repository API (public visibility; no SPDX-identified repository license metadata)",
+          "url": "https://api.github.com/repos/KawaiiBunga/BattleShipNX"
+        }
+      ]
+    },
+    {
+      "id": "super-smash-bros-melee-switch-port",
+      "fields": {
+        "source_available": "Public source repository; GitHub reports no SPDX-identified license metadata."
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/KawaiiBunga/Melee-NX"
+        },
+        {
+          "label": "Official GitHub repository API (public visibility; no SPDX-identified repository license metadata)",
+          "url": "https://api.github.com/repos/KawaiiBunga/Melee-NX"
+        }
+      ]
+    },
+    {
+      "id": "tekken-6-xbox360-windows-recomp",
+      "fields": {
+        "source_available": "Public source repository; GitHub reports no SPDX-identified license metadata."
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/mahmoud-mess/tekken6-recomp"
+        },
+        {
+          "label": "Official GitHub repository API (public visibility; no SPDX-identified repository license metadata)",
+          "url": "https://api.github.com/repos/mahmoud-mess/tekken6-recomp"
+        }
+      ]
+    },
+    {
+      "id": "tekken-tag-tournament-2-wiiu-linux-recomp",
+      "fields": {
+        "source_available": "Public source repository; GitHub repository metadata identifies the repository-level license as MIT."
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/Petexy/Tekken-Tag-2-Recompiled"
+        },
+        {
+          "label": "Official GitHub repository API (public visibility and repository-level license: MIT)",
+          "url": "https://api.github.com/repos/Petexy/Tekken-Tag-2-Recompiled"
+        }
+      ]
+    },
+    {
+      "id": "wave-race-64-switch-port-racewave46",
+      "fields": {
+        "source_available": "Public source repository; GitHub reports no SPDX-identified license metadata."
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/1weell/RaceWave46-Switch"
+        },
+        {
+          "label": "Official GitHub repository API (public visibility; no SPDX-identified repository license metadata)",
+          "url": "https://api.github.com/repos/1weell/RaceWave46-Switch"
+        }
+      ]
+    },
+    {
+      "id": "yakc-east-german-computers",
+      "fields": {
+        "source_available": "Public MIT-licensed source repository; the README links a WebAssembly/browser demo. The maintainer marks the project abandoned and no tagged GitHub release is listed."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: project state, systems and browser demo",
+          "url": "https://github.com/floooh/yakc/blob/master/README.md"
+        },
+        {
+          "label": "Maintainer MIT license",
+          "url": "https://github.com/floooh/yakc/blob/master/LICENSE"
+        },
+        {
+          "label": "Maintainer-linked WebAssembly demo",
+          "url": "https://floooh.github.io/tiny8bit/"
+        }
+      ]
+    }
+  ]
+}

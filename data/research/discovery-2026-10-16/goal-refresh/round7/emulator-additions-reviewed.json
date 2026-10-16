@@ -1,0 +1,655 @@
+{
+  "updated": "2026-10-16",
+  "scope": "New open-source software and FPGA emulator implementations for computers, consoles, handhelds, synthesizers and arcade systems; no ROM or firmware payloads copied.",
+  "projects": [
+    {
+      "id": "tiny386-x86-pc",
+      "title": "Tiny386",
+      "game": "IBM PC-compatible x86 software and operating systems",
+      "target_type": "Software",
+      "platform": "x86 PC system emulation on desktop hosts and ESP32-S3-class MCUs; the README lists 386 with selected 486/586 and amd64 features",
+      "kind": "Emulator",
+      "status": "The rolling `continuous` release was published 2026-10-08 and the source was pushed that day. The README reports Windows 9x/NT booting on MCUs such as ESP32-S3, and lists missing debugging, hardware-tasking, and permission-check features.",
+      "summary": "Portable C99 full-system x86 PC emulator with an i386 CPU model, optional x87 FPU, and modeled PC peripherals. The maintainer reports Windows 9x/NT booting on ESP32-S3; the BIOS and VGA BIOS are external SeaBIOS-derived files configured by the user.",
+      "project_url": "https://github.com/hchunhui/tiny386",
+      "updated": "2026-10-08",
+      "strategy": "C99 software emulator for x86 CPU and PC peripheral hardware, with selected peripherals ported from TinyEMU and QEMU.",
+      "language": "",
+      "source_available": "Public BSD-3-Clause source repository. The README says BIOS/VGA BIOS files come from SeaBIOS and must be supplied by path; the BSD-3-Clause project license does not determine rights for those firmware files or user disk images. Optional OPL audio code has separate upstream provenance.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Software full-system x86 PC emulator",
+      "sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/hchunhui/tiny386"
+        },
+        {
+          "label": "Maintainer README / project status and requirements",
+          "url": "https://github.com/hchunhui/tiny386/blob/master/README.md"
+        },
+        {
+          "label": "GitHub repository metadata and last push",
+          "url": "https://api.github.com/repos/hchunhui/tiny386"
+        },
+        {
+          "label": "GitHub license file",
+          "url": "https://github.com/hchunhui/tiny386/blob/master/LICENSE"
+        },
+        {
+          "label": "Latest GitHub release (continuous)",
+          "url": "https://github.com/hchunhui/tiny386/releases/tag/continuous"
+        }
+      ]
+    },
+    {
+      "id": "nd100x-norsk-data",
+      "title": "nd100x",
+      "game": "Norsk Data ND-100/CX software, including SINTRAN III",
+      "target_type": "Software",
+      "platform": "ND-100/CX minicomputer emulation; native Linux, Windows, macOS and RISC-V builds plus a WebAssembly browser build",
+      "kind": "Emulator",
+      "status": "GitHub lists v1.0.22 as the latest release (2026-10-11); the RetroCoreLabs repository was pushed 2026-10-15. The README status section still says v1.0.16 and reports SINTRAN L booting from SMD plus optional ND-500-family support, so those version references do not match.",
+      "summary": "C emulator for the Norsk Data ND-100/CX, modeling its CPU, memory management, disk controllers, terminals, networking and other devices. The maintainer describes nd100x as a substantially extended fork of nd100em and documents SINTRAN operation; the repository also bundles disk and software images.",
+      "project_url": "https://github.com/RetroCoreLabs/nd100x",
+      "updated": "2026-10-15",
+      "strategy": "Full-system C emulator derived from nd100em, with native and WebAssembly frontends.",
+      "language": "",
+      "source_available": "Public GPL-3.0 (GitHub/LICENSE); README describes GPL v2 or later source repository. The GitHub-detected LICENSE file is GPL-3.0 text, while README prose describes inherited GPL v2-or-later terms; resolve that documentation discrepancy before relying on a precise version claim. The repository bundles Norsk Data disk/software images, including SINTRAN material; image rights and redistribution terms are separate from the emulator code.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Software minicomputer emulator",
+      "sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/RetroCoreLabs/nd100x"
+        },
+        {
+          "label": "Maintainer README / project status and requirements",
+          "url": "https://github.com/RetroCoreLabs/nd100x/blob/main/README.md"
+        },
+        {
+          "label": "GitHub repository metadata and last push",
+          "url": "https://api.github.com/repos/RetroCoreLabs/nd100x"
+        },
+        {
+          "label": "GitHub license file",
+          "url": "https://github.com/RetroCoreLabs/nd100x/blob/main/LICENSE"
+        },
+        {
+          "label": "Latest GitHub release (v1.0.22)",
+          "url": "https://github.com/RetroCoreLabs/nd100x/releases/tag/v1.0.22"
+        }
+      ]
+    },
+    {
+      "id": "neser-nintendo-multisystem",
+      "title": "NESER",
+      "game": "NES/Famicom, Game Boy, Game Boy Color, Game Boy Advance and SNES software",
+      "target_type": "Software",
+      "platform": "Native desktop and browser frontends",
+      "kind": "Emulator",
+      "status": "The maintainer published v1.3.0 on 2026-10-01 and pushed the repository on 2026-10-08. The README documents the five Nintendo system families and native/browser frontends, with per-system support notes in separate README files.",
+      "summary": "Rust multi-system emulator with shared audio, video, input, save-state, configuration, ROM browsing and debugging paths for Nintendo NES/Famicom, Game Boy/Color, Game Boy Advance and SNES software. Commercial game images are not covered by the MIT code license.",
+      "project_url": "https://github.com/rmstdope/neser",
+      "updated": "2026-10-08",
+      "strategy": "Shared Rust emulation engine and native/browser frontends for multiple Nintendo systems.",
+      "language": "",
+      "source_available": "Public MIT source repository. MIT-licensed source; users supply game ROMs. The SNES README says DSP-1/2/3/4 games require genuine firmware files supplied by the user; those firmware and game-image rights remain separate.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "Rust",
+      "subtype": "Software multi-system console and handheld emulator",
+      "sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/rmstdope/neser"
+        },
+        {
+          "label": "Maintainer README / project status and requirements",
+          "url": "https://github.com/rmstdope/neser/blob/main/README.md"
+        },
+        {
+          "label": "GitHub repository metadata and last push",
+          "url": "https://api.github.com/repos/rmstdope/neser"
+        },
+        {
+          "label": "GitHub license file",
+          "url": "https://github.com/rmstdope/neser/blob/main/LICENSE"
+        },
+        {
+          "label": "Latest GitHub release (v1.3.0)",
+          "url": "https://github.com/rmstdope/neser/releases/tag/v1.3.0"
+        }
+      ]
+    },
+    {
+      "id": "substation-playstation-1",
+      "title": "Substation",
+      "game": "Sony PlayStation software",
+      "target_type": "Software",
+      "platform": "Apple Silicon Macs running macOS 26 or later",
+      "kind": "Emulator",
+      "status": "The maintainer released v0.9.0 on 2026-10-14 and pushed the repository on 2026-10-16. The README explicitly labels the macOS build alpha and lists several implemented subsystems and games that boot from disc.",
+      "summary": "PlayStation 1 emulator with a Zig core and native SwiftUI/Metal macOS frontend. The README lists CPU, GTE, DMA, GPU, SPU, CD-ROM and MDEC work and reports booting several real games; users supply their own BIOS and disc images.",
+      "project_url": "https://github.com/davidmaniliuc/substation",
+      "updated": "2026-10-16",
+      "strategy": "Software emulation of PlayStation 1 hardware using a Zig core and native Apple frontend.",
+      "language": "",
+      "source_available": "Public GPL-3.0 source repository. GPL-3.0 source. BIOS and game discs are user-provided; their copyright and lawful-use terms are separate from the emulator license.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "Zig",
+      "subtype": "Software console emulator",
+      "sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/davidmaniliuc/substation"
+        },
+        {
+          "label": "Maintainer README / project status and requirements",
+          "url": "https://github.com/davidmaniliuc/substation/blob/master/README.md"
+        },
+        {
+          "label": "GitHub repository metadata and last push",
+          "url": "https://api.github.com/repos/davidmaniliuc/substation"
+        },
+        {
+          "label": "GitHub license file",
+          "url": "https://github.com/davidmaniliuc/substation/blob/master/LICENSE"
+        },
+        {
+          "label": "Latest GitHub release (v0.9.0)",
+          "url": "https://github.com/davidmaniliuc/substation/releases/tag/v0.9.0"
+        }
+      ]
+    },
+    {
+      "id": "mister-arduboy",
+      "title": "Arduboy MiSTer Core",
+      "game": "Arduboy game programs",
+      "target_type": "Software",
+      "platform": "Arduboy handheld hardware on MiSTer FPGA",
+      "kind": "Emulator",
+      "status": "The repository was pushed on 2026-10-15; GitHub returned no tagged release. The README documents direct HEX/BIN loading and a built-in Arduventure program, and its TODO list calls out incomplete sound, nonvolatile EEPROM and stability work.",
+      "summary": "Verilog MiSTer FPGA core that recreates Arduboy handheld hardware and accepts user-loaded Intel HEX or raw BIN games. The repository README says Arduventure is built in; game-content rights are separate from the GPL-2.0 core license.",
+      "project_url": "https://github.com/MiSTer-devel/Arduboy_MiSTer",
+      "updated": "2026-10-15",
+      "strategy": "FPGA hardware emulation core for Arduboy built on the MiSTer platform.",
+      "language": "",
+      "source_available": "Public GPL-2.0 source repository. GPL-2.0 source. User-loaded game files and the bundled Arduventure content have separate rights; the repository does not state an independent license for that game content.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "Verilog",
+      "subtype": "MiSTer FPGA handheld emulator core",
+      "sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/MiSTer-devel/Arduboy_MiSTer"
+        },
+        {
+          "label": "Maintainer README / project status and requirements",
+          "url": "https://github.com/MiSTer-devel/Arduboy_MiSTer/blob/master/README.md"
+        },
+        {
+          "label": "GitHub repository metadata and last push",
+          "url": "https://api.github.com/repos/MiSTer-devel/Arduboy_MiSTer"
+        },
+        {
+          "label": "GitHub license file",
+          "url": "https://github.com/MiSTer-devel/Arduboy_MiSTer/blob/master/LICENSE"
+        }
+      ]
+    },
+    {
+      "id": "mister-fairchild-channel-f",
+      "title": "Fairchild Channel F MiSTer Core",
+      "game": "Fairchild Channel F software and cartridges",
+      "target_type": "Software",
+      "platform": "Fairchild Channel F console on MiSTer FPGA",
+      "kind": "Emulator",
+      "status": "The runnable core is documented in the README and the upstream repository was last pushed 2025-09-15; GitHub returned no tagged release. The README explains controller operation and built-in Hockey/Tennis modes, but does not provide a current compatibility matrix or maintenance statement.",
+      "summary": "Verilog MiSTer FPGA core for the Fairchild Channel F console. README documents the distinctive joystick controls and two built-in games; cartridge-image distribution and rights are not resolved by the GPL-2.0 source license.",
+      "project_url": "https://github.com/MiSTer-devel/ChannelF_MiSTer",
+      "updated": "2025-09-15",
+      "strategy": "FPGA hardware emulation of the Fairchild Channel F console on MiSTer.",
+      "language": "",
+      "source_available": "Public GPL-2.0 source repository. GPL-2.0 source. Hockey and Tennis ROM programs are present in the core according to the README, with no separate rights statement found; cartridge images and their rights remain separate.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "Verilog",
+      "subtype": "MiSTer FPGA console emulator core",
+      "sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/MiSTer-devel/ChannelF_MiSTer"
+        },
+        {
+          "label": "Maintainer README / project status and requirements",
+          "url": "https://github.com/MiSTer-devel/ChannelF_MiSTer/blob/master/README.md"
+        },
+        {
+          "label": "GitHub repository metadata and last push",
+          "url": "https://api.github.com/repos/MiSTer-devel/ChannelF_MiSTer"
+        },
+        {
+          "label": "GitHub license file",
+          "url": "https://github.com/MiSTer-devel/ChannelF_MiSTer/blob/master/LICENSE"
+        }
+      ]
+    },
+    {
+      "id": "mister-bally-astrocade",
+      "title": "Bally Astrocade MiSTer Core",
+      "game": "Bally Astrocade games and software",
+      "target_type": "Software",
+      "platform": "Bally Astrocade console on MiSTer FPGA",
+      "kind": "Emulator",
+      "status": "The repository was pushed on 2026-06-04; GitHub returned no tagged release. The README documents keypad and paddle support and notes a video-timing issue and unimplemented cartridge expansions.",
+      "summary": "VHDL MiSTer FPGA core for Bally Astrocade hardware with keypad and paddle input. The README requires users to provide the Astrocade BIOS and game ROMs; it also describes video timing and unimplemented expansion limitations.",
+      "project_url": "https://github.com/MiSTer-devel/Astrocade_MiSTer",
+      "updated": "2026-06-04",
+      "strategy": "FPGA hardware emulation core for the Bally Astrocade on MiSTer.",
+      "language": "",
+      "source_available": "Public GPL-3.0 source repository. GPL-3.0 source; BIOS and game ROMs must be obtained separately, with their own rights.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "VHDL",
+      "subtype": "MiSTer FPGA console emulator core",
+      "sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/MiSTer-devel/Astrocade_MiSTer"
+        },
+        {
+          "label": "Maintainer README / project status and requirements",
+          "url": "https://github.com/MiSTer-devel/Astrocade_MiSTer/blob/master/README.md"
+        },
+        {
+          "label": "GitHub repository metadata and last push",
+          "url": "https://api.github.com/repos/MiSTer-devel/Astrocade_MiSTer"
+        },
+        {
+          "label": "GitHub license file",
+          "url": "https://github.com/MiSTer-devel/Astrocade_MiSTer/blob/master/LICENSE"
+        }
+      ]
+    },
+    {
+      "id": "mister-edsac",
+      "title": "EDSAC MiSTer Core",
+      "game": "Programs and paper-tape software for the EDSAC computer",
+      "target_type": "Software",
+      "platform": "1949 EDSAC computer recreated on MiSTer FPGA",
+      "kind": "Emulator",
+      "status": "The repository was last pushed 2025-09-05 and has no GitHub tagged release. The README documents the paper-tape workflow, original EDSAC instruction/timing details and software assets in the repository; current maintenance cadence is unclear.",
+      "summary": "Verilog FPGA implementation of the historic EDSAC, with mercury delay-line memory, paper-tape input, teleprinter output and CRT-style display. The repository includes tape images and sample software; the README does not give an independent rights statement for those materials.",
+      "project_url": "https://github.com/MiSTer-devel/EDSAC_MiSTer",
+      "updated": "2025-09-05",
+      "strategy": "MiSTer FPGA hardware emulation of the EDSAC computer and its I/O devices.",
+      "language": "",
+      "source_available": "Public MIT source repository. MIT source license. Included historical software and tape/image assets do not have a separate rights statement in the README.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "Verilog",
+      "subtype": "MiSTer FPGA historical computer emulator core",
+      "sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/MiSTer-devel/EDSAC_MiSTer"
+        },
+        {
+          "label": "Maintainer README / project status and requirements",
+          "url": "https://github.com/MiSTer-devel/EDSAC_MiSTer/blob/master/README.md"
+        },
+        {
+          "label": "GitHub repository metadata and last push",
+          "url": "https://api.github.com/repos/MiSTer-devel/EDSAC_MiSTer"
+        },
+        {
+          "label": "GitHub license file",
+          "url": "https://github.com/MiSTer-devel/EDSAC_MiSTer/blob/master/LICENSE"
+        }
+      ]
+    },
+    {
+      "id": "mister-sord-m5",
+      "title": "Sord M5 MiSTer Core",
+      "game": "Sord M5 / CGL M5 software and games",
+      "target_type": "Software",
+      "platform": "Sord M5 home computer on MiSTer FPGA",
+      "kind": "Emulator",
+      "status": "The repository was last pushed 2025-12-09; GitHub returned no tagged release. README documents loading BIN/ROM cartridge files and CAS cassette images, but does not give a current compatibility matrix or firmware provenance.",
+      "summary": "VHDL MiSTer FPGA core for the Sord M5 home computer and its CGL M5 variant. It documents cartridge and cassette loading; any BIOS/system ROM or commercial software files users obtain remain subject to separate rights.",
+      "project_url": "https://github.com/MiSTer-devel/SordM5_MiSTer",
+      "updated": "2025-12-09",
+      "strategy": "MiSTer FPGA hardware emulation of the Sord M5 home computer.",
+      "language": "",
+      "source_available": "Public GPL-2.0 source repository. GPL-2.0 source. The README directs users to supply their own BIN, ROM and CAS files and gives no provenance or separate rights statement for system firmware or commercial software.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "VHDL",
+      "subtype": "MiSTer FPGA home-computer emulator core",
+      "sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/MiSTer-devel/SordM5_MiSTer"
+        },
+        {
+          "label": "Maintainer README / project status and requirements",
+          "url": "https://github.com/MiSTer-devel/SordM5_MiSTer/blob/main/Readme.md"
+        },
+        {
+          "label": "GitHub repository metadata and last push",
+          "url": "https://api.github.com/repos/MiSTer-devel/SordM5_MiSTer"
+        },
+        {
+          "label": "GitHub license file",
+          "url": "https://github.com/MiSTer-devel/SordM5_MiSTer/blob/main/LICENSE"
+        }
+      ]
+    },
+    {
+      "id": "mister-apple-i",
+      "title": "Apple I MiSTer Core",
+      "game": "Apple-1 programs, including WozMon and Integer BASIC",
+      "target_type": "Software",
+      "platform": "Apple-1 on MiSTer FPGA",
+      "kind": "Emulator",
+      "status": "The repository was last pushed 2025-10-02; GitHub returned no tagged release. The README calls it a basic implementation and documents WozMon/Integer BASIC execution and several FPGA boards tested by the original project.",
+      "summary": "Verilog FPGA core for Apple-1 behavior, ported to MiSTer from an earlier multi-board FPGA project. The README describes WozMon and Integer BASIC ROM regions in block RAM; it does not state separate rights for those embedded ROM contents.",
+      "project_url": "https://github.com/MiSTer-devel/Apple-I_MiSTer",
+      "updated": "2025-10-02",
+      "strategy": "FPGA hardware emulation of the Apple-1 computer, ported to MiSTer.",
+      "language": "",
+      "source_available": "Public Apache-2.0 source repository. Apache-2.0 source license. Embedded WozMon and Integer BASIC ROM contents are documented in the README but do not have an independent rights statement there.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "Verilog",
+      "subtype": "MiSTer FPGA computer emulator core",
+      "sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/MiSTer-devel/Apple-I_MiSTer"
+        },
+        {
+          "label": "Maintainer README / project status and requirements",
+          "url": "https://github.com/MiSTer-devel/Apple-I_MiSTer/blob/master/Readme.md"
+        },
+        {
+          "label": "GitHub repository metadata and last push",
+          "url": "https://api.github.com/repos/MiSTer-devel/Apple-I_MiSTer"
+        },
+        {
+          "label": "GitHub license file",
+          "url": "https://github.com/MiSTer-devel/Apple-I_MiSTer/blob/master/LICENSE"
+        }
+      ]
+    },
+    {
+      "id": "mister-orao",
+      "title": "Orao MiSTer Core",
+      "game": "Orao home-computer software and tape programs",
+      "target_type": "Software",
+      "platform": "Orao home computer on MiSTer FPGA",
+      "kind": "Emulator",
+      "status": "The repository was last pushed 2025-12-09; GitHub returned no tagged release. The README documents monitor/BASIC entry and tape loading, and lists occasional loading failures and horizontal-border video work as known issues.",
+      "summary": "Verilog MiSTer FPGA core for the Orao, an 8-bit Croatian home computer. The repository includes compressed tape-software archives and models monitor/BASIC/system ROM regions; the README does not provide a separate rights statement for those ROM or tape assets.",
+      "project_url": "https://github.com/MiSTer-devel/Orao_MiSTer",
+      "updated": "2025-12-09",
+      "strategy": "FPGA hardware emulation core for the Orao computer on MiSTer.",
+      "language": "",
+      "source_available": "Public MIT source repository. MIT source license. The repo includes software tape archives and ROM regions; their rights are not independently stated in the README.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "Verilog",
+      "subtype": "MiSTer FPGA home-computer emulator core",
+      "sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/MiSTer-devel/Orao_MiSTer"
+        },
+        {
+          "label": "Maintainer README / project status and requirements",
+          "url": "https://github.com/MiSTer-devel/Orao_MiSTer/blob/master/README.md"
+        },
+        {
+          "label": "GitHub repository metadata and last push",
+          "url": "https://api.github.com/repos/MiSTer-devel/Orao_MiSTer"
+        },
+        {
+          "label": "GitHub license file",
+          "url": "https://github.com/MiSTer-devel/Orao_MiSTer/blob/master/LICENSE"
+        }
+      ]
+    },
+    {
+      "id": "mister-vector-06c",
+      "title": "Vector-06C MiSTer Core",
+      "game": "Vector-06C computer software and disk images",
+      "target_type": "Software",
+      "platform": "Vector-06C home computer on MiSTer FPGA",
+      "kind": "Emulator",
+      "status": "The repository was pushed 2026-06-04; GitHub returned no tagged release. README claims precise timings and a fully functional core, documents tape/floppy/quasi-disk formats, and marks the optional Z80 CPU experimental and non-original.",
+      "summary": "Verilog MiSTer FPGA implementation of the Vector-06C, with disk/tape formats, sound and joystick paths. The README offers optional boot-ROM loading and warns that its experimental Z80 mode is not the computer’s original CPU.",
+      "project_url": "https://github.com/MiSTer-devel/Vector-06C_MiSTer",
+      "updated": "2026-06-04",
+      "strategy": "FPGA hardware emulation core for the Vector-06C computer on MiSTer.",
+      "language": "",
+      "source_available": "Public BSD-2-Clause source repository. BSD-2-Clause source license. The README describes an optional external boot ROM; user-supplied firmware and software files have separate rights.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "Verilog",
+      "subtype": "MiSTer FPGA home-computer emulator core",
+      "sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/MiSTer-devel/Vector-06C_MiSTer"
+        },
+        {
+          "label": "Maintainer README / project status and requirements",
+          "url": "https://github.com/MiSTer-devel/Vector-06C_MiSTer/blob/master/ReadMe.md"
+        },
+        {
+          "label": "GitHub repository metadata and last push",
+          "url": "https://api.github.com/repos/MiSTer-devel/Vector-06C_MiSTer"
+        },
+        {
+          "label": "GitHub license file",
+          "url": "https://github.com/MiSTer-devel/Vector-06C_MiSTer/blob/master/LICENSE.TXT"
+        }
+      ]
+    },
+    {
+      "id": "mister-tatung-einstein",
+      "title": "Tatung Einstein MiSTer Core",
+      "game": "Tatung Einstein TC01 and 256 software",
+      "target_type": "Software",
+      "platform": "Tatung Einstein TC01/256 on MiSTer FPGA",
+      "kind": "Emulator",
+      "status": "The repository was last pushed 2025-12-08; GitHub returned no tagged release. README documents disk-image loading and explicitly says the included diagnostic ROM was added with permission; that diagnostic fails its floppy-controller test.",
+      "summary": "VHDL MiSTer FPGA port of the Tatung Einstein TC01 and 256 computers, with disk-image loading. One diagnostic ROM is included with maintainer-stated permission; the README does not establish separate rights for other firmware or software images.",
+      "project_url": "https://github.com/MiSTer-devel/TatungEinstein_MiSTer",
+      "updated": "2025-12-08",
+      "strategy": "FPGA hardware emulation of the Tatung Einstein family on MiSTer.",
+      "language": "",
+      "source_available": "Public GPL-2.0 source repository. GPL-2.0 source. The maintainer credits permission for the bundled diagnostic ROM; rights for other system firmware and software images are not specified.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "VHDL",
+      "subtype": "MiSTer FPGA home-computer emulator core",
+      "sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/MiSTer-devel/TatungEinstein_MiSTer"
+        },
+        {
+          "label": "Maintainer README / project status and requirements",
+          "url": "https://github.com/MiSTer-devel/TatungEinstein_MiSTer/blob/master/Readme.md"
+        },
+        {
+          "label": "GitHub repository metadata and last push",
+          "url": "https://api.github.com/repos/MiSTer-devel/TatungEinstein_MiSTer"
+        },
+        {
+          "label": "GitHub license file",
+          "url": "https://github.com/MiSTer-devel/TatungEinstein_MiSTer/blob/master/LICENSE"
+        }
+      ]
+    },
+    {
+      "id": "mister-arcade-cave-68000",
+      "title": "Cave 68000 MiSTer Core",
+      "game": "Games using Cave first-generation 68000 / Atlus-class arcade hardware",
+      "target_type": "Software",
+      "platform": "Cave first-generation 68000 arcade hardware on MiSTer FPGA",
+      "kind": "Emulator",
+      "status": "The repository was pushed 2026-08-26; GitHub returned no tagged release. The README marks eight titles public and two as work in progress, and says the core derives from Cave/MAME work with a legacy Chisel reference.",
+      "summary": "SystemVerilog MiSTer FPGA core for the Atlus-class side of Cave’s first-generation 68000 arcade hardware. Its README lists eight public game configurations and two WIP titles; any game ROMs remain separate from the GPL-3.0-or-later core source.",
+      "project_url": "https://github.com/MiSTer-devel/Arcade-Cave_MiSTer",
+      "updated": "2026-08-26",
+      "strategy": "FPGA hardware emulation of a Cave first-generation 68000 arcade board family.",
+      "language": "",
+      "source_available": "Public GPL-3.0-or-later (README/LICENSE) source repository. GPL-3.0-or-later source. No game-ROM redistribution permission is stated by the source license; users should obtain game data separately.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "SystemVerilog",
+      "subtype": "MiSTer FPGA arcade emulator core",
+      "sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/MiSTer-devel/Arcade-Cave_MiSTer"
+        },
+        {
+          "label": "Maintainer README / project status and requirements",
+          "url": "https://github.com/MiSTer-devel/Arcade-Cave_MiSTer/blob/main/README.md"
+        },
+        {
+          "label": "GitHub repository metadata and last push",
+          "url": "https://api.github.com/repos/MiSTer-devel/Arcade-Cave_MiSTer"
+        },
+        {
+          "label": "GitHub license file",
+          "url": "https://github.com/MiSTer-devel/Arcade-Cave_MiSTer/blob/main/LICENSE"
+        }
+      ]
+    },
+    {
+      "id": "mister-arcade-leland",
+      "title": "Leland Arcade MiSTer Core",
+      "game": "Six listed Cinematronics / Leland System arcade games",
+      "target_type": "Software",
+      "platform": "Cinematronics / Leland arcade hardware on MiSTer FPGA",
+      "kind": "Emulator",
+      "status": "The repository was last pushed 2026-10-03; GitHub returned no tagged release. The README says six listed games are playable with sound, other Leland boards are unsupported, and the core has not been checked against original PCBs.",
+      "summary": "SystemVerilog MiSTer FPGA recreation of the Leland arcade system’s twin-Z80 game boards and 80186-based sound board. The README lists six playable game sets and says ROM data is not included; the implementation is based on MAME drivers and has not been compared with original PCBs.",
+      "project_url": "https://github.com/MiSTer-devel/Arcade-Leland_MiSTer",
+      "updated": "2026-10-03",
+      "strategy": "FPGA hardware emulation of the Cinematronics/Leland arcade board family.",
+      "language": "",
+      "source_available": "Public GPL-3.0 source repository. GPL-3.0 source. README says game ROM data is not included; users provide ROM sets separately and retain responsibility for their rights.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "SystemVerilog",
+      "subtype": "MiSTer FPGA arcade emulator core",
+      "sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/MiSTer-devel/Arcade-Leland_MiSTer"
+        },
+        {
+          "label": "Maintainer README / project status and requirements",
+          "url": "https://github.com/MiSTer-devel/Arcade-Leland_MiSTer/blob/main/Readme.md"
+        },
+        {
+          "label": "GitHub repository metadata and last push",
+          "url": "https://api.github.com/repos/MiSTer-devel/Arcade-Leland_MiSTer"
+        },
+        {
+          "label": "GitHub license file",
+          "url": "https://github.com/MiSTer-devel/Arcade-Leland_MiSTer/blob/main/LICENSE"
+        }
+      ]
+    },
+    {
+      "id": "mister-arcade-taito-system-sj",
+      "title": "Taito System SJ MiSTer Core",
+      "game": "Games on Taito System SJ arcade hardware",
+      "target_type": "Software",
+      "platform": "1982 Taito System SJ arcade hardware on MiSTer FPGA",
+      "kind": "Emulator",
+      "status": "The repository was last pushed 2026-07-24; GitHub returned no tagged release. README lists 16 compatible games, marks Kick Start Wheelie King not working, and says scroll RAM is not implemented.",
+      "summary": "Verilog MiSTer FPGA core for Taito’s 1982 System SJ arcade board, with separate game and sound Z80 paths and a protection MCU. ROMs are explicitly not included by the maintainer.",
+      "project_url": "https://github.com/MiSTer-devel/Arcade-TaitoSystemSJ_MiSTer",
+      "updated": "2026-07-24",
+      "strategy": "FPGA hardware emulation of Taito System SJ arcade hardware on MiSTer.",
+      "language": "",
+      "source_available": "Public GPL-3.0 source repository. GPL-3.0 source. README explicitly says ROMs are not included and users must provide their own; ROM rights are separate.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "Verilog",
+      "subtype": "MiSTer FPGA arcade emulator core",
+      "sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/MiSTer-devel/Arcade-TaitoSystemSJ_MiSTer"
+        },
+        {
+          "label": "Maintainer README / project status and requirements",
+          "url": "https://github.com/MiSTer-devel/Arcade-TaitoSystemSJ_MiSTer/blob/main/README.md"
+        },
+        {
+          "label": "GitHub repository metadata and last push",
+          "url": "https://api.github.com/repos/MiSTer-devel/Arcade-TaitoSystemSJ_MiSTer"
+        },
+        {
+          "label": "GitHub license file",
+          "url": "https://github.com/MiSTer-devel/Arcade-TaitoSystemSJ_MiSTer/blob/main/LICENSE"
+        }
+      ]
+    },
+    {
+      "id": "mister-arcade-seibu-cup-soccer",
+      "title": "Seibu Cup Soccer MiSTer Core",
+      "game": "Seibu Cup Soccer, Olympic Soccer ’92 and documented compatible sets",
+      "target_type": "Software",
+      "platform": "Seibu legionna.cpp arcade hardware family on MiSTer FPGA",
+      "kind": "Emulator",
+      "status": "The maintainer released v1.0 on 2026-09-13. README says the core boots and plays, has been checked against the original PCB, and implements video, audio, four-player inputs, DIP switches and COP3 for six playable sets.",
+      "summary": "SystemVerilog FPGA reimplementation of Seibu Cup Soccer arcade hardware, including the SEI300/COP3 coprocessor, from program-ROM behavior, MAME references and observation on original hardware. The original maintainer repository is rmonic79; MiSTer-devel hosts a forked distribution mirror. ROM images are not included.",
+      "project_url": "https://github.com/rmonic79/Arcade-SeibuCupSoccer_MiSTer",
+      "updated": "2026-09-13",
+      "strategy": "MiSTer FPGA hardware reimplementation of Seibu Cup Soccer and related Seibu legionna.cpp hardware.",
+      "language": "",
+      "source_available": "Public GPL-3.0-or-later (README/LICENSE) source repository. GPL-3.0-or-later RTL source. README says original ROM data is not included and users must provide legally obtained copies; game data rights are separate.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "SystemVerilog",
+      "subtype": "MiSTer FPGA arcade emulator core",
+      "sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/rmonic79/Arcade-SeibuCupSoccer_MiSTer"
+        },
+        {
+          "label": "Maintainer README / project status and requirements",
+          "url": "https://github.com/rmonic79/Arcade-SeibuCupSoccer_MiSTer/blob/master/README.md"
+        },
+        {
+          "label": "GitHub repository metadata and last push",
+          "url": "https://api.github.com/repos/rmonic79/Arcade-SeibuCupSoccer_MiSTer"
+        },
+        {
+          "label": "GitHub license file",
+          "url": "https://github.com/rmonic79/Arcade-SeibuCupSoccer_MiSTer/blob/master/LICENSE"
+        },
+        {
+          "label": "Latest GitHub release (v1.0)",
+          "url": "https://github.com/rmonic79/Arcade-SeibuCupSoccer_MiSTer/releases/tag/v1.0"
+        }
+      ]
+    }
+  ]
+}
