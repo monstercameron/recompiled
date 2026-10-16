@@ -1,0 +1,52 @@
+{
+  "verified_at": "2026-10-16",
+  "records": [
+    {
+      "project_id": "super-smash-bros-n64-pc-port-battleship",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 1202744,
+        "C": 945643,
+        "Python": 454190,
+        "Java": 277406,
+        "CMake": 105309,
+        "Shell": 72473,
+        "PowerShell": 25821,
+        "HTML": 19017,
+        "Assembly": 7840,
+        "Dockerfile": 910
+      },
+      "evidence_url": "https://api.github.com/repos/JRickey/BattleShip/languages",
+      "evidence": "GitHub's official REST Languages endpoint was fetched 2026-10-16. These are repository-wide byte totals, not target-specific code measurements; GitHub does not count the README-described `decomp/` Git submodule as part of the host repository's language totals, so the reported C++ lead should not be read as the language of all game code. Tools and dependencies may also contribute.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "paper-mario-n64-android-paperboat",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 38692269,
+        "Assembly": 903535,
+        "Python": 788425,
+        "C++": 699126,
+        "Java": 206301,
+        "CMake": 101888,
+        "Kotlin": 51657,
+        "Nix": 28470,
+        "HLSL": 24562,
+        "Metal": 24377,
+        "GLSL": 22496,
+        "HTML": 9000,
+        "Batchfile": 4147,
+        "JavaScript": 2813,
+        "PowerShell": 2187,
+        "Shell": 2031,
+        "PHP": 143,
+        "Linker Script": 141
+      },
+      "evidence_url": "https://api.github.com/repos/YlPorts/PaperBoat-android/languages",
+      "evidence": "GitHub Languages API byte counts retrieved 2026-10-16. C is the largest category (38,692,269 of 41,563,568 recognized bytes; 93.1%). This is a repository-wide measure for an upstream fork and includes the large C game/runtime code; it does not describe the Android-only source mix.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": null
+    }
+  ]
+}

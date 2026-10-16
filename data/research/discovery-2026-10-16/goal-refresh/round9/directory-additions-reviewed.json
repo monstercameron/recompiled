@@ -1,0 +1,87 @@
+{
+  "updated": "2026-10-16",
+  "items": [
+    {
+      "id": "apple-game-porting-toolkit",
+      "item_type": "Tool",
+      "category": "Game porting and compatibility",
+      "name": "Apple Game Porting Toolkit",
+      "description": "Apple's developer toolkit includes an evaluation environment for running unmodified Windows game executables on Apple silicon, tools for converting DirectX shaders to Metal, and sample code for porting games to Apple platforms. D3DMetal is catalogued separately as a runtime Direct3D-to-Metal translator.",
+      "url": "https://developer.apple.com/games/game-porting-toolkit/",
+      "source_url": "https://developer.apple.com/games/game-porting-toolkit/",
+      "source_evidence": "Apple's current Game Porting Toolkit page describes an evaluation environment for unmodified Windows games on Apple silicon, Metal shader conversion, and developer resources. The catalog already tracks D3DMetal as a runtime Direct3D-to-Metal translator, so this entry covers the wider toolkit workflow.",
+      "verified_at": "2026-10-15"
+    },
+    {
+      "id": "porting-kit",
+      "item_type": "Tool",
+      "category": "macOS Windows compatibility",
+      "name": "Porting Kit",
+      "description": "A macOS installer and launcher that uses Wineskin technology to install and run Windows games and applications; its current download page targets macOS 12 and later and says Apple silicon support is growing.",
+      "url": "https://www.portingkit.com/",
+      "source_url": "https://www.portingkit.com/app/download.html",
+      "source_evidence": "Porting Kit's own home page identifies Wineskin as the technology used to install Windows games and applications in macOS. Its download page offers Porting Kit 7 for macOS 12+ and describes increasing Apple silicon support.",
+      "verified_at": "2026-10-15"
+    },
+    {
+      "id": "whisky",
+      "item_type": "Tool",
+      "category": "macOS Windows compatibility",
+      "name": "Whisky",
+      "description": "Archived SwiftUI front end for managing Wine bottles and running Windows apps and games on Apple silicon Macs; it combined CrossOver 22.1.1 and Apple's Game Porting Toolkit.",
+      "url": "https://github.com/Whisky-App/Whisky",
+      "source_url": "https://github.com/Whisky-App/Whisky",
+      "source_evidence": "The project README describes Whisky as a Wine wrapper for Apple silicon Macs, names CrossOver 22.1.1 and Apple's Game Porting Toolkit as its base, and warns it is no longer actively maintained. GitHub marks the repository archived on 2025-05-11.",
+      "verified_at": "2026-10-15"
+    },
+    {
+      "id": "webman-mod-ps3",
+      "item_type": "Tool",
+      "category": "PlayStation 3 homebrew and game management",
+      "name": "webMAN MOD",
+      "description": "An actively maintained PlayStation 3 homebrew plugin, forked from webMAN/sMAN, that adds web and FTP servers, a file manager, game and disc-image mounting, NTFS and network-game support, PS3MAPI, and other console utilities.",
+      "url": "https://github.com/aldostools/webMAN-MOD",
+      "source_url": "https://github.com/aldostools/webMAN-MOD/blob/master/README.md",
+      "source_evidence": "The maintainer README describes webMAN MOD as a PS3 homebrew plugin forked from webMAN/sMAN and documents its web/FTP servers, file manager, game management, NTFS, netiso, gamepad emulation, PS3MAPI, and support for Cobra-enabled CFW. The maintainer announced version 1.47.50a on X on 2026-10-15, noting a reverted slower FTP change and updated salsa64 and ScummVM updater entries: https://x.com/aldostools/status/2110904020613406876. GitHub's release page currently lists 1.47.50 (2026-10-10) as the latest tagged release, so 1.47.50a is recorded as an X-announced update rather than a verified GitHub release tag: https://github.com/aldostools/webMAN-MOD/releases. GitHub's repository language endpoint reports C, Nickel, HTML, NCL, C++, Python, and other languages: https://api.github.com/repos/aldostools/webMAN-MOD/languages.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "id": "runetranslate",
+      "item_type": "Tool",
+      "category": "Game localization and patch creation",
+      "name": "RuneTranslate",
+      "url": "https://runetranslate.com/download",
+      "source_url": "https://github.com/3nginius/RuneTranslatePublic",
+      "description": "Windows and Linux/Steam Deck game-text localization patcher. The maintainer documents 18 game engines/formats, file extraction and reinsertion, and export to a playable copy or override patch. Source and target languages are user-selected from 35 languages, with Japanese as the default source. As of 2026-10-16 the newest version is v1.3.6 (Supporter+, 2026-10-15); the current free build is v1.3.0 and v1.3.6 is scheduled to become free on 2026-10-22.",
+      "source_evidence": "Maintainer README describes the app as a game-file patcher intended for personal/fan translation, lists 18 engines/formats, 35 source/target languages with Japanese as the default source, and selectable local/cloud translation providers: https://github.com/3nginius/RuneTranslatePublic. Official download/changelog page lists v1.3.6 as the latest Supporter+ version (2026-10-15), v1.3.0 as the current free version, and the v1.3.6 free date (2026-10-22): https://runetranslate.com/download. It is a text-localization authoring tool, not a game-specific Fan Localization release or a graphics/API translator.",
+      "license_caveat": "The public GitHub repository contains documentation and reports no detected code license; the downloadable application is distributed through the product site. The README advises respecting each game's license.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "id": "xbox360-static-recompilation-workflow-360tools",
+      "item_type": "Tool",
+      "category": "Static recompilation",
+      "name": "360tools",
+      "description": "An Xbox 360 static-recompilation workflow and analysis toolkit built around the ReXGlue SDK. It adds a batch compatibility harness, XEX/STFS triage helpers, templates, a stub playbook, and project integration guidance. ReXGlue supplies code generation and runtime; 360tools is an auxiliary workflow layer, not a separate recompiler or turnkey runtime.",
+      "url": "https://github.com/sp00nznet/360tools",
+      "source_url": "https://github.com/sp00nznet/360tools",
+      "source_evidence": "The maintainer README says the repo is built around ReXGlue v0.8.0, whose SDK now supplies code generation, extraction and analysis; this repo focuses on title workflow, runtime integration guidance, templates and the multi-title compatibility harness. The README documents PowerPC-to-C++ recompilation as the ReXGlue path and says per-title stubs, rendering and audio still require work. Latest source push: 2026-06-18.",
+      "verified_at": "2026-10-16",
+      "programming_language": "Python",
+      "programming_language_source_url": "https://api.github.com/repos/sp00nznet/360tools/languages",
+      "architecture_platform": "Xbox 360 XEX/STFS PowerPC titles → native x86-64 Windows PC executables via the required ReXGlue SDK; the harness can batch-analyze multiple titles.",
+      "license": "MIT"
+    },
+    {
+      "id": "opensmash-browser-character-mod-tool",
+      "item_type": "Website",
+      "category": "Game mods and community tools",
+      "name": "OpenSmash",
+      "description": "Browser-based Super Smash Bros. 64 and Melee character-creation and custom-roster tool. It builds on the BattleShip decompilation-based PC port and Melee PC source port; the site reads the player’s own ROM or disc for game-derived data, and the repository says Nintendo assets are not shipped. Native desktop and experimental N64 ROM builds are also documented.",
+      "url": "https://smash.fun/",
+      "source_url": "https://github.com/turtlesoupy/opensmash",
+      "source_evidence": "The maintainer README identifies the live Smash 64 and Melee sites, custom-character pipeline, BattleShip/Melee PC engines, user-supplied ROM/disc requirement, absence of bundled Nintendo assets, and native/experimental N64 ROM build modes.",
+      "verified_at": "2026-10-16"
+    }
+  ]
+}

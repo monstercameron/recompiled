@@ -1,60 +1,7 @@
 {
   "updated": "2026-10-16",
-  "scope": "Source-verified additions from primary GitHub repositories, with Reddit and curated GitHub search used only for discovery. Each project is checked against the live catalog and work/data manifests.",
+  "scope": "Two approved additions retained after exact-target review: BattleShip native PC/Android and PaperBoat Android. The GoldenEye PC candidate is held as an overlapping native-PC target already represented by goldeneye-native-decomp-port; see held-candidates.json.",
   "projects": [
-    {
-      "id": "goldeneye-007-pc-native-port",
-      "title": "GoldenEye 007 Native PC Port",
-      "game": "GoldenEye 007",
-      "target_type": "Game",
-      "platform": "Nintendo 64 → Windows x64, Linux x86-64, Steam Deck",
-      "kind": "Decompilation",
-      "status": "v0.5.0 (2026-10-07) is a pre-1.0 release. The maintainer reports the campaign and 2–4 player split-screen playable end to end on Windows, Linux, and Steam Deck. Release packages accept the US NTSC-U ROM; the current project page says PAL/JP ROMs can be built from source, while macOS and ARM builds are not available yet.",
-      "summary": "Native C source port built from the GoldenEye 007 decompilation, with a software RSP and a PC hardware-services layer. The user supplies the ROM; no ROM or bulk game assets are shipped.",
-      "project_url": "https://github.com/jkdansereau/goldeneye-pc-port",
-      "updated": "2026-10-14",
-      "strategy": "Native C port compiled from the matching N64 decompilation; software RSP and native PC services, not binary recompilation or a full-system emulator",
-      "language": "",
-      "source_available": "Public source and v0.5.0 releases. The project NOTICE says MIT covers the PC port layer, build system, PC-port tools, and docs; files inherited from the GoldenEye decompilation are outside that grant, and upstream n64decomp/007 has no explicit license. The user supplies a ROM; no ROM or bulk game assets are included.",
-      "first_found": "2026-10-16",
-      "project_started": null,
-      "programming_language": "C",
-      "subtype": "Nintendo 64 matching-decompilation-based native PC port",
-      "sources": [
-        {
-          "label": "Maintainer README: source, method, current targets, ROM requirement, and v0.5 status",
-          "url": "https://github.com/jkdansereau/goldeneye-pc-port/blob/main/README.md"
-        },
-        {
-          "label": "Maintainer project page: compatibility, campaign status, and supported ROMs",
-          "url": "https://github.com/jkdansereau/goldeneye-pc-port/blob/main/docs/index.md"
-        },
-        {
-          "label": "Latest release v0.5.0",
-          "url": "https://github.com/jkdansereau/goldeneye-pc-port/releases/tag/v0.5.0"
-        },
-        {
-          "label": "Repository license (MIT)",
-          "url": "https://github.com/jkdansereau/goldeneye-pc-port/blob/main/LICENSE"
-        },
-        {
-          "label": "Maintainer NOTICE: scope of MIT grant and inherited decompilation terms",
-          "url": "https://github.com/jkdansereau/goldeneye-pc-port/blob/main/NOTICE"
-        },
-        {
-          "label": "Upstream GoldenEye 007 decompilation used as the source base",
-          "url": "https://github.com/n64decomp/007"
-        },
-        {
-          "label": "GitHub repository metadata (push date and repository identity)",
-          "url": "https://api.github.com/repos/jkdansereau/goldeneye-pc-port"
-        },
-        {
-          "label": "GitHub Languages API byte totals",
-          "url": "https://api.github.com/repos/jkdansereau/goldeneye-pc-port/languages"
-        }
-      ]
-    },
     {
       "id": "super-smash-bros-n64-pc-port-battleship",
       "title": "BattleShip: Super Smash Bros. N64 Native Port",
@@ -71,7 +18,7 @@
       "source_available": "Public source and releases. The LICENSE limits MIT to port-specific files; it says the decomp C source is an upstream submodule without an explicit upstream license, and libultraship/Torch are separately licensed. The user supplies a supported ROM; Nintendo assets and ROM data are not included.",
       "first_found": "2026-10-16",
       "project_started": null,
-      "programming_language": "C++",
+      "programming_language": "",
       "subtype": "N64 decompilation-based native port for desktop and Android",
       "sources": [
         {
@@ -83,11 +30,7 @@
           "url": "https://github.com/JRickey/BattleShip/releases/tag/v1.6"
         },
         {
-          "label": "License file (MIT terms; GitHub SPDX classification is unrecognized)",
-          "url": "https://github.com/JRickey/BattleShip/blob/main/LICENSE"
-        },
-        {
-          "label": "License file: MIT scope, decomp submodule, and separate dependency terms",
+          "label": "License file (MIT terms; GitHub SPDX classification is unrecognized); License file: MIT scope, decomp submodule, and separate dependency terms",
           "url": "https://github.com/JRickey/BattleShip/blob/main/LICENSE"
         },
         {
@@ -120,7 +63,7 @@
       "source_available": "Public GitHub fork. PaperBoat’s upstream README says copyrighted game assets are not included and a supported user-provided copy is required. GitHub repository metadata reports CC0-1.0 for this fork; upstream component notices remain relevant.",
       "first_found": "2026-10-16",
       "project_started": null,
-      "programming_language": "C",
+      "programming_language": "",
       "subtype": "Android arm64 port of decompilation-based PaperBoat",
       "sources": [
         {

@@ -1,0 +1,61 @@
+{
+  "updated": "2026-10-16",
+  "held": [
+    {
+      "project": {
+        "id": "goldeneye-007-pc-native-port",
+        "title": "GoldenEye 007 Native PC Port",
+        "game": "GoldenEye 007",
+        "target_type": "Game",
+        "platform": "Nintendo 64 → Windows x64, Linux x86-64, Steam Deck",
+        "kind": "Decompilation",
+        "status": "v0.5.0 (2026-10-07) is a pre-1.0 release. The maintainer reports the campaign and 2–4 player split-screen playable end to end on Windows, Linux, and Steam Deck. Release packages accept the US NTSC-U ROM; the current project page says PAL/JP ROMs can be built from source, while macOS and ARM builds are not available yet.",
+        "summary": "Native C source port built from the GoldenEye 007 decompilation, with a software RSP and a PC hardware-services layer. The user supplies the ROM; no ROM or bulk game assets are shipped.",
+        "project_url": "https://github.com/jkdansereau/goldeneye-pc-port",
+        "updated": "2026-10-14",
+        "strategy": "Native C port compiled from the matching N64 decompilation; software RSP and native PC services, not binary recompilation or a full-system emulator",
+        "language": "",
+        "source_available": "Public source and v0.5.0 releases. The project NOTICE says MIT covers the PC port layer, build system, PC-port tools, and docs; files inherited from the GoldenEye decompilation are outside that grant, and upstream n64decomp/007 has no explicit license. The user supplies a ROM; no ROM or bulk game assets are included.",
+        "first_found": "2026-10-16",
+        "project_started": null,
+        "programming_language": "C",
+        "subtype": "Nintendo 64 matching-decompilation-based native PC port",
+        "sources": [
+          {
+            "label": "Maintainer README: source, method, current targets, ROM requirement, and v0.5 status",
+            "url": "https://github.com/jkdansereau/goldeneye-pc-port/blob/main/README.md"
+          },
+          {
+            "label": "Maintainer project page: compatibility, campaign status, and supported ROMs",
+            "url": "https://github.com/jkdansereau/goldeneye-pc-port/blob/main/docs/index.md"
+          },
+          {
+            "label": "Latest release v0.5.0",
+            "url": "https://github.com/jkdansereau/goldeneye-pc-port/releases/tag/v0.5.0"
+          },
+          {
+            "label": "Repository license (MIT)",
+            "url": "https://github.com/jkdansereau/goldeneye-pc-port/blob/main/LICENSE"
+          },
+          {
+            "label": "Maintainer NOTICE: scope of MIT grant and inherited decompilation terms",
+            "url": "https://github.com/jkdansereau/goldeneye-pc-port/blob/main/NOTICE"
+          },
+          {
+            "label": "Upstream GoldenEye 007 decompilation used as the source base",
+            "url": "https://github.com/n64decomp/007"
+          },
+          {
+            "label": "GitHub repository metadata (push date and repository identity)",
+            "url": "https://api.github.com/repos/jkdansereau/goldeneye-pc-port"
+          },
+          {
+            "label": "GitHub Languages API byte totals",
+            "url": "https://api.github.com/repos/jkdansereau/goldeneye-pc-port/languages"
+          }
+        ]
+      },
+      "reason": "Same GoldenEye Nintendo 64 to native PC target as the live goldeneye-native-decomp-port entry; suppress duplicate target row."
+    }
+  ]
+}

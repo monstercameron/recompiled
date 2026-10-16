@@ -1,0 +1,2240 @@
+{
+  "updated": "2026-10-16",
+  "scope": "Consolidated, source-reviewed metadata updates for existing projects; each row retains field-specific sources. Held or rejected claims are documented in the round9 README and source audit.",
+  "updates": [
+    {
+      "id": "86box",
+      "fields": {
+        "platform": "IBM PC-compatible guest systems (x86) on Windows, Linux, and macOS. The macOS app is a universal binary for Intel x86_64 and native Apple silicon ARM64; current requirements list macOS 10.14+ and a 64-bit Intel Core 2/Athlon 64 or ARMv8+ host CPU."
+      },
+      "sources": [
+        {
+          "label": "Project URL (reviewed 2026-10-16)",
+          "url": "https://86box.net/"
+        },
+        {
+          "label": "86Box v3.5 announcement of native Apple silicon universal macOS app",
+          "url": "https://86box.net/2022/05/23/86box-v3-5.html"
+        }
+      ]
+    },
+    {
+      "id": "a8e-atari-800xl",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports GPL-2.0 license metadata."
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/AnimaInCorpore/A8E"
+        }
+      ]
+    },
+    {
+      "id": "ace-attorney-investigations-2-ds-prosecutors-path",
+      "fields": {
+        "source_available": "Public patch/tooling source under MIT; the README documents six added close-up pictures. The user supplies their own game and, for the documented build workflow, their own Collection installation; complete game data is not distributed."
+      },
+      "sources": [
+        {
+          "label": "GitHub REST repository metadata: public repository and MIT license (checked 2026-10-16)",
+          "url": "https://api.github.com/repos/Akoi89/prosecutors-path"
+        },
+        {
+          "label": "Maintainer MIT license file for patch/tooling source",
+          "url": "https://github.com/Akoi89/prosecutors-path/blob/main/LICENSE"
+        },
+        {
+          "label": "Maintainer README: build inputs, patch scope and six added close-up pictures",
+          "url": "https://github.com/Akoi89/prosecutors-path/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "alttp-four-swords-gba-recomp",
+      "fields": {
+        "source_available": "Public source under MIT; the user supplies the required ROM; no ROM or game data is included."
+      },
+      "sources": [
+        {
+          "label": "GitHub REST repository metadata: public repository (checked 2026-10-16)",
+          "url": "https://api.github.com/repos/sp00nznet/lttp-recompiled"
+        },
+        {
+          "label": "Maintainer MIT license file for the native recompiler",
+          "url": "https://github.com/sp00nznet/lttp-recompiled/blob/main/LICENSE"
+        },
+        {
+          "label": "Maintainer README: user-supplied ROM and generated build data",
+          "url": "https://github.com/sp00nznet/lttp-recompiled/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "amiarcadia-libretro",
+      "fields": {
+        "source_available": "Public source repository; GitHub reports no SPDX-identified license metadata."
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/warmenhoven/amiarcadia"
+        }
+      ]
+    },
+    {
+      "id": "amstrad-1984",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports GPL-2.0 license metadata."
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/salvogendut/1984"
+        }
+      ]
+    },
+    {
+      "id": "animal-crossing-new-leaf-welcome-amiibo-usa-decomp",
+      "fields": {
+        "source_available": "Public source under CC0-1.0; user must provide the decrypted game dump; no game assets are included.",
+        "status": "README's 2026-10-09 snapshot reports 4,240/4,345 functions written for the nn library; many methods remain stubs. Repository activity on 2026-10-14 added NEX PRUDP/relay queues and sliding-window work; no game-playability claim is documented."
+      },
+      "sources": [
+        {
+          "label": "GitHub REST repository metadata: public repository and CC0-1.0 license (checked 2026-10-16)",
+          "url": "https://api.github.com/repos/RedShyGuy/acnl-decomp"
+        },
+        {
+          "label": "Maintainer README",
+          "url": "https://github.com/RedShyGuy/acnl-decomp#readme"
+        },
+        {
+          "label": "Maintainer CC0 1.0 Universal license file",
+          "url": "https://github.com/RedShyGuy/acnl-decomp/blob/master/LICENSE"
+        },
+        {
+          "label": "Maintainer README: user-supplied dump and excluded game assets",
+          "url": "https://github.com/RedShyGuy/acnl-decomp/blob/master/README.md"
+        },
+        {
+          "label": "Latest upstream commit",
+          "url": "https://github.com/RedShyGuy/acnl-decomp/commit/224295892706bdf10739681289c4c7033f9efe9d"
+        }
+      ]
+    },
+    {
+      "id": "applem-core",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports MIT license metadata."
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/mikedaley/applem-core"
+        }
+      ]
+    },
+    {
+      "id": "armsx1-ps1",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports LGPL-3.0 license metadata."
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/ARMSX2/ARMSX1"
+        }
+      ]
+    },
+    {
+      "id": "armsx2-ps2",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports GPL-3.0 license metadata."
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/ARMSX2/ARMSX2"
+        }
+      ]
+    },
+    {
+      "id": "armsx3-ps3-android",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports GPL-2.0 license metadata."
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/ARMSX2/ARMSX3"
+        }
+      ]
+    },
+    {
+      "id": "battletanx-global-assault-n64-pc-recomp",
+      "fields": {
+        "programming_language": "C++"
+      },
+      "sources": [
+        {
+          "label": "Official GitHub Languages API (repository byte map, verified 2026-10-16)",
+          "url": "https://api.github.com/repos/wootbeer/btgarecomp/languages"
+        }
+      ]
+    },
+    {
+      "id": "battlezone-rise-black-dogs-n64-pc-recomp",
+      "fields": {
+        "programming_language": "C++"
+      },
+      "sources": [
+        {
+          "label": "Official GitHub Languages API (repository byte map, verified 2026-10-16)",
+          "url": "https://api.github.com/repos/wootbeer/bzrecomp/languages"
+        }
+      ]
+    },
+    {
+      "id": "blake-stone-vita-source-port",
+      "fields": {
+        "source_available": "Public Blake Stone Vita source fork under GPL-2.0, as stated in the repository LICENSE. The README lists required user-owned game data files and Vita installation/build steps."
+      },
+      "sources": [
+        {
+          "label": "GitHub repository API: canonical identity and checked repository activity",
+          "url": "https://api.github.com/repos/01y/bstone-vita"
+        },
+        {
+          "label": "Repository GPL-2.0 license file",
+          "url": "https://github.com/01y/bstone-vita/blob/develop/LICENSE"
+        },
+        {
+          "label": "PS Vita-specific maintainer instructions",
+          "url": "https://github.com/01y/bstone-vita/blob/develop/README-PSVITA.md"
+        }
+      ]
+    },
+    {
+      "id": "blastem",
+      "fields": {
+        "status": "Active; stable v1.0.0 was released 2026-09-11. It adds Sega CD/32X support (including CD 32X), expands Sega 8-bit/Game Gear support, and adds Sega Pico/Copéra; the maintainer notes compatibility gaps for add-ons. A later upstream source changeset adds initial Game Gear link-port support and fixes a Game Gear freeze."
+      },
+      "sources": [
+        {
+          "label": "Maintainer release announcement",
+          "url": "https://www.retrodev.com/blastem/announce_1.0.0.html"
+        },
+        {
+          "label": "Maintainer changelog",
+          "url": "https://www.retrodev.com/blastem/changes.html"
+        },
+        {
+          "label": "Maintainer Mercurial changeset: initial Game Gear link port and freeze fix",
+          "url": "https://www.retrodev.com/repos/blastem/rev/0755b6277a19"
+        }
+      ]
+    },
+    {
+      "id": "bochs",
+      "fields": {
+        "programming_language": "C++"
+      },
+      "sources": [
+        {
+          "label": "Official GitHub Languages API (repository byte map, verified 2026-10-16)",
+          "url": "https://api.github.com/repos/bochs-emu/Bochs/languages"
+        }
+      ]
+    },
+    {
+      "id": "budokai-hd-xbox360-recomp",
+      "fields": {
+        "source_available": "Public BSD-3-Clause source repository and build script. The README requires user-extracted game assets and does not document the exact source build identity."
+      },
+      "sources": [
+        {
+          "label": "GitHub repository API: canonical identity and checked repository activity",
+          "url": "https://api.github.com/repos/WistfulHopes/DBZ1"
+        },
+        {
+          "label": "Repository BSD-3-Clause license file",
+          "url": "https://github.com/WistfulHopes/DBZ1/blob/main/LICENSE"
+        },
+        {
+          "label": "Maintainer README: target, implementation, requirements, and status",
+          "url": "https://github.com/WistfulHopes/DBZ1/blob/main/README.md"
+        },
+        {
+          "label": "Latest release v0.0.2",
+          "url": "https://github.com/WistfulHopes/DBZ1/releases/tag/v0.0.2"
+        }
+      ]
+    },
+    {
+      "id": "call-of-duty-4-ios-bmk4",
+      "fields": {
+        "source_available": "Public iOS port source under GPL-3.0 with CI build artifacts; no game assets or playable iOS release are included. Local device builds require a Mac and Xcode.",
+        "status": "Work-in-progress native iOS ARM64 port of the GPL KisakCOD engine decompilation. The maintainer's latest status table reports 41/41 engine translation units compiling for arm64-apple-ios, a simulator-verified headless Com_Init milestone, and first engine code executing on iOS. On a physical iPad Pro (M5), the patched DXVK D3D9 frontend through static MoltenVK and a native CAMetalLayer creates a device, passes bit-exact clear readback, and presents successfully; the real player-movement sandbox has only run on a synthetic world. No Call of Duty 4 game frame or playable session is documented, and 32-bit fastfile compatibility remains a major blocker. The repository has no release; latest source push is 2026-07-16.",
+        "subtype": "iOS/iPadOS research port with on-device D3D9-to-Metal renderer proof; not yet playable"
+      },
+      "sources": [
+        {
+          "label": "GitHub REST repository metadata: public repository and GPL-3.0 license (checked 2026-10-16)",
+          "url": "https://api.github.com/repos/Braxton-Bevis/bmk4"
+        },
+        {
+          "label": "Maintainer README: current milestone status, iOS target, game-data requirement, and blockers",
+          "url": "https://github.com/Braxton-Bevis/bmk4"
+        },
+        {
+          "label": "Frontier report: current porting stage and remaining gameplay blockers",
+          "url": "https://github.com/Braxton-Bevis/bmk4/blob/main/FRONTIER_REPORT.md"
+        },
+        {
+          "label": "Maintainer GNU GPL version 3 license file",
+          "url": "https://github.com/Braxton-Bevis/bmk4/blob/main/LICENSE"
+        },
+        {
+          "label": "Port journal: physical iPad renderer test and engine milestones",
+          "url": "https://github.com/Braxton-Bevis/bmk4/blob/main/PORT_JOURNAL.md"
+        },
+        {
+          "label": "Maintainer README: project scope, game-data exclusions and local Mac/Xcode build requirement",
+          "url": "https://github.com/Braxton-Bevis/bmk4/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "casio-cg50-emulator",
+      "fields": {
+        "source_available": "Public source repository; GitHub reports license metadata as Other (SPDX NOASSERTION), so exact reuse terms are not established by repository API metadata."
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/hexbinoct/casio-cg50"
+        }
+      ]
+    },
+    {
+      "id": "castlevania-circle-of-the-moon-gba-recomp",
+      "fields": {
+        "source_available": "Public source under PolyForm Noncommercial License 1.0.0; the user supplies the exact supported ROM (SHA-1 d661b01eb94186435723ac03344792c11c20c522); no game data is included."
+      },
+      "sources": [
+        {
+          "label": "GitHub REST repository metadata: public repository (checked 2026-10-16)",
+          "url": "https://api.github.com/repos/Zaxaerith/CastlevaniaCircleOfTheMoonRecomp"
+        },
+        {
+          "label": "Maintainer PolyForm Noncommercial License 1.0.0 file",
+          "url": "https://github.com/Zaxaerith/CastlevaniaCircleOfTheMoonRecomp/blob/main/LICENSE"
+        },
+        {
+          "label": "Maintainer README: required exact ROM revision/hash and excluded game data",
+          "url": "https://github.com/Zaxaerith/CastlevaniaCircleOfTheMoonRecomp/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "chaotix-recompiled-android",
+      "fields": {
+        "source_available": "Public MIT-licensed source and Android build path; user-supplied Knuckles’ Chaotix ROM required (USA/Japan SHA-1 0c2fff7bc79ed26507c08ac47464c3af19f7ced7); no ROM or BIOS is included."
+      },
+      "sources": [
+        {
+          "label": "Project README: supported ROM and platform matrix",
+          "url": "https://github.com/YuutaTsubasa/ChaotixRecompiled#readme"
+        },
+        {
+          "label": "GitHub repository API: source availability and license metadata",
+          "url": "https://api.github.com/repos/YuutaTsubasa/ChaotixRecompiled"
+        }
+      ]
+    },
+    {
+      "id": "chonkystation3",
+      "fields": {
+        "source_available": "Public GPL-3.0 source repository. The maintainer README requires users to supply and install their own PS3 game and system files; nightly build links are provided separately.",
+        "status": "Work in progress; the latest default-branch commit is dated 2025-09-24 and no tagged GitHub release is listed. The maintainer README says it boots a few simple commercial games but should not be used to play games; it links nightly SDL builds for Windows, Linux, and macOS, plus a Qt build for Windows."
+      },
+      "sources": [
+        {
+          "label": "GitHub repository API (pushed_at)",
+          "url": "https://api.github.com/repos/liuk7071/ChonkyStation3"
+        },
+        {
+          "label": "Repository GPL-3.0 license file",
+          "url": "https://github.com/liuk7071/ChonkyStation3/blob/master/LICENSE.md"
+        },
+        {
+          "label": "Maintainer README: current bootability warning, host build links, and user-supplied game/system-file instructions",
+          "url": "https://github.com/liuk7071/ChonkyStation3/blob/master/README.md"
+        },
+        {
+          "label": "GitHub Releases page; no tagged release is listed",
+          "url": "https://github.com/liuk7071/ChonkyStation3/releases"
+        }
+      ]
+    },
+    {
+      "id": "cloopy-casio-loopy",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports GPL-3.0 license metadata."
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/gameblabla/CLoopy"
+        }
+      ]
+    },
+    {
+      "id": "cocovm-tandy-coco",
+      "fields": {
+        "source_available": "Public source repository; GitHub reports license metadata as Other (SPDX NOASSERTION), so exact reuse terms are not established by repository API metadata."
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/sperano/cocovm"
+        }
+      ]
+    },
+    {
+      "id": "colem-colecovision-adam",
+      "fields": {
+        "status": "Mature; latest official release 5.6 (2021-03-03)."
+      },
+      "sources": [
+        {
+          "label": "ColEm official project and release page",
+          "url": "https://fms.komkon.org/ColEm/"
+        }
+      ]
+    },
+    {
+      "id": "contralto2-xerox-alto",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports BSD-3-Clause license metadata."
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/jdersch/Contralto2"
+        }
+      ]
+    },
+    {
+      "id": "cpcec-classic-systems",
+      "fields": {
+        "source_available": "Public source repository; GitHub reports no SPDX-identified license metadata."
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/cpcitor/cpcec"
+        }
+      ]
+    },
+    {
+      "id": "crossover",
+      "fields": {
+        "status": "Active commercial product; CrossOver 26.3.0 (2026-07-21) is the latest stable release listed on 2026-10-15. CodeWeavers' first native ARM64 Mac Preview announcement (2026-07-31) requires macOS 26.5+; the vendor described that initial Preview as unpolished and intended for testing, with D3DMetal absent and many launchers not working at that time. Older macOS versions in the Preview use Intel Wine under Rosetta."
+      },
+      "sources": [
+        {
+          "label": "CodeWeavers ARM64 Mac Preview requirements and launch limitations",
+          "url": "https://www.codeweavers.com/blog/mjohnson/2026/7/31/crossover-preview-the-right-to-bear-arm64-on-mac"
+        },
+        {
+          "label": "CodeWeavers CrossOver changelog and current stable release",
+          "url": "https://www.codeweavers.com/crossover/changelog"
+        }
+      ]
+    },
+    {
+      "id": "ctr-native-android",
+      "fields": {
+        "status": "The upstream CTR-tools/ctr-native released beta-7.1 on 2026-07-07 for Windows x86 and Linux x86. The cataloged Android downstream fork documents 32-bit armeabi-v7a/x86 debug APK builds requiring OpenGL ES 3; no public Android release or named physical-device gameplay test is documented."
+      },
+      "sources": [
+        {
+          "label": "Upstream CTR Native README: desktop builds, architecture and own-disc requirement",
+          "url": "https://github.com/CTR-tools/ctr-native#readme"
+        },
+        {
+          "label": "Upstream beta-7.1 release: Windows x86 ZIP and Linux x86 tar.gz assets (2026-07-07)",
+          "url": "https://github.com/CTR-tools/ctr-native/releases/tag/beta-7.1"
+        },
+        {
+          "label": "Cataloged Android fork README: ABI, OpenGL ES 3 and debug APK build path",
+          "url": "https://github.com/Simon358/ctr-native-android#readme"
+        },
+        {
+          "label": "GitHub repository API: source availability and license metadata",
+          "url": "https://api.github.com/repos/Simon358/ctr-native-android"
+        }
+      ]
+    },
+    {
+      "id": "d3dmetal-native-host-adapter",
+      "fields": {
+        "source_available": "Public source for this adapter under MIT. Apple D3DMetal.framework is a separate Apple-provided dependency and is not included in this repository."
+      },
+      "sources": [
+        {
+          "label": "GitHub REST repository metadata: public repository and MIT license (checked 2026-10-16)",
+          "url": "https://api.github.com/repos/utmapp/d3dmetal-native"
+        },
+        {
+          "label": "Maintainer MIT license file for the adapter",
+          "url": "https://github.com/utmapp/d3dmetal-native/blob/main/LICENSE"
+        },
+        {
+          "label": "Maintainer README: adapter scope and separate Apple framework dependency",
+          "url": "https://github.com/utmapp/d3dmetal-native/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "darkstar-xerox-star-workstation",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports BSD-2-Clause license metadata."
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/livingcomputermuseum/Darkstar"
+        }
+      ]
+    },
+    {
+      "id": "denise-emulator",
+      "fields": {
+        "status": "Maintained; version 2.9 was released 2026-08-28. The repository's latest commit is 2026-10-05; no newer release is listed."
+      },
+      "sources": [
+        {
+          "label": "Latest upstream commit",
+          "url": "https://github.com/piciji/denise/commit/58127d8644d2b37d163a5a3a51e60a63e4efde5d"
+        },
+        {
+          "label": "Latest maintainer release",
+          "url": "https://github.com/piciji/denise/releases/tag/v2.9"
+        }
+      ]
+    },
+    {
+      "id": "desmume",
+      "fields": {
+        "status": "Low release activity; the latest stable release remains 0.9.13 (2022-05-23), while the official source repository had code activity through 2026-09-11."
+      },
+      "sources": [
+        {
+          "label": "Latest upstream source commit",
+          "url": "https://github.com/TASEmulators/desmume/commit/1275dc64f5d1f5ef18dc1bc1fa9e012024b6df1a"
+        },
+        {
+          "label": "Official release history",
+          "url": "https://github.com/TASEmulators/desmume/releases"
+        }
+      ]
+    },
+    {
+      "id": "dice-arcade",
+      "fields": {
+        "source_available": "Public GPL-3.0 source repository. The maintainer README identifies the tree as DICE v0.9 with SDL2/Qt5 compilation changes and says sprite ROMs are required for certain games."
+      },
+      "sources": [
+        {
+          "label": "GitHub repository API (pushed_at)",
+          "url": "https://api.github.com/repos/DirtBagXon/DICE"
+        },
+        {
+          "label": "Repository GPL-3.0 license file",
+          "url": "https://github.com/DirtBagXon/DICE/blob/main/LICENSE.txt"
+        },
+        {
+          "label": "Maintainer README: DICE v0.9 source, SDL2/Qt5 build route, and sprite-ROM note",
+          "url": "https://github.com/DirtBagXon/DICE/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "dingbat-gb-gba",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports MIT license metadata."
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/mattrbeck/dingbat"
+        }
+      ]
+    },
+    {
+      "id": "dosbox",
+      "fields": {
+        "status": "Legacy DOSBox release line; the official site lists 0.74-3 (released 2019-06-26) as its latest version and posted a Linux workaround on 2021-01-27."
+      },
+      "sources": [
+        {
+          "label": "DOSBox 0.74-3 release announcement",
+          "url": "https://sourceforge.net/p/dosbox/news/2019/06/dosbox-074-3-has-been-released/"
+        },
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://www.dosbox.com/download.php?main=1"
+        },
+        {
+          "label": "Official DOSBox news: Linux workaround posted 2021-01-27; latest release remains 0.74-3 from 2019-06-26",
+          "url": "https://www.dosbox.com/news.php?show_news=1"
+        }
+      ]
+    },
+    {
+      "id": "dosbox-pure",
+      "fields": {
+        "status": "Active; the maintainer moved the project to Codeberg. The latest release is 1.0-preview7 (2026-10-06), and the current source repository records a commit on 2026-10-14."
+      },
+      "sources": [
+        {
+          "label": "Codeberg commit API (UTC date and message)",
+          "url": "https://codeberg.org/api/v1/repos/schelling/dosbox-pure/commits/6f28498450314e5b168b25d0f90359b0d1bdb747"
+        },
+        {
+          "label": "Current Codeberg source commit",
+          "url": "https://codeberg.org/schelling/dosbox-pure/commit/6f28498450314e5b168b25d0f90359b0d1bdb747"
+        },
+        {
+          "label": "Codeberg 1.0-preview7 release",
+          "url": "https://codeberg.org/schelling/dosbox-pure/releases/tag/1.0-preview7"
+        }
+      ]
+    },
+    {
+      "id": "driving-strikers-n64-port",
+      "fields": {
+        "source_available": "Public C source under The Unlicense, with public v1.03 release. The README says the original game developers approved distribution of the N64 port and instructs builders to add the project assets from the release."
+      },
+      "sources": [
+        {
+          "label": "GitHub API: repository license and latest default-branch commit",
+          "url": "https://api.github.com/repos/SpookyIluha/Driving-Strikers-64"
+        },
+        {
+          "label": "Repository Unlicense file",
+          "url": "https://github.com/SpookyIluha/Driving-Strikers-64/blob/main/LICENSE"
+        },
+        {
+          "label": "Maintainer README: Dreamcast origin, custom N64 codebase, feature set, and distribution permission",
+          "url": "https://github.com/SpookyIluha/Driving-Strikers-64/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer release 1.03",
+          "url": "https://github.com/SpookyIluha/Driving-Strikers-64/releases/tag/release_103"
+        }
+      ]
+    },
+    {
+      "id": "dsp-emulator-multisystem",
+      "fields": {
+        "source_available": "Public source repository; GitHub reports no SPDX-identified license metadata."
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/leniad/dsp-emulator"
+        }
+      ]
+    },
+    {
+      "id": "dxmt",
+      "fields": {
+        "platform": "Direct3D 10/11 → Metal through Wine/CrossOver on macOS 14+ (macOS 15 recommended); all Apple silicon Macs are supported. Documented AMD 5000/6000 and Intel UHD 630/Iris Plus paths are experimental and unmaintained, with planned removal after macOS 28. Wine 8+ is required; 32- and 64-bit programs are supported."
+      },
+      "sources": [
+        {
+          "label": "Official releases and game-specific change notes",
+          "url": "https://github.com/3Shain/dxmt/releases"
+        },
+        {
+          "label": "DXMT device, OS, runtime and architecture requirements",
+          "url": "https://github.com/3Shain/dxmt/wiki/Device-System-Runtime-Specifications"
+        }
+      ]
+    },
+    {
+      "id": "dxvk-macos-metalsharp-v31",
+      "fields": {
+        "status": "Release v3.1-macos1.0 was published 2026-09-12. The package provides x86-64 and i386 Wine DLLs with MoltenVK and requires a Wine portability-enumeration patch. A 2026-09-21 maintainer commit says Phase 2 device-level support for D3D9/D3D8 was verified; no per-game compatibility matrix is published."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README",
+          "url": "https://github.com/metalsharp/DXVK-MacOS#readme"
+        },
+        {
+          "label": "Latest upstream commit",
+          "url": "https://github.com/metalsharp/DXVK-MacOS/commit/8d348236e14a3db25ffbe528a83010b3dd69a3ef"
+        },
+        {
+          "label": "Latest maintainer release",
+          "url": "https://github.com/metalsharp/DXVK-MacOS/releases/tag/v3.1-macos1.0"
+        }
+      ]
+    },
+    {
+      "id": "egg-ns",
+      "fields": {
+        "status": "Unclear; the official download page currently lists app v4.1.7, but its newest dated public update log is 2022-12-02, so current maintenance cadence cannot be verified."
+      },
+      "sources": [
+        {
+          "label": "Maintainer news and release archive",
+          "url": "https://eggns.wordpress.com/news/"
+        }
+      ]
+    },
+    {
+      "id": "eink-qemu",
+      "fields": {
+        "source_available": "Public source repository; GitHub reports license metadata as Other (SPDX NOASSERTION), so exact reuse terms are not established by repository API metadata."
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/serialx/eink-qemu"
+        }
+      ]
+    },
+    {
+      "id": "emu48-android-calculator",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports GPL-2.0 license metadata."
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/dgis/emu48android"
+        }
+      ]
+    },
+    {
+      "id": "emu7800-atari-7800",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports GPL-2.0 license metadata."
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/emu7800/emu7800.github.io"
+        }
+      ]
+    },
+    {
+      "id": "engram-gb-gba",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports MIT license metadata."
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/donishadsmith/Engram"
+        }
+      ]
+    },
+    {
+      "id": "epsxe",
+      "fields": {
+        "status": "Active; the official Android changelog lists ePSXe 2.0.19 (2026-05), while the official Windows page lists ePSXe 2.0.18 (released 2025-12-23)."
+      },
+      "sources": [
+        {
+          "label": "Official Windows release page",
+          "url": "https://epsxe.com/"
+        },
+        {
+          "label": "Official Android changelog",
+          "url": "https://epsxe.com/android/index.html"
+        }
+      ]
+    },
+    {
+      "id": "fex-emu",
+      "fields": {
+        "status": "Active; FEX-2610 was released on 2026-10-07, and source changes continued through 2026-10-13. Upstream FEX remains an ARM64 Linux-hosted user-mode emulator for x86/x86-64 Linux applications; it is not a Windows API layer or full-system emulator. CrossOver’s Mac Preview and SteamARM use custom or downstream FEX integrations, which do not establish general macOS support for upstream FEX."
+      },
+      "sources": [
+        {
+          "label": "FEX README: supported guest and host architectures and user-mode scope",
+          "url": "https://github.com/FEX-Emu/FEX"
+        },
+        {
+          "label": "Latest FEX release FEX-2610",
+          "url": "https://github.com/FEX-Emu/FEX/releases/tag/FEX-2610"
+        },
+        {
+          "label": "CodeWeavers description of its custom FEX Mac Preview",
+          "url": "https://www.codeweavers.com/blog/mjohnson/2026/7/31/crossover-preview-the-right-to-bear-arm64-on-mac"
+        },
+        {
+          "label": "SteamARM FEX integration and Apple silicon requirements",
+          "url": "https://github.com/LukeOkk/SteamARM"
+        },
+        {
+          "label": "FEX repository activity",
+          "url": "https://github.com/FEX-Emu/FEX/commits/main"
+        }
+      ]
+    },
+    {
+      "id": "four-swords-anniversary-dsi-korean-patch",
+      "fields": {
+        "status": "Version v1.2f was released 2026-10-03 and is described as complete; the README lists 215 of 220 dialogue/text elements translated, plus a Korean font and selected graphics. The latest repository commit (2026-10-07) standardizes the package filename."
+      },
+      "sources": [
+        {
+          "label": "Latest upstream commit",
+          "url": "https://github.com/arqhive/zelda-four-swords-anniversary-edition-kor-patch/commit/70f015c9eacdcddea070fbab784ac34641eda710"
+        },
+        {
+          "label": "Latest maintainer release",
+          "url": "https://github.com/arqhive/zelda-four-swords-anniversary-edition-kor-patch/releases/tag/v1.2f"
+        }
+      ]
+    },
+    {
+      "id": "free42-hp42s",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports GPL-2.0 license metadata."
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/swissmicros/free42"
+        }
+      ]
+    },
+    {
+      "id": "fs-uae",
+      "fields": {
+        "status": "The latest stable release is 3.2.35 (2025-09-07); FS-UAE 5 alpha builds were announced 2025-09-05. The upstream source repository's latest commit checked is 2025-09-13, so current maintenance cadence is unclear."
+      },
+      "sources": [
+        {
+          "label": "Official project news and release page",
+          "url": "https://fs-uae.net/"
+        },
+        {
+          "label": "Latest upstream source commit",
+          "url": "https://github.com/FrodeSolheim/fs-uae/commit/f362278ccd4c60991caac3b4d240d4a3f751bea2"
+        }
+      ]
+    },
+    {
+      "id": "gamate-emulator",
+      "fields": {
+        "source_available": "Public source repository; GitHub reports no SPDX-identified license metadata."
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/xrip/gamate"
+        }
+      ]
+    },
+    {
+      "id": "generals-zero-hour-android-port",
+      "fields": {
+        "source_available": "Public source and v1.4.0 Android release. LICENSE.md contains EA’s Generals/Zero Hour GPLv3 source notice and additional terms; GitHub reports NOASSERTION for the repository-level license, so the port’s license is not inferred here. Game retail data is not included and must be supplied by the user.",
+        "status": "The latest release is v1.4.0, published 2026-10-03. The maintainer reports campaign, skirmish, Generals Challenge, touch controls, audio, cutscenes, real online matches, and PC cross-play. Device notes name a Poco F8 Pro (Adreno 830) and Redmi Note 8 Pro (Mali-G76); GLES is the default renderer, while Vulkan has device-specific limits. The README does not state a minimum Android version."
+      },
+      "sources": [
+        {
+          "label": "GitHub REST repository metadata: public repository; license classifier NOASSERTION (checked 2026-10-16)",
+          "url": "https://api.github.com/repos/MYSOREZ/GeneralsZH-Android-Port"
+        },
+        {
+          "label": "Maintainer README",
+          "url": "https://github.com/MYSOREZ/GeneralsZH-Android-Port#readme"
+        },
+        {
+          "label": "Maintainer LICENSE.md: EA source notice and additional terms; GitHub API license metadata is NOASSERTION",
+          "url": "https://github.com/MYSOREZ/GeneralsZH-Android-Port/blob/main/LICENSE.md"
+        },
+        {
+          "label": "Maintainer README: Android release, user-supplied game data, and project scope",
+          "url": "https://github.com/MYSOREZ/GeneralsZH-Android-Port/blob/main/README.md"
+        },
+        {
+          "label": "Latest maintainer release",
+          "url": "https://github.com/MYSOREZ/GeneralsZH-Android-Port/releases/tag/v1.4.0"
+        }
+      ]
+    },
+    {
+      "id": "geolith-neo-geo-aes",
+      "fields": {
+        "status": "Active; the upstream repository's latest commit (2026-10-11) changes BSD/Darwin signal-mask handling in the bus-error trap. No current release date was verified."
+      },
+      "sources": [
+        {
+          "label": "Libretro source port",
+          "url": "https://github.com/libretro/geolith-libretro"
+        },
+        {
+          "label": "Upstream GitLab commit",
+          "url": "https://gitlab.com/jgemu/geolith/-/commit/05ddef568212e7225ceec22f3ecb20b5a9b640e6"
+        }
+      ]
+    },
+    {
+      "id": "goldeneye-007-3ds-port",
+      "fields": {
+        "status": "In-progress native 3DS bring-up; the maintainer reports that Dam runs in Azahar and 3DS-targeted builds and lists original movement, collision, guards, weapons, mission state, HUD, menus, and audio among the systems under integration. The project explicitly says it is not a finished or fully playable release.",
+        "source_available": "Public source and 3DS build/porting notes; requires the user's legally obtained NTSC-U ROM to generate local assets; no ROM, extracted game assets, generated asset pack, or compiled game binary is included."
+      },
+      "sources": [
+        {
+          "label": "GitHub repository metadata: repository identity, activity, and primary language",
+          "url": "https://api.github.com/repos/kylebrussell/goldeneye-3ds"
+        },
+        {
+          "label": "Maintainer README: current Dam milestone, non-playable status, and source-data requirements",
+          "url": "https://github.com/kylebrussell/goldeneye-3ds#readme"
+        },
+        {
+          "label": "Maintainer's Nintendo 3DS port notes and current build/test boundaries",
+          "url": "https://github.com/kylebrussell/goldeneye-3ds/blob/master/docs/Porting3DS.md"
+        }
+      ]
+    },
+    {
+      "id": "goldeneye-007-xbla-remaster-recomp",
+      "fields": {
+        "source_available": "Public MIT-licensed source repository. The maintainer README says the project contains no GoldenEye game assets or other copyrighted game material and users must have legal access to required game files."
+      },
+      "sources": [
+        {
+          "label": "GitHub repository API: canonical identity and checked repository activity",
+          "url": "https://api.github.com/repos/Fable2Recomp/beanRecomp"
+        },
+        {
+          "label": "Repository MIT license file",
+          "url": "https://github.com/Fable2Recomp/beanRecomp/blob/main/LICENSE"
+        },
+        {
+          "label": "Maintainer README: target, implementation, requirements, and status",
+          "url": "https://github.com/Fable2Recomp/beanRecomp/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "great-ace-attorney-adventures-3ds-english-akoi89",
+      "fields": {
+        "source_available": "Public patch/tooling repository under GPL-3.0. The user supplies the matching Japanese game and required decrypted game data; no complete ROM is distributed.",
+        "status": "The README identifies v1.9m builds; the v1.9m release was published 2026-10-11. Both games install and boot, but neither main game has been fully playtested on console; specific DLC has received hardware testing."
+      },
+      "sources": [
+        {
+          "label": "GitHub REST repository metadata: public repository and GPL-3.0 license (checked 2026-10-16)",
+          "url": "https://api.github.com/repos/Akoi89/tgaa-3ds-english-patch"
+        },
+        {
+          "label": "Maintainer README and testing notes",
+          "url": "https://github.com/Akoi89/tgaa-3ds-english-patch#readme"
+        },
+        {
+          "label": "Maintainer GNU GPL version 3 license file",
+          "url": "https://github.com/Akoi89/tgaa-3ds-english-patch/blob/main/LICENSE"
+        },
+        {
+          "label": "Maintainer README: game/decrypt inputs and patch tooling",
+          "url": "https://github.com/Akoi89/tgaa-3ds-english-patch/blob/main/README.md"
+        },
+        {
+          "label": "Latest maintainer release",
+          "url": "https://github.com/Akoi89/tgaa-3ds-english-patch/releases/tag/v1.9m"
+        }
+      ]
+    },
+    {
+      "id": "great-ace-attorney-resolve-3ds-english-akoi89",
+      "fields": {
+        "source_available": "Public patch/tooling repository under GPL-3.0. The user supplies the matching Japanese game and required decrypted game data; no complete ROM is distributed.",
+        "status": "The README identifies v1.9m builds; the v1.9m release was published 2026-10-11. Both games install and boot, but neither main game has been fully playtested on console; specific DLC has received hardware testing."
+      },
+      "sources": [
+        {
+          "label": "GitHub REST repository metadata: public repository and GPL-3.0 license (checked 2026-10-16)",
+          "url": "https://api.github.com/repos/Akoi89/tgaa-3ds-english-patch"
+        },
+        {
+          "label": "Maintainer README and testing notes",
+          "url": "https://github.com/Akoi89/tgaa-3ds-english-patch#readme"
+        },
+        {
+          "label": "Maintainer GNU GPL version 3 license file",
+          "url": "https://github.com/Akoi89/tgaa-3ds-english-patch/blob/main/LICENSE"
+        },
+        {
+          "label": "Maintainer README: game/decrypt inputs and patch tooling",
+          "url": "https://github.com/Akoi89/tgaa-3ds-english-patch/blob/main/README.md"
+        },
+        {
+          "label": "Latest maintainer release",
+          "url": "https://github.com/Akoi89/tgaa-3ds-english-patch/releases/tag/v1.9m"
+        }
+      ]
+    },
+    {
+      "id": "hemulator-multisystem",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports MIT license metadata."
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/Hexagon/hemulator"
+        }
+      ]
+    },
+    {
+      "id": "hissatsu-saturn-en",
+      "fields": {
+        "status": "English translation patch v1.0 is released. The maintainer says dialogue scenes, opening/ending voiceover subtitles, and selected graphics are translated and that the game is entirely playable in English; the README lists tests in Ymir, Kronos, Yaba Sanshiro, Mednafen, and on real Saturn hardware with Satiator.",
+        "subtype": "Sega Saturn English fan localization patch"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: translation coverage, patch format, and named emulator/hardware tests",
+          "url": "https://github.com/ExxistanceDC/Hissatsu-English-Translation/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer v1.0 patch release",
+          "url": "https://github.com/ExxistanceDC/Hissatsu-English-Translation/releases/tag/v1.0"
+        }
+      ]
+    },
+    {
+      "id": "hollow-knight-silksong-android",
+      "fields": {
+        "source_available": "Public MIT source and v2.0.0 Android APK release. The user supplies Linux Steam game files; game content and Unity player files are not bundled.",
+        "status": "The latest release, v2.0.0, was published 2026-09-25. The maintainer says the APK builds the user's Linux Steam game files on-device through Unity IL2CPP; the README names tests on an AYN Thor and Retroid Pocket Flip 2. It does not state a minimum Android version or report a complete-game playthrough. Mod support is marked beta, and touch controls are not documented."
+      },
+      "sources": [
+        {
+          "label": "GitHub REST repository metadata: public repository and MIT license (checked 2026-10-16)",
+          "url": "https://api.github.com/repos/jakobkhansen/SilksongAndroid"
+        },
+        {
+          "label": "Maintainer README",
+          "url": "https://github.com/jakobkhansen/SilksongAndroid#readme"
+        },
+        {
+          "label": "Maintainer MIT license file for the Android project",
+          "url": "https://github.com/jakobkhansen/SilksongAndroid/blob/master/LICENSE"
+        },
+        {
+          "label": "Maintainer README: Linux Steam files and on-device build workflow",
+          "url": "https://github.com/jakobkhansen/SilksongAndroid/blob/master/README.md"
+        },
+        {
+          "label": "Latest maintainer release",
+          "url": "https://github.com/jakobkhansen/SilksongAndroid/releases/tag/v2.0.0"
+        }
+      ]
+    },
+    {
+      "id": "hp41-calculator-emulator",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports MIT license metadata."
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/talent-factory/hp41-calculator-emulator"
+        }
+      ]
+    },
+    {
+      "id": "imas-sls-translation",
+      "fields": {
+        "subtype": "Steam PC fan translation patch"
+      },
+      "sources": [
+        {
+          "label": "Project homepage",
+          "url": "https://imas-sls-fantranslation.github.io/"
+        },
+        {
+          "label": "Official v2.0 alpha patch release: story/UI changes and release date",
+          "url": "https://github.com/Imas-SLS-FanTranslation/Idolmaster-Starlit-Season-Fan-Translation-Patch/releases/tag/Prerelease"
+        }
+      ]
+    },
+    {
+      "id": "inazuma-eleven-go-galaxy-it",
+      "fields": {
+        "source_available": "Public GitHub v1.4.0build4 Italian patch release with exefs/romfs RAR assets for the Supernova and Big Bang editions. The repository README identifies the project as an Italian patch release.",
+        "status": "Latest listed Italian patch is v1.4.0build4 for Inazuma Eleven GO Galaxy: Supernova and Big Bang, released 2022-04-06; the release labels it a major NPC update. No later GitHub release is listed. Patch completeness is not stated in the maintainer README."
+      },
+      "sources": [
+        {
+          "label": "GitHub API: latest published release metadata",
+          "url": "https://api.github.com/repos/GamePatchingTeam/IE6-Release/releases?per_page=1"
+        },
+        {
+          "label": "Maintainer README: Italian patch for Supernova and Big Bang",
+          "url": "https://github.com/GamePatchingTeam/IE6-Release/blob/master/README.md"
+        },
+        {
+          "label": "Latest published patch release v1.4.0build4 (2022-04-06) and exefs/romfs assets",
+          "url": "https://github.com/GamePatchingTeam/IE6-Release/releases/tag/1.4.0"
+        }
+      ]
+    },
+    {
+      "id": "iris-sgi-indy",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports BSD-3-Clause license metadata."
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/techomancer/iris"
+        }
+      ]
+    },
+    {
+      "id": "j2me-loader-android",
+      "fields": {
+        "status": "Mature Android emulator; the README reports support for most 2D and 3D games and maintains tested-game and known-bug lists. The latest tagged release remains 1.8.2 (2024-08-07); the latest repository commit (2026-02-06) only adds a 4PDA link, while issue activity continued in 2026."
+      },
+      "sources": [
+        {
+          "label": "Latest upstream commit",
+          "url": "https://github.com/nikita36078/J2ME-Loader/commit/9b0fa48a0a0d1e61376c0b9af28b3d2caec0a4cc"
+        },
+        {
+          "label": "GitHub issue activity example, issue #956 updated 2026-10-14",
+          "url": "https://github.com/nikita36078/J2ME-Loader/issues/956"
+        },
+        {
+          "label": "Latest maintainer release",
+          "url": "https://github.com/nikita36078/J2ME-Loader/releases/tag/1.8.2"
+        }
+      ]
+    },
+    {
+      "id": "kartpad-mario-kart-wii",
+      "fields": {
+        "status": "Latest release v0.8.1 (2026-10-13) publishes an Android APK; Android requires ARM64, Vulkan, and Android 9+. iPhone/iPad and Apple Silicon Mac builds are produced locally through PadMint from the user’s disc; tvOS is only an experimental preview. Android Original gameplay with a Razer Kishi was accepted on Pixel 9 Pro XL; the current iPad release candidate has accepted controller/menu checks, not broad device coverage."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: current host support, setup, and tvOS caveat",
+          "url": "https://github.com/chrissotraidis/kartpad/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer status: current device acceptance and open checks",
+          "url": "https://github.com/chrissotraidis/kartpad/blob/main/docs/STATUS.md"
+        },
+        {
+          "label": "Maintainer v0.8.1 release",
+          "url": "https://github.com/chrissotraidis/kartpad/releases/tag/v0.8.1"
+        }
+      ]
+    },
+    {
+      "id": "lindbergh-loader",
+      "fields": {
+        "source_available": "Public source repository; GitHub reports license metadata as Other (SPDX NOASSERTION), so exact reuse terms are not established by repository API metadata."
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/lindbergh-loader/lindbergh-loader"
+        }
+      ]
+    },
+    {
+      "id": "lisaem-apple-lisa",
+      "fields": {
+        "source_available": "Public source repository. LICENSE.txt is internally inconsistent: it labels author-written code GNU GPL V2, then states that the program is under GPL version 3; it also says third-party code follows its own licenses. GitHub reports no SPDX-identified repository license, so one GPL version cannot be assigned confidently.",
+        "summary": "wxWidgets-based Apple Lisa emulator with Lisa disk-image and filesystem tools. Public source is available, but LICENSE.txt conflicts between GPL V2 and GPL version 3 for author-written/program code; third-party components retain their own licenses. Current release cadence and supported host matrix are not documented."
+      },
+      "sources": [
+        {
+          "label": "GitHub repository metadata: last push and source language",
+          "url": "https://api.github.com/repos/rayarachelian/lisaem"
+        },
+        {
+          "label": "Maintainer LICENSE.txt: conflicting GPL V2 and GPL version 3 wording, plus separate third-party licenses",
+          "url": "https://github.com/rayarachelian/lisaem/blob/master/LICENSE.txt"
+        },
+        {
+          "label": "Maintainer README: emulator scope, source version, build notes, and GPL-3.0 terms",
+          "url": "https://github.com/rayarachelian/lisaem/blob/master/README.md"
+        }
+      ]
+    },
+    {
+      "id": "memu-memotech",
+      "fields": {
+        "source_available": "Public source repository; GitHub reports license metadata as Other (SPDX NOASSERTION), so exact reuse terms are not established by repository API metadata."
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/Memotech-Bill/MEMU"
+        }
+      ]
+    },
+    {
+      "id": "metal2vulkan",
+      "fields": {
+        "summary": "A Rust workspace with an AIR/LLVM IR-to-SPIR-V translator and a separate Metal-shaped runtime over Vulkan. The current README documents compute, render, tessellation, tile, and mesh stages, a Vulkan 1.2 device requirement, typed refusals for unsupported or uncovered inputs, and synthetic public fixtures. Passing spirv-val shows that a module is valid, not that it behaves like Metal. Authored validation compares selected cases against Metal; the private validation corpus is not included in the public repository, so the project does not claim complete compatibility."
+      },
+      "sources": [
+        {
+          "label": "Current project README: translator/runtime crates, Alpha caveats, Vulkan requirement, and validation limits",
+          "url": "https://github.com/steelbrain/metal2vulkan/blob/master/README.md"
+        },
+        {
+          "label": "Vulkan runtime API coverage and requirements",
+          "url": "https://github.com/steelbrain/metal2vulkan/blob/master/crates/metal2vulkan-runtime/README.md"
+        }
+      ]
+    },
+    {
+      "id": "mister-blasteroids",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports GPL-3.0 license metadata."
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/MiSTer-devel/Arcade-Blasteroids_MiSTer"
+        }
+      ]
+    },
+    {
+      "id": "mister-casio-loopy",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports GPL-2.0 license metadata."
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/MiSTer-devel/Loopy_MiSTer"
+        }
+      ]
+    },
+    {
+      "id": "mister-irem-m107",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports GPL-2.0 license metadata."
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/MiSTer-devel/Arcade-IremM107_MiSTer"
+        }
+      ]
+    },
+    {
+      "id": "mister-namco-system22",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports GPL-3.0 license metadata."
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/spacestate1/Arcade_namco22_MiSTer"
+        }
+      ]
+    },
+    {
+      "id": "mister-orao",
+      "fields": {
+        "source_available": "Public MIT source repository. The repository also includes software tape archives and ROM regions; their rights are not independently stated in the README."
+      },
+      "sources": [
+        {
+          "label": "GitHub repository metadata and last push",
+          "url": "https://api.github.com/repos/MiSTer-devel/Orao_MiSTer"
+        },
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/MiSTer-devel/Orao_MiSTer"
+        },
+        {
+          "label": "GitHub license file",
+          "url": "https://github.com/MiSTer-devel/Orao_MiSTer/blob/master/LICENSE"
+        },
+        {
+          "label": "Maintainer README / project status and requirements",
+          "url": "https://github.com/MiSTer-devel/Orao_MiSTer/blob/master/README.md"
+        }
+      ]
+    },
+    {
+      "id": "mister-raiden",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports GPL-3.0 license metadata."
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/rmonic79/Arcade-Raiden_MiSTer"
+        }
+      ]
+    },
+    {
+      "id": "mister-super-cassette-vision",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports GPL-2.0 license metadata."
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/MiSTer-devel/SuperCassetteVision_MiSTer"
+        }
+      ]
+    },
+    {
+      "id": "mister-superacan",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports GPL-2.0 license metadata."
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/MiSTer-devel/SuperACan_MiSTer"
+        }
+      ]
+    },
+    {
+      "id": "mister-taito-f3",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports GPL-3.0 license metadata."
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/spacestate1/Arcade-taitoF3_MiSTer"
+        }
+      ]
+    },
+    {
+      "id": "mister-taito-l",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports GPL-3.0 license metadata."
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/decoryah/Arcade-TaitoLSystem_MiSTer"
+        }
+      ]
+    },
+    {
+      "id": "mister-tank",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports GPL-3.0 license metadata."
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/MiSTer-devel/Arcade-Tank_MiSTer"
+        }
+      ]
+    },
+    {
+      "id": "mister-xybots",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports GPL-3.0 license metadata."
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/MiSTer-devel/Arcade-Xybots_MiSTer"
+        }
+      ]
+    },
+    {
+      "id": "moltenvk",
+      "fields": {
+        "platform": "Vulkan 1.4 subset → Apple Metal; macOS 12+, iOS 15+, and tvOS 15+ on Metal-capable Apple devices, including Apple silicon. Current documentation also lists visionOS, Mac Catalyst, and supported Apple simulators/architectures."
+      },
+      "sources": [
+        {
+          "label": "MoltenVK runtime requirements and supported Apple targets",
+          "url": "https://github.com/KhronosGroup/MoltenVK/blob/main/Docs/MoltenVK_Runtime_UserGuide.md"
+        },
+        {
+          "label": "MoltenVK 1.4.2 release (2026-07-24) / MoltenVK v1.4.2 release notes",
+          "url": "https://github.com/KhronosGroup/MoltenVK/releases/tag/v1.4.2"
+        }
+      ]
+    },
+    {
+      "id": "mu-palm-os",
+      "fields": {
+        "source_available": "Public source repository; GitHub reports no SPDX-identified license metadata."
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/meepingsnesroms/Mu"
+        }
+      ]
+    },
+    {
+      "id": "mupen64plus",
+      "fields": {
+        "programming_language": "C"
+      },
+      "sources": [
+        {
+          "label": "Official GitHub Languages API (repository byte map, verified 2026-10-16)",
+          "url": "https://api.github.com/repos/mupen64plus/mupen64plus-core/languages"
+        }
+      ]
+    },
+    {
+      "id": "nakoruru-dc-en",
+      "fields": {
+        "status": "Released; current English patch v1.4 was published 2026-09-23."
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository README and release changelog, v1.4 dated 2026-09-23",
+          "url": "https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast"
+        },
+        {
+          "label": "Project repository latest recorded commit (2026-09-23): Update README for version 1.4 release",
+          "url": "https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast/commit/b755a98a4b14091c0222aee7c773b9bc080b3e2b"
+        },
+        {
+          "label": "Maintainer release v1.4",
+          "url": "https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast/releases/tag/1.4"
+        }
+      ]
+    },
+    {
+      "id": "neetan-japanese-computer-emulator",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports BSD-3-Clause license metadata."
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/neetandev/neetan"
+        }
+      ]
+    },
+    {
+      "id": "nemulator-multisystem",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports BSD-2-Clause license metadata."
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/jslepicka/nemulator"
+        }
+      ]
+    },
+    {
+      "id": "nexium",
+      "fields": {
+        "status": "Active experimental development; the maintainer's 2026-10-04 report documents an Android app and an early PS5 port, with many games still slow."
+      },
+      "sources": [
+        {
+          "label": "NeXium maintainer progress report, October 2026",
+          "url": "https://nexium-emu.org/progress-report-october-2026.html"
+        }
+      ]
+    },
+    {
+      "id": "nfs-most-wanted-android-recomp",
+      "fields": {
+        "source_available": "Public GPL-3.0 source, Android-specific build notes and region-specific APK releases; each build requires a matching user-owned Xbox 360 ISO, and game data is not bundled."
+      },
+      "sources": [
+        {
+          "label": "GitHub repository API: source availability and license metadata",
+          "url": "https://api.github.com/repos/victorgbd/NFSMW-Recompiled-Mobile"
+        },
+        {
+          "label": "Maintainer GPL-3.0 license file",
+          "url": "https://github.com/victorgbd/NFSMW-Recompiled-Mobile/blob/main/LICENSE"
+        },
+        {
+          "label": "Maintainer Android source and edition-specific game-data requirements",
+          "url": "https://github.com/victorgbd/NFSMW-Recompiled-Mobile/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer Android APK releases",
+          "url": "https://github.com/victorgbd/NFSMW-Recompiled-Mobile/releases"
+        }
+      ]
+    },
+    {
+      "id": "nfs-most-wanted-ios-recomp",
+      "fields": {
+        "source_available": "Public GPL-3.0 iOS build source and unsigned IPA releases; requires signing/sideloading and the user’s own USA Xbox 360 ISO, with no game data bundled."
+      },
+      "sources": [
+        {
+          "label": "GitHub repository API: source availability and license metadata",
+          "url": "https://api.github.com/repos/bep1s69/nfsmw-ios"
+        },
+        {
+          "label": "Maintainer GPL-3.0 license file",
+          "url": "https://github.com/bep1s69/nfsmw-ios/blob/main/LICENSE"
+        },
+        {
+          "label": "Maintainer iOS source and USA-edition game-data requirements",
+          "url": "https://github.com/bep1s69/nfsmw-ios/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer iOS IPA releases",
+          "url": "https://github.com/bep1s69/nfsmw-ios/releases"
+        }
+      ]
+    },
+    {
+      "id": "nonpareil-hp-calculators",
+      "fields": {
+        "source_available": "Public source repository; GitHub reports license metadata as Other (SPDX NOASSERTION), so exact reuse terms are not established by repository API metadata."
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/brouhaha/nonpareil"
+        }
+      ]
+    },
+    {
+      "id": "nxemu",
+      "fields": {
+        "status": "Active; the official site lists progress builds through September 2026, and the source repository continued changing through 2026-10-15, including support for files that contain multiple games."
+      },
+      "sources": [
+        {
+          "label": "Project repository latest recorded commit (2026-10-15): loader: a game file might contain multiple games, need to be able to …",
+          "url": "https://github.com/N3xoX1/nxemu/commit/8a579c5d4c508b74e7da899157c1450a845db66f"
+        },
+        {
+          "label": "Official project site and progress releases",
+          "url": "https://www.nxemu.com/"
+        }
+      ]
+    },
+    {
+      "id": "pcejs-classic-browser",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports GPL-2.0 license metadata."
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/jsdf/pce"
+        }
+      ]
+    },
+    {
+      "id": "pokket-pocketstation",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports GPL-3.0 license metadata."
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/mentalfoundry/Pokket"
+        }
+      ]
+    },
+    {
+      "id": "pom2-apple-ii",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports GPL-3.0 license metadata."
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/habib256/pom2"
+        }
+      ]
+    },
+    {
+      "id": "pt-ps4-pc-reimplementation",
+      "fields": {
+        "status": "Latest published release v1.0.5 (2026-10-16 01:00 UTC) is a hotfix for a v1.0.4 startup crash affecting Linux/macOS, plus other fixes. The maintainer’s Oct 15 status still reports the entire teaser from first-boot options/preface through the ending, including the voice step; small lighting/material differences and timing details remain. The release updates the latest-version field and does not itself add a new completion milestone."
+      },
+      "sources": [
+        {
+          "label": "Latest published release v1.0.5 (2026-10-16 01:00 UTC): Linux/macOS startup-crash hotfix and other fixes",
+          "url": "https://github.com/LoreanXavier/pt-pc/releases/tag/v1.0.5"
+        },
+        {
+          "label": "Maintainer status post in r/silenthill",
+          "url": "https://www.reddit.com/r/silenthill/comments/1wu0152/im_decompiling_and_rebuilding_pt_as_a_native_pc/"
+        }
+      ]
+    },
+    {
+      "id": "pxp2-psp-android",
+      "fields": {
+        "source_available": "Public source repository; GitHub reports no SPDX-identified license metadata."
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/nahalewski/PXP2"
+        }
+      ]
+    },
+    {
+      "id": "qemu",
+      "fields": {
+        "platform": "Host operating systems and CPU architectures vary by build. System emulation provides full guest machines; current QEMU documentation lists TCG on Linux, other POSIX systems, Windows, and macOS, with Arm and x86 host architectures. On macOS Arm, cross-architecture CPU targets rely on TCG software emulation. Linux/BSD user mode runs foreign-architecture processes through guest-to-host system-call translation."
+      },
+      "sources": [
+        {
+          "label": "QEMU system-emulation host and accelerator matrix; TCG is listed for macOS Arm and x86 hosts",
+          "url": "https://www.qemu.org/docs/master/system/introduction.html"
+        },
+        {
+          "label": "QEMU user-space emulator: foreign-architecture processes and system-call translation",
+          "url": "https://www.qemu.org/docs/master/user/main.html"
+        },
+        {
+          "label": "QEMU TCG translator internals: dynamic guest-to-host instruction translation",
+          "url": "https://www.qemu.org/docs/master/devel/tcg.html"
+        },
+        {
+          "label": "Official QEMU description and system emulation guide",
+          "url": "https://www.qemu.org/docs/master/about/index.html"
+        }
+      ]
+    },
+    {
+      "id": "raging-blast-2-xbox360-recomp",
+      "fields": {
+        "source_available": "Public BSD-3-Clause source repository. The README requires user-extracted game assets and does not document the exact source build identity."
+      },
+      "sources": [
+        {
+          "label": "GitHub repository API: canonical identity and checked repository activity",
+          "url": "https://api.github.com/repos/WistfulHopes/RB2"
+        },
+        {
+          "label": "Repository BSD-3-Clause license file",
+          "url": "https://github.com/WistfulHopes/RB2/blob/main/LICENSE"
+        },
+        {
+          "label": "Maintainer README: target, implementation, requirements, and status",
+          "url": "https://github.com/WistfulHopes/RB2/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "raine",
+      "fields": {
+        "status": "Active; the official downloads page lists v0.97.6b Arch packages dated 2026-03-23 and v0.97.5 Windows builds. Source activity includes macOS ARM64 renderer-selection and full-screen fixes dated 2026-06-24."
+      },
+      "sources": [
+        {
+          "label": "Project repository latest recorded commit (2026-06-24): macOS arm64: renderer selection + fullscreen fixes (follow-up to #80)…",
+          "url": "https://github.com/zelurker/raine/commit/cf1e6af50d45be2c653660cfda24f33259bc06c0"
+        },
+        {
+          "label": "Official latest downloads page, including dated Arch packages and Windows builds",
+          "url": "https://raine.1emulation.com/download/latest.html"
+        }
+      ]
+    },
+    {
+      "id": "resident-evil-4-dreamcast-port",
+      "fields": {
+        "status": "Experimental Dreamcast port; the latest test 13 prerelease (2026-10-15) reports a console test reaching the end of Chapter 2 part 1. Random GDEMU room-load crashes, sub-30 FPS performance, pauses when entering rooms, and visual gaps remain; no full playthrough is claimed."
+      },
+      "sources": [
+        {
+          "label": "Current Dreamcast branch README",
+          "url": "https://github.com/lamb2k/re4dc/blob/dreamcast-port/README.md"
+        },
+        {
+          "label": "Latest test 13 prerelease and status notes",
+          "url": "https://github.com/lamb2k/re4dc/releases/tag/test-05e5ff76-20261015"
+        }
+      ]
+    },
+    {
+      "id": "rogue-trader-italian",
+      "fields": {
+        "source_available": "Public MIT-licensed repository containing Italian localization files and a Python translator. No GitHub release artifact is listed; the catalogued translation-file version/date remains v1.5 (2025-10-22)."
+      },
+      "sources": [
+        {
+          "label": "GitHub repository API (pushed_at)",
+          "url": "https://api.github.com/repos/EasyPeasyViking/warhammer-40k-rogue-trader-italian"
+        },
+        {
+          "label": "Repository MIT license file",
+          "url": "https://github.com/EasyPeasyViking/warhammer-40k-rogue-trader-italian/blob/main/LICENSE"
+        },
+        {
+          "label": "Maintainer README: localization scope and installation context",
+          "url": "https://github.com/EasyPeasyViking/warhammer-40k-rogue-trader-italian/blob/main/README.md"
+        },
+        {
+          "label": "GitHub Releases page; no tagged release is listed",
+          "url": "https://github.com/EasyPeasyViking/warhammer-40k-rogue-trader-italian/releases"
+        }
+      ]
+    },
+    {
+      "id": "s1130-ibm1130",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports MIT license metadata."
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/semuhphor/S1130"
+        }
+      ]
+    },
+    {
+      "id": "saints-row-2-ps3-recomp",
+      "fields": {
+        "status": "WIP; the BLUS30201 build compiles and reaches SPU jobs, GCM/RSX initialization and packfile reads before opening a D3D12 window with three display buffers. The current blocker is a SPURS consumer-wake handshake; no gameplay render is reported."
+      },
+      "sources": [
+        {
+          "label": "Project README: exact PS3 build, boot progress and blocker",
+          "url": "https://github.com/sp00nznet/saintsrow2#readme"
+        }
+      ]
+    },
+    {
+      "id": "scott-pilgrim-ps3-recomp",
+      "fields": {
+        "status": "WIP, phase 2; README reports a native build that boots, opens a D3D12 window and reads all four game archives, but an audio SPU task stops loading before geometry or gameplay."
+      },
+      "sources": [
+        {
+          "label": "Project README: exact PSN build, status and blocker",
+          "url": "https://github.com/sp00nznet/scottpilgrim#readme"
+        }
+      ]
+    },
+    {
+      "id": "shining-force-iii-translation",
+      "fields": {
+        "status": "The maintainer’s June 2026 report confirms V25.1 remains current while V26 planning has begun. The project progress matrix marks all Scenario 1 chapters complete; Scenario 2 chapters 1–4 complete and chapters 5–6 in beta; Scenario 3 playable, and the Premium Disc playable but still in beta. Translation work remains in progress."
+      },
+      "sources": [
+        {
+          "label": "Official translation progress matrix: scenario and chapter completion status",
+          "url": "https://sf3trans.shiningforcecentral.com/progress/"
+        },
+        {
+          "label": "Primary project page or release",
+          "url": "https://sf3trans.shiningforcecentral.com/faq/"
+        },
+        {
+          "label": "Maintainer Progress Report June 2026: V25.1 current and V26 planning",
+          "url": "https://sf3trans.shiningforcecentral.com/2026/06/12/progress-report-june-2026/"
+        }
+      ]
+    },
+    {
+      "id": "shiren-4-psp-en",
+      "fields": {
+        "status": "Released; latest public English patch v1.0.1 was published 2024-01-20."
+      },
+      "sources": [
+        {
+          "label": "Maintainer GitHub release v1.0.1 (published 2024-01-20)",
+          "url": "https://github.com/SharkSnack/shiren-4/releases/tag/v1.0.1"
+        }
+      ]
+    },
+    {
+      "id": "simlac-imlac-pds1-pds4",
+      "fields": {
+        "source_available": "Public source repository; GitHub reports no SPDX-identified license metadata."
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/livingcomputermuseum/sImlac"
+        }
+      ]
+    },
+    {
+      "id": "skate3-port-android",
+      "fields": {
+        "source_available": "Public C++ source and Android APK releases; the app requires the user’s Xbox 360 Skate 3 ISO and does not bundle game content. The repository’s custom BSD-3-Clause license applies to its original src/, android/, docs/, and build scripts; vendored and inherited code retains separate terms."
+      },
+      "sources": [
+        {
+          "label": "GitHub repository API: source availability and license metadata",
+          "url": "https://api.github.com/repos/darchap/Skate3-Port"
+        },
+        {
+          "label": "Maintainer custom LICENSE: BSD-3-Clause scope and separate inherited/vendored terms",
+          "url": "https://github.com/darchap/Skate3-Port/blob/main/LICENSE"
+        },
+        {
+          "label": "Maintainer README: Android APK distribution and user-owned ISO import",
+          "url": "https://github.com/darchap/Skate3-Port/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer Android releases",
+          "url": "https://github.com/darchap/Skate3-Port/releases"
+        }
+      ]
+    },
+    {
+      "id": "sm64ds-decomp",
+      "fields": {
+        "status": "The live README’s generated counter reports 11,389/11,389 functions and 2,238,108/2,238,108 code bytes matched, including 108 exact hand-written assembly primitives. Its prose still calls matching close to finished and describes several remaining nonmatching large or floor-constrained functions, so the progress counter and narrative do not fully agree. Separate progress bars show 4,385/11,386 functions (38.5%) converted to readable C++ and 10,595/11,328 matched translation units (93.5%) linked into the Windows PC port; the port is not at the same completion level as the byte-match counter."
+      },
+      "sources": [
+        {
+          "label": "GitHub repository metadata: latest push date (checked 2026-10-16)",
+          "url": "https://api.github.com/repos/tangosdev/sm64ds-decomp"
+        },
+        {
+          "label": "Maintainer README: live progress counters and matching-status explanation",
+          "url": "https://github.com/tangosdev/sm64ds-decomp/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "ssbu-switch-recomp",
+      "fields": {
+        "status": "Early and incomplete. The October 2026 README reports boot through menus and complete 1v1 CPU matches through results; Classic, Training, and Home-Run Contest have only scripted-input testing, and Adventure reaches its intro while its map and fights are untested. Team/Squad/Tourney modes, 3–8 player play, and Stage Builder editing are untested; online play is unavailable. Automated controller tests use virtual devices only, so physical pads are unconfirmed. A clean-clone build and scripted match are verified; matching decompilation is paused, and Linux/Steam Deck have not started."
+      },
+      "sources": [
+        {
+          "label": "GitHub repository metadata: latest push date (checked 2026-10-16)",
+          "url": "https://api.github.com/repos/Denkishi/ssbu-recomp"
+        },
+        {
+          "label": "Maintainer README: October 2026 compatibility and testing matrix",
+          "url": "https://github.com/Denkishi/ssbu-recomp/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "star-fox-64-dreamcast-port",
+      "fields": {
+        "source_available": "Public CC0-1.0 source; user-supplied USA v1.1 (REV A) ROM required (SHA-1 09f0d105f476b00efa5303aebc42e60a7753b7a); no ROM or CDI is included."
+      },
+      "sources": [
+        {
+          "label": "Project README: ROM identity, target features and hardware caveats",
+          "url": "https://github.com/jnmartin84/sf64-dc#readme"
+        },
+        {
+          "label": "GitHub repository API: source availability and license metadata",
+          "url": "https://api.github.com/repos/jnmartin84/sf64-dc"
+        }
+      ]
+    },
+    {
+      "id": "stella-atari-2600",
+      "fields": {
+        "status": "Active; the latest official release listed is v7.0 (2024-10-05), while source changes continued through 2026-10-12."
+      },
+      "sources": [
+        {
+          "label": "Project repository latest recorded commit (2026-10-12): Fix minor warnings from clang-tidy.",
+          "url": "https://github.com/stella-emu/stella/commit/2c3d7023e9136f75c789803b44f119d8749dc104"
+        },
+        {
+          "label": "Official Stella 7.0 release page and date",
+          "url": "https://github.com/stella-emu/stella/releases/tag/7.0"
+        }
+      ]
+    },
+    {
+      "id": "super-mario-galaxy-android-port",
+      "fields": {
+        "status": "Experimental early release; the latest published GitHub release is v0.0.1cx (2026-10-16), with an Android APK. The release lists a unified installer and engine, touch controls, gamepad support, and Hor+ ultrawide. It requires a user-supplied Wii disc image; the project has not established full-game completion or broad device compatibility."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: Android requirements, controls, rendering, and disc requirements",
+          "url": "https://github.com/OpenPort-Labs/Galaxy-Android/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer published release v0.0.1cx (2026-10-16): Android APK and release notes",
+          "url": "https://github.com/OpenPort-Labs/Galaxy-Android/releases/tag/v0.0.1cx"
+        }
+      ]
+    },
+    {
+      "id": "syphon-filter-2-recomp",
+      "fields": {
+        "status": "Alpha v0.1.3; README reports both discs, connected campaign and disc transition played and verified. The resident executable is native while uncovered streamed overlays still use the interpreter fallback; this is not a finished PC port."
+      },
+      "sources": [
+        {
+          "label": "Project README: supported build and current validation",
+          "url": "https://github.com/alexbeavs-ps1-ports/syphon-filter-2-recomp#readme"
+        }
+      ]
+    },
+    {
+      "id": "technics-sl-p120-ez-p120",
+      "fields": {
+        "status": "The maintainer considers the project complete and usable on the documented test configuration; compatibility with other optical drives and bridges is not guaranteed."
+      },
+      "sources": [
+        {
+          "label": "Project MIT license",
+          "url": "https://gitlab.com/masteraldo/ez-p120/-/blob/main/LICENSE"
+        },
+        {
+          "label": "Maintainer README: C#/.NET 10 language, tested Raspberry Pi hardware, ARM64 target, application functions, and MIT license",
+          "url": "https://gitlab.com/masteraldo/ez-p120/-/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer hardware wiring and GPIO assignments",
+          "url": "https://gitlab.com/masteraldo/ez-p120/-/blob/main/docs/HARDWARE.md"
+        },
+        {
+          "label": "Maintainer README raw text",
+          "url": "https://gitlab.com/masteraldo/ez-p120/-/raw/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "test7800-atari-7800",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports GPL-3.0 license metadata."
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/jetsetilly/test7800"
+        }
+      ]
+    },
+    {
+      "id": "tgaa-3ds-en",
+      "fields": {
+        "subtype": "Nintendo 3DS English fan translation patch"
+      },
+      "sources": [
+        {
+          "label": "Official Scarlet Study download page linking the DGS1 3DS release repository",
+          "url": "https://scarletstudy.net/download/"
+        },
+        {
+          "label": "Official DGS1 3DS release repository, latest release 2.4.1 published 2019-12-26",
+          "url": "https://github.com/ScarletStudy/DGS1-3DS-Release/releases/tag/2.4.1"
+        }
+      ]
+    },
+    {
+      "id": "time-travelers-3ds-en",
+      "fields": {
+        "subtype": "Nintendo 3DS English fan translation patch"
+      },
+      "sources": [
+        {
+          "label": "Official Fan Translators International Time Travelers project page",
+          "url": "https://fantranslators.info/projects/time-travelers/"
+        },
+        {
+          "label": "Official Time Travelers patch release repository, latest release 1.5 published 2026-09-13",
+          "url": "https://github.com/Time-Travelers-Translation/Patch-Release/releases/tag/1.5"
+        }
+      ]
+    },
+    {
+      "id": "toaru-virtual-on-vita-en",
+      "fields": {
+        "status": "Released; author announced completion 2026-02-09. The fan patch targets single-player (multiplayer text is translated); the Dengeki Bunko screen, intro/outro AMVs, trophies, and online manual remain untranslated, and the author notes the patch is not perfect.",
+        "subtype": "PlayStation Vita English translation patch"
+      },
+      "sources": [
+        {
+          "label": "Toaru Majutsu no Virtual-On patch author release post",
+          "url": "https://gbatemp.net/threads/toaru-majutsu-no-virtual-on-english-translation-xdelta-patches.679584/"
+        }
+      ]
+    },
+    {
+      "id": "tokeru-fuuka-shirousagi-zh-cn",
+      "fields": {
+        "status": "Released; v1.3.0 updated 2026-09-14."
+      },
+      "sources": [
+        {
+          "label": "Tokeru Fuuka to Shirousagi official project page",
+          "url": "https://kazeshiro.ica.wiki/"
+        }
+      ]
+    },
+    {
+      "id": "tomodachi-collection-nds-en",
+      "fields": {
+        "status": "Full English patch v1.0 is available; the latest README says it runs on all DS-family systems. Some text and graphics remain Japanese by design."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README and compatibility update, 2026-06-10",
+          "url": "https://github.com/CarlosA49/tomodachi-collection-english"
+        },
+        {
+          "label": "Project repository latest recorded commit (2026-06-10): docs: add Compatibility section (runs on all DS-family systems)",
+          "url": "https://github.com/CarlosA49/tomodachi-collection-english/commit/10f564e2755ed7afd0cecc3accdff25b23b993cd"
+        }
+      ]
+    },
+    {
+      "id": "trizeal-dc-en",
+      "fields": {
+        "subtype": "Dreamcast English translation patch"
+      },
+      "sources": [
+        {
+          "label": "Primary project page or release",
+          "url": "https://github.com/DerekPascarella/Trizeal-EnglishPatchDreamcast"
+        }
+      ]
+    },
+    {
+      "id": "twisted-metal-2012-ps3-recomp",
+      "fields": {
+        "status": "WIP; README reports reaching a Suburbs match with the front end, vehicle select and six opponents. The in-match HUD renders, but the 3D world/post-effects do not; audio initializes and input is not started."
+      },
+      "sources": [
+        {
+          "label": "Project README: disc identity and current in-match status",
+          "url": "https://github.com/sp00nznet/twistedmetal#readme"
+        }
+      ]
+    },
+    {
+      "id": "umineko-portable-psp-en",
+      "fields": {
+        "subtype": "PlayStation Portable English translation patch"
+      },
+      "sources": [
+        {
+          "label": "Primary project page or release",
+          "url": "https://github.com/kotcrab/umineko-portable-english"
+        }
+      ]
+    },
+    {
+      "id": "virtua-cop-2-dc-en",
+      "fields": {
+        "subtype": "Dreamcast English translation patch"
+      },
+      "sources": [
+        {
+          "label": "Primary project page or release",
+          "url": "https://github.com/DerekPascarella/VirtuaCop2-EnglishPatchDreamcast"
+        }
+      ]
+    },
+    {
+      "id": "virtualxt-pcxt",
+      "fields": {
+        "source_available": "Public Codeberg source repository; repository API returned no license metadata."
+      },
+      "sources": [
+        {
+          "label": "Official Codeberg repository API (public visibility and license metadata)",
+          "url": "https://codeberg.org/api/v1/repos/virtualxt/virtualxt"
+        }
+      ]
+    },
+    {
+      "id": "vkd3d-upstream",
+      "fields": {
+        "source_available": "Public WineHQ GitLab source under LGPL-2.1-or-later; individual files may carry separate notices."
+      },
+      "sources": [
+        {
+          "label": "WineHQ GitLab project API: public source project identity/visibility; checked 2026-10-16",
+          "url": "https://gitlab.winehq.org/api/v4/projects/wine%2Fvkd3d"
+        },
+        {
+          "label": "Wine upstream vkd3d repository",
+          "url": "https://gitlab.winehq.org/wine/vkd3d"
+        },
+        {
+          "label": "vkd3d project license terms (COPYING); checked 2026-10-16",
+          "url": "https://gitlab.winehq.org/wine/vkd3d/-/raw/master/COPYING"
+        }
+      ]
+    },
+    {
+      "id": "voland-switch-browser",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports GPL-2.0 license metadata."
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/voland-emu/Voland"
+        }
+      ]
+    },
+    {
+      "id": "wabbitemu-ti-calculator",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports MIT license metadata."
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/sputt/wabbitemu"
+        }
+      ]
+    },
+    {
+      "id": "win32emu-win16-win32",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports MIT license metadata."
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/archanox/Win32Emu"
+        }
+      ]
+    },
+    {
+      "id": "wine",
+      "fields": {
+        "source_available": "Public WineHQ GitLab source under LGPL-2.1-or-later; individual files may carry separate notices."
+      },
+      "sources": [
+        {
+          "label": "WineHQ GitLab project API: public source project identity/visibility; checked 2026-10-16",
+          "url": "https://gitlab.winehq.org/api/v4/projects/wine%2Fwine"
+        },
+        {
+          "label": "Upstream source repository",
+          "url": "https://gitlab.winehq.org/wine/wine"
+        },
+        {
+          "label": "Wine upstream license terms (LICENSE); checked 2026-10-16",
+          "url": "https://gitlab.winehq.org/wine/wine/-/raw/master/LICENSE"
+        }
+      ]
+    },
+    {
+      "id": "winerosetta-wow-instruction-shim",
+      "fields": {
+        "source_available": "Public source repository; no top-level license file or GitHub-recognized repository license was present in the reviewed current repository listing, so usage terms remain unclear. Its README links a v1.0.2 binary from the former Lifeisawful namespace, but that URL returned 404 when checked on 2026-10-16; current binary availability is unverified."
+      },
+      "sources": [
+        {
+          "label": "GitHub REST repository API: public repository with no detected license (checked 2026-10-16)",
+          "url": "https://api.github.com/repos/Gcenx/winerosetta"
+        },
+        {
+          "label": "Current GitHub root listing: no top-level license file (checked 2026-10-16)",
+          "url": "https://api.github.com/repos/Gcenx/winerosetta/contents"
+        },
+        {
+          "label": "Former-owner v1.0.2 release endpoint linked from current README; returns 404 (checked 2026-10-16)",
+          "url": "https://api.github.com/repos/Lifeisawful/winerosetta/releases/tags/v1.0.2"
+        },
+        {
+          "label": "Current repository README: project scope and linked binary endpoint",
+          "url": "https://github.com/Gcenx/winerosetta/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "x48-hp48-calculator",
+      "fields": {
+        "source_available": "Public source repository; GitHub's repository API reports GPL-2.0 license metadata."
+      },
+      "sources": [
+        {
+          "label": "Official GitHub repository API (public visibility and license metadata)",
+          "url": "https://api.github.com/repos/czodroid/x48"
+        }
+      ]
+    },
+    {
+      "id": "xqemu-original-xbox",
+      "fields": {
+        "status": "Early-stage original Xbox emulator research; no GitHub releases are listed. The repository has one branch, master, whose tip is dated 2020-09-11. GitHub repository metadata reports pushed_at 2023-02-08, which is later than the branch-tip commit and does not establish newer default-branch code activity. The maintainer README documents Windows, macOS, and Ubuntu build workflows."
+      },
+      "sources": [
+        {
+          "label": "GitHub repository API (pushed_at)",
+          "url": "https://api.github.com/repos/xqemu/xqemu"
+        },
+        {
+          "label": "GitHub API: latest commit on the only branch, master (2020-09-11)",
+          "url": "https://api.github.com/repos/xqemu/xqemu/commits/master"
+        },
+        {
+          "label": "Maintainer README: original Xbox scope and Windows/macOS/Ubuntu build workflows",
+          "url": "https://github.com/xqemu/xqemu/blob/master/README.md"
+        },
+        {
+          "label": "GitHub Releases page; no release is listed",
+          "url": "https://github.com/xqemu/xqemu/releases"
+        }
+      ]
+    },
+    {
+      "id": "ydkj-ps3-recomp",
+      "fields": {
+        "source_available": "Public source and recompilation harness, including generated lifted source; requires the user's own decrypted USA PlayStation 3 disc binary (BLUS30569 EBOOT.elf). The repository excludes the original game binary, assets, and audio."
+      },
+      "sources": [
+        {
+          "label": "Project README: exact PS3 build and current rendered status",
+          "url": "https://github.com/sp00nznet/youdontknowjack#readme"
+        }
+      ]
+    },
+    {
+      "id": "yo-kai-watch-blasters-2-it",
+      "fields": {
+        "source_available": "Public GitHub v1.1.0build1 patch archive with romfs files for Magnum and Spada. The README documents Luma3DS and Citra installation and asks users to use a dump from their own cartridge.",
+        "status": "Latest listed Italian patch is v1.1.0build1 for Yo-kai Watch Blasters 2: Magnum/Spada, released 2021-11-18. The maintainer README documents Luma3DS installation on the Nintendo 3DS family and Citra installation; its download links still point to older v1.0.0. No later GitHub release is listed."
+      },
+      "sources": [
+        {
+          "label": "GitHub API: latest published release metadata",
+          "url": "https://api.github.com/repos/GamePatchingTeam/YWB2-Release/releases?per_page=1"
+        },
+        {
+          "label": "Maintainer README: supported editions, Luma3DS/Citra installation, and own-cartridge notice",
+          "url": "https://github.com/GamePatchingTeam/YWB2-Release/blob/master/README.md"
+        },
+        {
+          "label": "Latest published patch release v1.1.0build1 (2021-11-18) and RAR asset",
+          "url": "https://github.com/GamePatchingTeam/YWB2-Release/releases/tag/1.1.0"
+        }
+      ]
+    }
+  ]
+}
