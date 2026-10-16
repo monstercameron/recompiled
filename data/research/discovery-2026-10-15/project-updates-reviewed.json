@@ -2539,6 +2539,36 @@
         }
       ],
       "evidence_note": "The project is a general-purpose API/graphics/runtime implementation supporting multiple applications or games, rather than a reconstruction of one named game; its catalog target type is Software."
+    },
+    {
+      "id": "flow-ps3-recomp",
+      "fields": {
+        "status": "Active work in progress. The maintainer reports 102,056 functions lifted to C++, all 140 imported functions resolved, a continuous frame loop and a D3D12-rendered Level 3 scene; the title-state machine remains stuck before full gameplay, seven of twelve HLE bridges are real, and roughly 10,000 TODOs remain. Windows x64 is the current target; Linux is planned.",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: current status, phase progress, rendering and gameplay boundary",
+          "url": "https://github.com/sp00nznet/flow"
+        }
+      ]
+    },
+    {
+      "id": "fable-the-lost-chapters-pc-decomp",
+      "fields": {
+        "status": "Active research; the latest maintainer update is dated 2026-10-10. The published whole-project figures remain a September 7 snapshot (18,579 / 49,568 functions functionally or byte matched; 8,082 byte-identical). Recent local tests render a retail title sprite through recovered routines, but the authored frontend checkpoint does not establish that the reconstructed native engine boots or that the game is playable.",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: snapshot dates, current activity, and explicit runnable-state caveat",
+          "url": "https://github.com/BuffJesus/FableDecomp"
+        },
+        {
+          "label": "Maintainer native-status update",
+          "url": "https://github.com/BuffJesus/FableDecomp/blob/main/docs/NATIVE_STATUS.md"
+        }
+      ]
     }
   ]
 }

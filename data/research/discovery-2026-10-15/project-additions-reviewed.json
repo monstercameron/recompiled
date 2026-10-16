@@ -11069,6 +11069,1409 @@
           "url": "https://api.github.com/repos/halo-re/halo"
         }
       ]
+    },
+    {
+      "id": "buggy-boy-atari-st-decomp",
+      "title": "Buggy Boy Atari ST Decompilation",
+      "game": "Buggy Boy (Atari ST)",
+      "target_type": "Game",
+      "platform": "Atari ST/STE Motorola 68000 → reconstructed C and ST/STE program",
+      "kind": "Decompilation",
+      "status": "The README reports an end-to-end reconstruction: 91/91 functions verified, 81 test modules, and a playable ST/STE program with sound. Its optional remaster is reported pixel-identical to the verified reconstruction.",
+      "summary": "Reconstructs shipped Atari ST 68000 code as readable C, verifies it against the original binary, and compiles it back for Atari ST/STE.",
+      "project_url": "https://github.com/geogeo28/atari_reverse",
+      "updated": "2026-10-15",
+      "strategy": "Byte-matching 68000 source reconstruction in C",
+      "language": "",
+      "source_available": "Public source/tooling repository; the README says game executables, disk images, game data, and TOS ROM are not included; users bring their own copies.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "Python",
+      "subtype": "Atari ST executable reconstruction",
+      "sources": [
+        {
+          "label": "Maintainer README and project evidence",
+          "url": "https://github.com/geogeo28/atari_reverse"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/geogeo28/atari_reverse/languages"
+        }
+      ]
+    },
+    {
+      "id": "joust-atari-st-decomp",
+      "title": "Joust Atari ST Decompilation",
+      "game": "Joust (Atari ST)",
+      "target_type": "Game",
+      "platform": "Atari ST/STE Motorola 68000 → reconstructed C and ST/STE program",
+      "kind": "Decompilation",
+      "status": "The README reports all 75 functions verified, 4,368 differential tests, and a playable packed ST program tested under Hatari. It does not claim a separate remaster.",
+      "summary": "Reconstructs shipped Atari ST 68000 code as readable C, verifies it against the original binary, and compiles it back for Atari ST/STE.",
+      "project_url": "https://github.com/geogeo28/atari_reverse",
+      "updated": "2026-10-15",
+      "strategy": "Byte-matching 68000 source reconstruction in C",
+      "language": "",
+      "source_available": "Public source/tooling repository; the README says game executables, disk images, game data, and TOS ROM are not included; users bring their own copies.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "Python",
+      "subtype": "Atari ST executable reconstruction",
+      "sources": [
+        {
+          "label": "Maintainer README and project evidence",
+          "url": "https://github.com/geogeo28/atari_reverse"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/geogeo28/atari_reverse/languages"
+        }
+      ]
+    },
+    {
+      "id": "wonder-boy-monsterland-atari-st-decomp",
+      "title": "Wonder Boy in Monsterland Atari ST Decompilation",
+      "game": "Wonder Boy in Monsterland (Atari ST)",
+      "target_type": "Game",
+      "platform": "Atari ST/STE Motorola 68000 → reconstructed C and ST/STE program",
+      "kind": "Decompilation",
+      "status": "The README reports 330 verified functions and 6,465 differential tests; the reconstructed program boots on a real Atari STE from floppy. It does not publish a total-function completion percentage.",
+      "summary": "Reconstructs shipped Atari ST 68000 code as readable C, verifies it against the original binary, and compiles it back for Atari ST/STE.",
+      "project_url": "https://github.com/geogeo28/atari_reverse",
+      "updated": "2026-10-15",
+      "strategy": "Byte-matching 68000 source reconstruction in C",
+      "language": "",
+      "source_available": "Public source/tooling repository; the README says game executables, disk images, game data, and TOS ROM are not included; users bring their own copies.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "Python",
+      "subtype": "Atari ST executable reconstruction",
+      "sources": [
+        {
+          "label": "Maintainer README and project evidence",
+          "url": "https://github.com/geogeo28/atari_reverse"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/geogeo28/atari_reverse/languages"
+        }
+      ]
+    },
+    {
+      "id": "zynaps-atari-st-decomp",
+      "title": "Zynaps Atari ST Decompilation",
+      "game": "Zynaps (Atari ST)",
+      "target_type": "Game",
+      "platform": "Atari ST/STE Motorola 68000 → reconstructed C and ST/STE program",
+      "kind": "Decompilation",
+      "status": "The README reports 217 verified ranges and 4,751 tests; the rebuilt program plays at 19.8 fps against the original 17.2 fps, with sampled frames matching byte-for-byte. It reports real STE testing.",
+      "summary": "Reconstructs shipped Atari ST 68000 code as readable C, verifies it against the original binary, and compiles it back for Atari ST/STE.",
+      "project_url": "https://github.com/geogeo28/atari_reverse",
+      "updated": "2026-10-15",
+      "strategy": "Byte-matching 68000 source reconstruction in C",
+      "language": "",
+      "source_available": "Public source/tooling repository; the README says game executables, disk images, game data, and TOS ROM are not included; users bring their own copies.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "Python",
+      "subtype": "Atari ST executable reconstruction",
+      "sources": [
+        {
+          "label": "Maintainer README and project evidence",
+          "url": "https://github.com/geogeo28/atari_reverse"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/geogeo28/atari_reverse/languages"
+        }
+      ]
+    },
+    {
+      "id": "bubble-ghost-atari-st-decomp",
+      "title": "Bubble Ghost Atari ST Decompilation",
+      "game": "Bubble Ghost (Atari ST)",
+      "target_type": "Game",
+      "platform": "Atari ST/STE Motorola 68000 → reconstructed C and ST/STE program",
+      "kind": "Decompilation",
+      "status": "The README reports 132 of 134 functions named and byte-verified, 1,909 tests, and a matching menu; a person play-tested it from a floppy image. Remaining work includes hardware-specific behavior and a second called program, GHOST.LOA.",
+      "summary": "Reconstructs shipped Atari ST 68000 code as readable C, verifies it against the original binary, and compiles it back for Atari ST/STE.",
+      "project_url": "https://github.com/geogeo28/atari_reverse",
+      "updated": "2026-10-15",
+      "strategy": "Byte-matching 68000 source reconstruction in C",
+      "language": "",
+      "source_available": "Public source/tooling repository; the README says game executables, disk images, game data, and TOS ROM are not included; users bring their own copies.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "Python",
+      "subtype": "Atari ST executable reconstruction",
+      "sources": [
+        {
+          "label": "Maintainer README and project evidence",
+          "url": "https://github.com/geogeo28/atari_reverse"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/geogeo28/atari_reverse/languages"
+        }
+      ]
+    },
+    {
+      "id": "flying-shark-atari-st-decomp",
+      "title": "Flying Shark Atari ST Decompilation",
+      "game": "Flying Shark (Atari ST)",
+      "target_type": "Game",
+      "platform": "Atari ST/STE Motorola 68000 → reconstructed C and ST/STE program",
+      "kind": "Decompilation",
+      "status": "The README reports 254 functions named, ten verified subsystems, and 277 verified rows across 3,553 differential tests. A reconstructed program and bootable floppy match sampled attract frames; real joystick/hardware testing remains open.",
+      "summary": "Reconstructs shipped Atari ST 68000 code as readable C, verifies it against the original binary, and compiles it back for Atari ST/STE.",
+      "project_url": "https://github.com/geogeo28/atari_reverse",
+      "updated": "2026-10-15",
+      "strategy": "Byte-matching 68000 source reconstruction in C",
+      "language": "",
+      "source_available": "Public source/tooling repository; the README says game executables, disk images, game data, and TOS ROM are not included; users bring their own copies.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "Python",
+      "subtype": "Atari ST executable reconstruction",
+      "sources": [
+        {
+          "label": "Maintainer README and project evidence",
+          "url": "https://github.com/geogeo28/atari_reverse"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/geogeo28/atari_reverse/languages"
+        }
+      ]
+    },
+    {
+      "id": "farming-simulator-15-engine-reconstruction",
+      "title": "Farming Simulator 15 Engine Reconstruction",
+      "game": "Farming Simulator 15 (Windows version 1.4.2.0)",
+      "target_type": "Game",
+      "platform": "Windows x86 game and GIANTS Engine 6 → experimental native host/runtime",
+      "kind": "Reimplementation",
+      "status": "Early component reconstruction. The maintainer reports the original GIANTS Engine 6 path reaches the menu and Bjornholm with 104 recovered-source helper comparisons passing; the experimental reconstructed-engine path and full farming simulation remain incomplete.",
+      "summary": "Reverse engineering and component reconstruction for a locally installed game build; this is not a complete game rebuild.",
+      "project_url": "https://github.com/nat649/fs15-reconstruction",
+      "updated": "2026-10-15",
+      "strategy": "Native component and engine reconstruction with recovered scripts and routines",
+      "language": "",
+      "source_available": "Public source/tooling repository; original game files, recovered game sources, raw decompiler exports, and asset packages are kept local; the user needs version 1.4.2.0.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Windows PC game-engine reconstruction",
+      "sources": [
+        {
+          "label": "Maintainer README and project evidence",
+          "url": "https://github.com/nat649/fs15-reconstruction"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/nat649/fs15-reconstruction/languages"
+        }
+      ]
+    },
+    {
+      "id": "george-of-the-jungle-ps2-decomp",
+      "title": "George of the Jungle PS2 Decompilation",
+      "game": "George of the Jungle and the Search for the Secret (PS2 USA SLUS_216.68)",
+      "target_type": "Game",
+      "platform": "PlayStation 2 USA → byte-matching C/C++ reconstruction",
+      "kind": "Decompilation",
+      "status": "Early research, not a complete source build or PC port. The full main CPU .text reassembles byte-for-byte; the README reports 24,396 / 3,083,712 game-code bytes matched as C/C++ (0.791124%) across reviewed sources.",
+      "summary": "A matching decompilation project for the USA PS2 release, with the original assembly baseline and selected reviewed C/C++ functions.",
+      "project_url": "https://github.com/2gifts/george-decomp",
+      "updated": "2026-10-15",
+      "strategy": "Matching decompilation with original assembly baseline and verified C/C++ functions",
+      "language": "",
+      "source_available": "Public source repository; own USA game copy required; no game assets are included.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "PS2 game matching decompilation",
+      "sources": [
+        {
+          "label": "Maintainer README and project evidence",
+          "url": "https://github.com/2gifts/george-decomp"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/2gifts/george-decomp/languages"
+        },
+        {
+          "label": "Generated project progress report",
+          "url": "https://github.com/2gifts/george-decomp/blob/main/reports/progress.json"
+        }
+      ]
+    },
+    {
+      "id": "yu-gi-oh-forbidden-memories-ps1-decomp",
+      "title": "Yu-Gi-Oh! Forbidden Memories PS1 Decompilation and PC Port",
+      "game": "Yu-Gi-Oh! Forbidden Memories (PS1 USA SLUS_014.11)",
+      "target_type": "Game",
+      "platform": "PlayStation USA executable → byte-matching C; Windows/Linux/macOS ARM64 source builds",
+      "kind": "Decompilation",
+      "status": "The maintainer reports a byte-identical rebuild and no remaining C-decompilation targets: all 1,134 targeted C functions match, with 61 evidence-backed game assembly functions and 591 preserved Psy-Q CRT/SDK functions. README explicitly says this is hand-written matching decompilation then a PC port, not static recompilation.",
+      "summary": "Hand-reconstructed C for the USA PlayStation release, with a PC port and a build that checks the loaded executable image byte-for-byte.",
+      "project_url": "https://github.com/Unchiga/Yu-Gi-Oh-Forbidden-Memories-Recompiled",
+      "updated": "2026-10-15",
+      "strategy": "Hand-written matching decompilation followed by a native PC port",
+      "language": "",
+      "source_available": "Public source; original game data is not included and the user supplies their own disc image.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "PS1 matching decompilation and native port",
+      "sources": [
+        {
+          "label": "Maintainer README and project evidence",
+          "url": "https://github.com/Unchiga/Yu-Gi-Oh-Forbidden-Memories-Recompiled"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/Unchiga/Yu-Gi-Oh-Forbidden-Memories-Recompiled/languages"
+        }
+      ]
+    },
+    {
+      "id": "vagrant-story-native-pc-port",
+      "title": "Vagrant Story Native PC Port",
+      "game": "Vagrant Story (PlayStation)",
+      "target_type": "Game",
+      "platform": "PlayStation game → native PC runtime using upstream matching-decompilation source",
+      "kind": "Reimplementation",
+      "status": "Playable but unfinished: it boots the intro and game, but an unimplemented path stops; the ending and rare paths are incomplete. The native host runtime provides PS1 hardware services and requires the user’s own disc.",
+      "summary": "A native PC port built on the Vagrant Story decompilation. It compiles recovered game C for x86-64 and provides PS1 GPU/GTE/SPU/CD/pad services.",
+      "project_url": "https://github.com/noprompt/rood-boi",
+      "updated": "2026-10-15",
+      "strategy": "Native source port from a matching decompilation with PS1 hardware-service implementations",
+      "language": "",
+      "source_available": "Public source repository; user supplies original game data; no game data is shipped.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "PlayStation native PC port",
+      "sources": [
+        {
+          "label": "Maintainer README and project evidence",
+          "url": "https://github.com/noprompt/rood-boi"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/noprompt/rood-boi/languages"
+        }
+      ]
+    },
+    {
+      "id": "medabots-rokusho-gba-decomp",
+      "title": "Medabots: Rokusho GBA Decompilation",
+      "game": "Medabots: Rokusho (Game Boy Advance USA)",
+      "target_type": "Game",
+      "platform": "Game Boy Advance USA → matching-decompilation workspace",
+      "kind": "Decompilation",
+      "status": "Work in progress. The README says all functions are disassembled while C source replaces assembly placeholders incrementally. The ROM is used at build time and is not provided.",
+      "summary": "A matching-decompilation project for the USA GBA release. Source and extracted data are built from a user-provided ROM.",
+      "project_url": "https://github.com/rommerhacks/metabots-rokusho",
+      "updated": "2026-10-15",
+      "strategy": "Matching decompilation with source reconstruction and byte-comparison tooling",
+      "language": "",
+      "source_available": "Public source repository; original ROM is not included and must be supplied by the user.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "Assembly",
+      "subtype": "GBA matching decompilation",
+      "sources": [
+        {
+          "label": "Maintainer README and project evidence",
+          "url": "https://github.com/rommerhacks/metabots-rokusho"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/rommerhacks/metabots-rokusho/languages"
+        }
+      ]
+    },
+    {
+      "id": "ar-tonelico-ii-ps2-decomp",
+      "title": "Ar tonelico II PS2 Decompilation",
+      "game": "Ar tonelico II: Melody of Metafalica (PS2 Japan SLPS_258.19)",
+      "target_type": "Game",
+      "platform": "PlayStation 2 Japan → matching C decompilation",
+      "kind": "Decompilation",
+      "status": "Work in progress. The README reports 3,400 / 10,923 functions (31.13%) and 178,176 / 2,276,780 code bytes (7.83%) matched as of 2026-10-15.",
+      "summary": "A matching decompilation project for the Japanese PS2 release, with C source checked against retail function bytes.",
+      "project_url": "https://github.com/USED255/artonelico2-decomp",
+      "updated": "2026-10-15",
+      "strategy": "Matching C decompilation",
+      "language": "",
+      "source_available": "Public GPL-3.0 source repository; user supplies the original game; no game code, assets, or ROM are included.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "PS2 matching decompilation",
+      "sources": [
+        {
+          "label": "Maintainer README and project evidence",
+          "url": "https://github.com/USED255/artonelico2-decomp"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/USED255/artonelico2-decomp/languages"
+        }
+      ]
+    },
+    {
+      "id": "turok-rage-wars-n64-decomp",
+      "title": "Turok: Rage Wars N64 Decompilation",
+      "game": "Turok: Rage Wars (Nintendo 64; multiple regions/revisions)",
+      "target_type": "Game",
+      "platform": "Nintendo 64, five identified regional/revision targets → matching source build",
+      "kind": "Decompilation",
+      "status": "Work in progress. The README reports five version targets; for the first US release, 2,196 / 3,363 functions (65.29%) and 559,912 / 1,064,056 code bytes (52.62%) are covered. The reported all-code figure is 58.83%; users supply their own ROM.",
+      "summary": "A multi-version matching-decompilation project for Turok: Rage Wars, with per-build progress.",
+      "project_url": "https://github.com/AbuN64/ragewars-decomp",
+      "updated": "2026-10-15",
+      "strategy": "Multi-version matching decompilation",
+      "language": "",
+      "source_available": "Public CC0 source repository; the game ROM is not included and must be supplied.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "N64 matching decompilation",
+      "sources": [
+        {
+          "label": "Maintainer README and project evidence",
+          "url": "https://github.com/AbuN64/ragewars-decomp"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/AbuN64/ragewars-decomp/languages"
+        }
+      ]
+    },
+    {
+      "id": "medal-of-honor-frontline-gamecube-decomp",
+      "title": "Medal of Honor: Frontline GameCube Decompilation",
+      "game": "Medal of Honor: Frontline (GameCube USA GMFE69 rev. 0)",
+      "target_type": "Game",
+      "platform": "GameCube USA → early matching-decompilation workspace",
+      "kind": "Decompilation",
+      "status": "Early work in progress. The README identifies the USA build and reports a byte-identical derived DOL baseline plus 81 verified SDK units; only part of the game code is reconstructed in C. This is not a playable port.",
+      "summary": "A matching-decompilation workspace for the USA GameCube release; the user supplies an original disc.",
+      "project_url": "https://github.com/kyleckroeger/moh-frontline-decomp",
+      "updated": "2026-10-15",
+      "strategy": "Matching decompilation with a verified executable baseline",
+      "language": "",
+      "source_available": "Public source repository; no game data is included and the user supplies their own copy.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "GameCube matching decompilation",
+      "sources": [
+        {
+          "label": "Maintainer README and project evidence",
+          "url": "https://github.com/kyleckroeger/moh-frontline-decomp"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/kyleckroeger/moh-frontline-decomp/languages"
+        }
+      ]
+    },
+    {
+      "id": "final-fantasy-tactics-ps1-decomp",
+      "title": "Final Fantasy Tactics PS1 Decompilation",
+      "game": "Final Fantasy Tactics (PlayStation USA SCUS-94221)",
+      "target_type": "Game",
+      "platform": "PlayStation USA → byte-identical C reconstruction",
+      "kind": "Decompilation",
+      "status": "The maintainer reports 100% byte-identical C for all game functions and a full disc image that rebuilds identically. Sony PsyQ SDK/library functions and hand-written game assembly remain assembly by design.",
+      "summary": "A matching decompilation of the North American PlayStation release, with reproducible byte-by-byte checks and no game files or proprietary Sony tools in the repository.",
+      "project_url": "https://github.com/adamrt/fft_decomp",
+      "updated": "2026-10-15",
+      "strategy": "Matching C decompilation and byte-identical disc rebuild",
+      "language": "",
+      "source_available": "Public source repository; no game data or proprietary Sony tools are included.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "PS1 matching decompilation",
+      "sources": [
+        {
+          "label": "Maintainer README and project evidence",
+          "url": "https://github.com/adamrt/fft_decomp"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/adamrt/fft_decomp/languages"
+        }
+      ]
+    },
+    {
+      "id": "tetris-grand-master-2-plus-arcade-decomp",
+      "title": "Tetris: The Absolute – The Grand Master 2 Plus Decompilation",
+      "game": "Tetris: The Absolute – The Grand Master 2 Plus (Psikyo PS5V2 arcade)",
+      "target_type": "Game",
+      "platform": "Psikyo PS5V2 arcade SH-2 program → matching C source",
+      "kind": "Decompilation",
+      "status": "Work in progress. The README reports 121,792 / 200,698 bytes (60.68%) in its current coverage metric and 133 passing tests; it says literal 100% matching is unfinished.",
+      "summary": "A matching-decompilation project for the PS5V2 arcade release, with C source and tests.",
+      "project_url": "https://github.com/masonc15/tgm2p-decomp",
+      "updated": "2026-10-15",
+      "strategy": "Matching SH-2 decompilation",
+      "language": "",
+      "source_available": "Public source repository; no arcade ROM is included.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Arcade matching decompilation",
+      "sources": [
+        {
+          "label": "Maintainer README and project evidence",
+          "url": "https://github.com/masonc15/tgm2p-decomp"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/masonc15/tgm2p-decomp/languages"
+        }
+      ]
+    },
+    {
+      "id": "battletanx-n64-decomp",
+      "title": "BattleTanx N64 Decompilation",
+      "game": "BattleTanx (Nintendo 64 USA NUS-NBXE-0)",
+      "target_type": "Game",
+      "platform": "Nintendo 64 USA → matching source reconstruction",
+      "kind": "Decompilation",
+      "status": "Work in progress. The README reports 18.51% overall byte coverage, with game code at 112,488 / 705,956 bytes (15.93%) and 539 / 1,717 functions. The user supplies the ROM.",
+      "summary": "A matching-decompilation project for the USA Nintendo 64 release, with version-specific code and data progress.",
+      "project_url": "https://github.com/AbuN64/battletanx-decomp",
+      "updated": "2026-10-15",
+      "strategy": "Matching decompilation",
+      "language": "",
+      "source_available": "Public CC0 source repository; no ROM or game data is included.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "N64 matching decompilation",
+      "sources": [
+        {
+          "label": "Maintainer README and project evidence",
+          "url": "https://github.com/AbuN64/battletanx-decomp"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/AbuN64/battletanx-decomp/languages"
+        }
+      ]
+    },
+    {
+      "id": "animal-crossing-wild-world-korea-decomp",
+      "title": "Animal Crossing: Wild World Korea Decompilation",
+      "game": "Animal Crossing: Wild World (Nintendo DS Korea ADMK)",
+      "target_type": "Game",
+      "platform": "Nintendo DS Korea → byte-matching C/C++ game code",
+      "kind": "Decompilation",
+      "status": "Work in progress. The README says all 25,247 game functions have C/C++ source matching their original bytes; whole-program linking and source regrouping remain open. Library/runtime functions are excluded from that game count.",
+      "summary": "A matching decompilation of the Korean Nintendo DS release, with verified game functions and no game assets included.",
+      "project_url": "https://github.com/banatic/acww-decomp",
+      "updated": "2026-10-15",
+      "strategy": "Matching C/C++ decompilation; game-code count excludes libraries",
+      "language": "",
+      "source_available": "Public source repository; user supplies the original game; no game assets are included.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Nintendo DS matching decompilation",
+      "sources": [
+        {
+          "label": "Maintainer README and project evidence",
+          "url": "https://github.com/banatic/acww-decomp"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/banatic/acww-decomp/languages"
+        }
+      ]
+    },
+    {
+      "id": "halo-ce-vision-pro-port",
+      "title": "Halo: Combat Evolved Vision Pro Port",
+      "game": "Halo: Combat Evolved (Xbox original)",
+      "target_type": "Game",
+      "platform": "Original Xbox game → Apple Vision Pro / visionOS (Metal)",
+      "kind": "Reimplementation",
+      "status": "The maintainer describes a native Metal port with 2D and stereo-VR modes. It requires an original Xbox XISO; the README does not establish a public release or full-game completion.",
+      "summary": "A decompilation-based native port of Halo: Combat Evolved for Apple Vision Pro, with user-supplied Xbox game data and a Metal rendering path.",
+      "project_url": "https://github.com/steverice/visr",
+      "updated": "2026-10-15",
+      "strategy": "Native Metal port based on decompilation and original Xbox game data",
+      "language": "",
+      "source_available": "Public source repository; requires the user’s own original Xbox XISO; game files are not included.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Xbox-to-visionOS native port",
+      "sources": [
+        {
+          "label": "Maintainer README and project evidence",
+          "url": "https://github.com/steverice/visr"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/steverice/visr/languages"
+        }
+      ]
+    },
+    {
+      "id": "luigis-mansion-gamecube-decomp",
+      "title": "Luigi’s Mansion GameCube Decompilation",
+      "game": "Luigi’s Mansion (GameCube; USA, Japan, and PAL revisions)",
+      "target_type": "Game",
+      "platform": "GameCube → matching C reconstruction",
+      "kind": "Decompilation",
+      "status": "Work in progress. The current repository supports USA, Japan, and two PAL revisions; it says game assets and assembly are not included and a copy is required.",
+      "summary": "A multi-region matching-decompilation project for Luigi’s Mansion. Older repository Moddimation/Yasiki labels itself outdated and points to this current project.",
+      "project_url": "https://github.com/SomeJakeGuy/lm-decomp",
+      "updated": "2026-10-15",
+      "strategy": "Multi-region matching decompilation",
+      "language": "",
+      "source_available": "Public source repository; no game assets are included and the user supplies a supported game copy.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "GameCube matching decompilation",
+      "sources": [
+        {
+          "label": "Maintainer README and project evidence",
+          "url": "https://github.com/SomeJakeGuy/lm-decomp"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/SomeJakeGuy/lm-decomp/languages"
+        }
+      ]
+    },
+    {
+      "id": "eternal-darkness-gamecube-decomp",
+      "title": "Eternal Darkness GameCube Decompilation",
+      "game": "Eternal Darkness: Sanity’s Requiem (GameCube USA GEDE01 rev. 0)",
+      "target_type": "Game",
+      "platform": "GameCube USA → matching source reconstruction; isolated PC boot experiment",
+      "kind": "Decompilation",
+      "status": "Work in progress. The README reports 6,285 / 8,214 functions matched (76.52%) and 55.01% code-byte coverage. A PC title-screen experiment through DolRecomp/RecompCore is isolated on another branch and is not a playable-port claim for the main decompilation.",
+      "summary": "A matching decompilation and source-driven modding foundation for the USA GameCube release.",
+      "project_url": "https://github.com/psdwizzard/Eternal-Darkness---Decompile",
+      "updated": "2026-10-15",
+      "strategy": "Matching decompilation with a separate experimental recompilation boot path",
+      "language": "",
+      "source_available": "Public source repository; user must supply a matching disc image; no game image, assets, or proprietary toolchain are included.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "GameCube matching decompilation",
+      "sources": [
+        {
+          "label": "Maintainer README and project evidence",
+          "url": "https://github.com/psdwizzard/Eternal-Darkness---Decompile"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/psdwizzard/Eternal-Darkness---Decompile/languages"
+        }
+      ]
+    },
+    {
+      "id": "digimon-world-ds-decomp",
+      "title": "Digimon World DS Decompilation",
+      "game": "Digimon World DS (Nintendo DS USA ADNE)",
+      "target_type": "Game",
+      "platform": "Nintendo DS USA → matching C reconstruction",
+      "kind": "Decompilation",
+      "status": "Work in progress. On 2026-10-09, 2,386 / 3,665 game functions were in C (65.1%) and 244,568 / 1,065,540 code bytes matched (23.0%); game and library counts are separate.",
+      "summary": "A matching decompilation of the USA Nintendo DS release, with local game data required to build and check source.",
+      "project_url": "https://github.com/ReGame-Labs/dwds_decomp",
+      "updated": "2026-10-15",
+      "strategy": "Matching C decompilation with objdiff byte checks",
+      "language": "",
+      "source_available": "Public source repository; no game assets are included; user supplies the original game.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Nintendo DS matching decompilation",
+      "sources": [
+        {
+          "label": "Maintainer README and project evidence",
+          "url": "https://github.com/ReGame-Labs/dwds_decomp"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/ReGame-Labs/dwds_decomp/languages"
+        }
+      ]
+    },
+    {
+      "id": "yu-gi-oh-eternal-duelist-soul-gba-decomp",
+      "title": "Yu-Gi-Oh! The Eternal Duelist Soul GBA Decompilation",
+      "game": "Yu-Gi-Oh! The Eternal Duelist Soul (Game Boy Advance USA AY5E)",
+      "target_type": "Game",
+      "platform": "Game Boy Advance USA → byte-matching source build",
+      "kind": "Decompilation",
+      "status": "Complete by the maintainer’s October 2026 status: all 1,976 game functions match; 1,970 are written in C and the rest in assembly. The repository requires the identified ROM and does not include it.",
+      "summary": "A matching decompilation of the USA GBA release with a reproducible byte-exact build; the Japanese release is a separate target.",
+      "project_url": "https://github.com/CosmicScribe64/eds-decomp",
+      "updated": "2026-10-15",
+      "strategy": "Matching C/assembly decompilation",
+      "language": "",
+      "source_available": "Public source repository; original USA ROM is required and not included.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "Assembly",
+      "subtype": "GBA matching decompilation",
+      "sources": [
+        {
+          "label": "Maintainer README and project evidence",
+          "url": "https://github.com/CosmicScribe64/eds-decomp"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/CosmicScribe64/eds-decomp/languages"
+        }
+      ]
+    },
+    {
+      "id": "resident-evil-deadly-silence-nds-decomp",
+      "title": "Resident Evil: Deadly Silence DS Decompilation",
+      "game": "Resident Evil: Deadly Silence (Nintendo DS USA ABHE)",
+      "target_type": "Game",
+      "platform": "Nintendo DS USA → matching C source",
+      "kind": "Decompilation",
+      "status": "Work in progress. The README’s 2026-10-15 report says 10.88% of code is matched (2,064 / 5,825 functions); data matching remains at 0%.",
+      "summary": "A matching-decompilation project for the USA Nintendo DS game code, with generated progress and byte checks.",
+      "project_url": "https://github.com/liolu/resident-evil-deadly-silence-decomp",
+      "updated": "2026-10-15",
+      "strategy": "Matching C decompilation with generated progress reports",
+      "language": "",
+      "source_available": "Public source repository; no game ROM or assets are included.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Nintendo DS matching decompilation",
+      "sources": [
+        {
+          "label": "Maintainer README and project evidence",
+          "url": "https://github.com/liolu/resident-evil-deadly-silence-decomp"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/liolu/resident-evil-deadly-silence-decomp/languages"
+        }
+      ]
+    },
+    {
+      "id": "blue-dragon-awakened-shadow-nds-decomp",
+      "title": "Blue Dragon: Awakened Shadow DS Decompilation",
+      "game": "Blue Dragon: Awakened Shadow (Nintendo DS USA YBUD)",
+      "target_type": "Game",
+      "platform": "Nintendo DS USA → matching C source",
+      "kind": "Decompilation",
+      "status": "Work in progress. The README’s 2026-10-15 report says 10.32% of code is matched (3,605 / 11,801 functions); data matching remains at 0%.",
+      "summary": "A matching-decompilation project for the USA Nintendo DS release, with per-function byte checks and no game assets included.",
+      "project_url": "https://github.com/liolu/blue-dragon-awakened-shadow-decomp",
+      "updated": "2026-10-15",
+      "strategy": "Matching C decompilation with generated progress reports",
+      "language": "",
+      "source_available": "Public source repository; user supplies the original ROM; no game assets are included.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Nintendo DS matching decompilation",
+      "sources": [
+        {
+          "label": "Maintainer README and project evidence",
+          "url": "https://github.com/liolu/blue-dragon-awakened-shadow-decomp"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/liolu/blue-dragon-awakened-shadow-decomp/languages"
+        }
+      ]
+    },
+    {
+      "id": "eyeshield-21-nds-decomp",
+      "title": "Eyeshield 21 DS Decompilation",
+      "game": "Eyeshield 21 (Nintendo DS Japan AE4J)",
+      "target_type": "Game",
+      "platform": "Nintendo DS Japan → matching C source",
+      "kind": "Decompilation",
+      "status": "Work in progress. The README’s 2026-10-15 report says 2.17% of code is matched (1,150 / 21,941 functions); data matching remains at 0%.",
+      "summary": "A matching-decompilation project for the Japanese Nintendo DS release, with generated progress reports and byte-check criteria.",
+      "project_url": "https://github.com/liolu/eyeshield-21-decomp",
+      "updated": "2026-10-15",
+      "strategy": "Matching C decompilation with generated progress reports",
+      "language": "",
+      "source_available": "Public source repository; no game ROM or assets are included.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Nintendo DS matching decompilation",
+      "sources": [
+        {
+          "label": "Maintainer README and project evidence",
+          "url": "https://github.com/liolu/eyeshield-21-decomp"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/liolu/eyeshield-21-decomp/languages"
+        }
+      ]
+    },
+    {
+      "id": "fairy-tail-kardia-nds-decomp",
+      "title": "Fairy Tail: Kardia NDS Decompilation",
+      "game": "Fairy Tail: Kardia (Nintendo DS Japan TFTJ)",
+      "target_type": "Game",
+      "platform": "Nintendo DS Japan → matching C source",
+      "kind": "Decompilation",
+      "status": "Work in progress. The README’s 2026-10-15 report says 1.51% of code is matched (1,254 / 12,900 functions); data matching remains at 0%.",
+      "summary": "A matching-decompilation project for the Japanese Nintendo DS release, with generated per-function matching evidence.",
+      "project_url": "https://github.com/liolu/fairy-tail-kardia-decomp",
+      "updated": "2026-10-15",
+      "strategy": "Matching C decompilation with generated progress reports",
+      "language": "",
+      "source_available": "Public source repository; no game ROM or assets are included.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Nintendo DS matching decompilation",
+      "sources": [
+        {
+          "label": "Maintainer README and project evidence",
+          "url": "https://github.com/liolu/fairy-tail-kardia-decomp"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/liolu/fairy-tail-kardia-decomp/languages"
+        }
+      ]
+    },
+    {
+      "id": "kingdom-hearts-recoded-nds-decomp",
+      "title": "Kingdom Hearts Re:coded NDS Decompilation",
+      "game": "Kingdom Hearts Re:coded (Nintendo DS USA BK9E and Europe BK9P)",
+      "target_type": "Game",
+      "platform": "Nintendo DS USA and Europe → shared matching C source",
+      "kind": "Decompilation",
+      "status": "The README updated 2026-10-11 reports 9,960 / 10,359 USA functions (81.7% code bytes) and 10,064 / 10,423 Europe functions (88.6%). It says 108 EU modules link and check; ARM7 is not analyzed.",
+      "summary": "A multi-region matching decompilation of the USA and European DS releases. Shared functions are stored once; region-specific work remains in the EU tree.",
+      "project_url": "https://github.com/kh-recoded-decomp/kh-recoded-decomp",
+      "updated": "2026-10-15",
+      "strategy": "Multi-region matching C decompilation; byte-exact module linking",
+      "language": "",
+      "source_available": "Public MIT/CC0 source repository; user supplies the original ROM; no game content is included.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Nintendo DS matching decompilation",
+      "sources": [
+        {
+          "label": "Maintainer README and project evidence",
+          "url": "https://github.com/kh-recoded-decomp/kh-recoded-decomp"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/kh-recoded-decomp/kh-recoded-decomp/languages"
+        }
+      ]
+    },
+    {
+      "id": "stretch-panic-ps2-decomp",
+      "title": "Stretch Panic PS2 Decompilation",
+      "game": "Stretch Panic (PlayStation 2 USA SLUS_201.82)",
+      "target_type": "Game",
+      "platform": "PlayStation 2 USA → matching source reconstruction",
+      "kind": "Decompilation",
+      "status": "Work in progress. The README reports 231 / 1,355 game functions matched (2.58% of code instructions); the platform boundary is the current milestone.",
+      "summary": "A matching-decompilation project for the USA PS2 release, with version-aware progress and per-function verification.",
+      "project_url": "https://github.com/Harskov/stretch-panic-usa",
+      "updated": "2026-10-15",
+      "strategy": "Matching decompilation with per-function byte checks",
+      "language": "",
+      "source_available": "Public source repository; user supplies the matching original executable from their own game copy.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "PS2 matching decompilation",
+      "sources": [
+        {
+          "label": "Maintainer README and project evidence",
+          "url": "https://github.com/Harskov/stretch-panic-usa"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/Harskov/stretch-panic-usa/languages"
+        }
+      ]
+    },
+    {
+      "id": "diddy-kong-racing-n64-decomp",
+      "title": "Diddy Kong Racing N64 Decompilation",
+      "game": "Diddy Kong Racing (Nintendo 64; US 1.0 default, all versions supported)",
+      "target_type": "Game",
+      "platform": "Nintendo 64 → matching source reconstruction",
+      "kind": "Decompilation",
+      "status": "The maintainer’s 2026-10-01 README reports 100% decompilation progress for US 1.0 and 69.02% documentation; all versions are supported. An original ROM is needed to extract assets.",
+      "summary": "A matching N64 decompilation with a documented version set and an explicit US 1.0 default, distinct from the catalogued native port/recompilation projects.",
+      "project_url": "https://github.com/DavidSM64/Diddy-Kong-Racing",
+      "updated": "2026-10-15",
+      "strategy": "Matching N64 decompilation",
+      "language": "",
+      "source_available": "Public source repository; the user supplies an original ROM to extract assets; no game assets are included.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "N64 matching decompilation",
+      "sources": [
+        {
+          "label": "Maintainer README and project evidence",
+          "url": "https://github.com/DavidSM64/Diddy-Kong-Racing"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/DavidSM64/Diddy-Kong-Racing/languages"
+        }
+      ]
+    },
+    {
+      "id": "shadow-the-hedgehog-gamecube-decomp",
+      "title": "Shadow the Hedgehog GameCube Decompilation",
+      "game": "Shadow the Hedgehog (GameCube USA GUPE8P; Japan GUPJ8P; Europe/Australia GUPP8P)",
+      "target_type": "Game",
+      "platform": "GameCube → matching source reconstruction",
+      "kind": "Decompilation",
+      "status": "Work in progress. The README lists USA, Japan, and Europe/Australia revisions and progress tracking; it says no game assets or assembly are included.",
+      "summary": "A multi-region matching-decompilation project for the GameCube game, distinct from the existing PS2 recompilation record.",
+      "project_url": "https://github.com/dev-camo/shadow-decomp",
+      "updated": "2026-10-15",
+      "strategy": "Multi-region matching decompilation",
+      "language": "",
+      "source_available": "Public source repository; an existing copy of a supported game version is required.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "GameCube matching decompilation",
+      "sources": [
+        {
+          "label": "Maintainer README and project evidence",
+          "url": "https://github.com/dev-camo/shadow-decomp"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/dev-camo/shadow-decomp/languages"
+        }
+      ]
+    },
+    {
+      "id": "fate-unlimited-codes-ps2-japan-decomp",
+      "title": "Fate/unlimited codes PS2 Japan Decompilation",
+      "game": "Fate/unlimited codes (PlayStation 2 Japan SLPM_551.08)",
+      "target_type": "Game",
+      "platform": "PlayStation 2 Japan → matching C source",
+      "kind": "Decompilation",
+      "status": "Work in progress. The README reports 537 / 5,831 game functions matched (0.65%); the target is Japan SLPM_551.08. Much of the source was AI-drafted, but accepted functions are rebuilt byte-for-byte by the pinned toolchain.",
+      "summary": "A matching decompilation of the Japanese PS2 release, separate from the European PSP static-recompilation target.",
+      "project_url": "https://github.com/Harskov/fate-unlimited-codes-jp",
+      "updated": "2026-10-15",
+      "strategy": "Matching C decompilation with pinned-toolchain byte checks",
+      "language": "",
+      "source_available": "Public CC0 source repository; no game assets or executable are included and the user supplies their own copy.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "PS2 Japan matching decompilation",
+      "sources": [
+        {
+          "label": "Maintainer README and project evidence",
+          "url": "https://github.com/Harskov/fate-unlimited-codes-jp"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/Harskov/fate-unlimited-codes-jp/languages"
+        },
+        {
+          "label": "Generated byte-match progress",
+          "url": "https://bytematch.dev/Harskov/fate-unlimited-codes-jp"
+        }
+      ]
+    },
+    {
+      "id": "yu-gi-oh-duelists-of-the-roses-ps2-decomp",
+      "title": "Yu-Gi-Oh! The Duelists of the Roses PS2 Decompilation",
+      "game": "Yu-Gi-Oh! The Duelists of the Roses (PlayStation 2 NTSC-U SLUS_205.15)",
+      "target_type": "Game",
+      "platform": "PlayStation 2 USA → matching C source for main executable and modules",
+      "kind": "Decompilation",
+      "status": "The maintainer’s 2026-10-15 report says 3,430 / 3,463 main-executable functions and 6,191 / 8,620 module functions are in C. The build compares the executable and all 762 modules byte-for-byte.",
+      "summary": "A matching decompilation for the USA PS2 release, covering the main executable and code modules; game data is supplied locally by the user.",
+      "project_url": "https://github.com/kira-502/dotr-decomp",
+      "updated": "2026-10-15",
+      "strategy": "Matching C decompilation with byte-exact executable/module checks",
+      "language": "",
+      "source_available": "Public source repository; original game data is not included.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "PS2 matching decompilation",
+      "sources": [
+        {
+          "label": "Maintainer README and project evidence",
+          "url": "https://github.com/kira-502/dotr-decomp"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/kira-502/dotr-decomp/languages"
+        },
+        {
+          "label": "Maintainer progress report",
+          "url": "https://github.com/kira-502/dotr-decomp#readme"
+        }
+      ]
+    },
+    {
+      "id": "touhou-embodiment-scarlet-devil-pc-decomp",
+      "title": "Touhou 6: The Embodiment of Scarlet Devil Decompilation",
+      "game": "Touhou Koumakyou: The Embodiment of Scarlet Devil (Windows PC version 1.02h)",
+      "target_type": "Game",
+      "platform": "Windows PC → matching source reconstruction; portable branch is separate",
+      "kind": "Decompilation",
+      "status": "The README identifies the exact 1.02h executable by SHA-256 and describes a perfect source reconstruction goal without a completion claim. It links a separate portable branch for a functioning cross-platform port.",
+      "summary": "A source-reconstruction project for Touhou 6, with an explicitly identified target executable and separately maintained portable branch.",
+      "project_url": "https://github.com/GensokyoClub/th06",
+      "updated": "2026-10-15",
+      "strategy": "Matching Windows source reconstruction; separate portable branch",
+      "language": "",
+      "source_available": "Public source repository; user supplies the original 1.02h executable; no game assets are included.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Windows PC decompilation",
+      "sources": [
+        {
+          "label": "Maintainer README and project evidence",
+          "url": "https://github.com/GensokyoClub/th06"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/GensokyoClub/th06/languages"
+        }
+      ]
+    },
+    {
+      "id": "the-sims-bustin-out-gba-decomp",
+      "title": "The Sims: Bustin’ Out GBA Decompilation",
+      "game": "The Sims: Bustin’ Out (Game Boy Advance USA/Europe multilingual release)",
+      "target_type": "Game",
+      "platform": "Game Boy Advance USA/Europe → matching source reconstruction",
+      "kind": "Decompilation",
+      "status": "Work in progress and explicitly described as an AI-driven experiment. The README says the build matches the supplied ROM but most code regions remain copied from the dump; function boundaries are provisional and do not establish a complete game-code denominator.",
+      "summary": "A matching-decompilation experiment for the multilingual USA/Europe GBA release. The repository includes ROM-free checks and requires the user’s ROM to build.",
+      "project_url": "https://github.com/DaBrown95/tsbodp",
+      "updated": "2026-10-15",
+      "strategy": "AI-assisted matching C decompilation; ROM build checked byte-for-byte",
+      "language": "",
+      "source_available": "Public source repository; required ROM is not included.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "GBA matching decompilation",
+      "sources": [
+        {
+          "label": "Maintainer README and project evidence",
+          "url": "https://github.com/DaBrown95/tsbodp"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/DaBrown95/tsbodp/languages"
+        }
+      ]
+    },
+    {
+      "id": "breath-of-fire-iii-ps1-decomp",
+      "title": "Breath of Fire III PS1 Decompilation",
+      "game": "Breath of Fire III (PlayStation USA)",
+      "target_type": "Game",
+      "platform": "PlayStation USA → C89 source reconstruction with byte matching",
+      "kind": "Decompilation",
+      "status": "Work in progress. The project reconstructs the main executable and runtime-loaded modules using GCC 2.7.2-PSX and compares compiled functions with original bytes; README identifies the USA disc as a user-supplied prerequisite.",
+      "summary": "A matching decompilation of the USA PlayStation release, with per-image function identity for modules that reuse addresses.",
+      "project_url": "https://github.com/loopyd/bof3-decompilation",
+      "updated": "2026-10-15",
+      "strategy": "C89 matching decompilation using original-era PlayStation compiler",
+      "language": "",
+      "source_available": "Public source repository; user supplies a licensed USA disc image.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C, Python, Rust",
+      "subtype": "PS1 matching decompilation",
+      "sources": [
+        {
+          "label": "Maintainer README and project evidence",
+          "url": "https://github.com/loopyd/bof3-decompilation"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/loopyd/bof3-decompilation/languages"
+        }
+      ]
+    },
+    {
+      "id": "utopia-creation-of-a-nation-snes-static-recomp",
+      "title": "Utopia: The Creation of a Nation SNES Static Recompilation",
+      "game": "Utopia: The Creation of a Nation (SNES USA 8 Mbit LoROM)",
+      "target_type": "Game",
+      "platform": "SNES 65C816 → static-dispatch native core for Windows/Linux",
+      "kind": "Recompilation",
+      "status": "Experimental and not yet playable. The README’s 2026-10-13 status reports a working static-dispatch generator and 300-frame headless test; S-DSP, PPU rendering, and SDL frontend remain in progress.",
+      "summary": "A game-specific static-recompilation core for the USA SNES release, with a user-supplied ROM requirement and headless-only maturity boundary.",
+      "project_url": "https://github.com/linuxkafe/Utopia-SNES-Static-Recomp",
+      "updated": "2026-10-15",
+      "strategy": "Static 65C816 recompilation with generated native dispatch",
+      "language": "",
+      "source_available": "Public source repository; original ROM is not included and must match the documented requirements.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "SNES static recompilation",
+      "sources": [
+        {
+          "label": "Maintainer README and project evidence",
+          "url": "https://github.com/linuxkafe/Utopia-SNES-Static-Recomp"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/linuxkafe/Utopia-SNES-Static-Recomp/languages"
+        }
+      ]
+    },
+    {
+      "id": "mighty-final-fight-nes-recomp",
+      "title": "Mighty Final Fight NES Recompilation",
+      "game": "Mighty Final Fight (NES USA)",
+      "target_type": "Game",
+      "platform": "NES 6502 → Windows x64 native executable",
+      "kind": "Recompilation",
+      "status": "The README describes instruction-level static translation to C and a cycle-stepped NES model. Its headless coverage bot runs through the ending/credits path; the ROM is not distributed.",
+      "summary": "A static recompilation for the USA NES release, using NESRecomp-generated C and a cycle-accurate NES hardware model.",
+      "project_url": "https://github.com/Rhayron/MightyFinalFightRecomp",
+      "updated": "2026-10-15",
+      "strategy": "Static 6502-to-C recompilation with cycle-accurate NES devices",
+      "language": "",
+      "source_available": "Public source repository; original ROM is not included.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "Python",
+      "subtype": "NES static recompilation",
+      "sources": [
+        {
+          "label": "Maintainer README and project evidence",
+          "url": "https://github.com/Rhayron/MightyFinalFightRecomp"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/Rhayron/MightyFinalFightRecomp/languages"
+        }
+      ]
+    },
+    {
+      "id": "ultima-v-warriors-of-destiny-dos-decomp",
+      "title": "Ultima V: Warriors of Destiny DOS Decompilation",
+      "game": "Ultima V: Warriors of Destiny (MS-DOS v1.16)",
+      "target_type": "Game",
+      "platform": "MS-DOS x86 → Windows/DOS source builds and original-data runtime",
+      "kind": "Decompilation",
+      "status": "The README reports approximately 95% matching for `ULTIMA.EXE` and overlays but says byte-perfect linking is impossible because the original linker is unknown; it uses semantic matching. The game can be played through the ending with original data, with known bugs.",
+      "summary": "An ongoing source reconstruction of MS-DOS v1.16 with Windows and DOS builds and explicit limits on byte-identity claims.",
+      "project_url": "https://github.com/wonst719/u5d",
+      "updated": "2026-10-15",
+      "strategy": "Semantic source reconstruction and assembly-level matching",
+      "language": "",
+      "source_available": "Public source repository; original game data is supplied by the user.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "DOS game source reconstruction",
+      "sources": [
+        {
+          "label": "Maintainer README and project evidence",
+          "url": "https://github.com/wonst719/u5d"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/wonst719/u5d/languages"
+        }
+      ]
+    },
+    {
+      "id": "shandalar-magic-the-gathering-native-recomp",
+      "title": "Magic: The Gathering (Shandalar) Native Recompilation",
+      "game": "Magic: The Gathering (1997 Windows CD, Shandalar version 1.0)",
+      "target_type": "Game",
+      "platform": "Windows x86 code → C and SDL2 native runtime on Windows/macOS/Linux/Steam Deck",
+      "kind": "Recompilation",
+      "status": "The repository provides native packages for Windows, Linux, macOS, and Steam Deck. The maintainer says machine code is translated into C and run against a small Windows-call reimplementation; generated game C is created locally from the user’s CD and is not shipped.",
+      "summary": "Pentamoor statically translates Shandalar’s x86 code to C and supplies a native runtime for the Windows calls it uses.",
+      "project_url": "https://github.com/MadranFoyle/pentamoor",
+      "updated": "2026-10-15",
+      "strategy": "Static x86-to-C translation with native Windows-call compatibility layer",
+      "language": "",
+      "source_available": "Public source and releases; no game files or generated game code are included; user supplies retail CD.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "PC static recompilation and native port",
+      "sources": [
+        {
+          "label": "Maintainer README and project evidence",
+          "url": "https://github.com/MadranFoyle/pentamoor"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/MadranFoyle/pentamoor/languages"
+        },
+        {
+          "label": "Release packages",
+          "url": "https://github.com/MadranFoyle/pentamoor/releases"
+        }
+      ]
+    },
+    {
+      "id": "road-rash-1996-windows-native-reimplementation",
+      "title": "Road Rash (1996 Windows) Native Port",
+      "game": "Road Rash (1996 Windows rerelease)",
+      "target_type": "Game",
+      "platform": "Windows PC game → native C++/SDL3 on macOS ARM64 and Android ARM64",
+      "kind": "Reimplementation",
+      "status": "The project has a playable race against seven AI riders and a research viewer. Its current evidence matrix describes partial simulation parity and remaining original systems; 99/99 CTests are reported for Oct. 15, but full tick-by-tick parity remains open.",
+      "summary": "A native C++ port of the Windows rerelease. It uses decompiler output as research input and reconstructs gameplay instead of running Windows or emulating x86.",
+      "project_url": "https://github.com/arkits/road-rash",
+      "updated": "2026-10-15",
+      "strategy": "Native source reconstruction with SDL3; no Wine or x86 emulation",
+      "language": "",
+      "source_available": "Public source repository; commercial assets remain outside source and APK; user imports their own game data.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Windows PC game native port",
+      "sources": [
+        {
+          "label": "Maintainer README and project evidence",
+          "url": "https://github.com/arkits/road-rash"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/arkits/road-rash/languages"
+        },
+        {
+          "label": "Current status and acceptance gaps",
+          "url": "https://github.com/arkits/road-rash/blob/main/docs/CURRENT_STATUS.md"
+        },
+        {
+          "label": "Version/progress notes",
+          "url": "https://github.com/arkits/road-rash/blob/main/docs/PROGRESS.md"
+        }
+      ]
+    },
+    {
+      "id": "saints-row-xbox360-decomp-gitlab",
+      "title": "Saints Row Xbox 360 Decompilation",
+      "game": "Saints Row (Xbox 360 retail World build, English/French/German/Spanish/Italian)",
+      "target_type": "Game",
+      "platform": "Xbox 360 PowerPC executable → C++ source reconstruction",
+      "kind": "Decompilation",
+      "status": "Work in progress. The README describes readable C++ and per-function comparison. It notes ABI limits: exact instruction equality is currently reachable only for frame-free leaf functions, so structural similarity and call-target equality are also tracked.",
+      "summary": "A source reconstruction of the Xbox 360 release, distinct from the catalogued static recompilation project for Linux; matching limitations are stated.",
+      "project_url": "https://gitlab.com/HttpAnimations/saints-row-1-decomp",
+      "updated": "2026-10-15",
+      "strategy": "C++ source reconstruction with per-function similarity, structure, and call-target evidence",
+      "language": "",
+      "source_available": "Public source repository; no game build or assets are shipped; user supplies a legally obtained copy.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Xbox 360 matching decompilation",
+      "sources": [
+        {
+          "label": "Maintainer README and project evidence",
+          "url": "https://gitlab.com/HttpAnimations/saints-row-1-decomp"
+        },
+        {
+          "label": "GitLab language breakdown",
+          "url": "https://gitlab.com/api/v4/projects/87543727/languages"
+        }
+      ]
+    },
+    {
+      "id": "dragon-ball-gt-final-bout-ps1-recomp",
+      "title": "Dragon Ball GT: Final Bout PS1 Recompilation",
+      "game": "Dragon Ball GT: Final Bout (PlayStation USA SLUS-00493)",
+      "target_type": "Game",
+      "platform": "PlayStation MIPS → Windows x64 native executable",
+      "kind": "Recompilation",
+      "status": "Release v0.1.1 is available. The README describes a software-renderer baseline with experimental Vulkan; widescreen stretches the image, and compiled LAN/direct-IP paths remain manually untested.",
+      "summary": "A static recompilation of the USA PlayStation release to a native Windows x64 build with user-supplied disc data.",
+      "project_url": "https://github.com/Novapowers0/DB-Final-Bout-Recomp",
+      "updated": "2026-10-15",
+      "strategy": "Static MIPS recompilation to x86-64",
+      "language": "",
+      "source_available": "Public source and release repository; game code and data are not included; user supplies the original disc.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "Python",
+      "subtype": "PS1 static recompilation",
+      "sources": [
+        {
+          "label": "Maintainer README and project evidence",
+          "url": "https://github.com/Novapowers0/DB-Final-Bout-Recomp"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/Novapowers0/DB-Final-Bout-Recomp/languages"
+        },
+        {
+          "label": "Latest release",
+          "url": "https://github.com/Novapowers0/DB-Final-Bout-Recomp/releases/latest"
+        }
+      ]
+    },
+    {
+      "id": "rival-schools-evolution-disc-ps1-recomp",
+      "title": "Rival Schools: Evolution Disc PS1 Recompilation",
+      "game": "Rival Schools: United by Fate – Evolution Disc (PlayStation USA SLUS-00771)",
+      "target_type": "Game",
+      "platform": "PlayStation MIPS → native Windows/Linux setup package",
+      "kind": "Recompilation",
+      "status": "Static recompilation using psxrecomp/recomp-ui. Setup requires the user’s own USA Evolution Disc image and SCPH-1001 BIOS; releases are linked from the README. No full-playthrough claim is made.",
+      "summary": "A static-recompilation setup kit for the USA Evolution Disc, distinct from the base Rival Schools disc. First-run setup generates and compiles game code locally.",
+      "project_url": "https://github.com/Alexbeav/rival-schools-evolution-recomp",
+      "updated": "2026-10-15",
+      "strategy": "Static MIPS recompilation with user-owned disc and BIOS setup",
+      "language": "",
+      "source_available": "Public source/release repository; game data, retail BIOS, generated game code, and saves are not distributed.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "Python",
+      "subtype": "PS1 static recompilation",
+      "sources": [
+        {
+          "label": "Maintainer README and project evidence",
+          "url": "https://github.com/Alexbeav/rival-schools-evolution-recomp"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/Alexbeav/rival-schools-evolution-recomp/languages"
+        },
+        {
+          "label": "Project releases",
+          "url": "https://github.com/Alexbeav/rival-schools-evolution-recomp/releases"
+        }
+      ]
+    },
+    {
+      "id": "prince-of-persia-sands-of-time-xbox-recomp",
+      "title": "Prince of Persia: The Sands of Time Xbox Recompilation",
+      "game": "Prince of Persia: The Sands of Time (original Xbox demo and retail)",
+      "target_type": "Game",
+      "platform": "Xbox executable (XBE) → native Windows static recompilation",
+      "kind": "Recompilation",
+      "status": "As of 2026-10-15, the maintainer reports the E3 demo playable through a scripted third-level sequence at 55–60 fps and a retail build reaching the opening scene after intro/menu/profile setup; retail gameplay has not yet been reached.",
+      "summary": "A static recompilation of the original Xbox demo and retail builds to native Windows, with separate status for the demo and retail executable. The repository contains no game files.",
+      "project_url": "https://github.com/FulGerNet/rePOP",
+      "updated": "2026-10-15",
+      "strategy": "Static PowerPC-to-C recompilation with Xbox runtime",
+      "language": "",
+      "source_available": "Public source repository; user supplies their own disc files; game code and assets are not included.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Xbox static recompilation",
+      "sources": [
+        {
+          "label": "Maintainer README and project evidence",
+          "url": "https://github.com/FulGerNet/rePOP"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/FulGerNet/rePOP/languages"
+        }
+      ]
+    },
+    {
+      "id": "army-of-two-the-40th-day-xbox360-recomp",
+      "title": "Army of Two: The 40th Day Xbox 360 Recompilation",
+      "game": "Army of Two: The 40th Day (Xbox 360, Title ID 454108D8)",
+      "target_type": "Game",
+      "platform": "Xbox 360 PowerPC → native Windows x64",
+      "kind": "Recompilation",
+      "status": "Proof of concept. The maintainer reports the opening movies, menus, Shanghai chapter, and an 11-minute Highrise fight running with sound/video; the campaign cannot yet be completed and missing recompiled functions may crash.",
+      "summary": "A Windows x64 static recompilation based on ReXGlue, with generated code built from the user’s own Xbox 360 `default.xex`.",
+      "project_url": "https://gitlab.com/crabina.crabic/ArmyOfTwo40thDayRecomp",
+      "updated": "2026-10-15",
+      "strategy": "Static PowerPC recompilation through ReXGlue",
+      "language": "",
+      "source_available": "Public source repository; user supplies and extracts an original legally obtained Xbox 360 disc; no game files are included.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Xbox 360 static recompilation",
+      "sources": [
+        {
+          "label": "Maintainer README and project evidence",
+          "url": "https://gitlab.com/crabina.crabic/ArmyOfTwo40thDayRecomp"
+        },
+        {
+          "label": "GitLab language breakdown",
+          "url": "https://gitlab.com/api/v4/projects/87633024/languages"
+        },
+        {
+          "label": "Maintainer README: current proof-of-concept state and required user files",
+          "url": "https://gitlab.com/crabina.crabic/ArmyOfTwo40thDayRecomp/-/blob/main/README.md"
+        },
+        {
+          "label": "GitLab language breakdown",
+          "url": "https://gitlab.com/api/v4/projects/87633024/languages"
+        }
+      ]
+    },
+    {
+      "id": "final-fantasy-tactics-ps1-native-lab",
+      "title": "Final Fantasy Tactics PS1 Native Port Lab",
+      "game": "Final Fantasy Tactics (PlayStation USA SCUS-94221)",
+      "target_type": "Game",
+      "platform": "Matching PlayStation C source → native Windows build and OpenGL renderer",
+      "kind": "Reimplementation",
+      "status": "Work in progress. The README reports the game running through the first battle, world map, and menus; deterministic runs matched the original machine code at each frame, and GPU output was compared across about 54,000 frames. The ending and further fidelity work remain open.",
+      "summary": "A native PC runtime based on the existing FFT matching decompilation, with PlayStation GPU/SPU/CD services and differential tests against user-supplied original machine code.",
+      "project_url": "https://github.com/GhostWriter42/fft-native-lab",
+      "updated": "2026-10-15",
+      "strategy": "Native platform-layer port from a matching decompilation with machine-code differential oracle",
+      "language": "",
+      "source_available": "Public source repository; no game data is included and the user supplies their own disc.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "PS1 native port/reimplementation",
+      "sources": [
+        {
+          "label": "Maintainer README and project evidence",
+          "url": "https://github.com/GhostWriter42/fft-native-lab"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/GhostWriter42/fft-native-lab/languages"
+        }
+      ]
     }
   ]
 }
