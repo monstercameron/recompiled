@@ -1,0 +1,87 @@
+{
+  "reviewed_at": "2026-10-16",
+  "catalog_revision": "c3cdb32",
+  "catalog_projects": 3462,
+  "database": "/Users/earlcameron/Desktop/recompiled/data/catalog.sqlite (read-only screening)",
+  "scope": "Apple Silicon/macOS-specific game recompilation, runtime graphics translation, and native ports. Audited repository URL, game title/edition, source platform, output platform, and method. Work manifests under earlier research folders were scanned for exact accepted repository URLs; raw search results were treated as discovery leads, not reviewed project rows.",
+  "accepted_project_ids": [
+    "fallout-new-vegas-macos-arm64-static-recomp",
+    "casualties-unknown-apple-silicon-native-port",
+    "twilight-princess-hd-wiiu-macos-arm64-static-recomp"
+  ],
+  "exact_catalog_repository_matches": {},
+  "accepted_candidate_catalog_target_review": {
+    "thetheoryofR/Fallout-NV-MacOS": {
+      "exact_repository_match": false,
+      "game_key": "Fallout: New Vegas",
+      "game_key_exists": true,
+      "existing_wikipedia_url": "https://en.wikipedia.org/wiki/Fallout:_New_Vegas",
+      "existing_fact_fields": [
+        "developer",
+        "genre",
+        "original_platform",
+        "publisher",
+        "regional_release_date",
+        "series"
+      ],
+      "related_catalog_project_ids": [
+        "dx9mt-d3d9-to-metal-fallout-new-vegas",
+        "fallout-new-vegas-nv-rs",
+        "nvforever-fallout-new-vegas-engine-reimplementation",
+        "fallout-new-vegas-xbox360-windows-renevada-recomp"
+      ],
+      "decision": "New project row: the catalog has other Fallout: New Vegas engine/API or console-port projects, but no Fallout PC x86 full-executable static recompilation to native Apple Silicon. Existing game facts and direct article are preserved; no duplicate game profile/link is staged."
+    },
+    "Andreansx/casualties-unknown-apple-silicon": {
+      "exact_repository_match": false,
+      "game_key": "Casualties: Unknown",
+      "game_key_exists": false,
+      "decision": "New project and game-profile rows; no same-title project or game key was found in the SQLite catalog or earlier research manifests."
+    },
+    "AsadSi/twilight-princess-hd-recomp": {
+      "exact_repository_match": false,
+      "game_key": "The Legend of Zelda: Twilight Princess HD",
+      "game_key_exists": false,
+      "related_catalog_game_key": "The Legend of Zelda: Twilight Princess",
+      "related_catalog_project_ids": [
+        "twilight-princess-decomp",
+        "twilight-princess-dusk-mobile",
+        "twilight-princess-ps4-port",
+        "twilight-princess-ps5-port",
+        "twilight-princess-switch-port",
+        "twilight-princess-visionos-vr-port"
+      ],
+      "decision": "New project and game-profile rows: the existing projects target the original Twilight Princess or its other ports; this repository targets the distinct Wii U HD edition USA Rev 2 and native Apple Silicon Metal."
+    }
+  },
+  "prior_research_hits": {
+    "thetheoryofR/Fallout-NV-MacOS": [
+      "work/research-2026-10-16/continuation-round11/github-recomp/search-1.json (raw discovery result only; not a project addition)"
+    ],
+    "AsadSi/twilight-princess-hd-recomp": [
+      "work/research-2026-10-16/goal-refresh/github-broad/q1-results.json (raw discovery result only; not a project addition)"
+    ],
+    "Andreansx/casualties-unknown-apple-silicon": []
+  },
+  "game_fact_and_wikipedia_handling": {
+    "Fallout: New Vegas": "Already has six sourced facts and direct English Wikipedia URL in SQLite; omitted duplicate profile/link entries.",
+    "Casualties: Unknown": "New facts use the official Steam page and maintainer game/platform notes; the full-game date is stored explicitly as planned for 2026-11-09, not released. Dedicated English Wikipedia article is linked.",
+    "The Legend of Zelda: Twilight Princess HD": "New facts use the English Twilight Princess article’s HD-specific section and Nintendo’s product page. The article is a direct link for the exact edition subsection, not a separate English article."
+  },
+  "release_and_source_checks": "GitHub API metadata, Languages API exact byte maps, and release listings were saved per accepted repository. All three accepted repositories had an empty releases list on 2026-10-16; Twilight Princess HD README explicitly says no builds are published. Casualties Steam appdetails and both Steam product/demo pages were saved. No game executables, ROMs, assets, builds, or package bundles were downloaded.",
+  "excluded_candidates": [
+    "rubymatrix/xi-on-anything",
+    "HenryKun55/igi-recomp",
+    "zap0xfce2/Kula-World-Recompiled",
+    "andeecollard/jsrf-recomp",
+    "TalhaMudo/NFSU2Recomp",
+    "elforeign/nfs-most-wanted-mac",
+    "iagodemacedo/OpenPopTB-MacOS",
+    "vyanhursky/DefJamFFNY-recomp",
+    "craigshaw/FZeroRecomp",
+    "notmgn/mtld3d",
+    "Wilson-Flores/PacmanRecomp",
+    "leoxcho/nicktoons-racing-recomp"
+  ],
+  "exclusion_file": "exclusions.json"
+}

@@ -1,0 +1,239 @@
+{
+  "verified_at": "2026-10-16",
+  "scope": "Additive source-backed facts for six exact current Game keys that had zero game_facts rows at staging time. Do not apply to the live database without the normal reviewed import step.",
+  "profiles": [
+    {
+      "game_key": "Advanced Daisenryaku",
+      "facts": [
+        {
+          "field": "original_platform",
+          "value": "Sega Mega Drive (Japanese cartridge release)",
+          "source_url": "https://collection.rcgs.jp/page/PACKAGE0010392",
+          "evidence": "The Research Center for Game Studies collection catalogs the package under the Mega Drive series and identifies the medium as a Mega Drive cartridge.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Sega Enterprises",
+          "source_url": "https://collection.rcgs.jp/page/PACKAGE0010392",
+          "evidence": "The RCGS package record lists Sega Enterprises as the responsible organization/publisher.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "War simulation; turn-based strategy",
+          "source_url": "https://collection.rcgs.jp/page/PACKAGE0010392",
+          "evidence": "The RCGS record classifies the package as both war simulation and turn-based strategy.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "Japan: 1991",
+          "source_url": "https://collection.rcgs.jp/page/PACKAGE0010392",
+          "evidence": "The RCGS record gives 1991 as its date variant and attributes the date to Mega Drive Perfect Catalog; only year precision is asserted.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "year"
+        }
+      ]
+    },
+    {
+      "game_key": "Bokura no Kazoku: My Family Growing Up in the 21st Century (Japan)",
+      "facts": [
+        {
+          "field": "canonical_name",
+          "value": "Bokura no Kazoku; English subtitle: My Family Growing up in the 21st Century",
+          "source_url": "https://www.mkitchen.co.jp/archives/date/2005/03",
+          "evidence": "Millennium Kitchen’s official March 2005 archive uses the English subtitle “My Family Growing up in the 21st Century” alongside the Japanese title.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "developer",
+          "value": "Millennium Kitchen",
+          "source_url": "https://www.mkitchen.co.jp/archives/date/2005/03",
+          "evidence": "The developer’s official archive calls Bokura no Kazoku “our PS2 title” (弊社制作のＰＳ２タイトル).",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "PlayStation 2",
+          "source_url": "https://www.mkitchen.co.jp/works",
+          "evidence": "Millennium Kitchen’s official works list specifies PS2 for Bokura no Kazoku.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "Japan (PlayStation 2): 2005-03-24",
+          "source_url": "https://www.mkitchen.co.jp/works",
+          "evidence": "Millennium Kitchen’s official works list gives the release date as March 24, 2005.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "day"
+        },
+        {
+          "field": "publisher",
+          "value": "Sony Computer Entertainment",
+          "source_url": "https://www.mkitchen.co.jp/works",
+          "evidence": "The developer’s official works list names Sony Computer Entertainment in the publisher column for Bokura no Kazoku.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Bully: Anniversary Edition (Android ARM64 v1.4.311)",
+      "facts": [
+        {
+          "field": "original_platform",
+          "value": "Android (mobile Anniversary Edition)",
+          "source_url": "https://play.google.com/store/apps/details?id=com.rockstargames.bully",
+          "evidence": "The official Google Play listing is for the Android Bully: Anniversary Edition app.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "mobile_developer",
+          "value": "War Drum Studios (in conjunction with Rockstar Games)",
+          "source_url": "https://play.google.com/store/apps/details?id=com.rockstargames.bully",
+          "evidence": "The official Google Play listing states that the mobile version was developed in conjunction with War Drum Studios.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "edition_content",
+          "value": "Includes content from both the original Bully release and Bully: Scholarship Edition; enhanced graphics and redesigned touch controls",
+          "source_url": "https://media.rockstargames.com/broadcast/20161208/en_US_web.html",
+          "evidence": "Rockstar’s launch announcement says Anniversary Edition includes everything from the original release and Scholarship Edition, with high-resolution graphics and controls redesigned for touch.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "additional_content",
+          "value": "Four bonus classes and additional non-storyline missions",
+          "source_url": "https://play.google.com/store/apps/details?id=com.rockstargames.bully",
+          "evidence": "The official Google Play description explicitly lists four bonus classes and additional non-story missions beyond the original release.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "version_update",
+          "value": "Android v1.4.311 — 2026-01-21: fixed a crash when downloading game assets",
+          "source_url": "https://support.rockstargames.com/articles/5QUxkMnmaW9aJ5HWGYHBc5/bully-anniversary-edition-title-update-notes-android-ios",
+          "evidence": "Rockstar Support identifies the January 21, 2026 Android v1.4.311 update and its asset-download crash fix.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "day"
+        }
+      ]
+    },
+    {
+      "game_key": "Harvest Moon: Back to Nature",
+      "facts": [
+        {
+          "field": "original_platform",
+          "value": "PlayStation",
+          "source_url": "https://www.bokumono.com/sub/harvest.php",
+          "evidence": "The official Bokujō Monogatari series page lists PlayStation as the platform for Harvest Moon: Back to Nature (牧場物語 ハーベストムーン).",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "Japan (PlayStation): 1999-12-16",
+          "source_url": "https://www.bokumono.com/sub/harvest.php",
+          "evidence": "The official Bokujō Monogatari series page lists the Japanese PlayStation release date as December 16, 1999.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "day"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "North America (PlayStation): 2000-11-20",
+          "source_url": "https://www.natsume.com/news/news_pdffiles/pid_329_HM%20Back%20to%20Nature%20Coming%20Soon.pdf",
+          "evidence": "Natsume’s publisher announcement identifies this as the first Harvest Moon title on PlayStation in North America and gives November 20, 2000 as its launch date.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "day"
+        },
+        {
+          "field": "gameplay_features",
+          "value": "Nonlinear real-time farming; livestock care; more than 50 characters; village festival contests and recipe collection",
+          "source_url": "https://www.natsume.com/news/news_pdffiles/pid_329_HM%20Back%20to%20Nature%20Coming%20Soon.pdf",
+          "evidence": "Natsume’s announcement describes restoring the farm, tending livestock, interacting with over 50 characters, nonlinear real-time play, festival mini-contests, and collecting recipes.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "HyperBlade (1996, HYPERX.EXE v1.0.0.1)",
+      "facts": [
+        {
+          "field": "developer",
+          "value": "WizBang! Software Productions, in collaboration with Activision",
+          "source_url": "https://www.cgwmuseum.org/galleries/issues/cgw_142.pdf",
+          "evidence": "Activision’s period advertisement identifies HyperBlade as developed by WizBang! in collaboration with Activision.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Activision",
+          "source_url": "https://www.cgwmuseum.org/galleries/issues/cgw_142.pdf",
+          "evidence": "The period Activision advertisement carries Activision branding and copyright and presents HyperBlade as its product.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "MS-DOS and Windows 95 CD-ROM",
+          "source_url": "https://www.cgwmuseum.org/galleries/issues/cgw_142.pdf",
+          "evidence": "The Activision advertisement specifies availability on MS-DOS/Windows 95 CD-ROM.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "gameplay_premise",
+          "value": "A future mega-sport combining hockey, lacrosse, and speed-skating, with brutal team competition",
+          "source_url": "https://www.cgwmuseum.org/galleries/issues/cgw_142.pdf",
+          "evidence": "The advertisement describes the sport as built from hockey, lacrosse, and speed-skating and promotes its violent, competitive play.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "advertised_release_window",
+          "value": "Summer 1996 (planned window in period advertisement)",
+          "source_url": "https://www.cgwmuseum.org/galleries/issues/cgw_142.pdf",
+          "evidence": "The ad says “The Drome Opens Summer ’96”; this is an advertised schedule, not confirmation of the retail release date.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "season"
+        }
+      ]
+    },
+    {
+      "game_key": "Mister Mosquito",
+      "facts": [
+        {
+          "field": "original_platform",
+          "value": "PlayStation 2",
+          "source_url": "https://store.playstation.com/en-us/product/UP9000-PPSA22948_00-SLUS203750000000",
+          "evidence": "Sony’s current PlayStation Store page says Mister Mosquito was originally released on PlayStation 2.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Action",
+          "source_url": "https://store.playstation.com/en-us/product/UP9000-PPSA22948_00-SLUS203750000000",
+          "evidence": "The official PlayStation Store lists the game genre as Action.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "gameplay_premise",
+          "value": "Play as a mosquito in the Yamada family home and drink blood to survive the winter",
+          "source_url": "https://store.playstation.com/en-us/product/UP9000-PPSA22948_00-SLUS203750000000",
+          "evidence": "The official store description identifies the player as Mister Mosquito, an uninvited guest in the Yamada home who must drink blood to survive winter.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "gameplay_structure",
+          "value": "12 household levels, with stealth and air-combat encounters against the inhabitants",
+          "source_url": "https://store.playstation.com/en-us/product/UP9000-PPSA22948_00-SLUS203750000000",
+          "evidence": "Sony’s store description specifies 12 Yamada-household levels and stealth or air-combat encounters.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "reissue_release_date",
+          "value": "PS4/PS5 conversion of the PS2 version: 2024-09-17",
+          "source_url": "https://store.playstation.com/en-us/product/UP9000-PPSA22948_00-SLUS203750000000",
+          "evidence": "The official PlayStation Store identifies the PS4/PS5 conversion and lists its release date as September 17, 2024.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "day"
+        }
+      ]
+    }
+  ]
+}

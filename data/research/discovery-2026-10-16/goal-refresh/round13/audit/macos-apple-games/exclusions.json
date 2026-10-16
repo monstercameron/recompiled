@@ -1,0 +1,163 @@
+{
+  "reviewed_at": "2026-10-16",
+  "catalog_revision": "c3cdb32",
+  "candidates": [
+    {
+      "repository": "rubymatrix/xi-on-anything",
+      "game": "FINAL FANTASY XI (Windows PC client)",
+      "platform": "Windows x86-32 client DLLs → macOS Apple silicon arm64",
+      "catalog_ids": [
+        "final-fantasy-xi-macos-arm64-recomp"
+      ],
+      "disposition": "exact_catalog_duplicate",
+      "reason": "Exact repository and target are already catalogued.",
+      "sources": [
+        "https://github.com/rubymatrix/xi-on-anything"
+      ]
+    },
+    {
+      "repository": "HenryKun55/igi-recomp",
+      "game": "Project I.G.I.: I’m Going In",
+      "platform": "Windows PC x86 → macOS / PlayStation Vita",
+      "catalog_ids": [
+        "project-igi-pc-ps-vita-static-recomp"
+      ],
+      "disposition": "exact_catalog_duplicate",
+      "reason": "Exact repository and target are already catalogued.",
+      "sources": [
+        "https://github.com/HenryKun55/igi-recomp"
+      ]
+    },
+    {
+      "repository": "zap0xfce2/Kula-World-Recompiled",
+      "game": "Kula World",
+      "platform": "PAL PlayStation → Apple silicon macOS and Linux",
+      "catalog_ids": [
+        "kula-world-pal-psx-static-recomp"
+      ],
+      "disposition": "exact_catalog_duplicate",
+      "reason": "Exact repository and target are already catalogued.",
+      "sources": [
+        "https://github.com/zap0xfce2/Kula-World-Recompiled"
+      ]
+    },
+    {
+      "repository": "andeecollard/jsrf-recomp",
+      "game": "Jet Set Radio Future",
+      "platform": "Original Xbox → Apple Silicon macOS",
+      "catalog_ids": [
+        "jet-set-radio-future-macos-recomp"
+      ],
+      "disposition": "exact_catalog_duplicate",
+      "reason": "Exact repository and target are already catalogued.",
+      "sources": [
+        "https://github.com/andeecollard/jsrf-recomp"
+      ]
+    },
+    {
+      "repository": "TalhaMudo/NFSU2Recomp",
+      "game": "Need for Speed: Underground 2 (Windows PC x86)",
+      "platform": "Windows PC x86-32 → macOS Apple silicon arm64",
+      "catalog_ids": [
+        "nfs-underground-2-pc-macos-arm64-recomp"
+      ],
+      "disposition": "exact_catalog_duplicate",
+      "reason": "Exact repository and target are already catalogued.",
+      "sources": [
+        "https://github.com/TalhaMudo/NFSU2Recomp"
+      ]
+    },
+    {
+      "repository": "elforeign/nfs-most-wanted-mac",
+      "game": "Need for Speed: Most Wanted (2005 PC Black Edition v1.3)",
+      "platform": "Windows PC x86-32 → macOS Apple silicon arm64",
+      "catalog_ids": [
+        "nfs-most-wanted-pc-macos-recomp"
+      ],
+      "disposition": "exact_catalog_duplicate",
+      "reason": "Exact repository and target are already catalogued.",
+      "sources": [
+        "https://github.com/elforeign/nfs-most-wanted-mac"
+      ]
+    },
+    {
+      "repository": "iagodemacedo/OpenPopTB-MacOS",
+      "game": "Populous: The Beginning (1998) and Undiscovered Worlds",
+      "platform": "Windows x86 → Apple Silicon macOS ARM64",
+      "catalog_ids": [
+        "populous-the-beginning-macos-static-recomp"
+      ],
+      "disposition": "exact_catalog_duplicate",
+      "reason": "Exact repository and target are already catalogued.",
+      "sources": [
+        "https://github.com/iagodemacedo/OpenPopTB-MacOS"
+      ]
+    },
+    {
+      "repository": "vyanhursky/DefJamFFNY-recomp",
+      "game": "Def Jam: Fight for NY",
+      "platform": "Original Xbox → Windows x64, Apple silicon macOS, and Linux x86-64",
+      "catalog_ids": [
+        "def-jam-fight-for-ny-xbox-recomp"
+      ],
+      "disposition": "exact_catalog_duplicate",
+      "reason": "Exact repository and target are already catalogued.",
+      "sources": [
+        "https://github.com/vyanhursky/DefJamFFNY-recomp"
+      ]
+    },
+    {
+      "repository": "craigshaw/FZeroRecomp",
+      "game": "F-Zero (Super Nintendo version)",
+      "platform": "Super Nintendo Entertainment System → desktop PC (including Apple Silicon macOS per project docs)",
+      "catalog_ids": [
+        "f-zero-snes-static-recomp"
+      ],
+      "disposition": "same_game_source_and_desktop_recomp_target",
+      "reason": "The exact SNES title and desktop static-recompilation target are already represented by the catalogued F-Zero recompilation. The Mac-specific repository is a distinct code repository, but its target overlaps the existing desktop port record; no separate edition or game key was established in this pass.",
+      "sources": [
+        "https://github.com/craigshaw/FZeroRecomp",
+        "https://github.com/mstan/FZeroSNESRecomp"
+      ]
+    },
+    {
+      "repository": "notmgn/mtld3d",
+      "game": "General Direct3D 9 applications and games through Wine",
+      "platform": "Wine Direct3D 9 → Metal on Apple Silicon macOS 15+ (x86_64 Wine runs through Rosetta 2)",
+      "catalog_ids": [
+        "mtld3d-macos-d3d9-metal"
+      ],
+      "disposition": "ambiguous_same_name_same_functional_target_hold",
+      "reason": "The catalog already has athei/mtld3d, a released D3D9-to-Metal Wine implementation with the same project name and function. The notmgn repository reports fork=false and may be a separate implementation, but the same-name/same-target relationship is unclear; its README directs users to a GitHub release bundle while the releases API is empty. Hold as a possible independent alternative until that distinction is clear rather than adding a potentially duplicate record.",
+      "sources": [
+        "https://github.com/notmgn/mtld3d",
+        "https://github.com/athei/mtld3d",
+        "https://api.github.com/repos/notmgn/mtld3d",
+        "https://api.github.com/repos/notmgn/mtld3d/releases"
+      ]
+    },
+    {
+      "repository": "Wilson-Flores/PacmanRecomp",
+      "game": "Midway Pac-Man arcade game",
+      "platform": "Arcade target → Windows, Linux, and Mac (README assertion only)",
+      "catalog_ids": [],
+      "disposition": "insufficient_primary_source_detail",
+      "reason": "The short README only repeats the static-recompilation claim. It does not describe the source executable/ROM revision, translation method, tested status, Mac build or release. The repository has no published releases. Retain as a lead, not a verified importer row.",
+      "sources": [
+        "https://github.com/Wilson-Flores/PacmanRecomp",
+        "https://github.com/Wilson-Flores/PacmanRecomp/blob/main/CMakeLists.txt"
+      ]
+    },
+    {
+      "repository": "leoxcho/nicktoons-racing-recomp",
+      "game": "Nicktoons Racing",
+      "platform": "PlayStation → PC (claimed)",
+      "catalog_ids": [],
+      "disposition": "insufficient_primary_source_detail",
+      "reason": "The README and catalog identity still ask for a short pitch; developer/publisher/year, project status, release, and substantive verification of the target are missing. Not strong enough for a reviewed project addition.",
+      "sources": [
+        "https://github.com/leoxcho/nicktoons-racing-recomp"
+      ]
+    }
+  ]
+}

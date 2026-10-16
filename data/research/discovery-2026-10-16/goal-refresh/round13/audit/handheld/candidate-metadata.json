@@ -1,0 +1,112 @@
+{
+  "verified_at": "2026-10-16",
+  "records": [
+    {
+      "project_id": "gba-recomp-toolkit",
+      "source_to_target": "GBA ROM/BIOS → native Windows/macOS/Linux/Android runtime or packaged executable. Android dependencies are documented in maintainer README; no assertion that an Android binary is published.",
+      "method": "Ahead-of-time static recompilation: emits C11 linked to the Rust GBA hardware model; interpreter remains as a stability fallback. Function-boundary map is incomplete.",
+      "license": "Project code dual-licensed MIT OR Apache-2.0; GBA function-map database stated as CC0.",
+      "license_evidence": [
+        "https://github.com/JRickey/gba-recomp/blob/main/README.md#license",
+        "https://github.com/JRickey/gba-recomp/blob/main/LICENSE-MIT",
+        "https://github.com/JRickey/gba-recomp/blob/main/LICENSE-APACHE"
+      ],
+      "latest_release": {
+        "tag": "v0.4",
+        "published_at": "2026-06-18T03:39:04Z",
+        "url": "https://github.com/JRickey/gba-recomp/releases/tag/v0.4"
+      },
+      "compatibility_evidence": "README says 169,778 / estimated 4.1 million functions mapped and one complete game without naming it; only the current exact project statements are retained."
+    },
+    {
+      "project_id": "gb2swf-static-recompilation-tool",
+      "source_to_target": "Game Boy / Game Boy Color ROM → SWF plus offline HTML/Ruffle playback. Releases shown for macOS and Windows; SWF runs in Ruffle-supported browsers.",
+      "method": "Execution profiling plus static translation of observed basic blocks; unknown/ineligible blocks stay interpreted. Lockstep compares frames before output.",
+      "license": "MIT for project code/runtime; bundled Ruffle and other dependencies retain their own licenses.",
+      "license_evidence": [
+        "https://github.com/Burg-Media/gb2swf/blob/main/README.md#licenses",
+        "https://github.com/Burg-Media/gb2swf/blob/main/LICENSE"
+      ],
+      "latest_release": {
+        "tag": "v1.0.0",
+        "published_at": "2026-10-13T20:48:07Z",
+        "url": "https://github.com/Burg-Media/gb2swf/releases/tag/v1.0.0"
+      },
+      "compatibility_evidence": "README documents supported DMG/CGB hardware/features and explicit sound/timing/cartridge/peripheral limits; seven open-licensed homebrew titles reportedly tested."
+    },
+    {
+      "project_id": "psprism-psp-static-recompilation",
+      "source_to_target": "PSP ISO/ELF/PRX → C++20 → native macOS/Windows Refract runtime; optional PSP PRX back-compilation is diagnostics/partial overlays.",
+      "method": "Static lifting of Allegrex MIPS and VFPU to C++20; PSP output is not claimed as a performant full-game target.",
+      "license": "GPL-3.0-or-later (README says GPL version 3 or later; repository API classifies GPL-3.0).",
+      "license_evidence": [
+        "https://github.com/anthonyhfm/psprism/blob/main/README.md#license-and-game-content-policy",
+        "https://github.com/anthonyhfm/psprism/blob/main/LICENSE"
+      ],
+      "latest_release": null,
+      "compatibility_evidence": "README marks macOS and Windows host backends working; Linux planned; Daxter fully playable on macOS; PSP hardware/PPSSPP path diagnostic/overlay only."
+    },
+    {
+      "project_id": "daxter-psprism-macos-recompilation",
+      "source_to_target": "Daxter PSP executable → C++20 → native macOS ARM64/x86_64.",
+      "method": "Same psprism static recompilation and Refract runtime as the software record; game-specific README status says fully playable on macOS.",
+      "license": "GPL-3.0-or-later for psprism/Refract code; does not license Daxter content.",
+      "license_evidence": [
+        "https://github.com/anthonyhfm/psprism/blob/main/README.md#license-and-game-content-policy",
+        "https://github.com/anthonyhfm/psprism/blob/main/LICENSE"
+      ],
+      "latest_release": null,
+      "compatibility_evidence": "README labels Daxter fully playable on macOS; it does not establish Daxter support on Windows or full-speed execution on PSP."
+    },
+    {
+      "project_id": "insaniquarium-deluxe-vita-api-port",
+      "source_to_target": "Android ARMv7 libmain.so and game data → PlayStation Vita.",
+      "method": "Loader relocates a user-provided Android ELF against Vita-side libc/SDL/GL wrappers and calls SDL_main; classify as Android/Vita API translation/binary loading, not a source-native port.",
+      "license": "No license declared in repository metadata or README checked.",
+      "license_evidence": [
+        "https://github.com/KartingSackboy06/insaniquarium-vita/blob/main/README.md",
+        "https://api.github.com/repos/KartingSackboy06/insaniquarium-vita"
+      ],
+      "latest_release": {
+        "tag": "v1.00a",
+        "published_at": "2026-10-11T23:39:49Z",
+        "url": "https://github.com/KartingSackboy06/insaniquarium-vita/releases/tag/v1.00a"
+      },
+      "compatibility_evidence": "Maintainer README claims about 36 FPS without overclocking; prerequisite list includes HENkaku/kubridge/libshacccg; known softlock: open keyboard while paused."
+    },
+    {
+      "project_id": "epoch-equinox-oracle-of-ages-player",
+      "source_to_target": "Oracle of Ages Game Boy Color ROM → native Windows/Linux/macOS player.",
+      "method": "Current runtime interprets ROM; generated static C path is documented as removed; optional native Ages reconstruction is a hidden developer preview.",
+      "license": "MIT declared by README and LICENSE file; GitHub repository API returns NOASSERTION, retained as an audit discrepancy.",
+      "license_evidence": [
+        "https://github.com/ZakyPew/epoch-equinox/blob/main/README.md",
+        "https://github.com/ZakyPew/epoch-equinox/blob/main/LICENSE",
+        "https://api.github.com/repos/ZakyPew/epoch-equinox"
+      ],
+      "latest_release": {
+        "tag": "v0.7.3",
+        "published_at": "2026-09-18T19:06:47Z",
+        "url": "https://github.com/ZakyPew/epoch-equinox/releases/tag/v0.7.3"
+      },
+      "compatibility_evidence": "README identifies supported USA/Australia ROM SHA-1 hashes for Oracle of Ages and says both Oracles run from one binary."
+    },
+    {
+      "project_id": "epoch-equinox-oracle-of-seasons-player",
+      "source_to_target": "Oracle of Seasons Game Boy Color ROM → native Windows/Linux/macOS player.",
+      "method": "Current runtime interprets ROM; generated static C path is documented as removed.",
+      "license": "MIT declared by README and LICENSE file; GitHub repository API returns NOASSERTION, retained as an audit discrepancy.",
+      "license_evidence": [
+        "https://github.com/ZakyPew/epoch-equinox/blob/main/README.md",
+        "https://github.com/ZakyPew/epoch-equinox/blob/main/LICENSE",
+        "https://api.github.com/repos/ZakyPew/epoch-equinox"
+      ],
+      "latest_release": {
+        "tag": "v0.7.3",
+        "published_at": "2026-09-18T19:06:47Z",
+        "url": "https://github.com/ZakyPew/epoch-equinox/releases/tag/v0.7.3"
+      },
+      "compatibility_evidence": "README identifies supported USA/Australia ROM SHA-1 hashes for Oracle of Seasons and says both Oracles run from one binary."
+    }
+  ]
+}

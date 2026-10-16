@@ -1,0 +1,112 @@
+{
+  "verified_at": "2026-10-16",
+  "scope": "Sourced canonical facts for the two new Game target keys introduced by this packet. The Wikipedia links point directly to English articles that cover the Wii U Yoshi title and the original Scott Pilgrim game plus its Complete Edition; exact game-key labels are preserved.",
+  "profiles": [
+    {
+      "game_key": "Yoshi's Woolly World",
+      "facts": [
+        {
+          "field": "developer",
+          "value": "Good-Feel",
+          "source_url": "https://en.wikipedia.org/wiki/Yoshi%27s_Woolly_World",
+          "evidence": "The article credits Good-Feel as developer of the Wii U game.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Nintendo",
+          "source_url": "https://en.wikipedia.org/wiki/Yoshi%27s_Woolly_World",
+          "evidence": "The article credits Nintendo as publisher of the Wii U game.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Platform",
+          "source_url": "https://en.wikipedia.org/wiki/Yoshi%27s_Woolly_World",
+          "evidence": "The article lists Platform as the game genre.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "Wii U",
+          "source_url": "https://en.wikipedia.org/wiki/Yoshi%27s_Woolly_World",
+          "evidence": "The article identifies the original Yoshi’s Woolly World as a Wii U game; it treats the later Nintendo 3DS release as a separate port titled Poochy & Yoshi’s Woolly World.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_release_year",
+          "value": 2015,
+          "date_granularity": "year",
+          "source_url": "https://en.wikipedia.org/wiki/Yoshi%27s_Woolly_World",
+          "evidence": "The article identifies the Wii U game as a 2015 release.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Scott Pilgrim vs. The World: The Game – Complete Edition",
+      "facts": [
+        {
+          "field": "developer",
+          "value": "Engine Software (Complete Edition); Ubisoft Montreal and Ubisoft Chengdu (original game)",
+          "source_url": "https://en.wikipedia.org/wiki/Scott_Pilgrim_vs._the_World:_The_Game",
+          "evidence": "The article credits Ubisoft Montreal and Ubisoft Chengdu for the original game and identifies Engine Software as the developer of the Complete Edition.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Ubisoft",
+          "source_url": "https://en.wikipedia.org/wiki/Scott_Pilgrim_vs._the_World:_The_Game",
+          "evidence": "The article lists Ubisoft as publisher of the game and its Complete Edition.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Beat ’em up; action role-playing",
+          "source_url": "https://en.wikipedia.org/wiki/Scott_Pilgrim_vs._the_World:_The_Game",
+          "evidence": "The article lists Beat ’em up and action role-playing as genres.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platforms",
+          "value": [
+            "PlayStation 3",
+            "Xbox 360"
+          ],
+          "source_url": "https://en.wikipedia.org/wiki/Scott_Pilgrim_vs._the_World:_The_Game",
+          "evidence": "The article says the original digital game launched on PlayStation 3 and Xbox 360 in 2010; these are distinct from later Complete Edition platforms.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_release_year",
+          "value": 2010,
+          "date_granularity": "year",
+          "source_url": "https://en.wikipedia.org/wiki/Scott_Pilgrim_vs._the_World:_The_Game",
+          "evidence": "The article identifies the original release as August 2010.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "complete_edition_platforms",
+          "value": [
+            "Nintendo Switch",
+            "PlayStation 4",
+            "Windows",
+            "Xbox One",
+            "Google Stadia"
+          ],
+          "source_url": "https://en.wikipedia.org/wiki/Scott_Pilgrim_vs._the_World:_The_Game",
+          "evidence": "The article lists these platforms for the Complete Edition re-release.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "complete_edition_release_date",
+          "value": "2021-01-14",
+          "date_granularity": "day",
+          "source_url": "https://en.wikipedia.org/wiki/Scott_Pilgrim_vs._the_World:_The_Game",
+          "evidence": "The article gives 14 January 2021 as the Complete Edition release date.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    }
+  ]
+}

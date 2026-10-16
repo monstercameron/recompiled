@@ -1,0 +1,300 @@
+{
+  "checked_at": "2026-10-16",
+  "method": "Social posts and third-party indexes were used only for discovery. Each imported project was checked against its own maintainer README/release/license and GitHub metadata/language APIs. Directory pointers were checked against their own live site and/or owner repository. No media was downloaded.",
+  "projects": [
+    {
+      "id": "san-francisco-rush-extreme-racing-n64-recomp",
+      "canonical_url": "https://github.com/sp00nznet/sfrush",
+      "maintainer_sources": [
+        "https://github.com/sp00nznet/sfrush/blob/main/README.md",
+        "https://github.com/sp00nznet/sfrush/blob/main/LICENSE",
+        "https://api.github.com/repos/sp00nznet/sfrush",
+        "https://api.github.com/repos/sp00nznet/sfrush/releases?per_page=3",
+        "https://api.github.com/repos/sp00nznet/sfrush/languages"
+      ],
+      "local_snapshots": [
+        "snapshots/sp00nznet_sfrush-repo.json",
+        "snapshots/sp00nznet_sfrush-releases.json",
+        "snapshots/sp00nznet_sfrush-languages.json",
+        "snapshots/sp00nznet__sfrush__main__README.md",
+        "snapshots/sp00nznet__sfrush__main__LICENSE"
+      ]
+    },
+    {
+      "id": "aliens-versus-predator-gold-nakedavp-source-port",
+      "canonical_url": "https://github.com/atsb/NakedAVP",
+      "maintainer_sources": [
+        "https://github.com/atsb/NakedAVP/blob/main/README.md",
+        "https://github.com/atsb/NakedAVP/releases/tag/1.3.1",
+        "https://github.com/atsb/NakedAVP/blob/main/LICENSE",
+        "https://api.github.com/repos/atsb/NakedAVP",
+        "https://api.github.com/repos/atsb/NakedAVP/languages"
+      ],
+      "local_snapshots": [
+        "snapshots/atsb_NakedAVP-repo.json",
+        "snapshots/atsb_NakedAVP-releases.json",
+        "snapshots/atsb_NakedAVP-languages.json",
+        "snapshots/atsb__NakedAVP__main__README.md",
+        "snapshots/atsb__NakedAVP__main__LICENSE"
+      ]
+    }
+  ],
+  "directory_items": [
+    {
+      "id": "decompendium-index",
+      "checked_url": "https://decompendium.com/",
+      "source_url": "https://github.com/kDylanHayes/decompendium/blob/main/README.md",
+      "snapshots": [
+        "snapshots/decompendium.html",
+        "snapshots/kDylanHayes_decompendium-repo.json",
+        "snapshots/kDylanHayes_decompendium-readme-api.json",
+        "snapshots/decompendium-readme.md"
+      ]
+    },
+    {
+      "id": "recompsoftware-tracker",
+      "checked_url": "https://recompsoftware.com/",
+      "source_url": "https://recompsoftware.com/",
+      "snapshots": [
+        "snapshots/recomp.html",
+        "snapshots/andrewnakas_recompsoftware-repo.json",
+        "snapshots/andrewnakas_recompsoftware-commits.json"
+      ]
+    },
+    {
+      "id": "decompilati-onl-tracker",
+      "checked_url": "https://decompilati.onl/",
+      "source_url": "https://github.com/Almamu/decompilati.onl",
+      "snapshots": [
+        "snapshots/decompilati-onl.html",
+        "snapshots/Almamu_decompilati.onl-repo.json",
+        "snapshots/Almamu_decompilati.onl-readme-api.json",
+        "snapshots/Almamu_decompilati.onl-README.md",
+        "snapshots/Almamu_decompilati.onl-commits.json"
+      ]
+    },
+    {
+      "id": "bytematch-progress-tracker",
+      "checked_url": "https://bytematch.dev/",
+      "source_url": "https://github.com/Veradictus/ByteMatch",
+      "snapshots": [
+        "snapshots/bytematch.html",
+        "snapshots/Veradictus_ByteMatch-repo.json",
+        "snapshots/Veradictus_ByteMatch-readme-api.json",
+        "snapshots/Veradictus_ByteMatch-README.md",
+        "snapshots/Veradictus_ByteMatch-commits.json"
+      ]
+    },
+    {
+      "id": "pcmr-latam-pc-port-decomp-recomp-list",
+      "checked_url": "https://www.pcmrace.com/2026/10/06/lista-pc-port-nativo-decomp-recomp/",
+      "source_url": "https://x.com/PCMR_LATAM/status/2110983153418641846",
+      "snapshots": [
+        "snapshots/pcmr-x.html"
+      ],
+      "access_limit": "PCMR article returned HTTP 403; only the publisher post text was available."
+    }
+  ],
+  "discovery_leads": [
+    {
+      "source": "https://www.reddit.com/r/decomps/comments/1x607hp/recompboard_decomps_recomps_and_ports_in_one/",
+      "role": "Discovery only. Tracker resolves to recomp.fyi, already cataloged; no listed project dataset copied."
+    },
+    {
+      "source": "https://www.reddit.com/r/decomps/comments/1x66xrd/decompdev_is_finished/",
+      "role": "Discovery only. Comments/site links led to decompilati.onl and ByteMatch; both were verified directly at their official site/repository."
+    },
+    {
+      "source": "https://www.reddit.com/r/decomps/comments/1ws249o/ultra_street_fighter_iv_running_natively_on_pc/",
+      "role": "Discovery only. Claimed GitHub project returned not found; excluded."
+    },
+    {
+      "source": "https://www.reddit.com/r/emulation/comments/1wpyfv4/rayman_origins_recompiled_from_xbox_360_to_native/",
+      "role": "Discovery only. Canonical maintainer repository and project are already in SQLite; no duplicate row or patch."
+    },
+    {
+      "source": "https://x.com/PCMR_LATAM/status/2110983153418641846",
+      "role": "Publisher self-report identifying a linked list and claimed update; article access failed, so only a qualified directory pointer was retained."
+    }
+  ],
+  "snapshots": [
+    {
+      "path": "snapshots/Almamu_decompilati.onl-README.md",
+      "bytes": 7328,
+      "sha256": "efa66aa2b0ef66b0180ce62d785d20fbce9dd23d4f734c022876ff750dbb5e57"
+    },
+    {
+      "path": "snapshots/Almamu_decompilati.onl-commits.json",
+      "bytes": 5574,
+      "sha256": "2efd1b0e2d11c660f716d9cfe761285bcb62c2cce40f2aee5aaca1acb69a9d1d"
+    },
+    {
+      "path": "snapshots/Almamu_decompilati.onl-readme-api.json",
+      "bytes": 10894,
+      "sha256": "e0948e46ebb505825ca02522d79f8ccf01786db66db45516c17bd27163b92ed2"
+    },
+    {
+      "path": "snapshots/Almamu_decompilati.onl-repo.json",
+      "bytes": 5537,
+      "sha256": "f62702f1038cd78ea3082ac29d2c6c9f9ee2b0dfae5f957d1979cd84763653c2"
+    },
+    {
+      "path": "snapshots/Veradictus_ByteMatch-README.md",
+      "bytes": 6067,
+      "sha256": "41a8b2c18525b3cc6b9f929fbcefd069eba65fc24c5ebf34b1fef19b058a7b8a"
+    },
+    {
+      "path": "snapshots/Veradictus_ByteMatch-commits.json",
+      "bytes": 11080,
+      "sha256": "d57813dfeffd3fe789e6ccb33774471f7041a3c061fe7d0b15875981999611fd"
+    },
+    {
+      "path": "snapshots/Veradictus_ByteMatch-readme-api.json",
+      "bytes": 9154,
+      "sha256": "6d3bcead69b0d0b0bdaf88fc0611ec3f192d61e05855f8a5dffc83ab17485fca"
+    },
+    {
+      "path": "snapshots/Veradictus_ByteMatch-repo.json",
+      "bytes": 5501,
+      "sha256": "bddc4b79d414033cf55899ba45fdc991cf9256339591abb69f745ff74e63767e"
+    },
+    {
+      "path": "snapshots/andrewnakas_recompsoftware-README.md",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "snapshots/andrewnakas_recompsoftware-commits.json",
+      "bytes": 6963,
+      "sha256": "8948d4499748d7c3f513b680a86ba803287758228a94dc0e7b7f2cd9269cbcb0"
+    },
+    {
+      "path": "snapshots/andrewnakas_recompsoftware-readme-api.json",
+      "bytes": 128,
+      "sha256": "cd06f5cb22929a0bc5fb340149daaab49796a37572df0b2fcb8ac3dfafbae4c9"
+    },
+    {
+      "path": "snapshots/andrewnakas_recompsoftware-repo.json",
+      "bytes": 5614,
+      "sha256": "fa34ab76551161adf0c3b8d1a1a18af51d3a07cd5b49f2f50af371cb8a0ab5dd"
+    },
+    {
+      "path": "snapshots/atsb_NakedAVP-languages.json",
+      "bytes": 70,
+      "sha256": "460416964fa2ef467ccdb84a68f6f6f48240b4d2ec8bdee4f67c04dcf3573765"
+    },
+    {
+      "path": "snapshots/atsb_NakedAVP-readme-api.json",
+      "bytes": 22178,
+      "sha256": "cea7390059ecefa8f328e166b9599ea65b4e01a9e16f00c852317d6d9974cd84"
+    },
+    {
+      "path": "snapshots/atsb_NakedAVP-releases.json",
+      "bytes": 12485,
+      "sha256": "f0531b7abc0a9b3717dcc5d473af95ea216cccc13b9366449a63193f6aa8761d"
+    },
+    {
+      "path": "snapshots/atsb_NakedAVP-repo.json",
+      "bytes": 5104,
+      "sha256": "6fb8b11506029b680e5878390473a1e0ec6d8efcde390bd1cf6c9878ef365fb1"
+    },
+    {
+      "path": "snapshots/atsb__NakedAVP__main__LICENSE",
+      "bytes": 623,
+      "sha256": "a80c4992451694d7d4ec585aca7e54249770c11db81e760223fa60adb0c6977e"
+    },
+    {
+      "path": "snapshots/atsb__NakedAVP__main__README.md",
+      "bytes": 15563,
+      "sha256": "f61192d7f04bec92617c39cf85748b706b33ed35d2f4be8b7f71d4647fe07501"
+    },
+    {
+      "path": "snapshots/bytematch.html",
+      "bytes": 117217,
+      "sha256": "aba45ae85393921ca77bf9af6a86ac5b582cdd21d44c94b1459e65e1f0a0f1da"
+    },
+    {
+      "path": "snapshots/decompendium-readme.md",
+      "bytes": 5793,
+      "sha256": "5e2b46cbd1e1e2d4e7f3b013b4169f1d3b7ebc5a3fb8885f3e7ded5aedd5490e"
+    },
+    {
+      "path": "snapshots/decompendium.html",
+      "bytes": 29024,
+      "sha256": "ea81eb6b84b97b03b281a645bf80db3c421982e5cf0d78e74d05a6ef8ef93959"
+    },
+    {
+      "path": "snapshots/decompilati-onl.html",
+      "bytes": 13233,
+      "sha256": "87d343d10bfc429082be6b81fc4a065bb15c381bf7fd6f80be4bc4203cb0ee54"
+    },
+    {
+      "path": "snapshots/http-access-checks.json",
+      "bytes": 822,
+      "sha256": "ef07ef66b22d1cc601236a92e7ce9d96c5ca637f62297a46bc7410c2cf8204c8"
+    },
+    {
+      "path": "snapshots/kDylanHayes_decompendium-languages.json",
+      "bytes": 65,
+      "sha256": "dc59526609ce5c0d15d484df9cab4d4c580708f6ebb615696796feb39ad542ab"
+    },
+    {
+      "path": "snapshots/kDylanHayes_decompendium-readme-api.json",
+      "bytes": 8792,
+      "sha256": "9011d20c00e4166edebf0df08fa4839e073c12ebfe07596a7d9acf92c7b5331f"
+    },
+    {
+      "path": "snapshots/kDylanHayes_decompendium-releases.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "snapshots/kDylanHayes_decompendium-repo.json",
+      "bytes": 5652,
+      "sha256": "165cfaf2693efef5a8ec07aa252377ad2f6499793e22faad3ba5e6d4e4e8d48f"
+    },
+    {
+      "path": "snapshots/pcmr-x.html",
+      "bytes": 140561,
+      "sha256": "9cfa8fb5e803bd73e1f788f8b91852e9993ca73e86db47cb92d0ff2ad95fe947"
+    },
+    {
+      "path": "snapshots/recomp.html",
+      "bytes": 31961,
+      "sha256": "5cfe54ff2f4ccafa3da71c7e3b33ed47069a5825ddc0c04dd25be889d2d11c22"
+    },
+    {
+      "path": "snapshots/sp00nznet__sfrush__main__LICENSE",
+      "bytes": 1703,
+      "sha256": "f262145cd2a77c2188df1d9f633eed98ae114d982e96a3eba3e8c409dcb3c626"
+    },
+    {
+      "path": "snapshots/sp00nznet__sfrush__main__README.md",
+      "bytes": 9522,
+      "sha256": "fca60bd754b5cb00738c9bb5873b36c57060fe17dd3c4534594b4d2a20c76ecf"
+    },
+    {
+      "path": "snapshots/sp00nznet_sfrush-languages.json",
+      "bytes": 104,
+      "sha256": "223d6bd658c8cd6e0156bb0ebab787fd3d282abf2575e71b91010559bbabba08"
+    },
+    {
+      "path": "snapshots/sp00nznet_sfrush-readme-api.json",
+      "bytes": 13874,
+      "sha256": "958d16200cef0a1f2c5a3e35734d51096362fd0135f2d7371b960b7df078fd8e"
+    },
+    {
+      "path": "snapshots/sp00nznet_sfrush-releases.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "snapshots/sp00nznet_sfrush-repo.json",
+      "bytes": 5186,
+      "sha256": "ba6285e25b6d9886e208056b4d7fcf00f124b9ccf7ad072f86eca59ab55ff1d9"
+    }
+  ],
+  "canonical_database": "/Users/earlcameron/Desktop/recompiled/data/catalog.sqlite",
+  "canonical_database_modified": false,
+  "tracked_files_modified": false
+}

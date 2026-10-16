@@ -1,0 +1,47 @@
+{
+  "checked_at": "2026-10-16",
+  "held_or_excluded_candidates": [
+    {
+      "candidate": "Feeltech FY6600 15/30/50/60 MHz research",
+      "url": "https://github.com/DerKammi/FY6600-15-30-50-60M",
+      "disposition": "Exclude from additions",
+      "reason": "The README calls the repository a placeholder for protocol/schematic research and future software work. It does not document an implemented reconstruction, released application, or supported host."
+    },
+    {
+      "candidate": "Passap E6000 / Electra 4600 console and controller rebuild",
+      "url": "https://github.com/IrenePassap/Passap-E6000-hacked-and-rebuilt",
+      "disposition": "Hold",
+      "reason": "The README presents Arduino/Raspberry Pi programs as a one-machine rebuild and says they are examples that may need adjustment and omit original console features. It does not identify an exact original software version, and no release is listed."
+    },
+    {
+      "candidate": "Sockerless Cloud API simulators",
+      "url": "https://github.com/e6qu/sockerless-cloud",
+      "disposition": "Exclude from this batch",
+      "reason": "Its README describes wire-faithful local cloud API simulators and SDK/CLI/Terraform test suites. This is a test simulator layer rather than a reconstruction of a particular end-user application or firmware target."
+    },
+    {
+      "candidate": "ProjectLibre",
+      "url": "https://github.com/tetsuji16/ProjectLibre",
+      "disposition": "Exclude from additions",
+      "reason": "This is an independently maintained project-management application; its primary sources do not describe it as a decompilation, recompilation, protocol-compatible replacement, or reimplementation of a named target application."
+    },
+    {
+      "candidate": "FrankenFS, FrankenRedis, FrankenSciPy, FrankenTorch",
+      "url": "https://github.com/Dicklesworthstone",
+      "disposition": "Deduplicate",
+      "reason": "These software/library reimplementations already have catalog rows under their canonical repositories and targets."
+    },
+    {
+      "candidate": "Pokéwalker emulator core",
+      "url": "https://github.com/lumirth/hachistep",
+      "disposition": "Related record; not added as a duplicate",
+      "reason": "The catalog has a Pokéwalker system emulator. The proposed pw row is a separate repository and method that reconstructs the retail firmware source and verifies its binary hash; the shared device-family overlap is listed in dedupe-audit.json."
+    },
+    {
+      "candidate": "OpenEmperor and other game-engine reimplementations",
+      "url": "https://github.com/oliverjessner/OpenEmperor",
+      "disposition": "Exclude from additions",
+      "reason": "These are game targets, outside Round 13’s non-game software scope."
+    }
+  ]
+}

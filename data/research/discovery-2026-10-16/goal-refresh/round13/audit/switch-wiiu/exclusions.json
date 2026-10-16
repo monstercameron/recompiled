@@ -1,0 +1,107 @@
+{
+  "verified_at": "2026-10-16",
+  "records": [
+    {
+      "repository": "https://github.com/LockingFR/mkw-switch-recomp",
+      "target": "Mario Kart Wii (Wii PAL) → Nintendo Switch",
+      "decision": "held",
+      "reason": "Maintainer README/STATUS describe a concrete static-recompilation project and real-hardware races, but the public repository is documentation only; its private translator/runtime and generated game code are absent, and the repository cannot build the port on its own. The current catalog already has a different Wii→Switch Mario Kart Wii project (WiiCompiled-Switch), so this proposal was held pending accessible implementation or independent project-lineage review."
+    },
+    {
+      "repository": "https://github.com/flossbud/WWHDRecomp",
+      "target": "The Wind Waker HD (Wii U) → Linux x86-64",
+      "decision": "held",
+      "reason": "The maintainer README describes a source-backed developer preview, but the current catalog already has The Wind Waker HD recompilation for Windows/macOS/Linux/Android at https://github.com/ZeldaWWHDRecomp/ZeldaWWHDRecomp. Although the GitHub repository is not marked as a fork, the same game and overlapping Linux target create a likely same-project/target duplication; no independent lineage was established in this focused pass."
+    },
+    {
+      "repository": "https://github.com/hardkiller2565123123/CafeRecomp",
+      "target": "Wii U recompilation research framework",
+      "decision": "excluded_duplicate",
+      "reason": "Exact repository root already exists in the catalog as cafe-recomp-wiiu-framework."
+    },
+    {
+      "repository": "https://github.com/kaiyao7/SwitchRecomp",
+      "target": "Nintendo Switch AArch64 recompilation framework",
+      "decision": "excluded_duplicate",
+      "reason": "Exact repository root already exists in the catalog as switchrecomp-early-research-framework."
+    },
+    {
+      "repository": "https://github.com/Mythrax-ZS/SwitchRecomp",
+      "target": "Nintendo Switch ARM64 static-recompilation framework",
+      "decision": "excluded_duplicate",
+      "reason": "Exact repository root already exists in the catalog as switchrecomp-nintendo-switch-static-recompiler."
+    },
+    {
+      "repository": "https://github.com/SwitchRECOMP/SwitchRECOMP",
+      "target": "Nintendo Switch recompilation",
+      "decision": "excluded_low_evidence",
+      "reason": "Repository metadata describes only a DEMO; the captured snapshot has no meaningful implementation source or target/game-specific evidence."
+    },
+    {
+      "repository": "https://github.com/SwitchDecomp/SwitchDecomp",
+      "target": "Nintendo Switch one-click recompilation tool",
+      "decision": "excluded_planned_only",
+      "reason": "Maintainer README marks the project COMING SOON and says source will be added later; no implementation was available in the captured repository."
+    },
+    {
+      "repository": "https://github.com/centollOS/SwitchWakerHD",
+      "target": "Wind Waker HD Wii U → Switch",
+      "decision": "excluded_duplicate",
+      "reason": "Exact repository root already exists in the catalog as switchwakerhd-recomp."
+    },
+    {
+      "repository": "https://github.com/ZeldaWWHDDecomp/wwhd",
+      "target": "Wind Waker HD Wii U decompilation",
+      "decision": "excluded_duplicate",
+      "reason": "Exact repository root already exists in the catalog as wind-waker-hd-decomp."
+    },
+    {
+      "repository": "https://github.com/BlackLineInteractive/nWiiURecomp",
+      "target": "Wind Waker HD Wii U → native PC preview",
+      "decision": "excluded_duplicate",
+      "reason": "Exact repository root already exists in the catalog as wind-waker-hd-nwiiu-recomp-preview."
+    },
+    {
+      "repository": "https://github.com/kaliszmichal/lasrecomp",
+      "target": "Link’s Awakening Switch recompilation",
+      "decision": "excluded_fork",
+      "reason": "GitHub metadata identifies this repository as a fork of peiikai/LASRecomp, which is already represented in the catalog; it is not a distinct project lineage for this packet."
+    },
+    {
+      "repository": "https://github.com/Owen-Splat/las-decomp",
+      "target": "Link’s Awakening Switch decompilation",
+      "decision": "excluded_method_mismatch",
+      "reason": "README describes Ghidra analysis plus an imported XML annotation database. Under AGENTS.md, annotated disassembly is not a matching decompilation project."
+    },
+    {
+      "repository": "https://github.com/Dexx-io/Splatoon-Decomp",
+      "target": "Original Splatoon Wii U",
+      "decision": "excluded_insufficient_evidence",
+      "reason": "README calls it a small/informal project for common game resources and does not establish matching source reconstruction or recompilation; the catalog already has a more substantial Splatoon Wii U decomp test project."
+    },
+    {
+      "repository": "https://github.com/Radfordhound/OpenLW",
+      "target": "Sonic Lost World source recreation",
+      "decision": "excluded_out_of_scope",
+      "reason": "The README targets accuracy to the PC version; Wii U is prior reverse-engineering input and Switch is a future aspiration, not the current port target."
+    },
+    {
+      "repository": "https://github.com/3DWCommunity/3dcomp",
+      "target": "Nintendo Switch game decompilation",
+      "decision": "excluded_unavailable",
+      "reason": "Captured GitHub API responses for repository, README, languages, and releases returned not found, so there was no accessible project evidence to verify."
+    },
+    {
+      "repository": "https://github.com/Moddimation/KinokoDecomp-S",
+      "target": "Nintendo Switch game decompilation",
+      "decision": "excluded_unavailable",
+      "reason": "GitHub API lookup returned not found during this pass; no accessible primary repository evidence."
+    },
+    {
+      "repository": "https://github.com/Nintendocustom/Lego-City-Undercover-Decompilation",
+      "target": "Lego City Undercover",
+      "decision": "excluded_existing_or_unverified",
+      "reason": "The lead was checked against the catalog and candidate snapshots but did not pass the exact new-project/target check for this lane; no addition is proposed."
+    }
+  ]
+}

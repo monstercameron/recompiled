@@ -1,0 +1,43 @@
+{
+  "verified_at": "2026-10-16",
+  "validation": "PASS",
+  "json_files_parsed": 28,
+  "parse_errors": [],
+  "candidate_count": 20,
+  "target_type_counts": {
+    "Software": 15,
+    "Game": 5
+  },
+  "language_map_count": 20,
+  "source_evidence_count": 20,
+  "exclusion_count": 12,
+  "catalog_snapshot": {
+    "projects": 3462,
+    "emulators": 534
+  },
+  "deduplication": {
+    "candidate_rows": 20,
+    "unique_repository_roots": 20,
+    "target_type_software": 15,
+    "target_type_game": 5,
+    "language_api_maps": 20,
+    "exact_catalog_root_matches": 0,
+    "exact_prior_manifest_root_matches": 0
+  },
+  "checks": {
+    "all_json_parse": true,
+    "20_candidates": true,
+    "software_game_classification": true,
+    "20_language_byte_maps": true,
+    "20_source_records": true,
+    "repo_and_target_dedup": true,
+    "metadata_source_links_present": true,
+    "candidate_repos_unforked_unarchived": true,
+    "catalog_snapshot_unchanged": true
+  },
+  "notes": [
+    "All canonical SQLite access was read-only; no import or DB edit was made.",
+    "Exact GitHub Languages API byte maps are staged for every candidate.",
+    "Target-type labels distinguish multi-game board/system cores from currently game-specific cores."
+  ]
+}

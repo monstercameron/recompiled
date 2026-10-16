@@ -1,0 +1,40 @@
+{
+  "verified_at": "2026-10-16",
+  "catalog_snapshot": {
+    "path": "/Users/earlcameron/Desktop/recompiled/data/catalog.sqlite",
+    "project_rows": 3462,
+    "access": "read-only",
+    "sha256": "23ca4afe398ac57b79498017fff7e2a349276c9319d5e9a256c4cd68c1e2b7a9"
+  },
+  "results": {
+    "project_additions": 9,
+    "new_catalog_id_collisions": 0,
+    "new_catalog_project_url_collisions": 0,
+    "game_profiles": 9,
+    "game_facts": 45,
+    "wikipedia_links": 9,
+    "language_audits": 9,
+    "empty_language_maps": 5,
+    "mobile_port_additions": 0,
+    "held_mobile_group_projects": "21 child repositories listed by the dguillot-gh/psx-android umbrella; not individually reviewed; one exact target (Mizzurna Falls Android) is already catalogued",
+    "known_mobile_target_duplicates_checked": 15
+  },
+  "checks": [
+    "Every staged JSON file parses.",
+    "All nine project rows have required importer fields and at least one HTTPS source.",
+    "All nine project IDs and canonical URLs are unique and absent from SQLite.",
+    "All nine project game keys have matching profile and Wikipedia-link records.",
+    "Every exact GitHub byte map matches its saved Languages API response.",
+    "Ordinary project, game-profile, Wikipedia-link, and programming-language importers passed against a temporary copy of the catalog.",
+    "Temporary catalog contains 9 new project rows, 45 game facts across 9 profiles, 9 Wikipedia links, and 9 language evidence rows.",
+    "Live catalog SHA-256 unchanged; no live importer or tracked-file edit was run.",
+    "No game/app assets were downloaded."
+  ],
+  "known_caveats": [
+    "Nisekoi maintainer release links a pre-patched full-game package as well as binary patch and rePatch routes.",
+    "Gundam patch repository uses a custom noncommercial and no-patch-redistribution license.",
+    "Typing of the Dead II translation is partial and does not cover actual typing prompts.",
+    "Torneko patch updates/revises an existing English translation and is not a first English translation.",
+    "No mobile port row is included; fresh phone-port leads were either existing catalog targets or held for source/method review."
+  ]
+}

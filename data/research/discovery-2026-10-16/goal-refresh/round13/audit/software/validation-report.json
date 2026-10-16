@@ -1,0 +1,44 @@
+{
+  "verified_at": "2026-10-16",
+  "catalog_snapshot": {
+    "projects": 3450,
+    "software_projects": 1060
+  },
+  "proposed_projects": 3,
+  "project_ids": [
+    "spacebar-discord-backend-reimplementation",
+    "asahi-neural-engine-linux-driver-reimplementation",
+    "mkmsbr-microsoft-boot-record-clean-room-reimplementation"
+  ],
+  "checks": {
+    "all_json_parses": true,
+    "unique_proposed_ids": true,
+    "unique_project_urls": true,
+    "all_target_type_software": true,
+    "no_project_id_or_repo_root_collision_in_catalog": true,
+    "no_project_id_or_repo_root_collision_in_prior_staging": true,
+    "each_project_has_scope_method_status_platform_license_and_primary_source_urls": true,
+    "exact_github_language_maps_present_for_all_proposals": true,
+    "live_github_languages_api_matches_sidecar": true,
+    "staged_release_lists_match_live_github_api": true,
+    "all_recorded_catalog_duplicate_ids_verified": true,
+    "excluded_game_targets_not_proposed": true,
+    "no_live_database_or_tracked_file_changes": true
+  },
+  "language_api_record_count": 3,
+  "prior_staging_json_files_scanned": 134,
+  "canonical_catalog_rows_rechecked": 3450,
+  "exclusions_record_count": 8,
+  "duplicate_catalog_records_not_staged": 8,
+  "staged_files": [
+    "new-projects.json",
+    "github-byte-language-evidence.json",
+    "repository-evidence.json",
+    "candidate-source-evidence.json",
+    "deduplication-audit.json",
+    "exclusions.json",
+    "search-evidence.json",
+    "search-log.md",
+    "validation-report.json"
+  ]
+}

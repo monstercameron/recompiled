@@ -1,0 +1,178 @@
+{
+  "captured_on": "2026-10-16",
+  "catalog": {
+    "path": "/Users/earlcameron/Desktop/recompiled/data/catalog.sqlite",
+    "project_count_at_review": 3462,
+    "live_database_modified": false
+  },
+  "projects": {
+    "sonic-generations-xbox360-android-rexglue": {
+      "github_api_snapshots": [
+        {
+          "file": "evidence/github-api/sonic-generations/repository.json",
+          "endpoint": "https://api.github.com/repos/BluetufieBugado/GenerationsRecomp-Android-RexGlue"
+        },
+        {
+          "file": "evidence/github-api/sonic-generations/languages.json",
+          "endpoint": "https://api.github.com/repos/BluetufieBugado/GenerationsRecomp-Android-RexGlue/languages"
+        },
+        {
+          "file": "evidence/github-api/sonic-generations/releases.json",
+          "endpoint": "https://api.github.com/repos/BluetufieBugado/GenerationsRecomp-Android-RexGlue/releases?per_page=5"
+        },
+        {
+          "file": "evidence/github-api/sonic-generations/latest-commit.json",
+          "endpoint": "https://api.github.com/repos/BluetufieBugado/GenerationsRecomp-Android-RexGlue/commits/main"
+        }
+      ],
+      "maintainer_evidence": [
+        {
+          "url": "https://github.com/BluetufieBugado/GenerationsRecomp-Android-RexGlue/blob/8c65b8097444416df6506037e876b382acde0da3/README.md",
+          "claims": [
+            "Identifies an Xbox 360-based Sonic Generations recompilation for Android.",
+            "Says the project uses ReXGlue; the embedded original README identifies android/ as a Gradle app and port/ as generated C++ game code.",
+            "Reports 2–4 fps and graphics issues; says USA/Europe Xbox 360 ISO is needed."
+          ]
+        },
+        {
+          "url": "https://github.com/BluetufieBugado/GenerationsRecomp-Android-RexGlue/blob/8c65b8097444416df6506037e876b382acde0da3/docs/mali-g57.md",
+          "claims": [
+            "Names a Helio G99 / Mali-G57 device and reports title-screen plus Green Hill testing at about 2.5–4 fps.",
+            "Reports a Sonic skinning glitch and estimates about 370 ms/frame outside GPU presentation, attributing the main cost to guest code.",
+            "States the author may not be able to do more work on the ReXGlue version."
+          ]
+        },
+        {
+          "url": "https://github.com/BluetufieBugado/GenerationsRecomp-Android-RexGlue/blob/8c65b8097444416df6506037e876b382acde0da3/android/app/build.gradle.kts",
+          "claims": [
+            "Sets minSdk 28 (Android 9) and arm64-v8a ABI."
+          ]
+        },
+        {
+          "url": "https://github.com/rexglue/rexglue-sdk/blob/main/README.md",
+          "claims": [
+            "ReXGlue maintainer describes ahead-of-time conversion of Xbox 360 PowerPC code to portable C++ rather than runtime interpretation/JIT."
+          ]
+        }
+      ],
+      "license_state": "GitHub repository metadata has license=null; no project license was declared in the reviewed metadata."
+    },
+    "syphon-filter-ps1-windows-game-specific-emulator": {
+      "github_api_snapshots": [
+        {
+          "file": "evidence/github-api/syphon-filter/repository.json",
+          "endpoint": "https://api.github.com/repos/Madxbio97/SF-pc-port"
+        },
+        {
+          "file": "evidence/github-api/syphon-filter/languages.json",
+          "endpoint": "https://api.github.com/repos/Madxbio97/SF-pc-port/languages"
+        },
+        {
+          "file": "evidence/github-api/syphon-filter/latest-release.json",
+          "endpoint": "https://api.github.com/repos/Madxbio97/SF-pc-port/releases/tags/0.2.0-beta.2"
+        },
+        {
+          "file": "evidence/github-api/syphon-filter/latest-commit.json",
+          "endpoint": "https://api.github.com/repos/Madxbio97/SF-pc-port/commits/main"
+        }
+      ],
+      "maintainer_evidence": [
+        {
+          "url": "https://github.com/Madxbio97/SF-pc-port/blob/a11020bbf8ea136e1685edfe29217e7c965b49c9/README.md",
+          "claims": [
+            "Names the exact USA v1.1 image as SCUS-94240 and requires a user-owned BIN/CUE.",
+            "Describes original R3000A gameplay execution with a native Windows host.",
+            "Calls the software a public test and lists the 20-mission campaign flow."
+          ]
+        },
+        {
+          "url": "https://github.com/Madxbio97/SF-pc-port/blob/a11020bbf8ea136e1685edfe29217e7c965b49c9/docs/ARCHITECTURE.md",
+          "claims": [
+            "Describes sf_psx as implementing R3000A, GTE, bus, IRQ, DMA, CD-ROM, SPU and XA.",
+            "Assigns rendering, launcher/UI, windowing, saves and FMV to the Windows host."
+          ]
+        },
+        {
+          "url": "https://github.com/Madxbio97/SF-pc-port/releases/tag/0.2.0-beta.2",
+          "claims": [
+            "Public-test release 0.2.0-beta.2 published 2026-08-13; release notes list launcher, graphics and model changes."
+          ]
+        }
+      ],
+      "classification_note": "Classified as Emulator because original PlayStation guest code runs in a game-specific PS1 machine runtime; no static recompilation or reconstructed matching source claim appears in the reviewed maintainer sources."
+    },
+    "super-mario-strikers-meta-quest-3-mr-port": {
+      "github_api_snapshots": [
+        {
+          "file": "evidence/github-api/strikers-quest/repository.json",
+          "endpoint": "https://api.github.com/repos/LanceSweatpants/Strikers-Quest-MR"
+        },
+        {
+          "file": "evidence/github-api/strikers-quest/languages.json",
+          "endpoint": "https://api.github.com/repos/LanceSweatpants/Strikers-Quest-MR/languages"
+        },
+        {
+          "file": "evidence/github-api/strikers-quest/latest-release.json",
+          "endpoint": "https://api.github.com/repos/LanceSweatpants/Strikers-Quest-MR/releases/tags/v0.1.11-alpha1"
+        },
+        {
+          "file": "evidence/github-api/strikers-quest/latest-commit.json",
+          "endpoint": "https://api.github.com/repos/LanceSweatpants/Strikers-Quest-MR/commits/main"
+        }
+      ],
+      "maintainer_evidence": [
+        {
+          "url": "https://github.com/LanceSweatpants/Strikers-Quest-MR/blob/4035b980bda4c2635cb6c538736370ae4b073a56/README.md",
+          "claims": [
+            "Describes a native Quest 3 mixed-reality app built from the community decompilation, not an emulator.",
+            "Identifies luisxl15/Strikers-Android-Port as its Android phone port base.",
+            "Documents Quest-specific passthrough/tabletop/stadium modes, the own-game-image requirement, and says Quest 3 was tested while other headset models are untested."
+          ]
+        },
+        {
+          "url": "https://github.com/LanceSweatpants/Strikers-Quest-MR/releases/tag/v0.1.11-alpha1",
+          "claims": [
+            "Publishes QuestStrikers-alpha1.11.apk in the v0.1.11-alpha1 release on 2026-10-16.",
+            "Release notes describe online synchronization changes and Quest 2 screen adjustments; this does not override README statement that other headsets are untested."
+          ]
+        },
+        {
+          "url": "https://github.com/luisxl15/Strikers-Android-Port/blob/main/README.md",
+          "claims": [
+            "States that the phone port shares the desktop game code/renderer, compiles the game for ARM, and is built on the community decompilation by Yannick Suter."
+          ]
+        },
+        {
+          "url": "https://github.com/yannicksuter/smstrikers-decomp/blob/main/README.md",
+          "claims": [
+            "Describes the upstream work as a high-fidelity matching decompilation and explicitly says it is not itself a port or recompilation."
+          ]
+        }
+      ],
+      "lineage_note": "Quest README says it is a fork of the Android phone port, but GitHub API reports fork=false; describe the lineage as maintainer-identified rather than a formal GitHub fork. The new row is distinct because the app targets a Quest headset with OpenXR mixed-reality/VR modes, not a generic Android phone."
+    }
+  },
+  "game_fact_evidence": [
+    {
+      "game_key": "Sonic Generations (Xbox 360 version)",
+      "source_url": "https://en.wikipedia.org/wiki/Sonic_Generations",
+      "claims": [
+        "Developer Sonic Team, publisher Sega, platform-game genre, original platform releases, and console North American date 2011-11-01."
+      ]
+    },
+    {
+      "game_key": "Syphon Filter (PlayStation USA v1.1, SCUS-94240)",
+      "source_url": "https://en.wikipedia.org/wiki/Syphon_Filter_(video_game)",
+      "claims": [
+        "Developer Eidetic, North American publisher 989 Studios, PlayStation platform, third-person shooter genre, and North American date 1999-02-16."
+      ]
+    }
+  ],
+  "deduplication": {
+    "existing_target_reused": [
+      "Super Mario Strikers game profile and Wikipedia link are already present; no duplicate game facts/link were staged.",
+      "The existing Android phone port remains the base/lineage, while the Quest/OpenXR headset app is a distinct target record."
+    ],
+    "live_database_modified": false
+  }
+}

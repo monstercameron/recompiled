@@ -1,0 +1,98 @@
+[
+  {
+    "id": "wild-9-ps1-recompiled",
+    "project_source_url": "https://github.com/plinkr/Wild9Recomp",
+    "project_license": "MIT for repository code (repository README and LICENSE).",
+    "media_rights": "The README embeds these game screenshots in its Screenshots gallery. The repository says copyrighted game assets are not bundled; it does not separately license the screenshots. Use the original hosted links only.",
+    "evidence": "README labels the two attachments Level 4 and Level 1. Both original GitHub user-attachment URLs returned HTTP 200 with image/webp on HEAD."
+  },
+  {
+    "id": "hissatsu-saturn-en",
+    "project_source_url": "https://github.com/ExxistanceDC/Hissatsu-English-Translation",
+    "project_license": "No license file or license statement was visible in the public repository page/README.",
+    "media_rights": "The project README embeds the screenshots and credits texture art to Exxistance. It does not state a separate media license; these are linked/embedded from the README only.",
+    "evidence": "README alt text identifies Title Screen, Gameplay_screenshot, and Dialogue_scene. All three attachment URLs returned HTTP 200 with image/png on HEAD."
+  },
+  {
+    "id": "segagaga-dreamcast-en",
+    "project_source_url": "https://github.com/ExxistanceDC/Segagaga-English-Translation",
+    "project_license": "No license file or license statement was visible in the public repository page/README.",
+    "media_rights": "The maintainer README contains a Screenshots gallery, but these images have no alt text and no separate media license statement. Labels preserve the gallery position without claiming pictured details; use only original hosted URLs.",
+    "evidence": "Used the project lead’s original repository rather than its GitHub fork. The three user-attachment URLs returned HTTP 200 with image/png on HEAD."
+  },
+  {
+    "id": "crw-metal-jacket-pc98-en",
+    "project_source_url": "https://github.com/46OkuMen/crw",
+    "project_license": "No license file or license statement was visible in the public repository page/README.",
+    "media_rights": "The README links to this title-screen image and says no translation is visible in it. No media license was found. The source README wrote an HTTP image URL; the matching HTTPS URL was HEAD-checked and returns the same PNG resource.",
+    "evidence": "Original direct image URL returned HTTP 200 with image/png on HEAD at the HTTPS endpoint."
+  },
+  {
+    "id": "urban-reign-ps2-recomp",
+    "project_source_url": "https://github.com/thiagordsfx/urban-reign-recomp",
+    "project_license": "GPL-3.0 for repository code, stated in README and repository license metadata.",
+    "media_rights": "The README links the SVG as a project status map. The project says no game content is distributed. The README does not give the map a separate media license; keep it as a remote repository image.",
+    "evidence": "README alt text describes the map as Sony SDK library functions and PS2 hardware components colored by status. Raw GitHub URI returned HTTP 200 with image/svg+xml on HEAD."
+  },
+  {
+    "id": "zelda64recomp",
+    "project_source_url": "https://github.com/Zelda64Recomp/Zelda64Recomp",
+    "project_license": "GPL-3.0 for repository code, shown by GitHub.",
+    "media_rights": "The screenshot is embedded in the README’s Steam Deck gyro-aim instructions; it depicts controller settings UI rather than game assets. No separate image license was found. The videos are maintainer Wiseguy’s YouTube trailers; no rehosting license is asserted, so retain the YouTube links and thumbnails only.",
+    "evidence": "The README links docs/deck_gyro_1.jpg and the raw HEAD URI returned HTTP 200 with image/jpeg. Wiseguy is credited as uploader for the original release trailer; the 1.2 trailer is identified in project coverage as the developer’s modding-update video. Both YouTube thumbnails returned HTTP 200 with image/jpeg on HEAD."
+  },
+  {
+    "id": "banjo-recompiled",
+    "project_source_url": "https://github.com/BanjoRecomp/BanjoRecomp",
+    "project_license": "GPL-3.0 for repository code, shown by GitHub.",
+    "media_rights": "YouTube search metadata identifies Wiseguy as the uploader, and the trailer description points to the project release. The video includes game footage; no rehosting license is asserted, so retain the YouTube link and thumbnail only.",
+    "evidence": "YouTube listing title: Banjo: Recompiled Release Trailer (Banjo-Kazooie PC Port!). Thumbnail returned HTTP 200 with image/jpeg on HEAD."
+  },
+  {
+    "id": "unleashed-recompiled",
+    "project_source_url": "https://github.com/hedge-dev/UnleashedRecomp",
+    "project_license": "GPL-3.0 for repository code, shown by GitHub.",
+    "media_rights": "YouTube search metadata identifies Skyth, the project lead, as uploader and says the description links the GitHub project. No rehosting license is asserted; retain the YouTube link and thumbnail only.",
+    "evidence": "YouTube listing title: Unleashed Recompiled - Release Trailer. Thumbnail returned HTTP 200 with image/jpeg on HEAD."
+  },
+  {
+    "id": "wordperfect-8-unix-linux-compatibility-port",
+    "project_source_url": "https://github.com/taviso/wpunix",
+    "source_page_url": "https://github.com/taviso/wpunix",
+    "project_license": "No repository license was identified. README says this is a demonstration copy but gives no reuse terms.",
+    "media_rights": "The README embeds four interface demonstrations/screenshots. No separate screenshot or WordPerfect media license was found; treat the commercial application imagery as rights-uncleared and use only the original HTTPS references.",
+    "evidence": "The maintainer README labels print previews, the default look, equation editor, and thesaurus. All four original user-images.githubusercontent.com URLs returned HTTP 200 with image/gif or image/png content types using HEAD only."
+  },
+  {
+    "id": "reactos-windows-nt-os-reimplementation",
+    "project_source_url": "https://github.com/reactos/reactos",
+    "source_page_url": "https://reactos.org/",
+    "project_license": "README states ReactOS code is GNU GPL-2.0; GitHub reports two other licenses in the repository as well.",
+    "media_rights": "The official homepage uses the screenshot as its ReactOS-in-action/OG image. No distinct image license was identified; code licensing does not establish screenshot reuse rights. Keep the original HTTPS source link and do not infer permission to rehost.",
+    "evidence": "Official ReactOS homepage metadata points to Mizu-Desktop.png and its image alt text reads “ReactOS in action.” The original URL returned HTTP 200 with image/png via HEAD only."
+  },
+  {
+    "id": "ssx-tricky-opentricky-xbox-windows-recomp",
+    "project_source_url": "https://github.com/GiZcesi/OpenTricky",
+    "source_page_url": "https://opentricky.com/",
+    "project_license": "OpenTricky code is GPL-3.0-only; the README identifies separate third-party code licenses.",
+    "media_rights": "The official site labels both linked images as SSX Tricky gameplay screenshots. README says the project distributes no game code, music, or video and requires the user’s own game disc. No screenshot/game-image reuse license is stated; retain links only and do not rehost.",
+    "evidence": "Official homepage alt text describes the race start on Garibaldi and grinding on Snowdream. Both original URLs returned HTTP 200 with image/jpeg via HEAD only. The README attachment itself returned 403 to HEAD and was not used."
+  },
+  {
+    "id": "ppsspp",
+    "project_source_url": "https://github.com/hrydgard/ppsspp",
+    "source_page_url": "https://www.ppsspp.org/",
+    "project_license": "Official homepage says PPSSPP is GPL-2.0-or-later.",
+    "media_rights": "The homepage uses gameroll.jpg as a decorative hero background. No separate image or game-art license was identified; the project code license does not grant rights to embedded game imagery. Use only as a remote source reference.",
+    "evidence": "Official PPSSPP homepage HTML identifies gameroll.jpg as the hero background. Its original URL returned HTTP 200 with image/jpeg via HEAD only."
+  },
+  {
+    "id": "claude-desktop-zh-cn",
+    "project_source_url": "https://github.com/good9527/Claude-Desktop-Chinese",
+    "source_page_url": "https://github.com/good9527/Claude-Desktop-Chinese",
+    "project_license": "GitHub identifies the repository as MIT licensed.",
+    "media_rights": "The README page presents this SVG as a Claude Desktop localization showcase. No separate screenshot or product-interface license was identified; Anthropic product marks/interface imagery are not assumed to be covered by the repository code license. Keep the source URL and do not rehost.",
+    "evidence": "GitHub repository page alt text describes the SVG as a Claude Desktop localization showcase. The direct original URL returned HTTP 200 with image/svg+xml via HEAD only; the adjacent star-history chart was excluded."
+  }
+]

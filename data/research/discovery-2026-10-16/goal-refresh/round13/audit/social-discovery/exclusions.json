@@ -1,0 +1,56 @@
+{
+  "checked_at": "2026-10-16",
+  "exclusions": [
+    {
+      "candidate": "RecompBoard / recomp.fyi",
+      "discovery_url": "https://www.reddit.com/r/decomps/comments/1x607hp/recompboard_decomps_recomps_and_ports_in_one/",
+      "decision": "Do not create a directory row or import listed projects.",
+      "reason": "The Reddit thread is a discovery lead, not project evidence. Its tracker destination is https://recomp.fyi/, which already exists as directory_items.id=recomp-fyi. The thread’s dataset was not copied."
+    },
+    {
+      "candidate": "Rayman Origins Xbox 360 Recompilation Android/Mac claims",
+      "discovery_urls": [
+        "https://www.reddit.com/r/emulation/comments/1wpyfv4/rayman_origins_recompiled_from_xbox_360_to_native/",
+        "https://github.com/XDanfr/RaymanOriginsRecomp"
+      ],
+      "decision": "No new project row or status patch.",
+      "reason": "The canonical repository is already cataloged as rayman-origins-xbox360-recomp. Current catalog metadata already includes the Android and Apple Silicon claims with device/performance caveats; the Reddit post does not provide a stronger maintainer source for a further update."
+    },
+    {
+      "candidate": "Ultra Street Fighter IV native PC recompilation",
+      "discovery_url": "https://www.reddit.com/r/decomps/comments/1ws249o/ultra_street_fighter_iv_running_natively_on_pc/",
+      "claimed_repository": "https://github.com/BelmanteGu/UltraStreetFighterIVRecomp",
+      "decision": "Exclude.",
+      "reason": "GitHub returned not found for the claimed repository during source verification. The social post alone does not confirm a maintainer project."
+    },
+    {
+      "candidate": "PCMR LATAM article contents",
+      "discovery_urls": [
+        "https://x.com/PCMR_LATAM/status/2110983153418641846",
+        "https://www.pcmrace.com/2026/10/06/lista-pc-port-nativo-decomp-recomp/"
+      ],
+      "decision": "Do not copy its list entries or assert its reported count as independently verified. Retain a qualified Website pointer only.",
+      "reason": "The official publisher post was readable and linked the article, but the article returned HTTP 403/Cloudflare at review. Contents and 300+ count could not be independently inspected."
+    },
+    {
+      "candidate": "decomp.dev",
+      "discovery_url": "https://decomp.dev/",
+      "decision": "No new directory row.",
+      "reason": "The catalog already includes decomp.dev as decomp-dev-archive. Its own sunset notice says new projects can no longer register while existing pages/history remain; ByteMatch and decompilati.onl pointers are separate resources discovered during follow-up."
+    },
+    {
+      "candidate": "Process/tutorial resource additions",
+      "discovery_sources": [
+        "https://www.youtube.com/",
+        "https://www.reddit.com/r/decomps/"
+      ],
+      "decision": "No process_resources manifest.",
+      "reason": "No new tutorial/resource was verified with comparable top-five/popularity evidence. The specialized importer requires an exactly five-item roster, so a partial recommendation is not importer-ready."
+    },
+    {
+      "candidate": "Existing project rows mentioning Jet Set Radio Future, San Francisco Rush 2049, Rush 2 and Aliens versus Predator Gold 3DS",
+      "decision": "No duplicate project additions.",
+      "reason": "SQLite already has separate records for JSRF recomp repositories, San Francisco Rush 2049 decomp/recomp, Rush 2 Recompiled, and the distinct Aliens versus Predator Gold 3DS project. The two proposed repositories are distinct canonical repositories/targets: San Francisco Rush: Extreme Racing (1997 N64), and NakedAVP’s cross-platform AvP Gold source port."
+    }
+  ]
+}

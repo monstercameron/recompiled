@@ -1,0 +1,215 @@
+{
+  "verified_at": "2026-10-16",
+  "purpose": "Source audit for canonical facts of all five newly staged Game targets. Existing catalog profiles are cited here but are not replaced by the additive game-profiles.json manifest; only the two previously fact-free Monster Hunter keys are staged for import.",
+  "records": [
+    {
+      "game_key": "Sonic the Hedgehog (2006) (Xbox 360 version)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_(2006_video_game)",
+      "wikipedia_link_disposition": "Additive Wikipedia-link record upgrades the existing exact-title search fallback to this direct article.",
+      "facts": [
+        {
+          "field": "developer",
+          "value": "Sonic Team",
+          "source_url": "https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_(2006_video_game)",
+          "evidence": "The article identifies Sonic Team as developer."
+        },
+        {
+          "field": "publisher",
+          "value": "Sega",
+          "source_url": "https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_(2006_video_game)",
+          "evidence": "The article identifies Sega as publisher."
+        },
+        {
+          "field": "genre",
+          "value": [
+            "Platform",
+            "Action-adventure"
+          ],
+          "source_url": "https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_(2006_video_game)",
+          "evidence": "The article lists platform and action-adventure genres."
+        },
+        {
+          "field": "original_platform",
+          "value": "Xbox 360",
+          "source_url": "https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_(2006_video_game)",
+          "evidence": "The game launched first on Xbox 360 in November 2006; the PlayStation 3 release followed."
+        },
+        {
+          "field": "release_year",
+          "value": 2006,
+          "source_url": "https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_(2006_video_game)",
+          "evidence": "The article gives the Xbox 360 release date as November 14, 2006 in North America."
+        }
+      ],
+      "catalog_disposition": "Existing sourced facts are already in catalog game_facts; not staged as a profile replacement."
+    },
+    {
+      "game_key": "Terraria (Xbox 360 Edition)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Terraria",
+      "wikipedia_link_disposition": "Existing direct Wikipedia article retained.",
+      "facts": [
+        {
+          "field": "developer",
+          "value": "Re-Logic (original game); Engine Software (Xbox 360/PS3 port)",
+          "source_url": "https://en.wikipedia.org/wiki/Terraria",
+          "evidence": "The article credits Re-Logic for the original game and says Engine Software worked with 505 Games on the Xbox 360 and PlayStation 3 ports."
+        },
+        {
+          "field": "publisher",
+          "value": "Re-Logic (original game); 505 Games (Xbox 360 release)",
+          "source_url": "https://en.wikipedia.org/wiki/Terraria",
+          "evidence": "The article credits Re-Logic for the original game and identifies 505 Games in the console-port history."
+        },
+        {
+          "field": "genre",
+          "value": [
+            "Action-adventure",
+            "Sandbox"
+          ],
+          "source_url": "https://en.wikipedia.org/wiki/Terraria",
+          "evidence": "The article lists action-adventure and sandbox."
+        },
+        {
+          "field": "original_platform",
+          "value": "Windows",
+          "source_url": "https://en.wikipedia.org/wiki/Terraria",
+          "evidence": "The article gives Windows as the original platform and a May 16, 2011 release."
+        },
+        {
+          "field": "original_release_year",
+          "value": 2011,
+          "source_url": "https://en.wikipedia.org/wiki/Terraria",
+          "evidence": "The article dates the Windows release to May 16, 2011."
+        },
+        {
+          "field": "target_variant_platform",
+          "value": "Xbox 360",
+          "source_url": "https://en.wikipedia.org/wiki/Terraria",
+          "evidence": "The article lists Xbox 360 as a platform."
+        },
+        {
+          "field": "target_variant_release_year",
+          "value": 2013,
+          "source_url": "https://en.wikipedia.org/wiki/Terraria",
+          "evidence": "The article dates the Xbox 360 release to March 27, 2013."
+        }
+      ],
+      "catalog_disposition": "Existing sourced variant facts are already in catalog game_facts; not staged as a profile replacement."
+    },
+    {
+      "game_key": "Ace Combat 6: Fires of Liberation",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Ace_Combat_6:_Fires_of_Liberation",
+      "wikipedia_link_disposition": "Existing direct Wikipedia article retained.",
+      "facts": [
+        {
+          "field": "developer",
+          "value": "Project Aces",
+          "source_url": "https://en.wikipedia.org/wiki/Ace_Combat_6:_Fires_of_Liberation",
+          "evidence": "The article identifies Project Aces as developer."
+        },
+        {
+          "field": "publisher",
+          "value": "Namco Bandai Games",
+          "source_url": "https://en.wikipedia.org/wiki/Ace_Combat_6:_Fires_of_Liberation",
+          "evidence": "The article identifies Namco Bandai Games as publisher."
+        },
+        {
+          "field": "genre",
+          "value": "Air combat simulation",
+          "source_url": "https://en.wikipedia.org/wiki/Ace_Combat_6:_Fires_of_Liberation",
+          "evidence": "The article lists Air combat simulation."
+        },
+        {
+          "field": "original_platform",
+          "value": "Xbox 360",
+          "source_url": "https://en.wikipedia.org/wiki/Ace_Combat_6:_Fires_of_Liberation",
+          "evidence": "The article identifies Xbox 360 as the exclusive original platform."
+        },
+        {
+          "field": "release_year",
+          "value": 2007,
+          "source_url": "https://en.wikipedia.org/wiki/Ace_Combat_6:_Fires_of_Liberation",
+          "evidence": "The article dates the regional Xbox 360 releases to October–December 2007."
+        }
+      ],
+      "catalog_disposition": "Existing sourced facts are already in catalog game_facts; not staged as a profile replacement."
+    },
+    {
+      "game_key": "Monster Hunter (PS2, Japan)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Monster_Hunter_(video_game)",
+      "wikipedia_link_disposition": "New direct Wikipedia-link record staged.",
+      "facts": [
+        {
+          "field": "developer",
+          "value": "Capcom Production Studio 1",
+          "source_url": "https://en.wikipedia.org/wiki/Monster_Hunter_(video_game)",
+          "evidence": "The article infobox credits Capcom Production Studio 1."
+        },
+        {
+          "field": "publisher",
+          "value": "Capcom",
+          "source_url": "https://en.wikipedia.org/wiki/Monster_Hunter_(video_game)",
+          "evidence": "The article infobox credits Capcom."
+        },
+        {
+          "field": "genre",
+          "value": "Action role-playing",
+          "source_url": "https://en.wikipedia.org/wiki/Monster_Hunter_(video_game)",
+          "evidence": "The article lists action role-playing."
+        },
+        {
+          "field": "original_platform",
+          "value": "PlayStation 2",
+          "source_url": "https://en.wikipedia.org/wiki/Monster_Hunter_(video_game)",
+          "evidence": "The article identifies the Japanese original release on PlayStation 2."
+        },
+        {
+          "field": "release_year",
+          "value": 2004,
+          "source_url": "https://en.wikipedia.org/wiki/Monster_Hunter_(video_game)",
+          "evidence": "The Japanese PlayStation 2 release date is March 11, 2004."
+        }
+      ],
+      "catalog_disposition": "New additive profile staged because this game key has no existing fact rows."
+    },
+    {
+      "game_key": "Monster Hunter G (PS2, Japan)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Monster+Hunter+G",
+      "wikipedia_title": "Exact-title Wikipedia search fallback; the reviewed Monster Hunter (video game) article covers the G release.",
+      "wikipedia_link_disposition": "New exact-title Wikipedia search-fallback record staged.",
+      "facts": [
+        {
+          "field": "developer",
+          "value": null,
+          "source_url": "https://en.wikipedia.org/wiki/Monster_Hunter_(video_game)",
+          "evidence": "Reviewed article does not separately credit a developer for Monster Hunter G; left unknown."
+        },
+        {
+          "field": "publisher",
+          "value": null,
+          "source_url": "https://en.wikipedia.org/wiki/Monster_Hunter_(video_game)",
+          "evidence": "Reviewed article does not separately credit a publisher for Monster Hunter G; left unknown."
+        },
+        {
+          "field": "genre",
+          "value": null,
+          "source_url": "https://en.wikipedia.org/wiki/Monster_Hunter_(video_game)",
+          "evidence": "Reviewed article does not separately assign a genre for Monster Hunter G; left unknown."
+        },
+        {
+          "field": "original_platform",
+          "value": "PlayStation 2",
+          "source_url": "https://en.wikipedia.org/wiki/Monster_Hunter_(video_game)",
+          "evidence": "The article says Monster Hunter G released in Japan for PlayStation 2."
+        },
+        {
+          "field": "release_year",
+          "value": 2005,
+          "source_url": "https://en.wikipedia.org/wiki/Monster_Hunter_(video_game)",
+          "evidence": "The article dates the Japanese PS2 release to January 20, 2005."
+        }
+      ],
+      "catalog_disposition": "New additive profile staged because this game key has no existing fact rows. Developer, publisher and genre remain explicitly unknown."
+    }
+  ]
+}

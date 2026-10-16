@@ -1,0 +1,120 @@
+{
+  "updated": "2026-10-16",
+  "scope": "Two primary-source-verified, software-target API translation/runtime candidates absent from the current catalog and prior staged research: a QEMU macOS guest paravirtual-GPU command-stream bridge, and an experimental source-level Metal-shaped API prototype. Both descriptions restrict compatibility claims to documented interfaces and tests.",
+  "projects": [
+    {
+      "id": "reims-vgpu",
+      "title": "reims-vgpu",
+      "game": "macOS guest virtual GPU in QEMU (multi-version software target)",
+      "target_type": "Software",
+      "platform": "arm64 macOS guests on Apple Silicon macOS hosts (Metal by default; optional Vulkan through MoltenVK), and x86_64 macOS guests on x86_64 Linux/KVM hosts (Vulkan through metal2vulkan)",
+      "kind": "API Translation",
+      "status": "Beta. The README says the implementation has largely stabilized while host- and GPU-driver-dependent differences remain. No GitHub release tags were present on 2026-10-16. The README reports tests for arm64 macOS 13, 14, 15, and 26 guests on an M3 Max, and an x86_64 macOS 26 guest on Linux with an RTX 5080 laptop GPU. Latest default-branch commit checked: c099dd5a4d61107a5527efc64cf1d1ab2f3a9b85 (2026-10-14). These results do not establish support for all guest versions or GPUs.",
+      "summary": "A QEMU virtual GPU for macOS guests that reuses Apple’s bundled AppleParavirtGPU.kext without installing a guest driver. It replaces the host-side ParavirtualizedGraphics.framework and runs the guest GPU command stream through native Metal on macOS, or through Vulkan on Linux using metal2vulkan. This is a guest paravirtual-GPU command-stream bridge, not a general application-level Metal, Direct3D, or OpenGL compatibility layer; compatibility remains host/GPU dependent.",
+      "project_url": "https://github.com/steelbrain/reims-vgpu",
+      "updated": "2026-10-16",
+      "strategy": "Implements the host side of Apple’s macOS paravirtual GPU protocol for QEMU: QEMU apple-gfx devices link a C API to a Rust library, which consumes the guest command stream and submits work to Metal or Vulkan. On Linux, the Vulkan platform uses metal2vulkan; on Apple Silicon, native Metal is the default and an optional Vulkan path uses MoltenVK.",
+      "language": "",
+      "source_available": "Public source. Workspace declares GPL-2.0-or-later OR LGPL-3.0-or-later at the recipient’s choice. QEMU and dependencies preserve their own license terms.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "Rust",
+      "subtype": "macOS guest paravirtual GPU command-stream translation",
+      "sources": [
+        {
+          "label": "Canonical repository README: Beta status, purpose, tested guests/hosts, and no guest-driver requirement",
+          "url": "https://github.com/steelbrain/reims-vgpu"
+        },
+        {
+          "label": "README three-pathway matrix: Apple Silicon Metal, Linux Vulkan, and optional Apple Silicon Vulkan through MoltenVK",
+          "url": "https://github.com/steelbrain/reims-vgpu/blob/master/README.md#three-pathways"
+        },
+        {
+          "label": "README development section: replacement of ParavirtualizedGraphics.framework and guest command-stream execution",
+          "url": "https://github.com/steelbrain/reims-vgpu/blob/master/README.md#developing"
+        },
+        {
+          "label": "QEMU integration and test details",
+          "url": "https://github.com/steelbrain/reims-vgpu/blob/master/docs/qemu.md"
+        },
+        {
+          "label": "Repository license terms and dependency-license caveat",
+          "url": "https://github.com/steelbrain/reims-vgpu/blob/master/README.md#license"
+        },
+        {
+          "label": "Latest default-branch commit checked 2026-10-16",
+          "url": "https://github.com/steelbrain/reims-vgpu/commit/c099dd5a4d61107a5527efc64cf1d1ab2f3a9b85"
+        },
+        {
+          "label": "GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/steelbrain/reims-vgpu"
+        },
+        {
+          "label": "GitHub releases API; no tagged releases as checked 2026-10-16",
+          "url": "https://api.github.com/repos/steelbrain/reims-vgpu/releases?per_page=10"
+        }
+      ]
+    },
+    {
+      "id": "metal-api-emulator",
+      "title": "Metal API emulator experiment",
+      "game": "Metal-shaped host-side compute and limited render workloads (source-level multi-workload prototype)",
+      "target_type": "Software",
+      "platform": "Rust source-level Metal-shaped workloads on Linux or Windows through Vulkan, and on macOS through a native Metal provider; Windows guest/QEMU integration is separately experimental and uses a local reims-vgpu adapter",
+      "kind": "API Translation",
+      "status": "Experimental. The README documents a working Rust source-level compute object path and a limited compute/render provider prototype, with native Metal and Vulkan implementations and parity tests. It explicitly says this is not a Metal.framework ABI implementation; arbitrary AIR/MSL, general Metal name resolution, broad render/presentation features, and production reims integration remain incomplete. No GitHub releases were present on 2026-10-16. Latest default-branch commit checked: 226af8c833f9379446dedf744dfa691d760db641 (2026-09-22). Treat its Windows/QEMU census results as maintainer-reported experiments, not general compatibility claims.",
+      "summary": "An independent Rust prototype that exposes a source-level, Metal-shaped object API and executes supported workloads through a Vulkan provider; a native Metal provider is also used for parity research. The documented path includes buffer compute and a narrow render/present subset. It is not a Metal.framework ABI or binary-compatibility implementation, does not load arbitrary macOS applications, and does not claim full Metal conformance. Its optional integration with reims-vgpu is a local experimental adapter, not an upstream reims architecture.",
+      "project_url": "https://github.com/Hi-Jiajun/metal-api-emulator",
+      "updated": "2026-10-16",
+      "strategy": "Implements Rust Device/Library/Function/pipeline/queue/command-buffer objects and a source-level command contract. The Vulkan provider translates accepted AIR-based workload fixtures through a pinned metal2vulkan revision; a native Metal provider provides a parity rail. Unsupported cases are refused or left outside the implemented subset rather than claimed compatible.",
+      "language": "",
+      "source_available": "Public Rust source. Workspace Cargo.toml declares LGPL-3.0-or-later; COPYING and NOTICE identify the incorporated GPL-3 text and separately licensed dependencies/adapters. GitHub detects LGPL-3.0 and GPL-3.0 license files; do not treat the experimental QEMU/reims integration or pinned dependencies as covered by one project-wide term.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "Rust",
+      "subtype": "source-level Metal-shaped API prototype with Vulkan/native Metal providers",
+      "sources": [
+        {
+          "label": "Canonical README: independent source-level API prototype, implemented object path, and explicit ABI limitation",
+          "url": "https://github.com/Hi-Jiajun/metal-api-emulator"
+        },
+        {
+          "label": "README current status and API/provider behavior",
+          "url": "https://github.com/Hi-Jiajun/metal-api-emulator#current-status"
+        },
+        {
+          "label": "README implementation boundaries and unimplemented API coverage",
+          "url": "https://github.com/Hi-Jiajun/metal-api-emulator/blob/main/README.md#current-status"
+        },
+        {
+          "label": "Build and host evidence for Linux Vulkan/Lavapipe, Windows Vulkan, and provider smoke suites",
+          "url": "https://github.com/Hi-Jiajun/metal-api-emulator#build-and-test-the-standalone-workspace"
+        },
+        {
+          "label": "Workspace Cargo manifest: LGPL-3.0-or-later and pinned metal2vulkan revision",
+          "url": "https://github.com/Hi-Jiajun/metal-api-emulator/blob/main/Cargo.toml"
+        },
+        {
+          "label": "NOTICE: project independence, fixture attribution, local reims patch, and third-party license boundaries",
+          "url": "https://github.com/Hi-Jiajun/metal-api-emulator/blob/main/NOTICE.md"
+        },
+        {
+          "label": "COPYING: incorporated GPL-3 text",
+          "url": "https://github.com/Hi-Jiajun/metal-api-emulator/blob/main/COPYING"
+        },
+        {
+          "label": "Latest default-branch commit checked 2026-10-16",
+          "url": "https://github.com/Hi-Jiajun/metal-api-emulator/commit/226af8c833f9379446dedf744dfa691d760db641"
+        },
+        {
+          "label": "GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/Hi-Jiajun/metal-api-emulator"
+        },
+        {
+          "label": "GitHub releases API; no tagged releases as checked 2026-10-16",
+          "url": "https://api.github.com/repos/Hi-Jiajun/metal-api-emulator/releases?per_page=10"
+        }
+      ]
+    }
+  ]
+}

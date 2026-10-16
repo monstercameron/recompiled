@@ -1,0 +1,54 @@
+{
+  "verified_at": "2026-10-16",
+  "status": "passed",
+  "staging_directory": "/Users/earlcameron/Desktop/recompiled/work/research-2026-10-16/continuation-round13/switch-wiiu",
+  "counts": {
+    "project_additions": 5,
+    "programming_language_evidence": 5,
+    "game_profiles": 2,
+    "game_facts": 12,
+    "wikipedia_links": 2,
+    "held_candidates": 2,
+    "other_excluded_candidates": 15,
+    "candidate_repositories_snapshotted": 26,
+    "local_text_snapshot_files": 145
+  },
+  "checks": [
+    {
+      "name": "JSON syntax",
+      "result": "passed",
+      "evidence": "Every top-level JSON staging file parsed with json.loads."
+    },
+    {
+      "name": "Importer schema round-trip",
+      "result": "passed",
+      "evidence": "Actual scripts/catalog.py import_file, import_game_profiles, import_wikipedia_links, and import_programming_languages functions accepted the manifests on a disposable copy of the canonical SQLite database; 5 projects, 12 facts, 2 Wikipedia links, and 5 language records were inserted in the copy."
+    },
+    {
+      "name": "Scratch database integrity",
+      "result": "passed",
+      "evidence": "PRAGMA integrity_check returned ok; PRAGMA foreign_key_check returned no rows. The disposable database copy was removed after validation."
+    },
+    {
+      "name": "Canonical database dedupe",
+      "result": "passed",
+      "evidence": "Read-only check found 3,462 projects and no exact candidate ID or repository URL collisions; exact new-game keys had no existing facts."
+    },
+    {
+      "name": "Language map exactness",
+      "result": "passed",
+      "evidence": "Every staged byte map exactly matched the saved GitHub Languages API response for its canonical repository."
+    },
+    {
+      "name": "Source snapshots",
+      "result": "passed",
+      "evidence": "The source-snapshot index records SHA-256 hashes and byte counts for captured text/JSON evidence. No binary/game/media content is indexed."
+    }
+  ],
+  "canonical_database": {
+    "path": "/Users/earlcameron/Desktop/recompiled/data/catalog.sqlite",
+    "access": "read-only; no live importer was called",
+    "sha256_after_validation": "23ca4afe398ac57b79498017fff7e2a349276c9319d5e9a256c4cd68c1e2b7a9"
+  },
+  "tracked_files": "No tracked files were edited by this agent."
+}

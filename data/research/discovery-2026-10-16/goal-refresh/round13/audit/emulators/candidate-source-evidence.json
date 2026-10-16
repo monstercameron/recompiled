@@ -1,0 +1,1086 @@
+{
+  "verified_at": "2026-10-16",
+  "scope": "Primary-source scope, status, platform, license, release, language-map provenance, and target_type evidence for each staged candidate.",
+  "records": [
+    {
+      "project_id": "emulator-mister-deco16",
+      "canonical_repository": "mister-devel/arcade-deco16_mister",
+      "repo_url": "https://github.com/MiSTer-devel/Arcade-Deco16_Mister",
+      "verified_at": "2026-10-16",
+      "metadata": {
+        "full_name": "MiSTer-devel/Arcade-Deco16_Mister",
+        "html_url": "https://github.com/MiSTer-devel/Arcade-Deco16_Mister",
+        "description": "Deco16 Core for MiSTer",
+        "fork": false,
+        "archived": false,
+        "created_at": "2026-06-10T21:55:25Z",
+        "updated_at": "2026-09-10T14:06:23Z",
+        "pushed_at": "2026-08-27T15:03:17Z",
+        "default_branch": "main",
+        "language": "Verilog",
+        "stargazers_count": 6
+      },
+      "metadata_snapshot_source": "https://api.github.com/orgs/MiSTer-devel/repos?per_page=100&page=4",
+      "metadata_snapshot_retrieved": "2026-10-16",
+      "metadata_snapshot_record_index": 320,
+      "language_api_url": "https://api.github.com/repos/MiSTer-devel/Arcade-Deco16_Mister/languages",
+      "facts": [
+        {
+          "field": "scope",
+          "evidence": "A MiSTer FPGA arcade HDL wrapper for selected Data East DECO16 variants. The README says the design loosely represents the DECO16 board and currently runs five listed games; some chips are represented using MAME-derived information.",
+          "source_url": "https://raw.githubusercontent.com/MiSTer-devel/Arcade-Deco16_Mister/main/Readme.md"
+        },
+        {
+          "field": "status",
+          "evidence": "MiSTer-devel organization repository snapshot for 2026-10-16 reports pushed_at=2026-08-27T15:03:17Z, archived=False, fork=False. The repository's GitHub Releases page lists no formal release tags.",
+          "source_url": "https://api.github.com/orgs/MiSTer-devel/repos?per_page=100&page=4"
+        },
+        {
+          "field": "platform",
+          "evidence": "MiSTer FPGA arcade platform; Quartus project files and HDL are in the repository. Additional MiSTer SDRAM hardware requirements, if any, are described by the README.",
+          "source_url": "https://raw.githubusercontent.com/MiSTer-devel/Arcade-Deco16_Mister/main/Readme.md"
+        },
+        {
+          "field": "license",
+          "evidence": "The repository root contains LICENSE; its text begins with the GNU General Public License 2.0.",
+          "source_url": "https://raw.githubusercontent.com/MiSTer-devel/Arcade-Deco16_Mister/main/LICENSE"
+        },
+        {
+          "field": "release_status",
+          "evidence": "No formal GitHub release tag was listed on the repository Releases page at the 2026-10-16 check; any .rbf/.mra build artifacts are repo-managed files, not GitHub release records.",
+          "source_url": "https://github.com/MiSTer-devel/Arcade-Deco16_Mister/releases"
+        }
+      ],
+      "target_type_rationale": "The repository identifies this as a multi-game hardware-board core rather than a single-title port. The README cautions that it is not a preservation effort and lacks additional hardware verification.",
+      "target_system_key": "Data East DECO16 arcade games: Caveman Ninja, Crude Buster, Vapor Trail, Edward Randy / Cliffhanger, and Dark Seal",
+      "canonical_system_key": "Data East DECO16",
+      "source_file": "/Users/earlcameron/Desktop/recompiled/work/research-2026-10-16/continuation-round13/emulators/repo-snapshots/MiSTer-devel__Arcade-Deco16_Mister.json"
+    },
+    {
+      "project_id": "emulator-mister-sega-g80v",
+      "canonical_repository": "mister-devel/arcade-segag80v_mister",
+      "repo_url": "https://github.com/MiSTer-devel/Arcade-SegaG80V_MiSTer",
+      "verified_at": "2026-10-16",
+      "metadata": {
+        "full_name": "MiSTer-devel/Arcade-SegaG80V_MiSTer",
+        "html_url": "https://github.com/MiSTer-devel/Arcade-SegaG80V_MiSTer",
+        "description": null,
+        "fork": false,
+        "archived": false,
+        "created_at": "2026-08-14T10:38:15Z",
+        "updated_at": "2026-09-24T10:49:38Z",
+        "pushed_at": "2026-09-24T10:49:33Z",
+        "default_branch": "main",
+        "language": "Verilog",
+        "stargazers_count": 0
+      },
+      "metadata_snapshot_source": "https://api.github.com/orgs/MiSTer-devel/repos?per_page=100&page=4",
+      "metadata_snapshot_retrieved": "2026-10-16",
+      "metadata_snapshot_record_index": 352,
+      "language_api_url": "https://api.github.com/repos/MiSTer-devel/Arcade-SegaG80V_MiSTer/languages",
+      "facts": [
+        {
+          "field": "scope",
+          "evidence": "An FPGA implementation of Sega G80 color-vector arcade hardware for MiSTer, currently supporting Space Fury, Eliminator, Star Trek, Tac/Scan, and Zektor.",
+          "source_url": "https://raw.githubusercontent.com/MiSTer-devel/Arcade-SegaG80V_MiSTer/main/README.md"
+        },
+        {
+          "field": "status",
+          "evidence": "MiSTer-devel organization repository snapshot for 2026-10-16 reports pushed_at=2026-09-24T10:49:33Z, archived=False, fork=False. The repository's GitHub Releases page lists no formal release tags.",
+          "source_url": "https://api.github.com/orgs/MiSTer-devel/repos?per_page=100&page=4"
+        },
+        {
+          "field": "platform",
+          "evidence": "MiSTer FPGA arcade platform; Quartus project files and HDL are in the repository. Additional MiSTer SDRAM hardware requirements, if any, are described by the README.",
+          "source_url": "https://raw.githubusercontent.com/MiSTer-devel/Arcade-SegaG80V_MiSTer/main/README.md"
+        },
+        {
+          "field": "license",
+          "evidence": "The repository root contains COPYING; its text begins with the GNU General Public License 3.0.",
+          "source_url": "https://raw.githubusercontent.com/MiSTer-devel/Arcade-SegaG80V_MiSTer/main/COPYING"
+        },
+        {
+          "field": "release_status",
+          "evidence": "No formal GitHub release tag was listed on the repository Releases page at the 2026-10-16 check; any .rbf/.mra build artifacts are repo-managed files, not GitHub release records.",
+          "source_url": "https://github.com/MiSTer-devel/Arcade-SegaG80V_MiSTer/releases"
+        }
+      ],
+      "target_type_rationale": "The README explicitly describes a reusable Sega G80V hardware implementation and names five supported games.",
+      "target_system_key": "Sega G80V vector arcade games: Space Fury, Eliminator, Star Trek, Tac/Scan, and Zektor",
+      "canonical_system_key": "Sega G80V",
+      "source_file": "/Users/earlcameron/Desktop/recompiled/work/research-2026-10-16/continuation-round13/emulators/repo-snapshots/MiSTer-devel__Arcade-SegaG80V_MiSTer.json"
+    },
+    {
+      "project_id": "emulator-mister-sega-vco",
+      "canonical_repository": "mister-devel/arcade-segavco_mister",
+      "repo_url": "https://github.com/MiSTer-devel/Arcade-SegaVCO_MiSTer",
+      "verified_at": "2026-10-16",
+      "metadata": {
+        "full_name": "MiSTer-devel/Arcade-SegaVCO_MiSTer",
+        "html_url": "https://github.com/MiSTer-devel/Arcade-SegaVCO_MiSTer",
+        "description": "SegaVCO core for MiSTer FPGA",
+        "fork": false,
+        "archived": false,
+        "created_at": "2026-10-03T04:13:00Z",
+        "updated_at": "2026-10-03T04:29:13Z",
+        "pushed_at": "2026-10-03T04:29:08Z",
+        "default_branch": "main",
+        "language": "Verilog",
+        "stargazers_count": 0
+      },
+      "metadata_snapshot_source": "https://api.github.com/orgs/MiSTer-devel/repos?per_page=100&page=4",
+      "metadata_snapshot_retrieved": "2026-10-16",
+      "metadata_snapshot_record_index": 393,
+      "language_api_url": "https://api.github.com/repos/MiSTer-devel/Arcade-SegaVCO_MiSTer/languages",
+      "facts": [
+        {
+          "field": "scope",
+          "evidence": "A MiSTer FPGA core for Sega VCO arcade board hardware, running Turbo and the unencrypted Buck Rogers: Planet of Zoom set on one bitstream.",
+          "source_url": "https://raw.githubusercontent.com/MiSTer-devel/Arcade-SegaVCO_MiSTer/main/README.md"
+        },
+        {
+          "field": "status",
+          "evidence": "MiSTer-devel organization repository snapshot for 2026-10-16 reports pushed_at=2026-10-03T04:29:08Z, archived=False, fork=False. The repository's GitHub Releases page lists no formal release tags.",
+          "source_url": "https://api.github.com/orgs/MiSTer-devel/repos?per_page=100&page=4"
+        },
+        {
+          "field": "platform",
+          "evidence": "MiSTer FPGA arcade platform; Quartus project files and HDL are in the repository. Additional MiSTer SDRAM hardware requirements, if any, are described by the README.",
+          "source_url": "https://raw.githubusercontent.com/MiSTer-devel/Arcade-SegaVCO_MiSTer/main/README.md"
+        },
+        {
+          "field": "license",
+          "evidence": "The repository root contains LICENSE; its text begins with the GNU General Public License 3.0.",
+          "source_url": "https://raw.githubusercontent.com/MiSTer-devel/Arcade-SegaVCO_MiSTer/main/LICENSE"
+        },
+        {
+          "field": "release_status",
+          "evidence": "No formal GitHub release tag was listed on the repository Releases page at the 2026-10-16 check; any .rbf/.mra build artifacts are repo-managed files, not GitHub release records.",
+          "source_url": "https://github.com/MiSTer-devel/Arcade-SegaVCO_MiSTer/releases"
+        }
+      ],
+      "target_type_rationale": "The core targets a two-game Sega board family and uses MRA files to select the game.",
+      "target_system_key": "Sega VCO arcade board family: Turbo and Buck Rogers: Planet of Zoom",
+      "canonical_system_key": "Sega VCO",
+      "source_file": "/Users/earlcameron/Desktop/recompiled/work/research-2026-10-16/continuation-round13/emulators/repo-snapshots/MiSTer-devel__Arcade-SegaVCO_MiSTer.json"
+    },
+    {
+      "project_id": "emulator-mister-sega-system1",
+      "canonical_repository": "mister-devel/arcade-segasys1_mister",
+      "repo_url": "https://github.com/MiSTer-devel/Arcade-SEGASYS1_MiSTer",
+      "verified_at": "2026-10-16",
+      "metadata": {
+        "full_name": "MiSTer-devel/Arcade-SEGASYS1_MiSTer",
+        "html_url": "https://github.com/MiSTer-devel/Arcade-SEGASYS1_MiSTer",
+        "description": "Sega System 1 for MiSTer",
+        "fork": false,
+        "archived": false,
+        "created_at": "2020-11-15T13:01:46Z",
+        "updated_at": "2026-09-20T00:43:24Z",
+        "pushed_at": "2026-07-15T09:49:58Z",
+        "default_branch": "main",
+        "language": "Verilog",
+        "stargazers_count": 10
+      },
+      "metadata_snapshot_source": "https://api.github.com/orgs/MiSTer-devel/repos?per_page=100&page=2",
+      "metadata_snapshot_retrieved": "2026-10-16",
+      "metadata_snapshot_record_index": 156,
+      "language_api_url": "https://api.github.com/repos/MiSTer-devel/Arcade-SEGASYS1_MiSTer/languages",
+      "facts": [
+        {
+          "field": "scope",
+          "evidence": "A MiSTer FPGA core for Sega System 1. Its README lists 18 currently implemented games and three not yet implemented.",
+          "source_url": "https://raw.githubusercontent.com/MiSTer-devel/Arcade-SEGASYS1_MiSTer/main/README.md"
+        },
+        {
+          "field": "status",
+          "evidence": "MiSTer-devel organization repository snapshot for 2026-10-16 reports pushed_at=2026-07-15T09:49:58Z, archived=False, fork=False. The repository's GitHub Releases page lists no formal release tags.",
+          "source_url": "https://api.github.com/orgs/MiSTer-devel/repos?per_page=100&page=2"
+        },
+        {
+          "field": "platform",
+          "evidence": "MiSTer FPGA arcade platform; Quartus project files and HDL are in the repository. Additional MiSTer SDRAM hardware requirements, if any, are described by the README.",
+          "source_url": "https://raw.githubusercontent.com/MiSTer-devel/Arcade-SEGASYS1_MiSTer/main/README.md"
+        },
+        {
+          "field": "license",
+          "evidence": "The repository root contains LICENSE; its text begins with the GNU General Public License 3.0.",
+          "source_url": "https://raw.githubusercontent.com/MiSTer-devel/Arcade-SEGASYS1_MiSTer/main/LICENSE"
+        },
+        {
+          "field": "release_status",
+          "evidence": "No formal GitHub release tag was listed on the repository Releases page at the 2026-10-16 check; any .rbf/.mra build artifacts are repo-managed files, not GitHub release records.",
+          "source_url": "https://github.com/MiSTer-devel/Arcade-SEGASYS1_MiSTer/releases"
+        }
+      ],
+      "target_type_rationale": "It implements a multi-game arcade hardware platform; the README distinguishes supported and incomplete System 1 titles.",
+      "target_system_key": "Sega System 1 arcade games, including 4-D Warriors, Flicky, Wonder Boy, Pitfall II, Sega Ninja, and 13 other README-listed titles",
+      "canonical_system_key": "Sega System 1",
+      "source_file": "/Users/earlcameron/Desktop/recompiled/work/research-2026-10-16/continuation-round13/emulators/repo-snapshots/MiSTer-devel__Arcade-SEGASYS1_MiSTer.json"
+    },
+    {
+      "project_id": "emulator-mister-mcr1",
+      "canonical_repository": "mister-devel/arcade-mcr1_mister",
+      "repo_url": "https://github.com/MiSTer-devel/Arcade-MCR1_MiSTer",
+      "verified_at": "2026-10-16",
+      "metadata": {
+        "full_name": "MiSTer-devel/Arcade-MCR1_MiSTer",
+        "html_url": "https://github.com/MiSTer-devel/Arcade-MCR1_MiSTer",
+        "description": "Arcade: Midway MCR1 games",
+        "fork": false,
+        "archived": false,
+        "created_at": "2020-02-04T01:10:43Z",
+        "updated_at": "2026-07-13T01:13:38Z",
+        "pushed_at": "2026-07-13T01:13:33Z",
+        "default_branch": "master",
+        "language": "VHDL",
+        "stargazers_count": 3
+      },
+      "metadata_snapshot_source": "https://api.github.com/orgs/MiSTer-devel/repos?per_page=100&page=2",
+      "metadata_snapshot_retrieved": "2026-10-16",
+      "metadata_snapshot_record_index": 125,
+      "language_api_url": "https://api.github.com/repos/MiSTer-devel/Arcade-MCR1_MiSTer/languages",
+      "facts": [
+        {
+          "field": "scope",
+          "evidence": "A MiSTer FPGA core targeting Midway MCR1 hardware, with Kick and Solar Fox listed as supported. Draw Poker is explicitly marked unsupported.",
+          "source_url": "https://raw.githubusercontent.com/MiSTer-devel/Arcade-MCR1_MiSTer/master/README.md"
+        },
+        {
+          "field": "status",
+          "evidence": "MiSTer-devel organization repository snapshot for 2026-10-16 reports pushed_at=2026-07-13T01:13:33Z, archived=False, fork=False. The repository's GitHub Releases page lists no formal release tags.",
+          "source_url": "https://api.github.com/orgs/MiSTer-devel/repos?per_page=100&page=2"
+        },
+        {
+          "field": "platform",
+          "evidence": "MiSTer FPGA arcade platform; Quartus project files and HDL are in the repository. Additional MiSTer SDRAM hardware requirements, if any, are described by the README.",
+          "source_url": "https://raw.githubusercontent.com/MiSTer-devel/Arcade-MCR1_MiSTer/master/README.md"
+        },
+        {
+          "field": "license",
+          "evidence": "No root LICENSE/LICENCE/COPYING/COPYRIGHT file was present in the GitHub repository root listing. README/source headers may attribute third-party components, but no single repository-wide license grant is stated.",
+          "source_url": "https://github.com/MiSTer-devel/Arcade-MCR1_MiSTer"
+        },
+        {
+          "field": "release_status",
+          "evidence": "No formal GitHub release tag was listed on the repository Releases page at the 2026-10-16 check; any .rbf/.mra build artifacts are repo-managed files, not GitHub release records.",
+          "source_url": "https://github.com/MiSTer-devel/Arcade-MCR1_MiSTer/releases"
+        }
+      ],
+      "target_type_rationale": "The repository presents a board-family core with more than one supported title, not a game-only port.",
+      "target_system_key": "Midway MCR1 arcade games Kick and Solar Fox",
+      "canonical_system_key": "Midway MCR1",
+      "source_file": "/Users/earlcameron/Desktop/recompiled/work/research-2026-10-16/continuation-round13/emulators/repo-snapshots/MiSTer-devel__Arcade-MCR1_MiSTer.json"
+    },
+    {
+      "project_id": "emulator-mister-mcr2",
+      "canonical_repository": "mister-devel/arcade-mcr2_mister",
+      "repo_url": "https://github.com/MiSTer-devel/Arcade-MCR2_MiSTer",
+      "verified_at": "2026-10-16",
+      "metadata": {
+        "full_name": "MiSTer-devel/Arcade-MCR2_MiSTer",
+        "html_url": "https://github.com/MiSTer-devel/Arcade-MCR2_MiSTer",
+        "description": null,
+        "fork": false,
+        "archived": false,
+        "created_at": "2020-01-25T16:59:47Z",
+        "updated_at": "2026-07-13T01:13:28Z",
+        "pushed_at": "2026-07-13T01:13:22Z",
+        "default_branch": "master",
+        "language": "VHDL",
+        "stargazers_count": 3
+      },
+      "metadata_snapshot_source": "https://api.github.com/orgs/MiSTer-devel/repos?per_page=100&page=2",
+      "metadata_snapshot_retrieved": "2026-10-16",
+      "metadata_snapshot_record_index": 121,
+      "language_api_url": "https://api.github.com/repos/MiSTer-devel/Arcade-MCR2_MiSTer/languages",
+      "facts": [
+        {
+          "field": "scope",
+          "evidence": "A MiSTer FPGA core for Midway MCR2 hardware with six games listed in its README.",
+          "source_url": "https://raw.githubusercontent.com/MiSTer-devel/Arcade-MCR2_MiSTer/master/README.md"
+        },
+        {
+          "field": "status",
+          "evidence": "MiSTer-devel organization repository snapshot for 2026-10-16 reports pushed_at=2026-07-13T01:13:22Z, archived=False, fork=False. The repository's GitHub Releases page lists no formal release tags.",
+          "source_url": "https://api.github.com/orgs/MiSTer-devel/repos?per_page=100&page=2"
+        },
+        {
+          "field": "platform",
+          "evidence": "MiSTer FPGA arcade platform; Quartus project files and HDL are in the repository. Additional MiSTer SDRAM hardware requirements, if any, are described by the README.",
+          "source_url": "https://raw.githubusercontent.com/MiSTer-devel/Arcade-MCR2_MiSTer/master/README.md"
+        },
+        {
+          "field": "license",
+          "evidence": "No root LICENSE/LICENCE/COPYING/COPYRIGHT file was present in the GitHub repository root listing. README/source headers may attribute third-party components, but no single repository-wide license grant is stated.",
+          "source_url": "https://github.com/MiSTer-devel/Arcade-MCR2_MiSTer"
+        },
+        {
+          "field": "release_status",
+          "evidence": "No formal GitHub release tag was listed on the repository Releases page at the 2026-10-16 check; any .rbf/.mra build artifacts are repo-managed files, not GitHub release records.",
+          "source_url": "https://github.com/MiSTer-devel/Arcade-MCR2_MiSTer/releases"
+        }
+      ],
+      "target_type_rationale": "The README documents six selectable games in a common MCR2 core.",
+      "target_system_key": "Midway MCR2 games: Domino Man, Kozmik Krooz’r, Satan’s Hollow, Tron, Two Tigers, and Wacko",
+      "canonical_system_key": "Midway MCR2",
+      "source_file": "/Users/earlcameron/Desktop/recompiled/work/research-2026-10-16/continuation-round13/emulators/repo-snapshots/MiSTer-devel__Arcade-MCR2_MiSTer.json"
+    },
+    {
+      "project_id": "emulator-mister-mcr3",
+      "canonical_repository": "mister-devel/arcade-mcr3_mister",
+      "repo_url": "https://github.com/MiSTer-devel/Arcade-MCR3_MiSTer",
+      "verified_at": "2026-10-16",
+      "metadata": {
+        "full_name": "MiSTer-devel/Arcade-MCR3_MiSTer",
+        "html_url": "https://github.com/MiSTer-devel/Arcade-MCR3_MiSTer",
+        "description": "Arcade: Midway MCR3 based games",
+        "fork": false,
+        "archived": false,
+        "created_at": "2020-01-26T19:14:43Z",
+        "updated_at": "2026-07-13T01:13:20Z",
+        "pushed_at": "2026-07-13T01:13:14Z",
+        "default_branch": "master",
+        "language": "VHDL",
+        "stargazers_count": 5
+      },
+      "metadata_snapshot_source": "https://api.github.com/orgs/MiSTer-devel/repos?per_page=100&page=2",
+      "metadata_snapshot_retrieved": "2026-10-16",
+      "metadata_snapshot_record_index": 122,
+      "language_api_url": "https://api.github.com/repos/MiSTer-devel/Arcade-MCR3_MiSTer/languages",
+      "facts": [
+        {
+          "field": "scope",
+          "evidence": "A MiSTer FPGA core for Midway MCR3 hardware with four supported games listed in its README.",
+          "source_url": "https://raw.githubusercontent.com/MiSTer-devel/Arcade-MCR3_MiSTer/master/README.md"
+        },
+        {
+          "field": "status",
+          "evidence": "MiSTer-devel organization repository snapshot for 2026-10-16 reports pushed_at=2026-07-13T01:13:14Z, archived=False, fork=False. The repository's GitHub Releases page lists no formal release tags.",
+          "source_url": "https://api.github.com/orgs/MiSTer-devel/repos?per_page=100&page=2"
+        },
+        {
+          "field": "platform",
+          "evidence": "MiSTer FPGA arcade platform; Quartus project files and HDL are in the repository. Additional MiSTer SDRAM hardware requirements, if any, are described by the README.",
+          "source_url": "https://raw.githubusercontent.com/MiSTer-devel/Arcade-MCR3_MiSTer/master/README.md"
+        },
+        {
+          "field": "license",
+          "evidence": "No root LICENSE/LICENCE/COPYING/COPYRIGHT file was present in the GitHub repository root listing. README/source headers may attribute third-party components, but no single repository-wide license grant is stated.",
+          "source_url": "https://github.com/MiSTer-devel/Arcade-MCR3_MiSTer"
+        },
+        {
+          "field": "release_status",
+          "evidence": "No formal GitHub release tag was listed on the repository Releases page at the 2026-10-16 check; any .rbf/.mra build artifacts are repo-managed files, not GitHub release records.",
+          "source_url": "https://github.com/MiSTer-devel/Arcade-MCR3_MiSTer/releases"
+        }
+      ],
+      "target_type_rationale": "The repository targets the MCR3 board family and provides multiple game MRAs.",
+      "target_system_key": "Midway MCR3 games: Timber, Tapper, Discs of Tron, and Journey",
+      "canonical_system_key": "Midway MCR3",
+      "source_file": "/Users/earlcameron/Desktop/recompiled/work/research-2026-10-16/continuation-round13/emulators/repo-snapshots/MiSTer-devel__Arcade-MCR3_MiSTer.json"
+    },
+    {
+      "project_id": "emulator-mister-tecmo",
+      "canonical_repository": "mister-devel/arcade-tecmo_mister",
+      "repo_url": "https://github.com/MiSTer-devel/Arcade-Tecmo_MiSTer",
+      "verified_at": "2026-10-16",
+      "metadata": {
+        "full_name": "MiSTer-devel/Arcade-Tecmo_MiSTer",
+        "html_url": "https://github.com/MiSTer-devel/Arcade-Tecmo_MiSTer",
+        "description": "MiSTer arcade core for Tecmo arcade classics: Rygar (1986), Gemini Wing (1987), and Silkworm (1988).",
+        "fork": false,
+        "archived": false,
+        "created_at": "2020-06-15T02:36:58Z",
+        "updated_at": "2026-09-20T01:09:37Z",
+        "pushed_at": "2026-03-12T05:46:47Z",
+        "default_branch": "master",
+        "language": "VHDL",
+        "stargazers_count": 15
+      },
+      "metadata_snapshot_source": "https://api.github.com/orgs/MiSTer-devel/repos?per_page=100&page=2",
+      "metadata_snapshot_retrieved": "2026-10-16",
+      "metadata_snapshot_record_index": 143,
+      "language_api_url": "https://api.github.com/repos/MiSTer-devel/Arcade-Tecmo_MiSTer/languages",
+      "facts": [
+        {
+          "field": "scope",
+          "evidence": "A MiSTer FPGA core for Tecmo arcade hardware, currently supporting Rygar, Gemini Wing, and Silkworm.",
+          "source_url": "https://raw.githubusercontent.com/MiSTer-devel/Arcade-Tecmo_MiSTer/master/README.md"
+        },
+        {
+          "field": "status",
+          "evidence": "MiSTer-devel organization repository snapshot for 2026-10-16 reports pushed_at=2026-03-12T05:46:47Z, archived=False, fork=False. The repository's GitHub Releases page lists no formal release tags.",
+          "source_url": "https://api.github.com/orgs/MiSTer-devel/repos?per_page=100&page=2"
+        },
+        {
+          "field": "platform",
+          "evidence": "MiSTer FPGA arcade platform; Quartus project files and HDL are in the repository. Additional MiSTer SDRAM hardware requirements, if any, are described by the README.",
+          "source_url": "https://raw.githubusercontent.com/MiSTer-devel/Arcade-Tecmo_MiSTer/master/README.md"
+        },
+        {
+          "field": "license",
+          "evidence": "The repository root contains LICENCE; it declares the MIT License.",
+          "source_url": "https://raw.githubusercontent.com/MiSTer-devel/Arcade-Tecmo_MiSTer/master/LICENCE"
+        },
+        {
+          "field": "release_status",
+          "evidence": "No formal GitHub release tag was listed on the repository Releases page at the 2026-10-16 check; any .rbf/.mra build artifacts are repo-managed files, not GitHub release records.",
+          "source_url": "https://github.com/MiSTer-devel/Arcade-Tecmo_MiSTer/releases"
+        }
+      ],
+      "target_type_rationale": "The README identifies a shared Tecmo arcade core supporting three titles.",
+      "target_system_key": "Tecmo arcade games Rygar (1986), Gemini Wing (1987), and Silkworm (1988)",
+      "canonical_system_key": "Tecmo arcade board family",
+      "source_file": "/Users/earlcameron/Desktop/recompiled/work/research-2026-10-16/continuation-round13/emulators/repo-snapshots/MiSTer-devel__Arcade-Tecmo_MiSTer.json"
+    },
+    {
+      "project_id": "emulator-mister-psikyo-sh2",
+      "canonical_repository": "mister-devel/arcade-psikyosh2_mister",
+      "repo_url": "https://github.com/MiSTer-devel/Arcade-PsikyoSH2_MiSTer",
+      "verified_at": "2026-10-16",
+      "metadata": {
+        "full_name": "MiSTer-devel/Arcade-PsikyoSH2_MiSTer",
+        "html_url": "https://github.com/MiSTer-devel/Arcade-PsikyoSH2_MiSTer",
+        "description": null,
+        "fork": false,
+        "archived": false,
+        "created_at": "2026-08-16T12:01:25Z",
+        "updated_at": "2026-09-15T05:32:02Z",
+        "pushed_at": "2026-09-13T13:59:36Z",
+        "default_branch": "main",
+        "language": "SystemVerilog",
+        "stargazers_count": 9
+      },
+      "metadata_snapshot_source": "https://api.github.com/orgs/MiSTer-devel/repos?per_page=100&page=4",
+      "metadata_snapshot_retrieved": "2026-10-16",
+      "metadata_snapshot_record_index": 353,
+      "language_api_url": "https://api.github.com/repos/MiSTer-devel/Arcade-PsikyoSH2_MiSTer/languages",
+      "facts": [
+        {
+          "field": "scope",
+          "evidence": "A MiSTer FPGA core for the first and second generation Psikyo SH-2 arcade platform. The README documents supported SDRAM configurations and loading the core and MRA files.",
+          "source_url": "https://raw.githubusercontent.com/MiSTer-devel/Arcade-PsikyoSH2_MiSTer/main/README.md"
+        },
+        {
+          "field": "status",
+          "evidence": "MiSTer-devel organization repository snapshot for 2026-10-16 reports pushed_at=2026-09-13T13:59:36Z, archived=False, fork=False. The repository's GitHub Releases page lists no formal release tags.",
+          "source_url": "https://api.github.com/orgs/MiSTer-devel/repos?per_page=100&page=4"
+        },
+        {
+          "field": "platform",
+          "evidence": "MiSTer FPGA arcade platform; README specifies a 64 MB SDRAM module for PS3/PS5 boards or 128 MB for PS4 boards.",
+          "source_url": "https://raw.githubusercontent.com/MiSTer-devel/Arcade-PsikyoSH2_MiSTer/main/README.md"
+        },
+        {
+          "field": "license",
+          "evidence": "No root LICENSE/LICENCE/COPYING/COPYRIGHT file was present in the GitHub repository root listing. README/source headers may attribute third-party components, but no single repository-wide license grant is stated.",
+          "source_url": "https://github.com/MiSTer-devel/Arcade-PsikyoSH2_MiSTer"
+        },
+        {
+          "field": "release_status",
+          "evidence": "No formal GitHub release tag was listed on the repository Releases page at the 2026-10-16 check; any .rbf/.mra build artifacts are repo-managed files, not GitHub release records.",
+          "source_url": "https://github.com/MiSTer-devel/Arcade-PsikyoSH2_MiSTer/releases"
+        }
+      ],
+      "target_type_rationale": "The repository is organized as a reusable arcade hardware core with multiple MRA entries; no exact game roster is stated in its README.",
+      "target_system_key": "First- and second-generation Psikyo SH-2 arcade hardware and compatible games",
+      "canonical_system_key": "Psikyo SH-2",
+      "source_file": "/Users/earlcameron/Desktop/recompiled/work/research-2026-10-16/continuation-round13/emulators/repo-snapshots/MiSTer-devel__Arcade-PsikyoSH2_MiSTer.json"
+    },
+    {
+      "project_id": "emulator-mister-irem-m92",
+      "canonical_repository": "mister-devel/arcade-iremm92_mister",
+      "repo_url": "https://github.com/MiSTer-devel/Arcade-IremM92_MiSTer",
+      "verified_at": "2026-10-16",
+      "metadata": {
+        "full_name": "MiSTer-devel/Arcade-IremM92_MiSTer",
+        "html_url": "https://github.com/MiSTer-devel/Arcade-IremM92_MiSTer",
+        "description": null,
+        "fork": false,
+        "archived": false,
+        "created_at": "2023-04-14T03:10:26Z",
+        "updated_at": "2026-01-12T05:58:37Z",
+        "pushed_at": "2026-01-12T05:58:34Z",
+        "default_branch": "main",
+        "language": "VHDL",
+        "stargazers_count": 17
+      },
+      "metadata_snapshot_source": "https://api.github.com/orgs/MiSTer-devel/repos?per_page=100&page=3",
+      "metadata_snapshot_retrieved": "2026-10-16",
+      "metadata_snapshot_record_index": 267,
+      "language_api_url": "https://api.github.com/repos/MiSTer-devel/Arcade-IremM92_MiSTer/languages",
+      "facts": [
+        {
+          "field": "scope",
+          "evidence": "A MiSTer FPGA core for the Irem M92 arcade system; its README lists multiple supported games and four-player input for some titles.",
+          "source_url": "https://raw.githubusercontent.com/MiSTer-devel/Arcade-IremM92_MiSTer/main/Readme.md"
+        },
+        {
+          "field": "status",
+          "evidence": "MiSTer-devel organization repository snapshot for 2026-10-16 reports pushed_at=2026-01-12T05:58:34Z, archived=False, fork=False. The repository's GitHub Releases page lists no formal release tags.",
+          "source_url": "https://api.github.com/orgs/MiSTer-devel/repos?per_page=100&page=3"
+        },
+        {
+          "field": "platform",
+          "evidence": "MiSTer FPGA arcade platform; Quartus project files and HDL are in the repository. Additional MiSTer SDRAM hardware requirements, if any, are described by the README.",
+          "source_url": "https://raw.githubusercontent.com/MiSTer-devel/Arcade-IremM92_MiSTer/main/Readme.md"
+        },
+        {
+          "field": "license",
+          "evidence": "The repository root contains LICENSE; its text begins with the GNU General Public License 2.0.",
+          "source_url": "https://raw.githubusercontent.com/MiSTer-devel/Arcade-IremM92_MiSTer/main/LICENSE"
+        },
+        {
+          "field": "release_status",
+          "evidence": "No formal GitHub release tag was listed on the repository Releases page at the 2026-10-16 check; any .rbf/.mra build artifacts are repo-managed files, not GitHub release records.",
+          "source_url": "https://github.com/MiSTer-devel/Arcade-IremM92_MiSTer/releases"
+        }
+      ],
+      "target_type_rationale": "It is an arcade-system implementation covering multiple games rather than an individual game port.",
+      "target_system_key": "Irem M92 arcade titles including In the Hunt, Gunforce, R-Type Leo, Hook, Blade Master, Mystic Riders, Undercover Cops, and Ninja Baseball Batman",
+      "canonical_system_key": "Irem M92",
+      "source_file": "/Users/earlcameron/Desktop/recompiled/work/research-2026-10-16/continuation-round13/emulators/repo-snapshots/MiSTer-devel__Arcade-IremM92_MiSTer.json"
+    },
+    {
+      "project_id": "emulator-mister-alpha-mission",
+      "canonical_repository": "mister-devel/arcade-snk_triplez80_mister",
+      "repo_url": "https://github.com/MiSTer-devel/Arcade-SNK_TripleZ80_MiSTer",
+      "verified_at": "2026-10-16",
+      "metadata": {
+        "full_name": "MiSTer-devel/Arcade-SNK_TripleZ80_MiSTer",
+        "html_url": "https://github.com/MiSTer-devel/Arcade-SNK_TripleZ80_MiSTer",
+        "description": null,
+        "fork": false,
+        "archived": false,
+        "created_at": "2022-05-09T21:59:57Z",
+        "updated_at": "2026-01-11T07:15:41Z",
+        "pushed_at": "2026-01-11T07:15:36Z",
+        "default_branch": "main",
+        "language": "Verilog",
+        "stargazers_count": 5
+      },
+      "metadata_snapshot_source": "https://api.github.com/orgs/MiSTer-devel/repos?per_page=100&page=3",
+      "metadata_snapshot_retrieved": "2026-10-16",
+      "metadata_snapshot_record_index": 219,
+      "language_api_url": "https://api.github.com/repos/MiSTer-devel/Arcade-SNK_TripleZ80_MiSTer/languages",
+      "facts": [
+        {
+          "field": "scope",
+          "evidence": "An active MiSTer FPGA core in progress. The maintainer says the current project originated as an Alpha Mission core and plans future Ikari Warriors, TNK III, Psycho Soldier, and other additions.",
+          "source_url": "https://raw.githubusercontent.com/MiSTer-devel/Arcade-SNK_TripleZ80_MiSTer/main/Readme.md"
+        },
+        {
+          "field": "status",
+          "evidence": "MiSTer-devel organization repository snapshot for 2026-10-16 reports pushed_at=2026-01-11T07:15:36Z, archived=False, fork=False. The repository's GitHub Releases page lists no formal release tags.",
+          "source_url": "https://api.github.com/orgs/MiSTer-devel/repos?per_page=100&page=3"
+        },
+        {
+          "field": "platform",
+          "evidence": "MiSTer FPGA arcade platform; Quartus project files and HDL are in the repository. Additional MiSTer SDRAM hardware requirements, if any, are described by the README.",
+          "source_url": "https://raw.githubusercontent.com/MiSTer-devel/Arcade-SNK_TripleZ80_MiSTer/main/Readme.md"
+        },
+        {
+          "field": "license",
+          "evidence": "The repository root contains LICENSE; its text begins with the GNU General Public License 2.0.",
+          "source_url": "https://raw.githubusercontent.com/MiSTer-devel/Arcade-SNK_TripleZ80_MiSTer/main/LICENSE"
+        },
+        {
+          "field": "release_status",
+          "evidence": "No formal GitHub release tag was listed on the repository Releases page at the 2026-10-16 check; any .rbf/.mra build artifacts are repo-managed files, not GitHub release records.",
+          "source_url": "https://github.com/MiSTer-devel/Arcade-SNK_TripleZ80_MiSTer/releases"
+        }
+      ],
+      "target_type_rationale": "The README marks the core WIP and documents Alpha Mission as the current target while describing other games as planned, so this row uses Game until the multi-game platform coverage is implemented.",
+      "target_system_key": "SNK Alpha Mission (ASO); the repository describes planned expansion to related Triple Z80 titles",
+      "canonical_system_key": "SNK Triple Z80 / Alpha Mission current title",
+      "source_file": "/Users/earlcameron/Desktop/recompiled/work/research-2026-10-16/continuation-round13/emulators/repo-snapshots/MiSTer-devel__Arcade-SNK_TripleZ80_MiSTer.json"
+    },
+    {
+      "project_id": "emulator-mister-taito-f2",
+      "canonical_repository": "mister-devel/arcade-taitof2_mister",
+      "repo_url": "https://github.com/MiSTer-devel/Arcade-TaitoF2_MiSTer",
+      "verified_at": "2026-10-16",
+      "metadata": {
+        "full_name": "MiSTer-devel/Arcade-TaitoF2_MiSTer",
+        "html_url": "https://github.com/MiSTer-devel/Arcade-TaitoF2_MiSTer",
+        "description": null,
+        "fork": false,
+        "archived": false,
+        "created_at": "2025-05-29T14:23:02Z",
+        "updated_at": "2025-11-01T16:24:19Z",
+        "pushed_at": "2025-11-17T05:45:23Z",
+        "default_branch": "main",
+        "language": "C++",
+        "stargazers_count": 7
+      },
+      "metadata_snapshot_source": "https://api.github.com/orgs/MiSTer-devel/repos?per_page=100&page=3",
+      "metadata_snapshot_retrieved": "2026-10-16",
+      "metadata_snapshot_record_index": 293,
+      "language_api_url": "https://api.github.com/repos/MiSTer-devel/Arcade-TaitoF2_MiSTer/languages",
+      "facts": [
+        {
+          "field": "scope",
+          "evidence": "An FPGA implementation of Taito F2 arcade hardware for MiSTer. The README lists nine fully implemented titles and describes the graphics and sound subsystems.",
+          "source_url": "https://raw.githubusercontent.com/MiSTer-devel/Arcade-TaitoF2_MiSTer/main/Readme.md"
+        },
+        {
+          "field": "status",
+          "evidence": "MiSTer-devel organization repository snapshot for 2026-10-16 reports pushed_at=2025-11-17T05:45:23Z, archived=False, fork=False. The repository's GitHub Releases page lists no formal release tags.",
+          "source_url": "https://api.github.com/orgs/MiSTer-devel/repos?per_page=100&page=3"
+        },
+        {
+          "field": "platform",
+          "evidence": "MiSTer FPGA arcade platform; Quartus project files and HDL are in the repository. Additional MiSTer SDRAM hardware requirements, if any, are described by the README.",
+          "source_url": "https://raw.githubusercontent.com/MiSTer-devel/Arcade-TaitoF2_MiSTer/main/Readme.md"
+        },
+        {
+          "field": "license",
+          "evidence": "The repository root contains LICENSE; its text begins with the GNU General Public License 2.0.",
+          "source_url": "https://raw.githubusercontent.com/MiSTer-devel/Arcade-TaitoF2_MiSTer/main/LICENSE"
+        },
+        {
+          "field": "release_status",
+          "evidence": "No formal GitHub release tag was listed on the repository Releases page at the 2026-10-16 check; any .rbf/.mra build artifacts are repo-managed files, not GitHub release records.",
+          "source_url": "https://github.com/MiSTer-devel/Arcade-TaitoF2_MiSTer/releases"
+        }
+      ],
+      "target_type_rationale": "The project emulates a multi-game board system; its README provides a supported-game roster.",
+      "target_system_key": "Taito F2 games including Cameltry, Dino Rex, Don Doko Don, Drift Out, Final Blow, Growl, Liquid Kids, PuLiRuLa, and Solitary Fighter",
+      "canonical_system_key": "Taito F2",
+      "source_file": "/Users/earlcameron/Desktop/recompiled/work/research-2026-10-16/continuation-round13/emulators/repo-snapshots/MiSTer-devel__Arcade-TaitoF2_MiSTer.json"
+    },
+    {
+      "project_id": "emulator-mister-exidy2",
+      "canonical_repository": "mister-devel/arcade-exidy2_mister",
+      "repo_url": "https://github.com/MiSTer-devel/Arcade-Exidy2_MiSTer",
+      "verified_at": "2026-10-16",
+      "metadata": {
+        "full_name": "MiSTer-devel/Arcade-Exidy2_MiSTer",
+        "html_url": "https://github.com/MiSTer-devel/Arcade-Exidy2_MiSTer",
+        "description": "Exidy Universal Game Board 2",
+        "fork": false,
+        "archived": false,
+        "created_at": "2024-02-18T01:58:59Z",
+        "updated_at": "2025-12-09T13:49:18Z",
+        "pushed_at": "2025-12-09T13:49:13Z",
+        "default_branch": "main",
+        "language": "VHDL",
+        "stargazers_count": 1
+      },
+      "metadata_snapshot_source": "https://api.github.com/orgs/MiSTer-devel/repos?per_page=100&page=3",
+      "metadata_snapshot_retrieved": "2026-10-16",
+      "metadata_snapshot_record_index": 277,
+      "language_api_url": "https://api.github.com/repos/MiSTer-devel/Arcade-Exidy2_MiSTer/languages",
+      "facts": [
+        {
+          "field": "scope",
+          "evidence": "A MiSTer FPGA implementation of Exidy Universal Game Board II. The README explains the monochrome Side Trak baseline and successive board revisions with color and dedicated audio.",
+          "source_url": "https://raw.githubusercontent.com/MiSTer-devel/Arcade-Exidy2_MiSTer/main/README.md"
+        },
+        {
+          "field": "status",
+          "evidence": "MiSTer-devel organization repository snapshot for 2026-10-16 reports pushed_at=2025-12-09T13:49:13Z, archived=False, fork=False. The repository's GitHub Releases page lists no formal release tags.",
+          "source_url": "https://api.github.com/orgs/MiSTer-devel/repos?per_page=100&page=3"
+        },
+        {
+          "field": "platform",
+          "evidence": "MiSTer FPGA arcade platform; Quartus project files and HDL are in the repository. Additional MiSTer SDRAM hardware requirements, if any, are described by the README.",
+          "source_url": "https://raw.githubusercontent.com/MiSTer-devel/Arcade-Exidy2_MiSTer/main/README.md"
+        },
+        {
+          "field": "license",
+          "evidence": "The repository root contains LICENSE; its text begins with the GNU General Public License 3.0.",
+          "source_url": "https://raw.githubusercontent.com/MiSTer-devel/Arcade-Exidy2_MiSTer/main/LICENSE"
+        },
+        {
+          "field": "release_status",
+          "evidence": "No formal GitHub release tag was listed on the repository Releases page at the 2026-10-16 check; any .rbf/.mra build artifacts are repo-managed files, not GitHub release records.",
+          "source_url": "https://github.com/MiSTer-devel/Arcade-Exidy2_MiSTer/releases"
+        }
+      ],
+      "target_type_rationale": "The implementation emulates a reusable Exidy arcade board family with a compatible-game list.",
+      "target_system_key": "Exidy Universal Game Board II software, including Side Trak and later color/audio-board titles",
+      "canonical_system_key": "Exidy Universal Game Board II",
+      "source_file": "/Users/earlcameron/Desktop/recompiled/work/research-2026-10-16/continuation-round13/emulators/repo-snapshots/MiSTer-devel__Arcade-Exidy2_MiSTer.json"
+    },
+    {
+      "project_id": "emulator-mister-sega-vic-z80",
+      "canonical_repository": "mister-devel/arcade-segavicz80_mister",
+      "repo_url": "https://github.com/MiSTer-devel/Arcade-SegaVICZ80_MiSTer",
+      "verified_at": "2026-10-16",
+      "metadata": {
+        "full_name": "MiSTer-devel/Arcade-SegaVICZ80_MiSTer",
+        "html_url": "https://github.com/MiSTer-devel/Arcade-SegaVICZ80_MiSTer",
+        "description": "Gremlin Industries/Sega Enterprises Z80-based VIC arcade hardware",
+        "fork": false,
+        "archived": false,
+        "created_at": "2024-01-21T10:32:10Z",
+        "updated_at": "2026-01-12T06:00:13Z",
+        "pushed_at": "2026-01-12T06:00:07Z",
+        "default_branch": "main",
+        "language": "C++",
+        "stargazers_count": 1
+      },
+      "metadata_snapshot_source": "https://api.github.com/orgs/MiSTer-devel/repos?per_page=100&page=3",
+      "metadata_snapshot_retrieved": "2026-10-16",
+      "metadata_snapshot_record_index": 276,
+      "language_api_url": "https://api.github.com/repos/MiSTer-devel/Arcade-SegaVICZ80_MiSTer/languages",
+      "facts": [
+        {
+          "field": "scope",
+          "evidence": "A work-in-progress MiSTer FPGA implementation of Gremlin/Sega Z80-based VIC arcade hardware. README status reports Carnival and Pulsar working, Invinco with a later-stage hang, and many other games playable without sound.",
+          "source_url": "https://raw.githubusercontent.com/MiSTer-devel/Arcade-SegaVICZ80_MiSTer/main/README.MD"
+        },
+        {
+          "field": "status",
+          "evidence": "MiSTer-devel organization repository snapshot for 2026-10-16 reports pushed_at=2026-01-12T06:00:07Z, archived=False, fork=False. The repository's GitHub Releases page lists no formal release tags.",
+          "source_url": "https://api.github.com/orgs/MiSTer-devel/repos?per_page=100&page=3"
+        },
+        {
+          "field": "platform",
+          "evidence": "MiSTer FPGA arcade platform; Quartus project files and HDL are in the repository. Additional MiSTer SDRAM hardware requirements, if any, are described by the README.",
+          "source_url": "https://raw.githubusercontent.com/MiSTer-devel/Arcade-SegaVICZ80_MiSTer/main/README.MD"
+        },
+        {
+          "field": "license",
+          "evidence": "No root LICENSE/LICENCE/COPYING/COPYRIGHT file was present in the GitHub repository root listing. README/source headers may attribute third-party components, but no single repository-wide license grant is stated.",
+          "source_url": "https://github.com/MiSTer-devel/Arcade-SegaVICZ80_MiSTer"
+        },
+        {
+          "field": "release_status",
+          "evidence": "No formal GitHub release tag was listed on the repository Releases page at the 2026-10-16 check; any .rbf/.mra build artifacts are repo-managed files, not GitHub release records.",
+          "source_url": "https://github.com/MiSTer-devel/Arcade-SegaVICZ80_MiSTer/releases"
+        }
+      ],
+      "target_type_rationale": "It targets a hardware family and explicitly lists many compatible games; current support limitations are recorded in status.",
+      "target_system_key": "Gremlin/Sega VIC Z80 arcade hardware games including Carnival, Pulsar, Invinco, Head On, Borderline, Digger, N-Sub, and related sets",
+      "canonical_system_key": "Gremlin/Sega VIC Z80",
+      "source_file": "/Users/earlcameron/Desktop/recompiled/work/research-2026-10-16/continuation-round13/emulators/repo-snapshots/MiSTer-devel__Arcade-SegaVICZ80_MiSTer.json"
+    },
+    {
+      "project_id": "emulator-mister-space-invaders-board",
+      "canonical_repository": "mister-devel/arcade-spaceinvaders_mister",
+      "repo_url": "https://github.com/MiSTer-devel/Arcade-SpaceInvaders_MiSTer",
+      "verified_at": "2026-10-16",
+      "metadata": {
+        "full_name": "MiSTer-devel/Arcade-SpaceInvaders_MiSTer",
+        "html_url": "https://github.com/MiSTer-devel/Arcade-SpaceInvaders_MiSTer",
+        "description": "MiSTer FPGA version of the midway and taito board most known for Space Invaders ",
+        "fork": false,
+        "archived": false,
+        "created_at": "2020-12-24T21:43:42Z",
+        "updated_at": "2026-06-22T15:52:27Z",
+        "pushed_at": "2026-06-22T15:52:16Z",
+        "default_branch": "master",
+        "language": "VHDL",
+        "stargazers_count": 5
+      },
+      "metadata_snapshot_source": "https://api.github.com/orgs/MiSTer-devel/repos?per_page=100&page=2",
+      "metadata_snapshot_retrieved": "2026-10-16",
+      "metadata_snapshot_record_index": 162,
+      "language_api_url": "https://api.github.com/repos/MiSTer-devel/Arcade-SpaceInvaders_MiSTer/languages",
+      "facts": [
+        {
+          "field": "scope",
+          "evidence": "A MiSTer FPGA core for the Midway/Taito board family associated with Space Invaders. The README notes that the same hardware, with differing sound boards and small changes, was used by many games; it also documents Taito color overlays.",
+          "source_url": "https://raw.githubusercontent.com/MiSTer-devel/Arcade-SpaceInvaders_MiSTer/master/README.md"
+        },
+        {
+          "field": "status",
+          "evidence": "MiSTer-devel organization repository snapshot for 2026-10-16 reports pushed_at=2026-06-22T15:52:16Z, archived=False, fork=False. The repository's GitHub Releases page lists no formal release tags.",
+          "source_url": "https://api.github.com/orgs/MiSTer-devel/repos?per_page=100&page=2"
+        },
+        {
+          "field": "platform",
+          "evidence": "MiSTer FPGA arcade platform; Quartus project files and HDL are in the repository. Additional MiSTer SDRAM hardware requirements, if any, are described by the README.",
+          "source_url": "https://raw.githubusercontent.com/MiSTer-devel/Arcade-SpaceInvaders_MiSTer/master/README.md"
+        },
+        {
+          "field": "license",
+          "evidence": "No root LICENSE/LICENCE/COPYING/COPYRIGHT file was present in the GitHub repository root listing. README/source headers may attribute third-party components, but no single repository-wide license grant is stated.",
+          "source_url": "https://github.com/MiSTer-devel/Arcade-SpaceInvaders_MiSTer"
+        },
+        {
+          "field": "release_status",
+          "evidence": "No formal GitHub release tag was listed on the repository Releases page at the 2026-10-16 check; any .rbf/.mra build artifacts are repo-managed files, not GitHub release records.",
+          "source_url": "https://github.com/MiSTer-devel/Arcade-SpaceInvaders_MiSTer/releases"
+        }
+      ],
+      "target_type_rationale": "The project is board-level hardware emulation with multiple board-compatible game configurations, so it is classified as Software.",
+      "target_system_key": "Midway/Taito Space Invaders-era arcade board variants and related games",
+      "canonical_system_key": "Midway/Taito Space Invaders board",
+      "source_file": "/Users/earlcameron/Desktop/recompiled/work/research-2026-10-16/continuation-round13/emulators/repo-snapshots/MiSTer-devel__Arcade-SpaceInvaders_MiSTer.json"
+    },
+    {
+      "project_id": "emulator-mister-salamander",
+      "canonical_repository": "mister-devel/arcade-salamander_mister",
+      "repo_url": "https://github.com/MiSTer-devel/Arcade-Salamander_MiSTer",
+      "verified_at": "2026-10-16",
+      "metadata": {
+        "full_name": "MiSTer-devel/Arcade-Salamander_MiSTer",
+        "html_url": "https://github.com/MiSTer-devel/Arcade-Salamander_MiSTer",
+        "description": "An FPGA core compatible with Konami Salamander/Life Force(GX456)",
+        "fork": false,
+        "archived": false,
+        "created_at": "2023-08-30T09:06:42Z",
+        "updated_at": "2026-09-21T08:10:48Z",
+        "pushed_at": "2026-09-21T08:10:43Z",
+        "default_branch": "main",
+        "language": "Verilog",
+        "stargazers_count": 10
+      },
+      "metadata_snapshot_source": "https://api.github.com/orgs/MiSTer-devel/repos?per_page=100&page=3",
+      "metadata_snapshot_retrieved": "2026-10-16",
+      "metadata_snapshot_record_index": 270,
+      "language_api_url": "https://api.github.com/repos/MiSTer-devel/Arcade-Salamander_MiSTer/languages",
+      "facts": [
+        {
+          "field": "scope",
+          "evidence": "An FPGA arcade core compatible with Salamander/Life Force on MiSTer. The README reports an open hardware issue pending decapsulation of the K005295 custom chip.",
+          "source_url": "https://raw.githubusercontent.com/MiSTer-devel/Arcade-Salamander_MiSTer/main/README.md"
+        },
+        {
+          "field": "status",
+          "evidence": "MiSTer-devel organization repository snapshot for 2026-10-16 reports pushed_at=2026-09-21T08:10:43Z, archived=False, fork=False. The repository's GitHub Releases page lists no formal release tags.",
+          "source_url": "https://api.github.com/orgs/MiSTer-devel/repos?per_page=100&page=3"
+        },
+        {
+          "field": "platform",
+          "evidence": "MiSTer FPGA arcade platform; Quartus project files and HDL are in the repository. Additional MiSTer SDRAM hardware requirements, if any, are described by the README.",
+          "source_url": "https://raw.githubusercontent.com/MiSTer-devel/Arcade-Salamander_MiSTer/main/README.md"
+        },
+        {
+          "field": "license",
+          "evidence": "The repository root contains LICENSE; its text begins with the GNU General Public License 2.0.",
+          "source_url": "https://raw.githubusercontent.com/MiSTer-devel/Arcade-Salamander_MiSTer/main/LICENSE"
+        },
+        {
+          "field": "release_status",
+          "evidence": "No formal GitHub release tag was listed on the repository Releases page at the 2026-10-16 check; any .rbf/.mra build artifacts are repo-managed files, not GitHub release records.",
+          "source_url": "https://github.com/MiSTer-devel/Arcade-Salamander_MiSTer/releases"
+        }
+      ],
+      "target_type_rationale": "The current project scope is one named game family and its regional variant; related planned platforms are not presented as implemented.",
+      "target_system_key": "Konami Salamander / Life Force (GX456) arcade software",
+      "canonical_system_key": "Konami GX456 / Salamander-Life Force",
+      "source_file": "/Users/earlcameron/Desktop/recompiled/work/research-2026-10-16/continuation-round13/emulators/repo-snapshots/MiSTer-devel__Arcade-Salamander_MiSTer.json"
+    },
+    {
+      "project_id": "emulator-mister-juno-first",
+      "canonical_repository": "mister-devel/arcade-junofirst_mister",
+      "repo_url": "https://github.com/MiSTer-devel/Arcade-JunoFirst_MiSTer",
+      "verified_at": "2026-10-16",
+      "metadata": {
+        "full_name": "MiSTer-devel/Arcade-JunoFirst_MiSTer",
+        "html_url": "https://github.com/MiSTer-devel/Arcade-JunoFirst_MiSTer",
+        "description": null,
+        "fork": false,
+        "archived": false,
+        "created_at": "2026-02-24T04:38:12Z",
+        "updated_at": "2026-10-11T04:14:27Z",
+        "pushed_at": "2026-10-11T04:14:22Z",
+        "default_branch": "main",
+        "language": "Verilog",
+        "stargazers_count": 5
+      },
+      "metadata_snapshot_source": "https://api.github.com/orgs/MiSTer-devel/repos?per_page=100&page=4",
+      "metadata_snapshot_retrieved": "2026-10-16",
+      "metadata_snapshot_record_index": 301,
+      "language_api_url": "https://api.github.com/repos/MiSTer-devel/Arcade-JunoFirst_MiSTer/languages",
+      "facts": [
+        {
+          "field": "scope",
+          "evidence": "A MiSTer FPGA hardware implementation for Juno First with gameplay, video timing, sound, MRA metadata, and checksummed ROM definitions documented in the README.",
+          "source_url": "https://raw.githubusercontent.com/MiSTer-devel/Arcade-JunoFirst_MiSTer/main/README.MD"
+        },
+        {
+          "field": "status",
+          "evidence": "MiSTer-devel organization repository snapshot for 2026-10-16 reports pushed_at=2026-10-11T04:14:22Z, archived=False, fork=False. The repository's GitHub Releases page lists no formal release tags.",
+          "source_url": "https://api.github.com/orgs/MiSTer-devel/repos?per_page=100&page=4"
+        },
+        {
+          "field": "platform",
+          "evidence": "MiSTer FPGA arcade platform; Quartus project files and HDL are in the repository. Additional MiSTer SDRAM hardware requirements, if any, are described by the README.",
+          "source_url": "https://raw.githubusercontent.com/MiSTer-devel/Arcade-JunoFirst_MiSTer/main/README.MD"
+        },
+        {
+          "field": "license",
+          "evidence": "No root LICENSE/LICENCE/COPYING/COPYRIGHT file was present in the GitHub repository root listing. README/source headers may attribute third-party components, but no single repository-wide license grant is stated.",
+          "source_url": "https://github.com/MiSTer-devel/Arcade-JunoFirst_MiSTer"
+        },
+        {
+          "field": "release_status",
+          "evidence": "No formal GitHub release tag was listed on the repository Releases page at the 2026-10-16 check; any .rbf/.mra build artifacts are repo-managed files, not GitHub release records.",
+          "source_url": "https://github.com/MiSTer-devel/Arcade-JunoFirst_MiSTer/releases"
+        }
+      ],
+      "target_type_rationale": "The project is an implementation for one named arcade game.",
+      "target_system_key": "Juno First (Konami, 1983)",
+      "canonical_system_key": "Juno First arcade game",
+      "source_file": "/Users/earlcameron/Desktop/recompiled/work/research-2026-10-16/continuation-round13/emulators/repo-snapshots/MiSTer-devel__Arcade-JunoFirst_MiSTer.json"
+    },
+    {
+      "project_id": "emulator-mister-moon-patrol",
+      "canonical_repository": "mister-devel/arcade-moonpatrol_mister",
+      "repo_url": "https://github.com/MiSTer-devel/Arcade-MoonPatrol_MiSTer",
+      "verified_at": "2026-10-16",
+      "metadata": {
+        "full_name": "MiSTer-devel/Arcade-MoonPatrol_MiSTer",
+        "html_url": "https://github.com/MiSTer-devel/Arcade-MoonPatrol_MiSTer",
+        "description": "Arcade: Moon Patrol for MiSTer",
+        "fork": false,
+        "archived": false,
+        "created_at": "2017-11-27T02:23:24Z",
+        "updated_at": "2026-09-16T10:58:07Z",
+        "pushed_at": "2026-09-16T10:58:02Z",
+        "default_branch": "master",
+        "language": "VHDL",
+        "stargazers_count": 8
+      },
+      "metadata_snapshot_source": "https://api.github.com/orgs/MiSTer-devel/repos?per_page=100&page=1",
+      "metadata_snapshot_retrieved": "2026-10-16",
+      "metadata_snapshot_record_index": 44,
+      "language_api_url": "https://api.github.com/repos/MiSTer-devel/Arcade-MoonPatrol_MiSTer/languages",
+      "facts": [
+        {
+          "field": "scope",
+          "evidence": "A MiSTer FPGA core for Moon Patrol. The README documents joystick controls, board-derived sound, MRA setup, and user-supplied ROM requirements.",
+          "source_url": "https://raw.githubusercontent.com/MiSTer-devel/Arcade-MoonPatrol_MiSTer/master/README.txt"
+        },
+        {
+          "field": "status",
+          "evidence": "MiSTer-devel organization repository snapshot for 2026-10-16 reports pushed_at=2026-09-16T10:58:02Z, archived=False, fork=False. The repository's GitHub Releases page lists no formal release tags.",
+          "source_url": "https://api.github.com/orgs/MiSTer-devel/repos?per_page=100&page=1"
+        },
+        {
+          "field": "platform",
+          "evidence": "MiSTer FPGA arcade platform; Quartus project files and HDL are in the repository. Additional MiSTer SDRAM hardware requirements, if any, are described by the README.",
+          "source_url": "https://raw.githubusercontent.com/MiSTer-devel/Arcade-MoonPatrol_MiSTer/master/README.txt"
+        },
+        {
+          "field": "license",
+          "evidence": "No root LICENSE/LICENCE/COPYING/COPYRIGHT file was present in the GitHub repository root listing. README/source headers may attribute third-party components, but no single repository-wide license grant is stated.",
+          "source_url": "https://github.com/MiSTer-devel/Arcade-MoonPatrol_MiSTer"
+        },
+        {
+          "field": "release_status",
+          "evidence": "No formal GitHub release tag was listed on the repository Releases page at the 2026-10-16 check; any .rbf/.mra build artifacts are repo-managed files, not GitHub release records.",
+          "source_url": "https://github.com/MiSTer-devel/Arcade-MoonPatrol_MiSTer/releases"
+        }
+      ],
+      "target_type_rationale": "The core targets one named arcade game.",
+      "target_system_key": "Moon Patrol (Irem, 1982)",
+      "canonical_system_key": "Moon Patrol arcade game",
+      "source_file": "/Users/earlcameron/Desktop/recompiled/work/research-2026-10-16/continuation-round13/emulators/repo-snapshots/MiSTer-devel__Arcade-MoonPatrol_MiSTer.json"
+    },
+    {
+      "project_id": "emulator-mister-tank-battalion",
+      "canonical_repository": "mister-devel/arcade-tankbattalion_mister",
+      "repo_url": "https://github.com/MiSTer-devel/Arcade-TankBattalion_MiSTer",
+      "verified_at": "2026-10-16",
+      "metadata": {
+        "full_name": "MiSTer-devel/Arcade-TankBattalion_MiSTer",
+        "html_url": "https://github.com/MiSTer-devel/Arcade-TankBattalion_MiSTer",
+        "description": "FPGA implementation of Namco's Tank Battalion arcade game ",
+        "fork": false,
+        "archived": false,
+        "created_at": "2022-08-21T15:43:04Z",
+        "updated_at": "2026-10-06T08:28:47Z",
+        "pushed_at": "2026-10-06T08:28:41Z",
+        "default_branch": "main",
+        "language": "Verilog",
+        "stargazers_count": 1
+      },
+      "metadata_snapshot_source": "https://api.github.com/orgs/MiSTer-devel/repos?per_page=100&page=3",
+      "metadata_snapshot_retrieved": "2026-10-16",
+      "metadata_snapshot_record_index": 233,
+      "language_api_url": "https://api.github.com/repos/MiSTer-devel/Arcade-TankBattalion_MiSTer/languages",
+      "facts": [
+        {
+          "field": "scope",
+          "evidence": "An FPGA implementation of Namco’s Tank Battalion arcade game for MiSTer, with rotated controls/video support and sound modeled from board analog circuits per its README.",
+          "source_url": "https://raw.githubusercontent.com/MiSTer-devel/Arcade-TankBattalion_MiSTer/main/README.txt"
+        },
+        {
+          "field": "status",
+          "evidence": "MiSTer-devel organization repository snapshot for 2026-10-16 reports pushed_at=2026-10-06T08:28:41Z, archived=False, fork=False. The repository's GitHub Releases page lists no formal release tags.",
+          "source_url": "https://api.github.com/orgs/MiSTer-devel/repos?per_page=100&page=3"
+        },
+        {
+          "field": "platform",
+          "evidence": "MiSTer FPGA arcade platform; Quartus project files and HDL are in the repository. Additional MiSTer SDRAM hardware requirements, if any, are described by the README.",
+          "source_url": "https://raw.githubusercontent.com/MiSTer-devel/Arcade-TankBattalion_MiSTer/main/README.txt"
+        },
+        {
+          "field": "license",
+          "evidence": "No root LICENSE/LICENCE/COPYING/COPYRIGHT file was present in the GitHub repository root listing. README/source headers may attribute third-party components, but no single repository-wide license grant is stated.",
+          "source_url": "https://github.com/MiSTer-devel/Arcade-TankBattalion_MiSTer"
+        },
+        {
+          "field": "release_status",
+          "evidence": "No formal GitHub release tag was listed on the repository Releases page at the 2026-10-16 check; any .rbf/.mra build artifacts are repo-managed files, not GitHub release records.",
+          "source_url": "https://github.com/MiSTer-devel/Arcade-TankBattalion_MiSTer/releases"
+        }
+      ],
+      "target_type_rationale": "The project emulates one named arcade game.",
+      "target_system_key": "Tank Battalion (Namco, 1980)",
+      "canonical_system_key": "Tank Battalion arcade game",
+      "source_file": "/Users/earlcameron/Desktop/recompiled/work/research-2026-10-16/continuation-round13/emulators/repo-snapshots/MiSTer-devel__Arcade-TankBattalion_MiSTer.json"
+    },
+    {
+      "project_id": "emulator-mister-qix",
+      "canonical_repository": "mister-devel/arcade-qix_mister",
+      "repo_url": "https://github.com/MiSTer-devel/Arcade-Qix_MiSTer",
+      "verified_at": "2026-10-16",
+      "metadata": {
+        "full_name": "MiSTer-devel/Arcade-Qix_MiSTer",
+        "html_url": "https://github.com/MiSTer-devel/Arcade-Qix_MiSTer",
+        "description": null,
+        "fork": false,
+        "archived": false,
+        "created_at": "2026-04-12T21:21:11Z",
+        "updated_at": "2026-10-13T18:27:34Z",
+        "pushed_at": "2026-10-13T18:27:30Z",
+        "default_branch": "main",
+        "language": "Assembly",
+        "stargazers_count": 4
+      },
+      "metadata_snapshot_source": "https://api.github.com/orgs/MiSTer-devel/repos?per_page=100&page=4",
+      "metadata_snapshot_retrieved": "2026-10-16",
+      "metadata_snapshot_record_index": 304,
+      "language_api_url": "https://api.github.com/repos/MiSTer-devel/Arcade-Qix_MiSTer/languages",
+      "facts": [
+        {
+          "field": "scope",
+          "evidence": "A MiSTer FPGA core for Qix-family hardware; the README displays the related compatible titles and describes MRA/ROM support.",
+          "source_url": "https://raw.githubusercontent.com/MiSTer-devel/Arcade-Qix_MiSTer/main/README.MD"
+        },
+        {
+          "field": "status",
+          "evidence": "MiSTer-devel organization repository snapshot for 2026-10-16 reports pushed_at=2026-10-13T18:27:30Z, archived=False, fork=False. The repository's GitHub Releases page lists no formal release tags.",
+          "source_url": "https://api.github.com/orgs/MiSTer-devel/repos?per_page=100&page=4"
+        },
+        {
+          "field": "platform",
+          "evidence": "MiSTer FPGA arcade platform; Quartus project files and HDL are in the repository. Additional MiSTer SDRAM hardware requirements, if any, are described by the README.",
+          "source_url": "https://raw.githubusercontent.com/MiSTer-devel/Arcade-Qix_MiSTer/main/README.MD"
+        },
+        {
+          "field": "license",
+          "evidence": "No root LICENSE/LICENCE/COPYING/COPYRIGHT file was present in the GitHub repository root listing. README/source headers may attribute third-party components, but no single repository-wide license grant is stated.",
+          "source_url": "https://github.com/MiSTer-devel/Arcade-Qix_MiSTer"
+        },
+        {
+          "field": "release_status",
+          "evidence": "No formal GitHub release tag was listed on the repository Releases page at the 2026-10-16 check; any .rbf/.mra build artifacts are repo-managed files, not GitHub release records.",
+          "source_url": "https://github.com/MiSTer-devel/Arcade-Qix_MiSTer/releases"
+        }
+      ],
+      "target_type_rationale": "The project implements a multi-game arcade board family, so it is not classified as a game-specific port.",
+      "target_system_key": "Qix arcade hardware and compatible games: Qix, Complex X, Space Dungeon, Kram, Zoo Keeper, Electric Yo-Yo, and Slither",
+      "canonical_system_key": "Qix arcade board family",
+      "source_file": "/Users/earlcameron/Desktop/recompiled/work/research-2026-10-16/continuation-round13/emulators/repo-snapshots/MiSTer-devel__Arcade-Qix_MiSTer.json"
+    }
+  ]
+}

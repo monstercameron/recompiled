@@ -474,6 +474,27 @@ fi
 if [[ -f data/research/discovery-2026-10-16/goal-refresh/round12/discovery-resources.json ]]; then
   python3 scripts/catalog.py import-directory data/research/discovery-2026-10-16/goal-refresh/round12/discovery-resources.json
 fi
+if [[ -f data/research/discovery-2026-10-16/goal-refresh/round13/project-additions.json ]]; then
+  python3 scripts/catalog.py import data/research/discovery-2026-10-16/goal-refresh/round13/project-additions.json
+fi
+if [[ -f data/research/discovery-2026-10-16/goal-refresh/round13/project-updates.json ]]; then
+  python3 scripts/catalog.py import-project-updates data/research/discovery-2026-10-16/goal-refresh/round13/project-updates.json
+fi
+if [[ -f data/research/discovery-2026-10-16/goal-refresh/round13/programming-languages.json ]]; then
+  python3 scripts/catalog.py import-programming-languages data/research/discovery-2026-10-16/goal-refresh/round13/programming-languages.json
+fi
+if [[ -f data/research/discovery-2026-10-16/goal-refresh/round13/game-profiles.json ]]; then
+  python3 scripts/catalog.py import-game-profiles data/research/discovery-2026-10-16/goal-refresh/round13/game-profiles.json
+fi
+if [[ -f data/research/discovery-2026-10-16/goal-refresh/round13/wikipedia-links.json ]]; then
+  python3 scripts/catalog.py import-wikipedia-links data/research/discovery-2026-10-16/goal-refresh/round13/wikipedia-links.json
+fi
+if [[ -f data/research/discovery-2026-10-16/goal-refresh/round13/media.json ]]; then
+  python3 scripts/catalog.py import-media data/research/discovery-2026-10-16/goal-refresh/round13/media.json
+fi
+if [[ -f data/research/discovery-2026-10-16/goal-refresh/round13/directory-additions.json ]]; then
+  python3 scripts/catalog.py import-directory data/research/discovery-2026-10-16/goal-refresh/round13/directory-additions.json
+fi
 python3 scripts/catalog.py export
 cargo build --locked --release --target wasm32-unknown-unknown
 wasm-bindgen --target web --out-dir docs/pkg target/wasm32-unknown-unknown/release/recompiled.wasm

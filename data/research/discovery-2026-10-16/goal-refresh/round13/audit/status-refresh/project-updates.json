@@ -1,0 +1,117 @@
+{
+  "updated": "2026-10-16",
+  "updates": [
+    {
+      "id": "pt-ps4-pc-reimplementation",
+      "fields": {
+        "updated": "2026-10-16",
+        "source_available": "Public source repository; the project’s own port code is MIT-licensed. The 2026-10-16 v1.0.5 release publishes Windows and Linux setup programs, portable Windows/Linux archives, and macOS arm64/x64 archives and disk images. No game data is in the repository or installer; users supply their own PS4 dump or fake PKG."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: MIT license scope, supported host platforms, and user-supplied PS4 game-data requirement",
+          "url": "https://github.com/LoreanXavier/pt-pc/blob/main/README.md"
+        },
+        {
+          "label": "Repository MIT license file",
+          "url": "https://github.com/LoreanXavier/pt-pc/blob/main/LICENSE"
+        },
+        {
+          "label": "v1.0.5 release page and published installer/archive assets (2026-10-16)",
+          "url": "https://github.com/LoreanXavier/pt-pc/releases/tag/v1.0.5"
+        },
+        {
+          "label": "GitHub API: v1.0.5 publication time and exact uploaded release assets",
+          "url": "https://api.github.com/repos/LoreanXavier/pt-pc/releases?per_page=100"
+        },
+        {
+          "label": "GitHub API: current repository push timestamp",
+          "url": "https://api.github.com/repos/LoreanXavier/pt-pc"
+        }
+      ]
+    },
+    {
+      "id": "kytyps5",
+      "fields": {
+        "updated": "2026-10-16",
+        "source_available": "Public C++ source under GPL-2.0. The 2026-10-16 releases include Windows x64, Linux x86-64, and macOS x86-64 archives; macOS runs under Rosetta 2. The project does not distribute games or copyrighted system software and says to use only legally obtained game files."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: GPL-2.0 notice, released host builds, experimental macOS support, and game-file boundary",
+          "url": "https://github.com/KytyPS5/KytyPS5/blob/main/README.md"
+        },
+        {
+          "label": "Repository GPL-2.0 license file",
+          "url": "https://github.com/KytyPS5/KytyPS5/blob/main/LICENSE"
+        },
+        {
+          "label": "Latest default-branch release KytyPS5-2026-10-16-3ff6606 (2026-10-16) and platform archives",
+          "url": "https://github.com/KytyPS5/KytyPS5/releases/tag/KytyPS5-2026-10-16-3ff6606"
+        },
+        {
+          "label": "GitHub API: current repository push timestamp, license classification, and default branch",
+          "url": "https://api.github.com/repos/KytyPS5/KytyPS5"
+        }
+      ]
+    },
+    {
+      "id": "winemetalgl-opengl-metal",
+      "fields": {
+        "updated": "2026-10-16",
+        "status": "WineMetalGL 3.2.0 remains the latest published release (2026-10-14). On 2026-10-16, merged PR #34 fixed GLSL line-continuation handling for shader compiler inputs. The maintainer reports that the 28 affected Godot shader variants compiled after the fix and that 61/61 host and 259/259 GPU tests passed. This is a targeted shader-compiler fix; the README’s documented game corpus and unsupported-feature list remain the compatibility references."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: current OpenGL implementation, conformance results, game corpus, and unsupported-feature documentation",
+          "url": "https://github.com/metalsharp/WineMetalGL/blob/main/README.md"
+        },
+        {
+          "label": "Merged maintainer PR #34: GLSL line-continuation fix, affected Godot shader results, and test counts",
+          "url": "https://github.com/metalsharp/WineMetalGL/pull/34"
+        },
+        {
+          "label": "GitHub API: merge commit 86c5c1930b9bd42a4edc83a41b6fc5f91b3c99c8",
+          "url": "https://api.github.com/repos/metalsharp/WineMetalGL/commits/86c5c1930b9bd42a4edc83a41b6fc5f91b3c99c8"
+        },
+        {
+          "label": "GitHub Releases API: v3.2.0 remains latest published release",
+          "url": "https://api.github.com/repos/metalsharp/WineMetalGL/releases?per_page=100"
+        },
+        {
+          "label": "GitHub API: current repository push timestamp",
+          "url": "https://api.github.com/repos/metalsharp/WineMetalGL"
+        }
+      ]
+    },
+    {
+      "id": "horizon-minecraft-java-reimplementation",
+      "fields": {
+        "updated": "2026-10-16",
+        "status": "The owner reports a playable native client on Windows, Linux and Apple Silicon macOS. The README reports all 281 differential parity harnesses passing on Linux and macOS, last audited 2026-10-13; this is parity for the compared harnesses. GitHub lists v2026.10.16.03 (published 2026-10-16 05:11 UTC, commit f188dfe) as the latest release; its notes cover chat camera input and trial chamber, vault, and trial spawner fixes. The README still labels v2026.10.13.1 as the latest release, so its release-summary section is stale. The new release notes also mention a sprint-jumping report the maintainers could not reproduce."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: playable client platforms, 281-harness parity claim and 2026-10-13 audit date, stale “latest release” section, and own-copy/game-data caveat",
+          "url": "https://github.com/ludovic111/horizon/blob/main/README.md"
+        },
+        {
+          "label": "Exact latest release v2026.10.16.03: patch notes, known issue, publication time and supported release assets",
+          "url": "https://github.com/ludovic111/horizon/releases/tag/v2026.10.16.03"
+        },
+        {
+          "label": "GitHub Releases API: current latest release ordering and exact published_at timestamp",
+          "url": "https://api.github.com/repos/ludovic111/horizon/releases?per_page=100"
+        },
+        {
+          "label": "GitHub Release API: exact v2026.10.16.03 release body and asset metadata",
+          "url": "https://api.github.com/repos/ludovic111/horizon/releases/tags/v2026.10.16.03"
+        },
+        {
+          "label": "GitHub README API: exact default-branch README snapshot used for the caveat comparison",
+          "url": "https://api.github.com/repos/ludovic111/horizon/readme"
+        }
+      ]
+    }
+  ]
+}

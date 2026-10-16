@@ -1,0 +1,110 @@
+{
+  "checked_on": "2026-10-16",
+  "catalog_duplicates": [
+    {
+      "repository": "centollOS/SwitchWakerHD",
+      "project_url": "https://github.com/centollOS/SwitchWakerHD",
+      "catalog_id": "switchwakerhd-recomp",
+      "reason": "Exact repository and Wii U-to-Switch target already exist in SQLite."
+    },
+    {
+      "repository": "centollOS/SwitchWaker",
+      "project_url": "https://github.com/centollOS/SwitchWaker",
+      "catalog_id": "wind-waker-switchwaker-port",
+      "reason": "Exact GameCube-to-Switch port already exists in SQLite."
+    },
+    {
+      "repository": "rsheldiii/sm64-zune",
+      "project_url": "https://github.com/rsheldiii/sm64-zune",
+      "catalog_id": "sm64-zune-hd-port",
+      "reason": "Exact Super Mario 64-to-Zune HD repository and target already exist in SQLite."
+    },
+    {
+      "repository": "kaziema/gevita",
+      "project_url": "https://github.com/kaziema/gevita",
+      "catalog_id": "goldeneye-007-vita-port",
+      "reason": "Exact GoldenEye 007 N64-to-PS Vita repository and target already exist in SQLite."
+    },
+    {
+      "repository": "boraeskicioglu/sonic_advance2_nx",
+      "project_url": "https://github.com/boraeskicioglu/sonic_advance2_nx",
+      "catalog_id": "sonic-advance-2-switch-port",
+      "reason": "Exact Sonic Advance 2 GBA-to-Switch repository and target already exist in SQLite."
+    },
+    {
+      "repository": "BigDaddyJRich/hctp-recomp",
+      "project_url": "https://github.com/BigDaddyJRich/hctp-recomp",
+      "catalog_id": "hctp-ps2-recomp",
+      "reason": "Exact repository and PS2-to-Windows target already exist in SQLite."
+    },
+    {
+      "repository": "Gui-Tora/dmc-recomp",
+      "project_url": "https://github.com/Gui-Tora/dmc-recomp",
+      "catalog_id": "devil-may-cry-ps2-pal-windows-static-recomp",
+      "reason": "Exact repository and PS2-to-Windows target already exist in SQLite."
+    },
+    {
+      "repository": "nicolasserpa/shadow-the-hedgehog-recomp",
+      "project_url": "https://github.com/nicolasserpa/shadow-the-hedgehog-recomp",
+      "catalog_id": "shadow-the-hedgehog-ps2-recomp",
+      "reason": "Exact repository and PS2-to-Windows target already exist in SQLite."
+    }
+  ],
+  "held_or_excluded_leads": [
+    {
+      "repository": "vamidi/tales-of-legendia-ps2recomp",
+      "project_url": "https://github.com/vamidi/tales-of-legendia-ps2recomp",
+      "decision": "hold",
+      "reason": "The README identifies a PS2 recompilation and reports a pink screen with missing MMI functions and CP0 errors, but the Requirements and How-to-use sections are blank and no host operating system or target executable is identified. Hold until the native target platform can be cited."
+    },
+    {
+      "repository": "pedrohenrique505/Recomp-Domination",
+      "project_url": "https://github.com/pedrohenrique505/Recomp-Domination",
+      "decision": "hold",
+      "reason": "Search metadata describes a Downhill Domination PS2-to-Linux recompilation, but GitHub provides no README at the default branch; the target and status cannot be independently confirmed from project-authored evidence."
+    },
+    {
+      "repository": "AncletoCEO/Ps2Recomp-of-etheria",
+      "project_url": "https://github.com/AncletoCEO/Ps2Recomp-of-etheria",
+      "decision": "exclude",
+      "reason": "The description says this is a PS2Recomp fork for Sword of Etheria, but its README is generic PS2Recomp documentation and provides no game-specific target configuration or status milestone."
+    },
+    {
+      "repository": "kokolika/ps2recomp_eternal_ring_ps2",
+      "project_url": "https://github.com/kokolika/ps2recomp_eternal_ring_ps2",
+      "decision": "hold",
+      "reason": "The README is the generic PS2Recomp template and gives no Eternal Ring target identity or project-specific progress evidence."
+    },
+    {
+      "repository": "Red-tv141/DC2-PS2RECOMP",
+      "project_url": "https://github.com/Red-tv141/DC2-PS2RECOMP",
+      "decision": "hold",
+      "reason": "The default README is blank and repository metadata has no description, so the game-specific method and status cannot be verified. Dark Cloud 2 is also already represented by a separate PS2 decompilation."
+    },
+    {
+      "repository": "mxmstr/b3-decomp",
+      "project_url": "https://github.com/mxmstr/b3-decomp",
+      "decision": "exclude",
+      "reason": "This is a separate Sly Cooper decomp repository, but its PS2 NTSC-U target is already covered in SQLite by other matching decompilation records for the same game/revision; it does not add a distinct game or console destination to this batch."
+    }
+  ],
+  "staging_overlap_audit": {
+    "continuation-round12": {
+      "path": "/Users/earlcameron/Documents/Codex/2026-10-15/new/work/research-2026-10-16/continuation-round12",
+      "observed": "Only an emulators subdirectory was present in the requested round-12 path."
+    },
+    "prior_game_recomp": {
+      "path": "/Users/earlcameron/Documents/Codex/2026-10-15/new/work/research-latest/03-game-recomp/findings.json",
+      "observed_records": 71,
+      "candidate_url_overlap": []
+    },
+    "prior_console_ports": {
+      "paths": [
+        "/Users/earlcameron/Documents/Codex/2026-10-15/new/work/research-next/console-console-ports/new-projects.json",
+        "/Users/earlcameron/Documents/Codex/2026-10-15/new/work/research-2026-10-16/goal-refresh/revalidation/console-ports/new-projects.json"
+      ],
+      "observed_records": 16,
+      "candidate_url_overlap": []
+    }
+  }
+}

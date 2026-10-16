@@ -1,0 +1,278 @@
+{
+  "updated": "2026-10-16",
+  "scope": "Round 13 Xbox-generation software, game decompilation, recompilation, and decompilation-based ports. Status statements are attributed to maintainers; project and game data remain user-supplied where stated.",
+  "projects": [
+    {
+      "id": "original-xbox-xboxrecomp-toolkit",
+      "title": "Xbox Recompilation Toolkit (Original Xbox)",
+      "game": "Original Xbox static recompilation toolkit",
+      "target_type": "Software",
+      "platform": "Original Xbox XBE → native x86-64 C executables; the v0.14.0 release adds evolving Linux, macOS, and arm64 host/runtime support",
+      "kind": "Recompilation",
+      "status": "v0.14.0 was published on 2026-10-16. The maintainer README says this repository builds title-neutral runtime libraries and tools; it does not produce a complete game executable by itself. Each game executable is generated in a separate title-specific project from user-supplied game files.",
+      "summary": "A title-agnostic static recompilation toolkit for Original Xbox XBE binaries. It lifts x86 instructions to C and provides Xbox kernel, graphics, audio, and input runtime libraries; game projects link those libraries and compile the generated code locally. This is a recompilation toolchain, not an emulator or a game-specific port.",
+      "project_url": "https://github.com/sp00nznet/xboxrecomp",
+      "updated": "2026-10-16",
+      "strategy": "Static recompilation toolkit",
+      "language": "",
+      "source_available": "Public source repository; original game data is supplied by the user",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Title-agnostic static recompilation toolkit",
+      "sources": [
+        {
+          "label": "Maintainer README at reviewed commit",
+          "url": "https://github.com/sp00nznet/xboxrecomp/blob/eb0aa1d5fcb1ca34cdb6470fcfa471d87f431d73/README.md"
+        },
+        {
+          "label": "v0.14.0 release notes",
+          "url": "https://github.com/sp00nznet/xboxrecomp/releases/tag/v0.14.0"
+        },
+        {
+          "label": "Exact GitHub Languages API byte counts",
+          "url": "https://api.github.com/repos/sp00nznet/xboxrecomp/languages"
+        }
+      ]
+    },
+    {
+      "id": "rexglue-xbox360-recompilation-sdk",
+      "title": "ReXGlue SDK — Xbox 360 Recompilation Runtime and Toolkit",
+      "game": "Xbox 360 PowerPC recompilation toolkit",
+      "target_type": "Software",
+      "platform": "Xbox 360 PowerPC → portable C++ native projects; host support depends on the evolving shared runtime",
+      "kind": "Recompilation",
+      "status": "Early development. The maintainer README warns that behavior and public APIs may change substantially. It describes ahead-of-time C++ generation and publishes stable and nightly SDK builds, but gives no general title-compatibility guarantee.",
+      "summary": "An Xbox 360 static recompilation SDK that converts PowerPC code to C++ ahead of time and supplies a shared native runtime. The maintainer describes it as based on Xenia research and related static recompiler work; it is not an emulator.",
+      "project_url": "https://github.com/rexglue/rexglue-sdk",
+      "updated": "2026-10-16",
+      "strategy": "Static recompilation runtime and SDK",
+      "language": "",
+      "source_available": "Public source repository; original game data is supplied by the user",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Xbox 360 ahead-of-time recompilation toolkit",
+      "sources": [
+        {
+          "label": "Maintainer README at reviewed commit",
+          "url": "https://github.com/rexglue/rexglue-sdk/blob/c94f5ebdcb3c9d1a460ca48e04f9758448f8d518/README.md"
+        },
+        {
+          "label": "Canonical public source repository",
+          "url": "https://github.com/rexglue/rexglue-sdk"
+        },
+        {
+          "label": "Exact GitHub Languages API byte counts",
+          "url": "https://api.github.com/repos/rexglue/rexglue-sdk/languages"
+        }
+      ]
+    },
+    {
+      "id": "rexauto-xbox360-recompilation-workflow",
+      "title": "ReXAuto — Xbox 360 Recompilation Pipeline and Launcher",
+      "game": "Xbox 360 ReXGlue recompilation workflow",
+      "target_type": "Software",
+      "platform": "Xbox 360 → Windows x86-64; an optional GitHub Actions workflow produces native Android arm64 APKs",
+      "kind": "Recompilation",
+      "status": "Work in progress. The maintainer lists per-title milestones and documents an automated pipeline that can reach a booting, guest-code-executing build. The README warns that graphics and kernel gaps in ReXGlue can still prevent a title from drawing correctly or staying up. Its Android APK workflow uses an Android patch set and is not a universal compatibility guarantee.",
+      "summary": "A desktop front end and orchestration pipeline for ReXGlue, not a separate CPU recompiler or emulator. It extracts game containers, scaffolds projects, recovers jump tables, repairs function boundaries, builds and launches per-title Windows ports, and documents an optional native Android arm64 build workflow. Game files are user-supplied.",
+      "project_url": "https://github.com/Player124413/rexauto",
+      "updated": "2026-10-16",
+      "strategy": "Static recompilation workflow and launcher using ReXGlue",
+      "language": "",
+      "source_available": "Public source repository; original game data is supplied by the user",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "Python",
+      "subtype": "Recompilation orchestration; Windows and Android build workflows",
+      "sources": [
+        {
+          "label": "Maintainer README at reviewed commit",
+          "url": "https://github.com/Player124413/rexauto/blob/dac49b331f2632f0b050f469e35747721300b8b2/README.md"
+        },
+        {
+          "label": "Canonical public source repository",
+          "url": "https://github.com/Player124413/rexauto"
+        },
+        {
+          "label": "Exact GitHub Languages API byte counts",
+          "url": "https://api.github.com/repos/Player124413/rexauto/languages"
+        }
+      ]
+    },
+    {
+      "id": "sonic-2006-xbox360-matching-decompilation",
+      "title": "Sonic the Hedgehog (2006) Xbox 360 Matching Decompilation",
+      "game": "Sonic the Hedgehog (2006) (Xbox 360 version)",
+      "target_type": "Game",
+      "platform": "Xbox 360 XEX (Title ID 534507D6)",
+      "kind": "Decompilation",
+      "status": "Work in progress. The maintainer README documents a build-and-diff workflow using a user-provided XEX, Python, Ninja, and objdiff. It does not report a completion percentage, release, or playable PC port.",
+      "summary": "A matching decompilation project for the Xbox 360 version of Sonic the Hedgehog (2006). The repository contains project source and build configuration, but no game assets or assembly; users provide their own XEX.",
+      "project_url": "https://github.com/rjkiv/sonic06",
+      "updated": "2026-10-16",
+      "strategy": "Matching decompilation",
+      "language": "",
+      "source_available": "Public source repository; game assets and XEX are user-supplied",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Xbox 360 matching decompilation",
+      "sources": [
+        {
+          "label": "Maintainer README at reviewed commit",
+          "url": "https://github.com/rjkiv/sonic06/blob/eb11705eabe94830001eb897877a1655a1144b1c/README.md"
+        },
+        {
+          "label": "Canonical public source repository",
+          "url": "https://github.com/rjkiv/sonic06"
+        },
+        {
+          "label": "Exact GitHub Languages API byte counts",
+          "url": "https://api.github.com/repos/rjkiv/sonic06/languages"
+        }
+      ]
+    },
+    {
+      "id": "terraria-ogc-console-decompilation-windows-port",
+      "title": "TerrariaOGC — Old-Gen Console Decompilation and Windows Port",
+      "game": "Terraria (Xbox 360 Edition)",
+      "target_type": "Game",
+      "platform": "Xbox 360 / PlayStation 3 Old-Gen console version → Windows",
+      "kind": "Decompilation",
+      "status": "A functional Windows port based on the console decompilation. The maintainer says the initial console release and version 1.01 are available; console versions 1.03 and 1.09 are planned but not yet available. The README does not document direct support for non-Windows hosts. Users provide their own console game assets.",
+      "summary": "A decompilation-based PC port of the Xbox 360 and PlayStation 3 Old-Gen Terraria release, with Windows/FNA build instructions and enhancements over the console version. It is a separate project from the catalogued TerrariaXDK decompilation and requires user-supplied game data.",
+      "project_url": "https://github.com/PPrism/TerrariaOGC",
+      "updated": "2026-10-16",
+      "strategy": "Decompilation-based source port",
+      "language": "",
+      "source_available": "Public source repository; game assets are user-supplied and not distributed",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C#",
+      "subtype": "Decompilation; native Windows port",
+      "sources": [
+        {
+          "label": "Maintainer README at reviewed commit",
+          "url": "https://github.com/PPrism/TerrariaOGC/blob/d83bbf0b7cbf58dc228f8856697bb0eb5de7dc27/README.md"
+        },
+        {
+          "label": "Canonical public source repository",
+          "url": "https://github.com/PPrism/TerrariaOGC"
+        },
+        {
+          "label": "Exact GitHub Languages API byte counts",
+          "url": "https://api.github.com/repos/PPrism/TerrariaOGC/languages"
+        }
+      ]
+    },
+    {
+      "id": "ace-combat-6-project-gracemeria-xenon-module",
+      "title": "Project Gracemeria — Ace Combat 6 Xenon Game Module",
+      "game": "Ace Combat 6: Fires of Liberation",
+      "target_type": "Game",
+      "platform": "Xbox 360 USA retail TU0 → Project Xenon generated native game module; host support follows Xenon's evolving runtime",
+      "kind": "Recompilation",
+      "status": "Early title-specific module and tooling. The maintainer documents a USA retail TU0 profile and commands to generate a Xenon game module from a user-supplied XEX, but makes no in-game compatibility or playability claim for Ace Combat 6 in this repository. The exact effective-XEX hash and version are intentionally left for real-title validation.",
+      "summary": "A title-specific module for the separate Project Xenon Xbox 360 recompilation runtime. It supplies Ace Combat 6 revision identity, analysis hints, symbols, and compatibility metadata; it is not a second runtime or a standalone game port. It migrated some configuration and analysis metadata from the existing ReXGlue-based AC6_recomp project.",
+      "project_url": "https://github.com/nimauria/Project-Gracemeria",
+      "updated": "2026-10-16",
+      "strategy": "Static recompilation through Project Xenon title module",
+      "language": "",
+      "source_available": "Public source repository; game XEX is user-supplied and not distributed",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Xbox 360 title-specific recompilation module and metadata tools",
+      "sources": [
+        {
+          "label": "Maintainer README at reviewed commit",
+          "url": "https://github.com/nimauria/Project-Gracemeria/blob/59e37e9cb8bcf0717a460d9ce033bb9d5649cf15/README.md"
+        },
+        {
+          "label": "Existing ReXGlue-based Ace Combat 6 recompilation project (lineage reference)",
+          "url": "https://github.com/sal063/AC6_recomp"
+        },
+        {
+          "label": "Canonical public source repository",
+          "url": "https://github.com/nimauria/Project-Gracemeria"
+        },
+        {
+          "label": "Exact GitHub Languages API byte counts",
+          "url": "https://api.github.com/repos/nimauria/Project-Gracemeria/languages"
+        }
+      ]
+    },
+    {
+      "id": "monster-hunter-jp-ps2-matching-decomp-pc-xbox",
+      "title": "Monster Hunter (Japanese PS2) Decompilation and PC/Original Xbox Port",
+      "game": "Monster Hunter (PS2, Japan)",
+      "target_type": "Game",
+      "platform": "Japanese PlayStation 2 → Linux x86, Windows x86, Original Xbox (nxdk)",
+      "kind": "Decompilation",
+      "status": "Work in progress. The maintainer's current playing guide reports the full single-player game playable and documents Linux, Windows, and Original Xbox builds; the Original Xbox build was tested on one console and in xemu. The October 8 Windows test release is explicitly untested on a real Windows PC (the maintainer reports its full test set passes under Wine). Rough edges remain.",
+      "summary": "A matching decompilation of the Japanese PS2 release retargeted to Linux, Windows, and Original Xbox. The build uses user-supplied disc data and the open nxdk toolchain for Xbox; no Capcom game data is included. The same repository separately builds Monster Hunter G.",
+      "project_url": "https://github.com/itsbigcforme67/mh1-xbox",
+      "updated": "2026-10-16",
+      "strategy": "Matching decompilation and source retargeting",
+      "language": "",
+      "source_available": "Public source repository; PS2 disc and game data are user-supplied and not distributed",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Matching decompilation; Linux, Windows, and Original Xbox port",
+      "sources": [
+        {
+          "label": "Current maintainer playing/build guide at reviewed commit",
+          "url": "https://github.com/itsbigcforme67/mh1-xbox/blob/d54e2f145a5c6f03a28df2a1bf55f1adab359d5e/docs/PLAYING.md"
+        },
+        {
+          "label": "October 8 Windows test release",
+          "url": "https://github.com/itsbigcforme67/mh1-xbox/releases/tag/test-20261008"
+        },
+        {
+          "label": "Maintainer README retaining the earlier phase-0 wording",
+          "url": "https://github.com/itsbigcforme67/mh1-xbox/blob/d54e2f145a5c6f03a28df2a1bf55f1adab359d5e/README.md"
+        },
+        {
+          "label": "Exact GitHub Languages API byte counts",
+          "url": "https://api.github.com/repos/itsbigcforme67/mh1-xbox/languages"
+        }
+      ]
+    },
+    {
+      "id": "monster-hunter-g-jp-ps2-matching-decomp-pc-xbox",
+      "title": "Monster Hunter G (Japanese PS2) Decompilation and PC/Original Xbox Port",
+      "game": "Monster Hunter G (PS2, Japan)",
+      "target_type": "Game",
+      "platform": "Japanese PlayStation 2 → Linux x86, Windows x86, Original Xbox (nxdk)",
+      "kind": "Decompilation",
+      "status": "Work in progress. The maintainer's guide says the same build commands accept a Monster Hunter G disc and produce Linux, Windows, and Original Xbox builds; it states the whole single-player game is playable across the project, but gives no separate Original Xbox hardware test result for G. The October 8 Windows test release is for the base Monster Hunter title, not a separately listed G package. The guide says G has no online mode.",
+      "summary": "A matching decompilation of the Japanese PS2 Monster Hunter G release, retargeted to Linux, Windows, and Original Xbox using the same project repository and toolchain as the base game. Users supply their own disc data; none is distributed.",
+      "project_url": "https://github.com/itsbigcforme67/mh1-xbox",
+      "updated": "2026-10-16",
+      "strategy": "Matching decompilation and source retargeting",
+      "language": "",
+      "source_available": "Public source repository; PS2 disc and game data are user-supplied and not distributed",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Matching decompilation; Linux, Windows, and Original Xbox port",
+      "sources": [
+        {
+          "label": "Current maintainer playing/build guide at reviewed commit",
+          "url": "https://github.com/itsbigcforme67/mh1-xbox/blob/d54e2f145a5c6f03a28df2a1bf55f1adab359d5e/docs/PLAYING.md"
+        },
+        {
+          "label": "Canonical public source repository",
+          "url": "https://github.com/itsbigcforme67/mh1-xbox"
+        },
+        {
+          "label": "Exact GitHub Languages API byte counts",
+          "url": "https://api.github.com/repos/itsbigcforme67/mh1-xbox/languages"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "updated": "2026-10-16",
+  "scope": "Exact GitHub repository language byte counts for the seven staged project records. Same repository map is repeated for the software tool and its separate game-specific target.",
+  "records": [
+    {
+      "project_id": "gba-recomp-toolkit",
+      "predominant_language": "Rust",
+      "language_breakdown_bytes": {
+        "Rust": 988104,
+        "Shell": 29450,
+        "Python": 10152,
+        "WGSL": 7376
+      },
+      "evidence_url": "https://github.com/JRickey/gba-recomp/languages",
+      "evidence": "Exact GitHub repository language byte counts from the staged GitHub REST /languages response; counts are source bytes, not percentages.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "gb2swf-static-recompilation-tool",
+      "predominant_language": "Haxe",
+      "language_breakdown_bytes": {
+        "Haxe": 232672,
+        "JavaScript": 39952,
+        "CSS": 3369,
+        "HTML": 3041
+      },
+      "evidence_url": "https://github.com/Burg-Media/gb2swf/languages",
+      "evidence": "Exact GitHub repository language byte counts from the staged GitHub REST /languages response; counts are source bytes, not percentages.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "psprism-psp-static-recompilation",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 1657036,
+        "C": 787536,
+        "Objective-C++": 90694,
+        "Shell": 20112,
+        "CMake": 17314,
+        "Makefile": 8873,
+        "Python": 5787,
+        "Assembly": 3010
+      },
+      "evidence_url": "https://github.com/anthonyhfm/psprism/languages",
+      "evidence": "Exact GitHub repository language byte counts from the staged GitHub REST /languages response; counts are source bytes, not percentages.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "daxter-psprism-macos-recompilation",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 1657036,
+        "C": 787536,
+        "Objective-C++": 90694,
+        "Shell": 20112,
+        "CMake": 17314,
+        "Makefile": 8873,
+        "Python": 5787,
+        "Assembly": 3010
+      },
+      "evidence_url": "https://github.com/anthonyhfm/psprism/languages",
+      "evidence": "Exact GitHub repository language byte counts from the staged GitHub REST /languages response; counts are source bytes, not percentages.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "insaniquarium-deluxe-vita-api-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 176515,
+        "Python": 3316,
+        "CMake": 2858,
+        "Shell": 758
+      },
+      "evidence_url": "https://github.com/KartingSackboy06/insaniquarium-vita/languages",
+      "evidence": "Exact GitHub repository language byte counts from the staged GitHub REST /languages response; counts are source bytes, not percentages.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "epoch-equinox-oracle-of-ages-player",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 530077,
+        "Python": 257862,
+        "HTML": 64769,
+        "C++": 53519,
+        "GDScript": 23391,
+        "JavaScript": 18219,
+        "CSS": 13569,
+        "CMake": 8064,
+        "PowerShell": 7161,
+        "Shell": 3745
+      },
+      "evidence_url": "https://github.com/ZakyPew/epoch-equinox/languages",
+      "evidence": "Exact GitHub repository language byte counts from the staged GitHub REST /languages response; counts are source bytes, not percentages.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "epoch-equinox-oracle-of-seasons-player",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 530077,
+        "Python": 257862,
+        "HTML": 64769,
+        "C++": 53519,
+        "GDScript": 23391,
+        "JavaScript": 18219,
+        "CSS": 13569,
+        "CMake": 8064,
+        "PowerShell": 7161,
+        "Shell": 3745
+      },
+      "evidence_url": "https://github.com/ZakyPew/epoch-equinox/languages",
+      "evidence": "Exact GitHub repository language byte counts from the staged GitHub REST /languages response; counts are source bytes, not percentages.",
+      "verified_at": "2026-10-16"
+    }
+  ]
+}

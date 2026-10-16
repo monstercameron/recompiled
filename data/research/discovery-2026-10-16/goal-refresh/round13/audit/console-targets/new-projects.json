@@ -1,0 +1,142 @@
+{
+  "verified_at": "2026-10-16",
+  "scope": "New source-verified console game decompilation and static recompilation projects. Exact repository URLs and game/project identities were checked against the live catalog SQLite database before staging.",
+  "projects": [
+    {
+      "id": "ultraman-fighting-evolution-3-ps2-linux-static-recomp",
+      "title": "Ultraman Fighting Evolution 3 PS2 Static Recompilation",
+      "game": "Ultraman Fighting Evolution 3 (Japan, SLPS-25441)",
+      "target_type": "Game",
+      "platform": "PlayStation 2 (Japan, SLPS-25441) → Linux x86-64",
+      "kind": "Recompilation",
+      "status": "Early and not playable. The maintainer reports that it boots through the IOP modules and sound driver, passes the memory-card check, renders the health-warning screen, and skips the opening movie, then stops on a black screen before the title. 3D/VU1 rendering is not yet working.",
+      "summary": "A static recompilation of the Japanese PS2 executable to a native Linux runner using PS2Recomp. It requires a user-supplied game disc and an x86-64 host with AVX2; the repository says it contains no game data.",
+      "project_url": "https://github.com/idiazraz/ufe3-recomp",
+      "updated": "2026-10-16",
+      "strategy": "Static recompilation of PS2 MIPS code to C++",
+      "source_available": "Public GitHub source; the README requires the user to supply the original disc and states that no game data is included.",
+      "first_found": "2026-10-16",
+      "programming_language": "Python",
+      "subtype": "Native Linux static recompilation",
+      "sources": [
+        {
+          "label": "Maintainer README: PS2 target, Linux host requirements, recompilation method, current status and user-supplied disc requirement",
+          "url": "https://github.com/idiazraz/ufe3-recomp#readme"
+        },
+        {
+          "label": "Maintainer technical notes linked from the README",
+          "url": "https://github.com/idiazraz/ufe3-recomp/blob/main/docs/NOTES.md"
+        },
+        {
+          "label": "Project license (GPL-3.0)",
+          "url": "https://github.com/idiazraz/ufe3-recomp/blob/main/LICENSE"
+        },
+        {
+          "label": "GitHub repository metadata: creation and latest push dates, archive/fork state and declared license",
+          "url": "https://api.github.com/repos/idiazraz/ufe3-recomp"
+        },
+        {
+          "label": "GitHub Languages API byte totals",
+          "url": "https://api.github.com/repos/idiazraz/ufe3-recomp/languages"
+        }
+      ]
+    },
+    {
+      "id": "resident-evil-dead-aim-ps2-pal-matching-decomp",
+      "title": "Resident Evil: Dead Aim PS2 Decompilation (Bullseye)",
+      "game": "Resident Evil: Dead Aim (PAL, SLES_514.48)",
+      "target_type": "Game",
+      "platform": "PlayStation 2 (PAL SLES_514.48)",
+      "kind": "Decompilation",
+      "status": "Work in progress. The README reports a byte-identical rebuild of every loadable byte in SLES_514.48, while only 40 of 1,328,837 code bytes (0.0030%) are decompiled; most game code remains included assembly.",
+      "summary": "A matching PS2 source reconstruction and reverse-engineering project for the PAL release. Building it requires a user-supplied game dump and PS2 toolchain; the repository does not claim a native PC or alternate-console port.",
+      "project_url": "https://github.com/cakehonolulu/Bullseye",
+      "updated": "2026-10-16",
+      "strategy": "Matching executable reconstruction",
+      "source_available": "Public GitHub repository with source, build configuration and progress data. GitHub repository metadata has no recognized license declaration.",
+      "first_found": "2026-10-16",
+      "programming_language": "C++",
+      "subtype": "PS2 matching decompilation",
+      "sources": [
+        {
+          "label": "Maintainer README: PAL executable identity, matching-build method, decompilation progress, requirements and status",
+          "url": "https://github.com/cakehonolulu/Bullseye#readme"
+        },
+        {
+          "label": "GitHub repository metadata: dates, archive/fork state and license detection (none reported)",
+          "url": "https://api.github.com/repos/cakehonolulu/Bullseye"
+        },
+        {
+          "label": "GitHub Languages API byte totals",
+          "url": "https://api.github.com/repos/cakehonolulu/Bullseye/languages"
+        }
+      ]
+    },
+    {
+      "id": "rage-racer-ps1-byte-matching-decomp",
+      "title": "Rage Racer PlayStation Byte-Matching Decompilation",
+      "game": "Rage Racer (PAL SCES_006.50; USA SLUS_004.03; Japan SLPS_006.00 v1.0 and v1.1)",
+      "target_type": "Game",
+      "platform": "PlayStation (PAL SCES_006.50; USA SLUS_004.03; Japan SLPS_006.00 v1.0/v1.1)",
+      "kind": "Decompilation",
+      "status": "Matching is complete for the PAL executable: the README reports all 1,200 functions and 100% of code bytes matched, with a byte-identical linked executable. It says the USA and Japanese targets have complete source coverage using shared PAL C where possible and region-specific C where needed. Some translation units retain inline or hand-written assembly.",
+      "summary": "A source-only reconstruction of the PlayStation version of Rage Racer, with regional builds for PAL, USA and Japan. The project uses the original PSYQ-era toolchain to produce matching executables and requires users to supply their own game copies and toolchain.",
+      "project_url": "https://github.com/khasinski/rage-racer-decomp",
+      "updated": "2026-10-16",
+      "strategy": "Byte-exact matching decompilation",
+      "source_available": "Public source-only repository; the README says game images, extracted assets, SDK files and compiler binaries are not included. GitHub license detection returns NOASSERTION, so the source license is unclear.",
+      "first_found": "2026-10-16",
+      "programming_language": "C",
+      "subtype": "PlayStation matching decompilation",
+      "sources": [
+        {
+          "label": "Maintainer README: regional executable targets, source-reconstruction method, matching progress and project status",
+          "url": "https://github.com/khasinski/rage-racer-decomp#readme"
+        },
+        {
+          "label": "GitHub repository metadata: dates, archive/fork state and license detection (NOASSERTION)",
+          "url": "https://api.github.com/repos/khasinski/rage-racer-decomp"
+        },
+        {
+          "label": "GitHub Languages API byte totals",
+          "url": "https://api.github.com/repos/khasinski/rage-racer-decomp/languages"
+        }
+      ]
+    },
+    {
+      "id": "street-fighter-iii-third-strike-ps2-matching-decomp",
+      "title": "Street Fighter III: 3rd Strike PS2 Decompilation",
+      "game": "Street Fighter III: 3rd Strike (PlayStation 2 version; revision unspecified)",
+      "target_type": "Game",
+      "platform": "PlayStation 2 (revision unspecified in the README)",
+      "kind": "Decompilation",
+      "status": "The maintainer README says the PS2 game code is fully decompiled. CRI middleware is partly decompiled, with most filesystem and sound functions matching.",
+      "summary": "A PS2 source reconstruction project intended to support preservation, study and later ports. Its README links build and decompilation guides but does not claim a native build for another platform.",
+      "project_url": "https://github.com/crowded-street/3s-decomp",
+      "updated": "2026-10-16",
+      "strategy": "Matching source reconstruction",
+      "source_available": "Public GitHub source repository with build and decompilation documentation.",
+      "first_found": "2026-10-16",
+      "programming_language": "C",
+      "subtype": "PS2 game decompilation",
+      "sources": [
+        {
+          "label": "Maintainer README: PS2 target, decompilation method and progress status",
+          "url": "https://github.com/crowded-street/3s-decomp#readme"
+        },
+        {
+          "label": "Project license (AGPL-3.0)",
+          "url": "https://github.com/crowded-street/3s-decomp/blob/main/LICENSE"
+        },
+        {
+          "label": "GitHub repository metadata: dates, archive/fork state and declared license",
+          "url": "https://api.github.com/repos/crowded-street/3s-decomp"
+        },
+        {
+          "label": "GitHub Languages API byte totals",
+          "url": "https://api.github.com/repos/crowded-street/3s-decomp/languages"
+        }
+      ]
+    }
+  ]
+}

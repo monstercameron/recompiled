@@ -1,0 +1,765 @@
+{
+  "checked_on": "2026-10-16",
+  "catalog_truth": {
+    "database": "/Users/earlcameron/Desktop/recompiled/data/catalog.sqlite",
+    "read_mode": "SQLite URI mode=ro",
+    "sha256": "23ca4afe398ac57b79498017fff7e2a349276c9319d5e9a256c4cd68c1e2b7a9",
+    "project_count": 3462
+  },
+  "candidate_count": 19,
+  "patch_candidate_count": 4,
+  "language_map_delta_count": 3,
+  "candidates": [
+    {
+      "project_id": "black-xbox-recomp",
+      "title": "BLACK Xbox Recompilation",
+      "repository": "portingpete/Black-2006-Recomp",
+      "discovery_leads": [
+        "https://recomp.gg/news",
+        "https://nio03.github.io/unricopie/"
+      ],
+      "catalog_updated_before_audit": "2026-10-15",
+      "upstream_last_push": "2026-10-15T00:25:58Z",
+      "latest_release": {
+        "tag": "v0.1.0-alpha.2",
+        "name": "BLACK 2006 Recomp v0.1.0-alpha.2 — Build entirely on Linux",
+        "published_at_utc": "2026-10-14T20:43:48Z",
+        "url": "https://github.com/portingpete/Black-2006-Recomp/releases/tag/v0.1.0-alpha.2"
+      },
+      "decision": "no_change",
+      "proposed_fields": [],
+      "language_map_changed": false,
+      "language_map_change": null,
+      "rationale": "Current row already records v0.1.0-alpha.2 (2026-10-14) and limits gameplay evidence to the README’s tested mission/scenes rather than the broader Reddit claim. No newer primary status evidence was found.",
+      "primary_snapshots": [
+        "evidence/github/black-xbox-recomp.repository.json",
+        "evidence/github/black-xbox-recomp.readme-api.json",
+        "evidence/github/black-xbox-recomp.README.md",
+        "evidence/github/black-xbox-recomp.languages.json",
+        "evidence/github/black-xbox-recomp.releases.json"
+      ],
+      "held_catalog_values": [
+        "summary",
+        "platform",
+        "kind",
+        "strategy",
+        "programming_language",
+        "source_available"
+      ]
+    },
+    {
+      "project_id": "blue-dragon-xbox360-reblue",
+      "title": "Blue Dragon Static Recompilation",
+      "repository": "zolaware/reblue",
+      "discovery_leads": [
+        "https://recomp.gg/news",
+        "https://nio03.github.io/unricopie/",
+        "https://recomp.fyi/"
+      ],
+      "catalog_updated_before_audit": "2026-10-15",
+      "upstream_last_push": "2026-10-09T14:10:43Z",
+      "latest_release": {
+        "tag": "nightly-v1.3.1-da257a30b-sbd833a2a",
+        "name": "reblue v1.3.1.101 dev nightly",
+        "published_at_utc": "2026-10-09T14:10:32Z",
+        "url": "https://github.com/zolaware/reblue/releases/tag/nightly-v1.3.1-da257a30b-sbd833a2a"
+      },
+      "decision": "no_change",
+      "proposed_fields": [],
+      "language_map_changed": false,
+      "language_map_change": null,
+      "rationale": "Current row already records the latest checked nightly v1.3.1 from 2026-10-09 and avoids inferring whole-campaign completion from the README. No newer release evidence was found.",
+      "primary_snapshots": [
+        "evidence/github/blue-dragon-xbox360-reblue.repository.json",
+        "evidence/github/blue-dragon-xbox360-reblue.readme-api.json",
+        "evidence/github/blue-dragon-xbox360-reblue.README.md",
+        "evidence/github/blue-dragon-xbox360-reblue.languages.json",
+        "evidence/github/blue-dragon-xbox360-reblue.releases.json"
+      ],
+      "held_catalog_values": [
+        "summary",
+        "platform",
+        "kind",
+        "strategy",
+        "programming_language",
+        "source_available"
+      ]
+    },
+    {
+      "project_id": "call-of-duty-modern-warfare-2-xbox360-android-recomp",
+      "title": "Call of Duty: Modern Warfare 2 Xbox 360 Static Recompilation for PC/Android",
+      "repository": "OpenPort-Labs/mw2-android",
+      "discovery_leads": [
+        "https://recomp.gg/news",
+        "https://nio03.github.io/unricopie/",
+        "https://recomp.fyi/"
+      ],
+      "catalog_updated_before_audit": "2026-10-15",
+      "upstream_last_push": "2026-10-13T13:09:50Z",
+      "latest_release": {
+        "tag": "v0.0.2",
+        "name": "MW2 Android v0.0.2 (Snapdragon & Vulkan 1.0 Update)",
+        "published_at_utc": "2026-10-13T09:48:40Z",
+        "url": "https://github.com/OpenPort-Labs/mw2-android/releases/tag/v0.0.2"
+      },
+      "decision": "no_change",
+      "proposed_fields": [],
+      "language_map_changed": false,
+      "language_map_change": null,
+      "rationale": "Current row already records experimental v0.0.2 (2026-10-13), fork provenance and user-supplied game-file requirement. No newer release/compatibility evidence was found.",
+      "primary_snapshots": [
+        "evidence/github/call-of-duty-modern-warfare-2-xbox360-android-recomp.repository.json",
+        "evidence/github/call-of-duty-modern-warfare-2-xbox360-android-recomp.readme-api.json",
+        "evidence/github/call-of-duty-modern-warfare-2-xbox360-android-recomp.README.md",
+        "evidence/github/call-of-duty-modern-warfare-2-xbox360-android-recomp.languages.json",
+        "evidence/github/call-of-duty-modern-warfare-2-xbox360-android-recomp.releases.json"
+      ],
+      "held_catalog_values": [
+        "summary",
+        "platform",
+        "kind",
+        "strategy",
+        "programming_language",
+        "source_available"
+      ]
+    },
+    {
+      "project_id": "colin-mcrae-rally-2-opencmr2",
+      "title": "Colin McRae Rally 2.0 Decompilation-Based Native Port",
+      "repository": "pablocpas/OpenCMR2",
+      "discovery_leads": [
+        "https://www.reddit.com/r/decomps/comments/1x4aj46/colin_mcrae_rally_20_matching_decomp_and_native/"
+      ],
+      "catalog_updated_before_audit": "2026-10-15",
+      "upstream_last_push": "2026-10-15T22:47:56Z",
+      "latest_release": {
+        "tag": "v1.1.5",
+        "name": "OpenCMR2 1.1.5",
+        "published_at_utc": "2026-10-15T17:40:09Z",
+        "url": "https://github.com/pablocpas/OpenCMR2/releases/tag/v1.1.5"
+      },
+      "decision": "no_change",
+      "proposed_fields": [],
+      "language_map_changed": false,
+      "language_map_change": null,
+      "rationale": "Latest v1.1.5 is already named with its release date, regression fixes, tested platforms and untested-play caveats in the current row. No newer release or README compatibility claim changes the catalog facts.",
+      "primary_snapshots": [
+        "evidence/github/colin-mcrae-rally-2-opencmr2.repository.json",
+        "evidence/github/colin-mcrae-rally-2-opencmr2.readme-api.json",
+        "evidence/github/colin-mcrae-rally-2-opencmr2.README.md",
+        "evidence/github/colin-mcrae-rally-2-opencmr2.languages.json",
+        "evidence/github/colin-mcrae-rally-2-opencmr2.releases.json"
+      ],
+      "held_catalog_values": [
+        "summary",
+        "platform",
+        "kind",
+        "strategy",
+        "programming_language",
+        "source_available"
+      ]
+    },
+    {
+      "project_id": "crash-team-racing-ctrpad-ios",
+      "title": "CTRPad: Crash Team Racing Apple Ports",
+      "repository": "chrissotraidis/ctrpad",
+      "discovery_leads": [
+        "Community port tracker / GitHub search discovery; prior canonical-source audit is work/research-2026-10-16/continuation-round12/social-latest/exclusions.json"
+      ],
+      "catalog_updated_before_audit": "2026-10-05",
+      "upstream_last_push": "2026-10-05T07:28:13Z",
+      "latest_release": {
+        "tag": "v0.2.2",
+        "name": "CTRPad v0.2.2",
+        "published_at_utc": "2026-10-05T07:28:14Z",
+        "url": "https://github.com/chrissotraidis/ctrpad/releases/tag/v0.2.2"
+      },
+      "decision": "no_change",
+      "proposed_fields": [],
+      "language_map_changed": false,
+      "language_map_change": null,
+      "rationale": "Current row already captures release v0.2.2 (2026-10-05), its source/build-recipe-only distribution and README status. Repository last push is Oct 5; no newer primary change was found.",
+      "primary_snapshots": [
+        "evidence/github/crash-team-racing-ctrpad-ios.repository.json",
+        "evidence/github/crash-team-racing-ctrpad-ios.readme-api.json",
+        "evidence/github/crash-team-racing-ctrpad-ios.README.md",
+        "evidence/github/crash-team-racing-ctrpad-ios.languages.json",
+        "evidence/github/crash-team-racing-ctrpad-ios.releases.json"
+      ],
+      "held_catalog_values": [
+        "summary",
+        "platform",
+        "kind",
+        "strategy",
+        "programming_language",
+        "source_available"
+      ]
+    },
+    {
+      "project_id": "d9mt-d3d9-metal",
+      "title": "D9MT",
+      "repository": "neo773/d9mt",
+      "discovery_leads": [
+        "https://www.reddit.com/r/macgaming/comments/1u4ybmv/introducing_d9mt_a_directx9_to_metal_translation/"
+      ],
+      "catalog_updated_before_audit": "2026-10-15",
+      "upstream_last_push": "2026-07-15T19:06:57Z",
+      "latest_release": null,
+      "decision": "no_change",
+      "proposed_fields": [],
+      "language_map_changed": false,
+      "language_map_change": null,
+      "rationale": "The repository has no GitHub release and was last pushed 2026-07-15; README still limits tested-game evidence to GTA IV. No newer primary compatibility evidence was found.",
+      "primary_snapshots": [
+        "evidence/github/d9mt-d3d9-metal.repository.json",
+        "evidence/github/d9mt-d3d9-metal.readme-api.json",
+        "evidence/github/d9mt-d3d9-metal.README.md",
+        "evidence/github/d9mt-d3d9-metal.languages.json",
+        "evidence/github/d9mt-d3d9-metal.releases.json"
+      ],
+      "held_catalog_values": [
+        "summary",
+        "platform",
+        "kind",
+        "strategy",
+        "programming_language",
+        "source_available"
+      ]
+    },
+    {
+      "project_id": "donkey-kong-64-pc-recomp",
+      "title": "Donkey Kong 64 Recompiled (PC)",
+      "repository": "rainchus/Donkey-Kong-64-Recompiled",
+      "discovery_leads": [
+        "https://recomp.gg/news",
+        "https://nio03.github.io/unricopie/",
+        "https://recomp.fyi/"
+      ],
+      "catalog_updated_before_audit": "2026-10-16",
+      "upstream_last_push": "2026-09-30T00:21:10Z",
+      "latest_release": {
+        "tag": "v1.0.3",
+        "name": "DK64 Rekongpiled 1.0.3",
+        "published_at_utc": "2026-09-30T00:21:10Z",
+        "url": "https://github.com/Rainchus/Donkey-Kong-64-Recompiled/releases/tag/v1.0.3"
+      },
+      "decision": "no_change",
+      "proposed_fields": [],
+      "language_map_changed": false,
+      "language_map_change": null,
+      "rationale": "Current row already records v1.0.3 (2026-09-30) and avoids asserting whole-game completion. Repository snapshot shows no newer release or documented compatibility claim.",
+      "primary_snapshots": [
+        "evidence/github/donkey-kong-64-pc-recomp.repository.json",
+        "evidence/github/donkey-kong-64-pc-recomp.readme-api.json",
+        "evidence/github/donkey-kong-64-pc-recomp.README.md",
+        "evidence/github/donkey-kong-64-pc-recomp.languages.json",
+        "evidence/github/donkey-kong-64-pc-recomp.releases.json"
+      ],
+      "held_catalog_values": [
+        "summary",
+        "platform",
+        "kind",
+        "strategy",
+        "programming_language",
+        "source_available"
+      ]
+    },
+    {
+      "project_id": "horizon-minecraft-java-reimplementation",
+      "title": "Horizon: Minecraft Java Edition 26.3 Reimplementation",
+      "repository": "ludovic111/horizon",
+      "discovery_leads": [
+        "https://www.reddit.com/r/decomps/comments/1x71xxf/minecraft_java_263_was_just_decompiled_and/"
+      ],
+      "catalog_updated_before_audit": "2026-10-15",
+      "upstream_last_push": "2026-10-16T11:28:44Z",
+      "latest_release": {
+        "tag": "v2026.10.16.03",
+        "name": "Horizon 2026.10.16.03: Trial spawners and 5 more fixes",
+        "published_at_utc": "2026-10-16T05:11:41Z",
+        "url": "https://github.com/ludovic111/horizon/releases/tag/v2026.10.16.03"
+      },
+      "decision": "patch",
+      "proposed_fields": [
+        "updated",
+        "status",
+        "programming_language_evidence"
+      ],
+      "language_map_changed": true,
+      "language_map_change": {
+        "previous": {
+          "Rust": 18485916,
+          "Python": 3751922,
+          "Java": 3057834,
+          "HTML": 67149,
+          "JavaScript": 43222,
+          "WGSL": 32426,
+          "CSS": 28348,
+          "Shell": 13509,
+          "Dockerfile": 2003,
+          "Nix": 554
+        },
+        "current": {
+          "Rust": 19085901,
+          "Python": 3799666,
+          "Java": 3074284,
+          "HTML": 67149,
+          "JavaScript": 43222,
+          "WGSL": 32426,
+          "CSS": 28348,
+          "Shell": 13509,
+          "Dockerfile": 2003,
+          "Nix": 554
+        }
+      },
+      "rationale": "GitHub Releases API now lists v2026.10.16.03 as latest, published 2026-10-16 05:11 UTC. README still calls v2026.10.13.1 latest, so patch the status to state that discrepancy; retain its 281-harness/2026-10-13 audit caveat and playable-host report. Update only verification date and the changed language byte map; keep the correct summary and MIT source-availability text.",
+      "primary_snapshots": [
+        "evidence/github/horizon-minecraft-java-reimplementation.repository.json",
+        "evidence/github/horizon-minecraft-java-reimplementation.readme-api.json",
+        "evidence/github/horizon-minecraft-java-reimplementation.README.md",
+        "evidence/github/horizon-minecraft-java-reimplementation.languages.json",
+        "evidence/github/horizon-minecraft-java-reimplementation.releases.json",
+        "evidence/github/horizon-minecraft-java-reimplementation.release-v2026.10.16.03.json"
+      ],
+      "held_catalog_values": [
+        "summary",
+        "platform",
+        "kind",
+        "strategy",
+        "source_available"
+      ]
+    },
+    {
+      "project_id": "jsrf-unleashed-xbox-recomp",
+      "title": "Jet Set Radio Future Unleashed",
+      "repository": "JuMatt/JetSetRadioFuture-Unleashed",
+      "discovery_leads": [
+        "https://recomp.gg/news",
+        "https://nio03.github.io/unricopie/",
+        "https://recomp.fyi/"
+      ],
+      "catalog_updated_before_audit": "2026-10-15",
+      "upstream_last_push": "2026-10-15T16:51:20Z",
+      "latest_release": {
+        "tag": "v0.4.7",
+        "name": "JSRF Unleashed 0.4.7",
+        "published_at_utc": "2026-10-15T16:47:20Z",
+        "url": "https://github.com/JuMatt/JetSetRadioFuture-Unleashed/releases/tag/v0.4.7"
+      },
+      "decision": "no_change",
+      "proposed_fields": [],
+      "language_map_changed": false,
+      "language_map_change": null,
+      "rationale": "Current row already records v0.4.7 (2026-10-15) and its explicit early-playable/tested-route/platform confidence distinctions. No additional status change was justified.",
+      "primary_snapshots": [
+        "evidence/github/jsrf-unleashed-xbox-recomp.repository.json",
+        "evidence/github/jsrf-unleashed-xbox-recomp.readme-api.json",
+        "evidence/github/jsrf-unleashed-xbox-recomp.README.md",
+        "evidence/github/jsrf-unleashed-xbox-recomp.languages.json",
+        "evidence/github/jsrf-unleashed-xbox-recomp.releases.json"
+      ],
+      "held_catalog_values": [
+        "summary",
+        "platform",
+        "kind",
+        "strategy",
+        "programming_language",
+        "source_available"
+      ]
+    },
+    {
+      "project_id": "kytyps5",
+      "title": "KytyPS5",
+      "repository": "KytyPS5/KytyPS5",
+      "discovery_leads": [
+        "https://www.reddit.com/r/macgaming/comments/1x3prgj/i_attempted_to_run_the_kytyps5_emulator_on_a/"
+      ],
+      "catalog_updated_before_audit": "2026-10-15",
+      "upstream_last_push": "2026-10-16T02:23:46Z",
+      "latest_release": {
+        "tag": "KytyPS5-2026-10-16-3ff6606",
+        "name": "KytyPS5-2026-10-16-3ff6606",
+        "published_at_utc": "2026-10-16T02:23:46Z",
+        "url": "https://github.com/KytyPS5/KytyPS5/releases/tag/KytyPS5-2026-10-16-3ff6606"
+      },
+      "decision": "patch",
+      "proposed_fields": [
+        "updated",
+        "source_available",
+        "programming_language_evidence"
+      ],
+      "language_map_changed": true,
+      "language_map_change": {
+        "previous": {
+          "C++": 10162504,
+          "CMake": 50665,
+          "C": 8819,
+          "Nix": 2471,
+          "GLSL": 2360
+        },
+        "current": {
+          "C++": 10735385,
+          "CMake": 51418,
+          "C": 8819,
+          "Nix": 2471,
+          "GLSL": 2360
+        }
+      },
+      "rationale": "Current status already names the latest 2026-10-16 tag and correctly limits macOS to experimental Rosetta testing. Updated only verification date, precise GPL/source/release host details and the stale byte map.",
+      "primary_snapshots": [
+        "evidence/github/kytyps5.repository.json",
+        "evidence/github/kytyps5.readme-api.json",
+        "evidence/github/kytyps5.README.md",
+        "evidence/github/kytyps5.languages.json",
+        "evidence/github/kytyps5.releases.json"
+      ],
+      "held_catalog_values": [
+        "summary",
+        "platform",
+        "kind",
+        "strategy"
+      ]
+    },
+    {
+      "project_id": "link-awakening-switch-recomp",
+      "title": "Link's Awakening Switch Recompilation",
+      "repository": "peiikai/LASRecomp",
+      "discovery_leads": [
+        "https://recomp.gg/news",
+        "https://nio03.github.io/unricopie/",
+        "https://recomp.fyi/"
+      ],
+      "catalog_updated_before_audit": "2026-10-16",
+      "upstream_last_push": "2026-10-16T02:14:04Z",
+      "latest_release": {
+        "tag": "beta_4",
+        "name": "Beta 4",
+        "published_at_utc": "2026-10-15T03:07:44Z",
+        "url": "https://github.com/peiikai/LASRecomp/releases/tag/beta_4"
+      },
+      "decision": "no_change",
+      "proposed_fields": [],
+      "language_map_changed": false,
+      "language_map_change": null,
+      "rationale": "Current row already records beta_4 (2026-10-15), beta status and remaining gameplay/graphics issues. Oct 16 repository activity does not establish a new release or changed compatibility claim.",
+      "primary_snapshots": [
+        "evidence/github/link-awakening-switch-recomp.repository.json",
+        "evidence/github/link-awakening-switch-recomp.readme-api.json",
+        "evidence/github/link-awakening-switch-recomp.README.md",
+        "evidence/github/link-awakening-switch-recomp.languages.json",
+        "evidence/github/link-awakening-switch-recomp.releases.json"
+      ],
+      "held_catalog_values": [
+        "summary",
+        "platform",
+        "kind",
+        "strategy",
+        "programming_language",
+        "source_available"
+      ]
+    },
+    {
+      "project_id": "mtld3d-macos-d3d9-metal",
+      "title": "mtld3d",
+      "repository": "athei/mtld3d",
+      "discovery_leads": [
+        "https://www.reddit.com/r/macgaming/comments/1vqo5yt/mtld3d-performancefocused-direct3d_9_on_metal_for/"
+      ],
+      "catalog_updated_before_audit": "2026-10-15",
+      "upstream_last_push": "2026-10-15T09:25:59Z",
+      "latest_release": {
+        "tag": "v0.13.0",
+        "name": "v0.13.0",
+        "published_at_utc": "2026-10-13T05:57:05Z",
+        "url": "https://github.com/athei/mtld3d/releases/tag/v0.13.0"
+      },
+      "decision": "no_change",
+      "proposed_fields": [],
+      "language_map_changed": false,
+      "language_map_change": null,
+      "rationale": "Current row already names v0.13.0 (2026-10-13), supported host and title-specific tested list with the right compatibility qualification. Oct 15 repository activity adds no newer reported compatibility result.",
+      "primary_snapshots": [
+        "evidence/github/mtld3d-macos-d3d9-metal.repository.json",
+        "evidence/github/mtld3d-macos-d3d9-metal.readme-api.json",
+        "evidence/github/mtld3d-macos-d3d9-metal.README.md",
+        "evidence/github/mtld3d-macos-d3d9-metal.languages.json",
+        "evidence/github/mtld3d-macos-d3d9-metal.releases.json"
+      ],
+      "held_catalog_values": [
+        "summary",
+        "platform",
+        "kind",
+        "strategy",
+        "programming_language",
+        "source_available"
+      ]
+    },
+    {
+      "project_id": "pt-ps4-pc-reimplementation",
+      "title": "P.T. PS4 Teaser PC Reimplementation",
+      "repository": "LoreanXavier/pt-pc",
+      "discovery_leads": [
+        "https://www.reddit.com/r/macgaming/comments/1x1djz6/silent_hills_pt_native_apple_silicon_m4_macbook/",
+        "https://www.reddit.com/r/silenthill/comments/1wu0152/im_decompiling_and_rebuilding_pt_as_a_native_pc/"
+      ],
+      "catalog_updated_before_audit": "2026-10-15",
+      "upstream_last_push": "2026-10-16T01:12:11Z",
+      "latest_release": {
+        "tag": "v1.0.5",
+        "name": "1.0.5",
+        "published_at_utc": "2026-10-16T01:00:43Z",
+        "url": "https://github.com/LoreanXavier/pt-pc/releases/tag/v1.0.5"
+      },
+      "decision": "patch",
+      "proposed_fields": [
+        "updated",
+        "source_available"
+      ],
+      "language_map_changed": false,
+      "language_map_change": null,
+      "rationale": "The existing status already reflects v1.0.5 and the Oct 16 hotfix, so it is held. The stale source-availability field only said public source; README, LICENSE and exact release assets now substantiate MIT port code, Windows/Linux/macOS archives/installers, and the user-supplied PS4-data boundary.",
+      "primary_snapshots": [
+        "evidence/github/pt-ps4-pc-reimplementation.repository.json",
+        "evidence/github/pt-ps4-pc-reimplementation.readme-api.json",
+        "evidence/github/pt-ps4-pc-reimplementation.README.md",
+        "evidence/github/pt-ps4-pc-reimplementation.languages.json",
+        "evidence/github/pt-ps4-pc-reimplementation.releases.json"
+      ],
+      "held_catalog_values": [
+        "summary",
+        "platform",
+        "kind",
+        "strategy",
+        "programming_language"
+      ]
+    },
+    {
+      "project_id": "super-smash-bros-64-n64-to-nintendo-ds-port",
+      "title": "Super Smash Bros. 64 Nintendo DS Source Port",
+      "repository": "rockenrooster/Smash64DS_Port",
+      "discovery_leads": [
+        "Community project tracker / GitHub search discovery; prior canonical-source audit is work/research-2026-10-16/continuation-round12/social-latest/exclusions.json"
+      ],
+      "catalog_updated_before_audit": "2026-10-13",
+      "upstream_last_push": "2026-10-13T10:46:50Z",
+      "latest_release": null,
+      "decision": "no_change",
+      "proposed_fields": [],
+      "language_map_changed": false,
+      "language_map_change": null,
+      "rationale": "Current row matches the README status snapshot dated 2026-10-02 and includes the no-release / Oct 13 last-push limit. The later push itself contains no newer compatibility statement.",
+      "primary_snapshots": [
+        "evidence/github/super-smash-bros-64-n64-to-nintendo-ds-port.repository.json",
+        "evidence/github/super-smash-bros-64-n64-to-nintendo-ds-port.readme-api.json",
+        "evidence/github/super-smash-bros-64-n64-to-nintendo-ds-port.README.md",
+        "evidence/github/super-smash-bros-64-n64-to-nintendo-ds-port.languages.json",
+        "evidence/github/super-smash-bros-64-n64-to-nintendo-ds-port.releases.json"
+      ],
+      "held_catalog_values": [
+        "summary",
+        "platform",
+        "kind",
+        "strategy",
+        "programming_language",
+        "source_available"
+      ]
+    },
+    {
+      "project_id": "tf2mt-team-fortress-2-macos",
+      "title": "tf2mt",
+      "repository": "HorrorPills/tf2mt",
+      "discovery_leads": [
+        "https://www.reddit.com/r/macgaming/comments/1x0ol6o/tf2mt_native_metal_renderer_for_team_fortress_2/"
+      ],
+      "catalog_updated_before_audit": "2026-10-15",
+      "upstream_last_push": "2026-10-14T17:59:18Z",
+      "latest_release": {
+        "tag": "v0.3.5",
+        "name": "tf2mt v0.3.5",
+        "published_at_utc": "2026-10-14T17:59:21Z",
+        "url": "https://github.com/HorrorPills/tf2mt/releases/tag/v0.3.5"
+      },
+      "decision": "no_change",
+      "proposed_fields": [],
+      "language_map_changed": false,
+      "language_map_change": null,
+      "rationale": "Current row already records v0.3.5 (2026-10-14), the README renderer account, and the stale/conflicting GitHub About description. The Oct 14 push/release did not require a new compatibility fact.",
+      "primary_snapshots": [
+        "evidence/github/tf2mt-team-fortress-2-macos.repository.json",
+        "evidence/github/tf2mt-team-fortress-2-macos.readme-api.json",
+        "evidence/github/tf2mt-team-fortress-2-macos.README.md",
+        "evidence/github/tf2mt-team-fortress-2-macos.languages.json",
+        "evidence/github/tf2mt-team-fortress-2-macos.releases.json"
+      ],
+      "held_catalog_values": [
+        "summary",
+        "platform",
+        "kind",
+        "strategy",
+        "programming_language",
+        "source_available"
+      ]
+    },
+    {
+      "project_id": "tourist-trophy-ps2-matching-decomp",
+      "title": "Tourist Trophy PS2 Matching Decompilation",
+      "repository": "gustavocanepa/tt-decomp",
+      "discovery_leads": [
+        "Community tracker / GitHub search discovery; preceding cross-check files are work/research-2026-10-16/continuation-round12/social-latest/exclusions.json and work/research-2026-10-16/continuation-round12/game-recomp/github-search.json"
+      ],
+      "catalog_updated_before_audit": "2026-10-16",
+      "upstream_last_push": "2026-10-15T07:02:59Z",
+      "latest_release": null,
+      "decision": "no_change",
+      "proposed_fields": [],
+      "language_map_changed": false,
+      "language_map_change": null,
+      "rationale": "Current row matches the README’s snapshot for commit 2935e55bc607 (22,501/31,593 functions; 71.2%; 32.3% of bytes; 86.1% clean-source criterion) and Oct 15 push date. No newer progress snapshot was found.",
+      "primary_snapshots": [
+        "evidence/github/tourist-trophy-ps2-matching-decomp.repository.json",
+        "evidence/github/tourist-trophy-ps2-matching-decomp.readme-api.json",
+        "evidence/github/tourist-trophy-ps2-matching-decomp.README.md",
+        "evidence/github/tourist-trophy-ps2-matching-decomp.languages.json",
+        "evidence/github/tourist-trophy-ps2-matching-decomp.releases.json"
+      ],
+      "held_catalog_values": [
+        "summary",
+        "platform",
+        "kind",
+        "strategy",
+        "programming_language",
+        "source_available"
+      ]
+    },
+    {
+      "project_id": "viva-pinata-trouble-in-paradise-recomp",
+      "title": "Viva Piñata: Trouble in Paradise Recompiled (ReTiP)",
+      "repository": "SolarCookies/TiP-Recomp",
+      "discovery_leads": [
+        "https://www.reddit.com/r/VivaPinata/comments/1wycdk2/viva_pinata_tip_on_da_steam_deck_ready_for_the/"
+      ],
+      "catalog_updated_before_audit": "2026-10-15",
+      "upstream_last_push": "2026-10-03T01:10:21Z",
+      "latest_release": {
+        "tag": "1.13.0",
+        "name": "ReTiP 1.13.0",
+        "published_at_utc": "2026-10-01T22:35:45Z",
+        "url": "https://github.com/SolarCookies/TiP-Recomp/releases/tag/1.13.0"
+      },
+      "decision": "no_change",
+      "proposed_fields": [],
+      "language_map_changed": false,
+      "language_map_change": null,
+      "rationale": "The latest release in the snapshot is 1.13.0 (2026-10-01); the existing README-based status already limits host-platform claims and does not claim full-campaign completion. No newer release/status claim was found.",
+      "primary_snapshots": [
+        "evidence/github/viva-pinata-trouble-in-paradise-recomp.repository.json",
+        "evidence/github/viva-pinata-trouble-in-paradise-recomp.readme-api.json",
+        "evidence/github/viva-pinata-trouble-in-paradise-recomp.README.md",
+        "evidence/github/viva-pinata-trouble-in-paradise-recomp.languages.json",
+        "evidence/github/viva-pinata-trouble-in-paradise-recomp.releases.json"
+      ],
+      "held_catalog_values": [
+        "summary",
+        "platform",
+        "kind",
+        "strategy",
+        "programming_language",
+        "source_available"
+      ]
+    },
+    {
+      "project_id": "winemetalgl-opengl-metal",
+      "title": "WineMetalGL",
+      "repository": "metalsharp/WineMetalGL",
+      "discovery_leads": [
+        "https://www.reddit.com/r/macgaming/comments/1x2wvdf/winemetalgl_now_available_for_general_use/"
+      ],
+      "catalog_updated_before_audit": "2026-10-15",
+      "upstream_last_push": "2026-10-16T11:25:17Z",
+      "latest_release": {
+        "tag": "winemetalgl-3.2.0",
+        "name": "WineMetalGL 3.2.0",
+        "published_at_utc": "2026-10-14T05:17:51Z",
+        "url": "https://github.com/metalsharp/WineMetalGL/releases/tag/winemetalgl-3.2.0"
+      },
+      "decision": "patch",
+      "proposed_fields": [
+        "updated",
+        "status",
+        "programming_language_evidence"
+      ],
+      "language_map_changed": true,
+      "language_map_change": {
+        "previous": {
+          "C++": 1525451,
+          "Objective-C++": 1358399,
+          "C": 632847,
+          "Python": 120476,
+          "Objective-C": 104292,
+          "Shell": 39831,
+          "CMake": 9170
+        },
+        "current": {
+          "C++": 1743040,
+          "Objective-C++": 1423803,
+          "C": 636978,
+          "Python": 152748,
+          "Objective-C": 106762,
+          "Shell": 39831,
+          "CMake": 9205
+        }
+      },
+      "rationale": "A new merged 2026-10-16 shader-compiler fix (PR #34) changes current status evidence; latest published release remains 3.2.0 (2026-10-14). Updated only status/date and the changed GitHub language byte map.",
+      "primary_snapshots": [
+        "evidence/github/winemetalgl-opengl-metal.repository.json",
+        "evidence/github/winemetalgl-opengl-metal.readme-api.json",
+        "evidence/github/winemetalgl-opengl-metal.README.md",
+        "evidence/github/winemetalgl-opengl-metal.languages.json",
+        "evidence/github/winemetalgl-opengl-metal.releases.json"
+      ],
+      "held_catalog_values": [
+        "summary",
+        "platform",
+        "kind",
+        "strategy",
+        "source_available"
+      ]
+    },
+    {
+      "project_id": "x87sidecar-rosetta-jit",
+      "title": "x87sidecar",
+      "repository": "athei/x87sidecar",
+      "discovery_leads": [
+        "https://www.reddit.com/r/macgaming/comments/1rvzrk0/dx9_32bit_games_are_fully_playable_on_apple/"
+      ],
+      "catalog_updated_before_audit": "2026-10-15",
+      "upstream_last_push": "2026-10-13T05:09:51Z",
+      "latest_release": {
+        "tag": "v1.9.0",
+        "name": "x87sidecar v1.9.0",
+        "published_at_utc": "2026-10-13T05:13:57Z",
+        "url": "https://github.com/athei/x87sidecar/releases/tag/v1.9.0"
+      },
+      "decision": "no_change",
+      "proposed_fields": [],
+      "language_map_changed": false,
+      "language_map_change": null,
+      "rationale": "Current row already identifies v1.9.0 (2026-10-13), macOS 26 CI / macOS 27 run evidence, and the narrow x87 instruction coverage. No newer release or compatibility claim surfaced.",
+      "primary_snapshots": [
+        "evidence/github/x87sidecar-rosetta-jit.repository.json",
+        "evidence/github/x87sidecar-rosetta-jit.readme-api.json",
+        "evidence/github/x87sidecar-rosetta-jit.README.md",
+        "evidence/github/x87sidecar-rosetta-jit.languages.json",
+        "evidence/github/x87sidecar-rosetta-jit.releases.json"
+      ],
+      "held_catalog_values": [
+        "summary",
+        "platform",
+        "kind",
+        "strategy",
+        "programming_language",
+        "source_available"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "verified_at": "2026-10-16",
+  "records": [
+    {
+      "project_id": "sonic-generations-xbox360-android-rexglue",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 322577405,
+        "C": 9207637,
+        "Java": 376922,
+        "CMake": 30361,
+        "Shell": 2415,
+        "Makefile": 400
+      },
+      "evidence_url": "https://api.github.com/repos/BluetufieBugado/GenerationsRecomp-Android-RexGlue/languages",
+      "evidence": "Exact GitHub Languages API repository byte counts fetched 2026-10-16. C++ is the largest bucket; the repository commits generated game C++ as well as Android application and support code, so the map is repository-wide rather than a hand-authored-only estimate.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "syphon-filter-ps1-windows-game-specific-emulator",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 11403655,
+        "Python": 58203,
+        "PowerShell": 29971,
+        "CMake": 26454,
+        "Java": 17639
+      },
+      "evidence_url": "https://api.github.com/repos/Madxbio97/SF-pc-port/languages",
+      "evidence": "Exact GitHub Languages API repository byte counts fetched 2026-10-16. C++ is the largest repository language; the map includes the project and its vendored/modified PS1 compatibility backend.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "super-mario-strikers-meta-quest-3-mr-port",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 10030193,
+        "C": 4396793,
+        "Java": 339816,
+        "JavaScript": 61043,
+        "CMake": 56994,
+        "Shell": 50324,
+        "Python": 42765,
+        "Assembly": 26752,
+        "GLSL": 18434,
+        "PowerShell": 2791,
+        "Makefile": 441
+      },
+      "evidence_url": "https://api.github.com/repos/LanceSweatpants/Strikers-Quest-MR/languages",
+      "evidence": "Exact GitHub Languages API repository byte counts fetched 2026-10-16. C++ is the largest repository bucket; this is a repository-wide map and includes shared/decompilation-based game code, not only Quest-specific changes.",
+      "verified_at": "2026-10-16"
+    }
+  ]
+}

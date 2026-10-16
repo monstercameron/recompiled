@@ -1,0 +1,83 @@
+{
+  "updated": "2026-10-16",
+  "scope": "Exact repository-wide byte totals from each selected repository’s official GitHub Languages API endpoint, captured on 2026-10-16. The largest byte bucket is reported as the predominant language; these totals include tooling, tests, docs where GitHub classifies them, and other repository files and are not a measure of core implementation size.",
+  "records": [
+    {
+      "project_id": "monster-hunter-3-ultimate-wiiu-linux-static-recomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 588371,
+        "C": 178204,
+        "Python": 110584
+      },
+      "evidence_url": "https://api.github.com/repos/brandraft-exp/wiiu-recomp/languages",
+      "evidence": "Exact GitHub Languages API byte totals checked 2026-10-16. C++ is the largest reported bucket; counts include the runtime, translator, scripts, and other repository files.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": null
+    },
+    {
+      "project_id": "yoshis-woolly-world-wiiu-decomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 4771,
+        "Python": 1118,
+        "C": 322
+      },
+      "evidence_url": "https://api.github.com/repos/Swiftshine/yww/languages",
+      "evidence": "Exact GitHub Languages API byte totals checked 2026-10-16. C++ is the largest reported bucket; the repository is very small and the map does not establish decompilation completeness.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": null
+    },
+    {
+      "project_id": "scott-pilgrim-complete-edition-switch-decomp",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 9445848,
+        "C++": 7961981,
+        "Python": 110145
+      },
+      "evidence_url": "https://api.github.com/repos/jwfeniello/scott-pilgrim-switch-decomp/languages",
+      "evidence": "Exact GitHub Languages API byte totals checked 2026-10-16. C is the largest reported bucket; the repository includes both C and C++ reconstruction sources and verification/tooling files.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": null
+    },
+    {
+      "project_id": "tears-of-the-kingdom-switch-decomp-bignegro",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Python": 74926,
+        "C": 26020,
+        "PowerShell": 5168,
+        "C++": 4034,
+        "CMake": 3983,
+        "Linker Script": 263,
+        "Assembly": 80
+      },
+      "evidence_url": "https://api.github.com/repos/bignegro/TOTK-Decomp/languages",
+      "evidence": "Exact GitHub Languages API byte totals checked 2026-10-16. Python is the largest bucket, but much of that reported category can be repository tooling; it does not describe the reconstructed game code alone.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": null
+    },
+    {
+      "project_id": "ctr2wup-3ds-to-wiiu-static-recomp-toolkit",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 1015739,
+        "Python": 1014017,
+        "HTML": 36636,
+        "Makefile": 32226,
+        "C#": 16959,
+        "Shell": 7096,
+        "PowerShell": 2615,
+        "C++": 2286,
+        "Rust": 2153,
+        "Assembly": 1727,
+        "Batchfile": 158
+      },
+      "evidence_url": "https://api.github.com/repos/Jdiller-86/CTR-2-WUP/languages",
+      "evidence": "Exact GitHub Languages API byte totals checked 2026-10-16. C leads Python by only 1,722 bytes, so the predominant-language label reflects the exact repository-wide byte ranking and not necessarily the central implementation language.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": null
+    }
+  ]
+}

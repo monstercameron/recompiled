@@ -1,0 +1,157 @@
+{
+  "updated": "2026-10-16",
+  "research_lane": "Round 13 non-game software, firmware, and application reconstruction",
+  "catalog_snapshot": {
+    "projects": 3450,
+    "software_projects": 1060
+  },
+  "scope": "New software and firmware reimplementations with public implementation evidence, excluding game-specific targets. Candidates were checked against the 3,450-row canonical SQLite catalog and all prior work/research-2026-10-16 JSON staging before proposal.",
+  "projects": [
+    {
+      "id": "spacebar-discord-backend-reimplementation",
+      "title": "Spacebar Server (Discord Backend Reimplementation)",
+      "game": "Discord-compatible messaging service backend",
+      "target_type": "Software",
+      "platform": "Self-hosted server. Official setup docs provide Linux bare-metal npm modules, NixOS, and Docker installation paths and say Windows is not recommended. Node.js runs the primary TypeScript services; .NET is used for some C# utilities.",
+      "kind": "Reimplementation",
+      "status": "GitHub records the latest source push on 2026-10-16; no GitHub releases are listed. The README says Spacebar aims to remain compatible with Discord clients, bots, and applications, while noting that client incompatibilities remain and some clients will not connect.",
+      "summary": "A self-hostable reimplementation and extension of the Discord backend. The source tree includes API request/response types, HTTP API, WebSocket gateway, CDN, WebRTC, database models, and C# administration/CDN utilities.",
+      "project_url": "https://github.com/spacebarchat/server",
+      "updated": "2026-10-16",
+      "strategy": "Reverse engineers and independently reimplements Discord backend behavior and protocol-facing services, with additional features. Implements HTTP API, WebSocket gateway, CDN, WebRTC, and supporting models; compatibility is incomplete.",
+      "language": "",
+      "source_available": "Public source licensed AGPL-3.0-only (declared in package.json and COPYING). No releases are listed by the GitHub Releases API.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "TypeScript",
+      "subtype": "Self-hosted messaging backend reimplementation",
+      "sources": [
+        {
+          "label": "Primary README: scope, method, server components, and compatibility limitations",
+          "url": "https://github.com/spacebarchat/server/blob/master/README.md"
+        },
+        {
+          "label": "Official server setup documentation: services and operating-system support",
+          "url": "https://docs.spacebar.chat/setup/server/"
+        },
+        {
+          "label": "Official installation documentation: bare metal, NixOS, and Docker methods",
+          "url": "https://docs.spacebar.chat/setup/server/installation/"
+        },
+        {
+          "label": "Repository package manifest declaring AGPL-3.0-only",
+          "url": "https://github.com/spacebarchat/server/blob/master/package.json"
+        },
+        {
+          "label": "Repository license text",
+          "url": "https://github.com/spacebarchat/server/blob/master/COPYING"
+        },
+        {
+          "label": "GitHub repository metadata and source activity",
+          "url": "https://api.github.com/repos/spacebarchat/server"
+        },
+        {
+          "label": "GitHub releases API (no releases listed)",
+          "url": "https://api.github.com/repos/spacebarchat/server/releases"
+        },
+        {
+          "label": "Exact GitHub Languages API byte totals",
+          "url": "https://api.github.com/repos/spacebarchat/server/languages"
+        }
+      ],
+      "license": "AGPL-3.0-only"
+    },
+    {
+      "id": "asahi-neural-engine-linux-driver-reimplementation",
+      "title": "Asahi Neural Engine Linux Driver",
+      "game": "Apple Neural Engine hardware access on Linux",
+      "target_type": "Software",
+      "platform": "Linux on systems with Apple Neural Engine hardware (Apple Silicon). The repository README does not specify a supported SoC/device matrix or hardware-test matrix.",
+      "kind": "Reimplementation",
+      "status": "GitHub records the latest source push on 2024-03-12; the repository is not archived and has no GitHub releases. The README identifies the project as a reverse-engineered Linux driver and lists documentation as work in progress; it does not claim production readiness or name tested devices.",
+      "summary": "A reverse-engineered Linux driver stack for Apple Neural Engine hardware, with an out-of-tree kernel module, a C user-space library, and Python bindings.",
+      "project_url": "https://github.com/eiln/ane",
+      "updated": "2026-10-16",
+      "strategy": "Reverse engineers Apple Neural Engine hardware behavior and implements a Linux kernel module plus user-space library and Python bindings. Scope is Linux device access; the README does not claim to reimplement Apple Core ML or its application frameworks.",
+      "language": "",
+      "source_available": "Public MIT-licensed source. The README says documentation is work in progress; no releases are listed.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Linux hardware-driver reimplementation",
+      "sources": [
+        {
+          "label": "Primary README: reverse-engineered scope, Linux target, and repository components",
+          "url": "https://github.com/eiln/ane/blob/main/README.md"
+        },
+        {
+          "label": "Repository MIT license",
+          "url": "https://github.com/eiln/ane/blob/main/LICENSE"
+        },
+        {
+          "label": "GitHub repository metadata and source activity",
+          "url": "https://api.github.com/repos/eiln/ane"
+        },
+        {
+          "label": "GitHub releases API (no releases listed)",
+          "url": "https://api.github.com/repos/eiln/ane/releases"
+        },
+        {
+          "label": "Exact GitHub Languages API byte totals",
+          "url": "https://api.github.com/repos/eiln/ane/languages"
+        }
+      ],
+      "license": "MIT"
+    },
+    {
+      "id": "mkmsbr-microsoft-boot-record-clean-room-reimplementation",
+      "title": "mkmsbr (Microsoft-Compatible Boot Record Reimplementation)",
+      "game": "Microsoft-compatible boot records for Windows installation media",
+      "target_type": "Software",
+      "platform": "Generates legacy-BIOS, MBR-partitioned Windows XP/7 installation media boot records. The README reports end-to-end Windows 7 USB boot on a Dell E6410 and real-hardware validation for several boot-record variants; UEFI is out of scope. The Rust CLI is published for macOS/Homebrew and crates.io, while host-platform compatibility is not exhaustively specified.",
+      "kind": "Reimplementation",
+      "status": "v1.0.1 was released on 2026-05-19. The README reports end-to-end Windows 7 install-USB boot and real BIOS testing on a Dell E6410. MBR and FAT32 PBR variants are documented as shipped; the NTFS boot-manager PBR remains experimental and validated only at the QEMU smoke-test level. UEFI and a broader hardware matrix are out of scope for v1.0.",
+      "summary": "A clean-room Rust library and CLI that generates and splices Microsoft-compatible MBR, FAT32 PBR, and NTFS PBR boot records without depending on ms-sys. The project publishes its own NASM boot-code sources and documents QEMU, Microsoft-loader, and real-BIOS validation.",
+      "project_url": "https://github.com/jma24/mkmsbr",
+      "updated": "2026-10-16",
+      "strategy": "Strict clean-room reimplementation of Microsoft-compatible boot-record behavior using Rust library/CLI code and x86 assembly. The project defines a provenance protocol and evaluates generated boot records against an ms-sys oracle, QEMU, Microsoft loaders, and physical legacy-BIOS hardware.",
+      "language": "",
+      "source_available": "Public MIT-licensed Rust and NASM source, with v1.0.1 library/CLI release. No Microsoft installation media or loader binaries are included in the repository; the README's real-loader fixtures are extracted from user-held ISO files into gitignored test storage.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "Rust",
+      "subtype": "Clean-room legacy BIOS boot-record library and CLI",
+      "sources": [
+        {
+          "label": "Primary README: scope, release status, validated behavior, limitations, and supported variants",
+          "url": "https://github.com/jma24/mkmsbr/blob/main/README.md"
+        },
+        {
+          "label": "Clean-room provenance protocol",
+          "url": "https://github.com/jma24/mkmsbr/blob/main/docs/PROVENANCE.md"
+        },
+        {
+          "label": "Project specification and validation hierarchy",
+          "url": "https://github.com/jma24/mkmsbr/blob/main/docs/SPEC.md"
+        },
+        {
+          "label": "v1.0.1 release",
+          "url": "https://github.com/jma24/mkmsbr/releases/tag/v1.0.1"
+        },
+        {
+          "label": "Repository MIT license",
+          "url": "https://github.com/jma24/mkmsbr/blob/main/LICENSE"
+        },
+        {
+          "label": "GitHub repository metadata and source activity",
+          "url": "https://api.github.com/repos/jma24/mkmsbr"
+        },
+        {
+          "label": "Exact GitHub Languages API byte totals",
+          "url": "https://api.github.com/repos/jma24/mkmsbr/languages"
+        }
+      ],
+      "license": "MIT"
+    }
+  ]
+}

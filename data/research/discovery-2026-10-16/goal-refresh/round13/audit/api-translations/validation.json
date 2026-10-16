@@ -1,0 +1,12 @@
+{
+  "checked_at": "2026-10-16",
+  "json_parse": "passed for every *.json file in this directory at validation time",
+  "project_records": 2,
+  "programming_language_records": 2,
+  "required_project_fields": "passed for both rows",
+  "target_type_and_kind": "Software / API Translation for both rows",
+  "github_languages_api_equality": "passed against fresh GitHub API responses for both proposed repositories",
+  "database_deduplication": "passed: no proposed id or exact canonical URL in current SQLite database",
+  "metal2vulkan_status_patch": "none; current catalog row already contains the audited release and coverage caveats",
+  "canonical_database_modified": false
+}

@@ -1,0 +1,421 @@
+{
+  "updated": "2026-10-16",
+  "projects": [
+    {
+      "id": "givenergy-gen3-lv-inverter-firmware-decompilation",
+      "title": "GivEnergy Hybrid Gen3 LV Inverter Firmware Matching Decompilation",
+      "game": "GivEnergy Hybrid Gen3 LV inverter firmware (ARM A316 and DSP D316 images)",
+      "target_type": "Software",
+      "platform": "GivEnergy Hybrid Gen3 LV inverter: STM32F105/107 ARM A316 and TMS320F2806x DSP D316. Matching builds were verified on macOS Apple Silicon with Wine and the native macOS TI object tools; the maintainer says Linux with Wine should work but has not tried it.",
+      "kind": "Decompilation",
+      "status": "The public v1.0.0 release was published 2026-10-16. The README reports byte-identical rebuilds of both images: 99.0% of A316 image bytes and 74.1% of D316 words come from recovered source; the remaining image content is vendor libraries, a region table, and linker padding. The maintainer says the work has only been tested as a rebuild, not as firmware to flash.",
+      "summary": "Matching C and assembly decompilation of the ARM and DSP firmware in GivEnergy Hybrid Gen3 LV inverters. Build gates use the original Keil and TI toolchains and compare complete output images against the matching retail files. The repository contains no firmware images. Its MIT license covers the author’s tools and documentation; reproduced GivEnergy firmware and third-party code remain under their original rights.",
+      "project_url": "https://github.com/abedegno/forgiv",
+      "updated": "2026-10-16",
+      "strategy": "Matching C/assembly decompilation rebuilt with the original vendor compiler and linker toolchains, then compared byte-for-byte with the target images.",
+      "source_available": "Public C/assembly source, analysis notes, build tools, and comparison gates; no original firmware images are included. The repository MIT license covers the author’s tooling, documentation, configuration, and annotations, while reproduced GivEnergy and third-party code retain their original rights.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Power-converter firmware",
+      "sources": [
+        {
+          "label": "Maintainer README: exact targets, matching percentages, status, build hosts, and license boundary",
+          "url": "https://github.com/abedegno/forgiv/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer method notes: byte-matching decompilation process",
+          "url": "https://github.com/abedegno/forgiv/blob/main/docs/development/method.md"
+        },
+        {
+          "label": "Public v1.0.0 release",
+          "url": "https://github.com/abedegno/forgiv/releases/tag/v1.0.0"
+        }
+      ]
+    },
+    {
+      "id": "pokewalker-firmware-matching-decompilation",
+      "title": "Pokéwalker Firmware Matching Decompilation",
+      "game": "Nintendo Pokéwalker firmware (H8/38606 target)",
+      "target_type": "Software",
+      "platform": "Nintendo Pokéwalker accessory firmware on the Renesas H8/38606. The maintainer reports successful reconstruction builds on macOS Arm64 and Windows x86_64; macOS runs the 32-bit Windows Renesas tools through Wine and Rosetta.",
+      "kind": "Decompilation",
+      "status": "The maintainer describes the matching reconstruction as complete. With a supported Renesas HEW toolchain and the retail artwork, the source can be built and checked against the retail firmware hash. The README does not name a retail firmware version, and no tagged GitHub release is listed.",
+      "summary": "A human-readable C source reconstruction of the Pokéwalker firmware, based on reverse engineering, disassembly, and decompilation of the retail firmware and related HeartGold/SoulSilver software. The repository does not distribute retail firmware or artwork; users supply lawful local copies or use permissively licensed placeholders. CC0 applies only to the project authors’ own material.",
+      "project_url": "https://github.com/lumirth/pw",
+      "updated": "2026-10-16",
+      "strategy": "Matching decompilation of the H8 firmware into separately compiled C modules, using the supported Renesas toolchain and retail-hash verification.",
+      "source_available": "Public reconstruction source, build and verification tools, and documentation under CC0 for author-created material. Retail firmware, extracted artwork, and the Renesas compiler are not distributed.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Handheld accessory firmware",
+      "sources": [
+        {
+          "label": "Maintainer README: target, matching status, build hosts, source policy, and license scope",
+          "url": "https://github.com/lumirth/pw/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer source guide: reconstructed firmware modules and behaviors",
+          "url": "https://github.com/lumirth/pw/blob/main/docs/source.md"
+        },
+        {
+          "label": "Maintainer build instructions: required compiler versions and matching check",
+          "url": "https://github.com/lumirth/pw/blob/main/docs/build.md"
+        },
+        {
+          "label": "Official GitHub release list; no releases were listed at review time",
+          "url": "https://api.github.com/repos/lumirth/pw/releases"
+        }
+      ]
+    },
+    {
+      "id": "starstruck-nintendo-wii-ios-reimplementation",
+      "title": "StarStruck Nintendo Wii IOS/Starlet System Software Reimplementation",
+      "game": "Nintendo Wii IOS/Starlet system software",
+      "target_type": "Software",
+      "platform": "Nintendo Wii IOS/Starlet system software running on the Wii; the README does not specify the operating systems used to build it or a supported IOS version range.",
+      "kind": "Reimplementation",
+      "status": "The README describes an incomplete replacement that currently provides low-level system access, with full IOS replacement still a distant goal. It is based on Team Twiizers’ mini IOS replacement. The repository was updated 2026-10-16; no GitHub release is listed.",
+      "summary": "A modular public-source rewrite of Nintendo Wii IOS/Starlet, intended to add replaceable system modules and provide low-level access to Wii hardware. The maintainer does not claim complete IOS compatibility or name particular IOS versions.",
+      "project_url": "https://github.com/DacoTaco/StarStruck",
+      "updated": "2026-10-16",
+      "strategy": "Reimplementation of Wii IOS system software, based on Team Twiizers’ mini replacement, with a modular subsystem design.",
+      "source_available": "Public source under GPL-2.0, including the COPYING file; no tagged release was listed.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Console system software",
+      "sources": [
+        {
+          "label": "Maintainer README: IOS/Starlet target, current scope, and limitations",
+          "url": "https://github.com/DacoTaco/StarStruck/blob/main/README.md"
+        },
+        {
+          "label": "Repository GPL-2.0 license",
+          "url": "https://github.com/DacoTaco/StarStruck/blob/main/COPYING"
+        },
+        {
+          "label": "Official GitHub release list; no releases were listed at review time",
+          "url": "https://api.github.com/repos/DacoTaco/StarStruck/releases"
+        }
+      ]
+    },
+    {
+      "id": "mufus-rufus-workflows-macos-reimplementation",
+      "title": "Mufus (Rufus Workflow Reimplementation for macOS)",
+      "game": "Rufus 4.15 USB creation workflows",
+      "target_type": "Software",
+      "platform": "Native macOS 12+ application for Apple Silicon and Intel Macs. The maintainer says validation was performed on Apple Silicon macOS 26.4.1 and with the Intel executable under Rosetta; created USB media targets compatible UEFI PCs.",
+      "kind": "Reimplementation",
+      "status": "Early public release v1.0.1 was published 2026-10-16. The README lists automated tests on disposable disk images and says physical USB boot testing and Apple notarization remain outstanding. The README says the app was developed after analysis of a Rufus 4.15 executable and is not a complete replacement for every Rufus feature.",
+      "summary": "A native Swift/SwiftUI macOS utility that recreates selected Rufus workflows: writing hybrid Linux and raw images, preparing Windows 10/11 UEFI installation media, and formatting external drives. Its repository includes the investigation notes, a GPL-3.0-or-later license, and the bundled wimlib source and license notices.",
+      "project_url": "https://github.com/ITCleric/Mufus",
+      "updated": "2026-10-16",
+      "strategy": "Independent native application built after reverse engineering the Rufus 4.15 executable and reviewing public Rufus source for Windows-specific workflow behavior.",
+      "source_available": "Public Swift source and v1.0.1 release under GPL-3.0-or-later. The repository also includes wimlib source and corresponding license notices.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "Swift",
+      "subtype": "USB installation-media utility",
+      "sources": [
+        {
+          "label": "Maintainer README: target workflows, host requirements, current limits, and license",
+          "url": "https://github.com/ITCleric/Mufus/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer analysis notes: bounded Rufus 4.15 executable investigation",
+          "url": "https://github.com/ITCleric/Mufus/blob/main/ANALYSE.txt"
+        },
+        {
+          "label": "Mufus v1.0.1 public preview release",
+          "url": "https://github.com/ITCleric/Mufus/releases/tag/v1.0.1"
+        }
+      ]
+    },
+    {
+      "id": "oxpinyin-libpinyin-reimplementation",
+      "title": "oxpinyin (libpinyin C ABI Reimplementation in Rust)",
+      "game": "libpinyin 15-series C ABI and output behavior",
+      "target_type": "Software",
+      "platform": "Linux distributions including Fedora Rawhide, Debian testing, and NixOS are listed as parity-tested. The README also documents macOS build paths through Homebrew; Windows support is not documented.",
+      "kind": "Reimplementation",
+      "status": "Stage 1 is marked complete: the maintainer reports 1,571/1,571 corpus rows and 79 exported symbols, with one remaining gap because the differential suite does not exercise the full exported ABI. Stage 2 is in progress; no GitHub release is listed. Repository activity continued through 2026-10-16.",
+      "summary": "A pure-Rust reimplementation of libpinyin that provides a drop-in libpinyin.so.15 and the same C ABI. The maintainer uses a pinned, source-built libpinyin oracle and differential tests; the project is GPL-3.0-or-later.",
+      "project_url": "https://github.com/shenghaoc/oxpinyin",
+      "updated": "2026-10-16",
+      "strategy": "Clean-room Rust reimplementation of libpinyin APIs with C ABI compatibility and differential output comparison against a pinned libpinyin oracle.",
+      "source_available": "Public Rust source under GPL-3.0-or-later, with build instructions, differential tests, and project status documentation.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "Rust",
+      "subtype": "Input-method engine library",
+      "sources": [
+        {
+          "label": "Maintainer README: libpinyin target, compatibility status, hosts, and license",
+          "url": "https://github.com/shenghaoc/oxpinyin/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer roadmap: stage completion and remaining work",
+          "url": "https://github.com/shenghaoc/oxpinyin/blob/main/ROADMAP.md"
+        },
+        {
+          "label": "Maintainer oracle documentation: upstream build and pinned comparison setup",
+          "url": "https://github.com/shenghaoc/oxpinyin/blob/main/docs/testing/oracle-environment.md"
+        },
+        {
+          "label": "Repository GPL-3.0 license",
+          "url": "https://github.com/shenghaoc/oxpinyin/blob/main/LICENSE"
+        },
+        {
+          "label": "Official GitHub release list; no releases were listed at review time",
+          "url": "https://api.github.com/repos/shenghaoc/oxpinyin/releases"
+        }
+      ]
+    },
+    {
+      "id": "grit-git-engine-reimplementation",
+      "title": "Grit (Git Engine and Client Reimplementation in Rust)",
+      "game": "Git version-control semantics and repository formats",
+      "target_type": "Software",
+      "platform": "Native CLI builds for macOS, Linux, and Windows. Git-compatible on-disk repositories and wire behavior are maintained for implemented features; the README does not claim full Git command-line parity.",
+      "kind": "Reimplementation",
+      "status": "Active; release v0.5.10 was published 2026-10-16. The project now focuses on a linkable Git engine and a modern CLI for common workflows. Its earlier Git-identical CLI and ported Git test harness were removed; the current CLI has a smaller command set.",
+      "summary": "A Rust reimplementation of core Git semantics, including repository objects, diffing, refs, revision walking, merge, configuration, and smart HTTP serving. The shipped client is workflow-oriented and keeps repository and protocol compatibility for the features it implements. The source is MIT-licensed.",
+      "project_url": "https://github.com/gitbutlerapp/grit",
+      "updated": "2026-10-16",
+      "strategy": "Reimplement Git core behavior in a linkable Rust library and a modern client, validating implemented behavior against the system Git binary and maintaining on-disk and wire compatibility.",
+      "source_available": "Public Rust source and v0.5.10 release under MIT.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "Rust",
+      "subtype": "Version-control engine and client",
+      "sources": [
+        {
+          "label": "Maintainer README: current engine scope, client behavior, host platforms, and license",
+          "url": "https://github.com/gitbutlerapp/grit/blob/main/README.md"
+        },
+        {
+          "label": "Grit v0.5.10 release",
+          "url": "https://github.com/gitbutlerapp/grit/releases/tag/v0.5.10"
+        },
+        {
+          "label": "Repository MIT license",
+          "url": "https://github.com/gitbutlerapp/grit/blob/main/LICENSE"
+        }
+      ]
+    },
+    {
+      "id": "openfirma-autofirma-reimplementation",
+      "title": "openfirma (AutoFirma Client Reimplementation)",
+      "game": "AutoFirma Spanish electronic-signature client (AutoFirma 1.9 is used for some golden comparisons)",
+      "target_type": "Software",
+      "platform": "The project documents a Windows, macOS, and Linux desktop target. CI runs on all three; Windows system-certificate signing is compiled but runtime-untested, and the macOS keychain backend currently lists certificates but refuses signing pending tests.",
+      "kind": "Reimplementation",
+      "status": "Very early, phase 1 per the maintainer README; no GitHub release is listed. The README reports working CAdES/PAdES/XAdES baseline subsets, crosschecks with OpenSSL/qpdf/xmlsec1, and structural golden comparisons with AutoFirma. Real government-site browser integration still lacks its WSS transport; FacturaE and several XAdES shapes are not started.",
+      "summary": "An independent Rust reimplementation of the Spanish government’s AutoFirma electronic-signature client. It implements a CLI and GUI over a shared core for selected CAdES, PAdES, XAdES, verification, and certificate-store workflows; the project states that it does not copy AutoFirma Java code. Dual-licensed GPL-2.0-or-later or EUPL-1.1.",
+      "project_url": "https://github.com/millaguie/openfirma",
+      "updated": "2026-10-16",
+      "strategy": "Independent Rust implementation of AutoFirma signing, verification, keystore, and browser-dispatch behavior, with format-level crosschecks and golden comparisons against AutoFirma 1.9.",
+      "source_available": "Public Rust source and documentation; the maintainer declares GPL-2.0-or-later or EUPL-1.1. The project has no GitHub release yet.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "Rust",
+      "subtype": "Electronic-signature client",
+      "sources": [
+        {
+          "label": "Maintainer README: target, implementation method, current status, platform limitations, and license",
+          "url": "https://github.com/millaguie/openfirma/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer desktop platform matrix",
+          "url": "https://github.com/millaguie/openfirma/blob/main/docs/platforms.md"
+        },
+        {
+          "label": "Maintainer validation record: format and compatibility checks",
+          "url": "https://github.com/millaguie/openfirma/blob/main/docs/validation.md"
+        },
+        {
+          "label": "Repository GPL-2.0-or-later and EUPL-1.1 license texts",
+          "url": "https://github.com/millaguie/openfirma/tree/main/LICENSES"
+        },
+        {
+          "label": "Official GitHub release list; no releases were listed at review time",
+          "url": "https://api.github.com/repos/millaguie/openfirma/releases"
+        }
+      ]
+    },
+    {
+      "id": "spacebar-discord-backend-reimplementation",
+      "title": "Spacebar Discord Backend Reimplementation",
+      "game": "Discord.com backend and client/server API behavior",
+      "target_type": "Software",
+      "platform": "Self-hosted HTTP API, WebSocket gateway, CDN, and WebRTC server. The maintainer links setup documentation; the README does not state a complete host operating-system matrix or pin a Discord API version.",
+      "kind": "Reimplementation",
+      "status": "The README labels the project as in development; the source repository was updated 2026-10-16 and no GitHub release is listed. The project aims for backward compatibility with Discord clients, bots, and applications, while the README cautions that some clients remain incompatible.",
+      "summary": "A public TypeScript reimplementation and extension of the Discord.com backend, with API schemas, HTTP API, WebSocket gateway, CDN, WebRTC server, and utility/database models. The repository is licensed under AGPL-3.0.",
+      "project_url": "https://github.com/spacebarchat/server",
+      "updated": "2026-10-16",
+      "strategy": "Reverse engineer Discord backend behavior and implement compatible HTTP, WebSocket, CDN, and WebRTC server components.",
+      "source_available": "Public TypeScript and C# source under AGPL-3.0; no GitHub release is listed.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "TypeScript",
+      "subtype": "Chat service backend and protocol implementation",
+      "sources": [
+        {
+          "label": "Maintainer README: target, service components, compatibility goal, and status",
+          "url": "https://github.com/spacebarchat/server/blob/master/README.md"
+        },
+        {
+          "label": "Maintainer server setup documentation",
+          "url": "https://docs.spacebar.chat/setup/server"
+        },
+        {
+          "label": "Repository AGPL-3.0 license",
+          "url": "https://github.com/spacebarchat/server/blob/master/COPYING"
+        },
+        {
+          "label": "Official GitHub release list; no releases were listed at review time",
+          "url": "https://api.github.com/repos/spacebarchat/server/releases"
+        }
+      ]
+    },
+    {
+      "id": "konica-bizhub206-cups-filter-reimplementation",
+      "title": "Konica Minolta bizhub 206 CUPS Filter Reimplementation",
+      "game": "Konica Minolta bizhub 206 CUPS filter 245igdirf",
+      "target_type": "Software",
+      "platform": "Linux CUPS hosts using glibc or musl, including Alpine; output targets the Konica Minolta bizhub 206 printer. The filter is a C11 program with no third-party runtime dependencies.",
+      "kind": "Reimplementation",
+      "status": "No tagged GitHub release was listed. The README reports byte-exact output on 60 differential cases, tests through real pdftoraster input, glibc and Alpine/musl verification, and five physical print sheets through a temporary CUPS queue. GitHub metadata reports no detected license, and the repository README does not declare reuse terms.",
+      "summary": "A C reimplementation of the device-stream side of Konica Minolta’s 245igdirf CUPS filter for bizhub 206. It reconstructs raster framing, color conversion, halftoning, and JBIG1 encoding from disassembly and runtime captures; comparison against the vendor filter is byte-exact except for documented uninitialized padding bytes.",
+      "project_url": "https://github.com/vinod2807/konica-native-musl",
+      "updated": "2026-10-16",
+      "strategy": "Reverse engineer the proprietary CUPS filter from disassembly and runtime captures, then reproduce its raster-to-device-stream output in portable C.",
+      "source_available": "Public C source and detailed reverse-engineering notes; no repository-wide license was detected by GitHub and no reuse license was found in the README or root file listing.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Printer CUPS filter and device protocol",
+      "sources": [
+        {
+          "label": "Maintainer README: target filter, recovered behavior, verification, supported hosts, and license uncertainty",
+          "url": "https://github.com/vinod2807/konica-native-musl/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer reverse-engineering notes",
+          "url": "https://github.com/vinod2807/konica-native-musl/blob/main/docs/REVERSE-ENGINEERING.md"
+        },
+        {
+          "label": "Maintainer handoff: tested status and recovered model",
+          "url": "https://github.com/vinod2807/konica-native-musl/blob/main/HANDOFF.md"
+        },
+        {
+          "label": "Official GitHub release list; no releases were listed at review time",
+          "url": "https://api.github.com/repos/vinod2807/konica-native-musl/releases"
+        }
+      ]
+    },
+    {
+      "id": "exiftool-rs-exiftool-reimplementation",
+      "title": "exiftool-rs (ExifTool 13.59 Reimplementation)",
+      "game": "ExifTool Perl v13.59 behavior and metadata formats",
+      "target_type": "Software",
+      "platform": "Portable Rust CLI and library with an optional egui GUI; the README documents builds for Windows, macOS, and Linux.",
+      "kind": "Reimplementation",
+      "status": "Release v0.10.0 was published 2026-10-16. The README reports byte-for-byte read parity with ExifTool 13.59 on its 195-file corpus, across tag names, values, groups, and repeated-instance output. It lists 93 readers and 15 writers but says most write cases do not yet match Perl ExifTool. The README declares GPL-3.0-or-later; GitHub API license detection is NOASSERTION.",
+      "summary": "A Rust reimplementation of ExifTool v13.59 with library, CLI, and optional GUI. It generates tag tables from Perl ExifTool sources and ports conversions into Rust; the maintainer documents a broad read feature set and clearly limits its current writer parity.",
+      "project_url": "https://github.com/Le-Syl21/exiftool-rs",
+      "updated": "2026-10-16",
+      "strategy": "Reimplement ExifTool metadata readers, writers, and conversions in Rust, using generated tables and a parity harness against Perl ExifTool 13.59.",
+      "source_available": "Public Rust source and v0.10.0 release. The repository LICENSE and README specify GPL-3.0-or-later; GitHub’s repository API returned NOASSERTION for automatic license detection.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "Rust",
+      "subtype": "Metadata-extraction and editing tool",
+      "sources": [
+        {
+          "label": "Maintainer README: target version, method, feature coverage, parity limits, and license",
+          "url": "https://github.com/Le-Syl21/exiftool-rs/blob/main/README.md"
+        },
+        {
+          "label": "exiftool-rs v0.10.0 release",
+          "url": "https://github.com/Le-Syl21/exiftool-rs/releases/tag/v0.10.0"
+        },
+        {
+          "label": "Maintainer live parity report against Perl ExifTool 13.59",
+          "url": "https://le-syl21.github.io/exiftool-rs/"
+        },
+        {
+          "label": "Repository GPL-3.0-or-later license",
+          "url": "https://github.com/Le-Syl21/exiftool-rs/blob/main/LICENSE"
+        }
+      ]
+    },
+    {
+      "id": "reticulumkit-reticulum-protocol-stack-implementation",
+      "title": "ReticulumKit (Swift Reticulum Protocol Stack Implementation)",
+      "game": "Reticulum networking protocol and Python Reticulum (RNS) wire behavior",
+      "target_type": "Software",
+      "platform": "iOS 16+ and macOS 13+; Swift 6.1+ and Xcode 16+ are listed as requirements. The protocol can use TCP, UDP multicast, and an RNode LoRa radio over Bluetooth LE.",
+      "kind": "Reimplementation",
+      "status": "The README describes alpha status as v0.1.0 and says the implementation has been wire-tested against Python Reticulum. The GitHub release API lists no published release; latest source push was 2026-05-24.",
+      "summary": "An independent pure-Swift implementation of the Reticulum cryptographic networking stack for Apple platforms. It implements identities, packet encoding, announces, encrypted links, routing, and TCP, local UDP multicast, and RNode radio interfaces. The source is MIT-licensed.",
+      "project_url": "https://github.com/J-Krush/ReticulumKit",
+      "updated": "2026-10-16",
+      "strategy": "Clean-room Swift protocol-stack implementation checked for wire interoperability with the reference Python RNS implementation.",
+      "source_available": "Public Swift package source under MIT; README marks the API as alpha and there is no published GitHub release.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "Swift",
+      "subtype": "Cryptographic networking protocol stack",
+      "sources": [
+        {
+          "label": "Maintainer README: wire protocol, capabilities, platform requirements, alpha status, and license",
+          "url": "https://github.com/J-Krush/ReticulumKit/blob/main/README.md"
+        },
+        {
+          "label": "Repository MIT license",
+          "url": "https://github.com/J-Krush/ReticulumKit/blob/main/LICENSE"
+        },
+        {
+          "label": "Official GitHub release list; no releases were listed at review time",
+          "url": "https://api.github.com/repos/J-Krush/ReticulumKit/releases"
+        }
+      ]
+    },
+    {
+      "id": "minima-maxima-wire-protocol-reimplementation",
+      "title": "Maxima (Minima Communication Protocol Reimplementation)",
+      "game": "Minima Maxima communication layer (protocol revision not specified)",
+      "target_type": "Software",
+      "platform": "A Java 11 shared core, an always-on Android transport, and a headless Linux/PC server; the user guide also lists Android, iOS, macOS, Windows, and Linux clients. The README says on-device Android behavior remains unverified.",
+      "kind": "Reimplementation",
+      "status": "The maintainer README says the protocol reimplementation is complete and verified against a live Minima network. It reports 63/63 codec parity, live send/receive, and relay interoperability; Android app behavior on a physical device remains unverified. Release v0.6.143 for the companion Parlons app was published 2026-10-16. GitHub metadata reports no declared license.",
+      "summary": "An original wire-compatible reimplementation of Minima’s Maxima communications layer, with a JVM core, relay/directory/mailbox server, and Android transport. The maintainer includes reference-generated vectors and reports interoperability with an unmodified Minima node. The public repository does not declare a reuse license.",
+      "project_url": "https://github.com/eurobuddha/maxima",
+      "updated": "2026-10-16",
+      "strategy": "Implement the Minima Maxima framing, identity, cryptography, send/receive, relay, and mailbox behavior in Java, checking golden vectors and live traffic against the reference implementation.",
+      "source_available": "Public Java, Android, and server source plus published Parlons releases; GitHub repository metadata and root-file listing show no declared license.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "Java",
+      "subtype": "Blockchain communication protocol and service stack",
+      "sources": [
+        {
+          "label": "Maintainer README: target protocol, implementation status, validation limits, and platform scope",
+          "url": "https://github.com/eurobuddha/maxima/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer protocol walkthrough and reference comparisons",
+          "url": "https://github.com/eurobuddha/maxima/blob/main/WALKTHROUGH.md"
+        },
+        {
+          "label": "Parlons v0.6.143 release and Android package",
+          "url": "https://github.com/eurobuddha/maxima/releases/tag/v0.6.143"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "verified_at": "2026-10-16",
+  "evidence_type": "GitHub REST Languages API exact byte totals. Predominant language describes repository code bytes only, never fan-patch translation direction.",
+  "records": [
+    {
+      "project_id": "mobile-suit-gundam-unicorn-ps3-zh-cn",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Python": 65626,
+        "Batchfile": 5138,
+        "Shell": 3272
+      },
+      "evidence_url": "https://api.github.com/repos/AmuroRX-93/GundamUC-Chinese-Patch/languages",
+      "evidence": "Exact GitHub Languages API byte map. Python is the largest measured code category; fan patch direction is Japanese → Simplified Chinese.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": null
+    },
+    {
+      "project_id": "magic-the-gathering-dreamcast-english",
+      "predominant_language": null,
+      "language_breakdown_bytes": {},
+      "evidence_url": "https://api.github.com/repos/AstraleAmalthea/MagicTheGatheringDreamcastENG/languages",
+      "evidence": "GitHub Languages API returned {}; repository has no measurable code-language bytes. Do not infer source language from the English patch.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": "GitHub Languages API returned an empty byte map; no predominant programming language is measurable."
+    },
+    {
+      "project_id": "tiny-bullets-ps1-english",
+      "predominant_language": "Assembly",
+      "language_breakdown_bytes": {
+        "Assembly": 13624,
+        "Python": 9627
+      },
+      "evidence_url": "https://api.github.com/repos/ChapuTranslations/TinyBulletsEnglishPatch/languages",
+      "evidence": "Exact GitHub Languages API byte map; Assembly is the largest category. This is patch-code metadata, separate from the Japanese → English translation.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": null
+    },
+    {
+      "project_id": "typing-of-the-dead-ii-japanese-pc-en-partial",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Python": 48148
+      },
+      "evidence_url": "https://api.github.com/repos/ContinualDissapointment/typing-of-the-dead-2-fixes/languages",
+      "evidence": "Exact GitHub Languages API byte map; Python is the only category. The translation itself is Japanese → English and partial.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": null
+    },
+    {
+      "project_id": "tokio-senki-eiyuu-retsuden-game-boy-english",
+      "predominant_language": null,
+      "language_breakdown_bytes": {},
+      "evidence_url": "https://api.github.com/repos/LHE55/Tokio-Senki-Eiyuu-Retsuden---English-Patch/languages",
+      "evidence": "GitHub Languages API returned {}; repository contains only a README and IPS patch.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": "GitHub Languages API returned an empty byte map; no predominant programming language is measurable."
+    },
+    {
+      "project_id": "nisekoi-yomeiri-vita-english",
+      "predominant_language": null,
+      "language_breakdown_bytes": {},
+      "evidence_url": "https://api.github.com/repos/LevelHeadDeveloper/YomeiriEnglishPatch/languages",
+      "evidence": "GitHub Languages API returned {}; do not infer language from the English patch.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": "GitHub Languages API returned an empty byte map; no predominant programming language is measurable."
+    },
+    {
+      "project_id": "queens-gate-spiral-chaos-psp-english",
+      "predominant_language": null,
+      "language_breakdown_bytes": {},
+      "evidence_url": "https://api.github.com/repos/Neokitsune5/QG_English_Patch/languages",
+      "evidence": "GitHub Languages API returned {}; repository contains documentation only.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": "GitHub Languages API returned an empty byte map; no predominant programming language is measurable."
+    },
+    {
+      "project_id": "torneko-great-adventure-sfc-remaster-script",
+      "predominant_language": null,
+      "language_breakdown_bytes": {},
+      "evidence_url": "https://api.github.com/repos/NonagonGoron/Tornekos-Great-Adventure-SFC-with-Remaster-Script/languages",
+      "evidence": "GitHub Languages API returned {}; repository contains README and IPS patch files only.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": "GitHub Languages API returned an empty byte map; no predominant programming language is measurable."
+    },
+    {
+      "project_id": "wanwan-aijou-monogatari-loopy-english",
+      "predominant_language": "HTML",
+      "language_breakdown_bytes": {
+        "HTML": 5707,
+        "JavaScript": 5106,
+        "Shell": 3804,
+        "CSS": 3113,
+        "Python": 2382
+      },
+      "evidence_url": "https://api.github.com/repos/partlyhuman/puppy-love-story/languages",
+      "evidence": "Exact GitHub Languages API byte map. HTML is the largest reported category (markup); this does not establish the Japanese → English translation language.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": null
+    }
+  ]
+}

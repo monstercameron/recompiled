@@ -1,0 +1,48 @@
+{
+  "verified_at": "2026-10-16",
+  "scope": "Exact GitHub Languages API byte totals for each proposed software/firmware repository. The predominant language is the largest byte bucket returned by GitHub, not necessarily a semantic summary of the executable core.",
+  "records": [
+    {
+      "project_id": "spacebar-discord-backend-reimplementation",
+      "predominant_language": "TypeScript",
+      "language_breakdown_bytes": {
+        "TypeScript": 2476425,
+        "C#": 623204,
+        "HTML": 112094,
+        "Nix": 80481,
+        "JavaScript": 59932,
+        "CSS": 25133,
+        "Shell": 9924
+      },
+      "evidence_url": "https://api.github.com/repos/spacebarchat/server/languages",
+      "evidence": "Exact byte map returned by the GitHub Languages API for spacebarchat/server on 2026-10-16. TypeScript is the largest bucket (2,476,425 bytes); the README identifies TypeScript as the primary backend implementation and C# utilities as additional components.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "asahi-neural-engine-linux-driver-reimplementation",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 47841,
+        "Python": 4234,
+        "Makefile": 2140,
+        "Shell": 764
+      },
+      "evidence_url": "https://api.github.com/repos/eiln/ane/languages",
+      "evidence": "Exact byte map returned by the GitHub Languages API for eiln/ane on 2026-10-16. C is the largest bucket (47,841 bytes); the repository README describes the kernel module and libane user-space library, with Python bindings.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "mkmsbr-microsoft-boot-record-clean-room-reimplementation",
+      "predominant_language": "Rust",
+      "language_breakdown_bytes": {
+        "Rust": 140107,
+        "Assembly": 80182,
+        "Shell": 10280,
+        "Makefile": 1771
+      },
+      "evidence_url": "https://api.github.com/repos/jma24/mkmsbr/languages",
+      "evidence": "Exact byte map returned by the GitHub Languages API for jma24/mkmsbr on 2026-10-16. Rust is the largest bucket (140,107 bytes); the README and tree identify NASM/x86 boot-code sources as a substantial part of the project.",
+      "verified_at": "2026-10-16"
+    }
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "checked_at": "2026-10-16",
+  "catalog": "/Users/earlcameron/Desktop/recompiled/data/catalog.sqlite",
+  "catalog_project_rows_checked": 3462,
+  "manifest_project_rows": 8,
+  "manifest_unique_repositories": 7,
+  "result": "All 8 proposed stable IDs and all 7 canonical repository URLs are absent from the catalog; additions are net-new. Existing same-game projects are recorded below as distinct implementations or modules, not duplicates.",
+  "additions": [
+    {
+      "id": "original-xbox-xboxrecomp-toolkit",
+      "project_url": "https://github.com/sp00nznet/xboxrecomp",
+      "decision": "add",
+      "catalog_exact_id_matches": [],
+      "catalog_exact_url_matches": [],
+      "note": "Distinct title-neutral Original Xbox XBE toolkit from the existing TGP482 XBE SDK and nimauria Xenon-Recomp framework."
+    },
+    {
+      "id": "rexglue-xbox360-recompilation-sdk",
+      "project_url": "https://github.com/rexglue/rexglue-sdk",
+      "decision": "add",
+      "catalog_exact_id_matches": [],
+      "catalog_exact_url_matches": [],
+      "note": "Distinct Xbox 360 PowerPC ahead-of-time recompiler SDK; existing ReXGlue-derived game ports are not this SDK repository."
+    },
+    {
+      "id": "rexauto-xbox360-recompilation-workflow",
+      "project_url": "https://github.com/Player124413/rexauto",
+      "decision": "add",
+      "catalog_exact_id_matches": [],
+      "catalog_exact_url_matches": [],
+      "note": "Distinct front-end and orchestration workflow. A stale About link names xdzleo/rexauto, which currently resolves as unavailable; canonical maintainer repository is Player124413/rexauto."
+    },
+    {
+      "id": "sonic-2006-xbox360-matching-decompilation",
+      "project_url": "https://github.com/rjkiv/sonic06",
+      "game_key": "Sonic the Hedgehog (2006) (Xbox 360 version)",
+      "decision": "add",
+      "catalog_exact_id_matches": [],
+      "catalog_exact_url_matches": [],
+      "note": "No matching catalog project URL or ID found."
+    },
+    {
+      "id": "terraria-ogc-console-decompilation-windows-port",
+      "project_url": "https://github.com/PPrism/TerrariaOGC",
+      "game_key": "Terraria (Xbox 360 Edition)",
+      "decision": "add",
+      "catalog_exact_id_matches": [],
+      "catalog_exact_url_matches": [],
+      "note": "Distinct decompilation-based Windows port; existing TerrariaXDK row is a separate Xbox 360 source decompilation."
+    },
+    {
+      "id": "ace-combat-6-project-gracemeria-xenon-module",
+      "project_url": "https://github.com/nimauria/Project-Gracemeria",
+      "game_key": "Ace Combat 6: Fires of Liberation",
+      "decision": "add",
+      "catalog_exact_id_matches": [],
+      "catalog_exact_url_matches": [],
+      "note": "Distinct Project Xenon game module; existing AC6_recomp row is the separate ReXGlue port. Gracemeria supplies title metadata and build tooling but makes no playability claim."
+    },
+    {
+      "id": "monster-hunter-jp-ps2-matching-decomp-pc-xbox",
+      "project_url": "https://github.com/itsbigcforme67/mh1-xbox",
+      "game_key": "Monster Hunter (PS2, Japan)",
+      "decision": "add",
+      "catalog_exact_id_matches": [],
+      "catalog_exact_url_matches": [],
+      "note": "New game target supported by current maintainer playing/build guide."
+    },
+    {
+      "id": "monster-hunter-g-jp-ps2-matching-decomp-pc-xbox",
+      "project_url": "https://github.com/itsbigcforme67/mh1-xbox",
+      "game_key": "Monster Hunter G (PS2, Japan)",
+      "decision": "add",
+      "catalog_exact_id_matches": [],
+      "catalog_exact_url_matches": [],
+      "note": "Separate explicitly named game target in the same repository; single-player build/play claims are recorded conservatively in the project row."
+    }
+  ],
+  "existing_matches_skipped": [
+    {
+      "lead": "Original Xbox XBE recompilation SDK",
+      "repo_url": "https://github.com/TGP482/XboxXBERecomp",
+      "existing_catalog_matches": [
+        {
+          "id": "xbox-xbe-recompilation-sdk",
+          "title": "Xbox XBE Recompilation SDK"
+        }
+      ],
+      "decision": "skip duplicate"
+    },
+    {
+      "lead": "Original Xbox Splinter Cell: Double Agent XBERecomp",
+      "repo_url": "https://github.com/TGP482/SCDA-XBERecomp",
+      "existing_catalog_matches": [
+        {
+          "id": "splinter-cell-double-agent-xbox-recomp",
+          "title": "Splinter Cell: Double Agent (Original Xbox) Recompilation"
+        }
+      ],
+      "decision": "skip duplicate"
+    },
+    {
+      "lead": "Need for Speed Carbon Xbox 360 Android recompilation",
+      "repo_url": "https://github.com/codepdbh/NFS-CARBON-360-ANDROID-RECOMP",
+      "existing_catalog_matches": [
+        {
+          "id": "need-for-speed-carbon-xbox360-recomp-android",
+          "title": "Need for Speed Carbon Xbox 360 Recompilation for Android and PC"
+        }
+      ],
+      "decision": "skip duplicate"
+    },
+    {
+      "lead": "Dante’s Inferno Xbox 360 recompilation and Android port",
+      "repo_urls": [
+        "https://github.com/florinp93/hells-gate-recomp",
+        "https://github.com/deivid22srk/hells-gate-recomp-android"
+      ],
+      "existing_catalog_matches": [
+        {
+          "id": "dantes-inferno-xbox360-hells-gate",
+          "title": "Dante’s Inferno Xbox 360 Recompilation"
+        },
+        {
+          "id": "dantes-inferno-xbox360-android-recomp",
+          "title": "Dante’s Inferno Xbox 360 Android Static Recompilation Port"
+        }
+      ],
+      "decision": "skip duplicate"
+    },
+    {
+      "lead": "Jet Set Radio Future decompilation/recompilation projects",
+      "repo_urls": [
+        "https://codeberg.org/KeybadeBlox/JSRF-Decompilation",
+        "https://github.com/Miggas/JSRF-Recomp",
+        "https://github.com/andeecollard/jsrf-recomp"
+      ],
+      "existing_catalog_matches": [
+        {
+          "id": "jet-set-radio-future-xbox-decomp",
+          "title": "Jet Set Radio Future Xbox Matching Decompilation"
+        },
+        {
+          "id": "jet-set-radio-future-xbox-recomp",
+          "title": "Jet Set Radio Future PC Recompilation"
+        },
+        {
+          "id": "jet-set-radio-future-macos-recomp",
+          "title": "Jet Set Radio Future Apple Silicon Recompilation"
+        }
+      ],
+      "decision": "skip duplicate"
+    },
+    {
+      "lead": "Lost Odyssey recompile and HD remaster projects",
+      "repo_urls": [
+        "https://github.com/freefrank/LostOdysseyRecomp",
+        "https://github.com/faligame/lost-odyssey-hd-remaster"
+      ],
+      "existing_catalog_matches": [
+        {
+          "id": "lost-odyssey-recomp",
+          "title": "Lost Odyssey Recomp"
+        },
+        {
+          "id": "lost-odyssey-hd-remaster-recomp",
+          "title": "Lost Odyssey HD Remaster Recompilation (faligame)"
+        }
+      ],
+      "decision": "skip duplicate"
+    },
+    {
+      "lead": "Red Alert 2 / Yuri’s Revenge recompilation",
+      "repo_url": "https://github.com/sp00nznet/redalert2-recomp",
+      "existing_catalog_matches": [
+        {
+          "id": "command-conquer-red-alert-2-pc-recomp",
+          "title": "Red Alert 2 / Yuri’s Revenge Static Recompilation"
+        }
+      ],
+      "decision": "skip duplicate"
+    }
+  ],
+  "related_existing_projects": [
+    {
+      "new_id": "original-xbox-xboxrecomp-toolkit",
+      "related_existing_id": "xbox-xbe-recompilation-sdk",
+      "why_not_duplicate": "Different repository and toolkit implementation; retain as a separate software record."
+    },
+    {
+      "new_id": "original-xbox-xboxrecomp-toolkit",
+      "related_existing_id": "xenon-recomp-nimauria-framework",
+      "why_not_duplicate": "Different console target and repository: Original Xbox XBE vs Xbox 360 Xenon."
+    },
+    {
+      "new_id": "terraria-ogc-console-decompilation-windows-port",
+      "related_existing_id": "terraria-xbox360-source-decompilation",
+      "why_not_duplicate": "Independent project; proposed row covers a Windows port based on console decompilation."
+    },
+    {
+      "new_id": "ace-combat-6-project-gracemeria-xenon-module",
+      "related_existing_id": "ace-combat-6-xbox360-recomp",
+      "why_not_duplicate": "Different repository and runtime; Project Gracemeria is a Xenon title module, existing record is the ReXGlue-based port."
+    },
+    {
+      "new_id": "rexglue-xbox360-recompilation-sdk",
+      "related_existing_project_family": "Existing ReXGlue game ports in catalog",
+      "why_not_duplicate": "Software SDK/tooling record is distinct from title-specific game project records."
+    }
+  ],
+  "reevaluated_round9_hold": {
+    "repo_url": "https://github.com/itsbigcforme67/mh1-xbox",
+    "previous_decision": "hold",
+    "previous_rationale": "README describes a phase-0 planning/toolkit scaffold, not a substantive Xbox port/decompilation project yet.",
+    "current_decision": "add two distinct game target rows: Monster Hunter and Monster Hunter G.",
+    "current_primary_evidence": [
+      "https://github.com/itsbigcforme67/mh1-xbox/blob/d54e2f145a5c6f03a28df2a1bf55f1adab359d5e/docs/PLAYING.md",
+      "https://github.com/itsbigcforme67/mh1-xbox/releases/tag/test-20261008",
+      "https://github.com/itsbigcforme67/mh1-xbox/blob/d54e2f145a5c6f03a28df2a1bf55f1adab359d5e/README.md"
+    ],
+    "reason": "The current maintainer playing/build guide documents Linux x86, Windows x86, and nxdk Original Xbox build targets; reports the full single-player game playable; and says the Xbox build was tested on one console and in xemu. The Oct. 8 PC test release is real current output but explicitly untested on real Windows hardware. The repository README still carries the old phase-0 wording, so both the superseding guide and stale contradiction are cited. The evidence now passes the substantive implementation threshold."
+  },
+  "held_or_excluded_candidates": [
+    {
+      "repo_url": "https://github.com/mzzvxm/LARecomp",
+      "decision": "hold as new row; queue existing-row successor/status review",
+      "related_existing_id": "midnight-club-la-360-recomp",
+      "reason": "The catalogued zarif98/midnightclub project README points to LARecomp as its successor; adding it as a separate row risks duplicating the same MCLA effort. Refresh the existing record after comparing maintainer status/evidence."
+    },
+    {
+      "repo_url": "https://github.com/jsenior10/jeff",
+      "decision": "hold",
+      "reason": "Generic Xbox 360 decompilation tooling rather than a title-specific game project for this pass."
+    },
+    {
+      "repo_url": "https://github.com/LCERD/LegacyRecomp",
+      "decision": "hold",
+      "reason": "Current project page is too thin to source a well-scoped, verified implementation record."
+    },
+    {
+      "repo_url": "https://github.com/xemu-project/xemu-android",
+      "decision": "exclude from this catalog slice",
+      "reason": "Android build of the xemu emulator; emulator work is outside this project-generation search request and is not a native port or game-specific decompilation."
+    },
+    {
+      "repo_url": "https://github.com/xdzleo/rexauto",
+      "decision": "do not add; use canonical repository in addition",
+      "reason": "Stale About-link alias is unavailable; canonical current repository is https://github.com/Player124413/rexauto, added once."
+    }
+  ],
+  "scope_note": "Carbon, Dante’s Inferno, Jet Set Radio Future, Lost Odyssey, Red Alert 2 and SCDA-XBERecomp were verified as existing records. Sibling Round 13 lanes cover their own title discoveries; no cross-lane records were copied into this packet."
+}

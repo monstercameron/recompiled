@@ -1,0 +1,44 @@
+{
+  "checked_at": "2026-10-16",
+  "database": "data/catalog.sqlite, 3462 project records at review time",
+  "candidates": [
+    {
+      "proposed_id": "reims-vgpu",
+      "canonical_url": "https://github.com/steelbrain/reims-vgpu",
+      "checks": [
+        {
+          "scope": "SQLite ID, exact repository URL, title, and related name search",
+          "result": "No existing row found."
+        },
+        {
+          "scope": "All repository text and prior staged research files searched with rg for reims-vgpu and canonical URL",
+          "result": "No prior staged occurrence found."
+        },
+        {
+          "scope": "Relationship to metal2vulkan",
+          "result": "Separate codebase, interface, and target: a QEMU macOS guest paravirtual-GPU command-stream bridge that consumes metal2vulkan as one backend; not a duplicate of the already cataloged shader/API translator."
+        }
+      ]
+    },
+    {
+      "proposed_id": "metal-api-emulator",
+      "canonical_url": "https://github.com/Hi-Jiajun/metal-api-emulator",
+      "checks": [
+        {
+          "scope": "SQLite ID, exact repository URL, title, and related name search",
+          "result": "No existing row found."
+        },
+        {
+          "scope": "All repository text and prior staged research files searched with rg for metal-api-emulator and canonical URL",
+          "result": "No prior staged occurrence found."
+        },
+        {
+          "scope": "Relationship to metal2vulkan and reims-vgpu",
+          "result": "Independent source-level API contract/provider prototype; depends on pinned metal2vulkan and has optional local reims-vgpu integration, but neither upstream project contains or subsumes its API/provider implementation."
+        }
+      ]
+    }
+  ],
+  "cross_candidate_check": "Proposed IDs and canonical URLs are unique within this batch. No proposed row duplicates the existing metal2vulkan row; the three projects operate at distinct layers.",
+  "canonical_database_modified": false
+}

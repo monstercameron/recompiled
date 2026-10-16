@@ -1,0 +1,551 @@
+{
+  "audit_date": "2026-10-16",
+  "canonical_database": {
+    "path": "/Users/earlcameron/Desktop/recompiled/data/catalog.sqlite",
+    "project_rows": 3462,
+    "projects_without_media_at_audit": 3217,
+    "access": "read-only"
+  },
+  "selection": {
+    "screened": 100,
+    "types": {
+      "Game": 70,
+      "Software": 30
+    },
+    "selection_reasons": {
+      "featured or widely used project; current catalog media is empty": 20,
+      "recent/high-signal catalog record; current catalog media is empty": 80
+    },
+    "all_selected_projects_had_zero_media": true
+  },
+  "source_review": {
+    "maintainer_repository_pages_checked": 100,
+    "repository_pages_http_200": 100,
+    "README_image_references": 15,
+    "README_video_references": 0,
+    "linked_homepage_pages_checked": 20,
+    "linked_homepage_status_counts": {
+      "200": 16,
+      "None": 2,
+      "308": 1,
+      "403": 1
+    },
+    "linked_homepage_image_references": 60,
+    "linked_homepage_video_references": 1,
+    "official_or_maintainer_youtube_links_found": 0
+  },
+  "imported": {
+    "projects": 5,
+    "assets": 9,
+    "kinds": {
+      "image": 9,
+      "video": 0
+    },
+    "all_asset_urls_https": true,
+    "all_imported_asset_urls_http_200_head_validated": true,
+    "asset_files_downloaded_or_cached": 0,
+    "duplicate_project_ids_against_prior_manifests": 0,
+    "duplicate_asset_urls_against_prior_manifests_or_live_db": 0
+  },
+  "without_usable_media_count": 95,
+  "without_usable_media": [
+    {
+      "id": "diablo-devilution-source-reconstruction",
+      "title": "Devilution: Diablo Source Reconstruction",
+      "target_type": "Game"
+    },
+    {
+      "id": "devilutionx",
+      "title": "DevilutionX",
+      "target_type": "Game"
+    },
+    {
+      "id": "mm-decomp",
+      "title": "Majora’s Mask Decompilation",
+      "target_type": "Game"
+    },
+    {
+      "id": "botw-decomp",
+      "title": "Breath of the Wild Decompilation",
+      "target_type": "Game"
+    },
+    {
+      "id": "pokered",
+      "title": "Pokémon Red and Blue Disassembly",
+      "target_type": "Game"
+    },
+    {
+      "id": "pokecrystal",
+      "title": "Pokémon Crystal Disassembly",
+      "target_type": "Game"
+    },
+    {
+      "id": "oot3d-decomp",
+      "title": "Ocarina of Time 3D Decompilation",
+      "target_type": "Game"
+    },
+    {
+      "id": "ship-of-harkinian-wiiu",
+      "title": "Ship of Harkinian Wii U Build",
+      "target_type": "Game"
+    },
+    {
+      "id": "pokemon-firered-leafgreen-decomp",
+      "title": "Pokémon FireRed and LeafGreen Decompilation",
+      "target_type": "Game"
+    },
+    {
+      "id": "nsmb-ds-decomp",
+      "title": "New Super Mario Bros. Decompilation",
+      "target_type": "Game"
+    },
+    {
+      "id": "zelda1-disassembly",
+      "title": "The Legend of Zelda NES Disassembly",
+      "target_type": "Game"
+    },
+    {
+      "id": "rpcs3",
+      "title": "RPCS3",
+      "target_type": "Software"
+    },
+    {
+      "id": "mame",
+      "title": "MAME",
+      "target_type": "Software"
+    },
+    {
+      "id": "zluda-cuda-on-amd",
+      "title": "ZLUDA",
+      "target_type": "Software"
+    },
+    {
+      "id": "snes9x",
+      "title": "Snes9x",
+      "target_type": "Software"
+    },
+    {
+      "id": "mesence",
+      "title": "Mesen Community Edition",
+      "target_type": "Software"
+    },
+    {
+      "id": "citra",
+      "title": "Citra (original project)",
+      "target_type": "Software"
+    },
+    {
+      "id": "swiftshader-vulkan-cpu-implementation",
+      "title": "SwiftShader",
+      "target_type": "Software"
+    },
+    {
+      "id": "mega-man-9-wiiware-matching-decomp",
+      "title": "Mega Man 9 WiiWare USA Matching Decompilation",
+      "target_type": "Game"
+    },
+    {
+      "id": "shinobido-2-ps-vita-windows-recomp",
+      "title": "Shinobido 2 Native Windows Recompilation",
+      "target_type": "Game"
+    },
+    {
+      "id": "soul-sacrifice-delta-ps-vita-windows-recomp",
+      "title": "Soul Sacrifice Delta Native Windows Recompilation",
+      "target_type": "Game"
+    },
+    {
+      "id": "god-of-war-ascension-ps3-linux-static-recomp",
+      "title": "God of War: Ascension PS3 Linux Static Recompilation",
+      "target_type": "Game"
+    },
+    {
+      "id": "mcdonalds-treasure-land-adventure-genesis-us-static-recomp",
+      "title": "McDonald’s Treasure Land Adventure — Genesis Static Recompilation",
+      "target_type": "Game"
+    },
+    {
+      "id": "everybodys-golf-coca-cola-psp-en",
+      "title": "Everybody’s Golf Portable: Coca-Cola Special Edition English Patch",
+      "target_type": "Game"
+    },
+    {
+      "id": "imabikiso-ps3-windows-static-recomp",
+      "title": "Imabikisō PS3 Windows Static Recompilation",
+      "target_type": "Game"
+    },
+    {
+      "id": "titanic-adventure-out-of-time-windows-decomp-port",
+      "title": "Titanic: Adventure Out Of Time (Windows) Decompilation",
+      "target_type": "Game"
+    },
+    {
+      "id": "luigis-mansion-gamecube-windows-linux-recomp",
+      "title": "Luigi’s Mansion PC Port",
+      "target_type": "Game"
+    },
+    {
+      "id": "hyrule-warriors-definitive-edition-switch-matching-decomp",
+      "title": "Hyrule Warriors: Definitive Edition Switch Matching Decompilation (Selected Subset)",
+      "target_type": "Game"
+    },
+    {
+      "id": "bakugan-battle-brawlers-xbox360-linux-recomp",
+      "title": "BB Recomp",
+      "target_type": "Game"
+    },
+    {
+      "id": "burnout-3-original-xbox-multiplatform-takedawn",
+      "title": "Takedawn",
+      "target_type": "Game"
+    },
+    {
+      "id": "tokimeki-memorial-ps1-en-patch",
+      "title": "Tokimeki Memorial: Forever With You PS1 English Patcher",
+      "target_type": "Game"
+    },
+    {
+      "id": "captain-toad-wiiu-recomp-prototype",
+      "title": "Captain Toad: Treasure Tracker Wii U Static Recompilation Prototype",
+      "target_type": "Game"
+    },
+    {
+      "id": "megaman-x5-ps1-matching-decomp",
+      "title": "Mega Man X5 PS1 Matching Decompilation",
+      "target_type": "Game"
+    },
+    {
+      "id": "pt-android-native-port-stonecoldos",
+      "title": "P.T. Android Port (StoneColdOS)",
+      "target_type": "Game"
+    },
+    {
+      "id": "dino-crisis-2-ps1-matching-decomp",
+      "title": "Dino Crisis 2 PS1 Matching Decompilation",
+      "target_type": "Game"
+    },
+    {
+      "id": "tourist-trophy-ps2-matching-decomp",
+      "title": "Tourist Trophy PS2 Matching Decompilation",
+      "target_type": "Game"
+    },
+    {
+      "id": "ssx-tricky-reindance-linux-recomp",
+      "title": "SSX Tricky Linux Native Recompilation (reindance)",
+      "target_type": "Game"
+    },
+    {
+      "id": "gta-v-five-star-port-ios",
+      "title": "GTA V on iPhone (5★ Port)",
+      "target_type": "Game"
+    },
+    {
+      "id": "flipendo-hp1-android-port",
+      "title": "Flipendo Droid: Harry Potter and the Philosopher's Stone Android Port",
+      "target_type": "Game"
+    },
+    {
+      "id": "pea-shootin-pete-dos-matching-decomp",
+      "title": "Pea Shootin' Pete DOS Matching Decompilation",
+      "target_type": "Game"
+    },
+    {
+      "id": "amplitude-ps2-source-reconstruction",
+      "title": "Amplitude PS2 Source Reconstruction",
+      "target_type": "Game"
+    },
+    {
+      "id": "openshiina-android-runtime",
+      "title": "OpenShiina: ShiinaRio Engine Reimplementation",
+      "target_type": "Game"
+    },
+    {
+      "id": "torchlight-xbox-360-static-recomp-yapel",
+      "title": "Torchlight Recompiled",
+      "target_type": "Game"
+    },
+    {
+      "id": "disgaea-d2-ps3-macos-recomp",
+      "title": "Disgaea D2 PS3 macOS Static Recompilation",
+      "target_type": "Game"
+    },
+    {
+      "id": "wwe-smackdown-vs-raw-2008-xbox360-pc-recomp",
+      "title": "WWE SmackDown vs. Raw 2008 Xbox 360 Native PC Recompilation",
+      "target_type": "Game"
+    },
+    {
+      "id": "heavy-weapon-deluxe-pc-vita-native-port",
+      "title": "Heavy Weapon Deluxe PS Vita Native Port",
+      "target_type": "Game"
+    },
+    {
+      "id": "project-igi-pc-ps-vita-static-recomp",
+      "title": "Project I.G.I. PC Static Recompilation for macOS and PS Vita",
+      "target_type": "Game"
+    },
+    {
+      "id": "ignition-pc-vita-native-port",
+      "title": "Ignition PC-to-PS Vita Port",
+      "target_type": "Game"
+    },
+    {
+      "id": "infinite-undiscovery-xbox360-windows-recomp",
+      "title": "Infinite Undiscovery Xbox 360 Windows Recompilation",
+      "target_type": "Game"
+    },
+    {
+      "id": "tenshi-no-inai-12gatsu-vita-native-port",
+      "title": "Tenshi Vita",
+      "target_type": "Game"
+    },
+    {
+      "id": "3-on-3-nhl-arcade-xbla-windows-recomp",
+      "title": "3 on 3 NHL Arcade XBLA Windows Recompilation",
+      "target_type": "Game"
+    },
+    {
+      "id": "harvest-massive-encounter-pc-matching-decomp",
+      "title": "Harvest: Massive Encounter PC Matching Decompilation",
+      "target_type": "Game"
+    },
+    {
+      "id": "crash-of-the-titans-xbox360-windows-mojorecomp",
+      "title": "Crash of the Titans Xbox 360 MojoRecomp",
+      "target_type": "Game"
+    },
+    {
+      "id": "diablo-japan-ps1-matching-decomp",
+      "title": "Diablo Japan PS1 Matching Decompilation",
+      "target_type": "Game"
+    },
+    {
+      "id": "playstation-all-stars-ps3-windows-static-recomp",
+      "title": "PlayStation All-Stars Battle Royale PS3 Windows Recompilation",
+      "target_type": "Game"
+    },
+    {
+      "id": "rhapsody-zephyr-remastered-multilingual",
+      "title": "The Rhapsody of Zephyr Remastered Multilingual Patch",
+      "target_type": "Game"
+    },
+    {
+      "id": "frequency-ps2-source-reconstruction",
+      "title": "FreQuency PS2 Source Reconstruction",
+      "target_type": "Game"
+    },
+    {
+      "id": "unnethack-android-port-minz3c",
+      "title": "UnNetHack Android",
+      "target_type": "Game"
+    },
+    {
+      "id": "fgo-arcade-scooby-en",
+      "title": "FGOAC scooby — English Patch and Launcher",
+      "target_type": "Game"
+    },
+    {
+      "id": "x-men-legends-original-xbox-windows-recomp",
+      "title": "X-Men Legends Original Xbox Windows Recompilation",
+      "target_type": "Game"
+    },
+    {
+      "id": "doomgeneric-android-native-port",
+      "title": "Doomgeneric Android Native Port",
+      "target_type": "Game"
+    },
+    {
+      "id": "minecraft-xbox360-ios-mcx360-edition",
+      "title": "Minecraft Xbox 360 Edition iOS Native Port (MCX360)",
+      "target_type": "Game"
+    },
+    {
+      "id": "touhou-9-phantasmagoria-of-flower-view-windows-source-reconstruction",
+      "title": "Touhou 9: Phantasmagoria of Flower View 1.50a Windows Source Reconstruction",
+      "target_type": "Game"
+    },
+    {
+      "id": "devil-may-cry-ps2-pal-windows-static-recomp",
+      "title": "Devil May Cry (PS2 PAL) Static Recompilation",
+      "target_type": "Game"
+    },
+    {
+      "id": "twilight-syndrome-ds-en-es",
+      "title": "Twilight Syndrome: Kinjirareta Toshi Densetsu English and Spanish Patches",
+      "target_type": "Game"
+    },
+    {
+      "id": "fallout-new-vegas-xbox360-windows-renevada-recomp",
+      "title": "Fallout: New Vegas Xbox 360 ReXGlue Recompilation (reNEVADA360)",
+      "target_type": "Game"
+    },
+    {
+      "id": "touhou-4-lotus-land-story-pc98-source-reconstruction",
+      "title": "Touhou 4: Lotus Land Story PC-98 Source Reconstruction",
+      "target_type": "Game"
+    },
+    {
+      "id": "forza-horizon-2-xbox360-windows-recomp",
+      "title": "Forza Horizon 2 Xbox 360 Windows Static Recompilation",
+      "target_type": "Game"
+    },
+    {
+      "id": "gloria-union-android-en",
+      "title": "Gloria Union Android English Fan Translation",
+      "target_type": "Game"
+    },
+    {
+      "id": "conker-live-reloaded-original-xbox-windows-recomp",
+      "title": "Conker: Live & Reloaded Original Xbox Windows Recompilation",
+      "target_type": "Game"
+    },
+    {
+      "id": "resident-evil-code-veronica-x-hd-xbox360-linux-rexglue-recomp",
+      "title": "Resident Evil Code: Veronica X HD Xbox 360 ReXGlue Linux Recompilation",
+      "target_type": "Game"
+    },
+    {
+      "id": "resident-evil-gaiden-recomp-android",
+      "title": "Resident Evil Gaiden: Recompiled (Android)",
+      "target_type": "Game"
+    },
+    {
+      "id": "doom-rpg-3ds-source-port-indionicarao",
+      "title": "DoomRPG-RE-3DS",
+      "target_type": "Game"
+    },
+    {
+      "id": "cars-xbox360-linux-rexglue-recomp",
+      "title": "Cars Xbox 360 ReXGlue Linux Recompilation",
+      "target_type": "Game"
+    },
+    {
+      "id": "saw-ii-flesh-and-blood-xbox360-linux-rexglue-recomp",
+      "title": "Saw II: Flesh & Blood Xbox 360 ReXGlue Linux Recompilation",
+      "target_type": "Game"
+    },
+    {
+      "id": "agepad-aoe2de-ipad",
+      "title": "AgePad: Age of Empires II: Definitive Edition iPad Port",
+      "target_type": "Game"
+    },
+    {
+      "id": "vita-recomp-kit-static-recompiler-framework",
+      "title": "Vita Recomp Kit",
+      "target_type": "Software"
+    },
+    {
+      "id": "plaid-nintendo-64-rom-static-recompilation-tool",
+      "title": "Plaid — Nintendo 64 ROM Static Recompilation Research Tool",
+      "target_type": "Software"
+    },
+    {
+      "id": "hardrpg-rpgmaker-ps-vita-runtime",
+      "title": "HardRPG / mkxp-z Vita Runtime",
+      "target_type": "Software"
+    },
+    {
+      "id": "libredarwin-coregraphics-framework-clean-room-reimplementation",
+      "title": "LibreDarwin CoreGraphics.framework",
+      "target_type": "Software"
+    },
+    {
+      "id": "libredarwin-idetools-xcodebuild-clean-room-reimplementation",
+      "title": "LibreDarwin IDETools (xcodebuild and libxcodebuildLoader)",
+      "target_type": "Software"
+    },
+    {
+      "id": "ps5-vulkan-mpereiraesaa",
+      "title": "ps5-vulkan (Native PlayStation 5 Vulkan Implementation)",
+      "target_type": "Software"
+    },
+    {
+      "id": "mesa-switch-horizon-driver-port",
+      "title": "Mesa for Nintendo Switch (NVK, OpenGL and GLES)",
+      "target_type": "Software"
+    },
+    {
+      "id": "sony-libgpu2-v112-source-reconstruction",
+      "title": "Sony libgpu2 v1.12.0 Source Reconstruction",
+      "target_type": "Software"
+    },
+    {
+      "id": "psxrecomp-static-recompiler-framework",
+      "title": "PSXRecomp",
+      "target_type": "Software"
+    },
+    {
+      "id": "noop-whoop-offline-companion-app",
+      "title": "NOOP Offline WHOOP Companion App",
+      "target_type": "Software"
+    },
+    {
+      "id": "postman-desktop-cn",
+      "title": "Postman CN Modern — Simplified Chinese UI Localization",
+      "target_type": "Software"
+    },
+    {
+      "id": "yamaha-dmp9-dmp9-16-firmware-decompilation",
+      "title": "Yamaha DMP9 / DMP9-16 Firmware Reverse Engineering",
+      "target_type": "Software"
+    },
+    {
+      "id": "cod2map-2005-bsp-compiler-source-reconstruction",
+      "title": "cod2map (Call of Duty 2 BSP Map Compiler) Source Reconstruction",
+      "target_type": "Software"
+    },
+    {
+      "id": "even-realities-opencfw-g2-r1-firmware-re",
+      "title": "openCFW: Even Realities G2 and R1 Firmware Decompilation Project",
+      "target_type": "Software"
+    },
+    {
+      "id": "sgi-o2-ip32-prom-v418-decompilation",
+      "title": "SGI O2 (IP32) PROM Firmware Decompilation",
+      "target_type": "Software"
+    },
+    {
+      "id": "fs1r-firmware-re-ghidra-dumps",
+      "title": "Yamaha FS1R Firmware Reverse-Engineering Resources",
+      "target_type": "Software"
+    },
+    {
+      "id": "grvk-mantle-to-vulkan",
+      "title": "GRVK (Mantle-to-Vulkan Translation Layer)",
+      "target_type": "Software"
+    },
+    {
+      "id": "punic-carthage-clean-room-reimplementation",
+      "title": "Punic (Carthage clean-room dependency-manager reimplementation)",
+      "target_type": "Software"
+    },
+    {
+      "id": "uofw-psp-kernel-firmware-reconstruction",
+      "title": "uOFW (Unofficial Official PSP Firmware)",
+      "target_type": "Software"
+    }
+  ],
+  "notable_exclusions": [
+    {
+      "id": "diablo-devilution-source-reconstruction",
+      "reason": "README links resolve to images in the separate diasurgical/scalpel repository; excluded as wrong-project media."
+    },
+    {
+      "id": "devilutionx",
+      "reason": "Two README attachments are relevant but returned HTTP 403 on HEAD; no other usable source found."
+    },
+    {
+      "id": "mame",
+      "reason": "README image is an OSI badge and official site image is a GitHub fork ribbon; neither is project media."
+    },
+    {
+      "id": "tokimeki-memorial-ps1-en-patch",
+      "reason": "README attachment is plausible project media but returned HTTP 403 on HEAD; no other usable source found."
+    },
+    {
+      "id": "fallout-new-vegas-xbox360-windows-renevada-recomp",
+      "reason": "README logo and progress screenshot attachments returned HTTP 403 on HEAD; no other usable source found."
+    }
+  ],
+  "rights_caveat": "A repository code license is not treated as an image/video license. No rehosting permission is inferred for game, commercial software, or product-interface imagery; each included record retains its original source page and HTTPS URL."
+}

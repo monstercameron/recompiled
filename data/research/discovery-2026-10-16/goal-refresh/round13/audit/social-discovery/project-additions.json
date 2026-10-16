@@ -1,0 +1,88 @@
+{
+  "updated": "2026-10-16",
+  "scope": "Source-reviewed social and project-tracker discovery packet. Only maintainer-source-confirmed, catalog-net-new project rows are included; tracker datasets are not copied. This is a staging packet only; canonical SQLite and tracked files were not modified.",
+  "projects": [
+    {
+      "id": "san-francisco-rush-extreme-racing-n64-recomp",
+      "title": "San Francisco Rush: Extreme Racing (N64) Static Recompilation",
+      "game": "San Francisco Rush: Extreme Racing (N64)",
+      "target_type": "Game",
+      "platform": "Nintendo 64 → PC (Windows build toolchain documented)",
+      "kind": "Recompilation",
+      "status": "The maintainer README labels the project Phase 3 (build system and runtime scaffold). It reports that 1,014 functions have been statically recompiled into 356,001 lines of C, but the build is not yet wired through the N64ModernRuntime/RT64 runtime; booting to a title screen, gameplay and audio remain future phases. No GitHub release was listed on 2026-10-16. The README requires a user-supplied legally obtained ROM. These are repository status claims, not a playable-build claim.",
+      "summary": "A static recompilation of the Nintendo 64 version of San Francisco Rush: Extreme Racing. The README says it uses N64Recomp to translate MIPS machine code into C/C++, paired with N64ModernRuntime, RT64 and an SDL2 scaffold. The code-generation milestone is reported complete, while runtime wiring and boot/render/gameplay are still outstanding. No ROM or game data is included.",
+      "project_url": "https://github.com/sp00nznet/sfrush",
+      "updated": "2026-10-14",
+      "strategy": "Static recompilation of the N64 MIPS executable through N64Recomp into C/C++, followed by planned native runtime integration with N64ModernRuntime and RT64.",
+      "language": "",
+      "source_available": "Public repository. LICENSE grants MIT terms for repository tools, runtime, build files and documentation only; it expressly excludes original game code/assets and generated code derived from the game. No ROM or game assets are included; users must supply their own legally obtained ROM.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "JavaScript",
+      "subtype": "Nintendo 64 static recompilation to PC",
+      "sources": [
+        {
+          "label": "Maintainer README: target, N64Recomp method, phase status, generated-function count, build requirements and ROM boundary",
+          "url": "https://github.com/sp00nznet/sfrush/blob/main/README.md"
+        },
+        {
+          "label": "Repository license: MIT scope and exclusions for game material and generated code",
+          "url": "https://github.com/sp00nznet/sfrush/blob/main/LICENSE"
+        },
+        {
+          "label": "GitHub repository metadata checked 2026-10-16 (canonical repo, activity, archived/fork/license detector)",
+          "url": "https://api.github.com/repos/sp00nznet/sfrush"
+        },
+        {
+          "label": "Latest releases endpoint checked 2026-10-16; no releases listed",
+          "url": "https://api.github.com/repos/sp00nznet/sfrush/releases?per_page=3"
+        },
+        {
+          "label": "Exact GitHub Languages API byte totals checked 2026-10-16",
+          "url": "https://api.github.com/repos/sp00nznet/sfrush/languages"
+        }
+      ]
+    },
+    {
+      "id": "aliens-versus-predator-gold-nakedavp-source-port",
+      "title": "Aliens versus Predator Gold (NakedAVP SDL3 Source Port)",
+      "game": "Aliens versus Predator Gold",
+      "target_type": "Game",
+      "platform": "Aliens versus Predator Gold → Linux, macOS and Windows (SDL3)",
+      "kind": "Reimplementation",
+      "status": "The latest maintainer release is 1.3.1, published 2026-10-16. The README identifies this as an unofficial Linux and Mac OS X port and says the current code also works on Windows. The release notes list mouse fixes, rendering/performance changes, resolution fixes, shader rewrites, dynamic lighting, and bloom/lite-HDR. The README says some original features, including multiplayer, remain missing. It requires user-provided original game data; this status does not establish compatibility with every store build or system.",
+      "summary": "A modern SDL3 source port of Aliens versus Predator Gold based on the icculus port. The maintainer README lists Linux/macOS/Windows support, with CMake, SDL3, OpenAL, OpenGL and FFmpeg dependencies. The repository distributes source but not the game data. This is a source port/reimplementation, not a static recompilation or an API-translation layer.",
+      "project_url": "https://github.com/atsb/NakedAVP",
+      "updated": "2026-10-16",
+      "strategy": "Cross-platform source port based on the icculus AvP port, with SDL3 and modern rendering/audio dependencies.",
+      "language": "",
+      "source_available": "Public source repository. Its LICENSE states that original Aliens vs Predator source is copyright Rebellion (1999–2000), prohibits commercial use, and requires visible credit and restatement of the license; later changes are also stated to be noncommercial. GitHub reports NOASSERTION for the repository license. The README says users must obtain original game data separately from GOG, Steam or CD; no game data is bundled.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "SDL3 cross-platform source port",
+      "sources": [
+        {
+          "label": "Maintainer README: original project identity, supported operating systems, build dependencies, game-data requirement and missing features",
+          "url": "https://github.com/atsb/NakedAVP/blob/main/README.md"
+        },
+        {
+          "label": "Latest maintainer release 1.3.1 published 2026-10-16",
+          "url": "https://github.com/atsb/NakedAVP/releases/tag/1.3.1"
+        },
+        {
+          "label": "Repository license and commercial-use/credit terms",
+          "url": "https://github.com/atsb/NakedAVP/blob/main/LICENSE"
+        },
+        {
+          "label": "GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/atsb/NakedAVP"
+        },
+        {
+          "label": "Exact GitHub Languages API byte totals checked 2026-10-16",
+          "url": "https://api.github.com/repos/atsb/NakedAVP/languages"
+        }
+      ]
+    }
+  ]
+}

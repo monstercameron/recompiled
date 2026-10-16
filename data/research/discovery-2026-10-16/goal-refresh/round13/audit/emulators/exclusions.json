@@ -1,0 +1,66 @@
+{
+  "updated": "2026-10-16",
+  "scope": "Repositories found in the same discovery pass but excluded or held after repository/system/license-quality review.",
+  "exclusions": [
+    {
+      "canonical_repository": "MiSTer-devel/Arcade-CV1k",
+      "project_url": "https://github.com/MiSTer-devel/Arcade-CV1k",
+      "reason": "GitHub source page states the repository is empty; excluded because no source core or implementation is present."
+    },
+    {
+      "canonical_repository": "clydeshaffer/GameTankEmulator",
+      "project_url": "https://github.com/clydeshaffer/GameTankEmulator",
+      "reason": "Exact project root and GameTank target already exist in the 3,462-row catalog."
+    },
+    {
+      "canonical_repository": "MiSTle-Dev/MiSTeryNano",
+      "project_url": "https://github.com/MiSTle-Dev/MiSTeryNano",
+      "reason": "Atari ST/STE target is already represented in the catalog and prior core staging; a new Tang Nano port would duplicate the system target."
+    },
+    {
+      "canonical_repository": "RetroSilicon/MSXnano",
+      "project_url": "https://github.com/RetroSilicon/MSXnano",
+      "reason": "MSX2+ target already has software and FPGA core coverage in the catalog; excluded as a system duplicate."
+    },
+    {
+      "canonical_repository": "fjpolo/GBTang",
+      "project_url": "https://github.com/fjpolo/GBTang",
+      "reason": "Game Boy target already has multiple emulator/FPGA entries in the catalog; excluded as a target duplicate."
+    },
+    {
+      "canonical_repository": "MiSTerOrganize/MiSTer_PICO-8",
+      "project_url": "https://github.com/MiSTerOrganize/MiSTer_PICO-8",
+      "reason": "PICO-8 target already appears in the emulator catalog; this hybrid ARM-side implementation would duplicate the existing fantasy-console target."
+    },
+    {
+      "canonical_repository": "sipeed/TangNano-20K-example",
+      "project_url": "https://github.com/sipeed/TangNano-20K-example/tree/main/nestang",
+      "reason": "NESTang is an NES FPGA core, a target already heavily covered by the catalog and prior staging."
+    },
+    {
+      "canonical_repository": "MiSTle-Dev/C64Nano",
+      "project_url": "https://github.com/MiSTle-Dev/C64Nano",
+      "reason": "Commodore 64 FPGA target is already represented by existing software and MiSTer cores."
+    },
+    {
+      "canonical_repository": "sandrobenigno/A2600NanoSAN",
+      "project_url": "https://github.com/sandrobenigno/A2600NanoSAN",
+      "reason": "Atari 2600 is already represented by catalog and prior FPGA entries; this is a Tang Nano derivative of the existing A2600Nano/MiSTer design."
+    },
+    {
+      "canonical_repository": "prior-staged MiSTer core repositories",
+      "project_url": "https://github.com/MiSTer-devel",
+      "reason": "Exact root overlaps with round-12/round-13 first-pass projects were excluded, including the previously staged Thomson TOMO, DECO Cassette, DECO156, Laserdisc, Killer Instinct, ZN-1, System 573, and Specialist entries."
+    },
+    {
+      "canonical_repository": "forked MiSTer-devel arcade repositories",
+      "project_url": "https://github.com/MiSTer-devel",
+      "reason": "Fork-flagged inventory entries were not promoted unless an independently maintained canonical upstream could be established; the 20 candidates are all non-fork roots."
+    },
+    {
+      "canonical_repository": "MiSTer-devel/Arcade-TIAMC1_MiSTer",
+      "project_url": "https://github.com/MiSTer-devel/Arcade-TIAMC1_MiSTer",
+      "reason": "README describes one specific Soviet TIA-MC1 arcade, Gorodki, with little broader multi-game documentation; held as a single-title discovery lead rather than included in this batch."
+    }
+  ]
+}

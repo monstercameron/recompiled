@@ -1,0 +1,325 @@
+{
+  "verified_at": "2026-10-16",
+  "scope": "Eight existing exact target_type=Game keys with zero live game_facts and no prior staged profile proposal; all facts describe the identified game at game level or the explicitly supported regional release. This manifest is additive only when imported after rechecking the zero-fact precondition.",
+  "profiles": [
+    {
+      "game_key": "Super Mario Galaxy (USA Wii RMGE01 revision 0)",
+      "facts": [
+        {
+          "field": "original_platform",
+          "value": "Wii",
+          "source_url": "https://en.wikipedia.org/wiki/Super_Mario_Galaxy",
+          "evidence": "The article identifies the Wii as the game's original platform; the key specifies a Wii USA revision.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "developer",
+          "value": "Nintendo EAD Tokyo",
+          "source_url": "https://en.wikipedia.org/wiki/Super_Mario_Galaxy",
+          "evidence": "The article credits Nintendo EAD Tokyo as developer of the original Wii game; later Shield and Switch versions have separate developers and are outside this key.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Nintendo",
+          "source_url": "https://en.wikipedia.org/wiki/Super_Mario_Galaxy",
+          "evidence": "The article credits Nintendo as publisher of the original Wii game.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Platform, action-adventure",
+          "source_url": "https://en.wikipedia.org/wiki/Super_Mario_Galaxy",
+          "evidence": "The article lists platform and action-adventure as genres.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "North America: 2007-11-12",
+          "source_url": "https://en.wikipedia.org/wiki/Super_Mario_Galaxy",
+          "evidence": "The Wii release table gives November 12, 2007 for North America, matching the regional qualifier in this Wii game key.",
+          "date_granularity": "day",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Vagrant Story (PlayStation USA SLUS_010.40)",
+      "facts": [
+        {
+          "field": "original_platform",
+          "value": "PlayStation",
+          "source_url": "https://en.wikipedia.org/wiki/Vagrant_Story",
+          "evidence": "The article identifies PlayStation as the original platform, consistent with the USA SLUS product key.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "developer",
+          "value": "Square Product Development Division 4",
+          "source_url": "https://en.wikipedia.org/wiki/Vagrant_Story",
+          "evidence": "The article's game infobox credits Square Product Development Division 4 as developer.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Square Electronic Arts (North America)",
+          "source_url": "https://en.wikipedia.org/wiki/Vagrant_Story",
+          "evidence": "The article's publisher credits distinguish Square Electronic Arts for the North American release corresponding to this USA key.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Action role-playing",
+          "source_url": "https://en.wikipedia.org/wiki/Vagrant_Story",
+          "evidence": "The article identifies Vagrant Story as an action role-playing game.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "NBA Jam: On Fire Edition",
+      "facts": [
+        {
+          "field": "original_platform",
+          "value": "PlayStation 3 and Xbox 360 (digital download)",
+          "source_url": "https://news.ea.com/press-releases/press-releases-details/2011/Get-Your-JAM-On-EA-Announces-NBA-JAM-on-Fire-Edition-Now-Available/default.aspx",
+          "evidence": "EA's launch announcement says the full digital game was available on PlayStation Network and Xbox LIVE Arcade.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Electronic Arts",
+          "source_url": "https://news.ea.com/press-releases/press-releases-details/2011/Get-Your-JAM-On-EA-Announces-NBA-JAM-on-Fire-Edition-Now-Available/default.aspx",
+          "evidence": "Electronic Arts issued the release announcement and identifies the title as EA SPORTS NBA JAM: On Fire Edition.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "series",
+          "value": "NBA Jam",
+          "source_url": "https://news.ea.com/press-releases/press-releases-details/2011/Get-Your-JAM-On-EA-Announces-NBA-JAM-on-Fire-Edition-Now-Available/default.aspx",
+          "evidence": "EA describes On Fire Edition as a new digital download of the EA SPORTS NBA JAM franchise.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Arcade basketball",
+          "source_url": "https://news.ea.com/press-releases/press-releases-details/2011/Get-Your-JAM-On-EA-Announces-NBA-JAM-on-Fire-Edition-Now-Available/default.aspx",
+          "evidence": "EA calls it its newest NBA arcade title and describes two-player team play, cooperative moves, and basketball teams.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "North America: 2011-10-05",
+          "source_url": "https://news.ea.com/press-releases/press-releases-details/2011/Get-Your-JAM-On-EA-Announces-NBA-JAM-on-Fire-Edition-Now-Available/default.aspx",
+          "evidence": "EA's October 5, 2011 release announcement states the game is now available for purchase on the two digital platforms.",
+          "date_granularity": "day",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Populous: The Beginning (1998) and Undiscovered Worlds expansion",
+      "facts": [
+        {
+          "field": "original_platform",
+          "value": "Microsoft Windows",
+          "source_url": "https://en.wikipedia.org/wiki/Populous:_The_Beginning",
+          "evidence": "The article identifies the original 1998 release as a Microsoft Windows game and distinguishes the later PlayStation port.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "developer",
+          "value": "Bullfrog Productions",
+          "source_url": "https://en.wikipedia.org/wiki/Populous:_The_Beginning",
+          "evidence": "The article credits Bullfrog Productions as developer of Populous: The Beginning and its Undiscovered Worlds expansion.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Electronic Arts",
+          "source_url": "https://en.wikipedia.org/wiki/Populous:_The_Beginning",
+          "evidence": "The article credits Electronic Arts as publisher of Populous: The Beginning.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Real-time strategy",
+          "source_url": "https://en.wikipedia.org/wiki/Populous:_The_Beginning",
+          "evidence": "The article classifies Populous: The Beginning as a real-time strategy game.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "collection_context",
+          "value": "Includes the 1999 Undiscovered Worlds Windows expansion, released in the UK and US with 12 new single-player and 12 multiplayer levels.",
+          "source_url": "https://en.wikipedia.org/wiki/Populous:_The_Beginning",
+          "evidence": "The article's release section identifies Undiscovered Worlds as a 1999 add-on available in the UK and US, with twelve new single-player and twelve multiplayer levels.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Street Fighter III: 3rd Strike: Fight for the Future (Arcade CPS3, sfiii3nr1)",
+      "facts": [
+        {
+          "field": "original_platform",
+          "value": "Arcade (Capcom CP System III)",
+          "source_url": "https://en.wikipedia.org/wiki/Street_Fighter_III:_3rd_Strike",
+          "evidence": "The article identifies the arcade release and CP System III hardware; the project key specifies its sfiii3nr1 revision.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "developer",
+          "value": "Capcom",
+          "source_url": "https://en.wikipedia.org/wiki/Street_Fighter_III:_3rd_Strike",
+          "evidence": "The article credits Capcom as developer of the arcade game.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Capcom",
+          "source_url": "https://en.wikipedia.org/wiki/Street_Fighter_III:_3rd_Strike",
+          "evidence": "The article credits Capcom as publisher of the arcade game.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Fighting",
+          "source_url": "https://en.wikipedia.org/wiki/Street_Fighter_III:_3rd_Strike",
+          "evidence": "The article classifies 3rd Strike as a fighting game.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "Japan (arcade): 1999-05-12",
+          "source_url": "https://en.wikipedia.org/wiki/Street_Fighter_III:_3rd_Strike",
+          "evidence": "The article's arcade release table gives May 12, 1999 for Japan; this is a game-level date, not a claim about the sfiii3nr1 revision date.",
+          "date_granularity": "day",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Transformers (PlayStation 2, PAL SLES-52388; North American title: Transformers Armada: Prelude to Energon)",
+      "facts": [
+        {
+          "field": "original_platform",
+          "value": "PlayStation 2",
+          "source_url": "https://en.wikipedia.org/wiki/Transformers_(2004_video_game)",
+          "evidence": "The article identifies the 2004 Transformers game as an exclusive PlayStation 2 release, matching the PAL SLES key.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "developer",
+          "value": "Atari Melbourne House",
+          "source_url": "https://space.atari.org/pdf/news0309.pdf",
+          "evidence": "Atari's 2003 announcement identifies Melbourne House as developer of Transformers Armada: Prelude to Energon, the game's North American pre-release title.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Atari",
+          "source_url": "https://en.wikipedia.org/wiki/Transformers_(2004_video_game)",
+          "evidence": "The article identifies Atari as publisher of the PlayStation 2 game.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Third-person shooter",
+          "source_url": "https://en.wikipedia.org/wiki/Transformers_(2004_video_game)",
+          "evidence": "The article classifies the game as a third-person shooter.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "Europe: 2004-05-07",
+          "source_url": "https://en.wikipedia.org/wiki/Transformers_(2004_video_game)",
+          "evidence": "The article gives the European PlayStation 2 release date as May 7, 2004, matching the PAL qualifier; no disc-revision-specific claim is inferred.",
+          "date_granularity": "day",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "White Knight Chronicles II (USA BLUS30784, disc v01.00)",
+      "facts": [
+        {
+          "field": "original_platform",
+          "value": "PlayStation 3",
+          "source_url": "https://blog.playstation.com/2011/07/15/white-knight-chronicles-ii-update-on-u-s-release-this-september/",
+          "evidence": "The official PlayStation Blog identifies the North American White Knight Chronicles II release as a PS3 game, matching the USA disc key.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "developer",
+          "value": "Level-5",
+          "source_url": "https://blog.playstation.com/2011/07/15/white-knight-chronicles-ii-update-on-u-s-release-this-september/",
+          "evidence": "D3Publisher's official PlayStation Blog post identifies Level-5 as the game's developer.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "D3 Publisher (North America)",
+          "source_url": "https://en.wikipedia.org/wiki/White_Knight_Chronicles_II",
+          "evidence": "The article identifies D3 Publisher as the North American publisher for this regional release.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Role-playing",
+          "source_url": "https://blog.playstation.com/2011/07/15/white-knight-chronicles-ii-update-on-u-s-release-this-september/",
+          "evidence": "The official post describes the game as an epic fantasy RPG.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "North America: 2011-09-13",
+          "source_url": "https://en.wikipedia.org/wiki/White_Knight_Chronicles_II",
+          "evidence": "The article gives September 13, 2011 as the North American release date, corresponding to this USA game key.",
+          "date_granularity": "day",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Zombie Revenge (Dreamcast Europe, MK-5103850 V1.000)",
+      "facts": [
+        {
+          "field": "original_platform",
+          "value": "Arcade",
+          "source_url": "https://en.wikipedia.org/wiki/Zombie_Revenge",
+          "evidence": "The article identifies the arcade as the original platform and separately records a Dreamcast port; this target is the European Dreamcast edition.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "developer",
+          "value": "Sega AM1 and Data East",
+          "source_url": "https://en.wikipedia.org/wiki/Zombie_Revenge",
+          "evidence": "The article credits Sega AM1 and Data East as developers of Zombie Revenge.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Sega",
+          "source_url": "https://en.wikipedia.org/wiki/Zombie_Revenge",
+          "evidence": "The article credits Sega as publisher of the arcade game and Dreamcast port.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Beat ’em up",
+          "source_url": "https://en.wikipedia.org/wiki/Zombie_Revenge",
+          "evidence": "The article classifies Zombie Revenge as a beat ’em up.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "Europe (Dreamcast): 2000-06-09",
+          "source_url": "https://en.wikipedia.org/wiki/Zombie_Revenge",
+          "evidence": "The article's Dreamcast release table gives June 9, 2000 for Europe, corresponding to the target's regional platform qualifier.",
+          "date_granularity": "day",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    }
+  ]
+}

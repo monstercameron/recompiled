@@ -1,0 +1,98 @@
+{
+  "checked_against": "/Users/earlcameron/Desktop/recompiled/data/catalog.sqlite (opened read-only; project URL, game title/key, target platform, and candidate IDs checked on 2026-10-16)",
+  "accepted": [
+    {
+      "project_id": "gba-recomp-toolkit",
+      "repo": "https://github.com/JRickey/gba-recomp",
+      "game": "GBA-Recomp",
+      "target_type": "Software",
+      "platform": "Game Boy Advance ROM → native Windows, macOS, Linux, and Android builds",
+      "dedupe_reason": "No same repository/game/target record found. The psprism software-tool and Daxter game-target entries are separate tool and game-specific rows; Epoch & Equinox has one row per separately supported game."
+    },
+    {
+      "project_id": "gb2swf-static-recompilation-tool",
+      "repo": "https://github.com/Burg-Media/gb2swf",
+      "game": "gb2swf",
+      "target_type": "Software",
+      "platform": "Game Boy / Game Boy Color ROM → SWF and offline HTML player (Ruffle)",
+      "dedupe_reason": "No same repository/game/target record found. The psprism software-tool and Daxter game-target entries are separate tool and game-specific rows; Epoch & Equinox has one row per separately supported game."
+    },
+    {
+      "project_id": "psprism-psp-static-recompilation",
+      "repo": "https://github.com/anthonyhfm/psprism",
+      "game": "psprism",
+      "target_type": "Software",
+      "platform": "PlayStation Portable ISO / ELF / PRX → native macOS and Windows; PSP testbench and partial overlays",
+      "dedupe_reason": "No same repository/game/target record found. The psprism software-tool and Daxter game-target entries are separate tool and game-specific rows; Epoch & Equinox has one row per separately supported game."
+    },
+    {
+      "project_id": "daxter-psprism-macos-recompilation",
+      "repo": "https://github.com/anthonyhfm/psprism",
+      "game": "Daxter",
+      "target_type": "Game",
+      "platform": "PlayStation Portable → macOS (ARM64 / x86_64)",
+      "dedupe_reason": "No same repository/game/target record found. The psprism software-tool and Daxter game-target entries are separate tool and game-specific rows; Epoch & Equinox has one row per separately supported game."
+    },
+    {
+      "project_id": "insaniquarium-deluxe-vita-api-port",
+      "repo": "https://github.com/KartingSackboy06/insaniquarium-vita",
+      "game": "Insaniquarium! Deluxe",
+      "target_type": "Game",
+      "platform": "Android ARMv7 (armeabi-v7a) → PlayStation Vita",
+      "dedupe_reason": "No same repository/game/target record found. The psprism software-tool and Daxter game-target entries are separate tool and game-specific rows; Epoch & Equinox has one row per separately supported game."
+    },
+    {
+      "project_id": "epoch-equinox-oracle-of-ages-player",
+      "repo": "https://github.com/ZakyPew/epoch-equinox",
+      "game": "The Legend of Zelda: Oracle of Ages",
+      "target_type": "Game",
+      "platform": "Game Boy Color → Windows, Linux, and macOS (Apple Silicon)",
+      "dedupe_reason": "No same repository/game/target record found. The psprism software-tool and Daxter game-target entries are separate tool and game-specific rows; Epoch & Equinox has one row per separately supported game."
+    },
+    {
+      "project_id": "epoch-equinox-oracle-of-seasons-player",
+      "repo": "https://github.com/ZakyPew/epoch-equinox",
+      "game": "The Legend of Zelda: Oracle of Seasons",
+      "target_type": "Game",
+      "platform": "Game Boy Color → Windows, Linux, and macOS (Apple Silicon)",
+      "dedupe_reason": "No same repository/game/target record found. The psprism software-tool and Daxter game-target entries are separate tool and game-specific rows; Epoch & Equinox has one row per separately supported game."
+    }
+  ],
+  "already_cataloged_or_not_new": [
+    {
+      "repo": "https://github.com/arcanite24/gb-recompiled",
+      "catalog_id": "gb-recompiled-toolchain",
+      "reason": "Same repository already represented as a Game Boy recompilation tool; Pokémon Crystal also has several existing target records, so no additional row proposed."
+    },
+    {
+      "repo": "https://github.com/awest813/NCAA-10-PSP-Recomp",
+      "reason": "Exact repository/project already represented in the catalog."
+    },
+    {
+      "repo": "https://github.com/TheGh0stShip/VitaTanxGA",
+      "catalog_id": "battletanx-global-assault-vita-recomp",
+      "reason": "Already represented in the catalog."
+    },
+    {
+      "repo": "https://github.com/HenryKun55/conker-vita",
+      "catalog_id": "conker-bad-fur-day-vita-recomp",
+      "reason": "Already represented in the catalog."
+    },
+    {
+      "repo": "https://github.com/endercodezz/P3P3DS",
+      "catalog_id": "persona-3-portable-new-3ds-recomp",
+      "reason": "Already represented in the catalog."
+    },
+    {
+      "repo": "https://github.com/luispolis124/OpenTS3-DS",
+      "catalog_id": "sims-3-nintendo-ds-decomp-scaffold",
+      "reason": "Already represented in the catalog."
+    },
+    {
+      "repo": "https://github.com/highcmd/ssx-on-tour-psp-recomp",
+      "catalog_id": "ssx-on-tour-psp-x64-static-recomp",
+      "reason": "Already represented in the catalog."
+    }
+  ],
+  "candidate_id_collisions": []
+}

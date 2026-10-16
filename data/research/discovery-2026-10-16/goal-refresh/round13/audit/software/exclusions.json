@@ -1,0 +1,82 @@
+{
+  "updated": "2026-10-16",
+  "exclusions": [
+    {
+      "repository": "open-pocket/open-pocket",
+      "url": "https://github.com/open-pocket/open-pocket",
+      "decision": "exclude: repository has no implementation or license",
+      "evidence_urls": [
+        "https://github.com/open-pocket/open-pocket",
+        "https://api.github.com/repos/open-pocket/open-pocket",
+        "https://api.github.com/repos/open-pocket/open-pocket/contents",
+        "https://api.github.com/repos/open-pocket/open-pocket/languages"
+      ],
+      "reason": "The root Contents API lists only README.md (no implementation source), GitHub reports no license, and the Languages API returns an empty map. The README-only clean-room proposal is not a verifiable running replacement."
+    },
+    {
+      "repository": "mdaiter/ane",
+      "url": "https://github.com/mdaiter/ane",
+      "decision": "exclude: reverse-engineering notes and samples, not an implementation of the target software",
+      "evidence_urls": [
+        "https://github.com/mdaiter/ane",
+        "https://api.github.com/repos/mdaiter/ane",
+        "https://api.github.com/repos/mdaiter/ane/languages"
+      ],
+      "reason": "The repository presents Apple Neural Engine reverse-engineering findings and Python/Objective-C samples for Apple's private frameworks; it does not claim a replacement implementation of the target driver/runtime. GitHub reports no license."
+    },
+    {
+      "repository": "niansa/LuxonServer",
+      "url": "https://github.com/niansa/LuxonServer",
+      "decision": "exclude: game-specific compatibility target",
+      "evidence_urls": [
+        "https://github.com/niansa/LuxonServer"
+      ],
+      "reason": "The README explicitly describes a Photon multiplayer server replacement for games and says its aim is compatibility with games using Photon; this tranche excludes game targets."
+    },
+    {
+      "repository": "DatanoiseTV/revenant",
+      "url": "https://github.com/DatanoiseTV/revenant",
+      "decision": "exclude: reverse-engineering tool, not a target reconstruction",
+      "evidence_urls": [
+        "https://github.com/DatanoiseTV/revenant"
+      ],
+      "reason": "The repository is an automated firmware/software analysis and reimplementation-assistance tool, rather than a reconstruction or reimplementation of a named application or firmware target."
+    },
+    {
+      "repository": "khhvmc5g6f-eng/clean-room-coding",
+      "url": "https://github.com/khhvmc5g6f-eng/clean-room-coding",
+      "decision": "exclude: clean-room workflow tooling",
+      "evidence_urls": [
+        "https://github.com/khhvmc5g6f-eng/clean-room-coding"
+      ],
+      "reason": "This is a reusable workflow/toolchain for creating future clean-room implementations, not a reconstruction of a target software product."
+    },
+    {
+      "repository": "phalus-sh/phalus",
+      "url": "https://github.com/phalus-sh/phalus",
+      "decision": "exclude: clean-room automation tooling",
+      "evidence_urls": [
+        "https://github.com/phalus-sh/phalus"
+      ],
+      "reason": "This is a self-hosted agent pipeline for reimplementing third-party dependencies, not itself a reimplementation target."
+    },
+    {
+      "repository": "manfromafar/winamp",
+      "url": "https://github.com/manfromafar/winamp",
+      "decision": "exclude: source mirror, not an independent reconstruction",
+      "evidence_urls": [
+        "https://github.com/manfromafar/winamp"
+      ],
+      "reason": "This repository presents Winamp source code rather than a decompilation, clean-room replacement, native recompilation, or independent source reconstruction."
+    },
+    {
+      "repository": "ProjectorRays/ProjectorRays",
+      "url": "https://github.com/ProjectorRays/ProjectorRays",
+      "decision": "exclude: content-file decompiler, not an application reconstruction",
+      "evidence_urls": [
+        "https://github.com/ProjectorRays/ProjectorRays"
+      ],
+      "reason": "ProjectorRays reconstructs editable Director/Shockwave movie/content projects and Lingo from movie files; it does not reconstruct the Director application itself."
+    }
+  ]
+}

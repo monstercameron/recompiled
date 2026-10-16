@@ -1,0 +1,142 @@
+{
+  "checked_at": "2026-10-16",
+  "catalog_precheck": {
+    "database": "data/catalog.sqlite",
+    "project_count": 3462,
+    "candidate_ids": [
+      "reims-vgpu",
+      "metal-api-emulator"
+    ],
+    "result": "No candidate ID or exact canonical project URL was present in SQLite. A repository-wide text search of existing tracked/source research and work/research files found no prior staged occurrence of either canonical repository URL or project name."
+  },
+  "repositories": [
+    {
+      "canonical_url": "https://github.com/steelbrain/reims-vgpu",
+      "repository_api_url": "https://api.github.com/repos/steelbrain/reims-vgpu",
+      "metadata": {
+        "full_name": "steelbrain/reims-vgpu",
+        "description": "reims-vgpu is an experimental virtual GPU for macOS guests",
+        "created_at": "2026-07-26T12:23:35Z",
+        "default_branch": "master",
+        "archived": false,
+        "fork": false,
+        "pushed_at": "2026-10-16T10:07:27Z",
+        "updated_at": "2026-10-16T11:31:15Z",
+        "license_spdx_id": "NOASSERTION",
+        "github_release_tags": []
+      },
+      "latest_default_branch_commit": {
+        "sha": "c099dd5a4d61107a5527efc64cf1d1ab2f3a9b85",
+        "date": "2026-10-14T21:26:09Z",
+        "url": "https://github.com/steelbrain/reims-vgpu/commit/c099dd5a4d61107a5527efc64cf1d1ab2f3a9b85",
+        "relevance": "README currently says Beta and details the translated guest command stream, host pathways, guest test matrix, and license terms."
+      },
+      "readme_claims": {
+        "status": "Beta; largely stabilized, with remaining host/GPU-driver differences.",
+        "implementation": "Replaces ParavirtualizedGraphics.framework; implements QEMU apple-gfx guest-GPU command handling; guest AppleParavirtGPU.kext is unchanged and no separate guest driver is installed.",
+        "targets": [
+          "arm64 macOS guest on Apple Silicon macOS host using Metal",
+          "x86_64 macOS guest on x86_64 Linux/KVM using Vulkan through metal2vulkan",
+          "optional Apple Silicon Vulkan path through MoltenVK"
+        ],
+        "maintainer_reported_tests": [
+          "arm64 macOS 13, 14, 15 and 26 on M3 Max",
+          "x86_64 macOS 26 on Linux with RTX 5080 laptop GPU"
+        ],
+        "boundary": "This is a VM guest paravirtual-GPU interface bridge. It does not establish application-level Metal, Direct3D or OpenGL compatibility."
+      },
+      "license": {
+        "repository_declared": "GPL-2.0-or-later OR LGPL-3.0-or-later",
+        "evidence_url": "https://github.com/steelbrain/reims-vgpu/blob/master/README.md#license",
+        "note": "The README and Cargo workspace state this dual option; QEMU and linked dependencies retain their own terms. GitHub license detector returned NOASSERTION."
+      },
+      "languages_api_url": "https://api.github.com/repos/steelbrain/reims-vgpu/languages",
+      "language_bytes": {
+        "Rust": 11666220,
+        "Python": 3042332,
+        "C": 185528,
+        "Objective-C": 103840,
+        "Metal": 93663,
+        "Shell": 42200,
+        "Makefile": 7740,
+        "Assembly": 1801,
+        "Swift": 1167
+      }
+    },
+    {
+      "canonical_url": "https://github.com/Hi-Jiajun/metal-api-emulator",
+      "repository_api_url": "https://api.github.com/repos/Hi-Jiajun/metal-api-emulator",
+      "metadata": {
+        "full_name": "Hi-Jiajun/metal-api-emulator",
+        "description": "Experimental host-side Metal compute API prototype with a Vulkan executor and offline parity research.",
+        "created_at": "2026-09-05T14:01:15Z",
+        "default_branch": "main",
+        "archived": false,
+        "fork": false,
+        "pushed_at": "2026-09-22T02:27:05Z",
+        "updated_at": "2026-10-11T13:25:45Z",
+        "license_spdx_id": "LGPL-3.0",
+        "github_release_tags": []
+      },
+      "latest_default_branch_commit": {
+        "sha": "226af8c833f9379446dedf744dfa691d760db641",
+        "date": "2026-09-22T02:24:38Z",
+        "url": "https://github.com/Hi-Jiajun/metal-api-emulator/commit/226af8c833f9379446dedf744dfa691d760db641",
+        "relevance": "Latest commit is a documentation correction; repository metadata has no GitHub releases."
+      },
+      "readme_claims": {
+        "status": "Experimental prototype.",
+        "implementation": "Rust source-level Metal-shaped compute objects; metal-api-vulkan routes accepted AIR-based workloads through a pinned metal2vulkan revision; a native Metal provider supports parity experiments.",
+        "targets": [
+          "Linux Vulkan including Lavapipe",
+          "Windows GNU/Vulkan smoke and RTX 5060 provider evidence",
+          "macOS native Metal provider tests"
+        ],
+        "boundary": "Explicitly not a Metal.framework ABI implementation. It cannot load arbitrary macOS Objective-C/Swift binaries; substantial API and production integration features remain unimplemented. Optional reims VM work uses an independent/local adapter."
+      },
+      "license": {
+        "workspace_declared": "LGPL-3.0-or-later",
+        "evidence_url": "https://github.com/Hi-Jiajun/metal-api-emulator/blob/main/Cargo.toml",
+        "notice_url": "https://github.com/Hi-Jiajun/metal-api-emulator/blob/main/NOTICE.md",
+        "note": "COPYING carries GPL-3 text incorporated by the LGPL terms; NOTICE identifies third-party and local reims-adapter terms. GitHub license field is LGPL-3.0 and page detects both LGPL-3.0 and GPL-3.0 files."
+      },
+      "languages_api_url": "https://api.github.com/repos/Hi-Jiajun/metal-api-emulator/languages",
+      "language_bytes": {
+        "Rust": 8333661,
+        "Python": 1217467,
+        "Swift": 472872,
+        "Metal": 38868,
+        "Objective-C++": 10343,
+        "LLVM": 8207,
+        "PowerShell": 3917
+      }
+    }
+  ],
+  "existing_project_review": {
+    "id": "metal2vulkan",
+    "canonical_url": "https://github.com/steelbrain/metal2vulkan",
+    "catalog_row_last_updated": "2026-10-15",
+    "current_catalog_status": "Alpha; manifests declare 0.2.0 but no GitHub 0.2.0 release exists; latest release remains v0.1.0 (2026-07-22).",
+    "current_catalog_summary_already_records": [
+      "documented compute, render, tessellation, tile and mesh coverage",
+      "Vulkan 1.2 requirement",
+      "typed refusals for unsupported/uncovered inputs",
+      "SPIR-V validation does not establish Metal behavioral compatibility",
+      "private validation corpus is not available publicly"
+    ],
+    "primary_audit": {
+      "readme_url": "https://github.com/steelbrain/metal2vulkan/blob/master/README.md",
+      "releases_api_url": "https://api.github.com/repos/steelbrain/metal2vulkan/releases?per_page=10",
+      "latest_release": {
+        "tag_name": "v0.1.0",
+        "published_at": "2026-07-22T10:18:01Z"
+      },
+      "latest_commit": {
+        "sha": "720ef1ce9ae2a206899a8675717418b9416283e",
+        "date": "2026-10-14T17:17:45Z"
+      },
+      "result": "No metadata patch staged: the current row already includes the verified no-0.2.0-release caveat and documented limited coverage/refusal behavior; latest repository activity does not make those fields stale."
+    }
+  },
+  "no_direct_media_found": true
+}

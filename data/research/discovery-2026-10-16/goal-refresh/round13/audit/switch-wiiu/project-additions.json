@@ -1,0 +1,191 @@
+{
+  "updated": "2026-10-16",
+  "scope": "Five source-backed net-new project/target rows selected from Nintendo Switch, Wii U, and console-to-console recompilation/decompilation leads. Records were checked against the read-only 3,462-row canonical catalog on 2026-10-16. The documentation-only Mario Kart Wii Switch project is held pending a public implementation or independent status corroboration.",
+  "projects": [
+    {
+      "id": "monster-hunter-3-ultimate-wiiu-linux-static-recomp",
+      "title": "Monster Hunter 3 Ultimate Wii U Static Recompilation (brandraft-exp)",
+      "game": "Monster Hunter 3 Ultimate",
+      "target_type": "Game",
+      "platform": "Nintendo Wii U (Monster Hunter 3 Ultimate v1.02 / update v32) → Linux x86-64 (experimental OpenGL runtime)",
+      "kind": "Recompilation",
+      "status": "Experimental partial boot. The maintainer reports that Wii U RPX v32 reaches the title and main menus, character creation, village dialogue, and the normal village HUD through an experimental OpenGL runtime. Free movement, quests, and complete audio are explicitly unverified; this is not a claim of a complete playable port.",
+      "summary": "A PowerPC RPX-to-C static recompiler with a standalone Linux runtime. The README and progress log document Monster Hunter 3 Ultimate v1.02/update v32 as the current target and describe partial boot and rendering milestones. The repository also contains an experimental GX2/OpenGL runtime; broad gameplay and audio correctness remain unverified.",
+      "project_url": "https://github.com/brandraft-exp/wiiu-recomp",
+      "updated": "2026-10-16",
+      "strategy": "Static recompilation: translates Wii U PowerPC RPX code to C and compiles it for a native Linux runtime.",
+      "language": "",
+      "source_available": "Public source repository. The checked root tree contains no project-wide license file; runtime/gx2 includes an MPL-2.0 notice for the identified Cemu-derived component.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Wii U RPX-to-C static recompilation with Linux/OpenGL runtime",
+      "sources": [
+        {
+          "label": "Maintainer README: PowerPC RPX-to-C translator, Linux runtime, and current MH3U boot scope",
+          "url": "https://github.com/brandraft-exp/wiiu-recomp/blob/master/README.md"
+        },
+        {
+          "label": "Maintainer progress log: v32 boot milestones, current partial game path, verification limits, and remaining work",
+          "url": "https://github.com/brandraft-exp/wiiu-recomp/blob/master/PROGRESS.md"
+        },
+        {
+          "label": "GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/brandraft-exp/wiiu-recomp"
+        }
+      ]
+    },
+    {
+      "id": "yoshis-woolly-world-wiiu-decomp",
+      "title": "Yoshi’s Woolly World Wii U Decompilation (Swiftshine)",
+      "game": "Yoshi's Woolly World",
+      "target_type": "Game",
+      "platform": "Nintendo Wii U",
+      "kind": "Decompilation",
+      "status": "Early WIP. The README identifies a Yoshi’s Woolly World decompilation. Its compile script currently invokes the Green Hills MULTI PowerPC compiler on one reconstructed translation unit; the TODO still lists assembly diffing and calculating matched code/function percentages. No release, progress metric, or game boot/playability evidence is documented in the checked repository snapshot.",
+      "summary": "A small Wii U PowerPC decompilation effort with a reconstructed C++ source unit and a script for compiling it with Green Hills MULTI. The maintainer’s TODO identifies matching/assembly-diff progress tracking as unfinished, so the repository documents an early reconstruction stage rather than a completed build or playable port.",
+      "project_url": "https://github.com/Swiftshine/yww",
+      "updated": "2026-10-16",
+      "strategy": "Matching decompilation: reconstructs Wii U game code in C++ and compiles it with the documented PowerPC toolchain; matching progress is not yet reported.",
+      "language": "",
+      "source_available": "Public source repository; the README requires Green Hills Software MULTI PowerPC v5.3.27. No project license file was present in the checked root tree.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Wii U PowerPC matching decompilation",
+      "sources": [
+        {
+          "label": "Maintainer README: target identity and Green Hills PowerPC build requirement",
+          "url": "https://github.com/Swiftshine/yww"
+        },
+        {
+          "label": "Compilation script: currently compiles the reconstructed YsHandle translation unit with the GHS PowerPC compiler",
+          "url": "https://github.com/Swiftshine/yww/blob/main/compile.py"
+        },
+        {
+          "label": "Maintainer TODO: assembly diffing and matched-code/function percentage remain unfinished",
+          "url": "https://github.com/Swiftshine/yww/blob/main/TODO.md"
+        },
+        {
+          "label": "Example reconstructed game-specific C++ source",
+          "url": "https://github.com/Swiftshine/yww/blob/main/src/merino/object/YsHandle.cpp"
+        }
+      ]
+    },
+    {
+      "id": "scott-pilgrim-complete-edition-switch-decomp",
+      "title": "Scott Pilgrim vs. The World: The Game – Complete Edition Switch Decompilation",
+      "game": "Scott Pilgrim vs. The World: The Game – Complete Edition",
+      "target_type": "Game",
+      "platform": "Nintendo Switch AArch64 (retail revision not independently identified)",
+      "kind": "Decompilation",
+      "status": "Matching reconstruction WIP. The maintainer reports 29,738 exact functions / 2,861,664 bytes, or 17.452721% of the original executable .text, using complete-function byte comparisons after checked standard ELF relocations. The whole game does not yet rebuild or boot; the retail revision, original Switch SDK/compiler revision, and many reconstructed names/ABIs remain unconfirmed.",
+      "summary": "A public C/C++ matching reconstruction of the Nintendo Switch Complete Edition. The repository includes source, build configuration, verification tools, and progress receipts; its reported function-level matches do not amount to a complete linked or bootable game. Original game files, assets, SDK files, and compiler installations are kept outside the repository.",
+      "project_url": "https://github.com/jwfeniello/scott-pilgrim-switch-decomp",
+      "updated": "2026-10-16",
+      "strategy": "Matching decompilation: reconstructed C/C++ functions are compiled and compared with complete original function extents after checked standard ELF relocations.",
+      "language": "",
+      "source_available": "Public reconstruction source, metadata, and verification tools. The README says original game files, assets, proprietary SDK files, and compiler installations are not distributed; the original ELF is locally supplied by each contributor.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Nintendo Switch AArch64 matching decompilation",
+      "sources": [
+        {
+          "label": "Maintainer README: Switch target, exact progress snapshot, incomplete whole-game build, and unknown retail revision",
+          "url": "https://github.com/jwfeniello/scott-pilgrim-switch-decomp"
+        },
+        {
+          "label": "Maintainer methodology: full-function byte comparison and verification controls",
+          "url": "https://github.com/jwfeniello/scott-pilgrim-switch-decomp/blob/main/docs/METHODOLOGY.md"
+        },
+        {
+          "label": "Compiler profiles and unconfirmed original SDK/compiler details",
+          "url": "https://github.com/jwfeniello/scott-pilgrim-switch-decomp/blob/main/docs/COMPILERS.md"
+        },
+        {
+          "label": "GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/jwfeniello/scott-pilgrim-switch-decomp"
+        }
+      ]
+    },
+    {
+      "id": "tears-of-the-kingdom-switch-decomp-bignegro",
+      "title": "The Legend of Zelda: Tears of the Kingdom Switch Decompilation (bignegro)",
+      "game": "The Legend of Zelda: Tears of the Kingdom",
+      "target_type": "Game",
+      "platform": "Nintendo Switch AArch64 (`main.nso` input; user-supplied executable required)",
+      "kind": "Decompilation",
+      "status": "Early WIP. The maintainer describes a clean-room reconstruction and has C/C++ source plus build/tooling files in the public repository. The README says decomp.dev registration/configuration and objdiff progress export are still pending; no progress metric or release is reported. The repository says game binaries, assets, and other proprietary data must remain outside version control.",
+      "summary": "A clean-room source reconstruction project for the Nintendo Switch version of Tears of the Kingdom. It uses a locally supplied `main.nso` and includes reconstructed source and tooling; tracker configuration and measured matching progress are not yet documented as complete.",
+      "project_url": "https://github.com/bignegro/TOTK-Decomp",
+      "updated": "2026-10-16",
+      "strategy": "Matching decompilation: reconstructs Nintendo Switch executable code in source form and provides local build/check tooling; matching progress is not yet reported.",
+      "language": "",
+      "source_available": "Public reconstruction source and tooling. README requires a legally obtained `main.nso` and prohibits committing original game data or proprietary assets. No project license file was present in the checked repository tree.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "Python",
+      "subtype": "Nintendo Switch AArch64 clean-room decompilation",
+      "sources": [
+        {
+          "label": "Maintainer README: clean-room target, required local executable, repository layout, and WIP state",
+          "url": "https://github.com/bignegro/TOTK-Decomp"
+        },
+        {
+          "label": "Maintainer decomp.dev notes: registration, objdiff setup, and pending tracker configuration",
+          "url": "https://github.com/bignegro/TOTK-Decomp/blob/master/docs/decomp-dev.md"
+        },
+        {
+          "label": "Public reconstructed source tree",
+          "url": "https://github.com/bignegro/TOTK-Decomp/tree/master/src"
+        },
+        {
+          "label": "GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/bignegro/TOTK-Decomp"
+        }
+      ]
+    },
+    {
+      "id": "ctr2wup-3ds-to-wiiu-static-recomp-toolkit",
+      "title": "CTR2WUP 3DS-to-Wii U Static Recompilation and WUP Toolkit",
+      "game": "CTR2WUP Nintendo 3DS-to-Wii U static-recompilation and WUP-injector toolkit",
+      "target_type": "Software",
+      "platform": "Nintendo 3DS ARM/Thumb applications → Nintendo Wii U homebrew/WUP targets; currently original homebrew diagnostics only",
+      "kind": "Recompilation",
+      "status": "Experimental software project. The README explicitly says commercial games, playable-game conversion, and the Windows GUI are unavailable; current builds provide developer tools and original homebrew diagnostics. Super Mario 3D Land is a planned first compatibility target, not a supported playable-game profile. Compatibility documentation says no commercial game profile is enabled.",
+      "summary": "A public toolkit for experimental 3DS-to-Wii U static translation and WUP packaging, with host-side inspection/build tools and a Wii U runtime. The implemented validation scope is original homebrew diagnostics; the planned commercial-game injector workflow is not yet available.",
+      "project_url": "https://github.com/Jdiller-86/CTR-2-WUP",
+      "updated": "2026-10-16",
+      "strategy": "AOT static translation/recompilation foundations with Wii U runtime integration and WUP packaging; commercial game conversion remains unavailable.",
+      "language": "",
+      "source_available": "Public source repository. The README identifies the project license as MIT; dependencies retain their own license terms.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "3DS-to-Wii U static-recompilation developer toolkit and WUP packager",
+      "sources": [
+        {
+          "label": "Maintainer README: static-recompilation scope and explicit lack of commercial game conversion or Windows GUI",
+          "url": "https://github.com/Jdiller-86/CTR-2-WUP"
+        },
+        {
+          "label": "Compatibility matrix: original homebrew diagnostics, no commercial profile, and validation limits",
+          "url": "https://github.com/Jdiller-86/CTR-2-WUP/blob/main/docs/compatibility.md"
+        },
+        {
+          "label": "Development plan: Super Mario 3D Land is planned, not yet a supported commercial target",
+          "url": "https://github.com/Jdiller-86/CTR-2-WUP/blob/main/plans.md"
+        },
+        {
+          "label": "License text linked by the maintainer README",
+          "url": "https://github.com/Jdiller-86/CTR-2-WUP/blob/main/LICENSE"
+        },
+        {
+          "label": "GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/Jdiller-86/CTR-2-WUP"
+        }
+      ]
+    }
+  ]
+}

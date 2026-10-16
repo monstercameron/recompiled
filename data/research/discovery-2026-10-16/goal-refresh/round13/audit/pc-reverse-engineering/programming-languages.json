@@ -1,0 +1,146 @@
+{
+  "verified_at": "2026-10-16",
+  "records": [
+    {
+      "project_id": "resident-evil-1997-pc-decomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 5632742,
+        "Python": 447573,
+        "C": 317907,
+        "HTML": 157637,
+        "CMake": 12199,
+        "JavaScript": 10911,
+        "Shell": 9705,
+        "PowerShell": 4302,
+        "Batchfile": 2608
+      },
+      "evidence_url": "https://api.github.com/repos/ecruells/resident-evil-pc-decomp/languages",
+      "evidence": "GitHub's official Languages endpoint reports C++ as the largest tracked source total (5,632,742 bytes); the complete returned byte map is preserved. This repository-wide total is not a custom-code-only measure.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "windows-95-build-9506-decompilation",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 68910,
+        "Python": 46580,
+        "Shell": 10704,
+        "Assembly": 8175,
+        "C++": 6531,
+        "Java": 1131
+      },
+      "evidence_url": "https://api.github.com/repos/hotlandsoftware/decomp95/languages",
+      "evidence": "GitHub's official Languages endpoint reports C as the largest tracked source total (68,910 bytes); the complete returned byte map is preserved. This repository-wide total is not a custom-code-only measure.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "donalds-alphabet-chase-ibm-pc-dos-decompilation",
+      "predominant_language": "Assembly",
+      "language_breakdown_bytes": {
+        "Assembly": 152801,
+        "C": 105568,
+        "Python": 47974,
+        "Shell": 6146
+      },
+      "evidence_url": "https://api.github.com/repos/jdelezenne/donalds-alphabet-chase-dos/languages",
+      "evidence": "GitHub's official Languages endpoint reports Assembly as the largest tracked source total (152,801 bytes); the complete returned byte map is preserved. This repository-wide total is not a custom-code-only measure.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "spider-man-2000-pc-decompilation-native-port",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 6950653,
+        "C": 4415099,
+        "Python": 142520,
+        "Makefile": 28216,
+        "Assembly": 19339,
+        "Linker Script": 12690,
+        "CMake": 5683,
+        "Shell": 4144,
+        "BitBake": 2777,
+        "Batchfile": 518
+      },
+      "evidence_url": "https://api.github.com/repos/PatrikScully/OpenSpidey/languages",
+      "evidence": "GitHub's official Languages endpoint reports C++ as the largest tracked source total (6,950,653 bytes); the complete returned byte map is preserved. This repository-wide total is not a custom-code-only measure.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "nhl-95-pc-dos-bitwise-rebuild",
+      "predominant_language": "Assembly",
+      "language_breakdown_bytes": {
+        "Assembly": 7042735,
+        "C": 1386785,
+        "Python": 352615,
+        "Makefile": 3984,
+        "Shell": 3379
+      },
+      "evidence_url": "https://api.github.com/repos/abdulahmad/NHL95PC/languages",
+      "evidence": "GitHub's official Languages endpoint reports Assembly as the largest tracked source total (7,042,735 bytes); the complete returned byte map is preserved. This repository-wide total is not a custom-code-only measure.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "tunnels-of-underworld-pc-game-decompilation",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 2529190,
+        "HTML": 140822,
+        "Python": 55197,
+        "C": 55172,
+        "CMake": 13535,
+        "PowerShell": 7571,
+        "CSS": 7009,
+        "Batchfile": 525
+      },
+      "evidence_url": "https://api.github.com/repos/pdromnt/tou_decomp/languages",
+      "evidence": "GitHub's official Languages endpoint reports C++ as the largest tracked source total (2,529,190 bytes); the complete returned byte map is preserved. This repository-wide total is not a custom-code-only measure.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "simcity-3000-unlimited-static-reverse-engineering",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Python": 1123194,
+        "C": 776049,
+        "PowerShell": 63707,
+        "Java": 43544
+      },
+      "evidence_url": "https://api.github.com/repos/nanofives/sc3kre/languages",
+      "evidence": "GitHub's official Languages endpoint reports Python as the largest tracked source total (1,123,194 bytes); the complete returned byte map is preserved. This repository-wide total is not a custom-code-only measure.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "battlestations-pacific-pc-x86-decompilation",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 51432198,
+        "Python": 752359,
+        "CMake": 295870,
+        "HTML": 47101,
+        "PowerShell": 25483,
+        "Assembly": 17359,
+        "Java": 12015,
+        "NASL": 9885
+      },
+      "evidence_url": "https://api.github.com/repos/sqz269/battlestations-pacific-decompile/languages",
+      "evidence": "GitHub's official Languages endpoint reports C++ as the largest tracked source total (51,432,198 bytes); the complete returned byte map is preserved. This repository-wide total is not a custom-code-only measure.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "pool-of-radiance-dos-v13-source-reconstruction",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 4194404,
+        "Python": 2545774,
+        "CMake": 308573,
+        "Shell": 72651,
+        "Assembly": 10830,
+        "Java": 6214
+      },
+      "evidence_url": "https://api.github.com/repos/huntergdavis/poolrad-decomp/languages",
+      "evidence": "GitHub's official Languages endpoint reports C as the largest tracked source total (4,194,404 bytes); the complete returned byte map is preserved. This repository-wide total is not a custom-code-only measure.",
+      "verified_at": "2026-10-16"
+    }
+  ]
+}

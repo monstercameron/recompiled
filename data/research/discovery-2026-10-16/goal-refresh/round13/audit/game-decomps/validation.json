@@ -1,0 +1,41 @@
+{
+  "validated_at": "2026-10-16",
+  "catalog_project_rows_read_only": 3462,
+  "canonical_database_modified": false,
+  "temporary_copy_import_test": "Passed: importer-shaped project, language, game profile, and Wikipedia link manifests imported into a temporary copy of the catalog; expected row/fact counts matched.",
+  "json_files_parsed": [
+    "/Users/earlcameron/Desktop/recompiled/work/research-2026-10-16/continuation-round13/game-decomps/dedupe-audit.json",
+    "/Users/earlcameron/Desktop/recompiled/work/research-2026-10-16/continuation-round13/game-decomps/exclusions.json",
+    "/Users/earlcameron/Desktop/recompiled/work/research-2026-10-16/continuation-round13/game-decomps/game-metadata-evidence.json",
+    "/Users/earlcameron/Desktop/recompiled/work/research-2026-10-16/continuation-round13/game-decomps/game-profiles.json",
+    "/Users/earlcameron/Desktop/recompiled/work/research-2026-10-16/continuation-round13/game-decomps/license-evidence.json",
+    "/Users/earlcameron/Desktop/recompiled/work/research-2026-10-16/continuation-round13/game-decomps/new-projects.json",
+    "/Users/earlcameron/Desktop/recompiled/work/research-2026-10-16/continuation-round13/game-decomps/programming-languages.json",
+    "/Users/earlcameron/Desktop/recompiled/work/research-2026-10-16/continuation-round13/game-decomps/project-evidence-index.json",
+    "/Users/earlcameron/Desktop/recompiled/work/research-2026-10-16/continuation-round13/game-decomps/validation.json",
+    "/Users/earlcameron/Desktop/recompiled/work/research-2026-10-16/continuation-round13/game-decomps/wikipedia-links.json"
+  ],
+  "counts": {
+    "project_additions": 12,
+    "decompilations": 8,
+    "static_recompilations": 4,
+    "language_records": 12,
+    "license_evidence_records": 12,
+    "project_snapshot_indexes": 12,
+    "new_game_profiles": 10,
+    "new_game_facts": 56,
+    "new_wikipedia_links": 10,
+    "duplicate_repository_leads_excluded": 18,
+    "held_or_scope_exclusions": 7
+  },
+  "checks": [
+    "All top-level manifest JSON parsed.",
+    "Every project ID and repository URL is unique within the batch and absent from canonical catalog.",
+    "18 duplicate repository leads map to existing catalog rows and are excluded.",
+    "Exact title-keyword searches were recorded; existing same-title targets are distinguished by platform/method.",
+    "Each predominant language equals the largest byte category in the exact captured GitHub Languages API map.",
+    "All 10 game profile keys had zero existing facts at read-only verification time; Touhou and Snail Mail retained existing facts and Wikipedia links.",
+    "Project, fact, and Wikipedia source URLs are HTTPS; Wikipedia links point to direct English articles.",
+    "No canonical importer was run; SQLite was opened read-only."
+  ]
+}

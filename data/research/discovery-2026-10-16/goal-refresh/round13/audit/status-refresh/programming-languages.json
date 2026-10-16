@@ -1,0 +1,58 @@
+{
+  "verified_at": "2026-10-16",
+  "scope": "Refreshed only GitHub Languages API maps that changed after the catalog’s 2026-10-15 verification. Counts are repository-wide measured bytes and can include tools, tests, or dependencies.",
+  "records": [
+    {
+      "project_id": "kytyps5",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 10735385,
+        "CMake": 51418,
+        "C": 8819,
+        "Nix": 2471,
+        "GLSL": 2360
+      },
+      "evidence_url": "https://api.github.com/repos/KytyPS5/KytyPS5/languages",
+      "evidence": "Official GitHub REST Languages API response checked 2026-10-16 reports C++ as the largest measured language bucket (10,735,385 bytes). The previous 2026-10-15 map reported 10,162,504 C++ bytes; the byte map changed after subsequent repository activity.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": null
+    },
+    {
+      "project_id": "winemetalgl-opengl-metal",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 1743040,
+        "Objective-C++": 1423803,
+        "C": 636978,
+        "Python": 152748,
+        "Objective-C": 106762,
+        "Shell": 39831,
+        "CMake": 9205
+      },
+      "evidence_url": "https://api.github.com/repos/metalsharp/WineMetalGL/languages",
+      "evidence": "Official GitHub REST Languages API response checked 2026-10-16 reports C++ as the largest measured language bucket (1,743,040 bytes). The previous 2026-10-15 map reported 1,525,451 C++ bytes; the byte map changed alongside the 2026-10-16 merged shader-compiler fix.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": null
+    },
+    {
+      "project_id": "horizon-minecraft-java-reimplementation",
+      "predominant_language": "Rust",
+      "language_breakdown_bytes": {
+        "Rust": 19085901,
+        "Python": 3799666,
+        "Java": 3074284,
+        "HTML": 67149,
+        "JavaScript": 43222,
+        "WGSL": 32426,
+        "CSS": 28348,
+        "Shell": 13509,
+        "Dockerfile": 2003,
+        "Nix": 554
+      },
+      "evidence_url": "https://api.github.com/repos/ludovic111/horizon/languages",
+      "evidence": "Official GitHub REST Languages API response checked 2026-10-16 reports Rust as the largest measured language bucket (19,085,901 bytes). Compared with the prior 2026-10-15 map (18,485,916 Rust; 3,751,922 Python; 3,057,834 Java), the measured byte counts changed after further repository activity; Rust remains predominant.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": null
+    }
+  ]
+}

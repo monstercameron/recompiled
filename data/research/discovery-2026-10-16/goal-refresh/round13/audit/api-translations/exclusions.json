@@ -1,0 +1,42 @@
+{
+  "checked_at": "2026-10-16",
+  "scope": "Related candidates screened for duplicates, applicability, or classification. The X post was a lead only; canonical repository sources support the staged facts.",
+  "records": [
+    {
+      "candidate": "Metal2Vulkan",
+      "url": "https://github.com/steelbrain/metal2vulkan",
+      "disposition": "Already cataloged; no metadata patch needed",
+      "reason": "The catalog already contains the canonical project row with current Alpha status, latest-release/no-0.2.0 caveat, documented API stages, Vulkan 1.2 requirement, typed refusals, and limitations. Reims uses it as one backend; that dependency relationship does not make the projects duplicates."
+    },
+    {
+      "candidate": "Anees Iqbal X post about macOS 26 on RTX 5080 and upcoming metal2vulkan/reims-vgpu rewrites",
+      "url": "https://x.com/aneesbhatti/status/2109234618675372465",
+      "disposition": "Discovery lead only; not used as durable evidence",
+      "reason": "The post was not accessible during review (HTTP 403). Repository README, release API, and commit metadata were used to establish current scope and status; no release announcement claim is inferred from the post."
+    },
+    {
+      "candidate": "Vintner D3DMetal Steam",
+      "url": "https://github.com/stevemurr/macos-d3dmetal-steam",
+      "disposition": "Not staged as a new API implementation",
+      "reason": "The reviewed repository is a launcher/setup around Apple’s existing D3DMetal path, not an independently implemented translation layer; prior graphics research already recorded this limitation."
+    },
+    {
+      "candidate": "OpenNative",
+      "url": "https://github.com/RemiPelloux/OpenNative",
+      "disposition": "Excluded as duplicate fork",
+      "reason": "Prior source review identified it as a direct fork of cataloged GameNative, with the same Android ARM64 target and translation stack, and no evidenced independent runtime identity."
+    },
+    {
+      "candidate": "DXVK Android",
+      "url": "https://github.com/AndreVto/dxvk-android",
+      "disposition": "Excluded as direct fork without a distinct target implementation",
+      "reason": "Repository evidence points to upstream DXVK and does not establish a separate Android-specific translation implementation."
+    },
+    {
+      "candidate": "Lunaria",
+      "url": "https://github.com/yui0/lunaria",
+      "disposition": "Already cataloged",
+      "reason": "Existing catalog entry lunaria-android-app-translation-desktop represents the Android app translation desktop project."
+    }
+  ]
+}

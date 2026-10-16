@@ -1,0 +1,42 @@
+{
+  "updated": "2026-10-16",
+  "scope": "Exact integer byte totals returned by the official GitHub Languages API for the canonical repositories on 2026-10-16. Predominant language is the largest reported byte bucket; totals include generated, vendored, build, and fixture sources and do not measure only core implementation.",
+  "records": [
+    {
+      "project_id": "reims-vgpu",
+      "predominant_language": "Rust",
+      "language_breakdown_bytes": {
+        "Rust": 11666220,
+        "Python": 3042332,
+        "C": 185528,
+        "Objective-C": 103840,
+        "Metal": 93663,
+        "Shell": 42200,
+        "Makefile": 7740,
+        "Assembly": 1801,
+        "Swift": 1167
+      },
+      "evidence_url": "https://api.github.com/repos/steelbrain/reims-vgpu/languages",
+      "evidence": "Exact repository-wide byte totals returned by the official GitHub Languages endpoint on 2026-10-16. Rust is the largest reported bucket. Counts include the QEMU integration, firmware, tests, scripts, and other repository files.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": null
+    },
+    {
+      "project_id": "metal-api-emulator",
+      "predominant_language": "Rust",
+      "language_breakdown_bytes": {
+        "Rust": 8333661,
+        "Python": 1217467,
+        "Swift": 472872,
+        "Metal": 38868,
+        "Objective-C++": 10343,
+        "LLVM": 8207,
+        "PowerShell": 3917
+      },
+      "evidence_url": "https://api.github.com/repos/Hi-Jiajun/metal-api-emulator/languages",
+      "evidence": "Exact repository-wide byte totals returned by the official GitHub Languages endpoint on 2026-10-16. Rust is the largest reported bucket; the map includes conformance fixtures, research tools, CI, and smoke examples.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": null
+    }
+  ]
+}

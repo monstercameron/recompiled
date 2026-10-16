@@ -1,0 +1,62 @@
+{
+  "checked_on": "2026-10-16",
+  "provider": "GitHub CLI repository search",
+  "queries": [
+    {
+      "query": "decomp",
+      "command": "gh search repos decomp --limit 100 --sort updated --order desc",
+      "result_count": 100,
+      "snapshot": "discovery/github-decomp-search.json"
+    },
+    {
+      "query": "\"PC game\" decompilation",
+      "result_count": 0
+    },
+    {
+      "query": "DOS game matching decompilation",
+      "result_count": 0
+    },
+    {
+      "query": "Windows software matching decompilation",
+      "result_count": 0
+    },
+    {
+      "query": "game reverse engineering source reconstruction PC",
+      "result_count": 0
+    },
+    {
+      "query": "decomp PC game",
+      "result_count": 0
+    },
+    {
+      "query": "Windows game decomp",
+      "result_count": 0
+    },
+    {
+      "query": "DOS game decomp",
+      "result_count": 0
+    },
+    {
+      "query": "Windows application decompilation",
+      "result_count": 0
+    }
+  ],
+  "reviewed_candidates": [
+    {
+      "repository": "https://github.com/albovsky/nd-blackmoor-decomp",
+      "disposition": "exact repository URL already present in the catalog; no duplicate addition"
+    },
+    {
+      "repository": "https://github.com/vonhoff/lemball-decomp",
+      "disposition": "exact repository URL already present in the catalog; no duplicate addition"
+    },
+    {
+      "repository": "https://github.com/sqz269/battlestations-pacific-decompile",
+      "disposition": "staged as a new project; primary README/roadmap/baseline reviewed"
+    },
+    {
+      "repository": "https://github.com/huntergdavis/poolrad-decomp",
+      "disposition": "staged as a new, distinct repository/method; exact same-title Pool of Radiance OpenGold record disclosed in dedupe audit"
+    }
+  ]
+}

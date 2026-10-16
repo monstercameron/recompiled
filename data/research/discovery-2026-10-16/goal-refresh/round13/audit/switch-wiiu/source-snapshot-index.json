@@ -1,0 +1,972 @@
+{
+  "captured_at": "2026-10-16",
+  "scope": "Local text/JSON snapshots only; binary assets, screenshots, game content, and media were not copied or indexed. Candidate snapshots were gathered from GitHub repository metadata, README/documentation, release, tree, and Languages API endpoints.",
+  "selected_project_ids": [
+    "monster-hunter-3-ultimate-wiiu-linux-static-recomp",
+    "yoshis-woolly-world-wiiu-decomp",
+    "scott-pilgrim-complete-edition-switch-decomp",
+    "tears-of-the-kingdom-switch-decomp-bignegro",
+    "ctr2wup-3ds-to-wiiu-static-recomp-toolkit"
+  ],
+  "candidates": [
+    {
+      "repository": "3DWCommunity__3dcomp",
+      "project_id": null,
+      "decision": "triaged or held; decision in exclusions-and-dedupe.md",
+      "default_branch": null,
+      "pushed_at": null,
+      "snapshot_files": [
+        {
+          "path": "evidence/candidates/3DWCommunity__3dcomp/languages-error.txt",
+          "bytes": 25,
+          "sha256": "d2c8985c89b29a842ac4946d13bdbc297709f44f20bb968faf9682664b211db6"
+        },
+        {
+          "path": "evidence/candidates/3DWCommunity__3dcomp/readme-error.txt",
+          "bytes": 25,
+          "sha256": "d2c8985c89b29a842ac4946d13bdbc297709f44f20bb968faf9682664b211db6"
+        },
+        {
+          "path": "evidence/candidates/3DWCommunity__3dcomp/releases-error.txt",
+          "bytes": 25,
+          "sha256": "d2c8985c89b29a842ac4946d13bdbc297709f44f20bb968faf9682664b211db6"
+        },
+        {
+          "path": "evidence/candidates/3DWCommunity__3dcomp/repo-error.txt",
+          "bytes": 25,
+          "sha256": "d2c8985c89b29a842ac4946d13bdbc297709f44f20bb968faf9682664b211db6"
+        }
+      ]
+    },
+    {
+      "repository": "ApfelTeeSaft/RebrewU",
+      "project_id": null,
+      "decision": "triaged or held; decision in exclusions-and-dedupe.md",
+      "default_branch": "main",
+      "pushed_at": "2026-03-23T21:14:34Z",
+      "snapshot_files": [
+        {
+          "path": "evidence/candidates/ApfelTeeSaft__RebrewU/README-source.json",
+          "bytes": 310,
+          "sha256": "92f74a48c1ae657f3400b0088e4b6608c6a19ddc4d1651849effea94792133c5"
+        },
+        {
+          "path": "evidence/candidates/ApfelTeeSaft__RebrewU/README.md",
+          "bytes": 2470,
+          "sha256": "f90c71a3c587b1f391655bd71d9bced00328ab93ea153af13075751d8a678cce"
+        },
+        {
+          "path": "evidence/candidates/ApfelTeeSaft__RebrewU/languages.json",
+          "bytes": 75,
+          "sha256": "78966695d699e835f72667c0425f049a18c2800263a5462530a683f9857b6981"
+        },
+        {
+          "path": "evidence/candidates/ApfelTeeSaft__RebrewU/releases.json",
+          "bytes": 3,
+          "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+        },
+        {
+          "path": "evidence/candidates/ApfelTeeSaft__RebrewU/repo.json",
+          "bytes": 5746,
+          "sha256": "6d56f398c168104f5ee9f4ba5cf7057a78cf7825f91a4bbe265e46379ec55919"
+        }
+      ]
+    },
+    {
+      "repository": "BlackLineInteractive/nWiiURecomp",
+      "project_id": null,
+      "decision": "triaged or held; decision in exclusions-and-dedupe.md",
+      "default_branch": "main",
+      "pushed_at": "2026-08-05T16:01:55Z",
+      "snapshot_files": [
+        {
+          "path": "evidence/candidates/BlackLineInteractive__nWiiURecomp/README-source.json",
+          "bytes": 334,
+          "sha256": "6322cd4a910c0d50a47c2f804f41e63ab4bbe41a9e7888cc313002eb0f160dff"
+        },
+        {
+          "path": "evidence/candidates/BlackLineInteractive__nWiiURecomp/README.md",
+          "bytes": 8947,
+          "sha256": "2ed34320de0475132343efaa532587a449766d6c44f034144f0d9c0a9f444cf3"
+        },
+        {
+          "path": "evidence/candidates/BlackLineInteractive__nWiiURecomp/languages.json",
+          "bytes": 86,
+          "sha256": "378d1b235a89313753e365c4403c0497f4e0b3d9427ad104627e42a430c6676b"
+        },
+        {
+          "path": "evidence/candidates/BlackLineInteractive__nWiiURecomp/releases.json",
+          "bytes": 3,
+          "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+        },
+        {
+          "path": "evidence/candidates/BlackLineInteractive__nWiiURecomp/repo.json",
+          "bytes": 6782,
+          "sha256": "c805ec38ff2bf27d09baab7d886e13642331d09ba6328038fb197f4c1cfc7934"
+        }
+      ]
+    },
+    {
+      "repository": "ChanseyIsTheBest/sa2-nx",
+      "project_id": null,
+      "decision": "triaged or held; decision in exclusions-and-dedupe.md",
+      "default_branch": "main",
+      "pushed_at": "2026-10-14T02:45:21Z",
+      "snapshot_files": [
+        {
+          "path": "evidence/candidates/ChanseyIsTheBest__sa2-nx/README-source.json",
+          "bytes": 317,
+          "sha256": "bdf9d60a15487df0936d5200abd9100c81530408b02f00ff3a6397dfec3fcd1c"
+        },
+        {
+          "path": "evidence/candidates/ChanseyIsTheBest__sa2-nx/README.md",
+          "bytes": 12993,
+          "sha256": "c009bc9324b5603250fa77233befd0004f6fa3a849faaeff4b9aae495a3b0a99"
+        },
+        {
+          "path": "evidence/candidates/ChanseyIsTheBest__sa2-nx/languages.json",
+          "bytes": 215,
+          "sha256": "9c23eddd8724d5abdac003392b00140aadd7974f96b937b15e67f9e5c88684cb"
+        },
+        {
+          "path": "evidence/candidates/ChanseyIsTheBest__sa2-nx/releases.json",
+          "bytes": 21134,
+          "sha256": "b37d7aab633efe9d8531282eac06c89d143172b2cbfd8d35ab77c18cb9fdd752"
+        },
+        {
+          "path": "evidence/candidates/ChanseyIsTheBest__sa2-nx/repo.json",
+          "bytes": 6283,
+          "sha256": "6be68472122e487a9adb22c9d356d14383660bcaa523ee288a470bcb19dac7cd"
+        }
+      ]
+    },
+    {
+      "repository": "Denkishi/ssbu-recomp",
+      "project_id": null,
+      "decision": "triaged or held; decision in exclusions-and-dedupe.md",
+      "default_branch": "main",
+      "pushed_at": "2026-10-16T02:48:08Z",
+      "snapshot_files": [
+        {
+          "path": "evidence/candidates/Denkishi__ssbu-recomp/README-source.json",
+          "bytes": 311,
+          "sha256": "e94a23facba330820316f8919ddfb3930bd9e9a853b099f32973199e8ce86c82"
+        },
+        {
+          "path": "evidence/candidates/Denkishi__ssbu-recomp/README.md",
+          "bytes": 13637,
+          "sha256": "b5b25c552d9d224f5b89f88841565d8f0eac3429c0b1967a07cb2a000ee1670d"
+        },
+        {
+          "path": "evidence/candidates/Denkishi__ssbu-recomp/languages.json",
+          "bytes": 117,
+          "sha256": "adfcd2c84bd0285e1feeb588635448671ddaaf67c43d4c3a9b6890f7a4f4a76a"
+        },
+        {
+          "path": "evidence/candidates/Denkishi__ssbu-recomp/releases.json",
+          "bytes": 3,
+          "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+        },
+        {
+          "path": "evidence/candidates/Denkishi__ssbu-recomp/repo.json",
+          "bytes": 6000,
+          "sha256": "2175c837edf60ed809626d8f86468324037525500b4c27f3d660098ff24dc5d3"
+        }
+      ]
+    },
+    {
+      "repository": "Dexx-io/Splatoon-Decomp",
+      "project_id": null,
+      "decision": "triaged or held; decision in exclusions-and-dedupe.md",
+      "default_branch": "main",
+      "pushed_at": "2024-12-18T18:50:37Z",
+      "snapshot_files": [
+        {
+          "path": "evidence/candidates/Dexx-io__Splatoon-Decomp/README-source.json",
+          "bytes": 315,
+          "sha256": "cf8d12fc2d47838537ab62e9bdcacb7dddef91d9d8654082594f5609754e09ee"
+        },
+        {
+          "path": "evidence/candidates/Dexx-io__Splatoon-Decomp/README.md",
+          "bytes": 406,
+          "sha256": "bf8d7e12d9d3d1e0eaeb3e1619c5b51492f337deed604cc9ad3fa24c04357997"
+        },
+        {
+          "path": "evidence/candidates/Dexx-io__Splatoon-Decomp/languages.json",
+          "bytes": 3,
+          "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+        },
+        {
+          "path": "evidence/candidates/Dexx-io__Splatoon-Decomp/releases.json",
+          "bytes": 3,
+          "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+        },
+        {
+          "path": "evidence/candidates/Dexx-io__Splatoon-Decomp/repo.json",
+          "bytes": 5861,
+          "sha256": "a010eddcc922cba64ed85859bc0dd04ddd02682808f5d176723082ef3bd0b41b"
+        }
+      ]
+    },
+    {
+      "repository": "Jdiller-86/CTR-2-WUP",
+      "project_id": "ctr2wup-3ds-to-wiiu-static-recomp-toolkit",
+      "decision": "selected",
+      "default_branch": "main",
+      "pushed_at": "2026-10-16T02:04:40Z",
+      "snapshot_files": [
+        {
+          "path": "evidence/candidates/Jdiller-86__CTR-2-WUP/README-source.json",
+          "bytes": 286,
+          "sha256": "c633de617ec6b692fbda1bbaeb9723001883b48a6d8b3222e8bb36ac733cc76e"
+        },
+        {
+          "path": "evidence/candidates/Jdiller-86__CTR-2-WUP/README.md",
+          "bytes": 3159,
+          "sha256": "5fa1c2f6631742fcfda8f57caea3f699fbc21425cf40e501b43fa6c4ba6304f3"
+        },
+        {
+          "path": "evidence/candidates/Jdiller-86__CTR-2-WUP/docs__compatibility.md",
+          "bytes": 3079,
+          "sha256": "f6e22954982b4e2e770e669e0896021629ea3a29b72721b3427145aeb8347fd9"
+        },
+        {
+          "path": "evidence/candidates/Jdiller-86__CTR-2-WUP/languages.json",
+          "bytes": 203,
+          "sha256": "482836e08bb64ea844d36932e26b4a912a8a5bf1e80d6df8bfafcafd8b93f19f"
+        },
+        {
+          "path": "evidence/candidates/Jdiller-86__CTR-2-WUP/plans.md",
+          "bytes": 2888,
+          "sha256": "1a7e1293f69dcedd82137e1c45bc52fecb3a0c431cbf1484ca8bae2b1b2b2f83"
+        },
+        {
+          "path": "evidence/candidates/Jdiller-86__CTR-2-WUP/releases.json",
+          "bytes": 106495,
+          "sha256": "341f05f18c7d5e476611d963ee56948c8fbfafc3c27685cd9e9461b966eadc57"
+        },
+        {
+          "path": "evidence/candidates/Jdiller-86__CTR-2-WUP/repo.json",
+          "bytes": 6161,
+          "sha256": "77fcf397076b7cdecbc9dff23bfe34915ddf402c75970249bc33f1b5affe362f"
+        },
+        {
+          "path": "evidence/candidates/Jdiller-86__CTR-2-WUP/tree.json",
+          "bytes": 159542,
+          "sha256": "b642b0366995d5db3c670f6807f613f22ebf8e59886d89caa30684e13f488cad"
+        }
+      ]
+    },
+    {
+      "repository": "LockingFR/mkw-switch-recomp",
+      "project_id": null,
+      "decision": "triaged or held; decision in exclusions-and-dedupe.md",
+      "default_branch": "main",
+      "pushed_at": "2026-10-11T18:50:31Z",
+      "snapshot_files": [
+        {
+          "path": "evidence/candidates/LockingFR__mkw-switch-recomp/README-source.json",
+          "bytes": 300,
+          "sha256": "a60c75c81be8f1b6c4ef2afafbfd80970a2be1a674b23c6ec99093b4db2c919e"
+        },
+        {
+          "path": "evidence/candidates/LockingFR__mkw-switch-recomp/README.md",
+          "bytes": 3024,
+          "sha256": "a0f71d8988bbca75b083d3abfc5708803ec9182899919f50b19152de55c18692"
+        },
+        {
+          "path": "evidence/candidates/LockingFR__mkw-switch-recomp/docs__BUILDING.md",
+          "bytes": 1305,
+          "sha256": "e2f83de74bc1c08d0711f87313b1e0864a866ff4189b5e3fe218efbce7cb427f"
+        },
+        {
+          "path": "evidence/candidates/LockingFR__mkw-switch-recomp/docs__NOT_DISTRIBUTED.md",
+          "bytes": 950,
+          "sha256": "5eef2ec8af1fc428d40a97f98ec54281fe20bc82dd52022a8500612a3a18e4ea"
+        },
+        {
+          "path": "evidence/candidates/LockingFR__mkw-switch-recomp/docs__STATUS.md",
+          "bytes": 3317,
+          "sha256": "58a8cf7ba266ebd583895c8f51e145db6389eb845651fa318029e3971daf061c"
+        },
+        {
+          "path": "evidence/candidates/LockingFR__mkw-switch-recomp/languages.json",
+          "bytes": 22,
+          "sha256": "d2f0f5ac846cc02de82fa62f26778a499a7b15b4cdf5ba3640b8984da6e19f52"
+        },
+        {
+          "path": "evidence/candidates/LockingFR__mkw-switch-recomp/releases.json",
+          "bytes": 3,
+          "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+        },
+        {
+          "path": "evidence/candidates/LockingFR__mkw-switch-recomp/repo.json",
+          "bytes": 6088,
+          "sha256": "0093861c9a9e7a5060e8cd8d1513bdcc926d2a53efc370ec3facdf449ac747ab"
+        },
+        {
+          "path": "evidence/candidates/LockingFR__mkw-switch-recomp/tree.json",
+          "bytes": 3973,
+          "sha256": "b4131e659bb7fd9d8e3e93e44f09120bd78f27d2572bf485b82eea3fedb66895"
+        }
+      ]
+    },
+    {
+      "repository": "Moddimation__KinokoDecomp-S",
+      "project_id": null,
+      "decision": "triaged or held; decision in exclusions-and-dedupe.md",
+      "default_branch": null,
+      "pushed_at": null,
+      "snapshot_files": [
+        {
+          "path": "evidence/candidates/Moddimation__KinokoDecomp-S/languages-error.txt",
+          "bytes": 25,
+          "sha256": "d2c8985c89b29a842ac4946d13bdbc297709f44f20bb968faf9682664b211db6"
+        },
+        {
+          "path": "evidence/candidates/Moddimation__KinokoDecomp-S/readme-error.txt",
+          "bytes": 25,
+          "sha256": "d2c8985c89b29a842ac4946d13bdbc297709f44f20bb968faf9682664b211db6"
+        },
+        {
+          "path": "evidence/candidates/Moddimation__KinokoDecomp-S/releases-error.txt",
+          "bytes": 25,
+          "sha256": "d2c8985c89b29a842ac4946d13bdbc297709f44f20bb968faf9682664b211db6"
+        },
+        {
+          "path": "evidence/candidates/Moddimation__KinokoDecomp-S/repo-error.txt",
+          "bytes": 25,
+          "sha256": "d2c8985c89b29a842ac4946d13bdbc297709f44f20bb968faf9682664b211db6"
+        }
+      ]
+    },
+    {
+      "repository": "Mythrax-ZS/SwitchRecomp",
+      "project_id": null,
+      "decision": "triaged or held; decision in exclusions-and-dedupe.md",
+      "default_branch": "master",
+      "pushed_at": "2026-10-12T08:26:35Z",
+      "snapshot_files": [
+        {
+          "path": "evidence/candidates/Mythrax-ZS__SwitchRecomp/README-source.json",
+          "bytes": 321,
+          "sha256": "81014902b358f0f448e3105fd904f54a556a78ee0bf75527a121ed71d8779b74"
+        },
+        {
+          "path": "evidence/candidates/Mythrax-ZS__SwitchRecomp/README.md",
+          "bytes": 11065,
+          "sha256": "6d76706e0ae5b1cd226439c8bcba394f2ef8a7f12ccdb87b82a8a9ea5957a65c"
+        },
+        {
+          "path": "evidence/candidates/Mythrax-ZS__SwitchRecomp/languages.json",
+          "bytes": 112,
+          "sha256": "20c9968087a2c10da19a97448708a6297709f91fe20f3a4997ef8fc9c3cbb7d8"
+        },
+        {
+          "path": "evidence/candidates/Mythrax-ZS__SwitchRecomp/releases.json",
+          "bytes": 11278,
+          "sha256": "4679011c9f8c307e395455f0f335afa1409c03fee1f3a4a0ab78e2e67f5c94f8"
+        },
+        {
+          "path": "evidence/candidates/Mythrax-ZS__SwitchRecomp/repo.json",
+          "bytes": 6007,
+          "sha256": "9279de6bfcd0607daaef8adfcc61e366bce0a53c6a93d8a1067fb05a43d50ea1"
+        }
+      ]
+    },
+    {
+      "repository": "Nintendocustom/Lego-City-Undercover-Decompilation",
+      "project_id": null,
+      "decision": "triaged or held; decision in exclusions-and-dedupe.md",
+      "default_branch": "master",
+      "pushed_at": "2026-10-13T09:49:29Z",
+      "snapshot_files": [
+        {
+          "path": "evidence/candidates/Nintendocustom__Lego-City-Undercover-Decompilation/README-source.json",
+          "bytes": 372,
+          "sha256": "18a240819de45cea3e6d964e8b781c3fc4daa1ccca1f7fbbf1e6fd42b3977c33"
+        },
+        {
+          "path": "evidence/candidates/Nintendocustom__Lego-City-Undercover-Decompilation/README.md",
+          "bytes": 2996,
+          "sha256": "a1785bd4c2ad316cf0d5ef0ba77bc3091e688d37e29a1054bf4ac24760ad35ce"
+        },
+        {
+          "path": "evidence/candidates/Nintendocustom__Lego-City-Undercover-Decompilation/languages.json",
+          "bytes": 56,
+          "sha256": "34bee7eb7f951bd95e21f37c37c43f9a387aaecb9ba2681600c1ca806190a998"
+        },
+        {
+          "path": "evidence/candidates/Nintendocustom__Lego-City-Undercover-Decompilation/releases.json",
+          "bytes": 3,
+          "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+        },
+        {
+          "path": "evidence/candidates/Nintendocustom__Lego-City-Undercover-Decompilation/repo.json",
+          "bytes": 7062,
+          "sha256": "98c06adf9678f1757b79387509582b23a08e4a7f59ecf7654b53120d110fe03d"
+        }
+      ]
+    },
+    {
+      "repository": "Owen-Splat/las-decomp",
+      "project_id": null,
+      "decision": "triaged or held; decision in exclusions-and-dedupe.md",
+      "default_branch": "main",
+      "pushed_at": "2026-03-21T23:50:04Z",
+      "snapshot_files": [
+        {
+          "path": "evidence/candidates/Owen-Splat__las-decomp/README-source.json",
+          "bytes": 311,
+          "sha256": "4250312e0d748571e03a591bfe693100e0571db0d76ef53de1e70b1bdc4e5061"
+        },
+        {
+          "path": "evidence/candidates/Owen-Splat__las-decomp/README.md",
+          "bytes": 865,
+          "sha256": "f165d30e49bf2c6180e0f424bcb0696ae02b7cb18d4dc48f154595bb600d3eb6"
+        },
+        {
+          "path": "evidence/candidates/Owen-Splat__las-decomp/languages.json",
+          "bytes": 3,
+          "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+        },
+        {
+          "path": "evidence/candidates/Owen-Splat__las-decomp/releases.json",
+          "bytes": 3963,
+          "sha256": "efad480ae4881b271c6ace2496de9c42fa465611e7b1255d4266eb71efdc886b"
+        },
+        {
+          "path": "evidence/candidates/Owen-Splat__las-decomp/repo.json",
+          "bytes": 5997,
+          "sha256": "e13d261f4d49c8d4611c4f711b8e7ea47bf18832f73c895ea4f0790a75015ca3"
+        }
+      ]
+    },
+    {
+      "repository": "Radfordhound/OpenLW",
+      "project_id": null,
+      "decision": "triaged or held; decision in exclusions-and-dedupe.md",
+      "default_branch": "master",
+      "pushed_at": "2024-04-15T05:56:46Z",
+      "snapshot_files": [
+        {
+          "path": "evidence/candidates/Radfordhound__OpenLW/README-source.json",
+          "bytes": 312,
+          "sha256": "d6be0d3d927926ad92ed4e7ceae15b9f79b1251f1764eb36d8cffdf9a02a04b9"
+        },
+        {
+          "path": "evidence/candidates/Radfordhound__OpenLW/README.md",
+          "bytes": 6736,
+          "sha256": "32a665a128a30e58ca121fa0a3e58a951475a8d1f9c2e2537a5929e615bf9e08"
+        },
+        {
+          "path": "evidence/candidates/Radfordhound__OpenLW/languages.json",
+          "bytes": 124,
+          "sha256": "f74b819612a2e53a545cd353d7a882109244dd2d21bc1da60b2828987e4b8284"
+        },
+        {
+          "path": "evidence/candidates/Radfordhound__OpenLW/releases.json",
+          "bytes": 3,
+          "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+        },
+        {
+          "path": "evidence/candidates/Radfordhound__OpenLW/repo.json",
+          "bytes": 5825,
+          "sha256": "2f8e6762476facb4ba5b80da9f25587c8575e9d408d541bcbc6432aa97b5d39f"
+        }
+      ]
+    },
+    {
+      "repository": "Swiftshine/yww",
+      "project_id": "yoshis-woolly-world-wiiu-decomp",
+      "decision": "selected",
+      "default_branch": "main",
+      "pushed_at": "2025-01-04T19:05:15Z",
+      "snapshot_files": [
+        {
+          "path": "evidence/candidates/Swiftshine__yww/README-source.json",
+          "bytes": 297,
+          "sha256": "4f43dd1e02f243f585a4b48416924ddf5ff894ac7b919ed864b0cd3faa40b3bd"
+        },
+        {
+          "path": "evidence/candidates/Swiftshine__yww/README.md",
+          "bytes": 333,
+          "sha256": "01344f6c4bad421a11570ae7cdaacc7f81788d04f401058b63198df0a5ff5a08"
+        },
+        {
+          "path": "evidence/candidates/Swiftshine__yww/TODO.md",
+          "bytes": 162,
+          "sha256": "54f596060b650011a883ac287393667cc48b8eede1a5ff1aad1ff93b015d5510"
+        },
+        {
+          "path": "evidence/candidates/Swiftshine__yww/additional-source-snapshot-index.json",
+          "bytes": 880,
+          "sha256": "b0570c709cb7515cafd5ad6426e59a9292b50afee4473e2b1175c37a0bcc3765"
+        },
+        {
+          "path": "evidence/candidates/Swiftshine__yww/compile.py",
+          "bytes": 1118,
+          "sha256": "a30dfca08ba732876b4d9e9a1ec12519406bfe299d01229f2808ab6306dc97e1"
+        },
+        {
+          "path": "evidence/candidates/Swiftshine__yww/languages.json",
+          "bytes": 48,
+          "sha256": "515237e3c5612af96a4f87bdf0226a872b7d017f6eeca59e8cb5c2fa9a3a60cd"
+        },
+        {
+          "path": "evidence/candidates/Swiftshine__yww/releases.json",
+          "bytes": 3,
+          "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+        },
+        {
+          "path": "evidence/candidates/Swiftshine__yww/repo.json",
+          "bytes": 5465,
+          "sha256": "84fbafb7a9f257c61f16ac1dfb23bbef7c579406ebf737e4cc45d60a4444d728"
+        },
+        {
+          "path": "evidence/candidates/Swiftshine__yww/src__merino__object__YsHandle.cpp",
+          "bytes": 1427,
+          "sha256": "ec67a84510e2d9d4462a424bb142eada7b5830b3c02b070f988d2a128443b9b6"
+        },
+        {
+          "path": "evidence/candidates/Swiftshine__yww/tree.json",
+          "bytes": 5416,
+          "sha256": "0dd8aec1d153715e4c0f566bb0ea52923484a4cbff9e5385fe3b15f6b82346a7"
+        }
+      ]
+    },
+    {
+      "repository": "SwitchDecomp/SwitchDecomp",
+      "project_id": null,
+      "decision": "triaged or held; decision in exclusions-and-dedupe.md",
+      "default_branch": "main",
+      "pushed_at": "2026-10-09T16:47:03Z",
+      "snapshot_files": [
+        {
+          "path": "evidence/candidates/SwitchDecomp__SwitchDecomp/README-source.json",
+          "bytes": 296,
+          "sha256": "a3a236337ef7366c1915922d4fc757ebe90654a63be6c431fbfb1f7c4be1965e"
+        },
+        {
+          "path": "evidence/candidates/SwitchDecomp__SwitchDecomp/README.md",
+          "bytes": 4640,
+          "sha256": "4f93cd2f00eb1f0a2168c06a055bbf22221c8f4b1ebb6db857d39eabe5078603"
+        },
+        {
+          "path": "evidence/candidates/SwitchDecomp__SwitchDecomp/languages.json",
+          "bytes": 3,
+          "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+        },
+        {
+          "path": "evidence/candidates/SwitchDecomp__SwitchDecomp/releases.json",
+          "bytes": 3,
+          "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+        },
+        {
+          "path": "evidence/candidates/SwitchDecomp__SwitchDecomp/repo.json",
+          "bytes": 5933,
+          "sha256": "aee8ea9f56b553f01a138b6905f672ecf2f637e648cadea49982721a494b2074"
+        }
+      ]
+    },
+    {
+      "repository": "SwitchRECOMP/SwitchRECOMP",
+      "project_id": null,
+      "decision": "triaged or held; decision in exclusions-and-dedupe.md",
+      "default_branch": "main",
+      "pushed_at": "2026-09-27T17:38:21Z",
+      "snapshot_files": [
+        {
+          "path": "evidence/candidates/SwitchRECOMP__SwitchRECOMP/languages.json",
+          "bytes": 3,
+          "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+        },
+        {
+          "path": "evidence/candidates/SwitchRECOMP__SwitchRECOMP/readme-error.txt",
+          "bytes": 25,
+          "sha256": "d2c8985c89b29a842ac4946d13bdbc297709f44f20bb968faf9682664b211db6"
+        },
+        {
+          "path": "evidence/candidates/SwitchRECOMP__SwitchRECOMP/releases.json",
+          "bytes": 3,
+          "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+        },
+        {
+          "path": "evidence/candidates/SwitchRECOMP__SwitchRECOMP/repo.json",
+          "bytes": 5935,
+          "sha256": "8862afa75cbb29c1c78438a733bfabce437095470a90867cb9556eee9900980f"
+        }
+      ]
+    },
+    {
+      "repository": "ZeldaWWHDDecomp/wwhd",
+      "project_id": null,
+      "decision": "triaged or held; decision in exclusions-and-dedupe.md",
+      "default_branch": "main",
+      "pushed_at": "2026-10-14T14:38:02Z",
+      "snapshot_files": [
+        {
+          "path": "evidence/candidates/ZeldaWWHDDecomp__wwhd/README-source.json",
+          "bytes": 311,
+          "sha256": "9eddae9969343a1bfef51cc43a89e27df13de77970830f27a16bafda268768e3"
+        },
+        {
+          "path": "evidence/candidates/ZeldaWWHDDecomp__wwhd/README.md",
+          "bytes": 12183,
+          "sha256": "beecc721c4af93d66779e3c2c08bef0baa58fee734cc40fe89c2420beecbcb4a"
+        },
+        {
+          "path": "evidence/candidates/ZeldaWWHDDecomp__wwhd/languages.json",
+          "bytes": 74,
+          "sha256": "c6593aba48df883a9b48cf9c71d4fdc6c8e5933aecd0e6ccdab73468f0934009"
+        },
+        {
+          "path": "evidence/candidates/ZeldaWWHDDecomp__wwhd/releases.json",
+          "bytes": 3,
+          "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+        },
+        {
+          "path": "evidence/candidates/ZeldaWWHDDecomp__wwhd/repo.json",
+          "bytes": 7135,
+          "sha256": "c15a70fadc2d9bd882cb8cfc5fe392fff445b4f2823f262de89c98b0565483d6"
+        }
+      ]
+    },
+    {
+      "repository": "bgyss/SwitchRecomp",
+      "project_id": null,
+      "decision": "triaged or held; decision in exclusions-and-dedupe.md",
+      "default_branch": "main",
+      "pushed_at": "2026-03-06T01:19:54Z",
+      "snapshot_files": [
+        {
+          "path": "evidence/candidates/bgyss__SwitchRecomp/README-source.json",
+          "bytes": 282,
+          "sha256": "654c66d21a91a00980d3f1da86edc2e0ce4f2f1931e2d6c6eb119dcf6f371fd3"
+        },
+        {
+          "path": "evidence/candidates/bgyss__SwitchRecomp/README.md",
+          "bytes": 5223,
+          "sha256": "616bb725f49a3897ca4b3a511a0260a5f073980b50667d904a73dec36a776173"
+        },
+        {
+          "path": "evidence/candidates/bgyss__SwitchRecomp/languages.json",
+          "bytes": 73,
+          "sha256": "1b6462e2ba7b1d45010f71718bac173c95d68137db22259db5482cf167990b1d"
+        },
+        {
+          "path": "evidence/candidates/bgyss__SwitchRecomp/releases.json",
+          "bytes": 3,
+          "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+        },
+        {
+          "path": "evidence/candidates/bgyss__SwitchRecomp/repo.json",
+          "bytes": 5711,
+          "sha256": "b47d8750c6b075075304c97da537e5556463c6739dfcaeb9e2401b7f8baa9504"
+        }
+      ]
+    },
+    {
+      "repository": "bignegro/TOTK-Decomp",
+      "project_id": "tears-of-the-kingdom-switch-decomp-bignegro",
+      "decision": "selected",
+      "default_branch": "master",
+      "pushed_at": "2026-02-21T16:45:22Z",
+      "snapshot_files": [
+        {
+          "path": "evidence/candidates/bignegro__TOTK-Decomp/README-source.json",
+          "bytes": 314,
+          "sha256": "979b4cebd6bf304796bfa2740e8c7812e34038f315c1df356616c7c4dcc08720"
+        },
+        {
+          "path": "evidence/candidates/bignegro__TOTK-Decomp/README.md",
+          "bytes": 2138,
+          "sha256": "22c1d95406851d5a632aa77fbea6830f1a89a5cc2e30a1e47488792eab74bfad"
+        },
+        {
+          "path": "evidence/candidates/bignegro__TOTK-Decomp/docs__decomp-dev.md",
+          "bytes": 1953,
+          "sha256": "2838db7a75f9dad8b8d8057bcdbc0f1c84c3f7dcca966369316ce6af04303b72"
+        },
+        {
+          "path": "evidence/candidates/bignegro__TOTK-Decomp/languages.json",
+          "bytes": 132,
+          "sha256": "73e611e7862a8d544973ca4b5b93716f722ba08ca2e383de9b4e46bd7b0e8560"
+        },
+        {
+          "path": "evidence/candidates/bignegro__TOTK-Decomp/releases.json",
+          "bytes": 3,
+          "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+        },
+        {
+          "path": "evidence/candidates/bignegro__TOTK-Decomp/repo.json",
+          "bytes": 5678,
+          "sha256": "a7bfef0a3814e3682066ae4da9e8241fb00e86662cfc9881f4f0894f8c4aa3f9"
+        },
+        {
+          "path": "evidence/candidates/bignegro__TOTK-Decomp/tree.json",
+          "bytes": 40667,
+          "sha256": "089b5b1382adb8d3bb512e71db7ce02e4eaf5973fc66b0f463170d7c1fd65211"
+        }
+      ]
+    },
+    {
+      "repository": "brandraft-exp/wiiu-recomp",
+      "project_id": "monster-hunter-3-ultimate-wiiu-linux-static-recomp",
+      "decision": "selected",
+      "default_branch": "master",
+      "pushed_at": "2026-10-13T03:33:48Z",
+      "snapshot_files": [
+        {
+          "path": "evidence/candidates/brandraft-exp__wiiu-recomp/PROGRESS.md",
+          "bytes": 26132,
+          "sha256": "c2332eadba270cb92b3df7a8825813ec5f1a8664a14a12d9ec7f633d2602a366"
+        },
+        {
+          "path": "evidence/candidates/brandraft-exp__wiiu-recomp/README-source.json",
+          "bytes": 300,
+          "sha256": "fdf69ce2b474f4e19f0f37be9fa1389515cf8af27a9b6e0d46fd7422a4829276"
+        },
+        {
+          "path": "evidence/candidates/brandraft-exp__wiiu-recomp/README.md",
+          "bytes": 5673,
+          "sha256": "08ff0ddfc93cb2be38d39f6b1bb6b57c8d4181c2a2bcf42207df6a96651db9bf"
+        },
+        {
+          "path": "evidence/candidates/brandraft-exp__wiiu-recomp/languages.json",
+          "bytes": 55,
+          "sha256": "d74ee94cff10f8970efdc4df43ac2eb51aeca44de23cc9c460aa2f6e755a89fd"
+        },
+        {
+          "path": "evidence/candidates/brandraft-exp__wiiu-recomp/releases.json",
+          "bytes": 3,
+          "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+        },
+        {
+          "path": "evidence/candidates/brandraft-exp__wiiu-recomp/repo.json",
+          "bytes": 6016,
+          "sha256": "be65f41e8c56730379e4d089b8ac7677c7877b832e103a9d6a8463114f8acd7f"
+        },
+        {
+          "path": "evidence/candidates/brandraft-exp__wiiu-recomp/tree.json",
+          "bytes": 29191,
+          "sha256": "9b7d714ec05ead3465642c62eaaa443a63403c8fff0eaf24b013d680ab1f56e5"
+        }
+      ]
+    },
+    {
+      "repository": "flossbud/WWHDRecomp",
+      "project_id": null,
+      "decision": "triaged or held; decision in exclusions-and-dedupe.md",
+      "default_branch": "main",
+      "pushed_at": "2026-10-15T14:53:50Z",
+      "snapshot_files": [
+        {
+          "path": "evidence/candidates/flossbud__WWHDRecomp/README-source.json",
+          "bytes": 308,
+          "sha256": "8493de76a2b9b6c2f0324971daec0392faac250246b31101c251ee33510b0925"
+        },
+        {
+          "path": "evidence/candidates/flossbud__WWHDRecomp/README.md",
+          "bytes": 7155,
+          "sha256": "b545908b8b934d1b9f461b78028523c1d97797be046e9d24a390a2a82d1a868c"
+        },
+        {
+          "path": "evidence/candidates/flossbud__WWHDRecomp/languages.json",
+          "bytes": 148,
+          "sha256": "45328569866de9b0cf051248d69a231e8c6a667480190fb9cb809360c78733c3"
+        },
+        {
+          "path": "evidence/candidates/flossbud__WWHDRecomp/releases.json",
+          "bytes": 3,
+          "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+        },
+        {
+          "path": "evidence/candidates/flossbud__WWHDRecomp/repo.json",
+          "bytes": 5926,
+          "sha256": "9453cbbd73bf75386cb86f782ba125e3317e0041ec2338ed44cf782cc4b80bf2"
+        }
+      ]
+    },
+    {
+      "repository": "hardkiller2565123123/CafeRecomp",
+      "project_id": null,
+      "decision": "triaged or held; decision in exclusions-and-dedupe.md",
+      "default_branch": "main",
+      "pushed_at": "2026-09-28T06:30:31Z",
+      "snapshot_files": [
+        {
+          "path": "evidence/candidates/hardkiller2565123123__CafeRecomp/README-source.json",
+          "bytes": 332,
+          "sha256": "d75fc158569b213344180029f8c68e35c65284f2cbeba12a1c6b44845e570a2c"
+        },
+        {
+          "path": "evidence/candidates/hardkiller2565123123__CafeRecomp/README.md",
+          "bytes": 2873,
+          "sha256": "2ba9b46c51b6ec29003748c74260d1459936d36d3683b6fba5b0a9273b6b750a"
+        },
+        {
+          "path": "evidence/candidates/hardkiller2565123123__CafeRecomp/languages.json",
+          "bytes": 60,
+          "sha256": "1b1cdcb6095e4cc9e0675f0c80096a5264c76a059100fb313d52b649766debfb"
+        },
+        {
+          "path": "evidence/candidates/hardkiller2565123123__CafeRecomp/releases.json",
+          "bytes": 3,
+          "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+        },
+        {
+          "path": "evidence/candidates/hardkiller2565123123__CafeRecomp/repo.json",
+          "bytes": 6494,
+          "sha256": "1fd6d62dcd45be4cb972b1cec9ebdfd04b144aad393598598e3d3da14e49cea1"
+        }
+      ]
+    },
+    {
+      "repository": "jwfeniello/scott-pilgrim-switch-decomp",
+      "project_id": "scott-pilgrim-complete-edition-switch-decomp",
+      "decision": "selected",
+      "default_branch": "main",
+      "pushed_at": "2026-10-14T08:28:54Z",
+      "snapshot_files": [
+        {
+          "path": "evidence/candidates/jwfeniello__scott-pilgrim-switch-decomp/README-source.json",
+          "bytes": 322,
+          "sha256": "44df00192ae930c658deafb365fb3c10197182d62c7448225dff971e9acc07a1"
+        },
+        {
+          "path": "evidence/candidates/jwfeniello__scott-pilgrim-switch-decomp/README.md",
+          "bytes": 8502,
+          "sha256": "cc4de438be4e7e194bcb8a0572e6b7d578dd41a80734ef2b7656d802d7b23c90"
+        },
+        {
+          "path": "evidence/candidates/jwfeniello__scott-pilgrim-switch-decomp/docs__COMPILERS.md",
+          "bytes": 2783,
+          "sha256": "ee09203632bd01772bf7d65b7e21c784e2210ef6aeca00233571e04959c5ed45"
+        },
+        {
+          "path": "evidence/candidates/jwfeniello__scott-pilgrim-switch-decomp/docs__METHODOLOGY.md",
+          "bytes": 2879,
+          "sha256": "2d832d77b054fb45a768567078d52e7c15efb727e78e8e5e13f2548604bacda3"
+        },
+        {
+          "path": "evidence/candidates/jwfeniello__scott-pilgrim-switch-decomp/languages.json",
+          "bytes": 57,
+          "sha256": "c046200a4bcf0cbb9bc83715f9cdff2bf78ab6e7b3f9f4bdd5c8b0da2666b336"
+        },
+        {
+          "path": "evidence/candidates/jwfeniello__scott-pilgrim-switch-decomp/releases.json",
+          "bytes": 3,
+          "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+        },
+        {
+          "path": "evidence/candidates/jwfeniello__scott-pilgrim-switch-decomp/repo.json",
+          "bytes": 6795,
+          "sha256": "208d715c386ef2e9df024538b9f32708e0f54cd0d93275f66c3cc09dab7654f2"
+        }
+      ]
+    },
+    {
+      "repository": "kaiyao7/SwitchRecomp",
+      "project_id": null,
+      "decision": "triaged or held; decision in exclusions-and-dedupe.md",
+      "default_branch": "main",
+      "pushed_at": "2026-10-08T23:20:11Z",
+      "snapshot_files": [
+        {
+          "path": "evidence/candidates/kaiyao7__SwitchRecomp/README-source.json",
+          "bytes": 310,
+          "sha256": "132c52f8efb71ec5133d8d11681319076dbd231b05b811e9f31ab9add85c439b"
+        },
+        {
+          "path": "evidence/candidates/kaiyao7__SwitchRecomp/README.md",
+          "bytes": 5074,
+          "sha256": "13b29580670a6e00b547a887593195fc3e0ff9ad04f8470d166433b1b565c27d"
+        },
+        {
+          "path": "evidence/candidates/kaiyao7__SwitchRecomp/languages.json",
+          "bytes": 69,
+          "sha256": "87456c396c7bd115c5e2dc73589d60f193b79f28159452e186aa58f7af9c250b"
+        },
+        {
+          "path": "evidence/candidates/kaiyao7__SwitchRecomp/releases.json",
+          "bytes": 3,
+          "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+        },
+        {
+          "path": "evidence/candidates/kaiyao7__SwitchRecomp/repo.json",
+          "bytes": 6126,
+          "sha256": "8bedeb6e952891d42e12cee940054b616217f7583da101a3e30600076d266b22"
+        }
+      ]
+    },
+    {
+      "repository": "kaliszmichal/lasrecomp",
+      "project_id": null,
+      "decision": "triaged or held; decision in exclusions-and-dedupe.md",
+      "default_branch": "main",
+      "pushed_at": "2026-10-15T03:07:44Z",
+      "snapshot_files": [
+        {
+          "path": "evidence/candidates/kaliszmichal__lasrecomp/README-source.json",
+          "bytes": 315,
+          "sha256": "997789745a7ee01786d346964768613f753c71e96f42892f9bbfd4a1866a98cc"
+        },
+        {
+          "path": "evidence/candidates/kaliszmichal__lasrecomp/README.md",
+          "bytes": 19879,
+          "sha256": "3fb260c4d28eb934b73986cd33d030dfda112676e4945c09d4e75a11851555c3"
+        },
+        {
+          "path": "evidence/candidates/kaliszmichal__lasrecomp/languages.json",
+          "bytes": 189,
+          "sha256": "9f6d1db87535c1357487a62490048797e9d71215709342e5cd52ea42f7101240"
+        },
+        {
+          "path": "evidence/candidates/kaliszmichal__lasrecomp/releases.json",
+          "bytes": 3,
+          "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+        },
+        {
+          "path": "evidence/candidates/kaliszmichal__lasrecomp/repo.json",
+          "bytes": 17570,
+          "sha256": "afc255c5db90ac966034efa28f91abc07024ffee45f74afcfd942a18dae90f8a"
+        }
+      ]
+    },
+    {
+      "repository": "sbergeron42/ssbu-decomp",
+      "project_id": null,
+      "decision": "triaged or held; decision in exclusions-and-dedupe.md",
+      "default_branch": "master",
+      "pushed_at": "2026-04-13T02:49:17Z",
+      "snapshot_files": [
+        {
+          "path": "evidence/candidates/sbergeron42__ssbu-decomp/README-source.json",
+          "bytes": 321,
+          "sha256": "a429af5e3e51d1db6cf2e4844a70c79f4239b4207f38db7f4c882af3026405de"
+        },
+        {
+          "path": "evidence/candidates/sbergeron42__ssbu-decomp/README.md",
+          "bytes": 12740,
+          "sha256": "9f49322a888f1f41eeac7033089100b912ea51ac1a83458dd7b6d3f09a350506"
+        },
+        {
+          "path": "evidence/candidates/sbergeron42__ssbu-decomp/languages.json",
+          "bytes": 146,
+          "sha256": "599412f43c59be1b4ba1544d808e452d7cd8e7102f97eab8b69a7f60517366db"
+        },
+        {
+          "path": "evidence/candidates/sbergeron42__ssbu-decomp/releases.json",
+          "bytes": 3,
+          "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+        },
+        {
+          "path": "evidence/candidates/sbergeron42__ssbu-decomp/repo.json",
+          "bytes": 5918,
+          "sha256": "46f50b7e5c7cc63eccd53a70f9118d9b7c727a92b9adb44d38cae8b67963701b"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "project_count": 3462,
+  "metadata_updated": "2026-10-16",
+  "foreign_key_check": [],
+  "patched_projects": [
+    {
+      "id": "pt-ps4-pc-reimplementation",
+      "fields_verified": [
+        "source_available",
+        "updated"
+      ],
+      "source_count_after": 11,
+      "status": "Latest published release v1.0.5 (2026-10-16 01:00 UTC) is a hotfix for a v1.0.4 startup crash affecting Linux/macOS, plus other fixes. The maintainer’s Oct 15 status still reports the entire teaser from first-boot options/preface through the ending, including the voice step; small lighting/material differences and timing details remain. The release updates the latest-version field and does not itself add a new completion milestone.",
+      "updated": "2026-10-16",
+      "source_available": "Public source repository; the project’s own port code is MIT-licensed. The 2026-10-16 v1.0.5 release publishes Windows and Linux setup programs, portable Windows/Linux archives, and macOS arm64/x64 archives and disk images. No game data is in the repository or installer; users supply their own PS4 dump or fake PKG."
+    },
+    {
+      "id": "kytyps5",
+      "fields_verified": [
+        "source_available",
+        "updated"
+      ],
+      "source_count_after": 8,
+      "status": "Active development; the latest release tag KytyPS5-2026-10-16-3ff6606 was published 2026-10-16 UTC (2026-10-15 EDT). The README reports title-dependent boot/rendering results and identifies Windows/Linux as primary; macOS is experimental under Rosetta 2 on Apple silicon, with only a small set of in-game tests. This does not establish broad gameplay compatibility.",
+      "updated": "2026-10-16",
+      "source_available": "Public C++ source under GPL-2.0. The 2026-10-16 releases include Windows x64, Linux x86-64, and macOS x86-64 archives; macOS runs under Rosetta 2. The project does not distribute games or copyrighted system software and says to use only legally obtained game files."
+    },
+    {
+      "id": "winemetalgl-opengl-metal",
+      "fields_verified": [
+        "status",
+        "updated"
+      ],
+      "source_count_after": 8,
+      "status": "WineMetalGL 3.2.0 remains the latest published release (2026-10-14). On 2026-10-16, merged PR #34 fixed GLSL line-continuation handling for shader compiler inputs. The maintainer reports that the 28 affected Godot shader variants compiled after the fix and that 61/61 host and 259/259 GPU tests passed. This is a targeted shader-compiler fix; the README’s documented game corpus and unsupported-feature list remain the compatibility references.",
+      "updated": "2026-10-16",
+      "source_available": "Public source under GNU LGPL 3.0; Wine and other build/runtime dependencies are separate."
+    },
+    {
+      "id": "horizon-minecraft-java-reimplementation",
+      "fields_verified": [
+        "status",
+        "updated"
+      ],
+      "source_count_after": 9,
+      "status": "The owner reports a playable native client on Windows, Linux and Apple Silicon macOS. The README reports all 281 differential parity harnesses passing on Linux and macOS, last audited 2026-10-13; this is parity for the compared harnesses. GitHub lists v2026.10.16.03 (published 2026-10-16 05:11 UTC, commit f188dfe) as the latest release; its notes cover chat camera input and trial chamber, vault, and trial spawner fixes. The README still labels v2026.10.13.1 as the latest release, so its release-summary section is stale. The new release notes also mention a sprint-jumping report the maintainers could not reproduce.",
+      "updated": "2026-10-16",
+      "source_available": "Public source repository (MIT license)"
+    }
+  ],
+  "language_records": [
+    {
+      "id": "kytyps5",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 10735385,
+        "CMake": 51418,
+        "C": 8819,
+        "Nix": 2471,
+        "GLSL": 2360
+      },
+      "verified_at": "2026-10-16"
+    },
+    {
+      "id": "winemetalgl-opengl-metal",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 1743040,
+        "Objective-C++": 1423803,
+        "C": 636978,
+        "Python": 152748,
+        "Objective-C": 106762,
+        "Shell": 39831,
+        "CMake": 9205
+      },
+      "verified_at": "2026-10-16"
+    },
+    {
+      "id": "horizon-minecraft-java-reimplementation",
+      "predominant_language": "Rust",
+      "language_breakdown_bytes": {
+        "Rust": 19085901,
+        "Python": 3799666,
+        "Java": 3074284,
+        "HTML": 67149,
+        "JavaScript": 43222,
+        "WGSL": 32426,
+        "CSS": 28348,
+        "Shell": 13509,
+        "Dockerfile": 2003,
+        "Nix": 554
+      },
+      "verified_at": "2026-10-16"
+    }
+  ],
+  "scratch_db_sha256": "f81a0a1a9effb990d99b6d376ae6f74c010398f8d67dd61acb2df13ad274f3cf",
+  "commands": [
+    {
+      "command": "python3 /Users/earlcameron/Desktop/recompiled/work/research-2026-10-16/continuation-round13/status-refresh/scratch-validation/scripts/catalog.py import-project-updates /Users/earlcameron/Desktop/recompiled/work/research-2026-10-16/continuation-round13/status-refresh/project-updates.json",
+      "returncode": 0,
+      "stdout": "Applied 4 source-backed project updates in /Users/earlcameron/Desktop/recompiled/work/research-2026-10-16/continuation-round13/status-refresh/scratch-validation/data/catalog.sqlite\n",
+      "stderr": ""
+    },
+    {
+      "command": "python3 /Users/earlcameron/Desktop/recompiled/work/research-2026-10-16/continuation-round13/status-refresh/scratch-validation/scripts/catalog.py import-programming-languages /Users/earlcameron/Desktop/recompiled/work/research-2026-10-16/continuation-round13/status-refresh/programming-languages.json",
+      "returncode": 0,
+      "stdout": "Imported predominant-language evidence for 3 projects in /Users/earlcameron/Desktop/recompiled/work/research-2026-10-16/continuation-round13/status-refresh/scratch-validation/data/catalog.sqlite\n",
+      "stderr": ""
+    }
+  ],
+  "result": "PASS",
+  "integrity_check": "ok"
+}

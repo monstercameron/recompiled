@@ -1,0 +1,403 @@
+{
+  "checked_at": "2026-10-16",
+  "catalog_path": "/Users/earlcameron/Desktop/recompiled/data/catalog.sqlite",
+  "catalog_project_rows_checked": 3462,
+  "additions": [
+    {
+      "id": "illbleed-dreamcast-japan-decomp",
+      "repo": "https://github.com/consolesplayingconsoles/illbleed-decomp",
+      "game": "Illbleed (Dreamcast, Japan T45601M V1.003)",
+      "decision": "add",
+      "reason": "No matching project ID or canonical repository URL was found in the 3,462-row catalog snapshot; game target reviewed against platform/build identifier. Existing same-game records, where noted in game evidence, use a different method or platform.",
+      "catalog_project_id_match": null,
+      "catalog_repository_match": null,
+      "existing_same_game_rows": [],
+      "catalog_title_search_term": "Illbleed",
+      "catalog_title_search_rows": []
+    },
+    {
+      "id": "ratchet-clank-size-matters-ps2-usa-decomp",
+      "repo": "https://github.com/OpenRAC/rac5-sm-decomp",
+      "game": "Ratchet & Clank: Size Matters (PlayStation 2, USA SCUS_976.15)",
+      "decision": "add",
+      "reason": "No matching project ID or canonical repository URL was found in the 3,462-row catalog snapshot; game target reviewed against platform/build identifier. Existing same-game records, where noted in game evidence, use a different method or platform.",
+      "catalog_project_id_match": null,
+      "catalog_repository_match": null,
+      "existing_same_game_rows": [],
+      "catalog_title_search_term": "Size Matters",
+      "catalog_title_search_rows": []
+    },
+    {
+      "id": "winning-eleven-3-final-ver-ps1-jpn-decomp",
+      "repo": "https://github.com/coffeeconleche/winning-eleven-3-final-ver-decomp",
+      "game": "World Soccer Jikkyou Winning Eleven 3 Final Ver. (PlayStation, Japan SLPM_861.62)",
+      "decision": "add",
+      "reason": "No matching project ID or canonical repository URL was found in the 3,462-row catalog snapshot; game target reviewed against platform/build identifier. Existing same-game records, where noted in game evidence, use a different method or platform.",
+      "catalog_project_id_match": null,
+      "catalog_repository_match": null,
+      "existing_same_game_rows": [],
+      "catalog_title_search_term": "Winning Eleven 3",
+      "catalog_title_search_rows": []
+    },
+    {
+      "id": "zoids-saga-fuzors-gba-japan-decomp",
+      "repo": "https://github.com/jmacato/ZoidsSagaFuzorsDecomp",
+      "game": "Zoids Saga Fuzors (Game Boy Advance, Japan)",
+      "decision": "add",
+      "reason": "No matching project ID or canonical repository URL was found in the 3,462-row catalog snapshot; game target reviewed against platform/build identifier. Existing same-game records, where noted in game evidence, use a different method or platform.",
+      "catalog_project_id_match": null,
+      "catalog_repository_match": null,
+      "existing_same_game_rows": [],
+      "catalog_title_search_term": "Zoids Saga",
+      "catalog_title_search_rows": []
+    },
+    {
+      "id": "zoids-saga-gba-japan-decomp",
+      "repo": "https://github.com/jmacato/ZoidsSagaOneDecomp",
+      "game": "Zoids Saga (Game Boy Advance, Japan)",
+      "decision": "add",
+      "reason": "No matching project ID or canonical repository URL was found in the 3,462-row catalog snapshot; game target reviewed against platform/build identifier. Existing same-game records, where noted in game evidence, use a different method or platform.",
+      "catalog_project_id_match": null,
+      "catalog_repository_match": null,
+      "existing_same_game_rows": [],
+      "catalog_title_search_term": "Zoids Saga",
+      "catalog_title_search_rows": []
+    },
+    {
+      "id": "fuel-pc-us-retail-decomp",
+      "repo": "https://github.com/widberg/FUELDecompilation",
+      "game": "FUEL (Windows PC, US retail)",
+      "decision": "add",
+      "reason": "No matching project ID or canonical repository URL was found in the 3,462-row catalog snapshot; game target reviewed against platform/build identifier. Existing same-game records, where noted in game evidence, use a different method or platform.",
+      "catalog_project_id_match": null,
+      "catalog_repository_match": null,
+      "existing_same_game_rows": [],
+      "catalog_title_search_term": "FUEL",
+      "catalog_title_search_rows": [
+        {
+          "id": "ctr-nitrofueled-windows-api-translation",
+          "game": "Crash Team Racing: Nitro-Fueled (PS4 CUSA13795, update 1.21)",
+          "platform": "PlayStation 4 → Windows 10/11",
+          "kind": "API Translation",
+          "project_url": "https://github.com/GetLostIn/CTR-NitroFueled-PC"
+        }
+      ]
+    },
+    {
+      "id": "touhou-10-mountain-of-faith-pc-matching-decomp",
+      "repo": "https://github.com/levzzz5154/th10-decomp",
+      "game": "Touhou 10: Mountain of Faith",
+      "decision": "add",
+      "reason": "No matching project ID or canonical repository URL was found in the 3,462-row catalog snapshot; game target reviewed against platform/build identifier. Existing same-game records, where noted in game evidence, use a different method or platform.",
+      "catalog_project_id_match": null,
+      "catalog_repository_match": null,
+      "existing_same_game_rows": [
+        {
+          "id": "touhou-10-switch-native-port",
+          "game": "Touhou 10: Mountain of Faith",
+          "platform": "Windows PC → Nintendo Switch homebrew (Horizon OS)",
+          "project_url": "https://github.com/saekaze/th10-switch"
+        }
+      ],
+      "catalog_title_search_term": "Mountain of Faith",
+      "catalog_title_search_rows": [
+        {
+          "id": "touhou-10-switch-native-port",
+          "game": "Touhou 10: Mountain of Faith",
+          "platform": "Windows PC → Nintendo Switch homebrew (Horizon OS)",
+          "kind": "Reimplementation",
+          "project_url": "https://github.com/saekaze/th10-switch"
+        }
+      ]
+    },
+    {
+      "id": "top-gear-snes-usa-static-recomp",
+      "repo": "https://github.com/Junior-Jones/Top-Gear-SNES-Static-Recomp",
+      "game": "Top Gear (SNES, USA)",
+      "decision": "add",
+      "reason": "No matching project ID or canonical repository URL was found in the 3,462-row catalog snapshot; game target reviewed against platform/build identifier. Existing same-game records, where noted in game evidence, use a different method or platform.",
+      "catalog_project_id_match": null,
+      "catalog_repository_match": null,
+      "existing_same_game_rows": [],
+      "catalog_title_search_term": "Top Gear",
+      "catalog_title_search_rows": [
+        {
+          "id": "top-gear-rally-n64-matching-decomp",
+          "game": "Top Gear Rally",
+          "platform": "Nintendo 64",
+          "kind": "Decompilation",
+          "project_url": "https://github.com/jeff-strutb/brally"
+        }
+      ]
+    },
+    {
+      "id": "dr-mario-nes-static-recomp",
+      "repo": "https://github.com/mstan/DrMarioNesRecomp",
+      "game": "Dr. Mario (NES, USA)",
+      "decision": "add",
+      "reason": "No matching project ID or canonical repository URL was found in the 3,462-row catalog snapshot; game target reviewed against platform/build identifier. Existing same-game records, where noted in game evidence, use a different method or platform.",
+      "catalog_project_id_match": null,
+      "catalog_repository_match": null,
+      "existing_same_game_rows": [],
+      "catalog_title_search_term": "Dr. Mario",
+      "catalog_title_search_rows": [
+        {
+          "id": "dr-mario-64-recomp-plus",
+          "game": "Dr. Mario 64",
+          "platform": "Nintendo 64 → Windows / Linux",
+          "kind": "Recompilation",
+          "project_url": "https://github.com/theboy181/drmario64_recomp_plus"
+        },
+        {
+          "id": "dr-mario-64-nintendo-puzzle-collection-gamecube-decomp",
+          "game": "Dr. Mario 64 (Nintendo Puzzle Collection GameCube version)",
+          "platform": "Nintendo GameCube — Japan Rev. 0, GPZJ01",
+          "kind": "Decompilation",
+          "project_url": "https://github.com/NewGBAXL/drmario64-gc"
+        }
+      ]
+    },
+    {
+      "id": "trials-hd-xbox360-static-recomp",
+      "repo": "https://github.com/snufflyyy/trials-hd-recompiled",
+      "game": "Trials HD (Xbox 360 XBLA)",
+      "decision": "add",
+      "reason": "No matching project ID or canonical repository URL was found in the 3,462-row catalog snapshot; game target reviewed against platform/build identifier. Existing same-game records, where noted in game evidence, use a different method or platform.",
+      "catalog_project_id_match": null,
+      "catalog_repository_match": null,
+      "existing_same_game_rows": [],
+      "catalog_title_search_term": "Trials HD",
+      "catalog_title_search_rows": []
+    },
+    {
+      "id": "skies-of-arcadia-legends-gc-pal-static-recomp",
+      "repo": "https://github.com/LoudSilence-sys/Skies-of-Arcadia-PC-Recomp",
+      "game": "Skies of Arcadia Legends (GameCube, PAL GEAP8P)",
+      "decision": "add",
+      "reason": "No matching project ID or canonical repository URL was found in the 3,462-row catalog snapshot; game target reviewed against platform/build identifier. Existing same-game records, where noted in game evidence, use a different method or platform.",
+      "catalog_project_id_match": null,
+      "catalog_repository_match": null,
+      "existing_same_game_rows": [],
+      "catalog_title_search_term": "Skies of Arcadia",
+      "catalog_title_search_rows": []
+    },
+    {
+      "id": "snail-mail-windows-pc-matching-decomp",
+      "repo": "https://github.com/banteg/snail",
+      "game": "Snail Mail",
+      "decision": "add",
+      "reason": "No matching project ID or canonical repository URL was found in the 3,462-row catalog snapshot; game target reviewed against platform/build identifier. Existing same-game records, where noted in game evidence, use a different method or platform.",
+      "catalog_project_id_match": null,
+      "catalog_repository_match": null,
+      "existing_same_game_rows": [
+        {
+          "id": "snail-mail-ps-vita-api-port",
+          "game": "Snail Mail",
+          "platform": "Android ARM → PlayStation Vita/PlayStation TV (Android build (package com.sandlotgames.snailmail; exact version not stated))",
+          "project_url": "https://github.com/MetalSyntax/Snail-Mail-vita"
+        }
+      ],
+      "catalog_title_search_term": "Snail Mail",
+      "catalog_title_search_rows": [
+        {
+          "id": "snail-mail-ps-vita-api-port",
+          "game": "Snail Mail",
+          "platform": "Android ARM → PlayStation Vita/PlayStation TV (Android build (package com.sandlotgames.snailmail; exact version not stated))",
+          "kind": "API Translation",
+          "project_url": "https://github.com/MetalSyntax/Snail-Mail-vita"
+        }
+      ]
+    }
+  ],
+  "existing_target_method_distinctions": [
+    {
+      "candidate": "banteg/snail",
+      "catalog_target": "snail-mail-ps-vita-api-port",
+      "decision": "add distinct project",
+      "reason": "Candidate decompiles original Windows PC gameplay executable and builds browser/macOS ports; catalog row translates Android APIs for Vita."
+    },
+    {
+      "candidate": "levzzz5154/th10-decomp",
+      "catalog_target": "touhou-10-switch-native-port",
+      "decision": "add distinct project",
+      "reason": "New Windows PC matching decompilation versus existing Switch native port."
+    },
+    {
+      "candidate": "Junior-Jones/Top-Gear-SNES-Static-Recomp",
+      "catalog_target": "Top Gear Rally N64 matching decompilation",
+      "decision": "add distinct target",
+      "reason": "Original Top Gear SNES USA target differs from the Top Gear Rally N64 game."
+    },
+    {
+      "candidate": "mstan/DrMarioNesRecomp",
+      "catalog_target": "Dr. Mario 64 N64/GC projects",
+      "decision": "add distinct target",
+      "reason": "NES Dr. Mario is distinct from Dr. Mario 64 and the GC collection version."
+    },
+    {
+      "candidate": "jmacato/ZoidsSagaFuzorsDecomp",
+      "catalog_target": "Zoids: Legacy",
+      "decision": "add distinct target",
+      "reason": "Zoids Saga III: Fuzors is distinct from Zoids Saga II / Zoids: Legacy."
+    },
+    {
+      "candidate": "jmacato/ZoidsSagaOneDecomp",
+      "catalog_target": "Zoids: Legacy",
+      "decision": "add distinct target",
+      "reason": "First Zoids Saga (Japan GBA) is distinct from Zoids Saga II / Zoids: Legacy."
+    }
+  ],
+  "overlap_scope_note": "Two addition game keys reuse existing profile keys: Touhou 10: Mountain of Faith and Snail Mail. Their existing five-fact profiles and direct Wikipedia links are not replaced.",
+  "duplicate_repository_leads_checked": 18,
+  "duplicate_repository_leads": [
+    {
+      "repo": "https://github.com/Denkishi/ssbu-recomp",
+      "existing_project_id": "ssbu-switch-recomp",
+      "existing_game": "Super Smash Bros. Ultimate",
+      "existing_platform": "Nintendo Switch → Windows x64",
+      "existing_project_url": "https://github.com/Denkishi/ssbu-recomp",
+      "decision": "exclude_existing_repo"
+    },
+    {
+      "repo": "https://github.com/saulob/geometry-wars-retro-evolved-2-recompiled",
+      "existing_project_id": "geometry-wars-retro-evolved-2-xbox360-recomp",
+      "existing_game": "Geometry Wars: Retro Evolved 2",
+      "existing_platform": "Xbox 360 → Windows; experimental Linux/Steam Deck",
+      "existing_project_url": "https://github.com/saulob/geometry-wars-retro-evolved-2-recompiled",
+      "decision": "exclude_existing_repo"
+    },
+    {
+      "repo": "https://github.com/ZeldaWWHDDecomp/wwhd",
+      "existing_project_id": "wind-waker-hd-decomp",
+      "existing_game": "The Legend of Zelda: The Wind Waker HD",
+      "existing_platform": "Wii U",
+      "existing_project_url": "https://github.com/ZeldaWWHDDecomp/wwhd",
+      "decision": "exclude_existing_repo"
+    },
+    {
+      "repo": "https://github.com/florinp93/hells-gate-recomp",
+      "existing_project_id": "dantes-inferno-xbox360-hells-gate",
+      "existing_game": "Dante’s Inferno",
+      "existing_platform": "Xbox 360 → Windows x64; Linux through documented native build/Proton paths",
+      "existing_project_url": "https://github.com/florinp93/hells-gate-recomp",
+      "decision": "exclude_existing_repo"
+    },
+    {
+      "repo": "https://github.com/Armandpro12/chibi-robo-pc",
+      "existing_project_id": "chibi-robo-gamecube-windows-static-recomp",
+      "existing_game": "Chibi-Robo! (GameCube PAL GGTP01 / USA GGTE01)",
+      "existing_platform": "GameCube PAL/USA → Windows x86-64",
+      "existing_project_url": "https://github.com/Armandpro12/chibi-robo-pc",
+      "decision": "exclude_existing_repo"
+    },
+    {
+      "repo": "https://github.com/Miggas/JSRF-Recomp",
+      "existing_project_id": "jet-set-radio-future-xbox-recomp",
+      "existing_game": "Jet Set Radio Future",
+      "existing_platform": "Original Xbox → Windows 10/11; Steam Deck via Proton 11",
+      "existing_project_url": "https://github.com/Miggas/JSRF-Recomp",
+      "decision": "exclude_existing_repo"
+    },
+    {
+      "repo": "https://github.com/jackgllghr/bigmission-recomp",
+      "existing_project_id": "saru-saru-daisakusen-psp-recomp",
+      "existing_game": "Saru! Get You! SaruSaru Daisakusen (PSP Japan, UCJS10060 v1.00)",
+      "existing_platform": "PSP Japan → macOS arm64 (boot-tested), Linux arm64 (launcher/start tested); Windows/Linux x86-64 builds are not gameplay-tested",
+      "existing_project_url": "https://github.com/jackgllghr/bigmission-recomp",
+      "decision": "exclude_existing_repo"
+    },
+    {
+      "repo": "https://github.com/Gui-Tora/dmc-recomp",
+      "existing_project_id": "devil-may-cry-ps2-pal-windows-static-recomp",
+      "existing_game": "Devil May Cry (2001, PlayStation 2 PAL Europe, `SLES_503.58` v1.02)",
+      "existing_platform": "PlayStation 2 PAL Europe → Windows x86-64",
+      "existing_project_url": "https://github.com/gui-tora/dmc-recomp",
+      "decision": "exclude_existing_repo"
+    },
+    {
+      "repo": "https://github.com/vibecodekun/shantaerecomp",
+      "existing_project_id": "shantae-gbc-static-recompilation",
+      "existing_game": "Shantae",
+      "existing_platform": "Game Boy Color → Windows (x86/x64/ARM64) and Linux (x86_64/aarch64)",
+      "existing_project_url": "https://github.com/vibecodekun/shantaerecomp",
+      "decision": "exclude_existing_repo"
+    },
+    {
+      "repo": "https://github.com/saftle/Super-Dodgeball-Recomp",
+      "existing_project_id": "super-dodge-ball-nes-static-recomp",
+      "existing_game": "Super Dodge Ball",
+      "existing_platform": "Nintendo Entertainment System (USA ROM; CRC32 689971F9, SHA-1 42f954e9bd3256c011aba14c7e5b400abe35fde3) → native PC; the README does not state a supported host-OS matrix.",
+      "existing_project_url": "https://github.com/saftle/Super-Dodgeball-Recomp",
+      "decision": "exclude_existing_repo"
+    },
+    {
+      "repo": "https://github.com/alondero/automobililamborghini-recomp",
+      "existing_project_id": "automobili-lamborghini-n64-windows-linux-recomp",
+      "existing_game": "Automobili Lamborghini (Nintendo 64, North American USA release)",
+      "existing_platform": "Nintendo 64 USA ROM → Windows/Linux x86-64; experimental Android ARM64 APK",
+      "existing_project_url": "https://github.com/alondero/automobililamborghini-recomp",
+      "decision": "exclude_existing_repo"
+    },
+    {
+      "repo": "https://github.com/hardkiller2565123123/CafeRecomp",
+      "existing_project_id": "cafe-recomp-wiiu-framework",
+      "existing_game": "CafeRecomp",
+      "existing_platform": "Nintendo Wii U PowerPC → native PC runtime (research stage)",
+      "existing_project_url": "https://github.com/hardkiller2565123123/CafeRecomp",
+      "decision": "exclude_existing_repo"
+    },
+    {
+      "repo": "https://github.com/InfiniteC0re/OpenBarnyard",
+      "existing_project_id": "barnyard-openbarnyard-windows-decomp",
+      "existing_game": "Barnyard (Windows PC) and TOSHI 2.0 engine",
+      "existing_platform": "Windows PC (DirectX 8 build project)",
+      "existing_project_url": "https://github.com/InfiniteC0re/OpenBarnyard",
+      "decision": "exclude_existing_repo"
+    },
+    {
+      "repo": "https://github.com/NeverCookFirst/DimensionsRecomp",
+      "existing_project_id": "lego-dimensions-xbox360-recomp",
+      "existing_game": "LEGO Dimensions",
+      "existing_platform": "Xbox 360 → Windows",
+      "existing_project_url": "https://github.com/NeverCookFirst/DimensionsRecomp",
+      "decision": "exclude_existing_repo"
+    },
+    {
+      "repo": "https://github.com/kirklandsig/halo2-decompiled",
+      "existing_project_id": "halo-2-original-xbox-matching-decomp",
+      "existing_game": "Halo 2",
+      "existing_platform": "Original Xbox → Original Xbox executable rebuild",
+      "existing_project_url": "https://github.com/kirklandsig/halo2-decompiled",
+      "decision": "exclude_existing_repo"
+    },
+    {
+      "repo": "https://github.com/TGP482/SCDA-XBERecomp",
+      "existing_project_id": "splinter-cell-double-agent-xbox-recomp",
+      "existing_game": "Tom Clancy’s Splinter Cell: Double Agent (Original Xbox version)",
+      "existing_platform": "Original Xbox → Windows x64",
+      "existing_project_url": "https://github.com/TGP482/SCDA-XBERecomp",
+      "decision": "exclude_existing_repo"
+    },
+    {
+      "repo": "https://github.com/jcsix694/def-jam-vendetta-recomp",
+      "existing_project_id": "def-jam-vendetta-ps2-recomp",
+      "existing_game": "Def Jam Vendetta (PlayStation 2, USA SLUS-20639)",
+      "existing_platform": "PlayStation 2 → Windows 10/11 x86-64 (Vulkan 1.3)",
+      "existing_project_url": "https://github.com/jcsix694/def-jam-vendetta-recomp",
+      "decision": "exclude_existing_repo"
+    },
+    {
+      "repo": "https://github.com/kaiyao7/SwitchRecomp",
+      "existing_project_id": "switchrecomp-early-research-framework",
+      "existing_game": "SwitchRecomp",
+      "existing_platform": "Nintendo Switch AArch64 binaries → native PC code (research skeleton)",
+      "existing_project_url": "https://github.com/kaiyao7/SwitchRecomp",
+      "decision": "exclude_existing_repo"
+    }
+  ],
+  "candidate_scope_counts": {
+    "project_additions": 12,
+    "duplicate_repository_leads_excluded": 18,
+    "other_hold_or_scope_exclusions": 7
+  }
+}

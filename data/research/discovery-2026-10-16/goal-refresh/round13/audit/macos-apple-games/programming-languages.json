@@ -1,0 +1,52 @@
+{
+  "updated": "2026-10-16",
+  "records": [
+    {
+      "project_id": "fallout-new-vegas-macos-arm64-static-recomp",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 247085,
+        "Objective-C": 80409,
+        "Python": 78740,
+        "Java": 34350,
+        "Shell": 2977
+      },
+      "evidence_url": "https://api.github.com/repos/thetheoryofR/Fallout-NV-MacOS/languages",
+      "evidence": "Exact repository-wide GitHub Languages API byte totals fetched on 2026-10-16. C is largest (247,085 of 443,561 recognized bytes, 55.7%); the totals cover all repository files and do not isolate game-specific code or the macOS build.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "casualties-unknown-apple-silicon-native-port",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Python": 106530,
+        "Shell": 91829,
+        "Objective-C": 75859,
+        "C#": 15793,
+        "C++": 1637,
+        "C": 1459
+      },
+      "evidence_url": "https://api.github.com/repos/Andreansx/casualties-unknown-apple-silicon/languages",
+      "evidence": "Exact repository-wide GitHub Languages API byte totals fetched on 2026-10-16. Python is largest (106,530 of 293,107 recognized bytes, 36.3%); the totals cover all repository files and do not isolate game-specific code or the macOS build.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "twilight-princess-hd-wiiu-macos-arm64-static-recomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 1910078,
+        "Objective-C++": 391484,
+        "Python": 365154,
+        "CMake": 40575,
+        "C": 22058,
+        "Shell": 18669,
+        "Objective-C": 6255,
+        "Swift": 3820,
+        "Batchfile": 389
+      },
+      "evidence_url": "https://api.github.com/repos/AsadSi/twilight-princess-hd-recomp/languages",
+      "evidence": "Exact repository-wide GitHub Languages API byte totals fetched on 2026-10-16. C++ is largest (1,910,078 of 2,758,482 recognized bytes, 69.2%); the totals cover all repository files and do not isolate game-specific code or the macOS build.",
+      "verified_at": "2026-10-16"
+    }
+  ]
+}

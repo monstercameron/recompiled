@@ -1,0 +1,36 @@
+{
+  "validated_at": "2026-10-16",
+  "packet_directory": "/Users/earlcameron/Desktop/recompiled/work/research-2026-10-16/continuation-round13/macos-apple-games",
+  "canonical_database": "/Users/earlcameron/Desktop/recompiled/data/catalog.sqlite",
+  "catalog_revision": "c3cdb32",
+  "canonical_project_count": 3462,
+  "counts": {
+    "new_project_rows": 3,
+    "exact_language_records": 3,
+    "new_game_profiles": 2,
+    "game_fact_rows": 10,
+    "wikipedia_links": 2,
+    "excluded_or_held_candidates": 12,
+    "dedupe_audit_rows": 3
+  },
+  "checks": {
+    "json_files_parse": true,
+    "staged_ids_and_urls_unique": true,
+    "no_project_id_or_url_duplicates_in_catalog": true,
+    "target_type_game_for_all_rows": true,
+    "language_records_match_projects_and_predominant_is_byte_max": true,
+    "new_profiles_are_absent_from_catalog_and_have_five_facts_each": true,
+    "wikipedia_links_match_new_profiles": true,
+    "all_recorded_urls_https": true,
+    "accepted_evidence_snapshots_present": true,
+    "staging_directory_git_ignored": true,
+    "live_database_modified": false,
+    "import_performed": false
+  },
+  "evidence_file_counts": {
+    "fallout-new-vegas": 7,
+    "casualties-unknown": 11,
+    "twilight-princess-hd": 8
+  },
+  "repository_status_before_parent_import": []
+}

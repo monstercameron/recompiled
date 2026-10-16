@@ -1,0 +1,157 @@
+{
+  "checked_at": "2026-10-16",
+  "catalog_path": "/Users/earlcameron/Desktop/recompiled/data/catalog.sqlite",
+  "opened_read_only": true,
+  "method": "Checked proposed IDs, canonical GitHub owner/repository URLs, every stored source and project-link URL, and title/game text for the target aliases shown per row. Related matches remain visible.",
+  "projects": [
+    {
+      "project_id": "givenergy-gen3-lv-inverter-firmware-decompilation",
+      "repository": "https://github.com/abedegno/forgiv",
+      "project_id_already_exists": false,
+      "repository_or_source_link_matches": [],
+      "target_aliases_checked": [
+        "GivEnergy Hybrid Gen3 LV inverter",
+        "GivEnergy A316 firmware",
+        "GivEnergy D316 firmware"
+      ],
+      "target_title_or_game_matches": []
+    },
+    {
+      "project_id": "pokewalker-firmware-matching-decompilation",
+      "repository": "https://github.com/lumirth/pw",
+      "project_id_already_exists": false,
+      "repository_or_source_link_matches": [],
+      "target_aliases_checked": [
+        "Pokéwalker firmware",
+        "Nintendo Pokéwalker"
+      ],
+      "target_title_or_game_matches": [
+        {
+          "query": "Nintendo Pokéwalker",
+          "project_id": "emulator-lumirth-hachistep",
+          "title": "hachistep Pokéwalker Emulator Core",
+          "game": "Nintendo Pokéwalker",
+          "project_url": "https://github.com/lumirth/hachistep"
+        }
+      ]
+    },
+    {
+      "project_id": "starstruck-nintendo-wii-ios-reimplementation",
+      "repository": "https://github.com/DacoTaco/StarStruck",
+      "project_id_already_exists": false,
+      "repository_or_source_link_matches": [],
+      "target_aliases_checked": [
+        "Nintendo Wii IOS",
+        "Starlet system software"
+      ],
+      "target_title_or_game_matches": []
+    },
+    {
+      "project_id": "mufus-rufus-workflows-macos-reimplementation",
+      "repository": "https://github.com/ITCleric/Mufus",
+      "project_id_already_exists": false,
+      "repository_or_source_link_matches": [],
+      "target_aliases_checked": [
+        "Rufus 4.15",
+        "Rufus USB utility"
+      ],
+      "target_title_or_game_matches": []
+    },
+    {
+      "project_id": "oxpinyin-libpinyin-reimplementation",
+      "repository": "https://github.com/shenghaoc/oxpinyin",
+      "project_id_already_exists": false,
+      "repository_or_source_link_matches": [],
+      "target_aliases_checked": [
+        "libpinyin",
+        "libpinyin.so.15"
+      ],
+      "target_title_or_game_matches": []
+    },
+    {
+      "project_id": "grit-git-engine-reimplementation",
+      "repository": "https://github.com/gitbutlerapp/grit",
+      "project_id_already_exists": false,
+      "repository_or_source_link_matches": [],
+      "target_aliases_checked": [
+        "Git version-control engine",
+        "Git repository semantics"
+      ],
+      "target_title_or_game_matches": []
+    },
+    {
+      "project_id": "openfirma-autofirma-reimplementation",
+      "repository": "https://github.com/millaguie/openfirma",
+      "project_id_already_exists": false,
+      "repository_or_source_link_matches": [],
+      "target_aliases_checked": [
+        "AutoFirma",
+        "Spanish electronic-signature client"
+      ],
+      "target_title_or_game_matches": []
+    },
+    {
+      "project_id": "spacebar-discord-backend-reimplementation",
+      "repository": "https://github.com/spacebarchat/server",
+      "project_id_already_exists": false,
+      "repository_or_source_link_matches": [],
+      "target_aliases_checked": [
+        "Discord.com backend",
+        "Discord backend"
+      ],
+      "target_title_or_game_matches": []
+    },
+    {
+      "project_id": "konica-bizhub206-cups-filter-reimplementation",
+      "repository": "https://github.com/vinod2807/konica-native-musl",
+      "project_id_already_exists": false,
+      "repository_or_source_link_matches": [],
+      "target_aliases_checked": [
+        "Konica Minolta bizhub 206",
+        "245igdirf"
+      ],
+      "target_title_or_game_matches": []
+    },
+    {
+      "project_id": "exiftool-rs-exiftool-reimplementation",
+      "repository": "https://github.com/Le-Syl21/exiftool-rs",
+      "project_id_already_exists": false,
+      "repository_or_source_link_matches": [],
+      "target_aliases_checked": [
+        "ExifTool v13.59",
+        "ExifTool"
+      ],
+      "target_title_or_game_matches": []
+    },
+    {
+      "project_id": "reticulumkit-reticulum-protocol-stack-implementation",
+      "repository": "https://github.com/J-Krush/ReticulumKit",
+      "project_id_already_exists": false,
+      "repository_or_source_link_matches": [],
+      "target_aliases_checked": [
+        "Reticulum protocol",
+        "Reticulum networking stack"
+      ],
+      "target_title_or_game_matches": []
+    },
+    {
+      "project_id": "minima-maxima-wire-protocol-reimplementation",
+      "repository": "https://github.com/eurobuddha/maxima",
+      "project_id_already_exists": false,
+      "repository_or_source_link_matches": [],
+      "target_aliases_checked": [
+        "Minima Maxima communication layer",
+        "Maxima protocol"
+      ],
+      "target_title_or_game_matches": []
+    }
+  ],
+  "related_target_overlap": [
+    {
+      "existing_project_id": "emulator-lumirth-hachistep",
+      "existing_title": "hachistep Pokéwalker Emulator Core",
+      "existing_url": "https://github.com/lumirth/hachistep",
+      "relationship": "Same Pokéwalker device family; the existing row is a system emulator, while this proposal reconstructs and hash-checks the retail firmware source."
+    }
+  ]
+}

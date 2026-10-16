@@ -1,0 +1,54 @@
+{
+  "verified_at": "2026-10-16",
+  "scope": "Full replacement profile update for exact game_key Minecraft: Java Edition 26.3. Existing three database facts are carried forward unchanged because import_game_profiles deletes all existing game_facts for each supplied key before inserting the manifest facts.",
+  "profiles": [
+    {
+      "game_key": "Minecraft: Java Edition 26.3",
+      "facts": [
+        {
+          "field": "original_platform",
+          "value": "Minecraft Java Edition",
+          "source_url": "https://www.minecraft.net/en-us/article/minecraft-java-edition-26-3",
+          "evidence": "Mojang’s official release page identifies the 26.3 build as Minecraft Java Edition.",
+          "verified_on": "2026-10-15"
+        },
+        {
+          "field": "genre",
+          "value": "Sandbox / survival",
+          "source_url": "https://en.wikipedia.org/wiki/Minecraft",
+          "evidence": "The Minecraft article classifies Minecraft as a sandbox / survival game.",
+          "verified_on": "2026-10-15"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "2026-09-15",
+          "source_url": "https://www.minecraft.net/en-us/article/minecraft-java-edition-26-3",
+          "evidence": "Mojang’s official 26.3 release article is dated 15 September 2026 and states the release is out now.",
+          "date_granularity": "day",
+          "verified_on": "2026-10-15"
+        },
+        {
+          "field": "developer",
+          "value": "Mojang Studios",
+          "source_url": "https://news.xbox.com/wp-content/uploads/sites/2/2021/04/Minecraft-Franchise-Fact-Sheet_Oct.-2021.pdf",
+          "evidence": "Microsoft/Xbox’s franchise fact sheet has a dedicated Minecraft: Java Edition row and identifies Mojang Studios as its developer.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "platforms",
+          "value": "Windows, macOS, and Linux",
+          "source_url": "https://www.minecraft.net/en-us/store/minecraft-java-bedrock-edition-pc",
+          "evidence": "Mojang’s PC product page says Minecraft: Java Edition runs on Windows, macOS, and Linux.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "series",
+          "value": "Minecraft",
+          "source_url": "https://en.wikipedia.org/wiki/Minecraft",
+          "evidence": "The article identifies Minecraft as the game series and explicitly describes Java Edition as Mojang’s original Java Edition.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    }
+  ]
+}

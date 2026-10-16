@@ -1,0 +1,136 @@
+{
+  "checked_on": "2026-10-16",
+  "candidates": [
+    {
+      "project_id": "ultraman-fighting-evolution-3-ps2-linux-static-recomp",
+      "repository": "idiazraz/ufe3-recomp",
+      "project_url": "https://github.com/idiazraz/ufe3-recomp",
+      "readme_url": "https://github.com/idiazraz/ufe3-recomp#readme",
+      "target_claim": "Ultraman Fighting Evolution 3 (Japan, SLPS-25441)",
+      "platform_claim": "PlayStation 2 (Japan, SLPS-25441) → Linux x86-64",
+      "method_claim": "Static recompilation of PS2 MIPS code to C++",
+      "status_claim": "Early and not playable. The maintainer reports that it boots through the IOP modules and sound driver, passes the memory-card check, renders the health-warning screen, and skips the opening movie, then stops on a black screen before the title. 3D/VU1 rendering is not yet working.",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdx_id": "GPL-3.0",
+        "api_url": "https://api.github.com/licenses/gpl-3.0"
+      },
+      "license_assessment": "GitHub repository API reports the declared SPDX license.",
+      "repository_dates": {
+        "created_at": "2026-10-04T08:29:55Z",
+        "pushed_at": "2026-10-15T05:57:14Z",
+        "updated_at": "2026-10-15T05:57:18Z"
+      },
+      "archived": false,
+      "fork": false,
+      "metadata_url": "https://api.github.com/repos/idiazraz/ufe3-recomp",
+      "languages": {
+        "Python": 83619,
+        "C++": 45572,
+        "Shell": 7590
+      },
+      "languages_url": "https://api.github.com/repos/idiazraz/ufe3-recomp/languages",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "project_id": "resident-evil-dead-aim-ps2-pal-matching-decomp",
+      "repository": "cakehonolulu/Bullseye",
+      "project_url": "https://github.com/cakehonolulu/Bullseye",
+      "readme_url": "https://github.com/cakehonolulu/Bullseye#readme",
+      "target_claim": "Resident Evil: Dead Aim (PAL, SLES_514.48)",
+      "platform_claim": "PlayStation 2 (PAL SLES_514.48)",
+      "method_claim": "Matching executable reconstruction",
+      "status_claim": "Work in progress. The README reports a byte-identical rebuild of every loadable byte in SLES_514.48, while only 40 of 1,328,837 code bytes (0.0030%) are decompiled; most game code remains included assembly.",
+      "license": null,
+      "license_assessment": "GitHub repository API reports no license metadata; no license is asserted here.",
+      "repository_dates": {
+        "created_at": "2023-10-03T19:05:47Z",
+        "pushed_at": "2026-08-01T10:04:32Z",
+        "updated_at": "2026-10-10T08:48:58Z"
+      },
+      "archived": false,
+      "fork": false,
+      "metadata_url": "https://api.github.com/repos/cakehonolulu/Bullseye",
+      "languages": {
+        "C++": 333935,
+        "C": 145378,
+        "Python": 116575,
+        "Shell": 3420,
+        "Java": 3147
+      },
+      "languages_url": "https://api.github.com/repos/cakehonolulu/Bullseye/languages",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "project_id": "rage-racer-ps1-byte-matching-decomp",
+      "repository": "khasinski/rage-racer-decomp",
+      "project_url": "https://github.com/khasinski/rage-racer-decomp",
+      "readme_url": "https://github.com/khasinski/rage-racer-decomp#readme",
+      "target_claim": "Rage Racer (PAL SCES_006.50; USA SLUS_004.03; Japan SLPS_006.00 v1.0 and v1.1)",
+      "platform_claim": "PlayStation (PAL SCES_006.50; USA SLUS_004.03; Japan SLPS_006.00 v1.0/v1.1)",
+      "method_claim": "Byte-exact matching decompilation",
+      "status_claim": "Matching is complete for the PAL executable: the README reports all 1,200 functions and 100% of code bytes matched, with a byte-identical linked executable. It says the USA and Japanese targets have complete source coverage using shared PAL C where possible and region-specific C where needed. Some translation units retain inline or hand-written assembly.",
+      "license": {
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "api_url": null
+      },
+      "license_assessment": "GitHub API reports NOASSERTION/Other, so no standard license can be confirmed.",
+      "repository_dates": {
+        "created_at": "2026-07-05T18:45:05Z",
+        "pushed_at": "2026-09-05T12:29:13Z",
+        "updated_at": "2026-10-15T15:57:49Z"
+      },
+      "archived": false,
+      "fork": false,
+      "metadata_url": "https://api.github.com/repos/khasinski/rage-racer-decomp",
+      "languages": {
+        "C": 2176643,
+        "Assembly": 420749,
+        "Python": 306545,
+        "HTML": 31041,
+        "BitBake": 11033,
+        "Makefile": 8644,
+        "Shell": 2448
+      },
+      "languages_url": "https://api.github.com/repos/khasinski/rage-racer-decomp/languages",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "project_id": "street-fighter-iii-third-strike-ps2-matching-decomp",
+      "repository": "crowded-street/3s-decomp",
+      "project_url": "https://github.com/crowded-street/3s-decomp",
+      "readme_url": "https://github.com/crowded-street/3s-decomp#readme",
+      "target_claim": "Street Fighter III: 3rd Strike (PlayStation 2 version; revision unspecified)",
+      "platform_claim": "PlayStation 2 (revision unspecified in the README)",
+      "method_claim": "Matching source reconstruction",
+      "status_claim": "The maintainer README says the PS2 game code is fully decompiled. CRI middleware is partly decompiled, with most filesystem and sound functions matching.",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "spdx_id": "AGPL-3.0",
+        "api_url": "https://api.github.com/licenses/agpl-3.0"
+      },
+      "license_assessment": "GitHub repository API reports the declared SPDX license.",
+      "repository_dates": {
+        "created_at": "2024-09-28T10:20:32Z",
+        "pushed_at": "2026-04-03T13:13:31Z",
+        "updated_at": "2026-10-16T00:43:01Z"
+      },
+      "archived": false,
+      "fork": false,
+      "metadata_url": "https://api.github.com/repos/crowded-street/3s-decomp",
+      "languages": {
+        "C": 11102885,
+        "Python": 69135,
+        "C++": 40903,
+        "Makefile": 4874,
+        "Dockerfile": 1941,
+        "Shell": 216,
+        "Pascal": 215,
+        "PHP": 154
+      },
+      "languages_url": "https://api.github.com/repos/crowded-street/3s-decomp/languages",
+      "checked_on": "2026-10-16"
+    }
+  ]
+}

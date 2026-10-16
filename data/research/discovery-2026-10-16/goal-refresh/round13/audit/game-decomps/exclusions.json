@@ -1,0 +1,166 @@
+{
+  "checked_at": "2026-10-16",
+  "records": [
+    {
+      "repo": "https://github.com/startupandhold/3on3ArcadeRecomp",
+      "decision": "exclude_duplicate_target",
+      "reason": "Same 3 on 3 NHL Arcade Xbox 360/XBLA game target already appears under Wndwsqrrl/3on3NHL-recomp Windows and Android records; a different repository alone does not establish a distinct target."
+    },
+    {
+      "repo": "https://github.com/bignegro/TOTK-Decomp",
+      "decision": "sibling_lane",
+      "reason": "Switch/Wii U lane agent is independently staging after source-tree review; omitted from this game-decomps batch to avoid a duplicate addition."
+    },
+    {
+      "repo": "https://github.com/AdventureT/OpenToshi",
+      "decision": "hold_ambiguous_target",
+      "reason": "Broad Toshi engine/multi-game scope does not establish a dedicated game target for this project record."
+    },
+    {
+      "repo": "https://github.com/recomp-code/street-recomp-v3",
+      "decision": "hold_insufficient_primary_evidence",
+      "reason": "Target/method/status were not sufficiently verified from maintainer sources in this pass; do not import from a community lead alone."
+    },
+    {
+      "repo": "https://github.com/phoboslab/wipeout-rewrite",
+      "decision": "exclude_method_mismatch",
+      "reason": "Repository is a rewrite/source-port lead; evidence did not establish a game-specific decompilation or static recompilation project."
+    },
+    {
+      "repo": "https://github.com/SamidyFR/Game-Decompilations",
+      "decision": "exclude_discovery_directory",
+      "reason": "Discovery/list repository, not one game-specific maintainer project."
+    },
+    {
+      "repo": "https://github.com/Nio03/unricopie",
+      "decision": "exclude_tool",
+      "reason": "Repository is a catalog/discovery tool rather than a game decompilation or recompilation."
+    },
+    {
+      "repo": "https://github.com/Denkishi/ssbu-recomp",
+      "decision": "duplicate_existing_repo",
+      "existing_project_id": "ssbu-switch-recomp",
+      "existing_game": "Super Smash Bros. Ultimate",
+      "reason": "The candidate repository URL is already cataloged; do not stage a second project record."
+    },
+    {
+      "repo": "https://github.com/saulob/geometry-wars-retro-evolved-2-recompiled",
+      "decision": "duplicate_existing_repo",
+      "existing_project_id": "geometry-wars-retro-evolved-2-xbox360-recomp",
+      "existing_game": "Geometry Wars: Retro Evolved 2",
+      "reason": "The candidate repository URL is already cataloged; do not stage a second project record."
+    },
+    {
+      "repo": "https://github.com/ZeldaWWHDDecomp/wwhd",
+      "decision": "duplicate_existing_repo",
+      "existing_project_id": "wind-waker-hd-decomp",
+      "existing_game": "The Legend of Zelda: The Wind Waker HD",
+      "reason": "The candidate repository URL is already cataloged; do not stage a second project record."
+    },
+    {
+      "repo": "https://github.com/florinp93/hells-gate-recomp",
+      "decision": "duplicate_existing_repo",
+      "existing_project_id": "dantes-inferno-xbox360-hells-gate",
+      "existing_game": "Dante’s Inferno",
+      "reason": "The candidate repository URL is already cataloged; do not stage a second project record."
+    },
+    {
+      "repo": "https://github.com/Armandpro12/chibi-robo-pc",
+      "decision": "duplicate_existing_repo",
+      "existing_project_id": "chibi-robo-gamecube-windows-static-recomp",
+      "existing_game": "Chibi-Robo! (GameCube PAL GGTP01 / USA GGTE01)",
+      "reason": "The candidate repository URL is already cataloged; do not stage a second project record."
+    },
+    {
+      "repo": "https://github.com/Miggas/JSRF-Recomp",
+      "decision": "duplicate_existing_repo",
+      "existing_project_id": "jet-set-radio-future-xbox-recomp",
+      "existing_game": "Jet Set Radio Future",
+      "reason": "The candidate repository URL is already cataloged; do not stage a second project record."
+    },
+    {
+      "repo": "https://github.com/jackgllghr/bigmission-recomp",
+      "decision": "duplicate_existing_repo",
+      "existing_project_id": "saru-saru-daisakusen-psp-recomp",
+      "existing_game": "Saru! Get You! SaruSaru Daisakusen (PSP Japan, UCJS10060 v1.00)",
+      "reason": "The candidate repository URL is already cataloged; do not stage a second project record."
+    },
+    {
+      "repo": "https://github.com/Gui-Tora/dmc-recomp",
+      "decision": "duplicate_existing_repo",
+      "existing_project_id": "devil-may-cry-ps2-pal-windows-static-recomp",
+      "existing_game": "Devil May Cry (2001, PlayStation 2 PAL Europe, `SLES_503.58` v1.02)",
+      "reason": "The candidate repository URL is already cataloged; do not stage a second project record."
+    },
+    {
+      "repo": "https://github.com/vibecodekun/shantaerecomp",
+      "decision": "duplicate_existing_repo",
+      "existing_project_id": "shantae-gbc-static-recompilation",
+      "existing_game": "Shantae",
+      "reason": "The candidate repository URL is already cataloged; do not stage a second project record."
+    },
+    {
+      "repo": "https://github.com/saftle/Super-Dodgeball-Recomp",
+      "decision": "duplicate_existing_repo",
+      "existing_project_id": "super-dodge-ball-nes-static-recomp",
+      "existing_game": "Super Dodge Ball",
+      "reason": "The candidate repository URL is already cataloged; do not stage a second project record."
+    },
+    {
+      "repo": "https://github.com/alondero/automobililamborghini-recomp",
+      "decision": "duplicate_existing_repo",
+      "existing_project_id": "automobili-lamborghini-n64-windows-linux-recomp",
+      "existing_game": "Automobili Lamborghini (Nintendo 64, North American USA release)",
+      "reason": "The candidate repository URL is already cataloged; do not stage a second project record."
+    },
+    {
+      "repo": "https://github.com/hardkiller2565123123/CafeRecomp",
+      "decision": "duplicate_existing_repo",
+      "existing_project_id": "cafe-recomp-wiiu-framework",
+      "existing_game": "CafeRecomp",
+      "reason": "The candidate repository URL is already cataloged; do not stage a second project record."
+    },
+    {
+      "repo": "https://github.com/InfiniteC0re/OpenBarnyard",
+      "decision": "duplicate_existing_repo",
+      "existing_project_id": "barnyard-openbarnyard-windows-decomp",
+      "existing_game": "Barnyard (Windows PC) and TOSHI 2.0 engine",
+      "reason": "The candidate repository URL is already cataloged; do not stage a second project record."
+    },
+    {
+      "repo": "https://github.com/NeverCookFirst/DimensionsRecomp",
+      "decision": "duplicate_existing_repo",
+      "existing_project_id": "lego-dimensions-xbox360-recomp",
+      "existing_game": "LEGO Dimensions",
+      "reason": "The candidate repository URL is already cataloged; do not stage a second project record."
+    },
+    {
+      "repo": "https://github.com/kirklandsig/halo2-decompiled",
+      "decision": "duplicate_existing_repo",
+      "existing_project_id": "halo-2-original-xbox-matching-decomp",
+      "existing_game": "Halo 2",
+      "reason": "The candidate repository URL is already cataloged; do not stage a second project record."
+    },
+    {
+      "repo": "https://github.com/TGP482/SCDA-XBERecomp",
+      "decision": "duplicate_existing_repo",
+      "existing_project_id": "splinter-cell-double-agent-xbox-recomp",
+      "existing_game": "Tom Clancy’s Splinter Cell: Double Agent (Original Xbox version)",
+      "reason": "The candidate repository URL is already cataloged; do not stage a second project record."
+    },
+    {
+      "repo": "https://github.com/jcsix694/def-jam-vendetta-recomp",
+      "decision": "duplicate_existing_repo",
+      "existing_project_id": "def-jam-vendetta-ps2-recomp",
+      "existing_game": "Def Jam Vendetta (PlayStation 2, USA SLUS-20639)",
+      "reason": "The candidate repository URL is already cataloged; do not stage a second project record."
+    },
+    {
+      "repo": "https://github.com/kaiyao7/SwitchRecomp",
+      "decision": "duplicate_existing_repo",
+      "existing_project_id": "switchrecomp-early-research-framework",
+      "existing_game": "SwitchRecomp",
+      "reason": "The candidate repository URL is already cataloged; do not stage a second project record."
+    }
+  ]
+}

@@ -1,0 +1,494 @@
+{
+  "updated": "2026-10-16",
+  "scope": "Source-verified, repository-owned game decompilation and static recompilation discoveries for Round 13. Status claims are attributed to reviewed maintainer sources; no media, game code, ROMs, or assets copied.",
+  "projects": [
+    {
+      "id": "illbleed-dreamcast-japan-decomp",
+      "title": "Illbleed Dreamcast Japan Decompilation",
+      "game": "Illbleed (Dreamcast, Japan T45601M V1.003)",
+      "target_type": "Game",
+      "platform": "Sega Dreamcast (Japan release, T45601M V1.003) — original disc required for local extraction/build",
+      "kind": "Decompilation",
+      "status": "In progress. The maintainer documents a byte-exact assembly baseline and 2,049 of 4,245 functions named. Equivalent C is behavior-tested; matching C is a separate higher tier. The repository has no game code or data, and setup requires the user’s disc plus a Katana SDK. No public release is listed.",
+      "summary": "Function-level Dreamcast executable decompilation for Illbleed Japan T45601M V1.003. Its build checks an assembly baseline byte-for-byte while C functions advance through behavior-equivalent and matching tiers; generated game-derived files remain local.",
+      "project_url": "https://github.com/consolesplayingconsoles/illbleed-decomp",
+      "updated": "2026-10-16",
+      "strategy": "Matching decompilation",
+      "language": "",
+      "source_available": "Public source repository; game code/data are not included; user supplies the original disc and required SDK.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "Python",
+      "subtype": "Dreamcast executable matching decompilation; Japanese retail build T45601M V1.003",
+      "sources": [
+        {
+          "label": "Maintainer README at reviewed commit",
+          "url": "https://github.com/consolesplayingconsoles/illbleed-decomp/blob/cae485ca3c913e74d5e4dd86ed285c61068f38e2/README.md"
+        },
+        {
+          "label": "Canonical public repository",
+          "url": "https://github.com/consolesplayingconsoles/illbleed-decomp"
+        },
+        {
+          "label": "GitHub repository metadata at reviewed commit",
+          "url": "https://api.github.com/repos/consolesplayingconsoles/illbleed-decomp"
+        },
+        {
+          "label": "Exact GitHub Languages API byte counts",
+          "url": "https://api.github.com/repos/consolesplayingconsoles/illbleed-decomp/languages"
+        }
+      ]
+    },
+    {
+      "id": "ratchet-clank-size-matters-ps2-usa-decomp",
+      "title": "Ratchet & Clank: Size Matters PS2 USA Matching Decompilation",
+      "game": "Ratchet & Clank: Size Matters (PlayStation 2, USA SCUS_976.15)",
+      "target_type": "Game",
+      "platform": "PlayStation 2 (USA, SCUS_976.15, SYSTEM.CNF version 1.00)",
+      "kind": "Decompilation",
+      "status": "Early matching-decompilation workspace. The maintainer reports no general qualified compiler, complete retail function catalogue, or ByteMatch progress report. Narrow private gates cover one boot C function and two shared level functions; reconstructed load images and assembly sections are documented separately. No public release is listed.",
+      "summary": "Early matching-decompilation workspace for the USA PlayStation 2 build of Ratchet & Clank: Size Matters. Repository instructions keep game-derived material local; source match claims are limited to individually gated functions and explicitly scoped load images.",
+      "project_url": "https://github.com/OpenRAC/rac5-sm-decomp",
+      "updated": "2026-10-16",
+      "strategy": "Matching decompilation",
+      "language": "",
+      "source_available": "Public source repository (GPL-3.0); game image and derived materials are not included and must be supplied locally.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "Python",
+      "subtype": "PlayStation 2 MIPS matching decompilation; early workspace",
+      "sources": [
+        {
+          "label": "Maintainer README at reviewed commit",
+          "url": "https://github.com/OpenRAC/rac5-sm-decomp/blob/b4327e3f37081bf509f26eb7b919788bf9526669/README.md"
+        },
+        {
+          "label": "Canonical public repository",
+          "url": "https://github.com/OpenRAC/rac5-sm-decomp"
+        },
+        {
+          "label": "GitHub repository metadata at reviewed commit",
+          "url": "https://api.github.com/repos/OpenRAC/rac5-sm-decomp"
+        },
+        {
+          "label": "Exact GitHub Languages API byte counts",
+          "url": "https://api.github.com/repos/OpenRAC/rac5-sm-decomp/languages"
+        },
+        {
+          "label": "Repository license file at reviewed commit",
+          "url": "https://github.com/OpenRAC/rac5-sm-decomp/blob/b4327e3f37081bf509f26eb7b919788bf9526669/LICENSE"
+        }
+      ]
+    },
+    {
+      "id": "winning-eleven-3-final-ver-ps1-jpn-decomp",
+      "title": "World Soccer Jikkyou Winning Eleven 3 Final Ver. Matching Decompilation",
+      "game": "World Soccer Jikkyou Winning Eleven 3 Final Ver. (PlayStation, Japan SLPM_861.62)",
+      "target_type": "Game",
+      "platform": "Sony PlayStation (Japan, SLPM_861.62 revision 1)",
+      "kind": "Decompilation",
+      "status": "Matching assembly baseline established for 1,273 resident functions. The maintainer reports five confirmed matching overlays covering 412 functions and 414,610 exact bytes, plus 891 matching C functions (520 resident and 371 overlay). Native PC target is not started. No public release is listed.",
+      "summary": "Matching decompilation research for the Japanese PlayStation Final Ver. of World Soccer Jikkyou Winning Eleven 3. The repo documents reproducible extraction from a user-supplied disc and separates future native-PC work from the matching reference build.",
+      "project_url": "https://github.com/coffeeconleche/winning-eleven-3-final-ver-decomp",
+      "updated": "2026-10-16",
+      "strategy": "Matching decompilation",
+      "language": "",
+      "source_available": "Public source repository; no game, disc image, extracted executable, BIOS, media assets, or proprietary SDK/toolchain files are included.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "Assembly",
+      "subtype": "PlayStation MIPS matching decompilation; native PC target not started",
+      "sources": [
+        {
+          "label": "Maintainer README at reviewed commit",
+          "url": "https://github.com/coffeeconleche/winning-eleven-3-final-ver-decomp/blob/8de8cd62ed4d0e835b990a3b2f9780862beea3b2/README.md"
+        },
+        {
+          "label": "Canonical public repository",
+          "url": "https://github.com/coffeeconleche/winning-eleven-3-final-ver-decomp"
+        },
+        {
+          "label": "GitHub repository metadata at reviewed commit",
+          "url": "https://api.github.com/repos/coffeeconleche/winning-eleven-3-final-ver-decomp"
+        },
+        {
+          "label": "Exact GitHub Languages API byte counts",
+          "url": "https://api.github.com/repos/coffeeconleche/winning-eleven-3-final-ver-decomp/languages"
+        }
+      ]
+    },
+    {
+      "id": "zoids-saga-fuzors-gba-japan-decomp",
+      "title": "Zoids Saga Fuzors Japan GBA Decompilation",
+      "game": "Zoids Saga Fuzors (Game Boy Advance, Japan)",
+      "target_type": "Game",
+      "platform": "Game Boy Advance (Japan ROM; clean original GBA ROM required for verification/build)",
+      "kind": "Decompilation",
+      "status": "The maintainer reports 1,330 of 1,330 matchable functions represented in C and 1,384 byte-exact regions. The full rebuilt ROM comparison also copies every byte outside listed regions from the user-provided original ROM, so it is not wholly source-derived. README warns the recovered function code is rough. No public release is listed.",
+      "summary": "Matching decompilation of the Japanese Game Boy Advance build of Zoids Saga Fuzors. C, inline assembly, and assembly regions are verified against a locally supplied ROM; the repository does not distribute the ROM or generated output.",
+      "project_url": "https://github.com/jmacato/ZoidsSagaFuzorsDecomp",
+      "updated": "2026-10-16",
+      "strategy": "Matching decompilation",
+      "language": "",
+      "source_available": "Public source repository (MIT); no ROM/game data is included. Verification and whole-ROM output require the user’s own clean Japanese ROM; bytes outside documented regions are copied from it.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "GBA matching decompilation; 1,384 byte-exact code regions",
+      "sources": [
+        {
+          "label": "Maintainer README at reviewed commit",
+          "url": "https://github.com/jmacato/ZoidsSagaFuzorsDecomp/blob/5bf0b81deb697abf5eef39da06d78525cdc52506/README.md"
+        },
+        {
+          "label": "Canonical public repository",
+          "url": "https://github.com/jmacato/ZoidsSagaFuzorsDecomp"
+        },
+        {
+          "label": "GitHub repository metadata at reviewed commit",
+          "url": "https://api.github.com/repos/jmacato/ZoidsSagaFuzorsDecomp"
+        },
+        {
+          "label": "Exact GitHub Languages API byte counts",
+          "url": "https://api.github.com/repos/jmacato/ZoidsSagaFuzorsDecomp/languages"
+        },
+        {
+          "label": "Repository license file at reviewed commit",
+          "url": "https://github.com/jmacato/ZoidsSagaFuzorsDecomp/blob/5bf0b81deb697abf5eef39da06d78525cdc52506/LICENSE"
+        }
+      ]
+    },
+    {
+      "id": "zoids-saga-gba-japan-decomp",
+      "title": "Zoids Saga Japan GBA Decompilation",
+      "game": "Zoids Saga (Game Boy Advance, Japan)",
+      "target_type": "Game",
+      "platform": "Game Boy Advance (Japan ROM; clean original GBA ROM required for verification/build)",
+      "kind": "Decompilation",
+      "status": "The maintainer reports 1,897 byte-exact code regions. The strict C matching source check still has unfinished routines. A complete output ROM is built by copying unchanged bytes from the user-provided original outside the listed regions. No public release is listed.",
+      "summary": "Matching decompilation of the Japanese Game Boy Advance Zoids Saga. The repository contains C, inline assembly, assembler macros, and assembly regions with a ROM-based verifier; the original ROM is not included.",
+      "project_url": "https://github.com/jmacato/ZoidsSagaOneDecomp",
+      "updated": "2026-10-16",
+      "strategy": "Matching decompilation",
+      "language": "",
+      "source_available": "Public source repository (MIT); no ROM/game data is included. Verification requires the user’s own clean Japanese ROM; bytes outside listed regions come from that input.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "GBA matching decompilation; 1,897 byte-exact code regions",
+      "sources": [
+        {
+          "label": "Maintainer README at reviewed commit",
+          "url": "https://github.com/jmacato/ZoidsSagaOneDecomp/blob/316e7d1e8d6f2a153a6beecfbed4a1b2b697cac7/README.md"
+        },
+        {
+          "label": "Canonical public repository",
+          "url": "https://github.com/jmacato/ZoidsSagaOneDecomp"
+        },
+        {
+          "label": "GitHub repository metadata at reviewed commit",
+          "url": "https://api.github.com/repos/jmacato/ZoidsSagaOneDecomp"
+        },
+        {
+          "label": "Exact GitHub Languages API byte counts",
+          "url": "https://api.github.com/repos/jmacato/ZoidsSagaOneDecomp/languages"
+        },
+        {
+          "label": "Repository license file at reviewed commit",
+          "url": "https://github.com/jmacato/ZoidsSagaOneDecomp/blob/316e7d1e8d6f2a153a6beecfbed4a1b2b697cac7/LICENSE"
+        }
+      ]
+    },
+    {
+      "id": "fuel-pc-us-retail-decomp",
+      "title": "FUEL PC US Retail Decompilation",
+      "game": "FUEL (Windows PC, US retail)",
+      "target_type": "Game",
+      "platform": "Windows PC (US retail executable; matching installation and FUEL.exe required)",
+      "kind": "Decompilation",
+      "status": "The README describes a PC US-retail decompilation with a build/run workflow, but gives no quantified function or byte progress. It requires the matching retail FUEL.exe and legacy compiler/DirectX tools; game executable and assets are not included. No public release is listed.",
+      "summary": "PC US-retail decompilation project for FUEL. It builds and launches against a locally installed original game copy using project tooling and a pinned legacy compiler; the repository does not include the executable or game assets.",
+      "project_url": "https://github.com/widberg/FUELDecompilation",
+      "updated": "2026-10-16",
+      "strategy": "PC executable decompilation",
+      "language": "",
+      "source_available": "Public source repository; no retail executable or game assets are included; local matching game installation and required tools are necessary. No repository license detected at the reviewed commit.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Windows PC retail executable decompilation; matching status not quantified",
+      "sources": [
+        {
+          "label": "Maintainer README at reviewed commit",
+          "url": "https://github.com/widberg/FUELDecompilation/blob/bd6b69976602b2758ab8559a1557fde24861f193/README.md"
+        },
+        {
+          "label": "Canonical public repository",
+          "url": "https://github.com/widberg/FUELDecompilation"
+        },
+        {
+          "label": "GitHub repository metadata snapshot",
+          "url": "https://api.github.com/repos/widberg/FUELDecompilation"
+        },
+        {
+          "label": "Exact GitHub Languages API byte counts",
+          "url": "https://api.github.com/repos/widberg/FUELDecompilation/languages"
+        }
+      ]
+    },
+    {
+      "id": "touhou-10-mountain-of-faith-pc-matching-decomp",
+      "title": "Touhou 10: Mountain of Faith PC Matching Decompilation",
+      "game": "Touhou 10: Mountain of Faith",
+      "target_type": "Game",
+      "platform": "Windows PC executable (th10.exe; exact retail revision/region not stated in README)",
+      "kind": "Decompilation",
+      "status": "The maintainer says every game function is recovered as C++. Default build reports 74.6% byte-exact C++ bytes and 97.7% weighted identical instructions across equivalent regions; `make EXACT=1` uses equivalent assembly to produce a bit-identical executable. No public release or repository license is listed.",
+      "summary": "Matching decompilation of Touhou 10: Mountain of Faith for Windows PC. The maintainer distinguishes the default C++ recovery build from an exact build that substitutes recorded assembly for equivalent regions; exact input game revision is not identified in the README.",
+      "project_url": "https://github.com/levzzz5154/th10-decomp",
+      "updated": "2026-10-16",
+      "strategy": "Matching decompilation",
+      "language": "",
+      "source_available": "Public source repository; game executable is not included; an original th10.exe is optional for detailed retail comparison. No repository license detected at the reviewed commit.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "Assembly",
+      "subtype": "Windows PC matching decompilation; C++ recovery with exact assembly fallback",
+      "sources": [
+        {
+          "label": "Maintainer README at reviewed commit",
+          "url": "https://github.com/levzzz5154/th10-decomp/blob/eb027539e55372735db1d60ae5da781a9d1caa8a/README.md"
+        },
+        {
+          "label": "Canonical public repository",
+          "url": "https://github.com/levzzz5154/th10-decomp"
+        },
+        {
+          "label": "GitHub repository metadata at reviewed commit",
+          "url": "https://api.github.com/repos/levzzz5154/th10-decomp"
+        },
+        {
+          "label": "Exact GitHub Languages API byte counts",
+          "url": "https://api.github.com/repos/levzzz5154/th10-decomp/languages"
+        }
+      ]
+    },
+    {
+      "id": "top-gear-snes-usa-static-recomp",
+      "title": "Top Gear SNES USA Static Recompilation",
+      "game": "Top Gear (SNES, USA)",
+      "target_type": "Game",
+      "platform": "Super Nintendo Entertainment System (USA ROM) → native Windows 10/11 x86-64",
+      "kind": "Recompilation",
+      "status": "Release v2.0.1 was published on 2026-10-16. The maintainer describes a fully static ahead-of-time recompilation with a native Windows launcher and no runtime general-purpose CPU interpreter, dynamic recompiler, or emulator fallback. The exact USA ROM is required and is not included. No repository license detected.",
+      "summary": "Static ahead-of-time recompilation of the USA SNES Top Gear ROM to a native Windows x86-64 launcher. The repository documents fixed generated C execution, native system components, and ROM-specific integrity/gameplay tests; game ROM data are user-supplied.",
+      "project_url": "https://github.com/Junior-Jones/Top-Gear-SNES-Static-Recomp",
+      "updated": "2026-10-16",
+      "strategy": "Static recompilation",
+      "language": "",
+      "source_available": "Public source repository; no ROM/game data included. Exact legally obtained USA ROM with SHA-256 ca9889f17f184b3d99a2eaaa82af73e366f03ed00313fdd369e5e023b208e788 is required for game-specific verification. No repository license detected at reviewed commit.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "SNES-to-Windows x86-64 static recompilation",
+      "sources": [
+        {
+          "label": "Maintainer README at reviewed commit",
+          "url": "https://github.com/Junior-Jones/Top-Gear-SNES-Static-Recomp/blob/592a3a85fe8c57293866ffd2de7f45e7fd341c4b/README.txt"
+        },
+        {
+          "label": "Canonical public repository",
+          "url": "https://github.com/Junior-Jones/Top-Gear-SNES-Static-Recomp"
+        },
+        {
+          "label": "GitHub repository metadata at reviewed commit",
+          "url": "https://api.github.com/repos/Junior-Jones/Top-Gear-SNES-Static-Recomp"
+        },
+        {
+          "label": "Exact GitHub Languages API byte counts",
+          "url": "https://api.github.com/repos/Junior-Jones/Top-Gear-SNES-Static-Recomp/languages"
+        },
+        {
+          "label": "Latest maintainer release",
+          "url": "https://github.com/Junior-Jones/Top-Gear-SNES-Static-Recomp/releases/tag/v2.0.1"
+        },
+        {
+          "label": "GitHub releases API snapshot",
+          "url": "https://api.github.com/repos/Junior-Jones/Top-Gear-SNES-Static-Recomp/releases?per_page=20"
+        }
+      ]
+    },
+    {
+      "id": "dr-mario-nes-static-recomp",
+      "title": "Dr. Mario NES Static Recompilation",
+      "game": "Dr. Mario (NES, USA)",
+      "target_type": "Game",
+      "platform": "Nintendo Entertainment System (USA/PAL/Europe ROM variants) → native PC; Windows release and Linux AppImage listed",
+      "kind": "Recompilation",
+      "status": "The README labels the project playable: title screen, options, and gameplay work, with one-player testing through virus clearing. Release v1.3.0 was published 2026-10-05. The README separately describes cycle-backend migration as branch previews with limited Windows/PAL playtests and no merge/release; preserve that distinction. No ROM is included.",
+      "summary": "NES Dr. Mario static recompilation for native PC using the NESRecomp framework. The maintainer reports playable title/options/gameplay and a limited one-player route; users provide the matching cartridge ROM, which is not shipped.",
+      "project_url": "https://github.com/mstan/DrMarioNesRecomp",
+      "updated": "2026-10-16",
+      "strategy": "Static recompilation",
+      "language": "",
+      "source_available": "Public source repository; matching NES ROM required and not included. Repository LICENSE is PolyForm Noncommercial License 1.0.0; GitHub API reports Other/NOASSERTION.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "NES-to-native-PC static recompilation",
+      "sources": [
+        {
+          "label": "Maintainer README at reviewed commit",
+          "url": "https://github.com/mstan/DrMarioNesRecomp/blob/8d800cab034c08ddf13f7ba7a6f76018fef7ca01/README.md"
+        },
+        {
+          "label": "Canonical public repository",
+          "url": "https://github.com/mstan/DrMarioNesRecomp"
+        },
+        {
+          "label": "GitHub repository metadata at reviewed commit",
+          "url": "https://api.github.com/repos/mstan/DrMarioNesRecomp"
+        },
+        {
+          "label": "Exact GitHub Languages API byte counts",
+          "url": "https://api.github.com/repos/mstan/DrMarioNesRecomp/languages"
+        },
+        {
+          "label": "Latest maintainer release",
+          "url": "https://github.com/mstan/DrMarioNesRecomp/releases/tag/v1.3.0"
+        },
+        {
+          "label": "GitHub releases API snapshot",
+          "url": "https://api.github.com/repos/mstan/DrMarioNesRecomp/releases?per_page=20"
+        },
+        {
+          "label": "Repository license file at reviewed commit",
+          "url": "https://github.com/mstan/DrMarioNesRecomp/blob/8d800cab034c08ddf13f7ba7a6f76018fef7ca01/LICENSE"
+        }
+      ]
+    },
+    {
+      "id": "trials-hd-xbox360-static-recomp",
+      "title": "Trials HD Xbox 360 Static Recompilation",
+      "game": "Trials HD (Xbox 360 XBLA)",
+      "target_type": "Game",
+      "platform": "Xbox 360 / XBLA title 5841095A → Linux x86-64 and macOS 12+ (arm64 or x86-64)",
+      "kind": "Recompilation",
+      "status": "The maintainer describes the project as playable with controller or keyboard and lists Linux x86-64 and macOS 12+ targets with WebGPU/Vulkan graphics backends. No public release is listed. README discloses AI-assisted development and says generated game-derived C++ must not be redistributed.",
+      "summary": "Static recompilation of the Xbox 360/XBLA Trials HD title ID 5841095A for Linux and macOS using ReXGlue. The user supplies the original XEX/package and assets; generated game code is produced locally.",
+      "project_url": "https://github.com/snufflyyy/trials-hd-recompiled",
+      "updated": "2026-10-16",
+      "strategy": "Static recompilation",
+      "language": "",
+      "source_available": "Public source repository (MIT); no game code or assets included. User supplies the legally obtained XEX/package and assets; generated C++ must not be redistributed per README.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Xbox 360-to-Linux/macOS static recompilation",
+      "sources": [
+        {
+          "label": "Maintainer README at reviewed commit",
+          "url": "https://github.com/snufflyyy/trials-hd-recompiled/blob/8373f53dd1b429669d6ea07ab320b38aba56b9b0/README.md"
+        },
+        {
+          "label": "Canonical public repository",
+          "url": "https://github.com/snufflyyy/trials-hd-recompiled"
+        },
+        {
+          "label": "GitHub repository metadata at reviewed commit",
+          "url": "https://api.github.com/repos/snufflyyy/trials-hd-recompiled"
+        },
+        {
+          "label": "Exact GitHub Languages API byte counts",
+          "url": "https://api.github.com/repos/snufflyyy/trials-hd-recompiled/languages"
+        },
+        {
+          "label": "Repository license file at reviewed commit",
+          "url": "https://github.com/snufflyyy/trials-hd-recompiled/blob/8373f53dd1b429669d6ea07ab320b38aba56b9b0/LICENSE"
+        }
+      ]
+    },
+    {
+      "id": "skies-of-arcadia-legends-gc-pal-static-recomp",
+      "title": "Skies of Arcadia Legends GameCube PAL Static Recompilation",
+      "game": "Skies of Arcadia Legends (GameCube, PAL GEAP8P)",
+      "target_type": "Game",
+      "platform": "Nintendo GameCube (PAL GEAP8P) → native Windows and Linux x86-64",
+      "kind": "Recompilation",
+      "status": "Work in progress. README reports boot, menus, and gameplay running on Windows and Linux; the OpenGL 3.3 renderer has known glitches. The maintainer lists graphics accuracy and long-play stability as next work. No public release or repository license is listed.",
+      "summary": "Static recompilation of the PAL GameCube build of Skies of Arcadia Legends to native x86-64. PPC code is translated to C and compiled for a small GameCube-hardware runtime; the repository contains no game code or data.",
+      "project_url": "https://github.com/LoudSilence-sys/Skies-of-Arcadia-PC-Recomp",
+      "updated": "2026-10-16",
+      "strategy": "Static recompilation",
+      "language": "",
+      "source_available": "Public source repository; user supplies original GameCube main.dol. No game code or data included. README describes this as personal, non-commercial preservation/modding; no repository license detected.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "GameCube PowerPC-to-Windows/Linux x86-64 static recompilation",
+      "sources": [
+        {
+          "label": "Maintainer README at reviewed commit",
+          "url": "https://github.com/LoudSilence-sys/Skies-of-Arcadia-PC-Recomp/blob/2695f087d84f57a0a743dde7e21c9c870f96557d/README.md"
+        },
+        {
+          "label": "Canonical public repository",
+          "url": "https://github.com/LoudSilence-sys/Skies-of-Arcadia-PC-Recomp"
+        },
+        {
+          "label": "GitHub repository metadata at reviewed commit",
+          "url": "https://api.github.com/repos/LoudSilence-sys/Skies-of-Arcadia-PC-Recomp"
+        },
+        {
+          "label": "Exact GitHub Languages API byte counts",
+          "url": "https://api.github.com/repos/LoudSilence-sys/Skies-of-Arcadia-PC-Recomp/languages"
+        }
+      ]
+    },
+    {
+      "id": "snail-mail-windows-pc-matching-decomp",
+      "title": "Snail Mail Windows PC Matching Decompilation and Port",
+      "game": "Snail Mail",
+      "target_type": "Game",
+      "platform": "Original Windows PC gameplay executable → browser/WebAssembly and native macOS port (release v0.3.0); native Linux/Windows and 64-bit builds not yet complete",
+      "kind": "Decompilation",
+      "status": "Matching decompilation and source-derived port. At reviewed README the maintainer reports 646/662 port-relevant functions byte-proven; v0.3.0 plays the intro, menus, tutorial, postal, challenge, and time-trial modes in browser and macOS builds. Two original-game oracles match bit-for-bit. Native Linux/Windows shaders and 64-bit builds remain future work. No repository license detected.",
+      "summary": "Matching decompilation of the original Windows Snail Mail gameplay executable; the recovered source also builds a playable browser/WebAssembly and macOS port. It is distinct from the cataloged PS Vita API-translation project, which targets the Android version.",
+      "project_url": "https://github.com/banteg/snail",
+      "updated": "2026-10-16",
+      "strategy": "Matching decompilation",
+      "language": "",
+      "source_available": "Public source repository; executable is separately hosted by the maintainer and original PC asset files are user-supplied; repository does not contain the game assets. No repository license detected.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Windows PC matching decompilation with browser/macOS source-derived port",
+      "sources": [
+        {
+          "label": "Maintainer README at reviewed commit",
+          "url": "https://github.com/banteg/snail/blob/99c37155cbcab3b66617203a9f72a823653f6177/README.md"
+        },
+        {
+          "label": "Canonical public repository",
+          "url": "https://github.com/banteg/snail"
+        },
+        {
+          "label": "GitHub repository metadata at reviewed commit",
+          "url": "https://api.github.com/repos/banteg/snail"
+        },
+        {
+          "label": "Exact GitHub Languages API byte counts",
+          "url": "https://api.github.com/repos/banteg/snail/languages"
+        },
+        {
+          "label": "Latest maintainer release",
+          "url": "https://github.com/banteg/snail/releases/tag/v0.3.0"
+        },
+        {
+          "label": "GitHub releases API snapshot",
+          "url": "https://api.github.com/repos/banteg/snail/releases?per_page=20"
+        }
+      ]
+    }
+  ]
+}

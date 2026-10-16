@@ -1,0 +1,87 @@
+{
+  "verified_on": "2026-10-16",
+  "exclusions": [
+    {
+      "candidate": "peiikai/LASRecomp",
+      "repository_url": "https://github.com/peiikai/LASRecomp",
+      "reason": "The exact Switch-remake static recompilation and desktop target are already catalogued as link-awakening-switch-recomp; no new target or repository identity was found.",
+      "matching_project_ids": [
+        "link-awakening-switch-recomp"
+      ]
+    },
+    {
+      "candidate": "codepdbh/NFS-CARBON-360-ANDROID-RECOMP",
+      "repository_url": "https://github.com/codepdbh/NFS-CARBON-360-ANDROID-RECOMP",
+      "reason": "The Xbox 360-to-Android target is already represented by the catalogued Need for Speed Carbon Xbox 360 recompilation row.",
+      "matching_project_ids": [
+        "need-for-speed-carbon-xbox360-recomp-android"
+      ]
+    },
+    {
+      "candidate": "kardeiro/snowboardkids2-recomp-Android",
+      "repository_url": "https://github.com/kardeiro/snowboardkids2-recomp-Android",
+      "reason": "The repository has an Android APK release, but its current PORT-ANDROID.md engineering notes state that selecting Start Game still crashes in the graphics thread and that the game-rendering pipeline remains unresolved. Hold until maintainer evidence shows the game actually starts on Android; an app/build artifact alone does not establish a working game port.",
+      "matching_project_ids": [
+        "snowboard-kids-2-decomp",
+        "snowboard-kids-2-static-recomp",
+        "snowboard-kids-2-switch-recomp"
+      ],
+      "sources": [
+        "https://github.com/kardeiro/snowboardkids2-recomp-Android/blob/main/PORT-ANDROID.md",
+        "https://github.com/kardeiro/snowboardkids2-recomp-Android/releases/tag/v0.1.0"
+      ]
+    },
+    {
+      "candidate": "Player124413/Sonic-Generations-recomp-android-and-pc-edition",
+      "repository_url": "https://github.com/Player124413/Sonic-Generations-recomp-android-and-pc-edition",
+      "reason": "The README of the selected Android-specific implementation identifies this repository as its original work/base. The original repo’s public release is PC-only; adding a second row for the same Android target would duplicate the chosen Sonic Generations Android project.",
+      "matching_project_ids": [
+        "sonic-generations-xbox360-android-rexglue"
+      ],
+      "sources": [
+        "https://github.com/Player124413/Sonic-Generations-recomp-android-and-pc-edition/releases",
+        "https://github.com/BluetufieBugado/GenerationsRecomp-Android-RexGlue/blob/8c65b8097444416df6506037e876b382acde0da3/README.md"
+      ]
+    },
+    {
+      "candidate": "deivid22srk/TwistedMetal4Recomp-Android",
+      "repository_url": "https://github.com/deivid22srk/TwistedMetal4Recomp-Android",
+      "reason": "Although the repository publishes an APK asset, its reviewed README documents a desktop psxrecomp build path and does not document Android as a supported target or report game execution on Android. Hold pending direct maintainer evidence of the Android implementation.",
+      "matching_project_ids": [],
+      "sources": [
+        "https://github.com/deivid22srk/TwistedMetal4Recomp-Android/blob/master/README.md",
+        "https://github.com/deivid22srk/TwistedMetal4Recomp-Android/releases"
+      ]
+    },
+    {
+      "candidate": "kaiyao7/SwitchRecomp",
+      "repository_url": "https://github.com/kaiyao7/SwitchRecomp",
+      "reason": "The maintainer README describes a general-purpose early research framework and explicitly says it does not run any commercial game; no game-specific target row is justified.",
+      "matching_project_ids": [],
+      "sources": [
+        "https://github.com/kaiyao7/SwitchRecomp/blob/main/README.md"
+      ]
+    },
+    {
+      "candidate": "Round-13 leads already represented in SQLite",
+      "repository_url": "",
+      "reason": "No duplicate additions were staged for the already-catalogued BLACK Xbox-to-Windows projects, Daytona USA Model 2/XBLA projects, Wind Waker HD decomp/recomp/mobile targets, NetHack Android, Pikmin/Open Nectar, Sonic Unleashed Android, Zelda3 Android, Zelda Minish Cap/A Link to the Past 3DS, Crash Team Racing: Nitro-Fueled PC, and God of War III PC/API-translation target.",
+      "matching_project_ids": [
+        "black-xbox-recomp",
+        "black-2006-xbox-macos-recomp",
+        "daytona-usa-model2-recomp",
+        "daytona-usa-xbla-recomp",
+        "wind-waker-hd-decomp",
+        "wind-waker-hd-recompilation",
+        "nethack-android-port",
+        "pikmin-open-nectar-android",
+        "sonic-unleashed-recomp-android",
+        "zelda3-android",
+        "minish-cap-3ds-port",
+        "zelda-a-link-to-the-past-3ds-port",
+        "ctr-nitrofueled-windows-api-translation",
+        "god-of-war-iii-remastered-ps4-api-translation"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "verified_at": "2026-10-16",
+  "catalog_snapshot": {
+    "path": "/Users/earlcameron/Desktop/recompiled/data/catalog.sqlite",
+    "project_rows": 3450,
+    "access": "read-only"
+  },
+  "dedupe_scope": "Searched live SQLite read-only by exact repository target names, aliases, project URLs, and target words. Also inspected Round 12 localization imports and adjacent research manifests. No import was run.",
+  "included": [
+    {
+      "project_id": "mobile-suit-gundam-unicorn-ps3-zh-cn",
+      "game_target": "Mobile Suit Gundam Unicorn",
+      "platform": "PlayStation 3 (Japan disc BLJS-10154; PS3 release patch, RPCS3 usage documented)",
+      "canonical_repository": "https://github.com/AmuroRX-93/GundamUC-Chinese-Patch",
+      "database_match": false,
+      "decision": "New Fan Localization target; distinct from any existing game method/target.",
+      "language_pair": "Japanese → Simplified Chinese"
+    },
+    {
+      "project_id": "magic-the-gathering-dreamcast-english",
+      "game_target": "Magic: The Gathering (Dreamcast)",
+      "platform": "Dreamcast (Japan GDI v1.011; English patch target)",
+      "canonical_repository": "https://github.com/AstraleAmalthea/MagicTheGatheringDreamcastENG",
+      "database_match": false,
+      "decision": "New Fan Localization target; distinct from any existing game method/target.",
+      "language_pair": "Japanese → English"
+    },
+    {
+      "project_id": "tiny-bullets-ps1-english",
+      "game_target": "Tiny Bullets",
+      "platform": "PlayStation (Japanese BIN/CUE; patch requires the Japanese original with the documented MD5)",
+      "canonical_repository": "https://github.com/ChapuTranslations/TinyBulletsEnglishPatch",
+      "database_match": false,
+      "decision": "New Fan Localization target; distinct from any existing game method/target.",
+      "language_pair": "Japanese → English"
+    },
+    {
+      "project_id": "typing-of-the-dead-ii-japanese-pc-en-partial",
+      "game_target": "The Typing of the Dead II",
+      "platform": "Windows PC (Japanese J edition)",
+      "canonical_repository": "https://github.com/ContinualDissapointment/typing-of-the-dead-2-fixes",
+      "database_match": false,
+      "decision": "New Fan Localization target; distinct from any existing game method/target.",
+      "language_pair": "Japanese → English (partial UI/tutorial text only)"
+    },
+    {
+      "project_id": "tokio-senki-eiyuu-retsuden-game-boy-english",
+      "game_target": "Tokio Senki: Eiyuu Retsuden",
+      "platform": "Game Boy (Japanese ROM; IPS target)",
+      "canonical_repository": "https://github.com/LHE55/Tokio-Senki-Eiyuu-Retsuden---English-Patch",
+      "database_match": false,
+      "decision": "New Fan Localization target; distinct from any existing game method/target.",
+      "language_pair": "Japanese → English"
+    },
+    {
+      "project_id": "nisekoi-yomeiri-vita-english",
+      "game_target": "Nisekoi: Yomeiri!?",
+      "platform": "PlayStation Vita (Japan title ID PCSG00397; xdelta target is original unencrypted game data; Vita3K usage also documented)",
+      "canonical_repository": "https://github.com/LevelHeadDeveloper/YomeiriEnglishPatch",
+      "database_match": false,
+      "decision": "New Fan Localization target; distinct from any existing game method/target.",
+      "language_pair": "Japanese → English"
+    },
+    {
+      "project_id": "queens-gate-spiral-chaos-psp-english",
+      "game_target": "Queen’s Gate: Spiral Chaos",
+      "platform": "PlayStation Portable (Japan ISO ULJS00377; PPSSPP replacement textures supported)",
+      "canonical_repository": "https://github.com/Neokitsune5/QG_English_Patch",
+      "database_match": false,
+      "decision": "New Fan Localization target; distinct from any existing game method/target.",
+      "language_pair": "Japanese → English"
+    },
+    {
+      "project_id": "torneko-great-adventure-sfc-remaster-script",
+      "game_target": "Torneko’s Great Adventure: Mystery Dungeon",
+      "platform": "Super Famicom (Japanese unheadered ROM; alternatively the Magic Destiny 0.99 English-patched ROM)",
+      "canonical_repository": "https://github.com/NonagonGoron/Tornekos-Great-Adventure-SFC-with-Remaster-Script",
+      "database_match": false,
+      "decision": "New Fan Localization target; distinct from any existing game method/target.",
+      "language_pair": "Japanese → revised English; also accepts the prior Magic Destiny 0.99 English patch as an alternate base"
+    },
+    {
+      "project_id": "wanwan-aijou-monogatari-loopy-english",
+      "game_target": "Wanwan Aijou Monogatari (Puppy Love Story)",
+      "platform": "Casio Loopy (Japanese cartridge image; BPS patch target)",
+      "canonical_repository": "https://github.com/partlyhuman/puppy-love-story",
+      "database_match": false,
+      "decision": "New Fan Localization target; distinct from any existing game method/target.",
+      "language_pair": "Japanese → English"
+    }
+  ],
+  "related_nonduplicates": [
+    {
+      "existing_id": "shandalar-magic-the-gathering-native-recomp",
+      "existing_target": "Magic: The Gathering (1997 Windows CD, Shandalar version 1.0)",
+      "new_target": "Magic: The Gathering (Dreamcast)",
+      "why_distinct": "Different game release, hardware target, and project; not a duplicate."
+    }
+  ],
+  "notes": [
+    "No candidate ID or canonical repository URL exists in the current catalog.",
+    "None of the new projects is a console/PC-to-phone port; all nine patch the original platform version.",
+    "Typing of the Dead II includes PC fixes in addition to a partial English text patch; it is retained as Fan Localization because the English text patch is a named feature.",
+    "Torneko’s Great Adventure patch accepts both the Japanese ROM and the prior Magic Destiny v0.99 English patch; this is a revised English script project, not a first translation."
+  ]
+}

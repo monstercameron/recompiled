@@ -1,0 +1,154 @@
+{
+  "checked_on": "2026-10-16",
+  "catalog": "/Users/earlcameron/Desktop/recompiled/data/catalog.sqlite",
+  "catalog_project_count": 3462,
+  "comparison": "Exact repository URL identity (case-insensitive, trailing slash ignored) and exact game-field equality; related/same-title matches are reported separately.",
+  "candidates": [
+    {
+      "project_id": "resident-evil-1997-pc-decomp",
+      "repository": "https://github.com/ecruells/resident-evil-pc-decomp",
+      "exact_repository_matches": [],
+      "exact_game_field_matches": [],
+      "dedupe_result": "new repository; target match separately disclosed where applicable"
+    },
+    {
+      "project_id": "windows-95-build-9506-decompilation",
+      "repository": "https://github.com/hotlandsoftware/decomp95",
+      "exact_repository_matches": [],
+      "exact_game_field_matches": [],
+      "dedupe_result": "new repository; target match separately disclosed where applicable"
+    },
+    {
+      "project_id": "donalds-alphabet-chase-ibm-pc-dos-decompilation",
+      "repository": "https://github.com/jdelezenne/donalds-alphabet-chase-dos",
+      "exact_repository_matches": [],
+      "exact_game_field_matches": [],
+      "dedupe_result": "new repository; target match separately disclosed where applicable"
+    },
+    {
+      "project_id": "spider-man-2000-pc-decompilation-native-port",
+      "repository": "https://github.com/PatrikScully/OpenSpidey",
+      "exact_repository_matches": [],
+      "exact_game_field_matches": [],
+      "dedupe_result": "new repository; target match separately disclosed where applicable"
+    },
+    {
+      "project_id": "nhl-95-pc-dos-bitwise-rebuild",
+      "repository": "https://github.com/abdulahmad/NHL95PC",
+      "exact_repository_matches": [],
+      "exact_game_field_matches": [],
+      "dedupe_result": "new repository; target match separately disclosed where applicable"
+    },
+    {
+      "project_id": "tunnels-of-underworld-pc-game-decompilation",
+      "repository": "https://github.com/pdromnt/tou_decomp",
+      "exact_repository_matches": [],
+      "exact_game_field_matches": [],
+      "dedupe_result": "new repository; target match separately disclosed where applicable"
+    },
+    {
+      "project_id": "simcity-3000-unlimited-static-reverse-engineering",
+      "repository": "https://github.com/nanofives/sc3kre",
+      "exact_repository_matches": [],
+      "exact_game_field_matches": [],
+      "dedupe_result": "new repository; target match separately disclosed where applicable"
+    },
+    {
+      "project_id": "battlestations-pacific-pc-x86-decompilation",
+      "repository": "https://github.com/sqz269/battlestations-pacific-decompile",
+      "exact_repository_matches": [],
+      "exact_game_field_matches": [],
+      "dedupe_result": "new repository; target match separately disclosed where applicable"
+    },
+    {
+      "project_id": "pool-of-radiance-dos-v13-source-reconstruction",
+      "repository": "https://github.com/huntergdavis/poolrad-decomp",
+      "exact_repository_matches": [],
+      "exact_game_field_matches": [],
+      "dedupe_result": "new repository; target match separately disclosed where applicable"
+    }
+  ],
+  "related_target_records_reviewed": [
+    {
+      "candidate_id": "spider-man-2000-pc-decompilation-native-port",
+      "existing_id": "spider-man-ps1-linux-hybrid-port",
+      "existing_game": "Spider-Man (PlayStation, USA `SLUS_008.75`)",
+      "existing_platform": "PlayStation USA → Linux x86-64",
+      "existing_repository": "https://github.com/someoneisworking/psx-spider-man",
+      "decision": "Not a duplicate: existing row rebuilds the PlayStation USA release for Linux; OpenSpidey consumes the distinct 2000 Windows PC disc/installed release and targets native Windows/Linux."
+    },
+    {
+      "candidate_id": "resident-evil-1997-pc-decomp",
+      "related_existing_ids": [
+        "resident-evil-1-5-prototype-playstation-static-recomp",
+        "resident-evil-deadly-silence-nds-decomp"
+      ],
+      "decision": "Not duplicates: the existing records cover the Resident Evil 1.5 PlayStation prototype and Resident Evil: Deadly Silence DS; this proposal is the 1997 Windows PC retail build."
+    },
+    {
+      "candidate_id": "windows-95-build-9506-decompilation",
+      "related_existing_ids": [
+        "jspaint-classic-microsoft-paint-reimplementation",
+        "opencalc-windows-95-calculator-reimplementation"
+      ],
+      "decision": "Not duplicates: those rows reconstruct separate Paint and Calculator applications; this proposal targets Windows 95 OS components and matching binaries."
+    },
+    {
+      "candidate_id": "pool-of-radiance-dos-v13-source-reconstruction",
+      "existing_id": "opengold-pool-of-radiance",
+      "existing_game": "Pool of Radiance",
+      "existing_platform": "DOS → Windows/macOS",
+      "existing_repository": "https://github.com/stdarg/OpenGold",
+      "decision": "Same named game but distinct repository and reconstruction method: OpenGold is a C++20/Godot reimplementation with playable areas, while poolrad-decomp targets DOS v1.3 source reconstruction and explicitly has no native playable route. Retained as a distinct project row; human reviewer should preserve this distinction."
+    }
+  ],
+  "prior_import_manifest_hits": [],
+  "prior_discovery_mentions": [
+    {
+      "candidate_id": "resident-evil-1997-pc-decomp",
+      "file": "work/research-latest/15-recent-discovery/decomp-created-short.json",
+      "context": "Raw search/discovery result only, not an importer-shaped project addition."
+    },
+    {
+      "candidate_id": "spider-man-2000-pc-decompilation-native-port",
+      "file": "work/research-2026-10-16/continuation-round13/game-decomps/evidence/candidates/SamidyFR_Game-Decompilations/README.md",
+      "context": "Third-party game-decomp index mentions the upstream spidey-decomp project; it is a discovery reference, not an importer-shaped addition for OpenSpidey."
+    },
+    {
+      "candidate_id": "spider-man-2000-pc-decompilation-native-port",
+      "file": "work/research-oct16/fresh-nintendo/evidence/discovery-tracker-README.md",
+      "context": "Prior discovery note mentions the upstream spidey-decomp project; not a project addition."
+    }
+  ],
+  "scope_note": "Scanned the current catalog and prior project-addition/import-shaped JSON manifests in data/research and available work research batches. Search result files, tracker indexes, and candidate README mentions are reported separately from actual project additions.",
+  "second_search_deduplication": [
+    {
+      "repository": "https://github.com/albovsky/nd-blackmoor-decomp",
+      "game": "Nancy Drew: Curse of Blackmoor Manor",
+      "catalog_matches": [
+        {
+          "id": "nancy-drew-blackmoor-manor-gog-decomp",
+          "title": "Nancy Drew: Curse of Blackmoor Manor PC Source Reconstruction",
+          "game": "Nancy Drew: Curse of Blackmoor Manor (PC GOG GAME.EXE)",
+          "platform": "Original Windows x86 GOG executable; native ARM64 macOS port work is incomplete",
+          "project_url": "https://github.com/albovsky/nd-blackmoor-decomp"
+        }
+      ],
+      "decision": "excluded from new-project manifest; exact repository already represented"
+    },
+    {
+      "repository": "https://github.com/vonhoff/lemball-decomp",
+      "game": "Lemmings Paintball",
+      "catalog_matches": [
+        {
+          "id": "lemmings-paintball-pc-decomp",
+          "title": "Lemmings Paintball Windows Matching Decompilation",
+          "game": "Lemmings Paintball",
+          "platform": "Windows 95 PC",
+          "project_url": "https://github.com/vonhoff/lemball-decomp"
+        }
+      ],
+      "decision": "excluded from new-project manifest; exact repository already represented"
+    }
+  ]
+}

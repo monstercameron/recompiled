@@ -1,0 +1,69 @@
+{
+  "verified_at": "2026-10-16",
+  "records": [
+    {
+      "project_id": "original-xbox-xboxrecomp-toolkit",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {"C":3026140,"Python":1784268,"CMake":49825,"Shell":35658,"Perl":6225,"Java":5446,"C++":4522},
+      "evidence_url": "https://api.github.com/repos/sp00nznet/xboxrecomp/languages",
+      "evidence": "Exact GitHub Languages API per-language byte counts for the reviewed repository.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "rexglue-xbox360-recompilation-sdk",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {"C":13410970,"C++":9297893,"Assembly":304693,"CMake":86445,"Python":27309,"PowerShell":22690,"Shell":8615,"GLSL":7119,"HLSL":6177,"Pawn":1111,"SourcePawn":967,"Batchfile":60},
+      "evidence_url": "https://api.github.com/repos/rexglue/rexglue-sdk/languages",
+      "evidence": "Exact GitHub Languages API per-language byte counts for the reviewed repository.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "rexauto-xbox360-recompilation-workflow",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {"Python":563248,"Java":161373,"C++":139177,"HTML":43609,"CMake":10134,"Shell":2263,"C":864},
+      "evidence_url": "https://api.github.com/repos/Player124413/rexauto/languages",
+      "evidence": "Exact GitHub Languages API per-language byte counts for the reviewed repository.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "sonic-2006-xbox360-matching-decompilation",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {"C":786268,"HTML":182232,"Python":102419,"C++":24675,"Lua":19421,"Roff":7273,"Makefile":5944},
+      "evidence_url": "https://api.github.com/repos/rjkiv/sonic06/languages",
+      "evidence": "Exact GitHub Languages API per-language byte counts for the reviewed repository.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "terraria-ogc-console-decompilation-windows-port",
+      "predominant_language": "C#",
+      "language_breakdown_bytes": {"C#":5547965},
+      "evidence_url": "https://api.github.com/repos/PPrism/TerrariaOGC/languages",
+      "evidence": "Exact GitHub Languages API per-language byte counts for the reviewed repository.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "ace-combat-6-project-gracemeria-xenon-module",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {"C++":45655,"Python":6214,"CMake":3848},
+      "evidence_url": "https://api.github.com/repos/nimauria/Project-Gracemeria/languages",
+      "evidence": "Exact GitHub Languages API per-language byte counts for the reviewed repository.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "monster-hunter-jp-ps2-matching-decomp-pc-xbox",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {"C":18010323,"Python":1382936,"Shell":307228,"Batchfile":4609,"PowerShell":2556,"Makefile":1829,"BitBake":1403,"Linker Script":1069},
+      "evidence_url": "https://api.github.com/repos/itsbigcforme67/mh1-xbox/languages",
+      "evidence": "Exact GitHub Languages API per-language byte counts for the shared project repository. The same repository map is repeated for the separate MH G target record.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "monster-hunter-g-jp-ps2-matching-decomp-pc-xbox",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {"C":18010323,"Python":1382936,"Shell":307228,"Batchfile":4609,"PowerShell":2556,"Makefile":1829,"BitBake":1403,"Linker Script":1069},
+      "evidence_url": "https://api.github.com/repos/itsbigcforme67/mh1-xbox/languages",
+      "evidence": "Exact GitHub Languages API per-language byte counts for the shared project repository. The same repository map is repeated for the separate base Monster Hunter target record.",
+      "verified_at": "2026-10-16"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "updated": "2026-10-16",
+  "verified_at": "2026-10-16",
+  "scope": "Source-reviewed Apple Silicon/macOS game recompilation and native-port candidates. Includes one Windows x86-to-Metal static recompilation, one Unity managed-data/native Metal port with a separate D3DMetal path, and one Wii U PowerPC-to-Metal recompilation. Exact duplicates, thin candidates, and already-catalogued D3D9 translation coverage are excluded.",
+  "projects": [
+    {
+      "id": "fallout-new-vegas-macos-arm64-static-recomp",
+      "title": "Fallout: New Vegas Windows x86 to Apple Silicon Static Recompilation",
+      "game": "Fallout: New Vegas",
+      "target_type": "Game",
+      "platform": "Windows PC x86 32-bit (user-supplied DRM-free executable; exact revision unreported) → native Apple Silicon macOS arm64 with Metal",
+      "kind": "Recompilation",
+      "status": "The maintainer reports Fallout: New Vegas running natively on Apple Silicon after ahead-of-time translation of the full executable (93,500 functions). A recorded one-hour scripted run crossed 13 world cells without crashes; the README reports 8,767 of 8,830 testable leaf functions matching exactly in differential tests. DirectSound audio, Bink video, gamepad support, the fixed-function rendering pipeline, and NVSE/script-extender mods remain unfinished. The tested executable revision is not identified, and no GitHub release is published (checked 2026-10-16).",
+      "summary": "Uses Ghidra to lift x86 instructions to P-code, emits C per function, and compiles that code for Apple Silicon. A native host supplies Win32/COM shims and maps Direct3D 9 rendering to Metal; shader models 1–3 are translated to Metal Shading Language at runtime, with embedded Unicorn as a safety fallback for code not translated. The repository contains tools only: users supply a legally purchased, unencrypted 32-bit Windows executable, and game-derived output stays local.",
+      "project_url": "https://github.com/thetheoryofR/Fallout-NV-MacOS",
+      "updated": "2026-10-16",
+      "strategy": "Ahead-of-time Windows x86 machine-code lifting to C, with native Apple Silicon runtime shims and Direct3D 9-to-Metal rendering.",
+      "source_available": "Public MIT-licensed tool source; the repository excludes game code/assets and generated output. A legally purchased, unencrypted 32-bit Windows game executable is required; generated code and libraries remain local.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Windows x86 static recompilation / Apple Silicon native game port",
+      "sources": [
+        {
+          "label": "Maintainer README: method, native gameplay report, tests, supported host, limitations, and source handling",
+          "url": "https://github.com/thetheoryofR/Fallout-NV-MacOS"
+        },
+        {
+          "label": "Maintainer design notes for the P-code lifter and host runtime",
+          "url": "https://github.com/thetheoryofR/Fallout-NV-MacOS/blob/main/docs/DESIGN.md"
+        },
+        {
+          "label": "Repository MIT license (covers tool code only)",
+          "url": "https://github.com/thetheoryofR/Fallout-NV-MacOS/blob/main/LICENSE"
+        },
+        {
+          "label": "GitHub repository metadata",
+          "url": "https://api.github.com/repos/thetheoryofR/Fallout-NV-MacOS"
+        },
+        {
+          "label": "GitHub Languages API exact byte totals",
+          "url": "https://api.github.com/repos/thetheoryofR/Fallout-NV-MacOS/languages"
+        },
+        {
+          "label": "GitHub releases listing; no release present at verification",
+          "url": "https://github.com/thetheoryofR/Fallout-NV-MacOS/releases"
+        }
+      ]
+    },
+    {
+      "id": "casualties-unknown-apple-silicon-native-port",
+      "title": "Casualties: Unknown 7.0 Steam Demo Apple Silicon Port",
+      "game": "Casualties: Unknown",
+      "target_type": "Game",
+      "platform": "Windows 10 x86-64 Steam demo v7.0 → native Apple Silicon macOS arm64 Unity player with Metal; alternate run path uses Wine, Rosetta 2, and D3DMetal on Apple Silicon",
+      "kind": "Reimplementation",
+      "status": "The maintainer’s latest documented milestone (2026-07) says the v7.0 Steam demo is fully playable end-to-end in the native Apple Silicon build, with all 65 shaders converted to Metal and a one-command rebuild. The project does not report a port of the full game’s later release; Steam lists the full game’s release as planned for 2026-11-09, which is still in the future as of this verification. The native menu has a documented GPU inefficiency, and the separate Casualties: Together multiplayer adaptation remains experimental and is not yet a one-command install. No GitHub release is published (checked 2026-10-16).",
+      "summary": "The main native path transplants the demo’s original managed CIL and game data into a stock Unity macOS ARM64 player, with platform adjustments and offline conversion of its 65 Direct3D 11-only shaders to Metal; CPU game code is not statically recompiled. The same repository also documents an unmodified Windows executable running under Wine + Rosetta 2 + Apple D3DMetal, which translates D3D11 to Metal at runtime. This is a game-specific native engine/data port plus a separate compatibility route, not a general-purpose D3D translation layer. Requires the user’s own game files and Unity 2022.3.62f3 Mac Build Support; no game files or Unity runtime are distributed.",
+      "project_url": "https://github.com/Andreansx/casualties-unknown-apple-silicon",
+      "updated": "2026-10-16",
+      "strategy": "Native Unity ARM64 payload port preserving the original managed CIL and assets, with offline D3D11 shader conversion to Metal; a separate Wine/Rosetta/D3DMetal runtime route is documented.",
+      "source_available": "Public MIT-licensed tooling and documentation; the repository does not include the game or Unity runtime. Build from a user-owned game copy with Unity 2022.3.62f3 and Mac Build Support.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "Python",
+      "subtype": "Windows Unity game data port / native Apple Silicon Metal player",
+      "sources": [
+        {
+          "label": "Maintainer README: two Apple Silicon paths, native port method, state, limitations, and legal handling",
+          "url": "https://github.com/Andreansx/casualties-unknown-apple-silicon"
+        },
+        {
+          "label": "Maintainer technical report for the Steam demo v7.0 native Metal port",
+          "url": "https://github.com/Andreansx/casualties-unknown-apple-silicon/blob/main/docs/port-7.0.md"
+        },
+        {
+          "label": "Maintainer roadmap and outstanding work",
+          "url": "https://github.com/Andreansx/casualties-unknown-apple-silicon/blob/main/ROADMAP.md"
+        },
+        {
+          "label": "Official Steam product listing: developer, publisher, Windows requirements, and planned release date",
+          "url": "https://store.steampowered.com/app/4576490/Casualties_Unknown/"
+        },
+        {
+          "label": "Official Steam demo listing: demo release date and supported subset",
+          "url": "https://store.steampowered.com/app/4576510/Casualties_Unknown_Demo/"
+        },
+        {
+          "label": "Repository MIT license (covers project code only)",
+          "url": "https://github.com/Andreansx/casualties-unknown-apple-silicon/blob/main/LICENSE"
+        },
+        {
+          "label": "GitHub repository metadata",
+          "url": "https://api.github.com/repos/Andreansx/casualties-unknown-apple-silicon"
+        },
+        {
+          "label": "GitHub Languages API exact byte totals",
+          "url": "https://api.github.com/repos/Andreansx/casualties-unknown-apple-silicon/languages"
+        },
+        {
+          "label": "GitHub releases listing; no release present at verification",
+          "url": "https://github.com/Andreansx/casualties-unknown-apple-silicon/releases"
+        }
+      ]
+    },
+    {
+      "id": "twilight-princess-hd-wiiu-macos-arm64-static-recomp",
+      "title": "The Legend of Zelda: Twilight Princess HD Wii U to macOS Static Recompilation",
+      "game": "The Legend of Zelda: Twilight Princess HD",
+      "target_type": "Game",
+      "platform": "Wii U USA disc, title 00050000-1019E500, version 81 (Rev 2) → Apple Silicon macOS 14+ arm64, Metal only",
+      "kind": "Recompilation",
+      "status": "Work in progress. The maintainer reports booting through the logos to the title screen, starting a new file, playing the opening at the spring, and walking around Ordon Village. All 78 disc stages load, draw, and continue running when warped to; graphics, HUD, and sound work. A real controller has not been tested. The repository says no builds are published (checked 2026-10-16).",
+      "summary": "Statically translates the Wii U PowerPC `Zelda.rpx` to C ahead of time, reimplements the imported Cafe OS libraries natively, and renders GX2 through Metal without an emulator at runtime. It reuses the recompiler, runtime, and renderer from ZeldaWWHDRecomp. Only the USA disc v81/Rev 2 executable hash is supported; other regions, updates, and DLC are unsupported. Users provide their own Wii U disc/image and keys; generated game code and data remain local.",
+      "project_url": "https://github.com/AsadSi/twilight-princess-hd-recomp",
+      "updated": "2026-10-16",
+      "strategy": "Ahead-of-time Wii U PowerPC recompilation to C plus native Cafe OS reimplementation and GX2-to-Metal rendering.",
+      "source_available": "Public MPL-2.0 project source; no game code, assets, or keys are included. Requires a user-supplied Wii U game dump and keys; generated code and extracted data stay local.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Wii U PowerPC static recompilation / Apple Silicon native Metal port",
+      "sources": [
+        {
+          "label": "Maintainer README: exact USA Rev 2 source, recompilation method, current gameplay status, requirements, and limitations",
+          "url": "https://github.com/AsadSi/twilight-princess-hd-recomp"
+        },
+        {
+          "label": "Repository MPL-2.0 license",
+          "url": "https://github.com/AsadSi/twilight-princess-hd-recomp/blob/main/LICENSE"
+        },
+        {
+          "label": "GitHub repository metadata",
+          "url": "https://api.github.com/repos/AsadSi/twilight-princess-hd-recomp"
+        },
+        {
+          "label": "GitHub Languages API exact byte totals",
+          "url": "https://api.github.com/repos/AsadSi/twilight-princess-hd-recomp/languages"
+        },
+        {
+          "label": "GitHub releases listing; README says no builds are published",
+          "url": "https://github.com/AsadSi/twilight-princess-hd-recomp/releases"
+        },
+        {
+          "label": "Nintendo product page: Wii U platform, date, categories, publisher, and developer listing",
+          "url": "https://www.nintendo.com/en-gb/Games/Wii-U-games/The-Legend-of-Zelda-Twilight-Princess-HD-1082222.html"
+        }
+      ]
+    }
+  ]
+}

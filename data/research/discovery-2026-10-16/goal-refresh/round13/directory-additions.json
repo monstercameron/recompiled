@@ -1,0 +1,61 @@
+{
+  "updated": "2026-10-16",
+  "scope": "New discovery pointers only; no projects or records have been copied from these third-party trackers. Descriptions distinguish each resource scope and retain access/claim limitations.",
+  "items": [
+    {
+      "id": "decompendium-index",
+      "item_type": "Website",
+      "category": "Project discovery indexes",
+      "name": "Decompendium",
+      "description": "A public index of matching game decompilations, grouped by game, with progress sourced from each project’s own CI. The live site describes matching as byte-for-byte reproduction and states that it hosts no code or game data.",
+      "url": "https://decompendium.com/",
+      "source_url": "https://github.com/kDylanHayes/decompendium/blob/main/README.md",
+      "source_evidence": "The maintainer README defines the index as matching decompilations grouped by game, explains CI-derived progress, and links the live site. The homepage was fetched successfully on 2026-10-16 and displayed game/project entries with progress. The repository distinguishes MIT code from CC0 catalog data. Added as an index pointer only; its project list was not copied.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "id": "recompsoftware-tracker",
+      "item_type": "Website",
+      "category": "Project discovery indexes",
+      "name": "Recomp",
+      "description": "A live tracker for game and software decompilation, static recompilation, clean-room reconstruction and preservation projects, with console/category browsing, activity and release views.",
+      "url": "https://recompsoftware.com/",
+      "source_url": "https://recompsoftware.com/",
+      "source_evidence": "The live homepage describes coverage of decompilation, static recompilation, clean-room and preservation work; it exposes categories, per-platform lists, releases, news and project links. The page was fetched successfully on 2026-10-16. It is distinct from recomp.fyi, which remains separately cataloged. No tracker records were copied.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "id": "decompilati-onl-tracker",
+      "item_type": "Website",
+      "category": "Project discovery indexes",
+      "name": "decompilati.onl",
+      "description": "A game-decompilation progress tracker where project owners report code/data progress from CI. The checked homepage exposed three projects and describes matching, partial matching, data progress, project areas, history and community votes; it does not present itself as a general recompilation index.",
+      "url": "https://decompilati.onl/",
+      "source_url": "https://github.com/Almamu/decompilati.onl",
+      "source_evidence": "The official repository README documents owner registration and CI/webhook reporting, matching and partial matching progress, data reports, project history and community votes. The live homepage was fetched successfully on 2026-10-16 and showed three listed projects plus a link from decomp.dev. Its narrower decompilation-only scope is retained here. No tracker records were copied.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "id": "bytematch-progress-tracker",
+      "item_type": "Website",
+      "category": "Project discovery indexes",
+      "name": "ByteMatch",
+      "description": "An open-source matching-decompilation progress tracker that ingests objdiff CI reports and provides project pages, unit maps, history, badges, an API and GitHub pull-request comments. Its maintainer README presents it as a decomp.dev successor with history import.",
+      "url": "https://bytematch.dev/",
+      "source_url": "https://github.com/Veradictus/ByteMatch",
+      "source_evidence": "The official repository README documents ingestion of objdiff reports, progress pages/history/badges/API, GitHub pull-request comments, migration of decomp.dev history, and GPL-3.0 licensing. The public site was fetched successfully on 2026-10-16. GitHub metadata showed an active, non-archived repository last pushed 2026-10-15. Added as a discovery pointer only; no project records were copied.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "id": "pcmr-latam-pc-port-decomp-recomp-list",
+      "item_type": "Website",
+      "category": "Project discovery indexes",
+      "name": "PC Master Race Latinoamérica native PC port / recomp / decomp list",
+      "description": "A community-published reference page for native PC ports, recompilations and decompilations. Its publisher’s X post on 2026-10-16 says the list had 300+ new or updated entries and added required ROM/ISO/PKG filenames or specific game versions where available. The linked article returned HTTP 403 during review, so its contents and count could not be inspected independently.",
+      "url": "https://www.pcmrace.com/2026/10/06/lista-pc-port-nativo-decomp-recomp/",
+      "source_url": "https://x.com/PCMR_LATAM/status/2110983153418641846",
+      "source_evidence": "The publisher’s X post links to this article and self-reports a major update with 300+ new/updated entries and more specific file/version requirements. X’s public page returned the post text on 2026-10-16. The linked PCMR article returned HTTP 403, so this is listed only as a clearly qualified discovery pointer; neither the 300+ figure nor the article contents are independently verified.",
+      "verified_at": "2026-10-16"
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "verified_at": "2026-10-16",
+  "catalog_snapshot": {
+    "path": "/Users/earlcameron/Desktop/recompiled/data/catalog.sqlite",
+    "project_rows": 3450,
+    "access": "read-only"
+  },
+  "new_project_rows": [],
+  "decision": "No new source-confirmed console/PC-to-phone project rows are staged in Round 13. Direct leads were checked against catalog targets; the only seemingly new high-signal PS1→Android group is a multi-repository build matrix whose game-specific child repos have not yet been individually verified, so it is held for follow-up rather than represented by its generic umbrella.",
+  "held_leads": [
+    {
+      "repository": "https://github.com/dguillot-gh/psx-android",
+      "candidate_targets": [
+        "ATV Racers",
+        "Crash Bandicoot 2",
+        "Crash Bandicoot 3: Warped",
+        "Einhänder",
+        "Final Fantasy VII",
+        "Gex",
+        "Gex 2",
+        "Gex 3",
+        "Gran Turismo 2 Arcade",
+        "Gran Turismo 2 Simulation",
+        "LEGO Island 2",
+        "Legend of Dragoon",
+        "Parasite Eve",
+        "Parasite Eve II",
+        "Persona",
+        "Persona 2: Eternal Punishment",
+        "Policenauts",
+        "Racing Lagoon",
+        "Tomba!",
+        "Tomba! 2",
+        "Mizzurna Falls: The Chilling Cut"
+      ],
+      "evidence": "Root README says the umbrella uses psxrecomp static recompilation for native Android apps; its games table reports Pixel 8 status and `.gitmodules` maps each title to a separate child repository. Root README and .gitmodules snapshots were captured.",
+      "reason": "The parent repository is a generic build orchestrator and documents that each game has its own child repo and README/license. The child repositories were not individually source-reviewed in time to confirm target revisions, per-game status, licenses, and source availability. Do not import any game rows based only on the umbrella README or as one umbrella game record."
+    },
+    {
+      "repository": "https://github.com/Zhes-20/R.E.P.O.E.V.R",
+      "candidate_targets": [
+        "R.E.P.O."
+      ],
+      "evidence": "Maintainer repo README and release metadata say Android APK and iOS IPA v1.0.0 were published 2026-06-03, using user-supplied PC `REPO_Data`; repository root contains README only, GitHub Languages API is empty, no license is declared, and release contains only binary packages.",
+      "reason": "Hold: source/method and binary contents cannot be verified from the project’s public source; cannot accurately select Reimplementation vs another supported method. No source code or license is declared."
+    },
+    {
+      "repository": "https://github.com/jessicanataliagta/AndroidRecomp",
+      "candidate_targets": [
+        "Backstab HD"
+      ],
+      "evidence": "Framework README describes a dynamic runtime porting framework for original Android ARMv7 games; BackStabRecomp child is described as an Android-to-Windows port.",
+      "reason": "Reverse direction (Android game to Windows), not a console/PC-to-phone port. Generic framework not a game-specific target row."
+    },
+    {
+      "repository": "https://github.com/HLLArtyParty/WaveRace64RecompForAndroid",
+      "candidate_targets": [
+        "Wave Race 64"
+      ],
+      "evidence": "Repository README calls it a bring-up branch and not a release build; Android 9+/ARM64/Vulkan and user ROM requirements are documented.",
+      "reason": "Held: no release build or license; no source-backed playable status; repository file listing includes an encrypted ROM-named file. No assets were downloaded."
+    }
+  ],
+  "searched_direct_candidates": [
+    "https://github.com/chrissotraidis/ottsel",
+    "https://github.com/chrissotraidis/annepad",
+    "https://github.com/dorPXP/driftdroid",
+    "https://github.com/OpenPort-Labs/Galaxy-Android",
+    "https://github.com/OpenPort-Labs/mw2-android",
+    "https://github.com/ZeldaWWHDRecomp/ZeldaWWHDRecomp",
+    "https://github.com/SSunnKing/ZeldaWWHDRecompAndroid---ENHANCED",
+    "https://github.com/chrissotraidis/kartpad",
+    "https://github.com/bep1s69/nfsmw-ios",
+    "https://github.com/ProjectReach/HaloPad"
+  ],
+  "catalog_dedupe": "All enumerated direct candidates have an existing matching game/target or repo/target record, including Ottsel/Jak and Daxter iOS, AnnePad/Pokémon Stadium iOS, DriftDroid/Mario Kart Wii Android, Galaxy Android/Super Mario Galaxy, MW2 Android, Wind Waker HD Android variants, KartPad/Mario Kart Wii, NFS Most Wanted iOS, and HaloPad/Halo CE iOS. No second row was staged.",
+  "known_target_duplicates": [
+    {
+      "project_id": "mizzurna-falls-ps1-android-static-recomp",
+      "game": "Mizzurna Falls (Japan PS1, SLPS-01783; Cirosan fan-translation build)",
+      "platform": "PlayStation 1 → Android",
+      "project_url": "https://github.com/dguillot-gh/mizzurnafallsthechillingcut-android",
+      "decision": "Exact game/target child of dguillot-gh/psx-android already exists; do not add."
+    },
+    {
+      "project_id": "projectreach-halo-xbox-ios",
+      "game": "Halo: Combat Evolved (Original Xbox edition)",
+      "platform": "Original Xbox → iOS/iPadOS/macOS",
+      "project_url": "https://github.com/chrissotraidis/projectreach",
+      "decision": "HaloPad already covers the iOS target; do not add."
+    },
+    {
+      "project_id": "annepad-pokemon-stadium-ios",
+      "game": "Pokémon Stadium (US) 1.0",
+      "platform": "Nintendo 64 → iOS/iPadOS",
+      "project_url": "https://github.com/chrissotraidis/annepad",
+      "decision": "AnnePad already covers iOS/iPadOS target; do not add."
+    },
+    {
+      "project_id": "mario-kart-wii-driftdroid",
+      "game": "Mario Kart Wii",
+      "platform": "Wii → Android",
+      "project_url": "https://github.com/dorPXP/driftdroid",
+      "decision": "DriftDroid already covers Android target; do not add."
+    },
+    {
+      "project_id": "super-mario-galaxy-android-port",
+      "game": "Super Mario Galaxy",
+      "platform": "Wii → Android ARM64",
+      "project_url": "https://github.com/OpenPort-Labs/Galaxy-Android",
+      "decision": "Galaxy Android already covers the Android target; do not add."
+    },
+    {
+      "project_id": "call-of-duty-modern-warfare-2-xbox360-android-recomp",
+      "game": "Call of Duty: Modern Warfare 2 (2009, Xbox 360 version)",
+      "platform": "Xbox 360 → Android ARM64, Linux, Windows x86-64",
+      "project_url": "https://github.com/OpenPort-Labs/mw2-android",
+      "decision": "Already in catalog; do not add."
+    },
+    {
+      "project_id": "wind-waker-hd-android-plus",
+      "game": "The Legend of Zelda: The Wind Waker HD",
+      "platform": "Wii U → Android",
+      "project_url": "https://github.com/Nycolazs/WindWakerHD-Android-Plus",
+      "decision": "Android Plus fork already in catalog; do not add."
+    },
+    {
+      "project_id": "wind-waker-hd-recompilation",
+      "game": "The Legend of Zelda: The Wind Waker HD",
+      "platform": "Wii U → Windows/macOS/Linux/Android",
+      "project_url": "https://github.com/ZeldaWWHDRecomp/ZeldaWWHDRecomp",
+      "decision": "Official recompilation project already includes Android target; do not add."
+    },
+    {
+      "project_id": "wind-waker-hd-android-enhanced-fork",
+      "game": "The Legend of Zelda: The Wind Waker HD",
+      "platform": "Wii U → Android arm64",
+      "project_url": "https://github.com/SSunnKing/ZeldaWWHDRecompAndroid---ENHANCED",
+      "decision": "Enhanced Android fork already in catalog; do not add."
+    },
+    {
+      "project_id": "kartpad-mario-kart-wii",
+      "game": "Mario Kart Wii",
+      "platform": "Wii → iOS/iPadOS/macOS/tvOS/Android",
+      "project_url": "https://github.com/chrissotraidis/kartpad",
+      "decision": "KartPad already covers Android and Apple targets; do not add."
+    },
+    {
+      "project_id": "nfs-most-wanted-ios-recomp",
+      "game": "Need for Speed: Most Wanted",
+      "platform": "Xbox 360 → iOS",
+      "project_url": "https://github.com/bep1s69/nfsmw-ios",
+      "decision": "NFS MW iOS already catalogued; do not add."
+    },
+    {
+      "project_id": "skate3-port-android",
+      "game": "Skate 3",
+      "platform": "Xbox 360 → Android",
+      "project_url": "https://github.com/darchap/Skate3-Port",
+      "decision": "Existing Android target; the catalog also contains a second Android entry for the same target family. Do not add."
+    },
+    {
+      "project_id": "minecraft-xbox360-ios-mcx360-edition",
+      "game": "Minecraft: Xbox 360 Edition",
+      "platform": "Xbox 360 → iOS/iPadOS",
+      "project_url": "https://github.com/DevZer0D4Y/MCX360-EDITION",
+      "decision": "Existing iOS target; do not add another MCX360-iOS project as a separate game target."
+    },
+    {
+      "project_id": "road-trip-adventure-ps2-recomp",
+      "game": "Road Trip Adventure (Choro Q HG 2)",
+      "platform": "PlayStation 2 → Windows/macOS/Android",
+      "project_url": "https://github.com/silentsudin/RoadTripAdventure-recomp",
+      "decision": "Existing Android target; do not add."
+    },
+    {
+      "project_id": "lost-odyssey-recomp",
+      "game": "Lost Odyssey",
+      "platform": "Xbox 360 → Windows, Linux, macOS, Android",
+      "project_url": "https://github.com/freefrank/LostOdysseyRecomp",
+      "decision": "Existing Android target; do not add."
+    }
+  ]
+}

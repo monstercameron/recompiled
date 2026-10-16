@@ -1,0 +1,45 @@
+{
+  "verified_at": "2026-10-16",
+  "held_leads": [
+    {
+      "lead": "Flower, Sun and Rain Romanian PS2 patch",
+      "candidate_target": "Flower, Sun and Rain (PlayStation 2)",
+      "sources": [
+        "https://romhackplaza.org/translations/flower-sun-and-rain-romanian-translation-playstation-2",
+        "https://mrbeantranslation.ro/lansari/fsr",
+        "https://www.reddit.com/r/Suda_51/comments/1vktf89/flower_sun_and_rain_ps2_new_translation_patch/"
+      ],
+      "reason": "Romhack Plaza lists a complete Romanian v1.0 release and the translator announced it, but the tracker page currently exposes “No files found”; the maintainer landing page currently has descriptive media but no visible patch/download instructions. Hold until an accessible maintainer release or file is verified. Language direction is Japanese → Romanian per tracker; no import row staged."
+    },
+    {
+      "lead": "I Want a Room in Loopy Town English patch",
+      "candidate_target": "I Want a Room in Loopy Town (Casio Loopy)",
+      "sources": [
+        "https://romhack.ing/database/content/entry/79qRrLCvRwC0K4tySOyC3A"
+      ],
+      "reason": "Tracker/page not accessible in this review and no maintainer repository/release source was recovered. Secondary lead only; hold."
+    },
+    {
+      "lead": "Air Management ’96 PS1 English patch",
+      "candidate_target": "Air Management ’96 (PlayStation)",
+      "sources": [
+        "https://brokenjoysticks.net/2026/05/22/air-management-96-translation/"
+      ],
+      "reason": "Discovery lead is secondary; no accessible maintainer repository/release page was found to verify patch delivery, exact coverage, and license. Hold."
+    },
+    {
+      "lead": "Flower, Sun, and Rain English patch (Patchbay Works)",
+      "candidate_target": "Flower, Sun, and Rain (Nintendo DS)",
+      "sources": [
+        "https://www.reddit.com/r/Suda_51/"
+      ],
+      "reason": "This is a separate English project from the Romanian PS2 patch; discussion reports the translator disavowed the patch after an AI-translation controversy. No maintainer-approved patch source was verified; do not import."
+    }
+  ],
+  "reviewed_not_imported": [
+    {
+      "lead": "Mobile Suit Gundam Unicorn PS3 Simplified Chinese patch custom license",
+      "reason": "Included with restrictive custom-use text described in the project row; no redistribution, extraction, or mirroring of patch assets."
+    }
+  ]
+}

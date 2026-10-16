@@ -1,0 +1,56 @@
+{
+  "updated": "2026-10-16",
+  "catalog_snapshot": {
+    "projects": 3450,
+    "software_projects": 1060
+  },
+  "candidate_count": 3,
+  "discovery_queries": [
+    {
+      "method": "Web search; discovery only",
+      "query": "site:github.com clean-room reimplementation software application backend not game",
+      "lead_urls": [
+        "https://github.com/spacebarchat/server",
+        "https://github.com/Dicklesworthstone/frankenredis",
+        "https://github.com/The-Libre-Project/Weave",
+        "https://github.com/Esri/punic"
+      ]
+    },
+    {
+      "method": "Web search; discovery only",
+      "query": "site:github.com reverse-engineered Linux driver Apple Neural Engine",
+      "lead_urls": [
+        "https://github.com/eiln/ane",
+        "https://github.com/mdaiter/ane",
+        "https://github.com/maderix/ANE"
+      ]
+    },
+    {
+      "method": "Web search; discovery only",
+      "query": "GitHub firmware clean-room reimplementation bootloader reverse engineered",
+      "lead_urls": [
+        "https://github.com/redragor/at91rm9200-lto-bootloader",
+        "https://github.com/jma24/mkmsbr"
+      ]
+    },
+    {
+      "method": "Web search; discovery only",
+      "query": "GitHub application native recompilation non-game software decompilation project",
+      "lead_urls": [
+        "https://github.com/manfromafar/winamp",
+        "https://github.com/ProjectorRays/ProjectorRays",
+        "https://github.com/DatanoiseTV/revenant"
+      ]
+    },
+    {
+      "method": "Web search; discovery only",
+      "query": "GitHub clean room reimplementation proprietary application software source reconstruction",
+      "lead_urls": [
+        "https://github.com/niansa/LuxonServer",
+        "https://github.com/open-pocket/open-pocket",
+        "https://github.com/khhvmc5g6f-eng/clean-room-coding"
+      ]
+    }
+  ],
+  "audit_note": "Search-result pages and topic indexes were used only to find leads. Inclusion facts were verified against each project's own README/docs, license files, release pages, and official GitHub REST metadata. Exact language totals came from each canonical GitHub Languages API endpoint."
+}

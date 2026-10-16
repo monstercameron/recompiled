@@ -1,0 +1,367 @@
+{
+  "updated": "2026-10-16",
+  "scope": "Importer-ready candidate additions for PC software/game reverse-engineering, decompilation and source reconstruction. This is a research staging manifest only; no catalog DB, tracked files, code, or media were modified or copied. Rows preserve limits on status claims, method, licenses and bundled original binaries/assets.",
+  "projects": [
+    {
+      "id": "resident-evil-1997-pc-decomp",
+      "title": "Resident Evil 1 PC Decompilation",
+      "game": "Resident Evil 1 (1997 PC release; GOG USA binary; Japanese PC support and optional PS1 Director’s Cut content overlay)",
+      "target_type": "Game",
+      "platform": "1997 32-bit PC game → Windows Win32 / Direct3D 11 and Linux x86 / SDL2 + OpenGL 3.3",
+      "kind": "Decompilation",
+      "status": "The latest maintainer release is residentevil-v1.3.0 (2026-09-27). The README calls the port functionally complete and says the original game is playable; its decompilation status lists 1,716 of 1,717 in-scope game-logic functions implemented and 84 of 84 Marni-system functions complete. This is a source reconstruction on modern rendering/audio backends, not a byte-matching build. The original game data is not distributed.",
+      "summary": "A source reconstruction of the 1997 Windows PC Resident Evil executable from Ghidra analysis, with the original Marni/DirectX 5 layer implemented on modern Windows and Linux backends. The README reports full-game playability, while the tracked function table records one remaining in-scope logic function. The project expects the user to supply game data; Japanese PC content and a PS1 Director’s Cut overlay are optional.",
+      "project_url": "https://github.com/ecruells/resident-evil-pc-decomp",
+      "updated": "2026-10-16",
+      "strategy": "Ghidra-guided decompilation/source reconstruction of the PC game logic and Marni system, with new platform and renderer backends. Original machine code is not claimed to match byte-for-byte.",
+      "language": "",
+      "source_available": "Public source under GPL-3.0. The repository does not include original game data; the user must supply files from a legally obtained compatible PC release.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Windows PC game decompilation and cross-platform source port",
+      "sources": [
+        {
+          "label": "Maintainer README: target release, reverse-engineering method, function completion, platform backends, playable status and asset requirements",
+          "url": "https://github.com/ecruells/resident-evil-pc-decomp/blob/15004914527567a2b9cecf34997abe8c252bcbf9/README.md"
+        },
+        {
+          "label": "Latest release, residentevil-v1.3.0 (2026-09-27)",
+          "url": "https://github.com/ecruells/resident-evil-pc-decomp/releases/tag/residentevil-v1.3.0"
+        },
+        {
+          "label": "GPL-3.0 license",
+          "url": "https://github.com/ecruells/resident-evil-pc-decomp/blob/main/LICENSE"
+        },
+        {
+          "label": "GitHub repository metadata API snapshot (repository state, last push, archive/fork and license fields checked 2026-10-16)",
+          "url": "https://api.github.com/repos/ecruells/resident-evil-pc-decomp"
+        },
+        {
+          "label": "Project license file",
+          "url": "https://github.com/ecruells/resident-evil-pc-decomp/blob/main/LICENSE"
+        },
+        {
+          "label": "Latest project release",
+          "url": "https://github.com/ecruells/resident-evil-pc-decomp/releases/tag/residentevil-v1.3.0"
+        },
+        {
+          "label": "Official GitHub Languages API totals retrieved 2026-10-16",
+          "url": "https://api.github.com/repos/ecruells/resident-evil-pc-decomp/languages"
+        }
+      ]
+    },
+    {
+      "id": "windows-95-build-9506-decompilation",
+      "title": "Decomp95 (Windows 95 Build 950.6 decompilation)",
+      "game": "Microsoft Windows 95 Build 950.6 (en-US x86 system components)",
+      "target_type": "Software",
+      "platform": "Windows 95 Build 950.6 x86 NE/PE modules → C and assembly source rebuilding with historical Microsoft toolchains; tools also use Wine and DOSBox",
+      "kind": "Decompilation",
+      "status": "Active repository; GitHub reports its latest push on 2026-10-16. The README’s module table reports tapiexe.exe and winver.exe as 100% decompiled and byte-matching; Notepad is 100% decompiled, with 38 of 57 functions matching (53% of code). Builds compare against original Windows files supplied locally; the original OS files are not committed.",
+      "summary": "A module-by-module C and assembly decompilation of Windows 95 Build 950.6 with historical compiler/linker workflows and binary comparison tools. It currently covers the Windows Telephony hidden app, winver, and Notepad at the completion levels stated by the maintainer; the project does not claim that all of Windows 95 is reconstructed.",
+      "project_url": "https://github.com/hotlandsoftware/decomp95",
+      "updated": "2026-10-16",
+      "strategy": "Static reverse engineering followed by C/assembly reconstruction with historical Microsoft toolchains; module builds are compared at the function and image level against user-supplied Windows 95 binaries.",
+      "language": "",
+      "source_available": "Public source; the GitHub repository has no declared license. The README says original Windows 95 files and toolchains are not committed; users supply their own original files and toolchains.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Windows operating system component matching decompilation",
+      "sources": [
+        {
+          "label": "Maintainer README: target build, source method, toolchain requirements and module-by-module current decompilation/matching status",
+          "url": "https://github.com/hotlandsoftware/decomp95/blob/8bb37d9e01c2937d810b5226895fa69b7db67f78/README.md"
+        },
+        {
+          "label": "GitHub repository metadata API snapshot (repository state, last push, archive/fork and license fields checked 2026-10-16)",
+          "url": "https://api.github.com/repos/hotlandsoftware/decomp95"
+        },
+        {
+          "label": "Official GitHub Languages API totals retrieved 2026-10-16",
+          "url": "https://api.github.com/repos/hotlandsoftware/decomp95/languages"
+        }
+      ]
+    },
+    {
+      "id": "donalds-alphabet-chase-ibm-pc-dos-decompilation",
+      "title": "Donald’s Alphabet Chase DOS matching decompilation",
+      "game": "Donald’s Alphabet Chase (Disney Software, 1988; IBM PC DOS retail and alternate builds)",
+      "target_type": "Game",
+      "platform": "IBM PC DOS x86 → reconstructed C and NASM assembly; Turbo C 2.0/TLINK build checked with DOSBox-based tools",
+      "kind": "Decompilation",
+      "status": "Active repository; GitHub reports a push on 2026-10-16. The README states all 73 C functions and the listed assembly objects byte-match, covering 99.97% of code bytes; both retail DONALD.EXE and the alternate build relink byte-identically from source. Original game files are excluded and must be supplied by the user for verification.",
+      "summary": "A matching decompilation of Disney Software’s 1988 Donald’s Alphabet Chase for IBM PC DOS. C source, with assembly only where necessary, rebuilds the retail executable and an alternate build byte-identically; original game binaries and data are intentionally excluded from the repository.",
+      "project_url": "https://github.com/jdelezenne/donalds-alphabet-chase-dos",
+      "updated": "2026-10-16",
+      "strategy": "Evidence-backed C and assembly reconstruction, with Turbo C 2.0 and TLINK relinking both original executable variants byte-identically; original game files serve as user-supplied comparison inputs.",
+      "language": "",
+      "source_available": "Public source; the GitHub repository has no declared license. The project excludes copyrighted executables, game data and disk images; the README asks users to provide their own legally obtained game copy for verification.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "Assembly",
+      "subtype": "DOS game byte-matching decompilation",
+      "sources": [
+        {
+          "label": "Maintainer README: target, status, byte-matching measurements, original-file policy, toolchain and project layout",
+          "url": "https://github.com/jdelezenne/donalds-alphabet-chase-dos/blob/784ca03bf0605b728c0c47fe4e9ade59b3cbe7b7/README.md"
+        },
+        {
+          "label": "GitHub repository metadata API snapshot (repository state, last push, archive/fork and license fields checked 2026-10-16)",
+          "url": "https://api.github.com/repos/jdelezenne/donalds-alphabet-chase-dos"
+        },
+        {
+          "label": "Official GitHub Languages API totals retrieved 2026-10-16",
+          "url": "https://api.github.com/repos/jdelezenne/donalds-alphabet-chase-dos/languages"
+        }
+      ]
+    },
+    {
+      "id": "spider-man-2000-pc-decompilation-native-port",
+      "title": "OpenSpidey (Spider-Man 2000 PC decompilation and native port)",
+      "game": "Spider-Man (2000 PC release by LTI Gray Matter)",
+      "target_type": "Game",
+      "platform": "Original PC disc ISO or installed PC files → native Windows 10+ x86-64 or Linux x86-64 desktop application (glibc 2.35+)",
+      "kind": "Decompilation",
+      "status": "The README calls this a development preview; the latest GitHub release is v0.0.2 (2026-09-04), and GitHub reports a repository push on 2026-10-14. Current maintainer notes describe partial Linux gameplay checkpoints and short Windows setup/menu/level checks under Wine. Full-game restoration and matching decompilation remain unfinished; Windows hardware and complete missions still need testing.",
+      "summary": "A native SDL-based desktop application continuing the Spider-Man PC decompilation in krystalgamer/spidey-decomp. It uses the original executable as a reference and reads supported original PC game data without running code from the executable. The project reports partial gameplay tests and requires the user’s own disc or installed game files; no game assets are included in downloads.",
+      "project_url": "https://github.com/PatrikScully/OpenSpidey",
+      "updated": "2026-10-16",
+      "strategy": "Continues an existing PC-game decompilation and reverse-engineering project to build a native application; compares behavior with the original binary and does not execute code from that binary.",
+      "language": "",
+      "source_available": "Public source; no project-wide license is declared by GitHub. Downloads omit original game assets and require the user’s own PC game data. Runtime and third-party licenses are described separately in the repository.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "PC game decompilation and native desktop port",
+      "sources": [
+        {
+          "label": "Maintainer README: supported PC game input, native platform packages, asset policy, current gameplay checkpoint, incomplete status and upstream decompilation lineage",
+          "url": "https://github.com/PatrikScully/OpenSpidey/blob/af3905328bfa009b36d03c9360436b226963931f/README.md"
+        },
+        {
+          "label": "Latest release, v0.0.2 (2026-09-04)",
+          "url": "https://github.com/PatrikScully/OpenSpidey/releases/tag/v0.0.2"
+        },
+        {
+          "label": "Upstream Spider-Man PC decompilation credited by OpenSpidey",
+          "url": "https://github.com/krystalgamer/spidey-decomp"
+        },
+        {
+          "label": "GitHub repository metadata API snapshot (repository state, last push, archive/fork and license fields checked 2026-10-16)",
+          "url": "https://api.github.com/repos/PatrikScully/OpenSpidey"
+        },
+        {
+          "label": "Latest project release",
+          "url": "https://github.com/PatrikScully/OpenSpidey/releases/tag/v0.0.2"
+        },
+        {
+          "label": "Official GitHub Languages API totals retrieved 2026-10-16",
+          "url": "https://api.github.com/repos/PatrikScully/OpenSpidey/languages"
+        }
+      ]
+    },
+    {
+      "id": "nhl-95-pc-dos-bitwise-rebuild",
+      "title": "NHL 95 PC bitwise rebuild and C decompilation",
+      "game": "NHL 95 PC (EA Sports, 1994; DOS/4GW executable HOCKEY.EXE)",
+      "target_type": "Game",
+      "platform": "IBM PC DOS protected-mode x86 (Watcom LE executable with DOS/4GW)",
+      "kind": "Decompilation",
+      "status": "Active repository; GitHub reports a push on 2026-10-16. The README says the assembly sources rebuild the retail EXE byte-exactly and that C matching is still in progress. The repository includes the original copyrighted HOCKEY.EXE, which it identifies as a retail game binary; no repository license is declared.",
+      "summary": "A reverse-engineering and source-reconstruction project for EA’s DOS version of NHL 95. NASM source and a custom linker rebuild the retail executable byte-for-byte; the maintainer is still matching the game code to C and documents function naming against Genesis-series source references. The repository itself includes the retail executable, so the source and binary distribution caveat is retained explicitly.",
+      "project_url": "https://github.com/abdulahmad/NHL95PC",
+      "updated": "2026-10-16",
+      "strategy": "Reverse engineers the Watcom C/C++32 protected-mode executable, reconstructs code and data as NASM assembly, and verifies the complete EXE byte-for-byte; C function matching is an ongoing second phase.",
+      "language": "",
+      "source_available": "Public source with no declared repository license. The repository README states that it includes the original copyrighted retail HOCKEY.EXE at its root; this bundled original is not project-authored source.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "Assembly",
+      "subtype": "DOS game binary reconstruction and decompilation",
+      "sources": [
+        {
+          "label": "Maintainer README: target executable, byte-exact assembly rebuild, current C-matching status, toolchain, original executable and license caveats",
+          "url": "https://github.com/abdulahmad/NHL95PC/blob/b02fdab784f621fdf0d2a0a585d331894abe320f/README.md"
+        },
+        {
+          "label": "GitHub repository metadata API snapshot (repository state, last push, archive/fork and license fields checked 2026-10-16)",
+          "url": "https://api.github.com/repos/abdulahmad/NHL95PC"
+        },
+        {
+          "label": "Official GitHub Languages API totals retrieved 2026-10-16",
+          "url": "https://api.github.com/repos/abdulahmad/NHL95PC/languages"
+        }
+      ]
+    },
+    {
+      "id": "tunnels-of-underworld-pc-game-decompilation",
+      "title": "Tunnels of Underworld RE/Decompilation",
+      "game": "Tunnels of Underworld (GigaMess, 2002 Windows game)",
+      "target_type": "Game",
+      "platform": "Original Windows game → native Windows, Linux and macOS builds for x86, x64 and ARM64 as applicable",
+      "kind": "Decompilation",
+      "status": "The latest GitHub release is v0.9 (2026-10-11). The README says the major gameplay-parity pass is complete across weapons, enemies, physics, menus, controls, levels, audio, particles, statistics and effects, based on hands-on comparison with the original. The README also states that the repository offers no project-wide license, is not a clean-room decompilation and includes original game data for preservation.",
+      "summary": "A behavior-focused reconstruction of the 2002 Windows game using runtime comparison, disassembly, Ghidra and static reconstruction. The maintainer reports hands-on parity work across major systems and provides native desktop releases. Original game addresses and offsets remain in the source; the repository includes original game data and does not offer a project-wide license, so those facts remain explicit in this catalog proposal.",
+      "project_url": "https://github.com/pdromnt/tou_decomp",
+      "updated": "2026-10-16",
+      "strategy": "Behavior-focused static reconstruction informed by runtime comparison, disassembly and Ghidra; gameplay changes are compared with the original executable. The maintainer explicitly says the project is not clean-room.",
+      "language": "",
+      "source_available": "Public repository with no project-wide license offered for the reconstruction. The README states that the repository includes original game data and that the original game/assets belong to their owners; third-party notices cover only identified dependencies.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Windows game behavioral reconstruction and cross-platform decompilation",
+      "sources": [
+        {
+          "label": "Maintainer README: recovery method, current parity status, supported builds, release workflow and explicit license/asset statement",
+          "url": "https://github.com/pdromnt/tou_decomp/blob/ac7269c1dcd8169a033a5122ddb4f02982e6b75c/README.md"
+        },
+        {
+          "label": "Latest release, v0.9 (2026-10-11)",
+          "url": "https://github.com/pdromnt/tou_decomp/releases/tag/v0.9"
+        },
+        {
+          "label": "Third-party notices for separately licensed embedded code",
+          "url": "https://github.com/pdromnt/tou_decomp/blob/main/THIRD_PARTY_NOTICES.md"
+        },
+        {
+          "label": "GitHub repository metadata API snapshot (repository state, last push, archive/fork and license fields checked 2026-10-16)",
+          "url": "https://api.github.com/repos/pdromnt/tou_decomp"
+        },
+        {
+          "label": "Latest project release",
+          "url": "https://github.com/pdromnt/tou_decomp/releases/tag/v0.9"
+        },
+        {
+          "label": "Official GitHub Languages API totals retrieved 2026-10-16",
+          "url": "https://api.github.com/repos/pdromnt/tou_decomp/languages"
+        }
+      ]
+    },
+    {
+      "id": "simcity-3000-unlimited-static-reverse-engineering",
+      "title": "sc3kre (SimCity 3000 Unlimited static reverse engineering)",
+      "game": "SimCity 3000 Unlimited (Maxis/Electronic Arts, 2000; 32-bit Windows x86)",
+      "target_type": "Game",
+      "platform": "SimCity 3000 Unlimited Windows x86 engine DLLs and data formats; analysis tools are Python/Java, with Ghidra headless scripts requiring Ghidra and JDK 21",
+      "kind": "Decompilation",
+      "status": "The maintainer describes the current phase as understand-and-annotate-first; the decision to make a source port or modding toolkit is deferred. The README reports 635 named functions (543 at C2, 10 at C3, 5 at C4), a QFS parser round-trip check over 63,691 streams, 62,552 structurally validated sprite records and 8,132 matching sprite metadata joins. GitHub reports a repository push on 2026-10-14.",
+      "summary": "A static reverse-engineering project mapping SimCity 3000 Unlimited’s Windows engine modules and recovering formats with independent parsers and decoders. It contains original analysis notes and tools, but no EA/Maxis game assets, binaries or decompiled code; it does not yet claim a game source port. This record covers the reverse-engineering and format-recovery work, not separate mods published from the same repository.",
+      "project_url": "https://github.com/nanofives/sc3kre",
+      "updated": "2026-10-16",
+      "strategy": "Static reverse engineering of user-supplied game binaries, Ghidra analysis and documented address-level findings, plus original format parsers/decoders with round-trip and structural validation.",
+      "language": "",
+      "source_available": "The maintainer’s MIT license applies only to original tools and notes. GitHub repository metadata reports Other/NOASSERTION. The repository explicitly excludes proprietary game binaries/assets and decompiled EA/Maxis code; users supply their own legally obtained game files.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "Python",
+      "subtype": "Windows game static reverse engineering and game-data format reconstruction",
+      "sources": [
+        {
+          "label": "Maintainer README: target, analysis scope, confidence/status counts, parser validation, no-game-data policy and license boundary",
+          "url": "https://github.com/nanofives/sc3kre/blob/6dfd5a86ddec17c10641be586992be37c0b2c4ae/README.md"
+        },
+        {
+          "label": "Repository MIT license, which the README limits to original tools and notes",
+          "url": "https://github.com/nanofives/sc3kre/blob/main/LICENSE"
+        },
+        {
+          "label": "Latest release page, which the maintainer identifies as a separate mods release",
+          "url": "https://github.com/nanofives/sc3kre/releases/tag/sc3mods-2026-10-12"
+        },
+        {
+          "label": "GitHub repository metadata API snapshot (repository state, last push, archive/fork and license fields checked 2026-10-16)",
+          "url": "https://api.github.com/repos/nanofives/sc3kre"
+        },
+        {
+          "label": "Project license file",
+          "url": "https://github.com/nanofives/sc3kre/blob/main/LICENSE"
+        },
+        {
+          "label": "Latest project release",
+          "url": "https://github.com/nanofives/sc3kre/releases/tag/sc3mods-2026-10-12"
+        },
+        {
+          "label": "Official GitHub Languages API totals retrieved 2026-10-16",
+          "url": "https://api.github.com/repos/nanofives/sc3kre/languages"
+        }
+      ]
+    },
+    {
+      "id": "battlestations-pacific-pc-x86-decompilation",
+      "title": "Battlestations: Pacific PC source reconstruction",
+      "game": "Battlestations: Pacific (Windows PC x86 executable battlestationspacific.exe)",
+      "target_type": "Game",
+      "platform": "Windows PC, PE32/x86 target → reconstructed MSVC Win32 C++ routines and experimental game-executable target",
+      "kind": "Decompilation",
+      "status": "Active repository; GitHub reports a push on 2026-10-16. The maintainer’s roadmap says the evidence/build baseline is complete and startup/subsystem reconstruction is in progress. The README reports five reconstructed math functions whose byte ranges match the disk executable. The baseline states the original game has not been started and no renderer, asset loader, simulation or gameplay has been reconstructed or validated; there is no playable rebuild.",
+      "summary": "An incremental C++ source reconstruction of the Windows PC Battlestations: Pacific executable, based on the maintainer’s Ghidra analysis. The project records evidence, original ABI and uncertainty per routine, and currently verifies a small set of math functions; it explicitly has no playable game rebuild or validated startup/gameplay. The original executable, assets and Ghidra project are not in the repository.",
+      "project_url": "https://github.com/sqz269/battlestations-pacific-decompile",
+      "updated": "2026-10-16",
+      "strategy": "Ghidra-guided x86 reverse engineering followed by ABI/evidence-documented MSVC Win32 C++ routine reconstruction and differential byte/behavior checks; full game runtime is not yet reconstructed.",
+      "language": "",
+      "source_available": "Public source; GitHub declares no repository license. README says original executable, game assets, Ghidra database and built binaries are not tracked. The project is not a playable rebuild at the checked status.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Windows PC game x86 source reconstruction",
+      "sources": [
+        {
+          "label": "Maintainer README: source reconstruction method, target executable, current status locations and explicit playable-build caveat",
+          "url": "https://github.com/sqz269/battlestations-pacific-decompile/blob/6ef581090021e4aac6b4df200e77a6561a1db675/README.md"
+        },
+        {
+          "label": "Maintainer roadmap: current milestone, incomplete startup/subsystem status and explicit no-playable-rebuild statement",
+          "url": "https://github.com/sqz269/battlestations-pacific-decompile/blob/6ef581090021e4aac6b4df200e77a6561a1db675/docs/ROADMAP.md"
+        },
+        {
+          "label": "Maintainer baseline: PE32/x86 target identity, five reconstructed math functions, tests and no renderer/assets/gameplay status",
+          "url": "https://github.com/sqz269/battlestations-pacific-decompile/blob/6ef581090021e4aac6b4df200e77a6561a1db675/docs/BASELINE.md"
+        },
+        {
+          "label": "GitHub repository metadata API: checked license/archive/fork/activity fields on 2026-10-16",
+          "url": "https://api.github.com/repos/sqz269/battlestations-pacific-decompile"
+        }
+      ]
+    },
+    {
+      "id": "pool-of-radiance-dos-v13-source-reconstruction",
+      "title": "Pool of Radiance DOS v1.3 source reconstruction",
+      "game": "Pool of Radiance (IBM PC DOS v1.3 release)",
+      "target_type": "Game",
+      "platform": "Original IBM PC DOS v1.3 release → planned portable C desktop game; later Windows/Linux/macOS parity is roadmap work, and there is currently no native playable route",
+      "kind": "Decompilation",
+      "status": "Active repository; GitHub reports a push on 2026-10-16. The roadmap (2026-10-12) reports 62 full-C game routines translated and behavior-checked; the companion WORKSTREAMS page reports 66 under its strict full-C measure. These counts use distinct criteria. The maintainer says DOS-oracle exploration and a one-step move test work, but no native playable route exists and native save/load parity remains open. Portable release and source-license selection are later roadmap stages.",
+      "summary": "A source-level reconstruction of the Pool of Radiance DOS v1.3 engine as portable C, recovering resident and overlay code, game rules and ECL behavior against an owner-supplied DOS oracle. It has independently tested recovered routines and format/data-layer work, but the maintainer explicitly reports that no native playable route exists yet. Original game files are kept in ignored local resources. This is a separate repository and method from the catalog’s OpenGold C++/Godot reimplementation of Pool of Radiance.",
+      "project_url": "https://github.com/huntergdavis/poolrad-decomp",
+      "updated": "2026-10-16",
+      "strategy": "Reverse-engineer DOS v1.3 resident/overlay code and ECL behavior, translate evidence-backed routines into C, and compare state/behavior against the original DOS game. The project roadmap distinguishes this from simply emulating the original EXE or using a decompiler’s pseudocode as a runnable source tree.",
+      "language": "",
+      "source_available": "Public source; no project-wide source license is declared. The roadmap says license choice is deferred to a later portable release. README says original game binaries, saves, extracted assets and text are kept in ignored local resources and must not be committed.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "DOS game engine source reconstruction and behavior decompilation",
+      "sources": [
+        {
+          "label": "Maintainer README: DOS v1.3 target, portable C reconstruction scope, user-owned originals and data-retention policy",
+          "url": "https://github.com/huntergdavis/poolrad-decomp/blob/4c818e5bdac0b8e6d8da2ee0bad991af2d0f43fc/README.md"
+        },
+        {
+          "label": "Maintainer roadmap (2026-10-12): current translation/behavior evidence, no native playable route, parity and licensing milestones",
+          "url": "https://github.com/huntergdavis/poolrad-decomp/blob/4c818e5bdac0b8e6d8da2ee0bad991af2d0f43fc/ROADMAP.md"
+        },
+        {
+          "label": "Maintainer workstreams: active C recovery, ECL behavior work and current verified-translation accounting",
+          "url": "https://github.com/huntergdavis/poolrad-decomp/blob/4c818e5bdac0b8e6d8da2ee0bad991af2d0f43fc/WORKSTREAMS.md"
+        },
+        {
+          "label": "GitHub repository metadata API: checked license/archive/fork/activity fields on 2026-10-16",
+          "url": "https://api.github.com/repos/huntergdavis/poolrad-decomp"
+        }
+      ]
+    }
+  ]
+}

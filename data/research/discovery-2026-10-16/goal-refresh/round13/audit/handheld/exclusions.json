@@ -1,0 +1,35 @@
+{
+  "verified_at": "2026-10-16",
+  "records": [
+    {
+      "repo": "https://github.com/pocket-nexus/open-strike",
+      "decision": "Hold / exclude from this handheld port batch",
+      "reason": "Maintainer describes OpenStrike as a CS-like standalone FPS using maps from a user-owned Counter-Strike copy and native PSP/Vita/3DS/desktop builds. Current evidence does not establish it as a port, decompilation, recompilation, or faithful reimplementation of Counter-Strike; classifying the project as a Counter-Strike target would overstate the relationship. A separate game-key/Wikipedia exact-title fallback for OpenStrike would also need identification review."
+    },
+    {
+      "repo": "https://github.com/CHUTA7X/Real-Racing-2-Vita-Port-Release",
+      "decision": "Exclude",
+      "reason": "Source snapshot contains only a minimal README, no meaningful source-language evidence or license statement, and does not adequately substantiate the implementation/status."
+    },
+    {
+      "repo": "https://github.com/mrdivdiz/bpvita",
+      "decision": "Exclude",
+      "reason": "README evidence is stale/thin and the repository does not declare a license; no sufficiently source-backed current status for this pass."
+    },
+    {
+      "repo": "https://github.com/KiddRwxSsj/trifle-psychotic-vita",
+      "decision": "Exclude from 12-project candidate ceiling review",
+      "reason": "Small Vita game port is a possible future entry, but game identity/canonical source facts and asset/code licensing are mixed and would need fuller fact and license review; this pass prioritized clearer evidence."
+    },
+    {
+      "repo": "https://github.com/boazbee/Turbo-Fast-Vita-Port-Unofficial",
+      "decision": "Exclude",
+      "reason": "Not selected after review; target/app and source-to-target evidence did not add a clearer distinct handheld preservation record than accepted candidates."
+    },
+    {
+      "repo": "https://github.com/MEGAgameBoy/Sonic-Time-Twisted-PS-Vita-Port",
+      "decision": "Exclude",
+      "reason": "Not selected; standalone homebrew port/release lead was not sufficiently documented for this batch as a port of an original game target."
+    }
+  ]
+}

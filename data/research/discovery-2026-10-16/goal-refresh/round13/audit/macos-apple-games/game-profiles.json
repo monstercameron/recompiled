@@ -1,0 +1,87 @@
+{
+  "verified_at": "2026-10-16",
+  "profiles": [
+    {
+      "game_key": "Casualties: Unknown",
+      "facts": [
+        {
+          "field": "developer",
+          "value": "Orsoniks",
+          "source_url": "https://store.steampowered.com/app/4576490/Casualties_Unknown/",
+          "evidence": "The official Steam product page identifies Orsoniks as developer.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Oro Interactive",
+          "source_url": "https://store.steampowered.com/app/4576490/Casualties_Unknown/",
+          "evidence": "The official Steam product page identifies Oro Interactive as publisher.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Survival simulation (Steam categories: Action, Adventure, Simulation)",
+          "source_url": "https://store.steampowered.com/app/4576490/Casualties_Unknown/",
+          "evidence": "The official listing describes a cave-exploration survival simulator and assigns Action, Adventure, and Simulation genre categories.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "Windows PC (64-bit)",
+          "source_url": "https://store.steampowered.com/app/4576490/Casualties_Unknown/",
+          "evidence": "The Steam listing names Windows 10 and requires a 64-bit processor and operating system; the current Windows game build is x86-64 per the maintainer port notes.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "Planned: 2026-11-09 (full game; not released as of 2026-10-16)",
+          "source_url": "https://store.steampowered.com/app/4576490/Casualties_Unknown/",
+          "evidence": "Steam lists November 9, 2026 as the planned full-game release date, still in the future on the verification date. The separate demo page lists April 20, 2026; this field records the planned full-game date, not an actual release.",
+          "date_granularity": "day",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "The Legend of Zelda: Twilight Princess HD",
+      "facts": [
+        {
+          "field": "developer",
+          "value": "Tantalus Media and Nintendo EPD",
+          "source_url": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Twilight_Princess",
+          "evidence": "The article’s HD-remaster section identifies Tantalus Media and Nintendo EPD as developers of Twilight Princess HD.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Nintendo",
+          "source_url": "https://www.nintendo.com/en-gb/Games/Wii-U-games/The-Legend-of-Zelda-Twilight-Princess-HD-1082222.html",
+          "evidence": "Nintendo’s product page identifies Nintendo as publisher of The Legend of Zelda: Twilight Princess HD.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Action-adventure",
+          "source_url": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Twilight_Princess",
+          "evidence": "The article classifies Twilight Princess as an action-adventure game and describes the HD edition as its high-definition remaster.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "Wii U",
+          "source_url": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Twilight_Princess",
+          "evidence": "The HD-remaster section identifies Wii U as the HD edition’s platform; Nintendo’s product page confirms the same platform.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "North America/Europe: 2016-03-04; Australia/New Zealand: 2016-03-05; Japan: 2016-03-10",
+          "source_url": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Twilight_Princess",
+          "evidence": "The article’s release table lists the HD edition’s Wii U dates by region; Nintendo’s UK product page independently lists 4 March 2016.",
+          "date_granularity": "day",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    }
+  ]
+}

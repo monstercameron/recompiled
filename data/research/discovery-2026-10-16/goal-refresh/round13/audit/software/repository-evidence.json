@@ -1,0 +1,102 @@
+{
+  "verified_at": "2026-10-16",
+  "retrieval_method": "GitHub REST API v3 through gh api. Metadata fields are preserved as returned at retrieval time; language byte maps are exact responses from each repository's Languages endpoint.",
+  "repositories": [
+    {
+      "repository": "spacebarchat/server",
+      "html_url": "https://github.com/spacebarchat/server",
+      "metadata_url": "https://api.github.com/repos/spacebarchat/server",
+      "metadata": {
+        "full_name": "spacebarchat/server",
+        "description": "Spacebar server - A reimplementation of the Discord.com backend, built with Typescript and love",
+        "created_at": "2020-11-28T12:39:03Z",
+        "pushed_at": "2026-10-16T09:14:42Z",
+        "updated_at": "2026-10-16T09:14:50Z",
+        "default_branch": "master",
+        "archived": false,
+        "stargazers_count": 2206,
+        "license_spdx_id": "AGPL-3.0"
+      },
+      "releases_url": "https://api.github.com/repos/spacebarchat/server/releases",
+      "releases": [],
+      "languages_url": "https://api.github.com/repos/spacebarchat/server/languages",
+      "languages_bytes": {
+        "TypeScript": 2476425,
+        "C#": 623204,
+        "HTML": 112094,
+        "Nix": 80481,
+        "JavaScript": 59932,
+        "CSS": 25133,
+        "Shell": 9924
+      },
+      "license_evidence": {
+        "package_manifest_url": "https://github.com/spacebarchat/server/blob/master/package.json",
+        "package_manifest_declared_license": "AGPL-3.0-only",
+        "license_file_url": "https://github.com/spacebarchat/server/blob/master/COPYING"
+      }
+    },
+    {
+      "repository": "eiln/ane",
+      "html_url": "https://github.com/eiln/ane",
+      "metadata_url": "https://api.github.com/repos/eiln/ane",
+      "metadata": {
+        "full_name": "eiln/ane",
+        "description": "Reverse engineered Linux driver for the Apple Neural Engine (ANE).",
+        "created_at": "2022-12-21T14:46:38Z",
+        "pushed_at": "2024-03-12T14:45:47Z",
+        "updated_at": "2026-10-15T08:52:10Z",
+        "default_branch": "main",
+        "archived": false,
+        "stargazers_count": 540,
+        "license_spdx_id": "MIT"
+      },
+      "releases_url": "https://api.github.com/repos/eiln/ane/releases",
+      "releases": [],
+      "languages_url": "https://api.github.com/repos/eiln/ane/languages",
+      "languages_bytes": {
+        "C": 47841,
+        "Python": 4234,
+        "Makefile": 2140,
+        "Shell": 764
+      },
+      "license_file_url": "https://github.com/eiln/ane/blob/main/LICENSE"
+    },
+    {
+      "repository": "jma24/mkmsbr",
+      "html_url": "https://github.com/jma24/mkmsbr",
+      "metadata_url": "https://api.github.com/repos/jma24/mkmsbr",
+      "metadata": {
+        "full_name": "jma24/mkmsbr",
+        "description": "Clean-room library + CLI for Microsoft-compatible boot records (MBR, FAT32 PBR, NTFS PBR). MIT.",
+        "created_at": "2026-05-18T23:33:54Z",
+        "pushed_at": "2026-05-27T13:59:40Z",
+        "updated_at": "2026-05-27T14:00:13Z",
+        "default_branch": "main",
+        "archived": false,
+        "stargazers_count": 1,
+        "license_spdx_id": "MIT"
+      },
+      "releases_url": "https://api.github.com/repos/jma24/mkmsbr/releases",
+      "releases": [
+        {
+          "tag_name": "v1.0.1",
+          "published_at": "2026-05-19T20:49:27Z",
+          "html_url": "https://github.com/jma24/mkmsbr/releases/tag/v1.0.1"
+        },
+        {
+          "tag_name": "v1.0.0",
+          "published_at": "2026-05-19T20:41:59Z",
+          "html_url": "https://github.com/jma24/mkmsbr/releases/tag/v1.0.0"
+        }
+      ],
+      "languages_url": "https://api.github.com/repos/jma24/mkmsbr/languages",
+      "languages_bytes": {
+        "Rust": 140107,
+        "Assembly": 80182,
+        "Shell": 10280,
+        "Makefile": 1771
+      },
+      "license_file_url": "https://github.com/jma24/mkmsbr/blob/main/LICENSE"
+    }
+  ]
+}

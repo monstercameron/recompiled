@@ -1,0 +1,360 @@
+{
+  "verified_at": "2026-10-16",
+  "scope": "Exact GitHub Languages API byte maps for each staged repository; predominant_language is the largest returned byte bucket and may include vendored/submodule files.",
+  "records": [
+    {
+      "project_id": "emulator-mister-deco16",
+      "repository": "MiSTer-devel/Arcade-Deco16_Mister",
+      "predominant_language": "Verilog",
+      "language_breakdown_bytes": {
+        "Verilog": 1065837,
+        "VHDL": 709897,
+        "SystemVerilog": 419822,
+        "Tcl": 23190,
+        "Python": 16390,
+        "C++": 6434,
+        "Pawn": 2877,
+        "Pascal": 2017
+      },
+      "evidence_url": "https://api.github.com/repos/MiSTer-devel/Arcade-Deco16_Mister/languages",
+      "evidence": "Exact GitHub Languages API byte map, retrieved 2026-10-16; largest bucket is Verilog.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "emulator-mister-sega-g80v",
+      "repository": "MiSTer-devel/Arcade-SegaG80V_MiSTer",
+      "predominant_language": "Verilog",
+      "language_breakdown_bytes": {
+        "Verilog": 1180501,
+        "SystemVerilog": 762431,
+        "VHDL": 107940,
+        "Tcl": 23570,
+        "Batchfile": 672,
+        "Wolfram Language": 294
+      },
+      "evidence_url": "https://api.github.com/repos/MiSTer-devel/Arcade-SegaG80V_MiSTer/languages",
+      "evidence": "Exact GitHub Languages API byte map, retrieved 2026-10-16; largest bucket is Verilog.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "emulator-mister-sega-vco",
+      "repository": "MiSTer-devel/Arcade-SegaVCO_MiSTer",
+      "predominant_language": "Verilog",
+      "language_breakdown_bytes": {
+        "Verilog": 679213,
+        "SystemVerilog": 580635,
+        "Python": 447075,
+        "C++": 270757,
+        "VHDL": 107940,
+        "Lua": 47785,
+        "Tcl": 24146,
+        "Makefile": 10780,
+        "Shell": 2341,
+        "Batchfile": 672
+      },
+      "evidence_url": "https://api.github.com/repos/MiSTer-devel/Arcade-SegaVCO_MiSTer/languages",
+      "evidence": "Exact GitHub Languages API byte map, retrieved 2026-10-16; largest bucket is Verilog.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "emulator-mister-sega-system1",
+      "repository": "MiSTer-devel/Arcade-SEGASYS1_MiSTer",
+      "predominant_language": "Verilog",
+      "language_breakdown_bytes": {
+        "Verilog": 364593,
+        "VHDL": 272314,
+        "SystemVerilog": 151568,
+        "Tcl": 22648,
+        "Batchfile": 586
+      },
+      "evidence_url": "https://api.github.com/repos/MiSTer-devel/Arcade-SEGASYS1_MiSTer/languages",
+      "evidence": "Exact GitHub Languages API byte map, retrieved 2026-10-16; largest bucket is Verilog.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "emulator-mister-mcr1",
+      "repository": "MiSTer-devel/Arcade-MCR1_MiSTer",
+      "predominant_language": "VHDL",
+      "language_breakdown_bytes": {
+        "VHDL": 340820,
+        "Verilog": 312133,
+        "SystemVerilog": 145815,
+        "Tcl": 22644,
+        "Batchfile": 742
+      },
+      "evidence_url": "https://api.github.com/repos/MiSTer-devel/Arcade-MCR1_MiSTer/languages",
+      "evidence": "Exact GitHub Languages API byte map, retrieved 2026-10-16; largest bucket is VHDL.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "emulator-mister-mcr2",
+      "repository": "MiSTer-devel/Arcade-MCR2_MiSTer",
+      "predominant_language": "VHDL",
+      "language_breakdown_bytes": {
+        "VHDL": 342153,
+        "Verilog": 309361,
+        "SystemVerilog": 155308,
+        "Tcl": 22648,
+        "Batchfile": 742,
+        "Python": 620
+      },
+      "evidence_url": "https://api.github.com/repos/MiSTer-devel/Arcade-MCR2_MiSTer/languages",
+      "evidence": "Exact GitHub Languages API byte map, retrieved 2026-10-16; largest bucket is VHDL.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "emulator-mister-mcr3",
+      "repository": "MiSTer-devel/Arcade-MCR3_MiSTer",
+      "predominant_language": "VHDL",
+      "language_breakdown_bytes": {
+        "VHDL": 348050,
+        "Verilog": 309706,
+        "SystemVerilog": 169684,
+        "Tcl": 22648,
+        "Batchfile": 742
+      },
+      "evidence_url": "https://api.github.com/repos/MiSTer-devel/Arcade-MCR3_MiSTer/languages",
+      "evidence": "Exact GitHub Languages API byte map, retrieved 2026-10-16; largest bucket is VHDL.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "emulator-mister-tecmo",
+      "repository": "MiSTer-devel/Arcade-Tecmo_MiSTer",
+      "predominant_language": "VHDL",
+      "language_breakdown_bytes": {
+        "VHDL": 741058,
+        "Verilog": 392106,
+        "SystemVerilog": 148063,
+        "Tcl": 23582,
+        "Batchfile": 661,
+        "Makefile": 282,
+        "Filebench WML": 60
+      },
+      "evidence_url": "https://api.github.com/repos/MiSTer-devel/Arcade-Tecmo_MiSTer/languages",
+      "evidence": "Exact GitHub Languages API byte map, retrieved 2026-10-16; largest bucket is VHDL.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "emulator-mister-psikyo-sh2",
+      "repository": "MiSTer-devel/Arcade-PsikyoSH2_MiSTer",
+      "predominant_language": "SystemVerilog",
+      "language_breakdown_bytes": {
+        "SystemVerilog": 616106,
+        "Verilog": 301179,
+        "VHDL": 117842,
+        "Tcl": 22198,
+        "Batchfile": 672
+      },
+      "evidence_url": "https://api.github.com/repos/MiSTer-devel/Arcade-PsikyoSH2_MiSTer/languages",
+      "evidence": "Exact GitHub Languages API byte map, retrieved 2026-10-16; largest bucket is SystemVerilog.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "emulator-mister-irem-m92",
+      "repository": "MiSTer-devel/Arcade-IremM92_MiSTer",
+      "predominant_language": "VHDL",
+      "language_breakdown_bytes": {
+        "VHDL": 514598,
+        "Verilog": 508717,
+        "SystemVerilog": 474024,
+        "Tcl": 22228,
+        "Python": 20911,
+        "Makefile": 1114,
+        "Batchfile": 672
+      },
+      "evidence_url": "https://api.github.com/repos/MiSTer-devel/Arcade-IremM92_MiSTer/languages",
+      "evidence": "Exact GitHub Languages API byte map, retrieved 2026-10-16; largest bucket is VHDL.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "emulator-mister-alpha-mission",
+      "repository": "MiSTer-devel/Arcade-SNK_TripleZ80_MiSTer",
+      "predominant_language": "Verilog",
+      "language_breakdown_bytes": {
+        "Verilog": 476735,
+        "VHDL": 293451,
+        "SystemVerilog": 249042,
+        "Tcl": 22228,
+        "Batchfile": 672
+      },
+      "evidence_url": "https://api.github.com/repos/MiSTer-devel/Arcade-SNK_TripleZ80_MiSTer/languages",
+      "evidence": "Exact GitHub Languages API byte map, retrieved 2026-10-16; largest bucket is Verilog.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "emulator-mister-taito-f2",
+      "repository": "MiSTer-devel/Arcade-TaitoF2_MiSTer",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 5149524,
+        "SystemVerilog": 1373978,
+        "Verilog": 955232,
+        "C": 946840,
+        "HTML": 244494,
+        "JavaScript": 161038,
+        "Python": 132547,
+        "VHDL": 124757,
+        "Objective-C++": 104765,
+        "Assembly": 96370,
+        "Makefile": 38992,
+        "Tcl": 29796,
+        "Shell": 21247,
+        "CSS": 21206,
+        "Objective-C": 19855,
+        "Batchfile": 16267,
+        "CMake": 6999,
+        "Linker Script": 5371,
+        "Scilab": 4707,
+        "Fortran": 3401,
+        "BitBake": 2412,
+        "Awk": 2239,
+        "MATLAB": 1873,
+        "Kotlin": 1513,
+        "GLSL": 1384,
+        "Go": 973,
+        "GDB": 555,
+        "Lua": 218,
+        "Forth": 72
+      },
+      "evidence_url": "https://api.github.com/repos/MiSTer-devel/Arcade-TaitoF2_MiSTer/languages",
+      "evidence": "Exact GitHub Languages API byte map, retrieved 2026-10-16; largest bucket is C++.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "emulator-mister-exidy2",
+      "repository": "MiSTer-devel/Arcade-Exidy2_MiSTer",
+      "predominant_language": "VHDL",
+      "language_breakdown_bytes": {
+        "VHDL": 462957,
+        "Verilog": 410175,
+        "SystemVerilog": 151631,
+        "Tcl": 76050,
+        "Batchfile": 672
+      },
+      "evidence_url": "https://api.github.com/repos/MiSTer-devel/Arcade-Exidy2_MiSTer/languages",
+      "evidence": "Exact GitHub Languages API byte map, retrieved 2026-10-16; largest bucket is VHDL.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "emulator-mister-sega-vic-z80",
+      "repository": "MiSTer-devel/Arcade-SegaVICZ80_MiSTer",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 4513805,
+        "Verilog": 2085474,
+        "C": 1159831,
+        "SystemVerilog": 175076,
+        "VHDL": 102703,
+        "Tcl": 22152,
+        "Makefile": 15683,
+        "C#": 5117,
+        "Batchfile": 754,
+        "Shell": 492
+      },
+      "evidence_url": "https://api.github.com/repos/MiSTer-devel/Arcade-SegaVICZ80_MiSTer/languages",
+      "evidence": "Exact GitHub Languages API byte map, retrieved 2026-10-16; largest bucket is C++.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "emulator-mister-space-invaders-board",
+      "repository": "MiSTer-devel/Arcade-SpaceInvaders_MiSTer",
+      "predominant_language": "VHDL",
+      "language_breakdown_bytes": {
+        "VHDL": 364109,
+        "Verilog": 345571,
+        "SystemVerilog": 211014,
+        "Tcl": 55405,
+        "Python": 4920
+      },
+      "evidence_url": "https://api.github.com/repos/MiSTer-devel/Arcade-SpaceInvaders_MiSTer/languages",
+      "evidence": "Exact GitHub Languages API byte map, retrieved 2026-10-16; largest bucket is VHDL.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "emulator-mister-salamander",
+      "repository": "MiSTer-devel/Arcade-Salamander_MiSTer",
+      "predominant_language": "Verilog",
+      "language_breakdown_bytes": {
+        "Verilog": 1315364,
+        "SystemVerilog": 597281,
+        "VHDL": 323867,
+        "Tcl": 22228,
+        "Batchfile": 672
+      },
+      "evidence_url": "https://api.github.com/repos/MiSTer-devel/Arcade-Salamander_MiSTer/languages",
+      "evidence": "Exact GitHub Languages API byte map, retrieved 2026-10-16; largest bucket is Verilog.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "emulator-mister-juno-first",
+      "repository": "MiSTer-devel/Arcade-JunoFirst_MiSTer",
+      "predominant_language": "Verilog",
+      "language_breakdown_bytes": {
+        "Verilog": 801215,
+        "VHDL": 528358,
+        "SystemVerilog": 240846,
+        "Tcl": 49912,
+        "C++": 19769,
+        "Assembly": 6121,
+        "Wolfram Language": 295
+      },
+      "evidence_url": "https://api.github.com/repos/MiSTer-devel/Arcade-JunoFirst_MiSTer/languages",
+      "evidence": "Exact GitHub Languages API byte map, retrieved 2026-10-16; largest bucket is Verilog.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "emulator-mister-moon-patrol",
+      "repository": "MiSTer-devel/Arcade-MoonPatrol_MiSTer",
+      "predominant_language": "VHDL",
+      "language_breakdown_bytes": {
+        "VHDL": 530733,
+        "Verilog": 341136,
+        "SystemVerilog": 142556,
+        "Tcl": 22648,
+        "Batchfile": 783
+      },
+      "evidence_url": "https://api.github.com/repos/MiSTer-devel/Arcade-MoonPatrol_MiSTer/languages",
+      "evidence": "Exact GitHub Languages API byte map, retrieved 2026-10-16; largest bucket is VHDL.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "emulator-mister-tank-battalion",
+      "repository": "MiSTer-devel/Arcade-TankBattalion_MiSTer",
+      "predominant_language": "Verilog",
+      "language_breakdown_bytes": {
+        "Verilog": 378614,
+        "SystemVerilog": 147465,
+        "VHDL": 107940,
+        "Tcl": 47783,
+        "Shell": 25473,
+        "Fortran": 15
+      },
+      "evidence_url": "https://api.github.com/repos/MiSTer-devel/Arcade-TankBattalion_MiSTer/languages",
+      "evidence": "Exact GitHub Languages API byte map, retrieved 2026-10-16; largest bucket is Verilog.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "emulator-mister-qix",
+      "repository": "MiSTer-devel/Arcade-Qix_MiSTer",
+      "predominant_language": "Assembly",
+      "language_breakdown_bytes": {
+        "Assembly": 1245931,
+        "C++": 1165689,
+        "Verilog": 888695,
+        "VHDL": 745982,
+        "UnrealScript": 671744,
+        "SystemVerilog": 339333,
+        "Tcl": 49912,
+        "Go": 18980,
+        "Python": 3638,
+        "Shell": 3096,
+        "BitBake": 646,
+        "Wolfram Language": 289,
+        "Makefile": 95
+      },
+      "evidence_url": "https://api.github.com/repos/MiSTer-devel/Arcade-Qix_MiSTer/languages",
+      "evidence": "Exact GitHub Languages API byte map, retrieved 2026-10-16; largest bucket is Assembly.",
+      "verified_at": "2026-10-16"
+    }
+  ]
+}

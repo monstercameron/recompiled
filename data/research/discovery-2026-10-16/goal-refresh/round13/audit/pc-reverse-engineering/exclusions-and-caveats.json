@@ -1,0 +1,85 @@
+{
+  "checked_on": "2026-10-16",
+  "not_imported": [
+    {
+      "candidate": "CHIPS.EXE (Chip’s Challenge for Windows, 1992)",
+      "repository": "https://github.com/magical/CHIPS.EXE",
+      "decision": "Exclude from importer rows; retain as a method-boundary lead.",
+      "reason": "The maintainer calls this a complete assembly disassembly and says it can rebuild CHIPS.EXE from scratch; optional make check compares against a supplied original binary. The catalog guide says annotated assembly disassembly is not a matching decompilation, and the project does not claim a cross-platform port or a separate source-language behavior reconstruction. No current catalog kind describes a same-platform annotated disassembly/reassembly accurately.",
+      "evidence": [
+        "https://github.com/magical/CHIPS.EXE/blob/master/README.md",
+        "https://api.github.com/repos/magical/CHIPS.EXE"
+      ]
+    },
+    {
+      "candidate": "SimCity 3000 Unlimited mods included in the sc3kre repository’s release history",
+      "repository": "https://github.com/nanofives/sc3kre",
+      "decision": "Exclude mods as separate project records; import only the reverse-engineering and data-format recovery work.",
+      "reason": "The same repository release page documents separate SC3U game mods. This staging record’s summary/subtype is limited to static reverse engineering, analysis notes and parser behavior; it does not add the mods as reconstructions.",
+      "evidence": [
+        "https://github.com/nanofives/sc3kre/blob/main/README.md",
+        "https://github.com/nanofives/sc3kre/releases/tag/sc3mods-2026-10-12"
+      ]
+    },
+    {
+      "candidate": "MW2 private decompilation lead",
+      "repository": null,
+      "decision": "Exclude; no public project record.",
+      "reason": "The primary author article describes a private reconstruction but deliberately omits the game identity and public source repository; it supplies no verifiable project URL, target platform or project license.",
+      "evidence": [
+        "https://momo5502.com/posts/2026-10-09-game-decompilation/"
+      ]
+    },
+    {
+      "candidate": "Nancy Drew: Curse of Blackmoor Manor source reconstruction",
+      "repository": "https://github.com/albovsky/nd-blackmoor-decomp",
+      "decision": "Exclude as a duplicate addition; exact repository already exists in catalog.",
+      "reason": "The catalog already has nancy-drew-blackmoor-manor-gog-decomp for this exact repository URL and target. The new GitHub search surfaced it as a discovery result, not an absent project.",
+      "evidence": [
+        "https://github.com/albovsky/nd-blackmoor-decomp/blob/main/README.md",
+        "https://api.github.com/repos/albovsky/nd-blackmoor-decomp"
+      ]
+    },
+    {
+      "candidate": "Lemmings Paintball Windows matching decompilation",
+      "repository": "https://github.com/vonhoff/lemball-decomp",
+      "decision": "Exclude as a duplicate addition; exact repository already exists in catalog.",
+      "reason": "The catalog already has lemmings-paintball-pc-decomp for the same repository and Windows 95 target.",
+      "evidence": [
+        "https://github.com/vonhoff/lemball-decomp",
+        "https://api.github.com/repos/vonhoff/lemball-decomp"
+      ]
+    }
+  ],
+  "license_and_content_caveats_on_included_rows": [
+    {
+      "project_id": "windows-95-build-9506-decompilation",
+      "note": "No GitHub license metadata. Original OS binaries and toolchains are not committed per README; verify only with user-supplied copies."
+    },
+    {
+      "project_id": "donalds-alphabet-chase-ibm-pc-dos-decompilation",
+      "note": "No GitHub license metadata. README excludes original copyrighted game binaries/data and asks users to provide their own legally obtained copy."
+    },
+    {
+      "project_id": "spider-man-2000-pc-decompilation-native-port",
+      "note": "No GitHub license metadata. README says downloads omit game assets and require the user’s original PC game data."
+    },
+    {
+      "project_id": "nhl-95-pc-dos-bitwise-rebuild",
+      "note": "No GitHub license metadata. README says the repository includes the original copyrighted retail HOCKEY.EXE."
+    },
+    {
+      "project_id": "tunnels-of-underworld-pc-game-decompilation",
+      "note": "No project-wide license offered; maintainer says repository includes original game data and project is not clean-room. Caveat is surfaced in source_available and summary."
+    },
+    {
+      "project_id": "simcity-3000-unlimited-static-reverse-engineering",
+      "note": "MIT license applies to original tools and notes only; GitHub API labels license Other/NOASSERTION. README excludes game code, binaries and assets."
+    }
+  ],
+  "same-title-target_note": {
+    "project_id": "pool-of-radiance-dos-v13-source-reconstruction",
+    "catalog_project_id": "opengold-pool-of-radiance",
+    "decision": "Retained as a distinct source reconstruction from a different repository. OpenGold is a C++20/Godot reimplementation with some playable areas; Poolrad reconstructs DOS v1.3 routines as C and reports no native playable route. See dedupe-audit.json for the full comparison."
+  }
+}

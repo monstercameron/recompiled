@@ -1,0 +1,69 @@
+{
+  "verified_at": "2026-10-16",
+  "scope": "Exact GitHub Languages API byte totals for each candidate repository; repository-wide maps may include tools, dependencies or runtime code.",
+  "records": [
+    {
+      "project_id": "ultraman-fighting-evolution-3-ps2-linux-static-recomp",
+      "repository": "idiazraz/ufe3-recomp",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Python": 83619,
+        "C++": 45572,
+        "Shell": 7590
+      },
+      "evidence_url": "https://api.github.com/repos/idiazraz/ufe3-recomp/languages",
+      "evidence": "Exact repository-wide language byte totals returned by GitHub Languages API, checked 2026-10-16; byte counts can include tools and dependencies and do not isolate game-specific code.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "resident-evil-dead-aim-ps2-pal-matching-decomp",
+      "repository": "cakehonolulu/Bullseye",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 333935,
+        "C": 145378,
+        "Python": 116575,
+        "Shell": 3420,
+        "Java": 3147
+      },
+      "evidence_url": "https://api.github.com/repos/cakehonolulu/Bullseye/languages",
+      "evidence": "Exact repository-wide language byte totals returned by GitHub Languages API, checked 2026-10-16; byte counts can include tools and dependencies and do not isolate game-specific code.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "rage-racer-ps1-byte-matching-decomp",
+      "repository": "khasinski/rage-racer-decomp",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 2176643,
+        "Assembly": 420749,
+        "Python": 306545,
+        "HTML": 31041,
+        "BitBake": 11033,
+        "Makefile": 8644,
+        "Shell": 2448
+      },
+      "evidence_url": "https://api.github.com/repos/khasinski/rage-racer-decomp/languages",
+      "evidence": "Exact repository-wide language byte totals returned by GitHub Languages API, checked 2026-10-16; byte counts can include tools and dependencies and do not isolate game-specific code.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "street-fighter-iii-third-strike-ps2-matching-decomp",
+      "repository": "crowded-street/3s-decomp",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 11102885,
+        "Python": 69135,
+        "C++": 40903,
+        "Makefile": 4874,
+        "Dockerfile": 1941,
+        "Shell": 216,
+        "Pascal": 215,
+        "PHP": 154
+      },
+      "evidence_url": "https://api.github.com/repos/crowded-street/3s-decomp/languages",
+      "evidence": "Exact repository-wide language byte totals returned by GitHub Languages API, checked 2026-10-16; byte counts can include tools and dependencies and do not isolate game-specific code.",
+      "verified_at": "2026-10-16"
+    }
+  ]
+}

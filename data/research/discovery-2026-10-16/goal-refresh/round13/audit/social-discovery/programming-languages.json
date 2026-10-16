@@ -1,0 +1,38 @@
+{
+  "updated": "2026-10-16",
+  "scope": "Exact integer byte maps from the official GitHub Languages API, saved on 2026-10-16. Predominant language is the largest API-reported byte bucket; repository-wide counts may include scripts, generated or support code and should not be read as a core-implementation-only measure.",
+  "records": [
+    {
+      "project_id": "san-francisco-rush-extreme-racing-n64-recomp",
+      "predominant_language": "JavaScript",
+      "language_breakdown_bytes": {
+        "JavaScript": 84855,
+        "C++": 75854,
+        "Python": 21329,
+        "C": 15488,
+        "CMake": 3556,
+        "PowerShell": 2131,
+        "Batchfile": 738
+      },
+      "evidence_url": "https://api.github.com/repos/sp00nznet/sfrush/languages",
+      "evidence": "Exact repository-wide byte totals returned by the official GitHub Languages API on 2026-10-16. JavaScript is the largest reported bucket (84,855 bytes), ahead of C++ (75,854); this can reflect tools and project support files, not only generated game implementation.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": null
+    },
+    {
+      "project_id": "aliens-versus-predator-gold-nakedavp-source-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 7026086,
+        "C++": 1833777,
+        "CMake": 34678,
+        "Assembly": 18210,
+        "GLSL": 7567
+      },
+      "evidence_url": "https://api.github.com/repos/atsb/NakedAVP/languages",
+      "evidence": "Exact repository-wide byte totals returned by the official GitHub Languages API on 2026-10-16. C is the largest reported bucket.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": null
+    }
+  ]
+}

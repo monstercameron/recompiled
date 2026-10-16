@@ -1,0 +1,101 @@
+{
+  "verified_at": "2026-10-16",
+  "candidates": {
+    "spacebarchat/server": {
+      "scope_and_method": {
+        "readme_url": "https://github.com/spacebarchat/server/blob/master/README.md",
+        "evidence": [
+          "The README calls this a Discord backend reimplementation and extension and says the project reverse engineers backend behavior.",
+          "The source tree contains API request/response types, HTTP API, WebSocket gateway, CDN, WebRTC, database models, and C# admin/CDN utilities.",
+          "The README states that some incompatibilities remain and not every Discord client will connect."
+        ]
+      },
+      "platform_and_status": {
+        "setup_url": "https://docs.spacebar.chat/setup/server/",
+        "installation_url": "https://docs.spacebar.chat/setup/server/installation/",
+        "evidence": [
+          "Setup docs enumerate REST API, WebSocket gateway, and CDN services.",
+        "Installation docs support bare-metal npm modules, NixOS, and Docker; setup docs say Windows is not recommended.",
+          "Repository metadata reports a source push on 2026-10-16. The GitHub releases endpoint returned an empty list."
+        ]
+      },
+      "licensing": {
+        "package_manifest_url": "https://github.com/spacebarchat/server/blob/master/package.json",
+        "license_file_url": "https://github.com/spacebarchat/server/blob/master/COPYING",
+        "evidence": "package.json declares AGPL-3.0-only; COPYING is present at repository root. GitHub API license classifier is AGPL-3.0."
+      },
+      "verified_sources": [
+        "https://github.com/spacebarchat/server/blob/master/README.md",
+        "https://docs.spacebar.chat/setup/server/",
+        "https://docs.spacebar.chat/setup/server/installation/",
+        "https://github.com/spacebarchat/server/blob/master/package.json",
+        "https://github.com/spacebarchat/server/blob/master/COPYING",
+        "https://api.github.com/repos/spacebarchat/server",
+        "https://api.github.com/repos/spacebarchat/server/releases",
+        "https://api.github.com/repos/spacebarchat/server/languages"
+      ]
+    },
+    "eiln/ane": {
+      "scope_and_method": {
+        "readme_url": "https://github.com/eiln/ane/blob/main/README.md",
+        "evidence": [
+          "The README identifies a reverse-engineered Linux driver for the Apple Neural Engine.",
+          "It lists ane/ as a kernel module, libane/ as a user-space library, and python/ as Python bindings.",
+          "The README says documentation is work in progress and does not give a SoC/device compatibility or test matrix."
+        ]
+      },
+      "platform_and_status": {
+        "evidence": [
+          "The target is Linux with Apple Neural Engine hardware; exact supported Apple SoCs/devices are not specified in the README.",
+          "GitHub metadata reports the latest source push on 2024-03-12; repository is not archived and the releases endpoint is empty."
+        ]
+      },
+      "licensing": {
+        "license_url": "https://github.com/eiln/ane/blob/main/LICENSE",
+        "evidence": "The root LICENSE is MIT; GitHub repository metadata classifies it as MIT."
+      },
+      "verified_sources": [
+        "https://github.com/eiln/ane/blob/main/README.md",
+        "https://github.com/eiln/ane/blob/main/LICENSE",
+        "https://api.github.com/repos/eiln/ane",
+        "https://api.github.com/repos/eiln/ane/releases",
+        "https://api.github.com/repos/eiln/ane/languages"
+      ]
+    },
+    "jma24/mkmsbr": {
+      "scope_and_method": {
+        "readme_url": "https://github.com/jma24/mkmsbr/blob/main/README.md",
+        "provenance_url": "https://github.com/jma24/mkmsbr/blob/main/docs/PROVENANCE.md",
+        "spec_url": "https://github.com/jma24/mkmsbr/blob/main/docs/SPEC.md",
+        "evidence": [
+          "The README calls mkmsbr a clean-room Rust library for Microsoft-compatible MBR, FAT32 PBR, and NTFS PBR records, replacing ms-sys for supported variants.",
+          "The clean-room protocol forbids boot-code contributors from reading ms-sys source and documents reading logs, symbol checks, and similarity checks.",
+          "v1.0 scope is legacy BIOS and MBR media for Win XP/7; UEFI is out of scope."
+        ]
+      },
+      "platform_and_status": {
+        "readme_url": "https://github.com/jma24/mkmsbr/blob/main/README.md",
+        "latest_release_url": "https://github.com/jma24/mkmsbr/releases/tag/v1.0.1",
+        "evidence": [
+          "The README reports v1.0 as shipped and an end-to-end Windows 7 install USB boot on a Dell E6410.",
+          "The status table documents real-hardware validation for MBR/FAT32 variants and identifies NTFS PBR as experimental, tested only at the L2 QEMU-smoke level.",
+          "The GitHub Releases API lists v1.0.1 (2026-05-19) and v1.0.0 (2026-05-19)."
+        ]
+      },
+      "licensing": {
+        "license_url": "https://github.com/jma24/mkmsbr/blob/main/LICENSE",
+        "evidence": "The README declares MIT and the repository includes an MIT LICENSE file; GitHub API classifier is MIT."
+      },
+      "verified_sources": [
+        "https://github.com/jma24/mkmsbr/blob/main/README.md",
+        "https://github.com/jma24/mkmsbr/blob/main/docs/PROVENANCE.md",
+        "https://github.com/jma24/mkmsbr/blob/main/docs/SPEC.md",
+        "https://github.com/jma24/mkmsbr/releases/tag/v1.0.1",
+        "https://github.com/jma24/mkmsbr/blob/main/LICENSE",
+        "https://api.github.com/repos/jma24/mkmsbr",
+        "https://api.github.com/repos/jma24/mkmsbr/releases",
+        "https://api.github.com/repos/jma24/mkmsbr/languages"
+      ]
+    }
+  }
+}

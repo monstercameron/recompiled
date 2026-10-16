@@ -1,0 +1,249 @@
+{
+  "updated": "2026-10-16",
+  "scope": "Source-reviewed handheld software and game targets: GBA, Game Boy/Color, PSP, and Vita. Seven records across five repositories; no database import performed.",
+  "projects": [
+    {
+      "id": "gba-recomp-toolkit",
+      "title": "GBA-Recomp",
+      "game": "GBA-Recomp",
+      "target_type": "Software",
+      "platform": "Game Boy Advance ROM → native Windows, macOS, Linux, and Android builds",
+      "kind": "Recompilation",
+      "status": "v0.4 release (2026-06-18); the ROM function-map database is a work in progress.",
+      "summary": "Rust static-recompilation tool and runtime translates user-supplied GBA ROMs to native executables, emitting C11 against a Rust ARM7TDMI hardware model. The maintainer reports 169,778 of an estimated 4.1 million functions mapped and one fully mapped game without identifying it. Android build dependencies are documented; no ROM, BIOS, or commercial game data is shipped.",
+      "project_url": "https://github.com/JRickey/gba-recomp",
+      "updated": "2026-10-16",
+      "strategy": "Static recompilation",
+      "language": "",
+      "source_available": "Public source repository",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "Rust",
+      "subtype": "Static recompiler and runtime",
+      "sources": [
+        {
+          "label": "Project repository",
+          "url": "https://github.com/JRickey/gba-recomp"
+        },
+        {
+          "label": "Maintainer README",
+          "url": "https://github.com/JRickey/gba-recomp/blob/main/README.md"
+        },
+        {
+          "label": "Releases",
+          "url": "https://github.com/JRickey/gba-recomp/releases"
+        }
+      ]
+    },
+    {
+      "id": "gb2swf-static-recompilation-tool",
+      "title": "gb2swf",
+      "game": "gb2swf",
+      "target_type": "Software",
+      "platform": "Game Boy / Game Boy Color ROM → SWF and offline HTML player (Ruffle)",
+      "kind": "Recompilation",
+      "status": "v1.0.0 release (2026-10-13); README reports seven open-licensed homebrew games tested in Ruffle.",
+      "summary": "Haxe tool profiles a user-supplied DMG/CGB ROM, translates observed basic blocks to SWF bytecode, and leaves unobserved or unsupported code to an interpreter fallback; generated offline HTML bundles a Ruffle player. The maintainer documents cartridge, timing, sound, and peripheral limitations. No game ROMs are included.",
+      "project_url": "https://github.com/Burg-Media/gb2swf",
+      "updated": "2026-10-16",
+      "strategy": "Static recompilation with interpreter fallback",
+      "language": "",
+      "source_available": "Public source repository",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "Haxe",
+      "subtype": "ROM-to-SWF recompiler and player",
+      "sources": [
+        {
+          "label": "Project repository",
+          "url": "https://github.com/Burg-Media/gb2swf"
+        },
+        {
+          "label": "Maintainer README",
+          "url": "https://github.com/Burg-Media/gb2swf/blob/main/README.md"
+        },
+        {
+          "label": "v1.0.0 release",
+          "url": "https://github.com/Burg-Media/gb2swf/releases/tag/v1.0.0"
+        }
+      ]
+    },
+    {
+      "id": "psprism-psp-static-recompilation",
+      "title": "psprism — PSP static-recompilation engine",
+      "game": "psprism",
+      "target_type": "Software",
+      "platform": "PlayStation Portable ISO / ELF / PRX → native macOS and Windows; PSP testbench and partial overlays",
+      "kind": "Recompilation",
+      "status": "No tagged releases found (checked 2026-10-16); maintainer README reports macOS and Windows host backends working, with Linux planned.",
+      "summary": "C++20 static-recompilation framework lifts Allegrex MIPS executables to portable C++ and runs them through the Refract host compatibility layer. The PSP rebuild path is documented as a diagnostics, round-trip verification, and partial overlay/patching harness; full-game execution on PSP is limited by CPU and memory constraints.",
+      "project_url": "https://github.com/anthonyhfm/psprism",
+      "updated": "2026-10-16",
+      "strategy": "Static recompilation",
+      "language": "",
+      "source_available": "Public source repository",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Static recompiler and host runtime",
+      "sources": [
+        {
+          "label": "Project repository",
+          "url": "https://github.com/anthonyhfm/psprism"
+        },
+        {
+          "label": "Maintainer README",
+          "url": "https://github.com/anthonyhfm/psprism/blob/main/README.md"
+        },
+        {
+          "label": "Releases page",
+          "url": "https://github.com/anthonyhfm/psprism/releases"
+        }
+      ]
+    },
+    {
+      "id": "daxter-psprism-macos-recompilation",
+      "title": "Daxter — psprism native macOS target",
+      "game": "Daxter",
+      "target_type": "Game",
+      "platform": "PlayStation Portable → macOS (ARM64 / x86_64)",
+      "kind": "Recompilation",
+      "status": "Maintainer README calls Daxter fully playable on macOS; no tagged releases found as of 2026-10-16.",
+      "summary": "The psprism README shows Daxter running through its static PSP-to-C++20 translation and Refract macOS runtime and says Daxter is fully playable on macOS; other game profiles are work in progress. The PSP output path is for diagnostics and partial overlays, not the playable full-game target.",
+      "project_url": "https://github.com/anthonyhfm/psprism",
+      "updated": "2026-10-16",
+      "strategy": "Static recompilation",
+      "language": "",
+      "source_available": "Public source repository",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Game-specific native host target",
+      "sources": [
+        {
+          "label": "Project repository",
+          "url": "https://github.com/anthonyhfm/psprism"
+        },
+        {
+          "label": "Maintainer README and compatibility status",
+          "url": "https://github.com/anthonyhfm/psprism/blob/main/README.md"
+        },
+        {
+          "label": "Canonical game facts",
+          "url": "https://en.wikipedia.org/wiki/Daxter_(video_game)"
+        }
+      ]
+    },
+    {
+      "id": "insaniquarium-deluxe-vita-api-port",
+      "title": "Insaniquarium! Deluxe — PlayStation Vita port",
+      "game": "Insaniquarium! Deluxe",
+      "target_type": "Game",
+      "platform": "Android ARMv7 (armeabi-v7a) → PlayStation Vita",
+      "kind": "API Translation",
+      "status": "v1.00a release (2026-10-11); README reports approximately 36 FPS without overclocking and documents a keyboard/paused-game softlock.",
+      "summary": "The Vita loader maps the Android libmain.so into the Vita process, relocates imports against Vita-side libc/SDL/GL shims, runs C++ constructors, and calls SDL_main. It requires user-supplied game data and the Android ARMv7 library; the repository says it ships no game files. No license is declared for this repository.",
+      "project_url": "https://github.com/KartingSackboy06/insaniquarium-vita",
+      "updated": "2026-10-16",
+      "strategy": "Android ARM ELF loading with Vita-side API shims",
+      "language": "",
+      "source_available": "Public source repository",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Android-to-Vita binary/API port",
+      "sources": [
+        {
+          "label": "Project repository",
+          "url": "https://github.com/KartingSackboy06/insaniquarium-vita"
+        },
+        {
+          "label": "Maintainer README",
+          "url": "https://github.com/KartingSackboy06/insaniquarium-vita/blob/main/README.md"
+        },
+        {
+          "label": "v1.00a release",
+          "url": "https://github.com/KartingSackboy06/insaniquarium-vita/releases/tag/v1.00a"
+        },
+        {
+          "label": "Canonical game facts (article covers Deluxe edition)",
+          "url": "https://en.wikipedia.org/wiki/Insaniquarium"
+        }
+      ]
+    },
+    {
+      "id": "epoch-equinox-oracle-of-ages-player",
+      "title": "Epoch & Equinox — Oracle of Ages player",
+      "game": "The Legend of Zelda: Oracle of Ages",
+      "target_type": "Game",
+      "platform": "Game Boy Color → Windows, Linux, and macOS (Apple Silicon)",
+      "kind": "Emulator",
+      "status": "v0.7.3 release (2026-09-18); current README identifies Oracle of Ages as supported by the shared player.",
+      "summary": "Cross-platform native player for a user-supplied Oracle of Ages ROM. The current README says the runtime interprets the loaded Game Boy Color ROM, like an emulator; earlier generated-C recompilation was removed after testing showed that generated code was not used. A separate native Ages reconstruction is a hidden developer preview, not the normal player.",
+      "project_url": "https://github.com/ZakyPew/epoch-equinox",
+      "updated": "2026-10-16",
+      "strategy": "Game Boy Color ROM interpretation / emulation",
+      "language": "",
+      "source_available": "Public source repository",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Game-specific native emulator/player",
+      "sources": [
+        {
+          "label": "Project repository",
+          "url": "https://github.com/ZakyPew/epoch-equinox"
+        },
+        {
+          "label": "Maintainer README and implementation history",
+          "url": "https://github.com/ZakyPew/epoch-equinox/blob/main/README.md"
+        },
+        {
+          "label": "v0.7.3 release",
+          "url": "https://github.com/ZakyPew/epoch-equinox/releases/tag/v0.7.3"
+        },
+        {
+          "label": "Existing canonical game facts",
+          "url": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Oracle_of_Seasons_and_Oracle_of_Ages"
+        }
+      ]
+    },
+    {
+      "id": "epoch-equinox-oracle-of-seasons-player",
+      "title": "Epoch & Equinox — Oracle of Seasons player",
+      "game": "The Legend of Zelda: Oracle of Seasons",
+      "target_type": "Game",
+      "platform": "Game Boy Color → Windows, Linux, and macOS (Apple Silicon)",
+      "kind": "Emulator",
+      "status": "v0.7.3 release (2026-09-18); current README identifies Oracle of Seasons as supported by the shared player.",
+      "summary": "Cross-platform native player for a user-supplied Oracle of Seasons ROM. The current README says the runtime interprets the loaded Game Boy Color ROM, like an emulator; earlier generated-C recompilation was removed after testing showed that generated code was not used.",
+      "project_url": "https://github.com/ZakyPew/epoch-equinox",
+      "updated": "2026-10-16",
+      "strategy": "Game Boy Color ROM interpretation / emulation",
+      "language": "",
+      "source_available": "Public source repository",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Game-specific native emulator/player",
+      "sources": [
+        {
+          "label": "Project repository",
+          "url": "https://github.com/ZakyPew/epoch-equinox"
+        },
+        {
+          "label": "Maintainer README and implementation history",
+          "url": "https://github.com/ZakyPew/epoch-equinox/blob/main/README.md"
+        },
+        {
+          "label": "v0.7.3 release",
+          "url": "https://github.com/ZakyPew/epoch-equinox/releases/tag/v0.7.3"
+        },
+        {
+          "label": "Existing canonical game facts",
+          "url": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Oracle_of_Seasons_and_Oracle_of_Ages"
+        }
+      ]
+    }
+  ]
+}

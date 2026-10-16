@@ -1,0 +1,137 @@
+{
+  "updated": "2026-10-16",
+  "scope": "Round 13 source-reviewed additions for distinct console/mobile/PC targets. Methods are explicitly separated: Sonic Generations is Xbox 360 static recompilation to Android; Syphon Filter is game-specific PS1 emulation with a native Windows host; Super Mario Strikers Quest is a decompilation-based native source port to Meta Quest 3. Each project row names one target; the Quest row is separate from the existing Android phone port because it adds a Quest/OpenXR standalone headset application and mixed-reality target.",
+  "projects": [
+    {
+      "id": "sonic-generations-xbox360-android-rexglue",
+      "title": "Sonic Generations Xbox 360 Android Recompilation (ReXGlue)",
+      "game": "Sonic Generations (Xbox 360 version)",
+      "target_type": "Game",
+      "platform": "Xbox 360 (USA/Europe) → Android 9+ ARM64 (arm64-v8a)",
+      "kind": "Recompilation",
+      "status": "No GitHub release is listed. The maintainer reports title-screen and Green Hill testing on a Helio G99 / Mali-G57 Android device at about 2.5–4 fps; the report notes a Sonic skinning glitch and does not establish broader device or full-campaign compatibility. The README says the author does not expect to extend this ReXGlue version further. The README requires the user to provide a USA or Europe Xbox 360 game ISO.",
+      "summary": "Android ARM64 port of the Xbox 360 version using ReXGlue static recompilation: Xbox 360 PowerPC code is generated as C++ ahead of time, then built with Android NDK/Gradle and Android-specific Vulkan compatibility patches. This is static recompilation, not runtime emulation or an API translation layer.",
+      "project_url": "https://github.com/BluetufieBugado/GenerationsRecomp-Android-RexGlue",
+      "updated": "2026-10-16",
+      "strategy": "Static recompilation",
+      "language": "",
+      "source_available": "Public repository includes generated C++ game code and Android NDK/Gradle sources; the README requires a user-supplied Xbox 360 ISO. GitHub reports no declared project license.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Xbox 360 static recompilation via ReXGlue; Android native ARM64 target",
+      "sources": [
+        {
+          "label": "Canonical Android project README at reviewed commit",
+          "url": "https://github.com/BluetufieBugado/GenerationsRecomp-Android-RexGlue/blob/8c65b8097444416df6506037e876b382acde0da3/README.md"
+        },
+        {
+          "label": "Maintainer Mali-G57 bring-up and performance report",
+          "url": "https://github.com/BluetufieBugado/GenerationsRecomp-Android-RexGlue/blob/8c65b8097444416df6506037e876b382acde0da3/docs/mali-g57.md"
+        },
+        {
+          "label": "Android app minimum SDK and arm64 ABI configuration",
+          "url": "https://github.com/BluetufieBugado/GenerationsRecomp-Android-RexGlue/blob/8c65b8097444416df6506037e876b382acde0da3/android/app/build.gradle.kts"
+        },
+        {
+          "label": "ReXGlue maintainer README describing ahead-of-time Xbox 360 PowerPC-to-C++ recompilation",
+          "url": "https://github.com/rexglue/rexglue-sdk/blob/main/README.md"
+        },
+        {
+          "label": "Exact GitHub Languages API byte counts",
+          "url": "https://api.github.com/repos/BluetufieBugado/GenerationsRecomp-Android-RexGlue/languages"
+        },
+        {
+          "label": "GitHub release list checked; empty at review time",
+          "url": "https://github.com/BluetufieBugado/GenerationsRecomp-Android-RexGlue/releases"
+        }
+      ]
+    },
+    {
+      "id": "syphon-filter-ps1-windows-game-specific-emulator",
+      "title": "Syphon Filter Windows Runtime (Game-Specific PlayStation Emulator)",
+      "game": "Syphon Filter (PlayStation USA v1.1, SCUS-94240)",
+      "target_type": "Game",
+      "platform": "PlayStation (USA v1.1, SCUS-94240) → Windows 10/11 x64",
+      "kind": "Emulator",
+      "status": "Public-test release 0.2.0-beta.2 was published on 2026-08-13. The maintainer README lists the complete 20-mission campaign flow and related gameplay systems, while labeling the software a public test; no independent full-campaign verification is claimed. The user supplies the supported USA v1.1 BIN/CUE image.",
+      "summary": "A game-specific PlayStation runtime for Windows x64. The original R3000A game program executes through emulated PS1 CPU, GTE, bus, IRQ, DMA, CD-ROM and audio systems; native Windows code handles presentation, input, launcher, storage and FMV playback. This is emulation-based, not a matching decompilation or static recompilation.",
+      "project_url": "https://github.com/Madxbio97/SF-pc-port",
+      "updated": "2026-10-16",
+      "strategy": "Game-specific PlayStation emulation with native Windows presentation",
+      "language": "",
+      "source_available": "Public MIT source and public-test Windows x64 release; the repository and release exclude game files and require the supported USA v1.1 BIN/CUE image.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Game-specific PS1 guest runtime/emulator; Windows x64 host",
+      "sources": [
+        {
+          "label": "Maintainer README at reviewed release commit",
+          "url": "https://github.com/Madxbio97/SF-pc-port/blob/a11020bbf8ea136e1685edfe29217e7c965b49c9/README.md"
+        },
+        {
+          "label": "Maintainer architecture description of the R3000A, GTE, bus, IRQ, DMA, CD-ROM and audio guest systems",
+          "url": "https://github.com/Madxbio97/SF-pc-port/blob/a11020bbf8ea136e1685edfe29217e7c965b49c9/docs/ARCHITECTURE.md"
+        },
+        {
+          "label": "Latest public-test release, 0.2.0-beta.2",
+          "url": "https://github.com/Madxbio97/SF-pc-port/releases/tag/0.2.0-beta.2"
+        },
+        {
+          "label": "MIT license",
+          "url": "https://github.com/Madxbio97/SF-pc-port/blob/a11020bbf8ea136e1685edfe29217e7c965b49c9/LICENSE"
+        },
+        {
+          "label": "Exact GitHub Languages API byte counts",
+          "url": "https://api.github.com/repos/Madxbio97/SF-pc-port/languages"
+        }
+      ]
+    },
+    {
+      "id": "super-mario-strikers-meta-quest-3-mr-port",
+      "title": "Quest 3 Strikers: Super Mario Strikers Mixed-Reality Port",
+      "game": "Super Mario Strikers",
+      "target_type": "Game",
+      "platform": "Nintendo GameCube → Meta Quest 3 standalone (Android ARM64 / OpenXR)",
+      "kind": "Decompilation",
+      "status": "Free alpha; v0.1.11-alpha1 APK was published on 2026-10-16. The maintainer reports testing on Quest 3, including online matches between two Quest 3 headsets; other headset models are untested. The release requires the user’s own Super Mario Strikers game image and contains no game files.",
+      "summary": "Quest 3-specific native ARM/OpenXR port built from the Super Mario Strikers community decompilation and based on the catalogued Android phone port. It adds passthrough mixed reality, a tabletop pitch and stadium VR modes. This is a decompilation-based source port, not static recompilation or emulation.",
+      "project_url": "https://github.com/LanceSweatpants/Strikers-Quest-MR",
+      "updated": "2026-10-16",
+      "strategy": "Native source port using community decompilation code",
+      "language": "",
+      "source_available": "Public GPL-3.0 source and Quest APK release; README states that no game files are included and a user-owned GameCube game image is required.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Decompilation-based native source port; Meta Quest 3 Android ARM64/OpenXR mixed-reality application",
+      "sources": [
+        {
+          "label": "Canonical Quest project README at reviewed release commit",
+          "url": "https://github.com/LanceSweatpants/Strikers-Quest-MR/blob/4035b980bda4c2635cb6c538736370ae4b073a56/README.md"
+        },
+        {
+          "label": "Latest alpha APK and maintainer release notes",
+          "url": "https://github.com/LanceSweatpants/Strikers-Quest-MR/releases/tag/v0.1.11-alpha1"
+        },
+        {
+          "label": "Catalogued Android phone port identified by the Quest README as its base",
+          "url": "https://github.com/luisxl15/Strikers-Android-Port"
+        },
+        {
+          "label": "Community matching decompilation identified by the Android base README",
+          "url": "https://github.com/yannicksuter/smstrikers-decomp"
+        },
+        {
+          "label": "GPL-3.0 license",
+          "url": "https://github.com/LanceSweatpants/Strikers-Quest-MR/blob/4035b980bda4c2635cb6c538736370ae4b073a56/LICENSE"
+        },
+        {
+          "label": "Exact GitHub Languages API byte counts",
+          "url": "https://api.github.com/repos/LanceSweatpants/Strikers-Quest-MR/languages"
+        }
+      ]
+    }
+  ]
+}

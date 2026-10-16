@@ -1,0 +1,69 @@
+{
+  "verified_at": "2026-10-16",
+  "canonical_database": "/Users/earlcameron/Desktop/recompiled/data/catalog.sqlite",
+  "canonical_project_count": 3462,
+  "database_access": "Read-only SQLite URI (mode=ro); no canonical import/write was run.",
+  "dedupe_key": "Project repository identity plus target. Exact repository roots were checked in the canonical projects table and visible Round-13 research manifests; same title alone is not treated as a project identity collision.",
+  "selected": [
+    {
+      "project_id": "monster-hunter-3-ultimate-wiiu-linux-static-recomp",
+      "repository": "https://github.com/brandraft-exp/wiiu-recomp",
+      "game": "Monster Hunter 3 Ultimate",
+      "target": "Wii U RPX → Linux x86-64",
+      "exact_repository_match_in_catalog": false,
+      "related_catalog_rows": [
+        {
+          "id": "monster-hunter-3-ultimate-wiiu-static-recomp",
+          "repository": "https://github.com/glinesbdev/mh3u-port",
+          "relation": "Same game and broad host target; different repository/codebase and project identity."
+        }
+      ]
+    },
+    {
+      "project_id": "yoshis-woolly-world-wiiu-decomp",
+      "repository": "https://github.com/Swiftshine/yww",
+      "game": "Yoshi's Woolly World",
+      "target": "Wii U matching decompilation",
+      "exact_repository_match_in_catalog": false,
+      "related_catalog_rows": []
+    },
+    {
+      "project_id": "scott-pilgrim-complete-edition-switch-decomp",
+      "repository": "https://github.com/jwfeniello/scott-pilgrim-switch-decomp",
+      "game": "Scott Pilgrim vs. The World: The Game – Complete Edition",
+      "target": "Nintendo Switch AArch64 matching decompilation",
+      "exact_repository_match_in_catalog": false,
+      "related_catalog_rows": [
+        {
+          "id": "scott-pilgrim-ps3-recomp",
+          "repository": "https://github.com/sp00nznet/scottpilgrim",
+          "relation": "Original game PS3 → Windows recompilation; this proposal is the Complete Edition Switch target and another repository."
+        }
+      ]
+    },
+    {
+      "project_id": "tears-of-the-kingdom-switch-decomp-bignegro",
+      "repository": "https://github.com/bignegro/TOTK-Decomp",
+      "game": "The Legend of Zelda: Tears of the Kingdom",
+      "target": "Nintendo Switch AArch64 clean-room decompilation",
+      "exact_repository_match_in_catalog": false,
+      "related_catalog_rows": [
+        {
+          "id": "tears-of-the-kingdom-cryrecomp-static-recomp-research",
+          "repository": "https://github.com/xzhuofan/CryRecomp",
+          "relation": "Same game; different repo and recompilation research method. No candidate repo+target identity collision."
+        }
+      ]
+    },
+    {
+      "project_id": "ctr2wup-3ds-to-wiiu-static-recomp-toolkit",
+      "repository": "https://github.com/Jdiller-86/CTR-2-WUP",
+      "game": "CTR2WUP Nintendo 3DS-to-Wii U static-recompilation and WUP-injector toolkit",
+      "target": "Software developer toolkit; 3DS ARM/Thumb → Wii U WUP/homebrew diagnostics",
+      "exact_repository_match_in_catalog": false,
+      "related_catalog_rows": []
+    }
+  ],
+  "visible_staged_manifest_scan": "No selected exact repository root appears in an importer-ready candidate manifest elsewhere in the searched Round-13 staging. bignegro/TOTK-Decomp also appears in the sibling game-decomps evidence snapshot as a discovery candidate; that sibling agent confirmed it is not part of its additions, so this packet stages the sole proposed project row.",
+  "notes": "Yoshi’s Woolly World and Scott Pilgrim Complete Edition have no exact game-key rows/facts in the canonical games table; this packet includes sourced profiles and direct article links. Monster Hunter 3 Ultimate and Tears of the Kingdom already have sourced facts and a direct-Wikipedia or exact-title-search reference in SQLite; no replacement profiles are proposed."
+}

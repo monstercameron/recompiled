@@ -1,0 +1,1266 @@
+{
+  "checked_at": "2026-10-16",
+  "records": [
+    {
+      "project_id": "givenergy-gen3-lv-inverter-firmware-decompilation",
+      "project_url": "https://github.com/abedegno/forgiv",
+      "checked_at": "2026-10-16",
+      "claims": [
+        {
+          "field": "target",
+          "claim": "GivEnergy Hybrid Gen3 LV inverter firmware (ARM A316 and DSP D316 images)"
+        },
+        {
+          "field": "method",
+          "claim": "Matching C/assembly decompilation rebuilt with the original vendor compiler and linker toolchains, then compared byte-for-byte with the target images."
+        },
+        {
+          "field": "status_and_release",
+          "claim": "The public v1.0.0 release was published 2026-10-16. The README reports byte-identical rebuilds of both images: 99.0% of A316 image bytes and 74.1% of D316 words come from recovered source; the remaining image content is vendor libraries, a region table, and linker padding. The maintainer says the work has only been tested as a rebuild, not as firmware to flash."
+        },
+        {
+          "field": "source_availability_and_license",
+          "claim": "Public C/assembly source, analysis notes, build tools, and comparison gates; no original firmware images are included. The repository MIT license covers the author’s tooling, documentation, configuration, and annotations, while reproduced GivEnergy and third-party code retain their original rights."
+        },
+        {
+          "field": "supported_platforms",
+          "claim": "GivEnergy Hybrid Gen3 LV inverter: STM32F105/107 ARM A316 and TMS320F2806x DSP D316. Matching builds were verified on macOS Apple Silicon with Wine and the native macOS TI object tools; the maintainer says Linux with Wine should work but has not tried it."
+        },
+        {
+          "field": "programming_language",
+          "claim": "Official GitHub language map: {'C': 1940588, 'Python': 949522, 'Assembly': 36602, 'Java': 14437, 'Shell': 365}. C is largest at 1,940,588 bytes."
+        }
+      ],
+      "primary_sources": [
+        {
+          "label": "Maintainer README: exact targets, matching percentages, status, build hosts, and license boundary",
+          "url": "https://github.com/abedegno/forgiv/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer method notes: byte-matching decompilation process",
+          "url": "https://github.com/abedegno/forgiv/blob/main/docs/development/method.md"
+        },
+        {
+          "label": "Public v1.0.0 release",
+          "url": "https://github.com/abedegno/forgiv/releases/tag/v1.0.0"
+        },
+        {
+          "label": "Official GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/abedegno/forgiv"
+        },
+        {
+          "label": "Official GitHub Languages API with repository-wide byte totals",
+          "url": "https://api.github.com/repos/abedegno/forgiv/languages"
+        },
+        {
+          "label": "Official GitHub release list checked 2026-10-16",
+          "url": "https://api.github.com/repos/abedegno/forgiv/releases"
+        }
+      ],
+      "github_metadata_url": "https://api.github.com/repos/abedegno/forgiv",
+      "github_language_bytes_url": "https://api.github.com/repos/abedegno/forgiv/languages",
+      "github_release_list_url": "https://api.github.com/repos/abedegno/forgiv/releases",
+      "github_repository_metadata": {
+        "full_name": "abedegno/forgiv",
+        "created_at": "2026-10-16T09:38:49Z",
+        "updated_at": "2026-10-16T09:39:01Z",
+        "pushed_at": "2026-10-16T09:38:56Z",
+        "default_branch": "main",
+        "archived": false,
+        "fork": false,
+        "detected_language": "C",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "html_url": "https://github.com/abedegno/forgiv"
+      },
+      "latest_releases": [
+        {
+          "tag_name": "v1.0.0",
+          "name": "forgiv v1.0.0",
+          "published_at": "2026-10-16T09:39:05Z",
+          "url": "https://github.com/abedegno/forgiv/releases/tag/v1.0.0"
+        }
+      ],
+      "language_bytes": {
+        "C": 1940588,
+        "Python": 949522,
+        "Assembly": 36602,
+        "Java": 14437,
+        "Shell": 365
+      },
+      "source_snapshot_files": [
+        "abedegno__forgiv.README.md",
+        "abedegno__forgiv.languages.json",
+        "abedegno__forgiv.metadata.json",
+        "abedegno__forgiv.releases.json",
+        "abedegno__forgiv__LICENSE.md",
+        "abedegno__forgiv__LICENSE.txt",
+        "abedegno__forgiv__NOTICE.md.md",
+        "abedegno__forgiv__docs__development__method.md.md",
+        "abedegno__forgiv__docs__development__toolchains.md.md",
+        "abedegno__forgiv__inverters__gen3-lv__README.md.md",
+        "abedegno__forgiv__inverters__gen3-lv__a316__README.md.md",
+        "abedegno__forgiv__inverters__gen3-lv__d316__README.md.md"
+      ]
+    },
+    {
+      "project_id": "pokewalker-firmware-matching-decompilation",
+      "project_url": "https://github.com/lumirth/pw",
+      "checked_at": "2026-10-16",
+      "claims": [
+        {
+          "field": "target",
+          "claim": "Nintendo Pokéwalker firmware (H8/38606 target)"
+        },
+        {
+          "field": "method",
+          "claim": "Matching decompilation of the H8 firmware into separately compiled C modules, using the supported Renesas toolchain and retail-hash verification."
+        },
+        {
+          "field": "status_and_release",
+          "claim": "The maintainer describes the matching reconstruction as complete. With a supported Renesas HEW toolchain and the retail artwork, the source can be built and checked against the retail firmware hash. The README does not name a retail firmware version, and no tagged GitHub release is listed."
+        },
+        {
+          "field": "source_availability_and_license",
+          "claim": "Public reconstruction source, build and verification tools, and documentation under CC0 for author-created material. Retail firmware, extracted artwork, and the Renesas compiler are not distributed."
+        },
+        {
+          "field": "supported_platforms",
+          "claim": "Nintendo Pokéwalker accessory firmware on the Renesas H8/38606. The maintainer reports successful reconstruction builds on macOS Arm64 and Windows x86_64; macOS runs the 32-bit Windows Renesas tools through Wine and Rosetta."
+        },
+        {
+          "field": "programming_language",
+          "claim": "Official GitHub language map: {'C': 512190, 'Python': 151153}. C is largest at 512,190 bytes."
+        }
+      ],
+      "primary_sources": [
+        {
+          "label": "Maintainer README: target, matching status, build hosts, source policy, and license scope",
+          "url": "https://github.com/lumirth/pw/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer source guide: reconstructed firmware modules and behaviors",
+          "url": "https://github.com/lumirth/pw/blob/main/docs/source.md"
+        },
+        {
+          "label": "Maintainer build instructions: required compiler versions and matching check",
+          "url": "https://github.com/lumirth/pw/blob/main/docs/build.md"
+        },
+        {
+          "label": "Official GitHub release list; no releases were listed at review time",
+          "url": "https://api.github.com/repos/lumirth/pw/releases"
+        },
+        {
+          "label": "Official GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/lumirth/pw"
+        },
+        {
+          "label": "Official GitHub Languages API with repository-wide byte totals",
+          "url": "https://api.github.com/repos/lumirth/pw/languages"
+        },
+        {
+          "label": "Official GitHub release list checked 2026-10-16",
+          "url": "https://api.github.com/repos/lumirth/pw/releases"
+        }
+      ],
+      "github_metadata_url": "https://api.github.com/repos/lumirth/pw",
+      "github_language_bytes_url": "https://api.github.com/repos/lumirth/pw/languages",
+      "github_release_list_url": "https://api.github.com/repos/lumirth/pw/releases",
+      "github_repository_metadata": {
+        "full_name": "lumirth/pw",
+        "created_at": "2026-09-13T20:38:51Z",
+        "updated_at": "2026-10-16T03:00:02Z",
+        "pushed_at": "2026-09-14T23:06:05Z",
+        "default_branch": "main",
+        "archived": false,
+        "fork": false,
+        "detected_language": "C",
+        "license": {
+          "key": "cc0-1.0",
+          "name": "Creative Commons Zero v1.0 Universal",
+          "spdx_id": "CC0-1.0",
+          "url": "https://api.github.com/licenses/cc0-1.0",
+          "node_id": "MDc6TGljZW5zZTY="
+        },
+        "html_url": "https://github.com/lumirth/pw"
+      },
+      "latest_releases": [],
+      "language_bytes": {
+        "C": 512190,
+        "Python": 151153
+      },
+      "source_snapshot_files": [
+        "lumirth__pw.README.md",
+        "lumirth__pw.languages.json",
+        "lumirth__pw.metadata.json",
+        "lumirth__pw.releases.json",
+        "lumirth__pw__LICENSE.txt",
+        "lumirth__pw__docs__build.md.md",
+        "lumirth__pw__docs__references.md.md",
+        "lumirth__pw__docs__source.md.md"
+      ]
+    },
+    {
+      "project_id": "starstruck-nintendo-wii-ios-reimplementation",
+      "project_url": "https://github.com/DacoTaco/StarStruck",
+      "checked_at": "2026-10-16",
+      "claims": [
+        {
+          "field": "target",
+          "claim": "Nintendo Wii IOS/Starlet system software"
+        },
+        {
+          "field": "method",
+          "claim": "Reimplementation of Wii IOS system software, based on Team Twiizers’ mini replacement, with a modular subsystem design."
+        },
+        {
+          "field": "status_and_release",
+          "claim": "The README describes an incomplete replacement that currently provides low-level system access, with full IOS replacement still a distant goal. It is based on Team Twiizers’ mini IOS replacement. The repository was updated 2026-10-16; no GitHub release is listed."
+        },
+        {
+          "field": "source_availability_and_license",
+          "claim": "Public source under GPL-2.0, including the COPYING file; no tagged release was listed."
+        },
+        {
+          "field": "supported_platforms",
+          "claim": "Nintendo Wii IOS/Starlet system software running on the Wii; the README does not specify the operating systems used to build it or a supported IOS version range."
+        },
+        {
+          "field": "programming_language",
+          "claim": "Official GitHub language map: {'C': 892414, 'Makefile': 45771, 'C++': 37955, 'Assembly': 21462, 'Linker Script': 11339, 'Python': 1093, 'Shell': 826}. C is largest at 892,414 bytes."
+        }
+      ],
+      "primary_sources": [
+        {
+          "label": "Maintainer README: IOS/Starlet target, current scope, and limitations",
+          "url": "https://github.com/DacoTaco/StarStruck/blob/main/README.md"
+        },
+        {
+          "label": "Repository GPL-2.0 license",
+          "url": "https://github.com/DacoTaco/StarStruck/blob/main/COPYING"
+        },
+        {
+          "label": "Official GitHub release list; no releases were listed at review time",
+          "url": "https://api.github.com/repos/DacoTaco/StarStruck/releases"
+        },
+        {
+          "label": "Official GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/DacoTaco/StarStruck"
+        },
+        {
+          "label": "Official GitHub Languages API with repository-wide byte totals",
+          "url": "https://api.github.com/repos/DacoTaco/StarStruck/languages"
+        },
+        {
+          "label": "Official GitHub release list checked 2026-10-16",
+          "url": "https://api.github.com/repos/DacoTaco/StarStruck/releases"
+        }
+      ],
+      "github_metadata_url": "https://api.github.com/repos/DacoTaco/StarStruck",
+      "github_language_bytes_url": "https://api.github.com/repos/DacoTaco/StarStruck/languages",
+      "github_release_list_url": "https://api.github.com/repos/DacoTaco/StarStruck/releases",
+      "github_repository_metadata": {
+        "full_name": "DacoTaco/StarStruck",
+        "created_at": "2021-02-28T14:59:00Z",
+        "updated_at": "2026-10-16T11:09:15Z",
+        "pushed_at": "2026-10-16T11:09:11Z",
+        "default_branch": "main",
+        "archived": false,
+        "fork": false,
+        "detected_language": "C",
+        "license": {
+          "key": "gpl-2.0",
+          "name": "GNU General Public License v2.0",
+          "spdx_id": "GPL-2.0",
+          "url": "https://api.github.com/licenses/gpl-2.0",
+          "node_id": "MDc6TGljZW5zZTg="
+        },
+        "html_url": "https://github.com/DacoTaco/StarStruck"
+      },
+      "latest_releases": [],
+      "language_bytes": {
+        "C": 892414,
+        "Makefile": 45771,
+        "C++": 37955,
+        "Assembly": 21462,
+        "Linker Script": 11339,
+        "Python": 1093,
+        "Shell": 826
+      },
+      "source_snapshot_files": [
+        "DacoTaco__StarStruck.README.md",
+        "DacoTaco__StarStruck.languages.json",
+        "DacoTaco__StarStruck.metadata.json",
+        "DacoTaco__StarStruck.releases.json",
+        "DacoTaco__StarStruck__COPYING.txt"
+      ]
+    },
+    {
+      "project_id": "mufus-rufus-workflows-macos-reimplementation",
+      "project_url": "https://github.com/ITCleric/Mufus",
+      "checked_at": "2026-10-16",
+      "claims": [
+        {
+          "field": "target",
+          "claim": "Rufus 4.15 USB creation workflows"
+        },
+        {
+          "field": "method",
+          "claim": "Independent native application built after reverse engineering the Rufus 4.15 executable and reviewing public Rufus source for Windows-specific workflow behavior."
+        },
+        {
+          "field": "status_and_release",
+          "claim": "Early public release v1.0.1 was published 2026-10-16. The README lists automated tests on disposable disk images and says physical USB boot testing and Apple notarization remain outstanding. The README says the app was developed after analysis of a Rufus 4.15 executable and is not a complete replacement for every Rufus feature."
+        },
+        {
+          "field": "source_availability_and_license",
+          "claim": "Public Swift source and v1.0.1 release under GPL-3.0-or-later. The repository also includes wimlib source and corresponding license notices."
+        },
+        {
+          "field": "supported_platforms",
+          "claim": "Native macOS 12+ application for Apple Silicon and Intel Macs. The maintainer says validation was performed on Apple Silicon macOS 26.4.1 and with the Intel executable under Rosetta; created USB media targets compatible UEFI PCs."
+        },
+        {
+          "field": "programming_language",
+          "claim": "Official GitHub language map: {'Swift': 63102, 'Shell': 2854, 'Python': 1005}. Swift is largest at 63,102 bytes."
+        }
+      ],
+      "primary_sources": [
+        {
+          "label": "Maintainer README: target workflows, host requirements, current limits, and license",
+          "url": "https://github.com/ITCleric/Mufus/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer analysis notes: bounded Rufus 4.15 executable investigation",
+          "url": "https://github.com/ITCleric/Mufus/blob/main/ANALYSE.txt"
+        },
+        {
+          "label": "Mufus v1.0.1 public preview release",
+          "url": "https://github.com/ITCleric/Mufus/releases/tag/v1.0.1"
+        },
+        {
+          "label": "Official GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/ITCleric/Mufus"
+        },
+        {
+          "label": "Official GitHub Languages API with repository-wide byte totals",
+          "url": "https://api.github.com/repos/ITCleric/Mufus/languages"
+        },
+        {
+          "label": "Official GitHub release list checked 2026-10-16",
+          "url": "https://api.github.com/repos/ITCleric/Mufus/releases"
+        }
+      ],
+      "github_metadata_url": "https://api.github.com/repos/ITCleric/Mufus",
+      "github_language_bytes_url": "https://api.github.com/repos/ITCleric/Mufus/languages",
+      "github_release_list_url": "https://api.github.com/repos/ITCleric/Mufus/releases",
+      "github_repository_metadata": {
+        "full_name": "ITCleric/Mufus",
+        "created_at": "2026-10-16T09:21:36Z",
+        "updated_at": "2026-10-16T10:16:07Z",
+        "pushed_at": "2026-10-16T09:24:32Z",
+        "default_branch": "main",
+        "archived": false,
+        "fork": false,
+        "detected_language": "Swift",
+        "license": {
+          "key": "gpl-3.0",
+          "name": "GNU General Public License v3.0",
+          "spdx_id": "GPL-3.0",
+          "url": "https://api.github.com/licenses/gpl-3.0",
+          "node_id": "MDc6TGljZW5zZTk="
+        },
+        "html_url": "https://github.com/ITCleric/Mufus"
+      },
+      "latest_releases": [
+        {
+          "tag_name": "v1.0.1",
+          "name": "Mufus 1.0.1 — Public Preview",
+          "published_at": "2026-10-16T09:24:33Z",
+          "url": "https://github.com/ITCleric/Mufus/releases/tag/v1.0.1"
+        }
+      ],
+      "language_bytes": {
+        "Swift": 63102,
+        "Shell": 2854,
+        "Python": 1005
+      },
+      "source_snapshot_files": [
+        "ITCleric__Mufus.README.md",
+        "ITCleric__Mufus.languages.json",
+        "ITCleric__Mufus.metadata.json",
+        "ITCleric__Mufus.releases.json",
+        "ITCleric__Mufus__ANALYSE.txt.md",
+        "ITCleric__Mufus__LICENSE.txt.txt",
+        "ITCleric__Mufus__docs__VALIDATION.md.md"
+      ]
+    },
+    {
+      "project_id": "oxpinyin-libpinyin-reimplementation",
+      "project_url": "https://github.com/shenghaoc/oxpinyin",
+      "checked_at": "2026-10-16",
+      "claims": [
+        {
+          "field": "target",
+          "claim": "libpinyin 15-series C ABI and output behavior"
+        },
+        {
+          "field": "method",
+          "claim": "Clean-room Rust reimplementation of libpinyin APIs with C ABI compatibility and differential output comparison against a pinned libpinyin oracle."
+        },
+        {
+          "field": "status_and_release",
+          "claim": "Stage 1 is marked complete: the maintainer reports 1,571/1,571 corpus rows and 79 exported symbols, with one remaining gap because the differential suite does not exercise the full exported ABI. Stage 2 is in progress; no GitHub release is listed. Repository activity continued through 2026-10-16."
+        },
+        {
+          "field": "source_availability_and_license",
+          "claim": "Public Rust source under GPL-3.0-or-later, with build instructions, differential tests, and project status documentation."
+        },
+        {
+          "field": "supported_platforms",
+          "claim": "Linux distributions including Fedora Rawhide, Debian testing, and NixOS are listed as parity-tested. The README also documents macOS build paths through Homebrew; Windows support is not documented."
+        },
+        {
+          "field": "programming_language",
+          "claim": "Official GitHub language map: {'Rust': 5420467, 'Python': 900561, 'C': 795161, 'Shell': 594751, 'C++': 64469}. Rust is largest at 5,420,467 bytes."
+        }
+      ],
+      "primary_sources": [
+        {
+          "label": "Maintainer README: libpinyin target, compatibility status, hosts, and license",
+          "url": "https://github.com/shenghaoc/oxpinyin/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer roadmap: stage completion and remaining work",
+          "url": "https://github.com/shenghaoc/oxpinyin/blob/main/ROADMAP.md"
+        },
+        {
+          "label": "Maintainer oracle documentation: upstream build and pinned comparison setup",
+          "url": "https://github.com/shenghaoc/oxpinyin/blob/main/docs/testing/oracle-environment.md"
+        },
+        {
+          "label": "Repository GPL-3.0 license",
+          "url": "https://github.com/shenghaoc/oxpinyin/blob/main/LICENSE"
+        },
+        {
+          "label": "Official GitHub release list; no releases were listed at review time",
+          "url": "https://api.github.com/repos/shenghaoc/oxpinyin/releases"
+        },
+        {
+          "label": "Official GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/shenghaoc/oxpinyin"
+        },
+        {
+          "label": "Official GitHub Languages API with repository-wide byte totals",
+          "url": "https://api.github.com/repos/shenghaoc/oxpinyin/languages"
+        },
+        {
+          "label": "Official GitHub release list checked 2026-10-16",
+          "url": "https://api.github.com/repos/shenghaoc/oxpinyin/releases"
+        }
+      ],
+      "github_metadata_url": "https://api.github.com/repos/shenghaoc/oxpinyin",
+      "github_language_bytes_url": "https://api.github.com/repos/shenghaoc/oxpinyin/languages",
+      "github_release_list_url": "https://api.github.com/repos/shenghaoc/oxpinyin/releases",
+      "github_repository_metadata": {
+        "full_name": "shenghaoc/oxpinyin",
+        "created_at": "2026-08-08T16:36:07Z",
+        "updated_at": "2026-10-16T11:25:51Z",
+        "pushed_at": "2026-10-16T11:25:46Z",
+        "default_branch": "main",
+        "archived": false,
+        "fork": false,
+        "detected_language": "Rust",
+        "license": {
+          "key": "gpl-3.0",
+          "name": "GNU General Public License v3.0",
+          "spdx_id": "GPL-3.0",
+          "url": "https://api.github.com/licenses/gpl-3.0",
+          "node_id": "MDc6TGljZW5zZTk="
+        },
+        "html_url": "https://github.com/shenghaoc/oxpinyin"
+      },
+      "latest_releases": [],
+      "language_bytes": {
+        "Rust": 5420467,
+        "Python": 900561,
+        "C": 795161,
+        "Shell": 594751,
+        "C++": 64469
+      },
+      "source_snapshot_files": [
+        "shenghaoc__oxpinyin.README.md",
+        "shenghaoc__oxpinyin.languages.json",
+        "shenghaoc__oxpinyin.metadata.json",
+        "shenghaoc__oxpinyin.releases.json",
+        "shenghaoc__oxpinyin__LICENSE.txt",
+        "shenghaoc__oxpinyin__ROADMAP.md.md",
+        "shenghaoc__oxpinyin__docs__findings__compatibility-policy.md.md",
+        "shenghaoc__oxpinyin__docs__testing__oracle-environment.md.md"
+      ]
+    },
+    {
+      "project_id": "grit-git-engine-reimplementation",
+      "project_url": "https://github.com/gitbutlerapp/grit",
+      "checked_at": "2026-10-16",
+      "claims": [
+        {
+          "field": "target",
+          "claim": "Git version-control semantics and repository formats"
+        },
+        {
+          "field": "method",
+          "claim": "Reimplement Git core behavior in a linkable Rust library and a modern client, validating implemented behavior against the system Git binary and maintaining on-disk and wire compatibility."
+        },
+        {
+          "field": "status_and_release",
+          "claim": "Active; release v0.5.10 was published 2026-10-16. The project now focuses on a linkable Git engine and a modern CLI for common workflows. Its earlier Git-identical CLI and ported Git test harness were removed; the current CLI has a smaller command set."
+        },
+        {
+          "field": "source_availability_and_license",
+          "claim": "Public Rust source and v0.5.10 release under MIT."
+        },
+        {
+          "field": "supported_platforms",
+          "claim": "Native CLI builds for macOS, Linux, and Windows. Git-compatible on-disk repositories and wire behavior are maintained for implemented features; the README does not claim full Git command-line parity."
+        },
+        {
+          "field": "programming_language",
+          "claim": "Official GitHub language map: {'Rust': 13104674, 'HTML': 510110, 'TypeScript': 136860, 'Python': 114391, 'CSS': 21735, 'C++': 21539, 'Shell': 13285, 'PowerShell': 3738, 'Makefile': 3605, 'C': 783}. Rust is largest at 13,104,674 bytes."
+        }
+      ],
+      "primary_sources": [
+        {
+          "label": "Maintainer README: current engine scope, client behavior, host platforms, and license",
+          "url": "https://github.com/gitbutlerapp/grit/blob/main/README.md"
+        },
+        {
+          "label": "Grit v0.5.10 release",
+          "url": "https://github.com/gitbutlerapp/grit/releases/tag/v0.5.10"
+        },
+        {
+          "label": "Repository MIT license",
+          "url": "https://github.com/gitbutlerapp/grit/blob/main/LICENSE"
+        },
+        {
+          "label": "Official GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/gitbutlerapp/grit"
+        },
+        {
+          "label": "Official GitHub Languages API with repository-wide byte totals",
+          "url": "https://api.github.com/repos/gitbutlerapp/grit/languages"
+        },
+        {
+          "label": "Official GitHub release list checked 2026-10-16",
+          "url": "https://api.github.com/repos/gitbutlerapp/grit/releases"
+        }
+      ],
+      "github_metadata_url": "https://api.github.com/repos/gitbutlerapp/grit",
+      "github_language_bytes_url": "https://api.github.com/repos/gitbutlerapp/grit/languages",
+      "github_release_list_url": "https://api.github.com/repos/gitbutlerapp/grit/releases",
+      "github_repository_metadata": {
+        "full_name": "gitbutlerapp/grit",
+        "created_at": "2026-04-01T03:32:52Z",
+        "updated_at": "2026-10-16T11:23:21Z",
+        "pushed_at": "2026-10-16T11:23:15Z",
+        "default_branch": "main",
+        "archived": false,
+        "fork": false,
+        "detected_language": "Rust",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "html_url": "https://github.com/gitbutlerapp/grit"
+      },
+      "latest_releases": [
+        {
+          "tag_name": "v0.5.10",
+          "name": "v0.5.10",
+          "published_at": "2026-10-16T01:04:22Z",
+          "url": "https://github.com/gitbutlerapp/grit/releases/tag/v0.5.10"
+        },
+        {
+          "tag_name": "v0.5.9",
+          "name": "v0.5.9",
+          "published_at": "2026-10-14T22:11:03Z",
+          "url": "https://github.com/gitbutlerapp/grit/releases/tag/v0.5.9"
+        },
+        {
+          "tag_name": "v0.5.8",
+          "name": "v0.5.8",
+          "published_at": "2026-10-13T23:09:22Z",
+          "url": "https://github.com/gitbutlerapp/grit/releases/tag/v0.5.8"
+        },
+        {
+          "tag_name": "v0.5.7",
+          "name": "v0.5.7",
+          "published_at": "2026-10-12T22:20:06Z",
+          "url": "https://github.com/gitbutlerapp/grit/releases/tag/v0.5.7"
+        },
+        {
+          "tag_name": "v0.5.6",
+          "name": "v0.5.6",
+          "published_at": "2026-10-11T22:10:15Z",
+          "url": "https://github.com/gitbutlerapp/grit/releases/tag/v0.5.6"
+        }
+      ],
+      "language_bytes": {
+        "Rust": 13104674,
+        "HTML": 510110,
+        "TypeScript": 136860,
+        "Python": 114391,
+        "CSS": 21735,
+        "C++": 21539,
+        "Shell": 13285,
+        "PowerShell": 3738,
+        "Makefile": 3605,
+        "C": 783
+      },
+      "source_snapshot_files": [
+        "gitbutlerapp__grit.README.md",
+        "gitbutlerapp__grit.languages.json",
+        "gitbutlerapp__grit.metadata.json",
+        "gitbutlerapp__grit.releases.json",
+        "gitbutlerapp__grit__LICENSE.txt"
+      ]
+    },
+    {
+      "project_id": "openfirma-autofirma-reimplementation",
+      "project_url": "https://github.com/millaguie/openfirma",
+      "checked_at": "2026-10-16",
+      "claims": [
+        {
+          "field": "target",
+          "claim": "AutoFirma Spanish electronic-signature client (AutoFirma 1.9 is used for some golden comparisons)"
+        },
+        {
+          "field": "method",
+          "claim": "Independent Rust implementation of AutoFirma signing, verification, keystore, and browser-dispatch behavior, with format-level crosschecks and golden comparisons against AutoFirma 1.9."
+        },
+        {
+          "field": "status_and_release",
+          "claim": "Very early, phase 1 per the maintainer README; no GitHub release is listed. The README reports working CAdES/PAdES/XAdES baseline subsets, crosschecks with OpenSSL/qpdf/xmlsec1, and structural golden comparisons with AutoFirma. Real government-site browser integration still lacks its WSS transport; FacturaE and several XAdES shapes are not started."
+        },
+        {
+          "field": "source_availability_and_license",
+          "claim": "Public Rust source and documentation; the maintainer declares GPL-2.0-or-later or EUPL-1.1. The project has no GitHub release yet."
+        },
+        {
+          "field": "supported_platforms",
+          "claim": "The project documents a Windows, macOS, and Linux desktop target. CI runs on all three; Windows system-certificate signing is compiled but runtime-untested, and the macOS keychain backend currently lists certificates but refuses signing pending tests."
+        },
+        {
+          "field": "programming_language",
+          "claim": "Official GitHub language map: {'Rust': 1244806, 'Python': 40240, 'Shell': 31546, 'Java': 8631}. Rust is largest at 1,244,806 bytes."
+        }
+      ],
+      "primary_sources": [
+        {
+          "label": "Maintainer README: target, implementation method, current status, platform limitations, and license",
+          "url": "https://github.com/millaguie/openfirma/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer desktop platform matrix",
+          "url": "https://github.com/millaguie/openfirma/blob/main/docs/platforms.md"
+        },
+        {
+          "label": "Maintainer validation record: format and compatibility checks",
+          "url": "https://github.com/millaguie/openfirma/blob/main/docs/validation.md"
+        },
+        {
+          "label": "Repository GPL-2.0-or-later and EUPL-1.1 license texts",
+          "url": "https://github.com/millaguie/openfirma/tree/main/LICENSES"
+        },
+        {
+          "label": "Official GitHub release list; no releases were listed at review time",
+          "url": "https://api.github.com/repos/millaguie/openfirma/releases"
+        },
+        {
+          "label": "Official GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/millaguie/openfirma"
+        },
+        {
+          "label": "Official GitHub Languages API with repository-wide byte totals",
+          "url": "https://api.github.com/repos/millaguie/openfirma/languages"
+        },
+        {
+          "label": "Official GitHub release list checked 2026-10-16",
+          "url": "https://api.github.com/repos/millaguie/openfirma/releases"
+        }
+      ],
+      "github_metadata_url": "https://api.github.com/repos/millaguie/openfirma",
+      "github_language_bytes_url": "https://api.github.com/repos/millaguie/openfirma/languages",
+      "github_release_list_url": "https://api.github.com/repos/millaguie/openfirma/releases",
+      "github_repository_metadata": {
+        "full_name": "millaguie/openfirma",
+        "created_at": "2026-10-15T09:04:48Z",
+        "updated_at": "2026-10-16T11:23:07Z",
+        "pushed_at": "2026-10-16T11:23:03Z",
+        "default_branch": "main",
+        "archived": false,
+        "fork": false,
+        "detected_language": "Rust",
+        "license": null,
+        "html_url": "https://github.com/millaguie/openfirma"
+      },
+      "latest_releases": [],
+      "language_bytes": {
+        "Rust": 1244806,
+        "Python": 40240,
+        "Shell": 31546,
+        "Java": 8631
+      },
+      "source_snapshot_files": [
+        "millaguie__openfirma.README.md",
+        "millaguie__openfirma.languages.json",
+        "millaguie__openfirma.metadata.json",
+        "millaguie__openfirma.releases.json",
+        "millaguie__openfirma__LICENSES-files.json",
+        "millaguie__openfirma__LICENSES__EUPL-1.1.txt.md",
+        "millaguie__openfirma__LICENSES__GPL-2.0-or-later.txt.md",
+        "millaguie__openfirma__docs__platforms.md.md",
+        "millaguie__openfirma__docs__validation.md.md"
+      ]
+    },
+    {
+      "project_id": "spacebar-discord-backend-reimplementation",
+      "project_url": "https://github.com/spacebarchat/server",
+      "checked_at": "2026-10-16",
+      "claims": [
+        {
+          "field": "target",
+          "claim": "Discord.com backend and client/server API behavior"
+        },
+        {
+          "field": "method",
+          "claim": "Reverse engineer Discord backend behavior and implement compatible HTTP, WebSocket, CDN, and WebRTC server components."
+        },
+        {
+          "field": "status_and_release",
+          "claim": "The README labels the project as in development; the source repository was updated 2026-10-16 and no GitHub release is listed. The project aims for backward compatibility with Discord clients, bots, and applications, while the README cautions that some clients remain incompatible."
+        },
+        {
+          "field": "source_availability_and_license",
+          "claim": "Public TypeScript and C# source under AGPL-3.0; no GitHub release is listed."
+        },
+        {
+          "field": "supported_platforms",
+          "claim": "Self-hosted HTTP API, WebSocket gateway, CDN, and WebRTC server. The maintainer links setup documentation; the README does not state a complete host operating-system matrix or pin a Discord API version."
+        },
+        {
+          "field": "programming_language",
+          "claim": "Official GitHub language map: {'TypeScript': 2476425, 'C#': 623204, 'HTML': 112094, 'Nix': 80481, 'JavaScript': 59932, 'CSS': 25133, 'Shell': 9924}. TypeScript is largest at 2,476,425 bytes."
+        }
+      ],
+      "primary_sources": [
+        {
+          "label": "Maintainer README: target, service components, compatibility goal, and status",
+          "url": "https://github.com/spacebarchat/server/blob/master/README.md"
+        },
+        {
+          "label": "Maintainer server setup documentation",
+          "url": "https://docs.spacebar.chat/setup/server"
+        },
+        {
+          "label": "Repository AGPL-3.0 license",
+          "url": "https://github.com/spacebarchat/server/blob/master/COPYING"
+        },
+        {
+          "label": "Official GitHub release list; no releases were listed at review time",
+          "url": "https://api.github.com/repos/spacebarchat/server/releases"
+        },
+        {
+          "label": "Official GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/spacebarchat/server"
+        },
+        {
+          "label": "Official GitHub Languages API with repository-wide byte totals",
+          "url": "https://api.github.com/repos/spacebarchat/server/languages"
+        },
+        {
+          "label": "Official GitHub release list checked 2026-10-16",
+          "url": "https://api.github.com/repos/spacebarchat/server/releases"
+        }
+      ],
+      "github_metadata_url": "https://api.github.com/repos/spacebarchat/server",
+      "github_language_bytes_url": "https://api.github.com/repos/spacebarchat/server/languages",
+      "github_release_list_url": "https://api.github.com/repos/spacebarchat/server/releases",
+      "github_repository_metadata": {
+        "full_name": "spacebarchat/server",
+        "created_at": "2020-11-28T12:39:03Z",
+        "updated_at": "2026-10-16T09:14:50Z",
+        "pushed_at": "2026-10-16T09:14:42Z",
+        "default_branch": "master",
+        "archived": false,
+        "fork": false,
+        "detected_language": "TypeScript",
+        "license": {
+          "key": "agpl-3.0",
+          "name": "GNU Affero General Public License v3.0",
+          "spdx_id": "AGPL-3.0",
+          "url": "https://api.github.com/licenses/agpl-3.0",
+          "node_id": "MDc6TGljZW5zZTE="
+        },
+        "html_url": "https://github.com/spacebarchat/server"
+      },
+      "latest_releases": [],
+      "language_bytes": {
+        "TypeScript": 2476425,
+        "C#": 623204,
+        "HTML": 112094,
+        "Nix": 80481,
+        "JavaScript": 59932,
+        "CSS": 25133,
+        "Shell": 9924
+      },
+      "source_snapshot_files": [
+        "spacebarchat__server.README.md",
+        "spacebarchat__server.languages.json",
+        "spacebarchat__server.metadata.json",
+        "spacebarchat__server.releases.json",
+        "spacebarchat__server__COPYING.txt"
+      ]
+    },
+    {
+      "project_id": "konica-bizhub206-cups-filter-reimplementation",
+      "project_url": "https://github.com/vinod2807/konica-native-musl",
+      "checked_at": "2026-10-16",
+      "claims": [
+        {
+          "field": "target",
+          "claim": "Konica Minolta bizhub 206 CUPS filter 245igdirf"
+        },
+        {
+          "field": "method",
+          "claim": "Reverse engineer the proprietary CUPS filter from disassembly and runtime captures, then reproduce its raster-to-device-stream output in portable C."
+        },
+        {
+          "field": "status_and_release",
+          "claim": "No tagged GitHub release was listed. The README reports byte-exact output on 60 differential cases, tests through real pdftoraster input, glibc and Alpine/musl verification, and five physical print sheets through a temporary CUPS queue. GitHub metadata reports no detected license, and the repository README does not declare reuse terms."
+        },
+        {
+          "field": "source_availability_and_license",
+          "claim": "Public C source and detailed reverse-engineering notes; no repository-wide license was detected by GitHub and no reuse license was found in the README or root file listing."
+        },
+        {
+          "field": "supported_platforms",
+          "claim": "Linux CUPS hosts using glibc or musl, including Alpine; output targets the Konica Minolta bizhub 206 printer. The filter is a C11 program with no third-party runtime dependencies."
+        },
+        {
+          "field": "programming_language",
+          "claim": "Official GitHub language map: {'C': 80196, 'Shell': 62189, 'Python': 31067, 'Makefile': 3868, 'GDB': 1757}. C is largest at 80,196 bytes."
+        }
+      ],
+      "primary_sources": [
+        {
+          "label": "Maintainer README: target filter, recovered behavior, verification, supported hosts, and license uncertainty",
+          "url": "https://github.com/vinod2807/konica-native-musl/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer reverse-engineering notes",
+          "url": "https://github.com/vinod2807/konica-native-musl/blob/main/docs/REVERSE-ENGINEERING.md"
+        },
+        {
+          "label": "Maintainer handoff: tested status and recovered model",
+          "url": "https://github.com/vinod2807/konica-native-musl/blob/main/HANDOFF.md"
+        },
+        {
+          "label": "Official GitHub release list; no releases were listed at review time",
+          "url": "https://api.github.com/repos/vinod2807/konica-native-musl/releases"
+        },
+        {
+          "label": "Official GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/vinod2807/konica-native-musl"
+        },
+        {
+          "label": "Official GitHub Languages API with repository-wide byte totals",
+          "url": "https://api.github.com/repos/vinod2807/konica-native-musl/languages"
+        },
+        {
+          "label": "Official GitHub release list checked 2026-10-16",
+          "url": "https://api.github.com/repos/vinod2807/konica-native-musl/releases"
+        }
+      ],
+      "github_metadata_url": "https://api.github.com/repos/vinod2807/konica-native-musl",
+      "github_language_bytes_url": "https://api.github.com/repos/vinod2807/konica-native-musl/languages",
+      "github_release_list_url": "https://api.github.com/repos/vinod2807/konica-native-musl/releases",
+      "github_repository_metadata": {
+        "full_name": "vinod2807/konica-native-musl",
+        "created_at": "2026-10-15T14:56:59Z",
+        "updated_at": "2026-10-16T09:13:00Z",
+        "pushed_at": "2026-10-16T09:12:56Z",
+        "default_branch": "main",
+        "archived": false,
+        "fork": false,
+        "detected_language": "C",
+        "license": null,
+        "html_url": "https://github.com/vinod2807/konica-native-musl"
+      },
+      "latest_releases": [],
+      "language_bytes": {
+        "C": 80196,
+        "Shell": 62189,
+        "Python": 31067,
+        "Makefile": 3868,
+        "GDB": 1757
+      },
+      "source_snapshot_files": [
+        "vinod2807__konica-native-musl.README.md",
+        "vinod2807__konica-native-musl.languages.json",
+        "vinod2807__konica-native-musl.metadata.json",
+        "vinod2807__konica-native-musl.releases.json",
+        "vinod2807__konica-native-musl__HANDOFF.md.md",
+        "vinod2807__konica-native-musl__docs__REVERSE-ENGINEERING.md.md"
+      ]
+    },
+    {
+      "project_id": "exiftool-rs-exiftool-reimplementation",
+      "project_url": "https://github.com/Le-Syl21/exiftool-rs",
+      "checked_at": "2026-10-16",
+      "claims": [
+        {
+          "field": "target",
+          "claim": "ExifTool Perl v13.59 behavior and metadata formats"
+        },
+        {
+          "field": "method",
+          "claim": "Reimplement ExifTool metadata readers, writers, and conversions in Rust, using generated tables and a parity harness against Perl ExifTool 13.59."
+        },
+        {
+          "field": "status_and_release",
+          "claim": "Release v0.10.0 was published 2026-10-16. The README reports byte-for-byte read parity with ExifTool 13.59 on its 195-file corpus, across tag names, values, groups, and repeated-instance output. It lists 93 readers and 15 writers but says most write cases do not yet match Perl ExifTool. The README declares GPL-3.0-or-later; GitHub API license detection is NOASSERTION."
+        },
+        {
+          "field": "source_availability_and_license",
+          "claim": "Public Rust source and v0.10.0 release. The repository LICENSE and README specify GPL-3.0-or-later; GitHub’s repository API returned NOASSERTION for automatic license detection."
+        },
+        {
+          "field": "supported_platforms",
+          "claim": "Portable Rust CLI and library with an optional egui GUI; the README documents builds for Windows, macOS, and Linux."
+        },
+        {
+          "field": "programming_language",
+          "claim": "Official GitHub language map: {'Rust': 11035145, 'Perl': 239482, 'Python': 30472, 'PostScript': 27800, 'Shell': 13262, 'HTML': 3407, 'Rich Text Format': 990}. Rust is largest at 11,035,145 bytes."
+        }
+      ],
+      "primary_sources": [
+        {
+          "label": "Maintainer README: target version, method, feature coverage, parity limits, and license",
+          "url": "https://github.com/Le-Syl21/exiftool-rs/blob/main/README.md"
+        },
+        {
+          "label": "exiftool-rs v0.10.0 release",
+          "url": "https://github.com/Le-Syl21/exiftool-rs/releases/tag/v0.10.0"
+        },
+        {
+          "label": "Maintainer live parity report against Perl ExifTool 13.59",
+          "url": "https://le-syl21.github.io/exiftool-rs/"
+        },
+        {
+          "label": "Repository GPL-3.0-or-later license",
+          "url": "https://github.com/Le-Syl21/exiftool-rs/blob/main/LICENSE"
+        },
+        {
+          "label": "Official GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/Le-Syl21/exiftool-rs"
+        },
+        {
+          "label": "Official GitHub Languages API with repository-wide byte totals",
+          "url": "https://api.github.com/repos/Le-Syl21/exiftool-rs/languages"
+        },
+        {
+          "label": "Official GitHub release list checked 2026-10-16",
+          "url": "https://api.github.com/repos/Le-Syl21/exiftool-rs/releases"
+        }
+      ],
+      "github_metadata_url": "https://api.github.com/repos/Le-Syl21/exiftool-rs",
+      "github_language_bytes_url": "https://api.github.com/repos/Le-Syl21/exiftool-rs/languages",
+      "github_release_list_url": "https://api.github.com/repos/Le-Syl21/exiftool-rs/releases",
+      "github_repository_metadata": {
+        "full_name": "Le-Syl21/exiftool-rs",
+        "created_at": "2026-03-16T07:41:07Z",
+        "updated_at": "2026-10-16T07:11:22Z",
+        "pushed_at": "2026-10-16T07:11:12Z",
+        "default_branch": "main",
+        "archived": false,
+        "fork": false,
+        "detected_language": "Rust",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "html_url": "https://github.com/Le-Syl21/exiftool-rs"
+      },
+      "latest_releases": [
+        {
+          "tag_name": "v0.10.0",
+          "name": "v0.10.0",
+          "published_at": "2026-10-16T07:25:19Z",
+          "url": "https://github.com/Le-Syl21/exiftool-rs/releases/tag/v0.10.0"
+        },
+        {
+          "tag_name": "v0.9.0",
+          "name": "v0.9.0",
+          "published_at": "2026-10-01T16:28:50Z",
+          "url": "https://github.com/Le-Syl21/exiftool-rs/releases/tag/v0.9.0"
+        },
+        {
+          "tag_name": "v0.8.2",
+          "name": "v0.8.2",
+          "published_at": "2026-09-25T22:58:36Z",
+          "url": "https://github.com/Le-Syl21/exiftool-rs/releases/tag/v0.8.2"
+        },
+        {
+          "tag_name": "v0.8.1",
+          "name": "v0.8.1",
+          "published_at": "2026-09-25T18:58:49Z",
+          "url": "https://github.com/Le-Syl21/exiftool-rs/releases/tag/v0.8.1"
+        },
+        {
+          "tag_name": "v0.8.0",
+          "name": "v0.8.0",
+          "published_at": "2026-08-29T00:12:28Z",
+          "url": "https://github.com/Le-Syl21/exiftool-rs/releases/tag/v0.8.0"
+        }
+      ],
+      "language_bytes": {
+        "Rust": 11035145,
+        "Perl": 239482,
+        "Python": 30472,
+        "PostScript": 27800,
+        "Shell": 13262,
+        "HTML": 3407,
+        "Rich Text Format": 990
+      },
+      "source_snapshot_files": [
+        "Le-Syl21__exiftool-rs.README.md",
+        "Le-Syl21__exiftool-rs.languages.json",
+        "Le-Syl21__exiftool-rs.metadata.json",
+        "Le-Syl21__exiftool-rs.releases.json",
+        "Le-Syl21__exiftool-rs__LICENSE.txt"
+      ]
+    },
+    {
+      "project_id": "reticulumkit-reticulum-protocol-stack-implementation",
+      "project_url": "https://github.com/J-Krush/ReticulumKit",
+      "checked_at": "2026-10-16",
+      "claims": [
+        {
+          "field": "target",
+          "claim": "Reticulum networking protocol and Python Reticulum (RNS) wire behavior"
+        },
+        {
+          "field": "method",
+          "claim": "Clean-room Swift protocol-stack implementation checked for wire interoperability with the reference Python RNS implementation."
+        },
+        {
+          "field": "status_and_release",
+          "claim": "The README describes alpha status as v0.1.0 and says the implementation has been wire-tested against Python Reticulum. The GitHub release API lists no published release; latest source push was 2026-05-24."
+        },
+        {
+          "field": "source_availability_and_license",
+          "claim": "Public Swift package source under MIT; README marks the API as alpha and there is no published GitHub release."
+        },
+        {
+          "field": "supported_platforms",
+          "claim": "iOS 16+ and macOS 13+; Swift 6.1+ and Xcode 16+ are listed as requirements. The protocol can use TCP, UDP multicast, and an RNode LoRa radio over Bluetooth LE."
+        },
+        {
+          "field": "programming_language",
+          "claim": "Official GitHub language map: {'Swift': 363942}. Swift is largest at 363,942 bytes."
+        }
+      ],
+      "primary_sources": [
+        {
+          "label": "Maintainer README: wire protocol, capabilities, platform requirements, alpha status, and license",
+          "url": "https://github.com/J-Krush/ReticulumKit/blob/main/README.md"
+        },
+        {
+          "label": "Repository MIT license",
+          "url": "https://github.com/J-Krush/ReticulumKit/blob/main/LICENSE"
+        },
+        {
+          "label": "Official GitHub release list; no releases were listed at review time",
+          "url": "https://api.github.com/repos/J-Krush/ReticulumKit/releases"
+        },
+        {
+          "label": "Official GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/J-Krush/ReticulumKit"
+        },
+        {
+          "label": "Official GitHub Languages API with repository-wide byte totals",
+          "url": "https://api.github.com/repos/J-Krush/ReticulumKit/languages"
+        },
+        {
+          "label": "Official GitHub release list checked 2026-10-16",
+          "url": "https://api.github.com/repos/J-Krush/ReticulumKit/releases"
+        }
+      ],
+      "github_metadata_url": "https://api.github.com/repos/J-Krush/ReticulumKit",
+      "github_language_bytes_url": "https://api.github.com/repos/J-Krush/ReticulumKit/languages",
+      "github_release_list_url": "https://api.github.com/repos/J-Krush/ReticulumKit/releases",
+      "github_repository_metadata": {
+        "full_name": "J-Krush/ReticulumKit",
+        "created_at": "2026-04-13T01:12:32Z",
+        "updated_at": "2026-10-15T14:48:42Z",
+        "pushed_at": "2026-05-24T01:03:01Z",
+        "default_branch": "main",
+        "archived": false,
+        "fork": false,
+        "detected_language": "Swift",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "html_url": "https://github.com/J-Krush/ReticulumKit"
+      },
+      "latest_releases": [],
+      "language_bytes": {
+        "Swift": 363942
+      },
+      "source_snapshot_files": [
+        "J-Krush__ReticulumKit.README.md",
+        "J-Krush__ReticulumKit.languages.json",
+        "J-Krush__ReticulumKit.metadata.json",
+        "J-Krush__ReticulumKit.releases.json",
+        "J-Krush__ReticulumKit__LICENSE.txt"
+      ]
+    },
+    {
+      "project_id": "minima-maxima-wire-protocol-reimplementation",
+      "project_url": "https://github.com/eurobuddha/maxima",
+      "checked_at": "2026-10-16",
+      "claims": [
+        {
+          "field": "target",
+          "claim": "Minima Maxima communication layer (protocol revision not specified)"
+        },
+        {
+          "field": "method",
+          "claim": "Implement the Minima Maxima framing, identity, cryptography, send/receive, relay, and mailbox behavior in Java, checking golden vectors and live traffic against the reference implementation."
+        },
+        {
+          "field": "status_and_release",
+          "claim": "The maintainer README says the protocol reimplementation is complete and verified against a live Minima network. It reports 63/63 codec parity, live send/receive, and relay interoperability; Android app behavior on a physical device remains unverified. Release v0.6.143 for the companion Parlons app was published 2026-10-16. GitHub metadata reports no declared license."
+        },
+        {
+          "field": "source_availability_and_license",
+          "claim": "Public Java, Android, and server source plus published Parlons releases; GitHub repository metadata and root-file listing show no declared license."
+        },
+        {
+          "field": "supported_platforms",
+          "claim": "A Java 11 shared core, an always-on Android transport, and a headless Linux/PC server; the user guide also lists Android, iOS, macOS, Windows, and Linux clients. The README says on-device Android behavior remains unverified."
+        },
+        {
+          "field": "programming_language",
+          "claim": "Official GitHub language map: {'Java': 6869429, 'HTML': 378610, 'JavaScript': 258988, 'Python': 101335, 'Shell': 91492, 'CSS': 22439, 'PowerShell': 11232, 'Standard ML': 5857}. Java is largest at 6,869,429 bytes."
+        }
+      ],
+      "primary_sources": [
+        {
+          "label": "Maintainer README: target protocol, implementation status, validation limits, and platform scope",
+          "url": "https://github.com/eurobuddha/maxima/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer protocol walkthrough and reference comparisons",
+          "url": "https://github.com/eurobuddha/maxima/blob/main/WALKTHROUGH.md"
+        },
+        {
+          "label": "Parlons v0.6.143 release and Android package",
+          "url": "https://github.com/eurobuddha/maxima/releases/tag/v0.6.143"
+        },
+        {
+          "label": "Official GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/eurobuddha/maxima"
+        },
+        {
+          "label": "Official GitHub Languages API with repository-wide byte totals",
+          "url": "https://api.github.com/repos/eurobuddha/maxima/languages"
+        },
+        {
+          "label": "Official GitHub release list checked 2026-10-16",
+          "url": "https://api.github.com/repos/eurobuddha/maxima/releases"
+        }
+      ],
+      "github_metadata_url": "https://api.github.com/repos/eurobuddha/maxima",
+      "github_language_bytes_url": "https://api.github.com/repos/eurobuddha/maxima/languages",
+      "github_release_list_url": "https://api.github.com/repos/eurobuddha/maxima/releases",
+      "github_repository_metadata": {
+        "full_name": "eurobuddha/maxima",
+        "created_at": "2026-08-13T18:23:30Z",
+        "updated_at": "2026-10-16T08:53:47Z",
+        "pushed_at": "2026-10-16T09:08:47Z",
+        "default_branch": "main",
+        "archived": false,
+        "fork": false,
+        "detected_language": "Java",
+        "license": null,
+        "html_url": "https://github.com/eurobuddha/maxima"
+      },
+      "latest_releases": [
+        {
+          "tag_name": "v0.6.143",
+          "name": "Parlons 0.6.143",
+          "published_at": "2026-10-16T06:39:55Z",
+          "url": "https://github.com/eurobuddha/maxima/releases/tag/v0.6.143"
+        },
+        {
+          "tag_name": "v0.6.142",
+          "name": "Parlons Android 0.6.142 — English, Chinese and Russian",
+          "published_at": "2026-10-16T05:45:03Z",
+          "url": "https://github.com/eurobuddha/maxima/releases/tag/v0.6.142"
+        },
+        {
+          "tag_name": "portal-v0.2.87",
+          "name": "Parlons Cloud Portal 0.2.87",
+          "published_at": "2026-10-16T06:40:47Z",
+          "url": "https://github.com/eurobuddha/maxima/releases/tag/portal-v0.2.87"
+        },
+        {
+          "tag_name": "portal-v0.2.86",
+          "name": "Parlons Cloud Portal 0.2.86 — English, Chinese and Russian",
+          "published_at": "2026-10-16T05:45:52Z",
+          "url": "https://github.com/eurobuddha/maxima/releases/tag/portal-v0.2.86"
+        },
+        {
+          "tag_name": "node-v0.2.129",
+          "name": "Parlons Node 0.2.129",
+          "published_at": "2026-10-16T08:55:34Z",
+          "url": "https://github.com/eurobuddha/maxima/releases/tag/node-v0.2.129"
+        }
+      ],
+      "language_bytes": {
+        "Java": 6869429,
+        "HTML": 378610,
+        "JavaScript": 258988,
+        "Python": 101335,
+        "Shell": 91492,
+        "CSS": 22439,
+        "PowerShell": 11232,
+        "Standard ML": 5857
+      },
+      "source_snapshot_files": [
+        "eurobuddha__maxima.README.md",
+        "eurobuddha__maxima.languages.json",
+        "eurobuddha__maxima.metadata.json",
+        "eurobuddha__maxima.releases.json",
+        "eurobuddha__maxima__WALKTHROUGH.md.md"
+      ]
+    }
+  ]
+}

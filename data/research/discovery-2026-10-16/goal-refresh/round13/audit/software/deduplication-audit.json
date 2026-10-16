@@ -1,0 +1,94 @@
+{
+  "verified_at": "2026-10-16",
+  "catalog_path": "/Users/earlcameron/Desktop/recompiled/data/catalog.sqlite",
+  "catalog_snapshot": {
+    "projects": 3450,
+    "software_projects": 1060
+  },
+  "canonicalization": "GitHub repository roots canonicalized as lowercased owner/repository from the repository URL; IDs and canonical roots are independently checked. All JSON staging under work/research-2026-10-16, including continuation-round12, was searched for exact IDs and repository roots.",
+  "proposals": [
+    {
+      "project_id": "spacebar-discord-backend-reimplementation",
+      "canonical_repository": "spacebarchat/server",
+      "project_url": "https://github.com/spacebarchat/server",
+      "present_in_catalog": false,
+      "present_in_prior_project_staging": false,
+      "decision": "clear"
+    },
+    {
+      "project_id": "asahi-neural-engine-linux-driver-reimplementation",
+      "canonical_repository": "eiln/ane",
+      "project_url": "https://github.com/eiln/ane",
+      "present_in_catalog": false,
+      "present_in_prior_project_staging": false,
+      "decision": "clear"
+    },
+    {
+      "project_id": "mkmsbr-microsoft-boot-record-clean-room-reimplementation",
+      "canonical_repository": "jma24/mkmsbr",
+      "project_url": "https://github.com/jma24/mkmsbr",
+      "present_in_catalog": false,
+      "present_in_prior_project_staging": false,
+      "decision": "clear"
+    }
+  ],
+  "matched_catalog_duplicates": [
+    {
+      "repository": "redragor/at91rm9200-lto-bootloader",
+      "project_id": "at91rm9200-flexstor-low-level-bootloader",
+      "project_url": "https://github.com/redragor/at91rm9200-lto-bootloader",
+      "decision": "duplicate; do not stage",
+      "note": "Exact repository and project ID already exist in the current catalog."
+    },
+    {
+      "repository": "Dicklesworthstone/frankenredis",
+      "project_id": "frankenredis-redis-protocol-reimplementation",
+      "project_url": "https://github.com/Dicklesworthstone/frankenredis",
+      "decision": "duplicate; do not stage"
+    },
+    {
+      "repository": "The-Libre-Project/Weave",
+      "project_id": "weave-win32-linux-compatibility-layer",
+      "project_url": "https://github.com/The-Libre-Project/Weave",
+      "decision": "duplicate; do not stage"
+    },
+    {
+      "repository": "Esri/punic",
+      "project_id": "punic-carthage-clean-room-reimplementation",
+      "project_url": "https://github.com/Esri/punic",
+      "decision": "duplicate; do not stage"
+    },
+    {
+      "repository": "CompOmics/MuMDIA",
+      "project_id": "mumdia-rust-proteomics-search-engine-reimplementation",
+      "project_url": "https://github.com/CompOmics/MuMDIA",
+      "decision": "duplicate; do not stage",
+      "note": "Previously identified in the catalog; current discovery confirmed it but adds no new record."
+    },
+    {
+      "repository": "8bitbubsy/ft2-clone",
+      "project_id": "fasttracker-ii-desktop-clone",
+      "project_url": "https://github.com/8bitbubsy/ft2-clone",
+      "decision": "duplicate; do not stage"
+    },
+    {
+      "repository": "DirectMusic",
+      "project_id": "directmusic-api-reimplementation-dmusic",
+      "project_url": "https://github.com/GothicKit/dmusic",
+      "decision": "duplicate; do not stage",
+      "note": "DirectMusic reimplementation was already identified in the catalog; repository root was not re-proposed in this tranche."
+    },
+    {
+      "repository": "HiddenUserHere/cvd1810-wj-mcu-firmware",
+      "project_id": "cvd1810-wj-power-mcu-firmware-reimplementation",
+      "project_url": "https://github.com/HiddenUserHere/cvd1810-wj-mcu-firmware",
+      "decision": "duplicate; do not stage"
+    }
+  ],
+  "scan_scope": [
+    "/Users/earlcameron/Desktop/recompiled/data/catalog.sqlite",
+    "work/research-2026-10-16/continuation-round12",
+    "all existing work/research-2026-10-16 staging JSON files"
+  ],
+  "caveat": "The canonical database may be modified by the parent task after this audit. Snapshot counts here are the 3,450 rows confirmed by the parent and re-read on 2026-10-16."
+}

@@ -1,0 +1,446 @@
+{
+  "updated": "2026-10-16",
+  "research_lane": "continuation-round13/localization-mobile/localization",
+  "catalog_snapshot": {
+    "path": "/Users/earlcameron/Desktop/recompiled/data/catalog.sqlite",
+    "project_rows": 3450,
+    "access": "read-only"
+  },
+  "projects": [
+    {
+      "id": "mobile-suit-gundam-unicorn-ps3-zh-cn",
+      "title": "Mobile Suit Gundam Unicorn PS3 Simplified Chinese Patch",
+      "game": "Mobile Suit Gundam Unicorn",
+      "target_type": "Game",
+      "platform": "PlayStation 3 (Japan disc BLJS-10154; PS3 release patch, RPCS3 usage documented)",
+      "kind": "Fan Localization",
+      "status": "Released; the project README links a 2026-10-07 cumulative update (v2026.10.07-cumulative.2) over the 2026-09-19 translation base. The maintainer reports Apple-silicon Mac/RPCS3 confirmation, while Windows/Linux and PS3-hardware compatibility are not established; full in-game text/visual review is still incomplete.",
+      "summary": "Japanese → Simplified Chinese patch for the Japanese PlayStation 3 game BLJS-10154 / BLJS10154. The maintainer documents text for the story, mission communications, menus, names, tutorials, chapters, and supported DLC. The patch requires the user’s own matching game and optional DLC. A custom license permits personal noncommercial use and sharing the repository link, but prohibits redistributing patch files or repackaging them.",
+      "project_url": "https://github.com/AmuroRX-93/GundamUC-Chinese-Patch",
+      "updated": "2026-10-16",
+      "strategy": "Fan translation patch (resource deltas with installer and restore support)",
+      "language": "Simplified Chinese",
+      "source_language": "Japanese",
+      "target_language": "Simplified Chinese",
+      "language_pair": "Japanese → Simplified Chinese",
+      "source_available": "Public patch releases and installer source; the game is not included. Repository LICENSE is a custom noncommercial-use/no-patch-redistribution license, not an open-source license.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "Python",
+      "programming_language_status": "GitHub Languages API exact byte map is staged separately; Python is the largest measured code category. This does not describe the Japanese → Simplified Chinese translation direction.",
+      "subtype": "PS3 fan localization patch",
+      "patch_release": {
+        "version": "v2026.10.07-cumulative.2",
+        "date": "2026-10-07",
+        "url": "https://github.com/AmuroRX-93/GundamUC-Chinese-Patch/releases/tag/v2026.10.07-cumulative.2",
+        "format": "Cumulative update; requires the 2026-09-19 patch base for first-time installation"
+      },
+      "caveats": [
+        "The latest release updates the installer over the 2026-10-01 cumulative resource package; a new user must first apply the 2026-09-19 translation base.",
+        "The README does not claim PS3 hardware support and says Windows/Linux gameplay and full visual review remain unverified.",
+        "The project has a custom restrictive license: link sharing is allowed, patch-file redistribution and repackaging are prohibited."
+      ],
+      "sources": [
+        {
+          "label": "Maintainer README: title ID, target revisions, translation scope, install, compatibility, and custom license",
+          "url": "https://github.com/AmuroRX-93/GundamUC-Chinese-Patch/blob/main/README.md"
+        },
+        {
+          "label": "Latest 2026-10-07 cumulative release",
+          "url": "https://github.com/AmuroRX-93/GundamUC-Chinese-Patch/releases/tag/v2026.10.07-cumulative.2"
+        },
+        {
+          "label": "Maintainer custom license",
+          "url": "https://github.com/AmuroRX-93/GundamUC-Chinese-Patch/blob/main/LICENSE"
+        },
+        {
+          "label": "GitHub Languages API byte map",
+          "url": "https://api.github.com/repos/AmuroRX-93/GundamUC-Chinese-Patch/languages"
+        }
+      ]
+    },
+    {
+      "id": "magic-the-gathering-dreamcast-english",
+      "title": "Magic: The Gathering Dreamcast English Translation",
+      "game": "Magic: The Gathering (Dreamcast)",
+      "target_type": "Game",
+      "platform": "Dreamcast (Japan GDI v1.011; English patch target)",
+      "kind": "Fan Localization",
+      "status": "English translation patch version 1.2; latest public patch release tag patchrelease3 was published 2026-08-09. README calls the translation complete but notes residual hard-coded text limits, possible stray Japanese/mistranslated text, and possible card-state crashes.",
+      "summary": "Japanese → English text patch for the Japan-only Dreamcast release Magic - The Gathering v1.011. The maintainer instructs applying the patch to the user’s own GDI with Universal Dreamcast Patcher. The repository provides patch binaries and instructions but declares no license and contains no translation/build source code; the README notes that some English voice dialogue may not match the translated Japanese subtitles.",
+      "project_url": "https://github.com/AstraleAmalthea/MagicTheGatheringDreamcastENG",
+      "updated": "2026-10-16",
+      "strategy": "Fan translation patch (Dreamcast patch format)",
+      "language": "English",
+      "source_language": "Japanese",
+      "target_language": "English",
+      "language_pair": "Japanese → English",
+      "source_available": "Public patch releases; no source code or license is declared. The game image is not included.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "",
+      "programming_language_status": "GitHub Languages API returned an empty byte map; no programming language can be measured. Do not infer source language from the English translation.",
+      "subtype": "Dreamcast fan localization patch",
+      "patch_release": {
+        "version": "1.2",
+        "date": "2026-08-09",
+        "url": "https://github.com/AstraleAmalthea/MagicTheGatheringDreamcastENG/releases/tag/patchrelease3",
+        "format": "Dreamcast patch file"
+      },
+      "caveats": [
+        "The README describes the English translation as complete but documents hard-coded text limits, possible untranslated or incorrect strings, and possible crashes.",
+        "Subtitles follow Japanese text and can differ from the game’s English voice acting.",
+        "No repository license or patch-source code is declared."
+      ],
+      "sources": [
+        {
+          "label": "Maintainer README: Japanese GDI target, current version, patch instructions, translation caveats",
+          "url": "https://github.com/AstraleAmalthea/MagicTheGatheringDreamcastENG/blob/main/README"
+        },
+        {
+          "label": "Latest public patch release",
+          "url": "https://github.com/AstraleAmalthea/MagicTheGatheringDreamcastENG/releases/tag/patchrelease3"
+        },
+        {
+          "label": "GitHub Languages API byte map",
+          "url": "https://api.github.com/repos/AstraleAmalthea/MagicTheGatheringDreamcastENG/languages"
+        }
+      ]
+    },
+    {
+      "id": "tiny-bullets-ps1-english",
+      "title": "Tiny Bullets PlayStation English Translation",
+      "game": "Tiny Bullets",
+      "target_type": "Game",
+      "platform": "PlayStation (Japanese BIN/CUE; patch requires the Japanese original with the documented MD5)",
+      "kind": "Fan Localization",
+      "status": "Public v1.2 patcher and translation source are in the repository; README says v1.0 was fully playable and v1.2 adds an anti-piracy-related compatibility fix, script change, and typo fix. Romhack Plaza lists the translation as complete, including cutscene subtitles.",
+      "summary": "Japanese → English patch for the 2000 Japanese PlayStation release. The repository includes patching code and text extraction/insertion scripts under GPL-3.0; users supply the matching Japanese BIN/CUE (MD5 9380f92615ec380e9dc178f9898d8a63). No game image is supplied.",
+      "project_url": "https://github.com/ChapuTranslations/TinyBulletsEnglishPatch",
+      "updated": "2026-10-16",
+      "strategy": "Fan translation patch (source scripts produce a patched BIN)",
+      "language": "English",
+      "source_language": "Japanese",
+      "target_language": "English",
+      "language_pair": "Japanese → English",
+      "source_available": "Public GPL-3.0 patcher and translation source scripts; requires the user’s own Japanese game image.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "Assembly",
+      "programming_language_status": "GitHub Languages API reports Assembly as the largest category by bytes (13,624), followed by Python (9,627); this is code evidence and does not establish the human-language direction.",
+      "subtype": "PlayStation fan localization patch",
+      "patch_release": {
+        "version": "v1.2",
+        "date": null,
+        "url": "https://github.com/ChapuTranslations/TinyBulletsEnglishPatch",
+        "format": "Repository patcher/source; no GitHub Releases are listed"
+      },
+      "caveats": [
+        "The README’s v1.0 note says fully playable; completeness of all translation text is separately stated on Romhack Plaza.",
+        "Patcher is documented for Linux; Windows steps are left to the user."
+      ],
+      "sources": [
+        {
+          "label": "Maintainer README: Japanese PS1 target, input image hash, version notes, and translation source scripts",
+          "url": "https://github.com/ChapuTranslations/TinyBulletsEnglishPatch/blob/main/README.md"
+        },
+        {
+          "label": "GPL-3.0 source license",
+          "url": "https://github.com/ChapuTranslations/TinyBulletsEnglishPatch/blob/main/LICENSE"
+        },
+        {
+          "label": "Romhack Plaza listing: translation coverage/version",
+          "url": "https://www.romhackplaza.org/translations/tiny-bullets-english-translation-playstation"
+        },
+        {
+          "label": "GitHub Languages API byte map",
+          "url": "https://api.github.com/repos/ChapuTranslations/TinyBulletsEnglishPatch/languages"
+        }
+      ]
+    },
+    {
+      "id": "typing-of-the-dead-ii-japanese-pc-en-partial",
+      "title": "The Typing of the Dead II Partial English Patch and Fixes",
+      "game": "The Typing of the Dead II",
+      "target_type": "Game",
+      "platform": "Windows PC (Japanese J edition)",
+      "kind": "Fan Localization",
+      "status": "Source script is public; no GitHub release is listed. The README limits its English translation to Level 1 main-menu descriptions and attract-mode tutorial hints; in-game typing prompts remain Japanese. The same script also provides font outlines and an optional dgVoodoo2 wrapper installer.",
+      "summary": "Japanese → English partial texture-text patch for the Japan-only Windows PC release The Typing of the Dead II. The Python script edits the user’s game installation in place with backup/restore support; it does not distribute game assets. The translation does not cover the actual typing prompts. Repository README and LICENSE specify MIT.",
+      "project_url": "https://github.com/ContinualDissapointment/typing-of-the-dead-2-fixes",
+      "updated": "2026-10-16",
+      "strategy": "Fan localization and PC compatibility fixes (partial translated texture strings)",
+      "language": "English",
+      "source_language": "Japanese",
+      "target_language": "English",
+      "language_pair": "Japanese → English (partial UI/tutorial text only)",
+      "source_available": "Public MIT-licensed Python source script; requires the user’s legitimately owned Windows game.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "Python",
+      "programming_language_status": "Exact GitHub Languages API map contains Python: 48,148 bytes. This describes the patch script, not its human translation direction.",
+      "subtype": "Windows PC partial localization mod",
+      "patch_release": null,
+      "caveats": [
+        "Actual Japanese typing prompts are explicitly not translated.",
+        "Only Level 1 menu/demo strings are translated; additional levels are not covered.",
+        "The project also bundles non-localization fixes (font outlines and a dgVoodoo2 wrapper installer); the localization remains a game-specific language patch."
+      ],
+      "sources": [
+        {
+          "label": "Maintainer README: J edition target, exact translated fields, incomplete coverage, backup behavior, and MIT license",
+          "url": "https://github.com/ContinualDissapointment/typing-of-the-dead-2-fixes/blob/main/README.md"
+        },
+        {
+          "label": "MIT license file",
+          "url": "https://github.com/ContinualDissapointment/typing-of-the-dead-2-fixes/blob/main/LICENSE"
+        },
+        {
+          "label": "GitHub Languages API byte map",
+          "url": "https://api.github.com/repos/ContinualDissapointment/typing-of-the-dead-2-fixes/languages"
+        }
+      ]
+    },
+    {
+      "id": "tokio-senki-eiyuu-retsuden-game-boy-english",
+      "title": "Tokio Senki: Eiyuu Retsuden Game Boy English Patch",
+      "game": "Tokio Senki: Eiyuu Retsuden",
+      "target_type": "Game",
+      "platform": "Game Boy (Japanese ROM; IPS target)",
+      "kind": "Fan Localization",
+      "status": "Public IPS v1.0 patch is stored in the repository; the maintainer’s announcement says the English patch is finished. The README says additional project documentation is forthcoming; no GitHub Releases or source/license declaration are present.",
+      "summary": "Japanese → English IPS patch for the Japanese Game Boy strategy game. Apply the checked-in IPS patch to the user’s own Japanese ROM with an IPS utility. The repository contains the patch file and brief instructions, not translation tooling or the game ROM; no license is declared.",
+      "project_url": "https://github.com/LHE55/Tokio-Senki-Eiyuu-Retsuden---English-Patch",
+      "updated": "2026-10-16",
+      "strategy": "Fan translation patch (IPS)",
+      "language": "English",
+      "source_language": "Japanese",
+      "target_language": "English",
+      "language_pair": "Japanese → English",
+      "source_available": "Public IPS patch in the maintainer repository; no source code or license is declared. Requires the user’s own Japanese ROM.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "",
+      "programming_language_status": "GitHub Languages API returned an empty byte map; repository contains a README and IPS patch only.",
+      "subtype": "Game Boy fan localization patch",
+      "patch_release": {
+        "version": "1.0",
+        "date": null,
+        "url": "https://github.com/LHE55/Tokio-Senki-Eiyuu-Retsuden---English-Patch",
+        "format": "IPS patch stored in repository"
+      },
+      "caveats": [
+        "The README says more documentation is coming, despite the maintainer describing the patch as finished.",
+        "No code license is declared."
+      ],
+      "sources": [
+        {
+          "label": "Maintainer README and checked-in IPS patch",
+          "url": "https://github.com/LHE55/Tokio-Senki-Eiyuu-Retsuden---English-Patch"
+        },
+        {
+          "label": "Maintainer announcement: finished English patch",
+          "url": "https://www.reddit.com/r/Gameboy/comments/1sunwqv/english_patch_tokio_senki_eiyuu_retsuden/"
+        },
+        {
+          "label": "GitHub Languages API byte map",
+          "url": "https://api.github.com/repos/LHE55/Tokio-Senki-Eiyuu-Retsuden---English-Patch/languages"
+        }
+      ]
+    },
+    {
+      "id": "nisekoi-yomeiri-vita-english",
+      "title": "Nisekoi: Yomeiri!? PlayStation Vita English Translation",
+      "game": "Nisekoi: Yomeiri!?",
+      "target_type": "Game",
+      "platform": "PlayStation Vita (Japan title ID PCSG00397; xdelta target is original unencrypted game data; Vita3K usage also documented)",
+      "kind": "Fan Localization",
+      "status": "English patch v1.0.0 published 2026-06-19. The README marks all principal routes, side events, menus, tutorials, and most minigame UI at 100%; voice-only comments and unscripted minigame dialogue are not subtitled. The repository release also links pre-patched game data alongside binary patch and rePatch options.",
+      "summary": "Japanese → English patch for Konami’s Japan-only PlayStation Vita visual novel Nisekoi: Yomeiri!? (PCSG00397). The maintainer documents two xdelta patches for the user’s original unencrypted data files and a rePatch route; the same release also links a pre-patched game package. No license is declared. This is a Vita patch target, not an Android port; Vita3K is only a documented emulator route.",
+      "project_url": "https://github.com/LevelHeadDeveloper/YomeiriEnglishPatch",
+      "updated": "2026-10-16",
+      "strategy": "Fan translation patch (two xdelta data patches; rePatch option)",
+      "language": "English",
+      "source_language": "Japanese",
+      "target_language": "English",
+      "language_pair": "Japanese → English",
+      "source_available": "Public xdelta patch/source text repository and rePatch data; the maintainer release also links a pre-patched full-game package. No project license is declared. The original game is not included in the repository itself.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "",
+      "programming_language_status": "GitHub Languages API returned an empty byte map. Do not infer programming language from the English text patch.",
+      "subtype": "PlayStation Vita fan localization patch",
+      "patch_release": {
+        "version": "1.0.0",
+        "date": "2026-06-19",
+        "url": "https://github.com/LevelHeadDeveloper/YomeiriEnglishPatch/releases/tag/1.0.0",
+        "format": "Two xdelta patches; rePatch and pre-patched package are also linked"
+      },
+      "caveats": [
+        "The release links a pre-patched full-game package in addition to the binary patch route; this availability is recorded transparently.",
+        "The README lists unscripted/voice-only material as untranslated or unsubtitled and notes some minigame UI may be imperfect.",
+        "No license is declared."
+      ],
+      "sources": [
+        {
+          "label": "Maintainer README: Japanese Vita title ID, patch methods, coverage, and full-game-package caveat",
+          "url": "https://github.com/LevelHeadDeveloper/YomeiriEnglishPatch/blob/main/README.md"
+        },
+        {
+          "label": "v1.0.0 patch release",
+          "url": "https://github.com/LevelHeadDeveloper/YomeiriEnglishPatch/releases/tag/1.0.0"
+        },
+        {
+          "label": "GitHub Languages API byte map",
+          "url": "https://api.github.com/repos/LevelHeadDeveloper/YomeiriEnglishPatch/languages"
+        }
+      ]
+    },
+    {
+      "id": "queens-gate-spiral-chaos-psp-english",
+      "title": "Queen’s Gate: Spiral Chaos PSP English Translation",
+      "game": "Queen’s Gate: Spiral Chaos",
+      "target_type": "Game",
+      "platform": "PlayStation Portable (Japan ISO ULJS00377; PPSSPP replacement textures supported)",
+      "kind": "Fan Localization",
+      "status": "Released; latest patch v1.3.2 was published 2026-07-21. The release contains an xdelta patch, translated game text, subtitled movies, and interface replacement textures.",
+      "summary": "Japanese → English translation patch for the Japanese PSP release ULJS00377. The maintainer repository distributes the xdelta patch and PPSSPP texture overlay only and explicitly excludes the ISO/game. No license or translation source code is declared; credits identify leecherboy as the provider of translated text materials.",
+      "project_url": "https://github.com/Neokitsune5/QG_English_Patch",
+      "updated": "2026-10-16",
+      "strategy": "Fan translation patch (xdelta plus PPSSPP texture overlay)",
+      "language": "English",
+      "source_language": "Japanese",
+      "target_language": "English",
+      "language_pair": "Japanese → English",
+      "source_available": "Public patch release only; repository says it does not include the game/ISO. No license or source code is declared.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "",
+      "programming_language_status": "GitHub Languages API returned an empty byte map; repository contains instructions only.",
+      "subtype": "PSP fan localization patch",
+      "patch_release": {
+        "version": "v1.3.2",
+        "date": "2026-07-21",
+        "url": "https://github.com/Neokitsune5/QG_English_Patch/releases/tag/v1.3.2",
+        "format": "xdelta patch and PPSSPP replacement-texture package"
+      },
+      "caveats": [
+        "No license or translation/build source is declared.",
+        "Patch targets the original Japanese PSP ISO; PPSSPP is a documented compatibility environment, not the patch’s original platform."
+      ],
+      "sources": [
+        {
+          "label": "Maintainer README: ULJS00377, patch instructions, content, and no-ISO statement",
+          "url": "https://github.com/Neokitsune5/QG_English_Patch/blob/main/README.md"
+        },
+        {
+          "label": "v1.3.2 patch release",
+          "url": "https://github.com/Neokitsune5/QG_English_Patch/releases/tag/v1.3.2"
+        },
+        {
+          "label": "GitHub Languages API byte map",
+          "url": "https://api.github.com/repos/Neokitsune5/QG_English_Patch/languages"
+        }
+      ]
+    },
+    {
+      "id": "torneko-great-adventure-sfc-remaster-script",
+      "title": "Torneko’s Great Adventure SFC Remastered Script Patches",
+      "game": "Torneko’s Great Adventure: Mystery Dungeon",
+      "target_type": "Game",
+      "platform": "Super Famicom (Japanese unheadered ROM; alternatively the Magic Destiny 0.99 English-patched ROM)",
+      "kind": "Fan Localization",
+      "status": "Two v2.2 IPS patches (Dragon Quest and Dragon Warrior variants) are checked into the repository; the README changelog shows v1.1 was released 2026-09-24 and subsequent updates through v2.2. No GitHub Release or license is declared.",
+      "summary": "Japanese → revised English script/interface patch for the Japanese Super Famicom game, with a second supported base for the older Magic Destiny 0.99 English translation. The DQ variant follows the remaster’s terminology/British English; the DW variant favors older Dragon Warrior names and American English. This is an addendum/retranslation, not a new first-time English translation. The repository provides IPS patches, not game data or source tooling.",
+      "project_url": "https://github.com/NonagonGoron/Tornekos-Great-Adventure-SFC-with-Remaster-Script",
+      "updated": "2026-10-16",
+      "strategy": "Fan localization/script update patch (two IPS variants)",
+      "language": "English",
+      "source_language": "Japanese (or the existing Magic Destiny English patch)",
+      "target_language": "English (Dragon Quest or Dragon Warrior script variant)",
+      "language_pair": "Japanese → revised English; also accepts the prior Magic Destiny 0.99 English patch as an alternate base",
+      "source_available": "Two public IPS patch files and README; no code source or license is declared. No game image is included.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "",
+      "programming_language_status": "GitHub Languages API returned an empty byte map; repository contains README and IPS patches only.",
+      "subtype": "Super Famicom fan script-update patch",
+      "patch_release": {
+        "version": "v2.2",
+        "date": null,
+        "url": "https://github.com/NonagonGoron/Tornekos-Great-Adventure-SFC-with-Remaster-Script",
+        "format": "IPS patches (DQ and DW variants)"
+      },
+      "caveats": [
+        "This is an English-script update/addendum with revised terminology and graphics; one documented input is already the Magic Destiny English patch.",
+        "No license is declared.",
+        "The repository does not list a GitHub release; v2.2 is identified by the checked-in patch names and README changelog."
+      ],
+      "sources": [
+        {
+          "label": "Maintainer README: Japanese and Magic Destiny bases, DQ/DW directions, v2.2 changelog",
+          "url": "https://github.com/NonagonGoron/Tornekos-Great-Adventure-SFC-with-Remaster-Script/blob/main/README.txt"
+        },
+        {
+          "label": "Repository and checked-in DQ/DW v2.2 IPS patches",
+          "url": "https://github.com/NonagonGoron/Tornekos-Great-Adventure-SFC-with-Remaster-Script"
+        },
+        {
+          "label": "GitHub Languages API byte map",
+          "url": "https://api.github.com/repos/NonagonGoron/Tornekos-Great-Adventure-SFC-with-Remaster-Script/languages"
+        }
+      ]
+    },
+    {
+      "id": "wanwan-aijou-monogatari-loopy-english",
+      "title": "Wanwan Aijou Monogatari (Puppy Love Story) Casio Loopy English Patch",
+      "game": "Wanwan Aijou Monogatari (Puppy Love Story)",
+      "target_type": "Game",
+      "platform": "Casio Loopy (Japanese cartridge image; BPS patch target)",
+      "kind": "Fan Localization",
+      "status": "Released; BPS patch v1.0 published 2025-04-21. The maintainer describes it as the first Loopy game translated to English and provides the patch and source tooling.",
+      "summary": "Japanese → English BPS patch for the 1995 Casio Loopy visual novel Wanwan Aijou Monogatari. Apply to the user’s own big-endian cartridge image with the documented hashes. The repository is MIT-licensed and supplies translation/build tooling and a translated manual; it does not include a game ROM.",
+      "project_url": "https://github.com/partlyhuman/puppy-love-story",
+      "updated": "2026-10-16",
+      "strategy": "Fan translation patch (BPS) with public source/tooling",
+      "language": "English",
+      "source_language": "Japanese",
+      "target_language": "English",
+      "language_pair": "Japanese → English",
+      "source_available": "Public MIT-licensed source/tooling and BPS patch; requires the user’s own Casio Loopy cartridge image.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "HTML",
+      "programming_language_status": "Exact GitHub Languages API byte map reports HTML: 5,707 bytes as its largest category, followed by JavaScript: 5,106, Shell: 3,804, CSS: 3,113, Python: 2,382. HTML is markup; this map is not the Japanese → English translation direction.",
+      "subtype": "Casio Loopy fan localization patch",
+      "patch_release": {
+        "version": "v1.0",
+        "date": "2025-04-21",
+        "url": "https://github.com/partlyhuman/puppy-love-story/releases/tag/v1.0",
+        "format": "BPS patch"
+      },
+      "caveats": [
+        "Requires the documented Japanese cartridge dump; the repository and release do not include the game.",
+        "The maintainer says this was the first Loopy game translated into English."
+      ],
+      "sources": [
+        {
+          "label": "Maintainer README: 1995 Casio Loopy title, Japanese cartridge input, BPS patch, source/tooling",
+          "url": "https://github.com/partlyhuman/puppy-love-story/blob/main/README.md"
+        },
+        {
+          "label": "v1.0 BPS patch release",
+          "url": "https://github.com/partlyhuman/puppy-love-story/releases/tag/v1.0"
+        },
+        {
+          "label": "MIT license",
+          "url": "https://github.com/partlyhuman/puppy-love-story/blob/main/LICENSE"
+        },
+        {
+          "label": "GitHub Languages API byte map",
+          "url": "https://api.github.com/repos/partlyhuman/puppy-love-story/languages"
+        }
+      ]
+    }
+  ]
+}

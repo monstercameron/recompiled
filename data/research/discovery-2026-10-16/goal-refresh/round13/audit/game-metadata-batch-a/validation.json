@@ -1,0 +1,15 @@
+{
+  "result": "passed",
+  "copy_path": "temporary disposable copy removed after validation",
+  "fact_importer": "passed",
+  "wikipedia_importer": "passed",
+  "profiles_imported": 6,
+  "facts_imported": 28,
+  "links_checked": 6,
+  "wikipedia_values_after_import_match_manifest": true,
+  "canonical_database_used_for_import": false,
+  "live_target_rows_after_validation": "all 6 retain their exact pre-validation Wikipedia URL/title and zero facts",
+  "canonical_database_sha256_before": "23ca4afe398ac57b79498017fff7e2a349276c9319d5e9a256c4cd68c1e2b7a9",
+  "canonical_database_sha256_after": "23ca4afe398ac57b79498017fff7e2a349276c9319d5e9a256c4cd68c1e2b7a9",
+  "canonical_database_unchanged": true
+}

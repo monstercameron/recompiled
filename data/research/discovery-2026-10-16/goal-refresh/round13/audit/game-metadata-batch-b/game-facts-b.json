@@ -1,0 +1,299 @@
+{
+  "verified_at": "2026-10-16",
+  "scope": "Continuation-round13 profile hydration for six exact existing game keys. Facts describe only the target edition or documented shared game identity; sources and edition caveats are recorded per fact.",
+  "profiles": [
+    {
+      "game_key": "Persona 2: Innocent Sin",
+      "facts": [
+        {
+          "field": "canonical_name",
+          "value": "Persona 2: Innocent Sin",
+          "source_url": "https://www.ghostlight.uk.com/games/sony-psp/persona-2-innocent-sin",
+          "evidence": "Ghostlight's official Sony PSP product page identifies the title as Persona 2: Innocent Sin.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "JRPG",
+          "source_url": "https://www.ghostlight.uk.com/games/sony-psp/persona-2-innocent-sin",
+          "evidence": "Ghostlight lists the European PSP release's genre as JRPG.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "developer",
+          "value": "Atlus",
+          "source_url": "https://www.ghostlight.uk.com/games/sony-psp/persona-2-innocent-sin",
+          "evidence": "Ghostlight's official product listing credits Atlus as developer.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Ghostlight (PAL-region PSP release)",
+          "source_url": "https://www.ghostlight.uk.com/post/ghostlight-announce-persona-2-innocent-sin",
+          "evidence": "Ghostlight's announcement says it would release Atlus's Persona 2: Innocent Sin for PSP throughout the PAL region; the value is limited to this European PSP edition.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "PlayStation (1999 Japanese original); PlayStation Portable (2011 enhanced re-release)",
+          "source_url": "https://en.wikipedia.org/wiki/Persona_2:_Innocent_Sin",
+          "evidence": "The article identifies the 1999 PlayStation original and its 2011 PSP re-release; the catalog project targets the European PSP edition ULES01557, not the original PS1 build.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "PAL region (PSP): 2011-11-04",
+          "source_url": "https://www.ghostlight.uk.com/games/sony-psp/persona-2-innocent-sin",
+          "evidence": "Ghostlight's product page gives 4 November 2011 as the release date for its PAL-region PSP product.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "day"
+        },
+        {
+          "field": "series",
+          "value": "Persona",
+          "source_url": "https://en.wikipedia.org/wiki/Persona_2:_Innocent_Sin",
+          "evidence": "The article identifies Innocent Sin as the second entry in the Persona series.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "collection_context",
+          "value": "The European PSP release is distinct from the Japan-only 1999 PlayStation original; the original was not localized for Western territories, while the PSP re-release reached North America and Europe.",
+          "source_url": "https://en.wikipedia.org/wiki/Persona_2:_Innocent_Sin",
+          "evidence": "The article distinguishes the 1999 PlayStation version from the 2011 PSP re-release and states the original version was not localized for Western territories.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Selected Japanese visual novels from the 1990s",
+      "facts": [
+        {
+          "field": "collection_context",
+          "value": "This catalog key groups selected Japanese visual-novel games rather than one title. The SuperSakura maintainer describes the engine as running certain Japanese games from the 1990s and notes that the copyrighted games and their data are not distributed with the engine.",
+          "source_url": "https://gitlab.com/bunnylin/supersakura/-/raw/dev/README.md",
+          "evidence": "The maintainer README describes the project's multi-game 1990s Japanese visual-novel scope and explicitly distinguishes the engine/tools from copyrighted game data supplied by users.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Streets of Rage X (OpenBOR fan game; Android release)",
+      "facts": [
+        {
+          "field": "canonical_name",
+          "value": "Streets of Rage X",
+          "source_url": "https://www.chronocrash.com/forum/resources/streets-of-rage-x-windows-android.274/",
+          "evidence": "The OpenBOR community resource identifies the game as Streets of Rage X; this profile refers to the Android release named in the catalog key.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "developer",
+          "value": "Kratus",
+          "source_url": "https://github.com/DCurrent/openbor/blob/master/README.md",
+          "evidence": "The OpenBOR project's maintainer README identifies Kratus as creator of the Streets of Rage X fan remake; the ChronoCrash game resource also lists Kratus as author.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "Windows and Android (OpenBOR release)",
+          "source_url": "https://www.chronocrash.com/forum/resources/streets-of-rage-x-windows-android.274/",
+          "evidence": "The creator's resource listing was published as Streets of Rage X (Windows / Android); this catalog key selects the Android release and does not assert a separate Android-specific edition date.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "series",
+          "value": "Streets of Rage",
+          "source_url": "https://www.chronocrash.com/forum/resources/streets-of-rage-x-windows-android.274/",
+          "evidence": "The resource describes the game as recreating the classic Streets of Rage games and tags it with Streets of Rage.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "collection_context",
+          "value": "A fan-made continuation of SOR2X that recreates the classic Streets of Rage games with an enhanced fighting mechanic and includes the first game as a new route.",
+          "source_url": "https://www.chronocrash.com/forum/resources/streets-of-rage-x-windows-android.274/",
+          "evidence": "The creator's project description states that Streets of Rage X continues SOR2X, recreates the classic games with an enhanced fighting mechanic, and adds the first game as a new route.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "WWF WrestleMania: The Arcade Game (Arcade, Wolf Unit REV 1.30)",
+      "facts": [
+        {
+          "field": "canonical_name",
+          "value": "WWF WrestleMania: The Arcade Game",
+          "source_url": "https://en.wikipedia.org/wiki/WWF_WrestleMania:_The_Arcade_Game",
+          "evidence": "The dedicated article uses this title for the game; its text distinguishes the arcade release from home-console releases using the same game name.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Sports-based fighting",
+          "source_url": "https://en.wikipedia.org/wiki/WWF_WrestleMania:_The_Arcade_Game",
+          "evidence": "The article's infobox classifies the game as sports-based fighting.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "developer",
+          "value": "Midway (arcade)",
+          "source_url": "https://en.wikipedia.org/wiki/WWF_WrestleMania:_The_Arcade_Game",
+          "evidence": "The article credits Midway as the arcade developer and separately credits Sculptured Software for home ports.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Midway Games (arcade; Acclaim Entertainment published home versions)",
+          "source_url": "https://en.wikipedia.org/wiki/WWF_WrestleMania:_The_Arcade_Game",
+          "evidence": "The article's infobox separates Midway Games as arcade publisher from Acclaim Entertainment for home releases.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "Arcade (Midway Wolf Unit hardware)",
+          "source_url": "https://en.wikipedia.org/wiki/WWF_WrestleMania:_The_Arcade_Game",
+          "evidence": "The article identifies Arcade as a platform and Midway Wolf Unit as its arcade system; it does not identify the catalog key's REV 1.30 revision.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "North America (Arcade): 1995",
+          "source_url": "https://en.wikipedia.org/wiki/WWF_WrestleMania:_The_Arcade_Game",
+          "evidence": "The article gives 1995 for the North American arcade release; more precise dates shown for other platforms belong to home ports and are not applied here.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "year"
+        },
+        {
+          "field": "series",
+          "value": "WWF",
+          "source_url": "https://en.wikipedia.org/wiki/WWF_WrestleMania:_The_Arcade_Game",
+          "evidence": "The article's infobox places the arcade game in the WWF series.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "collection_context",
+          "value": "The catalog key specifies the arcade Wolf Unit revision. The article also covers separate console and PC ports; their release dates, developers, and publishers are not assigned to this arcade profile. The article does not document REV 1.30 specifically.",
+          "source_url": "https://en.wikipedia.org/wiki/WWF_WrestleMania:_The_Arcade_Game",
+          "evidence": "The article lists platform-specific home ports and separate arcade/home developer and publisher credits, while identifying Midway Wolf Unit hardware for the arcade release.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Yoiyami Dancers",
+      "facts": [
+        {
+          "field": "canonical_name",
+          "value": "Yoiyami Dancers: Twilight Danmaku Dancers",
+          "source_url": "https://store.steampowered.com/app/1998530/",
+          "evidence": "The official Steam product page gives the complete title as Yoiyami Dancers: Twilight Danmaku Dancers.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Danmaku rhythm action",
+          "source_url": "https://store.steampowered.com/app/1998530/",
+          "evidence": "The Steam store description calls it a rhythmical danmaku action game and describes it as a danmaku rhythm-action game.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "developer",
+          "value": "tripper_room and 以絵会友 (ikaikaiyuu)",
+          "source_url": "https://store.steampowered.com/app/1998530/",
+          "evidence": "Steam credits tripper_room and 以絵会友 (ikaikaiyuu) as developers.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Mediascape Co., Ltd.",
+          "source_url": "https://store.steampowered.com/app/1998530/",
+          "evidence": "Steam credits Mediascape Co., Ltd. as publisher.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "Windows PC (Steam release)",
+          "source_url": "https://store.steampowered.com/app/1998530/",
+          "evidence": "The Steam product page lists Windows 7/8/8.1/10 in its minimum system requirements; this describes the Steam PC release, not a claim about all later platform availability.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "Steam release: 2022-09-28",
+          "source_url": "https://store.steampowered.com/app/1998530/",
+          "evidence": "The official Steam product page lists the release date as September 28, 2022.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "day"
+        },
+        {
+          "field": "collection_context",
+          "value": "The Steam listing describes the game as a Touhou fangame; the title refers to its own game, not a mainline Touhou Project installment.",
+          "source_url": "https://store.steampowered.com/app/1998530/",
+          "evidence": "The product's About section explicitly calls Yoiyami Dancers a Touhou fangame.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "game_key": "Yoshi’s Island: Super Mario Advance 3 (USA, Game Boy Advance)",
+      "facts": [
+        {
+          "field": "canonical_name",
+          "value": "Yoshi's Island: Super Mario Advance 3",
+          "source_url": "https://www.nintendo.com/en-gb/Games/Game-Boy-Advance/Yoshi-s-Island-Super-Mario-Advance-3-267640.html",
+          "evidence": "Nintendo's official Game Boy Advance product page gives the GBA port's title as Yoshi's Island: Super Mario Advance 3.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "genre",
+          "value": "Platform",
+          "source_url": "https://en.wikipedia.org/wiki/Yoshi%27s_Island",
+          "evidence": "The article classifies Yoshi's Island as a platform game and identifies Super Mario Advance 3 as its Game Boy Advance port.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "developer",
+          "value": "Nintendo R&D2 (Game Boy Advance port)",
+          "source_url": "https://en.wikipedia.org/wiki/Yoshi%27s_Island",
+          "evidence": "The article's infobox distinguishes Nintendo R&D2 as the GBA developer from Nintendo EAD for the original Super NES version.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "publisher",
+          "value": "Nintendo",
+          "source_url": "https://www.nintendo.com/en-gb/Games/Game-Boy-Advance/Yoshi-s-Island-Super-Mario-Advance-3-267640.html",
+          "evidence": "Nintendo's official product catalog presents this title as its Game Boy Advance release.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "original_platform",
+          "value": "Game Boy Advance (port of the Super NES game Super Mario World 2: Yoshi's Island)",
+          "source_url": "https://en.wikipedia.org/wiki/Yoshi%27s_Island",
+          "evidence": "The article states that the Super NES title was ported to Game Boy Advance as Yoshi's Island: Super Mario Advance 3; this record describes the GBA port targeted by the key.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "regional_release_date",
+          "value": "North America (Game Boy Advance): 2002-09-23",
+          "source_url": "https://en.wikipedia.org/wiki/Yoshi%27s_Island",
+          "evidence": "The article's GBA release table gives September 23, 2002 for North America.",
+          "verified_on": "2026-10-16",
+          "date_granularity": "day"
+        },
+        {
+          "field": "series",
+          "value": "Super Mario; Yoshi",
+          "source_url": "https://en.wikipedia.org/wiki/Yoshi%27s_Island",
+          "evidence": "The article lists both Super Mario and Yoshi as series affiliations.",
+          "verified_on": "2026-10-16"
+        },
+        {
+          "field": "collection_context",
+          "value": "The GBA port adds six new levels; the article otherwise distinguishes it from the original Super NES version, and does not identify the exact USA ROM revision in the catalog key.",
+          "source_url": "https://en.wikipedia.org/wiki/Yoshi%27s_Island",
+          "evidence": "The GBA port section states that the version adds six levels and lists the North American release date separately from other regions.",
+          "verified_on": "2026-10-16"
+        }
+      ]
+    }
+  ]
+}
