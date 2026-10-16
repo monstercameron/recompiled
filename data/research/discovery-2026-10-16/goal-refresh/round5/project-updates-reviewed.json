@@ -1,0 +1,68 @@
+{
+  "updated": "2026-10-16",
+  "updates": [
+    {
+      "id": "animal-crossing-3ds-port",
+      "fields": {
+        "status": "Release v0.1.1 (2026-10-14) is current. It adds Circle Pad/C-Stick dead zones, louder sound, and fixes a black ground square beside houses. The project remains in development; the release reports choppy frame rate in the busiest areas and says original 3DS/2DS is untested. It supports only the New 3DS family and the USA GAFE01 revision 0 disc.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: current development state and supported hardware",
+          "url": "https://github.com/paaime/ac-3ds#readme"
+        },
+        {
+          "label": "Maintainer release v0.1.1 (2026-10-14)",
+          "url": "https://github.com/paaime/ac-3ds/releases/tag/v0.1.1"
+        },
+        {
+          "label": "Official GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/paaime/ac-3ds"
+        }
+      ]
+    },
+    {
+      "id": "paper-mario-3ds-port",
+      "fields": {
+        "status": "Release v1.0.7 was published 2026-10-15 and fixes partner battle-move icons, key-item labels, and choice-box appearance. The maintainer’s release notes report 60 fps on the New 3DS family and about 30 fps on original 3DS/2DS using the CIA build; users must provide their own US or EU Paper Mario ROM.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: platform support and current build",
+          "url": "https://github.com/SecondaryLifer/StarHaven#readme"
+        },
+        {
+          "label": "Maintainer release v1.0.7 (2026-10-15)",
+          "url": "https://github.com/SecondaryLifer/StarHaven/releases/tag/v1.0.7"
+        },
+        {
+          "label": "Official GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/SecondaryLifer/StarHaven"
+        }
+      ]
+    },
+    {
+      "id": "super-smash-bros-melee-3ds-port",
+      "fields": {
+        "status": "The regular New 3DS port is a playable community milestone; its current README reports 60 fps in most 1v1 stages and steady 30 fps in casual four-player matches on large stages, and says further regular-port development is not currently planned. Release v1.3.1 (2026-10-04) changed the Windows builder, not the game files. Separate Slippi Direct beta v0.1.0 (2026-10-05) adds direct 1v1 play against Slippi Dolphin on PC, but has no rollback on the 3DS and does not support Ranked, Unranked, Teams, or spectating.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: regular port status and performance",
+          "url": "https://github.com/2gifts/melee-3ds/blob/3ds/README.md"
+        },
+        {
+          "label": "Maintainer regular release v1.3.1 (2026-10-04)",
+          "url": "https://github.com/2gifts/melee-3ds/releases/tag/v1.3.1"
+        },
+        {
+          "label": "Maintainer Slippi Direct beta release v0.1.0 (2026-10-05)",
+          "url": "https://github.com/2gifts/melee-3ds/releases/tag/slippi-beta-v0.1.0"
+        }
+      ]
+    }
+  ]
+}

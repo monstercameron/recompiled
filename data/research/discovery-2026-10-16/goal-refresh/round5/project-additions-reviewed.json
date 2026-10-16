@@ -1,0 +1,230 @@
+{
+  "updated": "2026-10-16",
+  "reviewed_scope": "Fresh discovery of handheld-system decompilation, static recompilation, reimplementation, and native/source ports across Nintendo Virtual Boy/3DS, PlayStation Portable/Vita, and adjacent game targets. Each addition was checked against the live catalog and every JSON artifact under data/research and work before staging.",
+  "projects": [
+    {
+      "id": "sd-gundam-dimension-war-virtual-boy-recomp",
+      "title": "SD Gundam: Dimension War Recompiled",
+      "game": "SD Gundam - Dimension War",
+      "target_type": "Game",
+      "platform": "Virtual Boy → Windows x64",
+      "kind": "Recompilation",
+      "status": "Early prototype; v0.1.0 was published 2026-09-12. The maintainer reports the Japanese baseline built and checked through the opening tactical mission, with 40 checkpoints through frame 4,500 matching the Beetle oracle across ten state/output planes and no interpreter fallback. Later missions and endings have not received a complete playthrough or independent-oracle validation.",
+      "summary": "A static V810-to-C recompilation of SD Gundam - Dimension War (Japan) for Windows, built on the vbrecomp runtime and recomp-ui. The project includes optional English, color, and adaptive-widescreen mods. It does not include the game ROM or generated cartridge code; the matching Japanese Virtual Boy ROM is required.",
+      "project_url": "https://github.com/mstan/SDGundamDimensionWarVirtualBoyRecomp",
+      "updated": "2026-10-16",
+      "strategy": "Static recompilation",
+      "language": "",
+      "source_available": "Public source repository; requires the matching Japanese Virtual Boy ROM",
+      "first_found": "2026-10-16",
+      "programming_language": "Python",
+      "subtype": "Virtual Boy static recompilation",
+      "sources": [
+        {
+          "label": "Maintainer README: target, method, validation, and limits",
+          "url": "https://github.com/mstan/SDGundamDimensionWarVirtualBoyRecomp#readme"
+        },
+        {
+          "label": "Maintainer release v0.1.0",
+          "url": "https://github.com/mstan/SDGundamDimensionWarVirtualBoyRecomp/releases/tag/v0.1.0"
+        },
+        {
+          "label": "Official GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/mstan/SDGundamDimensionWarVirtualBoyRecomp"
+        }
+      ]
+    },
+    {
+      "id": "legend-of-doom-3ds-port",
+      "title": "Legend of Doom Nintendo 3DS Port",
+      "game": "Legend of Doom",
+      "target_type": "Game",
+      "platform": "GZDoom 4.7.1 total conversion → New Nintendo 3DS family",
+      "kind": "Reimplementation",
+      "status": "Release v1.0 was published 2026-09-13 for New Nintendo 3DS, New Nintendo 3DS XL, and New Nintendo 2DS XL; the README explicitly excludes older 3DS/2DS models. The release packages include the game and engine data. The README does not give a frame-rate or complete-playthrough measurement.",
+      "summary": "A native 3DS source port of Legend of Doom, a GZDoom conversion of the original The Legend of Zelda created by DeTwelve Games. The port uses GZDoom 4.7.1 and Freedoom Phase 2; its release includes Legend of Doom and engine data, so it does not require a Zelda ROM or a commercial Doom IWAD.",
+      "project_url": "https://github.com/EstebanPdN/legend-of-doom-3ds",
+      "updated": "2026-10-16",
+      "strategy": "Native source port",
+      "language": "",
+      "source_available": "Public GPL-3.0 source repository and v1.0 CIA/3DSX packages",
+      "first_found": "2026-10-16",
+      "programming_language": "C++",
+      "subtype": "GZDoom-based New 3DS port",
+      "sources": [
+        {
+          "label": "Maintainer README: game, platform support, and package contents",
+          "url": "https://github.com/EstebanPdN/legend-of-doom-3ds#readme"
+        },
+        {
+          "label": "Maintainer release v1.0",
+          "url": "https://github.com/EstebanPdN/legend-of-doom-3ds/releases/tag/v1.0"
+        },
+        {
+          "label": "Official GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/EstebanPdN/legend-of-doom-3ds"
+        }
+      ]
+    },
+    {
+      "id": "2048-nintendo-3ds-port",
+      "title": "2048 Nintendo 3DS Port",
+      "game": "2048",
+      "target_type": "Game",
+      "platform": "Linux 2048.c → Nintendo 3DS homebrew",
+      "kind": "Reimplementation",
+      "status": "The latest listed release, v1.1.1 (2026-03-19), adds a leaderboard. The README provides a 3DSX download and build instructions, and documents native 3DS controls and a score system; it does not identify a physical-hardware test or frame-rate measurement.",
+      "summary": "A Nintendo 3DS C port of Maurits van der Schee’s MIT-licensed 2048.c puzzle game. It adapts the interface and controls for 3DS and supports a score leaderboard. The maintainer publishes source and a 3DSX release.",
+      "project_url": "https://github.com/0rientd/2048-port-3ds",
+      "updated": "2026-10-16",
+      "strategy": "Native source port",
+      "language": "",
+      "source_available": "Public source repository and 3DSX releases; based on MIT-licensed 2048.c",
+      "first_found": "2026-10-16",
+      "programming_language": "C",
+      "subtype": "Nintendo 3DS source port",
+      "sources": [
+        {
+          "label": "Maintainer README: source project, features, and installation",
+          "url": "https://github.com/0rientd/2048-port-3ds#readme"
+        },
+        {
+          "label": "Maintainer release v1.1.1",
+          "url": "https://github.com/0rientd/2048-port-3ds/releases/tag/v1.1.1"
+        },
+        {
+          "label": "Official GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/0rientd/2048-port-3ds"
+        }
+      ]
+    },
+    {
+      "id": "block-blast-3ds-homebrew",
+      "title": "Block Blast 3DS Homebrew",
+      "game": "Block Blast",
+      "target_type": "Game",
+      "platform": "Block Blast-style mobile puzzle → Nintendo 3DS homebrew",
+      "kind": "Reimplementation",
+      "status": "Release v1.3 was published 2026-07-27. The maintainer provides CIA and 3DSX builds and documents stylus or button play, automatic saves, and stereoscopic 3D. The README says its screenshots are rendered by the game’s PC drawing code rather than captured from a console, and makes no hardware frame-rate claim.",
+      "summary": "A self-contained C homebrew recreation of the Block Blast puzzle experience for Nintendo 3DS, with the board on the top screen and piece selection and aiming on the touch screen. The README says the game generates its visuals and audio in code and ships without image files, audio files, or a ROM filesystem.",
+      "project_url": "https://github.com/TheFilipcom4607/BlockBlast-3DS",
+      "updated": "2026-10-16",
+      "strategy": "Native reimplementation",
+      "language": "",
+      "source_available": "Public source repository and CIA/3DSX releases",
+      "first_found": "2026-10-16",
+      "programming_language": "C",
+      "subtype": "Nintendo 3DS homebrew reimplementation",
+      "sources": [
+        {
+          "label": "Maintainer README: controls, features, and testing limits",
+          "url": "https://github.com/TheFilipcom4607/BlockBlast-3DS#readme"
+        },
+        {
+          "label": "Maintainer release v1.3",
+          "url": "https://github.com/TheFilipcom4607/BlockBlast-3DS/releases/tag/V1.3"
+        },
+        {
+          "label": "Official GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/TheFilipcom4607/BlockBlast-3DS"
+        }
+      ]
+    },
+    {
+      "id": "bounce-vita-port",
+      "title": "Bounce Vita",
+      "game": "Bounce (Nokia mobile game)",
+      "target_type": "Game",
+      "platform": "Nokia feature-phone game → PlayStation Vita",
+      "kind": "Reimplementation",
+      "status": "The first public release, v0.1.0, was published 2026-08-24. The maintainer lists all 11 classic levels, Vita2D rendering, music and sound, Vita controls, and persistent level/score/lives. The README does not provide a model-by-model hardware or frame-rate matrix.",
+      "summary": "A native PlayStation Vita port of Nokia Bounce based on the open-source C reimplementation amdray/bounce_zero. The project adapts it for VitaSDK with Vita2D rendering, Vita controls, audio, persistent progress, and refreshed presentation assets.",
+      "project_url": "https://github.com/M-Essa11/Bounce-Vita",
+      "updated": "2026-10-16",
+      "strategy": "Native source port",
+      "language": "",
+      "source_available": "Public MIT source repository and Vita VPK release; based on the open-source bounce_zero reimplementation",
+      "first_found": "2026-10-16",
+      "programming_language": "C",
+      "subtype": "PlayStation Vita native port",
+      "sources": [
+        {
+          "label": "Maintainer README: port basis, features, and build instructions",
+          "url": "https://github.com/M-Essa11/Bounce-Vita#readme"
+        },
+        {
+          "label": "Maintainer release v0.1.0",
+          "url": "https://github.com/M-Essa11/Bounce-Vita/releases/tag/v0.1.0"
+        },
+        {
+          "label": "Official GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/M-Essa11/Bounce-Vita"
+        }
+      ]
+    },
+    {
+      "id": "call-of-duty-roads-to-victory-psp-web-recomp",
+      "title": "Call of Duty: Roads to Victory Web Recompilation",
+      "game": "Call of Duty: Roads to Victory",
+      "target_type": "Game",
+      "platform": "PlayStation Portable → WebAssembly/WebGL2 browser",
+      "kind": "Recompilation",
+      "status": "The maintainer README reports that the USA version built through the port pipeline and reached the main menu, campaign selection, mission briefings, and gameplay in a demo; no release is listed. Movies are skipped, and persistent save/load is not implemented (the current changes cover savedata storage-size queries). The project does not claim a complete campaign playthrough.",
+      "summary": "A title-specific fork of PSP Web Recomp that translates Call of Duty: Roads to Victory MIPS code ahead of time to C++, compiles it to WebAssembly, and runs it with a WebGL2 PSP graphics and operating-system reimplementation. The repository contains no game data; the user supplies a PSP disc image, and generated code stays local.",
+      "project_url": "https://github.com/3Samourai/psp-web-recomp-call-of",
+      "updated": "2026-10-16",
+      "strategy": "Static recompilation",
+      "language": "",
+      "source_available": "Public source repository; requires the user’s own PSP disc image",
+      "first_found": "2026-10-16",
+      "programming_language": "C++",
+      "subtype": "PSP-to-WebAssembly static recompilation",
+      "sources": [
+        {
+          "label": "Maintainer README: method, build scope, and current status",
+          "url": "https://github.com/3Samourai/psp-web-recomp-call-of#readme"
+        },
+        {
+          "label": "Official GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/3Samourai/psp-web-recomp-call-of"
+        },
+        {
+          "label": "Official GitHub Languages endpoint checked 2026-10-16",
+          "url": "https://api.github.com/repos/3Samourai/psp-web-recomp-call-of/languages"
+        }
+      ]
+    },
+    {
+      "id": "nakagawa-recomp-psp-toolkit",
+      "title": "Nakagawa Recomp",
+      "game": "PlayStation Portable software",
+      "target_type": "Software",
+      "platform": "PlayStation Portable executables → native Windows 11 x64 applications (SDL3/Vulkan)",
+      "kind": "Recompilation",
+      "status": "Active experimental toolkit; the planned v0.0.1 package was not published as of 2026-10-16. The maintainer reports that project-authored showcase demos traverse the pipeline, and that PAC-MAN Championship Edition reaches a menu and a stage through generic fixes; no complete commercial-game playthrough from a disc image is claimed. Windows 11 x64 is the only supported player platform listed.",
+      "summary": "A general PSP static-recompilation toolkit and player that translates user-supplied PSP executables into C, links them with a native runtime, and runs them on Windows through SDL3 and Vulkan. It contains no commercial game code, assets, firmware modules, or keys. Hot Shots Tennis: Get a Grip is a long-term research target, not a claim of current full-game support.",
+      "project_url": "https://github.com/Jstar269/nakagawa-recomp",
+      "updated": "2026-10-16",
+      "strategy": "Static recompilation",
+      "language": "",
+      "source_available": "Public GPL-3.0 source repository; no commercial game data is included",
+      "first_found": "2026-10-16",
+      "programming_language": "Python",
+      "subtype": "General-purpose PSP static-recompiler toolkit",
+      "sources": [
+        {
+          "label": "Maintainer README: scope, release state, supported targets, and limits",
+          "url": "https://github.com/Jstar269/nakagawa-recomp#readme"
+        },
+        {
+          "label": "Maintainer compatibility/status report",
+          "url": "https://github.com/Jstar269/nakagawa-recomp/blob/main/docs/COMPATIBILITY.md"
+        },
+        {
+          "label": "Official GitHub repository metadata checked 2026-10-16",
+          "url": "https://api.github.com/repos/Jstar269/nakagawa-recomp"
+        }
+      ]
+    }
+  ]
+}
