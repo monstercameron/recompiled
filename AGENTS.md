@@ -8,7 +8,7 @@ This repository is a source-linked catalog about taking ownership of software th
 - `data/research/*.json` contains reviewed, attributable imports and research snapshots.
 - `docs/catalog.json` is generated from SQLite. Never edit it by hand.
 - `docs/pkg/` and the WASM package are build outputs. Do not hand-edit them.
-- `./scripts/build.sh` imports emulator additions, reviewed GitHub, console-phone, console-to-console, console/PC-to-mobile, and software application reconstruction batches, sourced game-profile facts and Wikipedia links, the featured showcase, process resources, and the cached console gallery when its assets are present; it exports SQLite to `docs/catalog.json`, builds the Rust/WASM module, and writes its web bindings under `docs/pkg/`.
+- `./scripts/build.sh` imports emulator additions, reviewed GitHub, console-phone, console-to-console, console/PC-to-mobile, and software application reconstruction batches, the consolidated reviewed project research, URI-only project media, sourced game-profile facts and Wikipedia links, project language evidence, the featured showcase, process resources, and the cached console gallery when its assets are present; it exports SQLite to `docs/catalog.json`, builds the Rust/WASM module, and writes its web bindings under `docs/pkg/`.
 - For a local preview, run `./scripts/build.sh` and then `python3 -m http.server 8000 --directory docs`; open `http://localhost:8000/`.
 - GitHub Pages publishes the `docs/` directory through `.github/workflows/pages.yml`.
 

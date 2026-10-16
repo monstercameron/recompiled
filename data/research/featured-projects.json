@@ -1,33 +1,33 @@
 {
   "verified_at": "2026-10-15",
-  "scope": "GitHub star counts across 205 unique GitHub-hosted projects indexed in the catalog. Repository pages were checked on 2026-10-15; 202 returned a live count and 3 indexed repositories returned 404.",
+  "scope": "Top three game-specific source/decompilation/recompilation targets by repository stars, verified with each repository’s GitHub API star count; general-purpose tools excluded.",
   "entries": [
     {
-      "project_id": "anyps5",
+      "project_id": "diablo-devilution-source-reconstruction",
       "position": 1,
-      "github_stars": 38547,
+      "github_stars": 9004,
+      "source_url": "https://github.com/diasurgical/devilution",
+      "ranking_url": "https://api.github.com/repos/diasurgical/devilution",
       "verified_at": "2026-10-15",
-      "source_url": "https://github.com/boykopovar/AnyPS5",
-      "ranking_url": "https://api.github.com/repos/boykopovar/AnyPS5",
-      "evidence": "Highest live star count among 202 reachable unique GitHub project repositories in the index; catalog project performs PlayStation 5-to-desktop API and graphics translation for multiple games."
+      "evidence": "GitHub repository API reported 9,004 stars on 2026-10-15."
     },
     {
-      "project_id": "proton",
+      "project_id": "sm64-decomp",
       "position": 2,
-      "github_stars": 33058,
+      "github_stars": 8881,
+      "source_url": "https://github.com/n64decomp/sm64",
+      "ranking_url": "https://api.github.com/repos/n64decomp/sm64",
       "verified_at": "2026-10-15",
-      "source_url": "https://github.com/ValveSoftware/Proton",
-      "ranking_url": "https://api.github.com/repos/ValveSoftware/Proton",
-      "evidence": "Second-highest live star count among 202 reachable unique GitHub project repositories in the index; catalog project is Valve's Windows-game compatibility stack for Linux/POSIX."
+      "evidence": "GitHub repository API reported 8,881 stars on 2026-10-15."
     },
     {
-      "project_id": "dxvk",
+      "project_id": "zelda64recomp",
       "position": 3,
-      "github_stars": 18301,
+      "github_stars": 7429,
+      "source_url": "https://github.com/Zelda64Recomp/Zelda64Recomp",
+      "ranking_url": "https://api.github.com/repos/Zelda64Recomp/Zelda64Recomp",
       "verified_at": "2026-10-15",
-      "source_url": "https://github.com/doitsujin/dxvk",
-      "ranking_url": "https://api.github.com/repos/doitsujin/dxvk",
-      "evidence": "Third-highest live star count among 202 reachable unique GitHub project repositories in the index; catalog project translates Direct3D 8–11 calls to Vulkan."
+      "evidence": "GitHub repository API reported 7,429 stars on 2026-10-15."
     }
   ]
 }

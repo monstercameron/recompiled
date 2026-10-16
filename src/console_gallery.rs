@@ -131,17 +131,18 @@ pub fn render(
         }
     }
     let html = if filtered.is_empty() {
-        format!(
-            "<p class=\"console-gallery-empty\">{}</p>",
-            super::i18n::tr(
-                locale,
-                if has_gallery {
-                    "console_gallery_empty"
-                } else {
-                    "console_gallery_preparing"
-                }
+        if has_gallery {
+            format!(
+                "<p class=\"console-gallery-empty\">{}</p>",
+                super::i18n::tr(locale, "console_gallery_empty")
             )
-        )
+        } else {
+            format!(
+                "<div class=\"console-gallery-empty\" role=\"status\">{}<p>{}</p></div>",
+                super::icon_markup("image"),
+                super::i18n::tr(locale, "console_gallery_preparing")
+            )
+        }
     } else {
         filtered
             .iter()

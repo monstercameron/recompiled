@@ -1,0 +1,481 @@
+{
+  "verified_at": "2026-10-15",
+  "records": [
+    {
+      "project_id": "aai2-en",
+      "predominant_language": null,
+      "source_url": "https://scarletstudy.net/",
+      "evidence": "Reviewed the catalog's project URL and associated primary-source links; none provides public source-code language totals.",
+      "verified_at": "2026-10-15",
+      "reason_unknown": "The catalog's official project page and cited project sources do not expose a public source repository or a repository language breakdown; the implementation language cannot be assigned from primary-source evidence.",
+      "evidence_url": "https://scarletstudy.net/"
+    },
+    {
+      "project_id": "azahar",
+      "predominant_language": "C++",
+      "source_url": "https://api.github.com/repos/azahar-emu/azahar/languages",
+      "evidence": "GitHub's official Languages REST endpoint for https://github.com/azahar-emu/azahar reports 9,808,443 bytes of C++, the largest language total (89.0% of 11,014,654 recognized language bytes).",
+      "verified_at": "2026-10-15",
+      "language_breakdown_bytes": {
+        "C++": 9808443,
+        "Kotlin": 978929,
+        "CMake": 149055,
+        "GLSL": 43457,
+        "Shell": 19488,
+        "NSIS": 6921,
+        "Objective-C++": 3276,
+        "Ruby": 2949,
+        "C": 1230,
+        "Dockerfile": 906
+      },
+      "evidence_url": "https://api.github.com/repos/azahar-emu/azahar/languages"
+    },
+    {
+      "project_id": "bigpemu-atari-jaguar",
+      "predominant_language": null,
+      "source_url": "https://www.richwhitehouse.com/jaguar/",
+      "evidence": "Reviewed the catalog's project URL and associated primary-source links; none provides public source-code language totals.",
+      "verified_at": "2026-10-15",
+      "reason_unknown": "The catalog's official project page and cited project sources do not expose a public source repository or a repository language breakdown; the implementation language cannot be assigned from primary-source evidence.",
+      "evidence_url": "https://www.richwhitehouse.com/jaguar/"
+    },
+    {
+      "project_id": "brightis-ps1-en",
+      "predominant_language": null,
+      "source_url": "https://api.github.com/repos/WadoTranslations/ps1-brightis-english/languages",
+      "evidence": "The endpoint returned an empty JSON object: {}. It provides no language totals to rank.",
+      "verified_at": "2026-10-15",
+      "reason_unknown": "GitHub's official Languages REST endpoint for https://github.com/WadoTranslations/ps1-brightis-english returned an empty byte-count map; there is no GitHub-reported predominant language for this repository.",
+      "evidence_url": "https://api.github.com/repos/WadoTranslations/ps1-brightis-english/languages"
+    },
+    {
+      "project_id": "brothers-conflict-vita-en",
+      "predominant_language": null,
+      "source_url": "https://api.github.com/repos/AsahinaKyoudai/BrothersConflict/languages",
+      "evidence": "The endpoint returned an empty JSON object: {}. It provides no language totals to rank.",
+      "verified_at": "2026-10-15",
+      "reason_unknown": "GitHub's official Languages REST endpoint for https://github.com/AsahinaKyoudai/BrothersConflict returned an empty byte-count map; there is no GitHub-reported predominant language for this repository.",
+      "evidence_url": "https://api.github.com/repos/AsahinaKyoudai/BrothersConflict/languages"
+    },
+    {
+      "project_id": "busin0-en",
+      "predominant_language": "Python",
+      "source_url": "https://api.github.com/repos/Fabulu/Busin0Translation/languages",
+      "evidence": "GitHub's official Languages REST endpoint for https://github.com/Fabulu/Busin0Translation reports 7,744,593 bytes of Python, the largest language total (97.8% of 7,918,361 recognized language bytes).",
+      "verified_at": "2026-10-15",
+      "language_breakdown_bytes": {
+        "Python": 7744593,
+        "PowerShell": 144874,
+        "JavaScript": 25065,
+        "Batchfile": 2044,
+        "Shell": 1785
+      },
+      "evidence_url": "https://api.github.com/repos/Fabulu/Busin0Translation/languages"
+    },
+    {
+      "project_id": "cdi-emulator-philips-cdi",
+      "predominant_language": null,
+      "source_url": "https://www.cdiemu.org/site/welcome.htm",
+      "evidence": "Reviewed the catalog's project URL and associated primary-source links; none provides public source-code language totals.",
+      "verified_at": "2026-10-15",
+      "reason_unknown": "The catalog's official project page and cited project sources do not expose a public source repository or a repository language breakdown; the implementation language cannot be assigned from primary-source evidence.",
+      "evidence_url": "https://www.cdiemu.org/site/welcome.htm"
+    },
+    {
+      "project_id": "citra",
+      "predominant_language": null,
+      "source_url": "https://api.github.com/repos/citra-emu/citra/languages",
+      "evidence": "The official API request failed: gh: Not Found (HTTP 404). The catalog's separate website-repository link is not the emulator implementation repository.",
+      "verified_at": "2026-10-15",
+      "reason_unknown": "GitHub's official Languages REST endpoint for https://github.com/citra-emu/citra returned HTTP 404 on 2026-10-15; no public language breakdown was available to verify.",
+      "evidence_url": "https://api.github.com/repos/citra-emu/citra/languages"
+    },
+    {
+      "project_id": "d3dmetal-game-porting-toolkit",
+      "predominant_language": null,
+      "source_url": "https://developer.apple.com/games/game-porting-toolkit/",
+      "evidence": "Reviewed the catalog's project URL and associated primary-source links; none provides public source-code language totals.",
+      "verified_at": "2026-10-15",
+      "reason_unknown": "The catalog's official project page and cited project sources do not expose a public source repository or a repository language breakdown; the implementation language cannot be assigned from primary-source evidence.",
+      "evidence_url": "https://developer.apple.com/games/game-porting-toolkit/"
+    },
+    {
+      "project_id": "delisoba-deluxe-saturn-en",
+      "predominant_language": null,
+      "source_url": "https://api.github.com/repos/ExxistanceDC/Delisoba-Deluxe-English-Translation/languages",
+      "evidence": "The endpoint returned an empty JSON object: {}. It provides no language totals to rank.",
+      "verified_at": "2026-10-15",
+      "reason_unknown": "GitHub's official Languages REST endpoint for https://github.com/ExxistanceDC/Delisoba-Deluxe-English-Translation returned an empty byte-count map; there is no GitHub-reported predominant language for this repository.",
+      "evidence_url": "https://api.github.com/repos/ExxistanceDC/Delisoba-Deluxe-English-Translation/languages"
+    },
+    {
+      "project_id": "demul",
+      "predominant_language": null,
+      "source_url": "https://www.emulation64.com/files/getdownload/1286/",
+      "evidence": "Reviewed the catalog's project URL and associated primary-source links; none provides public source-code language totals.",
+      "verified_at": "2026-10-15",
+      "reason_unknown": "The catalog's official project page and cited project sources do not expose a public source repository or a repository language breakdown; the implementation language cannot be assigned from primary-source evidence.",
+      "evidence_url": "https://www.emulation64.com/files/getdownload/1286/"
+    },
+    {
+      "project_id": "dqm2-3ds-translation",
+      "predominant_language": null,
+      "source_url": "https://api.github.com/repos/Ich73/DQM2-FanTranslation/languages",
+      "evidence": "The endpoint returned an empty JSON object: {}. It provides no language totals to rank.",
+      "verified_at": "2026-10-15",
+      "reason_unknown": "GitHub's official Languages REST endpoint for https://github.com/Ich73/DQM2-FanTranslation returned an empty byte-count map; there is no GitHub-reported predominant language for this repository.",
+      "evidence_url": "https://api.github.com/repos/Ich73/DQM2-FanTranslation/languages"
+    },
+    {
+      "project_id": "drakengard-3-italian",
+      "predominant_language": null,
+      "source_url": "https://api.github.com/repos/danjiss/Drakengard-3-Traduzione-italiana/languages",
+      "evidence": "The endpoint returned an empty JSON object: {}. It provides no language totals to rank.",
+      "verified_at": "2026-10-15",
+      "reason_unknown": "GitHub's official Languages REST endpoint for https://github.com/danjiss/Drakengard-3-Traduzione-italiana returned an empty byte-count map; there is no GitHub-reported predominant language for this repository.",
+      "evidence_url": "https://api.github.com/repos/danjiss/Drakengard-3-Traduzione-italiana/languages"
+    },
+    {
+      "project_id": "egg-ns",
+      "predominant_language": null,
+      "source_url": "https://play.google.com/store/apps/details?id=com.xiaoji.gamesirnsemulator.x.google",
+      "evidence": "Reviewed the catalog's project URL and associated primary-source links; none provides public source-code language totals.",
+      "verified_at": "2026-10-15",
+      "reason_unknown": "The catalog's official project page and cited project sources do not expose a public source repository or a repository language breakdown; the implementation language cannot be assigned from primary-source evidence.",
+      "evidence_url": "https://play.google.com/store/apps/details?id=com.xiaoji.gamesirnsemulator.x.google"
+    },
+    {
+      "project_id": "epsxe",
+      "predominant_language": null,
+      "source_url": "https://epsxe.com/",
+      "evidence": "Reviewed the catalog's project URL and associated primary-source links; none provides public source-code language totals.",
+      "verified_at": "2026-10-15",
+      "reason_unknown": "The catalog's official project page and cited project sources do not expose a public source repository or a repository language breakdown; the implementation language cannot be assigned from primary-source evidence.",
+      "evidence_url": "https://epsxe.com/"
+    },
+    {
+      "project_id": "ex-troopers-en",
+      "predominant_language": null,
+      "source_url": "https://fantranslators.info/projects/e-x-troopers/",
+      "evidence": "Reviewed the catalog's project URL and associated primary-source links; none provides public source-code language totals.",
+      "verified_at": "2026-10-15",
+      "reason_unknown": "The catalog's official project page and cited project sources do not expose a public source repository or a repository language breakdown; the implementation language cannot be assigned from primary-source evidence.",
+      "evidence_url": "https://fantranslators.info/projects/e-x-troopers/"
+    },
+    {
+      "project_id": "fceux",
+      "predominant_language": "C++",
+      "source_url": "https://api.github.com/repos/TASEmulators/fceux/languages",
+      "evidence": "GitHub's official Languages REST endpoint for https://github.com/TASEmulators/fceux reports 7,842,073 bytes of C++, the largest language total (46.7% of 16,810,121 recognized language bytes).",
+      "verified_at": "2026-10-15",
+      "language_breakdown_bytes": {
+        "C++": 7842073,
+        "HTML": 5401988,
+        "C": 2576994,
+        "Lua": 451667,
+        "CSS": 156892,
+        "PHP": 127141,
+        "M4": 67018,
+        "CMake": 57005,
+        "Shell": 48837,
+        "JavaScript": 24500,
+        "Python": 18220,
+        "Perl": 10904,
+        "Batchfile": 9817,
+        "Makefile": 8643,
+        "Roff": 4340,
+        "Module Management System": 1548,
+        "Scheme": 1548,
+        "Hack": 986
+      },
+      "evidence_url": "https://api.github.com/repos/TASEmulators/fceux/languages"
+    },
+    {
+      "project_id": "heroes-might-magic-iii-vcmi-it",
+      "predominant_language": null,
+      "source_url": "https://api.github.com/repos/vcmi-mods/italian-translation/languages",
+      "evidence": "The endpoint returned an empty JSON object: {}. It provides no language totals to rank.",
+      "verified_at": "2026-10-15",
+      "reason_unknown": "GitHub's official Languages REST endpoint for https://github.com/vcmi-mods/italian-translation returned an empty byte-count map; there is no GitHub-reported predominant language for this repository.",
+      "evidence_url": "https://api.github.com/repos/vcmi-mods/italian-translation/languages"
+    },
+    {
+      "project_id": "hissatsu-saturn-en",
+      "predominant_language": null,
+      "source_url": "https://api.github.com/repos/ExxistanceDC/Hissatsu-English-Translation/languages",
+      "evidence": "The endpoint returned an empty JSON object: {}. It provides no language totals to rank.",
+      "verified_at": "2026-10-15",
+      "reason_unknown": "GitHub's official Languages REST endpoint for https://github.com/ExxistanceDC/Hissatsu-English-Translation returned an empty byte-count map; there is no GitHub-reported predominant language for this repository.",
+      "evidence_url": "https://api.github.com/repos/ExxistanceDC/Hissatsu-English-Translation/languages"
+    },
+    {
+      "project_id": "imas-sls-translation",
+      "predominant_language": null,
+      "source_url": "https://imas-sls-fantranslation.github.io/",
+      "evidence": "Reviewed the catalog's project URL and associated primary-source links; none provides public source-code language totals.",
+      "verified_at": "2026-10-15",
+      "reason_unknown": "The catalog's official project page and cited project sources do not expose a public source repository or a repository language breakdown; the implementation language cannot be assigned from primary-source evidence.",
+      "evidence_url": "https://imas-sls-fantranslation.github.io/"
+    },
+    {
+      "project_id": "inazuma-eleven-go-galaxy-it",
+      "predominant_language": null,
+      "source_url": "https://api.github.com/repos/GamePatchingTeam/IE6-Release/languages",
+      "evidence": "The endpoint returned an empty JSON object: {}. It provides no language totals to rank.",
+      "verified_at": "2026-10-15",
+      "reason_unknown": "GitHub's official Languages REST endpoint for https://github.com/GamePatchingTeam/IE6-Release returned an empty byte-count map; there is no GitHub-reported predominant language for this repository.",
+      "evidence_url": "https://api.github.com/repos/GamePatchingTeam/IE6-Release/languages"
+    },
+    {
+      "project_id": "kega-fusion",
+      "predominant_language": null,
+      "source_url": "https://www.carpeludum.com/kega-fusion/",
+      "evidence": "Reviewed the catalog's project URL and associated primary-source links; none provides public source-code language totals.",
+      "verified_at": "2026-10-15",
+      "reason_unknown": "The catalog's official project page and cited project sources do not expose a public source repository or a repository language breakdown; the implementation language cannot be assigned from primary-source evidence.",
+      "evidence_url": "https://www.carpeludum.com/kega-fusion/"
+    },
+    {
+      "project_id": "kingdom-hearts-chain-of-memories-recomp",
+      "predominant_language": null,
+      "source_url": "https://api.github.com/repos/azurejoga/kh-recomp/languages",
+      "evidence": "The official API request failed: gh: Not Found (HTTP 404). The catalog's separate website-repository link is not the emulator implementation repository.",
+      "verified_at": "2026-10-15",
+      "reason_unknown": "GitHub's official Languages REST endpoint for https://github.com/azurejoga/kh-recomp returned HTTP 404 on 2026-10-15; no public language breakdown was available to verify.",
+      "evidence_url": "https://api.github.com/repos/azurejoga/kh-recomp/languages"
+    },
+    {
+      "project_id": "metal-max-3-en",
+      "predominant_language": null,
+      "source_url": "https://fantranslators.info/2020/06/23/metal-max-3-translation-release/",
+      "evidence": "Reviewed the catalog's project URL and associated primary-source links; none provides public source-code language totals.",
+      "verified_at": "2026-10-15",
+      "reason_unknown": "The catalog's official project page and cited project sources do not expose a public source repository or a repository language breakdown; the implementation language cannot be assigned from primary-source evidence.",
+      "evidence_url": "https://fantranslators.info/2020/06/23/metal-max-3-translation-release/"
+    },
+    {
+      "project_id": "mother3-en",
+      "predominant_language": null,
+      "source_url": "https://mother3.fobby.net/",
+      "evidence": "Reviewed the catalog's project URL and associated primary-source links; none provides public source-code language totals.",
+      "verified_at": "2026-10-15",
+      "reason_unknown": "The catalog's official project page and cited project sources do not expose a public source repository or a repository language breakdown; the implementation language cannot be assigned from primary-source evidence.",
+      "evidence_url": "https://mother3.fobby.net/"
+    },
+    {
+      "project_id": "nesticle",
+      "predominant_language": null,
+      "source_url": "https://web.archive.org/web/20080709184033/http://bloodlust.zophar.net/NESticle/nes.html",
+      "evidence": "Reviewed the catalog's project URL and associated primary-source links; none provides public source-code language totals.",
+      "verified_at": "2026-10-15",
+      "reason_unknown": "The catalog's official project page and cited project sources do not expose a public source repository or a repository language breakdown; the implementation language cannot be assigned from primary-source evidence.",
+      "evidence_url": "https://web.archive.org/web/20080709184033/http://bloodlust.zophar.net/NESticle/nes.html"
+    },
+    {
+      "project_id": "nestopia-ue",
+      "predominant_language": "C++",
+      "source_url": "https://gitlab.com/api/v4/projects/jgemu%2Fnestopia/languages",
+      "evidence": "GitLab's official project Languages API for https://gitlab.com/jgemu/nestopia reports 97.47% C++, the largest language share in the project's repository.",
+      "verified_at": "2026-10-15",
+      "language_breakdown": {
+        "C++": 97.47,
+        "C": 1.49,
+        "Makefile": 1.04
+      },
+      "evidence_url": "https://gitlab.com/api/v4/projects/jgemu%2Fnestopia/languages"
+    },
+    {
+      "project_id": "nogba",
+      "predominant_language": null,
+      "source_url": "https://problemkaputt.de/gba.htm",
+      "evidence": "Reviewed the catalog's project URL and associated primary-source links; none provides public source-code language totals.",
+      "verified_at": "2026-10-15",
+      "reason_unknown": "The catalog's official project page and cited project sources do not expose a public source repository or a repository language breakdown; the implementation language cannot be assigned from primary-source evidence.",
+      "evidence_url": "https://problemkaputt.de/gba.htm"
+    },
+    {
+      "project_id": "pokemon-black-decomp",
+      "predominant_language": null,
+      "source_url": "https://api.github.com/repos/Goldoire/pokeblack/languages",
+      "evidence": "The official API request failed: gh: Not Found (HTTP 404). The catalog's separate website-repository link is not the emulator implementation repository.",
+      "verified_at": "2026-10-15",
+      "reason_unknown": "GitHub's official Languages REST endpoint for https://github.com/Goldoire/pokeblack returned HTTP 404 on 2026-10-15; no public language breakdown was available to verify.",
+      "evidence_url": "https://api.github.com/repos/Goldoire/pokeblack/languages"
+    },
+    {
+      "project_id": "puyo-pop-fever-dc-en",
+      "predominant_language": null,
+      "source_url": "https://api.github.com/repos/DerekPascarella/PuyoPopFever-EnglishPatchDreamcast/languages",
+      "evidence": "The endpoint returned an empty JSON object: {}. It provides no language totals to rank.",
+      "verified_at": "2026-10-15",
+      "reason_unknown": "GitHub's official Languages REST endpoint for https://github.com/DerekPascarella/PuyoPopFever-EnglishPatchDreamcast returned an empty byte-count map; there is no GitHub-reported predominant language for this repository.",
+      "evidence_url": "https://api.github.com/repos/DerekPascarella/PuyoPopFever-EnglishPatchDreamcast/languages"
+    },
+    {
+      "project_id": "rayman2-n64-recomp",
+      "predominant_language": null,
+      "source_url": "https://api.github.com/repos/danielgomesvieira2000/rayman-2-the-great-escape-recomp/languages",
+      "evidence": "The official API request failed: gh: Not Found (HTTP 404). The catalog's separate website-repository link is not the emulator implementation repository.",
+      "verified_at": "2026-10-15",
+      "reason_unknown": "GitHub's official Languages REST endpoint for https://github.com/danielgomesvieira2000/rayman-2-the-great-escape-recomp returned HTTP 404 on 2026-10-15; no public language breakdown was available to verify.",
+      "evidence_url": "https://api.github.com/repos/danielgomesvieira2000/rayman-2-the-great-escape-recomp/languages"
+    },
+    {
+      "project_id": "redream",
+      "predominant_language": null,
+      "source_url": "https://redream.io/",
+      "evidence": "Reviewed the catalog's project URL and associated primary-source links; none provides public source-code language totals.",
+      "verified_at": "2026-10-15",
+      "reason_unknown": "The catalog's official project page and cited project sources do not expose a public source repository or a repository language breakdown; the implementation language cannot be assigned from primary-source evidence.",
+      "evidence_url": "https://redream.io/"
+    },
+    {
+      "project_id": "rocket-slime-3ds-en",
+      "predominant_language": null,
+      "source_url": "https://fantranslators.info/projects/rocket-slime-3ds/",
+      "evidence": "Reviewed the catalog's project URL and associated primary-source links; none provides public source-code language totals.",
+      "verified_at": "2026-10-15",
+      "reason_unknown": "The catalog's official project page and cited project sources do not expose a public source repository or a repository language breakdown; the implementation language cannot be assigned from primary-source evidence.",
+      "evidence_url": "https://fantranslators.info/projects/rocket-slime-3ds/"
+    },
+    {
+      "project_id": "segagaga-dreamcast-en",
+      "predominant_language": null,
+      "source_url": "https://api.github.com/repos/sega-dreamcast/segagaga-english-translation/languages",
+      "evidence": "The endpoint returned an empty JSON object: {}. It provides no language totals to rank.",
+      "verified_at": "2026-10-15",
+      "reason_unknown": "GitHub's official Languages REST endpoint for https://github.com/sega-dreamcast/segagaga-english-translation returned an empty byte-count map; there is no GitHub-reported predominant language for this repository.",
+      "evidence_url": "https://api.github.com/repos/sega-dreamcast/segagaga-english-translation/languages"
+    },
+    {
+      "project_id": "shining-force-iii-translation",
+      "predominant_language": null,
+      "source_url": "https://sf3trans.shiningforcecentral.com/faq/",
+      "evidence": "Reviewed the catalog's project URL and associated primary-source links; none provides public source-code language totals.",
+      "verified_at": "2026-10-15",
+      "reason_unknown": "The catalog's official project page and cited project sources do not expose a public source repository or a repository language breakdown; the implementation language cannot be assigned from primary-source evidence.",
+      "evidence_url": "https://sf3trans.shiningforcecentral.com/faq/"
+    },
+    {
+      "project_id": "shizuku-pc98-en",
+      "predominant_language": null,
+      "source_url": "https://api.github.com/repos/Her-Saki/shizuku_pc98_eng/languages",
+      "evidence": "The endpoint returned an empty JSON object: {}. It provides no language totals to rank.",
+      "verified_at": "2026-10-15",
+      "reason_unknown": "GitHub's official Languages REST endpoint for https://github.com/Her-Saki/shizuku_pc98_eng returned an empty byte-count map; there is no GitHub-reported predominant language for this repository.",
+      "evidence_url": "https://api.github.com/repos/Her-Saki/shizuku_pc98_eng/languages"
+    },
+    {
+      "project_id": "snatcher-playstation-saturn-en",
+      "predominant_language": null,
+      "source_url": "https://api.github.com/repos/pepasjc/snatcher-translated/languages",
+      "evidence": "The endpoint returned an empty JSON object: {}. It provides no language totals to rank.",
+      "verified_at": "2026-10-15",
+      "reason_unknown": "GitHub's official Languages REST endpoint for https://github.com/pepasjc/snatcher-translated returned an empty byte-count map; there is no GitHub-reported predominant language for this repository.",
+      "evidence_url": "https://api.github.com/repos/pepasjc/snatcher-translated/languages"
+    },
+    {
+      "project_id": "srw-og-gaiden-ps2-en",
+      "predominant_language": null,
+      "source_url": "https://api.github.com/repos/camd11/srw-og-gaiden-en/languages",
+      "evidence": "The endpoint returned an empty JSON object: {}. It provides no language totals to rank.",
+      "verified_at": "2026-10-15",
+      "reason_unknown": "GitHub's official Languages REST endpoint for https://github.com/camd11/srw-og-gaiden-en returned an empty byte-count map; there is no GitHub-reported predominant language for this repository.",
+      "evidence_url": "https://api.github.com/repos/camd11/srw-og-gaiden-en/languages"
+    },
+    {
+      "project_id": "super-puzzle-fighter-2x-dc-en",
+      "predominant_language": null,
+      "source_url": "https://api.github.com/repos/DerekPascarella/SuperPuzzleFighter2X-EnglishPatchDreamcast/languages",
+      "evidence": "The endpoint returned an empty JSON object: {}. It provides no language totals to rank.",
+      "verified_at": "2026-10-15",
+      "reason_unknown": "GitHub's official Languages REST endpoint for https://github.com/DerekPascarella/SuperPuzzleFighter2X-EnglishPatchDreamcast returned an empty byte-count map; there is no GitHub-reported predominant language for this repository.",
+      "evidence_url": "https://api.github.com/repos/DerekPascarella/SuperPuzzleFighter2X-EnglishPatchDreamcast/languages"
+    },
+    {
+      "project_id": "super-zsnes",
+      "predominant_language": null,
+      "source_url": "https://zsnes.com/",
+      "evidence": "Reviewed the catalog's project URL and associated primary-source links; none provides public source-code language totals.",
+      "verified_at": "2026-10-15",
+      "reason_unknown": "The catalog's official project page and cited project sources do not expose a public source repository or a repository language breakdown; the implementation language cannot be assigned from primary-source evidence.",
+      "evidence_url": "https://zsnes.com/"
+    },
+    {
+      "project_id": "tgaa-3ds-en",
+      "predominant_language": null,
+      "source_url": "https://scarletstudy.net/",
+      "evidence": "Reviewed the catalog's project URL and associated primary-source links; none provides public source-code language totals.",
+      "verified_at": "2026-10-15",
+      "reason_unknown": "The catalog's official project page and cited project sources do not expose a public source repository or a repository language breakdown; the implementation language cannot be assigned from primary-source evidence.",
+      "evidence_url": "https://scarletstudy.net/"
+    },
+    {
+      "project_id": "time-travelers-3ds-en",
+      "predominant_language": null,
+      "source_url": "https://fantranslators.info/",
+      "evidence": "Reviewed the catalog's project URL and associated primary-source links; none provides public source-code language totals.",
+      "verified_at": "2026-10-15",
+      "reason_unknown": "The catalog's official project page and cited project sources do not expose a public source repository or a repository language breakdown; the implementation language cannot be assigned from primary-source evidence.",
+      "evidence_url": "https://fantranslators.info/"
+    },
+    {
+      "project_id": "toaru-virtual-on-vita-en",
+      "predominant_language": null,
+      "source_url": "https://gbatemp.net/threads/toaru-majutsu-no-virtual-on-english-translation-xdelta-patches.679584/",
+      "evidence": "Reviewed the catalog's project URL and associated primary-source links; none provides public source-code language totals.",
+      "verified_at": "2026-10-15",
+      "reason_unknown": "The catalog's official project page and cited project sources do not expose a public source repository or a repository language breakdown; the implementation language cannot be assigned from primary-source evidence.",
+      "evidence_url": "https://gbatemp.net/threads/toaru-majutsu-no-virtual-on-english-translation-xdelta-patches.679584/"
+    },
+    {
+      "project_id": "trizeal-dc-en",
+      "predominant_language": null,
+      "source_url": "https://api.github.com/repos/DerekPascarella/Trizeal-EnglishPatchDreamcast/languages",
+      "evidence": "The endpoint returned an empty JSON object: {}. It provides no language totals to rank.",
+      "verified_at": "2026-10-15",
+      "reason_unknown": "GitHub's official Languages REST endpoint for https://github.com/DerekPascarella/Trizeal-EnglishPatchDreamcast returned an empty byte-count map; there is no GitHub-reported predominant language for this repository.",
+      "evidence_url": "https://api.github.com/repos/DerekPascarella/Trizeal-EnglishPatchDreamcast/languages"
+    },
+    {
+      "project_id": "ultrahle",
+      "predominant_language": "C",
+      "source_url": "https://api.github.com/repos/emu-russia/UltraHLE/languages",
+      "evidence": "GitHub's official Languages REST endpoint for https://github.com/emu-russia/UltraHLE reports 1,211,291 bytes of C, the largest language total (78.9% of 1,535,475 recognized language bytes).",
+      "verified_at": "2026-10-15",
+      "language_breakdown_bytes": {
+        "C": 1211291,
+        "HTML": 286133,
+        "C++": 38051
+      },
+      "evidence_url": "https://api.github.com/repos/emu-russia/UltraHLE/languages"
+    },
+    {
+      "project_id": "umineko-portable-psp-en",
+      "predominant_language": null,
+      "source_url": "https://api.github.com/repos/kotcrab/umineko-portable-english/languages",
+      "evidence": "The endpoint returned an empty JSON object: {}. It provides no language totals to rank.",
+      "verified_at": "2026-10-15",
+      "reason_unknown": "GitHub's official Languages REST endpoint for https://github.com/kotcrab/umineko-portable-english returned an empty byte-count map; there is no GitHub-reported predominant language for this repository.",
+      "evidence_url": "https://api.github.com/repos/kotcrab/umineko-portable-english/languages"
+    },
+    {
+      "project_id": "virtua-cop-2-dc-en",
+      "predominant_language": null,
+      "source_url": "https://api.github.com/repos/DerekPascarella/VirtuaCop2-EnglishPatchDreamcast/languages",
+      "evidence": "The endpoint returned an empty JSON object: {}. It provides no language totals to rank.",
+      "verified_at": "2026-10-15",
+      "reason_unknown": "GitHub's official Languages REST endpoint for https://github.com/DerekPascarella/VirtuaCop2-EnglishPatchDreamcast returned an empty byte-count map; there is no GitHub-reported predominant language for this repository.",
+      "evidence_url": "https://api.github.com/repos/DerekPascarella/VirtuaCop2-EnglishPatchDreamcast/languages"
+    },
+    {
+      "project_id": "yo-kai-watch-blasters-2-it",
+      "predominant_language": null,
+      "source_url": "https://api.github.com/repos/GamePatchingTeam/YWB2-Release/languages",
+      "evidence": "The endpoint returned an empty JSON object: {}. It provides no language totals to rank.",
+      "verified_at": "2026-10-15",
+      "reason_unknown": "GitHub's official Languages REST endpoint for https://github.com/GamePatchingTeam/YWB2-Release returned an empty byte-count map; there is no GitHub-reported predominant language for this repository.",
+      "evidence_url": "https://api.github.com/repos/GamePatchingTeam/YWB2-Release/languages"
+    }
+  ]
+}

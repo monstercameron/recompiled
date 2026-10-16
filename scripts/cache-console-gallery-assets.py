@@ -26,7 +26,7 @@ import xml.etree.ElementTree as ET
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 DEFAULT_MANIFEST = ROOT / "data" / "research" / "console-gallery.json"
 STATE_PATH = ROOT / "data" / "research" / "console-gallery-cache-state.json"
-USER_AGENT = "RecompiledCatalogConsoleGallery/1.0 (asset attribution and local caching; contact: repository maintainer)"
+USER_AGENT = "RecompiledCatalogConsoleGallery/1.0 (+https://github.com/monstercameron/recompiled)"
 MAX_IMAGE_BYTES = 30 * 1024 * 1024
 TIMEOUT_SECONDS = 40
 

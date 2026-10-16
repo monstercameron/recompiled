@@ -19,14 +19,35 @@ fi
 if [[ -f data/research/software-app-projects.json ]]; then
   python3 scripts/catalog.py import data/research/software-app-projects.json
 fi
+if [[ -f data/research/verified-additions-2026-10.json ]]; then
+  python3 scripts/catalog.py import data/research/verified-additions-2026-10.json
+fi
+if [[ -f data/research/project-research-reviewed-2026-10.json ]]; then
+  python3 scripts/catalog.py import data/research/project-research-reviewed-2026-10.json
+fi
+if [[ -f data/research/media.json ]]; then
+  python3 scripts/catalog.py import-media data/research/media.json
+fi
 if [[ -f data/research/mobile-port-game-profiles.json ]]; then
   python3 scripts/catalog.py import-game-profiles data/research/mobile-port-game-profiles.json
 fi
 if [[ -f data/research/wikipedia-links.json ]]; then
   python3 scripts/catalog.py import-wikipedia-links data/research/wikipedia-links.json
 fi
+if [[ -f data/research/wikipedia-links-additions-2026-10.json ]]; then
+  python3 scripts/catalog.py import-wikipedia-links data/research/wikipedia-links-additions-2026-10.json
+fi
 if [[ -f data/research/directory.json ]]; then
   python3 scripts/catalog.py import-directory data/research/directory.json
+fi
+if [[ -f data/research/programming-languages.json ]]; then
+  python3 scripts/catalog.py import-programming-languages data/research/programming-languages.json
+fi
+if [[ -f data/research/programming-language-additions-2026-10.json ]]; then
+  python3 scripts/catalog.py import-programming-languages data/research/programming-language-additions-2026-10.json
+fi
+if [[ -f data/research/project-language-evidence-2026-10.json ]]; then
+  python3 scripts/catalog.py import-programming-languages data/research/project-language-evidence-2026-10.json
 fi
 if [[ -f data/research/console-gallery.json ]]; then
   if python3 - <<'PY'

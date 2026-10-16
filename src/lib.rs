@@ -312,7 +312,38 @@ const SHELL: &str = r###"
       <p class="hero-summary" data-ui="hero_summary">A source-linked field guide to taking software into your own hands: recovering code, recompiling binaries, carrying APIs across platforms, adapting tools, and preserving the work.</p>
       <a class="hero-jump" href="#catalog"><span data-ui="hero_cta">Find a project</span> <svg class="ui-icon" aria-hidden="true"><use href="#icon-down" xlink:href="#icon-down"></use></svg></a>
     </div>
-    <div class="hero-figure" data-ui-aria-label="hero_figure" aria-label="Catalog at a glance"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><button class="orbit-core" id="hero-secret-button" type="button" data-ui-aria-label="egg_hero_aria" aria-label="Archive bonus" aria-describedby="hero-secret-hint"><span data-ui="figure_game">CODE</span><b><svg class="ui-icon" aria-hidden="true"><use href="#icon-arrows" xlink:href="#icon-arrows"></use></svg></b><span data-ui="figure_again">YOURS</span></button><span class="sr-only" id="hero-secret-hint" data-ui="egg_hero_hint">Tap the center seven times to find the debug room.</span><div class="figure-note note-top" data-ui="figure_community">COMMUNITY BUILT</div><div class="figure-note note-bottom" data-ui="figure_note">SOURCE · PORT · LANGUAGE</div><div class="orbit-pin pin-one"></div><div class="orbit-pin pin-two"></div></div>
+    <div class="hero-figure" data-ui-aria-label="hero_figure" aria-label="Catalog at a glance">
+      <svg class="hero-signal-map" viewBox="0 0 440 366" aria-hidden="true" focusable="false">
+        <defs>
+          <pattern id="hero-dot-grid" width="12" height="12" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r=".8" class="signal-grid-dot"/></pattern>
+          <linearGradient id="hero-trace-gradient" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="var(--blue)"/><stop offset=".52" stop-color="var(--coral)"/><stop offset="1" stop-color="var(--mint)"/></linearGradient>
+        </defs>
+        <rect class="signal-board" x="12" y="14" width="416" height="338" rx="3"/>
+        <rect class="signal-grid" x="13" y="15" width="414" height="336"/>
+        <path class="signal-rail" d="M29 183H411M220 31v30m0 244v30"/>
+        <path class="signal-trace" d="M108 183h44l25-25 24 25h38l25 25 25-25h43"/>
+        <g class="signal-source">
+          <rect class="signal-module" x="40" y="146" width="70" height="74" rx="2"/>
+          <path class="signal-module-cap" d="M40 154h70"/>
+          <path class="signal-code-line" d="M50 166h18m-18 8h36m-36 8h24m-24 8h32"/>
+          <rect class="signal-bit" x="50" y="201" width="5" height="5"/><rect class="signal-bit" x="59" y="201" width="5" height="5"/><rect class="signal-bit signal-bit-hot" x="68" y="201" width="5" height="5"/>
+        </g>
+        <g class="signal-target">
+          <rect class="signal-module" x="330" y="146" width="70" height="74" rx="2"/>
+          <path class="signal-module-cap" d="M330 154h70"/>
+          <circle class="signal-window-dot" cx="339" cy="150" r="1.5"/><circle class="signal-window-dot" cx="345" cy="150" r="1.5"/><circle class="signal-window-dot" cx="351" cy="150" r="1.5"/>
+          <rect class="signal-screen" x="340" y="164" width="50" height="42" rx="1"/>
+          <path class="signal-screen-line" d="M347 193v-8l7-7 7 12 7-9 7 5 8-10"/>
+        </g>
+        <circle class="signal-terminal signal-terminal-source" cx="109" cy="183" r="3.5"/><circle class="signal-terminal signal-terminal-target" cx="331" cy="183" r="3.5"/>
+        <text class="signal-readout signal-readout-source" x="40" y="239">0x0040 · SOURCE</text><text class="signal-readout signal-readout-target" x="330" y="239">NATIVE · 0x01</text>
+      </svg>
+      <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+      <button class="orbit-core" id="hero-secret-button" type="button" data-ui-aria-label="egg_hero_aria" aria-label="Archive bonus" aria-describedby="hero-secret-hint"><span data-ui="figure_game">CODE</span><b><svg class="ui-icon" aria-hidden="true"><use href="#icon-arrows" xlink:href="#icon-arrows"></use></svg></b><span data-ui="figure_again">YOURS</span></button>
+      <span class="sr-only" id="hero-secret-hint" data-ui="egg_hero_hint">Tap the center seven times to find the debug room.</span>
+      <div class="figure-note note-top" data-ui="figure_community">COMMUNITY BUILT</div><div class="figure-note note-bottom" data-ui="figure_note">SOURCE · PORT · LANGUAGE</div>
+      <div class="orbit-pin pin-one"></div><div class="orbit-pin pin-two"></div>
+    </div>
   </section>
   <section class="shift-story" id="shift" aria-labelledby="shift-title">
     <div class="shift-heading"><div><p class="kicker" data-ui="shift_kicker">Why this year feels different · 2026</p><h2 id="shift-title" data-ui="shift_title">The first useful attempt is easier to reach.</h2></div><p data-ui="shift_intro">Reverse engineering still takes skill. What changed is how cheaply one person can explore a codebase, turn a hunch into a tool, and repeat the test-and-fix loop.</p></div>
@@ -2020,7 +2051,7 @@ fn render(document: &Document, state: &AppState) {
     set_html(document, "pagination-bottom", &pagination);
     let html = if projects.is_empty() {
         format!(
-            "<tr><td colspan=\"7\"><div class=\"empty-state\"><h3>{}</h3><p>{}</p></div></td></tr>",
+            "<tr><td colspan=\"8\"><div class=\"empty-state\"><h3>{}</h3><p>{}</p></div></td></tr>",
             i18n::tr(&state.locale, "no_results"),
             i18n::tr(&state.locale, "no_results_hint")
         )
@@ -2114,11 +2145,16 @@ fn project_markup(project: &Project, profiles: &[GameProfile], locale: &str) -> 
         )
     };
     format!(
-        "<tr class=\"catalog-row\"><th scope=\"row\"><a class=\"table-project-title\" href=\"{}\" target=\"_blank\" rel=\"noopener noreferrer\">{} {}</a><small class=\"table-game\">{}</small><button class=\"details-toggle\" data-details=\"detail-{}\" aria-label=\"{} {}\" aria-expanded=\"false\" aria-controls=\"project-details-dialog\">{}{} <svg class=\"ui-icon ui-icon-small\" aria-hidden=\"true\"><use href=\"#icon-chevron\" xlink:href=\"#icon-chevron\"></use></svg></button></th><td><span class=\"table-target-type target-type-{}\">{}</span></td><td><span class=\"table-kind kind-text-{}\">{} {}</span></td><td>{}</td><td>{}</td><td><span class=\"table-stage\">{} {}</span></td><td>{}</td><td class=\"table-date\">{}</td></tr><tr class=\"detail-row\" id=\"detail-{}\" hidden><td colspan=\"8\"><div class=\"detail-body\"><p class=\"detail-summary\">{}</p><p class=\"detail-status\">{}</p><div class=\"project-metadata\"><span class=\"metadata-chip\"><svg class=\"ui-icon ui-icon-small\"><use href=\"#icon-check\" xlink:href=\"#icon-check\"></use></svg>{}</span><span class=\"metadata-chip\">{}</span>{}{}{}</div>{}{}<div class=\"source-links\"><span><svg class=\"ui-icon ui-icon-small\"><use href=\"#icon-link\" xlink:href=\"#icon-link\"></use></svg> {}</span>{}</div>{}{}</div></td></tr>",
+        "<tr class=\"catalog-row\"><th scope=\"row\"><a class=\"table-project-title\" href=\"{}\" target=\"_blank\" rel=\"noopener noreferrer\">{} {}</a><small class=\"table-game\">{}</small><button class=\"details-toggle\" data-details=\"detail-{}\" aria-label=\"{} {}\" aria-expanded=\"false\" aria-controls=\"project-details-dialog\">{}{} <svg class=\"ui-icon ui-icon-small\" aria-hidden=\"true\"><use href=\"#icon-chevron\" xlink:href=\"#icon-chevron\"></use></svg></button></th><td><span class=\"card-field-label\">{}</span><span class=\"table-target-type target-type-{}\">{}</span></td><td><span class=\"card-field-label\">{}</span><span class=\"table-kind kind-text-{}\">{} {}</span></td><td><span class=\"card-field-label\">{}</span>{}</td><td><span class=\"card-field-label\">{}</span>{}</td><td><span class=\"card-field-label\">{}</span><span class=\"table-stage\">{} {}</span></td><td><span class=\"card-field-label\">{}</span>{}</td><td class=\"table-date\"><span class=\"card-field-label\">{}</span>{}</td></tr><tr class=\"detail-row\" id=\"detail-{}\" hidden><td colspan=\"8\"><div class=\"detail-body\"><p class=\"detail-summary\">{}</p><p class=\"detail-status\">{}</p><div class=\"project-metadata\"><span class=\"metadata-chip\"><svg class=\"ui-icon ui-icon-small\"><use href=\"#icon-check\" xlink:href=\"#icon-check\"></use></svg>{}</span><span class=\"metadata-chip\">{}</span>{}{}{}</div>{}{}<div class=\"source-links\"><span><svg class=\"ui-icon ui-icon-small\"><use href=\"#icon-link\" xlink:href=\"#icon-link\"></use></svg> {}</span>{}</div>{}{}</div></td></tr>",
         escape_html(&safe_link(&project.project_url)), escape_html(&project.title), icon_markup("external"), escape_html(&project.game),
         id, i18n::tr(locale, "details_for"), escape_html(&project.title), i18n::tr(locale, "details"), media_count,
-        target_type_class, escape_html(target_label), escape_html(&kind_class), icon_markup(kind_icon_name(&project.kind)), escape_html(localized_kind(locale, &project.kind)), escape_html(&project.platform), escape_html(&localize_strategy(locale, &project.strategy)),
-        icon_markup("check"), i18n::tr(locale, status_key(status_bucket(&project.status))), escape_html(language), escape_html(&project.first_found.as_deref().map(|date| format_date(date, locale)).unwrap_or_else(|| "—".into())),
+        escape_html(i18n::tr(locale, "col_target_type")), target_type_class, escape_html(target_label),
+        escape_html(i18n::tr(locale, "col_type")), escape_html(&kind_class), icon_markup(kind_icon_name(&project.kind)), escape_html(localized_kind(locale, &project.kind)),
+        escape_html(i18n::tr(locale, "col_platform")), escape_html(&project.platform),
+        escape_html(i18n::tr(locale, "col_approach")), escape_html(&localize_strategy(locale, &project.strategy)),
+        escape_html(i18n::tr(locale, "col_stage")), icon_markup("check"), i18n::tr(locale, status_key(status_bucket(&project.status))),
+        escape_html(i18n::tr(locale, "col_language")), escape_html(language),
+        escape_html(i18n::tr(locale, "col_found")), escape_html(&project.first_found.as_deref().map(|date| format_date(date, locale)).unwrap_or_else(|| "—".into())),
         id, escape_html(&project.summary), escape_html(&project.status), escape_html(localize_source_type(locale, &project.source_available)), escape_html(target_label), updated, started, subtype,
         programming_language, game_profile, i18n::tr(locale, "project_sources"), source_links, media::gallery(&project.media, locale), project_links
     )
@@ -3085,7 +3121,7 @@ fn set_html(document: &Document, id: &str, value: &str) {
 mod catalog_tests {
     use super::{
         media, media_project_indices, media_stage_markup, parse_kind_filter, parse_page_size,
-        search_matches, search_tokens, status_bucket, Catalog,
+        project_markup, search_matches, search_tokens, status_bucket, Catalog,
     };
     use std::collections::BTreeSet;
 
@@ -3094,6 +3130,34 @@ mod catalog_tests {
         serde_json::from_str::<Catalog>(include_str!("../docs/catalog.json")).unwrap_or_else(
             |error| panic!("published catalog does not match the WASM data model: {error}"),
         );
+    }
+
+    #[test]
+    fn compact_catalog_cards_keep_all_seven_metadata_labels_localized() {
+        let catalog = serde_json::from_str::<Catalog>(include_str!("../docs/catalog.json"))
+            .expect("published catalog should deserialize");
+        let project = catalog
+            .projects
+            .iter()
+            .find(|project| project.id == "oot-decomp")
+            .expect("Ocarina of Time decompilation should be in the catalog");
+        let markup = project_markup(project, &catalog.profiles, "fr");
+
+        assert_eq!(markup.matches("class=\"card-field-label\"").count(), 7);
+        for label in [
+            "Type de cible",
+            "Type de projet",
+            "Plateforme",
+            "Approche",
+            "État",
+            "Langue",
+            "Ajout à l’index",
+        ] {
+            assert!(
+                markup.contains(&format!("<span class=\"card-field-label\">{label}</span>")),
+                "mobile card is missing an actual localized field label {label}"
+            );
+        }
     }
 
     #[test]

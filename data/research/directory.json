@@ -143,6 +143,61 @@
       "source_url": "https://github.com/morluto/rea#readme",
       "source_evidence": "The project README describes REA as an agent-connected reverse-engineering tool for websites, applications, and native binaries; it says analysis runs locally and returns evidence and limitations. The repository is public, MIT-licensed, and has a release published 2026-10-14.",
       "verified_at": "2026-10-15"
+    },
+    {
+      "id": "xboxrecomp",
+      "item_type": "Tool",
+      "category": "Static recompilation",
+      "name": "xboxrecomp",
+      "description": "A title-oriented toolchain that statically recompiles original Xbox XBE x86 code to C and includes host-side runtime components for console APIs and NV2A graphics. Generated output still needs title-specific analysis and integration; the README documents Windows and Linux backends.",
+      "url": "https://github.com/sp00nznet/xboxrecomp",
+      "source_url": "https://github.com/sp00nznet/xboxrecomp",
+      "source_evidence": "The maintainer README describes XBE-to-C static recompilation, per-title analysis and runtime work, and the available graphics backends. The current release is v0.13.1 (published 2026-10-07); this is a recompilation toolkit, not a general Xbox emulator or API compatibility layer.",
+      "verified_at": "2026-10-15"
+    },
+    {
+      "id": "xenonrecomp",
+      "item_type": "Tool",
+      "category": "Static recompilation",
+      "name": "XenonRecomp",
+      "description": "An Xbox 360 PowerPC XEX-to-C++ static recompilation tool. It emits code but does not provide the game runtime; jump-table and function-boundary recovery and runtime integration remain title-specific work.",
+      "url": "https://github.com/hedge-dev/XenonRecomp",
+      "source_url": "https://github.com/hedge-dev/XenonRecomp",
+      "source_evidence": "The project README calls XenonRecomp a tool for recompiling Xbox 360 games, documents XEX-to-C++ output, and explicitly notes that it does not provide a runtime and that MMIO support is incomplete. Supported generated-code targets include x86 and ARM64 through SIMDe.",
+      "verified_at": "2026-10-15"
+    },
+    {
+      "id": "rexglue-sdk",
+      "item_type": "Tool",
+      "category": "Static recompilation",
+      "name": "ReXGlue SDK",
+      "description": "An Xbox 360 PowerPC-to-portable-C++ ahead-of-time recompilation SDK with a runtime and tooling. The project is early and requires manual analysis and per-game integration; it is not a turn-key replacement for Xenia.",
+      "url": "https://github.com/rexglue/rexglue-sdk",
+      "source_url": "https://github.com/rexglue/rexglue-sdk",
+      "source_evidence": "The project README and wiki describe a PPC-to-C++ static-recompilation workflow, its runtime/toolkit, Linux and Windows support, and manual per-game analysis; the wiki distinguishes the approach from Xenia’s JIT emulator. Release history shows v0.10.0 published 2026-08-21.",
+      "verified_at": "2026-10-15"
+    },
+    {
+      "id": "ps4recomp",
+      "item_type": "Tool",
+      "category": "Static recompilation",
+      "name": "PS4Recomp",
+      "description": "An experimental Apple Silicon/macOS AOT recompiler for PS4 x86-64 ELF programs: native ARM64 code is generated through partitioned C, while a native Metal path handles graphics. Commercial-game traces shown in the README stop at unresolved indirect control flow; no completed commercial title is documented. It is not a VM, JIT, or MoltenVK-based runtime.",
+      "url": "https://github.com/wie-project/PS4Recomp",
+      "source_url": "https://github.com/wie-project/PS4Recomp",
+      "source_evidence": "The maintainer README documents x86-64 ELF-to-C-to-ARM64 recompilation, macOS Apple Silicon as the host, and the native Metal / shader translation architecture. Its commercial-title sections show runtime traces ending at unresolved control flow rather than a completed playable title.",
+      "verified_at": "2026-10-15"
+    },
+    {
+      "id": "xenosrecomp",
+      "item_type": "Tool",
+      "category": "Graphics API translation",
+      "name": "XenosRecomp",
+      "description": "An auxiliary Xbox 360 Xenos GPU shader translator that converts shader microcode to HLSL, with output paths including DXIL and SPIR-V. It translates shaders, not whole games or console APIs.",
+      "url": "https://github.com/hedge-dev/XenosRecomp",
+      "source_url": "https://github.com/hedge-dev/XenosRecomp",
+      "source_evidence": "The maintainer README identifies the project as a converter from Xbox 360 shader microcode to HLSL and documents its shader-cache workflow and DXIL/SPIR-V targets; it does not load or recompile game executables.",
+      "verified_at": "2026-10-15"
     }
   ]
 }
