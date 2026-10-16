@@ -694,7 +694,8 @@ button:focus-visible, input:focus-visible, select:focus-visible, a:focus-visible
   .site-header .top-nav { display:contents; }
   .site-header .header-actions { grid-column:2; grid-row:1; }
   .site-header .primary-nav { grid-column:1 / -1; grid-row:2; justify-content:flex-start; gap:5px; width:100%; overflow-x:auto; overscroll-behavior-inline:contain; padding:3px 2px 10px; scrollbar-color:var(--line) transparent; scrollbar-width:thin; scroll-snap-type:x proximity; }
-  .site-header .primary-nav > a:not(.github-link) { min-height:38px; padding:7px 10px; border:1px solid transparent; border-radius:999px; scroll-snap-align:start; transition:color var(--motion-fast) var(--ease-standard),background-color var(--motion-fast) var(--ease-standard),border-color var(--motion-fast) var(--ease-standard); }
+  .site-header .primary-nav > a { min-height:44px; }
+  .site-header .primary-nav > a:not(.github-link) { min-height:44px; padding:7px 10px; border:1px solid transparent; border-radius:999px; scroll-snap-align:start; transition:color var(--motion-fast) var(--ease-standard),background-color var(--motion-fast) var(--ease-standard),border-color var(--motion-fast) var(--ease-standard); }
   .site-header .primary-nav > a:not(.github-link)::after { display:none; }
   .site-header .primary-nav > a:not(.github-link):hover,.site-header .primary-nav > a:not(.github-link):focus-visible { border-color:var(--glass-border); background:var(--field-bg); color:var(--blue); }
 }
@@ -1499,4 +1500,21 @@ body { font-family:var(--sans); line-height:1.55; }
 }
 @media (prefers-reduced-motion:reduce) {
   .orbit-core { animation:none !important; will-change:auto; }
+}
+
+/* Final refinement: crisper light-mode surfaces and comfortable touch targets. */
+:root:not([data-theme="dark"]) {
+  --paper:#eaf0e9;
+  --paper-deep:#d7e3da;
+  --line:#8da398;
+  --ink-soft:#344d55;
+  --muted:#445e5d;
+  --quiet:#425b5f;
+  --control-muted:#3d575d;
+  --control-border:#647c72;
+  --metadata-border:#9aafa3;
+  --glass-surface:rgba(255,255,255,.96);
+  --catalog-glass:rgba(255,255,255,.91);
+  --glass-border:rgba(67,97,89,.52);
+  --table-sticky-surface:#fbfdf9;
 }
