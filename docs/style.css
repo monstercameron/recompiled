@@ -1247,3 +1247,28 @@ html:lang(ja) .hero h1 { font-size:clamp(46px,4.85vw,62px); letter-spacing:-.05e
   .floating-nav { right:max(4px,env(safe-area-inset-right)); }
   .console-gallery-card { contain-intrinsic-size:auto 320px; }
 }
+
+/* Keep the complete section map visible on narrow screens; a wrapped nav is
+   easier to scan and tap than a clipped strip with a tiny scroll track. */
+@media (max-width:1100px) {
+  .site-header .primary-nav {
+    flex-wrap:wrap;
+    overflow:visible;
+    overscroll-behavior-inline:auto;
+    padding:3px 0 9px;
+    scroll-snap-type:none;
+    scrollbar-width:none;
+  }
+  .site-header .primary-nav::-webkit-scrollbar { display:none; }
+  .site-header .primary-nav > a:not(.github-link) { scroll-snap-align:none; }
+}
+
+/* Use blur for the large, focal surfaces; keep repeated cards lighter so the
+   page stays crisp and smooth while the console archive scrolls. */
+.directory-card,
+.process-resource-card,
+.console-gallery-card {
+  background:var(--glass-surface);
+  -webkit-backdrop-filter:none;
+  backdrop-filter:none;
+}
