@@ -1,0 +1,874 @@
+{
+  "verified_at": "2026-10-16",
+  "scope": "Importer-ready Wikipedia references for the 124 live games rows that had blank wikipedia_url values at review time. Direct links are limited to exact game articles or unambiguous release/expansion coverage; all remaining entries use the exact catalog title in a Wikipedia search fallback.",
+  "entries": [
+    {
+      "game_key": "Alice's Cottage II",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Alice%27s%20Cottage%20II",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "Project context is ‘Alice’s Cottage II English Translation’ for PC-98. No exact English Wikipedia game article was verified; retain the exact catalog title in the search query rather than mapping to unrelated Alice titles or an unverified translation alias."
+    },
+    {
+      "game_key": "Arma: Cold War Assault - Remastered (originally Operation Flashpoint: Cold War Crisis)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Operation_Flashpoint:_Cold_War_Crisis",
+      "wikipedia_title": "Operation Flashpoint: Cold War Crisis",
+      "match": "direct",
+      "note": "The catalog key explicitly identifies this as the Cold War Crisis release; the article covers the original game and its later Arma: Cold War Assault identity."
+    },
+    {
+      "game_key": "Atlach-Nacha (1997 original and 2000 re-release)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Atlach-Nacha%20%281997%20original%20and%202000%20re-release%29",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "Biohazard 2 November 6, 1996 prototype (Resident Evil 1.5)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Biohazard%202%20November%206%2C%201996%20prototype%20%28Resident%20Evil%201.5%29",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "Call of Duty: Modern Warfare 2 (2009 PC/Steam game data)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Call_of_Duty:_Modern_Warfare_2",
+      "wikipedia_title": "Call of Duty: Modern Warfare 2",
+      "match": "direct",
+      "note": "Dedicated article for the 2009 Modern Warfare 2 game; the catalog suffix narrows the PC game data."
+    },
+    {
+      "game_key": "Captain Tsubasa Vol. II: Super Striker PLUS",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Captain%20Tsubasa%20Vol.%20II%3A%20Super%20Striker%20PLUS",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "Classic Direct3D 9 games compatible with RTX Remix (multi-title)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Classic%20Direct3D%209%20games%20compatible%20with%20RTX%20Remix%20%28multi-title%29",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "Dangan",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Dangan",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "The exact title lookup resolves to Dang’an, a Chinese archival term, not a game article; use the exact catalog-title search."
+    },
+    {
+      "game_key": "Dangan GB2",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Dangan%20GB2",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "Darius Alpha",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Darius_(video_game)",
+      "wikipedia_title": "Darius (video game)",
+      "match": "direct",
+      "note": "The Darius article has a specific Darius Alpha section describing the SuperGrafx giveaway version and its boss-only gameplay."
+    },
+    {
+      "game_key": "Deadeus",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Deadeus",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "Death Note: Successors to L",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Death%20Note%3A%20Successors%20to%20L",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "Deep 3D: Submarine Odyssey (Android release)",
+      "wikipedia_url": "https://en.wikipedia.org/w/index.php?search=Deep%203D%3A%20Submarine%20Odyssey%20%28Android%20release%29",
+      "wikipedia_title": "Deep 3D: Submarine Odyssey (Android release)",
+      "match": "search",
+      "note": "Retained unchanged from the existing exact-title search proposal; no dedicated English Wikipedia game article was verified."
+    },
+    {
+      "game_key": "DELTARUNE Chapter 5",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=DELTARUNE%20Chapter%205",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "Densetsu no Ogre Battle Gaiden: Zenobia no Ouji",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Densetsu%20no%20Ogre%20Battle%20Gaiden%3A%20Zenobia%20no%20Ouji",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "Draglade 2",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Draglade%202",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "Dragon Ball Z: The Legend",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Dragon_Ball_Z:_Idainaru_Dragon_Ball_Densetsu",
+      "wikipedia_title": "Dragon Ball Z: Idainaru Dragon Ball Densetsu",
+      "match": "direct",
+      "note": "The localized key identifies the 1996 game covered by the dedicated Idainaru Dragon Ball Densetsu article."
+    },
+    {
+      "game_key": "Dragon Slayer I",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Dragon_Slayer_(video_game)",
+      "wikipedia_title": "Dragon Slayer (video game)",
+      "match": "direct",
+      "note": "The dedicated article covers the 1984 Dragon Slayer game, the first entry referred to here as Dragon Slayer I."
+    },
+    {
+      "game_key": "DS Telejan",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=DS%20Telejan",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "DX-Ball 1.07",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=DX-Ball%201.07",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "EverQuest Online Adventures: Frontiers",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/EverQuest_Online_Adventures",
+      "wikipedia_title": "EverQuest Online Adventures",
+      "match": "direct",
+      "note": "The EverQuest Online Adventures article has a dedicated section for the Frontiers expansion and identifies its release."
+    },
+    {
+      "game_key": "Evolution of JiangHu (大衍江湖)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Evolution%20of%20JiangHu%20%28%E5%A4%A7%E8%A1%8D%E6%B1%9F%E6%B9%96%29",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "Fallout 3 / Fallout: New Vegas engine branch",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Fallout%203%20%2F%20Fallout%3A%20New%20Vegas%20engine%20branch",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "Fray Shugyou Hen",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Fray%20Shugyou%20Hen",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "Fullmetal Alchemist 3: The Girl Who Succeeds God",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Fullmetal%20Alchemist%203%3A%20The%20Girl%20Who%20Succeeds%20God",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "Fushigi no Dungeon: Fūrai no Shiren 2 — Oni Shūrai! Shiren-jō! (Nintendo 64 Japan, NUS-NSIJ-JPN revision 0)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Shiren_the_Wanderer_2:_Shiren%27s_Castle_and_the_Oni_Invasion",
+      "wikipedia_title": "Shiren the Wanderer 2: Shiren's Castle and the Oni Invasion",
+      "match": "direct",
+      "note": "Dedicated article for Shiren the Wanderer 2: Shiren’s Castle and the Oni Invasion, the Nintendo 64 game identified by the Japanese subtitle."
+    },
+    {
+      "game_key": "Ganbare Goemon 2",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Ganbare%20Goemon%202",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "The exact title lookup redirects to the article for Ganbare Goemon! Karakuri Dōchū, which is not established as this NES target; preserve the exact catalog title in a search query."
+    },
+    {
+      "game_key": "Ganbare! Daiku no Gen-san",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Ganbare%21%20Daiku%20no%20Gen-san",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "Germs Nerawareta Machi",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Germs%20Nerawareta%20Machi",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "Gluk the Thunder Warrior",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Gluk%20the%20Thunder%20Warrior",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "Grand Theft Auto V WebAssembly build 8b0b5899ed",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_V",
+      "wikipedia_title": "Grand Theft Auto V",
+      "match": "direct",
+      "note": "Dedicated article for the game whose files are targeted by this WebAssembly build."
+    },
+    {
+      "game_key": "Growlanser VI: Precarious World",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Growlanser%20VI%3A%20Precarious%20World",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "The exact title lookup resolves to a Growlanser series article rather than an article for installment VI; preserve the exact catalog title in a search query."
+    },
+    {
+      "game_key": "Gun Frontier Arcade Gears Vol. 2",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Gun%20Frontier%20Arcade%20Gears%20Vol.%202",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "Gundam Assault Survive",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Gundam%20Assault%20Survive",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "Hell Fighter",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Hell%20Fighter",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "High Seas Havoc",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/High_Seas_Havoc",
+      "wikipedia_title": "High Seas Havoc",
+      "match": "direct",
+      "note": "Dedicated article for the exact Genesis game."
+    },
+    {
+      "game_key": "In Falsus",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=In%20Falsus",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "Innocent Tour",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Innocent%20Tour",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "Isseki Hatchou: Kore 1ppon de 8shurui!",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Isseki%20Hatchou%3A%20Kore%201ppon%20de%208shurui%21",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "JULY",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=JULY",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "Kettou Beast Wars: Beast Senshi Saikyou Ketteisen",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Kettou%20Beast%20Wars%3A%20Beast%20Senshi%20Saikyou%20Ketteisen",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "Kyuutenkai",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Kyuutenkai",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "Legacy Direct3D 3/5/6/7 applications and games (multi-title)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Legacy%20Direct3D%203%2F5%2F6%2F7%20applications%20and%20games%20%28multi-title%29",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "Luigi’s Mansion (Nintendo GameCube; USA `GLME01` rev. 0 and Europe `GLMP01`)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Luigi%27s_Mansion",
+      "wikipedia_title": "Luigi's Mansion",
+      "match": "direct",
+      "note": "Dedicated article for the original GameCube game; the catalog suffix names regional disc revisions."
+    },
+    {
+      "game_key": "Macross Ultimate Frontier",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Macross%20Ultimate%20Frontier",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "The exact title lookup resolves to the article for the different predecessor Macross Ace Frontier; preserve the exact catalog title in a search query."
+    },
+    {
+      "game_key": "Maniac Mansion",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Maniac_Mansion",
+      "wikipedia_title": "Maniac Mansion",
+      "match": "direct",
+      "note": "Dedicated article for the exact 1987 game."
+    },
+    {
+      "game_key": "Marchen Veil",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Marchen%20Veil",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "Mashed: Fully Loaded (PC, 2004)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Mashed%3A%20Fully%20Loaded%20%28PC%2C%202004%29",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "Medabots: Rokusho Version",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Medabots%3A%20Rokusho%20Version",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "MediEvil II (USA, SCUS-94564)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/MediEvil_2",
+      "wikipedia_title": "MediEvil 2",
+      "match": "direct",
+      "note": "The MediEvil 2 article notes that the title was styled MediEvil II in North America; the catalog suffix identifies its US disc."
+    },
+    {
+      "game_key": "Meikyujima / Labyrinth Island",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Meikyujima%20%2F%20Labyrinth%20Island",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "Minecraft Classic client behavior (2009-era; the project also partially supports some pre-0.30 features)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Minecraft",
+      "wikipedia_title": "Minecraft",
+      "match": "direct",
+      "note": "The Minecraft article has a Classic development section for the early game phase named by the catalog key."
+    },
+    {
+      "game_key": "Minecraft Java Edition 26.2-snapshot-1 renderer",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Development_of_Minecraft:_Java_Edition",
+      "wikipedia_title": "Development of Minecraft: Java Edition",
+      "match": "direct",
+      "note": "The development article is specifically about Minecraft Java Edition and covers snapshot builds; the key identifies the one renderer target."
+    },
+    {
+      "game_key": "Minecraft: Java Edition (Android, through compatible launchers)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Development_of_Minecraft:_Java_Edition",
+      "wikipedia_title": "Development of Minecraft: Java Edition",
+      "match": "direct",
+      "note": "The development article identifies the Java Edition game. The catalog suffix describes third-party launchers, not a separate game."
+    },
+    {
+      "game_key": "Minecraft: Java Edition and other OpenGL 3.3 clients on iOS/iPadOS (through EGL-based launchers)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Minecraft%3A%20Java%20Edition%20and%20other%20OpenGL%203.3%20clients%20on%20iOS%2FiPadOS%20%28through%20EGL-based%20launchers%29",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "Mushishi: Amefuru Sato",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Mushishi%3A%20Amefuru%20Sato",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "Naruto RPG 2: Chidori vs. Rasengan / Naruto: Path of the Avenger",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Naruto%20RPG%202%3A%20Chidori%20vs.%20Rasengan%20%2F%20Naruto%3A%20Path%20of%20the%20Avenger",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "Need for Speed: Most Wanted (2005, PlayStation 2)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Need_for_Speed:_Most_Wanted_(2005_video_game)",
+      "wikipedia_title": "Need for Speed: Most Wanted (2005 video game)",
+      "match": "direct",
+      "note": "Dedicated article for the 2005 Need for Speed game; the target is its PlayStation 2 release."
+    },
+    {
+      "game_key": "Nekketsu Oyako",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Nekketsu%20Oyako",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "NHL 11 Legacy Edition",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/NHL_16",
+      "wikipedia_title": "NHL 16",
+      "match": "direct",
+      "note": "The NHL 16 article has a dedicated NHL: Legacy Edition section identifying the separate PS3/Xbox 360 release; NHL 11 is a different game."
+    },
+    {
+      "game_key": "P.T. (CUSA01127; user-supplied PS4 game data)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/P.T._(video_game)",
+      "wikipedia_title": "P.T. (video game)",
+      "match": "direct",
+      "note": "Dedicated article for the exact PlayStation 4 playable teaser; the catalog suffix identifies the supported build data."
+    },
+    {
+      "game_key": "Pharaoh Gold with Cleopatra expansion (GOG release, patch 2.1; Pharaoh.exe 2.1.0.0, built 2000-08-28)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Pharaoh_(video_game)",
+      "wikipedia_title": "Pharaoh (video game)",
+      "match": "direct",
+      "note": "The Pharaoh article covers Cleopatra: Queen of the Nile and explicitly describes the Pharaoh Gold bundle."
+    },
+    {
+      "game_key": "Plants vs. Zombies: Scared / PvZ Horror Edition",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Plants%20vs.%20Zombies%3A%20Scared%20%2F%20PvZ%20Horror%20Edition",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "Pocket Mirror (2016 RPG Maker VX Ace release; not Goldenertraum)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Pocket%20Mirror%20%282016%20RPG%20Maker%20VX%20Ace%20release%3B%20not%20Goldenertraum%29",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "Wikipedia title lookup resolves to Little Goody Two Shoes, a different later game; preserve the exact catalog title in a search query."
+    },
+    {
+      "game_key": "Pokémon Emerald (Game Boy Advance; upstream US base ROM SHA-1 f3ae088181bf583e55daf962a92bb46f4f1d07b7)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Emerald",
+      "wikipedia_title": "Pokémon Emerald",
+      "match": "direct",
+      "note": "Dedicated article for the exact Game Boy Advance game; the suffix identifies the upstream ROM build."
+    },
+    {
+      "game_key": "Pokémon Puzzle League (Nintendo 64 North American ROM; SHA-1 8173866fc8c7652abd44c48efcab85441c6806a1)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Puzzle_League",
+      "wikipedia_title": "Pokémon Puzzle League",
+      "match": "direct",
+      "note": "Dedicated article for the exact Nintendo 64 game; the suffix identifies the supported North American ROM."
+    },
+    {
+      "game_key": "Pokémon SoulSilver (US Nintendo DS retail ROM)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_HeartGold_and_SoulSilver",
+      "wikipedia_title": "Pokémon HeartGold and SoulSilver",
+      "match": "direct",
+      "note": "The combined article explicitly covers Pokémon SoulSilver alongside HeartGold; the catalog key identifies the SoulSilver release."
+    },
+    {
+      "game_key": "Pokémon Sword (Nintendo Switch, build 562)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Sword_and_Shield",
+      "wikipedia_title": "Pokémon Sword and Shield",
+      "match": "direct",
+      "note": "The combined article explicitly covers Pokémon Sword alongside Shield; the catalog key identifies Sword."
+    },
+    {
+      "game_key": "Popolocrois Monogatari II",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Popolocrois%20Monogatari%20II",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "Pu·Li·Ru·La Arcade Gears Vol. 1",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Pu%C2%B7Li%C2%B7Ru%C2%B7La%20Arcade%20Gears%20Vol.%201",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "Rance 4.1: Save the Medicine Plant",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Rance%204.1%3A%20Save%20the%20Medicine%20Plant",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "Rance 4.2: Angel Army",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Rance%204.2%3A%20Angel%20Army",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "Rance II: The Rebellious Maidens",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Rance%20II%3A%20The%20Rebellious%20Maidens",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "Rance: The Quest for Hikari",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Rance%3A%20The%20Quest%20for%20Hikari",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "Ratchet: Deadlocked",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Ratchet:_Deadlocked",
+      "wikipedia_title": "Ratchet: Deadlocked",
+      "match": "direct",
+      "note": "Dedicated article for the exact PlayStation 2 game."
+    },
+    {
+      "game_key": "Reco Love: Gold Beach",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Reco%20Love%3A%20Gold%20Beach",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "Relapse: Resistance (2009 iPhone game)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Relapse%3A%20Resistance%20%282009%20iPhone%20game%29",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "Retroid",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Retroid",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "RTX Remix-compatible Direct3D 9 games and plugin integrations (multi-title)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=RTX%20Remix-compatible%20Direct3D%209%20games%20and%20plugin%20integrations%20%28multi-title%29",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "Sakura Wars 2",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Sakura_Wars_2:_Thou_Shalt_Not_Die",
+      "wikipedia_title": "Sakura Wars 2: Thou Shalt Not Die",
+      "match": "direct",
+      "note": "Dedicated article for Sakura Wars 2: Thou Shalt Not Die, the game named by this catalog key."
+    },
+    {
+      "game_key": "Scramble Spirits",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Scramble_Spirits",
+      "wikipedia_title": "Scramble Spirits",
+      "match": "direct",
+      "note": "Dedicated article for the exact Sega shooter."
+    },
+    {
+      "game_key": "SD Gundam World: Gachapon Senshi 5",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=SD%20Gundam%20World%3A%20Gachapon%20Senshi%205",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "Selected Japanese visual novels from the 1990s",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Selected%20Japanese%20visual%20novels%20from%20the%201990s",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "Shin Bokura no Taiyou: Gyakushuu no Sabata (Boktai 3)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Shin%20Bokura%20no%20Taiyou%3A%20Gyakushuu%20no%20Sabata%20%28Boktai%203%29",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "Solar Striker",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Solar_Striker",
+      "wikipedia_title": "Solar Striker",
+      "match": "direct",
+      "note": "Dedicated article for the exact Game Boy game."
+    },
+    {
+      "game_key": "Son Son II",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Son%20Son%20II",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "Sora no Otoshimono Forte: Dreamy Season",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Sora%20no%20Otoshimono%20Forte%3A%20Dreamy%20Season",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "The title lookup resolves to the Heaven’s Lost Property manga article, not the game; preserve the exact catalog title in a search query."
+    },
+    {
+      "game_key": "Spyro the Dragon (Japan)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Spyro_the_Dragon",
+      "wikipedia_title": "Spyro the Dragon",
+      "match": "direct",
+      "note": "Dedicated article for the original PlayStation game; the catalog suffix identifies the Japanese release."
+    },
+    {
+      "game_key": "Star Ocean: Till the End of Time",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Star_Ocean:_Till_the_End_of_Time",
+      "wikipedia_title": "Star Ocean: Till the End of Time",
+      "match": "direct",
+      "note": "Dedicated article for the exact PlayStation 2 game."
+    },
+    {
+      "game_key": "Strike Gunner S.T.G.",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Strike_Gunner_S.T.G",
+      "wikipedia_title": "Strike Gunner S.T.G",
+      "match": "direct",
+      "note": "Dedicated article for the exact shooter; Wikipedia’s article title omits the final period."
+    },
+    {
+      "game_key": "Sunsoft Grand Prix",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Sunsoft%20Grand%20Prix",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "Super Breakout",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Super_Breakout",
+      "wikipedia_title": "Super Breakout",
+      "match": "direct",
+      "note": "Dedicated article for the exact Atari game."
+    },
+    {
+      "game_key": "Super Mario 64 (Nintendo 64; README documents the U.S. ROM build)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Super_Mario_64",
+      "wikipedia_title": "Super Mario 64",
+      "match": "direct",
+      "note": "Dedicated article for the exact Nintendo 64 game; the catalog suffix identifies its US ROM build."
+    },
+    {
+      "game_key": "Suzumiya Haruhi no Chokuretsu (The Series of Haruhi Suzumiya)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Suzumiya%20Haruhi%20no%20Chokuretsu%20%28The%20Series%20of%20Haruhi%20Suzumiya%29",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "Syndicate",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Syndicate_(1993_video_game)",
+      "wikipedia_title": "Syndicate (1993 video game)",
+      "match": "direct",
+      "note": "The linked project is a matching DOS decompilation of Bullfrog’s 1993 Syndicate; the dedicated 1993 game article identifies the DOS release."
+    },
+    {
+      "game_key": "Taxi 2 - The Game",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Taxi%202%20-%20The%20Game",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "The Addams Family",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=The%20Addams%20Family",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "The associated project is a TurboGrafx-CD localization. English Wikipedia distinguishes that 1991 ICOM game from Ocean’s separate 1992 The Addams Family game, so use an exact-title search instead of the wrong direct game page."
+    },
+    {
+      "game_key": "The Simpsons: Tapped Out (Android arm64-v8a client, 4.69.x)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/The_Simpsons:_Tapped_Out",
+      "wikipedia_title": "The Simpsons: Tapped Out",
+      "match": "direct",
+      "note": "Dedicated article for the exact game; the catalog suffix identifies the Android client build."
+    },
+    {
+      "game_key": "TimeBall",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=TimeBall",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "Tomba! (USA PlayStation disc, SCUS-94236)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Tomba!",
+      "wikipedia_title": "Tomba!",
+      "match": "direct",
+      "note": "Dedicated article for the exact PlayStation game; the catalog suffix identifies the US disc."
+    },
+    {
+      "game_key": "Tongari Boushi to Mahou no Machi",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Tongari%20Boushi%20to%20Mahou%20no%20Machi",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "Torchlight (Xbox 360/XBLA version 1.0.140.0)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Torchlight",
+      "wikipedia_title": "Torchlight",
+      "match": "direct",
+      "note": "Dedicated article for the exact game; the catalog suffix identifies its Xbox 360 release."
+    },
+    {
+      "game_key": "Touhou 10.5: Scarlet Weather Rhapsody",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Scarlet_Weather_Rhapsody",
+      "wikipedia_title": "Scarlet Weather Rhapsody",
+      "match": "direct",
+      "note": "Dedicated article for Scarlet Weather Rhapsody, the exact Touhou 10.5 fighting game."
+    },
+    {
+      "game_key": "Tsumu Light",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Tsumu%20Light",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "Twisted Tower",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Twisted_Tower",
+      "wikipedia_title": "Twisted Tower",
+      "match": "direct",
+      "note": "Dedicated article for the exact game title."
+    },
+    {
+      "game_key": "Ultraman Club 2: Kaettekita Ultraman Club",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Ultraman%20Club%202%3A%20Kaettekita%20Ultraman%20Club",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "Undertale Green",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Undertale%20Green",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "UnNetHack 6 (based on UnNetHack 6.0.15-dev)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=UnNetHack%206%20%28based%20on%20UnNetHack%206.0.15-dev%29",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "Valhollian",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Valhollian",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "Village in the Shade",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Village%20in%20the%20Shade",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "Waku Waku Puyo Puyo Dungeon",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Waku%20Waku%20Puyo%20Puyo%20Dungeon",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "Welcome to Pia Carrot!!",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Welcome%20to%20Pia%20Carrot%21%21",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "The exact-title article covers a visual novel series and does not establish which installment this unqualified game target represents; preserve the exact catalog title in a search query."
+    },
+    {
+      "game_key": "Willy Wombat",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Willy%20Wombat",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "Windows Direct3D 3/5/6/7/8/9/10/11 games (multi-title)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Windows%20Direct3D%203%2F5%2F6%2F7%2F8%2F9%2F10%2F11%20games%20%28multi-title%29",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "Windows Direct3D games on Android (multi-title)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Windows%20Direct3D%20games%20on%20Android%20%28multi-title%29",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "Wipeout XL (USA, SCUS-94351)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Wipeout_2097",
+      "wikipedia_title": "Wipeout 2097",
+      "match": "direct",
+      "note": "The WipEout 2097 article explicitly says the game was released as Wipeout XL in North America and Japan."
+    },
+    {
+      "game_key": "Wonder Trek",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Wonder%20Trek",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "Wondrous Magic",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Wondrous%20Magic",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "X - Card of Fate",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=X%20-%20Card%20of%20Fate",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "Youchien Senki Madara",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Youchien%20Senki%20Madara",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "No exact English Wikipedia article was verified; this URL searches the exact catalog game_key."
+    },
+    {
+      "game_key": "Ys 2",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Ys_II",
+      "wikipedia_title": "Ys II",
+      "match": "direct",
+      "note": "Dedicated article for the exact sequel, styled Ys II in English Wikipedia."
+    },
+    {
+      "game_key": "Ys.",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Special:Search?search=Ys.",
+      "wikipedia_title": null,
+      "match": "search",
+      "note": "The punctuation-bearing catalog key is not enough to identify a specific Ys installment safely; preserve the exact catalog title in a search query."
+    },
+    {
+      "game_key": "YU-NO: A Girl That Chants Love at the Bound of This World",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Yu-no",
+      "wikipedia_title": "Yu-no",
+      "match": "direct",
+      "note": "The Yu-no article is specifically about the 1996 visual novel; the catalog key gives its full English title."
+    },
+    {
+      "game_key": "Zanac AI",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Zanac",
+      "wikipedia_title": "Zanac",
+      "match": "direct",
+      "note": "The Zanac article covers the heavily reworked Famicom Disk System release and the adaptive AI feature named in this target."
+    }
+  ]
+}
