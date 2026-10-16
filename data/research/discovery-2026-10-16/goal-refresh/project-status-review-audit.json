@@ -1,0 +1,700 @@
+{
+  "reviewed_at": "2026-10-16",
+  "proposal_file": "/Users/earlcameron/Desktop/recompiled/work/research-2026-10-16/staging-reconcile/proposed-metadata-updates-unimported.json",
+  "catalog_database_read_only": "/Users/earlcameron/Desktop/recompiled/data/catalog.sqlite",
+  "count": 38,
+  "decisions": {
+    "approve": 33,
+    "hold": 5
+  },
+  "reviews": [
+    {
+      "id": "ace-attorney-investigations-2-ds-prosecutors-path",
+      "live_status": "README identifies v1.11.3; reports 99.4% of script text from Capcom's official localization and boots on DS hardware/flashcart, with only partial episode playtesting.",
+      "proposed_status": "Latest release v1.11.3 was published 2026-10-11. The README reports 99.4% of script text from Capcom's official localization and says it boots on DS hardware/flashcart; only partial episode playtesting is documented.",
+      "decision": "hold",
+      "assessment": "The README says the v1.11.3 release build reached play in Episode 1 on a DSi through TWiLight Menu++ and on a DSPico, and explicitly says no original DS was tried. Narrow “boots on DS hardware/flashcart” to those tested configurations.",
+      "manual_review_required": true,
+      "sources": [
+        {
+          "label": "Maintainer README",
+          "url": "https://github.com/Akoi89/prosecutors-path#readme"
+        },
+        {
+          "label": "v1.11.3 release",
+          "url": "https://github.com/Akoi89/prosecutors-path/releases/tag/v1.11.3"
+        }
+      ]
+    },
+    {
+      "id": "animal-crossing-new-leaf-welcome-amiibo-usa-decomp",
+      "live_status": "README's 2026-10-09 snapshot reports 4,240/4,345 functions written for nn library without nex; maintainer notes many methods remain empty stubs.",
+      "proposed_status": "README's 2026-10-09 snapshot reports 4,240/4,345 functions written for the nn library; many methods remain stubs. Repository activity on 2026-10-14 added NEX PRUDP/relay queues and sliding-window work; no game-playability claim is documented.",
+      "decision": "approve",
+      "assessment": "The README gives the 2026-10-09 nn-library count (4,240 of 4,345 functions written) and says many method bodies remain empty; the 2026-10-14 commit documents NEX PRUDP, relay, packet-queue, and sliding-window work. The proposal makes no gameplay claim.",
+      "manual_review_required": false,
+      "sources": [
+        {
+          "label": "Maintainer README",
+          "url": "https://github.com/RedShyGuy/acnl-decomp#readme"
+        },
+        {
+          "label": "Latest upstream commit",
+          "url": "https://github.com/RedShyGuy/acnl-decomp/commit/224295892706bdf10739681289c4c7033f9efe9d"
+        }
+      ]
+    },
+    {
+      "id": "colem-colecovision-adam",
+      "live_status": "Mature; latest official release 5.6 (2021)",
+      "proposed_status": "Mature; latest official release 5.6 (2021-03-03).",
+      "decision": "approve",
+      "assessment": "The official page calls version 5.6 the latest and says it was published 2021-03-03.",
+      "manual_review_required": false,
+      "sources": [
+        {
+          "label": "ColEm official project and release page",
+          "url": "https://fms.komkon.org/ColEm/"
+        }
+      ]
+    },
+    {
+      "id": "crossover",
+      "live_status": "Active commercial product; CrossOver 26.3.0 is the latest stable release listed on 2026-10-15. CodeWeavers announced a native ARM64 Mac build in Preview on 2026-07-31 and described it as unpolished and intended for testing.",
+      "proposed_status": "Active commercial product; CrossOver 26.3.0 (2026-07-21) is the latest stable release listed on 2026-10-15. CodeWeavers' first native ARM64 Mac Preview announcement (2026-07-31) requires macOS 26.5+; the vendor described that initial Preview as unpolished and intended for testing, with D3DMetal absent and many launchers not working at that time. Older macOS versions in the Preview use Intel Wine under Rosetta.",
+      "decision": "approve",
+      "assessment": "The official changelog lists 26.3.0 on 2026-07-21. The 2026-07-31 CodeWeavers preview post supports the macOS 26.5+ requirement, Rosetta fallback on older systems, and the stated limitations as they stood at launch.",
+      "manual_review_required": false,
+      "sources": [
+        {
+          "label": "CodeWeavers ARM64 Mac Preview requirements and launch limitations",
+          "url": "https://www.codeweavers.com/blog/mjohnson/2026/7/31/crossover-preview-the-right-to-bear-arm64-on-mac"
+        },
+        {
+          "label": "CodeWeavers CrossOver changelog and current stable release",
+          "url": "https://www.codeweavers.com/crossover/changelog"
+        }
+      ]
+    },
+    {
+      "id": "denise-emulator",
+      "live_status": "Maintained; v2.9 released 2026-08-28",
+      "proposed_status": "Maintained; version 2.9 was released 2026-08-28. The repository's latest commit is 2026-10-05; no newer release is listed.",
+      "decision": "approve",
+      "assessment": "The v2.9 release is dated 2026-08-28; the 2026-10-05 commit is a USBSID-Pico buffer-flush fix. The checked release list has no newer release.",
+      "manual_review_required": false,
+      "sources": [
+        {
+          "label": "Latest upstream commit",
+          "url": "https://github.com/piciji/denise/commit/58127d8644d2b37d163a5a3a51e60a63e4efde5d"
+        },
+        {
+          "label": "Latest maintainer release",
+          "url": "https://github.com/piciji/denise/releases/tag/v2.9"
+        }
+      ]
+    },
+    {
+      "id": "desmume",
+      "live_status": "Low release activity; latest stable release is 0.9.13 (2022-05-23), while the source repository remains public.",
+      "proposed_status": "Low release activity; the latest stable release remains 0.9.13 (2022-05-23), while the official source repository had code activity through 2026-09-11.",
+      "decision": "approve",
+      "assessment": "The latest cited source commit is dated 2026-09-11; the official release list still identifies 0.9.13, published 2022-05-23, as latest.",
+      "manual_review_required": false,
+      "sources": [
+        {
+          "label": "Latest upstream source commit",
+          "url": "https://github.com/TASEmulators/desmume/commit/1275dc64f5d1f5ef18dc1bc1fa9e012024b6df1a"
+        },
+        {
+          "label": "Official release history",
+          "url": "https://github.com/TASEmulators/desmume/releases"
+        }
+      ]
+    },
+    {
+      "id": "dosbox",
+      "live_status": "Legacy; the official download page lists version 0.74-3",
+      "proposed_status": "Legacy DOSBox release line; the official site lists 0.74-3 (released 2019-06-26) as its latest version and posted a Linux workaround on 2021-01-27.",
+      "decision": "approve",
+      "assessment": "The official site lists 0.74-3 as latest, its release announcement dates it 2019-06-26, and the official news page records the Linux workaround on 2021-01-27.",
+      "manual_review_required": false,
+      "sources": [
+        {
+          "label": "DOSBox 0.74-3 release announcement",
+          "url": "https://sourceforge.net/p/dosbox/news/2019/06/dosbox-074-3-has-been-released/"
+        },
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://www.dosbox.com/download.php?main=1"
+        },
+        {
+          "label": "Official DOSBox news: Linux workaround posted 2021-01-27; latest release remains 0.74-3 from 2019-06-26",
+          "url": "https://www.dosbox.com/news.php?show_news=1"
+        }
+      ]
+    },
+    {
+      "id": "dosbox-pure",
+      "live_status": "Active; the maintainer moved the project to Codeberg",
+      "proposed_status": "Active; the maintainer moved the project to Codeberg. The latest release is 1.0-preview7 (2026-10-06), and the current source repository records a commit on 2026-10-14.",
+      "decision": "approve",
+      "assessment": "Codeberg lists 1.0-preview7 published 2026-10-06. The cited current commit is 2026-10-14 UTC (2026-10-15 in Codeberg’s +09:00 timestamp) and fixes a fast-forward/CD-audio crash, supporting active maintenance.",
+      "manual_review_required": false,
+      "sources": [
+        {
+          "label": "Current Codeberg source commit",
+          "url": "https://codeberg.org/schelling/dosbox-pure/commit/6f28498450314e5b168b25d0f90359b0d1bdb747"
+        },
+        {
+          "label": "Codeberg 1.0-preview7 release",
+          "url": "https://codeberg.org/schelling/dosbox-pure/releases/tag/1.0-preview7"
+        },
+        {
+          "label": "Codeberg commit API (UTC date and message)",
+          "url": "https://codeberg.org/api/v1/repos/schelling/dosbox-pure/commits/6f28498450314e5b168b25d0f90359b0d1bdb747"
+        }
+      ]
+    },
+    {
+      "id": "dxvk-macos-metalsharp-v31",
+      "live_status": "Release v3.1-macos1.0 was published 2026-09-12. The package provides x86-64 and i386 Wine DLLs with MoltenVK. Its README requires a Wine portability-enumeration patch and does not publish a per-game compatibility matrix.",
+      "proposed_status": "Release v3.1-macos1.0 was published 2026-09-12. The package provides x86-64 and i386 Wine DLLs with MoltenVK and requires a Wine portability-enumeration patch. A 2026-09-21 maintainer commit says Phase 2 device-level support for D3D9/D3D8 was verified; no per-game compatibility matrix is published.",
+      "decision": "approve",
+      "assessment": "The v3.1-macos1.0 release supports the included 32-bit/64-bit Wine DLLs and MoltenVK/portability patch; the 2026-09-21 commit says D3D9/D3D8 device-level support was verified. The README contains no per-game compatibility matrix.",
+      "manual_review_required": false,
+      "sources": [
+        {
+          "label": "Maintainer README",
+          "url": "https://github.com/metalsharp/DXVK-MacOS#readme"
+        },
+        {
+          "label": "Latest upstream commit",
+          "url": "https://github.com/metalsharp/DXVK-MacOS/commit/8d348236e14a3db25ffbe528a83010b3dd69a3ef"
+        },
+        {
+          "label": "Latest maintainer release",
+          "url": "https://github.com/metalsharp/DXVK-MacOS/releases/tag/v3.1-macos1.0"
+        }
+      ]
+    },
+    {
+      "id": "eightyone-sinclair-emulator",
+      "live_status": "Community-maintained; latest listed release and source archive v1.41 dated 2025-03-03; original developer is no longer active",
+      "proposed_status": "Community-maintained; the latest listed release/source archive is v1.41 (2025-03-03), and the linked source repository's latest commit is 2025-04-01. The original developer is no longer active.",
+      "decision": "hold",
+      "assessment": "SourceForge lists v1.41 as its latest downloadable release/source archive (2025-03-03), but the linked GitHub commit changes the release-history file headed “Version 1.42 - 01/04/2025.” Reconcile the SourceForge archive version with the repository’s v1.42 history before stating the latest release/version. SourceForge does support that the original developer is no longer active.",
+      "manual_review_required": true,
+      "sources": [
+        {
+          "label": "Latest upstream source commit",
+          "url": "https://github.com/charlierobson/EightyOne/commit/4de3cdb8cff0060ad03e43ae2681b0628a9c5f5d"
+        },
+        {
+          "label": "SourceForge release and archive listing",
+          "url": "https://sourceforge.net/projects/eightyone-sinclair-emulator/files/"
+        },
+        {
+          "label": "SourceForge project description: original developer inactive",
+          "url": "https://sourceforge.net/projects/eightyone-sinclair-emulator/"
+        }
+      ]
+    },
+    {
+      "id": "epsxe",
+      "live_status": "Active; official site lists Windows and Android releases through 2025–2026",
+      "proposed_status": "Active; the official Android changelog lists ePSXe 2.0.19 (2026-05), while the official Windows page lists ePSXe 2.0.18 (released 2025-12-23).",
+      "decision": "approve",
+      "assessment": "The official Android page lists 2.0.19 in May 2026; the official Windows page dates 2.0.18 to 2025-12-23. The proposal distinguishes platform-specific latest versions.",
+      "manual_review_required": false,
+      "sources": [
+        {
+          "label": "Official Windows release page",
+          "url": "https://epsxe.com/"
+        },
+        {
+          "label": "Official Android changelog",
+          "url": "https://epsxe.com/android/index.html"
+        }
+      ]
+    },
+    {
+      "id": "four-swords-anniversary-dsi-korean-patch",
+      "live_status": "v1.2f is described as complete; README reports 215 of 220 dialogue/text elements translated, with Korean font and selected logo/menu/help/stage graphics.",
+      "proposed_status": "Version v1.2f was released 2026-10-03 and is described as complete; the README lists 215 of 220 dialogue/text elements translated, plus a Korean font and selected graphics. The latest repository commit (2026-10-07) standardizes the package filename.",
+      "decision": "approve",
+      "assessment": "The maintainer’s v1.2f release is dated 2026-10-03 and calls itself the complete/final patch; the README says 215 of 220 items are localized (excluding the staff roll), and the 2026-10-07 commit standardizes package filenames.",
+      "manual_review_required": false,
+      "sources": [
+        {
+          "label": "Latest upstream commit",
+          "url": "https://github.com/arqhive/zelda-four-swords-anniversary-edition-kor-patch/commit/70f015c9eacdcddea070fbab784ac34641eda710"
+        },
+        {
+          "label": "Latest maintainer release",
+          "url": "https://github.com/arqhive/zelda-four-swords-anniversary-edition-kor-patch/releases/tag/v1.2f"
+        }
+      ]
+    },
+    {
+      "id": "fs-uae",
+      "live_status": "Maintained; stable v3.2.35 released 2025-09-07; FS-UAE 5 remains an early alpha for Windows, macOS, and Linux",
+      "proposed_status": "The latest stable release is 3.2.35 (2025-09-07); FS-UAE 5 alpha builds were announced 2025-09-05. The upstream source repository's latest commit checked is 2025-09-13, so current maintenance cadence is unclear.",
+      "decision": "approve",
+      "assessment": "The official site lists stable 3.2.35 (2025-09-07) and announces FS-UAE 5 alpha builds (2025-09-05); the cited repository commit is 2025-09-13. “Cadence unclear” is appropriately cautious.",
+      "manual_review_required": false,
+      "sources": [
+        {
+          "label": "Official project news and release page",
+          "url": "https://fs-uae.net/"
+        },
+        {
+          "label": "Latest upstream source commit",
+          "url": "https://github.com/FrodeSolheim/fs-uae/commit/f362278ccd4c60991caac3b4d240d4a3f751bea2"
+        }
+      ]
+    },
+    {
+      "id": "generals-zero-hour-android-port",
+      "live_status": "The latest release found is v1.4.0. The maintainer reports campaign, skirmish, Generals Challenge, touch controls, audio, and cutscenes working, with real online matches and PC cross-play. The device guide names a Poco F8 Pro (Adreno 830) and Redmi Note 8 Pro (Mali-G76); GLES is the default renderer, while Vulkan has device-specific limitations. The README does not state a minimum Android version.",
+      "proposed_status": "The latest release is v1.4.0, published 2026-10-03. The maintainer reports campaign, skirmish, Generals Challenge, touch controls, audio, cutscenes, real online matches, and PC cross-play. Device notes name a Poco F8 Pro (Adreno 830) and Redmi Note 8 Pro (Mali-G76); GLES is the default renderer, while Vulkan has device-specific limits. The README does not state a minimum Android version.",
+      "decision": "approve",
+      "assessment": "The maintainer’s v1.4.0 release is dated 2026-10-03 and documents the renderer, online/cross-play changes, and controls; the README documents the device examples, GLES default, Vulkan limits, and lack of a minimum Android version.",
+      "manual_review_required": false,
+      "sources": [
+        {
+          "label": "Maintainer README",
+          "url": "https://github.com/MYSOREZ/GeneralsZH-Android-Port#readme"
+        },
+        {
+          "label": "Latest maintainer release",
+          "url": "https://github.com/MYSOREZ/GeneralsZH-Android-Port/releases/tag/v1.4.0"
+        }
+      ]
+    },
+    {
+      "id": "geolith-neo-geo-aes",
+      "live_status": "Active",
+      "proposed_status": "Active; the upstream repository's latest commit (2026-10-11) changes BSD/Darwin signal-mask handling in the bus-error trap. No current release date was verified.",
+      "decision": "approve",
+      "assessment": "The upstream GitLab commit is dated 2026-10-11 and its message exactly describes avoiding signal-mask saving in the BSD/Darwin bus-error trap. The proposal correctly says no current release date was verified.",
+      "manual_review_required": false,
+      "sources": [
+        {
+          "label": "Libretro source port",
+          "url": "https://github.com/libretro/geolith-libretro"
+        },
+        {
+          "label": "Upstream GitLab commit",
+          "url": "https://gitlab.com/jgemu/geolith/-/commit/05ddef568212e7225ceec22f3ecb20b5a9b640e6"
+        }
+      ]
+    },
+    {
+      "id": "goldeneye-007-3ds-port",
+      "live_status": "Bring-up stage; the README reports the Dam level working, not a finished port.",
+      "proposed_status": "In-progress native 3DS bring-up; the maintainer reports that Dam runs in Azahar and 3DS-targeted builds and lists original movement, collision, guards, weapons, mission state, HUD, menus, and audio among the systems under integration. The project explicitly says it is not a finished or fully playable release.",
+      "decision": "approve",
+      "assessment": "The README says the port is not finished or fully playable, while Dam runs natively in Azahar and 3DS-targeted builds; it lists the systems under integration. The port notes are linked for the build/test boundaries.",
+      "manual_review_required": false,
+      "sources": [
+        {
+          "label": "GitHub repository metadata: repository identity, activity, and primary language",
+          "url": "https://api.github.com/repos/kylebrussell/goldeneye-3ds"
+        },
+        {
+          "label": "Maintainer README: current Dam milestone, non-playable status, and source-data requirements",
+          "url": "https://github.com/kylebrussell/goldeneye-3ds#readme"
+        },
+        {
+          "label": "Maintainer's Nintendo 3DS port notes and current build/test boundaries",
+          "url": "https://github.com/kylebrussell/goldeneye-3ds/blob/master/docs/Porting3DS.md"
+        }
+      ]
+    },
+    {
+      "id": "great-ace-attorney-adventures-3ds-english-akoi89",
+      "live_status": "README identifies v1.9m builds; both games install and boot, while neither main game has been fully playtested on console. Specific DLC has received hardware testing.",
+      "proposed_status": "The README identifies v1.9m builds; the v1.9m release was published 2026-10-11. Both games install and boot, but neither main game has been fully playtested on console; specific DLC has received hardware testing.",
+      "decision": "approve",
+      "assessment": "The v1.9m release is dated 2026-10-11. The README says both games install and boot on real hardware, but neither main game has been fully played through; the documented hardware testing is for specific DLC.",
+      "manual_review_required": false,
+      "sources": [
+        {
+          "label": "Maintainer README and testing notes",
+          "url": "https://github.com/Akoi89/tgaa-3ds-english-patch#readme"
+        },
+        {
+          "label": "Latest maintainer release",
+          "url": "https://github.com/Akoi89/tgaa-3ds-english-patch/releases/tag/v1.9m"
+        }
+      ]
+    },
+    {
+      "id": "great-ace-attorney-resolve-3ds-english-akoi89",
+      "live_status": "README identifies v1.9m builds; both games install and boot, while neither main game has been fully playtested on console. Specific DLC has received hardware testing.",
+      "proposed_status": "The README identifies v1.9m builds; the v1.9m release was published 2026-10-11. Both games install and boot, but neither main game has been fully playtested on console; specific DLC has received hardware testing.",
+      "decision": "approve",
+      "assessment": "The v1.9m release is dated 2026-10-11. The README says both games install and boot on real hardware, but neither main game has been fully played through; the documented hardware testing is for specific DLC.",
+      "manual_review_required": false,
+      "sources": [
+        {
+          "label": "Maintainer README and testing notes",
+          "url": "https://github.com/Akoi89/tgaa-3ds-english-patch#readme"
+        },
+        {
+          "label": "Latest maintainer release",
+          "url": "https://github.com/Akoi89/tgaa-3ds-english-patch/releases/tag/v1.9m"
+        }
+      ]
+    },
+    {
+      "id": "hollow-knight-silksong-android",
+      "live_status": "The latest release found is v2.0.0. The maintainer says the APK builds the user's Linux Steam game files on the device through Unity IL2CPP; the README names tests on an AYN Thor and Retroid Pocket Flip 2. It does not state a minimum Android version or report a complete-game playthrough. Mod support is marked beta, and the project does not document touch controls.",
+      "proposed_status": "The latest release, v2.0.0, was published 2026-09-25. The maintainer says the APK builds the user's Linux Steam game files on-device through Unity IL2CPP; the README names tests on an AYN Thor and Retroid Pocket Flip 2. It does not state a minimum Android version or report a complete-game playthrough. Mod support is marked beta, and touch controls are not documented.",
+      "decision": "approve",
+      "assessment": "The v2.0.0 release is dated 2026-09-25. The README says the app builds from the user’s Linux game depot on-device through IL2CPP and names the tested devices; it gives no minimum Android version, complete-game playthrough, or touch-control claim.",
+      "manual_review_required": false,
+      "sources": [
+        {
+          "label": "Maintainer README",
+          "url": "https://github.com/jakobkhansen/SilksongAndroid#readme"
+        },
+        {
+          "label": "Latest maintainer release",
+          "url": "https://github.com/jakobkhansen/SilksongAndroid/releases/tag/v2.0.0"
+        }
+      ]
+    },
+    {
+      "id": "j2me-loader-android",
+      "live_status": "Mature Android emulator; the README reports support for most 2D and 3D games, while maintaining tested-game and known-bug lists. The latest tagged release is 1.8.2 (2024-08-07); issue activity continued in 2026.",
+      "proposed_status": "Mature Android emulator; the README reports support for most 2D and 3D games and maintains tested-game and known-bug lists. The latest tagged release remains 1.8.2 (2024-08-07); the latest repository commit (2026-02-06) only adds a 4PDA link, while issue activity continued in 2026.",
+      "decision": "approve",
+      "assessment": "The latest tagged release remains 1.8.2 (2024-08-07); the 2026-02-06 commit adds the 4PDA link, and GitHub issue activity continued through 2026 (for example, issue #956 updated 2026-10-14). Add that issue URL to the proposal’s sources because the current source list does not directly support the issue-activity clause.",
+      "manual_review_required": false,
+      "sources": [
+        {
+          "label": "Latest upstream commit",
+          "url": "https://github.com/nikita36078/J2ME-Loader/commit/9b0fa48a0a0d1e61376c0b9af28b3d2caec0a4cc"
+        },
+        {
+          "label": "Latest maintainer release",
+          "url": "https://github.com/nikita36078/J2ME-Loader/releases/tag/1.8.2"
+        },
+        {
+          "label": "GitHub issue activity example, issue #956 updated 2026-10-14",
+          "url": "https://github.com/nikita36078/J2ME-Loader/issues/956"
+        }
+      ]
+    },
+    {
+      "id": "nakoruru-dc-en",
+      "live_status": "Released; updated",
+      "proposed_status": "Released; current English patch v1.4 was published 2026-09-23.",
+      "decision": "approve",
+      "assessment": "The maintainer release and README identify English patch v1.4, published 2026-09-23; the cited commit updates the README for that release.",
+      "manual_review_required": false,
+      "sources": [
+        {
+          "label": "Maintainer repository README and release changelog, v1.4 dated 2026-09-23",
+          "url": "https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast"
+        },
+        {
+          "label": "Project repository latest recorded commit (2026-09-23): Update README for version 1.4 release",
+          "url": "https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast/commit/b755a98a4b14091c0222aee7c773b9bc080b3e2b"
+        },
+        {
+          "label": "Maintainer release v1.4",
+          "url": "https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast/releases/tag/1.4"
+        }
+      ]
+    },
+    {
+      "id": "new-love-plus-plus-en",
+      "live_status": "v1.0.0-rc3 release candidate published in September 2026; translation and platform testing remain incomplete",
+      "proposed_status": "The latest public patch remains v1.0.0-rc3 (September 2026), with testing and platform support incomplete. The patcher repository merged an rc4.1 development change on 2026-10-15, but no public rc4.1 release is listed.",
+      "decision": "hold",
+      "assessment": "The official download page still identifies the downloadable patch as rc3, but the cited GitHub Releases page lists public NLPP EngPatcher rc4 and rc4.1 releases published 2026-10-15. The statement “no public rc4.1 release is listed” is false; distinguish the patcher release from the downloadable patch release.",
+      "manual_review_required": true,
+      "sources": [
+        {
+          "label": "Patcher repository merge of rc4.1 work, 2026-10-15",
+          "url": "https://github.com/czyrustuazon/NewLovePlusPlusEngPatcher/commit/c5f48deeb24f78fd9fb868be991a454eeb069299"
+        },
+        {
+          "label": "Patcher public releases page",
+          "url": "https://github.com/czyrustuazon/NewLovePlusPlusEngPatcher/releases"
+        },
+        {
+          "label": "Official download page and public release history (latest is v1.0.0-rc3)",
+          "url": "https://newloveplus.loc.moe/download/"
+        }
+      ]
+    },
+    {
+      "id": "nexium",
+      "live_status": "active",
+      "proposed_status": "Active experimental development; the maintainer's 2026-10-04 report documents an Android app and an early PS5 port, with many games still slow.",
+      "decision": "approve",
+      "assessment": "The maintainer’s 2026-10-04 report says the Android app arrived, a PS5 port had just started running, and most newly in-game titles were slow. “Active experimental development” is supported.",
+      "manual_review_required": false,
+      "sources": [
+        {
+          "label": "NeXium maintainer progress report, October 2026",
+          "url": "https://nexium-emu.org/progress-report-october-2026.html"
+        }
+      ]
+    },
+    {
+      "id": "nxemu",
+      "live_status": "active",
+      "proposed_status": "Active; the official site lists progress builds through September 2026, and the source repository continued changing through 2026-10-15, including support for files that contain multiple games.",
+      "decision": "approve",
+      "assessment": "The official site links progress reporting through September 2026; the cited 2026-10-15 source commit implements handling for game files containing multiple titles. The status wording matches both sources.",
+      "manual_review_required": false,
+      "sources": [
+        {
+          "label": "Project repository latest recorded commit (2026-10-15): loader: a game file might contain multiple games, need to be able to …",
+          "url": "https://github.com/N3xoX1/nxemu/commit/8a579c5d4c508b74e7da899157c1450a845db66f"
+        },
+        {
+          "label": "Official project site and progress releases",
+          "url": "https://www.nxemu.com/"
+        }
+      ]
+    },
+    {
+      "id": "raine",
+      "live_status": "Active",
+      "proposed_status": "Active; the official downloads page lists v0.97.6b Arch packages dated 2026-03-23 and v0.97.5 Windows builds. Source activity includes macOS ARM64 renderer-selection and full-screen fixes dated 2026-06-24.",
+      "decision": "approve",
+      "assessment": "The official download page lists Arch 0.97.6b packages dated 2026-03-23 and Windows 0.97.5 builds; the 2026-06-24 commit documents macOS ARM64 renderer/full-screen fixes.",
+      "manual_review_required": false,
+      "sources": [
+        {
+          "label": "Project repository latest recorded commit (2026-06-24): macOS arm64: renderer selection + fullscreen fixes (follow-up to #80)…",
+          "url": "https://github.com/zelurker/raine/commit/cf1e6af50d45be2c653660cfda24f33259bc06c0"
+        },
+        {
+          "label": "Official latest downloads page, including dated Arch packages and Windows builds",
+          "url": "https://raine.1emulation.com/download/latest.html"
+        }
+      ]
+    },
+    {
+      "id": "resident-evil-4-dreamcast-port",
+      "live_status": "Experimental port; a console test reached the end of Chapter 2 part 1, with crashes, visual gaps, and performance work remaining.",
+      "proposed_status": "Experimental Dreamcast port; the latest test 13 prerelease (2026-10-15) reports a console test reaching the end of Chapter 2 part 1. Random GDEMU room-load crashes, sub-30 FPS performance, pauses when entering rooms, and visual gaps remain; no full playthrough is claimed.",
+      "decision": "approve",
+      "assessment": "The README dates console test 13 to 2026-10-15 and says it reaches the end of chapter two, part one; it lists random GDEMU room-load crashes, below-30-fps performance, room-entry pauses, and visual gaps. It expressly says this is a prerelease, not the complete game.",
+      "manual_review_required": false,
+      "sources": [
+        {
+          "label": "Current Dreamcast branch README",
+          "url": "https://github.com/lamb2k/re4dc/blob/dreamcast-port/README.md"
+        },
+        {
+          "label": "Latest test 13 prerelease and status notes",
+          "url": "https://github.com/lamb2k/re4dc/releases/tag/test-05e5ff76-20261015"
+        }
+      ]
+    },
+    {
+      "id": "saints-row-2-ps3-recomp",
+      "live_status": "WIP; current README reports SPU jobs and a D3D12 window; not playable",
+      "proposed_status": "WIP; the BLUS30201 build compiles and reaches SPU jobs, GCM/RSX initialization and packfile reads before opening a D3D12 window with three display buffers. The current blocker is a SPURS consumer-wake handshake; no gameplay render is reported.",
+      "decision": "approve",
+      "assessment": "The README confirms the BLUS30201 build opens a D3D12 window after SPU/GCM/RSX and packfile work, with a missing SPURS queue-push handshake still blocking rendering; it says graphics, audio, and input are not started.",
+      "manual_review_required": false,
+      "sources": [
+        {
+          "label": "Project README: exact PS3 build, boot progress and blocker",
+          "url": "https://github.com/sp00nznet/saintsrow2#readme"
+        }
+      ]
+    },
+    {
+      "id": "scotch-macos-windows-compatibility",
+      "live_status": "Active; v1.2.2 was published 2026-09-30. The project targets Apple silicon and macOS Tahoe 26 or later; its README lists a pinned compatibility stack and says combinations outside its tested matrix are unsupported.",
+      "proposed_status": "Active; v1.2.2 (2026-09-30) is latest. Requires Apple silicon, macOS 26+, and Rosetta 2 for Wine. Its pinned stack is Wine 11.16, DXVK-macOS 1.10.3-repack, DXMT 0.80, D3DMetal 3.0, Mesa Zink 26.2.0, and bundled MoltenVK 1.4.0. Release notes report CI and installer tests on macOS 26 and 16 runtime regressions on macOS 27, but not full runtime-download/Wine+Steam GUI verification or complete manual QA on macOS 27. The DMG is ad-hoc signed, not Developer ID signed or notarized.",
+      "decision": "hold",
+      "assessment": "The v1.2.2 release says all 16 runtime regression tests passed locally on macOS 27. The proposal calls these “16 runtime regressions,” which reads as 16 defects; change it to “16 runtime regression tests passed.” The listed runtime pins, requirements, ad-hoc signing, and unverified full GUI/manual QA are supported.",
+      "manual_review_required": true,
+      "sources": [
+        {
+          "label": "Scotch v1.2.2 release, requirements, pins, and validation details",
+          "url": "https://github.com/S3bRR/Scotch/releases"
+        }
+      ]
+    },
+    {
+      "id": "scott-pilgrim-ps3-recomp",
+      "live_status": "WIP; lifted functions/window and SPU tasks reported, graphics/gameplay not yet working",
+      "proposed_status": "WIP, phase 2; README reports a native build that boots, opens a D3D12 window and reads all four game archives, but an audio SPU task stops loading before geometry or gameplay.",
+      "decision": "approve",
+      "assessment": "The README identifies Phase 2, says the build boots, opens a D3D12 window and reads the archives, and identifies an audio SPU loading blocker before geometry/gameplay.",
+      "manual_review_required": false,
+      "sources": [
+        {
+          "label": "Project README: exact PSN build, status and blocker",
+          "url": "https://github.com/sp00nznet/scottpilgrim#readme"
+        }
+      ]
+    },
+    {
+      "id": "shiren-4-psp-en",
+      "live_status": "Released",
+      "proposed_status": "Released; latest public English patch v1.0.1 was published 2024-01-20.",
+      "decision": "approve",
+      "assessment": "The maintainer’s v1.0.1 English patch release is published 2024-01-20.",
+      "manual_review_required": false,
+      "sources": [
+        {
+          "label": "Maintainer GitHub release v1.0.1 (published 2024-01-20)",
+          "url": "https://github.com/SharkSnack/shiren-4/releases/tag/v1.0.1"
+        }
+      ]
+    },
+    {
+      "id": "stella-atari-2600",
+      "live_status": "Active",
+      "proposed_status": "Active; the latest official release listed is v7.0 (2024-10-05), while source changes continued through 2026-10-12.",
+      "decision": "approve",
+      "assessment": "The official 7.0 release is dated 2024-10-05; the cited upstream commit is dated 2026-10-12, supporting active source work despite the older latest release.",
+      "manual_review_required": false,
+      "sources": [
+        {
+          "label": "Project repository latest recorded commit (2026-10-12): Fix minor warnings from clang-tidy.",
+          "url": "https://github.com/stella-emu/stella/commit/2c3d7023e9136f75c789803b44f119d8749dc104"
+        },
+        {
+          "label": "Official Stella 7.0 release page and date",
+          "url": "https://github.com/stella-emu/stella/releases/tag/7.0"
+        }
+      ]
+    },
+    {
+      "id": "syphon-filter-2-recomp",
+      "live_status": "Alpha; both discs/campaign and disc transition reported played and verified",
+      "proposed_status": "Alpha v0.1.3; README reports both discs, connected campaign and disc transition played and verified. The resident executable is native while uncovered streamed overlays still use the interpreter fallback; this is not a finished PC port.",
+      "decision": "approve",
+      "assessment": "The README labels v0.1.3-alpha, says both discs/campaign transition were played and verified, and explains that resident code is native while uncovered streamed overlays use an interpreter fallback. The proposal avoids calling it finished.",
+      "manual_review_required": false,
+      "sources": [
+        {
+          "label": "Project README: supported build and current validation",
+          "url": "https://github.com/alexbeavs-ps1-ports/syphon-filter-2-recomp#readme"
+        }
+      ]
+    },
+    {
+      "id": "technics-sl-p120-ez-p120",
+      "live_status": "Complete and usable in current form; playback/control, display, physical buttons, Bluetooth and web remote are implemented.",
+      "proposed_status": "The maintainer considers the project complete and usable on the documented test configuration; compatibility with other optical drives and bridges is not guaranteed.",
+      "decision": "approve",
+      "assessment": "The README calls EZ-P120 complete and usable on its documented configuration, identifies the tested HP DVD drive/bridge, and says alternate drives/bridges may work if ATAPI commands pass through; compatibility is expressly not guaranteed for every bridge. Keep that caveat narrow if possible.",
+      "manual_review_required": false,
+      "sources": [
+        {
+          "label": "Project MIT license",
+          "url": "https://gitlab.com/masteraldo/ez-p120/-/blob/main/LICENSE"
+        },
+        {
+          "label": "Maintainer README: C#/.NET 10 language, tested Raspberry Pi hardware, ARM64 target, application functions, and MIT license",
+          "url": "https://gitlab.com/masteraldo/ez-p120/-/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer hardware wiring and GPIO assignments",
+          "url": "https://gitlab.com/masteraldo/ez-p120/-/blob/main/docs/HARDWARE.md"
+        },
+        {
+          "label": "Maintainer README raw text",
+          "url": "https://gitlab.com/masteraldo/ez-p120/-/raw/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "toaru-virtual-on-vita-en",
+      "live_status": "Released",
+      "proposed_status": "Released; author announced completion 2026-02-09. The fan patch targets single-player (multiplayer text is translated); the Dengeki Bunko screen, intro/outro AMVs, trophies, and online manual remain untranslated, and the author notes the patch is not perfect.",
+      "decision": "approve",
+      "assessment": "The author’s 2026-02-09 release post says the translation is complete, targets single-player, leaves the named screens/media/trophies/manual untranslated, and says it is not perfect.",
+      "manual_review_required": false,
+      "sources": [
+        {
+          "label": "Toaru Majutsu no Virtual-On patch author release post",
+          "url": "https://gbatemp.net/threads/toaru-majutsu-no-virtual-on-english-translation-xdelta-patches.679584/"
+        }
+      ]
+    },
+    {
+      "id": "tokeru-fuuka-shirousagi-zh-cn",
+      "live_status": "Released; v1.3.0",
+      "proposed_status": "Released; v1.3.0 updated 2026-09-14.",
+      "decision": "approve",
+      "assessment": "The official project page lists v1.3.0 with update date 2026-09-14.",
+      "manual_review_required": false,
+      "sources": [
+        {
+          "label": "Tokeru Fuuka to Shirousagi official project page",
+          "url": "https://kazeshiro.ica.wiki/"
+        }
+      ]
+    },
+    {
+      "id": "tomodachi-collection-nds-en",
+      "live_status": "Full English patch v1.0 released; some text and graphics remain Japanese by design",
+      "proposed_status": "Full English patch v1.0 is available; the latest README says it runs on all DS-family systems. Some text and graphics remain Japanese by design.",
+      "decision": "approve",
+      "assessment": "The maintainer README identifies the full English patch v1.0, lists DS-family compatibility, and describes the remaining Japanese elements as intentional; the cited 2026-06-10 commit adds the compatibility section.",
+      "manual_review_required": false,
+      "sources": [
+        {
+          "label": "Maintainer README and compatibility update, 2026-06-10",
+          "url": "https://github.com/CarlosA49/tomodachi-collection-english"
+        },
+        {
+          "label": "Project repository latest recorded commit (2026-06-10): docs: add Compatibility section (runs on all DS-family systems)",
+          "url": "https://github.com/CarlosA49/tomodachi-collection-english/commit/10f564e2755ed7afd0cecc3accdff25b23b993cd"
+        }
+      ]
+    },
+    {
+      "id": "twisted-metal-2012-ps3-recomp",
+      "live_status": "WIP; boots into a match; menus/HUD render, 3D world incomplete",
+      "proposed_status": "WIP; README reports reaching a Suburbs match with the front end, vehicle select and six opponents. The in-match HUD renders, but the 3D world/post-effects do not; audio initializes and input is not started.",
+      "decision": "approve",
+      "assessment": "The README reports reaching a Suburbs match with six opponents; it says the HUD renders while the 3D world/post-effects do not, audio initializes, and input has not started.",
+      "manual_review_required": false,
+      "sources": [
+        {
+          "label": "Project README: disc identity and current in-match status",
+          "url": "https://github.com/sp00nznet/twistedmetal#readme"
+        }
+      ]
+    },
+    {
+      "id": "yokai-watch-busters-2-spanish-translation",
+      "live_status": "In development; README describes adapting an existing English patch and earlier Spanish translation but gives no current completion percentage or release date.",
+      "proposed_status": "In development; the latest repository commit is labeled “V0.6” (2026-10-08), but the project’s GitHub Releases page lists no published release.",
+      "decision": "hold",
+      "assessment": "The project’s GitHub Releases page lists v0.6, published 2026-10-08, as well as v0.1–v0.5. The claim that no published release is listed is contradicted by the cited source; retain “in development” and name v0.6 as the latest public release.",
+      "manual_review_required": true,
+      "sources": [
+        {
+          "label": "Maintainer README, which says the project is in development",
+          "url": "https://github.com/AstralCoder48/New-YWB2_ES-Translation"
+        },
+        {
+          "label": "Project repository latest recorded commit (2026-10-08): V0.6",
+          "url": "https://github.com/AstralCoder48/New-YWB2_ES-Translation/commit/24eda27e84916d46ad42ed562f0cfcc8373d3f04"
+        },
+        {
+          "label": "Maintainer public releases page (no releases listed)",
+          "url": "https://github.com/AstralCoder48/New-YWB2_ES-Translation/releases"
+        }
+      ]
+    }
+  ]
+}
