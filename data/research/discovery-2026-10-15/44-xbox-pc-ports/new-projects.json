@@ -1,0 +1,553 @@
+{
+  "updated": "2026-10-15",
+  "projects": [
+    {
+      "id": "black-2006-xbox-macos-recomp",
+      "title": "BLACK Xbox Static Recompilation for Apple Silicon macOS",
+      "game": "BLACK (Original Xbox, 2006)",
+      "target_type": "Game",
+      "platform": "Original Xbox (2006; region/revision not stated) → macOS Apple Silicon arm64",
+      "kind": "Recompilation",
+      "status": "Playable through the first mission: the port reaches the title, plays intro videos, and supports movement, aiming, shooting, reloading, and objectives. Startup remains unstable during video playback (README estimates about one run in three); camera drift and silent audio from a DSP stub remain. No full-game completion is claimed.",
+      "summary": "Statically translates Xbox x86 functions to C and builds a native arm64 macOS executable using the required xboxrecomp runtime. Graphics use the xemu-derived NV2A renderer; an optional ANGLE/Metal backend is documented. Users must provide their own legally obtained disc; no game code or assets are included.",
+      "project_url": "https://github.com/elpetese/black-macos-recomp",
+      "updated": "2026-10-15",
+      "strategy": "Function-by-function static Xbox x86-to-C recompilation using xboxrecomp; native Apple Silicon host with xemu-derived NV2A graphics runtime",
+      "language": "",
+      "source_available": "Public source; requires the user's own legally obtained Xbox disc and the separate xboxrecomp runtime; no game binaries or assets are included.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Original Xbox static recompilation for macOS",
+      "sources": [
+        {
+          "label": "Maintainer README: method, user-supplied disc, and current playability",
+          "url": "https://github.com/elpetese/black-macos-recomp/blob/port/README.md"
+        },
+        {
+          "label": "Maintainer methodology: extraction and native macOS build",
+          "url": "https://github.com/elpetese/black-macos-recomp/blob/port/METHODOLOGY.md"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/elpetese/black-macos-recomp/languages"
+        }
+      ]
+    },
+    {
+      "id": "midtown-madness-3-pc-native",
+      "title": "Midtown Madness 3 PC Native (Maintained Recompilation Fork)",
+      "game": "Midtown Madness 3 (Original Xbox)",
+      "target_type": "Game",
+      "platform": "Original Xbox (USA, Europe, and Australia retail code accepted) → Windows 10/11 x64",
+      "kind": "Recompilation",
+      "status": "The maintainer reports a working native Windows build with gameplay, graphics, and race guidance improvements. The current fork passes a documented 30-second stationary gameplay check and a first-race AI launch probe; the README does not claim a full campaign play-through. Several upstream runtime fixes remain missing or partial.",
+      "summary": "A maintained, substantially modified fork of MattSG/mm3-recomp, using xboxrecomp to statically translate the Xbox CPU code and a native Direct3D 11 renderer. Build and setup use the player's own disc image; tested USA Redump ISO and Europe/Australia XISO hashes are documented. The fork's custom runtime changes are required for its current behavior.",
+      "project_url": "https://github.com/lakshya16157/midtown-madness-3-PC-Native",
+      "updated": "2026-10-15",
+      "strategy": "Static Xbox CPU recompilation via xboxrecomp with a Direct3D 11 renderer; maintained fork of MattSG/mm3-recomp",
+      "language": "",
+      "source_available": "Public source and build scripts; requires the user's own supported Midtown Madness 3 disc/image; game data and build outputs are not included.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C/C++ (with Python and PowerShell tooling)",
+      "subtype": "Original Xbox static recompilation and native PC fork",
+      "sources": [
+        {
+          "label": "Maintainer README: method, lineage, platform, testing, and supported disc hashes",
+          "url": "https://github.com/lakshya16157/midtown-madness-3-PC-Native#readme"
+        },
+        {
+          "label": "Pinned reproducible fork snapshot v2026.10.12.3",
+          "url": "https://github.com/lakshya16157/midtown-madness-3-PC-Native/tree/v2026.10.12.3"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/lakshya16157/midtown-madness-3-PC-Native/languages"
+        }
+      ]
+    },
+    {
+      "id": "call-of-duty-3-project-1944-xbox360-recomp",
+      "title": "Project 1944: Call of Duty 3 Xbox 360 Recompilation",
+      "game": "Call of Duty 3 (Xbox 360)",
+      "target_type": "Game",
+      "platform": "Xbox 360 (USA/Europe; Title ID 415607E1, Media ID 2E07093A) → Windows 10/11 x64, Direct3D 12",
+      "kind": "Recompilation",
+      "status": "Native Windows release v2.0. The documented campaign test scope is the first Saint-Lô mission, checkpoint save/load, and a 120 Hz timing trace on one PC; the full campaign and other hardware are unverified. The v2.0 release adds a separately recompiled multiplayer executable and networking features, with the README identifying remaining test limitations.",
+      "summary": "An independent Call of Duty 3 PC implementation that statically recompiles Xbox 360 PowerPC code to C++ with ReXGlue and builds a native Windows x64 host, using Xenia-derived kernel and graphics layers. The user supplies a matching Xbox 360 ISO, extracted default.xex, or supported Games on Demand package; the supported default.xex hash is checked locally. No game files or generated game code are kept in the repository.",
+      "project_url": "https://github.com/zenit2893-cmyk/project-1944",
+      "updated": "2026-10-15",
+      "strategy": "Xbox 360 PowerPC-to-C++ static recompilation with ReXGlue; native Windows host and Xenia-derived kernel/graphics components",
+      "language": "",
+      "source_available": "Public source plus v2.0 release; requires the user's own supported USA/Europe Xbox 360 game copy; no game or generated game code is included.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++ (with Python and PowerShell tooling)",
+      "subtype": "Independent Xbox 360 static recompilation",
+      "sources": [
+        {
+          "label": "Maintainer README: current method, target, supported game build, and test scope",
+          "url": "https://github.com/zenit2893-cmyk/project-1944#readme"
+        },
+        {
+          "label": "Latest Project 1944 v2.0 release",
+          "url": "https://github.com/zenit2893-cmyk/project-1944/releases/tag/v2.0"
+        },
+        {
+          "label": "Project 1944 v1.0 release and original test-scope statement",
+          "url": "https://github.com/zenit2893-cmyk/project-1944/releases/tag/v1.0.0"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/zenit2893-cmyk/project-1944/languages"
+        }
+      ]
+    },
+    {
+      "id": "uncharted-drakes-fortune-nathan-drake-collection-pc",
+      "title": "Uncharted: Drake's Fortune (Nathan Drake Collection) Native PC Port",
+      "game": "Uncharted: Drake's Fortune (The Nathan Drake Collection, PS4)",
+      "target_type": "Game",
+      "platform": "PlayStation 4 → Windows 10/11 x64 and Linux x86-64 (the Linux port is a fork of the Windows project)",
+      "kind": "API Translation",
+      "status": "Windows v0.3.3 release with a separate Linux fork. The Linux README says this title boots and renders and identifies its collection executable; the Windows project launches all three games. Known streaming/render crashes remain in Uncharted 2 and 3 on the documented US v1.02 dump, and neither project claims a full play-through.",
+      "summary": "Native host port of the PS4 collection's original game code, with PS4 graphics translated to Vulkan through the bbport/shadPS4-derived stack; it is not run through Wine or a conventional PS4 emulator. This row covers the eboot.bin target for Uncharted: Drake's Fortune. The user must provide a decrypted collection dump; CUSA02320 is documented by the Linux fork and the Windows README lists it among supported examples. No game files are included.",
+      "project_url": "https://github.com/Supermedo/uncharted_pc",
+      "updated": "2026-10-15",
+      "strategy": "Direct execution of original PS4 game code through a native host/runtime with Vulkan graphics translation (bbport/shadPS4-derived)",
+      "language": "",
+      "source_available": "Public Windows source and v0.3.3 release plus a public Linux fork; requires the user's own decrypted PS4 collection dump; game data is not included.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++ (Linux fork also uses a Python/Tk launcher)",
+      "subtype": "PS4-to-PC native API translation; executable target eboot.bin",
+      "sources": [
+        {
+          "label": "Windows project README: direct code execution, Vulkan translation, target and game-data requirements",
+          "url": "https://github.com/Supermedo/uncharted_pc#readme"
+        },
+        {
+          "label": "Windows release v0.3.3 and current release notes",
+          "url": "https://github.com/Supermedo/uncharted_pc/releases/tag/v0.3.3"
+        },
+        {
+          "label": "Linux fork README: per-game executables, direct execution, and CUSA02320 dump requirements",
+          "url": "https://github.com/Pepin208/uncharted_pc_linux#readme"
+        },
+        {
+          "label": "GitHub language breakdown for Windows implementation",
+          "url": "https://api.github.com/repos/Supermedo/uncharted_pc/languages"
+        }
+      ]
+    },
+    {
+      "id": "uncharted-among-thieves-nathan-drake-collection-pc",
+      "title": "Uncharted 2: Among Thieves (Nathan Drake Collection) Native PC Port",
+      "game": "Uncharted 2: Among Thieves (The Nathan Drake Collection, PS4)",
+      "target_type": "Game",
+      "platform": "PlayStation 4 → Windows 10/11 x64 and Linux x86-64 (the Linux port is a fork of the Windows project)",
+      "kind": "API Translation",
+      "status": "Windows v0.3.3 release with a separate Linux fork. The Linux README says this title boots and renders and identifies its collection executable; the Windows project launches all three games. Known streaming/render crashes remain in Uncharted 2 and 3 on the documented US v1.02 dump, and neither project claims a full play-through.",
+      "summary": "Native host port of the PS4 collection's original game code, with PS4 graphics translated to Vulkan through the bbport/shadPS4-derived stack; it is not run through Wine or a conventional PS4 emulator. This row covers the big2-ps4_Shipping.elf target for Uncharted 2: Among Thieves. The user must provide a decrypted collection dump; CUSA02320 is documented by the Linux fork and the Windows README lists it among supported examples. No game files are included.",
+      "project_url": "https://github.com/Supermedo/uncharted_pc",
+      "updated": "2026-10-15",
+      "strategy": "Direct execution of original PS4 game code through a native host/runtime with Vulkan graphics translation (bbport/shadPS4-derived)",
+      "language": "",
+      "source_available": "Public Windows source and v0.3.3 release plus a public Linux fork; requires the user's own decrypted PS4 collection dump; game data is not included.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++ (Linux fork also uses a Python/Tk launcher)",
+      "subtype": "PS4-to-PC native API translation; executable target big2-ps4_Shipping.elf",
+      "sources": [
+        {
+          "label": "Windows project README: direct code execution, Vulkan translation, target and game-data requirements",
+          "url": "https://github.com/Supermedo/uncharted_pc#readme"
+        },
+        {
+          "label": "Windows release v0.3.3 and current release notes",
+          "url": "https://github.com/Supermedo/uncharted_pc/releases/tag/v0.3.3"
+        },
+        {
+          "label": "Linux fork README: per-game executables, direct execution, and CUSA02320 dump requirements",
+          "url": "https://github.com/Pepin208/uncharted_pc_linux#readme"
+        },
+        {
+          "label": "GitHub language breakdown for Windows implementation",
+          "url": "https://api.github.com/repos/Supermedo/uncharted_pc/languages"
+        }
+      ]
+    },
+    {
+      "id": "uncharted-drakes-deception-nathan-drake-collection-pc",
+      "title": "Uncharted 3: Drake's Deception (Nathan Drake Collection) Native PC Port",
+      "game": "Uncharted 3: Drake's Deception (The Nathan Drake Collection, PS4)",
+      "target_type": "Game",
+      "platform": "PlayStation 4 → Windows 10/11 x64 and Linux x86-64 (the Linux port is a fork of the Windows project)",
+      "kind": "API Translation",
+      "status": "Windows v0.3.3 release with a separate Linux fork. The Linux README says this title boots and renders and identifies its collection executable; the Windows project launches all three games. Known streaming/render crashes remain in Uncharted 2 and 3 on the documented US v1.02 dump, and neither project claims a full play-through.",
+      "summary": "Native host port of the PS4 collection's original game code, with PS4 graphics translated to Vulkan through the bbport/shadPS4-derived stack; it is not run through Wine or a conventional PS4 emulator. This row covers the big3-ps4_Shipping.elf target for Uncharted 3: Drake's Deception. The user must provide a decrypted collection dump; CUSA02320 is documented by the Linux fork and the Windows README lists it among supported examples. No game files are included.",
+      "project_url": "https://github.com/Supermedo/uncharted_pc",
+      "updated": "2026-10-15",
+      "strategy": "Direct execution of original PS4 game code through a native host/runtime with Vulkan graphics translation (bbport/shadPS4-derived)",
+      "language": "",
+      "source_available": "Public Windows source and v0.3.3 release plus a public Linux fork; requires the user's own decrypted PS4 collection dump; game data is not included.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++ (Linux fork also uses a Python/Tk launcher)",
+      "subtype": "PS4-to-PC native API translation; executable target big3-ps4_Shipping.elf",
+      "sources": [
+        {
+          "label": "Windows project README: direct code execution, Vulkan translation, target and game-data requirements",
+          "url": "https://github.com/Supermedo/uncharted_pc#readme"
+        },
+        {
+          "label": "Windows release v0.3.3 and current release notes",
+          "url": "https://github.com/Supermedo/uncharted_pc/releases/tag/v0.3.3"
+        },
+        {
+          "label": "Linux fork README: per-game executables, direct execution, and CUSA02320 dump requirements",
+          "url": "https://github.com/Pepin208/uncharted_pc_linux#readme"
+        },
+        {
+          "label": "GitHub language breakdown for Windows implementation",
+          "url": "https://api.github.com/repos/Supermedo/uncharted_pc/languages"
+        }
+      ]
+    },
+    {
+      "id": "gears-of-war-2-xbox360-native-pc-recomp",
+      "title": "Gears of War 2 Xbox 360 Native PC Recompilation",
+      "game": "Gears of War 2 (Xbox 360 retail, Title ID 4D53082D)",
+      "target_type": "Game",
+      "platform": "Xbox 360 → Windows 10/11 x64, Direct3D 12",
+      "kind": "Recompilation",
+      "status": "v0.1.1 release. Act 1 is playable with keyboard/mouse or a controller; the full campaign has not been completed. Campaign System Link co-op has been exercised on one PC and across a PC/phone LAN; internet play is marked experimental.",
+      "summary": "Statically recompiles the player's retail Xbox 360 default.xex to native x64 code using ReXGlue. The Windows build includes a launcher, Direct3D 12 output, high-resolution rendering options, and user-supplied game-folder setup. The user needs their own game copy extracted with default.xex and GearGame; no game content is included.",
+      "project_url": "https://github.com/santiquiroz/gears-of-war-2-pc-port",
+      "updated": "2026-10-15",
+      "strategy": "Xbox 360 PowerPC static recompilation to native x64 using ReXGlue; Windows Direct3D 12 host",
+      "language": "",
+      "source_available": "Public source and v0.1.1 release; requires the user's own retail Xbox 360 copy (Title ID 4D53082D); game files are not included.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Xbox 360 static recompilation and native Windows port",
+      "sources": [
+        {
+          "label": "Maintainer README: supported source, method, release behavior, and gameplay scope",
+          "url": "https://github.com/santiquiroz/gears-of-war-2-pc-port#readme"
+        },
+        {
+          "label": "Release v0.1.1",
+          "url": "https://github.com/santiquiroz/gears-of-war-2-pc-port/releases/tag/v0.1.1"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/santiquiroz/gears-of-war-2-pc-port/languages"
+        }
+      ]
+    },
+    {
+      "id": "sega-superstars-tennis-xbox360-rematch-recomp",
+      "title": "Sega Superstars Tennis ReMatch Xbox 360 Recompilation",
+      "game": "Sega Superstars Tennis (Xbox 360)",
+      "target_type": "Game",
+      "platform": "Xbox 360 → Windows 10/11 x64, Direct3D 12",
+      "kind": "Recompilation",
+      "status": "Pre-release v0.4 package is published. The README documents the native renderer, settings, and keyboard/mouse support but does not state a specific gameplay test scope or campaign progress.",
+      "summary": "Uses ReXGlue v0.10.0 to statically recompile the Xbox 360 game code to native x64 and supplies a Direct3D 12 renderer that translates Xbox shaders. Players provide their own legally obtained Xbox 360 game files with default.xex in the assets directory; the exact supported regional/revision build is not identified in the README.",
+      "project_url": "https://github.com/m1ndcrap/Sega-Superstars-Tennis-ReMatch",
+      "updated": "2026-10-15",
+      "strategy": "ReXGlue v0.10.0 static PowerPC-to-C++ recompilation with a native Direct3D 12 shader translation renderer",
+      "language": "",
+      "source_available": "Public source and v0.4 pre-release package; user must provide their own Xbox 360 game files; no game assets are included in the package.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Xbox 360 static recompilation and native Windows renderer",
+      "sources": [
+        {
+          "label": "Maintainer README: method, input requirements, and documented features",
+          "url": "https://github.com/m1ndcrap/Sega-Superstars-Tennis-ReMatch#readme"
+        },
+        {
+          "label": "Pre-release v0.4",
+          "url": "https://github.com/m1ndcrap/Sega-Superstars-Tennis-ReMatch/releases/tag/v0.4"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/m1ndcrap/Sega-Superstars-Tennis-ReMatch/languages"
+        }
+      ]
+    },
+    {
+      "id": "diablo-3-vanilla-xbox360-rehydrated",
+      "title": "Diablo III Vanilla Xbox 360 Rehydrated Recompilation",
+      "game": "Diablo III (Xbox 360 vanilla C1.0.0.17339; not Ultimate Evil Edition)",
+      "target_type": "Game",
+      "platform": "Xbox 360 (USA vanilla disc, image MD5 3360CCDA2970F81AD75DE8EC02D2AE1E) → Windows build documented with Visual Studio",
+      "kind": "Recompilation",
+      "status": "Early experimental state. The maintainer says the game runs but does not report a more detailed playable scope or a completed play-through; additional rendering configuration is needed to avoid black 3D graphics.",
+      "summary": "A ReXGlue v0.10.0 static recompilation targeting the original vanilla Xbox 360 version of Diablo III. Building requires the user's own US disc-derived Default.xex and CPKs; the README explicitly excludes the later Ultimate Evil Edition.",
+      "project_url": "https://github.com/Crypto137/Rehydrated",
+      "updated": "2026-10-15",
+      "strategy": "Static Xbox 360 PowerPC-to-C++ recompilation using ReXGlue v0.10.0",
+      "language": "",
+      "source_available": "Public source; requires Default.xex and CPK files extracted from the user's own vanilla US Xbox 360 disc; no release or bundled game files documented.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Xbox 360 static recompilation prototype",
+      "sources": [
+        {
+          "label": "Maintainer README: exact vanilla build, MD5, requirements, and status",
+          "url": "https://github.com/Crypto137/Rehydrated#readme"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/Crypto137/Rehydrated/languages"
+        }
+      ]
+    },
+    {
+      "id": "forza-motorsport-3-ultimate-collection-twilightysparkle-recomp",
+      "title": "Forza Motorsport 3 Ultimate Collection Recompilation (twilightysparkle)",
+      "game": "Forza Motorsport 3: Ultimate Collection (Xbox 360)",
+      "target_type": "Game",
+      "platform": "Xbox 360 (USA Ultimate Collection, Title ID 4D53084D; Disc 1 and Disc 2) → Windows 10/11 x64, Direct3D 12",
+      "kind": "Recompilation",
+      "status": "Early work in progress; v0.1.0 release. The game boots, menus work, Disc 2 content installs, and races are drivable. Only the opening race and a few exhibition laps have been played; most career content, tracks, cars, and replays remain untested.",
+      "summary": "An independent Forza Motorsport 3 implementation that statically recompiles Xbox 360 PowerPC code ahead of time to C++ with ReXGlue v0.10.0 and renders through Direct3D 12. The launcher verifies the user's own USA Ultimate Collection Disc 1 and Disc 2 against documented Redump file hashes; no copyrighted game files are distributed.",
+      "project_url": "https://github.com/twilightysparkle/forza3-recomp",
+      "updated": "2026-10-15",
+      "strategy": "Static Xbox 360 PowerPC-to-C++ recompilation with ReXGlue v0.10.0 and a Direct3D 12 renderer",
+      "language": "",
+      "source_available": "Public source and v0.1.0 release; requires the user's own USA Ultimate Collection Xbox 360 discs 1 and 2; game files are not included.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Independent Xbox 360 static recompilation",
+      "sources": [
+        {
+          "label": "Maintainer README: method, exact edition, requirements, and tested play scope",
+          "url": "https://github.com/twilightysparkle/forza3-recomp#readme"
+        },
+        {
+          "label": "Release v0.1.0",
+          "url": "https://github.com/twilightysparkle/forza3-recomp/releases/tag/v0.1.0"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/twilightysparkle/forza3-recomp/languages"
+        }
+      ]
+    },
+    {
+      "id": "pirates-at-worlds-end-xbox360-recomp",
+      "title": "Pirates of the Caribbean: At World's End Xbox 360 Recompilation",
+      "game": "Pirates of the Caribbean: At World's End (Xbox 360, 2007)",
+      "target_type": "Game",
+      "platform": "Xbox 360 (default.xex CRC32 A31B1069; region/revision not stated) → Windows 10/11 x64",
+      "kind": "Recompilation",
+      "status": "Early v0.1.0 release. The maintainer reports playing the first levels in hour-long sessions without problems; later levels have not been tested.",
+      "summary": "Statically recompiles the Xbox 360 PowerPC executable to C++ with ReXGlue. Its default NativeXRenderer draws through Vulkan; an alternate Xenos GPU path is also available through the ReXGlue runtime. The player extracts the game from their own disc/image so assets/default.xex is present; the expected executable CRC is checked at startup. No game data is included.",
+      "project_url": "https://github.com/ElGuslml/PiratesAtWorldsEndRecomp",
+      "updated": "2026-10-15",
+      "strategy": "Static Xbox 360 PowerPC-to-C++ recompilation using ReXGlue; NativeXRenderer Vulkan backend with Xenos fallback",
+      "language": "",
+      "source_available": "Public source and v0.1.0 release; requires the user's own Xbox 360 copy and locally extracted game files; no game files or links to them are included.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Xbox 360 static recompilation and native Windows rendering",
+      "sources": [
+        {
+          "label": "Maintainer README: exact executable check, game-data requirements, method, and test scope",
+          "url": "https://github.com/ElGuslml/PiratesAtWorldsEndRecomp#readme"
+        },
+        {
+          "label": "Release v0.1.0",
+          "url": "https://github.com/ElGuslml/PiratesAtWorldsEndRecomp/releases/tag/v0.1.0"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/ElGuslml/PiratesAtWorldsEndRecomp/languages"
+        }
+      ]
+    },
+    {
+      "id": "50-cent-blood-on-the-sand-skullburglar-desktop-recomp",
+      "title": "50 Cent: Blood on the Sand Skullburglar Native Desktop Recompilation",
+      "game": "50 Cent: Blood on the Sand (Xbox 360, 2009)",
+      "target_type": "Game",
+      "platform": "Xbox 360 → Windows x64, Linux x86-64 (including Steam Deck), macOS Apple Silicon arm64",
+      "kind": "Recompilation",
+      "status": "The maintainer reports the full nine-mission story playable from start to finish on Windows, Linux, Steam Deck, and Apple Silicon macOS. A 36-minute full-story run on an RTX 3090 is reported at a 60 FPS median; the README does not identify the tested desktop release build by version.",
+      "summary": "Uses ReXGlue to statically translate the Xbox 360 executable to native host code and provides a native Vulkan renderer, with the Xenos GPU runtime available as a fallback. Ready-to-play desktop builds are linked from the maintainer's download site. Users supply their own Xbox 360 disc; a default.xex SHA-1 is checked by the build instructions, and game data/code are excluded from the repository and downloads.",
+      "project_url": "https://github.com/nlwstein/skullburglar",
+      "updated": "2026-10-15",
+      "strategy": "Xbox 360 PowerPC-to-C++ static recompilation using ReXGlue with a native Vulkan renderer; Windows/Linux x86-64 and macOS arm64 hosts",
+      "language": "",
+      "source_available": "Public source and desktop builds linked by the maintainer; requires the user's own Xbox 360 disc; no game data, game code, or recompiled output is included.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Xbox 360 static recompilation for Windows, Linux, and macOS",
+      "sources": [
+        {
+          "label": "Maintainer README: desktop hosts, renderer, and full-story status",
+          "url": "https://github.com/nlwstein/skullburglar#readme"
+        },
+        {
+          "label": "Maintainer build guide: ReXGlue version, supported host builds, and user game-disc requirements",
+          "url": "https://github.com/nlwstein/skullburglar/blob/main/BUILDING.md"
+        },
+        {
+          "label": "Expected user-supplied default.xex checksum",
+          "url": "https://github.com/nlwstein/skullburglar/blob/main/default.xex.sha1"
+        },
+        {
+          "label": "Ready-to-play desktop downloads",
+          "url": "https://skullburglar.stz.sh"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/nlwstein/skullburglar/languages"
+        }
+      ]
+    },
+    {
+      "id": "catherine-xbox360-macos-apple-silicon-recomp",
+      "title": "Catherine Xbox 360 Apple Silicon macOS Recompilation",
+      "game": "Catherine (Xbox 360 USA retail release)",
+      "target_type": "Game",
+      "platform": "Xbox 360 (USA exact release checked during setup) → macOS 15+ on Apple Silicon (M1 or newer)",
+      "kind": "Recompilation",
+      "status": "Release 1.0 is marked playable: boots, menus, cutscenes, and gameplay are reported working at a steady 30 FPS on a base M4 MacBook Pro with 16 GB on macOS 15. That is the only hardware tested so far; rendering still uses the Xbox 360 GPU emulation path.",
+      "summary": "Uses ReXGlue to statically recompile the Xbox 360 game code for Apple Silicon macOS. The README says graphics remain emulated and work is still in progress. Setup requires the user's own extracted USA game folder containing default.xex and checks the exact supported release; no game data is included.",
+      "project_url": "https://github.com/ammocache/catherine-macos",
+      "updated": "2026-10-15",
+      "strategy": "ReXGlue static Xbox 360 PowerPC-to-C++ recompilation for Apple Silicon; Xbox 360 GPU still emulated",
+      "language": "",
+      "source_available": "Public source and release-1.0 package; requires the user's own extracted Catherine USA Xbox 360 release; game data is not included.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Xbox 360 static recompilation for Apple Silicon macOS",
+      "sources": [
+        {
+          "label": "Maintainer README: exact supported edition, macOS requirements, and tested playability",
+          "url": "https://github.com/ammocache/catherine-macos#readme"
+        },
+        {
+          "label": "Release 1.0",
+          "url": "https://github.com/ammocache/catherine-macos/releases/tag/release-1.0"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/ammocache/catherine-macos/languages"
+        }
+      ]
+    },
+    {
+      "id": "wwe-all-stars-xbox360-windows-recomp",
+      "title": "WWE All Stars Xbox 360 Native Windows Recompilation",
+      "game": "WWE All Stars (Xbox 360 USA/Europe; Title Update 2 required)",
+      "target_type": "Game",
+      "platform": "Xbox 360 → Windows 10/11 x64 (native Vulkan; tested Windows 11)",
+      "kind": "Recompilation",
+      "status": "v1.1.0 release. The README reports tested play for Exhibition 1v1, Path of Champions, Fantasy Warfare, Create a Superstar, four local players, DLC wrestlers, and online Player Match. Tested on Windows 11 with an RX 7900 XT and on Steam Deck through Proton; Windows 10, desktop Linux, and NVIDIA/Intel GPUs are untested. Ranked Match and leaderboards are unsupported.",
+      "summary": "Statically recompiles the Xbox 360 PowerPC game code and Title Update 2 to C++ using ReXGlue, with a native Vulkan renderer, launcher, and locally prepared shaders. Users provide their own USA/Europe disc image and Title Update 2; purchased DLC may be added. The project does not include the game data.",
+      "project_url": "https://github.com/shaneomac1337/WWE-AllStars-Recomp",
+      "updated": "2026-10-15",
+      "strategy": "Xbox 360 PowerPC-to-C++ static recompilation using ReXGlue with a native Vulkan renderer",
+      "language": "",
+      "source_available": "Public source and v1.1.0 Windows release; requires the user's own USA/Europe Xbox 360 disc and Title Update 2; optional user-owned DLC.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Xbox 360 static recompilation and native Windows port",
+      "sources": [
+        {
+          "label": "Maintainer README: method, supported game data, play tests, and limitations",
+          "url": "https://github.com/shaneomac1337/WWE-AllStars-Recomp#readme"
+        },
+        {
+          "label": "Release v1.1.0",
+          "url": "https://github.com/shaneomac1337/WWE-AllStars-Recomp/releases/tag/v1.1.0"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/shaneomac1337/WWE-AllStars-Recomp/languages"
+        }
+      ]
+    },
+    {
+      "id": "fable-2-xbox360-fable2recomp-project",
+      "title": "Fable II Xbox 360 Recompilation (Fable2Recomp Project)",
+      "game": "Fable II (Xbox 360 GOTY TU1)",
+      "target_type": "Game",
+      "platform": "Xbox 360 → Windows x64 and Linux x64 (documented CMake presets)",
+      "kind": "Recompilation",
+      "status": "Early work in progress with no release or verified boot/gameplay result documented. The README describes the project and ReXGlue build/code-generation steps; higher resolutions and frame rates are listed as plans.",
+      "summary": "A separate Fable II project using a ReXGlue static recompilation configuration and C++ hooks. The README identifies its base as Fable II GOTY TU1 and asks for local game assets in an assets folder for code generation; it does not specify the asset provenance or a checksum. The public repository tree contains project source/configuration but no game assets.",
+      "project_url": "https://github.com/Fable2Recomp/Fable2Recomp",
+      "updated": "2026-10-15",
+      "strategy": "Game-specific ReXGlue static recompilation configuration with C++ host hooks",
+      "language": "",
+      "source_available": "Public source/configuration; build requires local game assets for GOTY TU1; repository tree contains no game asset files and README does not document a dump checksum.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Independent Xbox 360 static recompilation WIP",
+      "sources": [
+        {
+          "label": "Maintainer README: exact base version, host targets, build method, and limits",
+          "url": "https://github.com/Fable2Recomp/Fable2Recomp#readme"
+        },
+        {
+          "label": "GitHub repository tree showing project source/configuration without an assets directory",
+          "url": "https://github.com/Fable2Recomp/Fable2Recomp/tree/main"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/Fable2Recomp/Fable2Recomp/languages"
+        }
+      ]
+    },
+    {
+      "id": "x-men-destiny-xbox360-native-pc-recomp",
+      "title": "X-Men: Destiny Xbox 360 Native PC Recompilation",
+      "game": "X-Men: Destiny (Xbox 360; supported retail build not identified)",
+      "target_type": "Game",
+      "platform": "Xbox 360 → Windows x64 with D3D12 build path (README also describes Linux/Vulkan but provides no Linux build recipe)",
+      "kind": "Recompilation",
+      "status": "v0.1.0-alpha.3 release. The repository provides ReXGlue port scaffolding, configuration, hooks, launcher, and build instructions; the README does not document a successful boot or gameplay test and does not identify the exact supported disc revision.",
+      "summary": "A ReXGlue project that statically recompiles Xbox 360 PowerPC code to C++ and targets a native Windows build. Setup requires the user's own Xbox 360 ISO extracted so game/default.xex exists; the exact region/revision is not stated. The README describes a Linux/Vulkan target at a high level, while its build procedure is Windows-focused.",
+      "project_url": "https://github.com/florinp93/xmd-recompiled",
+      "updated": "2026-10-15",
+      "strategy": "ReXGlue Xbox 360 PowerPC-to-C++ static recompilation with native PC host scaffolding",
+      "language": "",
+      "source_available": "Public source, alpha release, and installer/build scripts; requires the user's own Xbox 360 ISO/default.xex; exact supported edition is not documented.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C/C++",
+      "subtype": "Xbox 360 static recompilation WIP",
+      "sources": [
+        {
+          "label": "Maintainer README: method, build requirements, game-data input, and current documentation scope",
+          "url": "https://github.com/florinp93/xmd-recompiled#readme"
+        },
+        {
+          "label": "Release v0.1.0-alpha.3",
+          "url": "https://github.com/florinp93/xmd-recompiled/releases/tag/v0.1.0-alpha.3"
+        },
+        {
+          "label": "GitHub language breakdown",
+          "url": "https://api.github.com/repos/florinp93/xmd-recompiled/languages"
+        }
+      ]
+    }
+  ]
+}

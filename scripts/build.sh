@@ -79,6 +79,18 @@ fi
 if [[ -f data/research/discovery-2026-10-15/47-programming-language-evidence/programming-languages.json ]]; then
   python3 scripts/catalog.py import-programming-languages data/research/discovery-2026-10-15/47-programming-language-evidence/programming-languages.json
 fi
+if [[ -f data/research/discovery-2026-10-16/project-additions-reviewed.json ]]; then
+  python3 scripts/catalog.py import data/research/discovery-2026-10-16/project-additions-reviewed.json
+fi
+if [[ -f data/research/discovery-2026-10-16/project-updates-reviewed.json ]]; then
+  python3 scripts/catalog.py import-project-updates data/research/discovery-2026-10-16/project-updates-reviewed.json
+fi
+if [[ -f data/research/discovery-2026-10-16/programming-languages-reviewed.json ]]; then
+  python3 scripts/catalog.py import-programming-languages data/research/discovery-2026-10-16/programming-languages-reviewed.json
+fi
+if [[ -f data/research/discovery-2026-10-16/media-reviewed.json ]]; then
+  python3 scripts/catalog.py import-media data/research/discovery-2026-10-16/media-reviewed.json
+fi
 if [[ -f data/research/console-gallery.json ]]; then
   if python3 - <<'PY'
 import json

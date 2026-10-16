@@ -1,0 +1,2566 @@
+{
+  "prepared": "2026-10-16",
+  "database": "data/catalog.sqlite",
+  "database_projects": 1290,
+  "integrity_check": "ok",
+  "input_rows": {
+    "round1-18": 547,
+    "lanes19-43": 45,
+    "xbox44": 1,
+    "hydration45": 27
+  },
+  "source_rows_total": 620,
+  "unique_candidate_ids": 592,
+  "duplicate_id_count": 28,
+  "duplicate_ids": [
+    "acgc-android-port",
+    "aleph-one-marathon",
+    "ballpad-super-mario-strikers-ios",
+    "basilisk-ii-classic-mac",
+    "bellpad-animal-crossing-ios",
+    "cavalry-language-switcher",
+    "crossover",
+    "ectopad-metroid-prime-ios",
+    "fire-emblem-warriors-3ds-ko",
+    "gta-vice-city-stories-android-recomp",
+    "harvest-moon-64-android-recomp",
+    "meleepad-melee-ios",
+    "metroid-prime-hunters-android-recomp",
+    "microsoft-bob-recomp",
+    "mini-vmac",
+    "minish-cap-aleks-ultimate-nx",
+    "perfect-dark-android",
+    "pokemon-azoth-en",
+    "projectreach-halo-xbox-ios",
+    "sacred-stones-android-recomp",
+    "sheepshaver-classic-mac",
+    "sm64-android-port-base",
+    "snappad-pokemon-snap-ios",
+    "spaghettikart-android",
+    "starship-android",
+    "theft4-gta-iv-ios",
+    "wheeldroid-mario-kart-wii-android",
+    "zelda3-android"
+  ],
+  "field_conflict_count": 25,
+  "importer_ready_record_count": 528,
+  "unchanged_fields_omitted": 378,
+  "duplicate_audit": {
+    "acgc-android-port": {
+      "current": {
+        "platform": "Nintendo GameCube → Android",
+        "source_available": "Repository"
+      },
+      "proposals": [
+        {
+          "manifest": "round1-18",
+          "fields": {
+            "source_available": "Public source repository"
+          },
+          "sources": {
+            "source_available": [
+              {
+                "label": "GitHub repository API: source availability and license metadata",
+                "url": "https://api.github.com/repos/zwaetschge/ACGC-Android-Port"
+              }
+            ]
+          }
+        },
+        {
+          "manifest": "hydration45",
+          "fields": {
+            "source_available": "Public source repository and APK releases; no game data is included. Users supply their own supported GameCube disc image.",
+            "platform": "Nintendo GameCube → Android 8+ (ARM64 or ARMv7; OpenGL ES 3)"
+          },
+          "sources": {
+            "source_available": [
+              {
+                "label": "Maintainer README: source and game-data distribution",
+                "url": "https://github.com/zwaetschge/ACGC-Android-Port/blob/master/README.md"
+              }
+            ],
+            "platform": [
+              {
+                "label": "Maintainer README: source and game-data distribution",
+                "url": "https://github.com/zwaetschge/ACGC-Android-Port/blob/master/README.md"
+              }
+            ]
+          }
+        }
+      ],
+      "recommended": {
+        "source_available": "Public source repository and APK releases; no game data is included. Users supply their own supported GameCube disc image.",
+        "platform": "Nintendo GameCube → Android 8+ (ARM64 or ARMv7; OpenGL ES 3)"
+      },
+      "changed": {
+        "source_available": "Public source repository and APK releases; no game data is included. Users supply their own supported GameCube disc image.",
+        "platform": "Nintendo GameCube → Android 8+ (ARM64 or ARMv7; OpenGL ES 3)"
+      },
+      "sources_by_field": {
+        "source_available": [
+          {
+            "label": "GitHub repository API: source availability and license metadata",
+            "url": "https://api.github.com/repos/zwaetschge/ACGC-Android-Port"
+          },
+          {
+            "label": "Maintainer README: source and game-data distribution",
+            "url": "https://github.com/zwaetschge/ACGC-Android-Port/blob/master/README.md"
+          }
+        ],
+        "platform": [
+          {
+            "label": "Maintainer README: source and game-data distribution",
+            "url": "https://github.com/zwaetschge/ACGC-Android-Port/blob/master/README.md"
+          }
+        ]
+      },
+      "decisions": {
+        "source_available": "use detailed maintainer distribution caveat and retain explicit license evidence where present",
+        "platform": "single proposal"
+      }
+    },
+    "aleph-one-marathon": {
+      "current": {
+        "programming_language": "",
+        "source_available": "Repository",
+        "subtype": "Multi-title game engine port"
+      },
+      "proposals": [
+        {
+          "manifest": "round1-18",
+          "fields": {
+            "programming_language": "C++",
+            "source_available": "Public source repository; scenario data is required for full game content. GitHub repository metadata reports GPL-3.0 (GNU General Public License v3.0).",
+            "subtype": "Multi-title native engine continuation and source port"
+          },
+          "sources": {
+            "programming_language": [
+              {
+                "label": "Aleph One README: engine scope, supported titles, and scenario data",
+                "url": "https://github.com/Aleph-One-Marathon/alephone"
+              },
+              {
+                "label": "GitHub repository language metadata / GitHub repository API: source availability and license metadata",
+                "url": "https://api.github.com/repos/Aleph-One-Marathon/alephone"
+              }
+            ],
+            "source_available": [
+              {
+                "label": "Aleph One README: engine scope, supported titles, and scenario data",
+                "url": "https://github.com/Aleph-One-Marathon/alephone"
+              },
+              {
+                "label": "GitHub repository language metadata / GitHub repository API: source availability and license metadata",
+                "url": "https://api.github.com/repos/Aleph-One-Marathon/alephone"
+              }
+            ],
+            "subtype": [
+              {
+                "label": "Aleph One README: engine scope, supported titles, and scenario data",
+                "url": "https://github.com/Aleph-One-Marathon/alephone"
+              },
+              {
+                "label": "GitHub repository language metadata / GitHub repository API: source availability and license metadata",
+                "url": "https://api.github.com/repos/Aleph-One-Marathon/alephone"
+              }
+            ]
+          }
+        },
+        {
+          "manifest": "hydration45",
+          "fields": {
+            "source_available": "GPL-3.0 source repository and source tarballs are public; game scenario/data files are distributed separately or supplied by the user."
+          },
+          "sources": {
+            "source_available": [
+              {
+                "label": "Maintainer README: source and game-data distribution",
+                "url": "https://github.com/Aleph-One-Marathon/alephone/blob/master/README.md"
+              }
+            ]
+          }
+        }
+      ],
+      "recommended": {
+        "programming_language": "C++",
+        "source_available": "GPL-3.0 source repository and source tarballs are public; game scenario/data files are distributed separately or supplied by the user.",
+        "subtype": "Multi-title native engine continuation and source port"
+      },
+      "changed": {
+        "programming_language": "C++",
+        "source_available": "GPL-3.0 source repository and source tarballs are public; game scenario/data files are distributed separately or supplied by the user.",
+        "subtype": "Multi-title native engine continuation and source port"
+      },
+      "sources_by_field": {
+        "programming_language": [
+          {
+            "label": "Aleph One README: engine scope, supported titles, and scenario data",
+            "url": "https://github.com/Aleph-One-Marathon/alephone"
+          },
+          {
+            "label": "GitHub repository language metadata / GitHub repository API: source availability and license metadata",
+            "url": "https://api.github.com/repos/Aleph-One-Marathon/alephone"
+          }
+        ],
+        "source_available": [
+          {
+            "label": "Aleph One README: engine scope, supported titles, and scenario data",
+            "url": "https://github.com/Aleph-One-Marathon/alephone"
+          },
+          {
+            "label": "GitHub repository language metadata / GitHub repository API: source availability and license metadata",
+            "url": "https://api.github.com/repos/Aleph-One-Marathon/alephone"
+          },
+          {
+            "label": "Maintainer README: source and game-data distribution",
+            "url": "https://github.com/Aleph-One-Marathon/alephone/blob/master/README.md"
+          }
+        ],
+        "subtype": [
+          {
+            "label": "Aleph One README: engine scope, supported titles, and scenario data",
+            "url": "https://github.com/Aleph-One-Marathon/alephone"
+          },
+          {
+            "label": "GitHub repository language metadata / GitHub repository API: source availability and license metadata",
+            "url": "https://api.github.com/repos/Aleph-One-Marathon/alephone"
+          }
+        ]
+      },
+      "decisions": {
+        "programming_language": "single proposal",
+        "source_available": "use detailed maintainer distribution caveat and retain explicit license evidence where present",
+        "subtype": "single proposal"
+      }
+    },
+    "ballpad-super-mario-strikers-ios": {
+      "current": {
+        "platform": "Nintendo GameCube → iOS/iPadOS",
+        "source_available": "Repository"
+      },
+      "proposals": [
+        {
+          "manifest": "round1-18",
+          "fields": {
+            "source_available": "Public source repository (GPL-3.0 license)"
+          },
+          "sources": {
+            "source_available": [
+              {
+                "label": "GitHub repository API: source availability and license metadata",
+                "url": "https://api.github.com/repos/chrissotraidis/ballpad"
+              }
+            ]
+          }
+        },
+        {
+          "manifest": "hydration45",
+          "fields": {
+            "source_available": "Public source repository; no ready-to-install app is published. PadMint builds a local app from source; users supply their own supported disc image.",
+            "platform": "Nintendo GameCube → iOS/iPadOS 17+ (native ARM64)"
+          },
+          "sources": {
+            "source_available": [
+              {
+                "label": "Maintainer README: source and game-data distribution",
+                "url": "https://github.com/chrissotraidis/ballpad/blob/main/README.md"
+              }
+            ],
+            "platform": [
+              {
+                "label": "Maintainer README: source and game-data distribution",
+                "url": "https://github.com/chrissotraidis/ballpad/blob/main/README.md"
+              }
+            ]
+          }
+        }
+      ],
+      "recommended": {
+        "source_available": "Public GPL-3.0 source repository; no ready-to-install app is published. PadMint builds a local app from source; users supply their own supported disc image.",
+        "platform": "Nintendo GameCube → iOS/iPadOS 17+ (native ARM64)"
+      },
+      "changed": {
+        "source_available": "Public GPL-3.0 source repository; no ready-to-install app is published. PadMint builds a local app from source; users supply their own supported disc image.",
+        "platform": "Nintendo GameCube → iOS/iPadOS 17+ (native ARM64)"
+      },
+      "sources_by_field": {
+        "source_available": [
+          {
+            "label": "GitHub repository API: source availability and license metadata",
+            "url": "https://api.github.com/repos/chrissotraidis/ballpad"
+          },
+          {
+            "label": "Maintainer README: source and game-data distribution",
+            "url": "https://github.com/chrissotraidis/ballpad/blob/main/README.md"
+          }
+        ],
+        "platform": [
+          {
+            "label": "Maintainer README: source and game-data distribution",
+            "url": "https://github.com/chrissotraidis/ballpad/blob/main/README.md"
+          }
+        ]
+      },
+      "decisions": {
+        "source_available": "use detailed maintainer distribution caveat and retain explicit license evidence where present",
+        "platform": "single proposal"
+      }
+    },
+    "basilisk-ii-classic-mac": {
+      "current": {
+        "source_available": "Repository"
+      },
+      "proposals": [
+        {
+          "manifest": "round1-18",
+          "fields": {
+            "source_available": "Public source repository"
+          },
+          "sources": {
+            "source_available": [
+              {
+                "label": "GitHub repository API: source availability and license metadata",
+                "url": "https://api.github.com/repos/cebix/macemu"
+              }
+            ]
+          }
+        },
+        {
+          "manifest": "hydration45",
+          "fields": {
+            "source_available": "GPL source is public in the shared macemu repository; users must separately supply a Mac OS copy and Macintosh ROM image."
+          },
+          "sources": {
+            "source_available": [
+              {
+                "label": "Maintainer README: source and game-data distribution",
+                "url": "https://github.com/cebix/macemu/blob/master/README.md"
+              }
+            ]
+          }
+        }
+      ],
+      "recommended": {
+        "source_available": "GPL source is public in the shared macemu repository; users must separately supply a Mac OS copy and Macintosh ROM image."
+      },
+      "changed": {
+        "source_available": "GPL source is public in the shared macemu repository; users must separately supply a Mac OS copy and Macintosh ROM image."
+      },
+      "sources_by_field": {
+        "source_available": [
+          {
+            "label": "GitHub repository API: source availability and license metadata",
+            "url": "https://api.github.com/repos/cebix/macemu"
+          },
+          {
+            "label": "Maintainer README: source and game-data distribution",
+            "url": "https://github.com/cebix/macemu/blob/master/README.md"
+          }
+        ]
+      },
+      "decisions": {
+        "source_available": "use detailed maintainer distribution caveat and retain explicit license evidence where present"
+      }
+    },
+    "bellpad-animal-crossing-ios": {
+      "current": {
+        "platform": "Nintendo GameCube → iOS/iPadOS",
+        "source_available": "Repository"
+      },
+      "proposals": [
+        {
+          "manifest": "round1-18",
+          "fields": {
+            "source_available": "Public source repository"
+          },
+          "sources": {
+            "source_available": [
+              {
+                "label": "GitHub repository API: source availability and license metadata",
+                "url": "https://api.github.com/repos/chrissotraidis/bellpad"
+              }
+            ]
+          }
+        },
+        {
+          "manifest": "hydration45",
+          "fields": {
+            "source_available": "Public source repository and reproducible build recipe; no store-distributed app. Users supply legally obtained supported game data.",
+            "platform": "Nintendo GameCube → Apple Silicon macOS and iOS/iPadOS 17+ (ARM64)"
+          },
+          "sources": {
+            "source_available": [
+              {
+                "label": "Maintainer README: source and game-data distribution",
+                "url": "https://github.com/chrissotraidis/bellpad/blob/main/README.md"
+              }
+            ],
+            "platform": [
+              {
+                "label": "Maintainer README: source and game-data distribution",
+                "url": "https://github.com/chrissotraidis/bellpad/blob/main/README.md"
+              }
+            ]
+          }
+        }
+      ],
+      "recommended": {
+        "source_available": "Public source repository and reproducible build recipe; no store-distributed app. Users supply legally obtained supported game data.",
+        "platform": "Nintendo GameCube → Apple Silicon macOS and iOS/iPadOS 17+ (ARM64)"
+      },
+      "changed": {
+        "source_available": "Public source repository and reproducible build recipe; no store-distributed app. Users supply legally obtained supported game data.",
+        "platform": "Nintendo GameCube → Apple Silicon macOS and iOS/iPadOS 17+ (ARM64)"
+      },
+      "sources_by_field": {
+        "source_available": [
+          {
+            "label": "GitHub repository API: source availability and license metadata",
+            "url": "https://api.github.com/repos/chrissotraidis/bellpad"
+          },
+          {
+            "label": "Maintainer README: source and game-data distribution",
+            "url": "https://github.com/chrissotraidis/bellpad/blob/main/README.md"
+          }
+        ],
+        "platform": [
+          {
+            "label": "Maintainer README: source and game-data distribution",
+            "url": "https://github.com/chrissotraidis/bellpad/blob/main/README.md"
+          }
+        ]
+      },
+      "decisions": {
+        "source_available": "use detailed maintainer distribution caveat and retain explicit license evidence where present",
+        "platform": "single proposal"
+      }
+    },
+    "cavalry-language-switcher": {
+      "current": {
+        "platform": "macOS; Windows x64",
+        "updated": null
+      },
+      "proposals": [
+        {
+          "manifest": "round1-18",
+          "fields": {
+            "platform": "macOS; Windows x64"
+          },
+          "sources": {
+            "platform": [
+              {
+                "label": "Maintainer README; supported UI languages and application versions",
+                "url": "https://github.com/daftAI2026/Cavalry-i18n"
+              },
+              {
+                "label": "Cavalry 2.7.2 patch p12 release",
+                "url": "https://github.com/daftAI2026/Cavalry-i18n/releases/tag/cavalry-2.7.2-p12"
+              }
+            ]
+          }
+        },
+        {
+          "manifest": "hydration45",
+          "fields": {
+            "updated": "2026-09-29"
+          },
+          "sources": {
+            "updated": [
+              {
+                "label": "Latest maintainer release, Cavalry 2.7.2 patch 12",
+                "url": "https://github.com/daftAI2026/Cavalry-i18n/releases/tag/cavalry-2.7.2-p12"
+              }
+            ]
+          }
+        }
+      ],
+      "recommended": {
+        "platform": "macOS; Windows x64",
+        "updated": "2026-09-29"
+      },
+      "changed": {
+        "updated": "2026-09-29"
+      },
+      "sources_by_field": {
+        "platform": [
+          {
+            "label": "Maintainer README; supported UI languages and application versions",
+            "url": "https://github.com/daftAI2026/Cavalry-i18n"
+          },
+          {
+            "label": "Cavalry 2.7.2 patch p12 release",
+            "url": "https://github.com/daftAI2026/Cavalry-i18n/releases/tag/cavalry-2.7.2-p12"
+          }
+        ],
+        "updated": [
+          {
+            "label": "Latest maintainer release, Cavalry 2.7.2 patch 12",
+            "url": "https://github.com/daftAI2026/Cavalry-i18n/releases/tag/cavalry-2.7.2-p12"
+          }
+        ]
+      },
+      "decisions": {
+        "platform": "single proposal",
+        "updated": "single proposal"
+      }
+    },
+    "crossover": {
+      "current": {
+        "source_available": "Product page",
+        "strategy": "Commercial Wine-based Windows compatibility product; graphics backends are selectable components including WineD3D, DXVK, DXMT, and Apple D3DMetal. Native ARM64 Mac support is a Preview path using a custom FEX build for x86/x64 code."
+      },
+      "proposals": [
+        {
+          "manifest": "round1-18",
+          "fields": {
+            "strategy": "Commercial Wine-based Windows compatibility product; graphics backends are selectable components including WineD3D, DXVK, DXMT, and Apple D3DMetal. Native ARM64 Mac support is a Preview path using a custom FEX build for x86/x64 code."
+          },
+          "sources": {
+            "strategy": [
+              {
+                "label": "CodeWeavers CrossOver Mac graphics backend documentation",
+                "url": "https://support.codeweavers.com/en_US/advanced-settings-in-crossover-mac-26"
+              },
+              {
+                "label": "CodeWeavers native ARM64 Mac Preview announcement",
+                "url": "https://www.codeweavers.com/blog/mjohnson/2026/7/31/crossover-preview-the-right-to-bear-arm64-on-mac"
+              }
+            ]
+          }
+        },
+        {
+          "manifest": "hydration45",
+          "fields": {
+            "source_available": "Commercial product; CodeWeavers publishes a FOSS source bundle for CrossOver 26.3.0 and lists its included upstream components."
+          },
+          "sources": {
+            "source_available": [
+              {
+                "label": "CodeWeavers source-code page: downloadable FOSS bundle and component list",
+                "url": "https://www.codeweavers.com/crossover/source"
+              }
+            ]
+          }
+        }
+      ],
+      "recommended": {
+        "strategy": "Commercial Wine-based Windows compatibility product; graphics backends are selectable components including WineD3D, DXVK, DXMT, and Apple D3DMetal. Native ARM64 Mac support is a Preview path using a custom FEX build for x86/x64 code.",
+        "source_available": "Commercial product; CodeWeavers publishes a FOSS source bundle for CrossOver 26.3.0 and lists its included upstream components."
+      },
+      "changed": {
+        "source_available": "Commercial product; CodeWeavers publishes a FOSS source bundle for CrossOver 26.3.0 and lists its included upstream components."
+      },
+      "sources_by_field": {
+        "strategy": [
+          {
+            "label": "CodeWeavers CrossOver Mac graphics backend documentation",
+            "url": "https://support.codeweavers.com/en_US/advanced-settings-in-crossover-mac-26"
+          },
+          {
+            "label": "CodeWeavers native ARM64 Mac Preview announcement",
+            "url": "https://www.codeweavers.com/blog/mjohnson/2026/7/31/crossover-preview-the-right-to-bear-arm64-on-mac"
+          }
+        ],
+        "source_available": [
+          {
+            "label": "CodeWeavers source-code page: downloadable FOSS bundle and component list",
+            "url": "https://www.codeweavers.com/crossover/source"
+          }
+        ]
+      },
+      "decisions": {
+        "strategy": "single proposal",
+        "source_available": "single proposal"
+      }
+    },
+    "ectopad-metroid-prime-ios": {
+      "current": {
+        "kind": "Reimplementation",
+        "platform": "Nintendo GameCube → iOS/iPadOS",
+        "programming_language": "",
+        "source_available": "Repository",
+        "strategy": "Native engine reimplementation with Aurora/Dawn rendering adapted to Metal",
+        "subtype": "Metaforce Apple mobile integration"
+      },
+      "proposals": [
+        {
+          "manifest": "round1-18",
+          "fields": {
+            "kind": "Decompilation",
+            "strategy": "iOS integration/port of the Metaforce engine built on Metroid Prime decompilation source; adapts Aurora/Dawn rendering to Metal.",
+            "source_available": "Public source repository; Metaforce/PrimeDecomp lineage; user-supplied game data required; no public IPA documented",
+            "programming_language": "C++",
+            "subtype": "iOS integration of the decompilation-derived Metaforce engine"
+          },
+          "sources": {
+            "kind": [
+              {
+                "label": "EctoPad README: Metaforce/Aurora engine lineage, source build, and IPA status",
+                "url": "https://github.com/chrissotraidis/ectopad"
+              },
+              {
+                "label": "Metaforce project README",
+                "url": "https://github.com/AxioDL/metaforce"
+              },
+              {
+                "label": "GitHub repository API: source availability and license metadata",
+                "url": "https://api.github.com/repos/chrissotraidis/ectopad"
+              }
+            ],
+            "strategy": [
+              {
+                "label": "EctoPad README: Metaforce/Aurora engine lineage, source build, and IPA status",
+                "url": "https://github.com/chrissotraidis/ectopad"
+              },
+              {
+                "label": "Metaforce project README",
+                "url": "https://github.com/AxioDL/metaforce"
+              },
+              {
+                "label": "GitHub repository API: source availability and license metadata",
+                "url": "https://api.github.com/repos/chrissotraidis/ectopad"
+              }
+            ],
+            "source_available": [
+              {
+                "label": "EctoPad README: Metaforce/Aurora engine lineage, source build, and IPA status",
+                "url": "https://github.com/chrissotraidis/ectopad"
+              },
+              {
+                "label": "Metaforce project README",
+                "url": "https://github.com/AxioDL/metaforce"
+              },
+              {
+                "label": "GitHub repository API: source availability and license metadata",
+                "url": "https://api.github.com/repos/chrissotraidis/ectopad"
+              }
+            ],
+            "programming_language": [
+              {
+                "label": "EctoPad README: Metaforce/Aurora engine lineage, source build, and IPA status",
+                "url": "https://github.com/chrissotraidis/ectopad"
+              },
+              {
+                "label": "Metaforce project README",
+                "url": "https://github.com/AxioDL/metaforce"
+              },
+              {
+                "label": "GitHub repository API: source availability and license metadata",
+                "url": "https://api.github.com/repos/chrissotraidis/ectopad"
+              }
+            ],
+            "subtype": [
+              {
+                "label": "EctoPad README: Metaforce/Aurora engine lineage, source build, and IPA status",
+                "url": "https://github.com/chrissotraidis/ectopad"
+              },
+              {
+                "label": "Metaforce project README",
+                "url": "https://github.com/AxioDL/metaforce"
+              },
+              {
+                "label": "GitHub repository API: source availability and license metadata",
+                "url": "https://api.github.com/repos/chrissotraidis/ectopad"
+              }
+            ]
+          }
+        },
+        {
+          "manifest": "hydration45",
+          "fields": {
+            "source_available": "Public source/build instructions; no public IPA is currently available. Users supply their own supported Metroid Prime disc image.",
+            "platform": "Nintendo GameCube → iOS/iPadOS 14+ and Apple Silicon macOS"
+          },
+          "sources": {
+            "source_available": [
+              {
+                "label": "Maintainer README: source and game-data distribution",
+                "url": "https://github.com/chrissotraidis/ectopad/blob/main/README.md"
+              }
+            ],
+            "platform": [
+              {
+                "label": "Maintainer README: source and game-data distribution",
+                "url": "https://github.com/chrissotraidis/ectopad/blob/main/README.md"
+              }
+            ]
+          }
+        }
+      ],
+      "recommended": {
+        "kind": "Decompilation",
+        "strategy": "iOS integration/port of the Metaforce engine built on Metroid Prime decompilation source; adapts Aurora/Dawn rendering to Metal.",
+        "source_available": "Public source/build instructions for the Metaforce/PrimeDecomp-based iOS integration; no public IPA is currently documented. Users supply their own supported Metroid Prime disc image.",
+        "programming_language": "C++",
+        "subtype": "iOS integration of the decompilation-derived Metaforce engine",
+        "platform": "Nintendo GameCube → iOS/iPadOS 14+ and Apple Silicon macOS"
+      },
+      "changed": {
+        "kind": "Decompilation",
+        "strategy": "iOS integration/port of the Metaforce engine built on Metroid Prime decompilation source; adapts Aurora/Dawn rendering to Metal.",
+        "source_available": "Public source/build instructions for the Metaforce/PrimeDecomp-based iOS integration; no public IPA is currently documented. Users supply their own supported Metroid Prime disc image.",
+        "programming_language": "C++",
+        "subtype": "iOS integration of the decompilation-derived Metaforce engine",
+        "platform": "Nintendo GameCube → iOS/iPadOS 14+ and Apple Silicon macOS"
+      },
+      "sources_by_field": {
+        "kind": [
+          {
+            "label": "EctoPad README: Metaforce/Aurora engine lineage, source build, and IPA status",
+            "url": "https://github.com/chrissotraidis/ectopad"
+          },
+          {
+            "label": "Metaforce project README",
+            "url": "https://github.com/AxioDL/metaforce"
+          },
+          {
+            "label": "GitHub repository API: source availability and license metadata",
+            "url": "https://api.github.com/repos/chrissotraidis/ectopad"
+          }
+        ],
+        "strategy": [
+          {
+            "label": "EctoPad README: Metaforce/Aurora engine lineage, source build, and IPA status",
+            "url": "https://github.com/chrissotraidis/ectopad"
+          },
+          {
+            "label": "Metaforce project README",
+            "url": "https://github.com/AxioDL/metaforce"
+          },
+          {
+            "label": "GitHub repository API: source availability and license metadata",
+            "url": "https://api.github.com/repos/chrissotraidis/ectopad"
+          }
+        ],
+        "source_available": [
+          {
+            "label": "EctoPad README: Metaforce/Aurora engine lineage, source build, and IPA status",
+            "url": "https://github.com/chrissotraidis/ectopad"
+          },
+          {
+            "label": "Metaforce project README",
+            "url": "https://github.com/AxioDL/metaforce"
+          },
+          {
+            "label": "GitHub repository API: source availability and license metadata",
+            "url": "https://api.github.com/repos/chrissotraidis/ectopad"
+          },
+          {
+            "label": "Maintainer README: source and game-data distribution",
+            "url": "https://github.com/chrissotraidis/ectopad/blob/main/README.md"
+          }
+        ],
+        "programming_language": [
+          {
+            "label": "EctoPad README: Metaforce/Aurora engine lineage, source build, and IPA status",
+            "url": "https://github.com/chrissotraidis/ectopad"
+          },
+          {
+            "label": "Metaforce project README",
+            "url": "https://github.com/AxioDL/metaforce"
+          },
+          {
+            "label": "GitHub repository API: source availability and license metadata",
+            "url": "https://api.github.com/repos/chrissotraidis/ectopad"
+          }
+        ],
+        "subtype": [
+          {
+            "label": "EctoPad README: Metaforce/Aurora engine lineage, source build, and IPA status",
+            "url": "https://github.com/chrissotraidis/ectopad"
+          },
+          {
+            "label": "Metaforce project README",
+            "url": "https://github.com/AxioDL/metaforce"
+          },
+          {
+            "label": "GitHub repository API: source availability and license metadata",
+            "url": "https://api.github.com/repos/chrissotraidis/ectopad"
+          }
+        ],
+        "platform": [
+          {
+            "label": "Maintainer README: source and game-data distribution",
+            "url": "https://github.com/chrissotraidis/ectopad/blob/main/README.md"
+          }
+        ]
+      },
+      "decisions": {
+        "kind": "single proposal",
+        "strategy": "single proposal",
+        "source_available": "use detailed maintainer distribution caveat and retain explicit license evidence where present",
+        "programming_language": "single proposal",
+        "subtype": "single proposal",
+        "platform": "single proposal"
+      }
+    },
+    "fire-emblem-warriors-3ds-ko": {
+      "current": {
+        "platform": "New Nintendo 3DS",
+        "updated": null
+      },
+      "proposals": [
+        {
+          "manifest": "round1-18",
+          "fields": {
+            "platform": "New Nintendo 3DS"
+          },
+          "sources": {
+            "platform": [
+              {
+                "label": "Maintainer README; target game, scope, version and hardware notes",
+                "url": "https://github.com/arqhive/fire-emblem-warriors-korean-translation"
+              },
+              {
+                "label": "Maintainer patch deployment instructions",
+                "url": "https://github.com/arqhive/fire-emblem-warriors-korean-translation#deployment"
+              }
+            ]
+          }
+        },
+        {
+          "manifest": "hydration45",
+          "fields": {
+            "updated": "2026-10-11"
+          },
+          "sources": {
+            "updated": [
+              {
+                "label": "Latest maintainer patch release, v0.2.3",
+                "url": "https://github.com/arqhive/fire-emblem-warriors-korean-translation/releases/tag/v0.2.3"
+              }
+            ]
+          }
+        }
+      ],
+      "recommended": {
+        "platform": "New Nintendo 3DS",
+        "updated": "2026-10-11"
+      },
+      "changed": {
+        "updated": "2026-10-11"
+      },
+      "sources_by_field": {
+        "platform": [
+          {
+            "label": "Maintainer README; target game, scope, version and hardware notes",
+            "url": "https://github.com/arqhive/fire-emblem-warriors-korean-translation"
+          },
+          {
+            "label": "Maintainer patch deployment instructions",
+            "url": "https://github.com/arqhive/fire-emblem-warriors-korean-translation#deployment"
+          }
+        ],
+        "updated": [
+          {
+            "label": "Latest maintainer patch release, v0.2.3",
+            "url": "https://github.com/arqhive/fire-emblem-warriors-korean-translation/releases/tag/v0.2.3"
+          }
+        ]
+      },
+      "decisions": {
+        "platform": "single proposal",
+        "updated": "single proposal"
+      }
+    },
+    "gta-vice-city-stories-android-recomp": {
+      "current": {
+        "platform": "PlayStation Portable → Android (ARM)",
+        "source_available": "Repository",
+        "status": "Beta v0.3.0; maintainer reports gameplay on Galaxy S25 Ultra. Known limitations include freezes/black screens, skipped video intro, and high-resolution issues.",
+        "summary": "Android Vulkan app for a static PSP Allegrex-to-C++ recompilation, with touch controls. The maintainer reports a physical Galaxy S25 Ultra test and lists known rendering and stability limitations."
+      },
+      "proposals": [
+        {
+          "manifest": "round1-18",
+          "fields": {
+            "platform": "PlayStation Portable → Android (ARM64 and ARMv7), Windows",
+            "status": "Beta v0.3.0; Android 8+ with Vulkan is tested on a Galaxy S25 Ultra. The release offers both arm64 and 32-bit ARM APKs; the README lists skipped intro video and remaining freeze/black-screen and high-resolution issues.",
+            "summary": "Android Vulkan port of a static PSP Allegrex-to-C++ recompilation, with fullscreen play and save-state support. Requires the user's own PSP game data; APKs do not include commercial assets.",
+            "source_available": "Public source repository (MIT license)"
+          },
+          "sources": {
+            "platform": [
+              {
+                "label": "Maintainer README: Android requirements, device, APK variants and known issues",
+                "url": "https://github.com/codepdbh/PSPRecomp-VCS-Android"
+              },
+              {
+                "label": "Maintainer Android releases",
+                "url": "https://github.com/codepdbh/PSPRecomp-VCS-Android/releases"
+              },
+              {
+                "label": "GitHub repository API: source availability and license metadata",
+                "url": "https://api.github.com/repos/codepdbh/PSPRecomp-VCS-Android"
+              }
+            ],
+            "status": [
+              {
+                "label": "Maintainer README: Android requirements, device, APK variants and known issues",
+                "url": "https://github.com/codepdbh/PSPRecomp-VCS-Android"
+              },
+              {
+                "label": "Maintainer Android releases",
+                "url": "https://github.com/codepdbh/PSPRecomp-VCS-Android/releases"
+              },
+              {
+                "label": "GitHub repository API: source availability and license metadata",
+                "url": "https://api.github.com/repos/codepdbh/PSPRecomp-VCS-Android"
+              }
+            ],
+            "summary": [
+              {
+                "label": "Maintainer README: Android requirements, device, APK variants and known issues",
+                "url": "https://github.com/codepdbh/PSPRecomp-VCS-Android"
+              },
+              {
+                "label": "Maintainer Android releases",
+                "url": "https://github.com/codepdbh/PSPRecomp-VCS-Android/releases"
+              },
+              {
+                "label": "GitHub repository API: source availability and license metadata",
+                "url": "https://api.github.com/repos/codepdbh/PSPRecomp-VCS-Android"
+              }
+            ],
+            "source_available": [
+              {
+                "label": "Maintainer README: Android requirements, device, APK variants and known issues",
+                "url": "https://github.com/codepdbh/PSPRecomp-VCS-Android"
+              },
+              {
+                "label": "Maintainer Android releases",
+                "url": "https://github.com/codepdbh/PSPRecomp-VCS-Android/releases"
+              },
+              {
+                "label": "GitHub repository API: source availability and license metadata",
+                "url": "https://api.github.com/repos/codepdbh/PSPRecomp-VCS-Android"
+              }
+            ]
+          }
+        },
+        {
+          "manifest": "hydration45",
+          "fields": {
+            "source_available": "Public source repository and APK releases contain only the program; users must supply their own game files."
+          },
+          "sources": {
+            "source_available": [
+              {
+                "label": "Maintainer README: source and game-data distribution",
+                "url": "https://github.com/codepdbh/PSPRecomp-VCS-Android/blob/main/README.md"
+              }
+            ]
+          }
+        }
+      ],
+      "recommended": {
+        "platform": "PlayStation Portable → Android (ARM64 and ARMv7), Windows",
+        "status": "Beta v0.3.0; Android 8+ with Vulkan is tested on a Galaxy S25 Ultra. The release offers both arm64 and 32-bit ARM APKs; the README lists skipped intro video and remaining freeze/black-screen and high-resolution issues.",
+        "summary": "Android Vulkan port of a static PSP Allegrex-to-C++ recompilation, with fullscreen play and save-state support. Requires the user's own PSP game data; APKs do not include commercial assets.",
+        "source_available": "Public MIT-licensed source repository and Android APK releases contain only the program; users must supply their own game files."
+      },
+      "changed": {
+        "platform": "PlayStation Portable → Android (ARM64 and ARMv7), Windows",
+        "status": "Beta v0.3.0; Android 8+ with Vulkan is tested on a Galaxy S25 Ultra. The release offers both arm64 and 32-bit ARM APKs; the README lists skipped intro video and remaining freeze/black-screen and high-resolution issues.",
+        "summary": "Android Vulkan port of a static PSP Allegrex-to-C++ recompilation, with fullscreen play and save-state support. Requires the user's own PSP game data; APKs do not include commercial assets.",
+        "source_available": "Public MIT-licensed source repository and Android APK releases contain only the program; users must supply their own game files."
+      },
+      "sources_by_field": {
+        "platform": [
+          {
+            "label": "Maintainer README: Android requirements, device, APK variants and known issues",
+            "url": "https://github.com/codepdbh/PSPRecomp-VCS-Android"
+          },
+          {
+            "label": "Maintainer Android releases",
+            "url": "https://github.com/codepdbh/PSPRecomp-VCS-Android/releases"
+          },
+          {
+            "label": "GitHub repository API: source availability and license metadata",
+            "url": "https://api.github.com/repos/codepdbh/PSPRecomp-VCS-Android"
+          }
+        ],
+        "status": [
+          {
+            "label": "Maintainer README: Android requirements, device, APK variants and known issues",
+            "url": "https://github.com/codepdbh/PSPRecomp-VCS-Android"
+          },
+          {
+            "label": "Maintainer Android releases",
+            "url": "https://github.com/codepdbh/PSPRecomp-VCS-Android/releases"
+          },
+          {
+            "label": "GitHub repository API: source availability and license metadata",
+            "url": "https://api.github.com/repos/codepdbh/PSPRecomp-VCS-Android"
+          }
+        ],
+        "summary": [
+          {
+            "label": "Maintainer README: Android requirements, device, APK variants and known issues",
+            "url": "https://github.com/codepdbh/PSPRecomp-VCS-Android"
+          },
+          {
+            "label": "Maintainer Android releases",
+            "url": "https://github.com/codepdbh/PSPRecomp-VCS-Android/releases"
+          },
+          {
+            "label": "GitHub repository API: source availability and license metadata",
+            "url": "https://api.github.com/repos/codepdbh/PSPRecomp-VCS-Android"
+          }
+        ],
+        "source_available": [
+          {
+            "label": "Maintainer README: Android requirements, device, APK variants and known issues",
+            "url": "https://github.com/codepdbh/PSPRecomp-VCS-Android"
+          },
+          {
+            "label": "Maintainer Android releases",
+            "url": "https://github.com/codepdbh/PSPRecomp-VCS-Android/releases"
+          },
+          {
+            "label": "GitHub repository API: source availability and license metadata",
+            "url": "https://api.github.com/repos/codepdbh/PSPRecomp-VCS-Android"
+          },
+          {
+            "label": "Maintainer README: source and game-data distribution",
+            "url": "https://github.com/codepdbh/PSPRecomp-VCS-Android/blob/main/README.md"
+          }
+        ]
+      },
+      "decisions": {
+        "platform": "single proposal",
+        "status": "single proposal",
+        "summary": "single proposal",
+        "source_available": "use detailed maintainer distribution caveat and retain explicit license evidence where present"
+      }
+    },
+    "harvest-moon-64-android-recomp": {
+      "current": {
+        "platform": "Nintendo 64 → Android",
+        "source_available": "Repository",
+        "status": "Android APK v0.2.0 is released; README documents Android 9+ ARM64 and touch support, but no physical-device gameplay test.",
+        "summary": "Android build of a static N64 recompilation using N64: Recompiled. The README documents an Android APK, touch controls, and file selection; physical-device playability is not stated."
+      },
+      "proposals": [
+        {
+          "manifest": "round1-18",
+          "fields": {
+            "platform": "Nintendo 64 → Android (arm64-v8a, Android 9/API 28+, Vulkan 1.1)",
+            "status": "APK releases are available; the README specifies Android 9/API 28+, arm64-v8a and Vulkan 1.1. It documents touch controls and dual-screen companion UI, but does not name a physical test device.",
+            "summary": "Android build of the Harvest Moon 64 static recompilation with an N64 touch overlay and optional second-screen dashboard for dual-display handhelds. It requires the user's NTSC-U ROM; game assets are not distributed.",
+            "source_available": "Public source repository (GPL-3.0 license)"
+          },
+          "sources": {
+            "platform": [
+              {
+                "label": "Maintainer README: Android requirements, ROM import and touch/dual-screen UI",
+                "url": "https://github.com/igawa6/HarvestMoon64Recomp"
+              },
+              {
+                "label": "Maintainer Android releases",
+                "url": "https://github.com/igawa6/HarvestMoon64Recomp/releases"
+              },
+              {
+                "label": "GitHub repository API: source availability and license metadata",
+                "url": "https://api.github.com/repos/igawa6/HarvestMoon64Recomp"
+              }
+            ],
+            "status": [
+              {
+                "label": "Maintainer README: Android requirements, ROM import and touch/dual-screen UI",
+                "url": "https://github.com/igawa6/HarvestMoon64Recomp"
+              },
+              {
+                "label": "Maintainer Android releases",
+                "url": "https://github.com/igawa6/HarvestMoon64Recomp/releases"
+              },
+              {
+                "label": "GitHub repository API: source availability and license metadata",
+                "url": "https://api.github.com/repos/igawa6/HarvestMoon64Recomp"
+              }
+            ],
+            "summary": [
+              {
+                "label": "Maintainer README: Android requirements, ROM import and touch/dual-screen UI",
+                "url": "https://github.com/igawa6/HarvestMoon64Recomp"
+              },
+              {
+                "label": "Maintainer Android releases",
+                "url": "https://github.com/igawa6/HarvestMoon64Recomp/releases"
+              },
+              {
+                "label": "GitHub repository API: source availability and license metadata",
+                "url": "https://api.github.com/repos/igawa6/HarvestMoon64Recomp"
+              }
+            ],
+            "source_available": [
+              {
+                "label": "Maintainer README: Android requirements, ROM import and touch/dual-screen UI",
+                "url": "https://github.com/igawa6/HarvestMoon64Recomp"
+              },
+              {
+                "label": "Maintainer Android releases",
+                "url": "https://github.com/igawa6/HarvestMoon64Recomp/releases"
+              },
+              {
+                "label": "GitHub repository API: source availability and license metadata",
+                "url": "https://api.github.com/repos/igawa6/HarvestMoon64Recomp"
+              }
+            ]
+          }
+        },
+        {
+          "manifest": "hydration45",
+          "fields": {
+            "source_available": "Public source repository and Android APK releases; game assets are not included and users must supply an NTSC-U ROM.",
+            "platform": "Nintendo 64 → Android 9+ (arm64-v8a)"
+          },
+          "sources": {
+            "source_available": [
+              {
+                "label": "Maintainer README: source and game-data distribution",
+                "url": "https://github.com/igawa6/HarvestMoon64Recomp/blob/main/README.md"
+              }
+            ],
+            "platform": [
+              {
+                "label": "Maintainer README: source and game-data distribution",
+                "url": "https://github.com/igawa6/HarvestMoon64Recomp/blob/main/README.md"
+              }
+            ]
+          }
+        }
+      ],
+      "recommended": {
+        "platform": "Nintendo 64 → Android 9+ (arm64-v8a; Vulkan 1.1)",
+        "status": "APK releases are available; the README specifies Android 9/API 28+, arm64-v8a and Vulkan 1.1. It documents touch controls and dual-screen companion UI, but does not name a physical test device.",
+        "summary": "Android build of the Harvest Moon 64 static recompilation with an N64 touch overlay and optional second-screen dashboard for dual-display handhelds. It requires the user's NTSC-U ROM; game assets are not distributed.",
+        "source_available": "Public GPL-3.0 source repository and Android APK releases; game assets are not included and users must supply an NTSC-U ROM."
+      },
+      "changed": {
+        "platform": "Nintendo 64 → Android 9+ (arm64-v8a; Vulkan 1.1)",
+        "status": "APK releases are available; the README specifies Android 9/API 28+, arm64-v8a and Vulkan 1.1. It documents touch controls and dual-screen companion UI, but does not name a physical test device.",
+        "summary": "Android build of the Harvest Moon 64 static recompilation with an N64 touch overlay and optional second-screen dashboard for dual-display handhelds. It requires the user's NTSC-U ROM; game assets are not distributed.",
+        "source_available": "Public GPL-3.0 source repository and Android APK releases; game assets are not included and users must supply an NTSC-U ROM."
+      },
+      "sources_by_field": {
+        "platform": [
+          {
+            "label": "Maintainer README: Android requirements, ROM import and touch/dual-screen UI",
+            "url": "https://github.com/igawa6/HarvestMoon64Recomp"
+          },
+          {
+            "label": "Maintainer Android releases",
+            "url": "https://github.com/igawa6/HarvestMoon64Recomp/releases"
+          },
+          {
+            "label": "GitHub repository API: source availability and license metadata",
+            "url": "https://api.github.com/repos/igawa6/HarvestMoon64Recomp"
+          },
+          {
+            "label": "Maintainer README: source and game-data distribution",
+            "url": "https://github.com/igawa6/HarvestMoon64Recomp/blob/main/README.md"
+          }
+        ],
+        "status": [
+          {
+            "label": "Maintainer README: Android requirements, ROM import and touch/dual-screen UI",
+            "url": "https://github.com/igawa6/HarvestMoon64Recomp"
+          },
+          {
+            "label": "Maintainer Android releases",
+            "url": "https://github.com/igawa6/HarvestMoon64Recomp/releases"
+          },
+          {
+            "label": "GitHub repository API: source availability and license metadata",
+            "url": "https://api.github.com/repos/igawa6/HarvestMoon64Recomp"
+          }
+        ],
+        "summary": [
+          {
+            "label": "Maintainer README: Android requirements, ROM import and touch/dual-screen UI",
+            "url": "https://github.com/igawa6/HarvestMoon64Recomp"
+          },
+          {
+            "label": "Maintainer Android releases",
+            "url": "https://github.com/igawa6/HarvestMoon64Recomp/releases"
+          },
+          {
+            "label": "GitHub repository API: source availability and license metadata",
+            "url": "https://api.github.com/repos/igawa6/HarvestMoon64Recomp"
+          }
+        ],
+        "source_available": [
+          {
+            "label": "Maintainer README: Android requirements, ROM import and touch/dual-screen UI",
+            "url": "https://github.com/igawa6/HarvestMoon64Recomp"
+          },
+          {
+            "label": "Maintainer Android releases",
+            "url": "https://github.com/igawa6/HarvestMoon64Recomp/releases"
+          },
+          {
+            "label": "GitHub repository API: source availability and license metadata",
+            "url": "https://api.github.com/repos/igawa6/HarvestMoon64Recomp"
+          },
+          {
+            "label": "Maintainer README: source and game-data distribution",
+            "url": "https://github.com/igawa6/HarvestMoon64Recomp/blob/main/README.md"
+          }
+        ]
+      },
+      "decisions": {
+        "platform": "merge Android minimum/ABI and documented Vulkan 1.1 requirement",
+        "status": "single proposal",
+        "summary": "single proposal",
+        "source_available": "use detailed maintainer distribution caveat and retain explicit license evidence where present"
+      }
+    },
+    "meleepad-melee-ios": {
+      "current": {
+        "platform": "Nintendo GameCube → iOS/iPadOS",
+        "source_available": "Repository"
+      },
+      "proposals": [
+        {
+          "manifest": "round1-18",
+          "fields": {
+            "source_available": "Public source repository (GPL-3.0 license)"
+          },
+          "sources": {
+            "source_available": [
+              {
+                "label": "GitHub repository API: source availability and license metadata",
+                "url": "https://api.github.com/repos/chrissotraidis/meleepad"
+              }
+            ]
+          }
+        },
+        {
+          "manifest": "hydration45",
+          "fields": {
+            "source_available": "Public source repository and module-free app shell; PadMint builds the game module from the user’s own supported disc. Generated game code is not distributed.",
+            "platform": "Nintendo GameCube → iOS/iPadOS 16+ and Apple Silicon macOS 14+"
+          },
+          "sources": {
+            "source_available": [
+              {
+                "label": "Maintainer README: source and game-data distribution",
+                "url": "https://github.com/chrissotraidis/meleepad/blob/main/README.md"
+              }
+            ],
+            "platform": [
+              {
+                "label": "Maintainer README: source and game-data distribution",
+                "url": "https://github.com/chrissotraidis/meleepad/blob/main/README.md"
+              }
+            ]
+          }
+        }
+      ],
+      "recommended": {
+        "source_available": "Public GPL-3.0 source repository and module-free app shell; PadMint builds the game module from the user’s own supported disc. Generated game code is not distributed.",
+        "platform": "Nintendo GameCube → iOS/iPadOS 16+ and Apple Silicon macOS 14+"
+      },
+      "changed": {
+        "source_available": "Public GPL-3.0 source repository and module-free app shell; PadMint builds the game module from the user’s own supported disc. Generated game code is not distributed.",
+        "platform": "Nintendo GameCube → iOS/iPadOS 16+ and Apple Silicon macOS 14+"
+      },
+      "sources_by_field": {
+        "source_available": [
+          {
+            "label": "GitHub repository API: source availability and license metadata",
+            "url": "https://api.github.com/repos/chrissotraidis/meleepad"
+          },
+          {
+            "label": "Maintainer README: source and game-data distribution",
+            "url": "https://github.com/chrissotraidis/meleepad/blob/main/README.md"
+          }
+        ],
+        "platform": [
+          {
+            "label": "Maintainer README: source and game-data distribution",
+            "url": "https://github.com/chrissotraidis/meleepad/blob/main/README.md"
+          }
+        ]
+      },
+      "decisions": {
+        "source_available": "use detailed maintainer distribution caveat and retain explicit license evidence where present",
+        "platform": "single proposal"
+      }
+    },
+    "metroid-prime-hunters-android-recomp": {
+      "current": {
+        "platform": "Nintendo DS → Android (AYN Thor dual-screen)",
+        "source_available": "Repository",
+        "status": "v0.2.5 release; maintainer documents testing on AYN Thor with dual-screen/touch operation and approximately 58–59 FPS. Other devices are not established.",
+        "summary": "Android build of the Metroid Prime Hunters static recompilation, integrating the native ARM64 output with a dual-screen Android frontend and touch controls. The maintainer's named test target is the AYN Thor."
+      },
+      "proposals": [
+        {
+          "manifest": "round1-18",
+          "fields": {
+            "status": "v0.2.5 Android APK release. The only documented physical device is the AYN Thor (Android 13, dual-screen ARM64), where the maintainer reports about 58–59 fps and second-screen stylus/touch operation. Other-device support is not established.",
+            "summary": "Nintendo DS code is statically recompiled to native ARM64 for Android and packaged for dual-screen devices. Requires the user's own USA AMHE-0 cartridge dump; the app verifies/imports it and uses the lower touchscreen as the DS stylus screen.",
+            "source_available": "Public source repository (GPL-3.0 license)"
+          },
+          "sources": {
+            "status": [
+              {
+                "label": "Maintainer README: Android device limits, input and ROM import",
+                "url": "https://github.com/aabrole/HuntersRecomp"
+              },
+              {
+                "label": "Maintainer Android releases",
+                "url": "https://github.com/aabrole/HuntersRecomp/releases"
+              },
+              {
+                "label": "GitHub repository API: source availability and license metadata",
+                "url": "https://api.github.com/repos/aabrole/HuntersRecomp"
+              }
+            ],
+            "summary": [
+              {
+                "label": "Maintainer README: Android device limits, input and ROM import",
+                "url": "https://github.com/aabrole/HuntersRecomp"
+              },
+              {
+                "label": "Maintainer Android releases",
+                "url": "https://github.com/aabrole/HuntersRecomp/releases"
+              },
+              {
+                "label": "GitHub repository API: source availability and license metadata",
+                "url": "https://api.github.com/repos/aabrole/HuntersRecomp"
+              }
+            ],
+            "source_available": [
+              {
+                "label": "Maintainer README: Android device limits, input and ROM import",
+                "url": "https://github.com/aabrole/HuntersRecomp"
+              },
+              {
+                "label": "Maintainer Android releases",
+                "url": "https://github.com/aabrole/HuntersRecomp/releases"
+              },
+              {
+                "label": "GitHub repository API: source availability and license metadata",
+                "url": "https://api.github.com/repos/aabrole/HuntersRecomp"
+              }
+            ]
+          }
+        },
+        {
+          "manifest": "hydration45",
+          "fields": {
+            "source_available": "Public source repository and APK releases; no game data is included. Users supply a verified USA revision 0 cartridge dump.",
+            "platform": "Nintendo DS → Android 11+ (arm64; dual-screen; AYN Thor tested)"
+          },
+          "sources": {
+            "source_available": [
+              {
+                "label": "Maintainer README: source and game-data distribution",
+                "url": "https://github.com/aabrole/HuntersRecomp/blob/main/README.md"
+              }
+            ],
+            "platform": [
+              {
+                "label": "Maintainer README: source and game-data distribution",
+                "url": "https://github.com/aabrole/HuntersRecomp/blob/main/README.md"
+              }
+            ]
+          }
+        }
+      ],
+      "recommended": {
+        "status": "v0.2.5 Android APK release. The only documented physical device is the AYN Thor (Android 13, dual-screen ARM64), where the maintainer reports about 58–59 fps and second-screen stylus/touch operation. Other-device support is not established.",
+        "summary": "Nintendo DS code is statically recompiled to native ARM64 for Android and packaged for dual-screen devices. Requires the user's own USA AMHE-0 cartridge dump; the app verifies/imports it and uses the lower touchscreen as the DS stylus screen.",
+        "source_available": "Public GPL-3.0 source repository and APK releases; no game data is included. Users supply a verified USA revision 0 cartridge dump.",
+        "platform": "Nintendo DS → Android 11+ (arm64; dual-screen; AYN Thor tested)"
+      },
+      "changed": {
+        "status": "v0.2.5 Android APK release. The only documented physical device is the AYN Thor (Android 13, dual-screen ARM64), where the maintainer reports about 58–59 fps and second-screen stylus/touch operation. Other-device support is not established.",
+        "summary": "Nintendo DS code is statically recompiled to native ARM64 for Android and packaged for dual-screen devices. Requires the user's own USA AMHE-0 cartridge dump; the app verifies/imports it and uses the lower touchscreen as the DS stylus screen.",
+        "source_available": "Public GPL-3.0 source repository and APK releases; no game data is included. Users supply a verified USA revision 0 cartridge dump.",
+        "platform": "Nintendo DS → Android 11+ (arm64; dual-screen; AYN Thor tested)"
+      },
+      "sources_by_field": {
+        "status": [
+          {
+            "label": "Maintainer README: Android device limits, input and ROM import",
+            "url": "https://github.com/aabrole/HuntersRecomp"
+          },
+          {
+            "label": "Maintainer Android releases",
+            "url": "https://github.com/aabrole/HuntersRecomp/releases"
+          },
+          {
+            "label": "GitHub repository API: source availability and license metadata",
+            "url": "https://api.github.com/repos/aabrole/HuntersRecomp"
+          }
+        ],
+        "summary": [
+          {
+            "label": "Maintainer README: Android device limits, input and ROM import",
+            "url": "https://github.com/aabrole/HuntersRecomp"
+          },
+          {
+            "label": "Maintainer Android releases",
+            "url": "https://github.com/aabrole/HuntersRecomp/releases"
+          },
+          {
+            "label": "GitHub repository API: source availability and license metadata",
+            "url": "https://api.github.com/repos/aabrole/HuntersRecomp"
+          }
+        ],
+        "source_available": [
+          {
+            "label": "Maintainer README: Android device limits, input and ROM import",
+            "url": "https://github.com/aabrole/HuntersRecomp"
+          },
+          {
+            "label": "Maintainer Android releases",
+            "url": "https://github.com/aabrole/HuntersRecomp/releases"
+          },
+          {
+            "label": "GitHub repository API: source availability and license metadata",
+            "url": "https://api.github.com/repos/aabrole/HuntersRecomp"
+          },
+          {
+            "label": "Maintainer README: source and game-data distribution",
+            "url": "https://github.com/aabrole/HuntersRecomp/blob/main/README.md"
+          }
+        ],
+        "platform": [
+          {
+            "label": "Maintainer README: source and game-data distribution",
+            "url": "https://github.com/aabrole/HuntersRecomp/blob/main/README.md"
+          }
+        ]
+      },
+      "decisions": {
+        "status": "single proposal",
+        "summary": "single proposal",
+        "source_available": "use detailed maintainer distribution caveat and retain explicit license evidence where present",
+        "platform": "single proposal"
+      }
+    },
+    "microsoft-bob-recomp": {
+      "current": {
+        "platform": "Windows 3.1/95 Win16 → portable C host (bring-up)",
+        "source_available": "Repository",
+        "status": "Bring-up stage. The project reports that the original startup path and Jet databases execute in its host; a first rendered application frame is not yet documented.",
+        "summary": "Lifts Microsoft Bob's Win16 NE application and database-related modules into C, with replacement runtime work for Win16, Jet, and WinG dependencies. Requires a user-owned copy of the original application."
+      },
+      "proposals": [
+        {
+          "manifest": "round1-18",
+          "fields": {
+            "source_available": "Public source repository"
+          },
+          "sources": {
+            "source_available": [
+              {
+                "label": "GitHub repository API: source availability and license metadata",
+                "url": "https://api.github.com/repos/sp00nznet/bob"
+              }
+            ]
+          }
+        },
+        {
+          "manifest": "lanes19-43",
+          "fields": {
+            "platform": "Microsoft Bob 1995 Win16 NE binaries → portable C recompilation hosted by the project's cross-platform runtime; project README targets Windows, macOS, and Linux.",
+            "status": "Bring-up; the maintainer reports that the six Bob and Jet/Access Basic modules lift to link-clean C, Bob's real startup and MFC window creation execute, and Jet opens the original databases. The current blocker is a host longjmp/stack fault before the first rendered frame; no GUI frame or usable application release is claimed.",
+            "summary": "Static recompilation of the original Win16 Bob house application, its engine, blitter, and load-bearing Jet/Access Basic modules into C. The host/runtime reconstructs Win16, Jet, and WinG behavior; the project has reached real application initialization and database opens but has not yet drawn the Bob house. Original binaries, data, and lifted C are user-generated and are not distributed.",
+            "source_available": "Public MIT-licensed tooling, runtime, hand-written code, and analysis metadata. Original Bob binaries/data and generated lifted C are not included and are not covered by the repository MIT license; users must provide their own disc files."
+          },
+          "sources": {
+            "platform": [
+              {
+                "label": "Microsoft Bob maintainer README: platform, six-module lift, current startup/database milestones, blocker, build requirements, and license boundary",
+                "url": "https://github.com/sp00nznet/bob"
+              },
+              {
+                "label": "Microsoft Bob repository license: MIT applies to repository-owned code, not original binaries or generated lifted C",
+                "url": "https://github.com/sp00nznet/bob/blob/master/LICENSE"
+              }
+            ],
+            "status": [
+              {
+                "label": "Microsoft Bob maintainer README: platform, six-module lift, current startup/database milestones, blocker, build requirements, and license boundary",
+                "url": "https://github.com/sp00nznet/bob"
+              },
+              {
+                "label": "Microsoft Bob repository license: MIT applies to repository-owned code, not original binaries or generated lifted C",
+                "url": "https://github.com/sp00nznet/bob/blob/master/LICENSE"
+              }
+            ],
+            "summary": [
+              {
+                "label": "Microsoft Bob maintainer README: platform, six-module lift, current startup/database milestones, blocker, build requirements, and license boundary",
+                "url": "https://github.com/sp00nznet/bob"
+              },
+              {
+                "label": "Microsoft Bob repository license: MIT applies to repository-owned code, not original binaries or generated lifted C",
+                "url": "https://github.com/sp00nznet/bob/blob/master/LICENSE"
+              }
+            ],
+            "source_available": [
+              {
+                "label": "Microsoft Bob maintainer README: platform, six-module lift, current startup/database milestones, blocker, build requirements, and license boundary",
+                "url": "https://github.com/sp00nznet/bob"
+              },
+              {
+                "label": "Microsoft Bob repository license: MIT applies to repository-owned code, not original binaries or generated lifted C",
+                "url": "https://github.com/sp00nznet/bob/blob/master/LICENSE"
+              }
+            ]
+          }
+        }
+      ],
+      "recommended": {
+        "source_available": "Public MIT-licensed tooling, runtime, hand-written code, and analysis metadata. Original Bob binaries/data and generated lifted C are not included and are not covered by the repository MIT license; users must provide their own disc files.",
+        "platform": "Microsoft Bob 1995 Win16 NE binaries → portable C recompilation hosted by the project's cross-platform runtime; project README targets Windows, macOS, and Linux.",
+        "status": "Bring-up; the maintainer reports that the six Bob and Jet/Access Basic modules lift to link-clean C, Bob's real startup and MFC window creation execute, and Jet opens the original databases. The current blocker is a host longjmp/stack fault before the first rendered frame; no GUI frame or usable application release is claimed.",
+        "summary": "Static recompilation of the original Win16 Bob house application, its engine, blitter, and load-bearing Jet/Access Basic modules into C. The host/runtime reconstructs Win16, Jet, and WinG behavior; the project has reached real application initialization and database opens but has not yet drawn the Bob house. Original binaries, data, and lifted C are user-generated and are not distributed."
+      },
+      "changed": {
+        "source_available": "Public MIT-licensed tooling, runtime, hand-written code, and analysis metadata. Original Bob binaries/data and generated lifted C are not included and are not covered by the repository MIT license; users must provide their own disc files.",
+        "platform": "Microsoft Bob 1995 Win16 NE binaries → portable C recompilation hosted by the project's cross-platform runtime; project README targets Windows, macOS, and Linux.",
+        "status": "Bring-up; the maintainer reports that the six Bob and Jet/Access Basic modules lift to link-clean C, Bob's real startup and MFC window creation execute, and Jet opens the original databases. The current blocker is a host longjmp/stack fault before the first rendered frame; no GUI frame or usable application release is claimed.",
+        "summary": "Static recompilation of the original Win16 Bob house application, its engine, blitter, and load-bearing Jet/Access Basic modules into C. The host/runtime reconstructs Win16, Jet, and WinG behavior; the project has reached real application initialization and database opens but has not yet drawn the Bob house. Original binaries, data, and lifted C are user-generated and are not distributed."
+      },
+      "sources_by_field": {
+        "source_available": [
+          {
+            "label": "GitHub repository API: source availability and license metadata",
+            "url": "https://api.github.com/repos/sp00nznet/bob"
+          },
+          {
+            "label": "Microsoft Bob maintainer README: platform, six-module lift, current startup/database milestones, blocker, build requirements, and license boundary",
+            "url": "https://github.com/sp00nznet/bob"
+          },
+          {
+            "label": "Microsoft Bob repository license: MIT applies to repository-owned code, not original binaries or generated lifted C",
+            "url": "https://github.com/sp00nznet/bob/blob/master/LICENSE"
+          }
+        ],
+        "platform": [
+          {
+            "label": "Microsoft Bob maintainer README: platform, six-module lift, current startup/database milestones, blocker, build requirements, and license boundary",
+            "url": "https://github.com/sp00nznet/bob"
+          },
+          {
+            "label": "Microsoft Bob repository license: MIT applies to repository-owned code, not original binaries or generated lifted C",
+            "url": "https://github.com/sp00nznet/bob/blob/master/LICENSE"
+          }
+        ],
+        "status": [
+          {
+            "label": "Microsoft Bob maintainer README: platform, six-module lift, current startup/database milestones, blocker, build requirements, and license boundary",
+            "url": "https://github.com/sp00nznet/bob"
+          },
+          {
+            "label": "Microsoft Bob repository license: MIT applies to repository-owned code, not original binaries or generated lifted C",
+            "url": "https://github.com/sp00nznet/bob/blob/master/LICENSE"
+          }
+        ],
+        "summary": [
+          {
+            "label": "Microsoft Bob maintainer README: platform, six-module lift, current startup/database milestones, blocker, build requirements, and license boundary",
+            "url": "https://github.com/sp00nznet/bob"
+          },
+          {
+            "label": "Microsoft Bob repository license: MIT applies to repository-owned code, not original binaries or generated lifted C",
+            "url": "https://github.com/sp00nznet/bob/blob/master/LICENSE"
+          }
+        ]
+      },
+      "decisions": {
+        "source_available": "use detailed maintainer distribution caveat and retain explicit license evidence where present",
+        "platform": "single proposal",
+        "status": "single proposal",
+        "summary": "single proposal"
+      }
+    },
+    "mini-vmac": {
+      "current": {
+        "source_available": "Repository"
+      },
+      "proposals": [
+        {
+          "manifest": "round1-18",
+          "fields": {
+            "source_available": "Public source repository (GPL-2.0 license)"
+          },
+          "sources": {
+            "source_available": [
+              {
+                "label": "GitHub repository API: source availability and license metadata",
+                "url": "https://api.github.com/repos/minivmac/minivmac"
+              }
+            ]
+          }
+        },
+        {
+          "manifest": "hydration45",
+          "fields": {
+            "source_available": "Public source repository with build scripts for the documented Macintosh models and host platforms."
+          },
+          "sources": {
+            "source_available": [
+              {
+                "label": "Maintainer README: source and game-data distribution",
+                "url": "https://github.com/minivmac/minivmac/blob/master/README.md"
+              }
+            ]
+          }
+        }
+      ],
+      "recommended": {
+        "source_available": "Public GPL-2.0 source repository with build scripts for the documented Macintosh models and host platforms."
+      },
+      "changed": {
+        "source_available": "Public GPL-2.0 source repository with build scripts for the documented Macintosh models and host platforms."
+      },
+      "sources_by_field": {
+        "source_available": [
+          {
+            "label": "GitHub repository API: source availability and license metadata",
+            "url": "https://api.github.com/repos/minivmac/minivmac"
+          },
+          {
+            "label": "Maintainer README: source and game-data distribution",
+            "url": "https://github.com/minivmac/minivmac/blob/master/README.md"
+          }
+        ]
+      },
+      "decisions": {
+        "source_available": "use detailed maintainer distribution caveat and retain explicit license evidence where present"
+      }
+    },
+    "minish-cap-aleks-ultimate-nx": {
+      "current": {
+        "source_available": "Repository"
+      },
+      "proposals": [
+        {
+          "manifest": "round1-18",
+          "fields": {
+            "source_available": "Public source repository"
+          },
+          "sources": {
+            "source_available": [
+              {
+                "label": "GitHub repository API: source availability and license metadata",
+                "url": "https://api.github.com/repos/Alexgg1014/The-Legend-of-Zelda-The-Minish-Cap-Alek-s-Ultimate-NX-Edition"
+              }
+            ]
+          }
+        },
+        {
+          "manifest": "hydration45",
+          "fields": {
+            "source_available": "Public source repository and Switch NRO releases; no ROM or copyrighted game data is included. Users supply their own legally obtained USA GBA ROM."
+          },
+          "sources": {
+            "source_available": [
+              {
+                "label": "Maintainer README: source and game-data distribution",
+                "url": "https://github.com/Alexgg1014/The-Legend-of-Zelda-The-Minish-Cap-Alek-s-Ultimate-NX-Edition/blob/main/README.md"
+              }
+            ]
+          }
+        }
+      ],
+      "recommended": {
+        "source_available": "Public source repository and Switch NRO releases; no ROM or copyrighted game data is included. Users supply their own legally obtained USA GBA ROM."
+      },
+      "changed": {
+        "source_available": "Public source repository and Switch NRO releases; no ROM or copyrighted game data is included. Users supply their own legally obtained USA GBA ROM."
+      },
+      "sources_by_field": {
+        "source_available": [
+          {
+            "label": "GitHub repository API: source availability and license metadata",
+            "url": "https://api.github.com/repos/Alexgg1014/The-Legend-of-Zelda-The-Minish-Cap-Alek-s-Ultimate-NX-Edition"
+          },
+          {
+            "label": "Maintainer README: source and game-data distribution",
+            "url": "https://github.com/Alexgg1014/The-Legend-of-Zelda-The-Minish-Cap-Alek-s-Ultimate-NX-Edition/blob/main/README.md"
+          }
+        ]
+      },
+      "decisions": {
+        "source_available": "use detailed maintainer distribution caveat and retain explicit license evidence where present"
+      }
+    },
+    "perfect-dark-android": {
+      "current": {
+        "platform": "Nintendo 64 → Android",
+        "source_available": "Repository"
+      },
+      "proposals": [
+        {
+          "manifest": "round1-18",
+          "fields": {
+            "source_available": "Public source repository (MIT license)"
+          },
+          "sources": {
+            "source_available": [
+              {
+                "label": "GitHub repository API: source availability and license metadata",
+                "url": "https://api.github.com/repos/izzy2lost/perfect_dark"
+              }
+            ]
+          }
+        },
+        {
+          "manifest": "hydration45",
+          "fields": {
+            "source_available": "Public source repository and automatic builds; the user must supply a supported Perfect Dark ROM, which is not included.",
+            "platform": "Nintendo 64 → Android 5+ (arm64-v8a, armeabi-v7a, x86_64, x86)"
+          },
+          "sources": {
+            "source_available": [
+              {
+                "label": "Maintainer README: source and game-data distribution",
+                "url": "https://github.com/izzy2lost/perfect_dark/blob/port/README.md"
+              },
+              {
+                "label": "Maintainer Android README: Android 5/API 21+, supported ABIs, and user-supplied ROM",
+                "url": "https://github.com/izzy2lost/perfect_dark/blob/android-features/README.md"
+              },
+              {
+                "label": "Maintainer Android 2.0.0 release",
+                "url": "https://github.com/izzy2lost/perfect_dark/releases/tag/2.0.0"
+              }
+            ],
+            "platform": [
+              {
+                "label": "Maintainer README: source and game-data distribution",
+                "url": "https://github.com/izzy2lost/perfect_dark/blob/port/README.md"
+              },
+              {
+                "label": "Maintainer Android README: Android 5/API 21+, supported ABIs, and user-supplied ROM",
+                "url": "https://github.com/izzy2lost/perfect_dark/blob/android-features/README.md"
+              },
+              {
+                "label": "Maintainer Android 2.0.0 release",
+                "url": "https://github.com/izzy2lost/perfect_dark/releases/tag/2.0.0"
+              }
+            ]
+          }
+        }
+      ],
+      "recommended": {
+        "source_available": "Public MIT-licensed source repository and automatic builds; the user must supply a supported Perfect Dark ROM, which is not included.",
+        "platform": "Nintendo 64 → Android 5+ (arm64-v8a, armeabi-v7a, x86_64, x86)"
+      },
+      "changed": {
+        "source_available": "Public MIT-licensed source repository and automatic builds; the user must supply a supported Perfect Dark ROM, which is not included.",
+        "platform": "Nintendo 64 → Android 5+ (arm64-v8a, armeabi-v7a, x86_64, x86)"
+      },
+      "sources_by_field": {
+        "source_available": [
+          {
+            "label": "GitHub repository API: source availability and license metadata",
+            "url": "https://api.github.com/repos/izzy2lost/perfect_dark"
+          },
+          {
+            "label": "Maintainer README: source and game-data distribution",
+            "url": "https://github.com/izzy2lost/perfect_dark/blob/port/README.md"
+          },
+          {
+            "label": "Maintainer Android README: Android 5/API 21+, supported ABIs, and user-supplied ROM",
+            "url": "https://github.com/izzy2lost/perfect_dark/blob/android-features/README.md"
+          },
+          {
+            "label": "Maintainer Android 2.0.0 release",
+            "url": "https://github.com/izzy2lost/perfect_dark/releases/tag/2.0.0"
+          }
+        ],
+        "platform": [
+          {
+            "label": "Maintainer README: source and game-data distribution",
+            "url": "https://github.com/izzy2lost/perfect_dark/blob/port/README.md"
+          },
+          {
+            "label": "Maintainer Android README: Android 5/API 21+, supported ABIs, and user-supplied ROM",
+            "url": "https://github.com/izzy2lost/perfect_dark/blob/android-features/README.md"
+          },
+          {
+            "label": "Maintainer Android 2.0.0 release",
+            "url": "https://github.com/izzy2lost/perfect_dark/releases/tag/2.0.0"
+          }
+        ]
+      },
+      "decisions": {
+        "source_available": "use detailed maintainer distribution caveat and retain explicit license evidence where present",
+        "platform": "single proposal"
+      }
+    },
+    "pokemon-azoth-en": {
+      "current": {
+        "platform": "Game Boy Advance",
+        "updated": null
+      },
+      "proposals": [
+        {
+          "manifest": "round1-18",
+          "fields": {
+            "platform": "Game Boy Advance"
+          },
+          "sources": {
+            "platform": [
+              {
+                "label": "Translation project README and patch instructions",
+                "url": "https://github.com/RiFa-Innovation/pkmn-azoth-translation"
+              },
+              {
+                "label": "Maintainer releases",
+                "url": "https://github.com/RiFa-Innovation/pkmn-azoth-translation/releases"
+              }
+            ]
+          }
+        },
+        {
+          "manifest": "hydration45",
+          "fields": {
+            "updated": "2026-10-13"
+          },
+          "sources": {
+            "updated": [
+              {
+                "label": "Latest maintainer patch release, beta-22",
+                "url": "https://github.com/RiFa-Innovation/pkmn-azoth-translation/releases/tag/beta-22"
+              }
+            ]
+          }
+        }
+      ],
+      "recommended": {
+        "platform": "Game Boy Advance",
+        "updated": "2026-10-13"
+      },
+      "changed": {
+        "updated": "2026-10-13"
+      },
+      "sources_by_field": {
+        "platform": [
+          {
+            "label": "Translation project README and patch instructions",
+            "url": "https://github.com/RiFa-Innovation/pkmn-azoth-translation"
+          },
+          {
+            "label": "Maintainer releases",
+            "url": "https://github.com/RiFa-Innovation/pkmn-azoth-translation/releases"
+          }
+        ],
+        "updated": [
+          {
+            "label": "Latest maintainer patch release, beta-22",
+            "url": "https://github.com/RiFa-Innovation/pkmn-azoth-translation/releases/tag/beta-22"
+          }
+        ]
+      },
+      "decisions": {
+        "platform": "single proposal",
+        "updated": "single proposal"
+      }
+    },
+    "projectreach-halo-xbox-ios": {
+      "current": {
+        "platform": "Original Xbox → iOS/iPadOS",
+        "source_available": "Repository"
+      },
+      "proposals": [
+        {
+          "manifest": "round1-18",
+          "fields": {
+            "source_available": "Public source repository"
+          },
+          "sources": {
+            "source_available": [
+              {
+                "label": "GitHub repository API: source availability and license metadata",
+                "url": "https://api.github.com/repos/chrissotraidis/projectreach"
+              }
+            ]
+          }
+        },
+        {
+          "manifest": "hydration45",
+          "fields": {
+            "source_available": "Public source repository and build instructions; there is no app download. Users supply their own supported Xbox disc image.",
+            "platform": "Original Xbox → iOS/iPadOS 17.4+ and Apple Silicon macOS 14.4+"
+          },
+          "sources": {
+            "source_available": [
+              {
+                "label": "Maintainer README: source and game-data distribution",
+                "url": "https://github.com/chrissotraidis/projectreach/blob/main/README.md"
+              }
+            ],
+            "platform": [
+              {
+                "label": "Maintainer README: source and game-data distribution",
+                "url": "https://github.com/chrissotraidis/projectreach/blob/main/README.md"
+              }
+            ]
+          }
+        }
+      ],
+      "recommended": {
+        "source_available": "Public source repository and build instructions; there is no app download. Users supply their own supported Xbox disc image.",
+        "platform": "Original Xbox → iOS/iPadOS 17.4+ and Apple Silicon macOS 14.4+"
+      },
+      "changed": {
+        "source_available": "Public source repository and build instructions; there is no app download. Users supply their own supported Xbox disc image.",
+        "platform": "Original Xbox → iOS/iPadOS 17.4+ and Apple Silicon macOS 14.4+"
+      },
+      "sources_by_field": {
+        "source_available": [
+          {
+            "label": "GitHub repository API: source availability and license metadata",
+            "url": "https://api.github.com/repos/chrissotraidis/projectreach"
+          },
+          {
+            "label": "Maintainer README: source and game-data distribution",
+            "url": "https://github.com/chrissotraidis/projectreach/blob/main/README.md"
+          }
+        ],
+        "platform": [
+          {
+            "label": "Maintainer README: source and game-data distribution",
+            "url": "https://github.com/chrissotraidis/projectreach/blob/main/README.md"
+          }
+        ]
+      },
+      "decisions": {
+        "source_available": "use detailed maintainer distribution caveat and retain explicit license evidence where present",
+        "platform": "single proposal"
+      }
+    },
+    "sacred-stones-android-recomp": {
+      "current": {
+        "platform": "Game Boy Advance → Android (ARM64)",
+        "source_available": "Repository"
+      },
+      "proposals": [
+        {
+          "manifest": "round1-18",
+          "fields": {
+            "source_available": "Public source repository"
+          },
+          "sources": {
+            "source_available": [
+              {
+                "label": "GitHub repository API: source availability and license metadata",
+                "url": "https://api.github.com/repos/Lordingard/SacredStonesRecomp"
+              }
+            ]
+          }
+        },
+        {
+          "manifest": "hydration45",
+          "fields": {
+            "source_available": "Public source repository and Windows/Android release packages; the game ROM, GBA BIOS, and generated ROM-derived code are not included.",
+            "platform": "Game Boy Advance → Windows x64 and Android 9+ (ARM64)"
+          },
+          "sources": {
+            "source_available": [
+              {
+                "label": "Maintainer README: source and game-data distribution",
+                "url": "https://github.com/Lordingard/SacredStonesRecomp/blob/main/README.md"
+              }
+            ],
+            "platform": [
+              {
+                "label": "Maintainer README: source and game-data distribution",
+                "url": "https://github.com/Lordingard/SacredStonesRecomp/blob/main/README.md"
+              }
+            ]
+          }
+        }
+      ],
+      "recommended": {
+        "source_available": "Public source repository and Windows/Android release packages; the game ROM, GBA BIOS, and generated ROM-derived code are not included.",
+        "platform": "Game Boy Advance → Windows x64 and Android 9+ (ARM64)"
+      },
+      "changed": {
+        "source_available": "Public source repository and Windows/Android release packages; the game ROM, GBA BIOS, and generated ROM-derived code are not included.",
+        "platform": "Game Boy Advance → Windows x64 and Android 9+ (ARM64)"
+      },
+      "sources_by_field": {
+        "source_available": [
+          {
+            "label": "GitHub repository API: source availability and license metadata",
+            "url": "https://api.github.com/repos/Lordingard/SacredStonesRecomp"
+          },
+          {
+            "label": "Maintainer README: source and game-data distribution",
+            "url": "https://github.com/Lordingard/SacredStonesRecomp/blob/main/README.md"
+          }
+        ],
+        "platform": [
+          {
+            "label": "Maintainer README: source and game-data distribution",
+            "url": "https://github.com/Lordingard/SacredStonesRecomp/blob/main/README.md"
+          }
+        ]
+      },
+      "decisions": {
+        "source_available": "use detailed maintainer distribution caveat and retain explicit license evidence where present",
+        "platform": "single proposal"
+      }
+    },
+    "sheepshaver-classic-mac": {
+      "current": {
+        "source_available": "Repository"
+      },
+      "proposals": [
+        {
+          "manifest": "round1-18",
+          "fields": {
+            "source_available": "Public source repository"
+          },
+          "sources": {
+            "source_available": [
+              {
+                "label": "GitHub repository API: source availability and license metadata",
+                "url": "https://api.github.com/repos/cebix/macemu"
+              }
+            ]
+          }
+        },
+        {
+          "manifest": "hydration45",
+          "fields": {
+            "source_available": "GPL source is public in the shared macemu repository; users must separately supply a Mac OS copy and PowerMac ROM image."
+          },
+          "sources": {
+            "source_available": [
+              {
+                "label": "Maintainer README: source and game-data distribution",
+                "url": "https://github.com/cebix/macemu/blob/master/README.md"
+              }
+            ]
+          }
+        }
+      ],
+      "recommended": {
+        "source_available": "GPL source is public in the shared macemu repository; users must separately supply a Mac OS copy and PowerMac ROM image."
+      },
+      "changed": {
+        "source_available": "GPL source is public in the shared macemu repository; users must separately supply a Mac OS copy and PowerMac ROM image."
+      },
+      "sources_by_field": {
+        "source_available": [
+          {
+            "label": "GitHub repository API: source availability and license metadata",
+            "url": "https://api.github.com/repos/cebix/macemu"
+          },
+          {
+            "label": "Maintainer README: source and game-data distribution",
+            "url": "https://github.com/cebix/macemu/blob/master/README.md"
+          }
+        ]
+      },
+      "decisions": {
+        "source_available": "use detailed maintainer distribution caveat and retain explicit license evidence where present"
+      }
+    },
+    "sm64-android-port-base": {
+      "current": {
+        "source_available": "Repository"
+      },
+      "proposals": [
+        {
+          "manifest": "round1-18",
+          "fields": {
+            "source_available": "Public source repository"
+          },
+          "sources": {
+            "source_available": [
+              {
+                "label": "GitHub repository API: source availability and license metadata",
+                "url": "https://api.github.com/repos/VDavid003/sm64-port-android-base"
+              }
+            ]
+          }
+        },
+        {
+          "manifest": "hydration45",
+          "fields": {
+            "source_available": "Public source and Android build instructions; a user-supplied Super Mario 64 baserom is required and is not included."
+          },
+          "sources": {
+            "source_available": [
+              {
+                "label": "Maintainer README: source and game-data distribution",
+                "url": "https://github.com/VDavid003/sm64-port-android-base/blob/master/README.md"
+              }
+            ]
+          }
+        }
+      ],
+      "recommended": {
+        "source_available": "Public source and Android build instructions; a user-supplied Super Mario 64 baserom is required and is not included."
+      },
+      "changed": {
+        "source_available": "Public source and Android build instructions; a user-supplied Super Mario 64 baserom is required and is not included."
+      },
+      "sources_by_field": {
+        "source_available": [
+          {
+            "label": "GitHub repository API: source availability and license metadata",
+            "url": "https://api.github.com/repos/VDavid003/sm64-port-android-base"
+          },
+          {
+            "label": "Maintainer README: source and game-data distribution",
+            "url": "https://github.com/VDavid003/sm64-port-android-base/blob/master/README.md"
+          }
+        ]
+      },
+      "decisions": {
+        "source_available": "use detailed maintainer distribution caveat and retain explicit license evidence where present"
+      }
+    },
+    "snappad-pokemon-snap-ios": {
+      "current": {
+        "platform": "Nintendo 64 → iPadOS",
+        "source_available": "Repository"
+      },
+      "proposals": [
+        {
+          "manifest": "round1-18",
+          "fields": {
+            "source_available": "Public source repository"
+          },
+          "sources": {
+            "source_available": [
+              {
+                "label": "GitHub repository API: source availability and license metadata",
+                "url": "https://api.github.com/repos/chrissotraidis/snappad"
+              }
+            ]
+          }
+        },
+        {
+          "manifest": "hydration45",
+          "fields": {
+            "source_available": "Public integration source and build instructions; public playable downloads are paused. Users provide their own USA ROM; the repository excludes ROM-derived code and game assets.",
+            "platform": "Nintendo 64 → iOS/iPadOS 15+ and Apple Silicon macOS"
+          },
+          "sources": {
+            "source_available": [
+              {
+                "label": "Maintainer README: source and game-data distribution",
+                "url": "https://github.com/chrissotraidis/snappad/blob/main/README.md"
+              }
+            ],
+            "platform": [
+              {
+                "label": "Maintainer README: source and game-data distribution",
+                "url": "https://github.com/chrissotraidis/snappad/blob/main/README.md"
+              }
+            ]
+          }
+        }
+      ],
+      "recommended": {
+        "source_available": "Public integration source and build instructions; public playable downloads are paused. Users provide their own USA ROM; the repository excludes ROM-derived code and game assets.",
+        "platform": "Nintendo 64 → iOS/iPadOS 15+ and Apple Silicon macOS"
+      },
+      "changed": {
+        "source_available": "Public integration source and build instructions; public playable downloads are paused. Users provide their own USA ROM; the repository excludes ROM-derived code and game assets.",
+        "platform": "Nintendo 64 → iOS/iPadOS 15+ and Apple Silicon macOS"
+      },
+      "sources_by_field": {
+        "source_available": [
+          {
+            "label": "GitHub repository API: source availability and license metadata",
+            "url": "https://api.github.com/repos/chrissotraidis/snappad"
+          },
+          {
+            "label": "Maintainer README: source and game-data distribution",
+            "url": "https://github.com/chrissotraidis/snappad/blob/main/README.md"
+          }
+        ],
+        "platform": [
+          {
+            "label": "Maintainer README: source and game-data distribution",
+            "url": "https://github.com/chrissotraidis/snappad/blob/main/README.md"
+          }
+        ]
+      },
+      "decisions": {
+        "source_available": "use detailed maintainer distribution caveat and retain explicit license evidence where present",
+        "platform": "single proposal"
+      }
+    },
+    "spaghettikart-android": {
+      "current": {
+        "source_available": "Repository"
+      },
+      "proposals": [
+        {
+          "manifest": "round1-18",
+          "fields": {
+            "source_available": "Public source repository"
+          },
+          "sources": {
+            "source_available": [
+              {
+                "label": "GitHub repository API: source availability and license metadata",
+                "url": "https://api.github.com/repos/izzy2lost/SpaghettiKart"
+              }
+            ]
+          }
+        },
+        {
+          "manifest": "hydration45",
+          "fields": {
+            "source_available": "Public source and releases; no copyrighted game assets are included. Users provide a supported USA ROM."
+          },
+          "sources": {
+            "source_available": [
+              {
+                "label": "Maintainer README: source and game-data distribution",
+                "url": "https://github.com/izzy2lost/SpaghettiKart/blob/main/README.md"
+              }
+            ]
+          }
+        }
+      ],
+      "recommended": {
+        "source_available": "Public source and releases; no copyrighted game assets are included. Users provide a supported USA ROM."
+      },
+      "changed": {
+        "source_available": "Public source and releases; no copyrighted game assets are included. Users provide a supported USA ROM."
+      },
+      "sources_by_field": {
+        "source_available": [
+          {
+            "label": "GitHub repository API: source availability and license metadata",
+            "url": "https://api.github.com/repos/izzy2lost/SpaghettiKart"
+          },
+          {
+            "label": "Maintainer README: source and game-data distribution",
+            "url": "https://github.com/izzy2lost/SpaghettiKart/blob/main/README.md"
+          }
+        ]
+      },
+      "decisions": {
+        "source_available": "use detailed maintainer distribution caveat and retain explicit license evidence where present"
+      }
+    },
+    "starship-android": {
+      "current": {
+        "source_available": "Repository"
+      },
+      "proposals": [
+        {
+          "manifest": "round1-18",
+          "fields": {
+            "source_available": "Public source repository (CC0-1.0 license)"
+          },
+          "sources": {
+            "source_available": [
+              {
+                "label": "GitHub repository API: source availability and license metadata",
+                "url": "https://api.github.com/repos/izzy2lost/Starship"
+              }
+            ]
+          }
+        },
+        {
+          "manifest": "hydration45",
+          "fields": {
+            "source_available": "Public source and releases; no copyrighted game assets are included. Users provide a supported US ROM to generate game assets."
+          },
+          "sources": {
+            "source_available": [
+              {
+                "label": "Maintainer README: source and game-data distribution",
+                "url": "https://github.com/izzy2lost/Starship/blob/main/README.md"
+              }
+            ]
+          }
+        }
+      ],
+      "recommended": {
+        "source_available": "Public CC0-1.0 source repository and releases; no copyrighted game assets are included. Users provide a supported US ROM to generate game assets."
+      },
+      "changed": {
+        "source_available": "Public CC0-1.0 source repository and releases; no copyrighted game assets are included. Users provide a supported US ROM to generate game assets."
+      },
+      "sources_by_field": {
+        "source_available": [
+          {
+            "label": "GitHub repository API: source availability and license metadata",
+            "url": "https://api.github.com/repos/izzy2lost/Starship"
+          },
+          {
+            "label": "Maintainer README: source and game-data distribution",
+            "url": "https://github.com/izzy2lost/Starship/blob/main/README.md"
+          }
+        ]
+      },
+      "decisions": {
+        "source_available": "use detailed maintainer distribution caveat and retain explicit license evidence where present"
+      }
+    },
+    "theft4-gta-iv-ios": {
+      "current": {
+        "source_available": "Repository"
+      },
+      "proposals": [
+        {
+          "manifest": "round1-18",
+          "fields": {
+            "source_available": "Public source repository (GPL-3.0 license)"
+          },
+          "sources": {
+            "source_available": [
+              {
+                "label": "GitHub repository API: source availability and license metadata",
+                "url": "https://api.github.com/repos/KoreanSeats1/Theft4"
+              }
+            ]
+          }
+        },
+        {
+          "manifest": "hydration45",
+          "fields": {
+            "source_available": "Public source repository and unsigned iOS IPA release; no game files or generated game data are included. Users provide files from their own legally obtained Xbox 360 copy."
+          },
+          "sources": {
+            "source_available": [
+              {
+                "label": "Maintainer README: source and game-data distribution",
+                "url": "https://github.com/KoreanSeats1/Theft4/blob/main/README.md"
+              }
+            ]
+          }
+        }
+      ],
+      "recommended": {
+        "source_available": "Public GPL-3.0 source repository and unsigned iOS IPA release; no game files or generated game data are included. Users provide files from their own legally obtained Xbox 360 copy."
+      },
+      "changed": {
+        "source_available": "Public GPL-3.0 source repository and unsigned iOS IPA release; no game files or generated game data are included. Users provide files from their own legally obtained Xbox 360 copy."
+      },
+      "sources_by_field": {
+        "source_available": [
+          {
+            "label": "GitHub repository API: source availability and license metadata",
+            "url": "https://api.github.com/repos/KoreanSeats1/Theft4"
+          },
+          {
+            "label": "Maintainer README: source and game-data distribution",
+            "url": "https://github.com/KoreanSeats1/Theft4/blob/main/README.md"
+          }
+        ]
+      },
+      "decisions": {
+        "source_available": "use detailed maintainer distribution caveat and retain explicit license evidence where present"
+      }
+    },
+    "wheeldroid-mario-kart-wii-android": {
+      "current": {
+        "source_available": "Repository"
+      },
+      "proposals": [
+        {
+          "manifest": "round1-18",
+          "fields": {
+            "source_available": "Public source repository (GPL-3.0 license)"
+          },
+          "sources": {
+            "source_available": [
+              {
+                "label": "GitHub repository API: source availability and license metadata",
+                "url": "https://api.github.com/repos/KeithKirenai/wheeldroid"
+              }
+            ]
+          }
+        },
+        {
+          "manifest": "hydration45",
+          "fields": {
+            "source_available": "Public source repository; neither Nintendo code nor game assets/data are included. Users supply their own legally dumped PAL RMCP01 disc image."
+          },
+          "sources": {
+            "source_available": [
+              {
+                "label": "Maintainer README: source and game-data distribution",
+                "url": "https://github.com/KeithKirenai/wheeldroid/blob/main/README.md"
+              }
+            ]
+          }
+        }
+      ],
+      "recommended": {
+        "source_available": "Public GPL-3.0 source repository; neither Nintendo code nor game assets/data are included. Users supply their own legally dumped PAL RMCP01 disc image."
+      },
+      "changed": {
+        "source_available": "Public GPL-3.0 source repository; neither Nintendo code nor game assets/data are included. Users supply their own legally dumped PAL RMCP01 disc image."
+      },
+      "sources_by_field": {
+        "source_available": [
+          {
+            "label": "GitHub repository API: source availability and license metadata",
+            "url": "https://api.github.com/repos/KeithKirenai/wheeldroid"
+          },
+          {
+            "label": "Maintainer README: source and game-data distribution",
+            "url": "https://github.com/KeithKirenai/wheeldroid/blob/main/README.md"
+          }
+        ]
+      },
+      "decisions": {
+        "source_available": "use detailed maintainer distribution caveat and retain explicit license evidence where present"
+      }
+    },
+    "zelda3-android": {
+      "current": {
+        "programming_language": "",
+        "source_available": "Repository",
+        "subtype": "Android port of snesrev/zelda3"
+      },
+      "proposals": [
+        {
+          "manifest": "round1-18",
+          "fields": {
+            "programming_language": "C/C++",
+            "source_available": "Public Android port source; asset extraction from a user-owned A Link to the Past ROM is required",
+            "subtype": "Android app port of the native Zelda3 C reimplementation"
+          },
+          "sources": {
+            "programming_language": [
+              {
+                "label": "Android port README: upstream Zelda3 lineage and ROM asset extraction",
+                "url": "https://github.com/Waterdish/zelda3-android"
+              },
+              {
+                "label": "Upstream Zelda3 reimplementation README",
+                "url": "https://github.com/snesrev/zelda3"
+              },
+              {
+                "label": "GitHub repository language metadata / GitHub repository API: source availability and license metadata",
+                "url": "https://api.github.com/repos/Waterdish/zelda3-android"
+              }
+            ],
+            "source_available": [
+              {
+                "label": "Android port README: upstream Zelda3 lineage and ROM asset extraction",
+                "url": "https://github.com/Waterdish/zelda3-android"
+              },
+              {
+                "label": "Upstream Zelda3 reimplementation README",
+                "url": "https://github.com/snesrev/zelda3"
+              },
+              {
+                "label": "GitHub repository language metadata / GitHub repository API: source availability and license metadata",
+                "url": "https://api.github.com/repos/Waterdish/zelda3-android"
+              }
+            ],
+            "subtype": [
+              {
+                "label": "Android port README: upstream Zelda3 lineage and ROM asset extraction",
+                "url": "https://github.com/Waterdish/zelda3-android"
+              },
+              {
+                "label": "Upstream Zelda3 reimplementation README",
+                "url": "https://github.com/snesrev/zelda3"
+              },
+              {
+                "label": "GitHub repository language metadata / GitHub repository API: source availability and license metadata",
+                "url": "https://api.github.com/repos/Waterdish/zelda3-android"
+              }
+            ]
+          }
+        },
+        {
+          "manifest": "hydration45",
+          "fields": {
+            "source_available": "Public source repository and Android release; users extract game assets locally from their own ROM, which is not included."
+          },
+          "sources": {
+            "source_available": [
+              {
+                "label": "Maintainer README: source and game-data distribution",
+                "url": "https://github.com/Waterdish/zelda3-android/blob/main/README.md"
+              }
+            ]
+          }
+        }
+      ],
+      "recommended": {
+        "programming_language": "C/C++",
+        "source_available": "Public source repository and Android release; users extract game assets locally from their own A Link to the Past ROM, which is not included.",
+        "subtype": "Android app port of the native Zelda3 C reimplementation"
+      },
+      "changed": {
+        "programming_language": "C/C++",
+        "source_available": "Public source repository and Android release; users extract game assets locally from their own A Link to the Past ROM, which is not included.",
+        "subtype": "Android app port of the native Zelda3 C reimplementation"
+      },
+      "sources_by_field": {
+        "programming_language": [
+          {
+            "label": "Android port README: upstream Zelda3 lineage and ROM asset extraction",
+            "url": "https://github.com/Waterdish/zelda3-android"
+          },
+          {
+            "label": "Upstream Zelda3 reimplementation README",
+            "url": "https://github.com/snesrev/zelda3"
+          },
+          {
+            "label": "GitHub repository language metadata / GitHub repository API: source availability and license metadata",
+            "url": "https://api.github.com/repos/Waterdish/zelda3-android"
+          }
+        ],
+        "source_available": [
+          {
+            "label": "Android port README: upstream Zelda3 lineage and ROM asset extraction",
+            "url": "https://github.com/Waterdish/zelda3-android"
+          },
+          {
+            "label": "Upstream Zelda3 reimplementation README",
+            "url": "https://github.com/snesrev/zelda3"
+          },
+          {
+            "label": "GitHub repository language metadata / GitHub repository API: source availability and license metadata",
+            "url": "https://api.github.com/repos/Waterdish/zelda3-android"
+          },
+          {
+            "label": "Maintainer README: source and game-data distribution",
+            "url": "https://github.com/Waterdish/zelda3-android/blob/main/README.md"
+          }
+        ],
+        "subtype": [
+          {
+            "label": "Android port README: upstream Zelda3 lineage and ROM asset extraction",
+            "url": "https://github.com/Waterdish/zelda3-android"
+          },
+          {
+            "label": "Upstream Zelda3 reimplementation README",
+            "url": "https://github.com/snesrev/zelda3"
+          },
+          {
+            "label": "GitHub repository language metadata / GitHub repository API: source availability and license metadata",
+            "url": "https://api.github.com/repos/Waterdish/zelda3-android"
+          }
+        ]
+      },
+      "decisions": {
+        "programming_language": "single proposal",
+        "source_available": "use detailed maintainer distribution caveat and retain explicit license evidence where present",
+        "subtype": "single proposal"
+      }
+    }
+  }
+}

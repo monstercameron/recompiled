@@ -1,0 +1,76 @@
+{
+  "updated": "2026-10-15",
+  "format_note": "Each entry identifies an existing catalog project by id. Apply only the listed fields; each changed field carries its supporting source links.",
+  "metadata_updates": [
+    {
+      "project_id": "ydkj-ps3-recomp",
+      "fields": {
+        "status": {
+          "value": "Partial rendering only. The USA PS3 EBOOT (BLUS30569) now runs as a native Windows x86-64 executable and draws the Scaleform attract/legal screen through D3D12 at 1280×720 (the README reports 32 FPS telemetry); some dynamic text is garbled. It remains on the logo-video screen because the CRI movie-decoding/SPU task path is not implemented, so gameplay has not been reached.",
+          "sources": [
+            {
+              "label": "Maintainer README: current boot/render status, title ID, and CRI video frontier",
+              "url": "https://github.com/sp00nznet/youdontknowjack#current-status"
+            }
+          ]
+        },
+        "summary": {
+          "value": "Statically lifts the user's decrypted USA PS3 EBOOT.elf (BLUS30569) from PowerPC64 to C/C++ and links it against ps3recomp's native HLE/runtime libraries. The repository contains analysis metadata and the recompilation harness, not game binaries, audio, or other game content. Its current renderer draws the game's own Scaleform attract/legal screen, but it does not yet advance into gameplay.",
+          "sources": [
+            {
+              "label": "Maintainer README: recompilation method, target, and current rendering",
+              "url": "https://github.com/sp00nznet/youdontknowjack#readme"
+            },
+            {
+              "label": "Maintainer README: detailed current status and test frontier",
+              "url": "https://github.com/sp00nznet/youdontknowjack#current-status"
+            }
+          ]
+        },
+        "strategy": {
+          "value": "Static PowerPC64-to-C/C++ recompilation linked to ps3recomp native HLE runtime libraries; D3D12 rendering backend",
+          "sources": [
+            {
+              "label": "Maintainer README: lifter/runtime method and D3D12 status",
+              "url": "https://github.com/sp00nznet/youdontknowjack#readme"
+            }
+          ]
+        },
+        "source_available": {
+          "value": "Public source and recompilation harness; requires the user's own decrypted USA PlayStation 3 disc binary (BLUS30569 EBOOT.elf); repository excludes game binaries, assets, and audio.",
+          "sources": [
+            {
+              "label": "Maintainer README: BLUS30569 target and user-supplied disc requirement",
+              "url": "https://github.com/sp00nznet/youdontknowjack#current-status"
+            },
+            {
+              "label": "Maintainer README: repository/game-content boundary",
+              "url": "https://github.com/sp00nznet/youdontknowjack#readme"
+            }
+          ]
+        },
+        "programming_language": {
+          "value": "C++",
+          "sources": [
+            {
+              "label": "GitHub language breakdown",
+              "url": "https://api.github.com/repos/sp00nznet/youdontknowjack/languages"
+            }
+          ]
+        },
+        "subtype": {
+          "value": "PS3 PPU static recompilation to native Windows x86-64",
+          "sources": [
+            {
+              "label": "Maintainer README: target, generated source, and boot harness",
+              "url": "https://github.com/sp00nznet/youdontknowjack#current-status"
+            }
+          ]
+        },
+        "updated": {
+          "value": "2026-10-15"
+        }
+      }
+    }
+  ]
+}

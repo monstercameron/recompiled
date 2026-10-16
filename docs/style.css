@@ -76,7 +76,7 @@
   --quiet: #9baaaa;
   --control-muted: #b9c9c8;
   --control-border: #3b4c52;
-  --disabled-text: #819092;
+  --disabled-text: #a4b3b5;
   --disabled-bg: #202d33;
   --tab-idle: #aab8b9;
   --outline: #43545a;
@@ -988,6 +988,11 @@ html:lang(ja) .hero h1 { font-size:clamp(46px,4.85vw,62px); letter-spacing:-.05e
 .filter-grid label,.console-gallery-controls label { font:600 11px/1.4 var(--sans); letter-spacing:0; text-transform:none; }
 .source-links > span { font:600 10px/1.4 var(--sans); letter-spacing:0; text-transform:none; }
 .about { gap:clamp(38px,7vw,100px); }
+.catalog:focus-visible {
+  outline:2px solid color-mix(in srgb,var(--focus-outline) 72%,transparent);
+  outline-offset:8px;
+  border-radius:4px;
+}
 .about h2 { max-width:560px; font-size:clamp(36px,4.5vw,54px); line-height:1.02; letter-spacing:-.06em; }
 
 @keyframes signal-walk { to { stroke-dashoffset:-96; } }
@@ -998,6 +1003,12 @@ html:lang(ja) .hero h1 { font-size:clamp(46px,4.85vw,62px); letter-spacing:-.05e
   .top-nav { gap:14px; font-size:11px; }
   .primary-nav { gap:clamp(8px,.9vw,12px); }
   .header-actions { gap:6px; }
+}
+
+/* Keep the persistent jump control in the outer gutter on compact desktops. */
+@media (min-width:1224px) and (max-width:1375px) {
+  .site-header,main,footer { width:min(1216px,calc(100% - 112px)); }
+  .floating-nav { right:max(4px,env(safe-area-inset-right)); }
 }
 
 @media (max-width:940px) {
@@ -1037,10 +1048,10 @@ html:lang(ja) .hero h1 { font-size:clamp(46px,4.85vw,62px); letter-spacing:-.05e
   h1 { font-size:clamp(39px,10.1vw,50px); }
   .hero-summary { font-size:13px; }
   .hero-figure { width:min(340px,100%); }
-  .figure-note { padding:4px 6px; font-size:7px; }
+  .figure-note { padding:4px 6px; font-size:8px; }
   .orbit-core { width:86px; height:86px; border-radius:14px; }
   .orbit-core b { font-size:25px; }
-  .signal-readout { font-size:6.4px; }
+  .signal-readout { font-size:6.8px; }
   .site-header .primary-nav { scrollbar-width:thin; scrollbar-color:color-mix(in srgb,var(--blue) 62%,var(--line)) transparent; }
   .site-header .primary-nav::-webkit-scrollbar { height:3px; }
   .site-header .primary-nav::-webkit-scrollbar-track { background:transparent; }
