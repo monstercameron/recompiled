@@ -1,0 +1,122 @@
+{
+  "updated": "2026-10-15",
+  "projects": [
+    {
+      "id": "microsoft-encarta-97-recomp",
+      "title": "Microsoft Encarta 97 static recompilation",
+      "game": "Microsoft Encarta 97 Encyclopedia",
+      "target_type": "Software",
+      "platform": "Windows x86 → Windows 10/11; Linux via Wine; macOS via CrossOver (untested)",
+      "kind": "Recompilation",
+      "status": "Alpha, with no tagged release. The README reports that it boots, browses articles, runs MindMaze, and displays images and video; 9/9 conformance checks pass when the original discs are available.",
+      "summary": "Statically recompiles the English two-disc Encarta 97 Win32 application into C for modern systems. It remains a hybrid build that calls selected Microsoft runtime libraries; users supply their own original disc data.",
+      "project_url": "https://github.com/sp00nznet/encarta",
+      "updated": "2026-10-15",
+      "strategy": "Static x86-to-C recompilation",
+      "programming_language": "C",
+      "subtype": "Desktop encyclopedia application",
+      "sources": [
+        {
+          "label": "Project repository and README",
+          "url": "https://github.com/sp00nznet/encarta"
+        },
+        {
+          "label": "Maintainer status and compatibility notes",
+          "url": "https://github.com/sp00nznet/encarta/blob/main/README.md#status"
+        }
+      ]
+    },
+    {
+      "id": "dance-ejay-1-2-recomp",
+      "title": "Dance eJay 1 & 2 engine recompilation",
+      "game": "Dance eJay 1 & 2",
+      "target_type": "Software",
+      "platform": "Windows 16-bit/32-bit → native C host",
+      "kind": "Recompilation",
+      "status": "Alpha and unreleased. The project reports that Dance eJay 2's arrangement page and playback work; Dance eJay 1 streams audio, while its sampler remains silent.",
+      "summary": "Recompiles the PXD Musicsoft audio engine behind two Windows music-making applications, bridging the 16-bit engine and 32-bit code to C while retaining the Visual Basic front ends. Users provide their original discs.",
+      "project_url": "https://github.com/sp00nznet/ejay",
+      "updated": "2026-10-15",
+      "strategy": "Static recompilation of the audio engine",
+      "programming_language": "C",
+      "subtype": "Music production software",
+      "sources": [
+        {
+          "label": "Project repository and technical overview",
+          "url": "https://github.com/sp00nznet/ejay"
+        },
+        {
+          "label": "Maintainer status and supported features",
+          "url": "https://github.com/sp00nznet/ejay/blob/main/README.md#status"
+        }
+      ]
+    },
+    {
+      "id": "microsoft-bob-recomp",
+      "title": "Microsoft Bob Win16 recompilation",
+      "game": "Microsoft Bob",
+      "target_type": "Software",
+      "platform": "Windows 3.1/95 Win16 → portable C host (bring-up)",
+      "kind": "Recompilation",
+      "status": "Bring-up stage. The project reports that the original startup path and Jet databases execute in its host; a first rendered application frame is not yet documented.",
+      "summary": "Lifts Microsoft Bob's Win16 NE application and database-related modules into C, with replacement runtime work for Win16, Jet, and WinG dependencies. Requires a user-owned copy of the original application.",
+      "project_url": "https://github.com/sp00nznet/bob",
+      "updated": "2026-10-15",
+      "strategy": "Win16 binary recompilation to C",
+      "programming_language": "C",
+      "subtype": "Desktop application and runtime reconstruction",
+      "sources": [
+        {
+          "label": "Project repository and reverse-engineering notes",
+          "url": "https://github.com/sp00nznet/bob"
+        },
+        {
+          "label": "Maintainer status and implementation details",
+          "url": "https://github.com/sp00nznet/bob/blob/master/README.md#status"
+        }
+      ]
+    },
+    {
+      "id": "apple-ii-desktop-disassembly",
+      "title": "Apple II DeskTop ProDOS disassembly",
+      "game": "Apple II DeskTop",
+      "target_type": "Software",
+      "platform": "Apple II ProDOS → annotated 6502 assembly",
+      "kind": "Decompilation",
+      "status": "Active annotated disassembly. The project describes reverse engineering the ProDOS desktop suite to understand it, fix bugs, and add features.",
+      "summary": "Source reconstruction work on Apple II DeskTop, a Finder-like graphical shell for ProDOS. The repository publishes annotated assembly and supports continued fixes and enhancements for the original platform.",
+      "project_url": "https://github.com/a2stuff/a2d",
+      "updated": "2026-10-15",
+      "strategy": "Annotated disassembly",
+      "programming_language": "Assembly",
+      "subtype": "ProDOS desktop application",
+      "sources": [
+        {
+          "label": "Project repository and README",
+          "url": "https://github.com/a2stuff/a2d"
+        }
+      ]
+    },
+    {
+      "id": "rnc-propack-source-decompilation",
+      "title": "RNC ProPack source decompilation",
+      "game": "RNC ProPack",
+      "target_type": "Software",
+      "platform": "DOS PC → reconstructed C source",
+      "kind": "Decompilation",
+      "status": "Work in progress. The repository identifies the code as a decompilation of the DOS compression utility and documents pack, unpack, search, and extract operations.",
+      "summary": "Decompiled C source for RNC ProPack, a standalone DOS file compression utility. This is a software-tool reconstruction rather than a game project.",
+      "project_url": "https://github.com/lab313ru/rnc_propack_source",
+      "updated": "2026-10-15",
+      "strategy": "Source decompilation",
+      "programming_language": "C",
+      "subtype": "DOS compression utility",
+      "sources": [
+        {
+          "label": "Project repository and usage notes",
+          "url": "https://github.com/lab313ru/rnc_propack_source"
+        }
+      ]
+    }
+  ]
+}

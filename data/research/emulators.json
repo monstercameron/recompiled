@@ -1,0 +1,2979 @@
+{
+  "updated": "2026-10-15",
+  "scope": "A source-verified sweep of major emulator projects for home consoles, handhelds, arcade hardware, and personal computers. Includes standalone emulators, multi-system emulators, and significant emulator cores. Repeated entries for one emulator are merged. Because this field is open-ended, the inventory describes broad verified coverage and cannot guarantee every emulator ever released.",
+  "projects": [
+    {
+      "id": "aethersx2",
+      "title": "AetherSX2",
+      "game": "Games for supported systems",
+      "platform": "PlayStation 2",
+      "kind": "Emulator",
+      "status": "Discontinued; developer announced suspension of development in January 2023",
+      "summary": "A formerly popular Android PS2 emulator derived from PCSX2; binary releases remain available, but emulator source was not published.",
+      "project_url": "https://www.aethersx2.com/",
+      "sources": [
+        {
+          "label": "Official AetherSX2 site/archive",
+          "url": "https://www.aethersx2.com/"
+        },
+        {
+          "label": "PCSX2 project announcement describing the mobile derivative",
+          "url": "https://sourceforge.net/p/pcsx2/news/2021/11/aethersx2-brings-pcsx2-to-mobile/"
+        },
+        {
+          "label": "Archived official-site source repository",
+          "url": "https://github.com/nakano1337/www-aethersx2"
+        }
+      ],
+      "programming_language": "C++ (PCSX2-derived)",
+      "source_available": false,
+      "strategy": "PCSX2-derived PS2 emulation optimized for Android ARM64; distributed as proprietary binaries."
+    },
+    {
+      "id": "chonkystation3",
+      "title": "ChonkyStation3",
+      "game": "Games for supported systems",
+      "platform": "PlayStation 3",
+      "kind": "Emulator",
+      "status": "Active early-stage work in progress; maintainer says a few simple commercial games boot, but advises against using it to play games",
+      "summary": "An open-source hobby PS3 emulator with limited real-game boot support and substantial missing functionality.",
+      "project_url": "https://github.com/liuk7071/ChonkyStation3",
+      "sources": [
+        {
+          "label": "Maintainer repository and README",
+          "url": "https://github.com/liuk7071/ChonkyStation3"
+        },
+        {
+          "label": "Project site",
+          "url": "https://chonkystation.com/"
+        }
+      ],
+      "programming_language": "C++",
+      "source_available": true,
+      "strategy": "Early full-system PS3 emulation; current support is limited to booting a small number of commercial games."
+    },
+    {
+      "id": "chonkystation4",
+      "title": "ChonkyStation4",
+      "game": "Games for supported systems",
+      "platform": "PlayStation 4",
+      "kind": "Emulator",
+      "status": "Active early-stage work in progress; maintainer reports booting a few simple commercial games",
+      "summary": "An open-source hobby PS4 emulator with an official compatibility list and very limited game support.",
+      "project_url": "https://github.com/liuk7071/ChonkyStation4",
+      "sources": [
+        {
+          "label": "Maintainer repository and README",
+          "url": "https://github.com/liuk7071/ChonkyStation4"
+        },
+        {
+          "label": "Maintainer compatibility list",
+          "url": "https://github.com/ChonkyStation/ChonkyStation4-Compatibility"
+        }
+      ],
+      "programming_language": "C++",
+      "source_available": true,
+      "strategy": "Early full-system PS4 emulation; commercial-game support is limited to a few simple titles booting."
+    },
+    {
+      "id": "duckstation",
+      "title": "DuckStation",
+      "game": "Games for supported systems",
+      "platform": "PlayStation",
+      "kind": "Emulator",
+      "status": "Active",
+      "summary": "A modern PS1 emulator with high compatibility and hardware-accelerated rendering options.",
+      "project_url": "https://github.com/stenzek/duckstation",
+      "sources": [
+        {
+          "label": "Official source repository and project description",
+          "url": "https://github.com/stenzek/duckstation"
+        }
+      ],
+      "programming_language": "C++",
+      "source_available": true,
+      "strategy": "Full PS1 system emulation, with interpreter and dynamic-recompiler CPU paths and software or hardware rendering."
+    },
+    {
+      "id": "epsxe",
+      "title": "ePSXe",
+      "game": "Games for supported systems",
+      "platform": "PlayStation",
+      "kind": "Emulator",
+      "status": "Active; official site lists Windows and Android releases through 2025–2026",
+      "summary": "A closed-source PlayStation emulator for desktop and Android with a long-running compatibility record.",
+      "project_url": "https://epsxe.com/",
+      "sources": [
+        {
+          "label": "Official ePSXe site and release information",
+          "url": "https://epsxe.com/"
+        },
+        {
+          "label": "Official Android edition",
+          "url": "https://epsxe.com/android/index.html"
+        }
+      ],
+      "programming_language": null,
+      "source_available": false,
+      "strategy": "Proprietary PS1 software and hardware emulation; implementation details are not published."
+    },
+    {
+      "id": "jpcsp",
+      "title": "JPCSP",
+      "game": "Games for supported systems",
+      "platform": "PlayStation Portable",
+      "kind": "Emulator",
+      "status": "Maintained intermittently; latest official update shown is 2024-12-01",
+      "summary": "A Java PSP emulator project that reports support for commercial PSP games and continues to publish occasional updates.",
+      "project_url": "https://github.com/jpcsp/jpcsp",
+      "sources": [
+        {
+          "label": "Official source repository",
+          "url": "https://github.com/jpcsp/jpcsp"
+        },
+        {
+          "label": "Official downloads and update history",
+          "url": "https://www.jpcsp.org/index?p=downloads"
+        }
+      ],
+      "programming_language": "Java",
+      "source_available": true,
+      "strategy": "PSP system emulation implemented in Java, including a dynamic-recompiler path."
+    },
+    {
+      "id": "pcsx-reloaded",
+      "title": "PCSX-Reloaded",
+      "game": "Games for supported systems",
+      "platform": "PlayStation",
+      "kind": "Emulator",
+      "status": "Historical/legacy; no recent development evident, with repository activity last shown in 2018",
+      "summary": "A public-source continuation of the original PCSX emulator, now effectively a legacy project.",
+      "project_url": "https://github.com/pcsxr/PCSX-Reloaded",
+      "sources": [
+        {
+          "label": "Project repository and README",
+          "url": "https://github.com/pcsxr/PCSX-Reloaded"
+        },
+        {
+          "label": "PCSX-Reloaded mirror with project description",
+          "url": "https://github.com/mirror/pcsxr"
+        }
+      ],
+      "programming_language": "C",
+      "source_available": true,
+      "strategy": "Traditional PS1 emulation with support for software and hardware rendering and optional HLE BIOS."
+    },
+    {
+      "id": "ppsspp",
+      "title": "PPSSPP",
+      "game": "Games for supported systems",
+      "platform": "PlayStation Portable",
+      "kind": "Emulator",
+      "status": "Active",
+      "summary": "A mature open-source PSP emulator with broad game compatibility across desktop and mobile systems.",
+      "project_url": "https://github.com/hrydgard/ppsspp",
+      "sources": [
+        {
+          "label": "Official source repository and README",
+          "url": "https://github.com/hrydgard/ppsspp"
+        },
+        {
+          "label": "Official project site",
+          "url": "https://www.ppsspp.org/"
+        }
+      ],
+      "programming_language": "C++",
+      "source_available": true,
+      "strategy": "High-level PSP system emulation; it does not require the PSP BIOS to run games."
+    },
+    {
+      "id": "rpcs3",
+      "title": "RPCS3",
+      "game": "Games for supported systems",
+      "platform": "PlayStation 3",
+      "kind": "Emulator",
+      "status": "Active",
+      "summary": "The leading open-source PS3 emulator, with official compatibility tracking across commercial game releases.",
+      "project_url": "https://github.com/RPCS3/rpcs3",
+      "sources": [
+        {
+          "label": "Official source repository",
+          "url": "https://github.com/RPCS3/rpcs3"
+        },
+        {
+          "label": "Official FAQ",
+          "url": "https://github.com/RPCS3/rpcs3/wiki/FAQ"
+        },
+        {
+          "label": "Official compatibility list",
+          "url": "https://rpcs3.io/compatibility"
+        }
+      ],
+      "programming_language": "C++",
+      "source_available": true,
+      "strategy": "Full PS3 system emulation, including Cell processor execution, system modules, and RSX graphics emulation."
+    },
+    {
+      "id": "vita3k",
+      "title": "Vita3K",
+      "game": "Games for supported systems",
+      "platform": "PlayStation Vita",
+      "kind": "Emulator",
+      "status": "Active experimental project; official compatibility tracker showed about 64% of tested titles playable on 2026-10-08",
+      "summary": "The first functional open-source PS Vita emulator, with commercial-game support tracked by the maintainers.",
+      "project_url": "https://github.com/Vita3K/Vita3K",
+      "sources": [
+        {
+          "label": "Official source repository",
+          "url": "https://github.com/Vita3K/Vita3K"
+        },
+        {
+          "label": "Official project site",
+          "url": "https://vita3k.org/"
+        },
+        {
+          "label": "Official compatibility tracker",
+          "url": "https://vita3k.org/compatibility"
+        }
+      ],
+      "programming_language": "C++",
+      "source_available": true,
+      "strategy": "Full PS Vita system emulation, with emulated platform services, CPU execution, and graphics translation."
+    },
+    {
+      "id": "beebem",
+      "title": "BeebEm",
+      "game": "Acorn BBC Micro and Master computers",
+      "platform": "Windows",
+      "kind": "Emulator",
+      "status": "Active",
+      "summary": "A BBC Micro and Master-series emulator supporting common machine models, coprocessors, and peripherals used by games and educational software.",
+      "project_url": "https://github.com/stardot/beebem-windows",
+      "sources": [
+        {
+          "label": "Maintainer repository, emulated BBC models, Windows support, and source",
+          "url": "https://github.com/stardot/beebem-windows"
+        },
+        {
+          "label": "Project homepage",
+          "url": "https://www.mkw.me.uk/beebem/"
+        }
+      ],
+      "programming_language": "C++",
+      "source_available": true,
+      "strategy": "BBC Micro hardware emulation with optional second processors, disk controllers, and other peripherals."
+    },
+    {
+      "id": "4do-3do",
+      "title": "4DO",
+      "game": "All compatible 3DO Interactive Multiplayer software",
+      "platform": "3DO Interactive Multiplayer (1993)",
+      "kind": "Emulator",
+      "status": "Historical / discontinued",
+      "summary": "Open-source Windows 3DO emulator forked from FreeDO. Its project status page says the core had been stable for some time; the project is no longer maintained, and its code later informed Opera.",
+      "project_url": "https://sourceforge.net/projects/fourdo/",
+      "sources": [
+        {
+          "label": "Official 4DO project status and history",
+          "url": "https://fourdo.com/project-status/"
+        },
+        {
+          "label": "4DO source repository",
+          "url": "https://sourceforge.net/p/fourdo/code/"
+        }
+      ],
+      "programming_language": "C, C#, C++",
+      "source_available": true,
+      "strategy": "Low-level software emulation, based on the partially released FreeDO codebase."
+    },
+    {
+      "id": "freedo-3do",
+      "title": "FreeDO",
+      "game": "All compatible 3DO Interactive Multiplayer software",
+      "platform": "3DO Interactive Multiplayer (1993)",
+      "kind": "Emulator",
+      "status": "Historical / discontinued",
+      "summary": "One of the earliest 3DO emulators and the codebase from which 4DO and later open-source projects descended. A partial source release appeared in 2010; the 2.x branch was closed source.",
+      "project_url": "https://sourceforge.net/projects/freedo/",
+      "sources": [
+        {
+          "label": "FreeDO project files and news archive",
+          "url": "https://sourceforge.net/projects/freedo/files/"
+        },
+        {
+          "label": "3DO emulation source/release history index",
+          "url": "https://3dodev.com/software/emulation"
+        }
+      ],
+      "programming_language": "Assembly, C, C++",
+      "source_available": true,
+      "strategy": "Software emulation of 3DO hardware; public source is partial and does not represent every FreeDO branch."
+    },
+    {
+      "id": "opera-3do",
+      "title": "Opera (libretro)",
+      "game": "All compatible 3DO Interactive Multiplayer software",
+      "platform": "3DO Interactive Multiplayer (1993)",
+      "kind": "Emulator",
+      "status": "Maintained open-source fork",
+      "summary": "Open-source libretro 3DO emulator derived from 4DO, itself descended from FreeDO. The project was renamed when 4DO became dormant and adopted a renewed development focus.",
+      "project_url": "https://github.com/libretro/opera-libretro",
+      "sources": [
+        {
+          "label": "Official Opera source repository",
+          "url": "https://github.com/libretro/opera-libretro"
+        },
+        {
+          "label": "Libretro history, license, and system documentation",
+          "url": "https://docs.libretro.com/library/opera/"
+        }
+      ],
+      "programming_language": "C/C++",
+      "source_available": true,
+      "strategy": "Low-level software emulation of the 3DO console, descended from the FreeDO/4DO core."
+    },
+    {
+      "id": "stella-atari-2600",
+      "title": "Stella",
+      "game": "All compatible Atari 2600 software",
+      "platform": "Atari 2600 VCS (1977)",
+      "kind": "Emulator",
+      "status": "Active",
+      "summary": "Long-running, open-source, multi-platform Atari 2600 emulator with ongoing development and extensive peripheral support.",
+      "project_url": "https://stella-emu.github.io/",
+      "sources": [
+        {
+          "label": "Official project site",
+          "url": "https://stella-emu.github.io/"
+        },
+        {
+          "label": "Official source repository",
+          "url": "https://github.com/stella-emu/stella"
+        }
+      ],
+      "programming_language": "C++",
+      "source_available": true,
+      "strategy": "Hardware component emulation for the 2600 CPU, TIA video/audio chip, RIOT, cartridges, and controllers."
+    },
+    {
+      "id": "atari800-atari-5200",
+      "title": "Atari800",
+      "game": "All compatible Atari 5200 software",
+      "platform": "Atari 5200 SuperSystem (1982)",
+      "kind": "Emulator",
+      "status": "Active",
+      "summary": "Open-source emulator for Atari 8-bit computers and the 5200 console. The upstream documentation explicitly lists the 5200 among supported machine types.",
+      "project_url": "https://github.com/atari800/atari800",
+      "sources": [
+        {
+          "label": "Official repository and release notes",
+          "url": "https://github.com/atari800/atari800"
+        },
+        {
+          "label": "Upstream system and console support documentation",
+          "url": "https://github.com/atari800/atari800/blob/master/DOC/README"
+        }
+      ],
+      "programming_language": "C",
+      "source_available": true,
+      "strategy": "Hardware emulation of the Atari 8-bit/5200 chipset and machine configurations."
+    },
+    {
+      "id": "a7800-atari-7800",
+      "title": "A7800",
+      "game": "All compatible Atari 7800 and 2600 software",
+      "platform": "Atari 7800 ProSystem (1986), with 2600 compatibility",
+      "kind": "Emulator",
+      "status": "Active",
+      "summary": "Open-source, 7800-focused emulator forked from MAME's Atari 7800 driver. It adds timing, sound, controller, palette, and cartridge improvements while retaining MAME configuration compatibility.",
+      "project_url": "https://github.com/7800-devtools/a7800",
+      "sources": [
+        {
+          "label": "Official source repository and feature list",
+          "url": "https://github.com/7800-devtools/a7800"
+        },
+        {
+          "label": "Project build, download, and license notes",
+          "url": "https://7800.8bitdev.org/index.php/A7800_Emulator"
+        }
+      ],
+      "programming_language": "C++",
+      "source_available": true,
+      "strategy": "MAME-derived hardware emulation with additional Atari 7800 timing and peripheral work."
+    },
+    {
+      "id": "prosystem-atari-7800",
+      "title": "ProSystem",
+      "game": "All compatible Atari 7800 software",
+      "platform": "Atari 7800 ProSystem (1986)",
+      "kind": "Emulator",
+      "status": "Historical / no longer regularly released",
+      "summary": "Greg Stanton's Windows emulator is a historically important 7800 implementation and the source of the ProSystem libretro core and later derivative work.",
+      "project_url": "https://github.com/gstanton/ProSystem1_3",
+      "sources": [
+        {
+          "label": "Original project source repository and description",
+          "url": "https://github.com/gstanton/ProSystem1_3"
+        },
+        {
+          "label": "Libretro ProSystem core documentation",
+          "url": "https://docs.libretro.com/library/prosystem/"
+        }
+      ],
+      "programming_language": "C++",
+      "source_available": true,
+      "strategy": "Software emulation of Atari 7800 hardware and NTSC/PAL video standards."
+    },
+    {
+      "id": "bigpemu-atari-jaguar",
+      "title": "BigPEmu",
+      "game": "All compatible Atari Jaguar and Jaguar CD software",
+      "platform": "Atari Jaguar (1993) and Jaguar CD",
+      "kind": "Emulator",
+      "status": "Active; current public release 1.221",
+      "summary": "Proprietary Jaguar emulator by Rich Whitehouse with broad retail-library compatibility and Windows/Linux builds. The developer explicitly says the source cannot be released because of contractual obligations.",
+      "project_url": "https://www.richwhitehouse.com/jaguar/",
+      "sources": [
+        {
+          "label": "Official downloads and current release",
+          "url": "https://www.richwhitehouse.com/jaguar/index.php?content=download"
+        },
+        {
+          "label": "Developer FAQ on source availability and project origins",
+          "url": "https://www.richwhitehouse.com/jaguar/index.php?content=faq"
+        }
+      ],
+      "programming_language": null,
+      "source_available": false,
+      "strategy": "Software emulation of Jaguar and Jaguar CD hardware; developer reports using public documentation and physical hardware."
+    },
+    {
+      "id": "virtual-jaguar-atari-jaguar",
+      "title": "Virtual Jaguar (libretro continuation)",
+      "game": "All compatible Atari Jaguar and Jaguar CD software",
+      "platform": "Atari Jaguar (1993) and Jaguar CD",
+      "kind": "Emulator",
+      "status": "Active continuation; recent releases",
+      "summary": "Open-source continuation of the Virtual Jaguar emulator, packaged as a libretro core. Current development covers Jaguar cartridges, Jaguar CD, and peripherals; it remains experimental relative to the closed-source BigPEmu.",
+      "project_url": "https://github.com/libretro/virtualjaguar-libretro",
+      "sources": [
+        {
+          "label": "Official continuation repository and release history",
+          "url": "https://github.com/libretro/virtualjaguar-libretro"
+        },
+        {
+          "label": "Project site and current core documentation links",
+          "url": "https://jaguar.provenance-emu.com/"
+        }
+      ],
+      "programming_language": "C",
+      "source_available": true,
+      "strategy": "Software emulation of Jaguar processors, video, audio, CD hardware, and supported peripherals."
+    },
+    {
+      "id": "handy-atari-lynx",
+      "title": "Handy (libretro)",
+      "game": "All compatible Atari Lynx software",
+      "platform": "Atari Lynx (1989)",
+      "kind": "Emulator",
+      "status": "Maintained port of a historically important emulator",
+      "summary": "Libretro port of K. Wilkins' original Handy emulator, the long-standing open-source Lynx implementation. The port supports Lynx cartridge images and requires the Lynx boot image.",
+      "project_url": "https://github.com/libretro/libretro-handy",
+      "sources": [
+        {
+          "label": "Official Handy libretro repository",
+          "url": "https://github.com/libretro/libretro-handy"
+        },
+        {
+          "label": "Libretro system documentation and authorship/license",
+          "url": "https://docs.libretro.com/library/handy/"
+        }
+      ],
+      "programming_language": "C++",
+      "source_available": true,
+      "strategy": "Software emulation of Lynx hardware through the Handy core."
+    },
+    {
+      "id": "colem-colecovision-adam",
+      "title": "ColEm",
+      "game": "All compatible ColecoVision and Coleco ADAM software",
+      "platform": "ColecoVision (1982) and Coleco ADAM (1983)",
+      "kind": "Emulator",
+      "status": "Mature; latest official release 5.6 (2021)",
+      "summary": "Portable ColecoVision emulator by Marat Fayzullin, later expanded to emulate the Coleco ADAM with keyboard, disk, and tape support. Source is available under the author's custom non-commercial terms rather than GPL.",
+      "project_url": "https://fms.komkon.org/ColEm/",
+      "sources": [
+        {
+          "label": "Official project, release, language, and source terms",
+          "url": "https://fms.komkon.org/ColEm/"
+        }
+      ],
+      "programming_language": "C",
+      "source_available": true,
+      "strategy": "Portable software emulation of ColecoVision and ADAM hardware."
+    },
+    {
+      "id": "jzintv-intellivision",
+      "title": "jzIntv (FujiNet fork)",
+      "game": "All compatible Mattel Intellivision software",
+      "platform": "Mattel Intellivision (1979)",
+      "kind": "Emulator",
+      "status": "Maintained fork with recent peripheral additions",
+      "summary": "Open-source continuation of Joe Zbiciak's historically important Intellivision emulator, adding FujiNet mailbox/network-storage support and current build workflows.",
+      "project_url": "https://github.com/FujiNetWIFI/jzintv",
+      "sources": [
+        {
+          "label": "Official fork repository, history, and build details",
+          "url": "https://github.com/FujiNetWIFI/jzintv"
+        }
+      ],
+      "programming_language": "C/C++",
+      "source_available": true,
+      "strategy": "Software emulation of the Intellivision's CPU, graphics, sound, and optional expansion/peripheral hardware."
+    },
+    {
+      "id": "geolith-neo-geo-aes",
+      "title": "Geolith",
+      "game": "All compatible Neo Geo AES/MVS/CD/CDZ software",
+      "platform": "SNK Neo Geo AES home console, MVS, Neo Geo CD, and CDZ",
+      "kind": "Emulator",
+      "status": "Active",
+      "summary": "Open-source Neo Geo emulator written in C, explicitly designed around a home-console AES experience while also supporting MVS arcade and CD systems.",
+      "project_url": "https://gitlab.com/jgemu/geolith",
+      "sources": [
+        {
+          "label": "Upstream Geolith repository",
+          "url": "https://gitlab.com/jgemu/geolith"
+        },
+        {
+          "label": "Libretro system, language, license, and AES-mode documentation",
+          "url": "https://docs.libretro.com/library/geolith/"
+        },
+        {
+          "label": "Libretro source port",
+          "url": "https://github.com/libretro/geolith-libretro"
+        }
+      ],
+      "programming_language": "C (ISO C11)",
+      "source_available": true,
+      "strategy": "Hardware emulation of Neo Geo cartridge and CD systems, with an AES-first home-console mode."
+    },
+    {
+      "id": "o2em-odyssey2",
+      "title": "O2EM",
+      "game": "All compatible Odyssey²/Videopac software",
+      "platform": "Magnavox Odyssey² / Philips Videopac (1978)",
+      "kind": "Emulator",
+      "status": "Historical / latest upstream release 1.18 (2007)",
+      "summary": "Open-source Odyssey² and Videopac emulator created in 1996. It remains a historically important standalone implementation with source code available.",
+      "project_url": "https://github.com/lutris/o2em",
+      "sources": [
+        {
+          "label": "Project source repository and release history",
+          "url": "https://github.com/lutris/o2em"
+        },
+        {
+          "label": "Official SourceForge release archive",
+          "url": "https://sourceforge.net/projects/o2em/files/o2em/"
+        }
+      ],
+      "programming_language": "C",
+      "source_available": true,
+      "strategy": "Software emulation of the Odyssey²/Videopac CPU, video/sound processor, and optional voice hardware."
+    },
+    {
+      "id": "cxbx-reloaded-original-xbox",
+      "title": "Cxbx-Reloaded",
+      "game": "All compatible original Xbox software",
+      "platform": "Microsoft Xbox (2001)",
+      "kind": "Emulator",
+      "status": "Active",
+      "summary": "Open-source original Xbox emulator for Windows and Wine. The project continues to publish development builds and compatibility information.",
+      "project_url": "https://github.com/Cxbx-Reloaded/Cxbx-Reloaded",
+      "sources": [
+        {
+          "label": "Official repository and build instructions",
+          "url": "https://github.com/Cxbx-Reloaded/Cxbx-Reloaded"
+        },
+        {
+          "label": "Official releases",
+          "url": "https://github.com/Cxbx-Reloaded/Cxbx-Reloaded/releases"
+        }
+      ],
+      "programming_language": "C++",
+      "source_available": true,
+      "strategy": "High-level emulation of Xbox kernel and XDK libraries, with low-level components for hardware where needed."
+    },
+    {
+      "id": "xemu-original-xbox",
+      "title": "xemu",
+      "game": "All compatible original Xbox software",
+      "platform": "Microsoft Xbox (2001)",
+      "kind": "Emulator",
+      "status": "Active",
+      "summary": "Free, open-source, cross-platform original Xbox emulator. The project publishes current builds and compatibility reports; its site identifies it as low-level hardware emulation.",
+      "project_url": "https://xemu.app/",
+      "sources": [
+        {
+          "label": "Official project site and current version",
+          "url": "https://xemu.app/"
+        },
+        {
+          "label": "Official source repository",
+          "url": "https://github.com/xemu-project/xemu"
+        }
+      ],
+      "programming_language": "C/C++",
+      "source_available": true,
+      "strategy": "Low-level hardware emulation of the original Xbox; descended from the QEMU-based XQEMU project."
+    },
+    {
+      "id": "ootake-pc-engine",
+      "title": "Ootake",
+      "game": "All compatible PC Engine/TurboGrafx-16 software",
+      "platform": "NEC PC Engine/TurboGrafx-16, SuperGrafx, and CD-ROM² families",
+      "kind": "Emulator",
+      "status": "Active; version 3.06 released 2026-08-01",
+      "summary": "Windows PC Engine emulator with recent releases and source code bundled in the official download. The project emphasizes reproduction of the original machine's sound, display, controls, and behavior.",
+      "project_url": "https://ouma.jp/ootake/index.html",
+      "sources": [
+        {
+          "label": "Official project page and release/source bundle",
+          "url": "https://ouma.jp/ootake/index.html"
+        },
+        {
+          "label": "Official readme and supported machine details",
+          "url": "https://ouma.jp/ootake/Readme.html"
+        }
+      ],
+      "programming_language": "C++",
+      "source_available": true,
+      "strategy": "Software emulation descended from the PC2E source base, with ongoing work toward detailed hardware behavior."
+    },
+    {
+      "id": "cdi-emulator-philips-cdi",
+      "title": "CD-i Emulator",
+      "game": "All compatible Philips CD-i software",
+      "platform": "Philips CD-i (1991)",
+      "kind": "Emulator",
+      "status": "Closed-source beta project; latest project page lists 0.5.3-beta10",
+      "summary": "Long-running Windows CD-i emulator project that aims to reproduce the hardware of a physical player. The developer's site provides binaries but no source code.",
+      "project_url": "https://www.cdiemu.org/site/welcome.htm",
+      "sources": [
+        {
+          "label": "Official CD-i Emulator project page and version information",
+          "url": "https://www.cdiemu.org/site/welcome.htm"
+        },
+        {
+          "label": "Official player/version download page",
+          "url": "https://www.cdiemu.org/site/players060.htm"
+        }
+      ],
+      "programming_language": null,
+      "source_available": false,
+      "strategy": "Software emulation of CD-i player hardware."
+    },
+    {
+      "id": "vectrexy-vectrex",
+      "title": "Vectrexy",
+      "game": "All compatible Vectrex software",
+      "platform": "Milton Bradley Vectrex (1982)",
+      "kind": "Emulator",
+      "status": "Active early-stage project",
+      "summary": "Open-source modern C++ Vectrex emulator with Windows and Linux builds, compatibility tracking, and support for artwork overlays. The author describes it as still early in development.",
+      "project_url": "https://github.com/amaiorano/vectrexy",
+      "sources": [
+        {
+          "label": "Official source repository, status, and supported hosts",
+          "url": "https://github.com/amaiorano/vectrexy"
+        },
+        {
+          "label": "Official release history",
+          "url": "https://github.com/amaiorano/vectrexy/releases"
+        }
+      ],
+      "programming_language": "C++",
+      "source_available": true,
+      "strategy": "Software emulation of the MC6809 CPU, 6522 VIA, AY-3-8910 sound, and vector display."
+    },
+    {
+      "id": "xenia-xbox-360",
+      "title": "Xenia (Master)",
+      "game": "All compatible Xbox 360 software",
+      "platform": "Microsoft Xbox 360 (2005)",
+      "kind": "Emulator",
+      "status": "Maintained sporadically; original upstream",
+      "summary": "The original open-source Xbox 360 research emulator. The official project site says this branch now receives sporadic updates; community development is concentrated in Xenia Canary.",
+      "project_url": "https://github.com/xenia-project/xenia",
+      "sources": [
+        {
+          "label": "Official Xenia source repository",
+          "url": "https://github.com/xenia-project/xenia"
+        },
+        {
+          "label": "Official project page describing Master and Canary status",
+          "url": "https://github.com/xenia-project/xenia-project.github.io/blob/main/index.html"
+        }
+      ],
+      "programming_language": "C++",
+      "source_available": true,
+      "strategy": "Experimental system emulation with CPU instruction translation and graphics-system reimplementation."
+    },
+    {
+      "id": "xenia-canary-xbox-360",
+      "title": "Xenia Canary",
+      "game": "All compatible Xbox 360 software",
+      "platform": "Microsoft Xbox 360 (2005)",
+      "kind": "Emulator",
+      "status": "Active community fork",
+      "summary": "Open-source Xenia fork with more frequent updates, releases, and game-specific fixes than the Master branch. Official documentation describes it as experimental.",
+      "project_url": "https://github.com/xenia-canary/xenia-canary",
+      "sources": [
+        {
+          "label": "Official repository and status",
+          "url": "https://github.com/xenia-canary/xenia-canary"
+        },
+        {
+          "label": "Official quickstart and branch comparison",
+          "url": "https://github.com/xenia-canary/xenia-canary/wiki/Quickstart"
+        }
+      ],
+      "programming_language": "C++",
+      "source_available": true,
+      "strategy": "Experimental system emulation with CPU instruction translation and graphics-system reimplementation."
+    },
+    {
+      "id": "applewin",
+      "title": "AppleWin",
+      "game": "Apple II, Apple II Plus, Apple IIe, and supported clones",
+      "platform": "Windows",
+      "kind": "Emulator",
+      "status": "Active",
+      "summary": "A full-featured Apple II emulator supporting several Apple II models, clones, display modes, and add-in cards used by games and other software.",
+      "project_url": "https://github.com/AppleWin/AppleWin",
+      "sources": [
+        {
+          "label": "Official AppleWin repository, supported systems, and source build instructions",
+          "url": "https://github.com/AppleWin/AppleWin"
+        }
+      ],
+      "programming_language": "C++",
+      "source_available": true,
+      "strategy": "Machine-level emulation of Apple II hardware and expansion cards, with model-specific video and peripheral behavior."
+    },
+    {
+      "id": "finalburn-neo",
+      "title": "FinalBurn Neo (FBNeo)",
+      "game": "Arcade systems (multiple) and selected consoles",
+      "platform": "Windows, macOS, SDL builds on Linux; Libretro ports support additional hosts",
+      "kind": "Emulator",
+      "status": "Active",
+      "summary": "A multi-system emulator focused on arcade games, with board families including Capcom CPS, Neo Geo, and Sega System 16; it also supports selected console systems.",
+      "project_url": "https://github.com/finalburnneo/FBNeo",
+      "sources": [
+        {
+          "label": "Official FBNeo repository, supported systems, ports, and source tree",
+          "url": "https://github.com/finalburnneo/FBNeo"
+        },
+        {
+          "label": "Official FBNeo system coverage",
+          "url": "https://github.com/finalburnneo/FBNeo/wiki/"
+        }
+      ],
+      "programming_language": "C and C++",
+      "source_available": true,
+      "strategy": "Per-system arcade and console hardware emulation, with separate CPU, device, sound, and game-driver code."
+    },
+    {
+      "id": "mame",
+      "title": "MAME",
+      "game": "Arcade systems, vintage computers, and supported home consoles (including Channel F, ColecoVision, Vectrex, FM Towns Marty, PC-FX, CD-i, and Apple Pippin)",
+      "platform": "Arcade, vintage computers, and home consoles; runs on Windows, Linux, FreeBSD, and macOS",
+      "kind": "Emulator",
+      "status": "Active",
+      "summary": "A broad machine-emulation and preservation project whose original focus was coin-operated arcade games. It now documents and emulates many vintage computers, consoles, calculators, and other electronic systems as well. The same MAME project also includes drivers for home systems such as Channel F, ColecoVision, Vectrex, FM Towns Marty, PC-FX, CD-i, and Apple Pippin; driver completeness varies.",
+      "project_url": "https://github.com/mamedev/mame",
+      "sources": [
+        {
+          "label": "Official project purpose, supported system types, and language",
+          "url": "https://docs.mamedev.org/initialsetup/mameintro.html"
+        },
+        {
+          "label": "Official source repository",
+          "url": "https://github.com/mamedev/mame"
+        },
+        {
+          "label": "Official Fairchild Channel F driver",
+          "url": "https://github.com/mamedev/mame/blob/master/src/mame/fairchild/channelf.cpp"
+        },
+        {
+          "label": "Official Arcadia 2001 driver",
+          "url": "https://github.com/mamedev/mame/blob/master/src/mame/arcadia/arcadia.cpp"
+        },
+        {
+          "label": "Official ColecoVision driver",
+          "url": "https://github.com/mamedev/mame/blob/master/src/mame/coleco/coleco.cpp"
+        },
+        {
+          "label": "Official FM Towns/Marty driver",
+          "url": "https://github.com/mamedev/mame/blob/master/src/mame/fujitsu/fmtowns.cpp"
+        },
+        {
+          "label": "Official PC-FX driver",
+          "url": "https://github.com/mamedev/mame/blob/master/src/mame/nec/pcfx.cpp"
+        },
+        {
+          "label": "Official CD-i driver",
+          "url": "https://github.com/mamedev/mame/blob/master/src/mame/philips/cdi.cpp"
+        },
+        {
+          "label": "Official Apple Pippin driver",
+          "url": "https://github.com/mamedev/mame/blob/master/src/mame/apple/pippin.cpp"
+        },
+        {
+          "label": "Naomi driver",
+          "url": "https://github.com/mamedev/mame/blob/master/src/mame/sega/naomi.cpp"
+        },
+        {
+          "label": "Saturn driver",
+          "url": "https://github.com/mamedev/mame/blob/master/src/mame/sega/saturn.cpp"
+        },
+        {
+          "label": "ST-V driver",
+          "url": "https://github.com/mamedev/mame/blob/master/src/mame/sega/stv.cpp"
+        },
+        {
+          "label": "Model 2 driver",
+          "url": "https://github.com/mamedev/mame/blob/master/src/mame/sega/model2.cpp"
+        },
+        {
+          "label": "Model 3 driver status",
+          "url": "https://github.com/mamedev/mame/blob/master/src/mame/sega/model3.cpp"
+        },
+        {
+          "label": "MAME development language and source repository",
+          "url": "https://docs.mamedev.org/_files/MAME.pdf"
+        }
+      ],
+      "programming_language": "C++",
+      "source_available": true,
+      "strategy": "Machine-specific hardware emulation organized as drivers; source code also serves as hardware documentation for preservation."
+    },
+    {
+      "id": "atari800",
+      "title": "Atari800",
+      "game": "Atari 8-bit computers and Atari 5200 games",
+      "platform": "Windows, macOS, Linux, Unix, and other SDL-supported hosts",
+      "kind": "Emulator",
+      "status": "Active",
+      "summary": "A portable emulator for Atari 8-bit home computers and the Atari 5200, covering a substantial library of computer and console games.",
+      "project_url": "https://atari800.github.io/",
+      "sources": [
+        {
+          "label": "Official Atari800 scope and host information",
+          "url": "https://atari800.github.io/"
+        },
+        {
+          "label": "Official language, license, and source repository information",
+          "url": "https://atari800.github.io/development.html"
+        },
+        {
+          "label": "Official downloads",
+          "url": "https://atari800.github.io/download.html"
+        }
+      ],
+      "programming_language": "C",
+      "source_available": true,
+      "strategy": "Configurable hardware emulation for Atari 8-bit computer models and 5200 console systems."
+    },
+    {
+      "id": "hatari",
+      "title": "Hatari",
+      "game": "Atari ST, STE, TT, and Falcon computers",
+      "platform": "Linux, BSD, macOS, Windows, and other SDL-supported hosts",
+      "kind": "Emulator",
+      "status": "Active",
+      "summary": "An emulator for the Atari ST family, supporting the ST/STE/TT/Falcon range and their software, including the large Atari ST games catalog.",
+      "project_url": "https://www.hatari-emu.org/",
+      "sources": [
+        {
+          "label": "Official Hatari project description",
+          "url": "https://www.hatari-emu.org/"
+        },
+        {
+          "label": "Official source and release instructions",
+          "url": "https://www.hatari-emu.org/download.html"
+        },
+        {
+          "label": "Official development repository",
+          "url": "https://framagit.org/hatari/hatari"
+        }
+      ],
+      "programming_language": "C",
+      "source_available": true,
+      "strategy": "System-level Atari hardware emulation, including the ST-family CPU, video, sound, and peripherals."
+    },
+    {
+      "id": "shadps4",
+      "title": "shadPS4",
+      "game": "Bloodborne",
+      "platform": "PlayStation 4",
+      "kind": "Emulator",
+      "status": "Active; commercial titles can boot and some are playable, with compatibility changing rapidly",
+      "summary": "An open-source PS4 emulator with maintainer-hosted compatibility reports for commercial games including Bloodborne.",
+      "project_url": "https://github.com/shadps4-emu/shadPS4",
+      "sources": [
+        {
+          "label": "Official source repository",
+          "url": "https://github.com/shadps4-emu/shadPS4"
+        },
+        {
+          "label": "Maintainer compatibility reports",
+          "url": "https://github.com/shadps4-compatibility/shadps4-game-compatibility"
+        }
+      ],
+      "programming_language": "C++",
+      "source_available": true,
+      "strategy": "Full PS4 system emulation, including CPU instruction execution/recompilation, system-library emulation, and GPU command/shader translation."
+    },
+    {
+      "id": "raine",
+      "title": "Raine",
+      "game": "Classic arcade systems, especially Taito and other 2D boards",
+      "platform": "Windows and Linux",
+      "kind": "Emulator",
+      "status": "Active",
+      "summary": "An arcade emulator that began with Taito games and now covers multiple arcade hardware families. The project publishes Windows builds and source archives, with Linux build instructions.",
+      "project_url": "https://raine.1emulation.com/",
+      "sources": [
+        {
+          "label": "Raine releases and source archives",
+          "url": "https://raine.1emulation.com/download/latest.html"
+        },
+        {
+          "label": "Raine source compilation instructions",
+          "url": "https://raine.1emulation.com/download/install.html"
+        },
+        {
+          "label": "Maintainer source repository",
+          "url": "https://github.com/zelurker/raine"
+        }
+      ],
+      "programming_language": "C and C++; the 32-bit build also uses assembly",
+      "source_available": true,
+      "strategy": "Arcade-board emulation with CPU and device-specific code; the project documents a C/C++ 64-bit build."
+    },
+    {
+      "id": "adam-plus-coleco-adam",
+      "title": "ADAM+",
+      "game": "ColecoVision and Coleco ADAM software",
+      "platform": "ColecoVision (1982) and Coleco ADAM (1983)",
+      "kind": "Emulator",
+      "status": "Active early-stage project",
+      "summary": "Recent open-source Windows/Linux emulator and debugging suite for ColecoVision and ADAM. Its source is public, although the repository notes that some bundled third-party components have separate use restrictions.",
+      "project_url": "https://github.com/dvdh1961/ADAMP",
+      "sources": [
+        {
+          "label": "Official repository, supported systems, source, and licensing notes",
+          "url": "https://github.com/dvdh1961/ADAMP"
+        }
+      ],
+      "programming_language": "C++",
+      "source_available": true,
+      "strategy": "Software emulation of ColecoVision/ADAM machine hardware with integrated debugger and media devices."
+    },
+    {
+      "id": "amiberry",
+      "title": "Amiberry",
+      "game": "Commodore Amiga computers and games",
+      "platform": "Linux, macOS, Windows, Android, FreeBSD, Haiku",
+      "kind": "Emulator",
+      "status": "Active",
+      "summary": "A multi-platform Amiga emulator based on the WinUAE emulation core, with support for Amiga disk images and game-oriented WHDLoad launching.",
+      "project_url": "https://github.com/BlitterStudio/amiberry",
+      "sources": [
+        {
+          "label": "Official Amiberry repository, host platforms, scope, and license",
+          "url": "https://github.com/BlitterStudio/amiberry"
+        }
+      ],
+      "programming_language": "C and C++",
+      "source_available": true,
+      "strategy": "UAE-family Amiga hardware emulation with JIT CPU execution options and support for multiple Amiga configurations."
+    },
+    {
+      "id": "kyty",
+      "title": "Kyty",
+      "game": "Cursed Castilla",
+      "platform": "PlayStation 4",
+      "kind": "Emulator",
+      "status": "Dormant early-stage project; maintainer reported a PS4 commercial title reaching its main menu before crashing, while PS5 support was limited to homebrew",
+      "summary": "An open-source early PS4/PS5 emulator. Included here for PS4 game boot evidence; the maintainer's documented PS5 support was for homebrew, not commercial games.",
+      "project_url": "https://github.com/InoriRus/Kyty",
+      "sources": [
+        {
+          "label": "Maintainer repository and README",
+          "url": "https://github.com/InoriRus/Kyty"
+        },
+        {
+          "label": "Maintainer discussion documenting a PS4 game boot attempt",
+          "url": "https://github.com/InoriRus/Kyty/discussions/14"
+        }
+      ],
+      "programming_language": "C++",
+      "source_available": true,
+      "strategy": "Experimental PS4/PS5 system emulation; documented commercial-game evidence is limited to an early PS4 boot attempt."
+    },
+    {
+      "id": "dosbox-staging",
+      "title": "DOSBox Staging",
+      "game": "DOS and Windows 3.1 games on IBM PC-compatible systems",
+      "platform": "Windows, macOS, Linux",
+      "kind": "Emulator",
+      "status": "Active",
+      "summary": "A modern continuation of DOSBox focused on running PC booters, DOS games, and Windows 3.1 games from the 1981–2000 period, while remaining a self-contained PC emulator.",
+      "project_url": "https://www.dosbox-staging.org/",
+      "sources": [
+        {
+          "label": "Project goals and emulation scope",
+          "url": "https://www.dosbox-staging.org/about/"
+        },
+        {
+          "label": "Official host-platform support",
+          "url": "https://www.dosbox-staging.org/0.83/manual/using-dosbox-staging/installation/"
+        },
+        {
+          "label": "Official source repository and language",
+          "url": "https://github.com/dosbox-staging/dosbox-staging"
+        }
+      ],
+      "programming_language": "C++",
+      "source_available": true,
+      "strategy": "Software emulation of an IBM PC-compatible DOS environment, with game-focused defaults and emulated audio, video, and peripherals."
+    },
+    {
+      "id": "dosbox-pure",
+      "title": "DOSBox Pure",
+      "game": "DOS games and DOS-based PC software",
+      "platform": "Libretro-compatible hosts, including RetroArch-supported platforms",
+      "kind": "Emulator",
+      "status": "Active; the maintainer moved the project to Codeberg",
+      "summary": "A DOSBox fork built as a Libretro core, emphasizing simple game loading and save-state support. It is an emulator core rather than a frontend.",
+      "project_url": "https://codeberg.org/schelling/dosbox-pure",
+      "sources": [
+        {
+          "label": "Maintainer's GitHub repository and migration notice",
+          "url": "https://github.com/schellingb/dosbox-pure"
+        },
+        {
+          "label": "Current source repository linked by the maintainer",
+          "url": "https://codeberg.org/schelling/dosbox-pure"
+        }
+      ],
+      "programming_language": "C and C++",
+      "source_available": true,
+      "strategy": "DOSBox system emulation exposed through the Libretro core interface, with game-oriented content loading and emulator state features."
+    },
+    {
+      "id": "dosbox-x",
+      "title": "DOSBox-X",
+      "game": "DOS, Windows 3.x/9x/Me, DOS/V, and PC-98 games",
+      "platform": "Windows, Linux, macOS, DOS",
+      "kind": "Emulator",
+      "status": "Active",
+      "summary": "A DOSBox-derived system emulator for DOS games and applications, with official support for DOS-based Windows, NEC PC-98, and late-1990s PC configurations.",
+      "project_url": "https://dosbox-x.com/",
+      "sources": [
+        {
+          "label": "DOSBox-X scope, game support, and host downloads",
+          "url": "https://dosbox-x.com/"
+        },
+        {
+          "label": "Official DOSBox-X source repository",
+          "url": "https://github.com/joncampbell123/dosbox-x"
+        }
+      ],
+      "programming_language": "C and C++",
+      "source_available": true,
+      "strategy": "Full PC and DOS-system emulation with configurable hardware; it also emulates DOS-based Windows and PC-98 environments."
+    },
+    {
+      "id": "xroar",
+      "title": "XRoar",
+      "game": "Dragon 32/64, Tandy Color Computer, and related 8-bit systems",
+      "platform": "Windows, macOS, Linux, and other supported systems",
+      "kind": "Emulator",
+      "status": "Active",
+      "summary": "An emulator for Dragon and Tandy 8-bit computers, with support for their game libraries, disk and tape media, and selected expansion hardware.",
+      "project_url": "https://www.6809.org.uk/xroar/",
+      "sources": [
+        {
+          "label": "Official XRoar project and source downloads",
+          "url": "https://www.6809.org.uk/xroar/"
+        },
+        {
+          "label": "Official XRoar user manual",
+          "url": "https://www.6809.org.uk/xroar/doc/xroar.shtml"
+        }
+      ],
+      "programming_language": "C",
+      "source_available": true,
+      "strategy": "System-level emulation of Dragon, CoCo, MC-10, and related 6809-based hardware, with cassette and disk support."
+    },
+    {
+      "id": "lxdream",
+      "title": "Lxdream",
+      "game": "Dreamcast",
+      "platform": "32-bit home console",
+      "kind": "Emulator",
+      "status": "Legacy/inactive; public source repository remains available, with no current releases verified",
+      "summary": "Open-source Dreamcast emulator for Linux and other desktop systems, historically including GTK-based and experimental builds. It is retained as a notable historical native emulator project.",
+      "project_url": "https://github.com/lxdream/lxdream",
+      "sources": [
+        {
+          "label": "Maintainer source repository and project README",
+          "url": "https://github.com/lxdream/lxdream"
+        }
+      ],
+      "programming_language": "C",
+      "source_available": true,
+      "strategy": "Native desktop software emulation of Dreamcast hardware."
+    },
+    {
+      "id": "nulldc",
+      "title": "nullDC",
+      "game": "Dreamcast",
+      "platform": "32-bit home console",
+      "kind": "Emulator",
+      "status": "Discontinued archival project; maintainer archived the source repository on 2025-09-30",
+      "summary": "Historical Windows/x86 Dreamcast emulator. The original maintainer says work moved to Reicast and labels the repository archival/reference material.",
+      "project_url": "https://github.com/skmp/nullDC-v1",
+      "sources": [
+        {
+          "label": "Maintainer archive and project status",
+          "url": "https://github.com/skmp/nullDC-v1"
+        },
+        {
+          "label": "Historical project site and release archive",
+          "url": "https://nulldc.emudev.org/"
+        }
+      ],
+      "programming_language": "C++ and x86 assembly",
+      "source_available": true,
+      "strategy": "Native Windows/x86 software emulation; source is retained as an archive."
+    },
+    {
+      "id": "nulldc-rust",
+      "title": "nullDC (Rust rewrite)",
+      "game": "Dreamcast",
+      "platform": "32-bit home console",
+      "kind": "Emulator",
+      "status": "Early-development project; current release/stability status is not documented by the maintainer",
+      "summary": "Separate Rust Dreamcast emulator project published by nullDC's original maintainer. Its description frames it as an emulator being written in Rust; treat it as early development rather than a mature replacement.",
+      "project_url": "https://github.com/skmp/nullDC-rust",
+      "sources": [
+        {
+          "label": "Maintainer repository and project description",
+          "url": "https://github.com/skmp/nullDC-rust"
+        }
+      ],
+      "programming_language": "Rust",
+      "source_available": true,
+      "strategy": "Native software emulation project; public source is available under the MIT license."
+    },
+    {
+      "id": "redream",
+      "title": "redream",
+      "game": "Dreamcast",
+      "platform": "32-bit home console",
+      "kind": "Emulator",
+      "status": "Maintained closed-source emulator; official site lists stable and development builds",
+      "summary": "Standalone Dreamcast emulator for desktop and mobile platforms. The project advertises broad end-to-end library compatibility; its implementation source is not publicly available.",
+      "project_url": "https://redream.io/",
+      "sources": [
+        {
+          "label": "Official project site",
+          "url": "https://redream.io/"
+        },
+        {
+          "label": "Official downloads",
+          "url": "https://redream.io/download"
+        }
+      ],
+      "programming_language": null,
+      "source_available": false,
+      "strategy": "Closed-source standalone software emulation."
+    },
+    {
+      "id": "reicast",
+      "title": "Reicast",
+      "game": "Dreamcast",
+      "platform": "32-bit home console",
+      "kind": "Emulator",
+      "status": "Discontinued; maintainer marked the project EOL and archived the repository on 2025-09-29",
+      "summary": "Historical multiplatform Dreamcast emulator and successor project to nullDC. The maintainer's archived README explicitly says development ended and points users to Flycast.",
+      "project_url": "https://github.com/skmp/reicast-emulator",
+      "sources": [
+        {
+          "label": "Maintainer repository and EOL notice",
+          "url": "https://github.com/skmp/reicast-emulator"
+        }
+      ],
+      "programming_language": "C and C++",
+      "source_available": true,
+      "strategy": "Native software emulation; archived source is preserved for historical and reference use."
+    },
+    {
+      "id": "flycast",
+      "title": "Flycast",
+      "game": "Dreamcast; Naomi; Naomi 2; Atomiswave",
+      "platform": "32-bit home console and related arcade systems",
+      "kind": "Emulator",
+      "status": "Active; maintainer publishes stable, master, and nightly builds",
+      "summary": "Open-source multiplatform emulator for Sega Dreamcast and Dreamcast-derived Naomi, Naomi 2, and Atomiswave arcade hardware. It is a substantial continuation of the Reicast codebase and has its own active standalone builds.",
+      "project_url": "https://github.com/flyinghead/flycast",
+      "sources": [
+        {
+          "label": "Maintainer repository and supported systems",
+          "url": "https://github.com/flyinghead/flycast"
+        },
+        {
+          "label": "Maintainer releases",
+          "url": "https://github.com/flyinghead/flycast/releases"
+        }
+      ],
+      "programming_language": "C and C++",
+      "source_available": true,
+      "strategy": "Native software emulation with standalone builds and an optional libretro interface."
+    },
+    {
+      "id": "demul",
+      "title": "DEmul",
+      "game": "Dreamcast; Naomi; Naomi 2; Atomiswave; Hikaru",
+      "platform": "32-bit home console and related arcade systems",
+      "kind": "Emulator",
+      "status": "Historical closed-source emulator; the official project hostname is HTTP-only and current status is unclear.",
+      "summary": "Windows emulator historically notable for Dreamcast and several Sega arcade systems, including Naomi, Naomi 2, Atomiswave, and Hikaru. Maintainer posts document system support and WIP builds; no newer maintainer release was verified for this inventory. The official homepage is HTTP-only, so the project link uses Emulation64’s HTTPS release listing for its Windows build.",
+      "project_url": "https://www.emulation64.com/files/getdownload/1286/",
+      "sources": [
+        {
+          "label": "Maintainer WIP and release thread",
+          "url": "https://forum.emu-russia.net/viewtopic.php?f=25&t=503"
+        },
+        {
+          "label": "Maintainer forum index and last post date",
+          "url": "https://forum.emu-russia.net/viewforum.php?f=25"
+        },
+        {
+          "label": "Emulation64 HTTPS listing for DEmul v0.582 Windows",
+          "url": "https://www.emulation64.com/files/getdownload/1286/"
+        }
+      ],
+      "programming_language": null,
+      "source_available": false,
+      "strategy": "Closed-source Windows software emulation of Dreamcast-family consoles and arcade machines."
+    },
+    {
+      "id": "pcsx-redux",
+      "title": "PCSX-Redux",
+      "game": "Final Fantasy VII",
+      "platform": "PlayStation",
+      "kind": "Emulator",
+      "status": "Active; usable emulator under ongoing development",
+      "summary": "An open-source PCSX-derived PS1 emulator; maintainer issue reports document commercial games such as Final Fantasy VII running.",
+      "project_url": "https://github.com/grumpycoders/pcsx-redux",
+      "sources": [
+        {
+          "label": "Maintainer repository and README",
+          "url": "https://github.com/grumpycoders/pcsx-redux"
+        },
+        {
+          "label": "Maintainer issue: Final Fantasy VII run report",
+          "url": "https://github.com/grumpycoders/pcsx-redux/issues/1845"
+        }
+      ],
+      "programming_language": "C++",
+      "source_available": true,
+      "strategy": "PS1 hardware emulation with CPU dynamic recompilation and software/OpenGL GPU implementations."
+    },
+    {
+      "id": "dobiestation",
+      "title": "DobieStation",
+      "game": "Final Fantasy X",
+      "platform": "PlayStation 2",
+      "kind": "Emulator",
+      "status": "Dormant experimental project; maintainer reported in 2020 that many games reached in-game but none met its playable rating",
+      "summary": "An open-source PS2 emulator that can boot menus and reach gameplay in some commercial titles, but is not suitable for general play.",
+      "project_url": "https://github.com/PSI-Rockin/DobieStation",
+      "sources": [
+        {
+          "label": "Maintainer repository and compatibility notes",
+          "url": "https://github.com/PSI-Rockin/DobieStation"
+        },
+        {
+          "label": "Maintainer progress report",
+          "url": "https://www.patreon.com/dobiestation/posts/dobiestation-has-40011600"
+        }
+      ],
+      "programming_language": "C++",
+      "source_available": true,
+      "strategy": "Experimental PS2 hardware emulation; commercial games can reach in-game, but gameplay compatibility remains very limited."
+    },
+    {
+      "id": "pcsx2",
+      "title": "PCSX2",
+      "game": "Final Fantasy X",
+      "platform": "PlayStation 2",
+      "kind": "Emulator",
+      "status": "Active",
+      "summary": "The mature open-source PS2 emulator; the official project documents broad commercial-game support.",
+      "project_url": "https://github.com/PCSX2/pcsx2",
+      "sources": [
+        {
+          "label": "Official source repository and README",
+          "url": "https://github.com/PCSX2/pcsx2"
+        },
+        {
+          "label": "Official project site",
+          "url": "https://pcsx2.net/"
+        }
+      ],
+      "programming_language": "C++",
+      "source_available": true,
+      "strategy": "PS2 hardware emulation using interpreters and dynamic recompilers for the system's processors and emulated graphics hardware."
+    },
+    {
+      "id": "gambatte",
+      "title": "Gambatte (libretro core)",
+      "game": "Game Boy/Game Boy Color",
+      "platform": "Libretro-compatible platforms",
+      "kind": "Emulator",
+      "status": "Legacy emulator core maintained in the libretro repository; original standalone development is not the current delivery path.",
+      "summary": "Accuracy-focused GB/GBC emulator with a long-running libretro core used by multi-system frontends.",
+      "project_url": "https://github.com/libretro/gambatte-libretro",
+      "sources": [
+        {
+          "label": "Libretro Gambatte source and project description",
+          "url": "https://github.com/libretro/gambatte-libretro"
+        },
+        {
+          "label": "Libretro Gambatte core documentation",
+          "url": "https://docs.libretro.com/library/gambatte/"
+        }
+      ],
+      "programming_language": "C++",
+      "source_available": "Yes; public source is available in the libretro core repository.",
+      "strategy": "Libretro software-emulation core."
+    },
+    {
+      "id": "mgba",
+      "title": "mGBA",
+      "game": "Game Boy/Game Boy Color/Game Boy Advance",
+      "platform": "Windows, macOS, Linux, FreeBSD; ports for Nintendo 3DS, Switch, Wii, and Vita",
+      "kind": "Emulator",
+      "status": "Maintained; latest stable release listed by the project is 0.10.5 (2025-03-09).",
+      "summary": "Modern GBA-focused emulator that also supports GB/GBC, linking, camera/printer peripherals, and several embedded platforms.",
+      "project_url": "https://mgba.io/",
+      "sources": [
+        {
+          "label": "Official source repository and supported systems",
+          "url": "https://github.com/mgba-emu/mgba"
+        },
+        {
+          "label": "Official downloads and source instructions",
+          "url": "https://mgba.io/downloads.html"
+        },
+        {
+          "label": "Project announcement documents implementation language and source availability",
+          "url": "https://mgba.io/2014/12/09/announcing-mgba/"
+        }
+      ],
+      "programming_language": "C",
+      "source_available": "Yes; public source repository under MPL-2.0.",
+      "strategy": "Standalone software emulator with native GB, GBC, and GBA cores."
+    },
+    {
+      "id": "visualboyadvance-m",
+      "title": "VisualBoyAdvance-M (VBA-M)",
+      "game": "Game Boy/Game Boy Color/Game Boy Advance",
+      "platform": "Windows, macOS, Linux, Android, libretro platforms",
+      "kind": "Emulator",
+      "status": "Active community continuation of the original VisualBoyAdvance project.",
+      "summary": "Widely used VBA successor that continues the original emulator lineage and provides desktop, Android, and libretro builds.",
+      "project_url": "https://github.com/visualboyadvance-m/visualboyadvance-m",
+      "sources": [
+        {
+          "label": "Official project repository, supported systems, and build instructions",
+          "url": "https://github.com/visualboyadvance-m/visualboyadvance-m"
+        },
+        {
+          "label": "Official project site",
+          "url": "https://visualboyadvance-m.org/"
+        }
+      ],
+      "programming_language": "C and C++",
+      "source_available": "Yes; public GPL-2.0 source repository.",
+      "strategy": "Standalone software emulator and libretro core."
+    },
+    {
+      "id": "sameboy",
+      "title": "SameBoy",
+      "game": "Game Boy/Game Boy Color/Super Game Boy",
+      "platform": "macOS, iOS, watchOS, Windows, Unix-like systems",
+      "kind": "Emulator",
+      "status": "Active; official download page lists SameBoy 1.0.4 released 2026-10-09.",
+      "summary": "Accurate open-source Game Boy emulator with model selection, debugger, and native desktop frontends.",
+      "project_url": "https://sameboy.github.io/",
+      "sources": [
+        {
+          "label": "Official project overview",
+          "url": "https://sameboy.github.io/"
+        },
+        {
+          "label": "Official source repository",
+          "url": "https://github.com/LIJI32/SameBoy"
+        },
+        {
+          "label": "Official downloads and current version",
+          "url": "https://sameboy.github.io/downloads/"
+        }
+      ],
+      "programming_language": "C",
+      "source_available": "Yes; public source repository under the Expat license.",
+      "strategy": "Standalone software emulator with native and libretro frontends."
+    },
+    {
+      "id": "vice",
+      "title": "VICE (Versatile Commodore Emulator)",
+      "game": "Games and software for Commodore 8-bit computers",
+      "platform": "Commodore 8-bit home computers",
+      "kind": "Emulator",
+      "status": "Active; version 3.10 released 2025-12-24",
+      "summary": "Standalone emulator collection for Commodore C64, C64DTV, C128, VIC-20, PET, Plus/4, CBM-II, and C64 SuperCPU systems. Its machine-specific emulator programs share user interface conventions, settings, and file formats.",
+      "project_url": "https://vice-emu.sourceforge.io/",
+      "sources": [
+        {
+          "label": "Official VICE project, supported systems, and current release",
+          "url": "https://vice-emu.sourceforge.io/"
+        },
+        {
+          "label": "Official source code mirror",
+          "url": "https://github.com/VICE-Team/svn-mirror"
+        },
+        {
+          "label": "Official SourceForge project and source access",
+          "url": "https://sourceforge.net/projects/vice-emu/"
+        },
+        {
+          "label": "Official VICE user manual",
+          "url": "https://vice-emu.sourceforge.io/vice.pdf"
+        }
+      ],
+      "programming_language": "C",
+      "source_available": true,
+      "strategy": "Choose the machine-specific emulator within the VICE collection; each emulator runs its target computer and shares common settings and file handling."
+    },
+    {
+      "id": "86box",
+      "title": "86Box",
+      "game": "Games and software for emulated IBM PC compatibles",
+      "platform": "IBM PC compatible systems (x86)",
+      "kind": "Emulator",
+      "status": "Active",
+      "summary": "Low-level x86 system emulator for a broad range of IBM PC compatibles, from early 8086/8088 machines through later PCI-era systems. It models CPUs and peripherals so vintage operating systems and their games can run with period hardware behavior.",
+      "project_url": "https://86box.net/",
+      "sources": [
+        {
+          "label": "Official emulator repository and supported machine overview",
+          "url": "https://github.com/86Box/86Box"
+        },
+        {
+          "label": "Official documentation on full-system emulation and PCem relationship",
+          "url": "https://86box.readthedocs.io/en/latest/faq.html"
+        },
+        {
+          "label": "86Box documentation",
+          "url": "https://86box.readthedocs.io/"
+        }
+      ],
+      "programming_language": "C",
+      "source_available": true,
+      "strategy": "Configure a virtual PC model and hardware, then install or boot a compatible operating system and run its games and software."
+    },
+    {
+      "id": "pcem",
+      "title": "PCem",
+      "game": "Games and software for emulated IBM PC compatibles",
+      "platform": "IBM PC compatible systems (x86)",
+      "kind": "Emulator",
+      "status": "Active development; v17 is the latest stable release",
+      "summary": "Open-source full-system emulator for historical IBM PC compatible machines, covering several CPU generations from 8088 through Pentium II and emulating period graphics, sound, and other peripherals for legacy software and games.",
+      "project_url": "https://github.com/sarah-walker-pcem/pcem",
+      "sources": [
+        {
+          "label": "Official PCem source repository, release, license, and supported hardware",
+          "url": "https://github.com/sarah-walker-pcem/pcem"
+        },
+        {
+          "label": "Official release notes",
+          "url": "https://github.com/sarah-walker-pcem/pcem/releases"
+        },
+        {
+          "label": "Official PCem downloads and latest listed release",
+          "url": "https://pcem-emulator.github.io/downloads.html"
+        },
+        {
+          "label": "Official PCem development page",
+          "url": "https://pcem-emulator.github.io/development.html"
+        }
+      ],
+      "programming_language": "C, C++",
+      "source_available": true,
+      "strategy": "Configure a virtual PC model and peripherals, then install or boot a compatible operating system and run its games and software."
+    },
+    {
+      "id": "nogba",
+      "title": "No$GBA",
+      "game": "Games for Nintendo handheld systems",
+      "platform": "Game Boy Advance, Nintendo DS, and DSi",
+      "kind": "Emulator",
+      "status": "Active; version 3.06 dated 2025-04-14",
+      "summary": "Standalone Windows and DOS emulator for Game Boy Advance, Nintendo DS, and DSi software. The developer distributes free gaming builds and a separate debugging build; source code is not published.",
+      "project_url": "https://problemkaputt.de/gba.htm",
+      "sources": [
+        {
+          "label": "Official NO$GBA homepage and current downloads",
+          "url": "https://problemkaputt.de/gba.htm"
+        },
+        {
+          "label": "Official NO$GBA debug version information",
+          "url": "https://problemkaputt.de/gba.htm#debug"
+        }
+      ],
+      "programming_language": null,
+      "source_available": false,
+      "strategy": "Run the standalone freeware binary and select GBA, DS, or DSi mode; use a separate debug build when development tools are needed."
+    },
+    {
+      "id": "ares",
+      "title": "ares",
+      "game": "Games for supported systems",
+      "platform": "Multi-system consoles, handhelds, and computers",
+      "kind": "Emulator",
+      "status": "Active",
+      "summary": "Open-source, accuracy-focused standalone emulator with integrated support for numerous systems, including NES, SNES, Nintendo 64, Game Boy, Game Boy Advance, WonderSwan, Neo Geo Pocket, Sega systems, PC Engine, MSX, ColecoVision, Atari 2600, and PlayStation (some systems are experimental).",
+      "project_url": "https://ares-emu.net/",
+      "sources": [
+        {
+          "label": "Official source repository and project goals",
+          "url": "https://github.com/ares-emulator/ares"
+        },
+        {
+          "label": "Official release history, including PC Engine changes",
+          "url": "https://github.com/ares-emulator/ares/releases"
+        },
+        {
+          "label": "Official downloads",
+          "url": "https://ares-emu.net/download"
+        },
+        {
+          "label": "Official supported systems and release status",
+          "url": "https://ares-emu.net/"
+        },
+        {
+          "label": "Official Sega 32X compatibility page",
+          "url": "https://ares-emu.net/compatibility/sega-32x"
+        }
+      ],
+      "programming_language": "C++",
+      "source_available": true,
+      "strategy": "Single desktop emulator with native integrated system implementations; load a game image and select or auto-detect its system."
+    },
+    {
+      "id": "bizhawk",
+      "title": "BizHawk",
+      "game": "Games for supported systems",
+      "platform": "Multi-system consoles, handhelds, arcade, and computers",
+      "kind": "Emulator",
+      "status": "Active",
+      "summary": "EmuHawk is a multi-system emulator with integrated bespoke cores and packaged ports of other emulator cores. It covers a wide range of consoles, handhelds, computers, and arcade systems, and adds recording, playback, debugging, and tool-assisted speedrunning features.",
+      "project_url": "https://github.com/TASEmulators/BizHawk",
+      "sources": [
+        {
+          "label": "Official project README, supported systems, cores, and languages",
+          "url": "https://github.com/TASEmulators/BizHawk"
+        },
+        {
+          "label": "Official source license and component disclosure",
+          "url": "https://github.com/TASEmulators/BizHawk/blob/master/LICENSE"
+        }
+      ],
+      "programming_language": "C#, C++ (some cores)",
+      "source_available": true,
+      "strategy": "Standalone EmuHawk application that selects among included emulator cores; core choice and system-wide TAS tools are managed through its GUI."
+    },
+    {
+      "id": "mednafen",
+      "title": "Mednafen",
+      "game": "Games for supported systems",
+      "platform": "Multi-system consoles, handhelds, and Apple II",
+      "kind": "Emulator",
+      "status": "Maintenance; latest official release 1.32.1 (2024-04-05)",
+      "summary": "Portable standalone multi-system emulator driven by command line, with modules for Apple II, Atari Lynx, Neo Geo Pocket, WonderSwan, Game Boy, Game Boy Advance, NES, SNES, Virtual Boy, PC Engine, SuperGrafx, PC-FX, Sega systems, Saturn, and PlayStation. Official source archives are distributed under GPLv2.",
+      "project_url": "https://mednafen.github.io/",
+      "sources": [
+        {
+          "label": "Official Atari Lynx emulation documentation",
+          "url": "https://mednafen.github.io/documentation/lynx.html"
+        },
+        {
+          "label": "Official PC Engine/TurboGrafx and SuperGrafx documentation",
+          "url": "https://mednafen.github.io/documentation/pce.html"
+        },
+        {
+          "label": "Official project homepage and documentation index",
+          "url": "https://mednafen.github.io/"
+        },
+        {
+          "label": "Official Saturn documentation",
+          "url": "https://mednafen.github.io/documentation/ss.html"
+        },
+        {
+          "label": "Official releases",
+          "url": "https://mednafen.github.io/releases/"
+        },
+        {
+          "label": "Official PlayStation documentation",
+          "url": "https://mednafen.github.io/documentation/psx.html"
+        }
+      ],
+      "programming_language": "C, C++",
+      "source_available": true,
+      "strategy": "Standalone command-line emulator with system-specific modules; invoke it with the module and game image to run."
+    },
+    {
+      "id": "mesence",
+      "title": "Mesen Community Edition",
+      "game": "Games for supported systems",
+      "platform": "Multi-system consoles and handhelds",
+      "kind": "Emulator",
+      "status": "Active",
+      "summary": "Community-maintained continuation of Mesen with integrated emulation for NES, SNES, Game Boy, Game Boy Color, Super Game Boy, Game Boy Advance, PC Engine, Master System, Game Gear, and WonderSwan. Runs on Windows, Linux, and macOS.",
+      "project_url": "https://github.com/nesdev-org/MesenCE",
+      "sources": [
+        {
+          "label": "Project README and supported systems",
+          "url": "https://github.com/nesdev-org/MesenCE"
+        },
+        {
+          "label": "Release history and continuation notice",
+          "url": "https://github.com/nesdev-org/MesenCE/releases"
+        },
+        {
+          "label": "Archived predecessor Mesen2 points to MesenCE",
+          "url": "https://github.com/SourMesen/Mesen2"
+        }
+      ],
+      "programming_language": "C++, C#",
+      "source_available": true,
+      "strategy": "Standalone desktop emulator with integrated system cores; open supported game images in its GUI."
+    },
+    {
+      "id": "qemu",
+      "title": "QEMU",
+      "game": "General-purpose computer systems, including x86 PCs for DOS and Windows games",
+      "platform": "Linux, macOS, Windows, BSD, and other supported hosts",
+      "kind": "Emulator",
+      "status": "Active",
+      "summary": "A general-purpose machine emulator and virtualizer. Full-system x86 emulation can boot guest operating systems and games, though QEMU's scope extends well beyond retro gaming.",
+      "project_url": "https://www.qemu.org/",
+      "sources": [
+        {
+          "label": "Official QEMU description and system emulation guide",
+          "url": "https://www.qemu.org/docs/master/about/index.html"
+        },
+        {
+          "label": "Official QEMU system emulation documentation",
+          "url": "https://www.qemu.org/docs/master/system/index.html"
+        },
+        {
+          "label": "Official QEMU source mirror",
+          "url": "https://github.com/qemu/qemu"
+        }
+      ],
+      "programming_language": "C",
+      "source_available": true,
+      "strategy": "Full-system emulation uses the Tiny Code Generator or optional host accelerators to model CPUs and devices for guest operating systems."
+    },
+    {
+      "id": "bochs",
+      "title": "Bochs",
+      "game": "General-purpose x86 PCs for DOS, Windows, and other guest software",
+      "platform": "Windows, Linux, FreeBSD, OpenBSD, macOS, and other supported hosts",
+      "kind": "Emulator",
+      "status": "Maintained",
+      "summary": "A portable x86 PC emulator used for operating systems and applications, including DOS and Windows software. Its general-purpose emulation scope is broader than gaming.",
+      "project_url": "https://bochs.sourceforge.io/",
+      "sources": [
+        {
+          "label": "Official Bochs project description and source availability",
+          "url": "https://bochs.sourceforge.io/"
+        },
+        {
+          "label": "Official host compatibility notes",
+          "url": "https://bochs.sourceforge.io/doc/docbook/user/will-it-work-for-me.html"
+        }
+      ],
+      "programming_language": "C++",
+      "source_available": true,
+      "strategy": "Portable full-PC emulation of the x86 CPU, memory, BIOS, and common I/O devices."
+    },
+    {
+      "id": "blastem",
+      "title": "BlastEm",
+      "game": "Genesis / Mega Drive; Sega CD / Mega CD; 32X including CD 32X; Game Gear; SC-3000 / SG-1000; Sega Pico; partial Master System backwards compatibility",
+      "platform": "8-bit and 16-bit Sega home systems, handheld, and add-ons",
+      "kind": "Emulator",
+      "status": "Active; version 1.0.0 released 2026-09-11",
+      "summary": "Standalone Sega emulator whose 1.0 release added Sega CD, 32X, and CD 32X support. The maintainer's changelog also documents Game Gear, SG-1000, SC-3000, and Sega Pico support; earlier Master System compatibility was limited to titles supported by Genesis backwards compatibility.",
+      "project_url": "https://www.retrodev.com/blastem/",
+      "sources": [
+        {
+          "label": "Maintainer release announcement",
+          "url": "https://www.retrodev.com/blastem/announce_1.0.0.html"
+        },
+        {
+          "label": "Maintainer changelog",
+          "url": "https://www.retrodev.com/blastem/changes.html"
+        },
+        {
+          "label": "Maintainer source repository",
+          "url": "https://www.retrodev.com/repos/blastem"
+        }
+      ],
+      "programming_language": "C and assembly",
+      "source_available": true,
+      "strategy": "Native software emulation of Sega console and add-on hardware; source is available from the maintainer's Mercurial repository."
+    },
+    {
+      "id": "jgenesis",
+      "title": "jgenesis",
+      "game": "Genesis / Mega Drive; Sega CD / Mega CD; 32X; SG-1000; Master System / Mark III; Game Gear",
+      "platform": "8-bit and 16-bit Sega home systems, handheld, and add-ons",
+      "kind": "Emulator",
+      "status": "Active; v0.14.1 release published 2026-08-22",
+      "summary": "Cross-platform multi-console emulator with broad Sega coverage, including combined Genesis, Sega CD, and 32X operation (the Sega CD 32X configuration). It is written in Rust and publishes source and releases.",
+      "project_url": "https://github.com/jsgroth/jgenesis",
+      "sources": [
+        {
+          "label": "Maintainer README and supported systems",
+          "url": "https://github.com/jsgroth/jgenesis"
+        },
+        {
+          "label": "Maintainer release notes",
+          "url": "https://github.com/jsgroth/jgenesis/releases"
+        }
+      ],
+      "programming_language": "Rust",
+      "source_available": true,
+      "strategy": "Native software emulation with standalone desktop and web builds; supports combined Sega add-on configurations."
+    },
+    {
+      "id": "sharpemu",
+      "title": "SharpEmu",
+      "game": "Hollow Knight: Voidheart Edition",
+      "platform": "PlayStation 5",
+      "kind": "Emulator",
+      "status": "Active experimental emulator; official compatibility page reports a small subset playable among tested games",
+      "summary": "An open-source experimental PS5 emulator that loads commercial game executables; its official tracker lists Hollow Knight: Voidheart Edition as playable.",
+      "project_url": "https://github.com/sharpemu/sharpemu",
+      "sources": [
+        {
+          "label": "Maintainer source repository",
+          "url": "https://github.com/sharpemu/sharpemu"
+        },
+        {
+          "label": "Official project site",
+          "url": "https://sharpemu.app/"
+        },
+        {
+          "label": "Official compatibility tracker",
+          "url": "https://sharpemu.app/compatibility/"
+        }
+      ],
+      "programming_language": "C#",
+      "source_available": true,
+      "strategy": "Full PS5 system emulation with host execution of x86-64 code, emulated platform services, and an evolving Vulkan-based graphics path."
+    },
+    {
+      "id": "martypc",
+      "title": "MartyPC",
+      "game": "IBM PC, XT, PCjr, and Tandy 1000 software and games",
+      "platform": "Windows, Linux, macOS, web browser",
+      "kind": "Emulator",
+      "status": "Active development",
+      "summary": "A cycle-accurate early-PC emulator with 8088-era hardware and a game port; its stated niche also includes retro-PC development and debugging.",
+      "project_url": "https://github.com/dbalsom/martypc",
+      "sources": [
+        {
+          "label": "Official source repository, emulated machines, host platforms, and development status",
+          "url": "https://github.com/dbalsom/martypc"
+        },
+        {
+          "label": "Maintainer's user guide and game notes",
+          "url": "https://github.com/dbalsom/martypc/wiki/MartyPC-User-Guide"
+        }
+      ],
+      "programming_language": "Rust",
+      "source_available": true,
+      "strategy": "Cycle-accurate system emulation centered on the 8088 CPU and period PC chipsets, video, sound, and I/O devices."
+    },
+    {
+      "id": "hypseus-singe",
+      "title": "Hypseus Singe",
+      "game": "Laserdisc arcade games and Singe interactive-video games",
+      "platform": "Windows, macOS, Linux, Raspberry Pi",
+      "kind": "Emulator",
+      "status": "Active",
+      "summary": "A maintained Daphne-derived emulator for arcade games that used laserdisc video, with Singe support for Lua-authored interactive-video games.",
+      "project_url": "https://github.com/DirtBagXon/hypseus-singe",
+      "sources": [
+        {
+          "label": "Hypseus Singe project description, supported hosts, and source",
+          "url": "https://github.com/DirtBagXon/hypseus-singe"
+        }
+      ],
+      "programming_language": "C and C++",
+      "source_available": true,
+      "strategy": "Emulates laserdisc-game control and timing while decoding the associated video; Singe adds scriptable game support."
+    },
+    {
+      "id": "emulicious",
+      "title": "Emulicious",
+      "game": "Master System; Game Gear",
+      "platform": "8-bit console and handheld",
+      "kind": "Emulator",
+      "status": "Maintained closed-source product; official site and downloads remain current",
+      "summary": "Multi-system emulator that includes dedicated Sega Master System and Game Gear emulators. The official site identifies Java SE as its runtime basis and lists Windows, Linux, macOS, and other Java platforms.",
+      "project_url": "https://emulicious.net/",
+      "sources": [
+        {
+          "label": "Official project site",
+          "url": "https://emulicious.net/"
+        },
+        {
+          "label": "Official downloads",
+          "url": "https://emulicious.net/downloads/"
+        }
+      ],
+      "programming_language": "Java",
+      "source_available": false,
+      "strategy": "Closed-source software emulation; the project does not publish its emulator implementation."
+    },
+    {
+      "id": "dosbox",
+      "title": "DOSBox",
+      "game": "MS-DOS games and IBM PC-compatible software",
+      "platform": "Windows, macOS, Linux, and other SDL-supported hosts",
+      "kind": "Emulator",
+      "status": "Legacy; the official download page lists version 0.74-3",
+      "summary": "The original cross-platform DOS emulator, primarily intended to run DOS games on modern systems. Its official site still provides legacy source releases.",
+      "project_url": "https://www.dosbox.com/",
+      "sources": [
+        {
+          "label": "Official DOSBox downloads and source archives",
+          "url": "https://www.dosbox.com/download.php?main=1"
+        },
+        {
+          "label": "Official project description",
+          "url": "https://www.dosbox.com/information.php?page=0"
+        }
+      ],
+      "programming_language": "C++",
+      "source_available": true,
+      "strategy": "Emulates an x86 PC environment and DOS behavior in software, with compatibility and performance aimed at DOS games."
+    },
+    {
+      "id": "openmsx",
+      "title": "openMSX",
+      "game": "MSX home computers, including MSX2 and later variants",
+      "platform": "Windows, macOS, Linux, Android, OpenDingux",
+      "kind": "Emulator",
+      "status": "Active",
+      "summary": "A high-accuracy MSX computer emulator with extensive machine setups and support for the MSX game library and other MSX software.",
+      "project_url": "https://openmsx.org/",
+      "sources": [
+        {
+          "label": "Official openMSX description, source code, and host builds",
+          "url": "https://openmsx.org/"
+        },
+        {
+          "label": "Official source repository",
+          "url": "https://github.com/openMSX/openMSX"
+        },
+        {
+          "label": "Official compilation guide",
+          "url": "https://openmsx.org/manual/compile.html"
+        }
+      ],
+      "programming_language": "C++",
+      "source_available": true,
+      "strategy": "System-level emulation of configurable MSX machines and peripherals, with timing and hardware behavior modeled by the emulator."
+    },
+    {
+      "id": "np2kai",
+      "title": "Neko Project II kai (NP2kai)",
+      "game": "NEC PC-9801 / PC-98 computers and games",
+      "platform": "Windows, macOS, Linux, Android, iOS via Libretro builds",
+      "kind": "Emulator",
+      "status": "Active",
+      "summary": "A PC-9801 emulator used to run the Japanese PC-98 software catalog, including its distinctive DOS/V and native PC-98 games.",
+      "project_url": "https://github.com/AZO234/NP2kai",
+      "sources": [
+        {
+          "label": "Official NP2kai source, PC-9801 scope, release date, and build platforms",
+          "url": "https://github.com/AZO234/NP2kai"
+        },
+        {
+          "label": "Original Neko Project II project page",
+          "url": "https://www.yui.ne.jp/np2/"
+        }
+      ],
+      "programming_language": "C and C++",
+      "source_available": true,
+      "strategy": "System emulation of PC-9801 hardware, including its machine-specific floppy and disk formats."
+    },
+    {
+      "id": "nesticle",
+      "title": "NESticle",
+      "game": "NES",
+      "platform": "MS-DOS, Windows 95",
+      "kind": "Emulator",
+      "status": "Discontinued historical project from the late 1990s.",
+      "summary": "One of the defining early PC NES emulators; its rapid release and broad adoption helped make console emulation accessible on ordinary PCs.",
+      "project_url": "https://web.archive.org/web/20080709184033/http://bloodlust.zophar.net/NESticle/nes.html",
+      "sources": [
+        {
+          "label": "Archived Bloodlust Software project page",
+          "url": "https://web.archive.org/web/20080709184033/http://bloodlust.zophar.net/NESticle/nes.html"
+        },
+        {
+          "label": "NESdev emulator history and platform listing",
+          "url": "https://www.nesdev.org/wiki/Emulators"
+        },
+        {
+          "label": "Contemporary archived NESticle history page",
+          "url": "https://www.geocities.ws/Qwertie256/attic/emulators/nesticle.html"
+        }
+      ],
+      "programming_language": null,
+      "source_available": "Unclear; no authorized public source repository or release was located.",
+      "strategy": null
+    },
+    {
+      "id": "nestopia-ue",
+      "title": "Nestopia UE (Undead Edition)",
+      "game": "NES/Famicom",
+      "platform": "Windows, Linux, BSD, macOS",
+      "kind": "Emulator",
+      "status": "Maintained through separate projects: the Jolly Good Emulation core is upstream for emulation fixes, while the UE project supplies desktop builds/frontends.",
+      "summary": "Cycle-accurate-oriented NES emulator lineage; the current cross-platform core is maintained separately from the legacy UE GUI repository.",
+      "project_url": "https://gitlab.com/jgemu/nestopia",
+      "sources": [
+        {
+          "label": "Nestopia UE maintainer explains core/frontend split",
+          "url": "https://github.com/0ldsk00l/nestopia"
+        },
+        {
+          "label": "Current Nestopia core tags",
+          "url": "https://gitlab.com/jgemu/nestopia/-/tags"
+        },
+        {
+          "label": "Nestopia UE project releases",
+          "url": "https://0ldsk00l.ca/nestopia/"
+        }
+      ],
+      "programming_language": null,
+      "source_available": "Yes; public core and frontend source repositories.",
+      "strategy": "Standalone emulator core with desktop frontend."
+    },
+    {
+      "id": "fceux",
+      "title": "FCEUX",
+      "game": "NES/Famicom/Famicom Disk System/Dendy",
+      "platform": "Windows, Linux/Unix, macOS",
+      "kind": "Emulator",
+      "status": "Active; official project site lists version 2.7.0 as the current release and provides interim builds.",
+      "summary": "Long-running NES emulator that combines play, debugging, scripting, and tool-assisted speedrun features.",
+      "project_url": "https://fceux.com/web/home.html",
+      "sources": [
+        {
+          "label": "Official project description and current release",
+          "url": "https://fceux.com/web/home.html"
+        },
+        {
+          "label": "Official source repository",
+          "url": "https://github.com/TASEmulators/fceux"
+        }
+      ],
+      "programming_language": null,
+      "source_available": "Yes; public source repository.",
+      "strategy": "Standalone NES software emulator with debugging and TAS tooling."
+    },
+    {
+      "id": "azahar",
+      "title": "Azahar",
+      "game": "Nintendo 3DS",
+      "platform": "Windows, macOS, Linux, Android",
+      "kind": "Emulator",
+      "status": "Active community development; current releases and public source are available.",
+      "summary": "Open-source community continuation of the Citra lineage, with desktop and mobile builds.",
+      "project_url": "https://github.com/azahar-emu/azahar",
+      "sources": [
+        {
+          "label": "Official source repository, project status, and supported platforms",
+          "url": "https://github.com/azahar-emu/azahar"
+        },
+        {
+          "label": "Official download page",
+          "url": "https://azahar-emu.org/pages/download/"
+        },
+        {
+          "label": "Project announcement about public source release",
+          "url": "https://azahar-emu.org/pages/bloglist/"
+        }
+      ],
+      "programming_language": null,
+      "source_available": "Yes; public GPL-3.0 source repository.",
+      "strategy": "High-level 3DS software emulator."
+    },
+    {
+      "id": "citra",
+      "title": "Citra (original project)",
+      "game": "Nintendo 3DS",
+      "platform": "Windows, macOS, Linux, Android",
+      "kind": "Emulator",
+      "status": "Discontinued 2024-03-04; the original project announced an immediate shutdown and removal of its repositories and website.",
+      "summary": "Historically important open-source 3DS emulator; its development lineage continues in community projects including Azahar.",
+      "project_url": "https://github.com/citra-emu/citra-web/blob/master/index.html",
+      "sources": [
+        {
+          "label": "Archived official shutdown notice",
+          "url": "https://github.com/citra-emu/citra-web/blob/master/index.html"
+        },
+        {
+          "label": "Azahar describes itself as continuing Citra's legacy",
+          "url": "https://github.com/azahar-emu/azahar"
+        }
+      ],
+      "programming_language": null,
+      "source_available": "Original official repository was pulled; code survives in community archives and successor forks.",
+      "strategy": "High-level software emulator."
+    },
+    {
+      "id": "mupen64plus",
+      "title": "Mupen64Plus",
+      "game": "Nintendo 64",
+      "platform": "Linux, macOS, FreeBSD, Windows",
+      "kind": "Emulator",
+      "status": "Maintained; project repositories and release history remain active.",
+      "summary": "Cross-platform plugin-based N64 emulator descended from Mupen; its modular core and plugins are widely reused by frontends.",
+      "project_url": "https://github.com/mupen64plus",
+      "sources": [
+        {
+          "label": "Official project documentation and source links",
+          "url": "https://mupen64plus.org/docs/"
+        },
+        {
+          "label": "Official source organization and language metadata",
+          "url": "https://github.com/mupen64plus"
+        },
+        {
+          "label": "Core module and release history",
+          "url": "https://github.com/mupen64plus/mupen64plus-core/releases"
+        }
+      ],
+      "programming_language": "C core; C and C++ plugins",
+      "source_available": "Yes; public GPL source repositories.",
+      "strategy": "Plugin-based N64 software emulator."
+    },
+    {
+      "id": "ultrahle",
+      "title": "UltraHLE",
+      "game": "Nintendo 64",
+      "platform": "Windows 9x",
+      "kind": "Emulator",
+      "status": "Discontinued historical emulator released in 1999.",
+      "summary": "Milestone N64 emulator that achieved playable commercial-game performance on contemporary PCs through high-level emulation; later development ceased.",
+      "project_url": "https://github.com/emu-russia/UltraHLE",
+      "sources": [
+        {
+          "label": "Community source archive identifies original UltraHLE source",
+          "url": "https://github.com/emu-russia/UltraHLE"
+        },
+        {
+          "label": "Archived source release listing",
+          "url": "https://github.com/emu-russia/UltraHLE/releases"
+        },
+        {
+          "label": "Academic legal-history article describing the 1999 HLE milestone",
+          "url": "https://cardozolawreview.com/wp-content/uploads/2024/02/2.SIGMON.45.1.6.Print_.pdf"
+        }
+      ],
+      "programming_language": null,
+      "source_available": "Yes in a community archive; not an official upstream source release.",
+      "strategy": "High-level emulation (HLE)."
+    },
+    {
+      "id": "project64",
+      "title": "Project64",
+      "game": "Nintendo 64/Nintendo 64 Disk Drive",
+      "platform": "Windows",
+      "kind": "Emulator",
+      "status": "Active; official repository continues to receive development and publishes current builds.",
+      "summary": "Long-running N64 emulator with public source, development tools, and support for N64DD content.",
+      "project_url": "https://github.com/project64/project64",
+      "sources": [
+        {
+          "label": "Official repository, supported systems, and build information",
+          "url": "https://github.com/project64/project64"
+        },
+        {
+          "label": "Official Project64 site support page",
+          "url": "https://project64.org/support/"
+        }
+      ],
+      "programming_language": "C++",
+      "source_available": "Yes; public GPL-2.0 source repository.",
+      "strategy": "Standalone Windows software emulator with selectable graphics plugins."
+    },
+    {
+      "id": "desmume",
+      "title": "DeSmuME",
+      "game": "Nintendo DS",
+      "platform": "Windows, macOS, Linux, BSD",
+      "kind": "Emulator",
+      "status": "Low release activity; latest stable release is 0.9.13 (2022-05-23), while the source repository remains public.",
+      "summary": "Established open-source Nintendo DS emulator with high-resolution rendering, multiple desktop frontends, and debugging/TAS features.",
+      "project_url": "https://desmume.org/",
+      "sources": [
+        {
+          "label": "Official project site and release announcement",
+          "url": "https://desmume.org/"
+        },
+        {
+          "label": "Official source repository",
+          "url": "https://github.com/TASEmulators/desmume"
+        },
+        {
+          "label": "Official release history",
+          "url": "https://github.com/TASEmulators/desmume/releases"
+        }
+      ],
+      "programming_language": "C++",
+      "source_available": "Yes; public GPL-2.0 source repository.",
+      "strategy": "Standalone software emulator with desktop frontends."
+    },
+    {
+      "id": "melonds",
+      "title": "melonDS",
+      "game": "Nintendo DS/DSi",
+      "platform": "Windows, macOS, Linux; project downloads also list Android and iOS builds",
+      "kind": "Emulator",
+      "status": "Active; the official repository shows ongoing 2026 development.",
+      "summary": "Open-source DS emulator with developing DSi support, local multiplayer, and a separate libretro core.",
+      "project_url": "https://github.com/melonDS-emu/melonDS",
+      "sources": [
+        {
+          "label": "Official emulator repository and build instructions",
+          "url": "https://github.com/melonDS-emu/melonDS"
+        },
+        {
+          "label": "Official download page",
+          "url": "https://melonds.org/download/"
+        },
+        {
+          "label": "Libretro core documentation distinguishes standalone and core features",
+          "url": "https://github.com/JesseTG/melonds-ds"
+        }
+      ],
+      "programming_language": "C++",
+      "source_available": "Yes; public GPL-3.0 source repository.",
+      "strategy": "Standalone DS software emulator; optional libretro core."
+    },
+    {
+      "id": "dolphin",
+      "title": "Dolphin",
+      "game": "Nintendo GameCube/Wii",
+      "platform": "Windows, Linux, macOS, Android",
+      "kind": "Emulator",
+      "status": "Active; official project repository and development builds continue.",
+      "summary": "The leading long-running GameCube/Wii emulator, first released in 2003 and made open source in 2008.",
+      "project_url": "https://dolphin-emu.org/",
+      "sources": [
+        {
+          "label": "Official source repository and supported systems",
+          "url": "https://github.com/dolphin-emu/dolphin"
+        },
+        {
+          "label": "Official FAQ and project history",
+          "url": "https://dolphin-emu.org/docs/faq/"
+        },
+        {
+          "label": "Official download page",
+          "url": "https://dolphin-emu.org/download/"
+        }
+      ],
+      "programming_language": "C++",
+      "source_available": "Yes; public GPL-2.0-or-later source repository.",
+      "strategy": "Standalone software emulator."
+    },
+    {
+      "id": "oboromi",
+      "title": "oboromi",
+      "game": "Nintendo Switch 2 software (prototype)",
+      "platform": "Nintendo Switch 2",
+      "kind": "Emulator",
+      "status": "proof of concept",
+      "summary": "Open-source Switch 2 emulator foundation written in Rust. The maintainer says it models the CPU and memory and has a stub GPU, but cannot run commercial games or firmware.",
+      "project_url": "https://github.com/0xNikilite/oboromi",
+      "sources": [
+        {
+          "label": "Maintainer source repository and README",
+          "url": "https://github.com/0xNikilite/oboromi"
+        }
+      ],
+      "programming_language": "Rust",
+      "source_available": true,
+      "strategy": "ARMv8 CPU and shared-memory model, SM86 stub GPU, and HLE firmware layer; no commercial game or firmware support yet."
+    },
+    {
+      "id": "pound",
+      "title": "Pound",
+      "game": "Nintendo Switch and Switch 2 software (prototype)",
+      "platform": "Nintendo Switch / Nintendo Switch 2",
+      "kind": "Emulator",
+      "status": "early development",
+      "summary": "Open-source, highly experimental emulator project targeting Switch 1 and Switch 2. The maintainers say development is currently focused on a new ARM recompiler, and the repository does not claim commercial-game support.",
+      "project_url": "https://github.com/pound-emu/pound",
+      "sources": [
+        {
+          "label": "Official source repository and current development overview",
+          "url": "https://github.com/pound-emu/pound"
+        }
+      ],
+      "programming_language": "C/C++",
+      "source_available": true,
+      "strategy": "Prototype CPU recompilation with a planned SM86-to-SPIR-V-to-Vulkan graphics path; system emulation remains highly incomplete."
+    },
+    {
+      "id": "egg-ns",
+      "title": "Egg NS",
+      "game": "Nintendo Switch games",
+      "platform": "Nintendo Switch",
+      "kind": "Emulator",
+      "status": "uncertain",
+      "summary": "Closed-source Android Switch emulator distributed by NXTeam Studios. The official Google Play listing identifies the product, but its last listed update is July 19, 2024, so current maintenance could not be verified.",
+      "project_url": "https://play.google.com/store/apps/details?id=com.xiaoji.gamesirnsemulator.x.google",
+      "sources": [
+        {
+          "label": "Official Google Play listing",
+          "url": "https://play.google.com/store/apps/details?id=com.xiaoji.gamesirnsemulator.x.google"
+        },
+        {
+          "label": "Maintainer news and release archive",
+          "url": "https://eggns.wordpress.com/news/"
+        }
+      ],
+      "programming_language": null,
+      "source_available": false,
+      "strategy": "Proprietary implementation; the maintainer does not document its emulation strategy publicly."
+    },
+    {
+      "id": "citron-neo",
+      "title": "Citron Neo",
+      "game": "Nintendo Switch games and homebrew",
+      "platform": "Nintendo Switch",
+      "kind": "Emulator",
+      "status": "active",
+      "summary": "Open-source continuation of the Citron codebase, with builds for Windows, Linux, macOS, and Android. The project source repository and linked project site show ongoing releases and development.",
+      "project_url": "https://github.com/citron-neo/emulator",
+      "sources": [
+        {
+          "label": "Official source repository and README",
+          "url": "https://github.com/citron-neo/emulator"
+        },
+        {
+          "label": "Official project site",
+          "url": "https://citron-neo.org/"
+        }
+      ],
+      "programming_language": "C++",
+      "source_available": true,
+      "strategy": "Continues a Yuzu-derived emulator codebase; the project README does not specify a separate HLE/LLE architecture."
+    },
+    {
+      "id": "eden",
+      "title": "Eden",
+      "game": "Nintendo Switch games and homebrew",
+      "platform": "Nintendo Switch",
+      "kind": "Emulator",
+      "status": "active",
+      "summary": "Open-source Switch emulator forked from Yuzu, maintained for desktop and Android platforms. Its official site links to the source host and publishes project updates.",
+      "project_url": "https://eden-emu.dev/",
+      "sources": [
+        {
+          "label": "Official website",
+          "url": "https://eden-emu.dev/"
+        },
+        {
+          "label": "Maintainer README and source mirror",
+          "url": "https://github.com/emuall/eden"
+        }
+      ],
+      "programming_language": "C++",
+      "source_available": true,
+      "strategy": "Yuzu-derived software emulation of Switch hardware and services; CPU execution and graphics translation are implemented in the emulator core."
+    },
+    {
+      "id": "nxemu",
+      "title": "NxEmu",
+      "game": "Nintendo Switch games and homebrew",
+      "platform": "Nintendo Switch",
+      "kind": "Emulator",
+      "status": "active",
+      "summary": "Open-source Windows Switch emulator written in C++. Its official site reports progress releases through September 2026 and links directly to the source repository.",
+      "project_url": "https://www.nxemu.com/",
+      "sources": [
+        {
+          "label": "Official project site and progress reports",
+          "url": "https://www.nxemu.com/"
+        },
+        {
+          "label": "Maintainer source repository",
+          "url": "https://github.com/N3xoX1/nxemu"
+        }
+      ],
+      "programming_language": "C++",
+      "source_available": true,
+      "strategy": "Software emulation of Switch hardware; the project emphasizes accuracy over game-specific hacks and does not publish a detailed architecture description."
+    },
+    {
+      "id": "ryubing",
+      "title": "Ryubing",
+      "game": "Nintendo Switch games and homebrew",
+      "platform": "Nintendo Switch",
+      "kind": "Emulator",
+      "status": "active",
+      "summary": "Active fork of the discontinued Ryujinx emulator, maintained under the verified Ryubing organization and its own project domain.",
+      "project_url": "https://ryujinx.app/",
+      "sources": [
+        {
+          "label": "Official Ryubing site",
+          "url": "https://ryujinx.app/"
+        },
+        {
+          "label": "Verified maintainer organization identifying the fork",
+          "url": "https://github.com/Ryubing"
+        },
+        {
+          "label": "Maintainer documentation",
+          "url": "https://docs.ryujinx.app/"
+        }
+      ],
+      "programming_language": "C#",
+      "source_available": true,
+      "strategy": "Ryujinx-derived ARMv8 CPU emulation and HLE subsystem implementations, with graphics translation."
+    },
+    {
+      "id": "ryujinx",
+      "title": "Ryujinx",
+      "game": "Nintendo Switch games and homebrew",
+      "platform": "Nintendo Switch",
+      "kind": "Emulator",
+      "status": "discontinued",
+      "summary": "Historically major open-source Switch emulator written in C#. Development ended on October 1, 2024; the later Ryubing fork is listed separately.",
+      "project_url": "https://docs.ryujinx.app/",
+      "sources": [
+        {
+          "label": "Ryujinx project documentation and status",
+          "url": "https://docs.ryujinx.app/"
+        },
+        {
+          "label": "Maintained Ryubing organization identifying Ryujinx as discontinued",
+          "url": "https://github.com/Ryubing"
+        }
+      ],
+      "programming_language": "C#",
+      "source_available": true,
+      "strategy": "ARMv8 CPU emulation with the ARMeilleure dynamic recompiler, HLE subsystem implementations, and graphics translation."
+    },
+    {
+      "id": "skyline",
+      "title": "Skyline",
+      "game": "Nintendo Switch games and homebrew",
+      "platform": "Nintendo Switch",
+      "kind": "Emulator",
+      "status": "discontinued",
+      "summary": "Independent, open-source Android Switch emulator built from the ground up. The maintainers now label the project discontinued; Strato is tracked separately as its continuation.",
+      "project_url": "https://github.com/skyline-emu/skyline",
+      "sources": [
+        {
+          "label": "Official project organization and discontinued status",
+          "url": "https://github.com/skyline-emu"
+        },
+        {
+          "label": "Official emulator source repository",
+          "url": "https://github.com/skyline-emu/skyline"
+        }
+      ],
+      "programming_language": "C++",
+      "source_available": true,
+      "strategy": "Android-oriented Switch system emulation; the project README does not give a detailed HLE/LLE or CPU execution breakdown."
+    },
+    {
+      "id": "strato",
+      "title": "Strato",
+      "game": "Nintendo Switch games and homebrew",
+      "platform": "Nintendo Switch",
+      "kind": "Emulator",
+      "status": "dormant",
+      "summary": "Experimental Android Switch emulator that builds on Skyline and was intended as its continuation. The official source repository remains public, with its last listed code update in September 2024.",
+      "project_url": "https://github.com/strato-emu/strato",
+      "sources": [
+        {
+          "label": "Official Strato source repository and README",
+          "url": "https://github.com/strato-emu/strato"
+        },
+        {
+          "label": "Official organization activity",
+          "url": "https://github.com/strato-emu"
+        }
+      ],
+      "programming_language": "C++",
+      "source_available": true,
+      "strategy": "HLE kernel and sysmodule implementations with a mobile-focused GPU path; the project states it continues Skyline and uses a fork of yuzu's shader compiler."
+    },
+    {
+      "id": "sudachi",
+      "title": "Sudachi",
+      "game": "Nintendo Switch games and homebrew",
+      "platform": "Nintendo Switch",
+      "kind": "Emulator",
+      "status": "limited maintenance",
+      "summary": "Yuzu-derived open-source Switch emulator for Android, Linux, macOS, and Windows. Its current README says contributions are closed and compatibility information is unavailable.",
+      "project_url": "https://github.com/q4a/sudachi",
+      "sources": [
+        {
+          "label": "Maintainer README and source repository",
+          "url": "https://github.com/q4a/sudachi"
+        }
+      ],
+      "programming_language": "C++",
+      "source_available": true,
+      "strategy": "Software Switch emulation derived from Yuzu; the current maintainer README does not document the detailed HLE/LLE split."
+    },
+    {
+      "id": "suyu",
+      "title": "suyu",
+      "game": "Nintendo Switch games and homebrew",
+      "platform": "Nintendo Switch",
+      "kind": "Emulator",
+      "status": "active",
+      "summary": "Current community continuation of a Yuzu-derived Switch emulator, now based on Eden. The current repository has ordinary emulator mode alongside optional static and hybrid recompilation features; the earlier v0.0.4 source line is preserved as an archive.",
+      "project_url": "https://github.com/suyu-emu/suyu-main",
+      "sources": [
+        {
+          "label": "Current official repository and release status",
+          "url": "https://github.com/suyu-emu/suyu-main"
+        },
+        {
+          "label": "Official archived v0.0.4 repository",
+          "url": "https://github.com/suyu-emu/suyu-v0.0.4"
+        }
+      ],
+      "programming_language": "C++",
+      "source_available": true,
+      "strategy": "Ordinary emulation uses a Dynarmic JIT CPU with GPU, audio, and HLE service emulation; the project also offers static and hybrid recompilation modes."
+    },
+    {
+      "id": "yuzu",
+      "title": "yuzu",
+      "game": "Nintendo Switch games and homebrew",
+      "platform": "Nintendo Switch",
+      "kind": "Emulator",
+      "status": "discontinued",
+      "summary": "Historically major open-source Nintendo Switch emulator. Its maintainers discontinued yuzu effective March 4, 2024 and said they would take the code repositories offline.",
+      "project_url": "https://github.com/yuzu-emu/yuzu-emu.github.io",
+      "sources": [
+        {
+          "label": "Maintainer shutdown announcement",
+          "url": "https://github.com/yuzu-emu/yuzu-emu.github.io/blob/master/index.html"
+        },
+        {
+          "label": "Original official source repository URL",
+          "url": "https://github.com/yuzu-emu/yuzu"
+        }
+      ],
+      "programming_language": "C++",
+      "source_available": true,
+      "strategy": "Software emulation of Switch CPU, GPU, and system services; the official shutdown notice does not document the detailed implementation strategy."
+    },
+    {
+      "id": "nexium",
+      "title": "NeXium",
+      "game": "Nintendo Switch homebrew and games",
+      "platform": "Nintendo Switch",
+      "kind": "Emulator",
+      "status": "active",
+      "summary": "Experimental open-source Switch emulator with recent 2026 progress reports, desktop and Android builds, and an early PS5 build. It explicitly supports Switch homebrew as well as decrypted game dumps.",
+      "project_url": "https://nexium-emu.org/",
+      "sources": [
+        {
+          "label": "Official project site, status, and progress reports",
+          "url": "https://nexium-emu.org/"
+        },
+        {
+          "label": "Maintainer source repository",
+          "url": "https://git.mythrax-rs.org/nexium-emu/nexium"
+        }
+      ],
+      "programming_language": "Rust",
+      "source_available": true,
+      "strategy": "AArch64 CPU JIT recompilers (Dynarmic or Rustarmic) with a Vulkan renderer; the project also has HLE services for homebrew and games."
+    },
+    {
+      "id": "xqemu-original-xbox",
+      "title": "XQEMU",
+      "game": "Original Xbox and Sega Chihiro software",
+      "platform": "Microsoft Xbox (2001); Sega Chihiro arcade hardware",
+      "kind": "Emulator",
+      "status": "Legacy / early-stage research project",
+      "summary": "Open-source, low-level Xbox emulator built on QEMU. Its own site describes it as early and not very usable, and points ordinary users to xemu, its more practical fork.",
+      "project_url": "https://github.com/xqemu/xqemu",
+      "sources": [
+        {
+          "label": "Official XQEMU project status and relationship to xemu",
+          "url": "https://xqemu.com/"
+        },
+        {
+          "label": "Official source repository",
+          "url": "https://github.com/xqemu/xqemu"
+        }
+      ],
+      "programming_language": "C (primarily)",
+      "source_available": true,
+      "strategy": "QEMU-derived, low-level full-system emulation."
+    },
+    {
+      "id": "play-",
+      "title": "Play!",
+      "game": "PlayStation 2 software",
+      "platform": "PlayStation 2",
+      "kind": "Emulator",
+      "status": "Active; experimental compatibility work continues",
+      "summary": "An open-source PS2 emulator targeting desktop, mobile, and web platforms; it does not require a dumped PS2 BIOS.",
+      "project_url": "https://github.com/jpd002/Play-",
+      "sources": [
+        {
+          "label": "Maintainer source repository",
+          "url": "https://github.com/jpd002/Play-"
+        },
+        {
+          "label": "Official project site",
+          "url": "https://purei.org/"
+        },
+        {
+          "label": "Maintainer compatibility tracker",
+          "url": "https://github.com/jpd002/Play-Compatibility"
+        }
+      ],
+      "programming_language": "C++",
+      "source_available": true,
+      "strategy": "PS2 system emulation with a high-level emulated BIOS and emulated CPU, graphics, and device behavior."
+    },
+    {
+      "id": "gearsystem",
+      "title": "Gearsystem",
+      "game": "Sega Mark III; Master System; Game Gear; SG-1000; Othello Multivision",
+      "platform": "8-bit home consoles and handhelds",
+      "kind": "Emulator",
+      "status": "Active; public source and current development builds",
+      "summary": "Cross-platform C++ emulator and debugger for Sega's 8-bit home systems and Game Gear, with support for Mark III, Master System, SG-1000, and Othello Multivision.",
+      "project_url": "https://github.com/drhelius/Gearsystem",
+      "sources": [
+        {
+          "label": "Maintainer repository and supported machines",
+          "url": "https://github.com/drhelius/Gearsystem"
+        },
+        {
+          "label": "Maintainer release history",
+          "url": "https://github.com/drhelius/Gearsystem/releases"
+        }
+      ],
+      "programming_language": "C++",
+      "source_available": true,
+      "strategy": "Native software emulation of the Z80, video, and sound hardware; standalone application with optional libretro builds."
+    },
+    {
+      "id": "supermodel",
+      "title": "Supermodel",
+      "game": "Sega Model 3 arcade games",
+      "platform": "Windows, Linux, macOS",
+      "kind": "Emulator",
+      "status": "Active",
+      "summary": "A dedicated emulator for Sega Model 3, the 3D arcade platform used by games such as Virtua Fighter 3 and Scud Race.",
+      "project_url": "https://github.com/trzy/Supermodel",
+      "sources": [
+        {
+          "label": "Official repository, supported platform, and source license",
+          "url": "https://github.com/trzy/Supermodel"
+        }
+      ],
+      "programming_language": "C++",
+      "source_available": true,
+      "strategy": "Reverse-engineered Model 3 hardware emulation, including its PowerPC and graphics systems."
+    },
+    {
+      "id": "kronos",
+      "title": "Kronos",
+      "game": "Sega Saturn",
+      "platform": "32-bit home console",
+      "kind": "Emulator",
+      "status": "Public upstream; the official releases page lists v2.7.0 as its latest release, but does not expose the release year in the page text",
+      "summary": "Standalone Saturn emulator derived from Yabause. The project publishes source code and supports both a standalone application build and a libretro core build; this entry refers to the upstream emulator project.",
+      "project_url": "https://github.com/FCare/Kronos",
+      "sources": [
+        {
+          "label": "Maintainer repository and build targets",
+          "url": "https://github.com/FCare/Kronos"
+        },
+        {
+          "label": "Maintainer releases",
+          "url": "https://github.com/FCare/Kronos/releases"
+        },
+        {
+          "label": "Project page",
+          "url": "https://fcare.github.io/"
+        }
+      ],
+      "programming_language": "C and C++",
+      "source_available": true,
+      "strategy": "Native software emulation of Saturn hardware; standalone and libretro build targets share the upstream source."
+    },
+    {
+      "id": "yaba-sanshiro",
+      "title": "Yaba Sanshiro",
+      "game": "Sega Saturn",
+      "platform": "32-bit home console",
+      "kind": "Emulator",
+      "status": "Maintained; official download page lists v1.20.46 binaries and matching GPL source",
+      "summary": "Sega Saturn emulator with Android, iOS, and Windows releases. Its maintainer supplies the complete corresponding source for released binaries under the GNU GPL.",
+      "project_url": "https://www.yabasanshiro.com/",
+      "sources": [
+        {
+          "label": "Official project site",
+          "url": "https://www.yabasanshiro.com/"
+        },
+        {
+          "label": "Official downloads and source availability",
+          "url": "https://www.yabasanshiro.com/download"
+        }
+      ],
+      "programming_language": "C and C++",
+      "source_available": true,
+      "strategy": "Native software emulation of Saturn hardware, distributed as standalone platform applications."
+    },
+    {
+      "id": "yabause",
+      "title": "Yabause",
+      "game": "Sega Saturn",
+      "platform": "32-bit home console",
+      "kind": "Emulator",
+      "status": "Legacy/low activity; latest stable version listed by the project is 0.9.15 from 2016-08-24",
+      "summary": "Open-source Sega Saturn emulator with a public development repository. The project site still lists a development version, but its latest stable package is from 2016.",
+      "project_url": "https://github.com/Yabause/yabause",
+      "sources": [
+        {
+          "label": "Maintainer source repository",
+          "url": "https://github.com/Yabause/yabause"
+        },
+        {
+          "label": "Official project downloads and stable release date",
+          "url": "https://yabause.org/download/"
+        }
+      ],
+      "programming_language": "C and C++",
+      "source_available": true,
+      "strategy": "Native software emulation of Sega Saturn hardware; the repository also contains platform-specific builds."
+    },
+    {
+      "id": "ymir",
+      "title": "Ymir",
+      "game": "Sega Saturn",
+      "platform": "32-bit home console",
+      "kind": "Emulator",
+      "status": "Active work in progress; repository activity verified through 2026-09-26",
+      "summary": "Modern open-source Sega Saturn emulator with stable and nightly releases, save-state and debugger features, and a published compatibility list.",
+      "project_url": "https://github.com/ymir-emu/Ymir",
+      "sources": [
+        {
+          "label": "Maintainer repository and project description",
+          "url": "https://github.com/ymir-emu/Ymir"
+        },
+        {
+          "label": "Maintainer releases",
+          "url": "https://github.com/ymir-emu/Ymir/releases"
+        }
+      ],
+      "programming_language": "C++",
+      "source_available": true,
+      "strategy": "Native software emulation of Saturn hardware, with standalone desktop builds."
+    },
+    {
+      "id": "genesis-plus-gx",
+      "title": "Genesis Plus GX",
+      "game": "SG-1000; Mark III; Master System; Game Gear; Genesis / Mega Drive; Sega CD / Mega CD; preliminary Sega Pico",
+      "platform": "8-bit and 16-bit home consoles, handheld, and CD add-on",
+      "kind": "Emulator",
+      "status": "Actively maintained open-source project",
+      "summary": "Accuracy-focused Sega 8-bit and 16-bit emulator with Sega CD support and preliminary Pico emulation. Its official feature list does not claim 32X support.",
+      "project_url": "https://github.com/ekeeke/Genesis-Plus-GX",
+      "sources": [
+        {
+          "label": "Maintainer repository",
+          "url": "https://github.com/ekeeke/Genesis-Plus-GX"
+        },
+        {
+          "label": "Maintainer feature list",
+          "url": "https://github.com/ekeeke/Genesis-Plus-GX/blob/master/wiki/Features.md"
+        }
+      ],
+      "programming_language": "C",
+      "source_available": true,
+      "strategy": "Native software emulation of Sega console and add-on hardware, including CPU/video/audio timing and cartridge hardware."
+    },
+    {
+      "id": "picodrive",
+      "title": "PicoDrive",
+      "game": "SG-1000; SC-3000; Master System; Game Gear; Genesis / Mega Drive; Sega CD / Mega CD; 32X; Sega Pico",
+      "platform": "8-bit and 16-bit Sega home systems, handhelds, and add-ons",
+      "kind": "Emulator",
+      "status": "Active development primarily in the irixxxx upstream fork",
+      "summary": "Open-source Sega emulator known for broad 8-bit and 16-bit system coverage, Sega CD and 32X support, and performance-oriented CPU and video cores. The project notes that most current development occurs in irixxxx's fork.",
+      "project_url": "https://github.com/irixxxx/picodrive",
+      "sources": [
+        {
+          "label": "Current maintainer fork and README",
+          "url": "https://github.com/irixxxx/picodrive"
+        },
+        {
+          "label": "Original upstream repository and development note",
+          "url": "https://github.com/notaz/picodrive"
+        }
+      ],
+      "programming_language": "C and assembly",
+      "source_available": true,
+      "strategy": "Native software emulation with optimized CPU/video assembly cores and dynamic recompilers for selected processors."
+    },
+    {
+      "id": "meka",
+      "title": "MEKA",
+      "game": "SG-1000; SC-3000; SF-7000; Mark III; Master System; Game Gear; ColecoVision; Othello Multivision",
+      "platform": "8-bit home computers, console, handheld, and related systems",
+      "kind": "Emulator",
+      "status": "Active but intermittent; latest listed release is dated 2025-08-17",
+      "summary": "Long-running multi-machine emulator focused on exhaustive Sega 8-bit hardware, obscure games, peripherals, and debugging tools. The maintainer describes it as still updated occasionally.",
+      "project_url": "https://github.com/ocornut/meka",
+      "sources": [
+        {
+          "label": "Maintainer README and supported machines",
+          "url": "https://github.com/ocornut/meka"
+        },
+        {
+          "label": "Maintainer releases",
+          "url": "https://github.com/ocornut/meka/releases"
+        }
+      ],
+      "programming_language": "C++",
+      "source_available": true,
+      "strategy": "Native software emulation of Sega 8-bit systems and compatible hardware, with integrated debugger and peripheral support."
+    },
+    {
+      "id": "kega-fusion",
+      "title": "Kega Fusion",
+      "game": "SG-1000; SC-3000; SF-7000; Master System; Game Gear; Genesis / Mega Drive; Sega CD; 32X; Sega Pico",
+      "platform": "8-bit and 16-bit Sega home systems, handheld, and add-ons",
+      "kind": "Emulator",
+      "status": "Legacy/inactive; historical distributor lists Fusion 3.64 for Windows and 3.63-series builds for macOS/Linux",
+      "summary": "Historically influential closed-source multi-system Sega emulator by Steve Snake, covering the 8-bit and 16-bit consoles and major add-ons. Current upstream development is not evidenced by its legacy release page.",
+      "project_url": "https://www.carpeludum.com/kega-fusion/",
+      "sources": [
+        {
+          "label": "Legacy Kega Fusion release and system page",
+          "url": "https://www.carpeludum.com/kega-fusion/"
+        }
+      ],
+      "programming_language": null,
+      "source_available": false,
+      "strategy": "Closed-source software emulation; implementation details are unavailable."
+    },
+    {
+      "id": "zesarux",
+      "title": "ZEsarUX",
+      "game": "Sinclair computers and related 8-bit systems, including ZX Spectrum, ZX80/81, QL, and Z88",
+      "platform": "Windows, Linux, FreeBSD, macOS, Haiku, Raspberry Pi",
+      "kind": "Emulator",
+      "status": "Active",
+      "summary": "A broad Sinclair and related-machine emulator that runs games as well as general software across multiple 8-bit and early 16-bit systems.",
+      "project_url": "https://github.com/chernandezba/zesarux",
+      "sources": [
+        {
+          "label": "Official ZEsarUX repository, supported systems, host builds, and source",
+          "url": "https://github.com/chernandezba/zesarux"
+        }
+      ],
+      "programming_language": "C",
+      "source_available": true,
+      "strategy": "Multi-machine hardware emulation for Sinclair and compatible systems, with model-specific peripherals and display behavior."
+    },
+    {
+      "id": "snes9x",
+      "title": "Snes9x",
+      "game": "SNES/Super Famicom",
+      "platform": "Windows, macOS, Linux, FreeBSD, and ports for other systems",
+      "kind": "Emulator",
+      "status": "Active; official source repository provides current development and nightly builds.",
+      "summary": "Portable, long-running SNES emulator with broad platform ports and continuing maintenance.",
+      "project_url": "https://github.com/snes9xgit/snes9x",
+      "sources": [
+        {
+          "label": "Official source repository and nightly builds",
+          "url": "https://github.com/snes9xgit/snes9x"
+        },
+        {
+          "label": "Official Snes9x project site",
+          "url": "https://www.snes9x.com/"
+        }
+      ],
+      "programming_language": "C/C++",
+      "source_available": "Yes; public source repository; the project license restricts commercial use.",
+      "strategy": "Portable standalone software emulator."
+    },
+    {
+      "id": "super-zsnes",
+      "title": "SUPER ZSNES",
+      "game": "SNES/Super Famicom",
+      "platform": "Windows, macOS, Linux, Android, iOS",
+      "kind": "Emulator",
+      "status": "Active development; official site lists release 0.320 and describes planned features.",
+      "summary": "A new SNES emulator rewritten from scratch by the original ZSNES developers, with GPU-rendered enhancements and per-game visual/audio modifications.",
+      "project_url": "https://zsnes.com/",
+      "sources": [
+        {
+          "label": "Official project overview, supported platforms, and latest release notes",
+          "url": "https://zsnes.com/"
+        },
+        {
+          "label": "Official downloads",
+          "url": "https://zsnes.com/downloads/"
+        }
+      ],
+      "programming_language": null,
+      "source_available": "No public source repository or source download is listed on the official site as of verification.",
+      "strategy": "Standalone GPU-powered emulator with optional per-game enhancement data."
+    },
+    {
+      "id": "zsnes-legacy",
+      "title": "ZSNES (legacy upstream; ZSNES 2 source fork)",
+      "game": "SNES/Super Famicom",
+      "platform": "Legacy: DOS/Windows/Linux; fork: Linux, macOS, BSD, and experimental Windows builds",
+      "kind": "Emulator",
+      "status": "Original release line is discontinued; an independent portability fork continues to maintain the old codebase.",
+      "summary": "Historically influential fast SNES emulator from the 1990s and 2000s; the community fork modernizes its build and ports assembly code to C11.",
+      "project_url": "https://github.com/xyproto/zsnes",
+      "sources": [
+        {
+          "label": "ZSNES 2 fork documents original end date and migration work",
+          "url": "https://github.com/xyproto/zsnes"
+        },
+        {
+          "label": "Archived ZSNES release history",
+          "url": "https://zsnes-docs.sourceforge.net/html/history.htm"
+        }
+      ],
+      "programming_language": "Original: x86 assembly, C, and C++; portability fork: C11.",
+      "source_available": "Yes; source is public through the community fork; original upstream released source historically.",
+      "strategy": "Legacy software emulator; fork focuses on portability and source modernization."
+    },
+    {
+      "id": "bsnes",
+      "title": "bsnes",
+      "game": "SNES/Super Famicom; Super Game Boy support",
+      "platform": "Windows, macOS, Linux, and libretro-supported platforms",
+      "kind": "Emulator",
+      "status": "Active; the project publishes current nightly builds and retains stable releases.",
+      "summary": "High-fidelity SNES emulator known for accurate hardware and coprocessor emulation; it descends from the same development lineage as higan and ares.",
+      "project_url": "https://github.com/bsnes-emu/bsnes",
+      "sources": [
+        {
+          "label": "Project README and features",
+          "url": "https://github.com/bsnes-emu/bsnes"
+        },
+        {
+          "label": "Official release and nightly history",
+          "url": "https://github.com/bsnes-emu/bsnes/releases"
+        },
+        {
+          "label": "bsnes project background",
+          "url": "https://bsnes.github.io/about.html"
+        }
+      ],
+      "programming_language": "C++",
+      "source_available": "Yes; public GPL-3.0 source repository.",
+      "strategy": "Accuracy-focused software emulator; project documents low-level emulation for SNES coprocessors."
+    },
+    {
+      "id": "decaf-emu",
+      "title": "Decaf",
+      "game": "Wii U games and homebrew",
+      "platform": "Wii U",
+      "kind": "Emulator",
+      "status": "in development",
+      "summary": "Open-source Wii U research emulator. Its maintainers describe it as an in-development project and provide Windows and Linux builds through CI artifacts.",
+      "project_url": "https://github.com/decaf-emu/decaf-emu",
+      "sources": [
+        {
+          "label": "Official source repository and README",
+          "url": "https://github.com/decaf-emu/decaf-emu"
+        }
+      ],
+      "programming_language": "C++",
+      "source_available": true,
+      "strategy": "Wii U system emulation under active research; the project README does not specify an HLE/LLE breakdown."
+    },
+    {
+      "id": "cemu",
+      "title": "Cemu",
+      "game": "Wii U games, applications, and homebrew",
+      "platform": "Wii U",
+      "kind": "Emulator",
+      "status": "active",
+      "summary": "Open-source PC emulator for Wii U games and applications. The project says it runs most Wii U games and homebrew in playable state and remains actively developed.",
+      "project_url": "https://cemu.info/",
+      "sources": [
+        {
+          "label": "Official website",
+          "url": "https://cemu.info/index.html"
+        },
+        {
+          "label": "Official source repository",
+          "url": "https://github.com/cemu-project/Cemu"
+        }
+      ],
+      "programming_language": "C/C++",
+      "source_available": true,
+      "strategy": "Software system emulation with guest CPU recompilation and translated graphics; the current project docs do not specify the exact HLE/LLE split."
+    }
+  ]
+}

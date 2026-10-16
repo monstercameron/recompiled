@@ -2,7 +2,7 @@
 name = "recompiled"
 version = "0.1.0"
 edition = "2021"
-description = "An independently sourced index of game decompilations, recompilations, and fan translations"
+description = "A source-linked catalog of game decompilations, recompilations, ports, API translations, localizations, and emulators"
 license = "MIT"
 
 [lib]
@@ -15,8 +15,8 @@ serde_json = "1"
 wasm-bindgen = "=0.2.129"
 wasm-bindgen-futures = "0.4"
 web-sys = { version = "0.3", features = [
-  "Document", "DomTokenList", "Element", "Event", "EventTarget", "HtmlInputElement",
-  "HtmlSelectElement", "NodeList", "Response", "Window", "console"
+  "CssStyleDeclaration", "Document", "DomTokenList", "Element", "Event", "EventTarget", "HtmlInputElement",
+  "HtmlSelectElement", "HtmlElement", "HtmlDialogElement", "HtmlVideoElement", "KeyboardEvent", "History", "Location", "UrlSearchParams", "Storage", "MediaQueryList", "NodeList", "Response", "Window", "console"
 ] }
 
 [profile.release]

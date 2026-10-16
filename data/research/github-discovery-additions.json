@@ -1,0 +1,952 @@
+{
+  "updated": "2026-10-15",
+  "projects": [
+    {
+      "id": "angle",
+      "title": "ANGLE",
+      "game": "OpenGL ES applications and games (multi-title)",
+      "platform": "OpenGL ES → Vulkan/OpenGL/Direct3D",
+      "kind": "API Translation",
+      "status": "Active; README lists OpenGL ES 2.0–3.2 backend coverage",
+      "summary": "Translates OpenGL ES API calls to hardware-supported graphics APIs, including Vulkan, desktop OpenGL, Direct3D 9/11, and platform-specific backends.",
+      "project_url": "https://github.com/google/angle",
+      "strategy": "OpenGL ES graphics API translation",
+      "programming_language": "C++",
+      "updated": "2026-10-15T21:38:38Z",
+      "sources": [
+        {
+          "label": "Project repository",
+          "url": "https://github.com/google/angle"
+        },
+        {
+          "label": "Project README or evidence page",
+          "url": "https://github.com/google/angle/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "metal2vulkan",
+      "title": "Metal2Vulkan",
+      "game": "Metal-rendered applications and games (multi-title)",
+      "platform": "Metal → Vulkan",
+      "kind": "API Translation",
+      "status": "Alpha; Metal shader and Vulkan-backed Metal API support documented",
+      "summary": "Translates Metal AIR and Metal-shaped API programs into Vulkan pipelines, including compute, render, tessellation, tile, and mesh stages.",
+      "project_url": "https://github.com/steelbrain/metal2vulkan",
+      "strategy": "Metal shader and API translation to Vulkan",
+      "programming_language": "Rust",
+      "updated": "2026-10-15T11:00:49Z",
+      "sources": [
+        {
+          "label": "Project repository",
+          "url": "https://github.com/steelbrain/metal2vulkan"
+        },
+        {
+          "label": "Project README or evidence page",
+          "url": "https://github.com/steelbrain/metal2vulkan/blob/master/README.md"
+        }
+      ]
+    },
+    {
+      "id": "brave-fencer-musashi-decomp",
+      "title": "Brave Fencer Musashi Decompilation",
+      "game": "Brave Fencer Musashi",
+      "platform": "PlayStation",
+      "kind": "Decompilation",
+      "status": "Complete matching decompilation for 218 binaries",
+      "summary": "The repository reports 218 byte-identical binary rebuilds from C source for the US release and provides a reproducible verification command.",
+      "project_url": "https://github.com/Druthulu/BFM-decomp",
+      "strategy": "Matching decompilation",
+      "programming_language": "C",
+      "updated": "2026-10-15T20:31:04Z",
+      "sources": [
+        {
+          "label": "Project repository",
+          "url": "https://github.com/Druthulu/BFM-decomp"
+        },
+        {
+          "label": "Project README or evidence page",
+          "url": "https://github.com/Druthulu/BFM-decomp/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "chrono-cross-decomp",
+      "title": "Chrono Cross Decompilation",
+      "game": "Chrono Cross",
+      "platform": "PlayStation",
+      "kind": "Decompilation",
+      "status": "In progress; targets the Japanese release",
+      "summary": "Matching-decompilation project targeting the Japanese PS1 release, using the Radical Dreamers Edition as a cleaner extraction source.",
+      "project_url": "https://github.com/jdperos/chrono-cross-decomp",
+      "strategy": "Matching decompilation",
+      "programming_language": "C",
+      "updated": "2026-10-14T21:02:33Z",
+      "sources": [
+        {
+          "label": "Project repository",
+          "url": "https://github.com/jdperos/chrono-cross-decomp"
+        },
+        {
+          "label": "Project README or evidence page",
+          "url": "https://github.com/jdperos/chrono-cross-decomp/blob/master/README.md"
+        }
+      ]
+    },
+    {
+      "id": "f-zero-x-decomp",
+      "title": "F-Zero X Decompilation",
+      "game": "F-Zero X",
+      "platform": "Nintendo 64",
+      "kind": "Decompilation",
+      "status": "In progress; US, Japan, and PAL progress tracked",
+      "summary": "A game-specific N64 decompilation with separate progress tracking for US, Japanese, and PAL releases.",
+      "project_url": "https://github.com/inspectredc/fzerox",
+      "strategy": "Matching decompilation",
+      "programming_language": "C",
+      "updated": "2026-10-07T23:07:29Z",
+      "sources": [
+        {
+          "label": "Project repository",
+          "url": "https://github.com/inspectredc/fzerox"
+        },
+        {
+          "label": "Project README or evidence page",
+          "url": "https://github.com/inspectredc/fzerox/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "god-hand-decomp",
+      "title": "God Hand Decompilation",
+      "game": "God Hand",
+      "platform": "PlayStation 2",
+      "kind": "Decompilation",
+      "status": "In progress; US build is the primary matching target",
+      "summary": "PS2 matching-decompilation project targeting the US disc and documenting the original toolchain and user-supplied ISO workflow.",
+      "project_url": "https://github.com/LucasPicoli/god-hand-decomp",
+      "strategy": "Matching decompilation",
+      "programming_language": "C",
+      "updated": "2026-10-15T15:09:30Z",
+      "sources": [
+        {
+          "label": "Project repository",
+          "url": "https://github.com/LucasPicoli/god-hand-decomp"
+        },
+        {
+          "label": "Project README or evidence page",
+          "url": "https://github.com/LucasPicoli/god-hand-decomp/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "mario-kart-wii-decomp",
+      "title": "Mario Kart Wii Decompilation",
+      "game": "Mario Kart Wii",
+      "platform": "Wii",
+      "kind": "Decompilation",
+      "status": "Work in progress; matching decompilation",
+      "summary": "The repository describes a matching decompilation and provides build and code-progress tracking for the Wii game.",
+      "project_url": "https://github.com/doldecomp/mkw",
+      "strategy": "Matching decompilation",
+      "programming_language": "C",
+      "updated": "2026-10-08T17:44:50Z",
+      "sources": [
+        {
+          "label": "Project repository",
+          "url": "https://github.com/doldecomp/mkw"
+        },
+        {
+          "label": "Project README or evidence page",
+          "url": "https://github.com/doldecomp/mkw/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "mario-strikers-charged-decomp",
+      "title": "Mario Strikers Charged Decompilation",
+      "game": "Mario Strikers Charged",
+      "platform": "Wii",
+      "kind": "Decompilation",
+      "status": "In progress; code and link progress tracked",
+      "summary": "Wii decompilation project with build and code-matching progress exposed in its README.",
+      "project_url": "https://github.com/yannicksuter/mscharged-decomp",
+      "strategy": "Matching decompilation",
+      "programming_language": "C++",
+      "updated": "2026-10-15T19:00:20Z",
+      "sources": [
+        {
+          "label": "Project repository",
+          "url": "https://github.com/yannicksuter/mscharged-decomp"
+        },
+        {
+          "label": "Project README or evidence page",
+          "url": "https://github.com/yannicksuter/mscharged-decomp/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "paper-mario-n64-decomp",
+      "title": "Paper Mario Decompilation",
+      "game": "Paper Mario",
+      "platform": "Nintendo 64",
+      "kind": "Decompilation",
+      "status": "Work in progress; US, Japan, PAL, and iQue targets documented",
+      "summary": "The repository documents work-in-progress ROM builds for four regional versions and a matching decompilation workflow.",
+      "project_url": "https://github.com/pmret/papermario",
+      "strategy": "Matching decompilation",
+      "programming_language": "C",
+      "updated": "2026-10-15T19:14:43Z",
+      "sources": [
+        {
+          "label": "Project repository",
+          "url": "https://github.com/pmret/papermario"
+        },
+        {
+          "label": "Project README or evidence page",
+          "url": "https://github.com/pmret/papermario/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "parasite-eve-2-decomp",
+      "title": "Parasite Eve II Decompilation",
+      "game": "Parasite Eve II",
+      "platform": "PlayStation",
+      "kind": "Decompilation",
+      "status": "Complete for the US release; open points remain documented",
+      "summary": "The README reports byte-identical C builds for the US executable, overlays, and 446 packages; Japanese versions are outside the current target.",
+      "project_url": "https://github.com/GabeRealB/parasite-eve-2-decomp",
+      "strategy": "Matching decompilation",
+      "programming_language": "C",
+      "updated": "2026-10-14T14:30:52Z",
+      "sources": [
+        {
+          "label": "Project repository",
+          "url": "https://github.com/GabeRealB/parasite-eve-2-decomp"
+        },
+        {
+          "label": "Project README or evidence page",
+          "url": "https://github.com/GabeRealB/parasite-eve-2-decomp/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "perfect-dark-decomp",
+      "title": "Perfect Dark Matching Decompilation",
+      "game": "Perfect Dark",
+      "platform": "Nintendo 64",
+      "kind": "Decompilation",
+      "status": "Complete matching decompilation; user-supplied ROM required",
+      "summary": "Recreates the Nintendo 64 source project and rebuilds the retail ROM byte for byte with the original compiler workflow; the README says the GitHub repository mirrors the canonical GitLab project.",
+      "project_url": "https://github.com/n64decomp/perfect_dark",
+      "strategy": "Matching decompilation",
+      "programming_language": "C",
+      "updated": "2026-10-14T05:11:10Z",
+      "sources": [
+        {
+          "label": "Project repository",
+          "url": "https://github.com/n64decomp/perfect_dark"
+        },
+        {
+          "label": "Project README or evidence page",
+          "url": "https://github.com/n64decomp/perfect_dark/blob/master/README.md"
+        }
+      ]
+    },
+    {
+      "id": "pikmin-decomp",
+      "title": "Pikmin Decompilation",
+      "game": "Pikmin",
+      "platform": "GameCube",
+      "kind": "Decompilation",
+      "status": "Complete matching decompilation",
+      "summary": "Project README identifies this as a complete matching GameCube decompilation with a build system that extracts required assets from a user-provided copy.",
+      "project_url": "https://github.com/projectPiki/pikmin",
+      "strategy": "Matching decompilation",
+      "programming_language": "C",
+      "updated": "2026-10-14T22:50:00Z",
+      "sources": [
+        {
+          "label": "Project repository",
+          "url": "https://github.com/projectPiki/pikmin"
+        },
+        {
+          "label": "Project README or evidence page",
+          "url": "https://github.com/projectPiki/pikmin/blob/main/README.MD"
+        }
+      ]
+    },
+    {
+      "id": "sonic-advance-1-2-decomp",
+      "title": "Sonic Advance 1 and 2 Decompilation",
+      "game": "Sonic Advance and Sonic Advance 2",
+      "platform": "Game Boy Advance",
+      "kind": "Decompilation",
+      "status": "Work in progress; Sonic Advance 3 is a future target",
+      "summary": "A shared repository tracks matching decompilation of the first two GBA games and includes SDL ports; the README links a separate future Sonic Advance 3 project.",
+      "project_url": "https://github.com/SAT-R/sa2",
+      "strategy": "Matching decompilation",
+      "programming_language": "C",
+      "updated": "2026-10-14T17:36:29Z",
+      "sources": [
+        {
+          "label": "Project repository",
+          "url": "https://github.com/SAT-R/sa2"
+        },
+        {
+          "label": "Project README or evidence page",
+          "url": "https://github.com/SAT-R/sa2/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "star-fox-64-decomp",
+      "title": "Star Fox 64 Decompilation",
+      "game": "Star Fox 64",
+      "platform": "Nintendo 64",
+      "kind": "Decompilation",
+      "status": "Complete matching decompilation; targets US revision 1.1",
+      "summary": "The repository reports a complete matching decompilation for the US revision 1.1 and requires a user copy to extract assets for builds.",
+      "project_url": "https://github.com/sonicdcer/sf64",
+      "strategy": "Matching decompilation",
+      "programming_language": "C",
+      "updated": "2026-10-14T14:36:42Z",
+      "sources": [
+        {
+          "label": "Project repository",
+          "url": "https://github.com/sonicdcer/sf64"
+        },
+        {
+          "label": "Project README or evidence page",
+          "url": "https://github.com/sonicdcer/sf64/blob/master/README.md"
+        }
+      ]
+    },
+    {
+      "id": "super-mario-strikers-decomp",
+      "title": "Super Mario Strikers Decompilation",
+      "game": "Super Mario Strikers",
+      "platform": "GameCube",
+      "kind": "Decompilation",
+      "status": "In progress; code and link progress tracked",
+      "summary": "GameCube decompilation project with build and code-matching progress exposed in its README.",
+      "project_url": "https://github.com/yannicksuter/smstrikers-decomp",
+      "strategy": "Matching decompilation",
+      "programming_language": "C++",
+      "updated": "2026-10-12T16:18:57Z",
+      "sources": [
+        {
+          "label": "Project repository",
+          "url": "https://github.com/yannicksuter/smstrikers-decomp"
+        },
+        {
+          "label": "Project README or evidence page",
+          "url": "https://github.com/yannicksuter/smstrikers-decomp/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "super-smash-bros-brawl-decomp",
+      "title": "Super Smash Bros. Brawl Decompilation",
+      "game": "Super Smash Bros. Brawl",
+      "platform": "Wii",
+      "kind": "Decompilation",
+      "status": "Work in progress; matching decompilation",
+      "summary": "Wii matching-decompilation project; the repository says it contains no game assets and requires a user copy.",
+      "project_url": "https://github.com/doldecomp/brawl",
+      "strategy": "Matching decompilation",
+      "programming_language": "C++",
+      "updated": "2026-10-15T12:47:50Z",
+      "sources": [
+        {
+          "label": "Project repository",
+          "url": "https://github.com/doldecomp/brawl"
+        },
+        {
+          "label": "Project README or evidence page",
+          "url": "https://github.com/doldecomp/brawl/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "underworld-exhumed",
+      "title": "Ultima Underworld I and II Source Reconstruction",
+      "game": "Ultima Underworld and Ultima Underworld II",
+      "platform": "MS-DOS",
+      "kind": "Decompilation",
+      "status": "Active; source accuracy and native ports documented for both games",
+      "summary": "Reconstructs byte-matching source for both DOS titles and builds native Windows, macOS, Linux, and web ports; users provide their own game data.",
+      "project_url": "https://github.com/abedegno/underworld-exhumed",
+      "strategy": "Byte-matching source reconstruction and native ports",
+      "programming_language": "C",
+      "updated": "2026-10-15T13:19:37Z",
+      "sources": [
+        {
+          "label": "Project repository",
+          "url": "https://github.com/abedegno/underworld-exhumed"
+        },
+        {
+          "label": "Project README or evidence page",
+          "url": "https://github.com/abedegno/underworld-exhumed/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "vagrant-story-decomp",
+      "title": "Vagrant Story Decompilation",
+      "game": "Vagrant Story",
+      "platform": "PlayStation",
+      "kind": "Decompilation",
+      "status": "In progress; matching status not established in reviewed README",
+      "summary": "Reverse-engineering project for the PS1 game with a build workflow and a stated goal of modern hardware interoperability and bug fixes.",
+      "project_url": "https://github.com/ser-pounce/rood-reverse",
+      "strategy": "Source decompilation; matching fidelity not established",
+      "programming_language": "C",
+      "updated": "2026-10-15T19:28:50Z",
+      "sources": [
+        {
+          "label": "Project repository",
+          "url": "https://github.com/ser-pounce/rood-reverse"
+        },
+        {
+          "label": "Project README or evidence page",
+          "url": "https://github.com/ser-pounce/rood-reverse/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "xenogears-matching-decomp",
+      "title": "Xenogears Matching Decompilation",
+      "game": "Xenogears",
+      "platform": "PlayStation",
+      "kind": "Decompilation",
+      "status": "In progress; targets the US release",
+      "summary": "Distinct from the existing Noah source-reconstruction project, this repository targets the US PS1 release as a matching decompilation.",
+      "project_url": "https://github.com/ladysilverberg/xenogears-decomp",
+      "strategy": "Matching decompilation",
+      "programming_language": "C",
+      "updated": "2026-10-12T06:16:06Z",
+      "sources": [
+        {
+          "label": "Project repository",
+          "url": "https://github.com/ladysilverberg/xenogears-decomp"
+        },
+        {
+          "label": "Project README or evidence page",
+          "url": "https://github.com/ladysilverberg/xenogears-decomp/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "donkey-kong-country-3-recomp",
+      "title": "Donkey Kong Country 3 Recompilation",
+      "game": "Donkey Kong Country 3: Dixie Kong's Double Trouble!",
+      "platform": "Super Nintendo → Windows/macOS",
+      "kind": "Recompilation",
+      "status": "Bring-up; documented as in development",
+      "summary": "Statically recompiles the US SNES game code to C and runs it in native hosts with interpreter fallback for code the analysis cannot yet prove.",
+      "project_url": "https://github.com/elliotttate/DKC3Recomp",
+      "strategy": "Static recompilation",
+      "programming_language": "C",
+      "updated": "2026-10-15T17:52:46Z",
+      "sources": [
+        {
+          "label": "Project repository",
+          "url": "https://github.com/elliotttate/DKC3Recomp"
+        },
+        {
+          "label": "Project README or evidence page",
+          "url": "https://github.com/elliotttate/DKC3Recomp/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "galaxypad-super-mario-galaxy",
+      "title": "GalaxyPad: Super Mario Galaxy Native Port",
+      "game": "Super Mario Galaxy",
+      "platform": "Wii → iOS/iPadOS/macOS",
+      "kind": "Recompilation",
+      "status": "Experimental; README says full-game completion is not confirmed",
+      "summary": "Native ARM64 game code and Metal renderer for Apple platforms; current releases require the user's game data and the README describes incomplete full-game validation.",
+      "project_url": "https://github.com/chrissotraidis/galaxypad",
+      "strategy": "Native recompilation and source port",
+      "programming_language": "Python",
+      "updated": "2026-10-15T21:23:16Z",
+      "sources": [
+        {
+          "label": "Project repository",
+          "url": "https://github.com/chrissotraidis/galaxypad"
+        },
+        {
+          "label": "Project README or evidence page",
+          "url": "https://github.com/chrissotraidis/galaxypad/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "link-awakening-switch-recomp",
+      "title": "Link's Awakening Switch Recompilation",
+      "game": "The Legend of Zelda: Link's Awakening (Switch remake)",
+      "platform": "Nintendo Switch → Windows/macOS/Linux",
+      "kind": "Recompilation",
+      "status": "Active static recompilation; README discloses extensive AI-authored code and tooling",
+      "summary": "Static recompilation of the Switch remake to native desktop builds; project requires the user's game data and states most code and tooling were AI-authored.",
+      "project_url": "https://github.com/peiikai/LASRecomp",
+      "strategy": "Static recompilation",
+      "programming_language": "C",
+      "updated": "2026-10-15T22:25:07Z",
+      "sources": [
+        {
+          "label": "Project repository",
+          "url": "https://github.com/peiikai/LASRecomp"
+        },
+        {
+          "label": "Project README or evidence page",
+          "url": "https://github.com/peiikai/LASRecomp/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "metroid-prime-hunters-recomp",
+      "title": "Metroid Prime Hunters Recompilation",
+      "game": "Metroid Prime Hunters",
+      "platform": "Nintendo DS → native desktop",
+      "kind": "Recompilation",
+      "status": "Public alpha; bugs and incomplete port expected",
+      "summary": "Native recompilation of the USA revision-0 release with user-supplied ROM; README labels multiplayer and broader stability experimental.",
+      "project_url": "https://github.com/mstan/MetroidPrimeHuntersRecomp",
+      "strategy": "Static recompilation",
+      "programming_language": "Python",
+      "updated": "2026-10-15T19:56:50Z",
+      "sources": [
+        {
+          "label": "Project repository",
+          "url": "https://github.com/mstan/MetroidPrimeHuntersRecomp"
+        },
+        {
+          "label": "Project README or evidence page",
+          "url": "https://github.com/mstan/MetroidPrimeHuntersRecomp/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "nfs-underground-2-recomp",
+      "title": "Need for Speed Underground 2 Recompilation",
+      "game": "Need for Speed: Underground 2",
+      "platform": "Windows PC → Android",
+      "kind": "Recompilation",
+      "status": "Release v0.14.5; Android builds and original game data requirement documented",
+      "summary": "Statically recompiles the 32-bit PC executable for Android and provides Vulkan builds; users supply the original game data.",
+      "project_url": "https://github.com/codepdbh/nfsu2-recompiled",
+      "strategy": "Static recompilation",
+      "programming_language": "C++",
+      "updated": "2026-10-15T21:01:10Z",
+      "sources": [
+        {
+          "label": "Project repository",
+          "url": "https://github.com/codepdbh/nfsu2-recompiled"
+        },
+        {
+          "label": "Project README or evidence page",
+          "url": "https://github.com/codepdbh/nfsu2-recompiled/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "nfs-most-wanted-xbox360-recomp",
+      "title": "Need for Speed: Most Wanted (Xbox 360) Recompilation",
+      "game": "Need for Speed: Most Wanted (2005)",
+      "platform": "Xbox 360 → native x86-64 PC",
+      "kind": "Recompilation",
+      "status": "Playable with rough edges; progression status described in README",
+      "summary": "Statically translates Xbox 360 PowerPC game code into C++ and supplies native runtime services; game files are not included.",
+      "project_url": "https://github.com/madelrandel-blip/NFSMW-Recompiled",
+      "strategy": "Static recompilation",
+      "programming_language": "C++",
+      "updated": "2026-10-15T19:37:31Z",
+      "sources": [
+        {
+          "label": "Project repository",
+          "url": "https://github.com/madelrandel-blip/NFSMW-Recompiled"
+        },
+        {
+          "label": "Project README or evidence page",
+          "url": "https://github.com/madelrandel-blip/NFSMW-Recompiled/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "ridge-racer-ps1-recomp",
+      "title": "Ridge Racer Recompilation",
+      "game": "Ridge Racer",
+      "platform": "PlayStation → Windows/Linux",
+      "kind": "Recompilation",
+      "status": "Native build boots and plays; 408/408 functions reported matched",
+      "summary": "The same repository contains a byte-matching PS1 decompilation and a native static-recompilation build; users supply the Japanese SLPS-00001 disc.",
+      "project_url": "https://github.com/kazuyette/rr-decomp",
+      "strategy": "Static recompilation with matching decompilation",
+      "programming_language": "C",
+      "updated": "2026-10-14T10:02:01Z",
+      "sources": [
+        {
+          "label": "Project repository",
+          "url": "https://github.com/kazuyette/rr-decomp"
+        },
+        {
+          "label": "Project README or evidence page",
+          "url": "https://github.com/kazuyette/rr-decomp/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "soulcalibur-ii-gamecube-recomp",
+      "title": "Soulcalibur II GameCube Recompilation (RingOut)",
+      "game": "Soulcalibur II",
+      "platform": "GameCube → Windows/Linux/macOS",
+      "kind": "Recompilation",
+      "status": "Fully playable per README; networking remains experimental",
+      "summary": "PowerPC game code is statically translated to C and run in a native PC port using a Dolphin-derived runtime; users supply a disc image.",
+      "project_url": "https://github.com/jackpoison-prog/RingOut",
+      "strategy": "Static recompilation",
+      "programming_language": "C",
+      "updated": "2026-10-15T20:31:52Z",
+      "sources": [
+        {
+          "label": "Project repository",
+          "url": "https://github.com/jackpoison-prog/RingOut"
+        },
+        {
+          "label": "Project README or evidence page",
+          "url": "https://github.com/jackpoison-prog/RingOut/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "soulcalibur-ii-hd-recomp",
+      "title": "Soulcalibur II HD Online Recompilation",
+      "game": "Soulcalibur II HD Online",
+      "platform": "PlayStation 3 → macOS/Linux/Windows",
+      "kind": "Recompilation",
+      "status": "Experimental native build; README reports Apple Silicon support",
+      "summary": "Statically recompiles PlayStation 3 PPU/SPU code to C/C++ with Metal, Vulkan, and Direct3D 12 host rendering; users install their own game copy.",
+      "project_url": "https://github.com/n0madic/Soulcalibur2HD-recomp",
+      "strategy": "Static recompilation",
+      "programming_language": "C",
+      "updated": "2026-10-15T19:58:23Z",
+      "sources": [
+        {
+          "label": "Project repository",
+          "url": "https://github.com/n0madic/Soulcalibur2HD-recomp"
+        },
+        {
+          "label": "Project README or evidence page",
+          "url": "https://github.com/n0madic/Soulcalibur2HD-recomp/blob/master/README.md"
+        }
+      ]
+    },
+    {
+      "id": "spider-man-edge-of-time-recomp",
+      "title": "Spider-Man: Edge of Time Recompilation",
+      "game": "Spider-Man: Edge of Time",
+      "platform": "Xbox 360 → Windows/macOS/Linux",
+      "kind": "Recompilation",
+      "status": "Released; GitHub release builds and game installation workflow documented",
+      "summary": "Static recompilation of the Xbox 360 version to an unofficial PC port using ReXGlue; the README requires files from the user's legally acquired game copy.",
+      "project_url": "https://github.com/goliathret/EdgeOfTimeRecomp",
+      "strategy": "Static recompilation",
+      "programming_language": "C++",
+      "updated": "2026-10-15T22:27:20Z",
+      "sources": [
+        {
+          "label": "Project repository",
+          "url": "https://github.com/goliathret/EdgeOfTimeRecomp"
+        },
+        {
+          "label": "Project README or evidence page",
+          "url": "https://github.com/goliathret/EdgeOfTimeRecomp/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "sunpad-super-mario-sunshine",
+      "title": "SunPad: Super Mario Sunshine Native Recompilation",
+      "game": "Super Mario Sunshine",
+      "platform": "GameCube → iOS/iPadOS/macOS/tvOS",
+      "kind": "Recompilation",
+      "status": "Experimental preview; interpreter fallback remains for unrecompiled code",
+      "summary": "Ahead-of-time recompilation with a Metal renderer for Apple platforms; README marks tvOS experimental and requires the user's game image.",
+      "project_url": "https://github.com/chrissotraidis/sunpad",
+      "strategy": "Static recompilation with runtime fallback",
+      "programming_language": "Objective-C++",
+      "updated": "2026-10-15T11:04:57Z",
+      "sources": [
+        {
+          "label": "Project repository",
+          "url": "https://github.com/chrissotraidis/sunpad"
+        },
+        {
+          "label": "Project README or evidence page",
+          "url": "https://github.com/chrissotraidis/sunpad/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "tomba-2-ps1-recomp",
+      "title": "Tomba! 2 Recompilation",
+      "game": "Tomba! 2: The Evil Swine Return",
+      "platform": "PlayStation → Windows/Linux",
+      "kind": "Recompilation",
+      "status": "In-development preview builds; not described as a finished port",
+      "summary": "Static PS1 recompilation of the US release using the psxrecomp framework; the repository says builds are previews and users provide game data.",
+      "project_url": "https://github.com/mstan/Tomba2Recomp",
+      "strategy": "Static recompilation",
+      "programming_language": "C",
+      "updated": "2026-10-13T17:30:35Z",
+      "sources": [
+        {
+          "label": "Project repository",
+          "url": "https://github.com/mstan/Tomba2Recomp"
+        },
+        {
+          "label": "Project README or evidence page",
+          "url": "https://github.com/mstan/Tomba2Recomp/blob/master/README.md"
+        }
+      ]
+    },
+    {
+      "id": "corsixth",
+      "title": "CorsixTH",
+      "game": "Theme Hospital",
+      "platform": "DOS/Windows → Windows/macOS/Linux/BSD",
+      "kind": "Reimplementation",
+      "status": "Active; original game data required",
+      "summary": "Faithfully reimplements Theme Hospital for modern systems and uses graphics, sound, and other data from the original game.",
+      "project_url": "https://github.com/CorsixTH/CorsixTH",
+      "strategy": "Native game reimplementation",
+      "programming_language": "Lua",
+      "updated": "2026-10-14T21:48:28Z",
+      "sources": [
+        {
+          "label": "Project repository",
+          "url": "https://github.com/CorsixTH/CorsixTH"
+        },
+        {
+          "label": "Project README or evidence page",
+          "url": "https://github.com/CorsixTH/CorsixTH/blob/master/README.md"
+        }
+      ]
+    },
+    {
+      "id": "daggerfall-unity",
+      "title": "Daggerfall Unity",
+      "game": "The Elder Scrolls II: Daggerfall",
+      "platform": "DOS → Windows/Linux/macOS",
+      "kind": "Reimplementation",
+      "status": "Released; cross-platform recreation with mod support",
+      "summary": "Recreates Daggerfall in Unity with its original gameplay, modern operating-system support, and extensive mod support.",
+      "project_url": "https://github.com/Interkarma/daggerfall-unity",
+      "strategy": "Native game reimplementation in Unity",
+      "programming_language": "C#",
+      "updated": "2026-10-15T00:46:13Z",
+      "sources": [
+        {
+          "label": "Project repository",
+          "url": "https://github.com/Interkarma/daggerfall-unity"
+        },
+        {
+          "label": "Project README or evidence page",
+          "url": "https://github.com/Interkarma/daggerfall-unity/blob/master/README.md"
+        }
+      ]
+    },
+    {
+      "id": "devilutionx",
+      "title": "DevilutionX",
+      "game": "Diablo and Hellfire",
+      "platform": "Windows PC → Android/iOS/Linux/macOS/consoles",
+      "kind": "Reimplementation",
+      "status": "Released and actively maintained; original game data required",
+      "summary": "Cross-platform native port and reverse-engineered implementation of Diablo and Hellfire, with documented Android and iOS installation paths. Players supply the original game data.",
+      "project_url": "https://github.com/diasurgical/DevilutionX",
+      "strategy": "Reverse-engineered native game implementation",
+      "programming_language": "C++",
+      "updated": "2026-10-15T20:14:51Z",
+      "sources": [
+        {
+          "label": "Project repository",
+          "url": "https://github.com/diasurgical/DevilutionX"
+        },
+        {
+          "label": "Project README or evidence page",
+          "url": "https://github.com/diasurgical/DevilutionX/blob/master/README.md"
+        },
+        {
+          "label": "Mobile installation guide",
+          "url": "https://github.com/diasurgical/DevilutionX/blob/master/docs/installing.md"
+        }
+      ]
+    },
+    {
+      "id": "metaforce-metroid-prime",
+      "title": "Metaforce: Metroid Prime Engine Reimplementation",
+      "game": "Metroid Prime",
+      "platform": "GameCube/Wii → Windows/Linux/macOS",
+      "kind": "Reimplementation",
+      "status": "Active development; native engine reimplementation",
+      "summary": "Reverse-engineered native reimplementation of the Metroid Prime engine maintained as a cross-platform C++ project.",
+      "project_url": "https://github.com/AxioDL/metaforce",
+      "strategy": "Reverse-engineered native game engine reimplementation",
+      "programming_language": "C++",
+      "updated": "2026-10-15T05:21:32Z",
+      "sources": [
+        {
+          "label": "Project repository",
+          "url": "https://github.com/AxioDL/metaforce"
+        },
+        {
+          "label": "Project README or evidence page",
+          "url": "https://github.com/AxioDL/metaforce/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "opengoal-jak-and-daxter",
+      "title": "OpenGOAL: Jak and Daxter Native PC Port",
+      "game": "Jak and Daxter trilogy",
+      "platform": "PlayStation 2 → Windows/Linux",
+      "kind": "Reimplementation",
+      "status": "Active; build and play workflow documented",
+      "summary": "Decompiles original GOAL code, compiles it with a custom compiler to native x86-64, and requires a user-owned PS2 copy for game assets.",
+      "project_url": "https://github.com/open-goal/jak-project",
+      "strategy": "Reverse-engineered GOAL source and native compiler",
+      "programming_language": "Common Lisp",
+      "updated": "2026-10-15T17:50:33Z",
+      "sources": [
+        {
+          "label": "Project repository",
+          "url": "https://github.com/open-goal/jak-project"
+        },
+        {
+          "label": "Project README or evidence page",
+          "url": "https://github.com/open-goal/jak-project/blob/master/README.md"
+        }
+      ]
+    },
+    {
+      "id": "openmw",
+      "title": "OpenMW",
+      "game": "The Elder Scrolls III: Morrowind",
+      "platform": "Windows → Windows/Linux/macOS",
+      "kind": "Reimplementation",
+      "status": "Active; original game data required",
+      "summary": "Open-source game engine reimplementation that plays Morrowind using the user's original game data; GitHub README points to the upstream project.",
+      "project_url": "https://github.com/OpenMW/openmw",
+      "strategy": "Native game engine reimplementation",
+      "programming_language": "C++",
+      "updated": "2026-10-15T20:03:40Z",
+      "sources": [
+        {
+          "label": "Project repository",
+          "url": "https://github.com/OpenMW/openmw"
+        },
+        {
+          "label": "Project README or evidence page",
+          "url": "https://github.com/OpenMW/openmw/blob/master/README.md"
+        }
+      ]
+    },
+    {
+      "id": "openra",
+      "title": "OpenRA",
+      "game": "Command & Conquer: Tiberian Dawn, Red Alert, and Dune 2000",
+      "platform": "DOS/Windows → Windows/Linux/macOS",
+      "kind": "Reimplementation",
+      "status": "Active; engine and game mods maintained",
+      "summary": "Open-source C# engine for classic Westwood RTS titles with distributed mods and cross-platform support.",
+      "project_url": "https://github.com/OpenRA/OpenRA",
+      "strategy": "Native game engine reimplementation",
+      "programming_language": "C#",
+      "updated": "2026-10-15T20:10:39Z",
+      "sources": [
+        {
+          "label": "Project repository",
+          "url": "https://github.com/OpenRA/OpenRA"
+        },
+        {
+          "label": "Project README or evidence page",
+          "url": "https://github.com/OpenRA/OpenRA/blob/bleed/README.md"
+        }
+      ]
+    },
+    {
+      "id": "openrct2",
+      "title": "OpenRCT2",
+      "game": "RollerCoaster Tycoon 2",
+      "platform": "Windows → Windows/macOS/Linux",
+      "kind": "Reimplementation",
+      "status": "Active; releases and development builds documented",
+      "summary": "Open-source reimplementation of RollerCoaster Tycoon 2 with modern platform support and continued development.",
+      "project_url": "https://github.com/OpenRCT2/OpenRCT2",
+      "strategy": "Native game reimplementation",
+      "programming_language": "C++",
+      "updated": "2026-10-15T21:11:05Z",
+      "sources": [
+        {
+          "label": "Project repository",
+          "url": "https://github.com/OpenRCT2/OpenRCT2"
+        },
+        {
+          "label": "Project README or evidence page",
+          "url": "https://github.com/OpenRCT2/OpenRCT2/blob/develop/readme.md"
+        }
+      ]
+    },
+    {
+      "id": "openxcom",
+      "title": "OpenXcom",
+      "game": "UFO: Enemy Unknown / X-COM: UFO Defense and X-COM: Terror from the Deep",
+      "platform": "DOS → Windows/macOS/Linux",
+      "kind": "Reimplementation",
+      "status": "Active open-source clone; original game resources required",
+      "summary": "C++/SDL clone of the two original X-COM games that uses resource files from user-owned copies.",
+      "project_url": "https://github.com/OpenXcom/OpenXcom",
+      "strategy": "Native game reimplementation",
+      "programming_language": "C++",
+      "updated": "2026-10-15T12:46:53Z",
+      "sources": [
+        {
+          "label": "Project repository",
+          "url": "https://github.com/OpenXcom/OpenXcom"
+        },
+        {
+          "label": "Project README or evidence page",
+          "url": "https://github.com/OpenXcom/OpenXcom/blob/master/README.md"
+        }
+      ]
+    },
+    {
+      "id": "space-cadet-pinball",
+      "title": "SpaceCadetPinball",
+      "game": "3D Pinball for Windows: Space Cadet / Full Tilt! Pinball",
+      "platform": "Windows PC → modern Windows/macOS/Linux and other ports",
+      "kind": "Reimplementation",
+      "status": "Playable reverse-engineered build; original game resources required",
+      "summary": "C++ reverse-engineering project for the Windows pinball game that runs with original Windows or Full Tilt resource files and documents community ports.",
+      "project_url": "https://github.com/k4zmu2a/SpaceCadetPinball",
+      "strategy": "Reverse-engineered native source reimplementation",
+      "programming_language": "C++",
+      "updated": "2026-10-15T18:31:02Z",
+      "sources": [
+        {
+          "label": "Project repository",
+          "url": "https://github.com/k4zmu2a/SpaceCadetPinball"
+        },
+        {
+          "label": "Project README or evidence page",
+          "url": "https://github.com/k4zmu2a/SpaceCadetPinball/blob/master/README.md"
+        }
+      ]
+    }
+  ]
+}

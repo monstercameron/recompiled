@@ -3,16 +3,67 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#172a3a">
-  <meta name="description" content="An independently sourced field guide to video game decompilations, recompilations, and fan translations.">
-  <title>Recompiled — a field guide to game preservation</title>
+  <meta name="theme-color" content="#f5f3ec">
+  <meta name="description" content="An independently sourced field guide to software ownership: decompilation, recompilation, reimplementation, platform translation, and community-led preservation.">
+  <title>Recompiled — a field guide to software ownership</title>
+  <script>
+    (() => {
+      try {
+        const saved = localStorage.getItem("recompiled-theme");
+        document.documentElement.dataset.theme = saved === "dark" || saved === "light"
+          ? saved
+          : (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+      } catch (_) {}
+    })();
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./style.css?v=1cf4e5ee4ee8">
+  <style>
+    html,body{min-height:100%;margin:0}
+    body{background:var(--paper);color:var(--ink)}
+    .page-loader{min-height:100vh;min-height:100svh;display:grid;place-items:center;overflow:hidden;padding:24px;background:var(--paper);color:var(--ink);font:12px/1.6 system-ui,sans-serif}
+    .page-loader-card{position:relative;display:grid;justify-items:center;gap:10px;width:min(100%,340px);padding:30px 24px;border:1px solid var(--line);background:var(--field-bg);text-align:center}
+    .page-loader-card::before,.page-loader-card::after{position:absolute;content:"";width:28px;height:1px;background:var(--coral);opacity:.8}
+    .page-loader-card::before{top:-1px;left:18px}.page-loader-card::after{right:18px;bottom:-1px}
+    .page-loader-mark{display:flex;align-items:end;gap:4px;height:32px;margin-bottom:3px;transform:skew(-12deg)}
+    .page-loader-mark i{display:block;width:7px;border-radius:4px 4px 1px 1px;background:var(--blue);transform-origin:bottom;animation:boot-rise 1.15s cubic-bezier(.2,.7,.3,1) infinite alternate}
+    .page-loader-mark i:nth-child(1){height:15px;animation-delay:-.55s}.page-loader-mark i:nth-child(2){height:28px;background:var(--coral);animation-delay:-.25s}.page-loader-mark i:nth-child(3){height:20px;animation-delay:-.4s}
+    .page-loader-brand{font-size:17px;font-weight:800;letter-spacing:-.07em}.page-loader-brand span{color:var(--coral)}
+    .page-loader-copy{margin:0;color:var(--ink-soft)}.page-loader-copy strong{display:block;margin-bottom:2px;color:var(--ink);font-size:13px;font-weight:700}
+    .page-loader-note{margin:5px 0 0;color:var(--quiet);font:9px/1.5 ui-monospace,SFMono-Regular,monospace;letter-spacing:.035em}
+    @keyframes boot-rise{to{transform:scaleY(.58);opacity:.68}}
+    @media(prefers-reduced-motion:reduce){.page-loader-mark i{animation:none;transform:none}}
+  </style>
 </head>
 <body>
-  <div id="app"><main class="boot-screen" aria-live="polite">Starting the Rust archive…</main></div>
+  <div id="app"><main id="boot-loader" class="page-loader" aria-label="Recompiled archive loading"><div class="page-loader-card" role="status" aria-live="polite" aria-atomic="true"><span class="page-loader-mark" aria-hidden="true"><i></i><i></i><i></i></span><span class="page-loader-brand">recompiled<span>.</span></span><p class="page-loader-copy"><strong id="boot-opening">Opening the archive</strong><span id="boot-copy">Loading the Rust-powered catalog…</span></p><p class="page-loader-note" id="boot-note">If this stays on screen, reload the page.</p></div></main></div>
+  <script>
+    (() => {
+      const copy = {
+        en: ["Recompiled — a field guide to software ownership", "Recompiled software archive loading", "Opening the archive", "Loading the Rust-powered catalog…", "If this stays on screen, reload the page."],
+        es: ["Recompiled — guía para recuperar el control del software", "Cargando el archivo de software Recompiled", "Abriendo el archivo", "Cargando el catálogo de software, desarrollado con Rust…", "Si esta pantalla permanece, vuelve a cargar la página."],
+        fr: ["Recompiled — guide pour reprendre le contrôle du logiciel", "Chargement des archives logicielles Recompiled", "Ouverture des archives", "Chargement du catalogue développé avec Rust…", "Si cet écran reste affiché, rechargez la page."],
+        pt: ["Recompiled — guia para retomar o controle do software", "Carregando o arquivo de software Recompiled", "Abrindo o arquivo", "Carregando o catálogo feito em Rust…", "Se esta tela continuar, recarregue a página."],
+        ja: ["Recompiled — ソフトウェアを自分の手に取り戻すガイド", "Recompiled ソフトウェアアーカイブを読み込み中", "アーカイブを開いています", "Rustで動作するカタログを読み込んでいます…", "この画面が消えない場合は、ページを再読み込みしてください。"],
+        zh: ["Recompiled — 软件自主权指南", "正在加载 Recompiled 软件档案", "正在打开档案", "正在加载由 Rust 驱动的目录…", "如果此画面一直显示，请刷新页面。"]
+      };
+      let locale = "en";
+      try {
+        const saved = localStorage.getItem("recompiled-language");
+        if (Object.prototype.hasOwnProperty.call(copy, saved)) locale = saved;
+      } catch (_) {}
+      const [title, label, opening, loading, note] = copy[locale];
+      document.documentElement.lang = locale;
+      document.title = title;
+      const loader = document.getElementById("boot-loader");
+      loader.setAttribute("aria-label", label);
+      document.getElementById("boot-opening").textContent = opening;
+      document.getElementById("boot-copy").textContent = loading;
+      document.getElementById("boot-note").textContent = note;
+    })();
+  </script>
   <script type="module" src="./boot.js"></script>
 </body>
 </html>

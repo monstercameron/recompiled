@@ -1,0 +1,1722 @@
+{
+  "updated": "2026-10-15",
+  "scope": "Verified game-specific native ports, decompilation-based ports, static recompilations, and reimplementations from one console family to another. Excludes emulators and projects whose documented source is PC-only. Hardware/playability claims are limited to maintainer documentation.",
+  "projects": [
+    {
+      "id": "animal-crossing-dreamcast-port",
+      "title": "Animal Crossing Dreamcast Port",
+      "game": "Animal Crossing",
+      "platform": "GameCube → Dreamcast",
+      "kind": "Decompilation",
+      "status": "The maintainer reports real-hardware boot and town exploration; the project is not yet a playable game.",
+      "summary": "Native Dreamcast port built from recovered Animal Crossing source, with a Dreamcast graphics backend.",
+      "project_url": "https://github.com/TechProGabe/OpenCrossing-Dreamcast",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based native port",
+      "programming_language": "C",
+      "subtype": "Dreamcast",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/TechProGabe/OpenCrossing-Dreamcast"
+        }
+      ]
+    },
+    {
+      "id": "animal-crossing-3ds-port",
+      "title": "Animal Crossing 3DS Port",
+      "game": "Animal Crossing",
+      "platform": "GameCube → New Nintendo 3DS",
+      "kind": "Decompilation",
+      "status": "Early release; project reports around 60 FPS in most town scenes on New 3DS. Original 3DS is untested.",
+      "summary": "Native port built from the Animal Crossing decompilation, with GameCube graphics calls adapted to PICA200.",
+      "project_url": "https://github.com/paaime/ac-3ds",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based native port",
+      "programming_language": "C",
+      "subtype": "Nintendo 3DS",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/paaime/ac-3ds"
+        }
+      ]
+    },
+    {
+      "id": "animal-crossing-xbox-port",
+      "title": "Animal Crossing Original Xbox Port",
+      "game": "Animal Crossing",
+      "platform": "GameCube → Original Xbox",
+      "kind": "Decompilation",
+      "status": "Version 1 is reported fully playable at 60 FPS on a stock 64 MB Xbox; requires US Rev 0 game data.",
+      "summary": "Native Xbox port that compiles decompiled C for the Xbox Pentium III and GPU.",
+      "project_url": "https://github.com/TechProGabe/OpenCrossing-Xbox",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based native port",
+      "programming_language": "C",
+      "subtype": "Original Xbox",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/TechProGabe/OpenCrossing-Xbox"
+        }
+      ]
+    },
+    {
+      "id": "animal-crossing-vita-port",
+      "title": "Animal Crossing Vita Port",
+      "game": "Animal Crossing",
+      "platform": "GameCube → PlayStation Vita",
+      "kind": "Decompilation",
+      "status": "Alpha port boots and is playable; the README notes frame-rate dips during rain and ocean scenes.",
+      "summary": "Native Vita port built from Animal Crossing decompilation source.",
+      "project_url": "https://github.com/Brendonm17/ACGC-Vita-Port",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based native port",
+      "programming_language": "C",
+      "subtype": "PlayStation Vita",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/Brendonm17/ACGC-Vita-Port"
+        }
+      ]
+    },
+    {
+      "id": "banjo-kazooie-wiiu-port",
+      "title": "Banjo-Kazooie Wii U Port",
+      "game": "Banjo-Kazooie",
+      "platform": "Nintendo 64 → Wii U",
+      "kind": "Decompilation",
+      "status": "Final v1.6 release; README notes occasional long-session crashes, rare HOME-menu hangs, and a missing intro model.",
+      "summary": "Wii U target for the Lighthouse decompilation-based Banjo-Kazooie port.",
+      "project_url": "https://github.com/D4ead3ye/banjo-kazooie-wiiu",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based native port",
+      "programming_language": "C",
+      "subtype": "Wii U",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/D4ead3ye/banjo-kazooie-wiiu"
+        },
+        {
+          "label": "Version 1.6 release and known issues",
+          "url": "https://github.com/D4ead3ye/banjo-kazooie-wiiu/releases/tag/v1.6-wiiu"
+        }
+      ]
+    },
+    {
+      "id": "bird-and-beans-wii-port",
+      "title": "Bird & Beans / Pyoro Wii Port",
+      "game": "Bird & Beans / Pyoro",
+      "platform": "Nintendo DS / DSiWare → Wii",
+      "kind": "Reimplementation",
+      "status": "Native Wii homebrew port with both games and controller support documented; requires user-provided DSiWare game data.",
+      "summary": "Wii implementation of the DS/DSiWare games using native code and assets supplied by the user; the maintainer does not describe it as a decompilation or recompilation.",
+      "project_url": "https://github.com/cmyksoda/Bird-and-Beans-GX",
+      "updated": "2026-10-15",
+      "strategy": "Native game port",
+      "programming_language": "C++",
+      "subtype": "Wii homebrew",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/cmyksoda/Bird-and-Beans-GX"
+        }
+      ]
+    },
+    {
+      "id": "crash-team-racing-ps4-port",
+      "title": "Crash Team Racing PS4 Port",
+      "game": "Crash Team Racing",
+      "platform": "PlayStation → PlayStation 4",
+      "kind": "Decompilation",
+      "status": "Version 0.1.2; maintainer reports PS4 Pro testing with graphics, audio, controller, and memory-card saves.",
+      "summary": "Native PS4 port based on the CTR Turbocharged decompilation.",
+      "project_url": "https://github.com/alechurri/Crash-Team-Racing-Turbocharged-ps4",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based native port",
+      "programming_language": "C",
+      "subtype": "PlayStation 4",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/alechurri/Crash-Team-Racing-Turbocharged-ps4"
+        }
+      ]
+    },
+    {
+      "id": "dark-cloud-ps4-port",
+      "title": "Dark Cloud PS4 Port",
+      "game": "Dark Cloud",
+      "platform": "PlayStation 2 → PlayStation 4",
+      "kind": "Decompilation",
+      "status": "Version 0.1.0 PKG; maintainer reports testing on PS4 firmware 13.52 at 1080p/60 FPS.",
+      "summary": "Native PS4 port based on the Chronicle decompilation; not an emulator.",
+      "project_url": "https://github.com/odiecay/chronicle-ps4",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based native port",
+      "programming_language": "C++",
+      "subtype": "PlayStation 4",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/odiecay/chronicle-ps4"
+        }
+      ]
+    },
+    {
+      "id": "diddy-kong-racing-dreamcast-port",
+      "title": "Diddy Kong Racing Dreamcast Port",
+      "game": "Diddy Kong Racing",
+      "platform": "Nintendo 64 → Dreamcast",
+      "kind": "Decompilation",
+      "status": "Dreamcast target is documented; the decompilation and Adventure mode remain incomplete, and Dreamcast execution is not confirmed.",
+      "summary": "A decompilation-based Dreamcast port in progress. The README reports partial Adventure progress and does not claim a playable Dreamcast build.",
+      "project_url": "https://github.com/Bruceleeto/Diddy-Kong-Racing",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based native port",
+      "programming_language": "C",
+      "subtype": "Dreamcast",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/Bruceleeto/Diddy-Kong-Racing"
+        }
+      ]
+    },
+    {
+      "id": "diddy-kong-racing-vita-port",
+      "title": "Diddy Kong Racing Vita Port",
+      "game": "Diddy Kong Racing",
+      "platform": "Nintendo 64 → PlayStation Vita",
+      "kind": "Decompilation",
+      "status": "Release loads game data, renders races and menus, and supports saves/audio; full Adventure completion is not confirmed.",
+      "summary": "Native Vita port based on Diddy Kong Racing decompilation code.",
+      "project_url": "https://github.com/zm2283145/goldenballoon-vita-port",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based native port",
+      "programming_language": "C",
+      "subtype": "PlayStation Vita",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/zm2283145/goldenballoon-vita-port"
+        }
+      ]
+    },
+    {
+      "id": "digimon-world-3-switch-port",
+      "title": "Digimon World 3 Switch Port",
+      "game": "Digimon World 3",
+      "platform": "PlayStation → Nintendo Switch",
+      "kind": "Decompilation",
+      "status": "Homebrew port based on the ReGame-Labs decompilation; consult the maintainer README for current maturity.",
+      "summary": "Nintendo Switch port using recovered PlayStation game code.",
+      "project_url": "https://github.com/Larbaco/dw3-switch",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based native port",
+      "programming_language": "C",
+      "subtype": "Nintendo Switch homebrew",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/Larbaco/dw3-switch"
+        }
+      ]
+    },
+    {
+      "id": "donkey-kong-country-2-switch-recomp",
+      "title": "Donkey Kong Country 2 Switch Recompilation",
+      "game": "Donkey Kong Country 2: Diddy’s Kong Quest",
+      "platform": "Super Nintendo Entertainment System → Nintendo Switch",
+      "kind": "Recompilation",
+      "status": "Static recompilation boots and executes on real Switch hardware; widescreen remains under validation.",
+      "summary": "Native Switch build produced from a static recompilation of the SNES game.",
+      "project_url": "https://github.com/1weell/DKC2Recomp-Switch",
+      "updated": "2026-10-15",
+      "strategy": "Static recompilation",
+      "programming_language": "C",
+      "subtype": "Nintendo Switch homebrew",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/1weell/DKC2Recomp-Switch"
+        }
+      ]
+    },
+    {
+      "id": "doom-64-ps3-port",
+      "title": "Doom 64 PS3 Port",
+      "game": "Doom 64",
+      "platform": "Nintendo 64 → Dreamcast → PlayStation 3",
+      "kind": "Decompilation",
+      "status": "Version 1.0 release; maintainer reports real-hardware testing. Full-game completion is not claimed.",
+      "summary": "PS3 native port derived from the Dreamcast port and ultimately the Doom 64 reverse-engineered project; requires user-owned game data.",
+      "project_url": "https://github.com/stingziz0u/doom64-ps3",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based native port",
+      "programming_language": "C",
+      "subtype": "PlayStation 3",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/stingziz0u/doom64-ps3"
+        }
+      ]
+    },
+    {
+      "id": "f-zero-snes-switch-port",
+      "title": "F-Zero SNES Switch Port",
+      "game": "F-Zero",
+      "platform": "Super Nintendo Entertainment System → Nintendo Switch",
+      "kind": "Recompilation",
+      "status": "Nintendo Switch port of a Super Nintendo recompilation.",
+      "summary": "Native Switch build based on the SNES F-Zero recompilation project.",
+      "project_url": "https://github.com/Thorhax/F-Zero-NX-Modern",
+      "updated": "2026-10-15",
+      "strategy": "Static recompilation",
+      "programming_language": "C",
+      "subtype": "Nintendo Switch homebrew",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/Thorhax/F-Zero-NX-Modern"
+        }
+      ]
+    },
+    {
+      "id": "f-zero-x-3ds-port",
+      "title": "F-Zero X 3DS Port",
+      "game": "F-Zero X",
+      "platform": "Nintendo 64 → New Nintendo 3DS / New Nintendo 2DS",
+      "kind": "Decompilation",
+      "status": "Playable; project reports a median 59.6 FPS on tested hardware, with heavy expansion packs causing slowdowns.",
+      "summary": "Native port using the F-Zero X decompilation and G-Diffuser components.",
+      "project_url": "https://github.com/cruxxxxxx/gdx-3ds",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based native port",
+      "programming_language": "C",
+      "subtype": "Nintendo 3DS",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/cruxxxxxx/gdx-3ds"
+        }
+      ]
+    },
+    {
+      "id": "f-zero-x-switch-port",
+      "title": "F-Zero X Switch Port",
+      "game": "F-Zero X",
+      "platform": "Nintendo 64 → Nintendo Switch",
+      "kind": "Decompilation",
+      "status": "Version 1.0.1; requires user-provided ROM, 64DD data, and BIOS.",
+      "summary": "Switch build of F-Zero X using G-Diffuser components and the matching decompilation.",
+      "project_url": "https://github.com/PalindromicBreadLoaf/NX-Diffuser",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based native port with G-Diffuser",
+      "programming_language": "C",
+      "subtype": "Nintendo Switch homebrew",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/PalindromicBreadLoaf/NX-Diffuser"
+        }
+      ]
+    },
+    {
+      "id": "forsaken-3ds-port",
+      "title": "Forsaken 3DS Port",
+      "game": "Forsaken",
+      "platform": "Nintendo 64 / PlayStation / PC → Nintendo 3DS",
+      "kind": "Reimplementation",
+      "status": "Project reports the solo campaign playable and generally stable at 60 FPS on old and New 3DS.",
+      "summary": "Native 3DS port based on ForsakenX; source versions include multiple original platforms.",
+      "project_url": "https://github.com/colbyshores/forsaken-3ds",
+      "updated": "2026-10-15",
+      "strategy": "Native engine port",
+      "programming_language": "C",
+      "subtype": "Nintendo 3DS",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/colbyshores/forsaken-3ds"
+        }
+      ]
+    },
+    {
+      "id": "goldeneye-007-3ds-port",
+      "title": "GoldenEye 007 3DS Port",
+      "game": "GoldenEye 007",
+      "platform": "Nintendo 64 → Nintendo 3DS",
+      "kind": "Decompilation",
+      "status": "Bring-up stage; the README reports the Dam level working, not a finished port.",
+      "summary": "Nintendo 3DS target for GoldenEye 007 decompilation source.",
+      "project_url": "https://github.com/kylebrussell/goldeneye-3ds",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based native port",
+      "programming_language": "C",
+      "subtype": "Nintendo 3DS",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/kylebrussell/goldeneye-3ds"
+        }
+      ]
+    },
+    {
+      "id": "goldeneye-007-vita-port",
+      "title": "GoldenEye 007 Vita Port",
+      "game": "GoldenEye 007",
+      "platform": "Nintendo 64 → PlayStation Vita",
+      "kind": "Decompilation",
+      "status": "Project reports all 20 single-player missions completed through credits on Vita hardware.",
+      "summary": "Native Vita port built from GoldenEye 007 decompilation source.",
+      "project_url": "https://github.com/kaziema/gevita",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based native port",
+      "programming_language": "C",
+      "subtype": "PlayStation Vita",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/kaziema/gevita"
+        }
+      ]
+    },
+    {
+      "id": "halo-combat-evolved-switch-port",
+      "title": "Halo: Combat Evolved Switch Port",
+      "game": "Halo: Combat Evolved",
+      "platform": "Xbox → Nintendo Switch",
+      "kind": "Decompilation",
+      "status": "Native Switch build from the original Xbox build 2342; README documents campaign, saves, checkpoints, and cinematics, with some video features skipped.",
+      "summary": "Switch port of the Xbox decompilation with D3D8 calls translated to deko3d. Requires user-owned game data.",
+      "project_url": "https://github.com/thelinkin3000/halo-ce-universal",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based native port",
+      "programming_language": "C",
+      "subtype": "Nintendo Switch homebrew",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/thelinkin3000/halo-ce-universal"
+        }
+      ]
+    },
+    {
+      "id": "halo-combat-evolved-vita-port",
+      "title": "Halo: Combat Evolved Vita Port",
+      "game": "Halo: Combat Evolved",
+      "platform": "Xbox → PlayStation Vita",
+      "kind": "Decompilation",
+      "status": "Vita port based on the original Xbox build 2342 decompilation; verify the latest project README for supported game data and remaining limits.",
+      "summary": "Native Vita port of the original Xbox release built from decompiled source.",
+      "project_url": "https://github.com/BirchWoodGod/halo-ce-vita",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based native port",
+      "programming_language": "C",
+      "subtype": "PlayStation Vita",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/BirchWoodGod/halo-ce-vita"
+        }
+      ]
+    },
+    {
+      "id": "kingdom-hearts-358-days-vita-port",
+      "title": "Kingdom Hearts 358/2 Days Vita Port",
+      "game": "Kingdom Hearts 358/2 Days",
+      "platform": "Nintendo DS → PlayStation Vita",
+      "kind": "Decompilation",
+      "status": "Native Vita port; DS display, sound, card, and touch behavior are reimplemented. README specifies the supported European cartridge.",
+      "summary": "Port of the DS decompilation to Vita with a native platform layer.",
+      "project_url": "https://github.com/ggdrn/KH-DAYS-VITA",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based native port",
+      "programming_language": "C",
+      "subtype": "PlayStation Vita",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/ggdrn/KH-DAYS-VITA"
+        }
+      ]
+    },
+    {
+      "id": "mario-kart-64-dreamcast-port",
+      "title": "Mario Kart 64 Dreamcast Port",
+      "game": "Mario Kart 64",
+      "platform": "Nintendo 64 → Dreamcast",
+      "kind": "Decompilation",
+      "status": "README documents physical-hardware testing, VMU saves, and ghost data.",
+      "summary": "Native Dreamcast port built from the N64 decompilation with Dreamcast graphics and audio layers.",
+      "project_url": "https://github.com/jnmartin84/mk64-dc",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based native port",
+      "programming_language": "C",
+      "subtype": "Dreamcast",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/jnmartin84/mk64-dc"
+        }
+      ]
+    },
+    {
+      "id": "mario-kart-64-3ds-port",
+      "title": "Mario Kart 64 3DS Port",
+      "game": "Mario Kart 64",
+      "platform": "Nintendo 64 → Nintendo 3DS",
+      "kind": "Reimplementation",
+      "status": "Experimental release; solo versus and battle modes are reported, with compatibility work ongoing.",
+      "summary": "3DS port of the SpaghettiKart native reimplementation.",
+      "project_url": "https://github.com/EstebanPdN/mario-kart-64-3ds",
+      "updated": "2026-10-15",
+      "strategy": "Native engine port",
+      "programming_language": "C++",
+      "subtype": "Nintendo 3DS",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/EstebanPdN/mario-kart-64-3ds"
+        }
+      ]
+    },
+    {
+      "id": "mario-kart-64-xbox-port",
+      "title": "Mario Kart 64 Original Xbox Port",
+      "game": "Mario Kart 64",
+      "platform": "Nintendo 64 → Original Xbox",
+      "kind": "Decompilation",
+      "status": "README reports around 30 FPS on real Xbox hardware; requires the user's supported US game image.",
+      "summary": "Native Xbox port based on N64 decompilation code and the Dreamcast port.",
+      "project_url": "https://github.com/Team-Resurgent/Mario-Kart-64-X",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based native port",
+      "programming_language": "C",
+      "subtype": "Original Xbox",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/Team-Resurgent/Mario-Kart-64-X"
+        }
+      ]
+    },
+    {
+      "id": "mario-kart-64-psp-port",
+      "title": "Mario Kart 64 PSP Port",
+      "game": "Mario Kart 64",
+      "platform": "Nintendo 64 → PlayStation Portable",
+      "kind": "Decompilation",
+      "status": "README reports 60 FPS single-player and 30 FPS Ad Hoc multiplayer, with cups and courses playable; requires the supported US ROM.",
+      "summary": "Native PSP port of decompiled N64 C code with PSP graphics and audio layers.",
+      "project_url": "https://github.com/beckerd/psp_mk64_portable",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based native port",
+      "programming_language": "C",
+      "subtype": "PlayStation Portable",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/beckerd/psp_mk64_portable"
+        }
+      ]
+    },
+    {
+      "id": "mario-kart-wii-3ds-port",
+      "title": "Mario Kart Wii 3DS Port",
+      "game": "Mario Kart Wii",
+      "platform": "Wii → Nintendo 3DS",
+      "kind": "Reimplementation",
+      "status": "Version 0.5.2; Grand Prix, time trials, and Battle work. Coin Runners and Team VS remain unfinished.",
+      "summary": "Native reimplementation and 3DS port, not a Wii emulator.",
+      "project_url": "https://github.com/MiniBandit/MKW-3DS",
+      "updated": "2026-10-15",
+      "strategy": "Native engine port",
+      "programming_language": "C++",
+      "subtype": "Nintendo 3DS",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/MiniBandit/MKW-3DS"
+        }
+      ]
+    },
+    {
+      "id": "mass-effect-switch-recomp",
+      "title": "Mass Effect Switch Recompilation",
+      "game": "Mass Effect",
+      "platform": "Xbox 360 → Nintendo Switch",
+      "kind": "Recompilation",
+      "status": "Work in progress with several early game areas and systems reported playable; frame rate varies by scene.",
+      "summary": "Nintendo Switch port built using static PowerPC recompilation and Vulkan/NVK.",
+      "project_url": "https://github.com/nebadasSwifty/masseffect-nx",
+      "updated": "2026-10-15",
+      "strategy": "Static recompilation",
+      "programming_language": "C++",
+      "subtype": "Nintendo Switch homebrew",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/nebadasSwifty/masseffect-nx"
+        }
+      ]
+    },
+    {
+      "id": "mortal-kombat-shaolin-monks-switch-recomp",
+      "title": "Mortal Kombat: Shaolin Monks Switch Recompilation",
+      "game": "Mortal Kombat: Shaolin Monks",
+      "platform": "Xbox → Nintendo Switch",
+      "kind": "Recompilation",
+      "status": "Static recompilation project for Switch using Vulkan; see the project README for current compatibility.",
+      "summary": "Nintendo Switch build based on Xbox executable recompilation.",
+      "project_url": "https://github.com/gerisson1996/mksm-switch",
+      "updated": "2026-10-15",
+      "strategy": "Static recompilation",
+      "programming_language": "C++",
+      "subtype": "Nintendo Switch homebrew",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/gerisson1996/mksm-switch"
+        }
+      ]
+    },
+    {
+      "id": "mushihimesama-futari-switch-recomp",
+      "title": "Mushihimesama Futari Switch Recompilation",
+      "game": "Mushihimesama Futari",
+      "platform": "Xbox 360 → Nintendo Switch",
+      "kind": "Recompilation",
+      "status": "Static recompilation supports the specified disc image; README does not quantify gameplay readiness.",
+      "summary": "Switch build recompiles Xbox 360 executable code and uses native Vulkan rendering.",
+      "project_url": "https://github.com/ChanseyIsTheBest/futari-nx",
+      "updated": "2026-10-15",
+      "strategy": "Static recompilation",
+      "programming_language": "C++",
+      "subtype": "Nintendo Switch homebrew",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/ChanseyIsTheBest/futari-nx"
+        }
+      ]
+    },
+    {
+      "id": "need-for-speed-carbon-switch-port",
+      "title": "Need for Speed: Carbon Switch Port",
+      "game": "Need for Speed: Carbon",
+      "platform": "Xbox → Nintendo Switch",
+      "kind": "Recompilation",
+      "status": "Native Switch NRO build based on static Xbox recompilation; maturity and compatibility details should be checked in the project README.",
+      "summary": "Port of the original Xbox release to Switch using static recompilation.",
+      "project_url": "https://github.com/antoxa2584x/nfsc-sw",
+      "updated": "2026-10-15",
+      "strategy": "Static recompilation",
+      "programming_language": "C",
+      "subtype": "Nintendo Switch homebrew",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/antoxa2584x/nfsc-sw"
+        }
+      ]
+    },
+    {
+      "id": "need-for-speed-most-wanted-switch-recomp",
+      "title": "Need for Speed: Most Wanted Switch Recompilation",
+      "game": "Need for Speed: Most Wanted (2005)",
+      "platform": "Xbox 360 → Nintendo Switch",
+      "kind": "Recompilation",
+      "status": "Static PPC recompilation; project reports an approximately 30 FPS target with heavier scenes dipping below it.",
+      "summary": "Switch port based on a static recompilation of the Xbox 360 release, using Vulkan/NVK.",
+      "project_url": "https://github.com/StevensND/nfsmw-nx",
+      "updated": "2026-10-15",
+      "strategy": "Static recompilation",
+      "programming_language": "C++",
+      "subtype": "Nintendo Switch homebrew",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/StevensND/nfsmw-nx"
+        }
+      ]
+    },
+    {
+      "id": "need-for-speed-underground-2-switch-port",
+      "title": "Need for Speed: Underground 2 Switch Port",
+      "game": "Need for Speed: Underground 2",
+      "platform": "Xbox → Nintendo Switch",
+      "kind": "Recompilation",
+      "status": "Native Switch NRO build based on static Xbox recompilation; maturity and compatibility details should be checked in the project README.",
+      "summary": "Port of the original Xbox release to Switch using static recompilation.",
+      "project_url": "https://github.com/antoxa2584x/nfsu2-sw",
+      "updated": "2026-10-15",
+      "strategy": "Static recompilation",
+      "programming_language": "C",
+      "subtype": "Nintendo Switch homebrew",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/antoxa2584x/nfsu2-sw"
+        }
+      ]
+    },
+    {
+      "id": "paper-mario-3ds-port",
+      "title": "Paper Mario 3DS Port",
+      "game": "Paper Mario",
+      "platform": "Nintendo 64 → Nintendo 3DS",
+      "kind": "Decompilation",
+      "status": "Native 3DS CIA/3DSX builds; New 3DS performance is reported around 60 FPS, with lower rates on older hardware.",
+      "summary": "Native 3DS port based on the Paper Mario decompilation.",
+      "project_url": "https://github.com/SecondaryLifer/StarHaven",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based native port",
+      "programming_language": "C",
+      "subtype": "Nintendo 3DS",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/SecondaryLifer/StarHaven"
+        }
+      ]
+    },
+    {
+      "id": "perfect-dark-switch-port",
+      "title": "Perfect Dark Switch Port",
+      "game": "Perfect Dark",
+      "platform": "Nintendo 64 → Nintendo Switch",
+      "kind": "Decompilation",
+      "status": "Work in progress; an ARM64 Switch build target is documented.",
+      "summary": "Native Switch build based on Perfect Dark decompilation source.",
+      "project_url": "https://github.com/perfect-dark-pc-port/perfect_dark",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based native port",
+      "programming_language": "C",
+      "subtype": "Nintendo Switch homebrew",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/perfect-dark-pc-port/perfect_dark"
+        }
+      ]
+    },
+    {
+      "id": "pokemon-emerald-rogue-vita-port",
+      "title": "Pokémon Emerald Rogue EX Vita Port",
+      "game": "Pokémon Emerald Rogue EX",
+      "platform": "Game Boy Advance → PlayStation Vita",
+      "kind": "Reimplementation",
+      "status": "Maintainer reports 60 FPS on PS Vita 1000; the project requires the matching user-owned game image.",
+      "summary": "Native ARM port of the C game to PS Vita; it does not emulate Game Boy Advance hardware.",
+      "project_url": "https://github.com/MinZe25/pokeemerald-rogue-vita",
+      "updated": "2026-10-15",
+      "strategy": "Native platform port",
+      "programming_language": "C",
+      "subtype": "PlayStation Vita",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/MinZe25/pokeemerald-rogue-vita"
+        }
+      ]
+    },
+    {
+      "id": "pokemon-platinum-psp-port",
+      "title": "Pokémon Platinum PSP Port",
+      "game": "Pokémon Platinum",
+      "platform": "Nintendo DS → PlayStation Portable",
+      "kind": "Decompilation",
+      "status": "Beta native PSP port; project marks the supported US revision playable around 30 FPS, with feature and hardware limits.",
+      "summary": "Native PSP EBOOT built from community decompilation C source; not a DS emulator.",
+      "project_url": "https://github.com/IbrahimIrfan/pspoke",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based native port",
+      "programming_language": "C",
+      "subtype": "PlayStation Portable",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/IbrahimIrfan/pspoke"
+        },
+        {
+          "label": "Project README",
+          "url": "https://github.com/IbrahimIrfan/pspoke#readme"
+        }
+      ]
+    },
+    {
+      "id": "pokemon-soulsilver-psp-port",
+      "title": "Pokémon SoulSilver PSP Port",
+      "game": "Pokémon SoulSilver",
+      "platform": "Nintendo DS → PlayStation Portable",
+      "kind": "Decompilation",
+      "status": "Beta native PSP port; project marks the supported US SoulSilver revision playable around 30 FPS, with feature and hardware limits.",
+      "summary": "Native PSP EBOOT built from community decompilation C source; not a DS emulator.",
+      "project_url": "https://github.com/IbrahimIrfan/pspoke",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based native port",
+      "programming_language": "C",
+      "subtype": "PlayStation Portable",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/IbrahimIrfan/pspoke"
+        },
+        {
+          "label": "Project README",
+          "url": "https://github.com/IbrahimIrfan/pspoke#readme"
+        }
+      ]
+    },
+    {
+      "id": "resident-evil-4-dreamcast-port",
+      "title": "Resident Evil 4 Dreamcast Port",
+      "game": "Resident Evil 4",
+      "platform": "GameCube → Dreamcast",
+      "kind": "Decompilation",
+      "status": "Experimental port; a console test reached the end of Chapter 2 part 1, with crashes, visual gaps, and performance work remaining.",
+      "summary": "Experimental Dreamcast port based on recovered GameCube code with platform-specific graphics, audio, disc, and memory-card layers.",
+      "project_url": "https://github.com/lamb2k/re4dc/tree/dreamcast-port",
+      "updated": "2026-10-15",
+      "strategy": "Recovered-source native port",
+      "programming_language": "C",
+      "subtype": "Dreamcast branch",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/lamb2k/re4dc/tree/dreamcast-port"
+        }
+      ]
+    },
+    {
+      "id": "resident-evil-code-veronica-x-vita-port",
+      "title": "Resident Evil Code: Veronica X Vita Port",
+      "game": "Resident Evil Code: Veronica X",
+      "platform": "PlayStation 2 → PlayStation Vita",
+      "kind": "Decompilation",
+      "status": "Early port reaches title and gameplay; models, text, FMVs, and performance remain incomplete.",
+      "summary": "Converts decompiled PlayStation 2 code into C and replaces system services for a native Vita target.",
+      "project_url": "https://github.com/Rinnegatamante/recvx-vita",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based native port",
+      "programming_language": "C",
+      "subtype": "PlayStation Vita",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/Rinnegatamante/recvx-vita"
+        }
+      ]
+    },
+    {
+      "id": "silent-hill-ps3-port",
+      "title": "Silent Hill PS3 Port",
+      "game": "Silent Hill",
+      "platform": "PlayStation → PlayStation 3",
+      "kind": "Decompilation",
+      "status": "PS3 target is in development; a semi-functional build is reported but not a finished release.",
+      "summary": "Native PS3 target in the Silent Hill decompilation port project; other platform targets have separate maturity levels.",
+      "project_url": "https://github.com/SlickAmogus/silent-hill-decomp",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based native port",
+      "programming_language": "C",
+      "subtype": "PlayStation 3",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/SlickAmogus/silent-hill-decomp"
+        }
+      ]
+    },
+    {
+      "id": "sonic-advance-2-dreamcast-port",
+      "title": "Sonic Advance 2 Dreamcast Port",
+      "game": "Sonic Advance 2",
+      "platform": "Game Boy Advance → Dreamcast",
+      "kind": "Decompilation",
+      "status": "Dreamcast port target is present; matching work is incomplete and a finished Dreamcast build is not established.",
+      "summary": "Decompilation-based Dreamcast port effort with ongoing function matching and incomplete game code.",
+      "project_url": "https://github.com/MaciekBaron/sa2-dreamcast",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based native port",
+      "programming_language": "C",
+      "subtype": "Dreamcast",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/MaciekBaron/sa2-dreamcast"
+        }
+      ]
+    },
+    {
+      "id": "sonic-advance-2-switch-port",
+      "title": "Sonic Advance 2 Switch Port",
+      "game": "Sonic Advance 2",
+      "platform": "Game Boy Advance → Nintendo Switch",
+      "kind": "Decompilation",
+      "status": "Early version; the main stage works, while visual issues, cutscenes, multiplayer, and Tiny Chao remain incomplete.",
+      "summary": "Native Switch build based on Sonic Advance 2 decompilation code.",
+      "project_url": "https://github.com/boraeskicioglu/sonic_advance2_nx",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based native port",
+      "programming_language": "C",
+      "subtype": "Nintendo Switch homebrew",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/boraeskicioglu/sonic_advance2_nx"
+        }
+      ]
+    },
+    {
+      "id": "sonic-advance-2-ps2-psp-port",
+      "title": "Sonic Advance 2 PS2 and PSP Port",
+      "game": "Sonic Advance 2",
+      "platform": "Game Boy Advance → PlayStation 2, PlayStation Portable",
+      "kind": "Decompilation",
+      "status": "WIP; project documents PS2 ISO and PSP EBOOT builds but does not establish gameplay on either target.",
+      "summary": "Multi-target native port effort based on Sonic Advance 2 decompilation code; function matching is incomplete.",
+      "project_url": "https://github.com/Pyrochrome/sa2-mobile",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based native port",
+      "programming_language": "C",
+      "subtype": "PlayStation 2 / PlayStation Portable",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/Pyrochrome/sa2-mobile"
+        }
+      ]
+    },
+    {
+      "id": "star-fox-64-dreamcast-port",
+      "title": "Star Fox 64 Dreamcast Port",
+      "game": "Star Fox 64",
+      "platform": "Nintendo 64 → Dreamcast",
+      "kind": "Decompilation",
+      "status": "Dreamcast port with project-linked real-hardware footage.",
+      "summary": "Native Dreamcast port based on the Star Fox 64 decompilation, with VMU save and rumble support described by the project.",
+      "project_url": "https://github.com/jnmartin84/sf64-dc",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based native port",
+      "programming_language": "C",
+      "subtype": "Dreamcast",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/jnmartin84/sf64-dc"
+        }
+      ]
+    },
+    {
+      "id": "star-fox-64-psp-port",
+      "title": "Star Fox 64 PSP Port",
+      "game": "Star Fox 64",
+      "platform": "Nintendo 64 → PlayStation Portable",
+      "kind": "Decompilation",
+      "status": "Work in progress; the README documents a PSP build target but does not report gameplay status.",
+      "summary": "PSP target for Star Fox 64 decompilation code.",
+      "project_url": "https://github.com/TheMrIron2/sf64-psp",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based native port",
+      "programming_language": "C",
+      "subtype": "PlayStation Portable",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/TheMrIron2/sf64-psp"
+        }
+      ]
+    },
+    {
+      "id": "streets-of-rage-dreamcast-port",
+      "title": "Streets of Rage Dreamcast Port",
+      "game": "Streets of Rage",
+      "platform": "Genesis / Mega Drive → Dreamcast",
+      "kind": "Recompilation",
+      "status": "Static translation project documents gameplay systems and two-player support.",
+      "summary": "Translates the 68000 game code to SH-4 for a native Dreamcast build; the project describes no emulation.",
+      "project_url": "https://github.com/richstokes/dreamcast-streets-of-rage-remaster",
+      "updated": "2026-10-15",
+      "strategy": "Static binary translation",
+      "programming_language": "C++",
+      "subtype": "Dreamcast",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/richstokes/dreamcast-streets-of-rage-remaster"
+        }
+      ]
+    },
+    {
+      "id": "sm64-dreamcast-port",
+      "title": "Super Mario 64 Dreamcast Port",
+      "game": "Super Mario 64",
+      "platform": "Nintendo 64 → Dreamcast",
+      "kind": "Decompilation",
+      "status": "Dreamcast build documented; README does not confirm physical-hardware testing.",
+      "summary": "Native Dreamcast port built from the Super Mario 64 decompilation, with a PowerVR renderer and VMU saves.",
+      "project_url": "https://github.com/jnmartin84/sm64-dc",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based native port",
+      "programming_language": "C",
+      "subtype": "Dreamcast",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/jnmartin84/sm64-dc"
+        }
+      ]
+    },
+    {
+      "id": "super-mario-64-ps3-port",
+      "title": "Super Mario 64 PS3 Port",
+      "game": "Super Mario 64",
+      "platform": "Nintendo 64 → PlayStation 3",
+      "kind": "Decompilation",
+      "status": "PlayStation 3 port remains in development; package builds are documented but PKG testing is unverified.",
+      "summary": "Native PS3 port built from Super Mario 64 decompilation source using PSL1GHT.",
+      "project_url": "https://github.com/sdiraimondo/sm64-ps3-port",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based native port",
+      "programming_language": "C",
+      "subtype": "PlayStation 3",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/sdiraimondo/sm64-ps3-port"
+        }
+      ]
+    },
+    {
+      "id": "super-mario-64-ps4-port",
+      "title": "Super Mario 64 PS4 Port",
+      "game": "Super Mario 64",
+      "platform": "Nintendo 64 → PlayStation 4",
+      "kind": "Decompilation",
+      "status": "A PS4 package build is documented on an older branch; current playability and release status are unclear.",
+      "summary": "Native PS4 build target based on the Super Mario 64 decompilation.",
+      "project_url": "https://github.com/OsirizX/sm64-port/tree/ps4",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based native port",
+      "programming_language": "C",
+      "subtype": "PlayStation 4",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/OsirizX/sm64-port/tree/ps4"
+        }
+      ]
+    },
+    {
+      "id": "super-mario-64-ps5-port",
+      "title": "Super Mario 64 PS5 Port",
+      "game": "Super Mario 64",
+      "platform": "Nintendo 64 → PlayStation 5",
+      "kind": "Decompilation",
+      "status": "Version 1.0; console-tested title screen, file select, and castle grounds.",
+      "summary": "Native PS5 port based on the Ghostship project and Super Mario 64 decompilation.",
+      "project_url": "https://github.com/griches/PS5_Ghostship",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based native port",
+      "programming_language": "C",
+      "subtype": "PlayStation 5",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/griches/PS5_Ghostship"
+        }
+      ]
+    },
+    {
+      "id": "super-mario-64-vita-port",
+      "title": "Super Mario 64 Vita Port",
+      "game": "Super Mario 64",
+      "platform": "Nintendo 64 → PlayStation Vita",
+      "kind": "Decompilation",
+      "status": "Native Vita package built from the N64 decompilation; release age and current maintenance are limited.",
+      "summary": "Vita homebrew port built from Super Mario 64 decompilation source.",
+      "project_url": "https://github.com/Rinnegatamante/sm64-vita",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based native port",
+      "programming_language": "C",
+      "subtype": "PlayStation Vita",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/Rinnegatamante/sm64-vita"
+        }
+      ]
+    },
+    {
+      "id": "super-mario-64-wiiu-port",
+      "title": "Super Mario 64 Wii U Port",
+      "game": "Super Mario 64",
+      "platform": "Nintendo 64 → Wii U",
+      "kind": "Decompilation",
+      "status": "Native Wii U build target is documented; the README does not establish gameplay completeness.",
+      "summary": "Wii U homebrew target for the Super Mario 64 decompilation-based port.",
+      "project_url": "https://github.com/aboood40091/sm64-port",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based native port",
+      "programming_language": "C",
+      "subtype": "Wii U",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/aboood40091/sm64-port"
+        }
+      ]
+    },
+    {
+      "id": "super-mario-64-ds-3ds-port",
+      "title": "Super Mario 64 DS 3DS Port",
+      "game": "Super Mario 64 DS",
+      "platform": "Nintendo DS → Nintendo 3DS",
+      "kind": "Decompilation",
+      "status": "WIP; README reports the full game playable on New 3DS at about 30 FPS. Older hardware is unverified.",
+      "summary": "Native port of the DS decompilation with a 3DS layer that implements required DS behavior.",
+      "project_url": "https://github.com/SebastienBreton/sm64ds-3ds",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based native port",
+      "programming_language": "C++",
+      "subtype": "Nintendo 3DS",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/SebastienBreton/sm64ds-3ds"
+        }
+      ]
+    },
+    {
+      "id": "super-mario-strikers-switch-port",
+      "title": "Super Mario Strikers Switch Port",
+      "game": "Super Mario Strikers",
+      "platform": "GameCube → Nintendo Switch",
+      "kind": "Decompilation",
+      "status": "Version 1.3.0 Switch release; the README identifies this as a native source port, not a recompilation.",
+      "summary": "Nintendo Switch target for the Super Mario Strikers decompilation-based native port.",
+      "project_url": "https://github.com/new-coke/strikers",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based native port",
+      "programming_language": "C++",
+      "subtype": "Nintendo Switch homebrew",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/new-coke/strikers"
+        }
+      ]
+    },
+    {
+      "id": "super-mario-strikers-vita-port",
+      "title": "Super Mario Strikers Vita Port",
+      "game": "Super Mario Strikers",
+      "platform": "GameCube → PlayStation Vita",
+      "kind": "Decompilation",
+      "status": "Work in progress; a Vita backend boots, but rendering, audio, and stability work remains.",
+      "summary": "Vita target for a native port built on the Super Mario Strikers decompilation.",
+      "project_url": "https://github.com/robin994/strikersVita",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based native port",
+      "programming_language": "C++",
+      "subtype": "PlayStation Vita",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/robin994/strikersVita"
+        }
+      ]
+    },
+    {
+      "id": "super-mario-sunshine-ps5-port",
+      "title": "Super Mario Sunshine PS5 Port",
+      "game": "Super Mario Sunshine",
+      "platform": "GameCube → PlayStation 5",
+      "kind": "Decompilation",
+      "status": "Early version 0.10.0; console testing reached the opening, Delfino Plaza, and the first Bianco Hills episode.",
+      "summary": "Native PS5 port based on a PC port built from the Super Mario Sunshine decompilation; no emulator is used.",
+      "project_url": "https://github.com/griches/PS5_Sunshine",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based native port",
+      "programming_language": "C",
+      "subtype": "PlayStation 5",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/griches/PS5_Sunshine"
+        }
+      ]
+    },
+    {
+      "id": "super-smash-bros-64-3ds-port",
+      "title": "Super Smash Bros. 3DS Port",
+      "game": "Super Smash Bros.",
+      "platform": "Nintendo 64 → New Nintendo 3DS / XL",
+      "kind": "Reimplementation",
+      "status": "Native ARM11/PICA200 port; 60 FPS is not guaranteed and multiplayer is not supported.",
+      "summary": "3DS implementation of Super Smash Bros. based on the original N64 game.",
+      "project_url": "https://github.com/2gifts/smash64-3ds",
+      "updated": "2026-10-15",
+      "strategy": "Native platform port",
+      "programming_language": "C",
+      "subtype": "Nintendo 3DS",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/2gifts/smash64-3ds"
+        }
+      ]
+    },
+    {
+      "id": "super-smash-bros-melee-3ds-port",
+      "title": "Super Smash Bros. Melee 3DS Port",
+      "game": "Super Smash Bros. Melee",
+      "platform": "GameCube → New Nintendo 3DS",
+      "kind": "Decompilation",
+      "status": "Playable 1v1 is reported; heavy four-player scenes drop frames. Development is paused and compatibility is incomplete.",
+      "summary": "3DS port based on Melee decompilation source.",
+      "project_url": "https://github.com/2gifts/melee-3ds/tree/3ds",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based native port",
+      "programming_language": "C",
+      "subtype": "Nintendo 3DS",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/2gifts/melee-3ds/tree/3ds"
+        }
+      ]
+    },
+    {
+      "id": "melee-xbox-port",
+      "title": "Super Smash Bros. Melee Original Xbox Port",
+      "game": "Super Smash Bros. Melee",
+      "platform": "GameCube → Original Xbox",
+      "kind": "Decompilation",
+      "status": "Maintainer reports a fully playable native Xbox build at 30–60 FPS; NTSC-U revision 1.02 is the tested version.",
+      "summary": "Original Xbox port based on the Melee decompilation; not GameCube emulation.",
+      "project_url": "https://github.com/TechProGabe/Melee-X",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based native port",
+      "programming_language": "C",
+      "subtype": "Original Xbox",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/TechProGabe/Melee-X"
+        }
+      ]
+    },
+    {
+      "id": "melee-vita-ps5-native-port",
+      "title": "Super Smash Bros. Melee Vita and PS5 Port",
+      "game": "Super Smash Bros. Melee",
+      "platform": "GameCube → PlayStation Vita, PlayStation 5",
+      "kind": "Decompilation",
+      "status": "Vita has releases; PS5 has experimental CI builds and hardware testing. Performance and completeness vary by platform.",
+      "summary": "Native ports of Melee decompilation source with replacement console services for Vita and PS5.",
+      "project_url": "https://github.com/zm2283145/melee-Vita",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based native port",
+      "programming_language": "C",
+      "subtype": "Multi-console native builds",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/zm2283145/melee-Vita"
+        }
+      ]
+    },
+    {
+      "id": "zelda-a-link-to-the-past-3ds-port",
+      "title": "A Link to the Past 3DS Port",
+      "game": "The Legend of Zelda: A Link to the Past",
+      "platform": "Super Nintendo Entertainment System → Nintendo 3DS",
+      "kind": "Reimplementation",
+      "status": "Stable release with CIA and 3DSX packages.",
+      "summary": "Native 3DS port of the Zelda3 reverse-engineered engine.",
+      "project_url": "https://github.com/EstebanPdN/zelda-alttp-3ds",
+      "updated": "2026-10-15",
+      "strategy": "Native engine port",
+      "programming_language": "C",
+      "subtype": "Nintendo 3DS",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/EstebanPdN/zelda-alttp-3ds"
+        }
+      ]
+    },
+    {
+      "id": "links-awakening-dx-multiconsole-port",
+      "title": "Link’s Awakening DX Multi-console Port",
+      "game": "The Legend of Zelda: Link’s Awakening DX",
+      "platform": "Game Boy Color → Dreamcast, Wii, Nintendo 3DS, PlayStation 3, PlayStation 4",
+      "kind": "Recompilation",
+      "status": "Project reports PS3 gameplay in RPCS3 and title/gameplay on other targets; Dreamcast performance remains below full speed.",
+      "summary": "Static recompilation of Game Boy Color code to C with native platform backends. The repository documents several console targets and target-specific maturity limits.",
+      "project_url": "https://github.com/sp00nznet/linksawakening-portable",
+      "updated": "2026-10-15",
+      "strategy": "Static recompilation",
+      "programming_language": "C",
+      "subtype": "Multi-console native builds",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/sp00nznet/linksawakening-portable"
+        }
+      ]
+    },
+    {
+      "id": "two-ship-two-harkinian-3ds",
+      "title": "2Ship2Harkinian 3DS Port",
+      "game": "The Legend of Zelda: Majora’s Mask",
+      "platform": "Nintendo 64 → New Nintendo 3DS",
+      "kind": "Reimplementation",
+      "status": "Pre-alpha; project reports New 3DS boot, while normal-play crashes remain.",
+      "summary": "New Nintendo 3DS port of the 2Ship2Harkinian native engine.",
+      "project_url": "https://github.com/TiBlin/2ship2harkinian-3DS",
+      "updated": "2026-10-15",
+      "strategy": "Native engine port",
+      "programming_language": "C++",
+      "subtype": "Nintendo 3DS",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/TiBlin/2ship2harkinian-3DS"
+        }
+      ]
+    },
+    {
+      "id": "majoras-mask-ps4-port",
+      "title": "Majora’s Mask PS4 Port",
+      "game": "The Legend of Zelda: Majora’s Mask",
+      "platform": "Nintendo 64 → PlayStation 4",
+      "kind": "Reimplementation",
+      "status": "PS4 package release; maintainer reports an early PS4 Pro play test through the intro and Clock Town.",
+      "summary": "PlayStation 4 port of 2Ship2Harkinian using OpenOrbis and Piglet.",
+      "project_url": "https://github.com/alechurri/2ship2harkinian-ps4",
+      "updated": "2026-10-15",
+      "strategy": "Native engine port",
+      "programming_language": "C++",
+      "subtype": "PlayStation 4",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/alechurri/2ship2harkinian-ps4"
+        }
+      ]
+    },
+    {
+      "id": "two-ship-two-harkinian-wiiu",
+      "title": "2Ship2Harkinian Wii U Port",
+      "game": "The Legend of Zelda: Majora’s Mask",
+      "platform": "Nintendo 64 → Wii U",
+      "kind": "Reimplementation",
+      "status": "Native Wii U .rpx/.wuhb build is documented; there is no stable release.",
+      "summary": "Wii U port of the 2Ship2Harkinian native engine.",
+      "project_url": "https://github.com/HarbourMasters/2ship2harkinian-WiiU",
+      "updated": "2026-10-15",
+      "strategy": "Native engine port",
+      "programming_language": "C++",
+      "subtype": "Wii U",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/HarbourMasters/2ship2harkinian-WiiU"
+        }
+      ]
+    },
+    {
+      "id": "ocarina-of-time-dreamcast-port",
+      "title": "Ocarina of Time Dreamcast Port",
+      "game": "The Legend of Zelda: Ocarina of Time",
+      "platform": "Nintendo 64 / GameCube → Dreamcast",
+      "kind": "Decompilation",
+      "status": "Native Dreamcast build and CDI/VMU support are documented; the supported input is the GameCube European Master Quest debug build.",
+      "summary": "KallistiOS SH-4 port with a PowerVR display-list interpreter and AICA audio. README does not establish physical-hardware testing.",
+      "project_url": "https://github.com/jnmartin84/oot-dc",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based native port",
+      "programming_language": "C",
+      "subtype": "Dreamcast",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/jnmartin84/oot-dc"
+        }
+      ]
+    },
+    {
+      "id": "ship-of-harkinian-3ds",
+      "title": "Ship of Harkinian 3DS Port",
+      "game": "The Legend of Zelda: Ocarina of Time",
+      "platform": "Nintendo 64 → New Nintendo 3DS",
+      "kind": "Reimplementation",
+      "status": "Alpha prerelease boots on hardware; compatibility and performance vary, and original 3DS support is unverified.",
+      "summary": "3DS port derived from Ship of Harkinian, a native reimplementation built from Ocarina of Time decompilation work.",
+      "project_url": "https://github.com/999sian/soh-3ds",
+      "updated": "2026-10-15",
+      "strategy": "Native engine port",
+      "programming_language": "C++",
+      "subtype": "Nintendo 3DS",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/999sian/soh-3ds"
+        }
+      ]
+    },
+    {
+      "id": "ocarina-of-time-64-3ds-port",
+      "title": "Ocarina of Time 64 3DS Port",
+      "game": "The Legend of Zelda: Ocarina of Time",
+      "platform": "Nintendo 64 → Nintendo 3DS",
+      "kind": "Decompilation",
+      "status": "Scene and game logic port; hardware playthrough remains in progress.",
+      "summary": "Native 3DS port built from Ocarina of Time decompilation code.",
+      "project_url": "https://github.com/Andresac90/OOT-64-3DS-Port",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based native port",
+      "programming_language": "C",
+      "subtype": "Nintendo 3DS",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/Andresac90/OOT-64-3DS-Port"
+        }
+      ]
+    },
+    {
+      "id": "ocarina-of-time-ps4-port",
+      "title": "Ocarina of Time PS4 Port",
+      "game": "The Legend of Zelda: Ocarina of Time",
+      "platform": "Nintendo 64 → PlayStation 4",
+      "kind": "Reimplementation",
+      "status": "PS4 package release; maintainer reports PS4 Pro tests with graphics, audio, controls, saves, mods, and 60 FPS interpolation.",
+      "summary": "PlayStation 4 port of Ship of Harkinian using OpenOrbis and Piglet.",
+      "project_url": "https://github.com/alechurri/shipofharkinian-ps4",
+      "updated": "2026-10-15",
+      "strategy": "Native engine port",
+      "programming_language": "C",
+      "subtype": "PlayStation 4",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/alechurri/shipofharkinian-ps4"
+        }
+      ]
+    },
+    {
+      "id": "ocarina-of-time-ps5-port",
+      "title": "Ocarina of Time PS5 Port",
+      "game": "The Legend of Zelda: Ocarina of Time",
+      "platform": "Nintendo 64 → PlayStation 5",
+      "kind": "Reimplementation",
+      "status": "Version 1.2.0; maintainer reports PlayStation 5 firmware 9.00 testing and gameplay, with frame-rate samples rather than a full compatibility guarantee.",
+      "summary": "Native PS5 homebrew built on Ship of Harkinian; requires user-owned N64 game data.",
+      "project_url": "https://github.com/mshivam019/oot64-ps5",
+      "updated": "2026-10-15",
+      "strategy": "Native engine port",
+      "programming_language": "C",
+      "subtype": "PlayStation 5",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/mshivam019/oot64-ps5"
+        }
+      ]
+    },
+    {
+      "id": "ship-of-harkinian-wiiu",
+      "title": "Ship of Harkinian Wii U Build",
+      "game": "The Legend of Zelda: Ocarina of Time",
+      "platform": "Nintendo 64 → Wii U",
+      "kind": "Decompilation",
+      "status": "Native Wii U .rpx/.wuhb build is documented; current stable release downloads target desktop.",
+      "summary": "Wii U build target for Ship of Harkinian, a native port using Ocarina of Time decompilation source.",
+      "project_url": "https://github.com/HarbourMasters/Shipwright",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based native port",
+      "programming_language": "C",
+      "subtype": "Wii U build instructions",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/HarbourMasters/Shipwright"
+        },
+        {
+          "label": "Wii U build instructions",
+          "url": "https://github.com/HarbourMasters/Shipwright/blob/develop/docs/BUILDING.md"
+        }
+      ]
+    },
+    {
+      "id": "oracle-of-ages-switch-port",
+      "title": "The Legend of Zelda: Oracle of Ages Switch Port",
+      "game": "The Legend of Zelda: Oracle of Ages",
+      "platform": "Game Boy Color → Nintendo Switch",
+      "kind": "Decompilation",
+      "status": "Native Switch build based on the Oracle decompilation; requires the specified user-owned game image.",
+      "summary": "Nintendo Switch port for Oracle of Ages using native C code rather than Game Boy emulation.",
+      "project_url": "https://github.com/toniisound/oracles-nx",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based native port",
+      "programming_language": "C",
+      "subtype": "Nintendo Switch homebrew",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/toniisound/oracles-nx"
+        }
+      ]
+    },
+    {
+      "id": "oracle-of-seasons-switch-port",
+      "title": "The Legend of Zelda: Oracle of Seasons Switch Port",
+      "game": "The Legend of Zelda: Oracle of Seasons",
+      "platform": "Game Boy Color → Nintendo Switch",
+      "kind": "Decompilation",
+      "status": "Native Switch build based on the Oracle decompilation; requires the specified user-owned game image.",
+      "summary": "Nintendo Switch port for Oracle of Seasons using native C code rather than Game Boy emulation.",
+      "project_url": "https://github.com/toniisound/oracles-nx",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based native port",
+      "programming_language": "C",
+      "subtype": "Nintendo Switch homebrew",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/toniisound/oracles-nx"
+        }
+      ]
+    },
+    {
+      "id": "minish-cap-3ds-port",
+      "title": "The Minish Cap 3DS Port",
+      "game": "The Legend of Zelda: The Minish Cap",
+      "platform": "Game Boy Advance → Nintendo 3DS",
+      "kind": "Decompilation",
+      "status": "Stable release series with USA/EU support; EU version is reported as most tested.",
+      "summary": "Native 3DS port based on Project Picori and The Minish Cap decompilation.",
+      "project_url": "https://github.com/EstebanPdN/zelda-tmc-3ds",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based native port",
+      "programming_language": "C",
+      "subtype": "Nintendo 3DS",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/EstebanPdN/zelda-tmc-3ds"
+        }
+      ]
+    },
+    {
+      "id": "minish-cap-decomp",
+      "title": "The Minish Cap Decompilation and Native Ports",
+      "game": "The Legend of Zelda: The Minish Cap",
+      "platform": "Game Boy Advance → PC and Nintendo Switch homebrew",
+      "kind": "Decompilation",
+      "status": "Matching decompilation is in progress; the repository also contains work-in-progress native PC and Switch ports.",
+      "summary": "The project contains the Game Boy Advance decompilation and native port work for PC and Nintendo Switch. Its Switch build is experimental; consult the repository for supported game versions and build requirements.",
+      "project_url": "https://github.com/HayatoG/tmc",
+      "updated": "2026-10-15",
+      "strategy": "Matching decompilation with experimental native ports",
+      "programming_language": "C",
+      "subtype": "Decompilation and native platform port work",
+      "sources": [
+        {
+          "label": "Project README and platform build instructions",
+          "url": "https://github.com/HayatoG/tmc"
+        }
+      ]
+    },
+    {
+      "id": "wind-waker-ps5-port",
+      "title": "The Wind Waker PS5 Port",
+      "game": "The Legend of Zelda: The Wind Waker",
+      "platform": "GameCube → PlayStation 5",
+      "kind": "Decompilation",
+      "status": "Version 1.0.3; maintainer reports console testing through the Dragon Roost boss room.",
+      "summary": "Native PS5 port of the SwitchWaker decompilation-based project.",
+      "project_url": "https://github.com/griches/PS5_SwitchWaker",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based native port",
+      "programming_language": "C",
+      "subtype": "PlayStation 5",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/griches/PS5_SwitchWaker"
+        }
+      ]
+    },
+    {
+      "id": "twilight-princess-ps4-port",
+      "title": "Twilight Princess PS4 Port",
+      "game": "The Legend of Zelda: Twilight Princess",
+      "platform": "GameCube / Wii → PlayStation 4",
+      "kind": "Reimplementation",
+      "status": "Release r25; native GoldHEN port supports documented GameCube and Wii disc IDs and targets up to 60 FPS.",
+      "summary": "PS4 port of the Dusklight reverse-engineered engine; does not use an emulator.",
+      "project_url": "https://github.com/BgbrhrWatchinOVO/dusklight-ps4",
+      "updated": "2026-10-15",
+      "strategy": "Native engine port",
+      "programming_language": "C++",
+      "subtype": "PlayStation 4",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/BgbrhrWatchinOVO/dusklight-ps4"
+        }
+      ]
+    },
+    {
+      "id": "twilight-princess-switch-port",
+      "title": "Twilight Princess Switch Port",
+      "game": "The Legend of Zelda: Twilight Princess",
+      "platform": "GameCube → Nintendo Switch",
+      "kind": "Reimplementation",
+      "status": "Nintendo Switch NRO release; performance and compatibility vary by game build and device.",
+      "summary": "Native Switch port of the reverse-engineered Dusklight engine; no GameCube emulation layer is used.",
+      "project_url": "https://github.com/givethesourceplox/dusklight-NX",
+      "updated": "2026-10-15",
+      "strategy": "Native engine port",
+      "programming_language": "C++",
+      "subtype": "Nintendo Switch homebrew",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/givethesourceplox/dusklight-NX"
+        }
+      ]
+    },
+    {
+      "id": "twilight-princess-ps5-port",
+      "title": "Twilight Princess PS5 Port",
+      "game": "The Legend of Zelda: Twilight Princess",
+      "platform": "GameCube → PlayStation 5",
+      "kind": "Reimplementation",
+      "status": "Console testing reports boot and several minutes of play; save persistence works, while audio is not yet verified.",
+      "summary": "Native PS5 port of the reverse-engineered Dusklight engine; not a GameCube emulator.",
+      "project_url": "https://github.com/griches/PS5_Dusklight",
+      "updated": "2026-10-15",
+      "strategy": "Native engine port",
+      "programming_language": "C",
+      "subtype": "PlayStation 5",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/griches/PS5_Dusklight"
+        }
+      ]
+    },
+    {
+      "id": "simpsons-game-switch-recomp",
+      "title": "The Simpsons Game Switch Recompilation",
+      "game": "The Simpsons Game",
+      "platform": "Xbox 360 → Nintendo Switch",
+      "kind": "Recompilation",
+      "status": "Early build with limited progress; requires the specified US retail XEX.",
+      "summary": "Static recompilation of the Xbox 360 release for Switch with Vulkan/NVK.",
+      "project_url": "https://github.com/R-drg/the-simpsons-game-nx",
+      "updated": "2026-10-15",
+      "strategy": "Static recompilation",
+      "programming_language": "C++",
+      "subtype": "Nintendo Switch homebrew",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/R-drg/the-simpsons-game-nx"
+        }
+      ]
+    },
+    {
+      "id": "tony-hawks-project-8-switch-recomp",
+      "title": "Tony Hawk’s Project 8 Switch Recompilation",
+      "game": "Tony Hawk’s Project 8",
+      "platform": "Xbox 360 → Nintendo Switch",
+      "kind": "Recompilation",
+      "status": "Early pipeline build; README notes missing objects and frame-rate dips. Requires retail game data.",
+      "summary": "Switch target for static recompilation of the Xbox 360 version.",
+      "project_url": "https://github.com/R-drg/project8-sw",
+      "updated": "2026-10-15",
+      "strategy": "Static recompilation",
+      "programming_language": "C++",
+      "subtype": "Nintendo Switch homebrew",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/R-drg/project8-sw"
+        }
+      ]
+    },
+    {
+      "id": "tony-hawks-underground-vita-port",
+      "title": "Tony Hawk’s Underground Vita Port",
+      "game": "Tony Hawk’s Underground",
+      "platform": "Xbox → PlayStation Vita",
+      "kind": "Reimplementation",
+      "status": "Maintainer reports a playable Vita port with story and free skate; videos and online features are unavailable.",
+      "summary": "Native Vita port based on the PC project kisak-thug, using Xbox USA game data supplied by the user.",
+      "project_url": "https://github.com/iwannagooutside/thug-vita-port",
+      "updated": "2026-10-15",
+      "strategy": "Native platform port",
+      "programming_language": "C++",
+      "subtype": "PlayStation Vita",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/iwannagooutside/thug-vita-port"
+        }
+      ]
+    },
+    {
+      "id": "torchlight-switch-recomp",
+      "title": "Torchlight Switch Recompilation",
+      "game": "Torchlight",
+      "platform": "Xbox 360 / Xbox Live Arcade → Nintendo Switch",
+      "kind": "Recompilation",
+      "status": "Static recompilation build; README reports variable frame rate by area and does not include game data.",
+      "summary": "Native Switch build of a statically recompiled Xbox release.",
+      "project_url": "https://github.com/liartes/torchlight-nx",
+      "updated": "2026-10-15",
+      "strategy": "Static recompilation",
+      "programming_language": "C++",
+      "subtype": "Nintendo Switch homebrew",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/liartes/torchlight-nx"
+        }
+      ]
+    },
+    {
+      "id": "turok-3ds-port",
+      "title": "Turok 3DS Port",
+      "game": "Turok: Dinosaur Hunter",
+      "platform": "Nintendo 64 → Nintendo 3DS",
+      "kind": "Reimplementation",
+      "status": "Early milestone; first level loads and can be explored, but the project is incomplete.",
+      "summary": "Nintendo 3DS port of the original Turok engine source, not a decompilation.",
+      "project_url": "https://github.com/colbyshores/turok-port",
+      "updated": "2026-10-15",
+      "strategy": "Native engine port",
+      "programming_language": "C",
+      "subtype": "Nintendo 3DS",
+      "sources": [
+        {
+          "label": "Project README and target-platform evidence",
+          "url": "https://github.com/colbyshores/turok-port"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,525 @@
+{
+  "updated": "2026-10-15",
+  "projects": [
+    {
+      "id": "ico-ps2-phone-port",
+      "title": "ICO decompilation native port",
+      "game": "ICO",
+      "platform": "PlayStation 2 → Android; iOS via LiveContainer; Windows/Linux/macOS",
+      "kind": "Decompilation",
+      "status": "Android supported; iPhone builds are available through LiveContainer but are explicitly untested by the maintainer.",
+      "summary": "Cross-platform native port built on the PS2 ICO decompilation. Android APKs are supported; iPhone builds use LiveContainer and are not device-tested by the maintainer. Requires the PAL disc; no game data is included.",
+      "project_url": "https://github.com/nathanialf/ico-pc",
+      "strategy": "Decompilation-based native port",
+      "programming_language": "C",
+      "updated": "2026-10-15T10:51:25Z",
+      "subtype": "Decompilation-based port",
+      "sources": [
+        {
+          "label": "Project repository and README",
+          "url": "https://github.com/nathanialf/ico-pc"
+        }
+      ]
+    },
+    {
+      "id": "ottsel-jak-phone",
+      "title": "Ottsel: Jak and Daxter native Apple port",
+      "game": "Jak and Daxter: The Precursor Legacy",
+      "platform": "PlayStation 2 → iPadOS/iOS and macOS",
+      "kind": "Decompilation",
+      "status": "Developer preview; physical iPad Pro M2 reported at 60 FPS; iPhone has only been simulator-tested.",
+      "summary": "Apple-platform native port based on OpenGOAL decompiled game source, compiled ahead of time to ARM64. The maintainer reports a physical iPad Pro M2 test; iPhone is simulator-only so far. Requires a user-supplied PS2 disc and a local build.",
+      "project_url": "https://github.com/chrissotraidis/ottsel",
+      "strategy": "Decompilation-based native port",
+      "programming_language": "C++",
+      "updated": "2026-10-12T14:37:50Z",
+      "subtype": "OpenGOAL source compiled to ARM64",
+      "sources": [
+        {
+          "label": "Project repository and README",
+          "url": "https://github.com/chrissotraidis/ottsel"
+        }
+      ]
+    },
+    {
+      "id": "psx-android-static-recomp",
+      "title": "PSX Android (psxrecomp multi-title builds)",
+      "game": "PlayStation 1 games (multi-title)",
+      "platform": "PlayStation → Android",
+      "kind": "Recompilation",
+      "status": "Per-title status varies: the README marks several games playable and others build-only, setup-only, untested, or not working.",
+      "summary": "Build harness and Android runtime for PS1 games statically recompiled to C and compiled as native phone apps. The README status matrix lists Einhänder, Final Fantasy VII, Parasite Eve 1/2, Persona, Persona 2: Eternal Punishment, Policenauts and Tomba 1/2 as playable; other titles have separate, less mature states. Users build locally from their own discs.",
+      "project_url": "https://github.com/dguillot-gh/psx-android",
+      "strategy": "Static recompilation to native C",
+      "programming_language": "PowerShell",
+      "updated": "2026-10-11T03:24:47Z",
+      "subtype": "Multi-title build harness / Android runtime",
+      "sources": [
+        {
+          "label": "Project repository and README",
+          "url": "https://github.com/dguillot-gh/psx-android"
+        }
+      ]
+    },
+    {
+      "id": "ctr-native-android",
+      "title": "CTR Native: Crash Team Racing Android port",
+      "game": "Crash Team Racing",
+      "platform": "PlayStation (PS1) → Android (32-bit ABI), Windows, Linux",
+      "kind": "Decompilation",
+      "status": "Android Gradle build and APK output are documented; the README does not state physical-device gameplay verification.",
+      "summary": "Native Crash Team Racing port built on the CTR-ModSDK PS1 decompilation. The repository documents Android 32-bit APK builds and platform glue; it requires the user’s own NTSC-U disc image and does not distribute game assets.",
+      "project_url": "https://github.com/Simon358/ctr-native-android",
+      "strategy": "Decompilation-based native port",
+      "programming_language": "C",
+      "updated": "2026-07-26T15:23:06Z",
+      "subtype": "Android app built on CTR-ModSDK decompilation",
+      "sources": [
+        {
+          "label": "Project repository and README",
+          "url": "https://github.com/Simon358/ctr-native-android"
+        }
+      ]
+    },
+    {
+      "id": "metroid-prime-native-android",
+      "title": "Metroid Prime native port",
+      "game": "Metroid Prime",
+      "platform": "GameCube → Android, Windows, Linux",
+      "kind": "Decompilation",
+      "status": "Android APK build path documented; the repository describes a native port from PrimeDecomp source.",
+      "summary": "Native GameCube game port built from the PrimeDecomp decompilation, with an Android touch overlay and an APK build script. The project requires a supported user-owned disc and ships no game data.",
+      "project_url": "https://github.com/Odrannnn/MetroidPrimePort",
+      "strategy": "Decompilation-based native port",
+      "programming_language": "C++",
+      "updated": "2026-10-15T22:33:54Z",
+      "subtype": "PrimeDecomp-based native port",
+      "sources": [
+        {
+          "label": "Project repository and README",
+          "url": "https://github.com/Odrannnn/MetroidPrimePort"
+        }
+      ]
+    },
+    {
+      "id": "mario-party-6-native-android",
+      "title": "Mario Party 6 Native Port",
+      "game": "Mario Party 6",
+      "platform": "GameCube → Android, Windows",
+      "kind": "Decompilation",
+      "status": "Early playable preview: menus, audio, memory-card saves and Towering Treetop board gameplay work; minigames are not available yet.",
+      "summary": "Native GameCube port built on the byte-accurate Mario Party 6 decompilation, with a full Android touch controller. Board play is documented, while minigames and some overlays remain incomplete. Game files are not included.",
+      "project_url": "https://github.com/iirg4x/mp6-native-port",
+      "strategy": "Decompilation-based native port",
+      "programming_language": "C",
+      "updated": "2026-09-12T11:40:02Z",
+      "subtype": "Native port consuming GameCube decompilation",
+      "sources": [
+        {
+          "label": "Project repository and README",
+          "url": "https://github.com/iirg4x/mp6-native-port"
+        }
+      ]
+    },
+    {
+      "id": "budokai-tenkaichi-3-android-decomp",
+      "title": "Dragon Ball Z: Budokai Tenkaichi 3 Android decomp port",
+      "game": "Dragon Ball Z: Budokai Tenkaichi 3",
+      "platform": "PlayStation 2 → Android",
+      "kind": "Decompilation",
+      "status": "Android release/build path and touch controls documented; device compatibility is not broadly characterized in the README.",
+      "summary": "Android port built from the BT3-Decompiled source project, with an APK release path, gamepad-style touch overlay and display settings. Requires the user’s own game files; no retail assets are distributed.",
+      "project_url": "https://github.com/BBlueSkyy/Tenkaichi3DecompAndroid",
+      "strategy": "Decompilation-based native port",
+      "programming_language": "C++",
+      "updated": "2026-10-08T23:26:16Z",
+      "subtype": "Android port derived from BT3 decompilation",
+      "sources": [
+        {
+          "label": "Project repository and README",
+          "url": "https://github.com/BBlueSkyy/Tenkaichi3DecompAndroid"
+        }
+      ]
+    },
+    {
+      "id": "pokemon-emerald-voxel-android",
+      "title": "Pokémon Emerald Voxel Project",
+      "game": "Pokémon Emerald",
+      "platform": "Game Boy Advance → Android, Windows, Linux",
+      "kind": "Decompilation",
+      "status": "Experimental; README lists a working ARMv7 Android SDL2 build.",
+      "summary": "Experimental multiplatform port of the Pokémon Emerald decompilation. Android support is an ARMv7 SDL2 build with native multitouch controls; the project does not bundle the commercial game ROM.",
+      "project_url": "https://github.com/ZallaxDev/pokeemerald-voxel-project",
+      "strategy": "Decompilation-based native port",
+      "programming_language": "C",
+      "updated": "2026-08-12T23:22:25Z",
+      "subtype": "Android ARMv7 build of decompiled GBA source",
+      "sources": [
+        {
+          "label": "Project repository and README",
+          "url": "https://github.com/ZallaxDev/pokeemerald-voxel-project"
+        }
+      ]
+    },
+    {
+      "id": "wind-waker-hd-android-plus",
+      "title": "Wind Waker HD Recompiled for Android — Plus",
+      "game": "The Legend of Zelda: The Wind Waker HD",
+      "platform": "Wii U → Android",
+      "kind": "Recompilation",
+      "status": "v1.9 release; native ARM64/Vulkan Android app with performance measurements reported on a Galaxy S20 FE.",
+      "summary": "Android continuation of the Wii U static recompilation. It translates PowerPC game code to native ARM64 and renders with Vulkan; the release adds touch controls, a HUD editor, archive import and translation options. Bring your own Wii U game dump.",
+      "project_url": "https://github.com/Nycolazs/WindWakerHD-Android-Plus",
+      "strategy": "Static recompilation to ARM64",
+      "programming_language": "C++",
+      "updated": "2026-10-15T19:46:47Z",
+      "subtype": "Android fork of Wii U static recompilation",
+      "sources": [
+        {
+          "label": "Project repository and README",
+          "url": "https://github.com/Nycolazs/WindWakerHD-Android-Plus"
+        }
+      ]
+    },
+    {
+      "id": "nsmb-wii-multiplayer-recomp-android",
+      "title": "New Super Mario Bros. Wii Multiplayer Recompilation",
+      "game": "New Super Mario Bros. Wii",
+      "platform": "Wii → Android, Windows",
+      "kind": "Recompilation",
+      "status": "v0.1.1 preview; Android support is advertised, but the README does not provide clear physical-device verification.",
+      "summary": "WiiCompiled-based static recompilation project targeting native Android and Windows builds, with multiplayer changes. The project asks users to supply their own game dump.",
+      "project_url": "https://github.com/WitherBlitz/NSMB-Wii-Multiplayer-Recompilation",
+      "strategy": "Static recompilation",
+      "programming_language": "C++",
+      "updated": "2026-10-14T00:08:05Z",
+      "subtype": "Android/Windows port built on WiiCompiled",
+      "sources": [
+        {
+          "label": "Project repository and README",
+          "url": "https://github.com/WitherBlitz/NSMB-Wii-Multiplayer-Recompilation"
+        }
+      ]
+    },
+    {
+      "id": "chaotix-recompiled-android",
+      "title": "Knuckles’ Chaotix Recompiled",
+      "game": "Knuckles’ Chaotix",
+      "platform": "Sega 32X → Android, Windows, Linux, macOS",
+      "kind": "Recompilation",
+      "status": "Android build tested in an API 36 emulator; README reports title/menu startup and playable levels with sound.",
+      "summary": "Static recompilation of the 32X game into native C++, with Android as a supported target. The README describes emulator testing and playable levels; a user-provided ROM is required.",
+      "project_url": "https://github.com/YuutaTsubasa/ChaotixRecompiled",
+      "strategy": "Static recompilation",
+      "programming_language": "C++",
+      "updated": "2026-10-15T18:03:27Z",
+      "subtype": "Static recompilation to native C++",
+      "sources": [
+        {
+          "label": "Project repository and README",
+          "url": "https://github.com/YuutaTsubasa/ChaotixRecompiled"
+        }
+      ]
+    },
+    {
+      "id": "goemon64-recomp-android",
+      "title": "Goemon 64 Recompiled Android",
+      "game": "Mystical Ninja Starring Goemon",
+      "platform": "Nintendo 64 → Android",
+      "kind": "Recompilation",
+      "status": "Android release v1.0.8; native ARM64 app with RT64/Vulkan rendering and ROM import documented.",
+      "summary": "Android package for the N64 static recompilation, using RT64 Vulkan rendering and a user-supplied ROM. The repository provides a release APK and phone setup instructions.",
+      "project_url": "https://github.com/ogdanimal/Goemon64Recomp-Android",
+      "strategy": "Static recompilation",
+      "programming_language": "C",
+      "updated": "2026-10-12T23:13:01Z",
+      "subtype": "Android port/package for N64 recompilation",
+      "sources": [
+        {
+          "label": "Project repository and README",
+          "url": "https://github.com/ogdanimal/Goemon64Recomp-Android"
+        }
+      ]
+    },
+    {
+      "id": "zelda64recomp-android",
+      "title": "Zelda 64 Recompiled Android",
+      "game": "The Legend of Zelda: Majora’s Mask",
+      "platform": "Nintendo 64 → Android",
+      "kind": "Recompilation",
+      "status": "Beta 0.6.10; Android ARM64/Vulkan port with touch and motion controls described by the project.",
+      "summary": "Android fork/package of Zelda 64: Recompiled for Majora’s Mask, with ARM64/Vulkan support and phone controls. The project requires the user’s own ROM.",
+      "project_url": "https://github.com/linkzenic/Zelda64Recomp-Android",
+      "strategy": "Static recompilation",
+      "programming_language": "C++",
+      "updated": "2026-07-29T16:38:13Z",
+      "subtype": "Android target for Zelda 64: Recompiled",
+      "sources": [
+        {
+          "label": "Project repository and README",
+          "url": "https://github.com/linkzenic/Zelda64Recomp-Android"
+        }
+      ]
+    },
+    {
+      "id": "aerogauge-recomp-android",
+      "title": "AeroGauge: Recompiled",
+      "game": "AeroGauge",
+      "platform": "Nintendo 64 → Android",
+      "kind": "Recompilation",
+      "status": "Android ARM64/Vulkan support documented; the maintainer cautions that release builds can lag the current branch.",
+      "summary": "Static recompilation of the N64 game with Android ARM64/Vulkan support and ROM setup instructions. The README warns that release archives may not include every feature from the current source tree.",
+      "project_url": "https://github.com/alondero/aerogauge-recomp",
+      "strategy": "Static recompilation",
+      "programming_language": "C++",
+      "updated": "2026-10-15T05:39:33Z",
+      "subtype": "N64 recompilation with Android target",
+      "sources": [
+        {
+          "label": "Project repository and README",
+          "url": "https://github.com/alondero/aerogauge-recomp"
+        }
+      ]
+    },
+    {
+      "id": "starcraft64-recomp-android",
+      "title": "StarCraft 64 Recompiled Android build",
+      "game": "StarCraft 64",
+      "platform": "Nintendo 64 → Android",
+      "kind": "Recompilation",
+      "status": "Early Android developer-build support; the repository documents an Android build target and a v0.1.0 launcher.",
+      "summary": "Game-specific N64 static recompilation with an Android APK build target. The Android path is developer-oriented and requires the user’s own game dump.",
+      "project_url": "https://github.com/n0madic/StarCraft64-recomp",
+      "strategy": "Static recompilation",
+      "programming_language": "C++",
+      "updated": "2026-10-13T19:54:13Z",
+      "subtype": "Android developer build target",
+      "sources": [
+        {
+          "label": "Project repository and README",
+          "url": "https://github.com/n0madic/StarCraft64-recomp"
+        }
+      ]
+    },
+    {
+      "id": "rogue-squadron-64-recomp-android",
+      "title": "Star Wars: Rogue Squadron 64 Recompilation",
+      "game": "Star Wars: Rogue Squadron",
+      "platform": "Nintendo 64 → Android, Windows, Linux",
+      "kind": "Recompilation",
+      "status": "Android ARM64 build instructions are present; the repository describes the game recompilation as playable but does not isolate phone-specific coverage.",
+      "summary": "Static recompilation of the N64 game with an Android build target. The maintainer describes the game as playable overall; the project requires a user-supplied ROM.",
+      "project_url": "https://github.com/MikeSemicolonD/RogueSquadron64Recomp",
+      "strategy": "Static recompilation",
+      "programming_language": "C++",
+      "updated": "2026-10-13T07:59:56Z",
+      "subtype": "N64 recompilation with Android build",
+      "sources": [
+        {
+          "label": "Project repository and README",
+          "url": "https://github.com/MikeSemicolonD/RogueSquadron64Recomp"
+        }
+      ]
+    },
+    {
+      "id": "sonic-free-riders-recompiled-android",
+      "title": "Sonic Free Riders Recompiled",
+      "game": "Sonic Free Riders",
+      "platform": "Xbox 360 → Android, Windows, Linux",
+      "kind": "Recompilation",
+      "status": "Work in progress with Android releases; README reports playable menus and races, while noting much of the game remains untested.",
+      "summary": "Static recompilation of the Xbox 360 game with Android ARM64 builds, touch controls and tilt steering. The project reports playable races on tested Android devices, but explicitly cautions that broader game coverage and performance vary.",
+      "project_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled",
+      "strategy": "Static recompilation",
+      "programming_language": "C++",
+      "updated": "2026-10-15T17:36:26Z",
+      "subtype": "Static recompilation with Android app",
+      "sources": [
+        {
+          "label": "Project repository and README",
+          "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled"
+        }
+      ]
+    },
+    {
+      "id": "sonic-unleashed-recomp-android",
+      "title": "Sonic Unleashed Recompiled Android",
+      "game": "Sonic Unleashed (Xbox 360 version)",
+      "platform": "Xbox 360 → Android",
+      "kind": "Recompilation",
+      "status": "Experimental Android port; project warns that artifacts, freezes and audio issues can occur.",
+      "summary": "Android port of the Xbox 360 static recompilation, with Vulkan rendering and mobile controls. The maintainer reports regular gameplay but labels the build experimental and notes device-dependent issues.",
+      "project_url": "https://github.com/SansNope/UnleashedRecomp-Android",
+      "strategy": "Static recompilation",
+      "programming_language": "C",
+      "updated": "2026-10-14T02:24:43Z",
+      "subtype": "Android port of Unleashed Recompiled",
+      "sources": [
+        {
+          "label": "Project repository and README",
+          "url": "https://github.com/SansNope/UnleashedRecomp-Android"
+        }
+      ]
+    },
+    {
+      "id": "forza-horizon-2-recomp-android",
+      "title": "Forza Horizon 2 Recompiled Android",
+      "game": "Forza Horizon 2 (Xbox 360 version)",
+      "platform": "Xbox 360 → Android ARM64, Linux x86-64",
+      "kind": "Recompilation",
+      "status": "Work in progress; README reports Android menu/race gameplay, low phone frame rates and some missed collisions.",
+      "summary": "Static recompilation of the Xbox 360 PowerPC program to native code, with an Android Vulkan app, touch controls and disc import. The README reports that races run but performance and collision handling remain rough; game files are not included.",
+      "project_url": "https://github.com/Gabrick75/fh2-recompiled",
+      "strategy": "Static recompilation to ARM64",
+      "programming_language": "C",
+      "updated": "2026-10-15T20:51:53Z",
+      "subtype": "Xbox 360 static recompilation with Android application",
+      "sources": [
+        {
+          "label": "Project repository and README",
+          "url": "https://github.com/Gabrick75/fh2-recompiled"
+        }
+      ]
+    },
+    {
+      "id": "mario-kart-wii-driftdroid",
+      "title": "DriftDroid: Mario Kart Wii Android port",
+      "game": "Mario Kart Wii (and Retro Rewind)",
+      "platform": "Wii → Android",
+      "kind": "Recompilation",
+      "status": "README describes end-to-end playable Android setup with touch and motion steering using the user’s own disc.",
+      "summary": "Native Android app built on WiiCompiled’s static recompilation, adding touch controls, motion steering, an in-app launcher and on-device disc setup. The project says races, menus, audio, saves and online play work; no game data is included.",
+      "project_url": "https://github.com/dorPXP/driftdroid",
+      "strategy": "Static recompilation",
+      "programming_language": "C++",
+      "updated": "2026-10-09T23:04:53Z",
+      "subtype": "Android application layer for WiiCompiled",
+      "sources": [
+        {
+          "label": "Project repository and README",
+          "url": "https://github.com/dorPXP/driftdroid"
+        }
+      ]
+    },
+    {
+      "id": "skate3-port-android",
+      "title": "Skate 3 Port for Android",
+      "game": "Skate 3",
+      "platform": "Xbox 360 → Android ARM64",
+      "kind": "Recompilation",
+      "status": "Experimental; release APK and touch controls documented, with testing reported on a Poco F3.",
+      "summary": "Android native port based on the Skate3Recomp static recompilation, with ARM64 code and a Vulkan renderer. The project warns of visual/device issues and requires the user’s own game files.",
+      "project_url": "https://github.com/darchap/Skate3-Port",
+      "strategy": "Static recompilation",
+      "programming_language": "C++",
+      "updated": "2026-09-22T20:05:09Z",
+      "subtype": "Android mobile port of Skate3Recomp",
+      "sources": [
+        {
+          "label": "Project repository and README",
+          "url": "https://github.com/darchap/Skate3-Port"
+        }
+      ]
+    },
+    {
+      "id": "lost-odyssey-recomp",
+      "title": "Lost Odyssey Recomp",
+      "game": "Lost Odyssey",
+      "platform": "Xbox 360 → Windows, Linux, macOS, Android",
+      "kind": "Recompilation",
+      "status": "Experimental; Android APK/release setup, touch controls and Android 8+/Vulkan requirements are documented.",
+      "summary": "Native static recompilation of the Xbox 360 game. The existing cross-platform project now documents Android packages, four-disc import and touch controls; no game assets are included.",
+      "project_url": "https://github.com/freefrank/LostOdysseyRecomp",
+      "strategy": "Static recompilation",
+      "programming_language": "C++",
+      "updated": "2026-10-15T21:19:14Z",
+      "subtype": "Static recompilation with Android target",
+      "sources": [
+        {
+          "label": "Project repository and README",
+          "url": "https://github.com/freefrank/LostOdysseyRecomp"
+        }
+      ]
+    },
+    {
+      "id": "gta-iv-liberty-recomp-android",
+      "title": "Liberty Recompiled Android",
+      "game": "Grand Theft Auto IV (Xbox 360 version)",
+      "platform": "Xbox 360 → Android ARM64",
+      "kind": "Recompilation",
+      "status": "Experimental Android fork; release builds exist, and the repository warns that the port is unstable.",
+      "summary": "Unofficial Android port of the Xbox 360 static recompilation, targeting ARM64/Vulkan. Catalog status follows the maintainer’s instability warning and does not assume complete gameplay compatibility.",
+      "project_url": "https://github.com/vaduur/LibertyRecompAndroid",
+      "strategy": "Static recompilation",
+      "programming_language": "C++",
+      "updated": "2026-10-14T08:04:34Z",
+      "subtype": "Android fork of Liberty Recompiled",
+      "sources": [
+        {
+          "label": "Project repository and README",
+          "url": "https://github.com/vaduur/LibertyRecompAndroid"
+        }
+      ]
+    },
+    {
+      "id": "nfs-most-wanted-android-recomp",
+      "title": "Need for Speed: Most Wanted Recompiled Mobile",
+      "game": "Need for Speed: Most Wanted (2005, Xbox 360 version)",
+      "platform": "Xbox 360 → Android ARM64",
+      "kind": "Recompilation",
+      "status": "Android APK build path documented; PAL Spain is listed as supported, while USA/Japan Android builds have in-game verification caveats.",
+      "summary": "Android fork of the Xbox 360 static recompilation with Vulkan, touch controls and per-edition builds. The project reports PC gameplay with rough edges and provides Android build instructions; compatibility depends on the game edition.",
+      "project_url": "https://github.com/victorgbd/NFSMW-Recompiled-Mobile",
+      "strategy": "Static recompilation",
+      "programming_language": "C",
+      "updated": "2026-10-15T22:54:44Z",
+      "subtype": "Android fork of Need for Speed Most Wanted recompilation",
+      "sources": [
+        {
+          "label": "Project repository and README",
+          "url": "https://github.com/victorgbd/NFSMW-Recompiled-Mobile"
+        }
+      ]
+    },
+    {
+      "id": "nfs-most-wanted-ios-recomp",
+      "title": "Need for Speed: Most Wanted Recompiled iOS",
+      "game": "Need for Speed: Most Wanted (2005, Xbox 360 version)",
+      "platform": "Xbox 360 → iOS",
+      "kind": "Recompilation",
+      "status": "iOS port based on the Android project; README documents SideStore/LiveContainer installation, but hardware coverage is not specified.",
+      "summary": "Static recompilation port of the Xbox 360 game for iOS, derived from the Android port and original recompilation. The repository documents an iOS install path and credits the projects it builds on.",
+      "project_url": "https://github.com/bep1s69/nfsmw-ios",
+      "strategy": "Static recompilation",
+      "programming_language": "Python",
+      "updated": "2026-10-14T16:34:15Z",
+      "subtype": "iOS port derived from Android static recompilation",
+      "sources": [
+        {
+          "label": "Project repository and README",
+          "url": "https://github.com/bep1s69/nfsmw-ios"
+        }
+      ]
+    },
+    {
+      "id": "asuras-wrath-recomp-android",
+      "title": "Asura’s Wrath Recompiled Android build",
+      "game": "Asura’s Wrath",
+      "platform": "Xbox 360 → Android ARM64, Windows, Linux",
+      "kind": "Recompilation",
+      "status": "Experimental Android APK/build target; README still lists Android testing, performance work and touch controls as unfinished.",
+      "summary": "Xbox 360 static recompilation using ReXGlue with Android build presets and an APK script. The project remains early and explicitly calls for Android testing; phone controls are still a TODO.",
+      "project_url": "https://github.com/PauloUbirajara/asuras-wrath-recomp",
+      "strategy": "Static recompilation",
+      "programming_language": "C++",
+      "updated": "2026-09-11T20:04:32Z",
+      "subtype": "Experimental Android target",
+      "sources": [
+        {
+          "label": "Project repository and README",
+          "url": "https://github.com/PauloUbirajara/asuras-wrath-recomp"
+        }
+      ]
+    }
+  ]
+}

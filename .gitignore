@@ -3,6 +3,8 @@ __pycache__/
 *.py[cod]
 .venv/
 target/
-
-
+/work/
 /docs/pkg/
+*.sqlite-shm
+*.sqlite-wal
+*.sqlite-journal

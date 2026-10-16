@@ -1,0 +1,373 @@
+{
+  "updated": "2026-10-15",
+  "projects": [
+    {
+      "id": "fallout-ce-mobile",
+      "title": "Fallout Community Edition mobile port",
+      "game": "Fallout",
+      "platform": "Windows PC → Android/iOS",
+      "kind": "Reimplementation",
+      "status": "README documents Android APK and iOS IPA installation; last repository push was 2025-01-15. Requires original Fallout data files.",
+      "summary": "Cross-platform reimplementation of Fallout's engine with Android and iOS installation paths. Players provide their own game data; the project repository does not include the commercial assets.",
+      "project_url": "https://github.com/alexbatalov/fallout1-ce",
+      "updated": "2026-10-15",
+      "strategy": "Cross-platform engine reimplementation",
+      "programming_language": "C++",
+      "subtype": "Native Android and iOS builds",
+      "sources": [
+        {
+          "label": "Project README and mobile install instructions",
+          "url": "https://github.com/alexbatalov/fallout1-ce"
+        },
+        {
+          "label": "Android installation section",
+          "url": "https://github.com/alexbatalov/fallout1-ce#android"
+        },
+        {
+          "label": "iOS installation section",
+          "url": "https://github.com/alexbatalov/fallout1-ce#ios"
+        }
+      ]
+    },
+    {
+      "id": "fallout2-ce-mobile",
+      "title": "Fallout 2 Community Edition mobile port",
+      "game": "Fallout 2",
+      "platform": "Windows PC → Android/iOS",
+      "kind": "Reimplementation",
+      "status": "README documents Android APK and iOS IPA installation; last repository push was 2025-02-17. Requires original Fallout 2 data files.",
+      "summary": "Cross-platform reimplementation of Fallout 2's engine with Android and iOS installation paths. Players provide their own game data; the project repository does not include the commercial assets.",
+      "project_url": "https://github.com/alexbatalov/fallout2-ce",
+      "updated": "2026-10-15",
+      "strategy": "Cross-platform engine reimplementation",
+      "programming_language": "C++",
+      "subtype": "Native Android and iOS builds",
+      "sources": [
+        {
+          "label": "Project README and mobile install instructions",
+          "url": "https://github.com/alexbatalov/fallout2-ce"
+        },
+        {
+          "label": "Android installation section",
+          "url": "https://github.com/alexbatalov/fallout2-ce#android"
+        },
+        {
+          "label": "iOS installation section",
+          "url": "https://github.com/alexbatalov/fallout2-ce#ios"
+        }
+      ]
+    },
+    {
+      "id": "heroes3-vcmi-mobile",
+      "title": "VCMI: Heroes of Might and Magic III mobile engine",
+      "game": "Heroes of Might and Magic III Complete Edition",
+      "platform": "Windows PC → Android/iOS",
+      "kind": "Reimplementation",
+      "status": "Android releases are listed for Google Play, F-Droid, and GitHub; the project also maintains an iOS build guide. Requires original Heroes III data files.",
+      "summary": "Open-source engine reimplementation for Heroes of Might and Magic III. Android installation is documented and an iOS build guide is maintained; players import their own Heroes III data, which the project does not bundle.",
+      "project_url": "https://github.com/vcmi/vcmi",
+      "updated": "2026-10-15",
+      "strategy": "Native engine reimplementation",
+      "programming_language": "C++",
+      "subtype": "Android release and iOS build targets",
+      "sources": [
+        {
+          "label": "Project repository",
+          "url": "https://github.com/vcmi/vcmi"
+        },
+        {
+          "label": "Android installation guide",
+          "url": "https://github.com/vcmi/vcmi/blob/develop/docs/players/Installation_Android.md"
+        },
+        {
+          "label": "iOS build guide",
+          "url": "https://github.com/vcmi/vcmi/blob/develop/docs/developers/Building_iOS.md"
+        }
+      ]
+    },
+    {
+      "id": "heroes2-fheroes2-android",
+      "title": "fheroes2: Heroes of Might and Magic II Android port",
+      "game": "Heroes of Might and Magic II",
+      "platform": "DOS/Windows PC → Android",
+      "kind": "Reimplementation",
+      "status": "Android APK installation is documented; the repository was updated on 2026-10-15. Requires original or demo game data.",
+      "summary": "C++ recreation of the Heroes II engine with an Android build and asset-import instructions. The project does not include the commercial game files; its Android guide also documents use of demo data.",
+      "project_url": "https://github.com/ihhub/fheroes2",
+      "updated": "2026-10-15",
+      "strategy": "Native engine reimplementation",
+      "programming_language": "C++",
+      "subtype": "Android port with touch controls",
+      "sources": [
+        {
+          "label": "Project repository",
+          "url": "https://github.com/ihhub/fheroes2"
+        },
+        {
+          "label": "Android installation guide",
+          "url": "https://github.com/ihhub/fheroes2/blob/master/docs/README_android.md"
+        }
+      ]
+    },
+    {
+      "id": "halflife-xash3d-mobile",
+      "title": "Xash3D FWGS: GoldSrc-compatible mobile engine",
+      "game": "Half-Life",
+      "platform": "Windows PC → Android/iOS",
+      "kind": "Reimplementation",
+      "status": "The maintainers' platform matrix lists Android and iOS as supported; Half-Life or compatible game data is required and is not included.",
+      "summary": "Open-source GoldSrc-compatible engine that runs Half-Life and compatible titles natively on Android and iOS. The project documents supported ports and mobile input; users supply game data.",
+      "project_url": "https://github.com/FWGS/xash3d-fwgs",
+      "updated": "2026-10-15",
+      "strategy": "GoldSrc-compatible engine reimplementation",
+      "programming_language": "C",
+      "subtype": "Multi-game Android and iOS engine port",
+      "sources": [
+        {
+          "label": "Project repository and Android documentation",
+          "url": "https://github.com/FWGS/xash3d-fwgs"
+        },
+        {
+          "label": "Maintained platform support matrix",
+          "url": "https://github.com/FWGS/xash3d-fwgs/blob/master/Documentation/ports.md"
+        }
+      ]
+    },
+    {
+      "id": "morrowind-openmw-android",
+      "title": "OpenMW Android: Morrowind mobile port",
+      "game": "The Elder Scrolls III: Morrowind",
+      "platform": "Windows PC → Android/ChromeOS",
+      "kind": "Reimplementation",
+      "status": "Community-maintained Android/ChromeOS fork based on OpenMW 0.51; the README documents touch and controller support. Requires user-supplied Morrowind data; last repository push was 2026-10-13.",
+      "summary": "Mobile build of OpenMW, an open-source Morrowind engine reimplementation. This community fork adds Android/ChromeOS controls, launcher settings, and shader options; it does not include Bethesda's game data.",
+      "project_url": "https://github.com/Andiweli/OpenMW-Android",
+      "updated": "2026-10-15",
+      "strategy": "OpenMW engine reimplementation and Android port",
+      "programming_language": "PowerShell",
+      "subtype": "Community Android/ChromeOS fork",
+      "sources": [
+        {
+          "label": "Android/ChromeOS project README",
+          "url": "https://github.com/Andiweli/OpenMW-Android"
+        },
+        {
+          "label": "Upstream OpenMW engine",
+          "url": "https://github.com/OpenMW/openmw"
+        }
+      ]
+    },
+    {
+      "id": "lba2-classic-android",
+      "title": "Little Big Adventure 2 Classic Community mobile port",
+      "game": "Little Big Adventure 2",
+      "platform": "Windows PC → Android/Android TV",
+      "kind": "Reimplementation",
+      "status": "Community-maintained source port with Android and Android TV packaging; v0.13.0 changelog and current build documentation are available. Players supply original game data.",
+      "summary": "Community-maintained C++ source port of the original Little Big Adventure 2 engine with Android builds. The project does not bundle the game's data files.",
+      "project_url": "https://github.com/LBALab/lba2-classic-community",
+      "updated": "2026-10-15",
+      "strategy": "Native source port",
+      "programming_language": "C++",
+      "subtype": "Android and Android TV builds",
+      "sources": [
+        {
+          "label": "Project repository and Android packaging",
+          "url": "https://github.com/LBALab/lba2-classic-community"
+        },
+        {
+          "label": "Project changelog",
+          "url": "https://github.com/LBALab/lba2-classic-community/blob/main/CHANGELOG.md"
+        }
+      ]
+    },
+    {
+      "id": "daggerfall-unity-android",
+      "title": "Daggerfall Unity Android port",
+      "game": "The Elder Scrolls II: Daggerfall",
+      "platform": "MS-DOS PC → Android",
+      "kind": "Reimplementation",
+      "status": "Unofficial Android fork with APKs and setup instructions in Releases; last repository push was 2026-07-18. Requires Daggerfall game data.",
+      "summary": "Android fork of Daggerfall Unity, itself a Unity-based reimplementation of Daggerfall. The fork provides APKs and mobile setup guidance; players provide the original DOS game files.",
+      "project_url": "https://github.com/Vwing/daggerfall-unity-android",
+      "updated": "2026-10-15",
+      "strategy": "Unity engine reimplementation with Android port",
+      "programming_language": "C#",
+      "subtype": "Unofficial Android fork",
+      "sources": [
+        {
+          "label": "Android fork README",
+          "url": "https://github.com/Vwing/daggerfall-unity-android"
+        },
+        {
+          "label": "APK releases and setup instructions",
+          "url": "https://github.com/Vwing/daggerfall-unity-android/releases"
+        },
+        {
+          "label": "Upstream Daggerfall Unity project",
+          "url": "https://github.com/Interkarma/daggerfall-unity"
+        }
+      ]
+    },
+    {
+      "id": "command-conquer-tiberian-dawn-mobile",
+      "title": "Command & Conquer: Tiberian Dawn mobile source port",
+      "game": "Command & Conquer",
+      "platform": "DOS/Windows PC → Android/iOS",
+      "kind": "Reimplementation",
+      "status": "The project describes a working native Android/iOS port; its iOS target is for local development and testing, not a general release. No game assets are included.",
+      "summary": "Unofficial SDL2 port of the released Tiberian Dawn source with Android APK and iOS build targets. The iOS build requires local signing or a simulator; the repository does not include game assets.",
+      "project_url": "https://github.com/dk8827/cnc-port",
+      "updated": "2026-10-15",
+      "strategy": "Native SDL2 source port",
+      "programming_language": "C++",
+      "subtype": "Android app and iOS development target",
+      "sources": [
+        {
+          "label": "Project README and mobile build notes",
+          "url": "https://github.com/dk8827/cnc-port"
+        }
+      ]
+    },
+    {
+      "id": "red-alert-native-mobile",
+      "title": "Command & Conquer: Red Alert mobile source port",
+      "game": "Command & Conquer: Red Alert",
+      "platform": "DOS/Windows PC → Android/iOS",
+      "kind": "Reimplementation",
+      "status": "The project describes a working native Android/iOS port; its iOS target is for local development and testing. No game assets are included.",
+      "summary": "Unofficial SDL2 port of Red Alert with Android and iOS build targets. The repository documents mobile build steps and does not bundle the original game assets.",
+      "project_url": "https://github.com/dk8827/ra-port",
+      "updated": "2026-10-15",
+      "strategy": "Native SDL2 source port",
+      "programming_language": "C++",
+      "subtype": "Android app and iOS development target",
+      "sources": [
+        {
+          "label": "Project README and mobile build notes",
+          "url": "https://github.com/dk8827/ra-port"
+        }
+      ]
+    },
+    {
+      "id": "halo-ce-android",
+      "title": "Halo: Combat Evolved Android port",
+      "game": "Halo: Combat Evolved",
+      "platform": "Original Xbox → Android/Windows/Linux/Web",
+      "kind": "Decompilation",
+      "status": "The README lists Android release and debug builds generated by GitHub Actions; physical-device coverage is not specified.",
+      "summary": "Native port based on the Xbox build 2342 decompilation, with Android builds alongside desktop and web targets. The game data is not distributed by the project.",
+      "project_url": "https://github.com/FulGerNet/halo-ce-android",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based native port",
+      "programming_language": "C",
+      "subtype": "Android build of the Xbox decompilation",
+      "sources": [
+        {
+          "label": "Android project README and build artifacts",
+          "url": "https://github.com/FulGerNet/halo-ce-android"
+        },
+        {
+          "label": "Upstream Halo CE decompilation",
+          "url": "https://github.com/bnunu/halo-1"
+        }
+      ]
+    },
+    {
+      "id": "pikmin-open-nectar-android",
+      "title": "Open Nectar: Pikmin native Android port",
+      "game": "Pikmin",
+      "platform": "GameCube → Android/Windows/Linux/macOS",
+      "kind": "Decompilation",
+      "status": "Experimental; README lists a native Android build and touch controls and reports that most game content works. Physical-device coverage is not stated.",
+      "summary": "Native port built on the Pikmin decompilation, with Android builds and touch controls; the project describes its graphics path as native rather than Dolphin emulation. Verify maturity as experimental and provide a supported retail disc.",
+      "project_url": "https://github.com/SSunnKing/Open-Nectar---Pikmin-Native-PC-Mobile-Port",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based native port",
+      "programming_language": "Assembly",
+      "subtype": "Experimental Android/desktop port",
+      "sources": [
+        {
+          "label": "Project README and Android build notes",
+          "url": "https://github.com/SSunnKing/Open-Nectar---Pikmin-Native-PC-Mobile-Port"
+        },
+        {
+          "label": "Upstream Pikmin decompilation",
+          "url": "https://github.com/projectPiki/pikmin"
+        }
+      ]
+    },
+    {
+      "id": "banjo-recomp-android",
+      "title": "Banjo: Recompiled for Android",
+      "game": "Banjo-Kazooie",
+      "platform": "Nintendo 64 → Android",
+      "kind": "Recompilation",
+      "status": "Unofficial Android fork of Banjo: Recompiled; its README documents Android build and controller setup and tested handheld hardware. Requires the user's own ROM.",
+      "summary": "Android port of the Banjo-Kazooie static recompilation, maintained as a fork of the upstream BanjoRecomp project. The port uses user-supplied game data and lists controller support for Android handhelds.",
+      "project_url": "https://github.com/AurelioB/BanjoRecomp-Android",
+      "updated": "2026-10-15",
+      "strategy": "Static recompilation with Android host port",
+      "programming_language": "C",
+      "subtype": "Community Android fork",
+      "sources": [
+        {
+          "label": "Android fork README",
+          "url": "https://github.com/AurelioB/BanjoRecomp-Android"
+        },
+        {
+          "label": "Upstream Banjo: Recompiled project",
+          "url": "https://github.com/BanjoRecomp/BanjoRecomp"
+        }
+      ]
+    },
+    {
+      "id": "dkc1-recomp-ios",
+      "title": "Donkey Kong Country Recompilation iOS port",
+      "game": "Donkey Kong Country",
+      "platform": "Super Nintendo → iOS/iPadOS, Windows/macOS",
+      "kind": "Recompilation",
+      "status": "Released iOS build with touch controls and Metal upscaling is documented; an original compatible ROM is required.",
+      "summary": "Static recompilation of the SNES USA 1.0 release with a native iOS host, touch controls, and Metal rendering. The project does not include a ROM.",
+      "project_url": "https://github.com/elliotttate/DKC1Recomp",
+      "updated": "2026-10-15",
+      "strategy": "Static recompilation",
+      "programming_language": "C",
+      "subtype": "Native iOS/iPadOS host with touch controls",
+      "sources": [
+        {
+          "label": "Project repository and iOS release notes",
+          "url": "https://github.com/elliotttate/DKC1Recomp"
+        },
+        {
+          "label": "Project releases",
+          "url": "https://github.com/elliotttate/DKC1Recomp/releases"
+        }
+      ]
+    },
+    {
+      "id": "twilight-princess-dusk-mobile",
+      "title": "Dusk: Twilight Princess mobile reimplementation",
+      "game": "The Legend of Zelda: Twilight Princess",
+      "platform": "GameCube → Android/iOS/Windows/Linux/macOS",
+      "kind": "Reimplementation",
+      "status": "Experimental community fork with Android/iOS setup guides and supported GameCube dump hashes; device and driver compatibility varies, and the last repository push was 2026-05-10.",
+      "summary": "Mobile build of the Dusk Twilight Princess reimplementation. The repository documents Android and iOS setup, requires a clean supported GameCube dump, and warns that hardware and driver compatibility varies.",
+      "project_url": "https://github.com/applesoff/dusk",
+      "updated": "2026-10-15",
+      "strategy": "Reverse-engineered native reimplementation",
+      "programming_language": "C++",
+      "subtype": "Experimental Android/iOS fork",
+      "sources": [
+        {
+          "label": "Dusk README and mobile setup guides",
+          "url": "https://github.com/applesoff/dusk"
+        },
+        {
+          "label": "Upstream Dusk project",
+          "url": "https://github.com/TwilitRealm/dusklight"
+        }
+      ]
+    }
+  ]
+}

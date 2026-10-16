@@ -21,11 +21,19 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Export SQLite catalog to Pages JSON
-        run: python scripts/catalog.py export
       - uses: dtolnay/rust-toolchain@stable
         with:
           targets: wasm32-unknown-unknown
+          components: rustfmt
+      - uses: Swatinem/rust-cache@v2
+      - name: Validate catalog tooling
+        run: |
+          python -m compileall -q scripts
+          bash -n scripts/build.sh
+      - name: Run Rust tests
+        run: cargo test --locked --lib
+      - name: Check Rust formatting
+        run: cargo fmt -- --check
       - name: Install wasm-bindgen CLI
         run: cargo install wasm-bindgen-cli --version 0.2.129 --locked
       - name: Build Rust search engine

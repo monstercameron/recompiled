@@ -1,0 +1,33 @@
+{
+  "verified_at": "2026-10-15",
+  "scope": "GitHub star counts across 205 unique GitHub-hosted projects indexed in the catalog. Repository pages were checked on 2026-10-15; 202 returned a live count and 3 indexed repositories returned 404.",
+  "entries": [
+    {
+      "project_id": "anyps5",
+      "position": 1,
+      "github_stars": 38547,
+      "verified_at": "2026-10-15",
+      "source_url": "https://github.com/boykopovar/AnyPS5",
+      "ranking_url": "https://api.github.com/repos/boykopovar/AnyPS5",
+      "evidence": "Highest live star count among 202 reachable unique GitHub project repositories in the index; catalog project performs PlayStation 5-to-desktop API and graphics translation for multiple games."
+    },
+    {
+      "project_id": "proton",
+      "position": 2,
+      "github_stars": 33058,
+      "verified_at": "2026-10-15",
+      "source_url": "https://github.com/ValveSoftware/Proton",
+      "ranking_url": "https://api.github.com/repos/ValveSoftware/Proton",
+      "evidence": "Second-highest live star count among 202 reachable unique GitHub project repositories in the index; catalog project is Valve's Windows-game compatibility stack for Linux/POSIX."
+    },
+    {
+      "project_id": "dxvk",
+      "position": 3,
+      "github_stars": 18301,
+      "verified_at": "2026-10-15",
+      "source_url": "https://github.com/doitsujin/dxvk",
+      "ranking_url": "https://api.github.com/repos/doitsujin/dxvk",
+      "evidence": "Third-highest live star count among 202 reachable unique GitHub project repositories in the index; catalog project translates Direct3D 8–11 calls to Vulkan."
+    }
+  ]
+}

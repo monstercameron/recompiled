@@ -1,0 +1,148 @@
+{
+  "verified_at": "2026-10-15",
+  "items": [
+    {
+      "id": "ghidra",
+      "item_type": "Tool",
+      "category": "Reverse engineering",
+      "name": "Ghidra",
+      "description": "An extensible reverse-engineering suite with disassembly and decompilation features for inspecting compiled game code.",
+      "url": "https://github.com/NationalSecurityAgency/ghidra",
+      "source_url": "https://github.com/NationalSecurityAgency/ghidra",
+      "source_evidence": "The NSA-maintained project describes Ghidra as a software reverse-engineering framework and lists disassembly and decompilation among its capabilities.",
+      "verified_at": "2026-10-15"
+    },
+    {
+      "id": "decomp-me",
+      "item_type": "Tool",
+      "category": "Collaborative decompilation",
+      "name": "decomp.me",
+      "description": "A browser-based collaborative workspace for matching individual functions with project-specific compiler presets.",
+      "url": "https://www.decomp.me/",
+      "source_url": "https://www.decomp.me/faq",
+      "source_evidence": "The official site calls itself a collaborative reverse-engineering platform; its FAQ explains the role of compiler, platform, and build settings in project scratches.",
+      "verified_at": "2026-10-15"
+    },
+    {
+      "id": "objdiff",
+      "item_type": "Tool",
+      "category": "Decompilation matching",
+      "name": "objdiff",
+      "description": "A local GUI for comparing rebuilt object files against target objects and inspecting function and data differences.",
+      "url": "https://github.com/encounter/objdiff",
+      "source_url": "https://github.com/encounter/objdiff/blob/main/README.md",
+      "source_evidence": "The project README describes object-file comparison, automatic rebuilds, progress reporting, and support for several console CPU families.",
+      "verified_at": "2026-10-15"
+    },
+    {
+      "id": "n64-recomp",
+      "item_type": "Tool",
+      "category": "Static recompilation",
+      "name": "N64: Recompiled",
+      "description": "A toolchain that statically recompiles N64 binaries into C for building native ports and related projects.",
+      "url": "https://github.com/N64Recomp/N64Recomp",
+      "source_url": "https://github.com/N64Recomp/N64Recomp",
+      "source_evidence": "The maintainer README describes the binary-to-C workflow and notes that symbol/build metadata is required; it is not a one-click port generator.",
+      "verified_at": "2026-10-15"
+    },
+    {
+      "id": "proton",
+      "item_type": "Tool",
+      "category": "Compatibility stack",
+      "name": "Proton",
+      "description": "Valve's Steam compatibility tool for running many Windows PC games on Linux, built around Wine and additional components.",
+      "url": "https://github.com/ValveSoftware/Proton",
+      "source_url": "https://github.com/ValveSoftware/Proton",
+      "source_evidence": "Valve's repository describes Proton's Windows-game-on-Linux purpose and documents its Wine basis and graphics components such as DXVK and vkd3d-proton.",
+      "verified_at": "2026-10-15"
+    },
+    {
+      "id": "dxvk",
+      "item_type": "Tool",
+      "category": "Graphics API translation",
+      "name": "DXVK",
+      "description": "A Vulkan-based implementation of Direct3D 8, 9, 10, and 11 used with Wine and in compatibility stacks such as Proton.",
+      "url": "https://github.com/doitsujin/dxvk",
+      "source_url": "https://github.com/doitsujin/dxvk",
+      "source_evidence": "The project README states the Direct3D versions and Vulkan target, and explains use through Wine and Steam Play tools.",
+      "verified_at": "2026-10-15"
+    },
+    {
+      "id": "vkd3d-proton",
+      "item_type": "Tool",
+      "category": "Graphics API translation",
+      "name": "vkd3d-proton",
+      "description": "A Proton-focused implementation of Direct3D 12 on Vulkan, complementary to DXVK's Direct3D 8–11 coverage.",
+      "url": "https://github.com/HansKristian-Work/vkd3d-proton",
+      "source_url": "https://github.com/HansKristian-Work/vkd3d-proton/blob/master/README.md",
+      "source_evidence": "The upstream README describes the project as implementing Direct3D 12 on Vulkan and as the development effort behind Proton's D3D12 support.",
+      "verified_at": "2026-10-15"
+    },
+    {
+      "id": "flips",
+      "item_type": "Tool",
+      "category": "Patch creation and application",
+      "name": "Floating IPS (Flips)",
+      "description": "A desktop and command-line patcher for creating and applying IPS and BPS patches, useful for distributing fan-made changes without bundling a game image.",
+      "url": "https://github.com/bates64/flips",
+      "source_url": "https://github.com/bates64/flips",
+      "source_evidence": "The maintainer README documents IPS/BPS creation and application, GUI and command-line use, and release downloads.",
+      "verified_at": "2026-10-15"
+    },
+    {
+      "id": "gamebanana",
+      "item_type": "Website",
+      "category": "Game mods and community tools",
+      "name": "GameBanana",
+      "description": "A cross-game community site for discovering and publishing mods, tools, and other game-specific submissions.",
+      "url": "https://gamebanana.com/",
+      "source_url": "https://gamebanana.com/wikis/2007",
+      "source_evidence": "GameBanana's community guide describes game-specific modding communities, submissions, and volunteer game managers; the live homepage showed active trending and recent community content.",
+      "verified_at": "2026-10-15"
+    },
+    {
+      "id": "protondb",
+      "item_type": "Website",
+      "category": "Linux game compatibility reports",
+      "name": "ProtonDB",
+      "description": "Crowdsourced game-by-game reports and workarounds for running Steam titles through Proton on Linux and Steam Deck.",
+      "url": "https://www.protondb.com/",
+      "source_url": "https://www.protondb.com/",
+      "source_evidence": "The site's own overview explains its user-submitted Proton compatibility reports, aggregate ratings, and game-specific suggestions; recent game reports were visible.",
+      "verified_at": "2026-10-15"
+    },
+    {
+      "id": "data-crystal",
+      "item_type": "Website",
+      "category": "ROM-hacking research",
+      "name": "Data Crystal",
+      "description": "A community-maintained reference for ROM-hacking knowledge, including game-specific ROM/RAM maps, notes, formats, and technical discoveries.",
+      "url": "https://datacrystal.tcrf.net/wiki/Data_Crystal",
+      "source_url": "https://datacrystal.tcrf.net/wiki/Data_Crystal",
+      "source_evidence": "The wiki describes itself as a cross-system repository of ROM-hacking knowledge and presents console- and game-specific reference pages.",
+      "verified_at": "2026-10-15"
+    },
+    {
+      "id": "tcrf",
+      "item_type": "Website",
+      "category": "Unused content and development history",
+      "name": "The Cutting Room Floor",
+      "description": "A community wiki documenting cut, unused, debug, prototype, and regional-variation content that can inform preservation and mod research.",
+      "url": "https://tcrf.net/",
+      "source_url": "https://tcrf.net/Category:Game_data",
+      "source_evidence": "The site's own description identifies its focus on unused and debug content, development history, and prototypes; its game-data category was indexed on the verification date.",
+      "verified_at": "2026-10-15"
+    },
+    {
+      "id": "rea",
+      "item_type": "Tool",
+      "category": "Reverse engineering",
+      "name": "REA (Reverse Engineer Anything)",
+      "description": "An open-source MCP server and CLI that lets coding agents inspect websites, Electron applications, and native binaries with local analysis tools, returning findings with evidence and limitations.",
+      "url": "https://github.com/morluto/rea",
+      "source_url": "https://github.com/morluto/rea#readme",
+      "source_evidence": "The project README describes REA as an agent-connected reverse-engineering tool for websites, applications, and native binaries; it says analysis runs locally and returns evidence and limitations. The repository is public, MIT-licensed, and has a release published 2026-10-14.",
+      "verified_at": "2026-10-15"
+    }
+  ]
+}
