@@ -1,0 +1,317 @@
+{
+  "verified_at": "2026-10-16",
+  "scope": "Companion language evidence for all 19 safe project additions: eight Mac source-manifest rows plus 11 official repository API results. Four localization holds remain in manual-review-project-language-evidence.json.",
+  "records": [
+    {
+      "project_id": "avara-classic-mac-source-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 4421034,
+        "C++": 1672978,
+        "Python": 101724,
+        "Objective-C": 23080,
+        "JavaScript": 16633,
+        "GLSL": 15814,
+        "CMake": 11012,
+        "Makefile": 6238,
+        "PEG.js": 3008,
+        "HTML": 2192,
+        "Shell": 1193,
+        "PowerShell": 353
+      },
+      "evidence_url": "https://api.github.com/repos/avaraline/Avara/languages",
+      "evidence": "Official GitHub repository Languages endpoint byte counts; the predominant language is the largest reported total. These repository-level counts include recognized non-runtime content such as build tooling or vendored source and do not isolate only the implementation code.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "billy-frontier-classic-mac-source-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 1202154,
+        "C++": 287390,
+        "Python": 19036,
+        "CMake": 12084,
+        "Rez": 2080,
+        "Shell": 1339
+      },
+      "evidence_url": "https://api.github.com/repos/jorio/BillyFrontier/languages",
+      "evidence": "Official GitHub repository Languages endpoint byte counts; the predominant language is the largest reported total. These repository-level counts include recognized non-runtime content such as build tooling or vendored source and do not isolate only the implementation code.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "bugdom2-classic-mac-source-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 1918657,
+        "Python": 22531,
+        "CMake": 11897,
+        "C++": 4359,
+        "Shell": 1339
+      },
+      "evidence_url": "https://api.github.com/repos/jorio/Bugdom2/languages",
+      "evidence": "Official GitHub repository Languages endpoint byte counts; the predominant language is the largest reported total. These repository-level counts include recognized non-runtime content such as build tooling or vendored source and do not isolate only the implementation code.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "cave-story-ds-native-port",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 1898757,
+        "C": 820020,
+        "Python": 20008,
+        "Makefile": 13773,
+        "Shell": 1716
+      },
+      "evidence_url": "https://api.github.com/repos/tilderain/CaveStoryNDS/languages",
+      "evidence": "Official GitHub REST Languages endpoint byte counts fetched 2026-10-16; the predominant language is the largest reported total. Repository-level counts can include build tooling, vendored code, and other recognized content, so they do not isolate implementation code.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "conker-bad-fur-day-vita-recomp",
+      "predominant_language": null,
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/HenryKun55/conker-vita/languages",
+      "evidence": "Official GitHub REST Languages endpoint returned an empty language map on 2026-10-16.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": "The official GitHub Languages API returned an empty object; no language totals were reported."
+    },
+    {
+      "project_id": "donkey-kong-64-decomp",
+      "predominant_language": null,
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://gitlab.com/dk64_decomp/dk64",
+      "evidence": "The project URL is GitLab-hosted, so a GitHub repository Languages endpoint does not apply. No language was assigned from a non-GitHub endpoint.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": "The project is hosted on GitLab; no GitHub Languages API endpoint applies, and this pass did not infer a language from another service."
+    },
+    {
+      "project_id": "dqmj1-nds-decomp",
+      "predominant_language": "Assembly",
+      "language_breakdown_bytes": {
+        "Assembly": 20213347,
+        "C": 6814542,
+        "Python": 504170,
+        "Java": 30417,
+        "Shell": 13160,
+        "JavaScript": 10135
+      },
+      "evidence_url": "https://api.github.com/repos/FantasmaGlad/DQMJ1_Ultimate_Decompilation/languages",
+      "evidence": "Official GitHub REST Languages endpoint byte counts fetched 2026-10-16; the predominant language is the largest reported total. Repository-level counts can include build tooling, vendored code, and other recognized content, so they do not isolate implementation code.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "final-fantasy-iv-ii-snes-disassembly",
+      "predominant_language": "Assembly",
+      "language_breakdown_bytes": {
+        "Assembly": 4335606,
+        "JavaScript": 139981,
+        "Makefile": 7182,
+        "Pascal": 6584
+      },
+      "evidence_url": "https://api.github.com/repos/everything8215/ff4/languages",
+      "evidence": "Official GitHub REST Languages endpoint byte counts fetched 2026-10-16; the predominant language is the largest reported total. Repository-level counts can include build tooling, vendored code, and other recognized content, so they do not isolate implementation code.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "jet-grind-radio-psp-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 4125302,
+        "Python": 2207680,
+        "C++": 1435285,
+        "JavaScript": 91113,
+        "Lua": 67356,
+        "CSS": 13977,
+        "HTML": 8285,
+        "Makefile": 7965,
+        "Assembly": 6037
+      },
+      "evidence_url": "https://api.github.com/repos/beckerd/psp_jgr_portable/languages",
+      "evidence": "Official GitHub REST Languages endpoint byte counts fetched 2026-10-16; the predominant language is the largest reported total. Repository-level counts can include build tooling, vendored code, and other recognized content, so they do not isolate implementation code.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "mario-kart-64-vita-kart64",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 18979317,
+        "C++": 14176805,
+        "Python": 408689,
+        "CMake": 227270,
+        "Objective-C++": 130685,
+        "Makefile": 34714,
+        "Shell": 22876,
+        "HLSL": 22256,
+        "Objective-C": 20283,
+        "GLSL": 19223,
+        "Metal": 19049,
+        "Meson": 17153,
+        "Batchfile": 8242,
+        "Dockerfile": 3804,
+        "Lua": 3108,
+        "HTML": 2264,
+        "Kotlin": 1513,
+        "BitBake": 947,
+        "GDB": 555
+      },
+      "evidence_url": "https://api.github.com/repos/TheGh0stShip/VitaKart64/languages",
+      "evidence": "Official GitHub REST Languages endpoint byte counts fetched 2026-10-16; the predominant language is the largest reported total. Repository-level counts can include build tooling, vendored code, and other recognized content, so they do not isolate implementation code.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "nanosaur-classic-mac-source-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 698121,
+        "Python": 18672,
+        "CMake": 11968,
+        "C++": 7140,
+        "Shell": 325
+      },
+      "evidence_url": "https://api.github.com/repos/jorio/Nanosaur/languages",
+      "evidence": "Official GitHub repository Languages endpoint byte counts; the predominant language is the largest reported total. These repository-level counts include recognized non-runtime content such as build tooling or vendored source and do not isolate only the implementation code.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "nanosaur2-classic-mac-source-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 1648548,
+        "C++": 287375,
+        "Python": 33434,
+        "CMake": 11929,
+        "Shell": 1731
+      },
+      "evidence_url": "https://api.github.com/repos/jorio/Nanosaur2/languages",
+      "evidence": "Official GitHub repository Languages endpoint byte counts; the predominant language is the largest reported total. These repository-level counts include recognized non-runtime content such as build tooling or vendored source and do not isolate only the implementation code.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "pomme-classic-mac-api",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 471612,
+        "C": 151825,
+        "CMake": 5090
+      },
+      "evidence_url": "https://api.github.com/repos/jorio/Pomme/languages",
+      "evidence": "Official GitHub repository Languages endpoint byte counts; the predominant language is the largest reported total. These repository-level counts include recognized non-runtime content such as build tooling or vendored source and do not isolate only the implementation code.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "quesa-quickdraw3d-reimplementation",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 7647059,
+        "C": 2710229,
+        "Rez": 500291,
+        "Perl": 447153,
+        "Objective-C": 361637,
+        "Shell": 344248,
+        "Roff": 333591,
+        "Objective-C++": 268176,
+        "Makefile": 75101,
+        "HTML": 23302,
+        "M4": 6749,
+        "POV-Ray SDL": 1727,
+        "Rich Text Format": 1365,
+        "Batchfile": 308
+      },
+      "evidence_url": "https://api.github.com/repos/jwwalker/Quesa/languages",
+      "evidence": "Official GitHub repository Languages endpoint byte counts; the predominant language is the largest reported total. These repository-level counts include recognized non-runtime content such as build tooling or vendored source and do not isolate only the implementation code.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "rocket-robot-on-wheels-decomp",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 1514571,
+        "C++": 627817,
+        "Python": 65651,
+        "Makefile": 8888,
+        "Shell": 1209
+      },
+      "evidence_url": "https://api.github.com/repos/RocketRet/Rocket-Robot-On-Wheels/languages",
+      "evidence": "Official GitHub REST Languages endpoint byte counts fetched 2026-10-16; the predominant language is the largest reported total. Repository-level counts can include build tooling, vendored code, and other recognized content, so they do not isolate implementation code.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "sonic-advance-2-vita-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 20710287,
+        "Assembly": 3867931,
+        "Makefile": 160476,
+        "C++": 99489,
+        "Python": 2681,
+        "Dockerfile": 703,
+        "Shell": 492
+      },
+      "evidence_url": "https://api.github.com/repos/HiroStuff/sa2/languages",
+      "evidence": "Official GitHub REST Languages endpoint byte counts fetched 2026-10-16; the predominant language is the largest reported total. Repository-level counts can include build tooling, vendored code, and other recognized content, so they do not isolate implementation code.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "super-mario-bros-nes-vita-static-recomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 974674,
+        "Yacc": 8882,
+        "Lex": 2564,
+        "CMake": 1923
+      },
+      "evidence_url": "https://api.github.com/repos/Gustavo3211/SuperMarioBros-C-Vita/languages",
+      "evidence": "Official GitHub REST Languages endpoint byte counts fetched 2026-10-16; the predominant language is the largest reported total. Repository-level counts can include build tooling, vendored code, and other recognized content, so they do not isolate implementation code.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "switchyard-wine-apple-silicon",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 234670384,
+        "C++": 39241476,
+        "Python": 12129188,
+        "Shell": 1627076,
+        "Assembly": 1521055,
+        "Perl": 1128332,
+        "Yacc": 899263,
+        "JavaScript": 862883,
+        "Objective-C": 611966,
+        "VBScript": 328256,
+        "Makefile": 291427,
+        "Batchfile": 171451,
+        "Roff": 162205,
+        "M4": 157113,
+        "Ruby": 106865,
+        "Pawn": 106336,
+        "Lex": 72179,
+        "HTML": 38176,
+        "Java": 34763,
+        "HLSL": 13096,
+        "C#": 3780,
+        "XSLT": 544,
+        "CSS": 169,
+        "GLSL": 27
+      },
+      "evidence_url": "https://api.github.com/repos/jungwuk-ryu/switchyard-wine/languages",
+      "evidence": "Official GitHub repository Languages endpoint byte counts; the predominant language is the largest reported total. These repository-level counts include recognized non-runtime content such as build tooling or vendored source and do not isolate only the implementation code.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "vice-city-stories-switch-vcsnx",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 520152,
+        "C#": 179822,
+        "Python": 81160,
+        "CMake": 37820,
+        "Shell": 24023,
+        "C": 3523,
+        "Assembly": 213
+      },
+      "evidence_url": "https://api.github.com/repos/fsalamancar/VCSNX/languages",
+      "evidence": "Official GitHub REST Languages endpoint byte counts fetched 2026-10-16; the predominant language is the largest reported total. Repository-level counts can include build tooling, vendored code, and other recognized content, so they do not isolate implementation code.",
+      "verified_at": "2026-10-16"
+    }
+  ]
+}

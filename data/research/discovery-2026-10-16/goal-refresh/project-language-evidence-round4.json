@@ -1,0 +1,3925 @@
+{
+  "verified_at": "2026-10-16",
+  "scope": "Import-ready language evidence for the 298 already-imported round-2 projects. This fills the evidence-table gap without inventing byte totals; unknowns remain explicit.",
+  "records": [
+    {
+      "project_id": "nfsmw-android-evolved",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "Batchfile": 4560,
+        "C": 13534433,
+        "C++": 12438271,
+        "CMake": 127260,
+        "GLSL": 13299,
+        "HLSL": 6177,
+        "HTML": 115,
+        "Java": 151606,
+        "JavaScript": 417699,
+        "Linker Script": 44815,
+        "Pawn": 1111,
+        "PowerShell": 7331,
+        "Python": 104056,
+        "Shell": 11587,
+        "SourcePawn": 967
+      },
+      "evidence_url": "https://api.github.com/repos/codepdbh/nfsmw-android/languages",
+      "evidence": "GitHub's endpoint returns 13,534,433 C bytes (50.4% of 26,863,287 classified bytes), the largest category, followed by C++ at 12,438,271 bytes (46.3%). The repo README says the game code runs as recompiled C++; the C classification is repository-wide and can include native SDK/application components.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "sonic-2006-marathon-android-recomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "Batchfile": 39,
+        "C": 20442,
+        "C++": 2172757,
+        "CMake": 53728,
+        "HLSL": 25628,
+        "Java": 294009,
+        "Metal": 24041,
+        "Shell": 15123
+      },
+      "evidence_url": "https://api.github.com/repos/Player124413/MarathonRecomp_android-test-edition/languages",
+      "evidence": "GitHub's endpoint returns 2,172,757 C++ bytes (83.4% of 2,605,767 classified bytes), substantially more than Java at 294,009 bytes.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "skate-3-mobile-android",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C": 840,
+        "C++": 5714846,
+        "CMake": 29844,
+        "HLSL": 194670,
+        "Java": 426336,
+        "Objective-C++": 2651,
+        "Python": 46985,
+        "Shell": 17937
+      },
+      "evidence_url": "https://api.github.com/repos/Buku313/Skate3-Mobile/languages",
+      "evidence": "GitHub's endpoint returns 5,714,846 C++ bytes (88.8% of 6,434,109 classified bytes), the largest category, followed by Java at 426,336 bytes and HLSL at 194,670 bytes.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "ace-combat-04-ps2-windows-static-recomp",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 1699190,
+        "Python": 377360,
+        "C++": 47850,
+        "GLSL": 30182,
+        "PowerShell": 20994,
+        "CMake": 8432,
+        "Batchfile": 492
+      },
+      "evidence_url": "https://api.github.com/repos/SatyaSujitPasupuleti/Ace-Combat-04-Static-Recompilation/languages",
+      "evidence": "Official GitHub REST Languages API byte totals for this canonical repository; C is largest. Counts are repository-wide and can include build/tooling code.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "1080-snowboarding-n64-matching-decomp",
+      "predominant_language": "Assembly",
+      "language_breakdown_bytes": {
+        "Assembly": 10845274,
+        "C": 6257341,
+        "Python": 472673,
+        "Makefile": 166208,
+        "Rust": 99578,
+        "Linker Script": 57313,
+        "C++": 22067,
+        "Shell": 19866,
+        "BitBake": 5951,
+        "OpenEdge ABL": 1365
+      },
+      "evidence_url": "https://api.github.com/repos/djsaunde/1080-decomp/languages",
+      "evidence": "Official GitHub REST Languages API byte totals for this canonical repository; Assembly is largest. Counts are repository-wide and can include build/tooling code.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "ridge-racer-type-4-ps1-native-recomp",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 67318817,
+        "Python": 311516,
+        "Shell": 28903,
+        "CMake": 14988,
+        "C++": 8769,
+        "Batchfile": 1366
+      },
+      "evidence_url": "https://api.github.com/repos/tetrisgm/RidgeRacerType4Recomp/languages",
+      "evidence": "Official GitHub REST Languages API byte totals for this canonical repository; C is largest. Counts are repository-wide and can include build/tooling code.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "nascar-rumble-ps1-matching-decomp",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Python": 154046,
+        "C#": 90892,
+        "TypeScript": 49917,
+        "Astro": 42458,
+        "CSS": 27296,
+        "Makefile": 4976,
+        "C": 4878,
+        "Linker Script": 3132,
+        "Dockerfile": 2370,
+        "Lua": 1636,
+        "JavaScript": 373
+      },
+      "evidence_url": "https://api.github.com/repos/andreigor17/nascar-rumble-modsdk/languages",
+      "evidence": "Official GitHub REST Languages API byte totals for this canonical repository; Python is largest. Counts are repository-wide and can include build/tooling code.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "comet-crash-ps3-native-source-recovery",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Python": 294409,
+        "C++": 94994,
+        "CMake": 6515,
+        "Batchfile": 5703,
+        "C": 323
+      },
+      "evidence_url": "https://api.github.com/repos/Stylish-Dark/Comet-Crash-1-Decomp/languages",
+      "evidence": "Official GitHub REST Languages API byte totals for this canonical repository; Python is largest. Counts are repository-wide and can include build/tooling code.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "another-mind-ps1-matching-decomp",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 192982,
+        "Python": 77526,
+        "Go": 52673,
+        "Makefile": 1649,
+        "BitBake": 984,
+        "PHP": 188,
+        "Shell": 46
+      },
+      "evidence_url": "https://api.github.com/repos/halkuncode/anothermind-decomp/languages",
+      "evidence": "Official GitHub REST Languages API byte totals for this canonical repository; C is largest. Counts are repository-wide and can include build/tooling code.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "gran-turismo-2-ps1-hybrid-recomp-samiul",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 54231717,
+        "Python": 151838,
+        "CMake": 9883
+      },
+      "evidence_url": "https://api.github.com/repos/SamiulH25/gt2-recomp/languages",
+      "evidence": "Official GitHub REST Languages API byte totals for this canonical repository; C is largest. Counts are repository-wide and can include build/tooling code.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "pops-ps2-ps1-emulator-decompilation",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 1865658
+      },
+      "evidence_url": "https://api.github.com/repos/Gageformer/Open-Source-Pops/languages",
+      "evidence": "Official GitHub REST Languages API byte totals for this canonical repository; C is largest. Counts are repository-wide and can include build/tooling code.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "blue-reflection-quartet-english-retranslation",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Python": 10307540,
+        "Go": 1781868,
+        "Shell": 631816
+      },
+      "evidence_url": "https://api.github.com/repos/rsc-pl/Blue-Reflection-Quartet-Uncensor-Restore-Translation-Unburger-Mod/languages",
+      "evidence": "Official GitHub REST Languages API byte totals for this canonical repository; Python is largest. Counts are repository-wide and can include build/tooling code.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "vkmt-arm64-wine-fex-macos",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 364644,
+        "Shell": 222962,
+        "Java": 60588,
+        "Rust": 9549,
+        "JavaScript": 7807,
+        "Python": 6542,
+        "CMake": 1263,
+        "NSIS": 912,
+        "Inno Setup": 482,
+        "C++": 435
+      },
+      "evidence_url": "https://api.github.com/repos/metalsharp/VKMT-Wine/languages",
+      "evidence": "Official GitHub REST Languages API byte counts for metalsharp/VKMT-Wine: {\"C\":364644,\"C++\":435,\"CMake\":1263,\"Inno Setup\":482,\"Java\":60588,\"JavaScript\":7807,\"NSIS\":912,\"Python\":6542,\"Rust\":9549,\"Shell\":222962}. C is the largest repository-wide category; this aggregate includes upstream or build/tooling files in source forks and is not a measure of the newly authored patch alone.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "dxvk-macos-metalsharp-v31",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 7576723,
+        "C": 161185,
+        "GLSL": 84457,
+        "Meson": 21432,
+        "Shell": 8866,
+        "Python": 5405
+      },
+      "evidence_url": "https://api.github.com/repos/metalsharp/DXVK-MacOS/languages",
+      "evidence": "Official GitHub REST Languages API byte counts for metalsharp/DXVK-MacOS: {\"C\":161185,\"C++\":7576723,\"GLSL\":84457,\"Meson\":21432,\"Python\":5405,\"Shell\":8866}. C++ is the largest repository-wide category; this aggregate includes upstream or build/tooling files in source forks and is not a measure of the newly authored patch alone.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "wineforge-macos-wine-runtime",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 244307650,
+        "C++": 84742930,
+        "Python": 11869140,
+        "Assembly": 1716234,
+        "Perl": 1127043,
+        "C#": 1086377,
+        "Yacc": 900691,
+        "JavaScript": 872871,
+        "Objective-C": 368637,
+        "VBScript": 336721,
+        "Makefile": 301999,
+        "Batchfile": 172267,
+        "Roff": 155180,
+        "M4": 152954,
+        "Ruby": 107286,
+        "Pawn": 106336,
+        "Lex": 72179,
+        "HTML": 37131,
+        "Java": 34763,
+        "HLSL": 13096,
+        "Shell": 7830,
+        "XSLT": 544,
+        "CSS": 169,
+        "GLSL": 27
+      },
+      "evidence_url": "https://api.github.com/repos/Alien4042x/WineForge/languages",
+      "evidence": "Official GitHub REST Languages API byte counts for Alien4042x/WineForge: {\"Assembly\":1716234,\"Batchfile\":172267,\"C\":244307650,\"C#\":1086377,\"C++\":84742930,\"CSS\":169,\"GLSL\":27,\"HLSL\":13096,\"HTML\":37131,\"Java\":34763,\"JavaScript\":872871,\"Lex\":72179,\"M4\":152954,\"Makefile\":301999,\"Objective-C\":368637,\"Pawn\":106336,\"Perl\":1127043,\"Python\":11869140,\"Roff\":155180,\"Ruby\":107286,\"Shell\":7830,\"VBScript\":336721,\"XSLT\":544,\"Yacc\":900691}. C is the largest repository-wide category; this aggregate includes upstream or build/tooling files in source forks and is not a measure of the newly authored patch alone.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "swingby-wine-apple-silicon",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 193506743,
+        "C++": 18633664,
+        "Python": 11497420,
+        "Perl": 1068352,
+        "Yacc": 865866,
+        "JavaScript": 755948,
+        "Objective-C": 359708,
+        "Makefile": 241402,
+        "VBScript": 190624,
+        "Roff": 155578,
+        "Batchfile": 155131,
+        "M4": 149682,
+        "Ruby": 117512,
+        "Pawn": 101120,
+        "Lex": 75635,
+        "HTML": 36706,
+        "Java": 33962,
+        "Shell": 30010,
+        "HLSL": 13096,
+        "C#": 3780,
+        "XSLT": 544,
+        "GLSL": 27
+      },
+      "evidence_url": "https://api.github.com/repos/tsukasa-art/swingby-wine/languages",
+      "evidence": "Official GitHub REST Languages API byte counts for tsukasa-art/swingby-wine: {\"Batchfile\":155131,\"C\":193506743,\"C#\":3780,\"C++\":18633664,\"GLSL\":27,\"HLSL\":13096,\"HTML\":36706,\"Java\":33962,\"JavaScript\":755948,\"Lex\":75635,\"M4\":149682,\"Makefile\":241402,\"Objective-C\":359708,\"Pawn\":101120,\"Perl\":1068352,\"Python\":11497420,\"Roff\":155578,\"Ruby\":117512,\"Shell\":30010,\"VBScript\":190624,\"XSLT\":544,\"Yacc\":865866}. C is the largest repository-wide category; this aggregate includes upstream or build/tooling files in source forks and is not a measure of the newly authored patch alone.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "swingby-dxvk-moltenvk-32bit-d3d9",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 5583200,
+        "C": 32969,
+        "GLSL": 24627,
+        "Meson": 21404,
+        "Shell": 3801
+      },
+      "evidence_url": "https://api.github.com/repos/tsukasa-art/swingby-dxvk/languages",
+      "evidence": "Official GitHub REST Languages API byte counts for tsukasa-art/swingby-dxvk: {\"C\":32969,\"C++\":5583200,\"GLSL\":24627,\"Meson\":21404,\"Shell\":3801}. C++ is the largest repository-wide category; this aggregate includes upstream or build/tooling files in source forks and is not a measure of the newly authored patch alone.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "dx9mt-d3d9-to-metal-fallout-new-vegas",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 456393,
+        "Objective-C": 169244,
+        "C++": 11678,
+        "Makefile": 10961,
+        "Python": 6432
+      },
+      "evidence_url": "https://api.github.com/repos/theodorechapman/dx9mt/languages",
+      "evidence": "Official GitHub REST Languages API byte counts for theodorechapman/dx9mt: {\"C\":456393,\"C++\":11678,\"Makefile\":10961,\"Objective-C\":169244,\"Python\":6432}. C is the largest repository-wide category; this aggregate includes upstream or build/tooling files in source forks and is not a measure of the newly authored patch alone.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "vkd3d-proton-macos-metalsharp",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 410597,
+        "Objective-C++": 86430,
+        "Shell": 83644,
+        "Makefile": 7070,
+        "HLSL": 3418,
+        "Objective-C": 2476,
+        "GLSL": 509,
+        "Metal": 340
+      },
+      "evidence_url": "https://api.github.com/repos/metalsharp/VKD3D-Proton-MacOS/languages",
+      "evidence": "Official GitHub REST Languages API byte counts for metalsharp/VKD3D-Proton-MacOS: {\"C\":410597,\"GLSL\":509,\"HLSL\":3418,\"Makefile\":7070,\"Metal\":340,\"Objective-C\":2476,\"Objective-C++\":86430,\"Shell\":83644}. C is the largest repository-wide category; this aggregate includes upstream or build/tooling files in source forks and is not a measure of the newly authored patch alone.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "d3dmetal-native-host-adapter",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 4385332,
+        "C++": 1237450,
+        "Objective-C++": 240874,
+        "Meson": 29846,
+        "Objective-C": 18039,
+        "LLVM": 4925,
+        "HLSL": 3320
+      },
+      "evidence_url": "https://api.github.com/repos/utmapp/d3dmetal-native/languages",
+      "evidence": "Official GitHub REST Languages API byte counts for utmapp/d3dmetal-native: {\"C\":4385332,\"C++\":1237450,\"HLSL\":3320,\"LLVM\":4925,\"Meson\":29846,\"Objective-C\":18039,\"Objective-C++\":240874}. C is the largest repository-wide category; this aggregate includes upstream or build/tooling files in source forks and is not a measure of the newly authored patch alone.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "winerosetta-wow-instruction-shim",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 5436,
+        "CMake": 1290
+      },
+      "evidence_url": "https://api.github.com/repos/Gcenx/winerosetta/languages",
+      "evidence": "Official GitHub REST Languages API byte counts for Gcenx/winerosetta: {\"C++\":5436,\"CMake\":1290}. C++ is the largest repository-wide category; this aggregate includes upstream or build/tooling files in source forks and is not a measure of the newly authored patch alone.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "tolkara-macos-app-runtime-ios",
+      "predominant_language": "Objective-C",
+      "language_breakdown_bytes": {
+        "Objective-C": 1026217,
+        "C": 621957,
+        "Swift": 533846,
+        "Python": 384047,
+        "Shell": 122984,
+        "Assembly": 14965,
+        "C++": 6251
+      },
+      "evidence_url": "https://api.github.com/repos/tolkara/tolkara/languages",
+      "evidence": "Official GitHub REST Languages API byte counts for tolkara/tolkara: {\"Assembly\":14965,\"C\":621957,\"C++\":6251,\"Objective-C\":1026217,\"Python\":384047,\"Shell\":122984,\"Swift\":533846}. Objective-C is the largest repository-wide category.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "ratchet-clank-ps2-native-pc",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 10146973,
+        "Python": 503749,
+        "Shell": 56518,
+        "CMake": 32495,
+        "PowerShell": 8361,
+        "Batchfile": 3093
+      },
+      "evidence_url": "https://api.github.com/repos/daino-selvatico/rac1-native-game/languages",
+      "evidence": "GitHub's official Languages API reports C++: 10,146,973 bytes, Python: 503,749 bytes, Shell: 56,518 bytes, CMake: 32,495 bytes, PowerShell: 8,361 bytes, Batchfile: 3,093 bytes. C++ is the largest repository-wide byte total; this does not imply that generated game code or platform-specific runtime code is written only in that language.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "budokai-tenkaichi-3-native-pc-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 13174638,
+        "Python": 336106,
+        "C++": 252346,
+        "Assembly": 212004,
+        "JavaScript": 66762,
+        "GLSL": 24801,
+        "Shell": 7111,
+        "Dockerfile": 3363,
+        "BitBake": 2625,
+        "Linker Script": 672
+      },
+      "evidence_url": "https://api.github.com/repos/z3xox/Tenkaichi3Decomp/languages",
+      "evidence": "GitHub's official Languages API reports C: 13,174,638 bytes, Python: 336,106 bytes, C++: 252,346 bytes, Assembly: 212,004 bytes, JavaScript: 66,762 bytes, GLSL: 24,801 bytes, Shell: 7,111 bytes, Dockerfile: 3,363 bytes, BitBake: 2,625 bytes, Linker Script: 672 bytes. C is the largest repository-wide byte total; this does not imply that generated game code or platform-specific runtime code is written only in that language.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "saints-row-xbox360-windows-recomp-saintsreborn",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 1644636,
+        "NASL": 125959,
+        "Rust": 115743,
+        "Lua": 61604,
+        "Python": 44862,
+        "C#": 33045,
+        "PowerShell": 27772,
+        "JavaScript": 25254,
+        "CMake": 14833,
+        "C": 11545,
+        "Batchfile": 197
+      },
+      "evidence_url": "https://api.github.com/repos/whompay/SaintsReborn/languages",
+      "evidence": "GitHub's official Languages API reports C++: 1,644,636 bytes, NASL: 125,959 bytes, Rust: 115,743 bytes, Lua: 61,604 bytes, Python: 44,862 bytes, C#: 33,045 bytes, PowerShell: 27,772 bytes, JavaScript: 25,254 bytes, CMake: 14,833 bytes, C: 11,545 bytes, Batchfile: 197 bytes. C++ is the largest repository-wide byte total; this does not imply that generated game code or platform-specific runtime code is written only in that language.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "saints-row-xbox360-windows-recomp-sp00nznet",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 257039,
+        "CMake": 31394,
+        "C": 128
+      },
+      "evidence_url": "https://api.github.com/repos/sp00nznet/saintsrow/languages",
+      "evidence": "GitHub's official Languages API reports C++: 257,039 bytes, CMake: 31,394 bytes, C: 128 bytes. C++ is the largest repository-wide byte total; this does not imply that generated game code or platform-specific runtime code is written only in that language.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "blake-stone-vita-source-port",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 1815735,
+        "CMake": 19389,
+        "C": 7749
+      },
+      "evidence_url": "https://api.github.com/repos/01y/bstone-vita/languages",
+      "evidence": "GitHub's official Languages API reports C++: 1,815,735 bytes, CMake: 19,389 bytes, C: 7,749 bytes. C++ is the largest repository-wide byte total; this does not imply that generated game code or platform-specific runtime code is written only in that language.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "simpsons-hit-and-run-switch-vita-source-port",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 26304204,
+        "C": 1487184,
+        "CMake": 46380,
+        "GLSL": 25357,
+        "Assembly": 17042,
+        "Batchfile": 2632,
+        "Makefile": 262
+      },
+      "evidence_url": "https://api.github.com/repos/ZenoArrows/The-Simpsons-Hit-and-Run/languages",
+      "evidence": "GitHub's official Languages API reports C++: 26,304,204 bytes, C: 1,487,184 bytes, CMake: 46,380 bytes, GLSL: 25,357 bytes, Assembly: 17,042 bytes, Batchfile: 2,632 bytes, Makefile: 262 bytes. C++ is the largest repository-wide byte total; this does not imply that generated game code or platform-specific runtime code is written only in that language.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "perfect-dark-psp-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 14723332,
+        "Linker Script": 696355,
+        "C++": 687096,
+        "Python": 665163,
+        "Assembly": 390238,
+        "CMake": 30321,
+        "Shell": 3865,
+        "Makefile": 121,
+        "BitBake": 59,
+        "PHP": 57
+      },
+      "evidence_url": "https://api.github.com/repos/z2442/perfect_dark-PSP/languages",
+      "evidence": "GitHub's official Languages API reports C: 14,723,332 bytes, Linker Script: 696,355 bytes, C++: 687,096 bytes, Python: 665,163 bytes, Assembly: 390,238 bytes, CMake: 30,321 bytes, Shell: 3,865 bytes, Makefile: 121 bytes, BitBake: 59 bytes, PHP: 57 bytes. C is the largest repository-wide byte total; this does not imply that generated game code or platform-specific runtime code is written only in that language.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "nhl-legacy-xbox360-pc-static-recomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 1641126,
+        "Python": 207196,
+        "PowerShell": 92830,
+        "Rust": 32755,
+        "CMake": 18628,
+        "Batchfile": 16692,
+        "C": 11810,
+        "HLSL": 1927
+      },
+      "evidence_url": "https://api.github.com/repos/puckhead73/nhl-legacy-recomp/languages",
+      "evidence": "GitHub's official Languages API reports C++: 1,641,126 bytes, Python: 207,196 bytes, PowerShell: 92,830 bytes, Rust: 32,755 bytes, CMake: 18,628 bytes, Batchfile: 16,692 bytes, C: 11,810 bytes, HLSL: 1,927 bytes. C++ is the largest repository-wide byte total; this does not imply that generated game code or platform-specific runtime code is written only in that language.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "crackdown-2-xbox360-pc-recomp",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Python": 20037,
+        "C++": 5736,
+        "CMake": 3690
+      },
+      "evidence_url": "https://api.github.com/repos/matty45/Crackdown2-Recomp/languages",
+      "evidence": "GitHub's official Languages API reports Python: 20,037 bytes, C++: 5,736 bytes, CMake: 3,690 bytes. Python is the largest repository-wide byte total; this does not imply that generated game code or platform-specific runtime code is written only in that language.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "budokai-hd-xbox360-recomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 7797,
+        "CMake": 2398
+      },
+      "evidence_url": "https://api.github.com/repos/WistfulHopes/DBZ1/languages",
+      "evidence": "GitHub's official Languages API reports C++: 7,797 bytes, CMake: 2,398 bytes. C++ is the largest repository-wide byte total; this does not imply that generated game code or platform-specific runtime code is written only in that language.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "raging-blast-2-xbox360-recomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 60511,
+        "CMake": 2997
+      },
+      "evidence_url": "https://api.github.com/repos/WistfulHopes/RB2/languages",
+      "evidence": "GitHub's official Languages API reports C++: 60,511 bytes, CMake: 2,997 bytes. C++ is the largest repository-wide byte total; this does not imply that generated game code or platform-specific runtime code is written only in that language.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "halo-3-delta-cache-release-recomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 215915,
+        "C": 155880,
+        "CMake": 3087,
+        "Batchfile": 167
+      },
+      "evidence_url": "https://api.github.com/repos/twist84/halo3_cache_release_recomp/languages",
+      "evidence": "GitHub's official Languages API reports C++: 215,915 bytes, C: 155,880 bytes, CMake: 3,087 bytes, Batchfile: 167 bytes. C++ is the largest repository-wide byte total; this does not imply that generated game code or platform-specific runtime code is written only in that language.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "goldeneye-007-xbla-remaster-recomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 9441011,
+        "C": 9238936,
+        "CMake": 846114,
+        "PowerShell": 183821,
+        "Python": 41555,
+        "Shell": 31340,
+        "Objective-C": 11505,
+        "Dockerfile": 3434,
+        "Batchfile": 1780,
+        "Qt Script": 1661,
+        "Nix": 924
+      },
+      "evidence_url": "https://api.github.com/repos/Fable2Recomp/beanRecomp/languages",
+      "evidence": "GitHub's official Languages API reports C++: 9,441,011 bytes, C: 9,238,936 bytes, CMake: 846,114 bytes, PowerShell: 183,821 bytes, Python: 41,555 bytes, Shell: 31,340 bytes, Objective-C: 11,505 bytes, Dockerfile: 3,434 bytes, Batchfile: 1,780 bytes, Qt Script: 1,661 bytes, Nix: 924 bytes. C++ is the largest repository-wide byte total; this does not imply that generated game code or platform-specific runtime code is written only in that language.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "skate-2-xbox360-recomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 291167,
+        "Python": 3430,
+        "CMake": 2246,
+        "Batchfile": 256
+      },
+      "evidence_url": "https://api.github.com/repos/Skate-2-Team/sk82-recomp/languages",
+      "evidence": "GitHub's official Languages API reports C++: 291,167 bytes, Python: 3,430 bytes, CMake: 2,246 bytes, Batchfile: 256 bytes. C++ is the largest repository-wide byte total; this does not imply that generated game code or platform-specific runtime code is written only in that language.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "test-drive-unlimited-xbox360-recomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 1531315,
+        "HLSL": 32677,
+        "CMake": 28300,
+        "Python": 7641,
+        "C": 5463,
+        "Batchfile": 84
+      },
+      "evidence_url": "https://api.github.com/repos/testdriveupgrade/TDURecomp/languages",
+      "evidence": "GitHub's official Languages API reports C++: 1,531,315 bytes, HLSL: 32,677 bytes, CMake: 28,300 bytes, Python: 7,641 bytes, C: 5,463 bytes, Batchfile: 84 bytes. C++ is the largest repository-wide byte total; this does not imply that generated game code or platform-specific runtime code is written only in that language.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "super-hexagon-android-vita-api-translation",
+      "predominant_language": null,
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/mcallbosco/super-hexagon-vita/languages",
+      "evidence": "The public GitHub Languages API request returned an HTTP 403 rate-limit response during this review; no language is inferred from filenames or the README.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": "The public GitHub Languages API request returned an HTTP 403 rate-limit response during this review; no language is inferred from filenames or the README."
+    },
+    {
+      "project_id": "virtual-on-oratorio-tangram-xbla-recomp",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Python": 54492,
+        "C++": 24222,
+        "CMake": 2276
+      },
+      "evidence_url": "https://api.github.com/repos/sp00nznet/voot/languages",
+      "evidence": "GitHub's official Languages API reports Python: 54,492 bytes, C++: 24,222 bytes, CMake: 2,276 bytes. Python is the largest repository-wide byte total; this does not imply that generated game code or platform-specific runtime code is written only in that language.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "descent-mobile-android-ios",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 3883337,
+        "Objective-C": 29071,
+        "Java": 13612,
+        "CMake": 4102
+      },
+      "evidence_url": "https://api.github.com/repos/devint1/Descent-Mobile/languages",
+      "evidence": "Official GitHub repository language endpoint checked 2026-10-16 reports 3,883,337 bytes of C, the largest category (98.8% of 3,930,122 recognized language bytes). Repository-wide counts can include vendored/generated files; for the GZDoom project the map includes vendored engine code, while Chocolate Doom's committed native libraries are binaries and therefore are not counted as source languages.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "descent-ii-mobile",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 4430748,
+        "Objective-C": 30725,
+        "Java": 15363,
+        "CMake": 5693
+      },
+      "evidence_url": "https://api.github.com/repos/devint1/Descent2-Mobile/languages",
+      "evidence": "Official GitHub repository language endpoint checked 2026-10-16 reports 4,430,748 bytes of C, the largest category (98.8% of 4,482,529 recognized language bytes). Repository-wide counts can include vendored/generated files; for the GZDoom project the map includes vendored engine code, while Chocolate Doom's committed native libraries are binaries and therefore are not counted as source languages.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "rott94-android",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 16457043,
+        "C++": 2656257,
+        "Shell": 607239,
+        "Objective-C": 595756,
+        "Java": 383177,
+        "M4": 300741,
+        "CMake": 143345,
+        "Assembly": 71181,
+        "Makefile": 54974,
+        "Perl": 21609,
+        "JavaScript": 18010,
+        "PowerShell": 12820,
+        "HTML": 5687,
+        "Metal": 3796,
+        "Roff": 3003,
+        "Python": 2490,
+        "Batchfile": 1564
+      },
+      "evidence_url": "https://api.github.com/repos/h4mu/rott94/languages",
+      "evidence": "Official GitHub repository language endpoint checked 2026-10-16 reports 16,457,043 bytes of C, the largest category (77.1% of 21,338,692 recognized language bytes). Repository-wide counts can include vendored/generated files; for the GZDoom project the map includes vendored engine code, while Chocolate Doom's committed native libraries are binaries and therefore are not counted as source languages.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "duke-nukem-3d-eduke-ios",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 16307801,
+        "C": 8873126,
+        "Objective-C++": 162289,
+        "Makefile": 62571,
+        "Assembly": 60265,
+        "Python": 56187,
+        "Shell": 16991,
+        "Objective-C": 15605,
+        "GLSL": 6435,
+        "Roff": 3926,
+        "Ruby": 3221
+      },
+      "evidence_url": "https://api.github.com/repos/arjunkl/eDukeiOS/languages",
+      "evidence": "Official GitHub repository language endpoint checked 2026-10-16 reports 16,307,801 bytes of C++, the largest category (63.8% of 25,568,417 recognized language bytes). Repository-wide counts can include vendored/generated files; for the GZDoom project the map includes vendored engine code, while Chocolate Doom's committed native libraries are binaries and therefore are not counted as source languages.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "freedoom-android-gzdoom-2026",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 43796941,
+        "C++": 39090933,
+        "ZenScript": 2172796,
+        "Java": 2142911,
+        "Shell": 1363223,
+        "Kotlin": 834115,
+        "Makefile": 760293,
+        "CMake": 679553,
+        "M4": 649830,
+        "Objective-C": 597881,
+        "Assembly": 596124,
+        "Starlark": 262691,
+        "HTML": 246822,
+        "NASL": 216475,
+        "Yacc": 183419,
+        "Pawn": 179506,
+        "GLSL": 157027,
+        "Python": 132470,
+        "Objective-C++": 105267,
+        "Roff": 73103,
+        "SAS": 28396,
+        "WebAssembly": 28004,
+        "Go": 27816,
+        "Module Management System": 27388,
+        "Perl": 22722,
+        "JavaScript": 20898,
+        "Smalltalk": 20184,
+        "PowerShell": 12820,
+        "Batchfile": 10447,
+        "SWIG": 4538,
+        "Metal": 3796,
+        "Smarty": 3582,
+        "CSS": 2583,
+        "Linker Script": 352
+      },
+      "evidence_url": "https://api.github.com/repos/manuelsiuro/GZDoom-Android-2026/languages",
+      "evidence": "Official GitHub repository language endpoint checked 2026-10-16 reports 43,796,941 bytes of C, the largest category (46.4% of 94,454,906 recognized language bytes). Repository-wide counts can include vendored/generated files; for the GZDoom project the map includes vendored engine code, while Chocolate Doom's committed native libraries are binaries and therefore are not counted as source languages.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "slay-the-spire-2-ios-aot-toolchain",
+      "predominant_language": "C#",
+      "language_breakdown_bytes": {
+        "C#": 272653,
+        "Shell": 29471,
+        "HTML": 15421,
+        "Python": 11867
+      },
+      "evidence_url": "https://api.github.com/repos/jhaizhou-ops/sts2-ios/languages",
+      "evidence": "Official GitHub repository language endpoint checked 2026-10-16 reports 272,653 bytes of C#, the largest category (82.8% of 329,412 recognized language bytes). Repository-wide counts can include vendored/generated files; for the GZDoom project the map includes vendored engine code, while Chocolate Doom's committed native libraries are binaries and therefore are not counted as source languages.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "slay-the-spire-2-android-ekyso-launcher",
+      "predominant_language": "C#",
+      "language_breakdown_bytes": {
+        "C#": 276451,
+        "C": 77652,
+        "Java": 12898,
+        "Shell": 3660,
+        "Python": 3330
+      },
+      "evidence_url": "https://api.github.com/repos/Ekyso/StS2-Launcher/languages",
+      "evidence": "Official GitHub repository language endpoint checked 2026-10-16 reports 276,451 bytes of C#, the largest category (73.9% of 373,991 recognized language bytes). Repository-wide counts can include vendored/generated files; for the GZDoom project the map includes vendored engine code, while Chocolate Doom's committed native libraries are binaries and therefore are not counted as source languages.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "sts2-android-socialhummingbird-overhaul",
+      "predominant_language": "C#",
+      "language_breakdown_bytes": {
+        "C#": 2600536,
+        "Java": 482433,
+        "C": 78883,
+        "PowerShell": 77210,
+        "Shell": 8335,
+        "Python": 6483
+      },
+      "evidence_url": "https://api.github.com/repos/SocialHummingbird/StS2-Launcher-Overhaul/languages",
+      "evidence": "Official GitHub repository language endpoint checked 2026-10-16 reports 2,600,536 bytes of C#, the largest category (79.9% of 3,253,880 recognized language bytes). Repository-wide counts can include vendored/generated files; for the GZDoom project the map includes vendored engine code, while Chocolate Doom's committed native libraries are binaries and therefore are not counted as source languages.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "slay-the-spire-2-android-modin-launcher",
+      "predominant_language": "Java",
+      "language_breakdown_bytes": {
+        "Java": 2234600,
+        "Kotlin": 522690,
+        "Python": 161750,
+        "Shell": 82904,
+        "C#": 74185,
+        "C": 2905,
+        "CMake": 430
+      },
+      "evidence_url": "https://api.github.com/repos/ModinMobileSTS/Sts2MobileLauncher/languages",
+      "evidence": "Official GitHub repository language endpoint checked 2026-10-16 reports 2,234,600 bytes of Java, the largest category (72.6% of 3,079,464 recognized language bytes). Repository-wide counts can include vendored/generated files; for the GZDoom project the map includes vendored engine code, while Chocolate Doom's committed native libraries are binaries and therefore are not counted as source languages.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "chocolate-doom-android-port-canavarit",
+      "predominant_language": "Java",
+      "language_breakdown_bytes": {
+        "Java": 236334
+      },
+      "evidence_url": "https://api.github.com/repos/CanavarIT/Chocolate-doom-android-port/languages",
+      "evidence": "Official GitHub repository language endpoint checked 2026-10-16 reports 236,334 bytes of Java, the largest category (100.0% of 236,334 recognized language bytes). Repository-wide counts can include vendored/generated files; for the GZDoom project the map includes vendored engine code, while Chocolate Doom's committed native libraries are binaries and therefore are not counted as source languages.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "carmageddon-android-dethrace",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 8525322,
+        "Java": 217915,
+        "CMake": 48624,
+        "Python": 35903,
+        "GLSL": 7251,
+        "Shell": 1356
+      },
+      "evidence_url": "https://api.github.com/repos/mgrz18/dethrace-android/languages",
+      "evidence": "Official GitHub repository language endpoint checked 2026-10-16 reports 8,525,322 bytes of C, the largest category (96.5% of 8,836,371 recognized language bytes). Repository-wide counts can include vendored/generated files; for the GZDoom project the map includes vendored engine code, while Chocolate Doom's committed native libraries are binaries and therefore are not counted as source languages.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "luxon-photon-load-balancing-server",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 10230610,
+        "C++": 1624602,
+        "CMake": 59976,
+        "Java": 53866,
+        "HTML": 44642,
+        "Pawn": 12471,
+        "CSS": 3570,
+        "Shell": 324
+      },
+      "evidence_url": "https://api.github.com/repos/niansa/LuxonServer/languages",
+      "evidence": "Official GitHub Languages endpoint; C has the largest byte count in the repository snapshot.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "nsc-studio-switch-distribution-tool",
+      "predominant_language": "Rust",
+      "language_breakdown_bytes": {
+        "Rust": 265287,
+        "TypeScript": 143903,
+        "CSS": 5677,
+        "JavaScript": 4020,
+        "HTML": 297
+      },
+      "evidence_url": "https://api.github.com/repos/lpears0n/NSC-Studio/languages",
+      "evidence": "Official GitHub Languages endpoint; Rust has the largest byte count in the repository snapshot.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "openurma-unified-bus-protocol",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 988116,
+        "C": 324262,
+        "Python": 277261,
+        "TeX": 176831,
+        "Shell": 141017,
+        "Makefile": 1743
+      },
+      "evidence_url": "https://api.github.com/repos/bojieli/OpenURMA/languages",
+      "evidence": "Official GitHub Languages endpoint; C++ has the largest byte count in the repository snapshot.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "reprogman-windows-31-program-manager-clone",
+      "predominant_language": "C#",
+      "language_breakdown_bytes": {
+        "C#": 275892,
+        "PowerShell": 3429,
+        "Shell": 3131
+      },
+      "evidence_url": "https://api.github.com/repos/mayuki/ReProgman/languages",
+      "evidence": "Official GitHub Languages endpoint; C# has the largest byte count in the repository snapshot.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "liblzraven-apple-lzraven-codec",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 405378,
+        "Python": 293969,
+        "Makefile": 22817,
+        "Shell": 5718
+      },
+      "evidence_url": "https://api.github.com/repos/anat0m1a/liblzraven/languages",
+      "evidence": "Official GitHub Languages endpoint; C has the largest byte count in the repository snapshot.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "nextendo-nex-server-protocol-library",
+      "predominant_language": "Go",
+      "language_breakdown_bytes": {
+        "Go": 653428
+      },
+      "evidence_url": "https://api.github.com/repos/NextendoNetwork/nextendo-nex/languages",
+      "evidence": "Official GitHub Languages endpoint; Go is the only language reported in the repository snapshot.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "slowbooks-pro-quickbooks-2003-replacement",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Python": 6530901,
+        "JavaScript": 1733698,
+        "HTML": 182155,
+        "CSS": 111443,
+        "PowerShell": 10148,
+        "Shell": 5577,
+        "Inno Setup": 4556,
+        "Dockerfile": 2872,
+        "Mako": 635
+      },
+      "evidence_url": "https://api.github.com/repos/VonHoltenCodes/SlowBooks-Pro-2026/languages",
+      "evidence": "Official GitHub Languages endpoint; Python has the largest byte count in the repository snapshot.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "pyphomemo-m110-protocol-implementation",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Python": 50761,
+        "HTML": 4930,
+        "Shell": 469
+      },
+      "evidence_url": "https://api.github.com/repos/mkuhlmann/pyphomemo/languages",
+      "evidence": "Official GitHub Languages endpoint; Python has the largest byte count in the repository snapshot.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "nvforever-fallout-new-vegas-engine-reimplementation",
+      "predominant_language": "Rust",
+      "language_breakdown_bytes": {
+        "Rust": 8421616,
+        "Python": 1283258,
+        "WGSL": 74704,
+        "PowerShell": 12290,
+        "Pascal": 11423,
+        "BBCode": 4762,
+        "Shell": 623,
+        "Batchfile": 594
+      },
+      "evidence_url": "https://api.github.com/repos/LootJunkieAzza/NVForever/languages",
+      "evidence": "Official GitHub Languages endpoint; Rust has the largest byte count in the repository snapshot.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "openbc-star-trek-bridge-commander-reimplementation",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 1308368,
+        "Python": 104900,
+        "Makefile": 8036,
+        "AutoHotkey": 7258
+      },
+      "evidence_url": "https://api.github.com/repos/SandboxServers/OpenBC/languages",
+      "evidence": "Official GitHub Languages endpoint; C has the largest byte count in the repository snapshot.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "rad-therapy-half-life-clean-room-reimplementation",
+      "predominant_language": "QuakeC",
+      "language_breakdown_bytes": {
+        "QuakeC": 130912,
+        "GLSL": 33306,
+        "C": 25237,
+        "C++": 6921,
+        "Shell": 6355,
+        "Makefile": 581,
+        "ShaderLab": 242
+      },
+      "evidence_url": "https://api.github.com/repos/eukara/freehl/languages",
+      "evidence": "Official GitHub Languages endpoint; QuakeC has the largest byte count in the repository snapshot.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "opencod2-call-of-duty-2-engine-reconstruction",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 15853398,
+        "Assembly": 1071788,
+        "C++": 201024,
+        "CMake": 61987,
+        "HTML": 22982,
+        "JavaScript": 8858,
+        "Objective-C": 5958,
+        "Batchfile": 4170
+      },
+      "evidence_url": "https://api.github.com/repos/opencod2/opencod2/languages",
+      "evidence": "Official GitHub Languages endpoint; C has the largest byte count in the repository snapshot.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "nanolathe-total-annihilation-engine-reimplementation",
+      "predominant_language": "Go",
+      "language_breakdown_bytes": {
+        "Go": 35152472,
+        "Python": 212554,
+        "Metal": 122361,
+        "JavaScript": 117779,
+        "PowerShell": 71217,
+        "Shell": 64628,
+        "HTML": 19365,
+        "Assembly": 3459,
+        "CSS": 3375,
+        "Makefile": 1526,
+        "Dockerfile": 780
+      },
+      "evidence_url": "https://api.github.com/repos/nanolathe-gg/nanolathe/languages",
+      "evidence": "Official GitHub Languages endpoint; Go has the largest byte count in the repository snapshot.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "crosscraft-minecraft-classic-030-reimplementation",
+      "predominant_language": "Zig",
+      "language_breakdown_bytes": {
+        "Zig": 1151665,
+        "Luau": 36878
+      },
+      "evidence_url": "https://api.github.com/repos/CrossCraft/CrossCraft/languages",
+      "evidence": "Official GitHub Languages endpoint; Zig has the largest byte count in the repository snapshot.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "battlespades-ace-of-spades-server-reimplementation",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Python": 10651404,
+        "Cython": 349882,
+        "C++": 84260,
+        "PowerShell": 13132,
+        "C": 6243,
+        "CMake": 3800,
+        "Shell": 3725,
+        "Dockerfile": 1802
+      },
+      "evidence_url": "https://api.github.com/repos/KikoTs/BattleSpades/languages",
+      "evidence": "Official GitHub Languages endpoint; Python has the largest byte count in the repository snapshot.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "openemperor-emperor-rise-middle-kingdom-reimplementation",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 5207559,
+        "Python": 164931,
+        "CMake": 84921,
+        "Shell": 56070,
+        "C": 597
+      },
+      "evidence_url": "https://api.github.com/repos/oliverjessner/OpenEmperor/languages",
+      "evidence": "Official GitHub Languages endpoint; C++ has the largest byte count in the repository snapshot.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "opencalc-windows-95-calculator-reimplementation",
+      "predominant_language": "Rust",
+      "language_breakdown_bytes": {
+        "Rust": 815441,
+        "Python": 98890,
+        "Shell": 7876,
+        "Batchfile": 2950
+      },
+      "evidence_url": "https://api.github.com/repos/NullMagic2/OpenCalc/languages",
+      "evidence": "GitHub's official repository Languages endpoint reports Rust as the largest source total (815,441 bytes).",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "classic-window-switcher-csrss-alt-tab-reimplementation",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 189143,
+        "C++": 16060
+      },
+      "evidence_url": "https://api.github.com/repos/Ingan121/ClassicWindowSwitcher/languages",
+      "evidence": "GitHub's official Languages endpoint reports C (189,143 bytes) as the largest source total; C++ accounts for 16,060 bytes.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "corehost-windows-console-host-reimplementation",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 1892869,
+        "C": 223749,
+        "CMake": 30657,
+        "PowerShell": 6706
+      },
+      "evidence_url": "https://api.github.com/repos/YexuanXiao/corehost/languages",
+      "evidence": "GitHub's official Languages endpoint reports C++ (1,892,869 bytes) as the largest source total.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "disrobe-multiformat-static-decompiler",
+      "predominant_language": "Rust",
+      "language_breakdown_bytes": {
+        "Rust": 71861667,
+        "TypeScript": 457103,
+        "C++": 247215,
+        "Python": 188696,
+        "PowerShell": 145984,
+        "JavaScript": 92426,
+        "Java": 37048,
+        "Shell": 28859,
+        "C": 8946,
+        "CSS": 7324,
+        "Lua": 2566,
+        "HTML": 841,
+        "Just": 598
+      },
+      "evidence_url": "https://api.github.com/repos/1-3-7/disrobe/languages",
+      "evidence": "GitHub's official Languages endpoint reports Rust (71,861,667 bytes) as the largest source total.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "reprobit-reproducible-binary-recompilation-verifier",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Python": 9939009,
+        "Shell": 15652,
+        "CMake": 14184
+      },
+      "evidence_url": "https://api.github.com/repos/isledecomp/reprobit/languages",
+      "evidence": "GitHub's official Languages endpoint reports Python (9,939,009 bytes) as the largest source total.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "xubamp-winamp-29x-wayland-reimplementation",
+      "predominant_language": "Rust",
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://github.com/hec-ovi/xubamp",
+      "evidence": "The official GitHub repository page's Languages panel displays Rust 98.4%, Shell 1.1%, Other 0.5%. The GitHub Languages API request in this review returned HTTP 403 due to rate limiting, so exact byte totals are unavailable here; the repository-wide percentages are recorded as displayed.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "butterchurn-milkdrop-webgl-visualizer-reimplementation",
+      "predominant_language": "JavaScript",
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://github.com/jberg/butterchurn",
+      "evidence": "The official GitHub repository page's Languages panel displays JavaScript 83.9%, HTML 10.6%, TypeScript 5.4%, Shell 0.1%. The GitHub Languages API request in this review returned HTTP 403 due to rate limiting, so exact byte totals are unavailable here; the repository-wide percentages are recorded as displayed.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "super-smash-bros-64-dreamcast-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 10725689,
+        "Python": 2162135,
+        "Makefile": 299503,
+        "Shell": 74906,
+        "Dockerfile": 10560,
+        "Assembly": 288
+      },
+      "evidence_url": "https://api.github.com/repos/beigeceleron/ssb64-dc/languages",
+      "evidence": "Official repository Languages API reports 10,725,689 bytes of C, the largest total (80.8% of 13,273,081 recognized language bytes). Full repository-level byte totals are recorded in language_breakdown_bytes; generated source and build tooling can affect the totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "doom64-dreamcast-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 1637979,
+        "Shell": 6324,
+        "Makefile": 3822,
+        "C++": 3647,
+        "Assembly": 1379,
+        "Roff": 705
+      },
+      "evidence_url": "https://api.github.com/repos/jnmartin84/doom64-dc/languages",
+      "evidence": "Official repository Languages API reports 1,637,979 bytes of C, the largest total (99.0% of 1,653,856 recognized language bytes). Full repository-level byte totals are recorded in language_breakdown_bytes; generated source and build tooling can affect the totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "super-mario-64-ps1-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 34370695,
+        "C++": 424450,
+        "Assembly": 315250,
+        "Python": 222951,
+        "Makefile": 87325,
+        "Linker Script": 47423,
+        "Pawn": 10261,
+        "JavaScript": 5981,
+        "Shell": 4979,
+        "Dockerfile": 118
+      },
+      "evidence_url": "https://codeberg.org/api/v1/repos/malucart/sm64-psx/languages",
+      "evidence": "Official repository Languages API reports 34,370,695 bytes of C, the largest total (96.8% of 35,489,433 recognized language bytes). Full repository-level byte totals are recorded in language_breakdown_bytes; generated source and build tooling can affect the totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "driving-strikers-n64-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 259768,
+        "Makefile": 4572
+      },
+      "evidence_url": "https://api.github.com/repos/SpookyIluha/Driving-Strikers-64/languages",
+      "evidence": "Official repository Languages API reports 259,768 bytes of C, the largest total (98.3% of 264,340 recognized language bytes). Full repository-level byte totals are recorded in language_breakdown_bytes; generated source and build tooling can affect the totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "everybodys-golf-coca-cola-psp-en",
+      "predominant_language": null,
+      "language_breakdown_bytes": {},
+      "evidence_url": "https://github.com/Mr-Shizzy/everybodys-golf-coca-cola-psp-english-patch/languages",
+      "evidence": "GitHub language endpoint returned an empty map; README and release document patch/translation content but no recognized source-code bytes.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": "Linguist reports no recognized language bytes; patch and translation artifacts are not a programming-language breakdown."
+    },
+    {
+      "project_id": "boku-no-natsuyasumi-ps1-en",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Python": 2923306,
+        "Assembly": 117464,
+        "Lua": 90724,
+        "Shell": 58861,
+        "HTML": 20422,
+        "Java": 13474
+      },
+      "evidence_url": "https://github.com/jeapostrophe/boku-ps1/languages",
+      "evidence": "GitHub reports Python 2,923,306 bytes, Assembly 117,464, Lua 90,724, Shell 58,861, HTML 20,422 and Java 13,474; Python is predominant.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "tokimeki-memorial-ps1-en-patch",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Python": 383196,
+        "PowerShell": 18614
+      },
+      "evidence_url": "https://github.com/gothamor/tokimeki-memorial-english-patch/languages",
+      "evidence": "GitHub reports Python 383,196 bytes and PowerShell 18,614; Python is predominant.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "spectral-tower-ps1-en",
+      "predominant_language": "Assembly",
+      "language_breakdown_bytes": {
+        "Assembly": 555192,
+        "Python": 21047,
+        "Batchfile": 871,
+        "Shell": 810
+      },
+      "evidence_url": "https://github.com/Yoshimanix/spectraltower/languages",
+      "evidence": "GitHub reports Assembly 555,192 bytes, Python 21,047, Batchfile 871 and Shell 810; Assembly is predominant.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "gangway-monsters-ps1-en",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://github.com/stephwag/gangway-monsters-english-patch",
+      "evidence": "The official GitHub repository page's Languages panel displays Python 100%. The GitHub Languages API request in this review returned HTTP 403 due to rate limiting, so exact byte totals are unavailable here; the repository-wide percentages are recorded as displayed.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "shenmue-dc-disc1-ko",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Python": 422074
+      },
+      "evidence_url": "https://github.com/snake7594/shenmue-korean-patch/languages",
+      "evidence": "GitHub reports Python 422,074 bytes, the only recognized source language.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "nobunaga-gba-ko",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://github.com/snake7594/gba-nobunaga-korean-patch",
+      "evidence": "The official GitHub repository page's Languages panel displays Python 100%. The GitHub Languages API request in this review returned HTTP 403 due to rate limiting, so exact byte totals are unavailable here; the repository-wide percentages are recorded as displayed.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "nobunaga-shinsei-switch-ko",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Python": 670305,
+        "C#": 4579
+      },
+      "evidence_url": "https://github.com/snake7594/nobunaga-shinsei-korean-patch/languages",
+      "evidence": "GitHub reports Python 670,305 bytes and C# 4,579; Python is predominant.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "nobunaga-shinsei-pc-ko",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://github.com/parsifal295/nobu16-korean-patch",
+      "evidence": "The official GitHub repository page's Languages panel displays Python 97.5%, PowerShell 2.3%, Other 0.2%. The GitHub Languages API request in this review returned HTTP 403 due to rate limiting, so exact byte totals are unavailable here; the repository-wide percentages are recorded as displayed.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "turing-complete-ko",
+      "predominant_language": "Go",
+      "language_breakdown_bytes": {
+        "Go": 6484,
+        "Python": 4038,
+        "Shell": 2314,
+        "Batchfile": 2103
+      },
+      "evidence_url": "https://github.com/cycorld/turing-complete-korean-patch/languages",
+      "evidence": "GitHub reports Go 6,484, Python 4,038, Shell 2,314 and Batchfile 2,103; Go is predominant.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "moonstone-island-ko",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Python": 4818
+      },
+      "evidence_url": "https://github.com/yuniwon/moonstone-island-korean-patch/languages",
+      "evidence": "GitHub reports Python 4,818 bytes, the only recognized source-code share.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "crab-champions-ko",
+      "predominant_language": null,
+      "language_breakdown_bytes": {},
+      "evidence_url": "https://github.com/rlagkswns8/Crab-Champions-Korean-Patch/languages",
+      "evidence": "GitHub returned an empty language map; no recognized source-code breakdown.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": "No recognized code bytes; programming language unknown."
+    },
+    {
+      "project_id": "endacopia-zh-cn",
+      "predominant_language": null,
+      "language_breakdown_bytes": {},
+      "evidence_url": "https://github.com/aweisha/endacopia-chinese-patch/languages",
+      "evidence": "GitHub language endpoint returned no recognized language bytes for this patch-oriented repository.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": "No recognized programming-language breakdown."
+    },
+    {
+      "project_id": "esoteric-ebb-zh-cn",
+      "predominant_language": null,
+      "language_breakdown_bytes": {},
+      "evidence_url": "https://github.com/RandolphVI/EsotericEbb_Chinese/languages",
+      "evidence": "GitHub returned an empty map; localization dictionaries/mod assets provide no recognized source-language breakdown.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": "No recognized programming language counts."
+    },
+    {
+      "project_id": "ostranauts-zh-tw",
+      "predominant_language": "C#",
+      "language_breakdown_bytes": {
+        "C#": 102983,
+        "Python": 40357,
+        "Shell": 5576,
+        "PowerShell": 3033
+      },
+      "evidence_url": "https://github.com/AosakiReiya/ostranauts-tw-localization/languages",
+      "evidence": "GitHub reports C# 102,983 bytes, Python 40,357, Shell 5,576 and PowerShell 3,033; C# is predominant.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "starsand-island-ko",
+      "predominant_language": null,
+      "language_breakdown_bytes": {},
+      "evidence_url": "https://github.com/yuniwon/starsand-island-korean-patch/languages",
+      "evidence": "GitHub returned an empty map; no recognized language statistics.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": "No recognized source-code breakdown."
+    },
+    {
+      "project_id": "zill-oll-infinite-plus-psp-en",
+      "predominant_language": "Go",
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://github.com/HK47196/zill",
+      "evidence": "The official GitHub repository page's Languages panel displays Go 99.8%, Shell 0.2%. The GitHub Languages API request in this review returned HTTP 403 due to rate limiting, so exact byte totals are unavailable here; the repository-wide percentages are recorded as displayed.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "aikatsu-my-no1-stage-3ds-en",
+      "predominant_language": null,
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://gbatemp.net/threads/aikatsu-my-no-1-stage-english-translation.682262/",
+      "evidence": "Primary project thread links a patch archive but no public source-code repository or language-statistics endpoint.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": "No public code repository with language counts."
+    },
+    {
+      "project_id": "miracle-girls-festival-vita-en",
+      "predominant_language": null,
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://gbatemp.net/threads/release-miracle-girls-festival-jp-pcsg00610-vita-english-translation-v1-00-translation-source-material.684922/",
+      "evidence": "Author thread provides patcher/source materials but no code repository or language statistics endpoint.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": "No public code repository with language stats."
+    },
+    {
+      "project_id": "sonic-unleashed-recompiled-ko",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://github.com/nonunsaram/unleashed-recompiled-korean",
+      "evidence": "The official GitHub repository page's Languages panel displays Python 76.9%, PowerShell 13.8%, C# 5.6%, C++ 3.3%, JavaScript 0.4%. The GitHub Languages API request in this review returned HTTP 403 due to rate limiting, so exact byte totals are unavailable here; the repository-wide percentages are recorded as displayed.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "patina-rust-uefi-firmware",
+      "predominant_language": "Rust",
+      "language_breakdown_bytes": {
+        "Rust": 6335478,
+        "Assembly": 31369,
+        "Batchfile": 356,
+        "Shell": 325
+      },
+      "evidence_url": "https://api.github.com/repos/OpenDevicePartnership/patina/languages",
+      "evidence": "Official GitHub REST Languages API breakdown for OpenDevicePartnership/patina: source-code bytes are {\"Assembly\": 31369, \"Batchfile\": 356, \"Rust\": 6335478, \"Shell\": 325}. The largest byte-count language is Rust; this repository-wide total can include vendored, generated, or tooling files and may differ from the target firmware's implementation language.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "seabios-x86-legacy-bios",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 2082446,
+        "Python": 57861,
+        "C++": 52435,
+        "Assembly": 28141,
+        "Makefile": 22490,
+        "Yacc": 15395,
+        "Perl": 15187,
+        "Shell": 10369,
+        "Lex": 6684
+      },
+      "evidence_url": "https://api.github.com/repos/coreboot/seabios/languages",
+      "evidence": "Official GitHub REST Languages API breakdown for coreboot/seabios: source-code bytes are {\"Assembly\": 28141, \"C\": 2082446, \"C++\": 52435, \"Lex\": 6684, \"Makefile\": 22490, \"Perl\": 15187, \"Python\": 57861, \"Shell\": 10369, \"Yacc\": 15395}. The largest byte-count language is C; this repository-wide total can include vendored, generated, or tooling files and may differ from the target firmware's implementation language.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "xbox-mcpx-fancy-mouse-boot-rom",
+      "predominant_language": "Assembly",
+      "language_breakdown_bytes": {
+        "Assembly": 11997,
+        "Makefile": 2060
+      },
+      "evidence_url": "https://api.github.com/repos/SnowyMouse/fancy-mouse-boot-rom/languages",
+      "evidence": "Official GitHub REST Languages API breakdown for SnowyMouse/fancy-mouse-boot-rom: source-code bytes are {\"Assembly\": 11997, \"Makefile\": 2060}. The largest byte-count language is Assembly; this repository-wide total can include vendored, generated, or tooling files and may differ from the target firmware's implementation language.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "openpuck-steam-controller-puck-firmware",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 804652,
+        "C": 188201,
+        "Python": 123298,
+        "Makefile": 11315,
+        "Shell": 6396
+      },
+      "evidence_url": "https://api.github.com/repos/safijari/openpuck/languages",
+      "evidence": "Official GitHub REST Languages API breakdown for safijari/openpuck: source-code bytes are {\"C\": 188201, \"C++\": 804652, \"Makefile\": 11315, \"Python\": 123298, \"Shell\": 6396}. The largest byte-count language is C++; this repository-wide total can include vendored, generated, or tooling files and may differ from the target firmware's implementation language.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "openmaxfire-bixby-maxfire-reconstruction",
+      "predominant_language": "Assembly",
+      "language_breakdown_bytes": {
+        "Assembly": 7023515,
+        "Python": 1159815,
+        "TypeScript": 152979,
+        "Java": 10120,
+        "Shell": 654
+      },
+      "evidence_url": "https://api.github.com/repos/OpenMaxFire/OpenMaxFire/languages",
+      "evidence": "Official GitHub REST Languages API breakdown for OpenMaxFire/OpenMaxFire: source-code bytes are {\"Assembly\": 7023515, \"Java\": 10120, \"Python\": 1159815, \"Shell\": 654, \"TypeScript\": 152979}. The largest byte-count language is Assembly; this repository-wide total can include vendored, generated, or tooling files and may differ from the target firmware's implementation language.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "afi-r-router-display-firmware-reconstruction",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 80491,
+        "Python": 52943,
+        "Shell": 15524,
+        "Makefile": 2778,
+        "Linker Script": 1349
+      },
+      "evidence_url": "https://api.github.com/repos/alexanderhenne/AFi-R/languages",
+      "evidence": "Official GitHub REST Languages API breakdown for alexanderhenne/AFi-R: source-code bytes are {\"C\": 80491, \"Linker Script\": 1349, \"Makefile\": 2778, \"Python\": 52943, \"Shell\": 15524}. The largest byte-count language is C; this repository-wide total can include vendored, generated, or tooling files and may differ from the target firmware's implementation language.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "at91rm9200-flexstor-low-level-bootloader",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 106530,
+        "Assembly": 31189
+      },
+      "evidence_url": "https://api.github.com/repos/redragor/at91rm9200-lto-bootloader/languages",
+      "evidence": "Official GitHub REST Languages API breakdown for redragor/at91rm9200-lto-bootloader: source-code bytes are {\"Assembly\": 31189, \"C\": 106530}. The largest byte-count language is C; this repository-wide total can include vendored, generated, or tooling files and may differ from the target firmware's implementation language.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "system76-open-firmware-distribution",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 886341,
+        "Shell": 27175,
+        "DenizenScript": 12326,
+        "Dockerfile": 4120,
+        "Rust": 2289,
+        "Makefile": 456
+      },
+      "evidence_url": "https://api.github.com/repos/system76/firmware-open/languages",
+      "evidence": "Official GitHub REST Languages API breakdown for system76/firmware-open: source-code bytes are {\"C\": 886341, \"DenizenScript\": 12326, \"Dockerfile\": 4120, \"Makefile\": 456, \"Rust\": 2289, \"Shell\": 27175}. The largest byte-count language is C; this repository-wide total can include vendored, generated, or tooling files and may differ from the target firmware's implementation language.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "microsoft-project-mu-uefi-platform-framework",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 66311289,
+        "Python": 8139332,
+        "C++": 1410815,
+        "Rich Text Format": 1356984,
+        "Assembly": 1113447,
+        "GAP": 410039,
+        "DenizenScript": 129355,
+        "Makefile": 74479,
+        "ASL": 43557,
+        "BitBake": 41918,
+        "Batchfile": 37693,
+        "HTML": 29149,
+        "Rez": 21053,
+        "NASL": 16564,
+        "ANTLR": 15529,
+        "Roff": 13862,
+        "Shell": 12817,
+        "Linker Script": 2804,
+        "NSIS": 1847,
+        "Pawn": 321
+      },
+      "evidence_url": "https://api.github.com/repos/microsoft/mu_basecore/languages",
+      "evidence": "Official GitHub REST Languages API breakdown for microsoft/mu_basecore: source-code bytes are {\"ANTLR\": 15529, \"ASL\": 43557, \"Assembly\": 1113447, \"Batchfile\": 37693, \"BitBake\": 41918, \"C\": 66311289, \"C++\": 1410815, \"DenizenScript\": 129355, \"GAP\": 410039, \"HTML\": 29149, \"Linker Script\": 2804, \"Makefile\": 74479, \"NASL\": 16564, \"NSIS\": 1847, \"Pawn\": 321, \"Python\": 8139332, \"Rez\": 21053, \"Rich Text Format\": 1356984, \"Roff\": 13862, \"Shell\": 12817}. The largest byte-count language is C; this repository-wide total can include vendored, generated, or tooling files and may differ from the target firmware's implementation language.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "qmk-keyboard-firmware-framework",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 32219555,
+        "C++": 2279116,
+        "Python": 662409,
+        "Makefile": 424847,
+        "Linker Script": 86413,
+        "Shell": 67250,
+        "Assembly": 9414,
+        "Go": 7521,
+        "TypeScript": 5957,
+        "Jinja": 4941,
+        "Vue": 810,
+        "CSS": 372,
+        "Dockerfile": 225
+      },
+      "evidence_url": "https://api.github.com/repos/qmk/qmk_firmware/languages",
+      "evidence": "Official GitHub REST Languages API breakdown for qmk/qmk_firmware: source-code bytes are {\"Assembly\": 9414, \"C\": 32219555, \"C++\": 2279116, \"CSS\": 372, \"Dockerfile\": 225, \"Go\": 7521, \"Jinja\": 4941, \"Linker Script\": 86413, \"Makefile\": 424847, \"Python\": 662409, \"Shell\": 67250, \"TypeScript\": 5957, \"Vue\": 810}. The largest byte-count language is C; this repository-wide total can include vendored, generated, or tooling files and may differ from the target firmware's implementation language.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "zmk-wireless-keyboard-firmware",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 1376127,
+        "CMake": 39531,
+        "Shell": 8197,
+        "Python": 3015,
+        "Linker Script": 1955,
+        "Dockerfile": 98,
+        "JavaScript": 67
+      },
+      "evidence_url": "https://api.github.com/repos/zmkfirmware/zmk/languages",
+      "evidence": "Official GitHub REST Languages API breakdown for zmkfirmware/zmk: source-code bytes are {\"C\": 1376127, \"CMake\": 39531, \"Dockerfile\": 98, \"JavaScript\": 67, \"Linker Script\": 1955, \"Python\": 3015, \"Shell\": 8197}. The largest byte-count language is C; this repository-wide total can include vendored, generated, or tooling files and may differ from the target firmware's implementation language.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "nolongerevil-nest-thermostat-custom-firmware",
+      "predominant_language": "JavaScript",
+      "language_breakdown_bytes": {
+        "JavaScript": 156171,
+        "Shell": 52134,
+        "TypeScript": 18055,
+        "CSS": 1353,
+        "Dockerfile": 965,
+        "HTML": 318
+      },
+      "evidence_url": "https://api.github.com/repos/codykociemba/NoLongerEvil-Thermostat/languages",
+      "evidence": "Official GitHub REST Languages API breakdown for codykociemba/NoLongerEvil-Thermostat: source-code bytes are {\"CSS\": 1353, \"Dockerfile\": 965, \"HTML\": 318, \"JavaScript\": 156171, \"Shell\": 52134, \"TypeScript\": 18055}. The largest byte-count language is JavaScript; this repository-wide total can include vendored, generated, or tooling files and may differ from the target firmware's implementation language.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "golden-sun-broken-seal-decomp-alchemy",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 17754315,
+        "Assembly": 15334660,
+        "Linker Script": 1629449,
+        "Rust": 1198741,
+        "Makefile": 18098,
+        "NASL": 1118,
+        "C++": 607,
+        "Shell": 148
+      },
+      "evidence_url": "https://api.github.com/repos/PascalPixel/alchemy/languages",
+      "evidence": "Official GitHub Languages API byte counts for PascalPixel/alchemy: {\"Assembly\": 15334660, \"C\": 17754315, \"C++\": 607, \"Linker Script\": 1629449, \"Makefile\": 18098, \"NASL\": 1118, \"Rust\": 1198741, \"Shell\": 148}. Predominant language is the largest repository-wide byte count; totals may include tooling, generated code, or multiple components.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "golden-sun-lost-age-decomp-alchemy",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 17754315,
+        "Assembly": 15334660,
+        "Linker Script": 1629449,
+        "Rust": 1198741,
+        "Makefile": 18098,
+        "NASL": 1118,
+        "C++": 607,
+        "Shell": 148
+      },
+      "evidence_url": "https://api.github.com/repos/PascalPixel/alchemy/languages",
+      "evidence": "Official GitHub Languages API byte counts for PascalPixel/alchemy: {\"Assembly\": 15334660, \"C\": 17754315, \"C++\": 607, \"Linker Script\": 1629449, \"Makefile\": 18098, \"NASL\": 1118, \"Rust\": 1198741, \"Shell\": 148}. Predominant language is the largest repository-wide byte count; totals may include tooling, generated code, or multiple components.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "golden-sun-gba-decomp-coaltergeist",
+      "predominant_language": null,
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/Coaltergeist/goldensun-decomp/languages",
+      "evidence": "Official GitHub Languages API byte totals could not be retrieved because the shared GitHub REST quota returned HTTP 403 rate limiting. Language is left unknown; README technologies or apparent source file types were not used as substitutes.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": "GitHub REST API rate limit (HTTP 403) prevented retrieval of the official repository language byte map."
+    },
+    {
+      "project_id": "golden-sun-broken-seal-recomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 156201999,
+        "C": 2639234,
+        "Python": 19277,
+        "PowerShell": 16615,
+        "CMake": 6487
+      },
+      "evidence_url": "https://api.github.com/repos/Zaxaerith/GoldenSunTheBrokenSealRecomp/languages",
+      "evidence": "Official GitHub Languages API byte counts for Zaxaerith/GoldenSunTheBrokenSealRecomp: {\"C\": 2639234, \"C++\": 156201999, \"CMake\": 6487, \"PowerShell\": 16615, \"Python\": 19277}. Predominant language is the largest repository-wide byte count; totals may include tooling, generated code, or multiple components.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "golden-sun-lost-age-recomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 92954715,
+        "C": 1292339,
+        "PowerShell": 24551,
+        "Python": 10006,
+        "CMake": 9539
+      },
+      "evidence_url": "https://api.github.com/repos/Zaxaerith/GoldenSunTheLostAgeRecomp/languages",
+      "evidence": "Official GitHub Languages API byte counts for Zaxaerith/GoldenSunTheLostAgeRecomp: {\"C\": 1292339, \"C++\": 92954715, \"CMake\": 9539, \"PowerShell\": 24551, \"Python\": 10006}. Predominant language is the largest repository-wide byte count; totals may include tooling, generated code, or multiple components.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "castlevania-harmony-of-dissonance-gba-recomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 216953323,
+        "C": 1000107,
+        "PowerShell": 17694,
+        "CMake": 9245
+      },
+      "evidence_url": "https://api.github.com/repos/Zaxaerith/CastlevaniaHarmonyOfDissonanceRecomp/languages",
+      "evidence": "Official GitHub Languages API byte counts for Zaxaerith/CastlevaniaHarmonyOfDissonanceRecomp: {\"C\": 1000107, \"C++\": 216953323, \"CMake\": 9245, \"PowerShell\": 17694}. Predominant language is the largest repository-wide byte count; totals may include tooling, generated code, or multiple components.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "castlevania-aria-of-sorrow-gba-recomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 104355301,
+        "C": 1109145,
+        "PowerShell": 14187,
+        "CMake": 8185,
+        "Python": 3998
+      },
+      "evidence_url": "https://api.github.com/repos/Zaxaerith/CastlevaniaAriaOfSorrowRecomp/languages",
+      "evidence": "Official GitHub Languages API byte counts for Zaxaerith/CastlevaniaAriaOfSorrowRecomp: {\"C\": 1109145, \"C++\": 104355301, \"CMake\": 8185, \"PowerShell\": 14187, \"Python\": 3998}. Predominant language is the largest repository-wide byte count; totals may include tooling, generated code, or multiple components.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "castlevania-circle-of-the-moon-gba-recomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 24508756,
+        "C": 224230,
+        "PowerShell": 5076,
+        "Python": 4373,
+        "CMake": 2603
+      },
+      "evidence_url": "https://api.github.com/repos/Zaxaerith/CastlevaniaCircleOfTheMoonRecomp/languages",
+      "evidence": "Official GitHub Languages API byte counts for Zaxaerith/CastlevaniaCircleOfTheMoonRecomp: {\"C\": 224230, \"C++\": 24508756, \"CMake\": 2603, \"PowerShell\": 5076, \"Python\": 4373}. Predominant language is the largest repository-wide byte count; totals may include tooling, generated code, or multiple components.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "alttp-four-swords-gba-recomp",
+      "predominant_language": null,
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/sp00nznet/lttp-recompiled/languages",
+      "evidence": "Official GitHub Languages API returned an empty object for this repository; no recognized language byte totals were reported, so language remains unknown.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": "Official GitHub Languages API response was empty."
+    },
+    {
+      "project_id": "boktai-gba-recomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 121264,
+        "Shell": 19844,
+        "CMake": 14616
+      },
+      "evidence_url": "https://api.github.com/repos/Shy/BoktaiRecomp/languages",
+      "evidence": "Official GitHub Languages API byte counts for Shy/BoktaiRecomp: {\"C++\": 121264, \"CMake\": 14616, \"Shell\": 19844}. Predominant language is the largest repository-wide byte count; totals may include tooling, generated code, or multiple components.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "mmbn3-white-gba-recomp",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Python": 516698,
+        "Shell": 10279,
+        "CMake": 3284,
+        "C++": 1472
+      },
+      "evidence_url": "https://api.github.com/repos/smpduong/MMBN3WhiteRecomp/languages",
+      "evidence": "Official GitHub Languages API byte counts for smpduong/MMBN3WhiteRecomp: {\"C++\": 1472, \"CMake\": 3284, \"Python\": 516698, \"Shell\": 10279}. Predominant language is the largest repository-wide byte count; totals may include tooling, generated code, or multiple components.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "zoids-legacy-gba-recomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 90243,
+        "PowerShell": 15392,
+        "Python": 3536,
+        "C": 785,
+        "Batchfile": 686
+      },
+      "evidence_url": "https://api.github.com/repos/thearturord/ZoidsLegacyRecomp/languages",
+      "evidence": "Official GitHub Languages API byte counts for thearturord/ZoidsLegacyRecomp: {\"Batchfile\": 686, \"C\": 785, \"C++\": 90243, \"PowerShell\": 15392, \"Python\": 3536}. Predominant language is the largest repository-wide byte count; totals may include tooling, generated code, or multiple components.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "super-mario-land-2-gb-recomp",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Python": 197030,
+        "C": 170725,
+        "Shell": 36829,
+        "PowerShell": 27498,
+        "CMake": 3670
+      },
+      "evidence_url": "https://api.github.com/repos/mstan/SuperMarioLand2Recomp/languages",
+      "evidence": "Official GitHub Languages API byte counts for mstan/SuperMarioLand2Recomp: {\"C\": 170725, \"CMake\": 3670, \"PowerShell\": 27498, \"Python\": 197030, \"Shell\": 36829}. Predominant language is the largest repository-wide byte count; totals may include tooling, generated code, or multiple components.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "harry-potter-prisoner-azkaban-gba-decomp-experiment",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 2908131,
+        "Assembly": 687532,
+        "Python": 405646,
+        "Pawn": 30290,
+        "C++": 21898,
+        "Just": 8780,
+        "Pascal": 7515,
+        "Nix": 5845,
+        "CSS": 135,
+        "Linker Script": 58
+      },
+      "evidence_url": "https://api.github.com/repos/holly-hacker/hp3-gba-decomp/languages",
+      "evidence": "Official GitHub Languages API byte counts for holly-hacker/hp3-gba-decomp: {\"Assembly\": 687532, \"C\": 2908131, \"C++\": 21898, \"CSS\": 135, \"Just\": 8780, \"Linker Script\": 58, \"Nix\": 5845, \"Pascal\": 7515, \"Pawn\": 30290, \"Python\": 405646}. Predominant language is the largest repository-wide byte count; totals may include tooling, generated code, or multiple components.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "final-fantasy-tactics-advance-recomp-jorge262007",
+      "predominant_language": "Rust",
+      "language_breakdown_bytes": {
+        "Rust": 1420018,
+        "Python": 36164,
+        "Shell": 30979,
+        "WGSL": 11357,
+        "PowerShell": 11210,
+        "C": 944
+      },
+      "evidence_url": "https://api.github.com/repos/Jorge262007/FFTARecomp/languages",
+      "evidence": "Official GitHub Languages API byte counts for Jorge262007/FFTARecomp: {\"C\": 944, \"PowerShell\": 11210, \"Python\": 36164, \"Rust\": 1420018, \"Shell\": 30979, \"WGSL\": 11357}. Predominant language is the largest repository-wide byte count; totals may include tooling, generated code, or multiple components.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "mother-3-recomp-agray0425",
+      "predominant_language": null,
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/agray0425/Mother3Recomp/languages",
+      "evidence": "Official GitHub Languages API byte totals could not be retrieved because the shared GitHub REST quota returned HTTP 403 rate limiting. Language is left unknown; README technologies or apparent source file types were not used as substitutes.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": "GitHub REST API rate limit (HTTP 403) prevented retrieval of the official repository language byte map."
+    },
+    {
+      "project_id": "nana-live-staff-nds-english-demo-patch",
+      "predominant_language": null,
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/pedro-seis/nana-en-patch/languages",
+      "evidence": "Official GitHub Languages API returned an empty object for this repository; no recognized language byte totals were reported, so language remains unknown.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": "Official GitHub Languages API response was empty."
+    },
+    {
+      "project_id": "tengai-makyou-ii-nds-korean-localization",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Python": 105687
+      },
+      "evidence_url": "https://api.github.com/repos/snake7594/NDS-Tengai-Makyou-II/languages",
+      "evidence": "Official GitHub Languages API byte counts for snake7594/NDS-Tengai-Makyou-II: {\"Python\": 105687}. Predominant language is the largest repository-wide byte count; totals may include tooling, generated code, or multiple components.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "dragon-quest-xi-3ds-english-patch-exhilo62",
+      "predominant_language": null,
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/Exhilo62/DQXI-3DS-English-Patch/languages",
+      "evidence": "Official GitHub Languages API byte totals could not be retrieved because the shared GitHub REST quota returned HTTP 403 rate limiting. Language is left unknown; README technologies or apparent source file types were not used as substitutes.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": "GitHub REST API rate limit (HTTP 403) prevented retrieval of the official repository language byte map."
+    },
+    {
+      "project_id": "fire-emblem-sacred-stones-us-gba-decomp",
+      "predominant_language": null,
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/FireEmblemUniverse/fireemblem8u/languages",
+      "evidence": "Official GitHub Languages API byte totals could not be retrieved because the shared GitHub REST quota returned HTTP 403 rate limiting. Language is left unknown; README technologies or apparent source file types were not used as substitutes.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": "GitHub REST API rate limit (HTTP 403) prevented retrieval of the official repository language byte map."
+    },
+    {
+      "project_id": "fire-emblem-rekka-no-ken-japan-gba-decomp",
+      "predominant_language": null,
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/MokhaLeee/FireEmblem7J/languages",
+      "evidence": "Official GitHub Languages API byte totals could not be retrieved because the shared GitHub REST quota returned HTTP 403 rate limiting. Language is left unknown; README technologies or apparent source file types were not used as substitutes.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": "GitHub REST API rate limit (HTTP 403) prevented retrieval of the official repository language byte map."
+    },
+    {
+      "project_id": "fire-emblem-binding-blade-japan-gba-decomp",
+      "predominant_language": null,
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/FireEmblemUniverse/fireemblem6j/languages",
+      "evidence": "Official GitHub Languages API byte totals could not be retrieved because the shared GitHub REST quota returned HTTP 403 rate limiting. Language is left unknown; README technologies or apparent source file types were not used as substitutes.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": "GitHub REST API rate limit (HTTP 403) prevented retrieval of the official repository language byte map."
+    },
+    {
+      "project_id": "mario-kart-ds-eur-matching-decomp",
+      "predominant_language": null,
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/ai-tdd-labs/mkds-decomp/languages",
+      "evidence": "Official GitHub Languages API byte totals could not be retrieved because the shared GitHub REST quota returned HTTP 403 rate limiting. Language is left unknown; README technologies or apparent source file types were not used as substitutes.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": "GitHub REST API rate limit (HTTP 403) prevented retrieval of the official repository language byte map."
+    },
+    {
+      "project_id": "pokemon-x-3ds-recomp-rdcomp",
+      "predominant_language": null,
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/CyrixJD115/PokeXYZ-RDComp/languages",
+      "evidence": "Official GitHub Languages API byte totals could not be retrieved because the shared GitHub REST quota returned HTTP 403 rate limiting. Language is left unknown; README technologies or apparent source file types were not used as substitutes.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": "GitHub REST API rate limit (HTTP 403) prevented retrieval of the official repository language byte map."
+    },
+    {
+      "project_id": "animal-crossing-new-leaf-welcome-amiibo-usa-decomp",
+      "predominant_language": null,
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/RedShyGuy/acnl-decomp/languages",
+      "evidence": "Official GitHub Languages API byte totals could not be retrieved because the shared GitHub REST quota returned HTTP 403 rate limiting. Language is left unknown; README technologies or apparent source file types were not used as substitutes.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": "GitHub REST API rate limit (HTTP 403) prevented retrieval of the official repository language byte map."
+    },
+    {
+      "project_id": "tomodachi-life-us-3ds-decomp",
+      "predominant_language": null,
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/dylanpdx/TomodachiLifeDecomp/languages",
+      "evidence": "Official GitHub Languages API byte totals could not be retrieved because the shared GitHub REST quota returned HTTP 403 rate limiting. Language is left unknown; README technologies or apparent source file types were not used as substitutes.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": "GitHub REST API rate limit (HTTP 403) prevented retrieval of the official repository language byte map."
+    },
+    {
+      "project_id": "mario-luigi-dream-team-us-3ds-decomp",
+      "predominant_language": null,
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/Mario-and-Luigi-3Ds-R-D/MILLI4C/languages",
+      "evidence": "Official GitHub Languages API byte totals could not be retrieved because the shared GitHub REST quota returned HTTP 403 rate limiting. Language is left unknown; README technologies or apparent source file types were not used as substitutes.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": "GitHub REST API rate limit (HTTP 403) prevented retrieval of the official repository language byte map."
+    },
+    {
+      "project_id": "pokemon-moon-europe-3ds-decomp",
+      "predominant_language": null,
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/gradenGnostic/pokemoon/languages",
+      "evidence": "Official GitHub Languages API byte totals could not be retrieved because the shared GitHub REST quota returned HTTP 403 rate limiting. Language is left unknown; README technologies or apparent source file types were not used as substitutes.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": "GitHub REST API rate limit (HTTP 403) prevented retrieval of the official repository language byte map."
+    },
+    {
+      "project_id": "touhou-7-perfect-cherry-blossom-switch-port",
+      "predominant_language": null,
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/saekaze/th07-switch/languages",
+      "evidence": "Official GitHub Languages API byte totals could not be retrieved because the shared GitHub REST quota returned HTTP 403 rate limiting. Language is left unknown; README technologies or apparent source file types were not used as substitutes.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": "GitHub REST API rate limit (HTTP 403) prevented retrieval of the official repository language byte map."
+    },
+    {
+      "project_id": "jump-ultimate-stars-nds-native-recomp",
+      "predominant_language": null,
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/piuzera/JUSDecomp/languages",
+      "evidence": "Official GitHub Languages API byte totals could not be retrieved because the shared GitHub REST quota returned HTTP 403 rate limiting. Language is left unknown; README technologies or apparent source file types were not used as substitutes.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": "GitHub REST API rate limit (HTTP 403) prevented retrieval of the official repository language byte map."
+    },
+    {
+      "project_id": "great-ace-attorney-adventures-3ds-english-akoi89",
+      "predominant_language": null,
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/Akoi89/tgaa-3ds-english-patch/languages",
+      "evidence": "Official GitHub Languages API byte totals could not be retrieved because the shared GitHub REST quota returned HTTP 403 rate limiting. Language is left unknown; README technologies or apparent source file types were not used as substitutes.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": "GitHub REST API rate limit (HTTP 403) prevented retrieval of the official repository language byte map."
+    },
+    {
+      "project_id": "great-ace-attorney-resolve-3ds-english-akoi89",
+      "predominant_language": null,
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/Akoi89/tgaa-3ds-english-patch/languages",
+      "evidence": "Official GitHub Languages API byte totals could not be retrieved because the shared GitHub REST quota returned HTTP 403 rate limiting. Language is left unknown; README technologies or apparent source file types were not used as substitutes.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": "GitHub REST API rate limit (HTTP 403) prevented retrieval of the official repository language byte map."
+    },
+    {
+      "project_id": "rocket-slime-3ds-english-fixup-akoi89",
+      "predominant_language": null,
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/Akoi89/rocketslime-3ds-english-fixup/languages",
+      "evidence": "Official GitHub Languages API byte totals could not be retrieved because the shared GitHub REST quota returned HTTP 403 rate limiting. Language is left unknown; README technologies or apparent source file types were not used as substitutes.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": "GitHub REST API rate limit (HTTP 403) prevented retrieval of the official repository language byte map."
+    },
+    {
+      "project_id": "persona-q2-3ds-simplified-chinese-localization",
+      "predominant_language": null,
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/Qi-Busiyi-Hanhuazu/PersonaQ2ChsLocalization/languages",
+      "evidence": "Official GitHub Languages API byte totals could not be retrieved because the shared GitHub REST quota returned HTTP 403 rate limiting. Language is left unknown; README technologies or apparent source file types were not used as substitutes.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": "GitHub REST API rate limit (HTTP 403) prevented retrieval of the official repository language byte map."
+    },
+    {
+      "project_id": "yokai-watch-busters-2-spanish-translation",
+      "predominant_language": null,
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/AstralCoder48/New-YWB2_ES-Translation/languages",
+      "evidence": "Official GitHub Languages API byte totals could not be retrieved because the shared GitHub REST quota returned HTTP 403 rate limiting. Language is left unknown; README technologies or apparent source file types were not used as substitutes.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": "GitHub REST API rate limit (HTTP 403) prevented retrieval of the official repository language byte map."
+    },
+    {
+      "project_id": "four-swords-anniversary-dsi-korean-patch",
+      "predominant_language": null,
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/arqhive/zelda-four-swords-anniversary-edition-kor-patch/languages",
+      "evidence": "Official GitHub Languages API byte totals could not be retrieved because the shared GitHub REST quota returned HTTP 403 rate limiting. Language is left unknown; README technologies or apparent source file types were not used as substitutes.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": "GitHub REST API rate limit (HTTP 403) prevented retrieval of the official repository language byte map."
+    },
+    {
+      "project_id": "ace-attorney-investigations-2-ds-prosecutors-path",
+      "predominant_language": null,
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/Akoi89/prosecutors-path/languages",
+      "evidence": "Official GitHub Languages API byte totals could not be retrieved because the shared GitHub REST quota returned HTTP 403 rate limiting. Language is left unknown; README technologies or apparent source file types were not used as substitutes.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": "GitHub REST API rate limit (HTTP 403) prevented retrieval of the official repository language byte map."
+    },
+    {
+      "project_id": "gauntlet-legends-n64-pc-recomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 43245,
+        "Python": 21146,
+        "C": 2844,
+        "CMake": 2731,
+        "Shell": 1560
+      },
+      "evidence_url": "https://api.github.com/repos/Auxnon/gauntlet-legends-recomp/languages",
+      "evidence": "GitHub's official Languages API reports 43,245 bytes of C++ out of 71,526 recognized language bytes for https://github.com/Auxnon/gauntlet-legends-recomp; full byte breakdown stored here. Generated/vendor code can influence these totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "diddy-kong-racing-cyscott-pc-recomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 939340,
+        "SCSS": 61487,
+        "Shell": 31834,
+        "C": 30021,
+        "CMake": 15951,
+        "CSS": 13847,
+        "Python": 981,
+        "HLSL": 784,
+        "Dockerfile": 602
+      },
+      "evidence_url": "https://api.github.com/repos/cyscott/dkr-recomp/languages",
+      "evidence": "GitHub's official Languages API reports 939,340 bytes of C++ out of 1,094,847 recognized language bytes for https://github.com/cyscott/dkr-recomp; full byte breakdown stored here. Generated/vendor code can influence these totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "body-harvest-n64-pc-recomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 362389,
+        "Python": 156242,
+        "CMake": 24699,
+        "PowerShell": 21056,
+        "Shell": 14726,
+        "C": 962
+      },
+      "evidence_url": "https://api.github.com/repos/danielgomesvieira2000/body-harvest-recomp/languages",
+      "evidence": "GitHub's official Languages API reports 362,389 bytes of C++ out of 580,074 recognized language bytes for https://github.com/danielgomesvieira2000/body-harvest-recomp; full byte breakdown stored here. Generated/vendor code can influence these totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "tetrisphere-blocksphere-pc-recomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 525795,
+        "Python": 463718,
+        "CMake": 60534,
+        "PowerShell": 15705,
+        "Shell": 1300
+      },
+      "evidence_url": "https://api.github.com/repos/djultra64/Blocksphere/languages",
+      "evidence": "GitHub's official Languages API reports 525,795 bytes of C++ out of 1,067,052 recognized language bytes for https://github.com/djultra64/Blocksphere; full byte breakdown stored here. Generated/vendor code can influence these totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "blast-corps-power-dozer-pc-recomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 2724623,
+        "Python": 298567,
+        "CMake": 38728,
+        "PowerShell": 2018,
+        "C": 959,
+        "HLSL": 815,
+        "Shell": 568
+      },
+      "evidence_url": "https://api.github.com/repos/djultra64/Power-Dozer/languages",
+      "evidence": "GitHub's official Languages API reports 2,724,623 bytes of C++ out of 3,066,278 recognized language bytes for https://github.com/djultra64/Power-Dozer; full byte breakdown stored here. Generated/vendor code can influence these totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "neon-genesis-evangelion-n64-pc-recomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 190478,
+        "Python": 91281,
+        "PowerShell": 23860,
+        "CMake": 12209,
+        "C": 630
+      },
+      "evidence_url": "https://api.github.com/repos/evaa-01/adam/languages",
+      "evidence": "GitHub's official Languages API reports 190,478 bytes of C++ out of 318,458 recognized language bytes for https://github.com/evaa-01/adam; full byte breakdown stored here. Generated/vendor code can influence these totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "40-winks-n64-pc-recomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 119510,
+        "C#": 83006,
+        "Shell": 33480,
+        "PowerShell": 14597,
+        "Python": 12540,
+        "CMake": 9076,
+        "Makefile": 1152,
+        "C": 489
+      },
+      "evidence_url": "https://api.github.com/repos/Faderz48/40-Winks-PC-Port/languages",
+      "evidence": "GitHub's official Languages API reports 119,510 bytes of C++ out of 273,850 recognized language bytes for https://github.com/Faderz48/40-Winks-PC-Port; full byte breakdown stored here. Generated/vendor code can influence these totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "wayne-gretzkys-3d-hockey-n64-pc-recomp",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Python": 184024,
+        "C++": 116238,
+        "CMake": 9763,
+        "Java": 5724,
+        "PowerShell": 5451,
+        "Shell": 3651,
+        "BitBake": 2956,
+        "C": 2383,
+        "Batchfile": 969
+      },
+      "evidence_url": "https://api.github.com/repos/geno55/wg3d-recomp/languages",
+      "evidence": "GitHub's official Languages API reports 184,024 bytes of Python out of 331,159 recognized language bytes for https://github.com/geno55/wg3d-recomp; full byte breakdown stored here. Generated/vendor code can influence these totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "snowboard-kids-hikari-pc-recomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 671485,
+        "Python": 360144,
+        "CMake": 36111,
+        "Shell": 15703,
+        "C": 5362
+      },
+      "evidence_url": "https://api.github.com/repos/HikariLucy/SnowboardKids-Recomp/languages",
+      "evidence": "GitHub's official Languages API reports 671,485 bytes of C++ out of 1,088,805 recognized language bytes for https://github.com/HikariLucy/SnowboardKids-Recomp; full byte breakdown stored here. Generated/vendor code can influence these totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "mega-man-64-n64-pc-recomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 509758,
+        "C": 412629,
+        "SCSS": 49904,
+        "CMake": 20495,
+        "CSS": 13847,
+        "Linker Script": 2863,
+        "Shell": 2632,
+        "Objective-C++": 2415,
+        "Makefile": 951,
+        "HLSL": 784
+      },
+      "evidence_url": "https://api.github.com/repos/leroysdeath/MegaMan64Recomp/languages",
+      "evidence": "GitHub's official Languages API reports 509,758 bytes of C++ out of 1,016,278 recognized language bytes for https://github.com/leroysdeath/MegaMan64Recomp; full byte breakdown stored here. Generated/vendor code can influence these totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "sin-punishment-hoshi-no-keishousha-n64-pc-recomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 27814,
+        "CMake": 10667,
+        "Python": 8166,
+        "Shell": 4058,
+        "C": 1993
+      },
+      "evidence_url": "https://api.github.com/repos/maximilianoide/sin-punishment-recompiled/languages",
+      "evidence": "GitHub's official Languages API reports 27,814 bytes of C++ out of 52,698 recognized language bytes for https://github.com/maximilianoide/sin-punishment-recompiled; full byte breakdown stored here. Generated/vendor code can influence these totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "army-men-sarges-heroes-n64-pc-recomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 765659,
+        "Python": 150729,
+        "PowerShell": 25459,
+        "CMake": 10467,
+        "BitBake": 4178,
+        "HLSL": 1605,
+        "C": 1006,
+        "Batchfile": 179
+      },
+      "evidence_url": "https://api.github.com/repos/RangerXT/Army-Men-Sarges-Heroes-64-Recompiled/languages",
+      "evidence": "GitHub's official Languages API reports 765,659 bytes of C++ out of 959,282 recognized language bytes for https://github.com/RangerXT/Army-Men-Sarges-Heroes-64-Recompiled; full byte breakdown stored here. Generated/vendor code can influence these totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "turok-2-seeds-of-evil-n64-pc-recomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 73441769,
+        "C": 71808162,
+        "GLSL": 5156400,
+        "Java": 3770153,
+        "HTML": 2827630,
+        "Python": 2199310,
+        "JavaScript": 719959,
+        "CMake": 520550,
+        "Makefile": 278234,
+        "Shell": 249242,
+        "HLSL": 140385,
+        "CSS": 138604,
+        "Assembly": 126726,
+        "Rust": 118484,
+        "Objective-C++": 112163,
+        "PowerShell": 65675,
+        "Meson": 61100,
+        "Objective-C": 55053,
+        "Lua": 42482,
+        "Roff": 41438,
+        "Pawn": 33110,
+        "Brainfuck": 16620,
+        "Awk": 15281,
+        "Starlark": 10295,
+        "Dockerfile": 10026,
+        "Batchfile": 9667,
+        "Swift": 4007,
+        "Cuda": 1810,
+        "Kotlin": 1513,
+        "GDB": 555,
+        "BitBake": 483,
+        "Linker Script": 186
+      },
+      "evidence_url": "https://api.github.com/repos/SirBraga/turok2-recomp/languages",
+      "evidence": "GitHub's official Languages API reports 73,441,769 bytes of C++ out of 161,977,072 recognized language bytes for https://github.com/SirBraga/turok2-recomp; full byte breakdown stored here. Generated/vendor code can influence these totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "wonder-project-j2-n64-pc-recomp",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 18433736,
+        "C++": 294888,
+        "Python": 27504,
+        "CMake": 12125,
+        "Shell": 647
+      },
+      "evidence_url": "https://api.github.com/repos/Vmarcelo49/wpj2-recomp/languages",
+      "evidence": "GitHub's official Languages API reports 18,433,736 bytes of C out of 18,768,900 recognized language bytes for https://github.com/Vmarcelo49/wpj2-recomp; full byte breakdown stored here. Generated/vendor code can influence these totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "rampage-world-tour-n64-pc-recomp",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 2614564,
+        "C++": 622226,
+        "Python": 90915,
+        "CMake": 15272,
+        "HTML": 13896,
+        "PowerShell": 10797,
+        "JavaScript": 6279,
+        "Linker Script": 3860,
+        "Objective-C++": 2415,
+        "Batchfile": 1543,
+        "Makefile": 1085,
+        "HLSL": 784
+      },
+      "evidence_url": "https://api.github.com/repos/sp00nznet/Rampage/languages",
+      "evidence": "GitHub's official Languages API reports 2,614,564 bytes of C out of 3,383,636 recognized language bytes for https://github.com/sp00nznet/Rampage; full byte breakdown stored here. Generated/vendor code can influence these totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "rampage-2-universal-tour-n64-pc-recomp",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 2614564,
+        "C++": 622226,
+        "Python": 90915,
+        "CMake": 15272,
+        "HTML": 13896,
+        "PowerShell": 10797,
+        "JavaScript": 6279,
+        "Linker Script": 3860,
+        "Objective-C++": 2415,
+        "Batchfile": 1543,
+        "Makefile": 1085,
+        "HLSL": 784
+      },
+      "evidence_url": "https://api.github.com/repos/sp00nznet/Rampage/languages",
+      "evidence": "GitHub's official Languages API reports 2,614,564 bytes of C out of 3,383,636 recognized language bytes for https://github.com/sp00nznet/Rampage; full byte breakdown stored here. Generated/vendor code can influence these totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "luigis-mansion-gamecube-linux-recomp",
+      "predominant_language": null,
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/sp00nznet/luigismansion/languages",
+      "evidence": "GitHub official Languages API request was rate-limited during the batch; no byte breakdown retained or inferred.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": "GitHub official Languages API request was rate-limited during the batch; no byte breakdown retained or inferred."
+    },
+    {
+      "project_id": "animaniacs-great-edgar-hunt-gamecube-pc-recomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 434937,
+        "CMake": 43377,
+        "Shell": 16262,
+        "C": 15476,
+        "Python": 5447
+      },
+      "evidence_url": "https://api.github.com/repos/ant0-blase/ANIMANIACS-GC-RECOMP/languages",
+      "evidence": "GitHub's official Languages API reports 434,937 bytes of C++ out of 515,499 recognized language bytes for https://github.com/ant0-blase/ANIMANIACS-GC-RECOMP; full byte breakdown stored here. Generated/vendor code can influence these totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "harry-potter-chamber-secrets-gamecube-pc-recomp",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 124671273,
+        "C++": 587072,
+        "CMake": 394654,
+        "GLSL": 225651,
+        "Shell": 44317,
+        "PowerShell": 24675,
+        "Python": 4221,
+        "Assembly": 3991,
+        "Tcl": 2740,
+        "Makefile": 618
+      },
+      "evidence_url": "https://api.github.com/repos/ant0-blase/HPCOS-GC-RECOMP/languages",
+      "evidence": "GitHub's official Languages API reports 124,671,273 bytes of C out of 125,959,212 recognized language bytes for https://github.com/ant0-blase/HPCOS-GC-RECOMP; full byte breakdown stored here. Generated/vendor code can influence these totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "medal-of-honor-frontline-gamecube-pc-recomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 519392,
+        "Python": 169884,
+        "C": 60147,
+        "CMake": 59792,
+        "Shell": 46206,
+        "PowerShell": 9945
+      },
+      "evidence_url": "https://api.github.com/repos/ant0-blase/MOHFrontline-GC-RECOMP/languages",
+      "evidence": "GitHub's official Languages API reports 519,392 bytes of C++ out of 865,366 recognized language bytes for https://github.com/ant0-blase/MOHFrontline-GC-RECOMP; full byte breakdown stored here. Generated/vendor code can influence these totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "animal-crossing-gamecube-rust-bevy-recomp",
+      "predominant_language": "Rust",
+      "language_breakdown_bytes": {
+        "Rust": 387813,
+        "Python": 51646,
+        "Java": 26147,
+        "WGSL": 24930,
+        "Batchfile": 783
+      },
+      "evidence_url": "https://api.github.com/repos/LeftInWalmart/AnimalCrossingRustPort/languages",
+      "evidence": "GitHub's official Languages API reports 387,813 bytes of Rust out of 491,319 recognized language bytes for https://github.com/LeftInWalmart/AnimalCrossingRustPort; full byte breakdown stored here. Generated/vendor code can influence these totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "bmx-xxx-gamecube-rust-bevy-recomp",
+      "predominant_language": "Rust",
+      "language_breakdown_bytes": {
+        "Rust": 376678,
+        "Python": 43278,
+        "WGSL": 19554,
+        "Java": 17112,
+        "Batchfile": 704
+      },
+      "evidence_url": "https://api.github.com/repos/LeftInWalmart/bmx-xxx-recomp/languages",
+      "evidence": "GitHub's official Languages API reports 376,678 bytes of Rust out of 457,326 recognized language bytes for https://github.com/LeftInWalmart/bmx-xxx-recomp; full byte breakdown stored here. Generated/vendor code can influence these totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "kirby-air-ride-gamecube-rust-bevy-recomp",
+      "predominant_language": "Rust",
+      "language_breakdown_bytes": {
+        "Rust": 390215,
+        "Python": 54093,
+        "WGSL": 19207,
+        "Java": 17119,
+        "Batchfile": 3102
+      },
+      "evidence_url": "https://api.github.com/repos/LeftInWalmart/KirbyAR-Decomp-Public/languages",
+      "evidence": "GitHub's official Languages API reports 390,215 bytes of Rust out of 483,736 recognized language bytes for https://github.com/LeftInWalmart/KirbyAR-Decomp-Public; full byte breakdown stored here. Generated/vendor code can influence these totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "final-fantasy-crystal-chronicles-gamecube-wiicompiled-port",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 3900693,
+        "C#": 2929404,
+        "C": 279990,
+        "PowerShell": 122669,
+        "Shell": 110225,
+        "CMake": 102720,
+        "Python": 6049,
+        "Assembly": 1705,
+        "Objective-C++": 793
+      },
+      "evidence_url": "https://api.github.com/repos/luiscota99/Wiicompiled/languages",
+      "evidence": "GitHub's official Languages API reports 3,900,693 bytes of C++ out of 7,454,248 recognized language bytes for https://github.com/luiscota99/Wiicompiled; full byte breakdown stored here. Generated/vendor code can influence these totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "mlb-power-pros-2008-wii-pc-recomp",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Python": 261636,
+        "C++": 225984,
+        "PowerShell": 60384,
+        "Java": 3744,
+        "CMake": 3691,
+        "Batchfile": 336
+      },
+      "evidence_url": "https://api.github.com/repos/HopeAero/MLBPowerPros2008Recomp/languages",
+      "evidence": "GitHub's official Languages API reports 261,636 bytes of Python out of 555,775 recognized language bytes for https://github.com/HopeAero/MLBPowerPros2008Recomp; full byte breakdown stored here. Generated/vendor code can influence these totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "mario-kart-wii-wiicompiled-switch",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 1907954,
+        "Shell": 264840,
+        "Python": 215322,
+        "CMake": 23563,
+        "Makefile": 19082,
+        "Assembly": 5095,
+        "C": 4026,
+        "GLSL": 536
+      },
+      "evidence_url": "https://api.github.com/repos/yashin-sh/WiiCompiled-Switch/languages",
+      "evidence": "GitHub's official Languages API reports 1,907,954 bytes of C++ out of 2,440,418 recognized language bytes for https://github.com/yashin-sh/WiiCompiled-Switch; full byte breakdown stored here. Generated/vendor code can influence these totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "mario-kart-wii-xbox-uwp-recomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 3680891,
+        "C#": 2862280,
+        "C": 304318,
+        "PowerShell": 145780,
+        "CMake": 141850,
+        "Shell": 109189,
+        "Assembly": 1705,
+        "Objective-C++": 793
+      },
+      "evidence_url": "https://api.github.com/repos/itzjuan612/WiiCompiled-Xbox-UWP/languages",
+      "evidence": "GitHub's official Languages API reports 3,680,891 bytes of C++ out of 7,246,806 recognized language bytes for https://github.com/itzjuan612/WiiCompiled-Xbox-UWP; full byte breakdown stored here. Generated/vendor code can influence these totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "mario-kart-wii-ps-vita-wiicompiled",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 2033319,
+        "Python": 36674,
+        "CMake": 23284,
+        "Shell": 19305,
+        "Assembly": 1084,
+        "C": 502
+      },
+      "evidence_url": "https://api.github.com/repos/redluigi323/Wiitacompiled/languages",
+      "evidence": "GitHub's official Languages API reports 2,033,319 bytes of C++ out of 2,114,168 recognized language bytes for https://github.com/redluigi323/Wiitacompiled; full byte breakdown stored here. Generated/vendor code can influence these totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "mario-kart-wii-webcompiled",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 3889677,
+        "C#": 2944769,
+        "C": 287188,
+        "PowerShell": 283636,
+        "JavaScript": 224320,
+        "Shell": 186293,
+        "CMake": 144342,
+        "Python": 118484,
+        "Objective-C++": 28673,
+        "CSS": 14783,
+        "HTML": 8038,
+        "Batchfile": 5039,
+        "Dockerfile": 2400,
+        "Assembly": 1705
+      },
+      "evidence_url": "https://api.github.com/repos/dynamiteswag81/webcompiled/languages",
+      "evidence": "GitHub's official Languages API reports 3,889,677 bytes of C++ out of 8,139,347 recognized language bytes for https://github.com/dynamiteswag81/webcompiled; full byte breakdown stored here. Generated/vendor code can influence these totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "mario-kart-wii-quest3-vr-recomp",
+      "predominant_language": "PowerShell",
+      "language_breakdown_bytes": {
+        "PowerShell": 97245,
+        "Java": 423,
+        "Batchfile": 175
+      },
+      "evidence_url": "https://api.github.com/repos/JBuildr/MKW-Quest3/languages",
+      "evidence": "GitHub's official Languages API reports 97,245 bytes of PowerShell out of 97,843 recognized language bytes for https://github.com/JBuildr/MKW-Quest3; full byte breakdown stored here. Generated/vendor code can influence these totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "soulcalibur-ii-gamecube-ringout-switch",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 1111161,
+        "C++": 576735,
+        "HTML": 71856,
+        "CMake": 70475,
+        "Assembly": 9752,
+        "Shell": 8932,
+        "Python": 5560,
+        "Makefile": 618
+      },
+      "evidence_url": "https://api.github.com/repos/toniisound/RingOut-nx/languages",
+      "evidence": "GitHub's official Languages API reports 1,111,161 bytes of C out of 1,855,089 recognized language bytes for https://github.com/toniisound/RingOut-nx; full byte breakdown stored here. Generated/vendor code can influence these totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "wwf-no-mercy-quest-3-vr-port",
+      "predominant_language": null,
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/VistaLargaGames/WWF-No-Mercy-Quest-3-Standalone-/languages",
+      "evidence": "GitHub official Languages API returned an empty object for this repository during the 2026-10-16 audit; no predominant source language can be assigned.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": "GitHub official Languages API returned an empty object for this repository during the 2026-10-16 audit; no predominant source language can be assigned."
+    },
+    {
+      "project_id": "wiirecomp-wii-static-compiler",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Python": 385200,
+        "Go Template": 48934,
+        "Shell": 803
+      },
+      "evidence_url": "https://api.github.com/repos/Eggscantfly/WiiRecomp/languages",
+      "evidence": "GitHub's official Languages API reports 385,200 bytes of Python out of 434,937 recognized language bytes for https://github.com/Eggscantfly/WiiRecomp; full byte breakdown stored here. Generated/vendor code can influence these totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "moderngekko-gamecube-wii-recomp-runtime",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 496294,
+        "CMake": 49826,
+        "C": 18389
+      },
+      "evidence_url": "https://api.github.com/repos/ExpansionPak/ModernGekko/languages",
+      "evidence": "GitHub's official Languages API reports 496,294 bytes of C++ out of 564,509 recognized language bytes for https://github.com/ExpansionPak/ModernGekko; full byte breakdown stored here. Generated/vendor code can influence these totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "gekkoaot-gamecube-aot-runtime",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 3845659,
+        "Python": 363926,
+        "C": 205226,
+        "CMake": 120708,
+        "PowerShell": 7238,
+        "Shell": 4214,
+        "Linker Script": 309,
+        "Batchfile": 262
+      },
+      "evidence_url": "https://api.github.com/repos/ant0-blase/GekkoAOT/languages",
+      "evidence": "GitHub's official Languages API reports 3,845,659 bytes of C++ out of 4,547,542 recognized language bytes for https://github.com/ant0-blase/GekkoAOT; full byte breakdown stored here. Generated/vendor code can influence these totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "gxruntime-gamecube-recomp-runtime",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 2756697,
+        "C": 776816,
+        "Python": 231392,
+        "CMake": 73712,
+        "Shell": 39039,
+        "Objective-C++": 6106
+      },
+      "evidence_url": "https://api.github.com/repos/aharonahdoot/GXRuntime/languages",
+      "evidence": "GitHub's official Languages API reports 2,756,697 bytes of C++ out of 3,883,762 recognized language bytes for https://github.com/aharonahdoot/GXRuntime; full byte breakdown stored here. Generated/vendor code can influence these totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "recompcore-dolphin-static-recomp-cpu",
+      "predominant_language": null,
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/aharonahdoot/RecompCore/languages",
+      "evidence": "GitHub official Languages API request was rate-limited during the batch; no byte breakdown retained or inferred.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": "GitHub official Languages API request was rate-limited during the batch; no byte breakdown retained or inferred."
+    },
+    {
+      "project_id": "switchrecomp-nintendo-switch-static-recompiler",
+      "predominant_language": "C",
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/Mythrax-ZS/SwitchRecomp/languages",
+      "evidence": "GitHub byte totals were not available because the official Languages API endpoint was rate-limited. The primary README reports a language mix of C 62.7%, C++ 27.6%, Rust 5.3%, Python 3.9% and other 0.5%; this supports C as the README-reported predominant language but is not a byte breakdown.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "battletanx-global-assault-n64-pc-recomp",
+      "predominant_language": null,
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/wootbeer/btgarecomp/languages",
+      "evidence": "No official GitHub language-byte result was retained in this batch; no dominant language is inferred from README/tooling descriptions.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": "Official GitHub language bytes were not available in the reviewed metadata batch; do not infer."
+    },
+    {
+      "project_id": "battlezone-rise-black-dogs-n64-pc-recomp",
+      "predominant_language": null,
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/wootbeer/bzrecomp/languages",
+      "evidence": "No official GitHub language-byte result was retained in this batch; no dominant language is inferred from README/tooling descriptions.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": "Official GitHub language bytes were not available in the reviewed metadata batch; do not infer."
+    },
+    {
+      "project_id": "nine-mm-ps-vita-api-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/MetalSyntax/9mm-vita",
+      "evidence": "The official GitHub repository metadata endpoint reports language='C'. This is the repository-level detected primary language and can reflect tooling as well as the generated/runtime code; no byte breakdown is asserted in this batch.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "advena-legend-of-emeris-ps-vita-api-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/MetalSyntax/Advena-Vita",
+      "evidence": "The official GitHub repository metadata endpoint reports language='C'. This is the repository-level detected primary language and can reflect tooling as well as the generated/runtime code; no byte breakdown is asserted in this batch.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "asphalt-5-hd-ps-vita-api-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/MetalSyntax/Asphalt-5-Vita",
+      "evidence": "The official GitHub repository metadata endpoint reports language='C'. This is the repository-level detected primary language and can reflect tooling as well as the generated/runtime code; no byte breakdown is asserted in this batch.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "asphalt-6-adrenaline-ps-vita-api-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/MetalSyntax/Asphalt-6-Vita",
+      "evidence": "The official GitHub repository metadata endpoint reports language='C'. This is the repository-level detected primary language and can reflect tooling as well as the generated/runtime code; no byte breakdown is asserted in this batch.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "badland-2-ps-vita-api-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/MetalSyntax/Badland-2-vita",
+      "evidence": "The official GitHub repository metadata endpoint reports language='C'. This is the repository-level detected primary language and can reflect tooling as well as the generated/runtime code; no byte breakdown is asserted in this batch.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "brothers-in-arms-2-ps-vita-api-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/MetalSyntax/Brothers-in-Arms-2-vita",
+      "evidence": "The official GitHub repository metadata endpoint reports language='C'. This is the repository-level detected primary language and can reflect tooling as well as the generated/runtime code; no byte breakdown is asserted in this batch.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "carnivores-dinosaur-hunter-ps-vita-api-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/MetalSyntax/Carnivores-Dinosaur-Hunter-vita",
+      "evidence": "The official GitHub repository metadata endpoint reports language='C'. This is the repository-level detected primary language and can reflect tooling as well as the generated/runtime code; no byte breakdown is asserted in this batch.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "carnivores-ice-age-ps-vita-api-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/MetalSyntax/Carnivores-Ice-Age-vita",
+      "evidence": "The official GitHub repository metadata endpoint reports language='C'. This is the repository-level detected primary language and can reflect tooling as well as the generated/runtime code; no byte breakdown is asserted in this batch.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "destinia-ps-vita-api-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/MetalSyntax/Destinia-vita",
+      "evidence": "The official GitHub repository metadata endpoint reports language='C'. This is the repository-level detected primary language and can reflect tooling as well as the generated/runtime code; no byte breakdown is asserted in this batch.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "dungeon-hunter-2-ps-vita-api-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/MetalSyntax/Dungeon-Hunter-2-vita",
+      "evidence": "The official GitHub repository metadata endpoint reports language='C'. This is the repository-level detected primary language and can reflect tooling as well as the generated/runtime code; no byte breakdown is asserted in this batch.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "dungeon-hunter-3-ps-vita-api-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/MetalSyntax/Dungeon-Hunter-3-Vita",
+      "evidence": "The official GitHub repository metadata endpoint reports language='C'. This is the repository-level detected primary language and can reflect tooling as well as the generated/runtime code; no byte breakdown is asserted in this batch.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "eternal-legacy-ps-vita-api-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/MetalSyntax/Eternal-Legacy-vita",
+      "evidence": "The official GitHub repository metadata endpoint reports language='C'. This is the repository-level detected primary language and can reflect tooling as well as the generated/runtime code; no byte breakdown is asserted in this batch.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "gangstar-miami-vindication-ps-vita-api-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/MetalSyntax/Gangstar-Miami-Vindication-Vita",
+      "evidence": "The official GitHub repository metadata endpoint reports language='C'. This is the repository-level detected primary language and can reflect tooling as well as the generated/runtime code; no byte breakdown is asserted in this batch.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "gangstar-rio-ps-vita-api-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/MetalSyntax/Gangstar-Rio-vita",
+      "evidence": "The official GitHub repository metadata endpoint reports language='C'. This is the repository-level detected primary language and can reflect tooling as well as the generated/runtime code; no byte breakdown is asserted in this batch.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "gt-racing-hyundai-edition-ps-vita-api-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/MetalSyntax/GT-Racing-Hyundai-Edition-vita",
+      "evidence": "The official GitHub repository metadata endpoint reports language='C'. This is the repository-level detected primary language and can reflect tooling as well as the generated/runtime code; no byte breakdown is asserted in this batch.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "gt-racing-motor-academy-hd-ps-vita-api-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/MetalSyntax/GT-Racing-Motor-Academy-HD-vita",
+      "evidence": "The official GitHub repository metadata endpoint reports language='C'. This is the repository-level detected primary language and can reflect tooling as well as the generated/runtime code; no byte breakdown is asserted in this batch.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "hero-of-sparta-ps-vita-api-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/MetalSyntax/Hero-of-Sparta-vita",
+      "evidence": "The official GitHub repository metadata endpoint reports language='C'. This is the repository-level detected primary language and can reflect tooling as well as the generated/runtime code; no byte breakdown is asserted in this batch.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "illusia-2-ps-vita-api-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/MetalSyntax/ILLUSIA-2-Vita",
+      "evidence": "The official GitHub repository metadata endpoint reports language='C'. This is the repository-level detected primary language and can reflect tooling as well as the generated/runtime code; no byte breakdown is asserted in this batch.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "illusia-ps-vita-api-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/MetalSyntax/ILLUSIA-vita",
+      "evidence": "The official GitHub repository metadata endpoint reports language='C'. This is the repository-level detected primary language and can reflect tooling as well as the generated/runtime code; no byte breakdown is asserted in this batch.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "immortal-dusk-ps-vita-api-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/MetalSyntax/Inmortal-Dusk-vita",
+      "evidence": "The official GitHub repository metadata endpoint reports language='C'. This is the repository-level detected primary language and can reflect tooling as well as the generated/runtime code; no byte breakdown is asserted in this batch.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "inotia-2-ps-vita-api-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/MetalSyntax/Inotia2-vita",
+      "evidence": "The official GitHub repository metadata endpoint reports language='C'. This is the repository-level detected primary language and can reflect tooling as well as the generated/runtime code; no byte breakdown is asserted in this batch.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "inotia-3-ps-vita-api-port",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/MetalSyntax/Inotia3-vita",
+      "evidence": "The official GitHub repository metadata endpoint reports language='Python'. This is the repository-level detected primary language and can reflect tooling as well as the generated/runtime code; no byte breakdown is asserted in this batch.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "nova-2-ps-vita-api-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/MetalSyntax/N.O.V.A-2-vita",
+      "evidence": "The official GitHub repository metadata endpoint reports language='C'. This is the repository-level detected primary language and can reflect tooling as well as the generated/runtime code; no byte breakdown is asserted in this batch.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "prince-of-persia-classic-ps-vita-api-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/MetalSyntax/prince-of-persia-classic-psvita-port",
+      "evidence": "The official GitHub repository metadata endpoint reports language='C'. This is the repository-level detected primary language and can reflect tooling as well as the generated/runtime code; no byte breakdown is asserted in this batch.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "raging-thunder-2-ps-vita-api-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/MetalSyntax/Raging-Thunder-2-vita",
+      "evidence": "The official GitHub repository metadata endpoint reports language='C'. This is the repository-level detected primary language and can reflect tooling as well as the generated/runtime code; no byte breakdown is asserted in this batch.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "raging-thunder-ps-vita-api-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/MetalSyntax/Raging-Thunder-vita",
+      "evidence": "The official GitHub repository metadata endpoint reports language='C'. This is the repository-level detected primary language and can reflect tooling as well as the generated/runtime code; no byte breakdown is asserted in this batch.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "rayman-jungle-run-ps-vita-api-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/MetalSyntax/Rayman-Jungle-Run-vita",
+      "evidence": "The official GitHub repository metadata endpoint reports language='C'. This is the repository-level detected primary language and can reflect tooling as well as the generated/runtime code; no byte breakdown is asserted in this batch.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "riptide-gp-ps-vita-api-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/MetalSyntax/Riptide-GP-vita",
+      "evidence": "The official GitHub repository metadata endpoint reports language='C'. This is the repository-level detected primary language and can reflect tooling as well as the generated/runtime code; no byte breakdown is asserted in this batch.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "sacred-odyssey-ps-vita-api-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/MetalSyntax/Sacred-Odyssey-vita",
+      "evidence": "The official GitHub repository metadata endpoint reports language='C'. This is the repository-level detected primary language and can reflect tooling as well as the generated/runtime code; no byte breakdown is asserted in this batch.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "shadow-guardian-ps-vita-api-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/MetalSyntax/Shadow-Guardian-vita",
+      "evidence": "The official GitHub repository metadata endpoint reports language='C'. This is the repository-level detected primary language and can reflect tooling as well as the generated/runtime code; no byte breakdown is asserted in this batch.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "snail-mail-ps-vita-api-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/MetalSyntax/Snail-Mail-vita",
+      "evidence": "The official GitHub repository metadata endpoint reports language='C'. This is the repository-level detected primary language and can reflect tooling as well as the generated/runtime code; no byte breakdown is asserted in this batch.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "the-impossible-game-ps-vita-api-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/MetalSyntax/The-Impossible-Game-vita",
+      "evidence": "The official GitHub repository metadata endpoint reports language='C'. This is the repository-level detected primary language and can reflect tooling as well as the generated/runtime code; no byte breakdown is asserted in this batch.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "zenonia-2-ps-vita-api-port",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/MetalSyntax/Zenonia2-psvita-port",
+      "evidence": "The official GitHub repository metadata endpoint reports language='C++'. This is the repository-level detected primary language and can reflect tooling as well as the generated/runtime code; no byte breakdown is asserted in this batch.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "zenonia-3-ps-vita-api-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/MetalSyntax/zenonia3-psvita-port",
+      "evidence": "The official GitHub repository metadata endpoint reports language='C'. This is the repository-level detected primary language and can reflect tooling as well as the generated/runtime code; no byte breakdown is asserted in this batch.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "zenonia-4-ps-vita-api-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/MetalSyntax/Zenonia4-psvita-port",
+      "evidence": "The official GitHub repository metadata endpoint reports language='C'. This is the repository-level detected primary language and can reflect tooling as well as the generated/runtime code; no byte breakdown is asserted in this batch.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "ps2native-recompilation-toolkit",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/Pedrohs1771/ps2-native",
+      "evidence": "The official GitHub repository metadata endpoint reports language='C++'. This is the repository-level detected primary language and can reflect tooling as well as the generated/runtime code; no byte breakdown is asserted in this batch.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "sal063-psp-static-recompiler-toolkit",
+      "predominant_language": "C",
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/sal063/PSP-recompilation-project",
+      "evidence": "The official GitHub repository metadata endpoint reports language='C'. This is the repository-level detected primary language and can reflect tooling as well as the generated/runtime code; no byte breakdown is asserted in this batch.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "twisted-metal-psone-classics-ps3-emulator-recomp",
+      "predominant_language": "C",
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/sp00nznet/twistedmetal-psn",
+      "evidence": "The official GitHub repository metadata endpoint reports language='C'. This is the repository-level detected primary language and can reflect tooling as well as the generated/runtime code; no byte breakdown is asserted in this batch.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "work-time-fun-psp-recomp",
+      "predominant_language": "PowerShell",
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/sp00nznet/wtf-psp-recomp",
+      "evidence": "The official GitHub repository metadata endpoint reports language='PowerShell'. This is the repository-level detected primary language and can reflect tooling as well as the generated/runtime code; no byte breakdown is asserted in this batch.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "simpsons-hit-and-run-ps3-source-port",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/sp00nznet/simpsonshnr",
+      "evidence": "The official GitHub repository metadata endpoint reports language='C++'. This is the repository-level detected primary language and can reflect tooling as well as the generated/runtime code; no byte breakdown is asserted in this batch.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "lisa-the-painful-ps-vita-port",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/Pinol0/LISA-Vita",
+      "evidence": "The official GitHub repository metadata endpoint reports language='C++'. This is the repository-level detected primary language and can reflect tooling as well as the generated/runtime code; no byte breakdown is asserted in this batch.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "super-smash-bros-n64-vita-battleship-port",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/robin994/battleship-vita",
+      "evidence": "The official GitHub repository metadata endpoint reports language='C++'. This is the repository-level detected primary language and can reflect tooling as well as the generated/runtime code; no byte breakdown is asserted in this batch.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "chips-challenge-windows-vita-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/TheGh0stShip/VitaChipsChallenge",
+      "evidence": "The official GitHub repository metadata endpoint reports language='C'. This is the repository-level detected primary language and can reflect tooling as well as the generated/runtime code; no byte breakdown is asserted in this batch.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "the-ledge-rpg-maker-mv-ps-vita-port",
+      "predominant_language": null,
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/beaufortribbons/The-Ledge-Vita/languages",
+      "evidence": "GitHub reported no detected primary-language value for this repository; no language is inferred from the VPK, generated code or README.",
+      "verified_at": "2026-10-16",
+      "reason_unknown": "The official GitHub repository metadata reports no detected primary language; the repository is very small and the provided source archive may be separate."
+    },
+    {
+      "project_id": "shotgun-king-ps-vita-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/Botarguirix/ShotgunK2Vita",
+      "evidence": "The official GitHub repository metadata endpoint reports language='C'. This is the repository-level detected primary language and can reflect tooling as well as the generated/runtime code; no byte breakdown is asserted in this batch.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "castle-of-illusion-android-ps-vita-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/jwfeniello/Castle-of-Illusion-Vita",
+      "evidence": "The official GitHub repository metadata endpoint reports language='C'. This is the repository-level detected primary language and can reflect tooling as well as the generated/runtime code; no byte breakdown is asserted in this batch.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "regular-show-best-park-ps-vita-port",
+      "predominant_language": "C",
+      "language_breakdown_bytes": null,
+      "evidence_url": "https://api.github.com/repos/jwfeniello/regular-show-best-park-in-the-universe-vita",
+      "evidence": "The official GitHub repository metadata endpoint reports language='C'. This is the repository-level detected primary language and can reflect tooling as well as the generated/runtime code; no byte breakdown is asserted in this batch.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "rhythm-tengoku-arcade-naomi-decomp",
+      "predominant_language": "Assembly",
+      "language_breakdown_bytes": {
+        "Assembly": 16205546,
+        "C": 772118,
+        "Python": 376027,
+        "Makefile": 20817,
+        "Lua": 5234,
+        "Dockerfile": 3929,
+        "C++": 2430
+      },
+      "evidence_url": "https://api.github.com/repos/Toritan123/rhytngk-arcade-decomp/languages",
+      "evidence": "GitHub's official repository Languages API reports these repository-wide byte totals; the largest total is listed as the predominant language. Generated or tooling code can affect repository-wide totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "rings-of-power-genesis-recomp",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Python": 487591,
+        "C++": 248383,
+        "C": 237207,
+        "Makefile": 541,
+        "Shell": 427
+      },
+      "evidence_url": "https://api.github.com/repos/kruzeman/RROP/languages",
+      "evidence": "GitHub's official repository Languages API reports these repository-wide byte totals; the largest total is listed as the predominant language. Generated or tooling code can affect repository-wide totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "cps1-static-recomp-toolkit",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 223545,
+        "C++": 5609,
+        "CMake": 3706
+      },
+      "evidence_url": "https://api.github.com/repos/sp00nznet/cps1recomp/languages",
+      "evidence": "GitHub's official repository Languages API reports these repository-wide byte totals; the largest total is listed as the predominant language. Generated or tooling code can affect repository-wide totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "street-fighter-ii-world-warrior-cps1-recomp",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 381318,
+        "Python": 90731,
+        "CMake": 895
+      },
+      "evidence_url": "https://api.github.com/repos/sp00nznet/sf2/languages",
+      "evidence": "GitHub's official repository Languages API reports these repository-wide byte totals; the largest total is listed as the predominant language. Generated or tooling code can affect repository-wide totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "saturnrecomp-experimental-runtime",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 1338825,
+        "Python": 211168,
+        "PowerShell": 80540,
+        "C++": 2461,
+        "GLSL": 668
+      },
+      "evidence_url": "https://api.github.com/repos/sonsegajp/SaturnRecomp/languages",
+      "evidence": "GitHub's official repository Languages API reports these repository-wide byte totals; the largest total is listed as the predominant language. Generated or tooling code can affect repository-wide totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "rhythm-tengoku-arcade-english-patch",
+      "predominant_language": "C#",
+      "language_breakdown_bytes": {
+        "C#": 220037
+      },
+      "evidence_url": "https://api.github.com/repos/CarsonKompon/RhythmHeavenArcadeENG/languages",
+      "evidence": "GitHub's official repository Languages API reports these repository-wide byte totals; the largest total is listed as the predominant language. Generated or tooling code can affect repository-wide totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "albert-odyssey-saturn-recomp",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Python": 25472
+      },
+      "evidence_url": "https://api.github.com/repos/vs-sr-dev/pc-albertodyssey/languages",
+      "evidence": "GitHub's official repository Languages API reports these repository-wide byte totals; the largest total is listed as the predominant language. Generated or tooling code can affect repository-wide totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "dodonpachi-saturn-recomp",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Python": 24741
+      },
+      "evidence_url": "https://api.github.com/repos/vs-sr-dev/pc-dodonpachi/languages",
+      "evidence": "GitHub's official repository Languages API reports these repository-wide byte totals; the largest total is listed as the predominant language. Generated or tooling code can affect repository-wide totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "dragon-ball-z-legende-saturn-recomp",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Python": 27422
+      },
+      "evidence_url": "https://api.github.com/repos/vs-sr-dev/pc-dragonballlegend/languages",
+      "evidence": "GitHub's official repository Languages API reports these repository-wide byte totals; the largest total is listed as the predominant language. Generated or tooling code can affect repository-wide totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "virtua-fighter-2-model2-cleanroom-decomp",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 7517913,
+        "Python": 1039651,
+        "C++": 345748,
+        "CMake": 67126,
+        "PowerShell": 13796,
+        "Shell": 8089,
+        "Pawn": 18
+      },
+      "evidence_url": "https://api.github.com/repos/celsowm/vf2-decomp/languages",
+      "evidence": "GitHub's official repository Languages API reports these repository-wide byte totals; the largest total is listed as the predominant language. Generated or tooling code can affect repository-wide totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "house-of-the-dead-2-naomi-recomp",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 154392,
+        "Python": 63536,
+        "JavaScript": 26054,
+        "Shell": 4644,
+        "HTML": 2813
+      },
+      "evidence_url": "https://api.github.com/repos/yunophilia/hotd2-recompiled/languages",
+      "evidence": "GitHub's official repository Languages API reports these repository-wide byte totals; the largest total is listed as the predominant language. Generated or tooling code can affect repository-wide totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "sonic-pocket-adventure-ngpc-recomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 590079,
+        "Python": 18340,
+        "CMake": 4067,
+        "Lua": 3269
+      },
+      "evidence_url": "https://api.github.com/repos/myuu-151/Sonic-Pocket/languages",
+      "evidence": "GitHub's official repository Languages API reports these repository-wide byte totals; the largest total is listed as the predominant language. Generated or tooling code can affect repository-wide totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "mario-kart-arcade-gp2-triforce-decomp",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 3576107,
+        "Python": 575828,
+        "C++": 300931,
+        "Assembly": 196904,
+        "JavaScript": 11016,
+        "Java": 5033
+      },
+      "evidence_url": "https://api.github.com/repos/naari3/mkgp2-decomp/languages",
+      "evidence": "GitHub's official repository Languages API reports these repository-wide byte totals; the largest total is listed as the predominant language. Generated or tooling code can affect repository-wide totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "rayman-2-dreamcast-static-recomp",
+      "predominant_language": "CMake",
+      "language_breakdown_bytes": {
+        "CMake": 397
+      },
+      "evidence_url": "https://api.github.com/repos/phobos665/Raymanian-2-recomp/languages",
+      "evidence": "GitHub's official repository Languages API reports these repository-wide byte totals; the largest total is listed as the predominant language. Generated or tooling code can affect repository-wide totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "dreamcast-naomi-static-recompiler-framework",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 228347,
+        "Python": 138989,
+        "CMake": 2889
+      },
+      "evidence_url": "https://api.github.com/repos/sp00nznet/dcrecomp/languages",
+      "evidence": "GitHub's official repository Languages API reports these repository-wide byte totals; the largest total is listed as the predominant language. Generated or tooling code can affect repository-wide totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "deecy-dreamcast-emulator",
+      "predominant_language": "Zig",
+      "language_breakdown_bytes": {
+        "Zig": 2226060,
+        "WGSL": 45075,
+        "Assembly": 250,
+        "C": 46
+      },
+      "evidence_url": "https://api.github.com/repos/Senryoku/Deecy/languages",
+      "evidence": "GitHub's official repository Languages API reports these repository-wide byte totals; the largest total is listed as the predominant language. Generated or tooling code can affect repository-wide totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "hang-on-master-system-disassembly",
+      "predominant_language": "Assembly",
+      "language_breakdown_bytes": {
+        "Assembly": 301688,
+        "Python": 48463,
+        "Makefile": 168
+      },
+      "evidence_url": "https://api.github.com/repos/xrip/hangon/languages",
+      "evidence": "GitHub's official repository Languages API reports these repository-wide byte totals; the largest total is listed as the predominant language. Generated or tooling code can affect repository-wide totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "spy-vs-spy-master-system-disassembly",
+      "predominant_language": "Assembly",
+      "language_breakdown_bytes": {
+        "Assembly": 522625,
+        "Python": 79282,
+        "Makefile": 1313,
+        "Batchfile": 947
+      },
+      "evidence_url": "https://api.github.com/repos/xrip/spy-vs-spy/languages",
+      "evidence": "GitHub's official repository Languages API reports these repository-wide byte totals; the largest total is listed as the predominant language. Generated or tooling code can affect repository-wide totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "ms-pac-man-genesis-static-recomp",
+      "predominant_language": "Shell",
+      "language_breakdown_bytes": {
+        "Shell": 53305,
+        "C": 23284,
+        "CMake": 13976,
+        "Python": 13075,
+        "Batchfile": 432
+      },
+      "evidence_url": "https://api.github.com/repos/vibecodekun/mspacmanrecomp/languages",
+      "evidence": "GitHub's official repository Languages API reports these repository-wide byte totals; the largest total is listed as the predominant language. Generated or tooling code can affect repository-wide totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "mutant-league-hockey-reimplementation",
+      "predominant_language": "GDScript",
+      "language_breakdown_bytes": {
+        "GDScript": 5803773,
+        "Python": 854094,
+        "Shell": 92546,
+        "GDShader": 66681,
+        "C++": 29441,
+        "Makefile": 4021
+      },
+      "evidence_url": "https://api.github.com/repos/scheeseman486/mightyweenie/languages",
+      "evidence": "GitHub's official repository Languages API reports these repository-wide byte totals; the largest total is listed as the predominant language. Generated or tooling code can affect repository-wide totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "daytona-usa-model2-switch-recomp-port",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 1291991,
+        "C": 938562,
+        "Python": 86347,
+        "CMake": 50756,
+        "Shell": 18314,
+        "Lua": 17277,
+        "HLSL": 15749,
+        "PowerShell": 5323,
+        "NASL": 4542
+      },
+      "evidence_url": "https://api.github.com/repos/toniisound/daytona-recomp-nx/languages",
+      "evidence": "GitHub's official repository Languages API reports these repository-wide byte totals; the largest total is listed as the predominant language. Generated or tooling code can affect repository-wide totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "dune-battle-for-arrakis-genesis-recomp",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "Python": 359161,
+        "C++": 248383,
+        "C": 189678,
+        "Makefile": 541,
+        "Shell": 302
+      },
+      "evidence_url": "https://api.github.com/repos/kruzeman/ReArrakis/languages",
+      "evidence": "GitHub's official repository Languages API reports these repository-wide byte totals; the largest total is listed as the predominant language. Generated or tooling code can affect repository-wide totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "little-big-adventure-2-dreamcast-port",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 4144025,
+        "Assembly": 1306098,
+        "C": 875354,
+        "CMake": 94522,
+        "Shell": 28083,
+        "PowerShell": 16146,
+        "Makefile": 1583,
+        "Python": 1525
+      },
+      "evidence_url": "https://api.github.com/repos/vs-sr-dev/dc-lba2/languages",
+      "evidence": "GitHub's official repository Languages API reports these repository-wide byte totals; the largest total is listed as the predominant language. Generated or tooling code can affect repository-wide totals.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "burnout-2-point-of-impact-xbox-static-recomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 1488306,
+        "CMake": 23544,
+        "C": 466,
+        "Assembly": 6823,
+        "Batchfile": 170,
+        "PowerShell": 16200
+      },
+      "evidence_url": "https://api.github.com/repos/timftw21/burnout2-recompilation/languages",
+      "evidence": "Official GitHub Repository.languages API byte counts: 1,488,306 bytes of C++, the largest total (96.9% of 1,535,509 recognized language bytes). These are repository-level counts; generated code, vendored dependencies, launchers, tooling, or other titles in a shared repository affect the total.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "ssx-tricky-opentricky-xbox-windows-recomp",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "Batchfile": 865,
+        "Shell": 25525,
+        "CMake": 38904,
+        "C": 4732297,
+        "Python": 769463,
+        "HLSL": 54445,
+        "Java": 2533,
+        "C++": 217261
+      },
+      "evidence_url": "https://api.github.com/repos/GiZcesi/OpenTricky/languages",
+      "evidence": "Official GitHub Repository.languages API byte counts: 4,732,297 bytes of C, the largest total (81.0% of 5,841,293 recognized language bytes). These are repository-level counts; generated code, vendored dependencies, launchers, tooling, or other titles in a shared repository affect the total.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "ssx-tricky-reindance-linux-recomp",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "CMake": 27952,
+        "Batchfile": 121,
+        "PowerShell": 1524,
+        "Shell": 2671,
+        "Python": 259010,
+        "C": 368108,
+        "GLSL": 24004
+      },
+      "evidence_url": "https://api.github.com/repos/reindance/ssx-tricky-recomp/languages",
+      "evidence": "Official GitHub Repository.languages API byte counts: 368,108 bytes of C, the largest total (53.9% of 683,390 recognized language bytes). These are repository-level counts; generated code, vendored dependencies, launchers, tooling, or other titles in a shared repository affect the total.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "x-men-legends-original-xbox-windows-recomp",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "CMake": 57091,
+        "PowerShell": 32022,
+        "C++": 1137346,
+        "Python": 947093,
+        "C": 89017306,
+        "Batchfile": 117,
+        "Assembly": 6389
+      },
+      "evidence_url": "https://api.github.com/repos/GTTeancum/OpenXML1xbox/languages",
+      "evidence": "Official GitHub Repository.languages API byte counts: 89,017,306 bytes of C, the largest total (97.6% of 91,197,364 recognized language bytes). These are repository-level counts; generated code, vendored dependencies, launchers, tooling, or other titles in a shared repository affect the total.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "infinite-undiscovery-xbox360-windows-recomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "CMake": 5069,
+        "PowerShell": 8366,
+        "C++": 372026,
+        "C": 4150
+      },
+      "evidence_url": "https://api.github.com/repos/doc-haz/infinite-undiscovery-recomp/languages",
+      "evidence": "Official GitHub Repository.languages API byte counts: 372,026 bytes of C++, the largest total (95.5% of 389,611 recognized language bytes). These are repository-level counts; generated code, vendored dependencies, launchers, tooling, or other titles in a shared repository affect the total.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "vigilante-8-arcade-xbla-windows-recomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 239535,
+        "Python": 70176,
+        "CMake": 6239
+      },
+      "evidence_url": "https://api.github.com/repos/sp00nznet/vig8/languages",
+      "evidence": "Official GitHub Repository.languages API byte counts: 239,535 bytes of C++, the largest total (75.8% of 315,950 recognized language bytes). These are repository-level counts; generated code, vendored dependencies, launchers, tooling, or other titles in a shared repository affect the total.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "crash-of-the-titans-xbox360-windows-mojorecomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "Batchfile": 11167,
+        "HTML": 354,
+        "JavaScript": 125580,
+        "Rust": 630786,
+        "Svelte": 98410,
+        "CSS": 60232,
+        "TypeScript": 5230,
+        "CMake": 41519,
+        "C++": 1658226,
+        "HLSL": 807,
+        "C": 1164,
+        "Python": 37514
+      },
+      "evidence_url": "https://api.github.com/repos/OAleex/MojoRecomp/languages",
+      "evidence": "Official GitHub Repository.languages API byte counts: 1,658,226 bytes of C++, the largest total (62.1% of 2,670,989 recognized language bytes). These are repository-level counts; generated code, vendored dependencies, launchers, tooling, or other titles in a shared repository affect the total.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "crash-mind-over-mutant-xbox360-windows-mojorecomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "Batchfile": 11167,
+        "HTML": 354,
+        "JavaScript": 125580,
+        "Rust": 630786,
+        "Svelte": 98410,
+        "CSS": 60232,
+        "TypeScript": 5230,
+        "CMake": 41519,
+        "C++": 1658226,
+        "HLSL": 807,
+        "C": 1164,
+        "Python": 37514
+      },
+      "evidence_url": "https://api.github.com/repos/OAleex/MojoRecomp/languages",
+      "evidence": "Official GitHub Repository.languages API byte counts: 1,658,226 bytes of C++, the largest total (62.1% of 2,670,989 recognized language bytes). These are repository-level counts; generated code, vendored dependencies, launchers, tooling, or other titles in a shared repository affect the total.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "minecraft-xbox360-ios-mcx360-edition",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "CMake": 10875,
+        "C++": 10896,
+        "Shell": 3985
+      },
+      "evidence_url": "https://api.github.com/repos/DevZer0D4Y/MCX360-EDITION/languages",
+      "evidence": "Official GitHub Repository.languages API byte counts: 10,896 bytes of C++, the largest total (42.3% of 25,756 recognized language bytes). These are repository-level counts; generated code, vendored dependencies, launchers, tooling, or other titles in a shared repository affect the total.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "wwe-smackdown-vs-raw-2008-xbox360-pc-recomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "CMake": 9857,
+        "PowerShell": 25790,
+        "C++": 953548,
+        "C": 11357,
+        "HLSL": 9930,
+        "Python": 3935
+      },
+      "evidence_url": "https://api.github.com/repos/nefariousjosiah/WWE-SVR2008-RECOMP/languages",
+      "evidence": "Official GitHub Repository.languages API byte counts: 953,548 bytes of C++, the largest total (94.0% of 1,014,417 recognized language bytes). These are repository-level counts; generated code, vendored dependencies, launchers, tooling, or other titles in a shared repository affect the total.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "3-on-3-nhl-arcade-xbla-windows-recomp",
+      "predominant_language": "C#",
+      "language_breakdown_bytes": {
+        "CMake": 7940,
+        "C++": 4588,
+        "C#": 13750,
+        "Java": 680
+      },
+      "evidence_url": "https://api.github.com/repos/Wndwsqrrl/3on3NHL-recomp/languages",
+      "evidence": "Official GitHub Repository.languages API byte counts: 13,750 bytes of C#, the largest total (51.0% of 26,958 recognized language bytes). These are repository-level counts; generated code, vendored dependencies, launchers, tooling, or other titles in a shared repository affect the total.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "cars-xbox360-linux-rexglue-recomp",
+      "predominant_language": "Shell",
+      "language_breakdown_bytes": {
+        "Shell": 39960,
+        "CMake": 6961,
+        "C++": 7567,
+        "Python": 9029
+      },
+      "evidence_url": "https://api.github.com/repos/ant0-blase/Cars-X360-ReXGlue/languages",
+      "evidence": "Official GitHub Repository.languages API byte counts: 39,960 bytes of Shell, the largest total (62.9% of 63,517 recognized language bytes). These are repository-level counts; generated code, vendored dependencies, launchers, tooling, or other titles in a shared repository affect the total.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "saw-ii-flesh-and-blood-xbox360-linux-rexglue-recomp",
+      "predominant_language": "Shell",
+      "language_breakdown_bytes": {
+        "CMake": 6515,
+        "Shell": 35965,
+        "PowerShell": 2168,
+        "Python": 25057,
+        "C++": 6741
+      },
+      "evidence_url": "https://api.github.com/repos/ant0-blase/Saw2-X360-ReXGlue/languages",
+      "evidence": "Official GitHub Repository.languages API byte counts: 35,965 bytes of Shell, the largest total (47.0% of 76,446 recognized language bytes). These are repository-level counts; generated code, vendored dependencies, launchers, tooling, or other titles in a shared repository affect the total.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "resident-evil-code-veronica-x-hd-xbox360-linux-rexglue-recomp",
+      "predominant_language": "Shell",
+      "language_breakdown_bytes": {
+        "CMake": 6393,
+        "Shell": 69349,
+        "PowerShell": 3168,
+        "Python": 21870,
+        "C++": 5975
+      },
+      "evidence_url": "https://api.github.com/repos/ant0-blase/ResidentEvil-CodeVeronicaX-X360-ReXGlue/languages",
+      "evidence": "Official GitHub Repository.languages API byte counts: 69,349 bytes of Shell, the largest total (65.0% of 106,755 recognized language bytes). These are repository-level counts; generated code, vendored dependencies, launchers, tooling, or other titles in a shared repository affect the total.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "grand-theft-auto-iv-xbox360-windows-recomp",
+      "predominant_language": "Python",
+      "language_breakdown_bytes": {
+        "CMake": 2854,
+        "C++": 1202,
+        "Python": 16027
+      },
+      "evidence_url": "https://api.github.com/repos/luisxl15/GTA-IV-RECOMP-XBOX-360/languages",
+      "evidence": "Official GitHub Repository.languages API byte counts: 16,027 bytes of Python, the largest total (79.8% of 20,083 recognized language bytes). These are repository-level counts; generated code, vendored dependencies, launchers, tooling, or other titles in a shared repository affect the total.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "conker-live-reloaded-original-xbox-windows-recomp",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "CMake": 14978,
+        "C": 45556109,
+        "Python": 471342,
+        "Java": 2533,
+        "Shell": 9050,
+        "PowerShell": 938
+      },
+      "evidence_url": "https://api.github.com/repos/codepdbh/xboxrecomp-conker/languages",
+      "evidence": "Official GitHub Repository.languages API byte counts: 45,556,109 bytes of C, the largest total (98.9% of 46,054,950 recognized language bytes). These are repository-level counts; generated code, vendored dependencies, launchers, tooling, or other titles in a shared repository affect the total.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "fallout-new-vegas-xbox360-windows-renevada-recomp",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "CMake": 498,
+        "Python": 1871,
+        "C++": 13146
+      },
+      "evidence_url": "https://api.github.com/repos/RedZeroGotcha/reNEVADA360/languages",
+      "evidence": "Official GitHub Repository.languages API byte counts: 13,146 bytes of C++, the largest total (84.7% of 15,515 recognized language bytes). These are repository-level counts; generated code, vendored dependencies, launchers, tooling, or other titles in a shared repository affect the total.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "forza-horizon-2-xbox360-windows-recomp",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 13410970,
+        "C++": 9530989,
+        "Assembly": 304693,
+        "CMake": 87673,
+        "PowerShell": 36741,
+        "Python": 27309,
+        "HLSL": 6177,
+        "Shell": 8615,
+        "Pawn": 1111,
+        "SourcePawn": 1064,
+        "Batchfile": 60
+      },
+      "evidence_url": "https://api.github.com/repos/fabioap-cpu/Forza-Horizon-2-Recomp/languages",
+      "evidence": "Official GitHub Repository.languages API byte counts: 13,410,970 bytes of C, the largest total. This is a repository-level count; generated code, vendored dependencies, launchers, tooling, or other titles in a shared repository affect the total.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "3-on-3-nhl-arcade-xbla-android-arm64-recomp",
+      "predominant_language": "C#",
+      "language_breakdown_bytes": {
+        "C#": 13750,
+        "CMake": 7940,
+        "C++": 4588,
+        "Java": 680
+      },
+      "evidence_url": "https://api.github.com/repos/Wndwsqrrl/3on3NHL-recomp/languages",
+      "evidence": "Official GitHub Repository.languages API byte counts for the shared repository: 13,750 bytes of C#, the largest total (51.0% of 26,958 recognized language bytes). This is repository-wide, not Android-subdirectory-only; it includes platform-independent/tooling files and does not describe only the Android client.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "neetan-japanese-computer-emulator",
+      "predominant_language": "Rust",
+      "language_breakdown_bytes": {
+        "Rust": 34224885,
+        "Assembly": 454965,
+        "Python": 171073,
+        "Scheme": 136237,
+        "Slang": 27642,
+        "Makefile": 5883
+      },
+      "evidence_url": "https://api.github.com/repos/neetandev/neetan/languages",
+      "evidence": "GitHub official repository Languages API reports 34,224,885 bytes of Rust as the largest of 6 recognized language buckets (97.7% of recognized bytes). Checked 2026-10-16. Repository-level language counts may include tooling, bundled resources, and UI code.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "contralto2-xerox-alto",
+      "predominant_language": "C#",
+      "language_breakdown_bytes": {
+        "C#": 797520,
+        "mupad": 200201
+      },
+      "evidence_url": "https://api.github.com/repos/jdersch/Contralto2/languages",
+      "evidence": "GitHub official repository Languages API reports 797,520 bytes of C# as the largest of 2 recognized language buckets (79.9% of recognized bytes). Checked 2026-10-16. GitHub also counts a substantial MuPAD bucket in this repository; the official language endpoint classifies C# as the largest language.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "darkstar-xerox-star-workstation",
+      "predominant_language": "C#",
+      "language_breakdown_bytes": {
+        "C#": 818793,
+        "Rich Text Format": 44847
+      },
+      "evidence_url": "https://api.github.com/repos/livingcomputermuseum/Darkstar/languages",
+      "evidence": "GitHub official repository Languages API reports 818,793 bytes of C# as the largest of 2 recognized language buckets (94.8% of recognized bytes). Checked 2026-10-16. Repository-level language counts may include tooling, bundled resources, and UI code.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "simlac-imlac-pds1-pds4",
+      "predominant_language": "C#",
+      "language_breakdown_bytes": {
+        "C#": 345380
+      },
+      "evidence_url": "https://api.github.com/repos/livingcomputermuseum/sImlac/languages",
+      "evidence": "GitHub official repository Languages API reports 345,380 bytes of C# as the largest of 1 recognized language buckets (100.0% of recognized bytes). Checked 2026-10-16. Repository-level language counts may include tooling, bundled resources, and UI code.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "x48-hp48-calculator",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 631133,
+        "Roff": 7526,
+        "Assembly": 7270,
+        "M4": 3984,
+        "Makefile": 3568,
+        "Shell": 982
+      },
+      "evidence_url": "https://api.github.com/repos/czodroid/x48/languages",
+      "evidence": "GitHub official repository Languages API reports 631,133 bytes of C as the largest of 6 recognized language buckets (96.4% of recognized bytes). Checked 2026-10-16. Repository-level language counts may include tooling, bundled resources, and UI code.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "emu48-android-calculator",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 1459474,
+        "Java": 462358,
+        "C++": 107788,
+        "HTML": 37703,
+        "CMake": 4401
+      },
+      "evidence_url": "https://api.github.com/repos/dgis/emu48android/languages",
+      "evidence": "GitHub official repository Languages API reports 1,459,474 bytes of C as the largest of 5 recognized language buckets (70.4% of recognized bytes). Checked 2026-10-16. C is the largest repository language bucket; README independently identifies the emulator core as C and the Android application as Java.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "hemulator-multisystem",
+      "predominant_language": "Rust",
+      "language_breakdown_bytes": {
+        "Rust": 8070738,
+        "Python": 101886,
+        "Assembly": 99631,
+        "GLSL": 12627,
+        "Shell": 11887,
+        "PowerShell": 9100,
+        "C": 1105
+      },
+      "evidence_url": "https://api.github.com/repos/Hexagon/hemulator/languages",
+      "evidence": "GitHub repository language API byte counts; Rust has the largest reported share. Checked 2026-10-16.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "dsp-emulator-multisystem",
+      "predominant_language": "Pascal",
+      "language_breakdown_bytes": {
+        "Pascal": 13665204
+      },
+      "evidence_url": "https://api.github.com/repos/leniad/dsp-emulator/languages",
+      "evidence": "GitHub repository language API byte counts; Pascal is the only reported language. Checked 2026-10-16.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "nemulator-multisystem",
+      "predominant_language": "C++",
+      "language_breakdown_bytes": {
+        "C++": 1379876,
+        "C": 65787,
+        "HLSL": 19853
+      },
+      "evidence_url": "https://api.github.com/repos/jslepicka/nemulator/languages",
+      "evidence": "GitHub repository language API byte counts; C++ has the largest reported share. Checked 2026-10-16.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "cloopy-casio-loopy",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 1170879,
+        "JavaScript": 27596,
+        "CSS": 17446,
+        "Python": 16226,
+        "HTML": 14771,
+        "Makefile": 10439,
+        "Perl": 34
+      },
+      "evidence_url": "https://api.github.com/repos/gameblabla/CLoopy/languages",
+      "evidence": "GitHub repository language API byte counts; C has the largest reported share. Checked 2026-10-16.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "gamate-emulator",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 85961,
+        "C++": 11843,
+        "CMake": 732
+      },
+      "evidence_url": "https://api.github.com/repos/xrip/gamate/languages",
+      "evidence": "GitHub repository language API byte counts; C has the largest reported share. Checked 2026-10-16.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "mister-superacan",
+      "predominant_language": "SystemVerilog",
+      "language_breakdown_bytes": {
+        "SystemVerilog": 937190,
+        "Verilog": 318617,
+        "VHDL": 107940,
+        "Tcl": 27414,
+        "Batchfile": 708
+      },
+      "evidence_url": "https://api.github.com/repos/MiSTer-devel/SuperACan_MiSTer/languages",
+      "evidence": "GitHub repository language API byte counts; SystemVerilog has the largest reported share. Checked 2026-10-16.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "mister-super-cassette-vision",
+      "predominant_language": "SystemVerilog",
+      "language_breakdown_bytes": {
+        "SystemVerilog": 447629,
+        "Verilog": 310637,
+        "VHDL": 103129,
+        "Python": 44741,
+        "Tcl": 22716,
+        "C++": 3666,
+        "Batchfile": 708,
+        "Makefile": 234
+      },
+      "evidence_url": "https://api.github.com/repos/MiSTer-devel/SuperCassetteVision_MiSTer/languages",
+      "evidence": "GitHub repository language API byte counts; SystemVerilog has the largest reported share. Checked 2026-10-16.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "mister-casio-loopy",
+      "predominant_language": "SystemVerilog",
+      "language_breakdown_bytes": {
+        "SystemVerilog": 936540,
+        "Verilog": 318727,
+        "VHDL": 107520,
+        "Tcl": 31942,
+        "Batchfile": 708
+      },
+      "evidence_url": "https://api.github.com/repos/MiSTer-devel/Loopy_MiSTer/languages",
+      "evidence": "GitHub repository language API byte counts; SystemVerilog has the largest reported share. Checked 2026-10-16.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "lindbergh-loader",
+      "predominant_language": "C",
+      "language_breakdown_bytes": {
+        "C": 5033308,
+        "Shell": 236857,
+        "Makefile": 66144,
+        "HTML": 36276,
+        "Roff": 26092,
+        "CMake": 3721,
+        "Dockerfile": 999
+      },
+      "evidence_url": "https://api.github.com/repos/lindbergh-loader/lindbergh-loader/languages",
+      "evidence": "GitHub repository language API byte counts; C has the largest reported share. Checked 2026-10-16.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "mister-taito-f3",
+      "predominant_language": "SystemVerilog",
+      "language_breakdown_bytes": {
+        "SystemVerilog": 861307,
+        "Verilog": 309846,
+        "VHDL": 295350,
+        "Python": 220643,
+        "C++": 170281,
+        "Lua": 45031,
+        "Makefile": 29298,
+        "Tcl": 23822,
+        "Shell": 21950
+      },
+      "evidence_url": "https://api.github.com/repos/spacestate1/Arcade-taitoF3_MiSTer/languages",
+      "evidence": "GitHub repository language API byte counts; SystemVerilog has the largest reported share. Checked 2026-10-16.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "mister-taito-l",
+      "predominant_language": "Verilog",
+      "language_breakdown_bytes": {
+        "Verilog": 791483,
+        "SystemVerilog": 397623,
+        "UnrealScript": 163840,
+        "VHDL": 107940,
+        "Python": 89082,
+        "C++": 29158,
+        "Tcl": 27400,
+        "Shell": 10917,
+        "Lua": 8468,
+        "Batchfile": 672
+      },
+      "evidence_url": "https://api.github.com/repos/decoryah/Arcade-TaitoLSystem_MiSTer/languages",
+      "evidence": "GitHub repository language API byte counts; Verilog has the largest reported share. Checked 2026-10-16.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "mister-irem-m107",
+      "predominant_language": "VHDL",
+      "language_breakdown_bytes": {
+        "VHDL": 514648,
+        "Verilog": 508717,
+        "SystemVerilog": 474926,
+        "Tcl": 22228,
+        "Python": 20921,
+        "Batchfile": 672
+      },
+      "evidence_url": "https://api.github.com/repos/MiSTer-devel/Arcade-IremM107_MiSTer/languages",
+      "evidence": "GitHub repository language API byte counts; VHDL has the largest reported share. Checked 2026-10-16.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "mister-raiden",
+      "predominant_language": "SystemVerilog",
+      "language_breakdown_bytes": {
+        "SystemVerilog": 1704563,
+        "Verilog": 685619,
+        "VHDL": 467987,
+        "Tcl": 44557,
+        "Python": 3863,
+        "MATLAB": 527,
+        "Fortran": 318
+      },
+      "evidence_url": "https://api.github.com/repos/rmonic79/Arcade-Raiden_MiSTer/languages",
+      "evidence": "GitHub repository language API byte counts; SystemVerilog has the largest reported share. Checked 2026-10-16.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "mister-blasteroids",
+      "predominant_language": "SystemVerilog",
+      "language_breakdown_bytes": {
+        "SystemVerilog": 793507,
+        "Verilog": 488443,
+        "VHDL": 193021,
+        "Tcl": 28489,
+        "Batchfile": 708
+      },
+      "evidence_url": "https://api.github.com/repos/MiSTer-devel/Arcade-Blasteroids_MiSTer/languages",
+      "evidence": "GitHub repository language API byte counts; SystemVerilog has the largest reported share. Checked 2026-10-16.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "mister-xybots",
+      "predominant_language": "SystemVerilog",
+      "language_breakdown_bytes": {
+        "SystemVerilog": 726376,
+        "Verilog": 488216,
+        "VHDL": 193441,
+        "Tcl": 35040,
+        "Batchfile": 708
+      },
+      "evidence_url": "https://api.github.com/repos/MiSTer-devel/Arcade-Xybots_MiSTer/languages",
+      "evidence": "GitHub repository language API byte counts; SystemVerilog has the largest reported share. Checked 2026-10-16.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "mister-namco-system22",
+      "predominant_language": "SystemVerilog",
+      "language_breakdown_bytes": {
+        "SystemVerilog": 942508,
+        "C++": 706292,
+        "Python": 318717,
+        "Verilog": 317879,
+        "VHDL": 295350,
+        "Lua": 77021,
+        "Tcl": 27288,
+        "Shell": 26541,
+        "Makefile": 18728
+      },
+      "evidence_url": "https://api.github.com/repos/spacestate1/Arcade_namco22_MiSTer/languages",
+      "evidence": "GitHub repository language API byte counts; SystemVerilog has the largest reported share. Checked 2026-10-16.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "project_id": "mister-tank",
+      "predominant_language": "SystemVerilog",
+      "language_breakdown_bytes": {
+        "SystemVerilog": 364392,
+        "Verilog": 295307,
+        "VHDL": 111422,
+        "Tcl": 24031,
+        "Batchfile": 383
+      },
+      "evidence_url": "https://api.github.com/repos/MiSTer-devel/Arcade-Tank_MiSTer/languages",
+      "evidence": "GitHub repository language API byte counts; SystemVerilog has the largest reported share. Checked 2026-10-16.",
+      "verified_at": "2026-10-16"
+    }
+  ]
+}

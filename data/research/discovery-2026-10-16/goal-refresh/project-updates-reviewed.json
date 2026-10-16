@@ -1,0 +1,1133 @@
+{
+  "updated": "2026-10-16",
+  "scope": "Conflict-free, importer-supported metadata changes (activity dates and non-status fields); 38 status changes held in project-status-review.json pending row-level review. See staging reconciliation packet for source manifest provenance.",
+  "updates": [
+    {
+      "id": "ace-attorney-investigations-2-ds-prosecutors-path",
+      "fields": {
+        "updated": "2026-10-11T07:22:45Z"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README",
+          "url": "https://github.com/Akoi89/prosecutors-path#readme"
+        },
+        {
+          "label": "v1.11.3 release",
+          "url": "https://github.com/Akoi89/prosecutors-path/releases/tag/v1.11.3"
+        }
+      ]
+    },
+    {
+      "id": "alttp-four-swords-gba-recomp",
+      "fields": {
+        "updated": "2026-10-14T08:36:29Z"
+      },
+      "sources": [
+        {
+          "label": "Latest upstream commit",
+          "url": "https://github.com/sp00nznet/lttp-recompiled/commit/f4cbdef2a75596d7da45cdb4cafc27e0fa642ed6"
+        }
+      ]
+    },
+    {
+      "id": "animal-crossing-new-leaf-welcome-amiibo-usa-decomp",
+      "fields": {
+        "updated": "2026-10-14T12:23:34Z"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README",
+          "url": "https://github.com/RedShyGuy/acnl-decomp#readme"
+        },
+        {
+          "label": "Latest upstream commit",
+          "url": "https://github.com/RedShyGuy/acnl-decomp/commit/224295892706bdf10739681289c4c7033f9efe9d"
+        }
+      ]
+    },
+    {
+      "id": "blastem",
+      "fields": {
+        "programming_language": "C and assembly"
+      },
+      "sources": [
+        {
+          "label": "Maintainer release announcement",
+          "url": "https://www.retrodev.com/blastem/announce_1.0.0.html"
+        },
+        {
+          "label": "Maintainer changelog",
+          "url": "https://www.retrodev.com/blastem/changes.html"
+        },
+        {
+          "label": "Maintainer source repository",
+          "url": "https://www.retrodev.com/repos/blastem"
+        }
+      ]
+    },
+    {
+      "id": "boktai-gba-recomp",
+      "fields": {
+        "updated": "2026-08-25T11:12:57Z"
+      },
+      "sources": [
+        {
+          "label": "Latest upstream commit",
+          "url": "https://github.com/Shy/BoktaiRecomp/commit/69ff053841c9e5b0f5eb1ac42cfc1f008a94c010"
+        }
+      ]
+    },
+    {
+      "id": "call-of-duty-4-ios-bmk4",
+      "fields": {
+        "updated": "2026-07-16T19:52:27Z"
+      },
+      "sources": [
+        {
+          "label": "Latest upstream commit",
+          "url": "https://github.com/Braxton-Bevis/bmk4/commit/1fcff760fece46058cd693726d3274225b838e6a"
+        }
+      ]
+    },
+    {
+      "id": "castlevania-circle-of-the-moon-gba-recomp",
+      "fields": {
+        "updated": "2026-10-08T08:32:25Z"
+      },
+      "sources": [
+        {
+          "label": "Latest upstream commit",
+          "url": "https://github.com/Zaxaerith/CastlevaniaCircleOfTheMoonRecomp/commit/3702933cb56fadaa728baeff8a9e58e248fbc4f8"
+        }
+      ]
+    },
+    {
+      "id": "chaotix-recompiled-android",
+      "fields": {
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "Project README: supported ROM and platform matrix",
+          "url": "https://github.com/YuutaTsubasa/ChaotixRecompiled#readme"
+        }
+      ]
+    },
+    {
+      "id": "colem-colecovision-adam",
+      "fields": {
+        "platform": "ColecoVision and Coleco ADAM → Windows, Linux, Android; project page also lists community ports",
+        "source_available": "Source code is published for non-commercial use with attribution; the maintainer says it is not GPL and offers separate commercial licensing.",
+        "subtype": "ColecoVision console and Coleco ADAM computer emulator"
+      },
+      "sources": [
+        {
+          "label": "ColEm official project and release page",
+          "url": "https://fms.komkon.org/ColEm/"
+        }
+      ]
+    },
+    {
+      "id": "crossover",
+      "fields": {
+        "platform": "Windows → macOS, Linux, and ChromeOS. On Apple silicon Mac, the stable CrossOver 26 line uses the Intel Wine/Rosetta path; the native ARM64 Wine + custom FEX Mac build remains Preview and requires macOS 26.5+."
+      },
+      "sources": [
+        {
+          "label": "CodeWeavers ARM64 Mac Preview requirements and launch limitations",
+          "url": "https://www.codeweavers.com/blog/mjohnson/2026/7/31/crossover-preview-the-right-to-bear-arm64-on-mac"
+        },
+        {
+          "label": "CodeWeavers CrossOver changelog and current stable release",
+          "url": "https://www.codeweavers.com/crossover/changelog"
+        }
+      ]
+    },
+    {
+      "id": "d3dmetal-native-host-adapter",
+      "fields": {
+        "updated": "2026-10-15T01:02:09Z"
+      },
+      "sources": [
+        {
+          "label": "Latest upstream commit",
+          "url": "https://github.com/utmapp/d3dmetal-native/commit/fd09f2edd6f972f28b0f65117b39c361ecf99ad1"
+        }
+      ]
+    },
+    {
+      "id": "denise-emulator",
+      "fields": {
+        "updated": "2026-10-05T19:49:35Z"
+      },
+      "sources": [
+        {
+          "label": "Latest upstream commit",
+          "url": "https://github.com/piciji/denise/commit/58127d8644d2b37d163a5a3a51e60a63e4efde5d"
+        },
+        {
+          "label": "Latest maintainer release",
+          "url": "https://github.com/piciji/denise/releases/tag/v2.9"
+        }
+      ]
+    },
+    {
+      "id": "dosbox",
+      "fields": {
+        "platform": "DOS/x86 PC emulation → Windows, macOS, Linux, and other SDL-supported hosts",
+        "source_available": "Public DOSBox 0.74-3 source archive linked from the official downloads page.",
+        "subtype": "DOS/x86 personal-computer emulator"
+      },
+      "sources": [
+        {
+          "label": "DOSBox 0.74-3 release announcement",
+          "url": "https://sourceforge.net/p/dosbox/news/2019/06/dosbox-074-3-has-been-released/"
+        },
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://www.dosbox.com/download.php?main=1"
+        },
+        {
+          "label": "Official DOSBox news: Linux workaround posted 2021-01-27; latest release remains 0.74-3 from 2019-06-26",
+          "url": "https://www.dosbox.com/news.php?show_news=1"
+        }
+      ]
+    },
+    {
+      "id": "dosbox-pure",
+      "fields": {
+        "updated": "2026-10-14T15:51:32Z"
+      },
+      "sources": [
+        {
+          "label": "Current Codeberg source commit",
+          "url": "https://codeberg.org/schelling/dosbox-pure/commit/6f28498450314e5b168b25d0f90359b0d1bdb747"
+        },
+        {
+          "label": "Codeberg 1.0-preview7 release",
+          "url": "https://codeberg.org/schelling/dosbox-pure/releases/tag/1.0-preview7"
+        }
+      ]
+    },
+    {
+      "id": "dxvk-macos-metalsharp-v31",
+      "fields": {
+        "updated": "2026-09-21T07:04:50Z"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README",
+          "url": "https://github.com/metalsharp/DXVK-MacOS#readme"
+        },
+        {
+          "label": "Latest upstream commit",
+          "url": "https://github.com/metalsharp/DXVK-MacOS/commit/8d348236e14a3db25ffbe528a83010b3dd69a3ef"
+        },
+        {
+          "label": "Latest maintainer release",
+          "url": "https://github.com/metalsharp/DXVK-MacOS/releases/tag/v3.1-macos1.0"
+        }
+      ]
+    },
+    {
+      "id": "eightyone-sinclair-emulator",
+      "fields": {
+        "updated": "2025-04-01T11:51:17Z"
+      },
+      "sources": [
+        {
+          "label": "Latest upstream source commit",
+          "url": "https://github.com/charlierobson/EightyOne/commit/4de3cdb8cff0060ad03e43ae2681b0628a9c5f5d"
+        },
+        {
+          "label": "SourceForge release and archive listing",
+          "url": "https://sourceforge.net/projects/eightyone-sinclair-emulator/files/"
+        }
+      ]
+    },
+    {
+      "id": "epsxe",
+      "fields": {
+        "updated": "2026-05"
+      },
+      "sources": [
+        {
+          "label": "Official Windows release page",
+          "url": "https://epsxe.com/"
+        },
+        {
+          "label": "Official Android changelog",
+          "url": "https://epsxe.com/android/index.html"
+        }
+      ]
+    },
+    {
+      "id": "esp32-palm",
+      "fields": {
+        "updated": "2026-08-20T10:51:53Z"
+      },
+      "sources": [
+        {
+          "label": "GitHub repository metadata (pushed_at)",
+          "url": "https://api.github.com/repos/TsunderonX256/ESP32-PALM"
+        },
+        {
+          "label": "Maintainer README",
+          "url": "https://github.com/TsunderonX256/ESP32-PALM#readme"
+        }
+      ]
+    },
+    {
+      "id": "fire-emblem-binding-blade-japan-gba-decomp",
+      "fields": {
+        "updated": "2026-10-16T03:56:47Z"
+      },
+      "sources": [
+        {
+          "label": "Latest upstream commit",
+          "url": "https://github.com/FireEmblemUniverse/fireemblem6j/commit/52f699548f18b25f7d31a5f4b59d78ab3cbc6129"
+        }
+      ]
+    },
+    {
+      "id": "fire-emblem-rekka-no-ken-japan-gba-decomp",
+      "fields": {
+        "updated": "2026-09-29T01:52:10Z"
+      },
+      "sources": [
+        {
+          "label": "Latest upstream commit",
+          "url": "https://github.com/MokhaLeee/FireEmblem7J/commit/f27a0295d855229f3fad01412d855f4ae7a1c8f0"
+        }
+      ]
+    },
+    {
+      "id": "fire-emblem-sacred-stones-us-gba-decomp",
+      "fields": {
+        "updated": "2026-10-12T11:40:15Z"
+      },
+      "sources": [
+        {
+          "label": "Latest upstream commit",
+          "url": "https://github.com/FireEmblemUniverse/fireemblem8u/commit/f2e1f060dbe5b0cc35285df5a0f6659860644a04"
+        }
+      ]
+    },
+    {
+      "id": "four-swords-anniversary-dsi-korean-patch",
+      "fields": {
+        "updated": "2026-10-07T10:28:31Z"
+      },
+      "sources": [
+        {
+          "label": "Latest upstream commit",
+          "url": "https://github.com/arqhive/zelda-four-swords-anniversary-edition-kor-patch/commit/70f015c9eacdcddea070fbab784ac34641eda710"
+        },
+        {
+          "label": "Latest maintainer release",
+          "url": "https://github.com/arqhive/zelda-four-swords-anniversary-edition-kor-patch/releases/tag/v1.2f"
+        }
+      ]
+    },
+    {
+      "id": "fs-uae",
+      "fields": {
+        "updated": "2025-09-13T09:36:55Z"
+      },
+      "sources": [
+        {
+          "label": "Official project news and release page",
+          "url": "https://fs-uae.net/"
+        },
+        {
+          "label": "Latest upstream source commit",
+          "url": "https://github.com/FrodeSolheim/fs-uae/commit/f362278ccd4c60991caac3b4d240d4a3f751bea2"
+        }
+      ]
+    },
+    {
+      "id": "generals-zero-hour-android-port",
+      "fields": {
+        "updated": "2026-10-03T19:32:30Z"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README",
+          "url": "https://github.com/MYSOREZ/GeneralsZH-Android-Port#readme"
+        },
+        {
+          "label": "Latest maintainer release",
+          "url": "https://github.com/MYSOREZ/GeneralsZH-Android-Port/releases/tag/v1.4.0"
+        }
+      ]
+    },
+    {
+      "id": "geolith-neo-geo-aes",
+      "fields": {
+        "updated": "2026-10-11T14:43:26Z"
+      },
+      "sources": [
+        {
+          "label": "Libretro source port",
+          "url": "https://github.com/libretro/geolith-libretro"
+        },
+        {
+          "label": "Upstream GitLab commit",
+          "url": "https://gitlab.com/jgemu/geolith/-/commit/05ddef568212e7225ceec22f3ecb20b5a9b640e6"
+        }
+      ]
+    },
+    {
+      "id": "golden-sun-broken-seal-decomp-alchemy",
+      "fields": {
+        "updated": "2026-10-16T05:37:46Z"
+      },
+      "sources": [
+        {
+          "label": "Latest upstream commit",
+          "url": "https://github.com/PascalPixel/alchemy/commit/bacb48c639dc9fc6bdb32306563e11f9c82ae80e"
+        }
+      ]
+    },
+    {
+      "id": "golden-sun-gba-decomp-coaltergeist",
+      "fields": {
+        "updated": "2026-10-14T15:15:13Z"
+      },
+      "sources": [
+        {
+          "label": "Latest upstream commit",
+          "url": "https://github.com/Coaltergeist/goldensun-decomp/commit/2e5c504c7d0af54c28830917aec78fbb8bdda01a"
+        }
+      ]
+    },
+    {
+      "id": "goldeneye-007-3ds-port",
+      "fields": {
+        "summary": "Native Nintendo 3DS port built on the GoldenEye 007 N64 decompilation, with platform adapters for rendering, input, audio, storage, and timing. Dam is the current bring-up milestone; no ROM, extracted proprietary assets, generated asset pack, or compiled game binary is included."
+      },
+      "sources": [
+        {
+          "label": "GitHub repository metadata: repository identity, activity, and primary language",
+          "url": "https://api.github.com/repos/kylebrussell/goldeneye-3ds"
+        },
+        {
+          "label": "Maintainer README: current Dam milestone, non-playable status, and source-data requirements",
+          "url": "https://github.com/kylebrussell/goldeneye-3ds#readme"
+        },
+        {
+          "label": "Maintainer's Nintendo 3DS port notes and current build/test boundaries",
+          "url": "https://github.com/kylebrussell/goldeneye-3ds/blob/master/docs/Porting3DS.md"
+        }
+      ]
+    },
+    {
+      "id": "great-ace-attorney-adventures-3ds-english-akoi89",
+      "fields": {
+        "updated": "2026-10-11T19:19:23Z"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README and testing notes",
+          "url": "https://github.com/Akoi89/tgaa-3ds-english-patch#readme"
+        },
+        {
+          "label": "Latest maintainer release",
+          "url": "https://github.com/Akoi89/tgaa-3ds-english-patch/releases/tag/v1.9m"
+        }
+      ]
+    },
+    {
+      "id": "great-ace-attorney-resolve-3ds-english-akoi89",
+      "fields": {
+        "updated": "2026-10-11T19:19:23Z"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README and testing notes",
+          "url": "https://github.com/Akoi89/tgaa-3ds-english-patch#readme"
+        },
+        {
+          "label": "Latest maintainer release",
+          "url": "https://github.com/Akoi89/tgaa-3ds-english-patch/releases/tag/v1.9m"
+        }
+      ]
+    },
+    {
+      "id": "harry-potter-prisoner-azkaban-gba-decomp-experiment",
+      "fields": {
+        "updated": "2026-10-15T21:54:47Z"
+      },
+      "sources": [
+        {
+          "label": "Latest upstream commit",
+          "url": "https://github.com/holly-hacker/hp3-gba-decomp/commit/6e0942d23b5cfcc6c7a2bfe554db922ab68a9eb1"
+        }
+      ]
+    },
+    {
+      "id": "hollow-knight-silksong-android",
+      "fields": {
+        "updated": "2026-09-25T19:23:48Z"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README",
+          "url": "https://github.com/jakobkhansen/SilksongAndroid#readme"
+        },
+        {
+          "label": "Latest maintainer release",
+          "url": "https://github.com/jakobkhansen/SilksongAndroid/releases/tag/v2.0.0"
+        }
+      ]
+    },
+    {
+      "id": "j2me-loader-android",
+      "fields": {
+        "updated": "2026-02-06T07:42:08Z"
+      },
+      "sources": [
+        {
+          "label": "Latest upstream commit",
+          "url": "https://github.com/nikita36078/J2ME-Loader/commit/9b0fa48a0a0d1e61376c0b9af28b3d2caec0a4cc"
+        },
+        {
+          "label": "Latest maintainer release",
+          "url": "https://github.com/nikita36078/J2ME-Loader/releases/tag/1.8.2"
+        }
+      ]
+    },
+    {
+      "id": "mario-kart-ds-eur-matching-decomp",
+      "fields": {
+        "updated": "2026-07-24"
+      },
+      "sources": [
+        {
+          "label": "Project repository latest recorded commit (2026-07-24): Benchmark reference harvest",
+          "url": "https://github.com/ai-tdd-labs/mkds-decomp/commit/c6e18fa4b346643b74c402b605a84b43cba16c01"
+        }
+      ]
+    },
+    {
+      "id": "mario-luigi-dream-team-us-3ds-decomp",
+      "fields": {
+        "updated": "2026-08-12"
+      },
+      "sources": [
+        {
+          "label": "Project repository latest recorded commit (2026-08-12): Some CellAnime",
+          "url": "https://github.com/Mario-and-Luigi-3Ds-R-D/MILLI4C/commit/36cd49713d49cf771555a7e381f4968578651fa6"
+        }
+      ]
+    },
+    {
+      "id": "mednafen",
+      "fields": {
+        "source_available": "Public source archives are linked from the official release page.",
+        "subtype": "Multi-system console, handheld, and computer emulator"
+      },
+      "sources": [
+        {
+          "label": "Mednafen official releases",
+          "url": "https://mednafen.github.io/releases/"
+        }
+      ]
+    },
+    {
+      "id": "metal2vulkan",
+      "fields": {
+        "strategy": "Metal AIR shader and Metal API translation to Vulkan"
+      },
+      "sources": [
+        {
+          "label": "Current metal2vulkan README and crate architecture",
+          "url": "https://github.com/steelbrain/metal2vulkan"
+        },
+        {
+          "label": "Initial v0.1.0 release notes",
+          "url": "https://github.com/steelbrain/metal2vulkan/releases/tag/v0.1.0"
+        }
+      ]
+    },
+    {
+      "id": "mewgenics-cn",
+      "fields": {
+        "updated": "2026-08-01"
+      },
+      "sources": [
+        {
+          "label": "Project repository latest recorded commit (2026-08-01): 统一了the rest of the battle的描述 (#43)",
+          "url": "https://github.com/rainzz-512/Mewgenics-Chinese-Translation/commit/07249e84128c2efc97a459dc5966109c1e57ded7"
+        }
+      ]
+    },
+    {
+      "id": "mmbn3-white-gba-recomp",
+      "fields": {
+        "updated": "2026-09-28"
+      },
+      "sources": [
+        {
+          "label": "Project repository latest recorded commit (2026-09-28): Record MMBN3 White reliability progress and pin updated engine",
+          "url": "https://github.com/smpduong/MMBN3WhiteRecomp/commit/3146c5c5f3af1fd8517b449d3ec6936388ee7263"
+        }
+      ]
+    },
+    {
+      "id": "mother-3-recomp-agray0425",
+      "fields": {
+        "updated": "2026-09-24"
+      },
+      "sources": [
+        {
+          "label": "Project repository latest recorded commit (2026-09-24): Point gbarecomp at fork with Mother 3 engine changes",
+          "url": "https://github.com/agray0425/Mother3Recomp/commit/5196a144a39dbd1d4b7ee0076a5dfa4ef03b74a1"
+        }
+      ]
+    },
+    {
+      "id": "nakoruru-dc-en",
+      "fields": {
+        "updated": "2026-09-23"
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository README and release changelog, v1.4 dated 2026-09-23",
+          "url": "https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast"
+        },
+        {
+          "label": "Project repository latest recorded commit (2026-09-23): Update README for version 1.4 release",
+          "url": "https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast/commit/b755a98a4b14091c0222aee7c773b9bc080b3e2b"
+        },
+        {
+          "label": "Maintainer release v1.4",
+          "url": "https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast/releases/tag/1.4"
+        }
+      ]
+    },
+    {
+      "id": "nana-live-staff-nds-english-demo-patch",
+      "fields": {
+        "updated": "2026-07-24"
+      },
+      "sources": [
+        {
+          "label": "Project repository latest recorded commit (2026-07-24): Delete tools directory",
+          "url": "https://github.com/pedro-seis/nana-en-patch/commit/341b7f928fbe2f4e6e623a4a21913db1b4310a90"
+        }
+      ]
+    },
+    {
+      "id": "nanoboyadvance",
+      "fields": {
+        "updated": "2026-08-27"
+      },
+      "sources": [
+        {
+          "label": "Canonical Codeberg repository metadata, updated_at",
+          "url": "https://codeberg.org/api/v1/repos/nba-emu/NanoBoyAdvance"
+        },
+        {
+          "label": "Latest maintainer release v1.8.3 (2026-05-10)",
+          "url": "https://codeberg.org/nba-emu/NanoBoyAdvance/releases/tag/v1.8.3"
+        }
+      ]
+    },
+    {
+      "id": "nestopia-ue",
+      "fields": {
+        "updated": "2026-10-14"
+      },
+      "sources": [
+        {
+          "label": "Canonical GitLab project metadata, last_activity_at; this tracks the Jolly Good core, not the legacy UE frontend",
+          "url": "https://gitlab.com/api/v4/projects/jgemu%2Fnestopia"
+        },
+        {
+          "label": "GitLab project page for the current Nestopia core",
+          "url": "https://gitlab.com/jgemu/nestopia"
+        }
+      ]
+    },
+    {
+      "id": "new-love-plus-plus-en",
+      "fields": {
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "Patcher repository merge of rc4.1 work, 2026-10-15",
+          "url": "https://github.com/czyrustuazon/NewLovePlusPlusEngPatcher/commit/c5f48deeb24f78fd9fb868be991a454eeb069299"
+        },
+        {
+          "label": "Patcher public releases page",
+          "url": "https://github.com/czyrustuazon/NewLovePlusPlusEngPatcher/releases"
+        },
+        {
+          "label": "Official download page and public release history (latest is v1.0.0-rc3)",
+          "url": "https://newloveplus.loc.moe/download/"
+        }
+      ]
+    },
+    {
+      "id": "nokia-dct3-emulator",
+      "fields": {
+        "updated": "2026-07-31"
+      },
+      "sources": [
+        {
+          "label": "Project repository latest recorded commit (2026-07-31): wap: convert GIF to WBMP — the phone cannot really draw GIF",
+          "url": "https://github.com/djr-747/nokia-dct3-emulator/commit/2b4c10ffd6b22a2d021c7f515f27ceb2fb6c78cd"
+        }
+      ]
+    },
+    {
+      "id": "nxemu",
+      "fields": {
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "Project repository latest recorded commit (2026-10-15): loader: a game file might contain multiple games, need to be able to …",
+          "url": "https://github.com/N3xoX1/nxemu/commit/8a579c5d4c508b74e7da899157c1450a845db66f"
+        },
+        {
+          "label": "Official project site and progress releases",
+          "url": "https://www.nxemu.com/"
+        }
+      ]
+    },
+    {
+      "id": "ootake-pc-engine",
+      "fields": {
+        "platform": "PC Engine/TurboGrafx-16 and related hardware → Windows 7 through Windows 11",
+        "project_started": "2006-07",
+        "source_available": "The v3.06 Windows download includes source code; the project page does not state separate source redistribution terms.",
+        "subtype": "NEC PC Engine/TurboGrafx-16 emulator"
+      },
+      "sources": [
+        {
+          "label": "Ootake official release page",
+          "url": "https://ouma.jp/ootake/index.html"
+        }
+      ]
+    },
+    {
+      "id": "persona-q2-3ds-simplified-chinese-localization",
+      "fields": {
+        "updated": "2026-09-13"
+      },
+      "sources": [
+        {
+          "label": "Project repository latest recorded commit (2026-09-13): feat: Update translations (#3)",
+          "url": "https://github.com/Qi-Busiyi-Hanhuazu/PersonaQ2ChsLocalization/commit/15ca3ffda260133bfb090fc8a5b5ea896553f37c"
+        }
+      ]
+    },
+    {
+      "id": "pokemon-black-decomp",
+      "fields": {
+        "platform": "Nintendo DS (USA/EUR v1.0 NDSi Enhanced)",
+        "programming_language": "Assembly",
+        "project_url": "https://github.com/squiddonaut/pokeblack",
+        "subtype": "Nintendo DS game decompilation",
+        "summary": "Matching decompilation of Pokémon Black for Nintendo DS; canonical repository builds the documented USA/EUR NDSi Enhanced v1.0 ROM.",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "GitHub Languages API (predominant repository language)",
+          "url": "https://api.github.com/repos/squiddonaut/pokeblack/languages"
+        },
+        {
+          "label": "Current maintainer repository and README",
+          "url": "https://github.com/squiddonaut/pokeblack"
+        }
+      ]
+    },
+    {
+      "id": "pokemon-moon-europe-3ds-decomp",
+      "fields": {
+        "updated": "2026-09-16"
+      },
+      "sources": [
+        {
+          "label": "Project repository latest recorded commit (2026-09-16): Merge pull request #11 from gradenGnostic/promote-yellow-progress-2996",
+          "url": "https://github.com/gradenGnostic/pokemoon/commit/7a5936eee5d08889d6cc534e6916a86b39fde694"
+        }
+      ]
+    },
+    {
+      "id": "pokemon-rejuvenation-italian",
+      "fields": {
+        "source_available": "Public GitHub patch release; patch files only, user supplies installed game",
+        "summary": "The maintainer's v1.1 release targets Pokémon Rejuvenation v14.0; v1.0 reports 99.9% text coverage and v1.1 corrects Italian terminology and gender agreement. Windows uses a PowerShell installer; Android, iOS, Linux and macOS use the patch folder. The patch requires the user's installed game and does not alter game files or saves."
+      },
+      "sources": [
+        {
+          "label": "Maintainer GitHub releases: v1.1 date, game version, coverage, platform instructions and patch-only behavior",
+          "url": "https://github.com/giosci1994/rejuvenation-ita-patch/releases"
+        }
+      ]
+    },
+    {
+      "id": "pokemon-x-3ds-recomp-rdcomp",
+      "fields": {
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "Project repository latest recorded commit (2026-10-15): clippy/fmt: finish the chunks_exact → as_chunks sweep in gfx/render",
+          "url": "https://github.com/CyrixJD115/PokeXYZ-RDComp/commit/878c089e436b37c2db15ae5fc9a2cfba9744927f"
+        }
+      ]
+    },
+    {
+      "id": "pt-android-port",
+      "fields": {
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Project repository latest recorded commit (2026-10-16): Release Test 15: phone rumble, teaser, touch camera and Mali safeguar…",
+          "url": "https://github.com/XHYN-PH/pt4droid/commit/15996554d2320788995d60dc2ff010961350e42b"
+        }
+      ]
+    },
+    {
+      "id": "puyo-puyo-tetris-3ds-en",
+      "fields": {
+        "updated": "2026-09-28"
+      },
+      "sources": [
+        {
+          "label": "Project repository latest recorded commit (2026-09-28): 1.1.1 / DLC 0.2.10: Sega's text on the lines that still had fan wordi…",
+          "url": "https://github.com/Akoi89/puyopuyotetris-3ds-english-patch/commit/e650ca73ee493c17775c69d27bd4bca5c7186620"
+        }
+      ]
+    },
+    {
+      "id": "raine",
+      "fields": {
+        "updated": "2026-06-24"
+      },
+      "sources": [
+        {
+          "label": "Project repository latest recorded commit (2026-06-24): macOS arm64: renderer selection + fullscreen fixes (follow-up to #80)…",
+          "url": "https://github.com/zelurker/raine/commit/cf1e6af50d45be2c653660cfda24f33259bc06c0"
+        },
+        {
+          "label": "Official latest downloads page, including dated Arch packages and Windows builds",
+          "url": "https://raine.1emulation.com/download/latest.html"
+        }
+      ]
+    },
+    {
+      "id": "resident-evil-4-dreamcast-port",
+      "fields": {
+        "summary": "Experimental Dreamcast port based on recovered GameCube code, with platform-specific graphics, audio, disc, and memory-card layers. The latest test 13 prerelease documents continuing crashes, performance and visual issues; its separate benchmark disc is not the game build."
+      },
+      "sources": [
+        {
+          "label": "Current Dreamcast branch README",
+          "url": "https://github.com/lamb2k/re4dc/blob/dreamcast-port/README.md"
+        },
+        {
+          "label": "Latest test 13 prerelease and status notes",
+          "url": "https://github.com/lamb2k/re4dc/releases/tag/test-05e5ff76-20261015"
+        }
+      ]
+    },
+    {
+      "id": "rocket-slime-3ds-english-fixup-akoi89",
+      "fields": {
+        "updated": "2026-10-12"
+      },
+      "sources": [
+        {
+          "label": "Project repository latest recorded commit (2026-10-12): Fix-up 14: testing status (boots on Azahar; customise screen not reac…",
+          "url": "https://github.com/Akoi89/rocketslime-3ds-english-fixup/commit/4508df66500112c6fbdca995560d29af315bab07"
+        }
+      ]
+    },
+    {
+      "id": "saints-row-2-ps3-recomp",
+      "fields": {
+        "platform": "PlayStation 3 USA disc (BLUS30201) → Windows x64",
+        "source_available": "Public source; user-supplied BLUS30201 disc and game data required; no game binaries/assets are included.",
+        "summary": "Static PPU/SPU recompilation of the PS3 disc using ps3recomp. The project is at runtime/bootstrap stage and requires the user’s own game disc; game code and assets are excluded."
+      },
+      "sources": [
+        {
+          "label": "Project README: exact PS3 build, boot progress and blocker",
+          "url": "https://github.com/sp00nznet/saintsrow2#readme"
+        }
+      ]
+    },
+    {
+      "id": "scott-pilgrim-ps3-recomp",
+      "fields": {
+        "platform": "PlayStation 3 EU PSN (NPEB00258, app v1.03) → Windows x64",
+        "source_available": "Public source; user-supplied NPEB00258 PSN package and game data required; game binaries/assets are not included.",
+        "summary": "Static PPU/SPU recompilation of the original PS3/PSN binary; distinct from the later PC Complete Edition. The current blocker is an unlifted MultiStream audio SPU overlay; input is not started and gameplay is not verified."
+      },
+      "sources": [
+        {
+          "label": "Project README: exact PSN build, status and blocker",
+          "url": "https://github.com/sp00nznet/scottpilgrim#readme"
+        }
+      ]
+    },
+    {
+      "id": "shining-force-iii-translation",
+      "fields": {
+        "summary": "The maintainer's June 2026 report confirms V25.1 remains current while V26 planning has begun. Scenario 2 sections that needed re-review are finished and being incorporated; the team also continues the separate World Book translation.",
+        "updated": "2026-06-12"
+      },
+      "sources": [
+        {
+          "label": "Maintainer Progress Report June 2026: V25.1 current and V26 planning",
+          "url": "https://sf3trans.shiningforcecentral.com/2026/06/12/progress-report-june-2026/"
+        }
+      ]
+    },
+    {
+      "id": "shiren-4-psp-en",
+      "fields": {
+        "updated": "2024-01-20"
+      },
+      "sources": [
+        {
+          "label": "Maintainer GitHub release v1.0.1 (published 2024-01-20)",
+          "url": "https://github.com/SharkSnack/shiren-4/releases/tag/v1.0.1"
+        }
+      ]
+    },
+    {
+      "id": "simpsons-hit-and-run-android-port",
+      "fields": {
+        "updated": "2026-08-05"
+      },
+      "sources": [
+        {
+          "label": "Project repository latest recorded commit (2026-08-05): Corregido readme documentacion",
+          "url": "https://github.com/Carlox33/The-Simpsons-Hit-and-Run-Android/commit/7f6df5fe273cc61f6de98aca1dbd4dd10f97c5d7"
+        }
+      ]
+    },
+    {
+      "id": "simpsons-hit-and-run-ios-port",
+      "fields": {
+        "updated": "2026-07-26"
+      },
+      "sources": [
+        {
+          "label": "Project repository latest recorded commit (2026-07-26): docs: add asset injection guide for the unsigned .ipa release",
+          "url": "https://github.com/zmodelerlover/shr-ios-port/commit/beb96efcf00d479997c5de2fa4a8562f5f6d302a"
+        }
+      ]
+    },
+    {
+      "id": "star-fox-64-dreamcast-port",
+      "fields": {
+        "platform": "Nintendo 64 USA revision 1.1 (REV A; SHA-1 09f0d105f476b00efa5303aebc42e60a7753b7a) → Sega Dreamcast",
+        "summary": "Native Dreamcast port based on the Star Fox 64 decompilation. README documents a specific USA v1.1 source ROM, VMU EEPROM saves and rumble support; a project-linked video shows real Dreamcast hardware. The project does not claim emulator support."
+      },
+      "sources": [
+        {
+          "label": "Project README: ROM identity, target features and hardware caveats",
+          "url": "https://github.com/jnmartin84/sf64-dc#readme"
+        }
+      ]
+    },
+    {
+      "id": "swingby-dxvk-moltenvk-32bit-d3d9",
+      "fields": {
+        "updated": "2026-09-04"
+      },
+      "sources": [
+        {
+          "label": "Project repository latest recorded commit (2026-09-04): Swingby DXVKの表示名をREADMEへ反映",
+          "url": "https://github.com/tsukasa-art/swingby-dxvk/commit/6c372acbed9e0ebb3fc40385789e45ee7c677b4d"
+        }
+      ]
+    },
+    {
+      "id": "swingby-wine-apple-silicon",
+      "fields": {
+        "updated": "2026-09-04"
+      },
+      "sources": [
+        {
+          "label": "Project repository latest recorded commit (2026-09-04): Swingby Wineの表示名をREADMEへ反映",
+          "url": "https://github.com/tsukasa-art/swingby-wine/commit/9c9d68d4d0b2fbf25117d9d2e737b5a9f43561ee"
+        }
+      ]
+    },
+    {
+      "id": "syphon-filter-2-recomp",
+      "fields": {
+        "platform": "PlayStation USA two-disc release (SCUS-94451) → Windows x64",
+        "source_available": "Public source and owned-input setup kit; user supplies the SCUS-94451 discs. Disc data, BIOS, generated C and captures are not distributed."
+      },
+      "sources": [
+        {
+          "label": "Project README: supported build and current validation",
+          "url": "https://github.com/alexbeavs-ps1-ports/syphon-filter-2-recomp#readme"
+        }
+      ]
+    },
+    {
+      "id": "technics-sl-p120-ez-p120",
+      "fields": {
+        "language": "C#",
+        "platform": "Technics SL-P120 retrofit control software → Linux ARM64; verified test configuration: Raspberry Pi 3 Model B Rev 1.2 running Raspberry Pi OS Lite 64-bit (Debian 13.4 Trixie), HP DVD A DH16AAL optical drive, and HiFiBerry DAC+. README does not guarantee compatibility with other drives or bridges.",
+        "source_available": "Public MIT-licensed C# source repository with Linux ARM64 Native AOT build/publish instructions. The project controls a hardware retrofit; it does not supply the original Technics firmware or a general-purpose replacement.",
+        "subtype": "Linux ARM64 CD-player control application",
+        "summary": "Native C#/.NET 10 control application for a restored Technics SL-P120, published as a self-contained Linux ARM64 build. It controls the CD drive, VFD, physical buttons, audio, Bluetooth playback, and a local web remote; the README describes a hardware retrofit rather than recovery of a prior Windows application."
+      },
+      "sources": [
+        {
+          "label": "Project MIT license",
+          "url": "https://gitlab.com/masteraldo/ez-p120/-/blob/main/LICENSE"
+        },
+        {
+          "label": "Maintainer README: C#/.NET 10 language, tested Raspberry Pi hardware, ARM64 target, application functions, and MIT license",
+          "url": "https://gitlab.com/masteraldo/ez-p120/-/blob/main/README.md"
+        },
+        {
+          "label": "Maintainer hardware wiring and GPIO assignments",
+          "url": "https://gitlab.com/masteraldo/ez-p120/-/blob/main/docs/HARDWARE.md"
+        }
+      ]
+    },
+    {
+      "id": "tengai-makyou-ii-nds-korean-localization",
+      "fields": {
+        "updated": "2026-08-05"
+      },
+      "sources": [
+        {
+          "label": "Project repository latest recorded commit (2026-08-05): DEPLOY: 원본 ROM 게임코드(ATMJ) 확인 경고 추가",
+          "url": "https://github.com/snake7594/NDS-Tengai-Makyou-II/commit/eccc5b126d349e324af1c0ad79ac906aeab02f8a"
+        }
+      ]
+    },
+    {
+      "id": "tomodachi-collection-nds-en",
+      "fields": {
+        "updated": "2026-06-10"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README and compatibility update, 2026-06-10",
+          "url": "https://github.com/CarlosA49/tomodachi-collection-english"
+        },
+        {
+          "label": "Project repository latest recorded commit (2026-06-10): docs: add Compatibility section (runs on all DS-family systems)",
+          "url": "https://github.com/CarlosA49/tomodachi-collection-english/commit/10f564e2755ed7afd0cecc3accdff25b23b993cd"
+        }
+      ]
+    },
+    {
+      "id": "tomodachi-life-us-3ds-decomp",
+      "fields": {
+        "updated": "2026-09-27"
+      },
+      "sources": [
+        {
+          "label": "Project repository latest recorded commit (2026-09-27): Move & Match some misc symbols",
+          "url": "https://github.com/dylanpdx/TomodachiLifeDecomp/commit/aea693c9d571221a5c2aa141a09d63729fef8bed"
+        }
+      ]
+    },
+    {
+      "id": "touhou-7-perfect-cherry-blossom-switch-port",
+      "fields": {
+        "updated": "2026-09-30"
+      },
+      "sources": [
+        {
+          "label": "Project repository latest recorded commit (2026-09-30): Fix default controls: same layout as the other Touhou ports (B shoot,…",
+          "url": "https://github.com/saekaze/th07-switch/commit/5166cd25bb4710166687d87f15644b9d6222c0f0"
+        }
+      ]
+    },
+    {
+      "id": "twisted-metal-2012-ps3-recomp",
+      "fields": {
+        "platform": "PlayStation 3 USA disc (BCUS98106) → Windows x64",
+        "source_available": "Public source; user-supplied BCUS98106 disc and key required; no game binary, asset, key or game-derived code is included.",
+        "summary": "Static recompilation of the PS3 PowerPC/SPU code into native Windows via ps3recomp. The user supplies the USA disc and decryption key; game data, keys and lifted code are not distributed."
+      },
+      "sources": [
+        {
+          "label": "Project README: disc identity and current in-match status",
+          "url": "https://github.com/sp00nznet/twistedmetal#readme"
+        }
+      ]
+    },
+    {
+      "id": "xroar",
+      "fields": {
+        "programming_language": "C"
+      },
+      "sources": [
+        {
+          "label": "Official XRoar project and source downloads",
+          "url": "https://www.6809.org.uk/xroar/"
+        },
+        {
+          "label": "Official XRoar user manual",
+          "url": "https://www.6809.org.uk/xroar/doc/xroar.shtml"
+        }
+      ]
+    },
+    {
+      "id": "yaba-sanshiro",
+      "fields": {
+        "updated": "2026-08-02"
+      },
+      "sources": [
+        {
+          "label": "Official project blog, latest News article dated 2026-08-02",
+          "url": "https://www.yabasanshiro.com/blog"
+        }
+      ]
+    },
+    {
+      "id": "ydkj-ps3-recomp",
+      "fields": {
+        "platform": "PlayStation 3 USA disc (BLUS30569) → Windows x64"
+      },
+      "sources": [
+        {
+          "label": "Project README: exact PS3 build and current rendered status",
+          "url": "https://github.com/sp00nznet/youdontknowjack#readme"
+        }
+      ]
+    },
+    {
+      "id": "yokai-watch-busters-2-spanish-translation",
+      "fields": {
+        "updated": "2026-10-08"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README, which says the project is in development",
+          "url": "https://github.com/AstralCoder48/New-YWB2_ES-Translation"
+        },
+        {
+          "label": "Project repository latest recorded commit (2026-10-08): V0.6",
+          "url": "https://github.com/AstralCoder48/New-YWB2_ES-Translation/commit/24eda27e84916d46ad42ed562f0cfcc8373d3f04"
+        },
+        {
+          "label": "Maintainer public releases page (no releases listed)",
+          "url": "https://github.com/AstralCoder48/New-YWB2_ES-Translation/releases"
+        }
+      ]
+    }
+  ]
+}

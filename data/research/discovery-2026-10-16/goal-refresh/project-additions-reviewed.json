@@ -1,0 +1,558 @@
+{
+  "updated": "2026-10-16",
+  "scope": "19 deduplicated Mac source ports, cross-console ports, and Nintendo decompilation projects; research packet work/research-2026-10-16/staging-reconcile/README.md",
+  "projects": [
+    {
+      "id": "avara-classic-mac-source-port",
+      "title": "Avara modern port",
+      "game": "Avara (1996)",
+      "target_type": "Game",
+      "platform": "Original Apple Macintosh → Windows, macOS, and Linux",
+      "kind": "Reimplementation",
+      "status": "The project README identifies the downloadable build as alpha and says the port is intended for Windows, macOS, and Linux. The original game was released under the MIT license.",
+      "summary": "Cross-platform port of Juri Munkki's 1996 Macintosh networked action game. It replaces legacy system APIs with SDL2 and OpenGL and provides public source and build instructions. This is a source port, not a binary translation layer.",
+      "project_url": "https://github.com/avaraline/Avara",
+      "updated": "2026-10-16",
+      "strategy": "SDL2/OpenGL source port replacing legacy Macintosh system APIs",
+      "language": "",
+      "source_available": "Public source repository",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Classic Mac game source port",
+      "sources": [
+        {
+          "label": "Avara README: original platform, API replacement, supported targets, and alpha status",
+          "url": "https://github.com/avaraline/Avara#readme"
+        },
+        {
+          "label": "Avara source repository and build instructions",
+          "url": "https://github.com/avaraline/Avara"
+        }
+      ]
+    },
+    {
+      "id": "billy-frontier-classic-mac-source-port",
+      "title": "Billy Frontier modern port",
+      "game": "Billy Frontier (2003)",
+      "target_type": "Game",
+      "platform": "Original PowerPC Mac game → macOS, Windows, and Linux",
+      "kind": "Reimplementation",
+      "status": "The latest listed release is v1.1.1. The README says the original game was released for PowerPC Macs in 2003, lists modern macOS, Windows, and Linux builds, and confirms the port was rereleased with Pangea Software permission.",
+      "summary": "Modern cross-platform source port of Pangea Software's 2003 PowerPC Mac game. It publishes macOS, Windows, and Linux builds, with current changes including macOS Retina display fixes. The project does not claim to translate or run the original Mac binary.",
+      "project_url": "https://github.com/jorio/BillyFrontier",
+      "updated": "2026-10-16",
+      "strategy": "Modern cross-platform source port of the original PowerPC Mac game",
+      "language": "",
+      "source_available": "Public source repository; port rereleased with Pangea Software permission",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Classic Mac game source port",
+      "sources": [
+        {
+          "label": "Billy Frontier README: original platform, supported builds, source build path, and Pangea permission",
+          "url": "https://github.com/jorio/BillyFrontier#readme"
+        },
+        {
+          "label": "Billy Frontier v1.1.1 release: current fixes and Retina display behavior",
+          "url": "https://github.com/jorio/BillyFrontier/releases"
+        }
+      ]
+    },
+    {
+      "id": "bugdom2-classic-mac-source-port",
+      "title": "Bugdom 2 modern port",
+      "game": "Bugdom 2 (2002)",
+      "target_type": "Game",
+      "platform": "Original Mac game → macOS, Windows, and Linux",
+      "kind": "Reimplementation",
+      "status": "The latest listed release is v4.0.0, the initial cross-platform modern release. The README identifies the port as made with permission from Pangea Software and lists macOS, Windows, and Linux downloads.",
+      "summary": "Modern source port of Pangea Software's 2002 Mac game Bugdom 2. It provides macOS, Windows, and Linux builds under permission from Pangea and includes updated widescreen, input, and rendering support.",
+      "project_url": "https://github.com/jorio/Bugdom2",
+      "updated": "2026-10-16",
+      "strategy": "Modern cross-platform source port of the original Mac game",
+      "language": "",
+      "source_available": "Public source repository; port released with Pangea Software permission",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Classic Mac game source port",
+      "sources": [
+        {
+          "label": "Bugdom 2 README: target game, supported systems, and Pangea permission",
+          "url": "https://github.com/jorio/Bugdom2#readme"
+        },
+        {
+          "label": "Bugdom 2 v4.0.0 release: initial cross-platform modern release",
+          "url": "https://github.com/jorio/Bugdom2/releases"
+        }
+      ]
+    },
+    {
+      "id": "cave-story-ds-native-port",
+      "title": "Cave Story Nintendo DS Native Port",
+      "game": "Cave Story",
+      "target_type": "Game",
+      "platform": "Nintendo DS (homebrew)",
+      "kind": "Reimplementation",
+      "status": "A public native DS source port based on the CSE2 decompilation. The README documents a devKitPro/libnds make build and Japanese, SD-card, and DSi build options. It lists sound and flashcart caveats and says the two-screen graphics mode is unfinished. This is not a decompilation of a Nintendo DS binary.",
+      "summary": "Ports the CSE2 Cave Story engine to Nintendo DS homebrew and adds DS-specific code. The README describes the original game-derived code as proprietary and identifies custom modifications as MIT-licensed.",
+      "project_url": "https://github.com/tilderain/CaveStoryNDS",
+      "strategy": "CSE2 source port to Nintendo DS using devKitPro and libnds",
+      "source_available": "Public source, Makefile, and build instructions; the README says most original game code remains proprietary, while custom modifications are MIT-licensed.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "subtype": "Nintendo DS homebrew port; README also documents DSi and Japanese build options",
+      "sources": [
+        {
+          "label": "Maintainer README: DS build method, options, and limitations",
+          "url": "https://github.com/tilderain/CaveStoryNDS#readme"
+        },
+        {
+          "label": "Project repository and source tree",
+          "url": "https://github.com/tilderain/CaveStoryNDS"
+        }
+      ]
+    },
+    {
+      "id": "conker-bad-fur-day-vita-recomp",
+      "title": "Conker's Bad Fur Day Vita Recompilation",
+      "game": "Conker's Bad Fur Day",
+      "target_type": "Game",
+      "platform": "Nintendo 64 (US) → PlayStation Vita / PS TV",
+      "kind": "Recompilation",
+      "status": "v1.1.0 was released on 2026-10-14. The maintainer reports in-game saves, sound, music, cutscenes, and 29–30 FPS in the rainy opening on a real Vita. Only the US ROM is supported.",
+      "summary": "Native Vita port of the N64 game statically recompiled to C with N64Recomp. It uses a Vita sceGxm renderer and runs the game's audio microcode on the Vita CPU. Releases contain no game files; the player supplies a supported US ROM.",
+      "project_url": "https://github.com/HenryKun55/conker-vita",
+      "updated": "2026-10-16",
+      "first_found": "2026-10-16",
+      "strategy": "Static recompilation of the N64 game via N64Recomp, paired with a Vita-specific renderer and audio implementation.",
+      "source_available": "Public release repository and Vita source branch; no game files are included, and the US ROM must be supplied by the player.",
+      "subtype": "PlayStation Vita / PS TV",
+      "sources": [
+        {
+          "label": "Maintainer README: N64 recompilation method, Vita / PS TV target, supported ROM, and real-Vita status",
+          "url": "https://github.com/HenryKun55/conker-vita"
+        },
+        {
+          "label": "Vita source branch and build instructions",
+          "url": "https://github.com/HenryKun55/CBFD-Recompiled/tree/vita-port"
+        },
+        {
+          "label": "v1.1.0 VPK release and release notes",
+          "url": "https://github.com/HenryKun55/conker-vita/releases/tag/v1.1.0"
+        }
+      ]
+    },
+    {
+      "id": "donkey-kong-64-decomp",
+      "title": "Donkey Kong 64 Decompilation",
+      "game": "Donkey Kong 64",
+      "target_type": "Game",
+      "platform": "Nintendo 64",
+      "kind": "Decompilation",
+      "status": "Public in-progress MIPS decompilation. The maintainer README tracks overall and per-module progress and documents a build from a user-supplied U.S. ROM. GitLab project metadata reports last activity on 2026-10-06; the README's embedded progress graphic was not text-readable during this check, so no percentage is asserted.",
+      "summary": "A public source decompilation of Donkey Kong 64 for Nintendo 64. The README identifies the U.S. base ROM by SHA-1 and provides extraction and build instructions; it does not distribute the ROM.",
+      "project_url": "https://gitlab.com/dk64_decomp/dk64",
+      "updated": "2026-10-06",
+      "strategy": "Nintendo 64 MIPS decompilation and ROM reconstruction",
+      "source_available": "Public GitLab source and tools; the user must supply the U.S. baserom.us.z64 (SHA-1 cf806ff2603640a748fca5026ded28802f1f4a50).",
+      "first_found": "2026-10-16",
+      "project_started": "2023-02-23",
+      "subtype": "U.S. ROM target",
+      "sources": [
+        {
+          "label": "GitLab project metadata: creation and last activity dates",
+          "url": "https://gitlab.com/api/v4/projects/dk64_decomp%2Fdk64"
+        },
+        {
+          "label": "Maintainer README: U.S. base ROM, progress table, and build instructions",
+          "url": "https://gitlab.com/dk64_decomp/dk64/-/raw/main/README.md"
+        },
+        {
+          "label": "Project repository",
+          "url": "https://gitlab.com/dk64_decomp/dk64"
+        }
+      ]
+    },
+    {
+      "id": "dqmj1-nds-decomp",
+      "title": "Dragon Quest Monsters: Joker Decompilation",
+      "game": "Dragon Quest Monsters: Joker",
+      "target_type": "Game",
+      "platform": "Nintendo DS",
+      "kind": "Decompilation",
+      "status": "The repository README identifies the European NTR-AJRP-EUR release and claims 7,140 functions decompiled into 279,930 lines of pseudo-C across ARM9, ARM7, and three overlays. This is maintainer-reported source coverage; the checked README does not document a byte-matching ROM build.",
+      "summary": "A public Nintendo DS reverse-engineering repository with pseudo-C source, extraction tools, and technical documentation for Dragon Quest Monsters: Joker. The README reports function coverage but does not establish a matching rebuilt ROM.",
+      "project_url": "https://github.com/FantasmaGlad/DQMJ1_Ultimate_Decompilation",
+      "strategy": "ARM9/ARM7/overlay code analysis, pseudo-C decompilation, and asset extraction",
+      "source_available": "Public GitHub repository containing source, tools, documentation, and extracted game data; no ROM-reconstruction procedure was identified in the checked README.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "subtype": "European Nintendo DS release NTR-AJRP-EUR; matching build not documented in the checked README",
+      "sources": [
+        {
+          "label": "Maintainer README: target revision, reported function coverage, and repository contents",
+          "url": "https://github.com/FantasmaGlad/DQMJ1_Ultimate_Decompilation#readme"
+        },
+        {
+          "label": "Project repository",
+          "url": "https://github.com/FantasmaGlad/DQMJ1_Ultimate_Decompilation"
+        }
+      ]
+    },
+    {
+      "id": "final-fantasy-iv-ii-snes-disassembly",
+      "title": "Final Fantasy IV / Final Fantasy II SNES Disassembly",
+      "game": "Final Fantasy IV (Japan) / Final Fantasy II (North America)",
+      "target_type": "Game",
+      "platform": "Super Nintendo Entertainment System / Super Famicom",
+      "kind": "Decompilation",
+      "status": "The public 65816 assembly disassembly documents builds for Japanese Final Fantasy IV 1.0/1.1 and North American Final Fantasy II 1.0/1.1. Users provide the original ROM data, run make rip, then assemble a selected version. The README demonstrates an identical rebuild for U.S. version 1.0; the Japanese Easy Version is unsupported.",
+      "summary": "A public assembly disassembly and reassembly project for four SNES/Super Famicom releases of Final Fantasy IV. It uses version-specific data extracted from a user-supplied ROM and does not distribute ROMs.",
+      "project_url": "https://github.com/everything8215/ff4",
+      "strategy": "65816 assembly disassembly and version-specific ROM reassembly with ca65/ld65",
+      "source_available": "Public assembly source and tooling; users provide original Japanese and/or U.S. ROMs for data extraction. The README says the repository does not include copyrighted ROM data.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "subtype": "Japanese Final Fantasy IV 1.0/1.1 and North American Final Fantasy II 1.0/1.1; Japanese Easy Version unsupported",
+      "sources": [
+        {
+          "label": "Maintainer README: supported releases, ROM extraction, assembly, and rebuild claim",
+          "url": "https://github.com/everything8215/ff4/blob/main/README.md"
+        },
+        {
+          "label": "Project repository and assembly source",
+          "url": "https://github.com/everything8215/ff4"
+        }
+      ]
+    },
+    {
+      "id": "jet-grind-radio-psp-port",
+      "title": "JGR Portable: Jet Grind Radio for PSP",
+      "game": "Jet Grind Radio",
+      "target_type": "Game",
+      "platform": "Dreamcast (US MK-51058 V1.005) → PlayStation Portable (PSP-1000 / 2000 / 3000 / Go)",
+      "kind": "Decompilation",
+      "status": "Beta 1 v1.0.1 was released on 2026-10-15 with an EBOOT.PBP package. The maintainer reported that the main storyline was playable across 28 of 28 levels in an 2026-10-11 status post, with performance varying by scene; the project remains a work in progress.",
+      "summary": "Native PSP port derived from the maintainer's Dreamcast decompilation. The project includes a decompile workspace and tools to prepare assets locally from the supported US Dreamcast GDI; no original game assets are distributed.",
+      "project_url": "https://github.com/beckerd/psp_jgr_portable",
+      "updated": "2026-10-16",
+      "first_found": "2026-10-16",
+      "strategy": "Native PSP port derived from reverse engineering and decompilation of the Dreamcast game, with local asset conversion from a user-supplied disc image.",
+      "source_available": "Public source and Beta 1 EBOOT.PBP release; the player supplies a supported Dreamcast GDI and tracks, which are processed locally.",
+      "subtype": "PlayStation Portable",
+      "sources": [
+        {
+          "label": "Maintainer README: native PSP target, supported Dreamcast revision, install flow, and WIP status",
+          "url": "https://github.com/beckerd/psp_jgr_portable"
+        },
+        {
+          "label": "Beta 1 v1.0.1 EBOOT.PBP release and supported disc-image requirements",
+          "url": "https://github.com/beckerd/psp_jgr_portable/releases/tag/1.0.1"
+        },
+        {
+          "label": "Maintainer's decompilation announcement and 2026-10-11 gameplay status",
+          "url": "https://www.reddit.com/r/PSP/comments/1wemoyy/jet_grind_radio_decompiled_ported_to_psp/"
+        }
+      ],
+      "programming_language": "C"
+    },
+    {
+      "id": "mario-kart-64-vita-kart64",
+      "title": "Vita Kart 64: Mario Kart 64 Vita Port",
+      "game": "Mario Kart 64",
+      "target_type": "Game",
+      "platform": "Nintendo 64 (US) → PlayStation Vita",
+      "kind": "Decompilation",
+      "status": "The v0.1.0 source/tooling release (2026-08-25) documents a Vita hardware build path and VPK generation from the user's own ROM. It explicitly contains no VPK, game data, or hardware-run evidence, so Vita gameplay has not been confirmed from the public release.",
+      "summary": "PS Vita-specific adaptation of the Spaghetti Kart / Mario Kart 64 decompilation runtime, with Vita rendering, performance, archive preparation, and install/test tooling. The player supplies a US ROM and generates local archives; the published release contains source and tools only.",
+      "project_url": "https://github.com/TheGh0stShip/VitaKart64",
+      "updated": "2026-10-16",
+      "first_found": "2026-10-16",
+      "strategy": "Native PlayStation Vita adaptation of the Mario Kart 64 decompilation runtime, with a documented local VPK build workflow.",
+      "source_available": "Public source/tooling release only; the user supplies the US ROM and generates game archives. No VPK or game files are distributed.",
+      "subtype": "PlayStation Vita",
+      "sources": [
+        {
+          "label": "Maintainer README: Vita hardware target, N64 source, ROM requirements, and build workflow",
+          "url": "https://github.com/TheGh0stShip/VitaKart64"
+        },
+        {
+          "label": "v0.1.0 release notes: included tooling and explicit absence of VPK / hardware evidence",
+          "url": "https://github.com/TheGh0stShip/VitaKart64/releases/tag/v0.1.0"
+        },
+        {
+          "label": "Upstream Spaghetti Kart decompilation runtime",
+          "url": "https://github.com/HarbourMasters/SpaghettiKart"
+        }
+      ],
+      "programming_language": "C"
+    },
+    {
+      "id": "nanosaur-classic-mac-source-port",
+      "title": "Nanosaur modern port",
+      "game": "Nanosaur (1998)",
+      "target_type": "Game",
+      "platform": "Original Mac OS 8 / PowerPC → macOS, Windows, Linux, and Linux ARM64",
+      "kind": "Reimplementation",
+      "status": "The latest listed release is v1.4.4, with HiDPI support and a Linux/aarch64 build target. Release v1.4.2 reports a full 3D renderer rewrite that improves performance on Apple Silicon. The project README says the port is based on source code Pangea released in 1999 and notes Pangea's endorsement of the current port.",
+      "summary": "Modern source port of Pangea Software's 1998 Mac-only game, based on the source Pangea released publicly in 1999. It builds for macOS, Windows, and Linux and has a custom renderer intended to improve performance on Apple Silicon. It is a source port rather than an API or binary compatibility layer.",
+      "project_url": "https://github.com/jorio/Nanosaur",
+      "updated": "2026-10-16",
+      "strategy": "Modern cross-platform source port from Pangea's released game source",
+      "language": "",
+      "source_available": "Public source repository; based on source released by Pangea Software",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Classic Mac game source port",
+      "sources": [
+        {
+          "label": "Nanosaur README: original platform, supported builds, source provenance, and Pangea endorsement",
+          "url": "https://github.com/jorio/Nanosaur#readme"
+        },
+        {
+          "label": "Nanosaur v1.4.4 release: HiDPI and Linux ARM64 build target",
+          "url": "https://github.com/jorio/Nanosaur/releases"
+        },
+        {
+          "label": "Nanosaur v1.4.2 release: renderer rewrite and Apple Silicon performance",
+          "url": "https://github.com/jorio/Nanosaur/releases/tag/v1.4.2"
+        }
+      ]
+    },
+    {
+      "id": "nanosaur2-classic-mac-source-port",
+      "title": "Nanosaur II: Hatchling modern port",
+      "game": "Nanosaur II: Hatchling (2004)",
+      "target_type": "Game",
+      "platform": "Original Mac version → macOS, Windows, and Linux",
+      "kind": "Reimplementation",
+      "status": "The latest listed release is v2.1.0, the initial modern release of Nanosaur II. The README identifies it as a port of the original Mac version, made with permission from Pangea Software, and provides macOS, Windows, and Linux downloads.",
+      "summary": "Modern cross-platform port of Pangea Software's 2004 Mac game Nanosaur II: Hatchling. The project provides source and builds for macOS, Windows, and Linux under permission from Pangea; it adapts the original game rather than translating an unmodified Mac binary.",
+      "project_url": "https://github.com/jorio/Nanosaur2",
+      "updated": "2026-10-16",
+      "strategy": "Modern cross-platform source port of the original Mac game",
+      "language": "",
+      "source_available": "Public source repository; port released with Pangea Software permission",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Classic Mac game source port",
+      "sources": [
+        {
+          "label": "Nanosaur II README: supported systems and Pangea permission",
+          "url": "https://github.com/jorio/Nanosaur2#readme"
+        },
+        {
+          "label": "Nanosaur II v2.1.0 release: initial modern version",
+          "url": "https://github.com/jorio/Nanosaur2/releases"
+        }
+      ]
+    },
+    {
+      "id": "pomme-classic-mac-api",
+      "title": "Pomme",
+      "game": "Mac OS 7–9 games written for the Macintosh Toolbox C API",
+      "target_type": "Software",
+      "platform": "Classic Macintosh Toolbox APIs → modern cross-platform builds through SDL; used by macOS, Windows, and Linux game ports",
+      "kind": "Reimplementation",
+      "status": "Public source repository. The README describes a deliberately partial Toolbox implementation, says complete source compatibility is out of scope, and lists eight games ported with Pomme. No GitHub release is listed.",
+      "summary": "A cross-platform partial reimplementation of Macintosh Toolbox C APIs for porting source code from Mac OS 7–9 games. It covers selected classic file/resource, QuickDraw 2D, Sound Manager, QuickTime, and 3D data functions. It is a library for source ports, not a runtime for unmodified classic Mac binaries.",
+      "project_url": "https://github.com/jorio/Pomme",
+      "updated": "2026-10-16",
+      "strategy": "Partial Macintosh Toolbox API reimplementation for source ports",
+      "language": "",
+      "source_available": "Public source repository",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Classic Mac API source-porting library",
+      "sources": [
+        {
+          "label": "Pomme README: scope, compatibility caveat, ported games, and implemented APIs",
+          "url": "https://github.com/jorio/Pomme#readme"
+        },
+        {
+          "label": "Pomme source repository",
+          "url": "https://github.com/jorio/Pomme"
+        }
+      ]
+    },
+    {
+      "id": "quesa-quickdraw3d-reimplementation",
+      "title": "Quesa",
+      "game": "QuickDraw 3D applications and 3DMF assets",
+      "target_type": "Software",
+      "platform": "Apple QuickDraw 3D APIs → macOS and Windows using OpenGL 3.2",
+      "kind": "Reimplementation",
+      "status": "The public C++ repository describes Quesa as the reimplementation of Apple's QuickDraw 3D API and reports that rendering was upgraded to OpenGL 3.2. The README identifies the current maintainer and recent camera and FilamentViewer work. No GitHub release is listed.",
+      "summary": "A BSD-licensed 3D rendering and scene-graph library that reimplements Apple's QuickDraw 3D APIs for macOS and Windows applications. It handles QuickDraw 3D concepts and the 3DMF object format through a modern OpenGL renderer; applications use the library at source/build time rather than loading old Mac binaries.",
+      "project_url": "https://github.com/jwwalker/Quesa",
+      "updated": "2026-10-16",
+      "strategy": "QuickDraw 3D API and scene-graph reimplementation using OpenGL",
+      "language": "",
+      "source_available": "Public C++ source repository (BSD-3-Clause)",
+      "first_found": "2026-10-16",
+      "project_started": "2000",
+      "programming_language": "C++",
+      "subtype": "Mac graphics API reimplementation library",
+      "sources": [
+        {
+          "label": "Quesa README: QuickDraw 3D reimplementation, platforms, renderer, and recent work",
+          "url": "https://github.com/jwwalker/Quesa#readme"
+        },
+        {
+          "label": "Quesa source repository and BSD-3-Clause license",
+          "url": "https://github.com/jwwalker/Quesa"
+        },
+        {
+          "label": "Quesa GitHub releases page (none listed at date checked)",
+          "url": "https://github.com/jwwalker/Quesa/releases"
+        }
+      ]
+    },
+    {
+      "id": "rocket-robot-on-wheels-decomp",
+      "title": "Rocket: Robot on Wheels Decompilation",
+      "game": "Rocket: Robot on Wheels",
+      "target_type": "Game",
+      "platform": "Nintendo 64",
+      "kind": "Decompilation",
+      "status": "The public README identifies this as an N64 game decompilation and documents building with an unmodified U.S. ROM named baserom.us.z64. It gives make setup and make instructions but does not state a completion percentage or byte-matching status.",
+      "summary": "A source decompilation project for Rocket: Robot on Wheels. The public repository contains source, tools, and build files; the user supplies the original U.S. ROM.",
+      "project_url": "https://github.com/RocketRet/Rocket-Robot-On-Wheels",
+      "strategy": "Nintendo 64 MIPS decompilation and source-based ROM build",
+      "source_available": "Public GitHub source and build files; an unmodified U.S. ROM is required and is not included.",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "subtype": "U.S. ROM target; README does not quantify matching progress",
+      "sources": [
+        {
+          "label": "Maintainer README: project target and build requirements",
+          "url": "https://github.com/RocketRet/Rocket-Robot-On-Wheels/blob/master/README.md"
+        },
+        {
+          "label": "Project repository and source tree",
+          "url": "https://github.com/RocketRet/Rocket-Robot-On-Wheels"
+        }
+      ]
+    },
+    {
+      "id": "sonic-advance-2-vita-port",
+      "title": "Sonic Advance 2 Vita Port",
+      "game": "Sonic Advance 2",
+      "target_type": "Game",
+      "platform": "Game Boy Advance → PlayStation Vita",
+      "kind": "Decompilation",
+      "status": "The 1.0V Vita release was published on 2026-04-11 and includes sa2.vpk. The fork's README describes the underlying matching decompilation as incomplete, with about 60 functions not matching; its current README does not document Vita build or compatibility details beyond the release and Vita files in the repository.",
+      "summary": "Vita target release from a Sonic Advance 2 decompilation fork. The maintainer's README describes a work-in-progress matching GBA decompilation with hand-decompiled C source, extracted assets, and builds for other platforms; the fork also publishes a Vita VPK.",
+      "project_url": "https://github.com/HiroStuff/sa2",
+      "updated": "2026-10-16",
+      "first_found": "2026-10-16",
+      "strategy": "PlayStation Vita target of a Game Boy Advance matching decompilation and native source port.",
+      "source_available": "Public source fork and sa2.vpk release; the release page does not explain whether or how original game data is required or packaged.",
+      "subtype": "PlayStation Vita",
+      "sources": [
+        {
+          "label": "Maintainer repository: Sonic Advance 2 decompilation status, source tree, and Vita project description",
+          "url": "https://github.com/HiroStuff/sa2"
+        },
+        {
+          "label": "1.0 Vita Release with sa2.vpk",
+          "url": "https://github.com/HiroStuff/sa2/releases/tag/1.0V"
+        }
+      ],
+      "programming_language": "C"
+    },
+    {
+      "id": "super-mario-bros-nes-vita-static-recomp",
+      "title": "Super Mario Bros. C: NES to PS Vita",
+      "game": "Super Mario Bros. (NES)",
+      "target_type": "Game",
+      "platform": "Nintendo Entertainment System → PlayStation Vita",
+      "kind": "Recompilation",
+      "status": "The 0.1 VPK release (2026-05-05) is described by the maintainer as fully playable at 60 FPS with audio disabled for stability. Audio remains experimental and may cause crashes; the user must supply the supported US PRG0 ROM.",
+      "summary": "Automated C++ translation of the original game's disassembly, built as a Vita VPK. The project retains game-specific NES CPU, PPU, APU, and controller emulation components, so it is a hybrid recompilation with NES hardware emulation rather than a generic NES emulator.",
+      "project_url": "https://github.com/Gustavo3211/SuperMarioBros-C-Vita",
+      "updated": "2026-10-16",
+      "first_found": "2026-10-16",
+      "strategy": "Automated C++ code generation from the game's NES disassembly, with a game-specific hardware compatibility layer for Vita.",
+      "source_available": "Public source, code-generation tools, and VPK release; no ROM is included and the player supplies the supported US PRG0 image.",
+      "subtype": "PlayStation Vita",
+      "sources": [
+        {
+          "label": "Maintainer README: disassembly-to-C++ method, Vita build, and architecture including retained NES hardware components",
+          "url": "https://github.com/Gustavo3211/SuperMarioBros-C-Vita"
+        },
+        {
+          "label": "0.1 VPK release: fully playable claim, 60 FPS name, audio limitation, and ROM requirement",
+          "url": "https://github.com/Gustavo3211/SuperMarioBros-C-Vita/releases/tag/0.1"
+        }
+      ],
+      "programming_language": "C++"
+    },
+    {
+      "id": "switchyard-wine-apple-silicon",
+      "title": "Switchyard Wine (Apple Silicon Wine Runtime)",
+      "game": "Windows games and desktop applications (multi-title)",
+      "target_type": "Software",
+      "platform": "Windows i386/x86-64 software → macOS on Apple Silicon; published Wine runtime reports an x86-64 host build",
+      "kind": "API Translation",
+      "status": "Public downstream Wine runtime with signed and notarized release archives. The latest listed runtime release, 34a0917, reports that Overwatch 2.23.1.1 reached the logged-in main menu with a separately supplied Game Porting Toolkit 4.0 beta 1. The release identifies an x86-64 host runtime and i386/x86-64 PE targets; this is a setup-specific result, not a general compatibility guarantee.",
+      "summary": "A downstream Wine runtime and reproducible build pipeline for Switchyard on Apple Silicon macOS. It carries targeted macOS compatibility changes, including D3DMetal bridging, MSync, Chromium/CEF rendering, media, and font fixes. The release contains Wine only; Switchyard uses user-supplied Apple Game Porting Toolkit files for the tested GPTK graphics path.",
+      "project_url": "https://github.com/jungwuk-ryu/switchyard-wine",
+      "updated": "2026-10-16",
+      "strategy": "Wine-based Win32 API compatibility with targeted macOS runtime and D3DMetal fixes",
+      "language": "",
+      "source_available": "Public source repository; Wine runtime archives are separately published",
+      "first_found": "2026-10-16",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Downstream Wine compatibility runtime for Apple Silicon macOS",
+      "sources": [
+        {
+          "label": "Switchyard Wine README: runtime scope, macOS fixes, and external GPTK requirement",
+          "url": "https://github.com/jungwuk-ryu/switchyard-wine#readme"
+        },
+        {
+          "label": "Latest runtime release: Overwatch test, architectures, and GPTK setup",
+          "url": "https://github.com/jungwuk-ryu/switchyard-wine/releases"
+        },
+        {
+          "label": "Maintainer-recorded application compatibility results",
+          "url": "https://github.com/jungwuk-ryu/switchyard-wine/blob/main/docs/compatibility.md"
+        }
+      ]
+    },
+    {
+      "id": "vice-city-stories-switch-vcsnx",
+      "title": "VCSNX: Grand Theft Auto: Vice City Stories for Nintendo Switch",
+      "game": "Grand Theft Auto: Vice City Stories",
+      "target_type": "Game",
+      "platform": "PlayStation Portable (US ULUS-10160 v1.03) → Nintendo Switch",
+      "kind": "Recompilation",
+      "status": "v0.3.0 was released on 2026-10-14. The maintainer documents a Switch homebrew launch flow and describes the full game at 1280×720 with sound and movies. Only the US PSP ULUS-10160 v1.03 version is supported.",
+      "summary": "Static recompilation of the PSP game code to C++ with PSPRecomp. A Windows builder compiles the generated code locally; the Switch runtime uses Vulkan through Mesa NVK, SDL2, and FFmpeg. Game data remains user-supplied.",
+      "project_url": "https://github.com/fsalamancar/VCSNX",
+      "updated": "2026-10-16",
+      "first_found": "2026-10-16",
+      "strategy": "Static recompilation of PSP code to C++ with a native Nintendo Switch runtime.",
+      "source_available": "Public source, Switch NRO, and builder release; the user supplies and prepares files from the supported PSP game copy.",
+      "subtype": "Nintendo Switch homebrew",
+      "sources": [
+        {
+          "label": "Maintainer README: Switch target, exact PSP version, install flow, and gameplay features",
+          "url": "https://github.com/fsalamancar/VCSNX/blob/main/README.md"
+        },
+        {
+          "label": "v0.3.0 Switch runtime and builder release",
+          "url": "https://github.com/fsalamancar/VCSNX/releases/tag/v0.3.0"
+        }
+      ],
+      "programming_language": "C++"
+    }
+  ]
+}
