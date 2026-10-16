@@ -1476,3 +1476,27 @@ body { font-family:var(--sans); line-height:1.55; }
 @media (prefers-reduced-motion:reduce) {
   .shift-card,.showcase-card,.directory-card,.process-resource-card { animation:none !important; animation-timeline:auto !important; }
 }
+
+/* Let the source-to-native diagram carry the page's single expressive motion. */
+.orbit-core {
+  animation:signal-core-cycle 8.6s var(--ease-gentle) -2.4s infinite alternate;
+  transition:transform var(--motion-slow) var(--ease-gentle),box-shadow var(--motion-base) var(--ease-standard),filter var(--motion-base) var(--ease-standard);
+  will-change:transform;
+}
+.orbit-core:hover,.orbit-core:focus-visible {
+  animation:none;
+}
+.catalog-table tbody tr.catalog-row:focus-within {
+  background:color-mix(in srgb,var(--blue) 7%,var(--glass-surface));
+}
+.catalog-table tbody tr.catalog-row:focus-within > th {
+  box-shadow:inset 3px 0 var(--focus-outline);
+}
+@keyframes signal-core-cycle {
+  0% { transform:rotate(-3deg) translate3d(0,0,0); }
+  58% { transform:rotate(-2deg) translate3d(0,-2px,0); }
+  100% { transform:rotate(-1.5deg) translate3d(0,-3px,0); }
+}
+@media (prefers-reduced-motion:reduce) {
+  .orbit-core { animation:none !important; will-change:auto; }
+}
