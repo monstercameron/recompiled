@@ -348,6 +348,27 @@ fi
 if [[ -f data/research/discovery-2026-10-16/goal-refresh/round10/project-media/media.json ]]; then
   python3 scripts/catalog.py import-media data/research/discovery-2026-10-16/goal-refresh/round10/project-media/media.json
 fi
+if [[ -f data/research/discovery-2026-10-16/goal-refresh/round11/project-additions-reviewed.json ]]; then
+  python3 scripts/catalog.py import data/research/discovery-2026-10-16/goal-refresh/round11/project-additions-reviewed.json
+fi
+if [[ -f data/research/discovery-2026-10-16/goal-refresh/round11/project-updates-reviewed.json ]]; then
+  python3 scripts/catalog.py import-project-updates data/research/discovery-2026-10-16/goal-refresh/round11/project-updates-reviewed.json
+fi
+if [[ -f data/research/discovery-2026-10-16/goal-refresh/round11/programming-languages-reviewed.json ]]; then
+  python3 scripts/catalog.py import-programming-languages data/research/discovery-2026-10-16/goal-refresh/round11/programming-languages-reviewed.json
+fi
+if [[ -f data/research/discovery-2026-10-16/goal-refresh/round11/media-reviewed.json ]]; then
+  python3 scripts/catalog.py import-media data/research/discovery-2026-10-16/goal-refresh/round11/media-reviewed.json
+fi
+if [[ -f data/research/discovery-2026-10-16/goal-refresh/round11/game-facts-reviewed.json ]]; then
+  python3 scripts/catalog.py import-game-profiles data/research/discovery-2026-10-16/goal-refresh/round11/game-facts-reviewed.json
+fi
+if [[ -f data/research/discovery-2026-10-16/goal-refresh/round11/wikipedia-links-reviewed.json ]]; then
+  python3 scripts/catalog.py import-wikipedia-links data/research/discovery-2026-10-16/goal-refresh/round11/wikipedia-links-reviewed.json
+fi
+if [[ -f data/research/discovery-2026-10-16/goal-refresh/round11/directory-additions-reviewed.json ]]; then
+  python3 scripts/catalog.py import-directory data/research/discovery-2026-10-16/goal-refresh/round11/directory-additions-reviewed.json
+fi
 python3 scripts/catalog.py export
 cargo build --locked --release --target wasm32-unknown-unknown
 wasm-bindgen --target web --out-dir docs/pkg target/wasm32-unknown-unknown/release/recompiled.wasm

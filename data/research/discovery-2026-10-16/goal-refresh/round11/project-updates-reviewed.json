@@ -1,0 +1,514 @@
+{
+  "updated": "2026-10-16",
+  "scope": "Round 11 current-source metadata and review-date updates.",
+  "updates": [
+    {
+      "id": "adastra-ptbr",
+      "fields": {
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Maintainer GitHub repository and README installation instruction",
+          "url": "https://github.com/erniemesh/Adastra-PTBR"
+        }
+      ]
+    },
+    {
+      "id": "aethersx2",
+      "fields": {
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official AetherSX2 site/archive",
+          "url": "https://www.aethersx2.com/"
+        },
+        {
+          "label": "Archived official-site source repository",
+          "url": "https://github.com/nakano1337/www-aethersx2"
+        }
+      ]
+    },
+    {
+      "id": "bigpemu-atari-jaguar",
+      "fields": {
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official downloads and current release",
+          "url": "https://www.richwhitehouse.com/jaguar/index.php?content=download"
+        }
+      ]
+    },
+    {
+      "id": "cdi-emulator-philips-cdi",
+      "fields": {
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official project page",
+          "url": "https://www.cdiemu.org/site/welcome.htm"
+        }
+      ]
+    },
+    {
+      "id": "da14585-hema-esl-firmware-reimplementation",
+      "fields": {
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README",
+          "url": "https://github.com/seriaTvT/DA14585-ESL-213/blob/main/README.md"
+        },
+        {
+          "label": "GitHub repository metadata",
+          "url": "https://api.github.com/repos/seriaTvT/DA14585-ESL-213"
+        }
+      ]
+    },
+    {
+      "id": "dx9mt-d3d9-to-metal-fallout-new-vegas",
+      "fields": {
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Project README: current status, measured performance, design, and limitations",
+          "url": "https://github.com/theodorechapman/dx9mt#readme"
+        }
+      ]
+    },
+    {
+      "id": "eden",
+      "fields": {
+        "updated": "2026-10-16",
+        "status": "Active; the official Forgejo repository recorded source activity on 2026-10-16 and lists v0.2.1 (2026-06-01) as its latest published release."
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://eden-emu.dev/"
+        },
+        {
+          "label": "Official Forgejo source repository",
+          "url": "https://git.eden-emu.dev/eden-emu/eden"
+        },
+        {
+          "label": "Latest official source commit checked 2026-10-16",
+          "url": "https://git.eden-emu.dev/eden-emu/eden/commit/d8c6c59b679867d2595fdc0953df033475e23380"
+        },
+        {
+          "label": "Latest published official release v0.2.1",
+          "url": "https://git.eden-emu.dev/eden-emu/eden/releases/tag/v0.2.1"
+        }
+      ]
+    },
+    {
+      "id": "emuscv-super-cassette-vision",
+      "fields": {
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Maintainer source repository",
+          "url": "https://gitlab.com/MaaaX-EPOCH84/libretro-emuscv"
+        },
+        {
+          "label": "GitLab repository metadata API",
+          "url": "https://gitlab.com/api/v4/projects/16943127"
+        }
+      ]
+    },
+    {
+      "id": "gecko-gamecube-wii",
+      "fields": {
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository and README",
+          "url": "https://github.com/ioncodes/gecko"
+        },
+        {
+          "label": "Maintainer release page",
+          "url": "https://github.com/ioncodes/gecko/releases/tag/release"
+        }
+      ]
+    },
+    {
+      "id": "golden-sun-lost-age-decomp-alchemy",
+      "fields": {
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README (target, method, status, and requirements)",
+          "url": "https://github.com/PascalPixel/alchemy#readme"
+        },
+        {
+          "label": "Latest decompilation report release",
+          "url": "https://github.com/PascalPixel/alchemy/releases/tag/decomp-reports"
+        }
+      ]
+    },
+    {
+      "id": "imlunahey-multi-system-emulator",
+      "fields": {
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository and README",
+          "url": "https://github.com/ImLunaHey/emulators"
+        },
+        {
+          "label": "Latest published release",
+          "url": "https://github.com/ImLunaHey/emulators/releases/tag/v0.1.1"
+        }
+      ]
+    },
+    {
+      "id": "jump-ultimate-stars-nds-native-recomp",
+      "fields": {
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README (target, method, status, and requirements)",
+          "url": "https://github.com/piuzera/JUSDecomp#readme"
+        },
+        {
+          "label": "Latest published release",
+          "url": "https://github.com/piuzera/JUSDecomp/releases/tag/v0.3.1"
+        }
+      ]
+    },
+    {
+      "id": "kega-fusion",
+      "fields": {
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://www.carpeludum.com/kega-fusion/"
+        }
+      ]
+    },
+    {
+      "id": "lifo-unix-like-browser-node-environment",
+      "fields": {
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README",
+          "url": "https://github.com/lifo-sh/lifo/blob/main/README.md"
+        },
+        {
+          "label": "GitHub repository metadata",
+          "url": "https://api.github.com/repos/lifo-sh/lifo"
+        }
+      ]
+    },
+    {
+      "id": "nova-voyager-drill-press-firmware-reimplementation",
+      "fields": {
+        "updated": "2026-10-16",
+        "status": "The maintainer README reports all features implemented and the firmware in daily use, with 445 unit tests across 18 suites. GitHub lists release v0.1.0 (2026-08-29); repository activity continued through 2026-10-14."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README",
+          "url": "https://github.com/packerlschupfer/nova-voyager_firmware/blob/main/README.md"
+        },
+        {
+          "label": "Latest published release v0.1.0",
+          "url": "https://github.com/packerlschupfer/nova-voyager_firmware/releases/tag/v0.1.0"
+        }
+      ]
+    },
+    {
+      "id": "octeon-cn50xx-hardware-flow-offload-reimplementation",
+      "fields": {
+        "updated": "2026-10-16",
+        "status": "The maintainer documents hardware tests on an ERLite-3 / CN5020 with OpenWrt kernel 6.18.34 and comparative throughput/latency results. GitHub lists release v0.1.0 (2026-06-10); the latest repository push was 2026-08-08."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README",
+          "url": "https://github.com/packerlschupfer/octeon-flowtable/blob/main/README.md"
+        },
+        {
+          "label": "Latest published release v0.1.0",
+          "url": "https://github.com/packerlschupfer/octeon-flowtable/releases/tag/v0.1.0"
+        }
+      ]
+    },
+    {
+      "id": "openscope-2c53t-firmware-reimplementation",
+      "fields": {
+        "updated": "2026-10-16",
+        "status": "Development firmware v0.4.1 was published 2026-10-05. The maintainer reports live ADC capture on real 2C53T hardware and warns users not to depend on it for real measurements."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README",
+          "url": "https://github.com/DavidClawson/OpenScope-2C53T/blob/main/README.md"
+        },
+        {
+          "label": "Latest published release v0.4.1",
+          "url": "https://github.com/DavidClawson/OpenScope-2C53T/releases/tag/v0.4.1"
+        }
+      ]
+    },
+    {
+      "id": "pokket-sx-playstation-pocketstation",
+      "fields": {
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README and project page",
+          "url": "https://github.com/mentalfoundry/PokketSX"
+        },
+        {
+          "label": "Latest published release",
+          "url": "https://github.com/mentalfoundry/PokketSX/releases/tag/latest"
+        }
+      ]
+    },
+    {
+      "id": "rayman2-n64-recomp",
+      "fields": {
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Project repository",
+          "url": "https://github.com/danielgomesvieira2000/rayman-2-the-great-escape-recomp"
+        },
+        {
+          "label": "GitHub repository REST API (visibility and availability check)",
+          "url": "https://api.github.com/repos/danielgomesvieira2000/rayman-2-the-great-escape-recomp"
+        }
+      ]
+    },
+    {
+      "id": "redream",
+      "fields": {
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://redream.io/"
+        },
+        {
+          "label": "Official downloads",
+          "url": "https://redream.io/download"
+        }
+      ]
+    },
+    {
+      "id": "ryubing",
+      "fields": {
+        "updated": "2026-10-16",
+        "status": "Active; the official website provides build downloads and compatibility information and links to the project Forgejo host."
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://ryujinx.app/"
+        },
+        {
+          "label": "Official download page",
+          "url": "https://ryujinx.app/download"
+        },
+        {
+          "label": "Official Forgejo source host linked by project site",
+          "url": "https://git.ryujinx.app/"
+        }
+      ]
+    },
+    {
+      "id": "super-zsnes",
+      "fields": {
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official project source confirms emulator type and target",
+          "url": "https://zsnes.com/"
+        }
+      ]
+    },
+    {
+      "id": "wined3d",
+      "fields": {
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official WineD3D source tree",
+          "url": "https://gitlab.winehq.org/wine/wine/-/tree/master/dlls/wined3d"
+        },
+        {
+          "label": "Latest official WineD3D source commit",
+          "url": "https://gitlab.winehq.org/api/v4/projects/wine%2Fwine/repository/commits?path=dlls%2Fwined3d&per_page=1"
+        }
+      ]
+    },
+    {
+      "id": "winerosetta-wow-instruction-shim",
+      "fields": {
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Current source repository README: target builds and integration instructions",
+          "url": "https://github.com/Gcenx/winerosetta#readme"
+        },
+        {
+          "label": "Current repository release page (no releases published)",
+          "url": "https://github.com/Gcenx/winerosetta/releases"
+        }
+      ]
+    },
+    {
+      "id": "zink",
+      "fields": {
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Mesa Zink driver documentation: implementation and requirements",
+          "url": "https://docs.mesa3d.org/drivers/zink.html"
+        },
+        {
+          "label": "Mesa Zink source documentation",
+          "url": "https://gitlab.freedesktop.org/mesa/mesa/-/blob/main/docs/drivers/zink.rst"
+        }
+      ]
+    },
+    {
+      "id": "sm64-zune-hd-port",
+      "fields": {
+        "subtype": "Native Zune HD device port of sm64ex (decompilation-based)",
+        "source_available": "Public source repository. The project's own files are MIT-licensed; Fast3D-derived renderer files have separate terms that prohibit binary redistribution unless the binary contains no assets the distributor lacks rights to share. The included OpenZDK launcher uses separate BSD-style terms, and the sm64ex submodule retains its own terms. Builds require the user's own USA Super Mario 64 ROM; the maintainer offers no built game. GitHub reports Other / NOASSERTION for the mixed repository license."
+      },
+      "sources": [
+        {
+          "label": "Maintainer LICENSE: component-by-component terms for MIT project files, Fast3D-derived renderer, OpenZDK launcher, and sm64ex submodule",
+          "url": "https://github.com/rsheldiii/sm64-zune/blob/main/LICENSE"
+        },
+        {
+          "label": "GitHub repository API: mixed license is Other / NOASSERTION",
+          "url": "https://api.github.com/repos/rsheldiii/sm64-zune"
+        },
+        {
+          "label": "Maintainer README: this is an sm64ex Zune HD port; build from user-provided USA ROM; no built game is offered",
+          "url": "https://github.com/rsheldiii/sm64-zune"
+        }
+      ]
+    },
+    {
+      "id": "daytona-usa-model2-recomp",
+      "fields": {
+        "platform": "Sega Model 2 arcade → Windows/macOS/Linux; Android arm64; iOS; PS Vita; Dreamcast via Flycast only (native console port in progress)",
+        "status": "Active development; the maintainer README lists Windows/macOS/Linux desktop builds, Android arm64 and iOS builds tested on devices, and a native PS Vita app tested at about 57.3 fps on hardware. The Dreamcast version currently runs only in the Flycast emulator at about 32 fps; native Dreamcast console support is in progress. No GitHub release or tag is listed as of 2026-10-16."
+      },
+      "sources": [
+        {
+          "label": "Current maintainer README: supported targets and platform status",
+          "url": "https://github.com/alphanu1/daytona-arcade-recomp#platforms"
+        },
+        {
+          "label": "Android and iOS build/testing notes",
+          "url": "https://github.com/alphanu1/daytona-arcade-recomp/tree/main/platform/mobile"
+        },
+        {
+          "label": "Native PS Vita build and hardware performance notes",
+          "url": "https://github.com/alphanu1/daytona-arcade-recomp/tree/main/platform/vita"
+        },
+        {
+          "label": "Dreamcast target is Flycast-only while native support is in progress",
+          "url": "https://github.com/alphanu1/daytona-arcade-recomp/tree/main/platform/dreamcast"
+        },
+        {
+          "label": "GitHub Releases endpoint; no releases listed on 2026-10-16",
+          "url": "https://api.github.com/repos/alphanu1/daytona-arcade-recomp/releases"
+        },
+        {
+          "label": "GitHub tags endpoint; no tags listed on 2026-10-16",
+          "url": "https://api.github.com/repos/alphanu1/daytona-arcade-recomp/tags"
+        }
+      ]
+    },
+    {
+      "id": "colin-mcrae-rally-2-opencmr2",
+      "fields": {
+        "status": "Latest release v1.1.5 was published 2026-10-15. Its notes fix a 64-bit crash on four Super Special stages, ultrawide service-area car proportions, and controller detection; local regression tests were run on Linux i686/x86-64, and release packages are built/tested by GitHub Actions for each supported platform. The current README reports playable stages on Linux x86-64/i686, Windows x86-64 (tested under Wine), and Android ARM64/x86-64. Linux ARM64 and macOS ARM64 build and pass tests, but gameplay is not yet tested there."
+      },
+      "sources": [
+        {
+          "label": "Current OpenCMR2 README: platform status, test qualifications and available package targets",
+          "url": "https://github.com/pablocpas/OpenCMR2#status"
+        },
+        {
+          "label": "Latest v1.1.5 release notes and test details (published 2026-10-15)",
+          "url": "https://github.com/pablocpas/OpenCMR2/releases/tag/v1.1.5"
+        },
+        {
+          "label": "Current release list",
+          "url": "https://github.com/pablocpas/OpenCMR2/releases"
+        }
+      ]
+    },
+    {
+      "id": "link-awakening-switch-recomp",
+      "fields": {
+        "status": "Beta; latest release beta_4 was published 2026-10-15. The README still labels the project a beta and lists remaining gameplay and graphics issues; the release notes include current fixes and known limitations.",
+        "platform": "Nintendo Switch → macOS 15+ Apple Silicon (Metal/MetalFX); Windows 10+ x86-64 (AVX2, Vulkan 1.3); Linux x86-64 (Vulkan 1.3, AppImage); Linux aarch64 experimental, with the game untested on real hardware.",
+        "strategy": "Static recompilation",
+        "summary": "Static recompilation of the Nintendo Switch remake into native desktop applications. Setup generates and compiles the game locally from the user’s own legally obtained, extracted v1.0.0 game files; the repository and release builds include no Nintendo game files, game code, assets, or fonts. The project’s own code is MIT-licensed, while third-party components retain separate licenses. The README says the project was made almost exclusively with AI.",
+        "programming_language": "C",
+        "updated": "2026-10-16"
+      },
+      "sources": [
+        {
+          "label": "Official project README: recompilation method, beta status, supported platforms, required game files, AI disclosure, and project license",
+          "url": "https://github.com/peiikai/LASRecomp/blob/main/README.md"
+        },
+        {
+          "label": "Official beta_4 release notes (published 2026-10-15)",
+          "url": "https://github.com/peiikai/LASRecomp/releases/tag/beta_4"
+        },
+        {
+          "label": "Official project code license (MIT text)",
+          "url": "https://github.com/peiikai/LASRecomp/blob/main/LICENSE"
+        },
+        {
+          "label": "Official Linux README: Vulkan/AppImage and experimental aarch64 status",
+          "url": "https://github.com/peiikai/LASRecomp/blob/main/docs/linux.md"
+        },
+        {
+          "label": "Official Windows build documentation: Windows requirements and Vulkan build",
+          "url": "https://github.com/peiikai/LASRecomp/blob/main/docs/BUILD-windows.md"
+        },
+        {
+          "label": "GitHub repository metadata API: push/archive state and license scanner field",
+          "url": "https://api.github.com/repos/peiikai/LASRecomp"
+        },
+        {
+          "label": "GitHub Languages API: exact repository-wide byte counts rechecked 2026-10-16",
+          "url": "https://api.github.com/repos/peiikai/LASRecomp/languages"
+        }
+      ]
+    }
+  ]
+}

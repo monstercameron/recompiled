@@ -1,0 +1,348 @@
+{
+  "verified_at": "2026-10-16",
+  "scope": "Round 11 tools and websites.",
+  "items": [
+    {
+      "id": "snesrecomp",
+      "item_type": "Tool",
+      "category": "Static recompilation",
+      "name": "SNESRecomp",
+      "description": "A general-purpose SNES static recompiler that translates 65816 machine code to C and builds native executables against a shared SNES hardware runtime. Its license file specifies PolyForm Noncommercial 1.0.0; game-specific integration is required.",
+      "url": "https://github.com/RetroPortingToolKit/snesrecomp",
+      "source_url": "https://github.com/RetroPortingToolKit/snesrecomp#readme",
+      "source_evidence": "The maintainer README describes a general-purpose SNES static recompiler that translates 65816 code to C and links a shared hardware runtime; the release list shows v0.3.0-alpha published 2026-10-14. The repository LICENSE is PolyForm Noncommercial 1.0.0.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "id": "nesrecomp",
+      "item_type": "Tool",
+      "category": "Static recompilation",
+      "name": "NESRecomp",
+      "description": "A static recompiler framework for NES games that translates 6502 ROM instructions to C/native code and models CPU bus cycles through its hardware runtime. The repository license file specifies PolyForm Noncommercial 1.0.0.",
+      "url": "https://github.com/mstan/nesrecomp",
+      "source_url": "https://github.com/mstan/nesrecomp#readme",
+      "source_evidence": "The maintainer README describes a 6502-to-C static recompiler; its default cycle backend models each CPU bus cycle and uses an interpreter for code outside compiled ROM views. The latest listed release is v0.4.0 (2026-10-05). The LICENSE is PolyForm Noncommercial 1.0.0.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "id": "psxrecomp",
+      "item_type": "Tool",
+      "category": "Static recompilation",
+      "name": "PSXRecomp",
+      "description": "A general-purpose PlayStation 1 static recompiler that translates MIPS R3000A code to C/native code and links it to a PS1 hardware runtime. Its README lists game-specific repositories using the framework and says a new title requires configuration and reverse engineering. The repository license file specifies PolyForm Noncommercial 1.0.0.",
+      "url": "https://github.com/RetroPortingToolKit/psxrecomp",
+      "source_url": "https://github.com/RetroPortingToolKit/psxrecomp#readme",
+      "source_evidence": "The current maintainer README identifies PSXRecomp as a general-purpose PS1 static recompiler, explains its MIPS R3000A-to-C pipeline and native runtime, and lists game-specific repos that consume the framework. The repository LICENSE is PolyForm Noncommercial 1.0.0.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "id": "assetripper",
+      "item_type": "Tool",
+      "category": "Game asset analysis",
+      "name": "AssetRipper",
+      "description": "A GUI application for analyzing Unity game files and converting assets to native Unity engine format. The maintainers list Unity versions 3.5.0 through 6000.4.x, with support quality varying by version.",
+      "url": "https://github.com/AssetRipper/AssetRipper",
+      "source_url": "https://github.com/AssetRipper/AssetRipper#readme",
+      "source_evidence": "The maintainer README describes Unity-game-file analysis and conversion into native Unity format, and states the supported version span as Unity 3.5.0 to 6000.4.x with version-dependent support quality. The latest release is 2.0.0 (2026-08-24).",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "id": "reframework",
+      "item_type": "Tool",
+      "category": "Game modding frameworks",
+      "name": "REFramework",
+      "description": "A mod loader and scripting/modding framework for RE Engine games, with VR support and runtime inspection tools. Game and game-version compatibility is maintainer-listed and can vary by title.",
+      "url": "https://github.com/praydog/REFramework",
+      "source_url": "https://github.com/praydog/REFramework#readme",
+      "source_evidence": "The maintainer README identifies REFramework as a mod loader, scripting platform, and modding tool for RE Engine titles; it documents stable and nightly builds, installation, VR support, and game-specific setup.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "id": "ue4ss",
+      "item_type": "Tool",
+      "category": "Game modding frameworks",
+      "name": "Unreal Engine Scripting System (UE4SS)",
+      "description": "A UE4/UE5 Lua and C++ modding platform with blueprint mod loading, SDK/header generation, live property inspection/editing, and runtime dumpers. The README lists engine versions 4.7 through 5.8; compatibility is game-specific.",
+      "url": "https://github.com/UE4SS-RE/RE-UE4SS",
+      "source_url": "https://github.com/UE4SS-RE/RE-UE4SS#readme",
+      "source_evidence": "The maintainer README lists Lua and C++ APIs, blueprint mod loading, SDK/header generation, property inspection/editing, and dumpers, and identifies UE 4.7–5.8 as the targeting range. Repository activity was recorded on 2026-10-15; the latest tagged release endpoint remains an older experimental tag, so no current stable-release claim is made.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "id": "undertale-mod-tool",
+      "item_type": "Tool",
+      "category": "Game modding tools",
+      "name": "UndertaleModTool",
+      "description": "A tool for unpacking and editing Undertale, Deltarune, and other GameMaker data, with a GML virtual-machine decompiler/compiler, code editor, room editor, and mod-script support. The maintainers note that some features remain incomplete.",
+      "url": "https://github.com/UnderminersTeam/UndertaleModTool",
+      "source_url": "https://github.com/UnderminersTeam/UndertaleModTool#readme",
+      "source_evidence": "The maintainer README calls it a tool for modding, decompiling, and unpacking Undertale and other GameMaker games, and provides GUI/CLI releases. Latest release 0.9.2.0 was published 2026-08-23; the repository is GPL-3.0.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "id": "reloaded-ii",
+      "item_type": "Tool",
+      "category": "Game modding frameworks",
+      "name": "Reloaded-II",
+      "description": "A .NET-based mod loader and mod-management framework for native x86 and x64 games. The project describes itself as universal, while actual mod compatibility remains game-specific.",
+      "url": "https://github.com/Reloaded-Project/Reloaded-II",
+      "source_url": "https://github.com/Reloaded-Project/Reloaded-II#readme",
+      "source_evidence": "The maintainer README describes a universal, C#-based DLL-injection mod loader and manager for native x86/x64 games. The latest GitHub release is 1.31.0 (2026-09-23); the repository is GPL-3.0.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "id": "thunderstore",
+      "item_type": "Website",
+      "category": "Game mods and community tools",
+      "name": "Thunderstore",
+      "description": "A searchable mod distribution site organized around game communities, with a companion manager for installing, updating, and managing mods, plus package-format documentation and an API.",
+      "url": "https://thunderstore.io/",
+      "source_url": "https://thunderstore.io/",
+      "source_evidence": "The official homepage presented more than 110,000 mods across 300+ games when checked 2026-10-16 and links its game communities, Thunderstore Mod Manager, API documentation, package format documentation, and modding wiki. The count is a dated site snapshot.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "id": "modrinth",
+      "item_type": "Website",
+      "category": "Game mods and community tools",
+      "name": "Modrinth",
+      "description": "A Minecraft content platform for discovering and sharing mods, resource packs, data packs, shaders, modpacks, plugins, and servers.",
+      "url": "https://modrinth.com/",
+      "source_url": "https://modrinth.com/",
+      "source_evidence": "The official homepage calls Modrinth an open-source community platform for Minecraft content and currently lists mods, resource packs, data packs, shaders, modpacks, plugins, and servers.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "id": "recompendium-static-recompilation-catalog",
+      "item_type": "Website",
+      "category": "Project discovery",
+      "name": "Recompendium",
+      "description": "A live, filterable, bilingual catalog of game static recompilations, decompilations, ports/remakes, and supporting tools. Its maintainers describe curated records verified against source repositories and daily GitHub API enrichment; use it to discover leads, then verify each project at its own source.",
+      "url": "https://nio03.github.io/unricopie/",
+      "source_url": "https://github.com/Nio03/unricopie#readme",
+      "source_evidence": "The official repository README identifies the published GitHub Pages site as Recompendium and describes its four curated sections (recomps, decomps, ports/remakes, tools), bilingual records, daily API enrichment, and source-repository verification. It explicitly says the bundled launcher scaffold is no longer under development and is not listed in the catalog; this entry covers the website only.",
+      "verified_at": "2026-10-16"
+    },
+    {
+      "id": "gamestringer",
+      "item_type": "Tool",
+      "category": "Game localization and patch creation",
+      "name": "GameStringer",
+      "url": "https://github.com/rouges78/GameStringer",
+      "source_url": "https://github.com/rouges78/GameStringer",
+      "description": "Desktop game-localization pipeline with engine detection, file extraction/reinsertion, AI translation, quality checks and patch application. The README advertises 20+ engines/providers and Windows, macOS and Linux builds.",
+      "source_evidence": "Maintainer README describes a game-to-patch workflow, engine-specific extractors, runtime injection for some Unity games, OCR for selected older games, app/UI and language-provider options, and requests real-game compatibility reports because the project is still young. Latest visible GitHub release is v1.17.0 dated 2026-08-17 and provides Windows/macOS/Linux assets: https://github.com/rouges78/GameStringer/releases.",
+      "verified_at": "2026-10-16",
+      "release_version": "v1.17.0",
+      "release_date": "2026-08-17",
+      "license": "Source-Available License v1.1; not OSI-approved open source; personal-use/non-commercial terms and restrictions are stated in the license.",
+      "distribution": "Packaged desktop installers for Windows, macOS and Linux; public source repository.",
+      "supported_host_platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "target_platforms": [
+        "Games supported by listed engine/file parsers; specific game success varies"
+      ],
+      "translation_language_scope": "User-selected/provider-dependent; no fixed source-target pair. README separately lists app UI languages, which are not the same as game translation languages.",
+      "caveats": [
+        "Maintainer explicitly asks for real-game testing and says the project is young; engine support labels do not guarantee compatibility with every game.",
+        "Do not call the project open source: the repository uses a custom source-available license."
+      ],
+      "release_url": "https://github.com/rouges78/GameStringer/releases"
+    },
+    {
+      "id": "game-localization-skill",
+      "item_type": "Tool",
+      "category": "AI-assisted localization workflow",
+      "name": "Game Localization Skill",
+      "url": "https://github.com/AmuroRX-93/game-localization-skill",
+      "source_url": "https://github.com/AmuroRX-93/game-localization-skill",
+      "description": "Reusable workflow and coverage-audit skill package for game localization projects, with release bundles for several AI coding assistants. It covers resource inventory, terminology, font/image work, subtitles, packaging, runtime checks and patch delivery.",
+      "source_evidence": "Public repository describes a reusable game-localization workflow and coverage auditor, with adapters/bundles for Codex, Cursor, Kimi Code, Qwen Code and CodeBuddy. Latest release is v0.6.1 dated 2026-09-28; its release adds platform/package choices for PS2/PS3 and explicitly says it adds no PKG generator or new real-device/game testing: https://github.com/AmuroRX-93/game-localization-skill/releases/tag/v0.6.1.",
+      "verified_at": "2026-10-16",
+      "release_version": "v0.6.1",
+      "release_date": "2026-09-28",
+      "license": "MIT (public repository license).",
+      "distribution": "ZIP skill bundles for multiple assistant clients; source repository.",
+      "supported_host_platforms": [
+        "Assistant/client dependent"
+      ],
+      "target_platforms": [
+        "Game-specific; workflow is platform agnostic but examples include PS2/PS3 and other game resources"
+      ],
+      "translation_language_scope": "Per-project language pair is configurable; workflow examples focus on Chinese localization. Not a fixed translation pair.",
+      "caveats": [
+        "Workflow/audit package, not a universal standalone game parser or patcher.",
+        "Release expressly notes no new PKG generator and no new game/device/runtime testing."
+      ],
+      "release_url": "https://github.com/AmuroRX-93/game-localization-skill/releases"
+    },
+    {
+      "id": "romhacking-claude-plugin",
+      "item_type": "Tool",
+      "category": "ROM hacking and translation workflow",
+      "name": "ROM Hacking Claude Code Plugin",
+      "url": "https://github.com/sadnescity/romhacking-claude-plugin",
+      "source_url": "https://github.com/sadnescity/romhacking-claude-plugin",
+      "description": "Game-agnostic set of Claude Code skills for progressing from ROM investigation to a shipped fan translation patch; repository includes small Python reference scripts.",
+      "source_evidence": "Public repository describes a Claude Code skill workflow for ROM reconnaissance, text encoding, font/glyph work, graphics, glossary/translation, QA and patch creation; GitHub Releases page says there are no packaged releases: https://github.com/sadnescity/romhacking-claude-plugin/releases.",
+      "verified_at": "2026-10-16",
+      "release_version": null,
+      "release_date": null,
+      "license": "MIT (repository).",
+      "distribution": "Source repository; install/use as Claude Code skills; no packaged release identified.",
+      "supported_host_platforms": [
+        "Claude Code environments"
+      ],
+      "target_platforms": [
+        "Game-specific ROM projects; no fixed platform list"
+      ],
+      "translation_language_scope": "No fixed pair; glossary and translation stages are project-configured.",
+      "caveats": [
+        "Methodology/workflow rather than a GUI or universal ROM parser.",
+        "No GitHub release package identified."
+      ],
+      "release_url": "https://github.com/sadnescity/romhacking-claude-plugin/releases"
+    },
+    {
+      "id": "hanpatch",
+      "item_type": "Tool",
+      "category": "Localization QA and patch pipeline",
+      "name": "hanpatch",
+      "url": "https://github.com/yazzang-homelab/hanpatch",
+      "source_url": "https://github.com/yazzang-homelab/hanpatch",
+      "description": "Gate-enforced localization pipeline intended to stop patch building until consistency checks pass; repository documents a 3DS reference adapter and a Korean Crimson Shroud example.",
+      "source_evidence": "README describes a 3DS reference implementation and checks for translation coverage/consistency, format constraints and patch output. It documents 3,262 reference strings for the Crimson Shroud Korean project, and warns that static gates do not substitute for runtime smoke testing. Releases page has no packaged releases: https://github.com/yazzang-homelab/hanpatch/releases.",
+      "verified_at": "2026-10-16",
+      "release_version": null,
+      "release_date": null,
+      "license": "MIT (repository).",
+      "distribution": "Source repository; no packaged GitHub release identified.",
+      "supported_host_platforms": [
+        "Python CLI environment"
+      ],
+      "target_platforms": [
+        "Nintendo 3DS reference implementation; adapters are game-specific"
+      ],
+      "translation_language_scope": "The worked example is Japanese→Korean for Crimson Shroud; tool pipeline is adapter/configuration based and does not represent a universal supported-language list.",
+      "caveats": [
+        "Static gate success does not prove runtime/in-game visual correctness.",
+        "No packaged release identified."
+      ],
+      "release_url": "https://github.com/yazzang-homelab/hanpatch/releases"
+    },
+    {
+      "id": "att-game-translation-cli",
+      "item_type": "Tool",
+      "category": "Game localization CLI",
+      "name": "ATT (Agent Translation Tool)",
+      "url": "https://github.com/yexi-by/att",
+      "source_url": "https://github.com/yexi-by/att",
+      "description": "Agent-oriented Windows x64 CLI for game text extraction, translation, QA and write-back; native RPG Maker MV/MZ and Generic JSONL adapters are documented.",
+      "source_evidence": "Public README describes an agent-oriented game translation CLI, RPG Maker MV/MZ and Generic JSONL support, and configurable model/provider workflow. Latest release is ATT 1.3.5, dated 2026-10-10: https://github.com/yexi-by/att/releases/tag/v1.3.5.",
+      "verified_at": "2026-10-16",
+      "release_version": "v1.3.5",
+      "release_date": "2026-10-10",
+      "license": "AGPL-3.0-only (repository).",
+      "distribution": "Windows x64 release assets and source repository.",
+      "supported_host_platforms": [
+        "Windows x64"
+      ],
+      "target_platforms": [
+        "RPG Maker MV",
+        "RPG Maker MZ",
+        "Generic JSONL"
+      ],
+      "translation_language_scope": "User/model-selected; no fixed language pair.",
+      "caveats": [
+        "Requires a configured model API/local endpoint.",
+        "Generic JSONL support is schema-based; unsupported game formats need an adapter/export path."
+      ],
+      "release_url": "https://github.com/yexi-by/att/releases"
+    },
+    {
+      "id": "unity-game-translator",
+      "item_type": "Tool",
+      "category": "Unity runtime localization and modding",
+      "name": "UnityGameTranslator",
+      "url": "https://github.com/djethino/UnityGameTranslator",
+      "source_url": "https://github.com/djethino/UnityGameTranslator",
+      "description": "Unity game translation mod with local/online translation providers, editable translation tools and community sharing; release assets and loader variants target BepInEx and MelonLoader setups.",
+      "source_evidence": "Public README/release page describes a Unity runtime translation mod and translation tools. Latest visible release is v0.16.0 dated 2026-10-15; release notes include UI/font/runtime changes: https://github.com/djethino/UnityGameTranslator/releases/tag/v0.16.0.",
+      "verified_at": "2026-10-16",
+      "release_version": "v0.16.0",
+      "release_date": "2026-10-15",
+      "license": "AGPL-3.0 OR commercial license (repository).",
+      "distribution": "Mod/release assets and source repository.",
+      "supported_host_platforms": [
+        "Windows",
+        "Linux/SteamOS (maintainer documentation; per-loader/build support varies)"
+      ],
+      "target_platforms": [
+        "Unity games using supported BepInEx or MelonLoader setup"
+      ],
+      "translation_language_scope": "Runtime/user-selected/provider-dependent; no fixed translation pair.",
+      "caveats": [
+        "Compatibility depends on a game’s Unity version, loader and text/font implementation.",
+        "Do not imply universal Unity-game compatibility."
+      ],
+      "release_url": "https://github.com/djethino/UnityGameTranslator/releases"
+    },
+    {
+      "id": "mtool-translator",
+      "item_type": "Tool",
+      "category": "Game localization and batch translation",
+      "name": "MTool Translator",
+      "url": "https://github.com/WWWee80/MTool-Translator",
+      "source_url": "https://github.com/WWWee80/MTool-Translator",
+      "description": "Source repository for a JSON batch game/visual-novel translation tool; README advertises 12+ translation engines/providers and local-model support.",
+      "source_evidence": "Public repository README describes JSON batch translation workflows and supported providers. The latest GitHub release is v1.2.1 (published 2026-09-09) and exposes a downloadable Windows EXE, 62,472,230 bytes: https://github.com/WWWee80/MTool-Translator/releases/tag/v1.2.1.",
+      "verified_at": "2026-10-16",
+      "release_version": "v1.2.1",
+      "release_date": "2026-09-09",
+      "license": "No license identified in the reviewed repository page; do not assume reuse rights.",
+      "distribution": "Public v1.2.1 Windows EXE release and source repository.",
+      "supported_host_platforms": [
+        "Windows (README-described executable workflow); source usage not fully verified"
+      ],
+      "target_platforms": [
+        "Game/visual-novel JSON exports; format-specific extraction still needed"
+      ],
+      "translation_language_scope": "User/provider-selected; no fixed language pair.",
+      "caveats": [
+        "README’s provider/engine counts are maintainer claims, not independently tested.",
+        "No repository license identified; the release binary is downloadable, but code reuse rights are not established."
+      ],
+      "release_url": "https://github.com/WWWee80/MTool-Translator/releases/tag/v1.2.1"
+    },
+    {
+      "id": "chained-echoes-zhtw-tool",
+      "item_type": "Tool",
+      "category": "Title-specific localization utility",
+      "name": "Chained Echoes zh-TW Data Converter",
+      "url": "https://github.com/7a6163/chained-echoes-zhtw",
+      "source_url": "https://github.com/7a6163/chained-echoes-zhtw",
+      "description": "Python utility that converts Chained Echoes v1.4 Simplified Chinese game text to Taiwan Traditional Chinese while preserving the game data schema; repository describes tools only and no game assets.",
+      "source_evidence": "Repository title/README says the tool converts Chained Echoes v1.4 simplified-Chinese strings to Traditional Chinese (Taiwan) in place without changing schema and contains no game assets. README documents optional LLM polishing requiring an OpenAI-compatible API key.",
+      "verified_at": "2026-10-16",
+      "release_version": null,
+      "release_date": null,
+      "license": "MIT for tool code; game content and external service data are outside that license.",
+      "distribution": "Python source repository; no release package identified.",
+      "supported_host_platforms": [
+        "Python environment"
+      ],
+      "target_platforms": [
+        "Chained Echoes v1.4 only"
+      ],
+      "translation_language_scope": "Simplified Chinese → Traditional Chinese (Taiwan / zh-TW), title-specific data conversion; it is not a released standalone fan patch.",
+      "caveats": [
+        "Tool-only repository; do not create a game localization record for it absent a public patch package.",
+        "Requires local game data; LLM polishing is optional and requires provider credentials."
+      ],
+      "release_url": "https://github.com/7a6163/chained-echoes-zhtw"
+    }
+  ]
+}
