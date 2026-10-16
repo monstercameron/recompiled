@@ -1,0 +1,1082 @@
+{
+  "updated": "2026-10-15",
+  "scope": "Lane 10: distinct, public-source general reverse-engineering/decompilation tools, build-matching helpers, static recompiler frameworks, and non-game/embedded emulation frameworks. Tutorials and generic documentation are excluded from project rows because they are process resources, not software projects.",
+  "projects": [
+    {
+      "id": "retdec-binary-decompiler",
+      "title": "RetDec",
+      "game": "Machine-code executables and raw binaries (multi-architecture)",
+      "target_type": "Software",
+      "platform": "ELF, PE, Mach-O, COFF, AR, Intel HEX, and raw machine code; x86/x86-64, ARM/AArch64, MIPS, PIC32, and PowerPC",
+      "kind": "Decompilation",
+      "status": "Limited maintenance by the maintainer: basic project maintenance continues and development is very limited. Last source push checked: 2026-05-26; latest tagged release found: v5.0 (2022-12-08).",
+      "summary": "LLVM-based retargetable machine-code decompiler and static-analysis suite. It loads common executable formats and raw code, reconstructs C-like output, and can use DWARF/PDB information and recognize compiler, packer, and C++ class metadata.",
+      "project_url": "https://github.com/avast/retdec",
+      "updated": "2026-10-15",
+      "strategy": "LLVM-based static binary analysis and machine-code lifting to C-like source",
+      "language": "",
+      "source_available": "Public MIT-licensed C++ source; maintainer documents limited maintenance.",
+      "first_found": "2026-10-15",
+      "programming_language": "C++",
+      "subtype": "General-purpose machine-code decompiler",
+      "sources": [
+        {
+          "label": "Maintainer README: method, executable formats, architectures, features, and limited-maintenance notice",
+          "url": "https://github.com/avast/retdec"
+        },
+        {
+          "label": "Latest tagged release found: v5.0 (2022-12-08)",
+          "url": "https://github.com/avast/retdec/releases/tag/v5.0"
+        },
+        {
+          "label": "GitHub repository metadata: license and source activity checked 2026-10-15",
+          "url": "https://api.github.com/repos/avast/retdec"
+        }
+      ]
+    },
+    {
+      "id": "reko-binary-decompiler",
+      "title": "Reko",
+      "game": "Machine-code binaries for desktop, embedded, and legacy systems (multi-architecture)",
+      "target_type": "Software",
+      "platform": "x86, ARM/AArch64, MIPS, PowerPC, 6502, Game Boy LR35902, and many other architectures; ELF, PE, Mach-O, Xbox XBE/XEX, DOL, and other listed formats (support maturity varies)",
+      "kind": "Decompilation",
+      "status": "Active; version 0.12.5 was released 2026-09-29 and source changes continued through 2026-10-14. The supported-binaries matrix gives architecture and format maturity tiers; not every listed target has stable decompilation.",
+      "summary": "General-purpose machine-code decompiler with command-line and graphical front ends and a reusable .NET engine. Its maintainer publishes a detailed architecture and executable-format support matrix, including console and home-computer binaries; listed targets range from minimal loader support to thoroughly tested support.",
+      "project_url": "https://github.com/uxmal/reko",
+      "updated": "2026-10-15",
+      "strategy": "Static analysis, lifting, and high-level code reconstruction for machine-code binaries",
+      "language": "",
+      "source_available": "Public GPL-2.0 source repository.",
+      "first_found": "2026-10-15",
+      "programming_language": "C#",
+      "subtype": "General-purpose binary decompiler and analysis suite",
+      "sources": [
+        {
+          "label": "Maintainer README: decompiler architecture, front ends, and repository status",
+          "url": "https://github.com/uxmal/reko"
+        },
+        {
+          "label": "Maintainer supported-binaries matrix with maturity tiers",
+          "url": "https://github.com/uxmal/reko/wiki/Supported-binaries"
+        },
+        {
+          "label": "Version 0.12.5 release (2026-09-29)",
+          "url": "https://github.com/uxmal/reko/releases/tag/version-0.12.5"
+        },
+        {
+          "label": "GitHub repository metadata: license and source activity checked 2026-10-15",
+          "url": "https://api.github.com/repos/uxmal/reko"
+        }
+      ]
+    },
+    {
+      "id": "angr-binary-analysis",
+      "title": "angr",
+      "game": "Native binaries across operating systems and processor architectures (multi-target)",
+      "target_type": "Software",
+      "platform": "Platform-agnostic binary framework; architecture and loader support varies by analysis feature",
+      "kind": "Decompilation",
+      "status": "Active public source development; latest repository push checked 2026-10-15. No GitHub release is listed; installable Python packages are published separately.",
+      "summary": "Python binary-analysis framework combining loaders, disassembly and intermediate-representation lifting, instrumentation, symbolic execution, control-flow and data-dependency analysis, and decompilation. This is a programmable reverse-engineering toolkit rather than a game-specific recompiler.",
+      "project_url": "https://github.com/angr/angr",
+      "updated": "2026-10-15",
+      "strategy": "Programmatic static and symbolic binary analysis with intermediate-representation lifting and decompilation",
+      "language": "",
+      "source_available": "Public BSD-2-Clause source repository.",
+      "first_found": "2026-10-15",
+      "programming_language": "Python",
+      "subtype": "General-purpose binary analysis and decompilation framework",
+      "sources": [
+        {
+          "label": "Maintainer README: project scope, analyses, and decompilation capability",
+          "url": "https://github.com/angr/angr"
+        },
+        {
+          "label": "Official quickstart documentation",
+          "url": "https://github.com/angr/angr/blob/master/docs/quickstart.rst"
+        },
+        {
+          "label": "GitHub repository metadata: license and source activity checked 2026-10-15",
+          "url": "https://api.github.com/repos/angr/angr"
+        }
+      ]
+    },
+    {
+      "id": "ilspy-dotnet-decompiler",
+      "title": "ILSpy",
+      "game": ".NET assemblies and managed applications",
+      "target_type": "Software",
+      "platform": ".NET assemblies; cross-platform desktop UI for Windows, Linux, and macOS",
+      "kind": "Decompilation",
+      "status": "Active; v11.1 was released 2026-09-23 and source changes continued through 2026-10-14.",
+      "summary": "Open-source .NET assembly browser and decompiler with a cross-platform desktop application, command-line tools, Visual Studio integration, and a reusable C# decompiler library. It reconstructs readable C# from managed assemblies and can emit debugging information.",
+      "project_url": "https://github.com/icsharpcode/ILSpy",
+      "updated": "2026-10-15",
+      "strategy": "Managed .NET metadata and IL decompilation into C#",
+      "language": "",
+      "source_available": "Public MIT-licensed source repository.",
+      "first_found": "2026-10-15",
+      "programming_language": "C#",
+      "subtype": "Managed .NET decompiler and assembly browser",
+      "sources": [
+        {
+          "label": "Maintainer README: .NET decompiler, supported desktop hosts, and front ends",
+          "url": "https://github.com/icsharpcode/ILSpy"
+        },
+        {
+          "label": "Version 11.1 release (2026-09-23)",
+          "url": "https://github.com/icsharpcode/ILSpy/releases/tag/v11.1"
+        },
+        {
+          "label": "GitHub repository metadata: license and source activity checked 2026-10-15",
+          "url": "https://api.github.com/repos/icsharpcode/ILSpy"
+        }
+      ]
+    },
+    {
+      "id": "vineflower-java-decompiler",
+      "title": "Vineflower",
+      "game": "Java and JVM-language class files, JARs, and archives",
+      "target_type": "Software",
+      "platform": "Java/JVM bytecode in class files, JARs, ZIPs, and folders; Java 21+ language constructs are documented",
+      "kind": "Decompilation",
+      "status": "Active; v1.12.0 was released 2026-04-29 and source changes continued through 2026-08-18. Vineflower 1.11+ requires Java 17 or later to run.",
+      "summary": "General-purpose Java and JVM-language decompiler, usable as a command-line program or library. It decompiles class files and archives into formatted Java source and supports modern language features such as records, sealed classes, switch expressions, and pattern matching.",
+      "project_url": "https://github.com/Vineflower/vineflower",
+      "updated": "2026-10-15",
+      "strategy": "JVM bytecode control-flow and type reconstruction into Java source",
+      "language": "",
+      "source_available": "Public Apache-2.0 source repository.",
+      "first_found": "2026-10-15",
+      "programming_language": "Java",
+      "subtype": "Java/JVM bytecode decompiler",
+      "sources": [
+        {
+          "label": "Maintainer README: supported input forms, Java language features, and use modes",
+          "url": "https://github.com/Vineflower/vineflower"
+        },
+        {
+          "label": "Version 1.12.0 release (2026-04-29)",
+          "url": "https://github.com/Vineflower/vineflower/releases/tag/1.12.0"
+        },
+        {
+          "label": "GitHub repository metadata: license and source activity checked 2026-10-15",
+          "url": "https://api.github.com/repos/Vineflower/vineflower"
+        }
+      ]
+    },
+    {
+      "id": "jadx-android-bytecode-decompiler",
+      "title": "JADX",
+      "game": "Android applications and Java/JVM bytecode packages",
+      "target_type": "Software",
+      "platform": "APK, DEX, AAB, APKS, APKM, XAPK, ZIP, JAR, CLASS, AAR, and smali inputs",
+      "kind": "Decompilation",
+      "status": "Active; v1.5.6 was released 2026-07-10 and source changes continued through 2026-10-14. The maintainers warn that decompilation can be incomplete and produce errors.",
+      "summary": "Java-based Android and JVM bytecode decompiler with command-line and GUI front ends. It converts Dalvik bytecode and Java class files to Java source, decodes manifests and resources, and includes search, navigation, and deobfuscation features.",
+      "project_url": "https://github.com/skylot/jadx",
+      "updated": "2026-10-15",
+      "strategy": "Dalvik and JVM bytecode decompilation with resource and manifest decoding",
+      "language": "",
+      "source_available": "Public Apache-2.0 source repository.",
+      "first_found": "2026-10-15",
+      "programming_language": "Java",
+      "subtype": "Android APK/DEX and Java bytecode decompiler",
+      "sources": [
+        {
+          "label": "Maintainer README: supported inputs, output, features, and completeness warning",
+          "url": "https://github.com/skylot/jadx"
+        },
+        {
+          "label": "Version 1.5.6 release (2026-07-10)",
+          "url": "https://github.com/skylot/jadx/releases/tag/v1.5.6"
+        },
+        {
+          "label": "GitHub repository metadata: license and source activity checked 2026-10-15",
+          "url": "https://api.github.com/repos/skylot/jadx"
+        }
+      ]
+    },
+    {
+      "id": "uncompyle6-python-decompiler",
+      "title": "uncompyle6",
+      "game": "CPython bytecode from Python 1.0 through 3.8 (plus documented PyPy cases)",
+      "target_type": "Software",
+      "platform": "Compiled Python bytecode; maintainer documents CPython versions 1.0–3.8, Dropbox Python 2.5 bytecode, and some PyPy bytecode",
+      "kind": "Decompilation",
+      "status": "Maintained in public source; latest push checked 2026-10-05. The latest tagged release found is 3.9.3 (2025-09-29). Its documented bytecode coverage stops at Python 3.8.",
+      "summary": "Cross-version Python bytecode decompiler that reconstructs equivalent Python source and can deparse bytecode fragments. It uses compiler-style parsing and syntax-tree reconstruction; the stated bytecode range is older than current Python releases.",
+      "project_url": "https://github.com/rocky/python-uncompyle6",
+      "updated": "2026-10-15",
+      "strategy": "Parsing and syntax-tree reconstruction from CPython bytecode",
+      "language": "",
+      "source_available": "Public GPL-3.0 source repository.",
+      "first_found": "2026-10-15",
+      "programming_language": "Python",
+      "subtype": "Python bytecode decompiler",
+      "sources": [
+        {
+          "label": "Maintainer README: bytecode versions, output, and fragment-decompilation method",
+          "url": "https://github.com/rocky/python-uncompyle6"
+        },
+        {
+          "label": "Version 3.9.3 release (2025-09-29)",
+          "url": "https://github.com/rocky/python-uncompyle6/releases/tag/3.9.3"
+        },
+        {
+          "label": "GitHub repository metadata: license and source activity checked 2026-10-15",
+          "url": "https://api.github.com/repos/rocky/python-uncompyle6"
+        }
+      ]
+    },
+    {
+      "id": "pycdc-python-bytecode-decompiler",
+      "title": "Decompyle++ (pycdc)",
+      "game": "Compiled Python bytecode and marshalled code objects",
+      "target_type": "Software",
+      "platform": "CPython .pyc bytecode and marshalled code objects; exact version coverage is not guaranteed in the README",
+      "kind": "Decompilation",
+      "status": "Public source remains active; last push checked 2026-04-07; no tagged release is listed. The README says broad version coverage is a project aim but does not publish a compatibility matrix, so bytecode-version support is uncertain.",
+      "summary": "C++ Python bytecode disassembler and decompiler. It includes pycdas for bytecode disassembly and pycdc for source reconstruction; users can supply a version when processing marshalled code objects. Its own README does not guarantee complete or version-specific reconstruction coverage.",
+      "project_url": "https://github.com/zrax/pycdc",
+      "updated": "2026-10-15",
+      "strategy": "Python bytecode disassembly and control-flow reconstruction into source",
+      "language": "",
+      "source_available": "Public GPL-3.0 source repository.",
+      "first_found": "2026-10-15",
+      "programming_language": "C++",
+      "subtype": "Python bytecode disassembler and decompiler",
+      "sources": [
+        {
+          "label": "Maintainer README: pycdas/pycdc functions, use, and stated compatibility caveat",
+          "url": "https://github.com/zrax/pycdc"
+        },
+        {
+          "label": "GitHub releases page; no tagged release listed when checked 2026-10-15",
+          "url": "https://github.com/zrax/pycdc/releases"
+        },
+        {
+          "label": "GitHub repository metadata: license and source activity checked 2026-10-15",
+          "url": "https://api.github.com/repos/zrax/pycdc"
+        }
+      ]
+    },
+    {
+      "id": "m2c-matching-decompiler",
+      "title": "m2c (Machine Code to C)",
+      "game": "32-bit MIPS, ARM, PowerPC, and SuperH assembly (matching-decompilation workflows)",
+      "target_type": "Software",
+      "platform": "32-bit MIPS, ARM32, PowerPC, and SuperH assembly in GNU as-style syntax",
+      "kind": "Decompilation",
+      "status": "Active; latest source push checked 2026-09-16. No tagged release is listed. The maintainer calls it functional and notes that generated code can be suboptimal, especially around loops.",
+      "summary": "Assembly-to-C decompiler built for source-matching projects that seek to compile back to a target binary. It supports several 32-bit RISC families and is commonly paired with symbol extraction, assembly comparison, and source-permutation tools.",
+      "project_url": "https://github.com/matt-kempster/m2c",
+      "updated": "2026-10-15",
+      "strategy": "Architecture-aware assembly analysis and C emission for matching builds",
+      "language": "",
+      "source_available": "Public GPL-3.0 source repository.",
+      "first_found": "2026-10-15",
+      "programming_language": "Python",
+      "subtype": "Matching-decompilation assembly-to-C tool",
+      "sources": [
+        {
+          "label": "Maintainer README: supported architectures, matching-build purpose, and limitations",
+          "url": "https://github.com/matt-kempster/m2c"
+        },
+        {
+          "label": "GitHub repository metadata: license and source activity checked 2026-10-15",
+          "url": "https://api.github.com/repos/matt-kempster/m2c"
+        },
+        {
+          "label": "GitHub releases page; no tagged release listed when checked 2026-10-15",
+          "url": "https://github.com/matt-kempster/m2c/releases"
+        }
+      ]
+    },
+    {
+      "id": "decomp-permuter",
+      "title": "Decomp Permuter",
+      "game": "C source files matched against target MIPS, PowerPC, or ARM32 binaries",
+      "target_type": "Software",
+      "platform": "Matching-decompilation builds targeting MIPS (IDO and possibly GCC), PowerPC, and ARM32",
+      "kind": "Decompilation",
+      "status": "Active; latest source push checked 2026-10-06. No tagged release is listed. The repository describes random and manual source-variation modes.",
+      "summary": "A build-matching helper that tries source variations until compiled C better matches a target object or binary. It is commonly used with decompilation projects; it does not discover or decompile a program by itself.",
+      "project_url": "https://github.com/simonlindholm/decomp-permuter",
+      "updated": "2026-10-15",
+      "strategy": "Automated and manually specified C-source permutations scored against target machine code",
+      "language": "",
+      "source_available": "Public MIT-licensed source repository.",
+      "first_found": "2026-10-15",
+      "programming_language": "Python",
+      "subtype": "Matching-decompilation source-permutation helper",
+      "sources": [
+        {
+          "label": "Maintainer README: random/manual modes, architectures, and build inputs",
+          "url": "https://github.com/simonlindholm/decomp-permuter"
+        },
+        {
+          "label": "GitHub repository metadata: license and source activity checked 2026-10-15",
+          "url": "https://api.github.com/repos/simonlindholm/decomp-permuter"
+        },
+        {
+          "label": "GitHub releases page; no tagged release listed when checked 2026-10-15",
+          "url": "https://github.com/simonlindholm/decomp-permuter/releases"
+        }
+      ]
+    },
+    {
+      "id": "asm-differ-matching-helper",
+      "title": "asm-differ",
+      "game": "Assembly output from MIPS, PowerPC, AArch64, ARM32, SH2/SH4, m68k, and limited x86 builds",
+      "target_type": "Software",
+      "platform": "Matching assembly builds for MIPS, PowerPC, AArch64, ARM32, SH2, SH4, m68k, and limited x86",
+      "kind": "Decompilation",
+      "status": "Active; latest source push checked 2026-09-06. No tagged release is listed. The README identifies it as a viewer for matching decompilation and says it is the default viewer used by decomp.me.",
+      "summary": "Interactive assembly-diff viewer that helps developers compare rebuilt functions with target machine code during matching decompilation. It can trigger rebuilds on source changes, but it is a workflow aid rather than a standalone decompiler.",
+      "project_url": "https://github.com/simonlindholm/asm-differ",
+      "updated": "2026-10-15",
+      "strategy": "Side-by-side or annotated comparison of target and rebuilt assembly",
+      "language": "",
+      "source_available": "Public Unlicense-licensed source repository.",
+      "first_found": "2026-10-15",
+      "programming_language": "Python",
+      "subtype": "Matching-decompilation assembly comparison helper",
+      "sources": [
+        {
+          "label": "Maintainer README: purpose, supported architectures, and decomp.me integration",
+          "url": "https://github.com/simonlindholm/asm-differ"
+        },
+        {
+          "label": "GitHub repository metadata: license and source activity checked 2026-10-15",
+          "url": "https://api.github.com/repos/simonlindholm/asm-differ"
+        },
+        {
+          "label": "GitHub releases page; no tagged release listed when checked 2026-10-15",
+          "url": "https://github.com/simonlindholm/asm-differ/releases"
+        }
+      ]
+    },
+    {
+      "id": "ps2recomp-static-recompiler-framework",
+      "title": "PS2Recomp",
+      "game": "PlayStation 2 executables and modules (multi-title framework)",
+      "target_type": "Software",
+      "platform": "PlayStation 2 ELF/MIPS R5900, with PS2 MMI/VU0 support → generated C++ and a native runtime",
+      "kind": "Recompilation",
+      "status": "Experimental; v0.4 was released 2026-04-05 and source changes continued through 2026-10-14. The maintainer labels the project experimental and the README records per-game statuses separately.",
+      "summary": "Open static recompilation toolkit for PlayStation 2 binaries. Its analyzer and recompiler decode R5900 code and emit C++, while a runtime supplies memory, syscall dispatch, IOP execution, and hardware-facing stubs; title-specific configs and progress live outside the framework.",
+      "project_url": "https://github.com/ran-j/PS2Recomp",
+      "updated": "2026-10-15",
+      "strategy": "Static MIPS R5900-to-C++ recompilation with a PS2 runtime",
+      "language": "",
+      "source_available": "Public GPL-3.0 source repository.",
+      "first_found": "2026-10-15",
+      "programming_language": "C++",
+      "subtype": "PlayStation 2 static recompiler framework",
+      "sources": [
+        {
+          "label": "Maintainer README: analyzer/recompiler/runtime architecture and experimental status",
+          "url": "https://github.com/ran-j/PS2Recomp"
+        },
+        {
+          "label": "Version 0.4 release (2026-04-05)",
+          "url": "https://github.com/ran-j/PS2Recomp/releases/tag/v0.4"
+        },
+        {
+          "label": "GitHub repository metadata: license and source activity checked 2026-10-15",
+          "url": "https://api.github.com/repos/ran-j/PS2Recomp"
+        }
+      ]
+    },
+    {
+      "id": "ps3recomp-static-recompiler-framework",
+      "title": "ps3recomp",
+      "game": "PlayStation 3 PPU/SPU software (multi-title framework)",
+      "target_type": "Software",
+      "platform": "PlayStation 3 Cell PPU/PowerPC and SPU binaries → ahead-of-time C/C++ and native host runtimes; title/host compatibility is tracked per port",
+      "kind": "Recompilation",
+      "status": "Active; v0.14.0 was published 2026-10-13. The toolkit README links module and per-port status tables; native runtime support and game progress vary by host and title.",
+      "summary": "Static PlayStation 3 recompilation toolkit with binary-analysis tools, code generation, system stubs, and runtime libraries. It translates PPU/SPU code ahead of time into C/C++ and supplies host-side services; game-specific ports are separate repositories and provide the actual compatibility evidence.",
+      "project_url": "https://github.com/sp00nznet/ps3recomp",
+      "updated": "2026-10-15",
+      "strategy": "Ahead-of-time translation of Cell PPU/SPU code into native C/C++ with title-specific runtime support",
+      "language": "",
+      "source_available": "Public MIT-licensed source repository; game data and generated title code are not included in the toolkit.",
+      "first_found": "2026-10-15",
+      "programming_language": "C",
+      "subtype": "PlayStation 3 static recompiler framework",
+      "sources": [
+        {
+          "label": "Maintainer README: static recompilation design, tool/runtime scope, and linked status documentation",
+          "url": "https://github.com/sp00nznet/ps3recomp"
+        },
+        {
+          "label": "Version 0.14.0 release (2026-10-13)",
+          "url": "https://github.com/sp00nznet/ps3recomp/releases/tag/v0.14.0"
+        },
+        {
+          "label": "GitHub repository metadata: license and source activity checked 2026-10-15",
+          "url": "https://api.github.com/repos/sp00nznet/ps3recomp"
+        }
+      ]
+    },
+    {
+      "id": "psprecomp-static-recompiler-framework",
+      "title": "psprecomp",
+      "game": "PlayStation Portable games (multi-title framework)",
+      "target_type": "Software",
+      "platform": "PlayStation Portable Allegrex MIPS32r2 binaries → generated C and native host runtime",
+      "kind": "Recompilation",
+      "status": "Experimental toolkit; last source push checked 2026-07-21 and no tagged release is listed. Its README says a retail game recompiles, builds, links, and executes, but does not yet render; the flagship currently stalls during startup, and threading is not implemented.",
+      "summary": "Static PSP recompilation toolkit with container/decryption tools, Allegrex decoding and function discovery, C emission, HLE firmware services, and a graphics path under development. It is a reusable framework; title-specific game data is not included.",
+      "project_url": "https://github.com/sp00nznet/psprecomp",
+      "updated": "2026-10-15",
+      "strategy": "Ahead-of-time Allegrex-to-C translation with a native PSP system runtime",
+      "language": "",
+      "source_available": "Public MIT-licensed source repository; game dumps and generated code are not included.",
+      "first_found": "2026-10-15",
+      "programming_language": "C",
+      "subtype": "PSP static recompiler framework",
+      "sources": [
+        {
+          "label": "Maintainer README: pipeline, implementation coverage, and explicit current rendering/startup limits",
+          "url": "https://github.com/sp00nznet/psprecomp"
+        },
+        {
+          "label": "GitHub repository metadata: license and source activity checked 2026-10-15",
+          "url": "https://api.github.com/repos/sp00nznet/psprecomp"
+        },
+        {
+          "label": "GitHub releases page; no tagged release listed when checked 2026-10-15",
+          "url": "https://github.com/sp00nznet/psprecomp/releases"
+        }
+      ]
+    },
+    {
+      "id": "vitarecomp-static-recompiler-framework",
+      "title": "vitarecomp",
+      "game": "PlayStation Vita software (multi-title framework)",
+      "target_type": "Software",
+      "platform": "PlayStation Vita SELF/ELF and ARMv7-A/Thumb-2 binaries → generated C and native host runtime",
+      "kind": "Recompilation",
+      "status": "Active; latest source push checked 2026-08-20, with no tagged release listed. The maintainer reports phases 1–5 complete and phase 6 (runtime/HLE) in progress; generated programs still trap on unsupported instructions and firmware calls.",
+      "summary": "Static ARM-to-C recompilation toolkit for Vita software, with SELF/ELF extraction, function discovery, C emission, and runtime services. The README reports an end-to-end compile/link/run pipeline and uses Uncharted: Fight for Fortune to measure translation coverage; game compatibility is not established by code-generation coverage alone.",
+      "project_url": "https://github.com/sp00nznet/vitarecomp",
+      "updated": "2026-10-15",
+      "strategy": "Ahead-of-time Vita ARMv7-A/Thumb-2 translation into C with HLE runtime services",
+      "language": "",
+      "source_available": "Public MIT-licensed source repository; game dumps and keys are not included.",
+      "first_found": "2026-10-15",
+      "programming_language": "C",
+      "subtype": "PlayStation Vita static recompiler framework",
+      "sources": [
+        {
+          "label": "Maintainer README: pipeline and phase status, including HLE work in progress",
+          "url": "https://github.com/sp00nznet/vitarecomp"
+        },
+        {
+          "label": "Detailed project roadmap",
+          "url": "https://github.com/sp00nznet/vitarecomp/blob/main/docs/ROADMAP.md"
+        },
+        {
+          "label": "GitHub repository metadata: license and source activity checked 2026-10-15",
+          "url": "https://api.github.com/repos/sp00nznet/vitarecomp"
+        },
+        {
+          "label": "GitHub releases page; no tagged release listed when checked 2026-10-15",
+          "url": "https://github.com/sp00nznet/vitarecomp/releases"
+        }
+      ]
+    },
+    {
+      "id": "dolrecomp-gamecube-wii-recompiler",
+      "title": "DolRecomp",
+      "game": "GameCube, Wii, and early Wii U software (multi-title framework)",
+      "target_type": "Software",
+      "platform": "GameCube/Wii PowerPC DOL and REL; early/incomplete Wii U Espresso RPX → C or LLVM output",
+      "kind": "Recompilation",
+      "status": "Active; latest source push checked 2026-10-10; no tagged release is listed. The README explicitly describes Wii U RPX support as work in progress and says its output covers the CPU side only; a hosting runtime supplies the rest of the system.",
+      "summary": "Static recompiler for GameCube and Wii PowerPC code, with early Wii U support. It handles DOL, REL, and RPX inputs and can emit C or LLVM IR; graphics, audio, input, and the rest of the runtime are supplied by the host project.",
+      "project_url": "https://github.com/ExpansionPak/DolRecomp",
+      "updated": "2026-10-15",
+      "strategy": "Static PowerPC/ Espresso code translation to C or LLVM IR",
+      "language": "",
+      "source_available": "Public GPL-3.0 source repository.",
+      "first_found": "2026-10-15",
+      "programming_language": "C",
+      "subtype": "GameCube/Wii static recompiler tool",
+      "sources": [
+        {
+          "label": "Maintainer README: file formats, C/LLVM backends, host-runtime boundary, and incomplete Wii U status",
+          "url": "https://github.com/ExpansionPak/DolRecomp"
+        },
+        {
+          "label": "GitHub repository metadata: license and source activity checked 2026-10-15",
+          "url": "https://api.github.com/repos/ExpansionPak/DolRecomp"
+        },
+        {
+          "label": "GitHub releases page; no tagged release listed when checked 2026-10-15",
+          "url": "https://github.com/ExpansionPak/DolRecomp/releases"
+        }
+      ]
+    },
+    {
+      "id": "recompone-ps1-static-recompiler",
+      "title": "RecompOne",
+      "game": "PlayStation 1 executable software (multi-title framework)",
+      "target_type": "Software",
+      "platform": "PlayStation 1 MIPS R3000A executables → C#/.NET code and a PC runtime layer",
+      "kind": "Recompilation",
+      "status": "Active single-maintainer project; latest source push checked 2026-10-08; no tagged release is listed. The maintainer says available time is limited, so development pace is not guaranteed.",
+      "summary": "Static PS1 recompiler that translates MIPS instructions into C# ahead of time and provides a runtime for BIOS, memory-mapped hardware, GPU commands, and CD-ROM behavior. It is a general toolchain; game-specific integrations are separate.",
+      "project_url": "https://github.com/BlackLabelHQ/RecompOne",
+      "updated": "2026-10-15",
+      "strategy": "Ahead-of-time MIPS R3000A-to-C# translation plus a .NET hardware runtime",
+      "language": "",
+      "source_available": "Public MIT-licensed source repository.",
+      "first_found": "2026-10-15",
+      "programming_language": "C#",
+      "subtype": "PlayStation 1 static recompiler framework",
+      "sources": [
+        {
+          "label": "Maintainer README: translation/runtime design and maintainer-capacity caveat",
+          "url": "https://github.com/BlackLabelHQ/RecompOne"
+        },
+        {
+          "label": "GitHub repository metadata: license and source activity checked 2026-10-15",
+          "url": "https://api.github.com/repos/BlackLabelHQ/RecompOne"
+        },
+        {
+          "label": "GitHub releases page; no tagged release listed when checked 2026-10-15",
+          "url": "https://github.com/BlackLabelHQ/RecompOne/releases"
+        }
+      ]
+    },
+    {
+      "id": "ps1recomp-static-recompiler-framework",
+      "title": "PS1Recomp",
+      "game": "PlayStation 1 executables and games (multi-title framework)",
+      "target_type": "Software",
+      "platform": "PlayStation 1 MIPS R3000A binaries → native C++ with an SDL2/OpenGL runtime",
+      "kind": "Recompilation",
+      "status": "Active experimental project; latest source push checked 2026-10-12 and no tagged release is listed. The README reports that its Crash Bandicoot 1 (USA) test boots to the main game loop; this is an early boot milestone, not a complete playable-port claim.",
+      "summary": "C++ static recompilation pipeline for PS1 binaries: analyzes ELF/BIN files, emits native C++ from MIPS R3000A code, and links a runtime with BIOS HLE, graphics, audio, CD-ROM, DMA, and controller subsystems. The README describes active development and test coverage.",
+      "project_url": "https://github.com/PS1Recomp/ps1-recomp",
+      "updated": "2026-10-15",
+      "strategy": "Static MIPS R3000A-to-C++ translation with a host-side PS1 subsystem runtime",
+      "language": "",
+      "source_available": "Public GPL-3.0-or-later source repository; no game images are included.",
+      "first_found": "2026-10-15",
+      "programming_language": "C++",
+      "subtype": "PlayStation 1 static recompiler framework",
+      "sources": [
+        {
+          "label": "Maintainer README: analyzer/recompiler/runtime pipeline and Crash Bandicoot boot status",
+          "url": "https://github.com/PS1Recomp/ps1-recomp"
+        },
+        {
+          "label": "GPL-3.0-or-later project license",
+          "url": "https://github.com/PS1Recomp/ps1-recomp/blob/main/LICENSE"
+        },
+        {
+          "label": "GitHub repository metadata: source activity checked 2026-10-15",
+          "url": "https://api.github.com/repos/PS1Recomp/ps1-recomp"
+        },
+        {
+          "label": "GitHub releases page; no tagged release listed when checked 2026-10-15",
+          "url": "https://github.com/PS1Recomp/ps1-recomp/releases"
+        }
+      ]
+    },
+    {
+      "id": "portablekit-psp-recomp-framework",
+      "title": "PortableKit",
+      "game": "PlayStation Portable software (multi-title framework)",
+      "target_type": "Software",
+      "platform": "PSP Allegrex binaries → native C++ applications with an OS/runtime and Vulkan rendering",
+      "kind": "Recompilation",
+      "status": "Work in progress and explicitly incomplete; latest source push checked 2026-10-07, with no stable release. The README names Yakumo as playable but notes it still carries a separate framework copy; Tenkawa is not playable and currently reaches only its title screen under an interpreter.",
+      "summary": "Open PSP native-port framework combining ahead-of-time Allegrex-to-C++ recompilation with a PSP system/runtime layer, Vulkan renderer, audio, save data, networking, and interface. It contains no game data; its README warns of missing system calls and breaking interfaces.",
+      "project_url": "https://github.com/TeamGDB/PortableKit",
+      "updated": "2026-10-15",
+      "strategy": "Ahead-of-time Allegrex-to-C++ recompilation with a reimplemented PSP system and Vulkan host renderer",
+      "language": "",
+      "source_available": "Public MIT-licensed source repository; third-party components retain their own licenses and no game data is included.",
+      "first_found": "2026-10-15",
+      "programming_language": "C++",
+      "subtype": "PSP static recompiler and native-port runtime",
+      "sources": [
+        {
+          "label": "Maintainer README: architecture, work-in-progress warning, and separate game-port status",
+          "url": "https://github.com/TeamGDB/PortableKit"
+        },
+        {
+          "label": "Project source provenance and third-party license notes",
+          "url": "https://github.com/TeamGDB/PortableKit/blob/main/docs/SOURCE_PROVENANCE.md"
+        },
+        {
+          "label": "GitHub repository metadata: license and source activity checked 2026-10-15",
+          "url": "https://api.github.com/repos/TeamGDB/PortableKit"
+        },
+        {
+          "label": "GitHub releases page; no stable tagged release listed when checked 2026-10-15",
+          "url": "https://github.com/TeamGDB/PortableKit/releases"
+        }
+      ]
+    },
+    {
+      "id": "wiikit-wii-recomp-framework",
+      "title": "wiikit",
+      "game": "Nintendo Wii and GameCube software (multi-title framework)",
+      "target_type": "Software",
+      "platform": "Wii/GameCube Gekko PowerPC programs and disc/executable formats → native C++ plus a host runtime",
+      "kind": "Recompilation",
+      "status": "Active game-agnostic toolkit; latest source push checked 2026-10-12; no tagged release is listed. Its README points to separate Wii game-port repositories built on the toolkit, so title compatibility should be checked on those repositories.",
+      "summary": "Shared Wii/GameCube reverse-engineering and native-port toolkit covering disc images, executable formats, Gekko decoding, static C++ recompilation, and a hardware-replacement runtime. It is infrastructure for separate game ports rather than a single game project.",
+      "project_url": "https://github.com/vs-sr-dev/wiikit",
+      "updated": "2026-10-15",
+      "strategy": "Static Gekko-to-C++ recompilation with shared Wii/GameCube runtime services",
+      "language": "",
+      "source_available": "Public MIT-licensed source repository; original game data remains separate.",
+      "first_found": "2026-10-15",
+      "programming_language": "C++",
+      "subtype": "Wii/GameCube multi-title static recompilation toolkit",
+      "sources": [
+        {
+          "label": "Maintainer README: shared toolchain scope and separate game-port repositories",
+          "url": "https://github.com/vs-sr-dev/wiikit"
+        },
+        {
+          "label": "GitHub repository metadata: license and source activity checked 2026-10-15",
+          "url": "https://api.github.com/repos/vs-sr-dev/wiikit"
+        },
+        {
+          "label": "GitHub releases page; no tagged release listed when checked 2026-10-15",
+          "url": "https://github.com/vs-sr-dev/wiikit/releases"
+        }
+      ]
+    },
+    {
+      "id": "ndskit-ds-recomp-framework",
+      "title": "ndskit",
+      "game": "Nintendo DS software (multi-title framework)",
+      "target_type": "Software",
+      "platform": "Nintendo DS cartridge/ARM binaries; ARM and Thumb code → native C++ with a dual-CPU and graphics/audio runtime",
+      "kind": "Recompilation",
+      "status": "Active game-agnostic toolkit; latest source push checked 2026-10-10; no tagged release is listed. Its README links separate game ports built on the toolkit; compatibility belongs to each title-specific repository.",
+      "summary": "Shared DS reverse-engineering and native-port toolkit for cartridge images, SDK formats, ARM/Thumb code, function discovery, static C++ recompilation, and a runtime for both CPUs and DS hardware. It is distinct from game-specific port repositories that consume it.",
+      "project_url": "https://github.com/vs-sr-dev/ndskit",
+      "updated": "2026-10-15",
+      "strategy": "Static ARM/Thumb-to-C++ recompilation with a Nintendo DS dual-CPU runtime",
+      "language": "",
+      "source_available": "Public MIT-licensed source repository; original game data remains separate.",
+      "first_found": "2026-10-15",
+      "programming_language": "C++",
+      "subtype": "Nintendo DS multi-title static recompilation toolkit",
+      "sources": [
+        {
+          "label": "Maintainer README: supported DS components, recompilation method, and linked game ports",
+          "url": "https://github.com/vs-sr-dev/ndskit"
+        },
+        {
+          "label": "GitHub repository metadata: license and source activity checked 2026-10-15",
+          "url": "https://api.github.com/repos/vs-sr-dev/ndskit"
+        },
+        {
+          "label": "GitHub releases page; no tagged release listed when checked 2026-10-15",
+          "url": "https://github.com/vs-sr-dev/ndskit/releases"
+        }
+      ]
+    },
+    {
+      "id": "3dokit-3do-recomp-framework",
+      "title": "3dokit",
+      "game": "Panasonic 3DO software (multi-title framework)",
+      "target_type": "Software",
+      "platform": "3DO Opera discs/AIF and ARM60 code → native C++ with recompiled Portfolio OS services",
+      "kind": "Recompilation",
+      "status": "Active toolkit; latest source push checked 2026-10-09; no tagged release is listed. Its README cites four separate game ports and labels Immercenary playable; that compatibility evidence belongs to the individual ports.",
+      "summary": "Shared 3DO reverse-engineering and native-port toolkit covering Opera discs, AIF executables, ARM60 static recompilation, and a reimplementation of Portfolio OS. It extracts work common to separate game ports instead of distributing game binaries or assets.",
+      "project_url": "https://github.com/vs-sr-dev/3dokit",
+      "updated": "2026-10-15",
+      "strategy": "Static ARM60-to-C++ recompilation with reimplemented 3DO Portfolio OS and hardware services",
+      "language": "",
+      "source_available": "Public MIT-licensed source repository; game data is held in separate title projects.",
+      "first_found": "2026-10-15",
+      "programming_language": "C++",
+      "subtype": "Panasonic 3DO multi-title static recompilation toolkit",
+      "sources": [
+        {
+          "label": "Maintainer README: 3DO formats, static recompiler, Portfolio OS runtime, and linked port evidence",
+          "url": "https://github.com/vs-sr-dev/3dokit"
+        },
+        {
+          "label": "GitHub repository metadata: license and source activity checked 2026-10-15",
+          "url": "https://api.github.com/repos/vs-sr-dev/3dokit"
+        },
+        {
+          "label": "GitHub releases page; no tagged release listed when checked 2026-10-15",
+          "url": "https://github.com/vs-sr-dev/3dokit/releases"
+        }
+      ]
+    },
+    {
+      "id": "saturn-recomp-toolkit-callumjenkins",
+      "title": "saturn-recomp",
+      "game": "Sega Saturn software (multi-title framework)",
+      "target_type": "Software",
+      "platform": "Sega Saturn SH-2 code and disc images → native C++ with a shared Saturn hardware runtime",
+      "kind": "Recompilation",
+      "status": "Active independent continuation of saturnkit; latest source push checked 2026-10-15; no tagged release is listed. The maintainer says this repository began as a fork and is now developed separately; compatibility claims belong to linked game ports.",
+      "summary": "Static Saturn recompilation toolkit that translates SH-2 code to C++ and supplies shared runtime components for both CPUs, VDP1/VDP2, SCU, SMPC, CD block, and sound hardware. Game-specific changes live in separate repositories.",
+      "project_url": "https://github.com/callumjenkins/saturn-recomp",
+      "updated": "2026-10-15",
+      "strategy": "Static Sega Saturn SH-2-to-C++ recompilation with a host-side hardware runtime",
+      "language": "",
+      "source_available": "Public MIT-licensed source repository; original disc data and title-specific projects are separate.",
+      "first_found": "2026-10-15",
+      "programming_language": "C++",
+      "subtype": "Sega Saturn multi-title static recompilation toolkit",
+      "sources": [
+        {
+          "label": "Maintainer README: static recompilation, shared runtime, and relationship to saturnkit",
+          "url": "https://github.com/callumjenkins/saturn-recomp"
+        },
+        {
+          "label": "GitHub repository metadata: license and source activity checked 2026-10-15",
+          "url": "https://api.github.com/repos/callumjenkins/saturn-recomp"
+        },
+        {
+          "label": "GitHub releases page; no tagged release listed when checked 2026-10-15",
+          "url": "https://github.com/callumjenkins/saturn-recomp/releases"
+        }
+      ]
+    },
+    {
+      "id": "model3recomp-static-recompiler-framework",
+      "title": "model3recomp",
+      "game": "Sega Model 3 Step 1.5 arcade software (multi-title framework)",
+      "target_type": "Software",
+      "platform": "Sega Model 3 PowerPC 603e code and board hardware → native C recompilation/runtime",
+      "kind": "Recompilation",
+      "status": "Alpha; latest source push checked 2026-10-10 and no tagged release is listed. The README reports The Lost World: Jurassic Park running through its attract cycle and first stage to the T-Rex on the reference Step 1.5 board; Step 2.x boards are not supported yet.",
+      "summary": "Title-agnostic Sega Model 3 runtime for statically recompiled PowerPC programs. It models the arcade board and peripheral interfaces that lifted code expects; a separate game repository supplies the title-specific recompiled program.",
+      "project_url": "https://github.com/sp00nznet/model3recomp",
+      "updated": "2026-10-15",
+      "strategy": "Static PowerPC 603e-to-C recompilation linked against a native Model 3 hardware runtime",
+      "language": "",
+      "source_available": "Public MIT-licensed source repository; game ROMs and generated title code are not included.",
+      "first_found": "2026-10-15",
+      "programming_language": "C",
+      "subtype": "Sega Model 3 static recompiler runtime framework",
+      "sources": [
+        {
+          "label": "Maintainer README: hardware/runtime scope, alpha gameplay milestone, and unsupported Step 2.x caveat",
+          "url": "https://github.com/sp00nznet/model3recomp"
+        },
+        {
+          "label": "GitHub repository metadata: license and source activity checked 2026-10-15",
+          "url": "https://api.github.com/repos/sp00nznet/model3recomp"
+        },
+        {
+          "label": "GitHub releases page; no tagged release listed when checked 2026-10-15",
+          "url": "https://github.com/sp00nznet/model3recomp/releases"
+        }
+      ]
+    },
+    {
+      "id": "gmrecomp-gamemaker-static-recompiler",
+      "title": "gmrecomp",
+      "game": "GameMaker Studio 1.4 bytecode titles (multi-title framework)",
+      "target_type": "Software",
+      "platform": "GameMaker Studio 1.4 data.win bytecode version 15 → native C with an SDL2-based runtime",
+      "kind": "Recompilation",
+      "status": "Alpha (README version v0.1.0); latest source push checked 2026-10-01 and no GitHub release is listed. The maintainer reports one title, Urban Pirate, running from boot through gameplay; support is currently limited to bytecode version 15 and implemented built-ins.",
+      "summary": "Static GameMaker decompiler/recompiler toolkit that lifts GML bytecode entries from data.win into C and supplies a small runtime for instances, events, rooms, graphics, audio, and input. It does not use the YoYo runner at runtime; title-specific generated code is not distributed.",
+      "project_url": "https://github.com/sp00nznet/gmrecomp",
+      "updated": "2026-10-15",
+      "strategy": "Ahead-of-time GameMaker bytecode-to-C lifting with a native SDL2 runtime",
+      "language": "",
+      "source_available": "Public MIT-licensed source repository; original game files and generated code are not included.",
+      "first_found": "2026-10-15",
+      "programming_language": "C",
+      "subtype": "GameMaker Studio 1.4 static recompilation framework",
+      "sources": [
+        {
+          "label": "Maintainer README: bytecode version, C/runtime method, alpha status, and Urban Pirate milestone",
+          "url": "https://github.com/sp00nznet/gmrecomp"
+        },
+        {
+          "label": "GitHub repository metadata: license and source activity checked 2026-10-15",
+          "url": "https://api.github.com/repos/sp00nznet/gmrecomp"
+        },
+        {
+          "label": "GitHub releases page; no tagged release listed when checked 2026-10-15",
+          "url": "https://github.com/sp00nznet/gmrecomp/releases"
+        }
+      ]
+    },
+    {
+      "id": "x86recomp-pc-static-recompiler-framework",
+      "title": "x86recomp",
+      "game": "32-bit Windows x86 games (multi-title framework)",
+      "target_type": "Software",
+      "platform": "32-bit x86 Windows PE games → native 64-bit programs with host-side Windows and middleware services",
+      "kind": "Recompilation",
+      "status": "Active development; latest source push checked 2026-10-15, with no tagged release listed. The README identifies several separate game projects using the framework and marks some game-port work as in progress; it does not claim general compatibility.",
+      "summary": "Static recompilation framework for older 32-bit Windows games. Its lifter emits C++ from PE functions, while a runtime models x86 state, Windows APIs, exception/thread behavior, and optional graphics/audio middleware; game data and title-specific projects are separate.",
+      "project_url": "https://github.com/JTM-rootstorm/x86recomp",
+      "updated": "2026-10-15",
+      "strategy": "Ahead-of-time x86-to-C++ translation with a host runtime for Windows APIs and middleware",
+      "language": "",
+      "source_available": "Public MIT-licensed source repository; original game files and generated game code are not included.",
+      "first_found": "2026-10-15",
+      "programming_language": "C++",
+      "subtype": "PC x86 static recompilation framework",
+      "sources": [
+        {
+          "label": "Maintainer README: x86 lifter/runtime design and linked game projects",
+          "url": "https://github.com/JTM-rootstorm/x86recomp"
+        },
+        {
+          "label": "GitHub repository metadata: license and source activity checked 2026-10-15",
+          "url": "https://api.github.com/repos/JTM-rootstorm/x86recomp"
+        },
+        {
+          "label": "GitHub releases page; no tagged release listed when checked 2026-10-15",
+          "url": "https://github.com/JTM-rootstorm/x86recomp/releases"
+        }
+      ]
+    },
+    {
+      "id": "j2me-recomp-universal-toolchain",
+      "title": "J2ME Recomp Universal",
+      "game": "Java ME MIDlet JAR applications (multi-title framework)",
+      "target_type": "Software",
+      "platform": "Java ME MIDlet JAR/class bytecode → native C++ executables with an SDL-based application runtime",
+      "kind": "Recompilation",
+      "status": "Experimental, with no tagged release listed; latest source push checked 2026-06-07. The README describes a JAR parser, JVM-bytecode lifter, C++ emitter, and MIDlet runtime but does not publish a verified device/game compatibility matrix.",
+      "summary": "Open toolchain that parses Java ME JAR/class files, lifts Java bytecode into an intermediate form, emits C++ and links a native runtime for MIDlet lifecycle, graphics, audio, timers, and record storage. The repository is an early framework rather than a verified library of compatible applications.",
+      "project_url": "https://github.com/denisfox3554/J2me-recomp-universial",
+      "updated": "2026-10-15",
+      "strategy": "Java ME bytecode lifting and ahead-of-time C++ emission with a native MIDlet runtime",
+      "language": "",
+      "source_available": "Public MIT-licensed source repository.",
+      "first_found": "2026-10-15",
+      "programming_language": "C++",
+      "subtype": "Java ME application static recompilation toolchain",
+      "sources": [
+        {
+          "label": "Maintainer README: JAR-to-C++ pipeline and runtime components",
+          "url": "https://github.com/denisfox3554/J2me-recomp-universial"
+        },
+        {
+          "label": "GitHub repository metadata: license and source activity checked 2026-10-15",
+          "url": "https://api.github.com/repos/denisfox3554/J2me-recomp-universial"
+        },
+        {
+          "label": "GitHub releases page; no tagged release listed when checked 2026-10-15",
+          "url": "https://github.com/denisfox3554/J2me-recomp-universial/releases"
+        }
+      ]
+    },
+    {
+      "id": "neogeorecomp-static-recompiler-framework",
+      "title": "neogeorecomp",
+      "game": "SNK Neo Geo MVS/AES titles (multi-title framework)",
+      "target_type": "Software",
+      "platform": "Neo Geo 68000 programs and board-facing data → native C with a Neo Geo hardware runtime",
+      "kind": "Recompilation",
+      "status": "Alpha (README version v0.2.0-dev); latest source push checked 2026-09-29 and no tagged release is listed. The README reports Metal Slug and Neo Drift Out playable through early stages without sound; this is the toolkit's current reference evidence.",
+      "summary": "Title-agnostic static recompiler and native runtime for Neo Geo arcade games. It translates 68000 routines to C and models the video, palette, I/O, sound CPU, and board services required by separate title repositories; ROMs are not included.",
+      "project_url": "https://github.com/sp00nznet/neogeorecomp",
+      "updated": "2026-10-15",
+      "strategy": "Static Motorola 68000-to-C translation with a native MVS/AES runtime",
+      "language": "",
+      "source_available": "Public MIT-licensed source repository; game ROMs, system ROMs, and generated C are not included.",
+      "first_found": "2026-10-15",
+      "programming_language": "C",
+      "subtype": "Neo Geo multi-title static recompilation framework",
+      "sources": [
+        {
+          "label": "Maintainer README: recompiler/runtime scope and alpha playability status",
+          "url": "https://github.com/sp00nznet/neogeorecomp"
+        },
+        {
+          "label": "GitHub repository metadata: license and source activity checked 2026-10-15",
+          "url": "https://api.github.com/repos/sp00nznet/neogeorecomp"
+        },
+        {
+          "label": "GitHub releases page; no tagged release listed when checked 2026-10-15",
+          "url": "https://github.com/sp00nznet/neogeorecomp/releases"
+        }
+      ]
+    },
+    {
+      "id": "gb-recompiled-toolchain",
+      "title": "GB Recompiled",
+      "game": "Game Boy and Game Boy Color ROM software (multi-title toolchain)",
+      "target_type": "Software",
+      "platform": "Game Boy/Game Boy Color LR35902 ROM code → generated C with an SDL2 runtime and interpreter fallback",
+      "kind": "Recompilation",
+      "status": "Experimental; v0.1.0 was released 2026-08-03 and source changes continued through 2026-09-10. The README says a supported exact ROM is required and that generating code does not guarantee every game or scene works; verified compatibility is title-specific.",
+      "summary": "Static Game Boy/Game Boy Color recompilation toolchain that analyzes banked LR35902 code and emits portable C for a shared desktop runtime. It includes hardware emulation, an interpreter fallback, exact-ROM verification, differential testing, and tooling for native modifications.",
+      "project_url": "https://github.com/arcanite24/gb-recompiled",
+      "updated": "2026-10-15",
+      "strategy": "Static LR35902 code analysis and C emission with runtime fallback for unresolved behavior",
+      "language": "",
+      "source_available": "Public MIT-licensed source repository; ROM images are not included and must be lawfully supplied by users.",
+      "first_found": "2026-10-15",
+      "programming_language": "Python",
+      "subtype": "Game Boy/Game Boy Color static recompilation framework",
+      "sources": [
+        {
+          "label": "Maintainer README: static code generation, runtime, and compatibility caveat",
+          "url": "https://github.com/arcanite24/gb-recompiled"
+        },
+        {
+          "label": "Version 0.1.0 release (2026-08-03)",
+          "url": "https://github.com/arcanite24/gb-recompiled/releases/tag/v0.1.0"
+        },
+        {
+          "label": "GitHub repository metadata: license and source activity checked 2026-10-15",
+          "url": "https://api.github.com/repos/arcanite24/gb-recompiled"
+        }
+      ]
+    },
+    {
+      "id": "gba-recomp-static-recompiler",
+      "title": "GBARecomp",
+      "game": "Game Boy Advance ARM7TDMI software (multi-title tool)",
+      "target_type": "Software",
+      "platform": "Game Boy Advance ARM/Thumb ROM code or ELF with function symbols → C# methods, linked with GBA Modern Runtime",
+      "kind": "Recompilation",
+      "status": "Active; latest source push checked 2026-09-26; no tagged release is listed. The README says function boundaries must be known from a decompilation/disassembly or supplied symbol/config data, and recompiled output is run with a separate runtime.",
+      "summary": "Static Game Boy Advance recompiler that emits C# methods from ROM/ELF code and symbol information. It is a code-generation tool rather than a complete console emulator; a separate GBA Modern Runtime provides execution and hardware services.",
+      "project_url": "https://github.com/Asphaltian/GBARecomp",
+      "updated": "2026-10-15",
+      "strategy": "Static ARM/Thumb-to-C# recompilation using configured or extracted function boundaries",
+      "language": "",
+      "source_available": "Public MIT-licensed source repository; original ROMs are not included.",
+      "first_found": "2026-10-15",
+      "programming_language": "C#",
+      "subtype": "Game Boy Advance static recompiler tool",
+      "sources": [
+        {
+          "label": "Maintainer README: input requirements, function symbols, generated C#, and external runtime",
+          "url": "https://github.com/Asphaltian/GBARecomp"
+        },
+        {
+          "label": "GitHub repository metadata: license and source activity checked 2026-10-15",
+          "url": "https://api.github.com/repos/Asphaltian/GBARecomp"
+        },
+        {
+          "label": "GitHub releases page; no tagged release listed when checked 2026-10-15",
+          "url": "https://github.com/Asphaltian/GBARecomp/releases"
+        }
+      ]
+    },
+    {
+      "id": "box86-x86-linux-emulator",
+      "title": "Box86",
+      "game": "32-bit x86 Linux applications (multi-title)",
+      "target_type": "Software",
+      "platform": "32-bit x86 Linux applications → non-x86 Linux hosts, especially 32-bit little-endian ARM systems; 32-bit userspace/toolchain required",
+      "kind": "Emulator",
+      "status": "Active source repository; latest source push checked 2026-09-27. Latest tagged release found is v0.3.8 (2024-12-06). The README stresses that 32-bit host userspace and build support are required; this is distinct from the 64-bit Box64 project already cataloged.",
+      "summary": "User-mode x86 Linux emulator with a dynamic recompiler for running 32-bit x86 programs on compatible non-x86 Linux systems. It uses selected native host libraries such as libc, SDL, and OpenGL; it does not emulate a complete PC.",
+      "project_url": "https://github.com/ptitSeb/box86",
+      "updated": "2026-10-15",
+      "strategy": "Process-level x86 instruction emulation/dynamic recompilation integrated with host Linux libraries",
+      "language": "",
+      "source_available": "Public MIT-licensed source repository.",
+      "first_found": "2026-10-15",
+      "programming_language": "C",
+      "subtype": "32-bit x86 Linux user-mode emulator and dynamic recompiler",
+      "sources": [
+        {
+          "label": "Maintainer README: guest/host scope, 32-bit runtime requirement, and dynamic-recompiler approach",
+          "url": "https://github.com/ptitSeb/box86"
+        },
+        {
+          "label": "Latest tagged release found: v0.3.8 (2024-12-06)",
+          "url": "https://github.com/ptitSeb/box86/releases/tag/v0.3.8"
+        },
+        {
+          "label": "GitHub repository metadata: license and source activity checked 2026-10-15",
+          "url": "https://api.github.com/repos/ptitSeb/box86"
+        }
+      ]
+    },
+    {
+      "id": "renode-embedded-system-simulator",
+      "title": "Renode",
+      "game": "Embedded firmware, operating systems, and multi-node IoT software",
+      "target_type": "Software",
+      "platform": "Virtual boards and systems with ARM Cortex-A/R/M, x86/x86-64, RISC-V, SPARC, POWER, Xtensa, and MSP430X processors",
+      "kind": "Emulator",
+      "status": "Active; v1.17.0 was released 2026-09-07 and source changes continued through 2026-10-15.",
+      "summary": "Open-source embedded-system simulator that runs unmodified firmware and software on modeled virtual boards and SoCs. It can compose multi-node systems and simulate peripherals and wired or wireless links, so it is broader than a CPU-only emulator.",
+      "project_url": "https://github.com/renode/renode",
+      "updated": "2026-10-15",
+      "strategy": "Full embedded-system and peripheral simulation for unmodified guest software",
+      "language": "",
+      "source_available": "Public MIT-licensed source repository; third-party libraries may have separate licenses.",
+      "first_found": "2026-10-15",
+      "programming_language": "RobotFramework",
+      "subtype": "Embedded system simulator and emulator",
+      "sources": [
+        {
+          "label": "Maintainer README: simulation use, supported processor families, and virtual SoC scope",
+          "url": "https://github.com/renode/renode"
+        },
+        {
+          "label": "Version 1.17.0 release (2026-09-07)",
+          "url": "https://github.com/renode/renode/releases/tag/v1.17.0"
+        },
+        {
+          "label": "MIT license and third-party licensing note",
+          "url": "https://github.com/renode/renode/blob/master/LICENSE"
+        },
+        {
+          "label": "GitHub repository metadata: source activity checked 2026-10-15",
+          "url": "https://api.github.com/repos/renode/renode"
+        }
+      ]
+    },
+    {
+      "id": "qiling-binary-emulation-framework",
+      "title": "Qiling",
+      "game": "Native binaries, firmware, and kernel modules across multiple OS/architecture targets",
+      "target_type": "Software",
+      "platform": "PE, Mach-O, ELF, COM, and MBR across Windows, macOS, Linux, Android, BSD, UEFI, and DOS; x86, x86-64, ARM/AArch64, MIPS, RISC-V, and PowerPC",
+      "kind": "Emulator",
+      "status": "Active; v1.4.11 was released 2026-09-06 and source changes continued through 2026-09-24.",
+      "summary": "Python binary-emulation framework for running and instrumenting executables in modeled operating-system environments. It supports configurable sandboxes, syscall and memory hooks, state save/restore, and debugging, and is commonly used to build custom reverse-engineering and security-analysis tools.",
+      "project_url": "https://github.com/qilingframework/qiling",
+      "updated": "2026-10-15",
+      "strategy": "User-mode binary emulation with configurable OS services, instrumentation, and sandboxing",
+      "language": "",
+      "source_available": "Public GPL-2.0 source repository.",
+      "first_found": "2026-10-15",
+      "programming_language": "Python",
+      "subtype": "Cross-platform binary emulation and analysis framework",
+      "sources": [
+        {
+          "label": "Maintainer README: supported OSes, architectures, formats, instrumentation, and sandbox features",
+          "url": "https://github.com/qilingframework/qiling"
+        },
+        {
+          "label": "Version 1.4.11 release (2026-09-06)",
+          "url": "https://github.com/qilingframework/qiling/releases/tag/v1.4.11"
+        },
+        {
+          "label": "GitHub repository metadata: license and source activity checked 2026-10-15",
+          "url": "https://api.github.com/repos/qilingframework/qiling"
+        }
+      ]
+    }
+  ]
+}

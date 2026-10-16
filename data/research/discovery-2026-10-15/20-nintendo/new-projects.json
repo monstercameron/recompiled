@@ -1,0 +1,1694 @@
+{
+  "updated": "2026-10-15",
+  "reviewed_scope": "Nintendo-family additions found by comparing the existing SQLite/docs catalog with maintainer repositories and their READMEs: Nintendo 64, GameCube, Wii, Wii U, Game Boy, Game Boy Color, Game Boy Advance, and Nintendo DS. Each included project is supported by a primary maintainer source; general-purpose recompiler/runtime repositories are marked Software, while named game targets are separate only where the source documents distinct targets. External game assets/ROMs were not copied.",
+  "projects": [
+    {
+      "id": "chibi-robo-gamecube-decomp",
+      "title": "Chibi-Robo! GameCube Decompilation",
+      "game": "Chibi-Robo!",
+      "target_type": "Game",
+      "platform": "Nintendo GameCube",
+      "kind": "Decompilation",
+      "status": "Work in progress; the maintainer README reports 0.48% code and 14.73% data progress, identifies U.S. revision GGTE01_00, and says the repository excludes assets and assembly.",
+      "summary": "U.S. GameCube decompilation project for Chibi-Robo! with separately reported code and data progress; building requires a user-provided copy of the game.",
+      "project_url": "https://github.com/eavpsp/cbr_decomp",
+      "updated": "2026-10-15",
+      "strategy": "C/C++ source decompilation",
+      "language": "",
+      "source_available": "Public source repository; game assets and assembly are excluded; user game copy required",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "subtype": "U.S. revision GGTE01_00",
+      "sources": [
+        {
+          "label": "Maintainer README (target, method, status, and source requirements)",
+          "url": "https://github.com/eavpsp/cbr_decomp#readme"
+        },
+        {
+          "label": "GitHub repository page (primary language: C++)",
+          "url": "https://github.com/eavpsp/cbr_decomp"
+        }
+      ],
+      "programming_language": "C++"
+    },
+    {
+      "id": "doshin-the-giant-gc-decomp",
+      "title": "Doshin the Giant GameCube Decompilation",
+      "game": "Doshin the Giant",
+      "target_type": "Game",
+      "platform": "Nintendo GameCube",
+      "kind": "Decompilation",
+      "status": "Work in progress; the README identifies the European retail revision GKDP01 and states that the repository contains no game assets or assembly.",
+      "summary": "GameCube decompilation of Doshin the Giant (European revision 0); building requires a user-provided game copy.",
+      "project_url": "https://github.com/break-core/doshin-gc",
+      "updated": "2026-10-15",
+      "strategy": "Source decompilation",
+      "language": "",
+      "source_available": "Public source repository; assets and assembly are excluded; user game copy required",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "subtype": "European revision 0 (GKDP01)",
+      "sources": [
+        {
+          "label": "Maintainer README (target, method, status, and source requirements)",
+          "url": "https://github.com/break-core/doshin-gc#readme"
+        },
+        {
+          "label": "GitHub repository page (primary language: Python)",
+          "url": "https://github.com/break-core/doshin-gc"
+        }
+      ],
+      "programming_language": "Python"
+    },
+    {
+      "id": "doubutsu-no-mori-eplus-gc-decomp",
+      "title": "Dōbutsu no Mori e+ Decompilation",
+      "game": "Dōbutsu no Mori e+",
+      "target_type": "Game",
+      "platform": "Nintendo GameCube",
+      "kind": "Decompilation",
+      "status": "Work in progress; the README lists Japanese revisions 0 and 1 and says the project does not include game assets or assembly.",
+      "summary": "Japanese GameCube decompilation of Dōbutsu no Mori e+, with separate supported configurations for the two listed revisions.",
+      "project_url": "https://github.com/ACreTeam/afe-decomp",
+      "updated": "2026-10-15",
+      "strategy": "Source decompilation; matching state not claimed",
+      "language": "",
+      "source_available": "Public source repository; assets and assembly are excluded; user game copy required",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "subtype": "Japanese revisions GAEJ01_00 and GAEJ01_01",
+      "sources": [
+        {
+          "label": "Maintainer README (target, method, status, and source requirements)",
+          "url": "https://github.com/ACreTeam/afe-decomp#readme"
+        },
+        {
+          "label": "Project progress dashboard",
+          "url": "https://decomp.dev/ACreTeam/afe-decomp"
+        },
+        {
+          "label": "GitHub repository page (primary language: C)",
+          "url": "https://github.com/ACreTeam/afe-decomp"
+        }
+      ],
+      "programming_language": "C"
+    },
+    {
+      "id": "harvest-moon-awl-gc-decomp",
+      "title": "Harvest Moon: A Wonderful Life GameCube Decompilation",
+      "game": "Harvest Moon: A Wonderful Life",
+      "target_type": "Game",
+      "platform": "Nintendo GameCube",
+      "kind": "Decompilation",
+      "status": "Work in progress; the README says the U.S. main.dol and two RELs can be shifted, while the rebuilt RELs do not yet fully match the original.",
+      "summary": "GameCube DOL/REL source reconstruction for the U.S. version; the repository documents build hashes and identifies which modules are currently shiftable.",
+      "project_url": "https://github.com/ChrisNonyminus/hmawl",
+      "updated": "2026-10-15",
+      "strategy": "DOL/REL disassembly and source reconstruction",
+      "language": "",
+      "source_available": "Public source repository",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "subtype": "U.S. version; main.dol and REL targets",
+      "sources": [
+        {
+          "label": "Maintainer README (target, method, status, and source requirements)",
+          "url": "https://github.com/ChrisNonyminus/hmawl#readme"
+        },
+        {
+          "label": "GitHub repository page (primary language: Assembly)",
+          "url": "https://github.com/ChrisNonyminus/hmawl"
+        }
+      ],
+      "programming_language": "Assembly"
+    },
+    {
+      "id": "homeland-gc-decomp",
+      "title": "Homeland GameCube Decompilation",
+      "game": "Homeland",
+      "target_type": "Game",
+      "platform": "Nintendo GameCube",
+      "kind": "Decompilation",
+      "status": "The README lists a buildable hash for main.dol; netcfg.dol and three REL modules are marked not currently buildable.",
+      "summary": "GameCube source reconstruction repository for Homeland; the README records the current build state of the executable and module files.",
+      "project_url": "https://github.com/bttrdrgn/homeland",
+      "updated": "2026-10-15",
+      "strategy": "DOL/REL source reconstruction",
+      "language": "",
+      "source_available": "Public source repository",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "subtype": "GameCube DOL and REL targets",
+      "sources": [
+        {
+          "label": "Maintainer README (target, method, status, and source requirements)",
+          "url": "https://github.com/bttrdrgn/homeland#readme"
+        },
+        {
+          "label": "GitHub repository page (primary language: Assembly)",
+          "url": "https://github.com/bttrdrgn/homeland"
+        }
+      ],
+      "programming_language": "Assembly"
+    },
+    {
+      "id": "mario-party-4-gc-decomp",
+      "title": "Mario Party 4 Decompilation",
+      "game": "Mario Party 4",
+      "target_type": "Game",
+      "platform": "Nintendo GameCube",
+      "kind": "Decompilation",
+      "status": "The README reports that both U.S. revisions are completely matching; PAL and Japanese versions are marked incomplete, and it says there is no working PC port yet.",
+      "summary": "Matching decompilation project for Mario Party 4 with explicit version coverage for U.S., PAL, and Japanese releases.",
+      "project_url": "https://github.com/mariopartyrd/marioparty4",
+      "updated": "2026-10-15",
+      "strategy": "Matching C decompilation",
+      "language": "",
+      "source_available": "Public source repository; game assets and assembly are excluded; user game copy required",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "subtype": "U.S. revisions complete; PAL/Japan incomplete",
+      "sources": [
+        {
+          "label": "Maintainer README (target, method, status, and source requirements)",
+          "url": "https://github.com/mariopartyrd/marioparty4#readme"
+        },
+        {
+          "label": "Project progress dashboard",
+          "url": "https://decomp.dev/mariopartyrd/marioparty4"
+        },
+        {
+          "label": "GitHub repository page (primary language: C)",
+          "url": "https://github.com/mariopartyrd/marioparty4"
+        }
+      ],
+      "programming_language": "C"
+    },
+    {
+      "id": "mario-party-5-gc-decomp",
+      "title": "Mario Party 5 Decompilation",
+      "game": "Mario Party 5",
+      "target_type": "Game",
+      "platform": "Nintendo GameCube",
+      "kind": "Decompilation",
+      "status": "Work in progress; the README identifies U.S. revision 0 and says that game assets and assembly are not included.",
+      "summary": "GameCube decompilation project for Mario Party 5 U.S. revision 0; a user copy of the game is required for the documented build.",
+      "project_url": "https://github.com/mariopartyrd/marioparty5",
+      "updated": "2026-10-15",
+      "strategy": "Matching C decompilation",
+      "language": "",
+      "source_available": "Public source repository; game assets and assembly are excluded; user game copy required",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "subtype": "U.S. revision 0 (GP5E01_00)",
+      "sources": [
+        {
+          "label": "Maintainer README (target, method, status, and source requirements)",
+          "url": "https://github.com/mariopartyrd/marioparty5#readme"
+        },
+        {
+          "label": "Project progress dashboard",
+          "url": "https://decomp.dev/mariopartyrd/marioparty5"
+        },
+        {
+          "label": "GitHub repository page (primary language: C)",
+          "url": "https://github.com/mariopartyrd/marioparty5"
+        }
+      ],
+      "programming_language": "C"
+    },
+    {
+      "id": "mario-party-7-gc-decomp",
+      "title": "Mario Party 7 Decompilation",
+      "game": "Mario Party 7",
+      "target_type": "Game",
+      "platform": "Nintendo GameCube",
+      "kind": "Decompilation",
+      "status": "Work in progress; the README identifies U.S. revision GP7E01 and says the repository excludes game assets and assembly.",
+      "summary": "GameCube decompilation project for Mario Party 7 U.S. revision 0; building requires a user-provided copy of the game.",
+      "project_url": "https://github.com/mariopartyrd/marioparty7",
+      "updated": "2026-10-15",
+      "strategy": "Source decompilation",
+      "language": "",
+      "source_available": "Public source repository; game assets and assembly are excluded; user game copy required",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "subtype": "U.S. revision GP7E01",
+      "sources": [
+        {
+          "label": "Maintainer README (target, method, status, and source requirements)",
+          "url": "https://github.com/mariopartyrd/marioparty7#readme"
+        },
+        {
+          "label": "GitHub repository page (primary language: C)",
+          "url": "https://github.com/mariopartyrd/marioparty7"
+        }
+      ],
+      "programming_language": "C"
+    },
+    {
+      "id": "mario-superstar-baseball-gc-decomp",
+      "title": "Mario Superstar Baseball Decompilation",
+      "game": "Mario Superstar Baseball",
+      "target_type": "Game",
+      "platform": "Nintendo GameCube",
+      "kind": "Decompilation",
+      "status": "Work in progress; the maintainer README links code, game-code, and data progress dashboards.",
+      "summary": "GameCube decompilation project for Mario Superstar Baseball with separately tracked game-code and data progress.",
+      "project_url": "https://github.com/roeming/mssb-dtk",
+      "updated": "2026-10-15",
+      "strategy": "Source decompilation",
+      "language": "",
+      "source_available": "Public source repository",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "subtype": "GameCube DOL/REL source project",
+      "sources": [
+        {
+          "label": "Maintainer README (target, method, status, and source requirements)",
+          "url": "https://github.com/roeming/mssb-dtk#readme"
+        },
+        {
+          "label": "Project progress dashboard",
+          "url": "https://decomp.dev/roeming/mssb-dtk"
+        },
+        {
+          "label": "GitHub repository page (primary language: C)",
+          "url": "https://github.com/roeming/mssb-dtk"
+        }
+      ],
+      "programming_language": "C"
+    },
+    {
+      "id": "need-for-speed-most-wanted-multi-decomp",
+      "title": "Need for Speed: Most Wanted Multi-Platform Decompilation",
+      "game": "Need for Speed: Most Wanted",
+      "target_type": "Game",
+      "platform": "Nintendo GameCube, Xbox 360, PlayStation 2, and Windows PC",
+      "kind": "Decompilation",
+      "status": "Work in progress; the README enumerates supported GameCube, Xbox 360, PlayStation 2, and PC targets, including retail versions and prototypes.",
+      "summary": "Multi-platform decompilation research for Need for Speed: Most Wanted; the README lists exact supported executable revisions and notes that game data and assembly are not included.",
+      "project_url": "https://github.com/dbalatoni13/nfsmw",
+      "updated": "2026-10-15",
+      "strategy": "Multi-platform source decompilation",
+      "language": "",
+      "source_available": "Public source repository; game assets and assembly are excluded; user game copy required",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "subtype": "GameCube, Xbox 360, PS2, and PC revisions",
+      "sources": [
+        {
+          "label": "Maintainer README (target, method, status, and source requirements)",
+          "url": "https://github.com/dbalatoni13/nfsmw#readme"
+        },
+        {
+          "label": "Project progress dashboard",
+          "url": "https://decomp.dev/dbalatoni13/nfsmw"
+        },
+        {
+          "label": "GitHub repository page (primary language: C++)",
+          "url": "https://github.com/dbalatoni13/nfsmw"
+        }
+      ],
+      "programming_language": "C++"
+    },
+    {
+      "id": "need-for-speed-underground-gc-decomp",
+      "title": "Need for Speed: Underground GameCube Decompilation",
+      "game": "Need for Speed: Underground (GameCube version)",
+      "target_type": "Game",
+      "platform": "Nintendo GameCube",
+      "kind": "Decompilation",
+      "status": "Work in progress; the README identifies the GameCube target as a September 10, 2003 prototype and says game assets and assembly are not included.",
+      "summary": "GameCube decompilation project for the documented Need for Speed: Underground prototype revision.",
+      "project_url": "https://github.com/dbalatoni13/nfsug",
+      "updated": "2026-10-15",
+      "strategy": "Source decompilation",
+      "language": "",
+      "source_available": "Public source repository; game assets and assembly are excluded; user game copy required",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "subtype": "Prototype GNDP8P (September 10, 2003)",
+      "sources": [
+        {
+          "label": "Maintainer README (target, method, status, and source requirements)",
+          "url": "https://github.com/dbalatoni13/nfsug#readme"
+        },
+        {
+          "label": "GitHub repository page (primary language: C)",
+          "url": "https://github.com/dbalatoni13/nfsug"
+        }
+      ],
+      "programming_language": "C"
+    },
+    {
+      "id": "pikmin-2-gamecube-decomp",
+      "title": "Pikmin 2 Decompilation",
+      "game": "Pikmin 2",
+      "target_type": "Game",
+      "platform": "Nintendo GameCube",
+      "kind": "Decompilation",
+      "status": "Work in progress; the README lists U.S., PAL, and Japanese retail revisions plus two U.S. demos, with separate code/data/linked-code progress indicators.",
+      "summary": "GameCube source decompilation project for Pikmin 2 with five named regional or demo targets.",
+      "project_url": "https://github.com/projectPiki/pikmin2",
+      "updated": "2026-10-15",
+      "strategy": "Source decompilation",
+      "language": "",
+      "source_available": "Public source repository",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "subtype": "USA, PAL, Japan retail; USA Demo 17 and Demo 18",
+      "sources": [
+        {
+          "label": "Maintainer README (target, method, status, and source requirements)",
+          "url": "https://github.com/projectPiki/pikmin2#readme"
+        },
+        {
+          "label": "Project progress dashboard",
+          "url": "https://decomp.dev/projectPiki/pikmin2"
+        },
+        {
+          "label": "GitHub repository page (primary language: C++)",
+          "url": "https://github.com/projectPiki/pikmin2"
+        }
+      ],
+      "programming_language": "C++"
+    },
+    {
+      "id": "sonic-adventure-dx-gc-decomp",
+      "title": "Sonic Adventure DX GameCube Decompilation",
+      "game": "Sonic Adventure DX",
+      "target_type": "Game",
+      "platform": "Nintendo GameCube",
+      "kind": "Decompilation",
+      "status": "Work in progress; the README documents DOL/REL builds for Japanese, U.S., and PAL releases, demos, and prototypes.",
+      "summary": "GameCube decompilation of Sonic Adventure DX, including retail, demo, and prototype revisions listed by the maintainer.",
+      "project_url": "https://github.com/doldecomp/sadx",
+      "updated": "2026-10-15",
+      "strategy": "DOL/REL source decompilation",
+      "language": "",
+      "source_available": "Public source repository; supported DOL/REL inputs are user-provided",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "subtype": "Retail, demo, review, and preview builds",
+      "sources": [
+        {
+          "label": "Maintainer README (target, method, status, and source requirements)",
+          "url": "https://github.com/doldecomp/sadx#readme"
+        },
+        {
+          "label": "GitHub repository page (primary language: Python)",
+          "url": "https://github.com/doldecomp/sadx"
+        }
+      ],
+      "programming_language": "Python"
+    },
+    {
+      "id": "sonic-riders-gc-decomp",
+      "title": "Sonic Riders GameCube Decompilation",
+      "game": "Sonic Riders",
+      "target_type": "Game",
+      "platform": "Nintendo GameCube",
+      "kind": "Decompilation",
+      "status": "Work in progress; the README identifies the U.S. DOL target by SHA-1 and documents a build from the game DOL.",
+      "summary": "GameCube source decompilation project for the U.S. release of Sonic Riders.",
+      "project_url": "https://github.com/doldecomp/sonicriders",
+      "updated": "2026-10-15",
+      "strategy": "DOL source decompilation",
+      "language": "",
+      "source_available": "Public source repository; clean U.S. game DOL and GameCube compiler files required",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "subtype": "U.S. DOL target",
+      "sources": [
+        {
+          "label": "Maintainer README (target, method, status, and source requirements)",
+          "url": "https://github.com/doldecomp/sonicriders#readme"
+        },
+        {
+          "label": "GitHub repository page (primary language: Assembly)",
+          "url": "https://github.com/doldecomp/sonicriders"
+        }
+      ],
+      "programming_language": "Assembly"
+    },
+    {
+      "id": "spongebob-bfbb-gc-decomp",
+      "title": "SpongeBob SquarePants: Battle for Bikini Bottom Decompilation",
+      "game": "SpongeBob SquarePants: Battle for Bikini Bottom",
+      "target_type": "Game",
+      "platform": "Nintendo GameCube",
+      "kind": "Decompilation",
+      "status": "Work in progress; the README identifies the GameCube DOL target and links matching, fuzzy-match, and function-progress indicators.",
+      "summary": "GameCube decompilation project for Battle for Bikini Bottom with a maintainer-hosted code progress dashboard.",
+      "project_url": "https://github.com/bfbbdecomp/bfbb",
+      "updated": "2026-10-15",
+      "strategy": "Source decompilation",
+      "language": "",
+      "source_available": "Public source repository; user-provided original game required",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "subtype": "GameCube main.dol",
+      "sources": [
+        {
+          "label": "Maintainer README (target, method, status, and source requirements)",
+          "url": "https://github.com/bfbbdecomp/bfbb#readme"
+        },
+        {
+          "label": "Project progress dashboard",
+          "url": "https://bfbbdecomp.github.io/bfbb/"
+        },
+        {
+          "label": "GitHub repository page (primary language: C++)",
+          "url": "https://github.com/bfbbdecomp/bfbb"
+        }
+      ],
+      "programming_language": "C++"
+    },
+    {
+      "id": "star-fox-adventures-gc-decomp",
+      "title": "Star Fox Adventures Decompilation",
+      "game": "Star Fox Adventures",
+      "target_type": "Game",
+      "platform": "Nintendo GameCube",
+      "kind": "Decompilation",
+      "status": "Work in progress; the README identifies the project as a Star Fox Adventures decompilation.",
+      "summary": "GameCube source decompilation project for Star Fox Adventures.",
+      "project_url": "https://github.com/renakunisaki/sfadebug",
+      "updated": "2026-10-15",
+      "strategy": "Source decompilation",
+      "language": "",
+      "source_available": "Public source repository",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "subtype": "GameCube source decompilation",
+      "sources": [
+        {
+          "label": "Maintainer README (target, method, status, and source requirements)",
+          "url": "https://github.com/renakunisaki/sfadebug#readme"
+        },
+        {
+          "label": "GitHub repository page (primary language: C)",
+          "url": "https://github.com/renakunisaki/sfadebug"
+        }
+      ],
+      "programming_language": "C"
+    },
+    {
+      "id": "summoner-a-goddess-reborn-gc-decomp",
+      "title": "Summoner: A Goddess Reborn Decompilation",
+      "game": "Summoner: A Goddess Reborn",
+      "target_type": "Game",
+      "platform": "Nintendo GameCube",
+      "kind": "Decompilation",
+      "status": "Work in progress; the README lists the U.S. GS2E78 revision as its supported version and states that the repository excludes game assets and assembly.",
+      "summary": "GameCube decompilation of the U.S. release of Summoner: A Goddess Reborn.",
+      "project_url": "https://github.com/Charlese2/sgr",
+      "updated": "2026-10-15",
+      "strategy": "Source decompilation",
+      "language": "",
+      "source_available": "Public source repository; game assets and assembly are excluded; user game copy required",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "subtype": "U.S. release GS2E78",
+      "sources": [
+        {
+          "label": "Maintainer README (target, method, status, and source requirements)",
+          "url": "https://github.com/Charlese2/sgr#readme"
+        },
+        {
+          "label": "Project progress dashboard",
+          "url": "https://decomp.dev/Charlese2/sgr"
+        },
+        {
+          "label": "GitHub repository page (primary language: C)",
+          "url": "https://github.com/Charlese2/sgr"
+        }
+      ],
+      "programming_language": "C"
+    },
+    {
+      "id": "super-monkey-ball-gc-decomp",
+      "title": "Super Monkey Ball Decompilation",
+      "game": "Super Monkey Ball",
+      "target_type": "Game",
+      "platform": "Nintendo GameCube",
+      "kind": "Decompilation",
+      "status": "Work in progress; the README identifies the U.S. GMBE8P program DOL, its SHA-1, and the required compiler/toolchain.",
+      "summary": "GameCube program-code decompilation project for the U.S. version of Super Monkey Ball.",
+      "project_url": "https://github.com/camthesaxman/smb-decomp",
+      "updated": "2026-10-15",
+      "strategy": "DOL disassembly and source reconstruction",
+      "language": "",
+      "source_available": "Public source repository; clean game DOL and GameCube compiler required",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "subtype": "U.S. version GMBE8P",
+      "sources": [
+        {
+          "label": "Maintainer README (target, method, status, and source requirements)",
+          "url": "https://github.com/camthesaxman/smb-decomp#readme"
+        },
+        {
+          "label": "GitHub repository page (primary language: Assembly)",
+          "url": "https://github.com/camthesaxman/smb-decomp"
+        }
+      ],
+      "programming_language": "Assembly"
+    },
+    {
+      "id": "spongebob-movie-gc-decomp",
+      "title": "The SpongeBob SquarePants Movie GameCube Decompilation",
+      "game": "The SpongeBob SquarePants Movie",
+      "target_type": "Game",
+      "platform": "Nintendo GameCube",
+      "kind": "Decompilation",
+      "status": "Work in progress; the README identifies the NTSC GameCube target and states that game assets and assembly are excluded.",
+      "summary": "GameCube source decompilation project for The SpongeBob SquarePants Movie game.",
+      "project_url": "https://github.com/bfbbdecomp/tssm",
+      "updated": "2026-10-15",
+      "strategy": "Source decompilation",
+      "language": "",
+      "source_available": "Public source repository; game assets and assembly are excluded; user game copy required",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "subtype": "NTSC GameCube target GGVE78",
+      "sources": [
+        {
+          "label": "Maintainer README (target, method, status, and source requirements)",
+          "url": "https://github.com/bfbbdecomp/tssm#readme"
+        },
+        {
+          "label": "Project progress dashboard",
+          "url": "https://decomp.dev/bfbbdecomp/tssm"
+        },
+        {
+          "label": "GitHub repository page (primary language: C++)",
+          "url": "https://github.com/bfbbdecomp/tssm"
+        }
+      ],
+      "programming_language": "C++"
+    },
+    {
+      "id": "ty-the-tasmanian-tiger-gc-decomp",
+      "title": "Ty the Tasmanian Tiger Decompilation",
+      "game": "Ty the Tasmanian Tiger",
+      "target_type": "Game",
+      "platform": "Nintendo GameCube",
+      "kind": "Decompilation",
+      "status": "Work in progress; the README identifies the U.S. GTYE69 version and says the repository does not include game assets or assembly.",
+      "summary": "GameCube source decompilation project for the U.S. release of Ty the Tasmanian Tiger.",
+      "project_url": "https://github.com/1superchip/ty-decomp",
+      "updated": "2026-10-15",
+      "strategy": "Source decompilation",
+      "language": "",
+      "source_available": "Public source repository; game assets and assembly are excluded; user game copy required",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "subtype": "U.S. release GTYE69",
+      "sources": [
+        {
+          "label": "Maintainer README (target, method, status, and source requirements)",
+          "url": "https://github.com/1superchip/ty-decomp#readme"
+        },
+        {
+          "label": "Project progress dashboard",
+          "url": "https://decomp.dev/1superchip/ty-decomp"
+        },
+        {
+          "label": "GitHub repository page (primary language: C++)",
+          "url": "https://github.com/1superchip/ty-decomp"
+        }
+      ],
+      "programming_language": "C++"
+    },
+    {
+      "id": "naruto-gnt4-gc-decomp",
+      "title": "Naruto: Gekitō Ninja Taisen! 4 Decompilation",
+      "game": "Naruto: Gekitō Ninja Taisen! 4",
+      "target_type": "Game",
+      "platform": "Nintendo GameCube",
+      "kind": "Decompilation",
+      "status": "Work in progress; the README identifies a DOL build target and requires a user-supplied clean DOL and CodeWarrior compiler.",
+      "summary": "GameCube decompilation project for Naruto: Gekitō Ninja Taisen! 4.",
+      "project_url": "https://github.com/doldecomp/gnt4",
+      "updated": "2026-10-15",
+      "strategy": "DOL source decompilation",
+      "language": "",
+      "source_available": "Public source repository; clean game DOL and CodeWarrior compiler required",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "subtype": "GameCube main.dol",
+      "sources": [
+        {
+          "label": "Maintainer README (target, method, status, and source requirements)",
+          "url": "https://github.com/doldecomp/gnt4#readme"
+        },
+        {
+          "label": "GitHub repository page (primary language: Assembly)",
+          "url": "https://github.com/doldecomp/gnt4"
+        }
+      ],
+      "programming_language": "Assembly"
+    },
+    {
+      "id": "wii-forecast-channel-decomp",
+      "title": "Wii Forecast Channel Decompilation",
+      "game": "Wii Forecast Channel (USA/NTSC v7)",
+      "target_type": "Software",
+      "platform": "Nintendo Wii",
+      "kind": "Decompilation",
+      "status": "Work in progress; the README identifies HAFE v7 (USA/NTSC) and states that the repository excludes channel assets and assembly.",
+      "summary": "Source decompilation of the Wii Forecast Channel; building requires a user-provided copy of the supported channel WAD.",
+      "project_url": "https://github.com/doldecomp/forecast",
+      "updated": "2026-10-15",
+      "strategy": "Source decompilation of the Wii Forecast Channel",
+      "language": "",
+      "source_available": "Public source repository; channel assets and assembly are excluded; original WAD required",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "subtype": "Wii channel HAFE v7, USA/NTSC",
+      "sources": [
+        {
+          "label": "Maintainer README (target, method, status, and source requirements)",
+          "url": "https://github.com/doldecomp/forecast#readme"
+        },
+        {
+          "label": "Project progress dashboard",
+          "url": "https://decomp.dev/doldecomp/forecast"
+        },
+        {
+          "label": "GitHub repository page (primary language: C)",
+          "url": "https://github.com/doldecomp/forecast"
+        }
+      ],
+      "programming_language": "C"
+    },
+    {
+      "id": "dolphin-sdk-character-pipeline-apr2001-decomp",
+      "title": "Character Pipeline SDK April 2001 Libraries Decompilation",
+      "game": "Nintendo Character Pipeline SDK (April 2001 library files)",
+      "target_type": "Software",
+      "platform": "Nintendo GameCube SDK",
+      "kind": "Decompilation",
+      "status": "The README lists seven library components as complete and describes the repository as a partial reconstruction, not a complete copy of the SDK component.",
+      "summary": "Source decompilation of selected Character Pipeline library files from the April 2001 Nintendo SDK; it does not claim to recreate the complete component.",
+      "project_url": "https://github.com/doldecomp/dolcp-apr2001",
+      "updated": "2026-10-15",
+      "strategy": "SDK library decompilation",
+      "language": "",
+      "source_available": "Public source repository; original library archives are user-provided",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "subtype": "April 2001 Character Pipeline SDK libraries",
+      "sources": [
+        {
+          "label": "Maintainer README (target, method, status, and source requirements)",
+          "url": "https://github.com/doldecomp/dolcp-apr2001#readme"
+        },
+        {
+          "label": "GitHub repository page (primary language: C)",
+          "url": "https://github.com/doldecomp/dolcp-apr2001"
+        }
+      ],
+      "programming_language": "C"
+    },
+    {
+      "id": "dolphin-sdk-2004-libraries-decomp",
+      "title": "Dolphin SDK 2004 Libraries Decompilation",
+      "game": "Dolphin SDK (April 20, 2004 library archive files)",
+      "target_type": "Software",
+      "platform": "Nintendo GameCube / Wii SDK",
+      "kind": "Decompilation",
+      "status": "The README lists most library components as complete, with AX effects, GX, and VI marked in progress; the repository is not a complete copy of the SDK.",
+      "summary": "Source reconstruction of selected archive libraries from the April 20, 2004 Dolphin SDK; the README gives component-level completion state and says it is not a full SDK replacement.",
+      "project_url": "https://github.com/doldecomp/dolsdk2004",
+      "updated": "2026-10-15",
+      "strategy": "SDK library decompilation",
+      "language": "",
+      "source_available": "Public source repository; original library archives are user-provided",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "subtype": "Dolphin SDK 2004 library archive components",
+      "sources": [
+        {
+          "label": "Maintainer README (target, method, status, and source requirements)",
+          "url": "https://github.com/doldecomp/dolsdk2004#readme"
+        },
+        {
+          "label": "GitHub repository page (primary language: C)",
+          "url": "https://github.com/doldecomp/dolsdk2004"
+        }
+      ],
+      "programming_language": "C"
+    },
+    {
+      "id": "body-harvest-n64-decomp",
+      "title": "Body Harvest N64 Decompilation",
+      "game": "Body Harvest",
+      "target_type": "Game",
+      "platform": "Nintendo 64",
+      "kind": "Decompilation",
+      "status": "The maintainer describes a C decompilation and provides a progress site; building starts from a user-supplied U.S. ROM.",
+      "summary": "N64 source reconstruction for Body Harvest with a maintainer progress site and extraction/build scripts.",
+      "project_url": "https://github.com/jaytheham/body-harvest-decompilation",
+      "updated": "2026-10-15",
+      "strategy": "C source decompilation",
+      "language": "",
+      "source_available": "Public source repository; user-supplied U.S. ROM required",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "subtype": "U.S. N64 revision",
+      "sources": [
+        {
+          "label": "Maintainer README (target, method, status, and source requirements)",
+          "url": "https://github.com/jaytheham/body-harvest-decompilation#readme"
+        },
+        {
+          "label": "Maintainer progress site",
+          "url": "https://jaytheham.github.io/body-harvest-decompilation/"
+        },
+        {
+          "label": "GitHub repository page (primary language: C)",
+          "url": "https://github.com/jaytheham/body-harvest-decompilation"
+        }
+      ],
+      "programming_language": "C"
+    },
+    {
+      "id": "pilotwings-64-decomp",
+      "title": "Pilotwings 64 Decompilation",
+      "game": "Pilotwings 64",
+      "target_type": "Game",
+      "platform": "Nintendo 64",
+      "kind": "Decompilation",
+      "status": "Work in progress; the README explicitly calls this a matching decompilation and currently lists North American retail support.",
+      "summary": "Matching N64 source reconstruction project for Pilotwings 64 North America; the repository excludes game assets and assembly and requires the user’s copy.",
+      "project_url": "https://github.com/n64decomp/pw64",
+      "updated": "2026-10-15",
+      "strategy": "Matching decompilation",
+      "language": "",
+      "source_available": "Public source repository; game assets and assembly are excluded; original ROM required",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "subtype": "North American retail target",
+      "sources": [
+        {
+          "label": "Maintainer README (target, method, status, and source requirements)",
+          "url": "https://github.com/n64decomp/pw64#readme"
+        },
+        {
+          "label": "GitHub repository page (primary language: C)",
+          "url": "https://github.com/n64decomp/pw64"
+        }
+      ],
+      "programming_language": "C"
+    },
+    {
+      "id": "mario-golf-64-decomp",
+      "title": "Mario Golf 64 Decompilation",
+      "game": "Mario Golf 64",
+      "target_type": "Game",
+      "platform": "Nintendo 64",
+      "kind": "Decompilation",
+      "status": "The README reports a matching build for North American NMFE revision 0 and verifies the rebuilt ROM byte-for-byte.",
+      "summary": "N64 source project for Mario Golf 64; the build reconstructs the original ROM from extracted assembly and compiled C/assembly libraries.",
+      "project_url": "https://github.com/monde-lointain/mariogolf64",
+      "updated": "2026-10-15",
+      "strategy": "Byte-matching N64 decompilation",
+      "language": "",
+      "source_available": "Public source repository; original ROM is user-supplied and ignored",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "subtype": "North American NMFE revision 0",
+      "sources": [
+        {
+          "label": "Maintainer README (target, method, status, and source requirements)",
+          "url": "https://github.com/monde-lointain/mariogolf64#readme"
+        },
+        {
+          "label": "GitHub repository page (primary language: C)",
+          "url": "https://github.com/monde-lointain/mariogolf64"
+        }
+      ],
+      "programming_language": "C"
+    },
+    {
+      "id": "n64-libultra-matching-decomp",
+      "title": "libultra Nintendo 64 SDK Decompilation",
+      "game": "libultra (Nintendo 64 SDK system library)",
+      "target_type": "Software",
+      "platform": "Nintendo 64 SDK",
+      "kind": "Decompilation",
+      "status": "The repository description identifies a matching libultra decompilation; the public source tree has no README or declared completion state.",
+      "summary": "Public C source repository reconstructing libultra, the N64 system library.",
+      "project_url": "https://github.com/n64decomp/libreultra",
+      "updated": "2026-10-15",
+      "strategy": "Matching SDK library decompilation",
+      "language": "",
+      "source_available": "Public source repository",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "subtype": "N64 libultra library",
+      "sources": [
+        {
+          "label": "Project repository description and public source tree (no README found)",
+          "url": "https://github.com/n64decomp/libreultra"
+        },
+        {
+          "label": "GitHub repository page (primary language: C)",
+          "url": "https://github.com/n64decomp/libreultra"
+        }
+      ],
+      "programming_language": "C"
+    },
+    {
+      "id": "n64-sdk-tools-decomp",
+      "title": "Nintendo 64 SDK Developer Tools Decompilation",
+      "game": "Nintendo 64 SDK developer tools",
+      "target_type": "Software",
+      "platform": "Nintendo 64 SDK",
+      "kind": "Decompilation",
+      "status": "The README identifies the project scope but does not state completion or build status.",
+      "summary": "Source decompilation project for Nintendo 64 SDK developer tools.",
+      "project_url": "https://github.com/n64decomp/sdk-tools",
+      "updated": "2026-10-15",
+      "strategy": "SDK tools decompilation",
+      "language": "",
+      "source_available": "Public source repository",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "subtype": "Nintendo 64 SDK host tools",
+      "sources": [
+        {
+          "label": "Maintainer README (target, method, status, and source requirements)",
+          "url": "https://github.com/n64decomp/sdk-tools#readme"
+        },
+        {
+          "label": "GitHub repository page (primary language: C)",
+          "url": "https://github.com/n64decomp/sdk-tools"
+        }
+      ],
+      "programming_language": "C"
+    },
+    {
+      "id": "project-picori-n64-port",
+      "title": "Project Picori Nintendo 64 Port",
+      "game": "The Legend of Zelda: The Minish Cap",
+      "target_type": "Game",
+      "platform": "Game Boy Advance → Nintendo 64",
+      "kind": "Reimplementation",
+      "status": "Research-grade work in progress; the README says the same decompiled game logic is built for big-endian N64 and documents the required user-supplied GBA ROM.",
+      "summary": "Native N64 build of Project Picori, a PC port based on the GBA decompilation; N64-specific changes are maintained as gated patches and use libdragon.",
+      "project_url": "https://github.com/999sian/picori-n64",
+      "updated": "2026-10-15",
+      "strategy": "Native source port of the decompiled game to N64",
+      "language": "",
+      "source_available": "Public source repository; no game ROM is included; user supplies a supported GBA ROM",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "subtype": "Native Nintendo 64 port using libdragon",
+      "sources": [
+        {
+          "label": "Maintainer README (target, method, status, and source requirements)",
+          "url": "https://github.com/999sian/picori-n64#readme"
+        },
+        {
+          "label": "GitHub repository page (primary language: C)",
+          "url": "https://github.com/999sian/picori-n64"
+        }
+      ],
+      "programming_language": "C"
+    },
+    {
+      "id": "super-smash-bros-64-original-xbox-port",
+      "title": "Super Smash Bros. N64 Original Xbox Port",
+      "game": "Super Smash Bros.",
+      "target_type": "Game",
+      "platform": "Nintendo 64 → Dreamcast port → Original Xbox",
+      "kind": "Reimplementation",
+      "status": "The README documents a native original-Xbox port using the Dreamcast port’s game code and a reimplemented Xbox platform layer; user supplies the U.S. v1.0 ROM.",
+      "summary": "Native Xbox target of the Dreamcast Super Smash Bros. port; the Xbox-specific layer implements console services and hardware interfaces.",
+      "project_url": "https://github.com/Team-Resurgent/SSB-X",
+      "updated": "2026-10-15",
+      "strategy": "Native console port with Xbox platform-layer reimplementation",
+      "language": "",
+      "source_available": "Public source repository; no game data is included; user supplies a supported U.S. ROM",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "subtype": "Original Xbox target; U.S. N64 v1.0 source ROM",
+      "sources": [
+        {
+          "label": "Maintainer README (target, method, status, and source requirements)",
+          "url": "https://github.com/Team-Resurgent/SSB-X#readme"
+        },
+        {
+          "label": "GitHub repository page (primary language: C)",
+          "url": "https://github.com/Team-Resurgent/SSB-X"
+        }
+      ],
+      "programming_language": "C"
+    },
+    {
+      "id": "animal-crossing-anbernic-h700-port",
+      "title": "Animal Crossing Anbernic H700 Port",
+      "game": "Animal Crossing",
+      "target_type": "Game",
+      "platform": "Nintendo GameCube → Anbernic H700 Linux handhelds",
+      "kind": "Reimplementation",
+      "status": "The maintainer reports boots, rendering, and saving on RG-34XX SP hardware, with about 56 fps average in v0.3.0; end-to-end testing is still pending.",
+      "summary": "Native ARM port of the GameCube decompilation for PortMaster-capable H700 handhelds; the GX interface is mapped to OpenGL ES 3.2.",
+      "project_url": "https://github.com/TechProGabe/OpenCrossing-Anbernic",
+      "updated": "2026-10-15",
+      "strategy": "Decompilation-based ARM native port with GX-to-OpenGL ES translation",
+      "language": "",
+      "source_available": "Public source and release packages; user supplies the supported U.S. disc image; game data is not included",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "subtype": "Anbernic H700 handhelds; muOS, Knulli, PortMaster",
+      "sources": [
+        {
+          "label": "Maintainer README (target, method, status, and source requirements)",
+          "url": "https://github.com/TechProGabe/OpenCrossing-Anbernic#readme"
+        },
+        {
+          "label": "Project releases",
+          "url": "https://github.com/TechProGabe/OpenCrossing-Anbernic/releases"
+        },
+        {
+          "label": "GitHub repository page (primary language: C)",
+          "url": "https://github.com/TechProGabe/OpenCrossing-Anbernic"
+        }
+      ],
+      "programming_language": "C"
+    },
+    {
+      "id": "mario-strikers-charged-wiicompiled",
+      "title": "Mario Strikers Charged WiiCompiled Port",
+      "game": "Mario Strikers Charged",
+      "target_type": "Game",
+      "platform": "Nintendo Wii → Windows, Linux, and macOS",
+      "kind": "Recompilation",
+      "status": "Early work in progress; the maintainer reports boot, menus, hub, tutorials, matches, audio, and saving on Apple Silicon macOS, while Windows/Linux are untested and no prebuilt releases are provided.",
+      "summary": "Static PowerPC recompilation of the U.S. Rev 1 game to native C++ with a host runtime; the project says it does not use an emulator, interpreter, or JIT.",
+      "project_url": "https://github.com/BlackAndBlue95/Strikers-WiiCompiled",
+      "updated": "2026-10-15",
+      "strategy": "Static PowerPC-to-C++ recompilation",
+      "language": "",
+      "source_available": "Public source repository; user supplies a legally dumped supported game; no game data is included",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "subtype": "U.S. Rev 1 R4QE01; Apple Silicon testing",
+      "sources": [
+        {
+          "label": "Maintainer README (target, method, status, and source requirements)",
+          "url": "https://github.com/BlackAndBlue95/Strikers-WiiCompiled#readme"
+        },
+        {
+          "label": "GitHub repository page (primary language: C++)",
+          "url": "https://github.com/BlackAndBlue95/Strikers-WiiCompiled"
+        }
+      ],
+      "programming_language": "C++"
+    },
+    {
+      "id": "wind-waker-hd-nwiiu-recomp-preview",
+      "title": "The Wind Waker HD nWiiURecomp Preview",
+      "game": "The Legend of Zelda: The Wind Waker HD",
+      "target_type": "Game",
+      "platform": "Nintendo Wii U → native PC",
+      "kind": "Recompilation",
+      "status": "Early startup bring-up only: the README reports EU v0 executable authentication, section/relocation mapping, Cafe ABI initialization, and deterministic progress through startup; it does not claim playable gameplay.",
+      "summary": "Static PowerPC recompilation through the nWiiURecomp compiler and Cafe OS runtime; the README says Wind Waker HD is its sole validated title profile.",
+      "project_url": "https://github.com/BlackLineInteractive/nWiiURecomp",
+      "updated": "2026-10-15",
+      "strategy": "Static Wii U PowerPC recompilation with Cafe OS runtime",
+      "language": "",
+      "source_available": "Public source repository; user-provided Wii U executable/game dump required",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "subtype": "EU v0 profile is the only validated game target",
+      "sources": [
+        {
+          "label": "Maintainer README (target, method, status, and source requirements)",
+          "url": "https://github.com/BlackLineInteractive/nWiiURecomp#readme"
+        },
+        {
+          "label": "GitHub repository page (primary language: C++)",
+          "url": "https://github.com/BlackLineInteractive/nWiiURecomp"
+        }
+      ],
+      "programming_language": "C++"
+    },
+    {
+      "id": "nintendo-wii-gc-recomp-toolkit",
+      "title": "NWiiRecomp GameCube/Wii Static Recompilation Toolkit",
+      "game": "Nintendo GameCube and Wii executables (general-purpose toolkit)",
+      "target_type": "Software",
+      "platform": "Nintendo GameCube / Wii → native host code",
+      "kind": "Recompilation",
+      "status": "The README describes a C++20 static recompilation workflow and reports test bring-up for Mario Party 7 and Need for Speed: Hot Pursuit 2; it does not provide a general compatibility guarantee.",
+      "summary": "Developer toolkit that translates GameCube/Wii DOL/ELF executables to native C++ and supplies a custom HLE runtime and renderer.",
+      "project_url": "https://github.com/BlackLineInteractive/NWiiRecomp",
+      "updated": "2026-10-15",
+      "strategy": "Static PowerPC-to-C++ recompilation and custom HLE runtime",
+      "language": "",
+      "source_available": "Public source repository; game executables and assets are not included",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "subtype": "General-purpose GameCube/Wii static recompilation toolkit",
+      "sources": [
+        {
+          "label": "Maintainer README (target, method, status, and source requirements)",
+          "url": "https://github.com/BlackLineInteractive/NWiiRecomp#readme"
+        },
+        {
+          "label": "GitHub repository page (primary language: C++)",
+          "url": "https://github.com/BlackLineInteractive/NWiiRecomp"
+        }
+      ],
+      "programming_language": "C++"
+    },
+    {
+      "id": "gcrecomp-gamecube-recomp-toolkit",
+      "title": "gcrecomp GameCube Static Recompilation Toolkit",
+      "game": "Nintendo GameCube software (general-purpose toolkit)",
+      "target_type": "Software",
+      "platform": "Nintendo GameCube → native x86-64",
+      "kind": "Recompilation",
+      "status": "The README describes an experimental reusable toolkit with a PowerPC-to-C translator, GameCube OS/runtime replacements, and GX-to-Direct3D 11 translation; game compatibility is not established.",
+      "summary": "GameCube static recompilation toolkit with an ahead-of-time C/C++ recompiler and a host runtime for Dolphin OS, GX graphics, audio, and input.",
+      "project_url": "https://github.com/sp00nznet/gcrecomp",
+      "updated": "2026-10-15",
+      "strategy": "Static PowerPC recompilation with host runtime",
+      "language": "",
+      "source_available": "Public source repository; no game code or assets are included",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "subtype": "GameCube Gekko/Flipper native PC toolkit",
+      "sources": [
+        {
+          "label": "Maintainer README (target, method, status, and source requirements)",
+          "url": "https://github.com/sp00nznet/gcrecomp#readme"
+        },
+        {
+          "label": "GitHub repository page (primary language: C++)",
+          "url": "https://github.com/sp00nznet/gcrecomp"
+        }
+      ],
+      "programming_language": "C++"
+    },
+    {
+      "id": "super-mario-64-gc-libultragx-port",
+      "title": "Super Mario 64 GameCube/Wii libultragx Port",
+      "game": "Super Mario 64",
+      "target_type": "Game",
+      "platform": "Nintendo 64 → Nintendo GameCube / Wii",
+      "kind": "Reimplementation",
+      "status": "The libultragx README reports Ghostship playable start-to-finish under Dolphin; it says native console hardware testing has not yet occurred, though the GameCube build compiles and links.",
+      "summary": "N64 decompilation-based port using a native GameCube/Wii implementation of libultra, libultraship, and Fast3D.",
+      "project_url": "https://github.com/paradox-ng/libultragx",
+      "updated": "2026-10-15",
+      "strategy": "Native N64 runtime/API reimplementation for GameCube/Wii",
+      "language": "",
+      "source_available": "Public source repositories; original ROM and generated game-data archive are user-provided",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "subtype": "Ghostship target; Dolphin-tested, native console runtime not yet brought up",
+      "sources": [
+        {
+          "label": "libultragx maintainer README: three target-port status table and runtime approach",
+          "url": "https://github.com/paradox-ng/libultragx#readme"
+        },
+        {
+          "label": "Game-specific source project README",
+          "url": "https://github.com/HarbourMasters/Ghostship#readme"
+        },
+        {
+          "label": "GitHub repository page (primary language: C++)",
+          "url": "https://github.com/paradox-ng/libultragx"
+        }
+      ],
+      "programming_language": "C++"
+    },
+    {
+      "id": "star-fox-64-gc-libultragx-port",
+      "title": "Star Fox 64 GameCube/Wii libultragx Port",
+      "game": "Star Fox 64",
+      "target_type": "Game",
+      "platform": "Nintendo 64 → Nintendo GameCube / Wii",
+      "kind": "Reimplementation",
+      "status": "The libultragx README reports that Starship boots and runs at 30 fps with audio under Dolphin, with menu geometry still incorrect; real console hardware testing has not occurred.",
+      "summary": "N64 game port using libultragx to run the Starship codebase on GameCube/Wii hardware through native libogc/GX services.",
+      "project_url": "https://github.com/paradox-ng/libultragx",
+      "updated": "2026-10-15",
+      "strategy": "Native N64 runtime/API reimplementation for GameCube/Wii",
+      "language": "",
+      "source_available": "Public source repositories; original ROM and generated game-data archive are user-provided",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "subtype": "Starship target; Dolphin-tested",
+      "sources": [
+        {
+          "label": "libultragx maintainer README: three target-port status table and runtime approach",
+          "url": "https://github.com/paradox-ng/libultragx#readme"
+        },
+        {
+          "label": "Game-specific source project README",
+          "url": "https://github.com/HarbourMasters/Starship#readme"
+        },
+        {
+          "label": "GitHub repository page (primary language: C++)",
+          "url": "https://github.com/paradox-ng/libultragx"
+        }
+      ],
+      "programming_language": "C++"
+    },
+    {
+      "id": "ocarina-of-time-gc-libultragx-port",
+      "title": "Ocarina of Time GameCube/Wii libultragx Port",
+      "game": "The Legend of Zelda: Ocarina of Time",
+      "target_type": "Game",
+      "platform": "Nintendo 64 → Nintendo GameCube / Wii",
+      "kind": "Reimplementation",
+      "status": "The libultragx README reports that Shipwright compiles as native PowerPC and links, but does not yet run; real console testing has not occurred.",
+      "summary": "N64 decompilation-based Shipwright port being adapted to GameCube/Wii through the libultragx native runtime.",
+      "project_url": "https://github.com/paradox-ng/libultragx",
+      "updated": "2026-10-15",
+      "strategy": "Native N64 runtime/API reimplementation for GameCube/Wii",
+      "language": "",
+      "source_available": "Public source repositories; original ROM and generated game-data archive are user-provided",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "subtype": "Shipwright target; compiles/links only",
+      "sources": [
+        {
+          "label": "libultragx maintainer README: three target-port status table and runtime approach",
+          "url": "https://github.com/paradox-ng/libultragx#readme"
+        },
+        {
+          "label": "Game-specific source project README",
+          "url": "https://github.com/HarbourMasters/Shipwright#readme"
+        },
+        {
+          "label": "GitHub repository page (primary language: C++)",
+          "url": "https://github.com/paradox-ng/libultragx"
+        }
+      ],
+      "programming_language": "C++"
+    },
+    {
+      "id": "ocarina-of-time-wii-vc-n64-emulator-decomp",
+      "title": "Wii Virtual Console N64 Emulator Decompilation",
+      "game": "Nintendo 64 Virtual Console emulator (Super Mario 64, Mario Kart 64, Ocarina of Time)",
+      "target_type": "Software",
+      "platform": "Nintendo Wii Virtual Console",
+      "kind": "Decompilation",
+      "status": "Work in progress; the README lists supported Wii Virtual Console builds for Super Mario 64 and Mario Kart 64 across Japan/U.S./Europe and Ocarina of Time Japan/U.S. builds.",
+      "summary": "Source decompilation of the N64 emulator embedded in Wii Virtual Console titles; the repository documents per-title regional configurations.",
+      "project_url": "https://github.com/zeldaret/oot-vc",
+      "updated": "2026-10-15",
+      "strategy": "Virtual Console emulator decompilation",
+      "language": "",
+      "source_available": "Public source repository",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "subtype": "Wii Virtual Console N64 emulator code",
+      "sources": [
+        {
+          "label": "Maintainer README (target, method, status, and source requirements)",
+          "url": "https://github.com/zeldaret/oot-vc#readme"
+        },
+        {
+          "label": "Project progress page",
+          "url": "https://decomp.dev/zeldaret/oot-vc"
+        },
+        {
+          "label": "GitHub repository page (primary language: C)",
+          "url": "https://github.com/zeldaret/oot-vc"
+        }
+      ],
+      "programming_language": "C"
+    },
+    {
+      "id": "ocarina-of-time-gamecube-n64-emulator-decomp",
+      "title": "GameCube N64 Emulator Decompilation for Ocarina of Time",
+      "game": "Ocarina of Time (GameCube Master Quest / Collector’s Edition emulator)",
+      "target_type": "Software",
+      "platform": "Nintendo GameCube",
+      "kind": "Decompilation",
+      "status": "Work in progress; the README lists Master Quest and Collector’s Edition configurations for Japan, North America, and Europe.",
+      "summary": "Source decompilation of the N64 emulator used in the GameCube Ocarina of Time releases.",
+      "project_url": "https://github.com/zeldaret/oot-gc",
+      "updated": "2026-10-15",
+      "strategy": "GameCube embedded N64 emulator decompilation",
+      "language": "",
+      "source_available": "Public source repository",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "subtype": "GameCube Ocarina of Time emulator code",
+      "sources": [
+        {
+          "label": "Maintainer README (target, method, status, and source requirements)",
+          "url": "https://github.com/zeldaret/oot-gc#readme"
+        },
+        {
+          "label": "Project progress page",
+          "url": "https://decomp.dev/zeldaret/oot-gc"
+        },
+        {
+          "label": "GitHub repository page (primary language: C)",
+          "url": "https://github.com/zeldaret/oot-gc"
+        }
+      ],
+      "programming_language": "C"
+    },
+    {
+      "id": "pokemon-yellow-disassembly",
+      "title": "Pokémon Yellow Disassembly",
+      "game": "Pokémon Yellow",
+      "target_type": "Game",
+      "platform": "Nintendo Game Boy",
+      "kind": "Decompilation",
+      "status": "The README documents builds for the Yellow retail ROM, a debug ROM, and a patch, with hashes for each target.",
+      "summary": "Assembly disassembly project that rebuilds Pokémon Yellow and its associated debug and patch outputs.",
+      "project_url": "https://github.com/pret/pokeyellow",
+      "updated": "2026-10-15",
+      "strategy": "GB-Z80 assembly disassembly",
+      "language": "",
+      "source_available": "Public source repository; user supplies a supported baserom",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "subtype": "Retail and debug build targets",
+      "sources": [
+        {
+          "label": "Maintainer README (target, method, status, and source requirements)",
+          "url": "https://github.com/pret/pokeyellow#readme"
+        },
+        {
+          "label": "GitHub repository page (primary language: Assembly)",
+          "url": "https://github.com/pret/pokeyellow"
+        }
+      ],
+      "programming_language": "Assembly"
+    },
+    {
+      "id": "pokemon-puzzle-challenge-disassembly",
+      "title": "Pokémon Puzzle Challenge Disassembly",
+      "game": "Pokémon Puzzle Challenge",
+      "target_type": "Game",
+      "platform": "Game Boy Color",
+      "kind": "Decompilation",
+      "status": "The README identifies the U.S. ROM as a base and documents assembly of a rebuilt ROM plus a patch.",
+      "summary": "Game Boy Color assembly disassembly for Pokémon Puzzle Challenge with a buildable ROM output.",
+      "project_url": "https://github.com/pret/pokepuzzle",
+      "updated": "2026-10-15",
+      "strategy": "GB-Z80 assembly disassembly",
+      "language": "",
+      "source_available": "Public source repository; user supplies the supported baserom",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "subtype": "U.S. Game Boy Color version",
+      "sources": [
+        {
+          "label": "Maintainer README (target, method, status, and source requirements)",
+          "url": "https://github.com/pret/pokepuzzle#readme"
+        },
+        {
+          "label": "GitHub repository page (primary language: Assembly)",
+          "url": "https://github.com/pret/pokepuzzle"
+        }
+      ],
+      "programming_language": "Assembly"
+    },
+    {
+      "id": "pokemon-gold-silver-spaceworld-1997-disassembly",
+      "title": "Pokémon Gold and Silver Space World 1997 Demo Disassembly",
+      "game": "Pokémon Gold and Silver (Space World 1997 prototype demo)",
+      "target_type": "Game",
+      "platform": "Nintendo Game Boy",
+      "kind": "Decompilation",
+      "status": "The README lists reproducible Gold and Silver prototype/demo outputs, including debug variants and checksums.",
+      "summary": "Assembly disassembly project for the Pokémon Gold/Silver prototypes shown at Space World 1997.",
+      "project_url": "https://github.com/pret/pokegold-spaceworld",
+      "updated": "2026-10-15",
+      "strategy": "GB-Z80 prototype disassembly",
+      "language": "",
+      "source_available": "Public source repository; prototype binaries are not distributed as source assets",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "subtype": "Gold/Silver prototype and debug ROM targets",
+      "sources": [
+        {
+          "label": "Maintainer README (target, method, status, and source requirements)",
+          "url": "https://github.com/pret/pokegold-spaceworld#readme"
+        },
+        {
+          "label": "GitHub repository page (primary language: Assembly)",
+          "url": "https://github.com/pret/pokegold-spaceworld"
+        }
+      ],
+      "programming_language": "Assembly"
+    },
+    {
+      "id": "pokemon-pinball-ruby-sapphire-disassembly",
+      "title": "Pokémon Pinball: Ruby & Sapphire Disassembly",
+      "game": "Pokémon Pinball: Ruby & Sapphire",
+      "target_type": "Game",
+      "platform": "Game Boy Advance",
+      "kind": "Decompilation",
+      "status": "The README identifies a buildable GBA ROM target and hash.",
+      "summary": "GBA assembly disassembly project for Pokémon Pinball: Ruby & Sapphire.",
+      "project_url": "https://github.com/pret/pokepinballrs",
+      "updated": "2026-10-15",
+      "strategy": "ARM/Thumb assembly disassembly",
+      "language": "",
+      "source_available": "Public source repository; user supplies the supported baserom",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "subtype": "GBA ROM output",
+      "sources": [
+        {
+          "label": "Maintainer README (target, method, status, and source requirements)",
+          "url": "https://github.com/pret/pokepinballrs#readme"
+        },
+        {
+          "label": "GitHub repository page (primary language: Assembly)",
+          "url": "https://github.com/pret/pokepinballrs"
+        }
+      ],
+      "programming_language": "Assembly"
+    },
+    {
+      "id": "pokemon-emerald-japanese-disassembly",
+      "title": "Pokémon Emerald Japanese Version Disassembly",
+      "game": "Pokémon Emerald (Japanese version)",
+      "target_type": "Game",
+      "platform": "Game Boy Advance",
+      "kind": "Decompilation",
+      "status": "The README identifies the Japanese baserom required and the resulting GBA ROM target.",
+      "summary": "Japanese-version Emerald source disassembly project with an explicit build output and SHA-1.",
+      "project_url": "https://github.com/pret/pokeemerald-jp",
+      "updated": "2026-10-15",
+      "strategy": "ARM/Thumb assembly disassembly",
+      "language": "",
+      "source_available": "Public source repository; user supplies the Japanese baserom",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "subtype": "Japanese version",
+      "sources": [
+        {
+          "label": "Maintainer README (target, method, status, and source requirements)",
+          "url": "https://github.com/pret/pokeemerald-jp#readme"
+        },
+        {
+          "label": "GitHub repository page (primary language: Assembly)",
+          "url": "https://github.com/pret/pokeemerald-jp"
+        }
+      ],
+      "programming_language": "Assembly"
+    },
+    {
+      "id": "pokemon-mystery-dungeon-explorers-sky-disassembly",
+      "title": "Pokémon Mystery Dungeon: Explorers of Sky Disassembly",
+      "game": "Pokémon Mystery Dungeon: Explorers of Sky",
+      "target_type": "Game",
+      "platform": "Nintendo DS",
+      "kind": "Decompilation",
+      "status": "Work in progress; the README lists U.S., European, and Japanese NDS build targets with hashes.",
+      "summary": "Nintendo DS disassembly project for Explorers of Sky with three explicitly listed regional ROM outputs.",
+      "project_url": "https://github.com/pret/pmd-sky",
+      "updated": "2026-10-15",
+      "strategy": "Nintendo DS ARM assembly disassembly",
+      "language": "",
+      "source_available": "Public source repository; user supplies a supported game copy",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "subtype": "U.S., Europe, and Japan targets",
+      "sources": [
+        {
+          "label": "Maintainer README (target, method, status, and source requirements)",
+          "url": "https://github.com/pret/pmd-sky#readme"
+        },
+        {
+          "label": "GitHub repository page (primary language: Assembly)",
+          "url": "https://github.com/pret/pmd-sky"
+        }
+      ],
+      "programming_language": "Assembly"
+    },
+    {
+      "id": "pokemon-stadium-2-decomp",
+      "title": "Pokémon Stadium 2 Decompilation",
+      "game": "Pokémon Stadium 2",
+      "target_type": "Game",
+      "platform": "Nintendo 64",
+      "kind": "Decompilation",
+      "status": "Work in progress; the README describes U.S./Japanese targets and requires a user-provided ROM.",
+      "summary": "N64 decompilation project for Pokémon Stadium 2 with U.S. and Japanese build targets.",
+      "project_url": "https://github.com/pret/pokestadiumgs",
+      "updated": "2026-10-15",
+      "strategy": "Matching C decompilation",
+      "language": "",
+      "source_available": "Public source repository; original ROM required",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "subtype": "U.S. and Japanese targets",
+      "sources": [
+        {
+          "label": "Maintainer README (target, method, status, and source requirements)",
+          "url": "https://github.com/pret/pokestadiumgs#readme"
+        },
+        {
+          "label": "GitHub repository page (primary language: C)",
+          "url": "https://github.com/pret/pokestadiumgs"
+        }
+      ],
+      "programming_language": "C"
+    },
+    {
+      "id": "pokemon-colosseum-multiboot-decomp",
+      "title": "Pokémon Colosseum Multiboot Decompilation",
+      "game": "Pokémon Colosseum GBA multiboot application",
+      "target_type": "Software",
+      "platform": "Game Boy Advance (multiboot image bundled with FireRed, LeafGreen, and Emerald)",
+      "kind": "Decompilation",
+      "status": "The README documents two build outputs for the multiboot image embedded in Pokémon FireRed, LeafGreen, and Emerald.",
+      "summary": "Source project for the Pokémon Colosseum GBA multiboot image; the maintainer description identifies it as a decompilation.",
+      "project_url": "https://github.com/pret/colosseum-mb",
+      "updated": "2026-10-15",
+      "strategy": "GBA multiboot image decompilation",
+      "language": "",
+      "source_available": "Public source repository; bundled original image is not included",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "subtype": "Game Boy Advance multiboot software",
+      "sources": [
+        {
+          "label": "Maintainer README (target, method, status, and source requirements)",
+          "url": "https://github.com/pret/colosseum-mb#readme"
+        },
+        {
+          "label": "GitHub repository page (primary language: C++)",
+          "url": "https://github.com/pret/colosseum-mb"
+        }
+      ],
+      "programming_language": "C++"
+    },
+    {
+      "id": "pokemon-berry-fix-program-decomp",
+      "title": "Pokémon Berry Fix Program Decompilation",
+      "game": "Pokémon Berry Fix Program",
+      "target_type": "Software",
+      "platform": "Game Boy Advance",
+      "kind": "Decompilation",
+      "status": "The README identifies the program as the berry-glitch patch multiboot included in Ruby/Sapphire and documents its rebuilt GBA ROM hash.",
+      "summary": "Decompilation of the GBA Berry Fix Program, a multiboot utility that patches the Ruby/Sapphire berry glitch.",
+      "project_url": "https://github.com/pret/berry-fix",
+      "updated": "2026-10-15",
+      "strategy": "GBA multiboot program decompilation",
+      "language": "",
+      "source_available": "Public source repository; user-supplied baserom required",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "subtype": "GBA multiboot utility ROM",
+      "sources": [
+        {
+          "label": "Maintainer README (target, method, status, and source requirements)",
+          "url": "https://github.com/pret/berry-fix#readme"
+        },
+        {
+          "label": "GitHub repository page (primary language: C)",
+          "url": "https://github.com/pret/berry-fix"
+        }
+      ],
+      "programming_language": "C"
+    },
+    {
+      "id": "gba-recomp-static-toolkit",
+      "title": "GBARecomp Static Recompilation Toolkit",
+      "game": "Game Boy Advance ROMs (general-purpose recompiler/runtime)",
+      "target_type": "Software",
+      "platform": "Game Boy Advance → native host code",
+      "kind": "Recompilation",
+      "status": "Experimental developer framework; README documents ARM/Thumb-to-C++ translation and a shared GBA hardware runtime, while noting that generated code and a game-specific host integration are separate work.",
+      "summary": "General-purpose GBA static recompiler that translates ROM code ahead of time and provides a native runtime; public examples live in separate game repositories.",
+      "project_url": "https://github.com/mstan/gbarecomp",
+      "updated": "2026-10-15",
+      "strategy": "Static ARM/Thumb-to-C++ recompilation framework",
+      "language": "",
+      "source_available": "Public source repository and CLI releases; game ROMs, BIOS, and game data are not included",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "subtype": "GBA static recompilation toolchain",
+      "sources": [
+        {
+          "label": "Maintainer README (target, method, status, and source requirements)",
+          "url": "https://github.com/mstan/gbarecomp#readme"
+        },
+        {
+          "label": "CLI releases",
+          "url": "https://github.com/mstan/gbarecomp/releases"
+        },
+        {
+          "label": "GitHub repository page (primary language: C++)",
+          "url": "https://github.com/mstan/gbarecomp"
+        }
+      ],
+      "programming_language": "C++"
+    },
+    {
+      "id": "nintendo-ds-ndsrecomp-toolkit",
+      "title": "ndsrecomp Nintendo DS Static Recompiler",
+      "game": "Nintendo DS ROMs (general-purpose recompiler)",
+      "target_type": "Software",
+      "platform": "Nintendo DS → native host code",
+      "kind": "Recompilation",
+      "status": "Very early pre-alpha (v0.6.10); the README reports one hash-verified firmware path, early bring-up across games, experimental online/local wireless, no stable API, and no turnkey clean-clone game build.",
+      "summary": "Nintendo DS static recompilation framework that lifts ARM code to C and runs it with a native runtime rather than interpreting immutable code banks.",
+      "project_url": "https://github.com/RetroPortingToolKit/ndsrecomp",
+      "updated": "2026-10-15",
+      "strategy": "Static ARM-to-C recompilation framework",
+      "language": "",
+      "source_available": "Public source repository; game and firmware data are not included",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "subtype": "Experimental Nintendo DS static recompilation toolkit",
+      "sources": [
+        {
+          "label": "Maintainer README (target, method, status, and source requirements)",
+          "url": "https://github.com/RetroPortingToolKit/ndsrecomp#readme"
+        },
+        {
+          "label": "GitHub repository page (primary language: C++)",
+          "url": "https://github.com/RetroPortingToolKit/ndsrecomp"
+        }
+      ],
+      "programming_language": "C++"
+    },
+    {
+      "id": "minish-cap-zeldaret-decomp",
+      "title": "The Legend of Zelda: The Minish Cap Decompilation",
+      "game": "The Legend of Zelda: The Minish Cap",
+      "target_type": "Game",
+      "platform": "Game Boy Advance",
+      "kind": "Decompilation",
+      "status": "Work in progress; the README supports U.S., Japanese, and European retail ROMs plus U.S./Japanese demos, and warns that some code is not yet shiftable.",
+      "summary": "Source reconstruction project for the GBA game; the README describes recreating the codebase from static/dynamic analysis and lists five regional/demo ROM targets.",
+      "project_url": "https://github.com/zeldaret/tmc",
+      "updated": "2026-10-15",
+      "strategy": "Source decompilation; some code sections are not yet shiftable",
+      "language": "",
+      "source_available": "Public source repository; supported game ROMs are user-provided",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "U.S., Japanese, and European retail plus U.S./Japanese demo targets",
+      "sources": [
+        {
+          "label": "Maintainer README: status, target revisions, and method",
+          "url": "https://github.com/zeldaret/tmc#readme"
+        },
+        {
+          "label": "Maintainer progress page",
+          "url": "https://zelda64.dev/games/tmc"
+        },
+        {
+          "label": "GitHub repository page (primary language: C)",
+          "url": "https://github.com/zeldaret/tmc"
+        }
+      ]
+    }
+  ],
+  "exclusions": [
+    {
+      "candidate": "Luigi’s Mansion GC decompilation, sage-of-mirrors/zmansion",
+      "reason": "Maintainer repository endpoint returned 404 during review; no accessible primary evidence to verify it.",
+      "evidence_url": "https://github.com/sage-of-mirrors/zmansion"
+    },
+    {
+      "candidate": "Metroid Prime 2: Echoes decompilation, PrimeDecomp/echoes",
+      "reason": "Repository endpoint returned 404 during review; no accessible primary evidence to verify it.",
+      "evidence_url": "https://github.com/PrimeDecomp/echoes"
+    },
+    {
+      "candidate": "Ratatouille GC decompilation, zounadecomp/ratdecomp",
+      "reason": "Repository endpoint returned 404 during review; no accessible primary evidence to verify it.",
+      "evidence_url": "https://github.com/zounadecomp/ratdecomp"
+    },
+    {
+      "candidate": "Skies of Arcadia Legends decompilation, rainchus/skiesofarcadialegends",
+      "reason": "Current README is still the generic DTK project-template text and does not establish a game-specific target implementation.",
+      "evidence_url": "https://github.com/rainchus/skiesofarcadialegends#readme"
+    },
+    {
+      "candidate": "Mario Party 6 decompilation, mariopartyrd/marioparty6",
+      "reason": "Current README is generic DTK project-template text and does not establish a Mario Party 6 implementation; existing Android port is a distinct catalog record.",
+      "evidence_url": "https://github.com/mariopartyrd/marioparty6#readme"
+    },
+    {
+      "candidate": "Crash Nitro Kart GBA decompilation, RayCarrot/CrashNitroKart-GBA-Decomp",
+      "reason": "Maintainer README explicitly says the repository contains no code and is only research/initial scaffolding; excluded until a target-specific implementation exists.",
+      "evidence_url": "https://github.com/RayCarrot/CrashNitroKart-GBA-Decomp#readme"
+    },
+    {
+      "candidate": "The Sims: Bustin’ Out GBA decompilation, SimsAdvanceRet/BustinOutGBADecomp",
+      "reason": "Public repository has only a brief WIP description and no target source/build evidence in the reviewed tree; held as an unverified placeholder.",
+      "evidence_url": "https://github.com/SimsAdvanceRet/BustinOutGBADecomp"
+    },
+    {
+      "candidate": "Body Harvest old repository, DeltaniumIndustries/BodyHarvestDecomp",
+      "reason": "Its README explicitly redirects all work to jaytheham/body-harvest-decompilation; the current canonical repository is used instead.",
+      "evidence_url": "https://github.com/DeltaniumIndustries/BodyHarvestDecomp#readme"
+    },
+    {
+      "candidate": "The Incredibles mirror, seilweiss/incredibles",
+      "reason": "GitHub resolves this identity to the already-cataloged canonical repository seilc/incredibles; treated as an alias, not a new project.",
+      "evidence_url": "https://github.com/seilweiss/incredibles"
+    },
+    {
+      "candidate": "3DS SDK repo, zeldaret/3ds_sdk",
+      "reason": "No project README or description establishing a specific decompilation target or software scope was found.",
+      "evidence_url": "https://github.com/zeldaret/3ds_sdk"
+    },
+    {
+      "candidate": "Metroid Prime 2 entry in the GameCube project list",
+      "reason": "The listed PrimeDecomp/echoes URL was unavailable (404) during primary-source validation."
+    },
+    {
+      "candidate": "The Minish Cap decompilation source already linked from the PC/Switch port record",
+      "reason": "The upstream zeldaret/tmc source decomp is a distinct Game Boy Advance target from the existing HayatoG/tmc native port, so it is included as its own Decompilation row rather than merged into the port record."
+    }
+  ],
+  "catalog_duplicates_skipped": [],
+  "review_notes": [
+    {
+      "topic": "The Minish Cap source vs ports",
+      "note": "The upstream zeldaret/tmc matching-source decompilation is listed as a separate Game Boy Advance Decompilation row. Existing Minish Cap rows describe ports/recompilations and remain separate targets."
+    },
+    {
+      "topic": "libultragx target records",
+      "note": "Three rows share paradox-ng/libultragx because its README names separate Ghostship, Starship, and Shipwright game targets and gives each a distinct validation status."
+    }
+  ]
+}

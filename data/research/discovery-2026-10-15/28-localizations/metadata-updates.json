@@ -1,0 +1,74 @@
+{
+  "updated": "2026-10-15",
+  "updates": [
+    {
+      "id": "summer-time-rendering-another-horizon-en",
+      "fields": {
+        "status": "Public English patch v0.13 released 2026-09-01; the first downloadable release covers dialogue, tips, chapter intros, flowchart, menus, metadata, speaker plates, action prompts, and manual pages. Three settings tabs remain Japanese and some long tips are summarized.",
+        "summary": "Nintendo Switch English fan patch based on the existing Simplified Chinese localization. The v0.13 release provides an Atmosphere/LayeredFS ZIP and translates dialogue, tips, menus, flowchart, chapter intros, and image text including speaker plates and QTE prompts. The maintainer documents remaining Japanese settings labels and summarized long tips.",
+        "updated": "2026-09-01",
+        "source_available": "Public source and documentation plus downloadable v0.13 Atmosphere/LayeredFS patch ZIP; requires the user's legally owned Switch game and Atmosphere CFW."
+      },
+      "sources": [
+        {
+          "label": "v0.13 public patch release: coverage, installation, and known limitations",
+          "url": "https://github.com/Dream-Cypher/STRAHLocalization/releases/tag/v0.13"
+        },
+        {
+          "label": "Maintainer README and patch documentation",
+          "url": "https://github.com/Dream-Cypher/STRAHLocalization#readme"
+        }
+      ],
+      "evidence_note": "This supersedes the sibling 12-localizations manifest's older 'no tagged binary patch release' status: the maintainer published v0.13 on 2026-09-01 and documents a downloadable Switch ZIP. The release itself lists coverage and the known Japanese settings tabs/tip summaries."
+    },
+    {
+      "id": "dqxi-3ds-en",
+      "fields": {
+        "status": "GitHub release 1.0 published 2026-10-13; the README calls its payload v18. The Windows build recipes output LayeredFS or a reconstructed CIA, but the maintainer says no build from actual game sources or end-to-end emulator/console gameplay has been verified for the compact-storage revision.",
+        "summary": "Windows patch builder for the Japanese 3DS version of Dragon Quest XI, using compatible user-owned PC Definitive Edition resources for English text, voices, and movies. It outputs a LayeredFS mod or rebuilt CIA. The release includes game-derived patch data; the maintainer documents unresolved redistribution-rights review and says synthetic checks do not establish a successful real-game build or gameplay compatibility.",
+        "updated": "2026-10-13",
+        "source_available": "Public GitHub release 1.0 and source/build recipes; requires user-owned Japanese 3DS CIA and compatible Windows DQXI S files. Package includes game-derived patch material, with redistribution/licensing issues expressly documented by maintainer."
+      },
+      "sources": [
+        {
+          "label": "GitHub release 1.0 dated 2026-10-13",
+          "url": "https://github.com/BlackDes1/Dragon-Quest-XI-3DS-Translation-Voice-Patch/releases/tag/1.0"
+        },
+        {
+          "label": "Maintainer README: v18 package, compatible inputs, output formats, and build validation limits",
+          "url": "https://github.com/BlackDes1/Dragon-Quest-XI-3DS-Translation-Voice-Patch#readme"
+        },
+        {
+          "label": "Maintainer copyright and redistribution notes",
+          "url": "https://github.com/BlackDes1/Dragon-Quest-XI-3DS-Translation-Voice-Patch/blob/main/COPYRIGHT.md"
+        }
+      ],
+      "evidence_note": "This adds the previously unrecorded GitHub release tag/date (1.0, 2026-10-13) while retaining the README's v18 package identifier. The README states the compact-storage build has not completed with actual game inputs and reports no complete emulator or original-hardware gameplay verification; it also identifies game-derived content and unresolved rights review."
+    },
+    {
+      "id": "segagaga-dreamcast-en",
+      "fields": {
+        "project_url": "https://github.com/ExxistanceDC/Segagaga-English-Translation",
+        "status": "Complete English translation; v1.1 release published 2026-09-12 adds debug-mode access, a text-overrun fix, and many text fixes. Current releases provide DCP for GDI images and xdelta for CDI images.",
+        "summary": "English translation patch for the Japan-only Sega Dreamcast RPG. The v1.1 release adds debug-mode accessibility and text fixes; its current format options are DCP for GDI and xdelta for CDI (the GDI xdelta option was removed). The maintainer README describes translated dialogue, cutscenes, credits, interface textures, and VMU metadata.",
+        "updated": "2026-09-12",
+        "source_available": "Maintainer source repository and v1.1 patch assets: DCP for GDI images and xdelta for CDI images; no game image is distributed."
+      },
+      "sources": [
+        {
+          "label": "Original maintainer repository and full translation documentation",
+          "url": "https://github.com/ExxistanceDC/Segagaga-English-Translation#readme"
+        },
+        {
+          "label": "v1.1 release: release date, patch formats, and changes",
+          "url": "https://github.com/ExxistanceDC/Segagaga-English-Translation/releases/tag/v1.1"
+        },
+        {
+          "label": "Existing catalog repository is a fork of the maintainer source",
+          "url": "https://github.com/sega-dreamcast/segagaga-english-translation"
+        }
+      ],
+      "evidence_note": "The catalog currently points to a GitHub fork of the ExxistanceDC maintainer repository. The fork page identifies its parent, while the parent repository has the active v1.1 release dated 2026-09-12. Update the canonical project URL and release/patch-format details from the original source."
+    }
+  ]
+}

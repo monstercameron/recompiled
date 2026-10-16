@@ -1,0 +1,564 @@
+{
+  "updated": "2026-10-15",
+  "research_lane": "28-localizations",
+  "catalog_snapshot": "897 projects in data/catalog.sqlite, checked 2026-10-15",
+  "projects": [
+    {
+      "id": "oni-zero-fukkatsu-ps1-en",
+      "title": "Oni Zero: Fukkatsu English Translation",
+      "game": "Oni Zero: Fukkatsu",
+      "target_type": "Game",
+      "platform": "PlayStation (DuckStation tested; real-console support not verified)",
+      "kind": "Fan Localization",
+      "status": "Maintainer describes the English translation as complete; v1.0 patch files were published in the repository on 2026-10-03. README reports a New Game-to-credits DuckStation playthrough; real hardware was not tested.",
+      "summary": "English patch for the Japan-only PlayStation RPG. The maintainer says dialogue, menus, items, skills, enemies, notices, request sheets, roughly 780 on-screen images, and prologue-video subtitles are translated. The patch also bypasses the original save-data gate. Some debug menus and calligraphy artwork remain Japanese.",
+      "project_url": "https://github.com/chivien99999/oni-zero-fukkatsu-english",
+      "updated": "2026-10-03",
+      "strategy": "Fan translation patch",
+      "language": "English",
+      "language_field_semantics": "language and target_languages identify the output language; source_language identifies the original game language.",
+      "source_language": "Japanese",
+      "target_languages": "English",
+      "language_pair": "Japanese → English",
+      "source_available": "Repository contains four-part xdelta patch, cue file, Python patcher, Windows batch wrapper, and checksums; no game image or tagged GitHub release.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "Python (patcher)",
+      "subtype": "PlayStation fan translation",
+      "patch_release": {
+        "version": "v1.0",
+        "date": "2026-10-03",
+        "distribution": "Patch files committed to repository root; no tagged release identified"
+      },
+      "patch_format": "Four-part xdelta patch for a single-track BIN/CUE image; apply with the included Python 3 patcher or Windows batch file.",
+      "supported_game_build": "Japanese Pandora MAX Series Vol. 6 release, SLPS-03106; README requires a 596,149,680-byte BIN with SHA-256 72bfd70113cb068da520917962342478bf0163790a98a013dbd8d506865a6c02.",
+      "release_source": "Maintainer GitHub repository",
+      "caveats": [
+        "Requires the user's own matching Japanese disc image; the repository does not include the game.",
+        "README says some debug menus and brush-calligraphy artwork remain Japanese and that no real PlayStation testing was done."
+      ],
+      "sources": [
+        {
+          "label": "Maintainer README: translation coverage, exact source image, patch procedure, emulator testing, and caveats",
+          "url": "https://github.com/chivien99999/oni-zero-fukkatsu-english#readme"
+        }
+      ]
+    },
+    {
+      "id": "khamrai-ps1-en",
+      "title": "Khamrai English Translation",
+      "game": "Khamrai",
+      "target_type": "Game",
+      "platform": "PlayStation",
+      "kind": "Fan Localization",
+      "status": "Maintainer describes the translation as complete and labels both repository patch files v1.0; no tagged GitHub release was identified. GitHub API reports the repository was last pushed 2026-10-06 (activity date, not a release date).",
+      "summary": "English fan translation for Namco's Japan-only 2000 PlayStation RPG. The maintainer says all dialogue, menus, items, kamui, enemies, battle messages, place names, and in-game images are translated. Two xdelta variants are provided: a standard patch and an optional StatFloor balance adjustment.",
+      "project_url": "https://github.com/chivien99999/khamrai-english",
+      "updated": "2026-10-06",
+      "strategy": "Fan translation patch",
+      "language": "English",
+      "language_field_semantics": "language and target_languages identify the output language; source_language identifies the original game language.",
+      "source_language": "Japanese",
+      "target_languages": "English",
+      "language_pair": "Japanese → English",
+      "source_available": "Repository contains standard and StatFloor xdelta patches and a README; no full game image or tagged GitHub release.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "PlayStation fan translation",
+      "patch_release": {
+        "version": "v1.0",
+        "date": null,
+        "distribution": "Patch files committed to repository; no tagged release identified"
+      },
+      "patch_format": "Two xdelta patches applied to the matching clean Japanese BIN/CUE disc image: standard translation or optional StatFloor balance variant.",
+      "supported_game_build": "Japanese PlayStation SLPS-02640 / Redump BIN plus CUE; README documents the required source MD5 and output checksums.",
+      "release_source": "Maintainer GitHub repository",
+      "caveats": [
+        "Requires the user's own matching Japanese disc image; the game is not distributed.",
+        "The StatFloor variant changes level-up behavior so each stat rises by at least two; it is an optional gameplay tweak, not part of the standard translation.",
+        "The release date is not stated in a tagged release; the recorded updated date is the repository's last-push date."
+      ],
+      "sources": [
+        {
+          "label": "Maintainer README: translation coverage, source disc fingerprint, patch variants, and distribution",
+          "url": "https://github.com/chivien99999/khamrai-english#readme"
+        },
+        {
+          "label": "GitHub repository activity metadata (last push date only; not a release record)",
+          "url": "https://api.github.com/repos/chivien99999/khamrai-english"
+        }
+      ]
+    },
+    {
+      "id": "twilight-syndrome-ds-en-es",
+      "title": "Twilight Syndrome: Kinjirareta Toshi Densetsu English and Spanish Patches",
+      "game": "Twilight Syndrome: Kinjirareta Toshi Densetsu",
+      "target_type": "Game",
+      "platform": "Nintendo DS (patched ROM; release specifically reports testing in melonDS)",
+      "kind": "Fan Localization",
+      "status": "Active; v1.4 English and Spanish BPS patches released 2026-10-15. The release translates the main script and most remaining menu graphics; save-screen clipping and some other untranslated art remain documented limitations.",
+      "summary": "Dual-language fan patch for the Japan-only Nintendo DS horror adventure. Both patches cover the full script, menus, inventory, name tags, phone mail and phone screens; v1.4 adds story-intro posters, item-menu buttons, save/load graphics, and about 100 collectible-menu labels.",
+      "project_url": "https://github.com/Secabel/twilight-syndrome",
+      "updated": "2026-10-15",
+      "strategy": "Fan translation patches",
+      "language": "English, Spanish",
+      "language_field_semantics": "language and target_languages identify both output languages; source_language identifies the original game language.",
+      "source_language": "Japanese",
+      "target_languages": "English, Spanish",
+      "language_pair": "Japanese → English and Spanish",
+      "source_available": "Public source repository and v1.4 English/Spanish BPS patch assets; no game ROM is distributed.",
+      "first_found": "2026-10-15",
+      "project_started": "2026-09-09",
+      "programming_language": "",
+      "subtype": "Nintendo DS multilingual fan translation",
+      "patch_release": {
+        "version": "v1.4",
+        "date": "2026-10-15",
+        "download": "https://github.com/Secabel/twilight-syndrome/releases/tag/v1.4"
+      },
+      "patch_format": "BPS patches, one each for English and Spanish, applied to a verified original Japanese NDS ROM.",
+      "supported_game_build": "Twilight Syndrome - Kinjirareta Toshi Densetsu (Japan).nds, 134,217,728 bytes; CRC32 76F1DB67; SHA-1 129880d90ecc1b322255e56d4968b259a3e1aa15.",
+      "release_source": "Maintainer GitHub releases",
+      "caveats": [
+        "The patch requires the user's own matching Japanese ROM; no game ROM is distributed.",
+        "The v1.4 release identifies melonDS as its test environment. Known issues and untested paths are documented in the project README."
+      ],
+      "sources": [
+        {
+          "label": "Maintainer README and project source",
+          "url": "https://github.com/Secabel/twilight-syndrome#readme"
+        },
+        {
+          "label": "v1.4 release: languages, coverage, exact ROM fingerprint, and patch files",
+          "url": "https://github.com/Secabel/twilight-syndrome/releases/tag/v1.4"
+        }
+      ]
+    },
+    {
+      "id": "rhapsody-zephyr-remastered-multilingual",
+      "title": "The Rhapsody of Zephyr Remastered Multilingual Patch",
+      "game": "The Rhapsody of Zephyr Remastered",
+      "target_type": "Game",
+      "platform": "PC (Steam; Windows 10/11 x64 patcher)",
+      "kind": "Fan Localization",
+      "status": "Active; v0.5.5 released 2026-10-03 for Steam App 5099430 build 25674418. The maintainer says English text continues to receive corrections and not all branches have received line-by-line human acceptance.",
+      "summary": "Unofficial Simplified Chinese, Traditional Chinese, and English patch for the Steam remaster. It updates text, key story-animation lettering, fonts, and layout, with a language-selecting Windows installer that validates game resources and supports rollback. The English is AI-assisted from the Simplified Chinese version and is still being proofread; Traditional Chinese is converted from Simplified Chinese and is not fully regionally polished.",
+      "project_url": "https://github.com/wanjizheng/zephyr-remastered-multilingual",
+      "updated": "2026-10-03",
+      "strategy": "Fan translation and localization patch",
+      "language": "Simplified Chinese, Traditional Chinese, English",
+      "language_field_semantics": "language and target_languages identify available output languages; source_language records the Korean resource base and Simplified Chinese translation source described by the maintainer.",
+      "source_language": "Korean source resources for the Simplified Chinese retranslation; English is based on Simplified Chinese.",
+      "target_languages": "Simplified Chinese, Traditional Chinese, English",
+      "language_pair": "Korean → Simplified Chinese; Simplified Chinese → English (AI-assisted then reviewed) and Traditional Chinese (character conversion).",
+      "source_available": "Public MIT tool source and release ZIP with patcher and localization payload; requires a purchased Steam game and does not provide the game.",
+      "first_found": "2026-10-15",
+      "project_started": "2026-09-20",
+      "programming_language": "Python",
+      "subtype": "Steam remaster multilingual fan localization",
+      "patch_release": {
+        "version": "v0.5.5",
+        "date": "2026-10-03",
+        "download": "https://github.com/wanjizheng/zephyr-remastered-multilingual/releases/tag/v0.5.5"
+      },
+      "patch_format": "Windows installer ZIP with executable and localized payload; installer validates target files, creates backups, and can roll back or restore via Steam file verification.",
+      "supported_game_build": "Steam App 5099430, game build 25674418 (maintainer says this is the 2026-10-03 update).",
+      "release_source": "Maintainer GitHub releases",
+      "caveats": [
+        "Requires a legally purchased, compatible Steam install; unsupported resource versions cause the installer to stop.",
+        "The maintainer states the release includes localized video resources derived from the original game; the tool's MIT license does not grant rights to game content.",
+        "The English localization is AI-assisted from Simplified Chinese and is still being corrected; Traditional Chinese is conversion-based and not fully regionally edited.",
+        "The Windows program is not Authenticode-signed according to the README."
+      ],
+      "sources": [
+        {
+          "label": "Maintainer README: languages, supported Steam build, install process, and localization caveats",
+          "url": "https://github.com/wanjizheng/zephyr-remastered-multilingual#readme"
+        },
+        {
+          "label": "v0.5.5 release",
+          "url": "https://github.com/wanjizheng/zephyr-remastered-multilingual/releases/tag/v0.5.5"
+        }
+      ]
+    },
+    {
+      "id": "gloria-union-android-en",
+      "title": "Gloria Union Android English Fan Translation",
+      "game": "Gloria Union",
+      "target_type": "Game",
+      "platform": "Android game build; Windows patcher",
+      "kind": "Fan Localization",
+      "status": "Story-playable English v0.25 patch released 2026-09-01. The README calls this an early public release; late-game material and some art/UI areas have less coverage or testing.",
+      "summary": "English fan translation for the Android version of Gloria Union. The maintainer says the main story dialogue is readable in English and most essential menus, battle instructions, cards, requirements, items, equipment information, and result screens are localized. The patcher verifies the input APK by SHA-256 and outputs a translated APK.",
+      "project_url": "https://github.com/vw5hwbngy4-debug/gloria-union-english",
+      "updated": "2026-09-01",
+      "strategy": "Fan translation patch",
+      "language": "English",
+      "language_field_semantics": "language and target_languages identify the output language. Accessible maintainer material does not identify the Android game's source language, so source_language is left explicitly unknown.",
+      "source_language": "Not stated in the reviewed maintainer release notes.",
+      "target_languages": "English",
+      "language_pair": "Android game's original text → English; original language not stated in reviewed maintainer release notes.",
+      "source_available": "Public patcher source and v0.25 patch ZIP; exact original APK required; no complete modified APK is distributed.",
+      "first_found": "2026-10-15",
+      "project_started": "2026-09-01",
+      "programming_language": "Python",
+      "subtype": "Android game fan translation",
+      "patch_release": {
+        "version": "v0.25",
+        "date": "2026-09-01",
+        "download": "https://github.com/vw5hwbngy4-debug/gloria-union-english/releases/tag/v0.25"
+      },
+      "patch_format": "Windows patch ZIP; custom .gupatch bundle is applied to the user's original APK after exact SHA-256 verification.",
+      "supported_game_build": "Android original APK SHA-256 e10783d344c7a2fb8c229d224d20953946f1c91caac7eaa87fa7ce1fa9829c5e.",
+      "release_source": "Maintainer GitHub releases",
+      "caveats": [
+        "The project requires the exact supported original APK and does not distribute the game.",
+        "The maintainer describes v0.25 as the first story-playable public build; late-game routes and some visual assets are not fully reviewed."
+      ],
+      "sources": [
+        {
+          "label": "Maintainer README: scope, patch-only distribution, and source availability",
+          "url": "https://github.com/vw5hwbngy4-debug/gloria-union-english#readme"
+        },
+        {
+          "label": "v0.25 release: playable coverage, patch instructions, and exact APK fingerprint",
+          "url": "https://github.com/vw5hwbngy4-debug/gloria-union-english/releases/tag/v0.25"
+        },
+        {
+          "label": "Patch format documentation",
+          "url": "https://github.com/vw5hwbngy4-debug/gloria-union-english/blob/main/docs/PATCH_FORMAT.md"
+        }
+      ]
+    },
+    {
+      "id": "digimon-appli-monsters-3ds-en",
+      "title": "Digimon Universe: Appli Monsters English Fan Translation",
+      "game": "Digimon Universe: Appli Monsters",
+      "target_type": "Game",
+      "platform": "Nintendo 3DS (modded console) or Nintendo 3DS emulator",
+      "kind": "Fan Localization",
+      "status": "Complete English fan translation v1.3 released 2026-07-01; the project site says the game is playable in English from start to finish. The leader cautions that the English may be rough and is not a professional localization.",
+      "summary": "English patch for the Japan-only 3DS game. The maintainer's project page says the translation is complete and playable from start to finish, with console and emulator outputs. The project supplies desktop patching scripts for Windows, Linux, and macOS, plus an online browser patcher; the project leader openly notes that some English may be rough.",
+      "project_url": "https://geoku.github.io/appmon/",
+      "updated": "2026-07-01",
+      "strategy": "Fan translation patch",
+      "language": "English",
+      "language_field_semantics": "language and target_languages identify the output language; source_language identifies the original game language.",
+      "source_language": "Japanese",
+      "target_languages": "English",
+      "language_pair": "Japanese → English",
+      "source_available": "Maintainer website, GitHub release ZIP with VCDIFF patches and patch scripts, and an online patcher; original ROM is not provided.",
+      "first_found": "2026-10-15",
+      "project_started": "2025-05",
+      "programming_language": "Python, shell scripts",
+      "subtype": "Nintendo 3DS fan translation",
+      "patch_release": {
+        "version": "v1.3",
+        "date": "2026-07-01",
+        "download": "https://github.com/geoku/appmon_en/releases/tag/v1.3"
+      },
+      "patch_format": "VCDIFF patch; patcher produces CIA for a modded 3DS or CCI for an emulator. Desktop scripts are provided for Windows, Linux, and macOS; an online patcher is also available.",
+      "supported_game_build": "Untrimmed decrypted physical-cartridge dump, appmon.3ds, 1.0 GiB, SHA-1 5743d3f357d05d97124773618d5b6dde3c5e85b2.",
+      "release_source": "Maintainer website and GitHub releases",
+      "caveats": [
+        "Requires the user's own matching decrypted cartridge dump; the project explicitly says it does not provide the ROM.",
+        "The leader says the translation is amateur and may contain rough English. The README lists minor visual issues and online-only features that could not be seen/tested after those services ended."
+      ],
+      "sources": [
+        {
+          "label": "Official project site: completion statement, release history, ROM fingerprint, patching modes, and caveats",
+          "url": "https://geoku.github.io/appmon/"
+        },
+        {
+          "label": "v1.3 release",
+          "url": "https://github.com/geoku/appmon_en/releases/tag/v1.3"
+        },
+        {
+          "label": "Maintainer repository and contributor credits",
+          "url": "https://github.com/geoku/appmon_en#readme"
+        }
+      ]
+    },
+    {
+      "id": "fgo-arcade-scooby-en",
+      "title": "FGOAC scooby — English Patch and Launcher",
+      "game": "Fate/Grand Order Arcade (Cloud23333 local PC platform)",
+      "target_type": "Game",
+      "platform": "Windows 10/11 x64 PC local platform; Cloud23333 V1.01, V1.02, or latest update",
+      "kind": "Fan Localization",
+      "status": "Active; v1.3.0 release dated 2026-10-09 supports Cloud23333's latest update. The project reports the core offline single-player experience playable end-to-end; some event artwork and labels remain Japanese, and non-NVIDIA graphics compatibility is experimental.",
+      "summary": "English fan patch and launcher for the FGO Arcade local PC platform. The maintainer reports over 65,000 translated text rows, more than 220 rebuilt sprite archives, and an English launcher. It requires an existing local-platform install and runs offline against a local server; the repository does not provide the upstream platform or game itself.",
+      "project_url": "https://github.com/githubuser420x/FGOAC-scooby",
+      "updated": "2026-10-09",
+      "strategy": "Fan localization patch and launcher",
+      "language": "English",
+      "language_field_semantics": "language and target_languages identify the output language; source_language describes the Japanese game content and Chinese platform UI that the project replaces.",
+      "source_language": "Japanese game text; Chinese local-platform front end.",
+      "target_languages": "English",
+      "language_pair": "Japanese game text and Chinese local-platform UI → English",
+      "source_available": "Public MIT source and v1.3.0 release ZIP with launcher and patch; no complete game or upstream local-platform package.",
+      "first_found": "2026-10-15",
+      "project_started": "2026-09-14",
+      "programming_language": "C#",
+      "subtype": "Arcade-game local platform fan translation",
+      "patch_release": {
+        "version": "v1.3.0",
+        "date": "2026-10-09",
+        "download": "https://github.com/githubuser420x/FGOAC-scooby/releases/tag/v1.3.0"
+      },
+      "patch_format": "Launcher/release ZIP installed alongside the existing App and Server folders; the launcher applies English files and starts the local game server.",
+      "supported_game_build": "Cloud23333 local FGO Arcade platform V1.01, V1.02, and latest update; Windows 10/11 64-bit. README recommends V1.02 for upstream fixes.",
+      "release_source": "Maintainer GitHub releases",
+      "caveats": [
+        "Requires an existing Cloud23333 local platform installation; this repository does not distribute the original game or platform package.",
+        "The README lists some event/boss banners and other artwork labels that remain Japanese; AMD/Intel graphics compatibility is described as experimental."
+      ],
+      "sources": [
+        {
+          "label": "Maintainer README: translation coverage, dependencies, platform support, current gaps, and licensing",
+          "url": "https://github.com/githubuser420x/FGOAC-scooby#readme"
+        },
+        {
+          "label": "v1.3.0 release: latest upstream update compatibility and release changes",
+          "url": "https://github.com/githubuser420x/FGOAC-scooby/releases/tag/v1.3.0"
+        }
+      ]
+    },
+    {
+      "id": "postman-desktop-cn",
+      "title": "Postman CN Modern — Simplified Chinese UI Localization",
+      "game": "Postman Desktop",
+      "target_type": "Software",
+      "platform": "Windows 10/11; Postman Desktop 12.x (12.17.2 specifically tested)",
+      "kind": "Fan Localization",
+      "status": "Source-installable community localization; maintainer recommends Postman Desktop 12.x and identifies 12.17.2 as the main verified version. Repository has no tagged release or packaged installer release; the last repository push reported by GitHub API was 2026-07-01.",
+      "summary": "Reversible Simplified Chinese UI localization for Postman Desktop. A Node CLI and installer unpack the app ASAR, install a preload-based DOM localizer, retain a backup of the original app archive, and translate visible remote and native Electron menu text. The maintainer documents version limits and a live workflow for finding missing strings.",
+      "project_url": "https://github.com/zipenglu1/postman-cn-modern",
+      "updated": "2026-07-01",
+      "strategy": "Desktop application UI localization patch",
+      "language": "Simplified Chinese",
+      "language_field_semantics": "language and target_languages identify the UI output language; source_language identifies the original UI language.",
+      "source_language": "English",
+      "target_languages": "Simplified Chinese",
+      "language_pair": "English UI → Simplified Chinese",
+      "source_available": "Public MIT source repository, dictionary files, Node CLI, and Windows install/restore script; no tagged release archive identified.",
+      "first_found": "2026-10-15",
+      "project_started": "2026-04-25",
+      "programming_language": "JavaScript",
+      "subtype": "Windows desktop software UI localization",
+      "patch_release": {
+        "version": null,
+        "date": null,
+        "distribution": "Clone/source-install workflow; no GitHub release identified"
+      },
+      "patch_format": "Node installer unpacks Postman's ASAR, adds a preload DOM localizer, installs it as resources/app, and backs up app.asar for restore.",
+      "supported_game_build": "Postman Desktop 12.17.2 is specifically verified; README recommends 12.x, says 13.x is not supported, and discourages 11.x and earlier.",
+      "release_source": "Maintainer GitHub repository",
+      "caveats": [
+        "The project is community maintained and is not affiliated with Postman, Inc.",
+        "Only Windows is documented. The README says Postman 12.17.2 is the main verified version and asks users of other 12.x versions to dry-run first."
+      ],
+      "sources": [
+        {
+          "label": "Maintainer README: supported versions, installer and restore behavior, platform requirements, and license",
+          "url": "https://github.com/zipenglu1/postman-cn-modern#readme"
+        },
+        {
+          "label": "Releases page; no tagged release is listed",
+          "url": "https://github.com/zipenglu1/postman-cn-modern/releases"
+        },
+        {
+          "label": "GitHub API repository metadata (last-push activity date)",
+          "url": "https://api.github.com/repos/zipenglu1/postman-cn-modern"
+        }
+      ]
+    },
+    {
+      "id": "forgotten-concluder-pc-en",
+      "title": "The Forgotten Concluder English Patch",
+      "game": "The Forgotten Concluder",
+      "target_type": "Game",
+      "platform": "PC (Steam; Windows/BepInEx patch installation documented)",
+      "kind": "Fan Localization",
+      "status": "v1.0.0 release published 2026-07-30. The author labels it machine-translated with minor polish and calls the quality playable while warning that idiom and tone can be awkward or literal.",
+      "summary": "Machine-assisted English patch for the Chinese Unity game The Forgotten Concluder. It rebuilds the game's i18n.sqlite from a backup of the player's original database, patches embedded fonts, and uses a BepInEx TextFit plugin to fit UI text. The repository includes mod files and translation caches but no game files.",
+      "project_url": "https://github.com/DX5536/TheForgottenConcluder_EnglishPatch",
+      "updated": "2026-07-30",
+      "strategy": "Machine-assisted fan translation patch",
+      "language": "English",
+      "language_field_semantics": "language and target_languages identify the output language; source_language identifies the original game language.",
+      "source_language": "Chinese",
+      "target_languages": "English",
+      "language_pair": "Chinese → English (machine translation with minor polish on frequent UI/dialogue strings)",
+      "source_available": "Public v1.0.0 release and repository with translation cache, patch files, and plugin source; no game files.",
+      "first_found": "2026-10-15",
+      "project_started": "2026-07-30",
+      "programming_language": "Python, C#",
+      "subtype": "Unity PC game machine-assisted fan translation",
+      "patch_release": {
+        "version": "v1.0.0",
+        "date": "2026-07-30",
+        "download": "https://github.com/DX5536/TheForgottenConcluder_EnglishPatch/releases/tag/v1.0.0"
+      },
+      "patch_format": "BepInEx/XUnity AutoTranslator mod files plus translation caches; scripts merge English text into the user's i18n.sqlite, patch four Unity font assets, and install the TextFit plugin.",
+      "supported_game_build": "Fresh Steam download; README does not specify an exact game version or build.",
+      "release_source": "Maintainer GitHub releases",
+      "caveats": [
+        "Requires the user's own installed game; the repository says it contains no game executable, data folder, database, or extracted game fonts.",
+        "Translation is machine-translated with minor polish; the README says it can read awkwardly or literally. It also lists untranslated tutorial and image text and some layout issues."
+      ],
+      "sources": [
+        {
+          "label": "Maintainer README: translation method, installation, mod contents, and quality caveats",
+          "url": "https://github.com/DX5536/TheForgottenConcluder_EnglishPatch#readme"
+        },
+        {
+          "label": "v1.0.0 release",
+          "url": "https://github.com/DX5536/TheForgottenConcluder_EnglishPatch/releases/tag/v1.0.0"
+        }
+      ]
+    },
+    {
+      "id": "mewgenics-cn",
+      "title": "Mewgenics Simplified Chinese Translation Patch",
+      "game": "Mewgenics",
+      "target_type": "Game",
+      "platform": "PC (Steam)",
+      "kind": "Fan Localization",
+      "status": "Early community patch; v0.7 is a prerelease dated 2026-04-29 and syncs to beta build 1.1.21025. README says most game text is translated but some lines may remain; GitHub API reports the repository was last pushed 2026-08-01, with no later patch release identified.",
+      "summary": "Simplified Chinese community patch for Mewgenics, covering most NPC dialogue, item and ability descriptions, UI, and general gameplay text. The maintainers describe AI-assisted translation plus in-game testing, with continued terminology and wording edits. The latest prerelease syncs against the game's 1.1 beta text updates.",
+      "project_url": "https://github.com/rainzz-512/Mewgenics-Chinese-Translation",
+      "updated": "2026-04-29",
+      "strategy": "Fan translation patch",
+      "language": "Simplified Chinese",
+      "language_field_semantics": "language and target_languages identify the output language; source_language identifies the original text language.",
+      "source_language": "English",
+      "target_languages": "Simplified Chinese",
+      "language_pair": "English → Simplified Chinese",
+      "source_available": "Public source repository and GitHub release ZIP with translated data folder and optional font files; no game is included.",
+      "first_found": "2026-10-15",
+      "project_started": "2026-02-10",
+      "programming_language": "",
+      "subtype": "PC game community localization",
+      "patch_release": {
+        "version": "v0.7",
+        "date": "2026-04-29",
+        "pre_release": true,
+        "download": "https://github.com/rainzz-512/Mewgenics-Chinese-Translation/releases/tag/v0.7"
+      },
+      "patch_format": "Release ZIP containing translated localization data; extract its data folder into the game folder and select Chinese in game settings. Optional font replacement is documented separately.",
+      "supported_game_build": "v0.7 release targets Mewgenics 1.1 balance update beta and follow-up beta build 1.1.21025; compatibility with later stable builds is not stated.",
+      "release_source": "Maintainer GitHub releases",
+      "caveats": [
+        "The latest listed patch, v0.7, is marked pre-release and targets a beta game branch; check current game-build compatibility before use.",
+        "Maintainers disclose AI-assisted translation and warn some text may remain untranslated."
+      ],
+      "sources": [
+        {
+          "label": "Maintainer README: coverage, AI-assisted workflow, installation, and known early-release limits",
+          "url": "https://github.com/rainzz-512/Mewgenics-Chinese-Translation#readme"
+        },
+        {
+          "label": "v0.7 pre-release: target beta build and translated updates",
+          "url": "https://github.com/rainzz-512/Mewgenics-Chinese-Translation/releases/tag/v0.7"
+        },
+        {
+          "label": "GitHub API repository metadata (last-push activity date)",
+          "url": "https://api.github.com/repos/rainzz-512/Mewgenics-Chinese-Translation"
+        }
+      ]
+    },
+    {
+      "id": "enkyori-renai-english",
+      "title": "Enkyori Ren'ai / Bond Distance Love English Patch",
+      "game": "Enkyori Ren'ai (Bond Distance Love)",
+      "target_type": "Game",
+      "platform": "PC (Windows only, per maintainer instructions)",
+      "kind": "Fan Localization",
+      "status": "Released English main-story patch with an updated DLC package; itch devlog dates the latest listed update 2026-08-28. The patch authors say they worked with the original creator's permission.",
+      "summary": "English localization for the Japanese indie visual novel Enkyori Ren'ai / Bond Distance Love, including the downloadable story expansion. The maintainer distributes a Windows-only app-folder patch and links users to obtain the base game from the creator. No exact game build or numbered patch version is stated on the project page.",
+      "project_url": "https://momotranslations.itch.io/enkyori-renai-english-patch",
+      "updated": "2026-08-28",
+      "strategy": "Fan translation patch",
+      "language": "English",
+      "language_field_semantics": "language and target_languages identify the output language; source_language identifies the original game language.",
+      "source_language": "Japanese",
+      "target_languages": "English",
+      "language_pair": "Japanese → English",
+      "source_available": "209 MB downloadable app-folder patch on itch.io; original game download is linked separately from the creator.",
+      "first_found": "2026-10-15",
+      "project_started": "2026-05-06",
+      "programming_language": "",
+      "subtype": "Windows indie visual-novel fan localization",
+      "patch_release": {
+        "version": null,
+        "date": "2026-08-28",
+        "download": "https://momotranslations.itch.io/enkyori-renai-english-patch"
+      },
+      "patch_format": "Windows app-folder resource package placed under data/resources; the instructions say to remove the original app.asar file. No exact game version is stated.",
+      "supported_game_build": "The page links to the creator's PC download but does not identify an exact version/build.",
+      "release_source": "Momo Localizations itch.io page and devlogs",
+      "caveats": [
+        "Patch authors state they worked with the original creator's permission; this is the authors' statement on the itch page.",
+        "Windows only according to the project page; the page does not state exact game-version compatibility."
+      ],
+      "sources": [
+        {
+          "label": "Momo Localizations project page: creator permission claim, target game, Windows workflow, package size, and base-game link",
+          "url": "https://momotranslations.itch.io/enkyori-renai-english-patch"
+        },
+        {
+          "label": "Creator's base-game download page linked from the patch instructions",
+          "url": "https://novelgame.jp/games/show/10420"
+        }
+      ]
+    },
+    {
+      "id": "claude-desktop-zh-cn",
+      "title": "Claude Desktop Simplified Chinese UI Patch",
+      "game": "Claude Desktop",
+      "target_type": "Software",
+      "platform": "Windows Store/MSIX and standalone Windows; macOS; Linux (maintainer-advertised; client-version compatibility is not pinned)",
+      "kind": "Fan Localization",
+      "status": "v1.0.0 release published 2026-09-02; GitHub shows 56 commits to the main branch since that release. The maintainer advertises Windows, macOS, and Linux support, but does not pin a specific Claude Desktop client version in the release README.",
+      "summary": "Unofficial Simplified Chinese UI patch for Claude Desktop. It provides install/restore scripts and an offline ZIP; the Windows Store workflow requests UAC elevation and installs a highest-privilege repair watcher that checks the application after updates, according to the maintainer. The project is open source, but no independent security review was performed for this research record.",
+      "project_url": "https://github.com/good9527/Claude-Desktop-Chinese",
+      "updated": "2026-09-02",
+      "strategy": "Desktop software UI localization patch",
+      "language": "Simplified Chinese",
+      "language_field_semantics": "language and target_languages identify the UI output language; source_language identifies the UI language being translated.",
+      "source_language": "English",
+      "target_languages": "Simplified Chinese",
+      "language_pair": "English UI → Simplified Chinese",
+      "source_available": "Public MIT source repository, install/restore scripts, and v1.0.0 offline ZIP release; does not include Claude Desktop.",
+      "first_found": "2026-10-15",
+      "project_started": "2026-05-31",
+      "programming_language": "PowerShell, JavaScript",
+      "subtype": "Desktop AI application UI localization",
+      "patch_release": {
+        "version": "v1.0.0",
+        "date": "2026-09-02",
+        "download": "https://github.com/good9527/Claude-Desktop-Chinese/releases/tag/v1.0.0"
+      },
+      "patch_format": "Windows PowerShell/batch installer and macOS/Linux shell installer; offline ZIP also provided. Windows Store mode modifies protected app resources and adds an auto-repair watcher, as described in the README.",
+      "supported_game_build": "Claude Desktop; release does not pin an exact client version. The maintainer advertises Windows Store/MSIX, standalone Windows, macOS, and Linux.",
+      "release_source": "Maintainer GitHub releases",
+      "caveats": [
+        "Unofficial patch; the README says Windows Store installation can request UAC elevation and install a highest-privilege scheduled watcher that reapplies translations after client updates.",
+        "These security-sensitive installation behaviors are maintainer-documented claims and were not independently audited or executed.",
+        "The README does not identify an exact Claude Desktop version that was tested."
+      ],
+      "sources": [
+        {
+          "label": "Maintainer README: supported platforms, installer behavior, permissions, restore path, and project license",
+          "url": "https://github.com/good9527/Claude-Desktop-Chinese#readme"
+        },
+        {
+          "label": "v1.0.0 release: offline package and claimed platform support",
+          "url": "https://github.com/good9527/Claude-Desktop-Chinese/releases/tag/v1.0.0"
+        }
+      ]
+    }
+  ]
+}

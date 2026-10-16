@@ -1,0 +1,1557 @@
+{
+  "updated": "2026-10-15",
+  "projects": [
+    {
+      "id": "banjo-kazooie-xbla-decomp-research",
+      "title": "Banjo-Kazooie XBLA Decompilation Research",
+      "game": "Banjo-Kazooie (Xbox 360 XBLA release)",
+      "target_type": "Game",
+      "platform": "Xbox 360 / Xbox Live Arcade",
+      "kind": "Decompilation",
+      "status": "Early matching work. The README says contributors copy Ghidra pseudocode or functions from the N64 decompilation and test whether they match; no overall completion percentage or playable PC port is claimed.",
+      "summary": "Research project for the XBLA executable: split and rebuild its XEX, then compare matching code. The README warns that MSVC-built code and GCC PowerPC reference output can differ in relocations.",
+      "project_url": "https://github.com/banjo360/bk360",
+      "updated": "2026-10-15",
+      "strategy": "Matching decompilation with function matching and object-diff comparison",
+      "language": "",
+      "source_available": "Public source repository; requires an unencrypted supported Xbox 360 XEX; no game assets are included",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Xbox 360 XBLA matching-decompilation research",
+      "sources": [
+        {
+          "label": "Project README and status",
+          "url": "https://github.com/banjo360/bk360/blob/main/readme.md"
+        },
+        {
+          "label": "GitHub repository metadata (primary language)",
+          "url": "https://api.github.com/repos/banjo360/bk360"
+        }
+      ]
+    },
+    {
+      "id": "tony-hawks-project-8-xbox360-pc-recomp",
+      "title": "Tony Hawk’s Project 8 Xbox 360 PC Recompilation",
+      "game": "Tony Hawk’s Project 8 (Xbox 360)",
+      "target_type": "Game",
+      "platform": "Xbox 360 → Linux x86-64, macOS arm64, Windows x86-64 (hardware support varies)",
+      "kind": "Recompilation",
+      "status": "Release v0.3.0. Linux x86-64 is the main verified platform; macOS was tested on Apple M1 but heavy scenes are slow. Windows x86-64 was tested through Proton, not on Windows hardware. The README warns that uncapped frame rates make in-level cutscenes run too fast.",
+      "summary": "Ahead-of-time static recompilation translates Xbox 360 PowerPC instructions to C++ and builds a native executable. The user supplies the supported Xbox 360 disc image; game files are not included.",
+      "project_url": "https://github.com/theokyr/Project8Recomp",
+      "updated": "2026-10-15",
+      "strategy": "Static PowerPC-to-C++ recompilation with a native host runtime",
+      "language": "",
+      "source_available": "Public source repository and release; user supplies the supported Xbox 360 game image; game data is not included",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Xbox 360 static recompilation for PC",
+      "sources": [
+        {
+          "label": "Project README and status",
+          "url": "https://github.com/theokyr/Project8Recomp/blob/main/README.md"
+        },
+        {
+          "label": "Known issues and platform verification",
+          "url": "https://github.com/theokyr/Project8Recomp/blob/main/docs/KNOWN_ISSUES.md"
+        },
+        {
+          "label": "Release v0.3.0",
+          "url": "https://github.com/theokyr/Project8Recomp/releases/tag/v0.3.0"
+        },
+        {
+          "label": "GitHub repository metadata (primary language)",
+          "url": "https://api.github.com/repos/theokyr/Project8Recomp"
+        }
+      ]
+    },
+    {
+      "id": "project-gotham-racing-4-xbox360-recomp",
+      "title": "Project Gotham Racing 4 Recompilation",
+      "game": "Project Gotham Racing 4 (Xbox 360)",
+      "target_type": "Game",
+      "platform": "Xbox 360 → Windows x86-64",
+      "kind": "Recompilation",
+      "status": "Latest release v1.2.1 is an unfinished work in progress. The status page reports that UI, graphics, races, AI, and stability work, but not all cars do; the Lotus Esprit Essex Turbo fails to load.",
+      "summary": "The Xbox 360 PowerPC game code is statically recompiled to C++ with ReXGlue for a native PC executable. The user must provide the game data.",
+      "project_url": "https://github.com/beatrixzy/PGR4-Recomp",
+      "updated": "2026-10-15",
+      "strategy": "Static PowerPC-to-C++ recompilation using ReXGlue",
+      "language": "",
+      "source_available": "Public source repository and Windows release; requires the user’s own Xbox 360 game data",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Xbox 360 static recompilation; Windows x86-64 target",
+      "sources": [
+        {
+          "label": "Project README and status",
+          "url": "https://github.com/beatrixzy/PGR4-Recomp/blob/main/README.md"
+        },
+        {
+          "label": "Current recompilation status",
+          "url": "https://github.com/beatrixzy/PGR4-Recomp/blob/main/Status.md"
+        },
+        {
+          "label": "Latest release v1.2.1",
+          "url": "https://github.com/beatrixzy/PGR4-Recomp/releases/tag/v1.2.1"
+        },
+        {
+          "label": "GitHub repository metadata (primary language)",
+          "url": "https://api.github.com/repos/beatrixzy/PGR4-Recomp"
+        }
+      ]
+    },
+    {
+      "id": "burnout-revenge-xbox360-xerenge",
+      "title": "Burnout Revenge Xbox 360 Recompilation (Xerenge)",
+      "game": "Burnout Revenge (Xbox 360 retail)",
+      "target_type": "Game",
+      "platform": "Xbox 360 → Linux x86-64, macOS x86-64/arm64",
+      "kind": "Recompilation",
+      "status": "The maintainer reports the game fully playable. The latest published release at review was v0.4.6; the README describes US support beginning with v0.4.7, so use the released European build unless a v0.4.7 build is verified.",
+      "summary": "The Xbox 360 PowerPC code is recompiled ahead of time to C++ using ReXGlue. The runtime emulates console services; the current branch includes a Plume renderer and an alternate Xenos GPU path. The user imports their own game image.",
+      "project_url": "https://github.com/shipa-2/Xerenge",
+      "updated": "2026-10-15",
+      "strategy": "Static PowerPC-to-C++ recompilation via ReXGlue; native Plume renderer or Xenos GPU path",
+      "language": "",
+      "source_available": "Public source repository and Linux/macOS installer; the user supplies a supported retail game image; no game assets are bundled",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Xbox 360 static recompilation for Linux and macOS",
+      "sources": [
+        {
+          "label": "Project README and status",
+          "url": "https://github.com/shipa-2/Xerenge/blob/main/README.md"
+        },
+        {
+          "label": "Latest published release v0.4.6",
+          "url": "https://github.com/shipa-2/Xerenge/releases/tag/v0.4.6"
+        },
+        {
+          "label": "Setup and supported game images",
+          "url": "https://github.com/shipa-2/Xerenge/blob/main/SETUP.md"
+        },
+        {
+          "label": "Current ReXGlue implementation details",
+          "url": "https://github.com/shipa-2/Xerenge/blob/main/rexglue/README.md"
+        },
+        {
+          "label": "GitHub repository metadata (primary language)",
+          "url": "https://api.github.com/repos/shipa-2/Xerenge"
+        }
+      ]
+    },
+    {
+      "id": "forza-motorsport-2-xbox360-recomp",
+      "title": "Forza Motorsport 2 Native Recompilation",
+      "game": "Forza Motorsport 2 (Xbox 360)",
+      "target_type": "Game",
+      "platform": "Xbox 360 → Windows x86-64",
+      "kind": "Recompilation",
+      "status": "Release v0.3.0 is playable but still a work in progress. The README reports menus and videos working and Exhibition races/Free Run at 60 FPS; career, split-screen, and DLC need more testing. Xbox Live is unavailable.",
+      "summary": "Static PowerPC-to-C++ recompilation with the ReXGlue SDK and a native Windows runtime. The release requires the user’s supported USA game files; no game data is included.",
+      "project_url": "https://github.com/0herculabs/hl360-Forza2",
+      "updated": "2026-10-15",
+      "strategy": "Static Xbox 360 PowerPC-to-C++ recompilation with ReXGlue",
+      "language": "",
+      "source_available": "Public source repository and Windows release; the user supplies the supported USA game files; no game data is bundled",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Xbox 360 static recompilation; Windows x64 target",
+      "sources": [
+        {
+          "label": "Project README and status",
+          "url": "https://github.com/0herculabs/hl360-Forza2/blob/main/README.md"
+        },
+        {
+          "label": "Release v0.3.0",
+          "url": "https://github.com/0herculabs/hl360-Forza2/releases/tag/v0.3.0"
+        },
+        {
+          "label": "GitHub repository metadata (primary language)",
+          "url": "https://api.github.com/repos/0herculabs/hl360-Forza2"
+        }
+      ]
+    },
+    {
+      "id": "forza-motorsport-3-xbox360-recomp",
+      "title": "Forza Motorsport 3 Ultimate Collection Recompilation",
+      "game": "Forza Motorsport 3: Ultimate Collection (Xbox 360)",
+      "target_type": "Game",
+      "platform": "Xbox 360 → Windows x86-64",
+      "kind": "Recompilation",
+      "status": "Release 0.1.1 is a work in progress. The README reports menus, videos, Free Play, and races at 60 FPS; full Career, local multiplayer, and other modes need more testing. Xbox Live is unavailable. Only the specified USA Ultimate Collection dump is supported.",
+      "summary": "The PowerPC game code is statically translated to C++ with ReXGlue and built for native Windows. The project currently selects Direct3D 12 because its Vulkan backend does not yet render the game correctly.",
+      "project_url": "https://github.com/0herculabs/hl360-forza3",
+      "updated": "2026-10-15",
+      "strategy": "Static PowerPC-to-C++ recompilation using ReXGlue and Direct3D 12",
+      "language": "",
+      "source_available": "Public source repository and release; user-supplied USA Ultimate Collection disc files required; no game data bundled",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Xbox 360 static recompilation; Windows x64 target",
+      "sources": [
+        {
+          "label": "Project README and status",
+          "url": "https://github.com/0herculabs/hl360-forza3/blob/main/README.md"
+        },
+        {
+          "label": "Release 0.1.1",
+          "url": "https://github.com/0herculabs/hl360-forza3/releases/tag/0.1.1"
+        },
+        {
+          "label": "Supported game identity and build status",
+          "url": "https://github.com/0herculabs/hl360-forza3/blob/main/README.md#supported-version"
+        },
+        {
+          "label": "GitHub repository metadata (primary language)",
+          "url": "https://api.github.com/repos/0herculabs/hl360-forza3"
+        }
+      ]
+    },
+    {
+      "id": "forza-motorsport-4-xbox360-recomp",
+      "title": "Forza Motorsport 4 Static Recompilation",
+      "game": "Forza Motorsport 4 (Xbox 360)",
+      "target_type": "Game",
+      "platform": "Xbox 360 → Windows x86-64",
+      "kind": "Recompilation",
+      "status": "Experimental alpha v0.1.0-alpha.2. The maintainer reports booting, races, profile saves, and career progress through the Sportsman tier on the tested Windows AMD64 system; later campaign progress and performance remain unverified.",
+      "summary": "ReXGlue statically recompiles the Xbox 360 PowerPC code into a native Windows executable. The project validates the user’s Europe Game of the Year Disc 1 and requires additional game executables and media files from the user’s copy.",
+      "project_url": "https://github.com/Alexbeav/fm4-recomp",
+      "updated": "2026-10-15",
+      "strategy": "Static PowerPC-to-native x86-64 recompilation with ReXGlue",
+      "language": "",
+      "source_available": "Public source repository and experimental Windows release; complete game files must come from the user’s supported disc",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "PowerShell",
+      "subtype": "Xbox 360 static recompilation; experimental Windows x64 release",
+      "sources": [
+        {
+          "label": "Project README and status",
+          "url": "https://github.com/Alexbeav/fm4-recomp/blob/main/README.md"
+        },
+        {
+          "label": "Current tested boundary and known issues",
+          "url": "https://github.com/Alexbeav/fm4-recomp/blob/main/docs/STATUS.md"
+        },
+        {
+          "label": "Release v0.1.0-alpha.2",
+          "url": "https://github.com/Alexbeav/fm4-recomp/releases/tag/v0.1.0-alpha.2"
+        },
+        {
+          "label": "GitHub repository metadata (primary language)",
+          "url": "https://api.github.com/repos/Alexbeav/fm4-recomp"
+        }
+      ]
+    },
+    {
+      "id": "wreckless-original-xbox-static-recomp",
+      "title": "Wreckless: The Yakuza Missions Original Xbox Recompilation",
+      "game": "Wreckless: The Yakuza Missions (Original Xbox)",
+      "target_type": "Game",
+      "platform": "Original Xbox → Windows x86-64",
+      "kind": "Recompilation",
+      "status": "The project builds and boots through initialization, but does not render yet and gameplay work has not started. The README reports 468,799 lines of generated C with 20 stubs and a current unresolved indirect-call blocker.",
+      "summary": "Original Xbox x86 machine code is translated into portable C and compiled as a native x86-64 executable using xboxrecomp. D3D8-to-D3D11 graphics, audio, and input are scaffolded but not yet exercised.",
+      "project_url": "https://github.com/sp00nznet/wreckless",
+      "updated": "2026-10-15",
+      "strategy": "Static x86-to-C recompilation with xboxrecomp",
+      "language": "",
+      "source_available": "Public source repository; user supplies their own Original Xbox game; no game code or assets are included",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Original Xbox static recompilation for Windows",
+      "sources": [
+        {
+          "label": "Project README and status",
+          "url": "https://github.com/sp00nznet/wreckless/blob/main/README.md"
+        },
+        {
+          "label": "GitHub repository metadata (primary language)",
+          "url": "https://api.github.com/repos/sp00nznet/wreckless"
+        }
+      ]
+    },
+    {
+      "id": "undertale-xbox-decomp-gamemaker",
+      "title": "UNDERTALE Xbox Edition Decompilation for GameMaker",
+      "game": "UNDERTALE (Xbox One edition, v1.13X)",
+      "target_type": "Game",
+      "platform": "Xbox One-derived code/assets → GameMaker Studio 2 Beta project (desktop target OS unspecified)",
+      "kind": "Decompilation",
+      "status": "The public README describes a decompilation of Xbox One v1.13X imported into GameMaker Studio 2 Beta, with enhanced and vanilla branches. It gives setup instructions but no release or quantified playability status; GitHub shows the last push in September 2025.",
+      "summary": "The project reconstructs the Xbox edition as a GameMaker Studio project and imports assets from a copy supplied by the user. Its README says game assets are not bundled and recommends the Xbox version for closest parity.",
+      "project_url": "https://github.com/kittibyte/UndertaleDecomp",
+      "updated": "2026-10-15",
+      "strategy": "GameMaker project decompilation and user-owned asset import",
+      "language": "",
+      "source_available": "Public GML project; setup imports assets from the user’s own game copy; no UNDERTALE-specific assets are bundled",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "Game Maker Language",
+      "subtype": "Xbox One edition reconstructed as a GameMaker Studio project",
+      "sources": [
+        {
+          "label": "Project README and status",
+          "url": "https://github.com/kittibyte/UndertaleDecomp/blob/main/README.md"
+        },
+        {
+          "label": "GitHub repository metadata and last-push date",
+          "url": "https://api.github.com/repos/kittibyte/UndertaleDecomp"
+        },
+        {
+          "label": "GitHub repository metadata (primary language)",
+          "url": "https://api.github.com/repos/kittibyte/UndertaleDecomp"
+        }
+      ]
+    },
+    {
+      "id": "sonic-cd-rsdkv3-original-xbox",
+      "title": "Sonic CD Retro Engine v3 Decompilation for Original Xbox",
+      "game": "Sonic CD (2011) / Retro Engine v3",
+      "target_type": "Game",
+      "platform": "Retro Engine v3 / Sonic CD (2011) → Original Xbox",
+      "kind": "Decompilation",
+      "status": "The Xbox-specific fork is archived (GitHub marks it archived on 2026-09-20) and has a 0.1 release. Its README documents an NXDK/XISO build and warns that videos do not play; official Sonic CD Data.rsdk assets are required.",
+      "summary": "The repository forks the Retro Engine v3 decompilation and adds an NXDK build path for an Original Xbox XBE/XISO. It is a source-based console port, not an Xbox 360 binary recompilation.",
+      "project_url": "https://github.com/danielgpinheiro/RSDKv3-xbox",
+      "updated": "2026-10-15",
+      "strategy": "Retro Engine v3 decompilation with an NXDK Original Xbox source port",
+      "language": "",
+      "source_available": "Public archived source fork and release; user supplies Data.rsdk from an official Sonic CD release",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Retro Engine v3 decompilation; Original Xbox NXDK target",
+      "sources": [
+        {
+          "label": "Project README and status",
+          "url": "https://github.com/danielgpinheiro/RSDKv3-xbox/blob/xbox-port/README.md"
+        },
+        {
+          "label": "Xbox port build instructions and compatibility notes",
+          "url": "https://github.com/danielgpinheiro/RSDKv3-xbox/blob/xbox-port/README.md"
+        },
+        {
+          "label": "Release 0.1",
+          "url": "https://github.com/danielgpinheiro/RSDKv3-xbox/releases/tag/0.1"
+        },
+        {
+          "label": "GitHub repository metadata and archived status",
+          "url": "https://api.github.com/repos/danielgpinheiro/RSDKv3-xbox"
+        },
+        {
+          "label": "GitHub repository metadata (primary language)",
+          "url": "https://api.github.com/repos/danielgpinheiro/RSDKv3-xbox"
+        }
+      ]
+    },
+    {
+      "id": "sonic-1-2-2013-rsdkv4-xbox-uwp",
+      "title": "Sonic 1 and Sonic 2 (2013) RSDKv4 Xbox UWP Port",
+      "game": "Sonic the Hedgehog (2013) and Sonic the Hedgehog 2 (2013)",
+      "target_type": "Game",
+      "platform": "RSDKv4 → Xbox One UWP Dev Mode / Windows x64",
+      "kind": "Decompilation",
+      "status": "UWP port release v1.0.1.0. The project builds one x64 UWP package with a launcher for Sonic 1 and Sonic 2; it requires the user’s own Data.rsdk files. README documents the target, but does not report testing on a named Xbox console.",
+      "summary": "This is an Xbox UWP wrapper around the RSDKv4 decompilation, using SDL2 and the Mesa OpenGL UWP runtime. It adds a launcher and per-game save/settings/data folders; it does not include game data.",
+      "project_url": "https://github.com/caorthann-celt/RSDKv4-UWP",
+      "updated": "2026-10-15",
+      "strategy": "RSDKv4 decompilation packaged as an Xbox UWP Dev Mode app",
+      "language": "",
+      "source_available": "Public UWP source fork and release; requires user-owned Sonic 1/2 Data.rsdk files; no game assets included",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Xbox One UWP Dev Mode port of the RSDKv4 decompilation",
+      "sources": [
+        {
+          "label": "Project README and status",
+          "url": "https://github.com/caorthann-celt/RSDKv4-UWP/blob/main/README.md"
+        },
+        {
+          "label": "Xbox UWP Dev Mode package and build instructions",
+          "url": "https://github.com/caorthann-celt/RSDKv4-UWP/blob/main/README-UWP.md"
+        },
+        {
+          "label": "Release v1.0.1.0",
+          "url": "https://github.com/caorthann-celt/RSDKv4-UWP/releases/tag/v1.0.1.0"
+        },
+        {
+          "label": "GitHub repository metadata (primary language)",
+          "url": "https://api.github.com/repos/caorthann-celt/RSDKv4-UWP"
+        }
+      ]
+    },
+    {
+      "id": "halo-ce-anbernic-h700-native-port",
+      "title": "Halo: Combat Evolved Native Port for Anbernic H700 Handhelds",
+      "game": "Halo: Combat Evolved (Original Xbox build 01.01.14.2342)",
+      "target_type": "Game",
+      "platform": "Original Xbox → ARM64 Allwinner H700 handhelds (Anbernic RG35XX H; Knulli)",
+      "kind": "Decompilation",
+      "status": "The maintainer reports 60 FPS menus and roughly 40–55 FPS in tested campaign levels on the RG35XX H. Release v2026.10.15 is available. The port also documents offline bot matches and online multiplayer; performance work continues.",
+      "summary": "OpenCE’s decompiled C game code is compiled natively for ARM64 and adapted to the H700/Mali-G31 device, using Knulli’s SDL2 and OpenGL ES. The README explicitly says there is no emulation and requires the user’s Original Xbox game copy.",
+      "project_url": "https://github.com/kirklandsig/halo-ce-anbernic-rg35xx",
+      "updated": "2026-10-15",
+      "strategy": "Native ARM64 source port of decompiled Halo CE using OpenCE",
+      "language": "",
+      "source_available": "Public source repository and installable release; user supplies the original Xbox game; no game data is included",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "OpenCE decompilation port to H700 ARM64 Linux handhelds",
+      "sources": [
+        {
+          "label": "Project README and status",
+          "url": "https://github.com/kirklandsig/halo-ce-anbernic-rg35xx/blob/main/README.md"
+        },
+        {
+          "label": "Install and supported handheld details",
+          "url": "https://github.com/kirklandsig/halo-ce-anbernic-rg35xx/blob/main/docs/INSTALL.md"
+        },
+        {
+          "label": "Release v2026.10.15",
+          "url": "https://github.com/kirklandsig/halo-ce-anbernic-rg35xx/releases/tag/v2026.10.15"
+        },
+        {
+          "label": "GitHub repository metadata (primary language)",
+          "url": "https://api.github.com/repos/kirklandsig/halo-ce-anbernic-rg35xx"
+        }
+      ]
+    },
+    {
+      "id": "need-for-speed-carbon-xbox360-recomp-android",
+      "title": "Need for Speed Carbon Xbox 360 Recompilation for Android and PC",
+      "game": "Need for Speed Carbon (Xbox 360, English PAL edition)",
+      "target_type": "Game",
+      "platform": "Xbox 360 → Android ARM64 / Windows x86-64",
+      "kind": "Recompilation",
+      "status": "Release v0.3.3. README reports the Android build rendering cars, scenery, videos, and menus at about 60 FPS on a Samsung S25 Ultra; full races, save progress, and other phones still need testing. Windows x64 is described as a prototype/test build.",
+      "summary": "ReXGlue statically recompiles the Xbox 360 PowerPC code to C++ for Android ARM64/Vulkan and Windows x64. The Windows path uses Direct3D 12 with an optional Xenos renderer. The user supplies the matching PAL Xbox 360 files.",
+      "project_url": "https://github.com/codepdbh/NFS-CARBON-360-ANDROID-RECOMP",
+      "updated": "2026-10-15",
+      "strategy": "Static PowerPC-to-C++ recompilation with a native Vulkan Android renderer and Windows test target",
+      "language": "",
+      "source_available": "Public source repository and Android release; requires the specified user-owned Xbox 360 game files; no game data bundled",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "JavaScript",
+      "subtype": "Xbox 360 recompilation with Android ARM64/Vulkan and Windows x64 targets",
+      "sources": [
+        {
+          "label": "Project README and status",
+          "url": "https://github.com/codepdbh/NFS-CARBON-360-ANDROID-RECOMP/blob/main/README.md"
+        },
+        {
+          "label": "Android compatibility and release v0.3.3",
+          "url": "https://github.com/codepdbh/NFS-CARBON-360-ANDROID-RECOMP/releases/tag/v0.3.3"
+        },
+        {
+          "label": "Android requirements and tested device",
+          "url": "https://github.com/codepdbh/NFS-CARBON-360-ANDROID-RECOMP/blob/main/README.md#android"
+        },
+        {
+          "label": "GitHub repository metadata (primary-language value)",
+          "url": "https://api.github.com/repos/codepdbh/NFS-CARBON-360-ANDROID-RECOMP"
+        },
+        {
+          "label": "GitHub repository metadata (primary language)",
+          "url": "https://api.github.com/repos/codepdbh/NFS-CARBON-360-ANDROID-RECOMP"
+        }
+      ]
+    },
+    {
+      "id": "wet-xbox360-recomp",
+      "title": "WET Xbox 360 Static Recompilation",
+      "game": "WET (Xbox 360, 2009)",
+      "target_type": "Game",
+      "platform": "Xbox 360 → Windows x86-64, Linux x86-64",
+      "kind": "Recompilation",
+      "status": "The maintainer describes the game as fully playable, with video, audio, gameplay, achievements, and progression working. Release 1.3 is available.",
+      "summary": "The Xbox 360 PowerPC code is statically recompiled to native x86-64 through the ReXGlue SDK. The user extracts their own supported disc image; the repository does not include game data.",
+      "project_url": "https://github.com/nikolaygorb/WetRecomp",
+      "updated": "2026-10-15",
+      "strategy": "Static PowerPC-to-C++ recompilation using ReXGlue",
+      "language": "",
+      "source_available": "Public source repository and release; user-supplied WET Xbox 360 disc files required; no game data included",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Xbox 360 static recompilation for Windows and Linux",
+      "sources": [
+        {
+          "label": "Project README and status",
+          "url": "https://github.com/nikolaygorb/WetRecomp/blob/main/README.md"
+        },
+        {
+          "label": "Release 1.3",
+          "url": "https://github.com/nikolaygorb/WetRecomp/releases/tag/1.3"
+        },
+        {
+          "label": "GitHub repository metadata (primary language)",
+          "url": "https://api.github.com/repos/nikolaygorb/WetRecomp"
+        }
+      ]
+    },
+    {
+      "id": "army-of-two-xbox360-recomp",
+      "title": "Army of Two Xbox 360 Static Recompilation",
+      "game": "Army of Two (Xbox 360, 2008)",
+      "target_type": "Game",
+      "platform": "Xbox 360 → Windows/Linux x86-64; macOS build presets documented",
+      "kind": "Recompilation",
+      "status": "Release 1.2 is available. README reports clean code generation, a successful build, and boot to real GPU rendering, but does not claim a full playthrough.",
+      "summary": "The Xbox 360 PowerPC executable is statically translated to native C++ through ReXGlue. The project adds native mouse input and runtime fixes; it requires the user’s own supported disc files.",
+      "project_url": "https://github.com/nikolaygorb/ArmyOfTwoRecomp",
+      "updated": "2026-10-15",
+      "strategy": "Static PowerPC-to-C++ recompilation using ReXGlue",
+      "language": "",
+      "source_available": "Public source repository and release; user supplies the supported retail Xbox 360 game files; no game data included",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Xbox 360 static recompilation with Windows and Linux builds",
+      "sources": [
+        {
+          "label": "Project README and status",
+          "url": "https://github.com/nikolaygorb/ArmyOfTwoRecomp/blob/main/README.md"
+        },
+        {
+          "label": "Release 1.2",
+          "url": "https://github.com/nikolaygorb/ArmyOfTwoRecomp/releases/tag/1.2"
+        },
+        {
+          "label": "GitHub repository metadata (primary language)",
+          "url": "https://api.github.com/repos/nikolaygorb/ArmyOfTwoRecomp"
+        }
+      ]
+    },
+    {
+      "id": "perfect-dark-zero-xbox360-recomp",
+      "title": "Perfect Dark Zero Xbox 360 Static Recompilation",
+      "game": "Perfect Dark Zero (Xbox 360, 2005)",
+      "target_type": "Game",
+      "platform": "Xbox 360 → Windows x86-64; Linux/macOS build presets are untested",
+      "kind": "Recompilation",
+      "status": "The maintainer reports the game fully playable on Windows, including video, audio, achievements, and saves. Linux and macOS presets exist but only Windows has been tested. Release 1.5 is available.",
+      "summary": "The Xbox 360 PowerPC code is statically recompiled to native C++ using ReXGlue. The project includes optional 60 FPS/widescreen patches and requires the user’s own game files.",
+      "project_url": "https://github.com/nikolaygorb/PerfectDarkZeroRecomp",
+      "updated": "2026-10-15",
+      "strategy": "Static PowerPC-to-C++ recompilation using ReXGlue",
+      "language": "",
+      "source_available": "Public source repository and release; user-supplied Xbox 360 game files required; no game data included",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Xbox 360 static recompilation; Windows verified",
+      "sources": [
+        {
+          "label": "Project README and status",
+          "url": "https://github.com/nikolaygorb/PerfectDarkZeroRecomp/blob/main/README.md"
+        },
+        {
+          "label": "Release 1.5",
+          "url": "https://github.com/nikolaygorb/PerfectDarkZeroRecomp/releases/tag/1.5"
+        },
+        {
+          "label": "GitHub repository metadata (primary language)",
+          "url": "https://api.github.com/repos/nikolaygorb/PerfectDarkZeroRecomp"
+        }
+      ]
+    },
+    {
+      "id": "perfect-dark-remaster-xbox360-recomp",
+      "title": "Perfect Dark Remaster 2010 Xbox 360 Recompilation",
+      "game": "Perfect Dark Remaster (2010, Xbox 360/XBLA, Title ID 584109C2)",
+      "target_type": "Game",
+      "platform": "Xbox 360/XBLA → Windows x86-64; Linux/macOS build presets documented",
+      "kind": "Recompilation",
+      "status": "Release 1.3 is available. README reports a clean 15,032-function code generation, successful build, D3D12 rendering, audio, and controller support; it does not claim the full game is playable. README’s game-input section says Xbox One ISO despite its Xbox 360/XBLA title and title ID, so dump identity needs confirmation.",
+      "summary": "Static PowerPC-to-C++ recompilation via ReXGlue. Windows uses Direct3D 12; the repo builds a Vulkan backend and documents Linux/macOS presets. The project requires game files from the supported title.",
+      "project_url": "https://github.com/nikolaygorb/PerfectDarkRemasterRecomp",
+      "updated": "2026-10-15",
+      "strategy": "Static PowerPC-to-C++ recompilation with ReXGlue and D3D12/Vulkan backends",
+      "language": "",
+      "source_available": "Public source repository and release; user must provide matching game files; no game data included",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "2010 Perfect Dark Xbox 360/XBLA recompilation; input-dump documentation inconsistent",
+      "sources": [
+        {
+          "label": "Project README and status",
+          "url": "https://github.com/nikolaygorb/PerfectDarkRemasterRecomp/blob/main/README.md"
+        },
+        {
+          "label": "Release 1.3",
+          "url": "https://github.com/nikolaygorb/PerfectDarkRemasterRecomp/releases/tag/1.3"
+        },
+        {
+          "label": "Game data requirements and supported input notes",
+          "url": "https://github.com/nikolaygorb/PerfectDarkRemasterRecomp/blob/main/README.md#getting-the-game-data"
+        },
+        {
+          "label": "GitHub repository metadata (primary language)",
+          "url": "https://api.github.com/repos/nikolaygorb/PerfectDarkRemasterRecomp"
+        }
+      ]
+    },
+    {
+      "id": "dragon-ball-z-burst-limit-xbox360-recomp",
+      "title": "Dragon Ball Z: Burst Limit Xbox 360 Recompilation",
+      "game": "Dragon Ball Z: Burst Limit (Xbox 360)",
+      "target_type": "Game",
+      "platform": "Xbox 360 → Windows x86-64, Linux x86-64",
+      "kind": "Recompilation",
+      "status": "Experimental alpha v0.6.0 is available. The README documents a native x64 build and supported USA edition, but does not claim whole-game completion.",
+      "summary": "The ReXGlue SDK statically translates the Xbox 360 PowerPC code to native C++ and provides a Direct3D 12 runtime; Linux builds are also documented. Users must supply the supported USA game files.",
+      "project_url": "https://github.com/iExplosiveRage/DBZ-Burst-Limit-Recompiled",
+      "updated": "2026-10-15",
+      "strategy": "Static PowerPC-to-C++ recompilation using ReXGlue",
+      "language": "",
+      "source_available": "Public source repository and alpha release; requires the user’s own supported USA Xbox 360 game files; no game data included",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Xbox 360 static recompilation for Windows/Linux",
+      "sources": [
+        {
+          "label": "Project README and status",
+          "url": "https://github.com/iExplosiveRage/DBZ-Burst-Limit-Recompiled/blob/main/README.md"
+        },
+        {
+          "label": "Release v0.6.0-alpha",
+          "url": "https://github.com/iExplosiveRage/DBZ-Burst-Limit-Recompiled/releases/tag/v0.6.0-alpha"
+        },
+        {
+          "label": "GitHub repository metadata (primary language)",
+          "url": "https://api.github.com/repos/iExplosiveRage/DBZ-Burst-Limit-Recompiled"
+        }
+      ]
+    },
+    {
+      "id": "wwe-smackdown-vs-raw-2007-xbox360-recomp",
+      "title": "WWE SmackDown vs. Raw 2007 Xbox 360 Recompilation",
+      "game": "WWE SmackDown vs. Raw 2007 (Xbox 360)",
+      "target_type": "Game",
+      "platform": "Xbox 360 → Windows x86-64",
+      "kind": "Recompilation",
+      "status": "Release v1.0 is available. The maintainer reports end-to-end playability at stable 60 FPS, including menus, match types, Create-a-Superstar, season mode, and save/load; an occasional GPU device-loss crash and some model artifacts remain.",
+      "summary": "The Xbox 360 PowerPC code is statically recompiled to x64 using the ReXGlue-derived runtime documented by the project. A user-owned game copy is required; game data is not distributed.",
+      "project_url": "https://github.com/HollywoodAkeem/SVR07-Recomp",
+      "updated": "2026-10-15",
+      "strategy": "Static Xbox 360 PowerPC-to-x64 recompilation using the SVR07 ReXGlue runtime",
+      "language": "",
+      "source_available": "Public source repository and Windows release; user supplies an Xbox 360 game copy; no game data included",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Xbox 360 static recompilation; Windows x64",
+      "sources": [
+        {
+          "label": "Project README and status",
+          "url": "https://github.com/HollywoodAkeem/SVR07-Recomp/blob/main/README.md"
+        },
+        {
+          "label": "Release v1.0",
+          "url": "https://github.com/HollywoodAkeem/SVR07-Recomp/releases/tag/v1.0"
+        },
+        {
+          "label": "GitHub repository metadata (primary language)",
+          "url": "https://api.github.com/repos/HollywoodAkeem/SVR07-Recomp"
+        }
+      ]
+    },
+    {
+      "id": "wwe-smackdown-vs-raw-2011-xbox360-port",
+      "title": "WWE SmackDown vs. Raw 2011 Xbox 360 Native Port",
+      "game": "WWE SmackDown vs. Raw 2011 (Xbox 360, 2010)",
+      "target_type": "Game",
+      "platform": "Xbox 360 → Windows x86-64, Android ARM64; Steam Deck/Linux via Proton",
+      "kind": "Recompilation",
+      "status": "Release v2.1.3 is available. The README shows the game running on Android and reports 60 FPS on a Galaxy Z Fold 7; the Windows build runs through Proton on Steam Deck at about 55–60 FPS. Mali Android GPUs remain alpha/unsupported.",
+      "summary": "The Xbox 360 PowerPC code is statically recompiled to C++ with ReXGlue. Windows uses Direct3D 12; an experimental Vulkan path supports Android, whose launcher installs game data from the user’s disc image.",
+      "project_url": "https://github.com/KaikoClanworth1/wwe-svr2011-pc",
+      "updated": "2026-10-15",
+      "strategy": "Static PowerPC-to-C++ recompilation via ReXGlue with Windows and Android front ends",
+      "language": "",
+      "source_available": "Public source repository and Windows/Android releases; user supplies Xbox 360 disc image; game data is not bundled",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Xbox 360 native Windows and Android recompilation",
+      "sources": [
+        {
+          "label": "Project README and status",
+          "url": "https://github.com/KaikoClanworth1/wwe-svr2011-pc/blob/main/README.md"
+        },
+        {
+          "label": "Release v2.1.3",
+          "url": "https://github.com/KaikoClanworth1/wwe-svr2011-pc/releases/tag/v2.1.3"
+        },
+        {
+          "label": "Android and Steam Deck/Linux compatibility notes",
+          "url": "https://github.com/KaikoClanworth1/wwe-svr2011-pc/blob/main/README.md#android"
+        },
+        {
+          "label": "GitHub repository metadata (primary language)",
+          "url": "https://api.github.com/repos/KaikoClanworth1/wwe-svr2011-pc"
+        }
+      ]
+    },
+    {
+      "id": "the-darkness-estacado-xbox360-recomp",
+      "title": "Estacado: The Darkness Xbox 360 Recompilation",
+      "game": "The Darkness (Xbox 360)",
+      "target_type": "Game",
+      "platform": "Xbox 360 → Windows x86-64; Steam Deck via Proton is community-reported",
+      "kind": "Recompilation",
+      "status": "Pre-release v0.9.8, tested by the maintainer on one Windows 11 PC. The README reports campaign play from start to finish; Steam Deck/Proton reports are community evidence rather than maintainer hardware verification. This is a separate repository and implementation from portingpete/The-Darkness-Recomp already in the catalog.",
+      "summary": "The game’s PowerPC code is statically recompiled into C++ and linked as a native Windows executable. The project requires a user-owned supported Xbox 360 copy and includes no game assets.",
+      "project_url": "https://github.com/invinceble55-wq/Estacado-The-Darkness-Recomp",
+      "updated": "2026-10-15",
+      "strategy": "Static PowerPC-to-C++ recompilation with ReXGlue",
+      "language": "",
+      "source_available": "Public source repository and pre-release; user supplies the supported Xbox 360 game files; game data is not included",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Independent Windows static recompilation of The Darkness",
+      "sources": [
+        {
+          "label": "Project README and status",
+          "url": "https://github.com/invinceble55-wq/Estacado-The-Darkness-Recomp/blob/main/README.md"
+        },
+        {
+          "label": "Release v0.9.8",
+          "url": "https://github.com/invinceble55-wq/Estacado-The-Darkness-Recomp/releases/tag/v0.9.8"
+        },
+        {
+          "label": "Known issues and campaign status",
+          "url": "https://github.com/invinceble55-wq/Estacado-The-Darkness-Recomp/blob/main/README.md#known-issues"
+        },
+        {
+          "label": "GitHub repository metadata (primary language)",
+          "url": "https://api.github.com/repos/invinceble55-wq/Estacado-The-Darkness-Recomp"
+        }
+      ]
+    },
+    {
+      "id": "rayman-origins-xbox360-recomp",
+      "title": "Rayman Origins Xbox 360 Recompilation",
+      "game": "Rayman Origins (Xbox 360)",
+      "target_type": "Game",
+      "platform": "Xbox 360 → Android ARM64, macOS Apple silicon; Windows x86-64 build documented",
+      "kind": "Recompilation",
+      "status": "The maintainer reports the game running on Apple Silicon and Android, with the Android build at 60 FPS on Galaxy S23 and tested performance on Galaxy A56 and Redmi 10C. Graphics, audio, movies, and controls are reported working; no GitHub release is listed.",
+      "summary": "XenonRecomp translates the Xbox 360 PowerPC code to C++ for x86-64/ARM64; a host runtime supplies Xbox services, with ReXGlue and a native Vulkan renderer documented. The user builds locally from their own game dump; no game code or assets are stored in the repository.",
+      "project_url": "https://github.com/XDanfr/RaymanOriginsRecomp",
+      "updated": "2026-10-15",
+      "strategy": "Static PowerPC-to-C++ recompilation using XenonRecomp with ReXGlue services and a native Vulkan renderer",
+      "language": "",
+      "source_available": "Public source repository; user supplies their own Xbox 360 game dump; no game files/assets or generated game code are included",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Xbox 360 recompilation with Android and desktop host targets",
+      "sources": [
+        {
+          "label": "Project README and status",
+          "url": "https://github.com/XDanfr/RaymanOriginsRecomp/blob/main/README.md"
+        },
+        {
+          "label": "Android setup and tested-device documentation",
+          "url": "https://github.com/XDanfr/RaymanOriginsRecomp/blob/main/docs/ANDROID.md"
+        },
+        {
+          "label": "Android performance measurements",
+          "url": "https://github.com/XDanfr/RaymanOriginsRecomp/blob/main/docs/ANDROID_PERFORMANCE.md"
+        },
+        {
+          "label": "Native renderer implementation notes",
+          "url": "https://github.com/XDanfr/RaymanOriginsRecomp/blob/main/docs/NATIVE_RENDERER.md"
+        },
+        {
+          "label": "GitHub repository metadata (primary language)",
+          "url": "https://api.github.com/repos/XDanfr/RaymanOriginsRecomp"
+        }
+      ]
+    },
+    {
+      "id": "split-second-xbox360-crownpark",
+      "title": "Split/Second Xbox 360 Recompilation (CrownPark Native Ports)",
+      "game": "Split/Second (Xbox 360)",
+      "target_type": "Game",
+      "platform": "Xbox 360 → Linux x86-64, Windows x86-64",
+      "kind": "Recompilation",
+      "status": "The collection README marks every listed title playable; title-specific launcher release splitsecond-v1 is available. Linux and Windows launchers exist, but the README says Windows builds are cross-compiled and per-release notes define how far each has been tested.",
+      "summary": "The Xbox 360 PowerPC code is statically recompiled ahead of time to native x86-64, with a native Vulkan renderer, native audio, and a shared rexmenu launcher. The public source tree includes per-title port code; users import their own game files, which are not bundled.",
+      "project_url": "https://github.com/CrownParkComputing/Xbox360-Native-Ports",
+      "updated": "2026-10-15",
+      "strategy": "Ahead-of-time Xbox 360 PowerPC-to-x86-64 static recompilation with native Vulkan graphics and audio",
+      "language": "",
+      "source_available": "Public source repository and title-specific launcher release; user imports their own game files; no game data is bundled",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Per-title Xbox 360 recompilation in the CrownPark Native Ports collection",
+      "sources": [
+        {
+          "label": "Collection README: platform, recompilation method, and title status",
+          "url": "https://github.com/CrownParkComputing/Xbox360-Native-Ports/blob/main/README.md"
+        },
+        {
+          "label": "Title-specific release splitsecond-v1",
+          "url": "https://github.com/CrownParkComputing/Xbox360-Native-Ports/releases/tag/splitsecond-v1"
+        },
+        {
+          "label": "Title-specific conversion notes",
+          "url": "https://github.com/CrownParkComputing/Xbox360-Native-Ports/blob/main/collections/sega/dvd/ss-recomp/CONVERSION.md"
+        },
+        {
+          "label": "GitHub repository metadata (primary language)",
+          "url": "https://api.github.com/repos/CrownParkComputing/Xbox360-Native-Ports"
+        }
+      ]
+    },
+    {
+      "id": "space-giraffe-xbox360-crownpark",
+      "title": "Space Giraffe Xbox 360 Recompilation (CrownPark Native Ports)",
+      "game": "Space Giraffe (Xbox 360 XBLA)",
+      "target_type": "Game",
+      "platform": "Xbox 360 XBLA → Linux x86-64, Windows x86-64",
+      "kind": "Recompilation",
+      "status": "The collection README marks every listed title playable and a title-specific v1 launcher release is public. A per-title source directory was not present in the inspected main branch; Windows/Linux support is documented, with per-release notes defining platform testing.",
+      "summary": "The Xbox 360 PowerPC code is statically recompiled ahead of time to native x86-64, with a native Vulkan renderer, native audio, and a shared rexmenu launcher. The public source tree includes per-title port code; users import their own game files, which are not bundled.",
+      "project_url": "https://github.com/CrownParkComputing/Xbox360-Native-Ports",
+      "updated": "2026-10-15",
+      "strategy": "Ahead-of-time Xbox 360 PowerPC-to-x86-64 static recompilation with native Vulkan graphics and audio",
+      "language": "",
+      "source_available": "Public title-specific launcher release; the title-specific source directory is absent from the inspected main branch; game files are user-supplied and not bundled",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Per-title Xbox 360 recompilation in the CrownPark Native Ports collection",
+      "sources": [
+        {
+          "label": "Collection README: platform, recompilation method, and title status",
+          "url": "https://github.com/CrownParkComputing/Xbox360-Native-Ports/blob/main/README.md"
+        },
+        {
+          "label": "Title-specific release spacegiraffe-v1",
+          "url": "https://github.com/CrownParkComputing/Xbox360-Native-Ports/releases/tag/spacegiraffe-v1"
+        },
+        {
+          "label": "GitHub repository metadata (primary language)",
+          "url": "https://api.github.com/repos/CrownParkComputing/Xbox360-Native-Ports"
+        }
+      ]
+    },
+    {
+      "id": "soulcalibur-ii-hd-online-xbla-crownpark",
+      "title": "SoulCalibur II HD Online XBLA Recompilation (CrownPark Native Ports)",
+      "game": "SoulCalibur II HD Online (Xbox 360 XBLA)",
+      "target_type": "Game",
+      "platform": "Xbox 360 XBLA → Linux x86-64, Windows x86-64",
+      "kind": "Recompilation",
+      "status": "The collection README marks every listed title playable; title-specific launcher release soulcalibur2-v1 is available. Linux and Windows launchers exist, but the README says Windows builds are cross-compiled and per-release notes define how far each has been tested.",
+      "summary": "The Xbox 360 PowerPC code is statically recompiled ahead of time to native x86-64, with a native Vulkan renderer, native audio, and a shared rexmenu launcher. The public source tree includes per-title port code; users import their own game files, which are not bundled.",
+      "project_url": "https://github.com/CrownParkComputing/Xbox360-Native-Ports",
+      "updated": "2026-10-15",
+      "strategy": "Ahead-of-time Xbox 360 PowerPC-to-x86-64 static recompilation with native Vulkan graphics and audio",
+      "language": "",
+      "source_available": "Public source repository and title-specific launcher release; user imports their own game files; no game data is bundled",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Per-title Xbox 360 recompilation in the CrownPark Native Ports collection",
+      "sources": [
+        {
+          "label": "Collection README: platform, recompilation method, and title status",
+          "url": "https://github.com/CrownParkComputing/Xbox360-Native-Ports/blob/main/README.md"
+        },
+        {
+          "label": "Title-specific release soulcalibur2-v1",
+          "url": "https://github.com/CrownParkComputing/Xbox360-Native-Ports/releases/tag/soulcalibur2-v1"
+        },
+        {
+          "label": "Title-specific conversion notes",
+          "url": "https://github.com/CrownParkComputing/Xbox360-Native-Ports/blob/main/collections/sega/xbla/soulcalibur2-recomp/CONVERSION.md"
+        },
+        {
+          "label": "GitHub repository metadata (primary language)",
+          "url": "https://api.github.com/repos/CrownParkComputing/Xbox360-Native-Ports"
+        }
+      ]
+    },
+    {
+      "id": "ridge-racer-unbounded-xbox360-crownpark",
+      "title": "Ridge Racer Unbounded Xbox 360 Recompilation (CrownPark Native Ports)",
+      "game": "Ridge Racer Unbounded (Xbox 360)",
+      "target_type": "Game",
+      "platform": "Xbox 360 → Linux x86-64, Windows x86-64",
+      "kind": "Recompilation",
+      "status": "The collection README marks every listed title playable; title-specific launcher release ridgeracerunbounded-v1 is available. Linux and Windows launchers exist, but the README says Windows builds are cross-compiled and per-release notes define how far each has been tested.",
+      "summary": "The Xbox 360 PowerPC code is statically recompiled ahead of time to native x86-64, with a native Vulkan renderer, native audio, and a shared rexmenu launcher. The public source tree includes per-title port code; users import their own game files, which are not bundled.",
+      "project_url": "https://github.com/CrownParkComputing/Xbox360-Native-Ports",
+      "updated": "2026-10-15",
+      "strategy": "Ahead-of-time Xbox 360 PowerPC-to-x86-64 static recompilation with native Vulkan graphics and audio",
+      "language": "",
+      "source_available": "Public source repository and title-specific launcher release; user imports their own game files; no game data is bundled",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Per-title Xbox 360 recompilation in the CrownPark Native Ports collection",
+      "sources": [
+        {
+          "label": "Collection README: platform, recompilation method, and title status",
+          "url": "https://github.com/CrownParkComputing/Xbox360-Native-Ports/blob/main/README.md"
+        },
+        {
+          "label": "Title-specific release ridgeracerunbounded-v1",
+          "url": "https://github.com/CrownParkComputing/Xbox360-Native-Ports/releases/tag/ridgeracerunbounded-v1"
+        },
+        {
+          "label": "Title-specific conversion notes",
+          "url": "https://github.com/CrownParkComputing/Xbox360-Native-Ports/blob/main/collections/sega/dvd/rru-recomp/CONVERSION.md"
+        },
+        {
+          "label": "GitHub repository metadata (primary language)",
+          "url": "https://api.github.com/repos/CrownParkComputing/Xbox360-Native-Ports"
+        }
+      ]
+    },
+    {
+      "id": "rez-hd-xbla-crownpark",
+      "title": "Rez HD XBLA Recompilation (CrownPark Native Ports)",
+      "game": "Rez HD (Xbox 360 XBLA)",
+      "target_type": "Game",
+      "platform": "Xbox 360 XBLA → Linux x86-64, Windows x86-64",
+      "kind": "Recompilation",
+      "status": "The collection README marks every listed title playable; title-specific launcher release rez-v1 is available. Linux and Windows launchers exist, but the README says Windows builds are cross-compiled and per-release notes define how far each has been tested.",
+      "summary": "The Xbox 360 PowerPC code is statically recompiled ahead of time to native x86-64, with a native Vulkan renderer, native audio, and a shared rexmenu launcher. The public source tree includes per-title port code; users import their own game files, which are not bundled.",
+      "project_url": "https://github.com/CrownParkComputing/Xbox360-Native-Ports",
+      "updated": "2026-10-15",
+      "strategy": "Ahead-of-time Xbox 360 PowerPC-to-x86-64 static recompilation with native Vulkan graphics and audio",
+      "language": "",
+      "source_available": "Public source repository and title-specific launcher release; user imports their own game files; no game data is bundled",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Per-title Xbox 360 recompilation in the CrownPark Native Ports collection",
+      "sources": [
+        {
+          "label": "Collection README: platform, recompilation method, and title status",
+          "url": "https://github.com/CrownParkComputing/Xbox360-Native-Ports/blob/main/README.md"
+        },
+        {
+          "label": "Title-specific release rez-v1",
+          "url": "https://github.com/CrownParkComputing/Xbox360-Native-Ports/releases/tag/rez-v1"
+        },
+        {
+          "label": "Title-specific conversion notes",
+          "url": "https://github.com/CrownParkComputing/Xbox360-Native-Ports/blob/main/collections/sega/xbla/rez-recomp/CONVERSION.md"
+        },
+        {
+          "label": "GitHub repository metadata (primary language)",
+          "url": "https://api.github.com/repos/CrownParkComputing/Xbox360-Native-Ports"
+        }
+      ]
+    },
+    {
+      "id": "outrun-online-arcade-xbla-crownpark",
+      "title": "OutRun Online Arcade XBLA Recompilation (CrownPark Native Ports)",
+      "game": "OutRun Online Arcade (Xbox 360 XBLA)",
+      "target_type": "Game",
+      "platform": "Xbox 360 XBLA → Linux x86-64, Windows x86-64",
+      "kind": "Recompilation",
+      "status": "The collection README marks every listed title playable and a title-specific v1 launcher release is public. A per-title source directory was not present in the inspected main branch; Windows/Linux support is documented, with per-release notes defining platform testing.",
+      "summary": "The Xbox 360 PowerPC code is statically recompiled ahead of time to native x86-64, with a native Vulkan renderer, native audio, and a shared rexmenu launcher. The public source tree includes per-title port code; users import their own game files, which are not bundled.",
+      "project_url": "https://github.com/CrownParkComputing/Xbox360-Native-Ports",
+      "updated": "2026-10-15",
+      "strategy": "Ahead-of-time Xbox 360 PowerPC-to-x86-64 static recompilation with native Vulkan graphics and audio",
+      "language": "",
+      "source_available": "Public title-specific launcher release; the title-specific source directory is absent from the inspected main branch; game files are user-supplied and not bundled",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Per-title Xbox 360 recompilation in the CrownPark Native Ports collection",
+      "sources": [
+        {
+          "label": "Collection README: platform, recompilation method, and title status",
+          "url": "https://github.com/CrownParkComputing/Xbox360-Native-Ports/blob/main/README.md"
+        },
+        {
+          "label": "Title-specific release outrun-v1",
+          "url": "https://github.com/CrownParkComputing/Xbox360-Native-Ports/releases/tag/outrun-v1"
+        },
+        {
+          "label": "GitHub repository metadata (primary language)",
+          "url": "https://api.github.com/repos/CrownParkComputing/Xbox360-Native-Ports"
+        }
+      ]
+    },
+    {
+      "id": "midnight-club-la-crownpark",
+      "title": "Midnight Club: Los Angeles Complete Edition (CrownPark Native Ports)",
+      "game": "Midnight Club: Los Angeles Complete Edition (Xbox 360)",
+      "target_type": "Game",
+      "platform": "Xbox 360 → Linux x86-64, Windows x86-64",
+      "kind": "Recompilation",
+      "status": "The collection README marks every listed title playable; title-specific launcher release midnightclubla-v1 is available. Linux and Windows launchers exist, but the README says Windows builds are cross-compiled and per-release notes define how far each has been tested.",
+      "summary": "The Xbox 360 PowerPC code is statically recompiled ahead of time to native x86-64, with a native Vulkan renderer, native audio, and a shared rexmenu launcher. The public source tree includes per-title port code; users import their own game files, which are not bundled.",
+      "project_url": "https://github.com/CrownParkComputing/Xbox360-Native-Ports",
+      "updated": "2026-10-15",
+      "strategy": "Ahead-of-time Xbox 360 PowerPC-to-x86-64 static recompilation with native Vulkan graphics and audio",
+      "language": "",
+      "source_available": "Public source repository and title-specific launcher release; user imports their own game files; no game data is bundled",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Per-title Xbox 360 recompilation in the CrownPark Native Ports collection",
+      "sources": [
+        {
+          "label": "Collection README: platform, recompilation method, and title status",
+          "url": "https://github.com/CrownParkComputing/Xbox360-Native-Ports/blob/main/README.md"
+        },
+        {
+          "label": "Title-specific release midnightclubla-v1",
+          "url": "https://github.com/CrownParkComputing/Xbox360-Native-Ports/releases/tag/midnightclubla-v1"
+        },
+        {
+          "label": "Title-specific conversion notes",
+          "url": "https://github.com/CrownParkComputing/Xbox360-Native-Ports/blob/main/collections/sega/dvd/1.mcla-recomp/CONVERSION.md"
+        },
+        {
+          "label": "GitHub repository metadata (primary language)",
+          "url": "https://api.github.com/repos/CrownParkComputing/Xbox360-Native-Ports"
+        }
+      ]
+    },
+    {
+      "id": "hydro-thunder-hurricane-xbla-crownpark",
+      "title": "Hydro Thunder Hurricane XBLA Recompilation (CrownPark Native Ports)",
+      "game": "Hydro Thunder Hurricane (Xbox 360 XBLA)",
+      "target_type": "Game",
+      "platform": "Xbox 360 XBLA → Linux x86-64, Windows x86-64",
+      "kind": "Recompilation",
+      "status": "The collection README marks every listed title playable; title-specific launcher release hydrothunder-v1 is available. Linux and Windows launchers exist, but the README says Windows builds are cross-compiled and per-release notes define how far each has been tested.",
+      "summary": "The Xbox 360 PowerPC code is statically recompiled ahead of time to native x86-64, with a native Vulkan renderer, native audio, and a shared rexmenu launcher. The public source tree includes per-title port code; users import their own game files, which are not bundled.",
+      "project_url": "https://github.com/CrownParkComputing/Xbox360-Native-Ports",
+      "updated": "2026-10-15",
+      "strategy": "Ahead-of-time Xbox 360 PowerPC-to-x86-64 static recompilation with native Vulkan graphics and audio",
+      "language": "",
+      "source_available": "Public source repository and title-specific launcher release; user imports their own game files; no game data is bundled",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Per-title Xbox 360 recompilation in the CrownPark Native Ports collection",
+      "sources": [
+        {
+          "label": "Collection README: platform, recompilation method, and title status",
+          "url": "https://github.com/CrownParkComputing/Xbox360-Native-Ports/blob/main/README.md"
+        },
+        {
+          "label": "Title-specific release hydrothunder-v1",
+          "url": "https://github.com/CrownParkComputing/Xbox360-Native-Ports/releases/tag/hydrothunder-v1"
+        },
+        {
+          "label": "Title-specific conversion notes",
+          "url": "https://github.com/CrownParkComputing/Xbox360-Native-Ports/blob/main/collections/sega/xbla/hydrothunder-recomp/CONVERSION.md"
+        },
+        {
+          "label": "GitHub repository metadata (primary language)",
+          "url": "https://api.github.com/repos/CrownParkComputing/Xbox360-Native-Ports"
+        }
+      ]
+    },
+    {
+      "id": "geometry-wars-3-xbla-crownpark",
+      "title": "Geometry Wars 3: Dimensions XBLA Recompilation (CrownPark Native Ports)",
+      "game": "Geometry Wars 3: Dimensions (Xbox 360 XBLA)",
+      "target_type": "Game",
+      "platform": "Xbox 360 XBLA → Linux x86-64, Windows x86-64",
+      "kind": "Recompilation",
+      "status": "The collection README marks every listed title playable; title-specific launcher release geometrywars3-v1 is available. Linux and Windows launchers exist, but the README says Windows builds are cross-compiled and per-release notes define how far each has been tested.",
+      "summary": "The Xbox 360 PowerPC code is statically recompiled ahead of time to native x86-64, with a native Vulkan renderer, native audio, and a shared rexmenu launcher. The public source tree includes per-title port code; users import their own game files, which are not bundled.",
+      "project_url": "https://github.com/CrownParkComputing/Xbox360-Native-Ports",
+      "updated": "2026-10-15",
+      "strategy": "Ahead-of-time Xbox 360 PowerPC-to-x86-64 static recompilation with native Vulkan graphics and audio",
+      "language": "",
+      "source_available": "Public source repository and title-specific launcher release; user imports their own game files; no game data is bundled",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Per-title Xbox 360 recompilation in the CrownPark Native Ports collection",
+      "sources": [
+        {
+          "label": "Collection README: platform, recompilation method, and title status",
+          "url": "https://github.com/CrownParkComputing/Xbox360-Native-Ports/blob/main/README.md"
+        },
+        {
+          "label": "Title-specific release geometrywars3-v1",
+          "url": "https://github.com/CrownParkComputing/Xbox360-Native-Ports/releases/tag/geometrywars3-v1"
+        },
+        {
+          "label": "Title-specific conversion notes",
+          "url": "https://github.com/CrownParkComputing/Xbox360-Native-Ports/blob/main/collections/sega/xbla/geometrywars3-recomp/CONVERSION.md"
+        },
+        {
+          "label": "GitHub repository metadata (primary language)",
+          "url": "https://api.github.com/repos/CrownParkComputing/Xbox360-Native-Ports"
+        }
+      ]
+    },
+    {
+      "id": "geometry-wars-2-xbla-crownpark",
+      "title": "Geometry Wars: Retro Evolved 2 XBLA Recompilation (CrownPark Native Ports)",
+      "game": "Geometry Wars: Retro Evolved 2 (Xbox 360 XBLA)",
+      "target_type": "Game",
+      "platform": "Xbox 360 XBLA → Linux x86-64, Windows x86-64",
+      "kind": "Recompilation",
+      "status": "The collection README marks every listed title playable; title-specific launcher release geometrywars2-v1 is available. Linux and Windows launchers exist, but the README says Windows builds are cross-compiled and per-release notes define how far each has been tested.",
+      "summary": "The Xbox 360 PowerPC code is statically recompiled ahead of time to native x86-64, with a native Vulkan renderer, native audio, and a shared rexmenu launcher. The public source tree includes per-title port code; users import their own game files, which are not bundled.",
+      "project_url": "https://github.com/CrownParkComputing/Xbox360-Native-Ports",
+      "updated": "2026-10-15",
+      "strategy": "Ahead-of-time Xbox 360 PowerPC-to-x86-64 static recompilation with native Vulkan graphics and audio",
+      "language": "",
+      "source_available": "Public source repository and title-specific launcher release; user imports their own game files; no game data is bundled",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Per-title Xbox 360 recompilation in the CrownPark Native Ports collection",
+      "sources": [
+        {
+          "label": "Collection README: platform, recompilation method, and title status",
+          "url": "https://github.com/CrownParkComputing/Xbox360-Native-Ports/blob/main/README.md"
+        },
+        {
+          "label": "Title-specific release geometrywars2-v1",
+          "url": "https://github.com/CrownParkComputing/Xbox360-Native-Ports/releases/tag/geometrywars2-v1"
+        },
+        {
+          "label": "Title-specific conversion notes",
+          "url": "https://github.com/CrownParkComputing/Xbox360-Native-Ports/blob/main/collections/sega/xbla/geometrywars2-recomp/CONVERSION.md"
+        },
+        {
+          "label": "GitHub repository metadata (primary language)",
+          "url": "https://api.github.com/repos/CrownParkComputing/Xbox360-Native-Ports"
+        }
+      ]
+    },
+    {
+      "id": "geometry-wars-xbla-crownpark",
+      "title": "Geometry Wars: Retro Evolved XBLA Recompilation (CrownPark Native Ports)",
+      "game": "Geometry Wars: Retro Evolved (Xbox 360 XBLA)",
+      "target_type": "Game",
+      "platform": "Xbox 360 XBLA → Linux x86-64, Windows x86-64",
+      "kind": "Recompilation",
+      "status": "The collection README marks every listed title playable; title-specific launcher release geometrywars-v1 is available. Linux and Windows launchers exist, but the README says Windows builds are cross-compiled and per-release notes define how far each has been tested.",
+      "summary": "The Xbox 360 PowerPC code is statically recompiled ahead of time to native x86-64, with a native Vulkan renderer, native audio, and a shared rexmenu launcher. The public source tree includes per-title port code; users import their own game files, which are not bundled.",
+      "project_url": "https://github.com/CrownParkComputing/Xbox360-Native-Ports",
+      "updated": "2026-10-15",
+      "strategy": "Ahead-of-time Xbox 360 PowerPC-to-x86-64 static recompilation with native Vulkan graphics and audio",
+      "language": "",
+      "source_available": "Public source repository and title-specific launcher release; user imports their own game files; no game data is bundled",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Per-title Xbox 360 recompilation in the CrownPark Native Ports collection",
+      "sources": [
+        {
+          "label": "Collection README: platform, recompilation method, and title status",
+          "url": "https://github.com/CrownParkComputing/Xbox360-Native-Ports/blob/main/README.md"
+        },
+        {
+          "label": "Title-specific release geometrywars-v1",
+          "url": "https://github.com/CrownParkComputing/Xbox360-Native-Ports/releases/tag/geometrywars-v1"
+        },
+        {
+          "label": "Title-specific conversion notes",
+          "url": "https://github.com/CrownParkComputing/Xbox360-Native-Ports/blob/main/collections/sega/xbla/geometrywars-recomp/CONVERSION.md"
+        },
+        {
+          "label": "GitHub repository metadata (primary language)",
+          "url": "https://api.github.com/repos/CrownParkComputing/Xbox360-Native-Ports"
+        }
+      ]
+    },
+    {
+      "id": "daytona-usa-xbla-crownpark",
+      "title": "Daytona USA XBLA Recompilation (CrownPark Native Ports)",
+      "game": "Daytona USA (2011 Xbox 360 XBLA)",
+      "target_type": "Game",
+      "platform": "Xbox 360 XBLA → Linux x86-64, Windows x86-64",
+      "kind": "Recompilation",
+      "status": "The collection README marks every listed title playable and a title-specific v1 launcher release is public. A per-title source directory was not present in the inspected main branch; Windows/Linux support is documented, with per-release notes defining platform testing.",
+      "summary": "The Xbox 360 PowerPC code is statically recompiled ahead of time to native x86-64, with a native Vulkan renderer, native audio, and a shared rexmenu launcher. The public source tree includes per-title port code; users import their own game files, which are not bundled.",
+      "project_url": "https://github.com/CrownParkComputing/Xbox360-Native-Ports",
+      "updated": "2026-10-15",
+      "strategy": "Ahead-of-time Xbox 360 PowerPC-to-x86-64 static recompilation with native Vulkan graphics and audio",
+      "language": "",
+      "source_available": "Public title-specific launcher release; the title-specific source directory is absent from the inspected main branch; game files are user-supplied and not bundled",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Per-title Xbox 360 recompilation in the CrownPark Native Ports collection",
+      "sources": [
+        {
+          "label": "Collection README: platform, recompilation method, and title status",
+          "url": "https://github.com/CrownParkComputing/Xbox360-Native-Ports/blob/main/README.md"
+        },
+        {
+          "label": "Title-specific release daytona-v1",
+          "url": "https://github.com/CrownParkComputing/Xbox360-Native-Ports/releases/tag/daytona-v1"
+        },
+        {
+          "label": "GitHub repository metadata (primary language)",
+          "url": "https://api.github.com/repos/CrownParkComputing/Xbox360-Native-Ports"
+        }
+      ]
+    },
+    {
+      "id": "burnout-revenge-xbox360-crownpark",
+      "title": "Burnout Revenge Xbox 360 Recompilation (CrownPark Native Ports)",
+      "game": "Burnout Revenge (Xbox 360 retail)",
+      "target_type": "Game",
+      "platform": "Xbox 360 → Linux x86-64, Windows x86-64",
+      "kind": "Recompilation",
+      "status": "The collection README marks every listed title playable; title-specific launcher release burnoutrevenge-v1 is available. Linux and Windows launchers exist, but the README says Windows builds are cross-compiled and per-release notes define how far each has been tested.",
+      "summary": "The Xbox 360 PowerPC code is statically recompiled ahead of time to native x86-64, with a native Vulkan renderer, native audio, and a shared rexmenu launcher. The public source tree includes per-title port code; users import their own game files, which are not bundled.",
+      "project_url": "https://github.com/CrownParkComputing/Xbox360-Native-Ports",
+      "updated": "2026-10-15",
+      "strategy": "Ahead-of-time Xbox 360 PowerPC-to-x86-64 static recompilation with native Vulkan graphics and audio",
+      "language": "",
+      "source_available": "Public source repository and title-specific launcher release; user imports their own game files; no game data is bundled",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Per-title Xbox 360 recompilation in the CrownPark Native Ports collection",
+      "sources": [
+        {
+          "label": "Collection README: platform, recompilation method, and title status",
+          "url": "https://github.com/CrownParkComputing/Xbox360-Native-Ports/blob/main/README.md"
+        },
+        {
+          "label": "Title-specific release burnoutrevenge-v1",
+          "url": "https://github.com/CrownParkComputing/Xbox360-Native-Ports/releases/tag/burnoutrevenge-v1"
+        },
+        {
+          "label": "Title-specific conversion notes",
+          "url": "https://github.com/CrownParkComputing/Xbox360-Native-Ports/blob/main/collections/sega/xbla/burnoutrevenge-recomp/CONVERSION.md"
+        },
+        {
+          "label": "GitHub repository metadata (primary language)",
+          "url": "https://api.github.com/repos/CrownParkComputing/Xbox360-Native-Ports"
+        }
+      ]
+    },
+    {
+      "id": "banjo-tooie-xbla-crownpark",
+      "title": "Banjo-Tooie XBLA Recompilation (CrownPark Native Ports)",
+      "game": "Banjo-Tooie (Xbox 360 XBLA)",
+      "target_type": "Game",
+      "platform": "Xbox 360 XBLA → Linux x86-64, Windows x86-64",
+      "kind": "Recompilation",
+      "status": "The collection README marks every listed title playable; title-specific launcher release banjotooie-v1 is available. Linux and Windows launchers exist, but the README says Windows builds are cross-compiled and per-release notes define how far each has been tested.",
+      "summary": "The Xbox 360 PowerPC code is statically recompiled ahead of time to native x86-64, with a native Vulkan renderer, native audio, and a shared rexmenu launcher. The public source tree includes per-title port code; users import their own game files, which are not bundled.",
+      "project_url": "https://github.com/CrownParkComputing/Xbox360-Native-Ports",
+      "updated": "2026-10-15",
+      "strategy": "Ahead-of-time Xbox 360 PowerPC-to-x86-64 static recompilation with native Vulkan graphics and audio",
+      "language": "",
+      "source_available": "Public source repository and title-specific launcher release; user imports their own game files; no game data is bundled",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Per-title Xbox 360 recompilation in the CrownPark Native Ports collection",
+      "sources": [
+        {
+          "label": "Collection README: platform, recompilation method, and title status",
+          "url": "https://github.com/CrownParkComputing/Xbox360-Native-Ports/blob/main/README.md"
+        },
+        {
+          "label": "Title-specific release banjotooie-v1",
+          "url": "https://github.com/CrownParkComputing/Xbox360-Native-Ports/releases/tag/banjotooie-v1"
+        },
+        {
+          "label": "Title-specific conversion notes",
+          "url": "https://github.com/CrownParkComputing/Xbox360-Native-Ports/blob/main/collections/sega/xbla/banjotooie-recomp/CONVERSION.md"
+        },
+        {
+          "label": "GitHub repository metadata (primary language)",
+          "url": "https://api.github.com/repos/CrownParkComputing/Xbox360-Native-Ports"
+        }
+      ]
+    },
+    {
+      "id": "banjo-kazooie-xbla-crownpark",
+      "title": "Banjo-Kazooie XBLA Recompilation (CrownPark Native Ports)",
+      "game": "Banjo-Kazooie (Xbox 360 XBLA)",
+      "target_type": "Game",
+      "platform": "Xbox 360 XBLA → Linux x86-64, Windows x86-64",
+      "kind": "Recompilation",
+      "status": "The collection README marks every listed title playable; title-specific launcher release banjokazooie-v1 is available. Linux and Windows launchers exist, but the README says Windows builds are cross-compiled and per-release notes define how far each has been tested.",
+      "summary": "The Xbox 360 PowerPC code is statically recompiled ahead of time to native x86-64, with a native Vulkan renderer, native audio, and a shared rexmenu launcher. The public source tree includes per-title port code; users import their own game files, which are not bundled.",
+      "project_url": "https://github.com/CrownParkComputing/Xbox360-Native-Ports",
+      "updated": "2026-10-15",
+      "strategy": "Ahead-of-time Xbox 360 PowerPC-to-x86-64 static recompilation with native Vulkan graphics and audio",
+      "language": "",
+      "source_available": "Public source repository and title-specific launcher release; user imports their own game files; no game data is bundled",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Per-title Xbox 360 recompilation in the CrownPark Native Ports collection",
+      "sources": [
+        {
+          "label": "Collection README: platform, recompilation method, and title status",
+          "url": "https://github.com/CrownParkComputing/Xbox360-Native-Ports/blob/main/README.md"
+        },
+        {
+          "label": "Title-specific release banjokazooie-v1",
+          "url": "https://github.com/CrownParkComputing/Xbox360-Native-Ports/releases/tag/banjokazooie-v1"
+        },
+        {
+          "label": "Title-specific conversion notes",
+          "url": "https://github.com/CrownParkComputing/Xbox360-Native-Ports/blob/main/collections/sega/xbla/banjokazooie-recomp/CONVERSION.md"
+        },
+        {
+          "label": "GitHub repository metadata (primary language)",
+          "url": "https://api.github.com/repos/CrownParkComputing/Xbox360-Native-Ports"
+        }
+      ]
+    },
+    {
+      "id": "conan-2007-xbox360-recomp",
+      "title": "Conan (2007) Xbox 360 Recompilation",
+      "game": "Conan (2007, Xbox 360)",
+      "target_type": "Game",
+      "platform": "Xbox 360 → Windows x86-64 / Direct3D 12",
+      "kind": "Recompilation",
+      "status": "The README describes a ReXGlue-based native Direct3D 12 recompilation and lists graphics options, high-resolution rendering, and controller-only input. It does not identify a release or give a specific gameplay/test boundary, so maturity is unclear.",
+      "summary": "The Xbox 360 PowerPC executable is recompiled with ReXGlue for a native Windows build and Direct3D 12 renderer. The user must supply the extracted game data; the README says the port currently supports a controller and displays letterboxing on non-16:9 screens.",
+      "project_url": "https://github.com/crazyriddler/Conan2007Recomp",
+      "updated": "2026-10-15",
+      "strategy": "Static Xbox 360 PowerPC recompilation using ReXGlue and a native Direct3D 12 renderer",
+      "language": "",
+      "source_available": "Public source repository; user supplies the extracted Xbox 360 game; no game data included",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "HLSL",
+      "subtype": "Xbox 360 static recompilation; Windows x64 and D3D12",
+      "sources": [
+        {
+          "label": "Project README and status",
+          "url": "https://github.com/crazyriddler/Conan2007Recomp/blob/main/README.md"
+        },
+        {
+          "label": "GitHub repository metadata (primary language)",
+          "url": "https://api.github.com/repos/crazyriddler/Conan2007Recomp"
+        }
+      ]
+    },
+    {
+      "id": "burnout-revenge-xbox360-recomp-fabioap",
+      "title": "Burnout Revenge Xbox 360 Recompilation (Fabioap)",
+      "game": "Burnout Revenge (Xbox 360)",
+      "target_type": "Game",
+      "platform": "Xbox 360 → Windows x86-64",
+      "kind": "Recompilation",
+      "status": "Experimental source release, actively in progress. The owner reports title/menu access, save/load, full 3D car selection, race entry and a complete multi-race session without observed crashes. A rendering issue remains on several menu/pause screens, and the alpha-level session has not yet been independently reproduced.",
+      "summary": "Static Xbox 360 PowerPC-to-C++ recompilation using ReXGlue on Windows AMD64. The repository includes a customized SDK copy, build configuration and a dated project-state log; user-supplied game files are required.",
+      "project_url": "https://github.com/Fabioap-cpu/Burnout-Revenge-Recomp",
+      "updated": "2026-10-15",
+      "strategy": "Static PowerPC-to-C++ recompilation using ReXGlue",
+      "language": "",
+      "source_available": "Public source repository and experimental source release; user supplies extracted Xbox 360 game files; no game data or compiled executable included",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Xbox 360 static recompilation; Windows x64 target",
+      "sources": [
+        {
+          "label": "Project README and status",
+          "url": "https://github.com/Fabioap-cpu/Burnout-Revenge-Recomp/blob/main/README.md"
+        },
+        {
+          "label": "Dated project status and test findings",
+          "url": "https://github.com/Fabioap-cpu/Burnout-Revenge-Recomp/blob/main/docs/PROJECT_STATE.md"
+        },
+        {
+          "label": "GitHub repository metadata (primary language)",
+          "url": "https://api.github.com/repos/Fabioap-cpu/Burnout-Revenge-Recomp"
+        }
+      ]
+    },
+    {
+      "id": "deathrow-original-xbox-exonerated",
+      "title": "Deathrow Original Xbox Recompilation (Exonerated)",
+      "game": "Deathrow (Original Xbox)",
+      "target_type": "Game",
+      "platform": "Original Xbox → Windows x86-64",
+      "kind": "Recompilation",
+      "status": "Pre-alpha; builds from source only, with no release executable. The README reports menu navigation and full matches working, but software-rendered gameplay is about 8–9 FPS; audio, in-game video, lighting, and some textures remain incomplete.",
+      "summary": "The Original Xbox x86 code is lifted into C and built as a native Windows program using xboxrecomp. A user must provide the original Xbox game files; no game code/data/assets are bundled.",
+      "project_url": "https://github.com/AsukaNeo/Exonerated",
+      "updated": "2026-10-15",
+      "strategy": "Static x86-to-C recompilation using xboxrecomp",
+      "language": "",
+      "source_available": "Public source repository; requires the user’s own Original Xbox game files; no game assets or release executable included",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "Python",
+      "subtype": "Original Xbox game recompilation; Windows pre-alpha",
+      "sources": [
+        {
+          "label": "Project README and status",
+          "url": "https://github.com/AsukaNeo/Exonerated/blob/main/README.md"
+        },
+        {
+          "label": "Build and current status",
+          "url": "https://github.com/AsukaNeo/Exonerated#status"
+        },
+        {
+          "label": "GitHub repository metadata (primary language)",
+          "url": "https://api.github.com/repos/AsukaNeo/Exonerated"
+        }
+      ]
+    },
+    {
+      "id": "full-spectrum-warrior-ten-hammers-ogxbox-recomp",
+      "title": "Full Spectrum Warrior: Ten Hammers Original Xbox Recompilation",
+      "game": "Full Spectrum Warrior: Ten Hammers (Original Xbox review build)",
+      "target_type": "Game",
+      "platform": "Original Xbox → Linux x86-64",
+      "kind": "Recompilation",
+      "status": "The Linux bring-up reaches the real shell, profile, main-menu, difficulty-selection, and first-mission code paths. It is not playable yet: the native world frame is mostly black while Xbox vertex-shader/NV2A rendering and audio remain incomplete. The current target is a symbol-rich 5 Dec 2005 review build, not the retail XBE.",
+      "summary": "The Original Xbox x86 executable is statically recompiled to C and runs in a Linux Vulkan host runtime. The project uses symbols from its review build for a source-like layout and says a retail build may be evaluated later; game files are not included.",
+      "project_url": "https://github.com/FridiNaTor1/FullSpectrumWarriorTHXBOX",
+      "updated": "2026-10-15",
+      "strategy": "Static Original Xbox x86-to-C recompilation with a Linux Vulkan runtime",
+      "language": "",
+      "source_available": "Public source repository; user supplies the project’s review-build game files; no game data included",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Original Xbox static recompilation; Linux bring-up",
+      "sources": [
+        {
+          "label": "Project README and status",
+          "url": "https://github.com/FridiNaTor1/FullSpectrumWarriorTHXBOX/blob/main/README.md"
+        },
+        {
+          "label": "Current status and gameplay/rendering boundary",
+          "url": "https://github.com/FridiNaTor1/FullSpectrumWarriorTHXBOX#current-status"
+        },
+        {
+          "label": "GitHub repository metadata (primary language)",
+          "url": "https://api.github.com/repos/FridiNaTor1/FullSpectrumWarriorTHXBOX"
+        }
+      ]
+    },
+    {
+      "id": "flatout-original-xbox-recomp-research",
+      "title": "FlatOut Original Xbox Recompilation Research",
+      "game": "FlatOut (Original Xbox)",
+      "target_type": "Game",
+      "platform": "Original Xbox → host target not yet specified",
+      "kind": "Recompilation",
+      "status": "Early XBE and asset-pipeline work only. The README says current milestones are diagnostic executables and a D3D8-to-Vulkan probe; the retail game code has not yet been statically recompiled.",
+      "summary": "A title-specific research project built on MANXFramework, with XBE/kernel initialization, BFS asset inspection, and graphics diagnostics. It requires user-supplied game files; no playable native port is claimed.",
+      "project_url": "https://github.com/RetroRecompilations/MANXFlatOut1",
+      "updated": "2026-10-15",
+      "strategy": "Early static-recompilation and asset-pipeline research; game code recompilation not yet started",
+      "language": "",
+      "source_available": "Public source and analysis tools; user supplies extracted XBE and BFS content; no game files included",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Original Xbox recompilation research; host target not stated",
+      "sources": [
+        {
+          "label": "Project README and status",
+          "url": "https://github.com/RetroRecompilations/MANXFlatOut1/blob/main/README.md"
+        },
+        {
+          "label": "GitHub repository metadata (primary language)",
+          "url": "https://api.github.com/repos/RetroRecompilations/MANXFlatOut1"
+        }
+      ]
+    },
+    {
+      "id": "la-rush-original-xbox-recomp-research",
+      "title": "L.A. Rush Original Xbox Recompilation Research",
+      "game": "L.A. Rush (Original Xbox)",
+      "target_type": "Game",
+      "platform": "Original Xbox → host target not yet specified",
+      "kind": "Recompilation",
+      "status": "Early analysis, not a playable port. The README reports XBE layout parsing, Midway k9 engine identification, and asset-container inventory; the compiled probe uses MANXFramework’s Xbox D3D8-to-Vulkan backend.",
+      "summary": "Title-specific XBE and asset analysis for an intended static recompilation of L.A. Rush. The project requires user-supplied game files and does not claim game-wide recompilation or playability.",
+      "project_url": "https://github.com/RetroRecompilations/MANXLARush",
+      "updated": "2026-10-15",
+      "strategy": "Early XBE analysis and static-recompilation research using MANXFramework",
+      "language": "",
+      "source_available": "Public source and analysis tools; requires a user-supplied extracted Original Xbox XBE and assets",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "Python",
+      "subtype": "Original Xbox recompilation research; host target not stated",
+      "sources": [
+        {
+          "label": "Project README and status",
+          "url": "https://github.com/RetroRecompilations/MANXLARush/blob/main/README.md"
+        },
+        {
+          "label": "GitHub repository metadata (primary language)",
+          "url": "https://api.github.com/repos/RetroRecompilations/MANXLARush"
+        }
+      ]
+    },
+    {
+      "id": "halo-combat-evolved-xbox-incremental-reimplementation",
+      "title": "Halo: Combat Evolved Original Xbox Incremental Reimplementation",
+      "game": "Halo: Combat Evolved (Original Xbox)",
+      "target_type": "Game",
+      "platform": "Original Xbox XBE → Original Xbox / xemu",
+      "kind": "Reimplementation",
+      "status": "Status is unclear and the evidence conflicts: the README says the main loop and several functions are reimplemented but calls the project a long way from finished; its linked progress report currently shows 0.00% and no functions, and GitHub reports no push since 2023-10-09.",
+      "summary": "C functions are incrementally reimplemented, compiled, and patched into the original XBE so selected functions replace the original implementations. The build requires a specific user-owned retail executable and game files; this is source reimplementation, not matching decompilation.",
+      "project_url": "https://github.com/halo-re/halo",
+      "updated": "2026-10-15",
+      "strategy": "Incremental C reimplementation patched into the original Xbox executable",
+      "language": "",
+      "source_available": "Public C/Python source; user supplies retail game files and executable version 01.10.12.2276; no game assets included",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Original Xbox incremental source reimplementation",
+      "sources": [
+        {
+          "label": "Project README and status",
+          "url": "https://github.com/halo-re/halo/blob/main/README.md"
+        },
+        {
+          "label": "Project progress report",
+          "url": "https://blam.info/progress/"
+        },
+        {
+          "label": "GitHub repository metadata and last-push date",
+          "url": "https://api.github.com/repos/halo-re/halo"
+        },
+        {
+          "label": "GitHub repository metadata (primary language)",
+          "url": "https://api.github.com/repos/halo-re/halo"
+        }
+      ]
+    }
+  ]
+}

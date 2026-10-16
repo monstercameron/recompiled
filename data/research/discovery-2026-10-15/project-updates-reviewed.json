@@ -18,14 +18,20 @@
     {
       "id": "angle",
       "fields": {
-        "platform": "OpenGL ES 2.0–3.2 → Vulkan, desktop OpenGL, Direct3D 9/11, or Metal as supported by the selected backend; platform coverage varies by renderer."
+        "platform": "OpenGL ES 2.0–3.2 → Vulkan, desktop OpenGL, Direct3D 9/11, or Metal as supported by the selected backend; platform coverage varies by renderer.",
+        "target_type": "Software"
       },
       "sources": [
         {
           "label": "ANGLE maintainer README and backend/platform support tables",
           "url": "https://github.com/google/angle/blob/main/README.md"
+        },
+        {
+          "label": "Project repository",
+          "url": "https://github.com/google/angle"
         }
-      ]
+      ],
+      "evidence_note": "The project is a general-purpose API/graphics/runtime implementation supporting multiple applications or games, rather than a reconstruction of one named game; its catalog target type is Software."
     },
     {
       "id": "animal-crossing-3ds-port",
@@ -90,7 +96,8 @@
     {
       "id": "anyps5",
       "fields": {
-        "subtype": "Offline PS5 executable relinker with system-library replacements and Vulkan shader/GPU compatibility; title-specific execution remains unverified until it runs."
+        "subtype": "Offline PS5 executable relinker with system-library replacements and Vulkan shader/GPU compatibility; title-specific execution remains unverified until it runs.",
+        "target_type": "Software"
       },
       "sources": [
         {
@@ -101,7 +108,8 @@
           "label": "Maintainer build documentation",
           "url": "https://github.com/boykopovar/AnyPS5/blob/main/docs/dev/BUILD.md"
         }
-      ]
+      ],
+      "evidence_note": "The project is a general-purpose API/graphics/runtime implementation supporting multiple applications or games, rather than a reconstruction of one named game; its catalog target type is Software."
     },
     {
       "id": "asphalt-8-android-vita-port",
@@ -1379,7 +1387,8 @@
     {
       "id": "portps5",
       "fields": {
-        "status": "Pre-1.0 research build. The maintainer’s 2026-09-30 PRD says none of the five gate-title requirements had been demonstrated in a gate-title run; most titles are reported not to boot. Windows PC host and user-supplied decrypted PS5 files are required."
+        "status": "Pre-1.0 research build. The maintainer’s 2026-09-30 PRD says none of the five gate-title requirements had been demonstrated in a gate-title run; most titles are reported not to boot. Windows PC host and user-supplied decrypted PS5 files are required.",
+        "target_type": "Software"
       },
       "sources": [
         {
@@ -1389,13 +1398,19 @@
         {
           "label": "Maintainer user guide: requirements and limitations",
           "url": "https://github.com/ymatrix1/PortPS5/blob/main/docs/USER_GUIDE.md"
+        },
+        {
+          "label": "Project README: execution model, graphics path, fork relationship, and status",
+          "url": "https://github.com/ymatrix1/PortPS5"
         }
-      ]
+      ],
+      "evidence_note": "The project is a general-purpose API/graphics/runtime implementation supporting multiple applications or games, rather than a reconstruction of one named game; its catalog target type is Software."
     },
     {
       "id": "prosper",
       "fields": {
-        "status": "Experimental; latest listed release v0.2.4 was published 2026-10-10. The compatibility tracker counts boot/menu/gameplay milestones separately and explicitly does not claim full-game playability from those stages."
+        "status": "Experimental; latest listed release v0.2.4 was published 2026-10-10. The compatibility tracker counts boot/menu/gameplay milestones separately and explicitly does not claim full-game playability from those stages.",
+        "target_type": "Software"
       },
       "sources": [
         {
@@ -1405,8 +1420,13 @@
         {
           "label": "Prosper v0.2.4 release (2026-10-10)",
           "url": "https://github.com/mattias800/prosper/releases/tag/v0.2.4"
+        },
+        {
+          "label": "Project documentation",
+          "url": "https://github.com/mattias800/prosper"
         }
-      ]
+      ],
+      "evidence_note": "The project is a general-purpose API/graphics/runtime implementation supporting multiple applications or games, rather than a reconstruction of one named game; its catalog target type is Software."
     },
     {
       "id": "proton",
@@ -2002,14 +2022,16 @@
     {
       "id": "windurango",
       "fields": {
-        "summary": "An Xbox One ERA compatibility layer for Windows UWP that implements selected Xbox system interfaces, including KernelX and D3D11.X, and runs supported title binaries through Windows services. It is a partial API/system compatibility project, not a full Xbox hardware emulator."
+        "summary": "An Xbox One ERA compatibility layer for Windows UWP that implements selected Xbox system interfaces, including KernelX and D3D11.X, and runs supported title binaries through Windows services. It is a partial API/system compatibility project, not a full Xbox hardware emulator.",
+        "target_type": "Software"
       },
       "sources": [
         {
           "label": "WinDurango maintainer README: architecture, Windows host requirements, and title status",
           "url": "https://github.com/WinDurango/WinDurango"
         }
-      ]
+      ],
+      "evidence_note": "The project is a general-purpose API/graphics/runtime implementation supporting multiple applications or games, rather than a reconstruction of one named game; its catalog target type is Software."
     },
     {
       "id": "wine",
@@ -2065,6 +2087,458 @@
           "url": "https://gitlab.freedesktop.org/mesa/mesa/-/blob/main/docs/drivers/zink.rst"
         }
       ]
+    },
+    {
+      "id": "pikmin-open-nectar-android",
+      "fields": {
+        "updated": "2026-10-15",
+        "platform": "Nintendo GameCube → Android arm64-v8a (Android 10+, OpenGL ES 3.0), Windows/Linux x86-64; macOS is also listed by the README",
+        "status": "The maintainer reports that most of the game is playable from start to finish, with minor graphical differences still in development. Android 10+, a 64-bit ARM device, and OpenGL ES 3.0 are listed; the v0.9.2 release (2026-10-01) includes an APK. The README does not publish a named Android device test matrix.",
+        "summary": "Native port based on the Pikmin GameCube decompilation; the README says the game code runs on the host and the GX graphics path is translated to OpenGL rather than run through Dolphin. Android adds touch controls and imports a user-supplied USA revision 1 or European disc image; the project does not distribute game data.",
+        "strategy": "Native desktop/Android port built on the matching Pikmin decompilation, with GX-to-OpenGL rendering and Android ARM64 support.",
+        "source_available": "Public source and desktop/Android release packages, including APK v0.9.2; user must provide a supported Pikmin disc image; game data is not included."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: port method, feature status, Android requirements, and disc formats",
+          "url": "https://github.com/SSunnKing/Open-Nectar---Pikmin-Native-PC-Mobile-Port"
+        },
+        {
+          "label": "Latest published release found: v0.9.2 packages including Android APK",
+          "url": "https://github.com/SSunnKing/Open-Nectar---Pikmin-Native-PC-Mobile-Port/releases/tag/0.9.2"
+        },
+        {
+          "label": "GitHub repository language breakdown",
+          "url": "https://api.github.com/repos/SSunnKing/Open-Nectar---Pikmin-Native-PC-Mobile-Port/languages"
+        }
+      ],
+      "evidence_note": "The README identifies the project as a native port based on projectPiki's decompilation, documents Android 10+/arm64-v8a/OpenGL ES 3.0 and supported disc revisions, and reports most of the game playable. GitHub's latest release listing contains v0.9.2 and an Android APK. No named Android device test is stated in the README."
+    },
+    {
+      "id": "nfs-underground-2-recomp",
+      "fields": {
+        "updated": "2026-10-15",
+        "platform": "Windows PC x86-32 (SPEED2.EXE) → Android arm64-v8a or armeabi-v7a",
+        "status": "Android release v0.14.5 (2026-10-15) provides ARM64 and ARMv7 APKs and requires Android 10+ plus Vulkan 1.1+. The maintainer labels Android race gameplay playable and reports 35–51+ presentation FPS at 1170×540 on a Samsung Galaxy S24 Ultra (Snapdragon 8 Gen 3); the release notes say this is not a fixed-FPS guarantee. v0.14.5 validation confirms the ARM64 APK installed on a Galaxy S25; ARMv7 builds are verified but were not physically tested, and the notes identify other chipsets still awaiting validation.",
+        "summary": "Statically recompiles the 32-bit Windows SPEED2.EXE into C and provides native Android ARM64/ARMv7 runtimes. Android uses touch controls, native audio, and a Direct3D 9-to-Vulkan path via DXVK Native. The user supplies original PC game data; no proprietary game files are distributed.",
+        "strategy": "Static x86-32-to-C recompilation with native Android runtime and Direct3D 9-to-Vulkan graphics translation through DXVK Native.",
+        "source_available": "Public source repository and v0.14.5 ARM64/ARMv7 APKs; original Need for Speed: Underground 2 PC game data is required and not included."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: recompilation method, Android architecture/OS/API requirements, and gameplay status",
+          "url": "https://github.com/codepdbh/nfsu2-recompiled/blob/main/README.md"
+        },
+        {
+          "label": "v0.14.5 release: APK architectures, Android minimums, and validation limits",
+          "url": "https://github.com/codepdbh/nfsu2-recompiled/releases/tag/v0.14.5"
+        },
+        {
+          "label": "Android gameplay/control validation and device-test scope",
+          "url": "https://github.com/codepdbh/nfsu2-recompiled/blob/main/docs/ANDROID_GAMEPLAY_CONTROLS_TEST.md"
+        },
+        {
+          "label": "GitHub repository language breakdown (C++ primary language)",
+          "url": "https://api.github.com/repos/codepdbh/nfsu2-recompiled/languages"
+        }
+      ],
+      "evidence_note": "The latest published release provides ARM64 and ARMv7 APKs and states Android 10+/Vulkan 1.1+ requirements. The README identifies the static recompilation path and reports a playable race prototype on a named Samsung device. Release notes distinguish Galaxy S25 ARM64 installation from ARMv7 build-only verification and explicitly caution that FPS is not guaranteed."
+    },
+    {
+      "id": "aethersx2",
+      "fields": {
+        "subtype": "Android PlayStation 2 system emulator"
+      },
+      "sources": [
+        {
+          "label": "Official AetherSX2 site/archive",
+          "url": "https://www.aethersx2.com/"
+        }
+      ],
+      "evidence_note": "The official site documents AetherSX2 as an Android PlayStation 2 emulator. The existing row already records the shutdown and source-availability caveats; this only fills the missing subtype."
+    },
+    {
+      "id": "altirra",
+      "fields": {
+        "subtype": "Atari 8-bit home-computer emulator"
+      },
+      "sources": [
+        {
+          "label": "Maintainer's official project page",
+          "url": "https://www.virtualdub.org/altirra.html"
+        }
+      ],
+      "evidence_note": "The maintainer page documents Altirra as an Atari 8-bit computer emulator and lists source downloads/builds."
+    },
+    {
+      "id": "applewin",
+      "fields": {
+        "subtype": "Windows Apple II family emulator"
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository and README",
+          "url": "https://github.com/AppleWin/AppleWin"
+        }
+      ],
+      "evidence_note": "The upstream repository describes AppleWin as an Apple II emulator; its builds target Windows."
+    },
+    {
+      "id": "chonkystation3",
+      "fields": {
+        "subtype": "Early-stage PlayStation 3 system emulator"
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository and README",
+          "url": "https://github.com/liuk7071/ChonkyStation3"
+        }
+      ],
+      "evidence_note": "The maintainer describes this as a PlayStation 3 emulator and reports very early commercial-game boot support; the subtype preserves its experimental status."
+    },
+    {
+      "id": "chonkystation4",
+      "fields": {
+        "subtype": "Early-stage PlayStation 4 system emulator"
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository and README",
+          "url": "https://github.com/liuk7071/ChonkyStation4"
+        }
+      ],
+      "evidence_note": "The maintainer describes this as a PlayStation 4 emulator and documents a compatibility list; the subtype preserves its experimental status."
+    },
+    {
+      "id": "xqemu-original-xbox",
+      "fields": {
+        "subtype": "QEMU-derived original Xbox and Sega Chihiro system emulator"
+      },
+      "sources": [
+        {
+          "label": "Official project status page",
+          "url": "https://xqemu.com/"
+        }
+      ],
+      "evidence_note": "The project page identifies XQEMU as an Xbox and Chihiro emulator built on QEMU and points general users to the xemu fork."
+    },
+    {
+      "id": "cdi-emulator-philips-cdi",
+      "fields": {
+        "subtype": "Closed-source Philips CD-i optical-disc console emulator"
+      },
+      "sources": [
+        {
+          "label": "Official project page",
+          "url": "https://www.cdiemu.org/site/welcome.htm"
+        }
+      ],
+      "evidence_note": "The maintainer page identifies the target as Philips CD-i and publishes beta player downloads; the existing row accurately records the lack of public source."
+    },
+    {
+      "id": "adam-plus-coleco-adam",
+      "fields": {
+        "subtype": "ColecoVision console and Coleco ADAM home-computer emulator"
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository and README",
+          "url": "https://github.com/dvdh1961/ADAMP"
+        }
+      ],
+      "evidence_note": "The maintainer repository describes ADAM+ as an emulator for ColecoVision and Coleco ADAM."
+    },
+    {
+      "id": "nexium",
+      "fields": {
+        "subtype": "Experimental Nintendo Switch system emulator"
+      },
+      "sources": [
+        {
+          "label": "Official project site",
+          "url": "https://nexium-emu.org/"
+        }
+      ],
+      "evidence_note": "The project site describes NeXium as a Nintendo Switch emulator; early support and project-status wording remain in the existing status and summary fields."
+    },
+    {
+      "id": "pound",
+      "fields": {
+        "subtype": "Prototype Nintendo Switch and Switch 2 system emulator"
+      },
+      "sources": [
+        {
+          "label": "Maintainer repository and README",
+          "url": "https://github.com/pound-emu/pound"
+        }
+      ],
+      "evidence_note": "The maintainer describes Pound as an early emulator project for Switch-family software; the subtype labels it as a prototype rather than implying usable compatibility."
+    },
+    {
+      "id": "box64",
+      "fields": {
+        "status": "Active; v0.4.4 was released 2026-08-02 and the repository continued to receive changes through 2026-10-15. Box64 translates x86-64 Linux user-space code for non-x86 Linux hosts, especially ARM64, with documented RISC-V and LoongArch support; it does not emulate a full computer.",
+        "updated": "2026-10-15",
+        "strategy": "x86-64 Linux user-mode ISA translation using native host libraries",
+        "subtype": "CPU binary translator (process-level; not full-system emulation)"
+      },
+      "sources": [
+        {
+          "label": "Box64 README: host architectures, user-mode scope, and native-library approach",
+          "url": "https://github.com/ptitSeb/box64"
+        },
+        {
+          "label": "Latest Box64 release v0.4.4",
+          "url": "https://github.com/ptitSeb/box64/releases/tag/v0.4.4"
+        },
+        {
+          "label": "Box64 repository activity",
+          "url": "https://github.com/ptitSeb/box64/commits/main"
+        }
+      ],
+      "evidence_note": "Replaced the prior unverified release status with the current v0.4.4 release and recent source activity. Made its process-level ISA translation scope explicit so Emulator does not imply whole-system emulation."
+    },
+    {
+      "id": "fex-emu",
+      "fields": {
+        "status": "Active; FEX-2610 was released 2026-10-07 and the repository continued to receive changes through 2026-10-13. It translates x86/x86-64 Linux user-mode applications to ARM64 Linux; it is not a Windows API layer or a full-system emulator.",
+        "updated": "2026-10-15",
+        "strategy": "x86/x86-64 Linux user-mode ISA translation to ARM64",
+        "subtype": "CPU binary translator (process-level; not full-system emulation)"
+      },
+      "sources": [
+        {
+          "label": "FEX README: supported guest and host architectures and user-mode scope",
+          "url": "https://github.com/FEX-Emu/FEX"
+        },
+        {
+          "label": "Latest FEX release FEX-2610",
+          "url": "https://github.com/FEX-Emu/FEX/releases/tag/FEX-2610"
+        },
+        {
+          "label": "FEX repository activity",
+          "url": "https://github.com/FEX-Emu/FEX/commits/main"
+        }
+      ],
+      "evidence_note": "Refreshed the release/activity status and separated FEX's ISA translation from Windows API translation and whole-system emulation. Hangover and Ferrum may compose FEX with a separate Windows API layer."
+    },
+    {
+      "id": "rosetta-2",
+      "fields": {
+        "kind": "Emulator",
+        "strategy": "x86-64 to ARM64 process-level dynamic binary translation (ISA translation)",
+        "subtype": "CPU binary translator (process-level; not API translation or whole-system emulation)",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "Apple documentation: Rosetta translates x86_64 instructions for Apple silicon",
+          "url": "https://developer.apple.com/documentation/apple-silicon/about-the-rosetta-translation-environment"
+        }
+      ],
+      "evidence_note": "Corrected the taxonomy: Rosetta translates instruction sets (x86-64 to ARM64), not software APIs. The catalog currently has no separate ISA Translation kind, so Emulator is used in the process-level CPU-translation sense already used for FEX and Box64; subtype explicitly says this is not whole-system emulation."
+    },
+    {
+      "id": "summer-time-rendering-another-horizon-en",
+      "fields": {
+        "status": "Public English patch v0.13 released 2026-09-01; the first downloadable release covers dialogue, tips, chapter intros, flowchart, menus, metadata, speaker plates, action prompts, and manual pages. Three settings tabs remain Japanese and some long tips are summarized.",
+        "summary": "Nintendo Switch English fan patch based on the existing Simplified Chinese localization. The v0.13 release provides an Atmosphere/LayeredFS ZIP and translates dialogue, tips, menus, flowchart, chapter intros, and image text including speaker plates and QTE prompts. The maintainer documents remaining Japanese settings labels and summarized long tips.",
+        "updated": "2026-09-01",
+        "source_available": "Public source and documentation plus downloadable v0.13 Atmosphere/LayeredFS patch ZIP; requires the user's legally owned Switch game and Atmosphere CFW."
+      },
+      "sources": [
+        {
+          "label": "v0.13 public patch release: coverage, installation, and known limitations",
+          "url": "https://github.com/Dream-Cypher/STRAHLocalization/releases/tag/v0.13"
+        },
+        {
+          "label": "Maintainer README and patch documentation",
+          "url": "https://github.com/Dream-Cypher/STRAHLocalization#readme"
+        }
+      ],
+      "evidence_note": "This supersedes the sibling 12-localizations manifest's older 'no tagged binary patch release' status: the maintainer published v0.13 on 2026-09-01 and documents a downloadable Switch ZIP. The release itself lists coverage and the known Japanese settings tabs/tip summaries."
+    },
+    {
+      "id": "dqxi-3ds-en",
+      "fields": {
+        "status": "GitHub release 1.0 published 2026-10-13; the README calls its payload v18. The Windows build recipes output LayeredFS or a reconstructed CIA, but the maintainer says no build from actual game sources or end-to-end emulator/console gameplay has been verified for the compact-storage revision.",
+        "summary": "Windows patch builder for the Japanese 3DS version of Dragon Quest XI, using compatible user-owned PC Definitive Edition resources for English text, voices, and movies. It outputs a LayeredFS mod or rebuilt CIA. The release includes game-derived patch data; the maintainer documents unresolved redistribution-rights review and says synthetic checks do not establish a successful real-game build or gameplay compatibility.",
+        "updated": "2026-10-13",
+        "source_available": "Public GitHub release 1.0 and source/build recipes; requires user-owned Japanese 3DS CIA and compatible Windows DQXI S files. Package includes game-derived patch material, with redistribution/licensing issues expressly documented by maintainer."
+      },
+      "sources": [
+        {
+          "label": "GitHub release 1.0 dated 2026-10-13",
+          "url": "https://github.com/BlackDes1/Dragon-Quest-XI-3DS-Translation-Voice-Patch/releases/tag/1.0"
+        },
+        {
+          "label": "Maintainer README: v18 package, compatible inputs, output formats, and build validation limits",
+          "url": "https://github.com/BlackDes1/Dragon-Quest-XI-3DS-Translation-Voice-Patch#readme"
+        },
+        {
+          "label": "Maintainer copyright and redistribution notes",
+          "url": "https://github.com/BlackDes1/Dragon-Quest-XI-3DS-Translation-Voice-Patch/blob/main/COPYRIGHT.md"
+        }
+      ],
+      "evidence_note": "This adds the previously unrecorded GitHub release tag/date (1.0, 2026-10-13) while retaining the README's v18 package identifier. The README states the compact-storage build has not completed with actual game inputs and reports no complete emulator or original-hardware gameplay verification; it also identifies game-derived content and unresolved rights review."
+    },
+    {
+      "id": "segagaga-dreamcast-en",
+      "fields": {
+        "project_url": "https://github.com/ExxistanceDC/Segagaga-English-Translation",
+        "status": "Complete English translation; v1.1 release published 2026-09-12 adds debug-mode access, a text-overrun fix, and many text fixes. Current releases provide DCP for GDI images and xdelta for CDI images.",
+        "summary": "English translation patch for the Japan-only Sega Dreamcast RPG. The v1.1 release adds debug-mode accessibility and text fixes; its current format options are DCP for GDI and xdelta for CDI (the GDI xdelta option was removed). The maintainer README describes translated dialogue, cutscenes, credits, interface textures, and VMU metadata.",
+        "updated": "2026-09-12",
+        "source_available": "Maintainer source repository and v1.1 patch assets: DCP for GDI images and xdelta for CDI images; no game image is distributed."
+      },
+      "sources": [
+        {
+          "label": "Original maintainer repository and full translation documentation",
+          "url": "https://github.com/ExxistanceDC/Segagaga-English-Translation#readme"
+        },
+        {
+          "label": "v1.1 release: release date, patch formats, and changes",
+          "url": "https://github.com/ExxistanceDC/Segagaga-English-Translation/releases/tag/v1.1"
+        },
+        {
+          "label": "Existing catalog repository is a fork of the maintainer source",
+          "url": "https://github.com/sega-dreamcast/segagaga-english-translation"
+        }
+      ],
+      "evidence_note": "The catalog currently points to a GitHub fork of the ExxistanceDC maintainer repository. The fork page identifies its parent, while the parent repository has the active v1.1 release dated 2026-09-12. Update the canonical project URL and release/patch-format details from the original source."
+    },
+    {
+      "id": "aros-research-operating-system",
+      "fields": {
+        "platform": "Native Amiga/m68k, x86, x86-64, ARM, PowerPC, and Raspberry Pi AArch64 ports, plus hosted Linux/Unix and Apple Silicon macOS targets (including darwin-aarch64); per-port availability and hardware support vary.",
+        "status": "Active development; official July 2026 project notes report nearly 2,000 commits over the prior year, a new 64-bit AArch64 Raspberry Pi port, and a hosted darwin-aarch64 target for Apple Silicon. Official port documentation cautions that some actively developed targets are incomplete or not available for download.",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "Official AROS July 2025–July 2026 development highlights: commit count, AArch64 Raspberry Pi port, and Apple Silicon hosted target",
+          "url": "https://aros.sourceforge.io/news/"
+        },
+        {
+          "label": "Official AROS ports documentation: native versus hosted target definition, binary portability, and incomplete/unavailable port caveat",
+          "url": "https://aros.sourceforge.io/introduction/ports.html"
+        },
+        {
+          "label": "AROS maintainer repository build matrix for native and hosted architectures",
+          "url": "https://github.com/aros-development-team/AROS"
+        }
+      ],
+      "evidence_note": "The existing row already describes AROS's API-level relationship to AmigaOS. This patch adds the two specific AArch64 targets documented in the official July 2026 development report and preserves the official caveat that target support and downloadable builds vary."
+    },
+    {
+      "id": "lotus-123elf-linux-port",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "The maintainer describes the Linux port as usable. XTerm-compatible keyboard mapping is marked working, graphs are partially working, printing to a file works while printing to lpr is still in progress, and STEP-mode display/i18n limitations remain. The latest listed release is v1.0.0rc4 (2023-03-28); the maintainer recommends building from source for later fixes. Original Lotus 1-2-3 UNIX files are required.",
+        "summary": "Native Linux port of Lotus 1-2-3 Release 3 that converts the original System V COFF objects to ELF and supplies Linux ABI/system-call wrappers. This is binary-level portability work rather than recovery of high-level source; the original Lotus UNIX distribution is required for the build."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: Lotus Release 3 target, COFF-to-ELF approach, required original files, and current bug list",
+          "url": "https://github.com/taviso/123elf"
+        },
+        {
+          "label": "Maintainer release page: v1.0.0rc4 date and release notes",
+          "url": "https://github.com/taviso/123elf/releases"
+        }
+      ],
+      "evidence_note": "Refreshed the existing row with the README's precise working/partial feature boundaries and confirmed the latest listed release date. No project URL or classification change was needed."
+    },
+    {
+      "id": "d7vk",
+      "fields": {
+        "target_type": "Software"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: API range, translation path, supported host, and unsupported modes",
+          "url": "https://github.com/WinterSnowfall/d7vk/blob/devel/README.md"
+        }
+      ],
+      "evidence_note": "The project is a general-purpose API/graphics/runtime implementation supporting multiple applications or games, rather than a reconstruction of one named game; its catalog target type is Software."
+    },
+    {
+      "id": "dxvk-remix-plus",
+      "fields": {
+        "target_type": "Software"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: fork relationship and added plugin/Remix SDK APIs",
+          "url": "https://github.com/NightSightProductions/dxvk-remix-plus"
+        }
+      ],
+      "evidence_note": "The project is a general-purpose API/graphics/runtime implementation supporting multiple applications or games, rather than a reconstruction of one named game; its catalog target type is Software."
+    },
+    {
+      "id": "dxvk-sarek",
+      "fields": {
+        "target_type": "Software"
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: API range, Vulkan requirements, host support, and mobile GPU caveats",
+          "url": "https://github.com/pythonlover02/DXVK-Sarek/blob/main/README.md"
+        }
+      ],
+      "evidence_note": "The project is a general-purpose API/graphics/runtime implementation supporting multiple applications or games, rather than a reconstruction of one named game; its catalog target type is Software."
+    },
+    {
+      "id": "mithril-wrapper",
+      "fields": {
+        "target_type": "Software"
+      },
+      "sources": [
+        {
+          "label": "Successor maintainer README: translation path, target OS/hardware, launcher integrations, and limitations",
+          "url": "https://github.com/MithrilWrapper-Dev/Mithril-Wrapper/blob/main/README.md"
+        }
+      ],
+      "evidence_note": "The project is a general-purpose API/graphics/runtime implementation supporting multiple applications or games, rather than a reconstruction of one named game; its catalog target type is Software."
+    },
+    {
+      "id": "mobileglues",
+      "fields": {
+        "target_type": "Software"
+      },
+      "sources": [
+        {
+          "label": "Maintainer source README: API direction, Android host API, Minecraft focus, and supported mods",
+          "url": "https://github.com/MobileGL-Dev/MobileGlues/blob/main/README.md"
+        }
+      ],
+      "evidence_note": "The project is a general-purpose API/graphics/runtime implementation supporting multiple applications or games, rather than a reconstruction of one named game; its catalog target type is Software."
+    },
+    {
+      "id": "nvidia-dxvk-remix",
+      "fields": {
+        "target_type": "Software"
+      },
+      "sources": [
+        {
+          "label": "NVIDIA GameWorks source README: DXVK fork purpose, Windows build requirements, and D3D9 interface",
+          "url": "https://github.com/NVIDIAGameWorks/dxvk-remix"
+        }
+      ],
+      "evidence_note": "The project is a general-purpose API/graphics/runtime implementation supporting multiple applications or games, rather than a reconstruction of one named game; its catalog target type is Software."
+    },
+    {
+      "id": "vegas-adreno-dxvk",
+      "fields": {
+        "target_type": "Software"
+      },
+      "sources": [
+        {
+          "label": "Project source README: Adreno target and implementation features",
+          "url": "https://github.com/isygold/Vegas-Private"
+        }
+      ],
+      "evidence_note": "The project is a general-purpose API/graphics/runtime implementation supporting multiple applications or games, rather than a reconstruction of one named game; its catalog target type is Software."
     }
   ]
 }

@@ -1,0 +1,619 @@
+{
+  "updated": "2026-10-15",
+  "scope": "New primary-source-reviewed software compatibility, reimplementation, and archival-preservation projects. Each record identifies the exact application, software family, device protocol, or version targeted; unknown hardware/platform coverage is stated explicitly.",
+  "projects": [
+    {
+      "id": "winevdm-win16-on-64bit-windows",
+      "title": "WineVDM / OTVDM",
+      "game": "16-bit Windows applications (Windows 1.x, 2.x, 3.0, and 3.1)",
+      "target_type": "Software",
+      "platform": "Win16 applications → 64-bit Windows",
+      "kind": "Emulator",
+      "status": "Maintained compatibility emulator with stable v0.9.0 and rolling unstable builds. It combines CPU emulation with Wine-derived Win16-to-Win32 API conversion. Its DOS compatibility mode is explicitly incomplete; the project recommends DOSBox or MS-DOS Player for DOS programs.",
+      "summary": "Runs historical 16-bit Windows applications on 64-bit Windows by emulating the CPU and translating Win16 APIs to Win32. The repository is an altered WineVDM build with install integration and compatibility fixes; it is a compatibility runtime, not a recovered original application.",
+      "project_url": "https://github.com/otya128/winevdm",
+      "updated": "2026-10-15",
+      "strategy": "CPU emulation plus Wine-derived Win16-to-Win32 API conversion and compatibility fixes",
+      "language": "English",
+      "source_available": "Public source under GPL-2.0; stable v0.9.0 release and unstable CI builds. Historical Win16 application binaries are separate.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Win16 application compatibility emulator",
+      "sources": [
+        {
+          "label": "Maintainer README: supported Win16 versions, implementation method, DOS limitation, and build instructions",
+          "url": "https://github.com/otya128/winevdm"
+        },
+        {
+          "label": "Maintainer releases: stable v0.9.0 and release history",
+          "url": "https://github.com/otya128/winevdm/releases"
+        }
+      ]
+    },
+    {
+      "id": "open-turzx-usb-screen-reimplementation",
+      "title": "Open-Turzx",
+      "game": "Closed-source TURZX 2.8-inch USB dashboard software, firmware turzx_0001_0024",
+      "target_type": "Software",
+      "platform": "TURZX 480×480 USB display; Windows and Linux supported, macOS untested",
+      "kind": "Reimplementation",
+      "status": "The maintained Python app documents a working device daemon, layout editor, sensor displays, and reverse-engineered USB protocol on Windows and Linux. macOS is untested; PyPI/AUR packaging is still listed as planned rather than released.",
+      "summary": "Replaces the closed, Windows-only TURZX screen application with a cross-platform driver and dashboard for the 2.8-inch 480×480 USB display. The README identifies USB VID:PID 1CBE:0028 and firmware turzx_0001_0024; the project documents a DES-CBC protocol and its reverse-engineering history.",
+      "project_url": "https://github.com/RexPhoe/open-turzx",
+      "updated": "2026-10-15",
+      "strategy": "Reverse-engineered USB protocol and independent Python dashboard/driver implementation",
+      "language": "English",
+      "source_available": "Public source under MIT. The proprietary vendor application is not included.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "Python",
+      "subtype": "Closed hardware companion app reimplementation / USB device driver",
+      "sources": [
+        {
+          "label": "Maintainer README: exact display and firmware, supported hosts, features, limitations, and MIT license",
+          "url": "https://github.com/RexPhoe/open-turzx"
+        },
+        {
+          "label": "Maintainer development log: USB protocol investigation and implementation history",
+          "url": "https://github.com/RexPhoe/open-turzx/blob/main/DEVLOG.md"
+        }
+      ]
+    },
+    {
+      "id": "thermalright-trcc-cross-platform-reimplementation",
+      "title": "TRCC Linux",
+      "game": "Thermalright LCD Control Center (TRCC) 2.1.2 device-control software",
+      "target_type": "Software",
+      "platform": "Thermalright TRCC functionality on Linux; v9.10.4 release page also lists Windows and macOS packages",
+      "kind": "Reimplementation",
+      "status": "Active source project with v9.10.4 packages published on 2026-09-26 for Linux distributions, Windows, and macOS. The README still solicits testers across operating systems, so coverage should be checked per device rather than inferred from the package list.",
+      "summary": "A source reimplementation of the Thermalright LCD Control Center interface for controlling LCD and LED devices. The technical reference enumerates supported USB/SCSI/HID device identifiers and transport families; the upstream project asks users to submit test reports for unverified hardware.",
+      "project_url": "https://github.com/Lexonight1/thermalright-trcc-linux",
+      "updated": "2026-10-15",
+      "strategy": "Reverse-engineered device protocols and native cross-platform control application",
+      "language": "English",
+      "source_available": "Public GPL-3.0 source with prebuilt platform packages; verify exact device support against the technical reference.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "Python",
+      "subtype": "Proprietary LCD/LED controller companion app reimplementation",
+      "sources": [
+        {
+          "label": "Maintainer README: application scope, platform status, installation, and source license",
+          "url": "https://github.com/Lexonight1/thermalright-trcc-linux"
+        },
+        {
+          "label": "Maintainer technical reference: supported SCSI, HID LCD, and HID LED device IDs",
+          "url": "https://github.com/Lexonight1/thermalright-trcc-linux/blob/main/doc/REFERENCE_TECHNICAL.md"
+        },
+        {
+          "label": "Maintainer releases: v9.10.4 platform packages and release date",
+          "url": "https://github.com/Lexonight1/thermalright-trcc-linux/releases"
+        }
+      ]
+    },
+    {
+      "id": "pichau-aqua-240x-linux-display-driver",
+      "title": "Pichau Aqua 240X Linux Driver",
+      "game": "Pichau PC SmartMonitor LED display protocol for the Aqua 240X AIO cooler",
+      "target_type": "Software",
+      "platform": "Linux over USB serial device 1A86:484A",
+      "kind": "Reimplementation",
+      "status": "Early project with four commits and no packaged release. The maintainer reports real-hardware testing on Ubuntu 24.04 with Intel coretemp and NVIDIA nvidia-smi; AMD sensors and other distributions are implemented but explicitly unverified.",
+      "summary": "Independently reimplements the proprietary Windows PC SmartMonitor LED protocol as a small Linux Python driver for the Pichau Aqua 240X pump display. Its protocol note documents recovery from the vendor Windows application and empirical verification of a temperature frame on the physical display. Other coolers are only candidates if they use the same USB chip.",
+      "project_url": "https://github.com/alexpedrozawd/pichau-aqua-240x-linux-driver",
+      "updated": "2026-10-15",
+      "strategy": "Protocol reverse engineering of the Windows application followed by an independent USB-serial driver",
+      "language": "English, Portuguese",
+      "source_available": "Public source under MIT; no vendor Windows code or binaries are included or required.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "Python",
+      "subtype": "AIO cooler display companion application / Linux driver",
+      "sources": [
+        {
+          "label": "Maintainer README: exact cooler, tested hardware/OS, and verified versus unverified support",
+          "url": "https://github.com/alexpedrozawd/pichau-aqua-240x-linux-driver"
+        },
+        {
+          "label": "Maintainer protocol report: USB identifiers, Ghidra analysis, packet fields, and hardware verification",
+          "url": "https://github.com/alexpedrozawd/pichau-aqua-240x-linux-driver/blob/main/docs/PROTOCOL.md"
+        }
+      ]
+    },
+    {
+      "id": "fifine-ampligame-d6-linux-driver",
+      "title": "Fifine AmpliGame D6 Driver",
+      "game": "Fifine AmpliGame D6 15-key LCD stream deck vendor software/protocol",
+      "target_type": "Software",
+      "platform": "Linux tested; Windows implementation untested; macOS unsupported",
+      "kind": "Reimplementation",
+      "status": "Small early project; Linux is tested, Windows code is explicitly untested, and macOS integration is absent. The maintainer reports the device degrades with repeated image writes: after a power cycle, successive draws rendered 15, then 4, then 0 keys in the documented test, so the repository advises one redraw per physical power cycle.",
+      "summary": "Reverse-engineered driver and key editor for the Fifine AmpliGame D6 stream deck, replacing its missing Linux vendor support. It uses the documented HID MOD 1/MOD 2 protocol to control 15 LCD keys and contains a clear hardware wear/refresh limitation that should be visible to users.",
+      "project_url": "https://github.com/akksmash/omarchy-fifine-deck",
+      "updated": "2026-10-15",
+      "strategy": "Reverse-engineered HID protocol and independent driver/editor",
+      "language": "English",
+      "source_available": "Public MIT source; the vendor application is not required.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "Python",
+      "subtype": "Stream deck companion software reimplementation / HID driver",
+      "sources": [
+        {
+          "label": "Maintainer README: target, supported platforms, device-write degradation, and license",
+          "url": "https://github.com/akksmash/omarchy-fifine-deck"
+        },
+        {
+          "label": "Maintainer HID protocol documentation",
+          "url": "https://github.com/akksmash/omarchy-fifine-deck/blob/master/docs/protocol.md"
+        }
+      ]
+    },
+    {
+      "id": "wcopy-nfc-linux",
+      "title": "wCopy NFC Linux",
+      "game": "wCopy Smart Reader / NSR106-IDIC V NFC dongle (VID:PID 0416:B030)",
+      "target_type": "Software",
+      "platform": "Linux USB-HID via hidraw",
+      "kind": "Reimplementation",
+      "status": "Public Linux toolkit documents read, key-check, dump/restore, UID writing, formatting, a GTK GUI, and libnfc/mfoc bridging. The author says the protocol was recovered from a Windows USBPcap capture and disassembly of nfcPro_wbw.exe; writes and formatting can alter cards, so the README requires ownership or explicit authorization and recommends a backup.",
+      "summary": "Reimplements the proprietary Windows reader software's USB-HID/PN532 protocol as a Linux driverless CLI and optional GUI. The README supports the 0416:B030 reader and gives explicit safety boundaries for MIFARE Classic cards.",
+      "project_url": "https://github.com/mariogiordano96/wcopy-nfc-linux",
+      "updated": "2026-10-15",
+      "strategy": "USB capture and binary analysis followed by independent Python protocol implementation",
+      "language": "English",
+      "source_available": "Public MIT source; the proprietary Windows application is not distributed.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "Python",
+      "subtype": "NFC reader desktop utility reimplementation / USB-HID driver",
+      "sources": [
+        {
+          "label": "Maintainer README: exact reader, supported operations, limitations, and safety warnings",
+          "url": "https://github.com/mariogiordano96/wcopy-nfc-linux"
+        },
+        {
+          "label": "Maintainer reverse-engineering notes: USBPcap and nfcPro_wbw.exe analysis",
+          "url": "https://github.com/mariogiordano96/wcopy-nfc-linux/blob/main/REVERSE_ENGINEERING.md"
+        }
+      ]
+    },
+    {
+      "id": "wcopy-nfc-macos",
+      "title": "wCopy NFC for Mac",
+      "game": "wCopy / NSR106-IDIC V USB NFC reader protocols (VID:PID 0416:B008 and 0416:B030)",
+      "target_type": "Software",
+      "platform": "Native macOS 13+ using IOKit HID",
+      "kind": "Reimplementation",
+      "status": "Native SwiftUI and CLI tools implement the Linux project's reverse-engineered USB-HID/PN532 protocol. The B008 handshake is verified on a physical V601 reader; B030 is supported using the same protocol, whose hardware verification is attributed to the Linux upstream. Some card attack/write paths have explicit hardware-testing limits in the README.",
+      "summary": "Ports the wCopy NFC reader workflow to native macOS, replacing the vendor's Windows-only client without a kernel driver, GTK, hidraw, or Python runtime. The repository distinguishes device enumeration from a confirmed protocol-ready state and documents conservative card-write defaults.",
+      "project_url": "https://github.com/zhjcreator/wcopy-nfc-mac",
+      "updated": "2026-10-15",
+      "strategy": "Native Swift implementation of the protocol reverse-engineered by the Linux project",
+      "language": "English, Chinese",
+      "source_available": "Public MIT source; protocol implementation credits and derives from the separate MIT-licensed Linux project.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "Swift",
+      "subtype": "Native macOS NFC reader companion application / USB-HID driver",
+      "sources": [
+        {
+          "label": "Maintainer README: supported reader IDs, hardware test boundaries, macOS implementation, and license",
+          "url": "https://github.com/zhjcreator/wcopy-nfc-mac"
+        },
+        {
+          "label": "Upstream Linux protocol source credited by the macOS implementation",
+          "url": "https://github.com/mariogiordano96/wcopy-nfc-linux"
+        }
+      ]
+    },
+    {
+      "id": "scansnap-panelbeater-linux",
+      "title": "Panelbeater",
+      "game": "Fujitsu/Ricoh ScanSnap iX1500 touchscreen panel host and scan workflow",
+      "target_type": "Software",
+      "platform": "Linux over Wi-Fi or USB",
+      "kind": "Reimplementation",
+      "status": "Python utility tested on a real iX1500 over Wi-Fi (USB scan path also documented). iX1400/iX1600 compatibility is described as probable, not tested. Wi-Fi network scanning is fixed at 300 dpi color while USB resolution is adjustable; a USB cable disables the network registration path.",
+      "summary": "Reimplements the ScanSnap iX1500 touchscreen panel protocol so the physical Scan button can launch a scan on Linux without the vendor application. It enrolls a Linux host, receives panel jobs, builds PDFs, and optionally runs OCR; the protocol document explains the device's network and USB behaviors.",
+      "project_url": "https://github.com/appositeit/panelbeater",
+      "updated": "2026-10-15",
+      "strategy": "Reverse-engineered touchscreen-panel and scan-host protocol implementation",
+      "language": "English",
+      "source_available": "Public GPL-2.0 source; no vendor software required.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "Python",
+      "subtype": "Document scanner panel/scan-client reimplementation",
+      "sources": [
+        {
+          "label": "Maintainer README: tested iX1500 hardware, scan features, limits, and platform scope",
+          "url": "https://github.com/appositeit/panelbeater"
+        },
+        {
+          "label": "Maintainer protocol specification for discovery, enrolment, panel notices, and scan sequence",
+          "url": "https://github.com/appositeit/panelbeater/blob/main/docs/PROTOCOL.md"
+        }
+      ]
+    },
+    {
+      "id": "scansnap-scan-native-macos",
+      "title": "ScanSnap",
+      "game": "Fujitsu ScanSnap and fi-series scanners, including S1500M, iX1600, iX1500, iX1400, and iX1300",
+      "target_type": "Software",
+      "platform": "Native macOS 26+ with direct USB scanner support",
+      "kind": "Reimplementation",
+      "status": "Native Swift app with an MIT license and a hardware compatibility matrix. The README marks S1500M and iX1600 as working/validated; iX1500, iX1400, and iX1300 reuse the same documented protocol profile but are explicitly not tested on their own hardware. Older S300-family acquisition paths remain preliminary.",
+      "summary": "Reimplements a modern native macOS scan application and direct USB protocol support for older Fujitsu ScanSnap and fi-series devices, with no vendor scanning utility in the scan path. The project identifies exact scanner models and separates physically tested profiles from inferred protocol-family compatibility.",
+      "project_url": "https://github.com/holgerkrupp/Scan",
+      "updated": "2026-10-15",
+      "strategy": "Native Swift scanner client with reverse-engineered direct USB protocol profiles",
+      "language": "English",
+      "source_available": "Public MIT source. Some scanner models require user-supplied firmware; the project says those firmware images are copyrighted and not bundled.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "Swift",
+      "subtype": "Legacy scanner desktop application reimplementation / native macOS driver",
+      "sources": [
+        {
+          "label": "Maintainer README: supported scanner models, hardware validation matrix, build, and firmware boundary",
+          "url": "https://github.com/holgerkrupp/Scan"
+        },
+        {
+          "label": "Maintainer hardware test harness and per-model protocol tests",
+          "url": "https://github.com/holgerkrupp/Scan/tree/main/ScanTests"
+        }
+      ]
+    },
+    {
+      "id": "airscap-scansnap-wifi-bridge",
+      "title": "AirScap",
+      "game": "Fujitsu/Ricoh ScanSnap iX500 VENS Wi-Fi scanning client",
+      "target_type": "Software",
+      "platform": "Wi-Fi ScanSnap iX500 → eSCL/AirScan clients on macOS, Linux, and Windows",
+      "kind": "Reimplementation",
+      "status": "Go protocol bridge; iX500 is the only scanner reported physically tested, using macOS Image Capture. The README says other VENS-compatible ScanSnap models and SANE/Windows clients are not yet verified. It exposes the scanner as a local eSCL device and has Debian/Ubuntu release packages.",
+      "summary": "Reimplements the ScanSnap iX500's proprietary VENS network protocol from captured official-app traffic and translates it into standard eSCL/AirScan for modern clients. This restores Wi-Fi scanning after the iX500's former ScanSnap Connect Application was discontinued and the current ScanSnap Home dropped that model.",
+      "project_url": "https://github.com/mzyy94/AirScap",
+      "updated": "2026-10-15",
+      "strategy": "Captured-traffic VENS protocol reimplementation with an eSCL/AirScan compatibility bridge",
+      "language": "English, Japanese",
+      "source_available": "Public MIT source; no proprietary scanner application or binary is included.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "Go",
+      "subtype": "Discontinued scanner app replacement / Wi-Fi protocol bridge",
+      "sources": [
+        {
+          "label": "Maintainer README: discontinued client context, exact iX500 scope, test boundary, and architecture",
+          "url": "https://github.com/mzyy94/AirScap"
+        },
+        {
+          "label": "Maintainer English protocol specification for VENS network traffic",
+          "url": "https://github.com/mzyy94/AirScap/blob/master/protocol.en.md"
+        }
+      ]
+    },
+    {
+      "id": "ricoh-sp1130n-macos-network-driver",
+      "title": "Ricoh / PFU SP-1130N Network Driver for macOS",
+      "game": "Ricoh/PFU SP-1130N network scanner using PaperStream FCL",
+      "target_type": "Software",
+      "platform": "Network scanner bridge to local eSCL/AirScan on macOS; macOS 26 on Apple Silicon physically tested",
+      "kind": "Reimplementation",
+      "status": "A newly released Python-built bridge reports a successful physical scan from the SP-1130N on Apple Silicon/macOS 26. Intel binaries are CI-built but not hardware-tested, and related SP-series models are explicitly unverified. The installer is unsigned/not notarized and installs a system LaunchDaemon.",
+      "summary": "Implements the SP-1130N's network scanner protocol and presents it as an eSCL/AirScan device to macOS Image Capture, Preview, and other clients. The maintainer says the implementation was derived from observed behavior and official-driver analysis and does not redistribute vendor binaries or firmware.",
+      "project_url": "https://github.com/namp/sp-1130n-macos",
+      "updated": "2026-10-15",
+      "strategy": "Reverse-engineered PaperStream FCL network protocol translated to local eSCL/AirScan",
+      "language": "English",
+      "source_available": "Public MIT source; no proprietary vendor binaries, firmware, or driver files are included.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "Python",
+      "subtype": "Network scanner driver/API compatibility bridge",
+      "sources": [
+        {
+          "label": "Maintainer README: exact model, physically tested macOS/hardware, features, limitations, and installer caveats",
+          "url": "https://github.com/namp/sp-1130n-macos"
+        },
+        {
+          "label": "Maintainer protocol documentation",
+          "url": "https://github.com/namp/sp-1130n-macos/blob/main/docs/protocol.md"
+        }
+      ]
+    },
+    {
+      "id": "canon-pixma-g3010-linux-chmp-scanner",
+      "title": "Canon PIXMA G3010 CHMP Linux Scanner",
+      "game": "Canon PIXMA G3010 proprietary CHMP 1.4.0 scan protocol",
+      "target_type": "Software",
+      "platform": "Linux network scanning over the printer's HTTP/HTTPS interface",
+      "kind": "Reimplementation",
+      "status": "An early Python client implements an end-to-end G3010 scan sequence after 27 protocol probes. The README gives an exact model-specific scope and notes that broader G-series support is future work; HTTPS requires limiting the connection to TLS 1.2 for this printer's embedded server.",
+      "summary": "Reimplements Canon's undocumented CHMP 1.4.0 scanner protocol for the PIXMA G3010, enabling Linux network scanning without the Windows/macOS utility, vendor driver, or SANE backend. This repository is distinct from pixma-rs: it is a small Linux Python client, while pixma-rs is a separate native macOS print/scan bridge.",
+      "project_url": "https://github.com/wailun42/canon-g3010-chmp-scanner",
+      "updated": "2026-10-15",
+      "strategy": "Black-box HTTP/TLS protocol probing and independent CHMP 1.4.0 client implementation",
+      "language": "English",
+      "source_available": "Public source repository; no Canon application is needed. No explicit source license was identified in the repository metadata reviewed.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "Python",
+      "subtype": "Printer/scanner vendor-protocol reimplementation",
+      "sources": [
+        {
+          "label": "Maintainer README: exact printer model, 27-probe history, CHMP sequence, and Linux status",
+          "url": "https://github.com/wailun42/canon-g3010-chmp-scanner"
+        },
+        {
+          "label": "Related independent Canon protocol implementation credited as groundwork",
+          "url": "https://github.com/pdrgds/pixma-rs"
+        }
+      ]
+    },
+    {
+      "id": "canon-pixma-g3010-macos-rust-driver",
+      "title": "pixma-rs",
+      "game": "Canon PIXMA G3010 CHMP scanner and IPP printer interfaces",
+      "target_type": "Software",
+      "platform": "Native macOS Ventura, Sonoma, and Sequoia; printer/scanner reached over Wi-Fi",
+      "kind": "Reimplementation",
+      "status": "Rust 0.1.0 release with a downloadable installer. G3010 is tested and working; G2010, G4010, G3020, and G2020 are listed as likely compatible but unverified. It exposes scanning to Image Capture/Preview through an eSCL-to-CHMP bridge and printing through IPP Everywhere.",
+      "summary": "Clean-room implementation of Canon's proprietary CHMP scanning protocol, based on network captures, plus an eSCL bridge and IPP Everywhere print path for the PIXMA G3010 on modern macOS. The repository explicitly says it does not decompile or redistribute Canon software.",
+      "project_url": "https://github.com/pdrgds/pixma-rs",
+      "updated": "2026-10-15",
+      "strategy": "Clean-room CHMP protocol reconstruction with eSCL and IPP compatibility services",
+      "language": "English",
+      "source_available": "Public MIT OR Apache-2.0 source and v0.1.0 package; Canon software is not required.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "Rust",
+      "subtype": "Native macOS printer/scanner driver reimplementation",
+      "sources": [
+        {
+          "label": "Maintainer README: exact models, working/tested boundary, architecture, and clean-room basis",
+          "url": "https://github.com/pdrgds/pixma-rs"
+        },
+        {
+          "label": "Maintainer release page: v0.1.0 package availability",
+          "url": "https://github.com/pdrgds/pixma-rs/releases"
+        }
+      ]
+    },
+    {
+      "id": "pakon-fx35-modern-windows-drivers",
+      "title": "Pakon F-X35 Custom Drivers",
+      "game": "Pakon F-X35 family film-scanner Windows driver and firmware-loader stack",
+      "target_type": "Software",
+      "platform": "Modern 64-bit Windows, including Windows 11",
+      "kind": "Reimplementation",
+      "status": "Public driver source replaces the vendor's unavailable 64-bit driver path and fixes a 32-bit driver issue that prevented operation on Windows Vista and later. The repository contains firmware loader, scanner driver, model resources, and installer components; no packaged release is listed on the README page.",
+      "summary": "A reverse-engineered driver stack for Pakon F-X35 film scanners, created to restore compatibility with modern 64-bit Windows after the original vendor drivers were limited to 32-bit systems and had a post-Vista defect. The maintainer documents the research and provides separate loader, USB driver, model package, and installer components.",
+      "project_url": "https://github.com/ktkaufman03/FX35",
+      "updated": "2026-10-15",
+      "strategy": "Reverse-engineered Windows kernel/USB driver and firmware-loader implementation",
+      "language": "English",
+      "source_available": "Public source code; the repository page does not state a license. Consult the source and bundled firmware terms before redistribution.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C#",
+      "subtype": "Legacy film scanner driver reimplementation / Windows compatibility",
+      "sources": [
+        {
+          "label": "Maintainer README: modern x64 target, original driver failure, components, and source status",
+          "url": "https://github.com/ktkaufman03/FX35"
+        },
+        {
+          "label": "Maintainer reverse-engineering account of reviving the Pakon F-X35 scanner",
+          "url": "https://ktkaufman03.github.io/blog/2022/09/04/pakon-reverse-engineering/"
+        }
+      ]
+    },
+    {
+      "id": "pakon-psix-linux-f135plus",
+      "title": "psix",
+      "game": "Kodak/Pakon F-135+ 35mm film scanner",
+      "target_type": "Software",
+      "platform": "Linux userspace USB driver and local browser-based app",
+      "kind": "Reimplementation",
+      "status": "Explicit proof of concept: the maintainer says firmware load, scan transport, and negative-to-positive image pipeline work end to end, while the UI is far from finished. Users must provide Kodak firmware for their hardware revision; it is not bundled.",
+      "summary": "Linux scanner interface for the Pakon F-135+ with a userspace USB driver, image transport, C-41 negative inversion, live grading, and IR dust/scratch removal. The repository describes itself as a working end-to-end proof of concept rather than a finished scanner application.",
+      "project_url": "https://github.com/veroc/psix",
+      "updated": "2026-10-15",
+      "strategy": "Reverse-engineered USB driver and source-level image-pipeline reimplementation",
+      "language": "English",
+      "source_available": "Public LGPL-3.0 source. The user must supply Kodak firmware; the maintainer states it is proprietary and not bundled.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "Python",
+      "subtype": "Film scanner Linux driver and processing app",
+      "sources": [
+        {
+          "label": "Maintainer README: exact F-135+ target, end-to-end proof-of-concept status, and firmware boundary",
+          "url": "https://github.com/veroc/psix"
+        },
+        {
+          "label": "Repository license",
+          "url": "https://github.com/veroc/psix/blob/main/LICENSE"
+        }
+      ]
+    },
+    {
+      "id": "pakon-macos-f135-scanner-app",
+      "title": "Pakon",
+      "game": "Kodak/Pakon F-135 and F-135+ 35mm film scanners",
+      "target_type": "Software",
+      "platform": "macOS 13+ Apple Silicon app; source build also supports Linux, with Windows build planned",
+      "kind": "Reimplementation",
+      "status": "The README marks the F-135 as fully working. F-135+ scans using settings recorded from another F-135+ and currently have fewer options. F-235/F-335 are explicitly unsupported. Kodak's color engine/assets are used as-is under separate third-party terms, and Digital ICE remains listed as upcoming.",
+      "summary": "Replaces the aging Kodak/Pakon scanner client with a modern Mac application and source-buildable scanner workflow. It reconstructs the USB/protocol host side, performs film framing and exports JPEG/TIFF/raw scans; the repository separates AGPL project code from Kodak firmware, binaries, profiles, and other third-party material.",
+      "project_url": "https://github.com/jorshhh/pakon-macos",
+      "updated": "2026-10-15",
+      "strategy": "Reverse-engineered userspace USB protocol and source-reimplemented scanner client",
+      "language": "English",
+      "source_available": "Public AGPL-3.0-or-later code; bundled Kodak binaries, firmware, and profiles have separate terms and are not covered by the project license.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "Python, C",
+      "subtype": "Legacy film scanner desktop app and driver reimplementation",
+      "sources": [
+        {
+          "label": "Maintainer README: scanner status, platform support, feature limits, third-party assets, and license",
+          "url": "https://github.com/jorshhh/pakon-macos"
+        },
+        {
+          "label": "Maintainer hardware and implementation status notes",
+          "url": "https://github.com/jorshhh/pakon-macos/blob/main/STATUS.md"
+        }
+      ]
+    },
+    {
+      "id": "pakon-mac-f135-cross-platform-experimental",
+      "title": "pakon-mac",
+      "game": "Kodak/Pakon F-135/F-135+ film-scanner control and color-processing software",
+      "target_type": "Software",
+      "platform": "macOS, Windows, and Linux userspace driver/application",
+      "kind": "Reimplementation",
+      "status": "Highly experimental and explicitly WIP. The project reports an unresolved brightness offset, a production Go renderer still using a placeholder while the Python engine has the verified tone chain, broken black-and-white scanning, and no real-hardware verification for F-235/F-335. The app UI is unfinished.",
+      "summary": "Independent userspace driver, desktop client, and OEM color-engine reconstruction for Pakon scanners. The maintainer documents live emulation and physical-hardware checks against the original Kodak DLLs, but the remaining rendering and model-coverage gaps mean this is an active research implementation rather than a dependable finished scanner app.",
+      "project_url": "https://github.com/gazzdingo/pakon-mac",
+      "updated": "2026-10-15",
+      "strategy": "Userspace protocol reimplementation plus reverse-engineered color pipeline validated against vendor DLL behavior",
+      "language": "English",
+      "source_available": "Public source; repository license has a non-commercial restriction and OEM resources are present, so review its license and third-party notices before reuse.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "Go, Python, JavaScript",
+      "subtype": "Experimental film scanner application and vendor color-engine reimplementation",
+      "sources": [
+        {
+          "label": "Maintainer README: WIP status, verified subsystems, unresolved rendering bugs, and model limitations",
+          "url": "https://github.com/gazzdingo/pakon-mac"
+        },
+        {
+          "label": "Independent implementation-agnostic Pakon reference compares the active clients and license boundaries",
+          "url": "https://github.com/alibosworth/pakon-reference"
+        }
+      ]
+    },
+    {
+      "id": "pakon-tlx-macos-driver-api-translation",
+      "title": "pakon-tlx-macos",
+      "game": "Kodak TLXClientDemo / F-X35 COM stack for Pakon F-135 scanners",
+      "target_type": "Software",
+      "platform": "Original 32-bit Windows XP-era client via Wine 11 on macOS 15+; Apple Silicon or Intel",
+      "kind": "API Translation",
+      "status": "The maintainer reports it works on a base F-135 and has been confirmed by other owners on an F-135+ and another base unit. F-235/F-335 are untried. It replaces the kernel USB-driver calls with a libusb shim, while the Kodak client and imaging DLLs remain unmodified and must be supplied externally.",
+      "summary": "Runs the genuine Windows Kodak TLX scanner client on modern macOS by using Wine and translating its five Pakon135 kernel-driver calls through a local shim to libusb. It preserves the vendor's imaging and Digital ICE behavior rather than reimplementing the full scanner app; OEM software and firmware are required from a source trusted by the user.",
+      "project_url": "https://github.com/pablonavarrob/pakon-tlx-macos",
+      "updated": "2026-10-15",
+      "strategy": "Wine compatibility plus a Win32 kernel-driver API shim to libusb",
+      "language": "English",
+      "source_available": "Public MIT bridge source. It contains no Kodak code or firmware, but it requires the external proprietary TLX client, DLLs, and firmware.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "Python, C",
+      "subtype": "Legacy scanner client macOS compatibility/API translation layer",
+      "sources": [
+        {
+          "label": "Maintainer README: unmodified client, exact driver API bridge, verified hardware, and requirements",
+          "url": "https://github.com/pablonavarrob/pakon-tlx-macos"
+        },
+        {
+          "label": "Independent scanner-family reference cross-checks which OEM DLL serves each Pakon model",
+          "url": "https://pakon-reference.alibosworth.com/scanner-family/"
+        }
+      ]
+    },
+    {
+      "id": "huion-note-x10-linux-ble-reimplementation",
+      "title": "Huion Note X10 Linux BLE Driver and Note Extractor",
+      "game": "Huion Note X10 (internal HUION_T218) BLE driver and offline-note protocol",
+      "target_type": "Software",
+      "platform": "Linux with BlueZ 5.x plus a documented BlueZ patch",
+      "kind": "Reimplementation",
+      "status": "The maintainer reports end-to-end hardware validation on NixOS for pen pressure/tilt and extraction of stored notes. It requires a small patch for a Huion firmware BLE quirk. By default, successfully exported pages are deleted from the tablet unless the user passes --keep.",
+      "summary": "Reverse-engineers the Huion Note X10 BLE protocol from vendor drivers and Android captures, then supplies a Linux tablet driver and local note exporter. The driver sends pen events through uinput; the exporter converts stored strokes into SVG/PNG/JSON without the Huion app or cloud.",
+      "project_url": "https://github.com/Reginleif86/huion-note-x10-ble",
+      "updated": "2026-10-15",
+      "strategy": "Vendor driver/APK analysis and BLE capture-based protocol reimplementation",
+      "language": "English",
+      "source_available": "Public MIT source, including protocol notes and an optional BlueZ patch. Decompilation artifacts and personal captures are gitignored.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "Python",
+      "subtype": "Pen tablet and offline notes app reimplementation",
+      "sources": [
+        {
+          "label": "Maintainer README: exact device, Linux functionality, BLE patch, note retention behavior, and license",
+          "url": "https://github.com/Reginleif86/huion-note-x10-ble"
+        },
+        {
+          "label": "Maintainer reverse-engineering log for the offline note protocol",
+          "url": "https://github.com/Reginleif86/huion-note-x10-ble/blob/main/docs/notes/journey.md"
+        }
+      ]
+    },
+    {
+      "id": "tplink-sg3428-linux-usb-console",
+      "title": "TP-Link JetStream USB Console for Linux",
+      "game": "TP-Link TL-SG3428 v2.20 USB console / BootUtil v1.0.0 firmware dated 2025-02-13",
+      "target_type": "Software",
+      "platform": "Linux raw USB using libusb",
+      "kind": "Reimplementation",
+      "status": "A one-file Python tool reports testing on a TP-Link TL-SG3428 v2.20 with BootUtil v1.0.0 firmware. It supports terminal access and an automated password/factory reset path. Factory reset erases switch configuration; README also lists related USB-ID models as expected rather than tested compatibility.",
+      "summary": "Reimplements the undocumented USB console path for a JetStream managed switch because TP-Link's Windows-only driver is unavailable on Linux. The reverse-engineering notes show that the device advertises vendor-specific USB class but responds to CDC ACM baud-rate requests; the utility uses raw USB bulk endpoints instead of a kernel serial driver.",
+      "project_url": "https://github.com/ossac/tplink-sg3428-usb-reset",
+      "updated": "2026-10-15",
+      "strategy": "USB request probing and direct CDC ACM-over-libusb console implementation",
+      "language": "English",
+      "source_available": "Public MIT source; no TP-Link driver is distributed.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "Python",
+      "subtype": "Managed network switch driver and service utility reimplementation",
+      "sources": [
+        {
+          "label": "Maintainer README: exact tested switch/firmware, USB protocol, and reset behavior",
+          "url": "https://github.com/ossac/tplink-sg3428-usb-reset"
+        },
+        {
+          "label": "Maintainer implementation: raw USB CDC ACM setup and bulk endpoint I/O",
+          "url": "https://github.com/ossac/tplink-sg3428-usb-reset/blob/main/tplink_console.py"
+        }
+      ]
+    },
+    {
+      "id": "keydous-nj81-linux-driver",
+      "title": "Keydous NJ81 Linux Driver",
+      "game": "Keydous NJ81 wireless mechanical keyboard, firmware 0x0513",
+      "target_type": "Software",
+      "platform": "Linux via raw USB HID and optional BLE",
+      "kind": "Reimplementation",
+      "status": "A Python implementation reports full feature verification against a live NJ81 running firmware 0x0513. It documents key/Fn remapping, RGB, OLED uploads, profiles, and Bluetooth. The repository includes a factory-reset command; related NJ-series VID 0x3151 support should be verified per device.",
+      "summary": "Reverse-engineers the proprietary Keydous control software and implements direct Linux keyboard configuration without a Windows daemon. It includes an extensive device-protocol reference and a web GUI for key maps, lighting, display images, profiles, and power settings.",
+      "project_url": "https://github.com/alkaiyali/keydous-nj81-linux",
+      "updated": "2026-10-15",
+      "strategy": "Vendor application analysis followed by raw HID/BLE protocol reimplementation",
+      "language": "English",
+      "source_available": "Public MIT source and protocol documentation.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "Python",
+      "subtype": "Mechanical keyboard companion application / firmware-protocol driver",
+      "sources": [
+        {
+          "label": "Maintainer README: exact firmware, verified features, platform, and MIT license",
+          "url": "https://github.com/alkaiyali/keydous-nj81-linux"
+        },
+        {
+          "label": "Maintainer reverse-engineering documentation for the NJ81 firmware protocol",
+          "url": "https://github.com/alkaiyali/keydous-nj81-linux/blob/main/docs/REVERSE_ENGINEERING.md"
+        }
+      ]
+    }
+  ]
+}

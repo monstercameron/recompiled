@@ -1,0 +1,28 @@
+{
+  "updated": "2026-10-15",
+  "updates": [
+    {
+      "id": "aros-research-operating-system",
+      "fields": {
+        "platform": "Native Amiga/m68k, x86, x86-64, ARM, PowerPC, and Raspberry Pi AArch64 ports, plus hosted Linux/Unix and Apple Silicon macOS targets (including darwin-aarch64); per-port availability and hardware support vary.",
+        "status": "Active development; official July 2026 project notes report nearly 2,000 commits over the prior year, a new 64-bit AArch64 Raspberry Pi port, and a hosted darwin-aarch64 target for Apple Silicon. Official port documentation cautions that some actively developed targets are incomplete or not available for download.",
+        "updated": "2026-10-15"
+      },
+      "sources": [
+        {
+          "label": "Official AROS July 2025–July 2026 development highlights: commit count, AArch64 Raspberry Pi port, and Apple Silicon hosted target",
+          "url": "https://aros.sourceforge.io/news/"
+        },
+        {
+          "label": "Official AROS ports documentation: native versus hosted target definition, binary portability, and incomplete/unavailable port caveat",
+          "url": "https://aros.sourceforge.io/introduction/ports.html"
+        },
+        {
+          "label": "AROS maintainer repository build matrix for native and hosted architectures",
+          "url": "https://github.com/aros-development-team/AROS"
+        }
+      ],
+      "evidence_note": "The existing row already describes AROS's API-level relationship to AmigaOS. This patch adds the two specific AArch64 targets documented in the official July 2026 development report and preserves the official caveat that target support and downloadable builds vary."
+    }
+  ]
+}

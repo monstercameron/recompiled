@@ -1,0 +1,1342 @@
+{
+  "updated": "2026-10-15",
+  "projects": [
+    {
+      "id": "ballblazer-7800-disassembly",
+      "title": "Ballblazer (Atari 7800) Disassembly",
+      "game": "Ballblazer",
+      "target_type": "Game",
+      "platform": "Atari 7800 (NTSC)",
+      "kind": "Decompilation",
+      "status": "The repository describes the ROM listing as full and byte-identical when reassembled; gameplay-mechanics investigation is documented separately.",
+      "summary": "A full annotated 6502 assembly listing and gameplay-mechanics research for the Atari 7800 version. The project documents a byte-identical rebuild from the user-supplied cartridge image.",
+      "project_url": "https://github.com/Miasmark/ballblazer-7800-disassembly",
+      "updated": "2026-10-15",
+      "strategy": "Annotated 6502 disassembly with byte-identical reassembly and MAME probes",
+      "language": "",
+      "source_available": "Public disassembly and tools; cartridge ROM and Atari 7800 BIOS are not included and must be supplied locally.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "6502 assembly",
+      "subtype": "Atari 7800 reverse engineering",
+      "sources": [
+        {
+          "label": "Primary project page / README",
+          "url": "https://github.com/Miasmark/ballblazer-7800-disassembly"
+        }
+      ]
+    },
+    {
+      "id": "centipede-7800-disassembly",
+      "title": "Centipede (Atari 7800) Disassembly",
+      "game": "Centipede",
+      "target_type": "Game",
+      "platform": "Atari 7800 (NTSC)",
+      "kind": "Decompilation",
+      "status": "The repository describes the ROM listing as full and byte-identical when reassembled; its memory-map investigation is public.",
+      "summary": "A 7800-specific 6502 disassembly and memory-map investigation. Its generated assembly listing reassembles byte-for-byte against a user-supplied ROM.",
+      "project_url": "https://github.com/Miasmark/centipede-7800-disassembly",
+      "updated": "2026-10-15",
+      "strategy": "Annotated 6502 disassembly with byte-identical reassembly and MAME probes",
+      "language": "",
+      "source_available": "Public disassembly and tools; cartridge ROM and Atari 7800 BIOS are not included and must be supplied locally.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "6502 assembly",
+      "subtype": "Atari 7800 reverse engineering",
+      "sources": [
+        {
+          "label": "Primary project page / README",
+          "url": "https://github.com/Miasmark/centipede-7800-disassembly"
+        }
+      ]
+    },
+    {
+      "id": "galaga-7800-disassembly",
+      "title": "Galaga (Atari 7800) Disassembly",
+      "game": "Galaga",
+      "target_type": "Game",
+      "platform": "Atari 7800 (NTSC)",
+      "kind": "Decompilation",
+      "status": "The repository describes the ROM listing as full and byte-identical when reassembled; gameplay analysis is documented with probes.",
+      "summary": "A 7800-specific 6502 disassembly and game-mechanics investigation with a byte-identical assembly round trip.",
+      "project_url": "https://github.com/Miasmark/galaga-7800-disassembly",
+      "updated": "2026-10-15",
+      "strategy": "Annotated 6502 disassembly with byte-identical reassembly and MAME probes",
+      "language": "",
+      "source_available": "Public disassembly and tools; cartridge ROM and Atari 7800 BIOS are not included and must be supplied locally.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "6502 assembly",
+      "subtype": "Atari 7800 reverse engineering",
+      "sources": [
+        {
+          "label": "Primary project page / README",
+          "url": "https://github.com/Miasmark/galaga-7800-disassembly"
+        }
+      ]
+    },
+    {
+      "id": "dig-dug-7800-disassembly",
+      "title": "Dig Dug (Atari 7800) Disassembly",
+      "game": "Dig Dug",
+      "target_type": "Game",
+      "platform": "Atari 7800 (NTSC)",
+      "kind": "Decompilation",
+      "status": "The repository describes the ROM listing as full and byte-identical when reassembled; selected gameplay mechanics remain documented as investigations.",
+      "summary": "A 7800-specific 6502 disassembly and memory-map investigation; the annotated listing is regenerated and checked byte-for-byte against the original ROM.",
+      "project_url": "https://github.com/Miasmark/digdug-7800-disassembly",
+      "updated": "2026-10-15",
+      "strategy": "Annotated 6502 disassembly with byte-identical reassembly and MAME probes",
+      "language": "",
+      "source_available": "Public disassembly and tools; cartridge ROM and Atari 7800 BIOS are not included and must be supplied locally.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "6502 assembly",
+      "subtype": "Atari 7800 reverse engineering",
+      "sources": [
+        {
+          "label": "Primary project page / README",
+          "url": "https://github.com/Miasmark/digdug-7800-disassembly"
+        }
+      ]
+    },
+    {
+      "id": "asteroids-7800-disassembly",
+      "title": "Asteroids (Atari 7800) Disassembly",
+      "game": "Asteroids",
+      "target_type": "Game",
+      "platform": "Atari 7800 (NTSC)",
+      "kind": "Decompilation",
+      "status": "The full assembly listing is byte-identical when reassembled; the README says the gameplay investigation was substantially complete.",
+      "summary": "An annotated 6502 disassembly with a byte-identical round trip and documented gameplay rules, including scoring and asteroid splitting.",
+      "project_url": "https://github.com/Miasmark/asteroids-7800-disassembly",
+      "updated": "2026-10-15",
+      "strategy": "Annotated 6502 disassembly with byte-identical reassembly and MAME probes",
+      "language": "",
+      "source_available": "Public disassembly and tools; cartridge ROM and Atari 7800 BIOS are not included and must be supplied locally.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "6502 assembly",
+      "subtype": "Atari 7800 reverse engineering",
+      "sources": [
+        {
+          "label": "Primary project page / README",
+          "url": "https://github.com/Miasmark/asteroids-7800-disassembly"
+        }
+      ]
+    },
+    {
+      "id": "pole-position-ii-7800-disassembly",
+      "title": "Pole Position II (Atari 7800) Disassembly",
+      "game": "Pole Position II",
+      "target_type": "Game",
+      "platform": "Atari 7800 (NTSC)",
+      "kind": "Decompilation",
+      "status": "Partial code analysis: the README reports 33.5% of cartridge bytes reached as code and about 21,000 bytes still unclassified. The listing round-trips byte-identically; a split-screen ROM patch is also released.",
+      "summary": "A partial 7800 disassembly and gameplay investigation. The repository also supplies BPS-based two-player split-screen and graphics patches, built from the user’s own ROM.",
+      "project_url": "https://github.com/Miasmark/poleposition2-7800-disassembly",
+      "updated": "2026-10-15",
+      "strategy": "Partial 6502 disassembly, byte-identical cartridge rebuild, and BPS gameplay patches",
+      "language": "",
+      "source_available": "Public disassembly and tools; cartridge ROM and Atari 7800 BIOS are not included and must be supplied locally.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "6502 assembly",
+      "subtype": "Atari 7800 reverse engineering",
+      "sources": [
+        {
+          "label": "Primary project page / README",
+          "url": "https://github.com/Miasmark/poleposition2-7800-disassembly"
+        }
+      ]
+    },
+    {
+      "id": "ms-pac-man-7800-disassembly",
+      "title": "Ms. Pac-Man (Atari 7800) Disassembly",
+      "game": "Ms. Pac-Man",
+      "target_type": "Game",
+      "platform": "Atari 7800 (NTSC)",
+      "kind": "Decompilation",
+      "status": "The full assembly listing is byte-identical when reassembled; the README reports every byte classified and documents the game’s ghost, scoring, and maze mechanics.",
+      "summary": "An annotated 6502 disassembly with byte-identical reassembly and documented maze, scoring, fruit, and ghost behavior.",
+      "project_url": "https://github.com/Miasmark/mspacman-7800-disassembly",
+      "updated": "2026-10-15",
+      "strategy": "Annotated 6502 disassembly with byte-identical reassembly and MAME probes",
+      "language": "",
+      "source_available": "Public disassembly and tools; cartridge ROM and Atari 7800 BIOS are not included and must be supplied locally.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "6502 assembly",
+      "subtype": "Atari 7800 reverse engineering",
+      "sources": [
+        {
+          "label": "Primary project page / README",
+          "url": "https://github.com/Miasmark/mspacman-7800-disassembly"
+        }
+      ]
+    },
+    {
+      "id": "motor-psycho-7800-disassembly",
+      "title": "Motor Psycho (Atari 7800) Disassembly",
+      "game": "Motor Psycho",
+      "target_type": "Game",
+      "platform": "Atari 7800 (NTSC)",
+      "kind": "Decompilation",
+      "status": "Partial analysis: 24.8% of cartridge bytes are traced as code; the six emitted ROM spaces reassemble byte-identically.",
+      "summary": "A banked 7800 6502 disassembly and gameplay investigation; six emitted ROM spaces are checked for byte-identical reassembly.",
+      "project_url": "https://github.com/Miasmark/motor-psycho-7800-disassembly",
+      "updated": "2026-10-15",
+      "strategy": "Bank-aware 6502 disassembly with traced-code coverage and byte-identical emitted spaces",
+      "language": "",
+      "source_available": "Public disassembly and tools; cartridge ROM and Atari 7800 BIOS are not included and must be supplied locally.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "6502 assembly",
+      "subtype": "Atari 7800 reverse engineering",
+      "sources": [
+        {
+          "label": "Primary project page / README",
+          "url": "https://github.com/Miasmark/motor-psycho-7800-disassembly"
+        }
+      ]
+    },
+    {
+      "id": "food-fight-7800-disassembly",
+      "title": "Food Fight (Atari 7800) Disassembly",
+      "game": "Food Fight",
+      "target_type": "Game",
+      "platform": "Atari 7800 (NTSC)",
+      "kind": "Decompilation",
+      "status": "Partial analysis: 39.7% of cartridge bytes are traced as code; the reassembly is byte-identical.",
+      "summary": "A partial 7800 disassembly and memory-map investigation with a byte-identical reassembly check.",
+      "project_url": "https://github.com/Miasmark/food-fight-7800-disassembly",
+      "updated": "2026-10-15",
+      "strategy": "Annotated 6502 disassembly with byte-identical reassembly and MAME probes",
+      "language": "",
+      "source_available": "Public disassembly and tools; cartridge ROM and Atari 7800 BIOS are not included and must be supplied locally.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "6502 assembly",
+      "subtype": "Atari 7800 reverse engineering",
+      "sources": [
+        {
+          "label": "Primary project page / README",
+          "url": "https://github.com/Miasmark/food-fight-7800-disassembly"
+        }
+      ]
+    },
+    {
+      "id": "karateka-7800-disassembly",
+      "title": "Karateka (Atari 7800) Disassembly and Patches",
+      "game": "Karateka",
+      "target_type": "Game",
+      "platform": "Atari 7800 (NTSC)",
+      "kind": "Decompilation",
+      "status": "Partial analysis: the README reports 18.3% of the ROM traced as executable code. It includes 50 BPS patch artifacts and 43 MAME probes; broad game-source reconstruction is not claimed.",
+      "summary": "Reverse engineering of the 7800 port’s threaded Forth image, with disassembly tooling, gameplay probes, and documented BPS patches; it is not a complete source reconstruction.",
+      "project_url": "https://github.com/Miasmark/Karateka-7800-Disassembly",
+      "updated": "2026-10-15",
+      "strategy": "Forth-image analysis, partial 6502 disassembly, MAME probes, and user-applied BPS patches",
+      "language": "",
+      "source_available": "Public disassembly and tools; cartridge ROM and Atari 7800 BIOS are not included and must be supplied locally.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "Python; 6502 assembly/Forth image",
+      "subtype": "Atari 7800 reverse engineering",
+      "sources": [
+        {
+          "label": "Primary project page / README",
+          "url": "https://github.com/Miasmark/Karateka-7800-Disassembly"
+        }
+      ]
+    },
+    {
+      "id": "haunted-house-atari-2600-disassembly",
+      "title": "Haunted House (Atari 2600) Commented Disassembly",
+      "game": "Haunted House",
+      "target_type": "Game",
+      "platform": "Atari 2600 VCS",
+      "kind": "Decompilation",
+      "status": "Work in progress; commented assembly is in haunted.asm and the repository documents a DASM build.",
+      "summary": "A work-in-progress commented 6502 disassembly of the Atari 2600 game, with a Makefile for rebuilding a playable ROM.",
+      "project_url": "https://github.com/brandonrobertz/haunted_house_disassembly",
+      "updated": "2026-10-15",
+      "strategy": "Commented 6502 assembly reconstruction with DASM build",
+      "language": "",
+      "source_available": "Public assembly source and build instructions; original game data is not separately documented as included.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "6502 assembly",
+      "subtype": "Atari 2600 disassembly",
+      "sources": [
+        {
+          "label": "Primary project page / README",
+          "url": "https://github.com/brandonrobertz/haunted_house_disassembly"
+        }
+      ]
+    },
+    {
+      "id": "raiders-lost-ark-atari-2600-disassembly",
+      "title": "Raiders of the Lost Ark (Atari 2600) Reverse-Engineered Source",
+      "game": "Raiders of the Lost Ark",
+      "target_type": "Game",
+      "platform": "Atari 2600 VCS",
+      "kind": "Decompilation",
+      "status": "The maintainer describes the commented source as fully reverse-engineered; the project builds with DASM, but does not claim a byte-for-byte ROM match.",
+      "summary": "A commented 6502 assembly reconstruction of the 1982 Atari 2600 game, with build/run scripts for Windows and Linux.",
+      "project_url": "https://github.com/halkuncode/Raiders2600",
+      "updated": "2026-10-15",
+      "strategy": "Commented 6502 assembly reconstruction assembled with DASM",
+      "language": "",
+      "source_available": "Public assembly source, DASM build files, and documentation; no byte-identical rebuild claim is made.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "6502 assembly",
+      "subtype": "Atari 2600 disassembly",
+      "sources": [
+        {
+          "label": "Primary project page / README",
+          "url": "https://github.com/halkuncode/Raiders2600"
+        }
+      ]
+    },
+    {
+      "id": "pitfall-atari-2600-disassembly",
+      "title": "Pitfall! (Atari 2600) Commented Disassembly",
+      "game": "Pitfall!",
+      "target_type": "Game",
+      "platform": "Atari 2600 VCS",
+      "kind": "Decompilation",
+      "status": "The file is a commented and labeled 6502 disassembly attributed to Thomas Jentzsch; the file describes a DASM-compatible source, with no byte-match test documented in this repository.",
+      "summary": "A public, annotated assembly reconstruction of the Atari 2600 game that later served as reference material for cross-console ports.",
+      "project_url": "https://github.com/johnidm/asm-atari-2600/blob/master/pitfall.asm",
+      "updated": "2026-10-15",
+      "strategy": "Commented 6502 disassembly in DASM-compatible source",
+      "language": "",
+      "source_available": "Public assembly listing; source file attribution identifies the disassembler/commentator. No original binary parity test is claimed.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "6502 assembly",
+      "subtype": "Atari 2600 disassembly",
+      "sources": [
+        {
+          "label": "Primary project page / README",
+          "url": "https://github.com/johnidm/asm-atari-2600/blob/master/pitfall.asm"
+        },
+        {
+          "label": "Annotated source and attribution",
+          "url": "https://github.com/johnidm/asm-atari-2600/blob/master/pitfall.asm"
+        }
+      ]
+    },
+    {
+      "id": "pitfall-atari2600-to-megadrive-port",
+      "title": "Pitfall! (Atari 2600 → Mega Drive) Port and Remaster",
+      "game": "Pitfall!",
+      "target_type": "Game",
+      "platform": "Atari 2600 → Sega Mega Drive / Genesis",
+      "kind": "Reimplementation",
+      "status": "The current main branch combines Original, Enhanced, and Remaster presentations; tag v0.0.1 preserves the standalone 1:1 port. The README says published builds are available.",
+      "summary": "A C/SGDK port of Pitfall! guided by a public commented 2600 disassembly, with source-faithful gameplay and optional 16-bit presentation upgrades.",
+      "project_url": "https://github.com/paulomanrique/pitfall-2600-genesis",
+      "updated": "2026-10-15",
+      "strategy": "Behavioral reimplementation in C/SGDK using the 2600 disassembly as a reference",
+      "language": "",
+      "source_available": "Public Mega Drive port source; original game ROM is not committed, and the source disassembly is fetched as a separate build input.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Cross-console source port",
+      "sources": [
+        {
+          "label": "Primary project page / README",
+          "url": "https://github.com/paulomanrique/pitfall-2600-genesis"
+        },
+        {
+          "label": "Published build page",
+          "url": "https://sirvh.itch.io/pitfall-2600-genesis"
+        },
+        {
+          "label": "Reference 2600 disassembly document",
+          "url": "https://www.romhacking.net/documents/521/"
+        }
+      ]
+    },
+    {
+      "id": "tempest-atari-arcade-disassembly-c-port",
+      "title": "Tempest (Atari Arcade) Disassembly and C Port",
+      "game": "Tempest",
+      "target_type": "Game",
+      "platform": "Atari arcade (6502, vector hardware; 1981)",
+      "kind": "Decompilation",
+      "status": "Complete playable 1:1 C port for Windows; the program and vector ROM listings re-encode byte-for-byte, with call-by-call differential checks.",
+      "summary": "A byte-exact disassembly of Tempest’s 6502 and vector ROMs plus a routine-by-routine C11 translation that models the board hardware rather than running a 6502 core.",
+      "project_url": "https://github.com/tcottrill/Tempest-Full-Disassembly-and-C-Port",
+      "updated": "2026-10-15",
+      "strategy": "Byte-exact assembly recovery plus routine-by-routine C translation with lockstep verification.",
+      "language": "",
+      "source_available": "Public reconstructed source and tools; original copyrighted ROM sets are not included and are required for ROM regeneration or oracle-based checks.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "6502 assembly; C11",
+      "subtype": "Arcade disassembly and C port",
+      "sources": [
+        {
+          "label": "Primary project page / README",
+          "url": "https://github.com/tcottrill/Tempest-Full-Disassembly-and-C-Port"
+        }
+      ]
+    },
+    {
+      "id": "gravitar-atari-arcade-disassembly-c-port",
+      "title": "Gravitar (Atari Arcade) Disassembly and C Port",
+      "game": "Gravitar",
+      "target_type": "Game",
+      "platform": "Atari arcade (6502, vector hardware; 1982)",
+      "kind": "Decompilation",
+      "status": "Complete playable 1:1 C port; the README reports 100% of 38,912 program-ROM bytes attributed to source lines and byte-exact listing checks.",
+      "summary": "A byte-exact Gravitar disassembly and a C11 port that translates the 6502 program routine by routine while modeling AVG, POKEY, and EAROM devices.",
+      "project_url": "https://github.com/tcottrill/Gravitar-Full-Disassembly-and-C-Port",
+      "updated": "2026-10-15",
+      "strategy": "Byte-exact assembly recovery, Atari source matching, and routine-by-routine C translation.",
+      "language": "",
+      "source_available": "Public reconstructed source and tools; original copyrighted ROM sets are not included and are required for ROM regeneration or oracle-based checks.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "6502 assembly; C11",
+      "subtype": "Arcade disassembly and C port",
+      "sources": [
+        {
+          "label": "Primary project page / README",
+          "url": "https://github.com/tcottrill/Gravitar-Full-Disassembly-and-C-Port"
+        }
+      ]
+    },
+    {
+      "id": "battlezone-atari-arcade-disassembly-c-port",
+      "title": "Battlezone (Atari Arcade) Disassembly and C Port",
+      "game": "Battlezone",
+      "target_type": "Game",
+      "platform": "Atari arcade (6502, vector hardware; 1980)",
+      "kind": "Decompilation",
+      "status": "Complete playable 1:1 C port with byte-exact program/vector disassembly; the project includes an emulator twin and call-by-call verification.",
+      "summary": "A reconstructed Battlezone program and vector-ROM listing plus a cycle-counted C11 port that models the vector hardware and mathbox.",
+      "project_url": "https://github.com/tcottrill/BattleZone-Full-Disassembly-and-C-Port",
+      "updated": "2026-10-15",
+      "strategy": "Byte-exact assembly recovery plus cycle-counted routine-level C translation.",
+      "language": "",
+      "source_available": "Public reconstructed source and tools; original copyrighted ROM sets are not included and are required for ROM regeneration or oracle-based checks.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "6502 assembly; C11",
+      "subtype": "Arcade disassembly and C port",
+      "sources": [
+        {
+          "label": "Primary project page / README",
+          "url": "https://github.com/tcottrill/BattleZone-Full-Disassembly-and-C-Port"
+        }
+      ]
+    },
+    {
+      "id": "lunar-lander-atari-arcade-disassembly-c-port",
+      "title": "Lunar Lander (Atari Arcade) Disassembly and C Port",
+      "game": "Lunar Lander",
+      "target_type": "Game",
+      "platform": "Atari arcade (6502, vector hardware; 1979)",
+      "kind": "Decompilation",
+      "status": "Complete playable C port with byte-exact program/vector listings and a differential harness; the repository also has a Teensy 4.1 hardware target.",
+      "summary": "A full assembly reconstruction and routine-level C11 port of Lunar Lander, including the vector display model and an optional Teensy 4.1 monitor target.",
+      "project_url": "https://github.com/tcottrill/Lunar-Lander-Full-Disassembly-and-C-Port",
+      "updated": "2026-10-15",
+      "strategy": "Byte-exact assembly recovery, routine-by-routine C translation, and differential tests.",
+      "language": "",
+      "source_available": "Public reconstructed source and tools; original copyrighted ROM sets are not included and are required for ROM regeneration or oracle-based checks.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "6502 assembly; C11",
+      "subtype": "Arcade disassembly and C port",
+      "sources": [
+        {
+          "label": "Primary project page / README",
+          "url": "https://github.com/tcottrill/Lunar-Lander-Full-Disassembly-and-C-Port"
+        }
+      ]
+    },
+    {
+      "id": "star-wars-atari-arcade-disassembly-c-port",
+      "title": "Star Wars (Atari Arcade) Disassembly and C Port",
+      "game": "Star Wars",
+      "target_type": "Game",
+      "platform": "Atari arcade (6809, vector hardware; 1983)",
+      "kind": "Decompilation",
+      "status": "A playable Windows C port and ROM-based emulator are included; the repository supplies four generated disassembly listings and a verifier for translated routines.",
+      "summary": "A full reconstruction of the 6809 main and sound programs and vector data, with a playable C port and a separate emulator twin.",
+      "project_url": "https://github.com/tcottrill/Star-Wars-Full-Disassembly-and-C-Port",
+      "updated": "2026-10-15",
+      "strategy": "Annotated 6809 disassembly and C translation tested against the ROM-based oracle.",
+      "language": "",
+      "source_available": "Public reconstructed source and tools; original copyrighted ROM sets are not included and are required for ROM regeneration or oracle-based checks.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "6809 assembly; C",
+      "subtype": "Arcade disassembly and C port",
+      "sources": [
+        {
+          "label": "Primary project page / README",
+          "url": "https://github.com/tcottrill/Star-Wars-Full-Disassembly-and-C-Port"
+        }
+      ]
+    },
+    {
+      "id": "asteroids-deluxe-atari-arcade-disassembly-c-port",
+      "title": "Asteroids Deluxe (Atari Arcade) Disassembly and C Port",
+      "game": "Asteroids Deluxe",
+      "target_type": "Game",
+      "platform": "Atari arcade (6502, vector hardware; 1981)",
+      "kind": "Decompilation",
+      "status": "Complete playable 1:1 C port; the recovered program/vector listings reassemble byte-for-byte from Atari’s published source archive and supplied ROM set.",
+      "summary": "A full Asteroids Deluxe assembly reconstruction with a C11 port that models the DVG, POKEY, and EAROM instead of interpreting the original CPU.",
+      "project_url": "https://github.com/tcottrill/Asteroids-Deluxe-Full-Disassembly-and-C-Port",
+      "updated": "2026-10-15",
+      "strategy": "Byte-exact assembly recovery plus routine-level C translation and differential tests.",
+      "language": "",
+      "source_available": "Public reconstructed source and tools; original copyrighted ROM sets are not included and are required for ROM regeneration or oracle-based checks.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "6502 assembly; C11",
+      "subtype": "Arcade disassembly and C port",
+      "sources": [
+        {
+          "label": "Primary project page / README",
+          "url": "https://github.com/tcottrill/Asteroids-Deluxe-Full-Disassembly-and-C-Port"
+        }
+      ]
+    },
+    {
+      "id": "space-duel-atari-arcade-disassembly-c-port",
+      "title": "Space Duel (Atari Arcade) Disassembly and C Port",
+      "game": "Space Duel",
+      "target_type": "Game",
+      "platform": "Atari arcade (6502, vector hardware; 1982)",
+      "kind": "Decompilation",
+      "status": "Complete playable C port; program and color-vector listings are rebuilt and checked byte-for-byte against the supplied ROM set.",
+      "summary": "A full Space Duel disassembly and C11 translation with modeled vector RAM, POKEY audio, and EAROM behavior.",
+      "project_url": "https://github.com/tcottrill/Space-Duel-Full-Disassembly-and-C-Port",
+      "updated": "2026-10-15",
+      "strategy": "Byte-exact assembly reconstruction and routine-by-routine C translation.",
+      "language": "",
+      "source_available": "Public reconstructed source and tools; original copyrighted ROM sets are not included and are required for ROM regeneration or oracle-based checks.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "6502 assembly; C11",
+      "subtype": "Arcade disassembly and C port",
+      "sources": [
+        {
+          "label": "Primary project page / README",
+          "url": "https://github.com/tcottrill/Space-Duel-Full-Disassembly-and-C-Port"
+        }
+      ]
+    },
+    {
+      "id": "omega-race-midway-arcade-disassembly-c-port",
+      "title": "Omega Race (Midway Arcade) Disassembly and C Port",
+      "game": "Omega Race",
+      "target_type": "Game",
+      "platform": "Midway arcade (Z80; 1981)",
+      "kind": "Decompilation",
+      "status": "Complete playable C port with a ROM-based differential harness; generated ROM-derived files are reproducible byte-for-byte.",
+      "summary": "A disassembly of Omega Race’s main and sound programs plus a C11 main-CPU port and a headless harness for differential checks.",
+      "project_url": "https://github.com/tcottrill/Omega-Race-Full-Disassembly-and-C-Port",
+      "updated": "2026-10-15",
+      "strategy": "Annotated Z80 disassembly plus a routine-level C translation and differential testing.",
+      "language": "",
+      "source_available": "Public reconstructed source and tools; original copyrighted ROM sets are not included and are required for ROM regeneration or oracle-based checks.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "Z80 assembly; C11",
+      "subtype": "Arcade disassembly and C port",
+      "sources": [
+        {
+          "label": "Primary project page / README",
+          "url": "https://github.com/tcottrill/Omega-Race-Full-Disassembly-and-C-Port"
+        }
+      ]
+    },
+    {
+      "id": "clowns-midway-arcade-disassembly-c-port",
+      "title": "Clowns (Midway Arcade) Disassembly and C Port",
+      "game": "Clowns",
+      "target_type": "Game",
+      "platform": "Midway arcade (Intel 8080; 1978)",
+      "kind": "Decompilation",
+      "status": "A playable C port and full annotated program-ROM listing are included; the lockstep suite reports 16 scenarios and about 96% of ROM instructions executed and compared.",
+      "summary": "A full Clowns disassembly and C translation with 8080 machine-state comparisons against the original ROM.",
+      "project_url": "https://github.com/tcottrill/Midway-Clowns-Full-Disassembly-and-C-Port",
+      "updated": "2026-10-15",
+      "strategy": "Annotated disassembly plus routine-level C translation and lockstep checks.",
+      "language": "",
+      "source_available": "Public reconstructed source and tools; original copyrighted ROM sets are not included and are required for ROM regeneration or oracle-based checks.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "8080 assembly; C11",
+      "subtype": "Arcade disassembly and C port",
+      "sources": [
+        {
+          "label": "Primary project page / README",
+          "url": "https://github.com/tcottrill/Midway-Clowns-Full-Disassembly-and-C-Port"
+        }
+      ]
+    },
+    {
+      "id": "asteroids-atari-arcade-disassembly-nmikstas",
+      "title": "Asteroids (Atari Arcade) Disassembly",
+      "game": "Asteroids",
+      "target_type": "Game",
+      "platform": "Atari arcade (6502, vector hardware; 1979)",
+      "kind": "Decompilation",
+      "status": "Program and vector-ROM assembly listings are published and described as fully assemblable with Ophis; no byte-for-byte ROM verification result is stated.",
+      "summary": "An annotated assembly disassembly of the Asteroids program and vector ROM, with supporting Java utilities for vector conversion and text extraction.",
+      "project_url": "https://github.com/nmikstas/asteroids-disassembly",
+      "updated": "2026-10-15",
+      "strategy": "Annotated 6502 and vector-ROM assembly reconstruction",
+      "language": "",
+      "source_available": "Public assembly listings and helper tools; the README points to prior disassembly work and does not claim a byte-match test.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "6502 assembly; Java",
+      "subtype": "Arcade disassembly",
+      "sources": [
+        {
+          "label": "Primary project page / README",
+          "url": "https://github.com/nmikstas/asteroids-disassembly"
+        },
+        {
+          "label": "Program ROM assembly listing",
+          "url": "https://github.com/nmikstas/asteroids-disassembly/blob/master/AsteroidsSource/asteroids_program_rom.asm"
+        },
+        {
+          "label": "Vector ROM assembly listing",
+          "url": "https://github.com/nmikstas/asteroids-disassembly/blob/master/AsteroidsSource/asteroids_vector_rom.asm"
+        }
+      ]
+    },
+    {
+      "id": "warlords-atari-arcade-disassembly",
+      "title": "Warlords (Atari Arcade) Full Disassembly",
+      "game": "Warlords",
+      "target_type": "Game",
+      "platform": "Atari arcade (6502; 1980)",
+      "kind": "Decompilation",
+      "status": "The repository contains six annotated assembly modules; its generator assembles the listings and compares the result against the ROM. No C port is claimed.",
+      "summary": "A full 6502 assembly reconstruction of Warlords, including program, stamp-ROM and PROM data, memory-map definitions, and rebuild checks.",
+      "project_url": "https://github.com/tcottrill/Warlords-Full-Disassembly",
+      "updated": "2026-10-15",
+      "strategy": "Annotated byte-exact 6502 disassembly and assembly round-trip checks",
+      "language": "",
+      "source_available": "Public listings and build tools; the original source archive is referenced but not bundled, and ROM images must be supplied for regeneration.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "6502 assembly",
+      "subtype": "Arcade disassembly",
+      "sources": [
+        {
+          "label": "Primary project page / README",
+          "url": "https://github.com/tcottrill/Warlords-Full-Disassembly"
+        }
+      ]
+    },
+    {
+      "id": "empire-strikes-back-atari-arcade-disassembly",
+      "title": "The Empire Strikes Back (Atari Arcade) Disassembly and Patches",
+      "game": "The Empire Strikes Back",
+      "target_type": "Game",
+      "platform": "Atari arcade (6809, vector hardware; 1985)",
+      "kind": "Decompilation",
+      "status": "The disassembly is marked done; eight listings totaling 135,168 bytes re-encode with zero mismatches. Slapstic-removal patchers are tested in emulation; the proposed real-board patch is not reported as tested.",
+      "summary": "A full annotated disassembly of both 6809 program banks and vector data, with ROM patch tools for bypassing the slapstic protection device.",
+      "project_url": "https://github.com/tcottrill/Empire-Strikes-Back-Full-Disassembly-and-Slapstic-Removal",
+      "updated": "2026-10-15",
+      "strategy": "Byte-exact 6809 disassembly with standalone ROM patchers and emulator tests",
+      "language": "",
+      "source_available": "Public listings and tools; ROM images are not included and must be supplied for disassembly regeneration.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "6809 assembly; Python",
+      "subtype": "Arcade disassembly and ROM patches",
+      "sources": [
+        {
+          "label": "Primary project page / README",
+          "url": "https://github.com/tcottrill/Empire-Strikes-Back-Full-Disassembly-and-Slapstic-Removal"
+        }
+      ]
+    },
+    {
+      "id": "st-term-tos-atari-st-reconstruction",
+      "title": "ST_TERM.TOS (Atari ST VT100 Cartridge) Reconstruction",
+      "game": "ST_TERM.TOS (Atari ST Terminal Emulator cartridge)",
+      "target_type": "Software",
+      "platform": "Atari ST",
+      "kind": "Decompilation",
+      "status": "All 122 cartridge functions are transcribed into K&R C and Motorola 68000 assembly and mechanically checked against the disassembly; the maintainer explicitly says the reconstruction has not been compiled.",
+      "summary": "A source reconstruction of Atari’s ST_TERM.TOS VT100 terminal-emulator cartridge, with C/assembler files, symbol and control-flow checks, and reverse-engineering notes.",
+      "project_url": "https://github.com/sarnau/atari-st-vt100-cartridge",
+      "updated": "2026-10-15",
+      "strategy": "Function-by-function C and 68000 assembly transcription from the cartridge disassembly",
+      "language": "",
+      "source_available": "Public reconstructed C/assembler sources and notes; the sources are uncompiled and the build is unverified.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C; Motorola 68000 assembly",
+      "subtype": "Atari ST application reconstruction",
+      "sources": [
+        {
+          "label": "Primary project page / README",
+          "url": "https://github.com/sarnau/atari-st-vt100-cartridge"
+        },
+        {
+          "label": "Reconstructed source status and verification",
+          "url": "https://github.com/sarnau/atari-st-vt100-cartridge/blob/main/src/README.md"
+        }
+      ]
+    },
+    {
+      "id": "atari-tos-100-french-ghidra-disassembly",
+      "title": "Atari TOS 1.00 (French) Ghidra Disassembly",
+      "game": "Atari TOS 1.00 French",
+      "target_type": "Software",
+      "platform": "Atari ST software / TOS 1.00 ROM",
+      "kind": "Decompilation",
+      "status": "The maintainer says the Ghidra disassembly is far from complete, though most entry points and BIOS/XBIOS/BDOS/VDI functions have been found and labeled. AES/Desktop analysis remains harder because of Line-F calls.",
+      "summary": "A shared Ghidra project archive for reverse-engineering the French Atari TOS 1.00 ROM, aimed at documenting internals and locating bugs.",
+      "project_url": "https://github.com/disastos/tos100fr",
+      "updated": "2026-10-15",
+      "strategy": "Annotated 68000 ROM disassembly and Ghidra-generated C pseudocode",
+      "language": "",
+      "source_available": "Public Ghidra project archive; the disassembly is incomplete and no rebuilt source is provided.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "Motorola 68000 assembly (Ghidra disassembly)",
+      "subtype": "Operating-system ROM disassembly",
+      "sources": [
+        {
+          "label": "Primary project page / README",
+          "url": "https://github.com/disastos/tos100fr"
+        },
+        {
+          "label": "Maintainer README: project scope and completeness",
+          "url": "https://github.com/disastos/tos100fr/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "cyber-knight-pce-english-translation",
+      "title": "Cyber Knight (PC Engine) English Translation",
+      "game": "Cyber Knight",
+      "target_type": "Game",
+      "platform": "NEC PC Engine / TurboGrafx-16",
+      "kind": "Fan Localization",
+      "status": "Work in progress. The README shows mixed completion by text area (menus and intro done, main story and several dialogue sets partial) and says a patch release is planned for later.",
+      "summary": "Translation tools and resources for the PC Engine version of Cyber Knight, including script extraction, text editing, ROM expansion, and reinsertion utilities.",
+      "project_url": "https://github.com/megatron-uk/cyberknight-pce",
+      "updated": "2026-10-15",
+      "strategy": "Script extraction and reinsertion with expanded text assets",
+      "language": "English",
+      "source_available": "Public translation tools, script data, and working notes; no completed patch is released in the README.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "Python; assembly",
+      "subtype": "PC Engine fan translation",
+      "sources": [
+        {
+          "label": "Primary project page / README",
+          "url": "https://github.com/megatron-uk/cyberknight-pce"
+        }
+      ]
+    },
+    {
+      "id": "spriggan-mark-2-pce-english-translation",
+      "title": "Spriggan Mark 2 (PC Engine) English Patch",
+      "game": "Spriggan Mark 2: Re-Terraform Project",
+      "target_type": "Game",
+      "platform": "PC Engine Super CD-ROM²",
+      "kind": "Fan Localization",
+      "status": "English xdelta patches v1.3 are released for data tracks 02 and 37; the README identifies the supported Redump set and warns that audio/text sync can vary in emulation.",
+      "summary": "A fan English translation patch for Spriggan Mark 2, distributed as two xdelta patches for the duplicated data tracks.",
+      "project_url": "https://github.com/gagnonpl/spriggan-mark2-en",
+      "updated": "2026-10-15",
+      "strategy": "Track-level xdelta patching of the original CD image",
+      "language": "English",
+      "source_available": "Public patch files and patching instructions; original disc image must be supplied by the user.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "PC Engine CD fan translation",
+      "sources": [
+        {
+          "label": "Primary project page / README",
+          "url": "https://github.com/gagnonpl/spriggan-mark2-en"
+        },
+        {
+          "label": "Patch release listing and supported disc hashes",
+          "url": "https://github.com/gagnonpl/spriggan-mark2-en#hashes"
+        }
+      ]
+    },
+    {
+      "id": "might-and-magic-pce-english-translation",
+      "title": "Might & Magic Book One (PC Engine CD) English Patch",
+      "game": "Might & Magic Book One: The Secret of the Inner Sanctum",
+      "target_type": "Game",
+      "platform": "PC Engine CD-ROM²",
+      "kind": "Fan Localization",
+      "status": "A PPF English patch is released. The README lists remaining text-layout issues for the blacksmith screen and roman-letter-only text input; the patch was primarily tested with the Japanese System Card 3.0 image.",
+      "summary": "A fan English translation patch and supporting tools for the PC Engine CD version of Might & Magic Book One.",
+      "project_url": "https://github.com/TiCoKH/PCEngine_eng_patch",
+      "updated": "2026-10-15",
+      "strategy": "Patch-based text and graphics translation for the original CD game",
+      "language": "English",
+      "source_available": "Public PPF patch and project files; original game disc and a separately patched System Card are required.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "PC Engine CD fan translation",
+      "sources": [
+        {
+          "label": "Primary project page / README",
+          "url": "https://github.com/TiCoKH/PCEngine_eng_patch"
+        },
+        {
+          "label": "Maintainer patch README and compatibility notes",
+          "url": "https://github.com/TiCoKH/PCEngine_eng_patch#readme"
+        }
+      ]
+    },
+    {
+      "id": "tengai-makyou-ziria-pce-english-translation",
+      "title": "Tengai Makyou: Ziria (PC Engine CD) English Translation",
+      "game": "Tengai Makyou: Ziria",
+      "target_type": "Game",
+      "platform": "PC Engine CD-ROM² / TurboGrafx-CD",
+      "kind": "Fan Localization",
+      "status": "Version 1.2 English patch is released; the maintainer describes the patch as a full translation.",
+      "summary": "A full English fan translation for the PC Engine CD RPG, with public translation build materials and a downloadable patch.",
+      "project_url": "https://github.com/suppertails66/tenmatools",
+      "updated": "2026-10-15",
+      "strategy": "Rebuildable translation materials and patching of the original disc image",
+      "language": "English",
+      "source_available": "Public source materials and patch release; requires a user-supplied supported revision of the original disc.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "PC Engine CD fan translation",
+      "sources": [
+        {
+          "label": "Primary project page / README",
+          "url": "https://github.com/suppertails66/tenmatools"
+        },
+        {
+          "label": "Maintainer translation page, v1.2 patch",
+          "url": "https://stargood.org/trans/tenma.php"
+        }
+      ]
+    },
+    {
+      "id": "emerald-dragon-pce-english-translation",
+      "title": "Emerald Dragon (PC Engine CD) English Translation",
+      "game": "Emerald Dragon",
+      "target_type": "Game",
+      "platform": "PC Engine Super CD-ROM²",
+      "kind": "Fan Localization",
+      "status": "Version 1.0 English patch is released and the maintainer describes it as a full translation.",
+      "summary": "A full English fan translation of the PC Engine Super CD-ROM² RPG, with public patch-build materials and a downloadable patch.",
+      "project_url": "https://github.com/suppertails66/emdrtools",
+      "updated": "2026-10-15",
+      "strategy": "Rebuildable translation materials and CD-image patching",
+      "language": "English",
+      "source_available": "Public source materials and patch release; requires a user-supplied supported revision of the original disc.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "PC Engine CD fan translation",
+      "sources": [
+        {
+          "label": "Primary project page / README",
+          "url": "https://github.com/suppertails66/emdrtools"
+        },
+        {
+          "label": "Maintainer translation page, v1.0 patch",
+          "url": "https://stargood.org/trans/emdr.php"
+        }
+      ]
+    },
+    {
+      "id": "zero4-champ-pce-english-translation",
+      "title": "Zero4 Champ (PC Engine) English Translation",
+      "game": "Zero4 Champ",
+      "target_type": "Game",
+      "platform": "PC Engine",
+      "kind": "Fan Localization",
+      "status": "Version 1.0 English patch is released; the maintainer describes the patch as a full translation.",
+      "summary": "An English fan translation patch for the PC Engine racing/adventure game, with public patch build materials.",
+      "project_url": "https://github.com/suppertails66/zero4tools",
+      "updated": "2026-10-15",
+      "strategy": "Rebuildable translation materials and patching of the original game image",
+      "language": "English",
+      "source_available": "Public source materials and patch release; user must supply the original game image.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "PC Engine fan translation",
+      "sources": [
+        {
+          "label": "Primary project page / README",
+          "url": "https://github.com/suppertails66/zero4tools"
+        },
+        {
+          "label": "Maintainer translation page, v1.0 patch",
+          "url": "https://stargood.org/trans/zero4.php"
+        }
+      ]
+    },
+    {
+      "id": "private-eye-dol-pce-english-translation",
+      "title": "Private Eye Dol (PC Engine CD) English Translation",
+      "game": "Private Eye Dol",
+      "target_type": "Game",
+      "platform": "PC Engine Super CD-ROM²",
+      "kind": "Fan Localization",
+      "status": "Version 1.0 English patch is released; the maintainer describes the game as fully translated.",
+      "summary": "A full English fan translation for the PC Engine Super CD-ROM² adventure game, with source tools and a downloadable patch.",
+      "project_url": "https://github.com/suppertails66/pidoltools",
+      "updated": "2026-10-15",
+      "strategy": "Rebuildable translation materials and patching of the original disc",
+      "language": "English",
+      "source_available": "Public source materials and patch release; user supplies a supported original game disc image.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "PC Engine CD fan translation",
+      "sources": [
+        {
+          "label": "Primary project page / README",
+          "url": "https://github.com/suppertails66/pidoltools"
+        },
+        {
+          "label": "Maintainer translation page, v1.0 patch",
+          "url": "https://stargood.org/trans/pidol.php"
+        }
+      ]
+    },
+    {
+      "id": "galaxy-fraulein-yuna-pce-english-translation",
+      "title": "Galaxy Fraulein Yuna (PC Engine CD) English Translation",
+      "game": "Galaxy Fraulein Yuna",
+      "target_type": "Game",
+      "platform": "PC Engine Super CD-ROM²",
+      "kind": "Fan Localization",
+      "status": "Version 1.3 English patch is released; the maintainer says it translates all text, subtitles more than 60 minutes of animated scenes, and adds karaoke subtitles for songs.",
+      "summary": "A full English fan translation of the PC Engine visual novel, including subtitles for voice-only scenes and songs.",
+      "project_url": "https://github.com/suppertails66/yunatools",
+      "updated": "2026-10-15",
+      "strategy": "Rebuildable translation materials and patching of the original disc image",
+      "language": "English",
+      "source_available": "Public source materials and patch release; original disc image must be supplied by the user.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "PC Engine CD fan translation",
+      "sources": [
+        {
+          "label": "Primary project page / README",
+          "url": "https://github.com/suppertails66/yunatools"
+        },
+        {
+          "label": "Maintainer translation page, v1.3 patch and coverage",
+          "url": "https://stargood.org/trans/yuna.php"
+        }
+      ]
+    },
+    {
+      "id": "galaxy-fraulein-yuna-2-pce-english-translation",
+      "title": "Galaxy Fraulein Yuna 2 (PC Engine CD) English Translation",
+      "game": "Galaxy Fraulein Yuna 2: The Eternal Princess",
+      "target_type": "Game",
+      "platform": "PC Engine Super CD-ROM²",
+      "kind": "Fan Localization",
+      "status": "Version 1.1 English patch is released; the maintainer describes the game as fully translated and also provides a translated manual.",
+      "summary": "A full English fan translation of the PC Engine Super CD-ROM² sequel, with a separately translated instruction manual.",
+      "project_url": "https://github.com/suppertails66/yuna2tools",
+      "updated": "2026-10-15",
+      "strategy": "Rebuildable translation materials and patching of the original disc image",
+      "language": "English",
+      "source_available": "Public source materials and patch release; original disc image must be supplied by the user.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "PC Engine CD fan translation",
+      "sources": [
+        {
+          "label": "Primary project page / README",
+          "url": "https://github.com/suppertails66/yuna2tools"
+        },
+        {
+          "label": "Maintainer translation page, v1.1 patch",
+          "url": "https://stargood.org/trans/yuna2.php"
+        }
+      ]
+    },
+    {
+      "id": "sailor-moon-pcecd-english-translation",
+      "title": "Bishoujo Senshi Sailor Moon (PC Engine CD) English Translation",
+      "game": "Bishoujo Senshi Sailor Moon",
+      "target_type": "Game",
+      "platform": "PC Engine Super CD-ROM²",
+      "kind": "Fan Localization",
+      "status": "Version 1.1 English patch is released; it includes subtitles for audio-only scenes and songs and a separate honorifics edition.",
+      "summary": "An English fan translation of the PC Engine CD visual novel, with subtitles for voice-only content and an alternate terminology edition.",
+      "project_url": "https://github.com/suppertails66/bssmpcetools",
+      "updated": "2026-10-15",
+      "strategy": "Rebuildable translation materials and patching of the original disc image",
+      "language": "English",
+      "source_available": "Public source materials and patch release; requires a user-supplied original game disc image.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "PC Engine CD fan translation",
+      "sources": [
+        {
+          "label": "Primary project page / README",
+          "url": "https://github.com/suppertails66/bssmpcetools"
+        },
+        {
+          "label": "Maintainer translation page, v1.1 patch and editions",
+          "url": "https://stargood.org/trans/bssm_pcecd.php"
+        }
+      ]
+    },
+    {
+      "id": "madou-monogatari-i-pce-english-translation",
+      "title": "Madou Monogatari I: Honoo no Sotsuenji (PC Engine CD) English Translation",
+      "game": "Madou Monogatari I: Honoo no Sotsuenji",
+      "target_type": "Game",
+      "platform": "PC Engine Super CD-ROM²",
+      "kind": "Fan Localization",
+      "status": "Version 1.0 English patch is released; the maintainer describes the game as fully translated.",
+      "summary": "A full English fan translation of the PC Engine remake, with public patch build materials and a downloadable patch.",
+      "project_url": "https://github.com/suppertails66/madou1pcetools",
+      "updated": "2026-10-15",
+      "strategy": "Rebuildable translation materials and patching of the original disc image",
+      "language": "English",
+      "source_available": "Public source materials and patch release; user-supplied original disc image required.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "PC Engine CD fan translation",
+      "sources": [
+        {
+          "label": "Primary project page / README",
+          "url": "https://github.com/suppertails66/madou1pcetools"
+        },
+        {
+          "label": "Maintainer translation page, v1.0 patch",
+          "url": "https://stargood.org/trans/madou1pce.php"
+        }
+      ]
+    },
+    {
+      "id": "dead-of-the-brain-pce-translation",
+      "title": "Dead of the Brain 1 (PC Engine CD) English/French Translation",
+      "game": "Dead of the Brain 1",
+      "target_type": "Game",
+      "platform": "PC Engine CD-ROM²",
+      "kind": "Fan Localization",
+      "status": "Patch archives v1.0 for English and French are present for the first game. The maintainer says work on the second game in the same PC Engine release is future work.",
+      "summary": "A fan localization project for the PC Engine CD version of Dead of the Brain, with translation notes and separate English and French patch archives for Part 1.",
+      "project_url": "https://github.com/dshadoff/PCE_xlate_DeadoftheBrain",
+      "updated": "2026-10-15",
+      "strategy": "Translation-script extraction, editing, and Hu6280 patching",
+      "language": "English; French",
+      "source_available": "Public translation notes, tools, and Part 1 patch archives; user supplies the original disc image.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C; Hu6280 assembly",
+      "subtype": "PC Engine CD fan translation",
+      "sources": [
+        {
+          "label": "Primary project page / README",
+          "url": "https://github.com/dshadoff/PCE_xlate_DeadoftheBrain"
+        },
+        {
+          "label": "Maintainer README and patch archive status",
+          "url": "https://github.com/dshadoff/PCE_xlate_DeadoftheBrain#readme"
+        }
+      ]
+    },
+    {
+      "id": "xak-iii-pce-english-translation",
+      "title": "Xak III: The Eternal Recurrence (PC Engine CD) English Patch",
+      "game": "Xak III: The Eternal Recurrence",
+      "target_type": "Game",
+      "platform": "PC Engine CD-ROM²",
+      "kind": "Fan Localization",
+      "status": "English patch v1.00 is available; maintainer notes describe the translation process and a completed patch.",
+      "summary": "An English fan translation patch for the PC Engine CD action RPG, with release notes and patch download hosted by the maintainer.",
+      "project_url": "https://www.ysutopia.net/translations/xak3/",
+      "updated": "2026-10-15",
+      "strategy": "Patch-based text localization of the original CD image",
+      "language": "English",
+      "source_available": "Public patch and project notes; original disc image required.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "PC Engine CD fan translation",
+      "sources": [
+        {
+          "label": "Primary project page / README",
+          "url": "https://www.ysutopia.net/translations/xak3/"
+        },
+        {
+          "label": "Maintainer patch page and history",
+          "url": "https://www.ysutopia.net/index.php?iden=7&ind=downloads&op=entry_view"
+        }
+      ]
+    },
+    {
+      "id": "ys-iv-dawn-of-ys-pce-english-translation",
+      "title": "Ys IV: The Dawn of Ys (PC Engine CD) English Text and Dub Patch",
+      "game": "Ys IV: The Dawn of Ys",
+      "target_type": "Game",
+      "platform": "PC Engine Super CD-ROM²",
+      "kind": "Fan Localization",
+      "status": "The maintainer page offers an English text patch and a separate English dub v1.1 patch, which must be applied together for the combined localization.",
+      "summary": "An English fan text translation and dubbed-audio patch for the PC Engine CD RPG, with a script archive and voice-track insertion tools.",
+      "project_url": "https://www.ysutopia.net/projects/ys4/",
+      "updated": "2026-10-15",
+      "strategy": "Text patching and ADPCM voice-track extraction/insertion",
+      "language": "English",
+      "source_available": "Public patch archives and localization tools; requires the original game disc image.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "",
+      "subtype": "PC Engine CD fan translation",
+      "sources": [
+        {
+          "label": "Primary project page / README",
+          "url": "https://www.ysutopia.net/projects/ys4/"
+        },
+        {
+          "label": "Maintainer project page and patch notes",
+          "url": "https://www.ysutopia.net/projects/ys4/"
+        }
+      ]
+    },
+    {
+      "id": "phoenix-doom-3do-desktop-port",
+      "title": "Phoenix DOOM (3DO) Desktop Source Port",
+      "game": "DOOM (3DO version)",
+      "target_type": "Game",
+      "platform": "3DO → Windows, macOS, Linux",
+      "kind": "Reimplementation",
+      "status": "Playable source port for Windows, macOS, and Linux; the project documents known rendering/gameplay issues and requires a user-supplied 3DO Doom .IMG disc image.",
+      "summary": "A backport and remaster derived from Rebecca Heineman’s released 3DO DOOM source, preserving the 3DO version while adding desktop support and quality-of-life changes.",
+      "project_url": "https://github.com/BodbDearg/phoenix_doom",
+      "updated": "2026-10-15",
+      "strategy": "3DO-source-derived native C++ desktop port",
+      "language": "",
+      "source_available": "Public C++ source; original 3DO DOOM disc image is required and is not distributed.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "3DO source port",
+      "sources": [
+        {
+          "label": "Primary project page / README",
+          "url": "https://github.com/BodbDearg/phoenix_doom"
+        },
+        {
+          "label": "Play requirements",
+          "url": "https://github.com/BodbDearg/phoenix_doom/blob/master/docs/How%20To%20Play.md"
+        },
+        {
+          "label": "Known issues",
+          "url": "https://github.com/BodbDearg/phoenix_doom/blob/master/docs/Known%20Issues.md"
+        },
+        {
+          "label": "Build platforms",
+          "url": "https://github.com/BodbDearg/phoenix_doom/blob/master/docs/Building%20The%20Code.md"
+        }
+      ]
+    },
+    {
+      "id": "hotel-mario-cdi-static-recomp",
+      "title": "Hotel Mario (CD-i) Static Recompilation",
+      "game": "Hotel Mario",
+      "target_type": "Game",
+      "platform": "Philips CD-i → Windows / Linux",
+      "kind": "Recompilation",
+      "status": "Preview/alpha: CD-RTOS boots its player shell and Hotel Mario reaches gameplay; the maintainer reports clearing Hotel 1 stages 1–3 in indexed testing. Full-game certification, current windowed reliability, and compatibility with other titles remain open.",
+      "summary": "A static recompilation runtime that converts CD-i OS-9 code to native C and models CD-i devices; Hotel Mario is the current game bring-up target.",
+      "project_url": "https://github.com/mstan/cdirecomp",
+      "updated": "2026-10-15",
+      "strategy": "Static recompilation of CD-i OS-9 modules with native device models",
+      "language": "",
+      "source_available": "Public runtime and recompiler source; user-supplied CD-RTOS ROM and game disc are required; generated game code is not published.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C/C++",
+      "subtype": "CD-i static recompilation",
+      "sources": [
+        {
+          "label": "Primary project page / README",
+          "url": "https://github.com/mstan/cdirecomp"
+        },
+        {
+          "label": "Current status and test checkpoint",
+          "url": "https://github.com/mstan/cdirecomp#current-status"
+        }
+      ]
+    },
+    {
+      "id": "linux-atari-jaguar-port",
+      "title": "Linux on Atari Jaguar",
+      "game": "Linux kernel with BusyBox userspace",
+      "target_type": "Software",
+      "platform": "Linux kernel → Atari Jaguar (M68000, no MMU)",
+      "kind": "Reimplementation",
+      "status": "Maintainer’s 2026-07-05 report boots Linux 7.2.0-rc1+ on the Jaguar and reaches a basic BusyBox shell; the port includes serial boot output and a simple Tom graphics console, with severe memory and input constraints.",
+      "summary": "A uClinux/no-MMU, execute-in-place Linux port for Atari Jaguar hardware and emulation, with kernel and small userspace configuration.",
+      "project_url": "https://github.com/cakehonolulu/linux_ports/tree/atari/jaguar",
+      "updated": "2026-10-15",
+      "strategy": "Linux m68k board bring-up for Jaguar memory map, timers, console, and XIP boot",
+      "language": "",
+      "source_available": "Public kernel-port branch and maintainer boot notes; users need their own cross-toolchain/build setup.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Operating-system port",
+      "sources": [
+        {
+          "label": "Primary project page / README",
+          "url": "https://github.com/cakehonolulu/linux_ports/tree/atari/jaguar"
+        },
+        {
+          "label": "Maintainer bring-up report and boot log",
+          "url": "https://cakehonolulu.github.io/linux-for-jaguar/"
+        }
+      ]
+    },
+    {
+      "id": "metal-slug-neogeo-static-recomp",
+      "title": "Metal Slug (Neo Geo) Static Recompilation",
+      "game": "Metal Slug",
+      "target_type": "Game",
+      "platform": "Neo Geo MVS → Windows / Linux",
+      "kind": "Recompilation",
+      "status": "Alpha v0.1.0-dev: boots through the MVS BIOS and plays Mission 1; a five-minute soak runs 100% natively with zero interpreter fallback, but sound and later-mission validation remain incomplete.",
+      "summary": "A static recompilation of Metal Slug’s 68000 code to C, running against a native model of Neo Geo board devices.",
+      "project_url": "https://github.com/sp00nznet/metalslug",
+      "updated": "2026-10-15",
+      "strategy": "Ahead-of-time 68000-to-C recompilation with a native MVS board model",
+      "language": "",
+      "source_available": "Public game build and recompiler source; requires user-supplied Metal Slug and Neo Geo system ROMs; generated game C is not committed.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Neo Geo static recompilation",
+      "sources": [
+        {
+          "label": "Primary project page / README",
+          "url": "https://github.com/sp00nznet/metalslug"
+        },
+        {
+          "label": "Recompiler architecture and per-game status",
+          "url": "https://github.com/sp00nznet/neogeorecomp#status"
+        }
+      ]
+    },
+    {
+      "id": "neo-drift-out-neogeo-static-recomp",
+      "title": "Neo Drift Out (Neo Geo) Static Recompilation",
+      "game": "Neo Drift Out: New Technology",
+      "target_type": "Game",
+      "platform": "Neo Geo MVS → Windows / Linux",
+      "kind": "Recompilation",
+      "status": "Alpha v0.2.0-dev: boots, runs attract mode, and plays through practice and Stage 1; a six-minute soak runs 100% natively, but sound and later-stage validation remain incomplete.",
+      "summary": "A static recompilation of Neo Drift Out’s 68000 game code to C, using the shared Neo Geo board runtime.",
+      "project_url": "https://github.com/sp00nznet/neodriftout",
+      "updated": "2026-10-15",
+      "strategy": "Ahead-of-time 68000-to-C recompilation with a native MVS board model",
+      "language": "",
+      "source_available": "Public game build and recompiler source; requires user-supplied Neo Drift Out and Neo Geo system ROMs; generated game C is not committed.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Neo Geo static recompilation",
+      "sources": [
+        {
+          "label": "Primary project page / README",
+          "url": "https://github.com/sp00nznet/neodriftout"
+        },
+        {
+          "label": "Recompiler architecture and per-game status",
+          "url": "https://github.com/sp00nznet/neogeorecomp#status"
+        }
+      ]
+    },
+    {
+      "id": "super-mario-bros-nes-to-neogeo-port",
+      "title": "Super Mario Bros. (NES → Neo Geo) Port",
+      "game": "Super Mario Bros.",
+      "target_type": "Game",
+      "platform": "Nintendo Entertainment System → Neo Geo MVS/AES",
+      "kind": "Reimplementation",
+      "status": "The project says the game is playable from title through ending across all 32 stages, with Neo Geo-native graphics and sound; work is still described as in progress.",
+      "summary": "A native Neo Geo port with a C game core and platform-specific graphics, controls, and sound; the original NES instruction translation is retained as a differential-test oracle.",
+      "project_url": "https://github.com/sabino/smbneo",
+      "updated": "2026-10-15",
+      "strategy": "Native C port to Neo Geo hardware using user-provided game data",
+      "language": "",
+      "source_available": "Public source and downloadable Neo Geo builds; the supported NES input image or original VS set is user-supplied and no proprietary BIOS/game data is included.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Console-to-console native port",
+      "sources": [
+        {
+          "label": "Primary project page / README",
+          "url": "https://github.com/sabino/smbneo"
+        }
+      ]
+    },
+    {
+      "id": "vs-super-mario-bros-arcade-to-neogeo-port",
+      "title": "VS. Super Mario Bros. (Arcade → Neo Geo) Port",
+      "game": "VS. Super Mario Bros.",
+      "target_type": "Game",
+      "platform": "Nintendo VS System arcade → Neo Geo MVS/AES",
+      "kind": "Reimplementation",
+      "status": "The cartridge is playable in MAME and the project’s GnGeo setup; broad testing on physical AES/MVS boards and flashcarts is still pending. The native direct-C core is different from the home SMBNeo edition.",
+      "summary": "A native Neo Geo cartridge port of the arcade edition, preserving its stages, attract flow, coinage, two-player selection, and VS-specific behavior.",
+      "project_url": "https://github.com/sabino/smbneo",
+      "updated": "2026-10-15",
+      "strategy": "Direct-C native port with differential checks against the arcade reference",
+      "language": "",
+      "source_available": "Public source and build instructions; requires the user’s verified MAME `suprmrio` set and a compatible separately supplied BIOS.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Arcade-to-console native port",
+      "sources": [
+        {
+          "label": "Primary project page / README",
+          "url": "https://github.com/sabino/smbneo"
+        },
+        {
+          "label": "VS edition implementation and current test status",
+          "url": "https://github.com/sabino/smbneo/blob/main/variants/vs/README.md"
+        }
+      ]
+    }
+  ]
+}

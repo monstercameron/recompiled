@@ -1,0 +1,513 @@
+{
+  "updated": "2026-10-15",
+  "reviewed_scope": "Reddit and X/community posts were used to discover current project leads, including Mac API translation and game-specific Mac compatibility. Every included row was verified against its own GitHub repository, README, license, release or dependency manifest. Social claims are retained as discovery context only; they are not used to establish methods, versions, or compatibility.",
+  "projects": [
+    {
+      "id": "jsrf-unleashed-xbox-recomp",
+      "title": "Jet Set Radio Future Unleashed",
+      "game": "Jet Set Radio Future",
+      "target_type": "Game",
+      "platform": "Original Xbox USA (NTSC-U) → macOS 12+ on Apple silicon, Windows 10/11 x64, Linux x86_64, iOS 15+, and Android 10+",
+      "kind": "Recompilation",
+      "status": "Release v0.4.7 was published 2026-10-15. The maintainer describes the game as playable early, not completed end-to-end: the most-tested route reaches Dogenzaka Hill; later areas are little tested. macOS is the most-tested build; Linux, iOS/iPad, and Android are less tested.",
+      "summary": "Static recompilation of Jet Set Radio Future’s USA Xbox executable into C, packaged as native builds for desktop and mobile platforms. It is a single-game project, not an Xbox emulator; users provide their own supported game files.",
+      "project_url": "https://github.com/JuMatt/JetSetRadioFuture-Unleashed",
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "strategy": "Static recompilation of original Xbox x86 code into C with native platform/runtime ports",
+      "language": "",
+      "source_available": "Public source and release builds under MIT; requires the user’s own USA NTSC-U game data; no game files or media are included.",
+      "programming_language": "C",
+      "subtype": "Xbox static recompilation with desktop and mobile builds",
+      "media": [],
+      "research_lanes": [
+        "social"
+      ],
+      "sources": [
+        {
+          "label": "Maintainer repository and current status/build requirements",
+          "url": "https://github.com/JuMatt/JetSetRadioFuture-Unleashed"
+        },
+        {
+          "label": "Latest release v0.4.7",
+          "url": "https://github.com/JuMatt/JetSetRadioFuture-Unleashed/releases/tag/v0.4.7"
+        },
+        {
+          "label": "X discovery lead (Japanese-language post)",
+          "url": "https://x.com/yoshinokentarou/status/2110499711191048555"
+        }
+      ],
+      "verification": {
+        "method": "The README identifies the USA NTSC-U executable as the supported input, documents the static recompilation pipeline into C, and distinguishes native builds from emulation.",
+        "game_revision_region_coverage": "USA (NTSC-U) Xbox release; the README says other versions are unsupported.",
+        "build_run_dependencies": "Users supply their own game data; the source build takes the supported default.xbe. Platform-specific toolchains are documented by the project.",
+        "release_status_version_dates": "v0.4.7 published 2026-10-15. README status says playable early, not played through; desktop/mobile platform testing varies by platform.",
+        "license_source_assets_availability": "MIT source license; repository and release contain engine/build output, not original game assets.",
+        "evidence": [
+          {
+            "url": "https://github.com/JuMatt/JetSetRadioFuture-Unleashed",
+            "claim": "README documents the game executable, static recompilation into C, supported platforms, and per-platform status."
+          },
+          {
+            "url": "https://github.com/JuMatt/JetSetRadioFuture-Unleashed/releases/tag/v0.4.7",
+            "claim": "Release v0.4.7 is the latest published release checked on 2026-10-15."
+          }
+        ],
+        "platform": "Original Xbox USA (NTSC-U) → macOS, Windows, Linux, iOS, and Android"
+      }
+    },
+    {
+      "id": "tf2mt-team-fortress-2-macos",
+      "title": "tf2mt",
+      "game": "Team Fortress 2",
+      "target_type": "Game",
+      "platform": "Windows Team Fortress 2 → Apple silicon macOS 13+ through a Wine-based runtime and a project-owned Direct3D 9-to-Metal renderer",
+      "kind": "API Translation",
+      "status": "Release v0.3.5 was published 2026-10-14. The project README describes its own Direct3D 9-to-Metal renderer, macOS launcher, and tested Wine fixes. The repository description still mentions DXVK and MoltenVK, which conflicts with the README’s renderer description; use the README’s current implementation account and treat the About text as stale or unresolved.",
+      "summary": "A game-specific macOS launcher/runtime for the Windows version of Team Fortress 2 on Apple silicon. Its README says its D3D9 path uses the project’s own Metal renderer; the launcher sets up the runtime and obtains the game from Steam. No game assets are included.",
+      "project_url": "https://github.com/HorrorPills/tf2mt",
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "strategy": "Game-specific Wine runtime and custom Direct3D 9-to-Metal renderer",
+      "language": "",
+      "source_available": "Public source under MIT for tf2mt code; bundled third-party components retain their own licenses. Requires a Steam account and user-installed game; no game files are included.",
+      "programming_language": "C",
+      "subtype": "Team Fortress 2 Apple silicon compatibility runtime",
+      "media": [],
+      "research_lanes": [
+        "social"
+      ],
+      "sources": [
+        {
+          "label": "Project README and requirements",
+          "url": "https://github.com/HorrorPills/tf2mt"
+        },
+        {
+          "label": "Latest release v0.3.5",
+          "url": "https://github.com/HorrorPills/tf2mt/releases/tag/v0.3.5"
+        },
+        {
+          "label": "Reddit project post and linked demo",
+          "url": "https://www.reddit.com/r/macgaming/comments/1x0ol6o/tf2mt_native_metal_renderer_for_team_fortress_2/"
+        },
+        {
+          "label": "Project demo video linked from Reddit",
+          "url": "https://youtu.be/8VNTdOZ2uzk"
+        }
+      ],
+      "verification": {
+        "method": "The README identifies a project-owned D3D9-to-Metal renderer and a launcher/runtime for the Windows game. It does not claim a native rewrite or a general-purpose Direct3D layer.",
+        "game_revision_region_coverage": "Steam Windows build of Team Fortress 2; the repository is game-specific.",
+        "build_run_dependencies": "Apple silicon Mac with macOS 13+, about 35 GB storage, and the user’s Steam account/game download.",
+        "release_status_version_dates": "v0.3.5 published 2026-10-14; status reflects README and release checked 2026-10-15.",
+        "license_source_assets_availability": "Project README and LICENSE say MIT for tf2mt code; THIRD_PARTY.md assigns licenses to packaged dependencies. Team Fortress 2 and Steam are not distributed.",
+        "evidence": [
+          {
+            "url": "https://github.com/HorrorPills/tf2mt",
+            "claim": "README states Apple silicon/macOS requirements and describes the project-owned D3D9-to-Metal path."
+          },
+          {
+            "url": "https://github.com/HorrorPills/tf2mt/releases/tag/v0.3.5",
+            "claim": "Latest stable release and change notes checked on 2026-10-15."
+          },
+          {
+            "url": "https://www.reddit.com/r/macgaming/comments/1x0ol6o/tf2mt_native_metal_renderer_for_team_fortress_2/",
+            "claim": "Community post identifies the project and links its demo; treated as a discovery lead, not implementation proof."
+          }
+        ],
+        "platform": "Windows Team Fortress 2 → Apple silicon macOS"
+      }
+    },
+    {
+      "id": "winemetalgl-opengl-metal",
+      "title": "WineMetalGL",
+      "game": "Windows OpenGL applications in Wine on macOS (multi-title)",
+      "target_type": "Software",
+      "platform": "Windows OpenGL applications → macOS 15+ Metal through Wine; OpenGL 4.6 core and compatibility profiles",
+      "kind": "API Translation",
+      "status": "WineMetalGL 3.2.0 was released 2026-10-14 and the repository was updated 2026-10-15. The project describes a Wine OpenGL implementation over Metal; its README documents the OpenGL 4.6 profiles and lists Direct3D 10/11 through WineD3D as a separate test path.",
+      "summary": "A general OpenGL compatibility layer for Windows programs running through Wine on macOS. Its library implements GL state and resources on Metal and compiles GLSL to Metal Shading Language; a Wine module exposes that implementation. The project says Wine itself is not patched.",
+      "project_url": "https://github.com/metalsharp/WineMetalGL",
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "strategy": "OpenGL 4.6 implementation and GLSL-to-MSL translation on Metal through Wine",
+      "language": "",
+      "source_available": "Public source under GNU LGPL 3.0; Wine and other build/runtime dependencies are separate.",
+      "programming_language": "C++",
+      "subtype": "Windows OpenGL to macOS Metal compatibility layer",
+      "media": [],
+      "research_lanes": [
+        "social"
+      ],
+      "sources": [
+        {
+          "label": "Project README, architecture, and license",
+          "url": "https://github.com/metalsharp/WineMetalGL"
+        },
+        {
+          "label": "Latest release 3.2.0",
+          "url": "https://github.com/metalsharp/WineMetalGL/releases/tag/winemetalgl-3.2.0"
+        },
+        {
+          "label": "Reddit community discovery post",
+          "url": "https://www.reddit.com/r/macgaming/comments/1x2wvdf/winemetalgl_now_available_for_general_use/"
+        }
+      ],
+      "verification": {
+        "method": "The README describes a Metal-backed OpenGL 4.6 implementation, GLSL→MSL compilation through glslang/SPIRV-Cross, and a Wine module; it states Wine is not patched.",
+        "game_revision_region_coverage": "General Windows OpenGL applications through Wine; this is a software compatibility layer, not a project for one game.",
+        "build_run_dependencies": "Requires macOS 15+ and a compatible Wine environment; project build and test dependencies are documented in the repository.",
+        "release_status_version_dates": "Release winemetalgl-3.2.0 published 2026-10-14; source activity checked 2026-10-15.",
+        "license_source_assets_availability": "GNU Lesser General Public License version 3; public source. No target application files are provided.",
+        "evidence": [
+          {
+            "url": "https://github.com/metalsharp/WineMetalGL",
+            "claim": "README documents supported GL versions, Metal implementation, Wine integration, dependencies, and license."
+          },
+          {
+            "url": "https://github.com/metalsharp/WineMetalGL/releases/tag/winemetalgl-3.2.0",
+            "claim": "Latest published release checked on 2026-10-15."
+          }
+        ],
+        "platform": "Windows OpenGL → macOS Metal through Wine"
+      }
+    },
+    {
+      "id": "d9mt-d3d9-metal",
+      "title": "D9MT",
+      "game": "Direct3D 9 games under Wine/CrossOver (multi-title intent; GTA IV is the only tested title)",
+      "target_type": "Software",
+      "platform": "Windows Direct3D 9 applications → Metal on Apple silicon macOS 14+ through Wine/CrossOver",
+      "kind": "API Translation",
+      "status": "Experimental source project; no GitHub releases were listed and the latest repository push checked was 2026-07-15. README explicitly says GTA IV is the only game tested so far, so broader compatibility remains unverified.",
+      "summary": "A Direct3D 9 graphics layer for Wine/CrossOver on Apple silicon. It combines DXVK’s D3D9 front end with a custom Metal backend that uses DXMT’s winemetal bridge. It does not use Vulkan/MoltenVK for the rendering path, according to the project README.",
+      "project_url": "https://github.com/neo773/d9mt",
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "strategy": "DXVK D3D9 front end with custom Metal backend and DXMT winemetal bridge",
+      "language": "",
+      "source_available": "Public source repository; no license is declared in the repository metadata or visible LICENSE file. No game files included.",
+      "programming_language": "C++",
+      "subtype": "Apple silicon D3D9-to-Metal translation layer",
+      "media": [],
+      "research_lanes": [
+        "social"
+      ],
+      "sources": [
+        {
+          "label": "Project README and current project status",
+          "url": "https://github.com/neo773/d9mt"
+        },
+        {
+          "label": "Reddit project introduction",
+          "url": "https://www.reddit.com/r/macgaming/comments/1u4ybmv/introducing_d9mt_a_directx9_to_metal_translation/"
+        },
+        {
+          "label": "Demo video linked from the Reddit announcement",
+          "url": "https://youtu.be/RTgbMxUtNmU"
+        }
+      ],
+      "verification": {
+        "method": "The README describes DXVK D3D9 front-end reuse and a custom Metal backend over DXMT winemetal; it explicitly rules out Vulkan/MoltenVK as the final graphics path.",
+        "game_revision_region_coverage": "General Direct3D 9 intent; GTA IV is the only game the README says has been tried.",
+        "build_run_dependencies": "Apple silicon Mac with macOS 14+ and Wine/CrossOver; project docs require DXMT winemetal components.",
+        "release_status_version_dates": "No tagged releases found; latest push was 2026-07-15. Repository README labels the project experimental and limits verified game testing to GTA IV.",
+        "license_source_assets_availability": "Public repository source; no license declared in GitHub metadata or a LICENSE file. No target game assets supplied.",
+        "evidence": [
+          {
+            "url": "https://github.com/neo773/d9mt",
+            "claim": "README documents architecture, supported host, one tested game, and experimental status."
+          },
+          {
+            "url": "https://www.reddit.com/r/macgaming/comments/1u4ybmv/introducing_d9mt_a_directx9_to_metal_translation/",
+            "claim": "Reddit announcement linked the project and demo; the primary README was used for technical claims."
+          }
+        ],
+        "platform": "Direct3D 9 → Metal on Apple silicon macOS"
+      }
+    },
+    {
+      "id": "recall-overwatch-apple-silicon",
+      "title": "Recall",
+      "game": "Overwatch",
+      "target_type": "Game",
+      "platform": "Windows Overwatch → Apple silicon Mac M1+ on macOS 26.5+ through a bundled Wine-based runtime",
+      "kind": "API Translation",
+      "status": "Stable v1.4.0 and prerelease v1.4.1-rc1 were available on 2026-10-15. The maintainer’s comparison is documented for one M1 Pro Mac under stated settings; Blizzard does not officially support playing on Mac. The project bundles the runtime and installs the game through Battle.net.",
+      "summary": "A free, open-source macOS app that sets up and launches the Windows version of Overwatch on Apple silicon through Wine and bundled compatibility components. It adds Mac-specific input and graphics features, but the game remains the Windows build; Recall says it does not modify game files or inject into the process.",
+      "project_url": "https://github.com/AsherJN/recall",
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "strategy": "Game-specific macOS Wine runtime and launcher with graphics/input integration",
+      "language": "",
+      "source_available": "Public source under Apache-2.0; the Overwatch game is downloaded through the user’s Battle.net account and is not included.",
+      "programming_language": "Python",
+      "subtype": "Overwatch-specific Apple silicon Wine launcher/runtime",
+      "media": [],
+      "research_lanes": [
+        "social"
+      ],
+      "sources": [
+        {
+          "label": "Project README, requirements, and methodology",
+          "url": "https://github.com/AsherJN/recall"
+        },
+        {
+          "label": "Latest prerelease v1.4.1-rc1",
+          "url": "https://github.com/AsherJN/recall/releases/tag/v1.4.1-rc1"
+        },
+        {
+          "label": "Latest stable release v1.4.0",
+          "url": "https://github.com/AsherJN/recall/releases/tag/v1.4.0"
+        },
+        {
+          "label": "Reddit community discovery post",
+          "url": "https://www.reddit.com/r/macgaming/comments/1wwvub4/i_built_a_free_opensource_app_for_playing/"
+        }
+      ],
+      "verification": {
+        "method": "The README says Recall runs the same Windows game locally through Wine, bundles its dependencies, and does not modify or inject into game files. It is a game-specific launcher/runtime, not a standalone translation engine.",
+        "game_revision_region_coverage": "Windows Overwatch build distributed through Battle.net; project supports an Apple silicon Mac runtime.",
+        "build_run_dependencies": "Apple silicon M1+ Mac, macOS 26.5+, 16 GB memory recommended, 85–95 GB free storage, Battle.net account and internet connection, and Rosetta as listed by the maintainer.",
+        "release_status_version_dates": "Stable v1.4.0 and prerelease v1.4.1-rc1 checked 2026-10-15.",
+        "license_source_assets_availability": "Apache-2.0 source and app releases; no Overwatch files are included.",
+        "evidence": [
+          {
+            "url": "https://github.com/AsherJN/recall",
+            "claim": "README documents Wine execution, supported Apple silicon/macOS, benchmark methodology, game-file handling, and license."
+          },
+          {
+            "url": "https://github.com/AsherJN/recall/releases/tag/v1.4.1-rc1",
+            "claim": "Latest prerelease checked 2026-10-15."
+          },
+          {
+            "url": "https://github.com/AsherJN/recall/releases/tag/v1.4.0",
+            "claim": "Latest stable release checked 2026-10-15."
+          }
+        ],
+        "platform": "Windows Overwatch → Apple silicon macOS through Wine"
+      }
+    },
+    {
+      "id": "overwatch-dxmt-shader-stutter-fix",
+      "title": "Overwatch Mac shader-stutter fix",
+      "game": "Overwatch",
+      "target_type": "Game",
+      "platform": "Windows Direct3D 11 Overwatch under CrossOver 26.3 on Apple silicon macOS; tested by the author on M1 Pro/macOS 27",
+      "kind": "API Translation",
+      "status": "Public patch set with no tagged release; latest repository activity checked was 2026-10-03. The README’s hitch measurements are from an M1 Pro and a small set of runs with a stated replay/cache setup, not a broad compatibility benchmark. It warns that anti-cheat handling is outside the author’s control.",
+      "summary": "A game-specific DXMT patch and installer that changes shader-pipeline scheduling, prewarming, compiler priorities, and diagnostics to reduce first-use stutters in Overwatch under CrossOver. It modifies a private copy of CrossOver’s Wine runtime, not the game files. It is a patch set for a D3D11-to-Metal layer, not a new general-purpose renderer.",
+      "project_url": "https://github.com/tholtman1-del/overwatch-mac-stutter-fix",
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "strategy": "Game-specific patches to DXMT D3D11-to-Metal shader pipeline and compiler scheduling",
+      "language": "",
+      "source_available": "Public patch/source repository; no license declared in GitHub metadata. Requires CrossOver and a private Wine runtime copy; no game files included.",
+      "programming_language": "Shell",
+      "subtype": "Overwatch DXMT shader compilation patch set for macOS",
+      "media": [],
+      "research_lanes": [
+        "social"
+      ],
+      "sources": [
+        {
+          "label": "Project README and patch files",
+          "url": "https://github.com/tholtman1-del/overwatch-mac-stutter-fix"
+        },
+        {
+          "label": "Reddit discovery post",
+          "url": "https://www.reddit.com/r/macgaming/comments/1wwzb98/overwatch_on_mac_fixed_the_shadercompile_stutter/"
+        }
+      ],
+      "verification": {
+        "method": "README enumerates four patches against DXMT v0.80: async pipelines, prewarming, compiler-thread tuning, and frame-time logging. It explicitly says game files and the installed CrossOver bottle remain unchanged.",
+        "game_revision_region_coverage": "Overwatch Windows D3D11 path under CrossOver; the documented test uses one M1 Pro, macOS 27, CrossOver 26.3.",
+        "build_run_dependencies": "Apple silicon Mac, CrossOver 26 with Overwatch and Battle.net in a bottle; select DirectX 11 and apply the included runtime patch installer.",
+        "release_status_version_dates": "No releases; repository created and last pushed 2026-10-03. README benchmark method and results checked 2026-10-15.",
+        "license_source_assets_availability": "Public patches and Shell/Python tools; no license declared in GitHub metadata. No game assets distributed.",
+        "evidence": [
+          {
+            "url": "https://github.com/tholtman1-del/overwatch-mac-stutter-fix",
+            "claim": "README documents DXMT v0.80 patch behavior, requirements, benchmark conditions, and limitations."
+          },
+          {
+            "url": "https://www.reddit.com/r/macgaming/comments/1wwzb98/overwatch_on_mac_fixed_the_shadercompile_stutter/",
+            "claim": "Reddit post led to the source repository; it is not used as proof of implementation."
+          }
+        ],
+        "platform": "Direct3D 11 → Metal for Overwatch under CrossOver on Apple silicon"
+      }
+    },
+    {
+      "id": "bloodborne-macos-apple-silicon",
+      "title": "Bloodborne macOS Port",
+      "game": "Bloodborne",
+      "target_type": "Game",
+      "platform": "PS4 CUSA03173 v1.09 → Apple silicon macOS 15+ (M1-class hardware; maintainer’s playable status measured on M4 Max)",
+      "kind": "API Translation",
+      "status": "Release mac-v0.3.3 was published 2026-10-15. The maintainer labels the port work-in-progress and playable on M4 Max; the release reports an M4 Max performance comparison and remaining experimental/graphics issues. Requires an original user-provided Bloodborne dump and at least 16 GB memory.",
+      "summary": "A macOS host port of the existing native Bloodborne PC port. It runs the original PS4 x86-64 executable under Rosetta 2, implements the required PS4 system APIs, and sends GPU work through a native process that translates it to Vulkan via MoltenVK. It is not an emulator and does not include game code or assets.",
+      "project_url": "https://github.com/Wooloomooloo2/bloodborne_mac_port",
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "strategy": "PS4 system API reimplementation for the original executable plus GPU command translation to Vulkan/MoltenVK",
+      "language": "",
+      "source_available": "Public source under GPL-2.0 with app releases; requires the user’s own decrypted CUSA03173 v1.09 game dump. No game assets are included.",
+      "programming_language": "C++",
+      "subtype": "Bloodborne PS4-to-macOS Apple silicon port",
+      "media": [],
+      "research_lanes": [
+        "social"
+      ],
+      "sources": [
+        {
+          "label": "Project README, build requirements, and current status",
+          "url": "https://github.com/Wooloomooloo2/bloodborne_mac_port"
+        },
+        {
+          "label": "Latest release mac-v0.3.3",
+          "url": "https://github.com/Wooloomooloo2/bloodborne_mac_port/releases/tag/mac-v0.3.3"
+        },
+        {
+          "label": "Reddit discovery thread (lead to the port project)",
+          "url": "https://www.reddit.com/r/macgaming/comments/1x5bhbv/wip_bloodborne_running_on_apple_silicon_m1_pro/"
+        }
+      ],
+      "verification": {
+        "method": "README describes a native arm64 host process, Rosetta execution of the original PS4 x86-64 game executable, PS4 runtime APIs, and Vulkan translation through MoltenVK. It credits/reuses the existing PC-port and shadPS4-derived components.",
+        "game_revision_region_coverage": "PS4 CUSA03173 with 1.09 update merged and original unmodified eboot.bin; README calls out this exact input.",
+        "build_run_dependencies": "Apple silicon Mac, macOS 15+, at least 16 GB memory, Rosetta 2, MoltenVK, and the user’s own decrypted game dump.",
+        "release_status_version_dates": "mac-v0.3.3 published 2026-10-15. README labels the project WIP/playable and lists rendering glitches; release performance figures are one M4 Max measurement.",
+        "license_source_assets_availability": "GPL-2.0 source and app release; game data and copyrighted assets are not included.",
+        "evidence": [
+          {
+            "url": "https://github.com/Wooloomooloo2/bloodborne_mac_port",
+            "claim": "README identifies the exact PS4 build, runtime architecture, hardware requirements, source reuse, and WIP status."
+          },
+          {
+            "url": "https://github.com/Wooloomooloo2/bloodborne_mac_port/releases/tag/mac-v0.3.3",
+            "claim": "Latest release and measured changes checked 2026-10-15."
+          }
+        ],
+        "platform": "PS4 x86-64 game executable → Apple silicon macOS through Rosetta 2 and Vulkan/MoltenVK"
+      }
+    },
+    {
+      "id": "mullion-d3d10-12-metal",
+      "title": "Mullion",
+      "game": "Windows Direct3D 10/11/12 applications and games (multi-title)",
+      "target_type": "Software",
+      "platform": "Windows x86_64 Direct3D 10/11/12 → Metal through Wine on Apple silicon Macs with M3+ and macOS 15+; M1/M2 support is in progress",
+      "kind": "API Translation",
+      "status": "Pre-release v0.1-pre1 was published 2026-10-05. The current README describes a limited game/device test base; it requires M3 or later today and says M1/M2 support is being worked on. Compatibility should be treated as experimental.",
+      "summary": "An open-source Direct3D 10/11/12 implementation for Wine on Apple silicon that translates graphics calls directly to Metal. It builds on DXMT for the D3D10/11 foundation and Metal bridge, while the project provides its own DXIL front end and most of its D3D12 implementation. It requires no Wine patches or DLL overrides.",
+      "project_url": "https://github.com/dttdrv/mullion",
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "strategy": "Direct3D 10/11/12 implementation to Metal within Wine; DXMT-derived foundation plus a project D3D12 path",
+      "language": "",
+      "source_available": "Public source; README states LGPL 2.1-or-later for current code and notes older DXMT code remains under its prior license. No game files included.",
+      "programming_language": "C++",
+      "subtype": "Apple silicon Direct3D 10/11/12-to-Metal layer for Wine",
+      "media": [],
+      "research_lanes": [
+        "social"
+      ],
+      "sources": [
+        {
+          "label": "Project README, status, requirements, and license",
+          "url": "https://github.com/dttdrv/mullion"
+        },
+        {
+          "label": "Pre-release v0.1-pre1",
+          "url": "https://github.com/dttdrv/mullion/releases/tag/v0.1-pre1"
+        },
+        {
+          "label": "Maintainer’s Reddit announcement",
+          "url": "https://www.reddit.com/r/macgaming/comments/1wyjfu7/mullion_opensource_direct3d_10_11_and_12_on_metal/"
+        }
+      ],
+      "verification": {
+        "method": "README describes Direct3D 10/11/12 through Wine directly to Metal; it identifies DXMT as the D3D10/11 base and says the DXIL front end and most D3D12 implementation are project-specific.",
+        "game_revision_region_coverage": "Multi-title Windows x86_64 software; README says only 64-bit games are supported for now and game testing remains limited.",
+        "build_run_dependencies": "Apple silicon Mac with M3 or later, macOS 15+, and Wine for x86_64; stock Wine is supported.",
+        "release_status_version_dates": "Pre-release v0.1-pre1 published 2026-10-05; repository status checked 2026-10-15. M1/M2 support remains in progress.",
+        "license_source_assets_availability": "README identifies LGPL v2.1-or-later and notes older DXMT code may retain its prior license. Public source; no games supplied.",
+        "evidence": [
+          {
+            "url": "https://github.com/dttdrv/mullion",
+            "claim": "README documents current implementation, requirements, license, and limited testing."
+          },
+          {
+            "url": "https://github.com/dttdrv/mullion/releases/tag/v0.1-pre1",
+            "claim": "Latest tagged pre-release checked 2026-10-15."
+          },
+          {
+            "url": "https://www.reddit.com/r/macgaming/comments/1wyjfu7/mullion_opensource_direct3d_10_11_and_12_on_metal/",
+            "claim": "Community post led to the project; all technical claims are checked against the repository."
+          }
+        ],
+        "platform": "Direct3D 10/11/12 → Metal through Wine on Apple silicon"
+      }
+    },
+    {
+      "id": "reskatem-skate-macos-installer",
+      "title": "ReSkate for Mac",
+      "game": "skate. (EA free-to-play) with the ReSkate offline community package",
+      "target_type": "Game",
+      "platform": "Windows skate. → Apple silicon macOS 15.4+ using Apple Game Porting Toolkit (Wine + D3DMetal) and the user’s Steam account",
+      "kind": "API Translation",
+      "status": "Public installer and launcher repository updated 2026-10-14; no tagged releases found. The README lists Apple silicon, macOS 15.4+, 16 GB recommended and about 18 GB free. The project installs a compatibility stack and the game; it does not provide a native port or implement D3DMetal.",
+      "summary": "A game-specific Mac installer/launcher that configures Apple’s Game Porting Toolkit (Wine and D3DMetal), downloads EA’s Windows game through the user’s Steam account, and installs the ReSkate offline package. The Reddit author reports one M4 test; the primary README says online EA servers are unavailable and game files are not included.",
+      "project_url": "https://github.com/ValveTextureFile/reskatem",
+      "updated": "2026-10-15",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "strategy": "Game-specific installer around Wine and Apple D3DMetal, which translates the game’s Direct3D 12 graphics to Metal",
+      "language": "",
+      "source_available": "Public Shell source; no license declared in GitHub metadata. Apple Game Porting Toolkit and the game are separate dependencies; user provides Steam account and game download.",
+      "programming_language": "Shell",
+      "subtype": "skate. Mac compatibility installer and ReSkate launcher",
+      "media": [],
+      "research_lanes": [
+        "social"
+      ],
+      "sources": [
+        {
+          "label": "Project README, requirements, and dependency manifest",
+          "url": "https://github.com/ValveTextureFile/reskatem"
+        },
+        {
+          "label": "Reddit discovery post and platform test report",
+          "url": "https://www.reddit.com/r/macgaming/comments/1wzb9tv/skate_reskate_wo_crossover_gptk/"
+        }
+      ],
+      "verification": {
+        "method": "The project README explains that it configures Apple Game Porting Toolkit (Wine and D3DMetal), installs the Windows game through Steam, and packages ReSkate. It is an installer/runtime setup, not a native port or a new graphics translator.",
+        "game_revision_region_coverage": "EA free-to-play Windows version of skate.; exact game build follows Steam/ReSkate manifests.",
+        "build_run_dependencies": "Apple silicon Mac, macOS 15.4+, 16 GB RAM recommended, about 18 GB free, Steam account, and user-downloaded game.",
+        "release_status_version_dates": "No GitHub release tags found; repository last pushed 2026-10-14. README lists offline-only behavior and versioned external dependencies.",
+        "license_source_assets_availability": "Public Shell installer source; no license declared in repository metadata. The repository says it does not distribute the EA game or ReSkate game assets.",
+        "evidence": [
+          {
+            "url": "https://github.com/ValveTextureFile/reskatem",
+            "claim": "README documents installer steps, Wine/D3DMetal stack, supported Mac/macOS, dependencies, and offline limitation."
+          },
+          {
+            "url": "https://www.reddit.com/r/macgaming/comments/1wzb9tv/skate_reskate_wo_crossover_gptk/",
+            "claim": "Community post introduced the script and reports a single M4 test; not used as evidence for implementation."
+          }
+        ],
+        "platform": "Windows skate. → Apple silicon macOS through Game Porting Toolkit"
+      }
+    }
+  ]
+}

@@ -1,0 +1,302 @@
+{
+  "updated": "2026-10-15",
+  "scope": "Primary-source reviewed source-available operating systems, desktop software components, application runtimes, and middleware reconstructions. Excludes games, generic reverse-engineering tools, and behavior-only replacement apps without a binary/API compatibility claim.",
+  "projects": [
+    {
+      "id": "freedos-msdos-compatible-os",
+      "title": "FreeDOS",
+      "game": "MS-DOS/PC DOS-compatible operating system (FreeDOS 1.4 distribution)",
+      "target_type": "Software",
+      "platform": "MS-DOS-compatible software → IBM-compatible x86 PCs (BIOS or UEFI Legacy mode), PC emulators, or virtual machines",
+      "kind": "Reimplementation",
+      "status": "FreeDOS 1.4 is the current official distribution checked on 2026-10-15. The project also offers the T2610 test distribution dated October 2026; it is a preview, not the stable release. The FreeDOS kernel repository describes its own current kernel as 2.45 (2045), a component version distinct from the full distribution. FreeDOS aims at MS/PC-DOS compatibility and is not Microsoft's recovered DOS source.",
+      "summary": "A source-available DOS-compatible operating system with an independent kernel and a distribution of utilities, drivers, and applications. The kernel is derived from Pat Villani's DOS-C; package sources and licenses vary across the full distribution.",
+      "project_url": "https://www.freedos.org/",
+      "updated": "2026-10-15",
+      "strategy": "DOS-compatible operating-system reimplementation; the kernel derives from DOS-C and the system includes independently maintained utilities",
+      "source_available": "Public source across FreeDOS project repositories; the kernel is GPL-2.0-or-later and distribution components retain their own licenses",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C and x86 assembly in the kernel repository; distribution components vary",
+      "subtype": "Operating system / DOS application compatibility",
+      "sources": [
+        {
+          "label": "Official FreeDOS download page: current 1.4 stable distribution and T2610 October 2026 test distribution",
+          "url": "https://www.freedos.org/download/"
+        },
+        {
+          "label": "FreeDOS kernel maintainer README: MS/PC-DOS compatibility, DOS-C lineage, kernel version, target hardware, and GPL terms",
+          "url": "https://github.com/FDOS/kernel"
+        },
+        {
+          "label": "FreeDOS kernel source repository and license",
+          "url": "https://github.com/FDOS/kernel/blob/master/COPYING"
+        },
+        {
+          "label": "FreeDOS kernel repository activity and language metadata checked 2026-10-15",
+          "url": "https://api.github.com/repos/FDOS/kernel"
+        }
+      ]
+    },
+    {
+      "id": "osfree-os2-operating-system-reimplementation",
+      "title": "osFree (OS/2 clone)",
+      "game": "IBM OS/2 user-mode system and command-line components (specific compatibility level not stated)",
+      "target_type": "Software",
+      "platform": "OS/2-compatible user-mode components and an experimental OS/2 personality for the L4 microkernel; project build scripts support Windows, Linux/Unix, and OS/2 hosts",
+      "kind": "Reimplementation",
+      "status": "The official status page labels the project deep alpha: current work includes low-level loader components, command-line tools, and an experimental OS/2 personality for L4. It does not claim a complete, generally usable OS/2 replacement. The main source repository was pushed on 2026-10-14; this activity date does not change the official deep-alpha status.",
+      "summary": "A multi-repository open-source OS/2 clone project. Its main repository documents a source tree with submodules; the official status page lists finished and incomplete user-mode components alongside unfinished system work. No specific OS/2 binary-compatibility level or release version is documented.",
+      "project_url": "https://github.com/osfree-project/osfree",
+      "updated": "2026-10-15",
+      "strategy": "OS/2 system and user-mode component reimplementation, including an experimental L4 personality",
+      "source_available": "Public main repository and linked submodules; the official component status page lists mixed per-component licenses",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C (main repository's GitHub language breakdown; submodules and utilities vary)",
+      "subtype": "Operating system / OS/2 user-mode and system components",
+      "sources": [
+        {
+          "label": "osFree main repository README: project goal, main repo, submodules, and build hosts",
+          "url": "https://github.com/osfree-project/osfree"
+        },
+        {
+          "label": "Official osFree status page: deep-alpha status, current work, and component-by-component completion and licensing table",
+          "url": "https://osfree.org/doku/doku.php?id=en:status"
+        },
+        {
+          "label": "GitHub repository metadata: latest push and predominant language checked 2026-10-15",
+          "url": "https://api.github.com/repos/osfree-project/osfree"
+        },
+        {
+          "label": "GitHub source-language breakdown for the main osFree repository",
+          "url": "https://api.github.com/repos/osfree-project/osfree/languages"
+        }
+      ]
+    },
+    {
+      "id": "advanced-mac-substitute-68k-app-runtime",
+      "title": "Advanced Mac Substitute (AMS)",
+      "game": "1980s-era 68K Macintosh applications and Mac OS APIs (specific system-software compatibility range not stated)",
+      "target_type": "Software",
+      "platform": "Original 68K Mac applications → POSIX hosts, with backends documented for macOS, SDL2 platforms, X11, and Linux framebuffer",
+      "kind": "Emulator",
+      "status": "The project site demonstrates applications including MacPaint running in AMS, but publishes no precise Mac System Software or application-version compatibility matrix; compatibility beyond the shown applications is not established. The public source repository received a push on 2026-10-15. The site describes the runtime as an API-level Mac OS replacement combined with 68K CPU emulation, without an Apple ROM or system installation.",
+      "summary": "A 68K Mac application runtime that emulates the processor and reimplements classic Mac OS APIs so applications can start directly without Apple's ROM or system software. The project site shows several working applications, but does not claim complete compatibility with all classic Mac software.",
+      "project_url": "https://www.v68k.org/advanced-mac-substitute/",
+      "updated": "2026-10-15",
+      "strategy": "68K CPU emulation plus API-level Mac OS reimplementation; no Apple ROM or system software is used",
+      "source_available": "Public AGPL-3.0-or-later Metamage source; the repository marks mac/contrib and .lib files as Apple code and identifies other third-party components with separate terms",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++ (GitHub language breakdown for the monolithic Metamage repository; components vary)",
+      "subtype": "Classic Mac application runtime / 68K emulation and API replacement",
+      "sources": [
+        {
+          "label": "AMS project page: API replacement method, no-ROM requirement, host backends, and demonstrated applications",
+          "url": "https://www.v68k.org/advanced-mac-substitute/"
+        },
+        {
+          "label": "Metamage source repository containing AMS",
+          "url": "https://github.com/jjuran/metamage_1"
+        },
+        {
+          "label": "Metamage README: AGPL scope and Apple/third-party code exceptions",
+          "url": "https://github.com/jjuran/metamage_1/blob/master/README.md"
+        },
+        {
+          "label": "GitHub repository metadata and language breakdown checked 2026-10-15",
+          "url": "https://api.github.com/repos/jjuran/metamage_1"
+        }
+      ]
+    },
+    {
+      "id": "directmusic-api-reimplementation-dmusic",
+      "title": "DirectMusic API Reimplementation (dmusic)",
+      "game": "Microsoft DirectMusic adaptive soundtrack API (early DirectX; exact DirectX version not pinned)",
+      "target_type": "Software",
+      "platform": "DirectMusic audio middleware → C library buildable on Linux, macOS, and Windows",
+      "kind": "Reimplementation",
+      "status": "The README calls the implementation incomplete, under heavy development, and potentially unstable. It says the DirectMusic data and soundtrack paths for Gothic and Gothic II were tested to work somewhat correctly; this is not a broad application-compatibility claim. No GitHub release is listed, and the latest repository push checked was 2026-03-02.",
+      "summary": "A C reimplementation of Microsoft's legacy DirectMusic adaptive-audio API, distributed as a library rather than a drop-in Windows system DLL. The maintainer documents partial soundtrack testing for two DirectMusic-using titles and asks for additional compatibility reports.",
+      "project_url": "https://github.com/GothicKit/dmusic",
+      "updated": "2026-10-15",
+      "strategy": "Source-level implementation of DirectMusic API behavior and audio data playback",
+      "source_available": "Public MIT-licensed C source; the project also provides a separate C# wrapper",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Legacy DirectX audio middleware / API reimplementation",
+      "sources": [
+        {
+          "label": "Maintainer README: target API, incomplete status, partial test coverage, C11 build, and supported host systems",
+          "url": "https://github.com/GothicKit/dmusic"
+        },
+        {
+          "label": "Project MIT license",
+          "url": "https://github.com/GothicKit/dmusic/blob/main/LICENSE.md"
+        },
+        {
+          "label": "GitHub repository metadata: activity, language, and release status checked 2026-10-15",
+          "url": "https://api.github.com/repos/GothicKit/dmusic"
+        },
+        {
+          "label": "GitHub language breakdown for dmusic",
+          "url": "https://api.github.com/repos/GothicKit/dmusic/languages"
+        }
+      ]
+    },
+    {
+      "id": "windows-7-desktop-window-manager-decompilation",
+      "title": "Windows 7 Desktop Window Manager Decompilation",
+      "game": "Windows 7 Desktop Window Manager binaries dwm.exe and uDWM.dll (exact Windows build not stated)",
+      "target_type": "Software",
+      "platform": "Windows 7 x64 components; the repository specifies the Windows 7.1.0 Driver Development Kit build environment",
+      "kind": "Decompilation",
+      "status": "The repository contains decompiled source for dwm.exe and uDWM.dll, with no published releases or documented successful rebuild. The README says it is not intended for Wine, ReactOS, Linux, or ordinary use and requires the Windows 7.1.0 DDK. The latest code commit checked was 2025-03-01 and its message says the tree will not compile. No repository license was found, so public source availability does not establish reuse rights.",
+      "summary": "A source decompilation of two Windows 7 Desktop Window Manager components. The maintainer explicitly warns that it is not a ready replacement and should not be used to terminate or replace the running DWM; the exact target build is not specified.",
+      "project_url": "https://github.com/Adrikikicp2/DWM",
+      "updated": "2026-10-15",
+      "strategy": "Reverse-engineered source decompilation of dwm.exe and uDWM.dll",
+      "source_available": "Public repository source; no license file or reuse grant found as of 2026-10-15",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++ (GitHub language breakdown; some C and Makefile source is also present)",
+      "subtype": "Windows system component decompilation",
+      "sources": [
+        {
+          "label": "Maintainer README: target components, unsupported use cases, DDK build requirement, and project warnings",
+          "url": "https://github.com/Adrikikicp2/DWM"
+        },
+        {
+          "label": "Latest source commit checked 2026-10-15; commit message notes the tree will not compile",
+          "url": "https://github.com/Adrikikicp2/DWM/commit/15743a44"
+        },
+        {
+          "label": "GitHub repository metadata: push date and absent declared license checked 2026-10-15",
+          "url": "https://api.github.com/repos/Adrikikicp2/DWM"
+        },
+        {
+          "label": "GitHub source-language breakdown for the DWM repository",
+          "url": "https://api.github.com/repos/Adrikikicp2/DWM/languages"
+        }
+      ]
+    },
+    {
+      "id": "openwebview2loader-reimplementation",
+      "title": "OpenWebView2Loader",
+      "game": "Microsoft WebView2Loader library (specific WebView2 SDK/runtime version not pinned)",
+      "target_type": "Software",
+      "platform": "Windows C++ application library for applications embedding the Microsoft Edge WebView2 Runtime",
+      "kind": "Reimplementation",
+      "status": "The author intends feature parity with the WebView2Loader shipped in the WebView2 NuGet package, while recommending Microsoft's official loader for most uses. The intended parity is not independently verified; no release or WebView2 version matrix is published. The latest repository push checked was 2022-08-25.",
+      "summary": "An ISC-licensed C++ reimplementation of Microsoft's WebView2Loader component, which applications use to initialize and locate the Edge WebView2 runtime. It reconstructs the loader library, not the Edge browser engine or WebView2 runtime itself.",
+      "project_url": "https://github.com/jchv/OpenWebView2Loader",
+      "updated": "2026-10-15",
+      "strategy": "C++ reimplementation of the WebView2Loader library interface and loader behavior",
+      "source_available": "Public ISC-licensed source",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Windows browser-embedding middleware / loader library",
+      "sources": [
+        {
+          "label": "Maintainer README: intended WebView2Loader feature parity and recommendation to use Microsoft's official loader",
+          "url": "https://github.com/jchv/OpenWebView2Loader"
+        },
+        {
+          "label": "OpenWebView2Loader ISC license",
+          "url": "https://github.com/jchv/OpenWebView2Loader/blob/master/LICENSE.md"
+        },
+        {
+          "label": "GitHub repository metadata: latest push and declared license checked 2026-10-15",
+          "url": "https://api.github.com/repos/jchv/OpenWebView2Loader"
+        },
+        {
+          "label": "GitHub source-language breakdown for OpenWebView2Loader",
+          "url": "https://api.github.com/repos/jchv/OpenWebView2Loader/languages"
+        }
+      ]
+    },
+    {
+      "id": "wibo-win32-command-line-runtime",
+      "title": "wibo",
+      "game": "Simple 32-bit Windows command-line binaries (no specific commercial application version pinned)",
+      "target_type": "Software",
+      "platform": "Win32 x86 command-line executables → Linux x86 (documented stable build), experimental Linux x86-64, or experimental macOS x86-64 under Rosetta 2",
+      "kind": "API Translation",
+      "status": "Version 1.2.0 was released 2026-07-11; the repository received source changes through 2026-09-29. The README limits its goal to simple command-line 32-bit Windows binaries; Linux x86-64 and macOS builds are marked experimental. It is not presented as a GUI application runtime. Its tests use Windows-built fixtures and check selected WinAPI expectations, not complete Windows compatibility.",
+      "summary": "A small C++ runtime wrapper that runs selected 32-bit Windows console executables on Linux and macOS, originally to run Windows compiler toolchains without the overhead of Wine. It implements a limited Windows-facing runtime surface; it is not a complete Windows environment or a general GUI compatibility layer.",
+      "project_url": "https://github.com/decompals/wibo",
+      "updated": "2026-10-15",
+      "strategy": "Partial Windows API/runtime reimplementation for simple x86 console binaries, relying on host x86 execution or Rosetta rather than a full-system emulator",
+      "source_available": "Public MIT-licensed source; optional embedded Wine CRT DLLs retain LGPL-2.1-or-later terms",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++ (GitHub language breakdown; C, Python, Assembly, and CMake also present)",
+      "subtype": "Win32 command-line application runtime / partial API compatibility",
+      "sources": [
+        {
+          "label": "Maintainer README: versioned host builds, supported executable scope, test limits, and optional Wine CRT licensing",
+          "url": "https://github.com/decompals/wibo"
+        },
+        {
+          "label": "Latest wibo release, version 1.2.0",
+          "url": "https://github.com/decompals/wibo/releases/tag/1.2.0"
+        },
+        {
+          "label": "Project MIT license",
+          "url": "https://github.com/decompals/wibo/blob/main/LICENSE"
+        },
+        {
+          "label": "GitHub repository metadata: latest push and language checked 2026-10-15",
+          "url": "https://api.github.com/repos/decompals/wibo"
+        },
+        {
+          "label": "GitHub language byte breakdown for wibo",
+          "url": "https://api.github.com/repos/decompals/wibo/languages"
+        }
+      ]
+    },
+    {
+      "id": "mono-dotnet-runtime-legacy-upstream",
+      "title": "Mono (legacy mono/mono upstream)",
+      "game": ".NET Framework-compatible managed application runtime (Mono 6.12.0.206)",
+      "target_type": "Software",
+      "platform": ".NET managed assemblies → Windows, Linux, macOS, and other supported platforms; exact support depends on the application and Mono profile",
+      "kind": "Reimplementation",
+      "status": "The last patch release of the legacy mono/mono line is 6.12.0.206, tagged 2024-02-13; its README says the last major release was July 2019 and that WineHQ is taking over upstream stewardship in a separate repository. Microsoft states its modern Mono runtime fork in dotnet/runtime is complete and recommends current users migrate to .NET. Treat mono/mono as a legacy runtime source line, not an actively maintained application target.",
+      "summary": "An open-source implementation of the ECMA CLI, C# runtime, and .NET Framework APIs used by managed applications across several operating systems. This record tracks the legacy mono/mono upstream and its final tagged 6.12.0.206 release; WineHQ's successor source is linked because maintainership moved there.",
+      "project_url": "https://github.com/mono/mono",
+      "updated": "2026-10-15",
+      "strategy": "Independent implementation of the ECMA CLI, C# runtime, and .NET Framework-compatible class libraries",
+      "source_available": "Public source; runtime and class libraries are primarily MIT-licensed, with third-party code under separate licenses",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C# and C (GitHub language breakdown; C# is predominant)",
+      "subtype": "Cross-platform managed application runtime / .NET implementation",
+      "sources": [
+        {
+          "label": "Mono repository README: runtime purpose, legacy release status, WineHQ handoff, and .NET migration guidance",
+          "url": "https://github.com/mono/mono"
+        },
+        {
+          "label": "Latest tagged legacy Mono release, 6.12.0.206 (2024-02-13)",
+          "url": "https://github.com/mono/mono/releases/tag/mono-6.12.0.206"
+        },
+        {
+          "label": "Mono license file: MIT runtime and class-library scope with third-party exceptions",
+          "url": "https://github.com/mono/mono/blob/main/LICENSE"
+        },
+        {
+          "label": "WineHQ Mono source repository named in the official handoff notice",
+          "url": "https://gitlab.winehq.org/wine-mono/mono"
+        },
+        {
+          "label": "GitHub repository language byte breakdown for mono/mono",
+          "url": "https://api.github.com/repos/mono/mono/languages"
+        }
+      ]
+    }
+  ]
+}

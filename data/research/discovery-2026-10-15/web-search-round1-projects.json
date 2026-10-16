@@ -1,0 +1,199 @@
+{
+  "updated": "2026-10-15",
+  "projects": [
+    {
+      "id": "fatal-frame-2-mikompilation-reimplementation",
+      "title": "Mikompilation: Fatal Frame 2 Engine Reimplementation",
+      "game": "Fatal Frame 2: Crimson Butterfly / Project Zero 2",
+      "target_type": "Game",
+      "platform": "PlayStation 2 → PC (stated project goal)",
+      "kind": "Reimplementation",
+      "status": "The repository describes a goal of a fully playable PC port but does not claim that goal is achieved. The latest listed release is v0.0.1 (2023-01-05); GitHub reports the last push in 2024, and no newer status statement was found.",
+      "summary": "C/C++ engine reimplementation for Fatal Frame 2, intended to become a playable PC port. The project repository includes reverse-engineering documentation and source; current completion and playability remain unverified.",
+      "project_url": "https://github.com/Mikompilation/Mikompilation",
+      "updated": "2026-10-15",
+      "strategy": "Reverse-engineered game-engine reimplementation",
+      "language": "",
+      "source_available": "Public source repository; the README does not specify a current retail-data requirement.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Fatal Frame 2 / Project Zero 2 PS2 engine; PC port is a stated goal",
+      "sources": [
+        {
+          "label": "Project README: target game, reimplementation description, and PC-port goal",
+          "url": "https://github.com/Mikompilation/Mikompilation#readme"
+        },
+        {
+          "label": "Latest listed project release (v0.0.1)",
+          "url": "https://github.com/Mikompilation/Mikompilation/releases/tag/v0.0.1"
+        },
+        {
+          "label": "GitHub repository language byte counts",
+          "url": "https://api.github.com/repos/Mikompilation/Mikompilation/languages"
+        }
+      ]
+    },
+    {
+      "id": "barnyard-openbarnyard-windows-decomp",
+      "title": "OpenBarnyard",
+      "game": "Barnyard (Windows PC) and TOSHI 2.0 engine",
+      "target_type": "Game",
+      "platform": "Windows PC (DirectX 8 build project)",
+      "kind": "Decompilation",
+      "status": "Work in progress. The repository publishes a rolling nightly prerelease, but its README gives no numerical completion or playable-status claim.",
+      "summary": "Decompilation project for the Windows PC game Barnyard and its proprietary TOSHI 2.0 engine. The public repository includes the source, development tools, and Windows build scripts; it warns users not to use the project to pirate the game.",
+      "project_url": "https://github.com/InfiniteC0re/OpenBarnyard",
+      "updated": "2026-10-15",
+      "strategy": "Source decompilation",
+      "language": "",
+      "source_available": "Public source; the repository does not include the original game.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Windows PC Barnyard / TOSHI 2.0 engine",
+      "sources": [
+        {
+          "label": "Project README: scope, Windows build flow, and legal/data caveat",
+          "url": "https://github.com/InfiniteC0re/OpenBarnyard#readme"
+        },
+        {
+          "label": "Rolling nightly prerelease",
+          "url": "https://github.com/InfiniteC0re/OpenBarnyard/releases/tag/nightly"
+        },
+        {
+          "label": "GitHub repository language byte counts",
+          "url": "https://api.github.com/repos/InfiniteC0re/OpenBarnyard/languages"
+        }
+      ]
+    },
+    {
+      "id": "black-white-2001-openblack-decomp",
+      "title": "Black & White Decompilation",
+      "game": "Black & White (2001)",
+      "target_type": "Game",
+      "platform": "Windows PC v1.00–1.30; Classic Mac OS PowerPC variants are listed as work in progress",
+      "kind": "Decompilation",
+      "status": "Work in progress. The README lists Windows v1.00–1.30 as supported project configurations and several Classic Mac OS PowerPC and Creature’s Isle targets as in progress; supported configuration does not by itself claim every target is fully matched.",
+      "summary": "Versioned source decompilation for Black & White, using period-correct Windows MSVC 6.0 PE/COFF builds and ongoing Classic Mac OS PowerPC PEF configurations. The project provides build hashes and object-diff workflows; it includes no game assets or assembly and requires original user files.",
+      "project_url": "https://github.com/openblack/bw1-decomp",
+      "updated": "2026-10-15",
+      "strategy": "Versioned build-matching decompilation; Windows configurations are further along than Classic Mac OS targets",
+      "language": "",
+      "source_available": "Public decompilation source; original game files are required and game assets/assembly are not included.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Black & White (2001), Windows releases and Classic Mac OS variants",
+      "sources": [
+        {
+          "label": "Project README: supported versions, work-in-progress targets, build matching, and asset policy",
+          "url": "https://github.com/openblack/bw1-decomp#readme"
+        },
+        {
+          "label": "GitHub repository language byte counts",
+          "url": "https://api.github.com/repos/openblack/bw1-decomp/languages"
+        }
+      ]
+    },
+    {
+      "id": "black-white-2001-openblack-engine",
+      "title": "openblack: Black & White Engine Reimplementation",
+      "game": "Black & White (2001)",
+      "target_type": "Game",
+      "platform": "Windows, Linux, macOS, Android, WebAssembly",
+      "kind": "Reimplementation",
+      "status": "Experimental. The README says current builds can require patches and effort and may not launch; original game assets must be supplied by the user.",
+      "summary": "Modern C++ open-source reimplementation of the Black & White game engine, with OpenGL and Vulkan rendering. The project documents builds for desktop platforms, Android, and WebAssembly; it does not distribute the original game data.",
+      "project_url": "https://github.com/openblack/openblack",
+      "updated": "2026-10-15",
+      "strategy": "Reverse-engineered game-engine reimplementation with OpenGL/Vulkan rendering",
+      "language": "",
+      "source_available": "Public GPL-3.0 source; requires the user’s original Black & White assets, which are not provided.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C++",
+      "subtype": "Open-source game engine for Black & White (2001)",
+      "sources": [
+        {
+          "label": "Project README: scope, supported build targets, experimental status, and original-asset requirement",
+          "url": "https://github.com/openblack/openblack#readme"
+        },
+        {
+          "label": "GitHub repository language byte counts",
+          "url": "https://api.github.com/repos/openblack/openblack/languages"
+        }
+      ]
+    },
+    {
+      "id": "recettear-openrecet-engine-reimplementation",
+      "title": "OpenRecet: Recettear Engine Reimplementation",
+      "game": "Recettear: An Item Shop’s Tale (Windows PC)",
+      "target_type": "Game",
+      "platform": "Windows PC (Win32 drop-in replacement)",
+      "kind": "Reimplementation",
+      "status": "Early and not yet playable. The maintainer reports a working boot path that reaches the 3D shop, while major systems remain unported. A rolling nightly prerelease is published.",
+      "summary": "Clean-room C reimplementation of the Win32 Azumanga engine behind Recettear, aiming to replace recettear.exe for owners of the original game. The maintainer documents behavioural-parity checks using retail traces and frame comparisons; the project explicitly says it is not yet playable and ships no game assets or original code.",
+      "project_url": "https://github.com/Francesco149/openrecet",
+      "updated": "2026-10-15",
+      "strategy": "Clean-room Win32 engine reimplementation with trace and frame parity checks",
+      "language": "",
+      "source_available": "Public MIT-licensed source; requires the user’s legitimate Recettear copy and distributes no game assets or original code.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Recettear Win32 engine / drop-in executable replacement",
+      "sources": [
+        {
+          "label": "Project README: clean-room scope, present milestone, non-playable status, verification, and asset policy",
+          "url": "https://github.com/Francesco149/openrecet#readme"
+        },
+        {
+          "label": "Maintainer-generated live port status and coverage",
+          "url": "https://github.com/Francesco149/openrecet/blob/master/docs/STATUS.md"
+        },
+        {
+          "label": "Rolling nightly prerelease",
+          "url": "https://github.com/Francesco149/openrecet/releases/tag/nightly"
+        },
+        {
+          "label": "GitHub repository language byte counts",
+          "url": "https://api.github.com/repos/Francesco149/openrecet/languages"
+        }
+      ]
+    },
+    {
+      "id": "rick-dangerous-xrick-source-reimplementation",
+      "title": "xrick: Rick Dangerous I & II Reimplementation and Ports",
+      "game": "Rick Dangerous and Rick Dangerous II",
+      "target_type": "Game",
+      "platform": "Atari ST / IBM PC originals → Linux, Windows, macOS, WebAssembly",
+      "kind": "Reimplementation",
+      "status": "Released as v2.3.0. The maintainer says Linux and Windows x64 builds are tested; Windows ARM64 and macOS builds are best-effort and not tested on real hardware. The browser build supports touch controls.",
+      "summary": "C source reimplementation of Rick Dangerous I and II based on reverse engineering of the original PC and Atari ST versions, with desktop and WebAssembly ports. Its Atari ST 68000 and YM2149 audio path runs the original sound-driver code through emulated hardware; the current fork adds SDL GPU rendering, CRT shaders, gamepad support, and touch controls.",
+      "project_url": "https://github.com/senjinthedragon/xrick",
+      "updated": "2026-10-15",
+      "strategy": "Reverse-engineered C source reimplementation with an emulated Atari ST audio path",
+      "language": "",
+      "source_available": "Public GPL-3.0 source with desktop and browser releases; the README describes the original games and reverse-engineering lineage.",
+      "first_found": "2026-10-15",
+      "project_started": null,
+      "programming_language": "C",
+      "subtype": "Two-game Atari ST/IBM PC source reconstruction and modern ports",
+      "sources": [
+        {
+          "label": "Project README: reverse-engineering lineage, gameplay targets, platform support, and hardware caveats",
+          "url": "https://github.com/senjinthedragon/xrick#readme"
+        },
+        {
+          "label": "v2.3.0 release",
+          "url": "https://github.com/senjinthedragon/xrick/releases/tag/v2.3.0"
+        },
+        {
+          "label": "GitHub repository language byte counts",
+          "url": "https://api.github.com/repos/senjinthedragon/xrick/languages"
+        }
+      ]
+    }
+  ]
+}

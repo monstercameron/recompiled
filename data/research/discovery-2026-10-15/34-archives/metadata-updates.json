@@ -1,0 +1,24 @@
+{
+  "updated": "2026-10-15",
+  "updates": [
+    {
+      "id": "lotus-123elf-linux-port",
+      "fields": {
+        "updated": "2026-10-15",
+        "status": "The maintainer describes the Linux port as usable. XTerm-compatible keyboard mapping is marked working, graphs are partially working, printing to a file works while printing to lpr is still in progress, and STEP-mode display/i18n limitations remain. The latest listed release is v1.0.0rc4 (2023-03-28); the maintainer recommends building from source for later fixes. Original Lotus 1-2-3 UNIX files are required.",
+        "summary": "Native Linux port of Lotus 1-2-3 Release 3 that converts the original System V COFF objects to ELF and supplies Linux ABI/system-call wrappers. This is binary-level portability work rather than recovery of high-level source; the original Lotus UNIX distribution is required for the build."
+      },
+      "sources": [
+        {
+          "label": "Maintainer README: Lotus Release 3 target, COFF-to-ELF approach, required original files, and current bug list",
+          "url": "https://github.com/taviso/123elf"
+        },
+        {
+          "label": "Maintainer release page: v1.0.0rc4 date and release notes",
+          "url": "https://github.com/taviso/123elf/releases"
+        }
+      ],
+      "evidence_note": "Refreshed the existing row with the README's precise working/partial feature boundaries and confirmed the latest listed release date. No project URL or classification change was needed."
+    }
+  ]
+}
